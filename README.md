@@ -18,15 +18,26 @@ Animated podcast template for learning French (B1–B2): word-synced karaoke sub
 **Léa:** `pull` · `mariniere` · `trench` · `chemise` · `cardigan`
 **Mathieu:** `denim` · `hoodie` · `colroule` · `blazer` · `pull`
 
+Các quyết định đã chốt và trạng thái dự án: xem [NOTES.md](NOTES.md).
+
+## Cài đặt (máy mới)
+
+```bash
+brew install node ffmpeg whisper-cpp
+curl -L -o ~/ggml-medium.bin https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-medium.bin
+export WHISPER_MODEL=~/ggml-medium.bin
+```
+
 ## Làm một tập mới
 
-1. Chép lời voice có mốc thời gian từng chữ (whisper.cpp):
+1. Chép lời voice, lấy mốc thời gian từng chữ và đoán người nói:
    ```bash
-   ffmpeg -i voice.mp3 -ar 16000 -ac 1 clip16k.wav
-   whisper-cli -m ggml-medium.bin -l fr -f clip16k.wav -ml 1 -sow -oj -of words
+   cd cozy-ep01
+   node tools/transcribe.mjs ~/Downloads/voice.mp3            # cả file
+   node tools/transcribe.mjs ~/Downloads/voice.mp3 --duration 36   # chỉ 36 s đầu
    ```
-   rồi chuyển thành `assets/words.json` dạng `[{ "s": 0.19, "e": 0.5, "t": "Pas" }, …]`.
-2. Sửa `episode.json` (phụ đề phải khớp đúng thứ tự chữ trong transcript).
+   Tạo `assets/voice.mp3`, `assets/words.json` và `episode.draft.json`.
+2. Duyệt `episode.draft.json`: sửa người nói nếu sai, điền `en`, bọc từ vựng bằng `[ ]`, thêm `vocab`, lưu thành `episode.json` (chữ phải khớp đúng thứ tự trong transcript).
 3. Dựng và xuất video:
    ```bash
    cd cozy-ep01
