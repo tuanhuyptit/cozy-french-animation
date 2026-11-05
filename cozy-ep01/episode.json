@@ -1,0 +1,103 @@
+{
+  "scene": "salon",
+  "lea": "cardigan",
+  "mat": "hoodie",
+  "audio": "assets/voice.mp3",
+  "audioEnd": 34.8,
+  "chunks": [
+    {
+      "who": "mat",
+      "fr": "Pas encore.",
+      "en": "Not yet."
+    },
+    {
+      "who": "mat",
+      "fr": "Et je ne sais pas si cette conversation changera grand chose,",
+      "en": "And I don't know if this conversation will change much,"
+    },
+    {
+      "who": "mat",
+      "fr": "mais au moins, je vais pouvoir expliquer la situation.",
+      "en": "but at least I'll be able to explain the situation."
+    },
+    {
+      "who": "lea",
+      "fr": "C'est déjà différent de continuer à tout [garder pour toi.]",
+      "en": "That's already different from keeping it all to yourself."
+    },
+    {
+      "who": "mat",
+      "fr": "Oui, je commence à comprendre",
+      "en": "Yes, I'm starting to understand"
+    },
+    {
+      "who": "mat",
+      "fr": "qu'on ne retrouve pas [forcément] son énergie",
+      "en": "that you don't necessarily get your energy back"
+    },
+    {
+      "who": "mat",
+      "fr": "en faisant davantage d'efforts.",
+      "en": "by making more effort."
+    },
+    {
+      "who": "lea",
+      "fr": "Et que le repos, même nécessaire,",
+      "en": "And that rest, even when it's necessary,"
+    },
+    {
+      "who": "lea",
+      "fr": "ne remplace pas toujours un vrai changement",
+      "en": "doesn't always replace a real change"
+    },
+    {
+      "who": "lea",
+      "fr": "ou un [accompagnement] adapté.",
+      "en": "or the right support."
+    },
+    {
+      "who": "mat",
+      "fr": "Ce qui me dérange, c'est de ne pas savoir",
+      "en": "What bothers me is not knowing"
+    },
+    {
+      "who": "mat",
+      "fr": "combien de temps [il me faudra] pour aller mieux.",
+      "en": "how long it will take me to get better."
+    }
+  ],
+  "vocab": [
+    {
+      "tag": "expression",
+      "word": "garder pour soi",
+      "ipa": "/ɡaʁ.de puʁ swa/",
+      "mean": "to keep (something) to oneself",
+      "ex": "Elle garde ses soucis pour elle.",
+      "exEn": "She keeps her worries to herself."
+    },
+    {
+      "tag": "adverbe",
+      "word": "forcément",
+      "ipa": "/fɔʁ.se.mɑ̃/",
+      "mean": "necessarily",
+      "ex": "Plus cher ne veut pas forcément dire meilleur.",
+      "exEn": "More expensive doesn't necessarily mean better."
+    },
+    {
+      "tag": "nom masculin",
+      "word": "un accompagnement",
+      "ipa": "/a.kɔ̃.paɲ.mɑ̃/",
+      "mean": "support, guidance",
+      "ex": "Il a besoin d'un accompagnement psychologique.",
+      "exEn": "He needs psychological support."
+    },
+    {
+      "tag": "expression",
+      "word": "il me faudra",
+      "ipa": "/il mə fo.dʁa/",
+      "mean": "I will need / it will take me",
+      "ex": "Il me faudra une semaine pour finir.",
+      "exEn": "It will take me a week to finish."
+    }
+  ]
+}

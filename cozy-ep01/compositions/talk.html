@@ -1,0 +1,272 @@
+<template>
+  <style>
+    #talk{position:absolute;inset:0;overflow:hidden;background:#f3e3c8;font-family:Nunito,sans-serif}
+    #talk-world{position:absolute;inset:0;transform-origin:50% 60%}
+    #talk-scene,#talk-scene svg.bg{position:absolute;inset:0;width:1920px;height:1080px}
+    .charBox{position:absolute;top:290px;width:360px;height:480px;transform:scale(1.22);transform-origin:50% 90%}
+    .charBox svg{position:absolute;inset:0;width:360px;height:480px;overflow:visible}
+    #talk-lea{left:300px} #talk-mat{left:1235px}
+    .nameTag{position:absolute;top:196px;width:fit-content;font:800 30px Nunito;color:#fffaf0;background:#3a2e28;padding:6px 20px;border-radius:30px;opacity:0}
+    #name-lea{left:428px} #name-mat{left:1340px}
+    #talk-grain{position:absolute;inset:0;pointer-events:none;opacity:.22;mix-blend-mode:multiply;
+      background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='320' height='320'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .3  0 0 0 0 .22  0 0 0 0 .15  0 0 0 .9 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+    .subWrap{position:absolute;left:0;right:0;bottom:64px;display:flex;justify-content:center}
+    .subBox{max-width:1400px;background:#fffaf0f2;border-radius:28px;padding:22px 44px;box-shadow:0 10px 0 #00000014;text-align:center}
+    .subFr{font:800 50px/1.25 Nunito;color:#a89684}
+    .subFr .w{display:inline-block;position:relative}
+    .subFr .ul{position:absolute;left:0;right:0;bottom:4px;height:12px;background:#f3c96b;border-radius:6px;transform-origin:left center}
+    .subFr .tx{position:relative;font-weight:inherit}
+    .subEn{font:600 30px Nunito;color:#7a6a5c;margin-top:8px}
+    .cardWrap{position:absolute;left:690px;top:64px;width:540px}
+    .card{background:#fffaf0;border-radius:30px;padding:28px 34px;box-shadow:0 14px 0 #0000001a;border:4px solid #3a2e28}
+    .card .tag{display:inline-block;font:800 26px Nunito;letter-spacing:.08em;text-transform:uppercase;background:#f3c96b;color:#3a2e28;padding:4px 14px;border-radius:20px}
+    .card .word{font:700 58px 'Playfair Display',serif;color:#b8552a;margin:12px 0 2px}
+    .card .ipa{font:600 28px 'Noto Sans',Nunito,sans-serif;color:#6f5f52}
+    .card .mean{font:800 34px Nunito;color:#3a2e28;margin-top:14px}
+    .card .ex{font:600 28px/1.35 Nunito;color:#3a2e28;margin-top:14px;padding-top:14px;border-top:3px dashed #e3d4c1}
+    .card .ex i{color:#6f5f52;display:block;font-style:normal;margin-top:4px}
+    #talk-brand{position:absolute;left:48px;top:40px;background:#fffaf0e8;border-radius:22px;padding:12px 24px 10px}
+    #talk-logo{font:700 38px 'Playfair Display',serif;color:#3a2e28}
+    #talk-logo span{color:#b8552a}
+    #talk-count{font:800 28px Nunito;color:#6f5f52;display:flex;gap:6px}
+    .cntBox{position:relative;width:18px;height:36px} .cnt{position:absolute;left:0;top:0}
+    #recap{position:absolute;inset:0;background:#f6eddc;display:flex;flex-direction:column;align-items:center;justify-content:center}
+    #recap h2{font:700 72px 'Playfair Display',serif;color:#3a2e28;margin:0 0 40px;opacity:0}
+    #recap .grid{display:grid;grid-template-columns:repeat(2,640px);gap:28px}
+    #recap .it{background:#fffaf0;border:4px solid #3a2e28;border-radius:24px;padding:22px 30px;font:800 36px Nunito;color:#d9774b;opacity:0}
+    #recap .it small{display:block;font:600 26px Nunito;color:#3a2e28;margin-top:4px}
+  </style>
+  <div id="talk" data-composition-id="talk" data-width="1920" data-height="1080">
+    <svg width="0" height="0" style="position:absolute"><defs>
+      <filter id="pencil" x="-8%" y="-8%" width="116%" height="116%">
+        <feTurbulence type="fractalNoise" baseFrequency="0.03" numOctaves="2" seed="4" result="w"/>
+        <feDisplacementMap in="SourceGraphic" in2="w" scale="4" xChannelSelector="R" yChannelSelector="G" result="d"/>
+        <feTurbulence type="fractalNoise" baseFrequency="0.75" numOctaves="2" seed="9" result="n"/>
+        <feColorMatrix in="n" type="matrix" values="0 0 0 0 .22  0 0 0 0 .15  0 0 0 0 .1  0 0 0 .7 -.2" result="nc"/>
+        <feComposite in="nc" in2="d" operator="in" result="nm"/>
+        <feMerge><feMergeNode in="d"/><feMergeNode in="nm"/></feMerge>
+      </filter>
+      <pattern id="stripes" width="20" height="20" patternUnits="userSpaceOnUse"><rect width="20" height="20" fill="#f7f3ea"/><rect width="20" height="8" fill="#2d3e66"/></pattern>
+      <pattern id="gingham" width="40" height="40" patternUnits="userSpaceOnUse"><rect width="40" height="40" fill="#fbf4ea"/><rect width="20" height="40" fill="#d9574a" opacity=".45"/><rect width="40" height="20" fill="#d9574a" opacity=".45"/></pattern>
+    </defs></svg>
+    <div id="talk-world" data-layout-ignore>
+      <div id="talk-scene"><svg class="bg" viewBox="0 0 1920 1080"><defs><radialGradient id="lg"><stop offset="0" stop-color="#ffe2a6" stop-opacity=".9"/><stop offset="1" stop-color="#ffe2a6" stop-opacity="0"/></radialGradient>
+   <linearGradient id="sn" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#232e4b"/><stop offset="1" stop-color="#46507a"/></linearGradient>
+   <pattern id="wp" width="60" height="60" patternUnits="userSpaceOnUse"><rect width="60" height="60" fill="#e8cfc0"/><rect x="28" width="4" height="60" fill="#dfbfae"/><circle cx="30" cy="30" r="5" fill="#d9b3a1"/></pattern></defs>
+  <rect width="1920" height="1080" fill="url(#wp)"/>
+  <rect x="650" y="110" width="620" height="420" rx="12" fill="#f6ece0"/><rect x="674" y="134" width="572" height="372" fill="url(#sn)"/>
+  <circle class="star" cx="686.5546617656946" cy="154.86998181790113" r="3.45381526555866" fill="#fff6d6"/><circle class="star" cx="1071.4560751989484" cy="265.1468644477427" r="2.3110433761030436" fill="#fff6d6"/><circle class="star" cx="941.0902742110193" cy="197.58204462006688" r="2.606651207897812" fill="#fff6d6"/><circle class="star" cx="1088.7003703415394" cy="201.8757346458733" r="1.811896727886051" fill="#fff6d6"/><circle class="star" cx="1107.8903364762664" cy="264.4166109710932" r="1.8942745202220976" fill="#fff6d6"/><circle class="star" cx="886.056812312454" cy="210.37936110049486" r="2.5694790510460734" fill="#fff6d6"/><circle class="star" cx="845.9449390135705" cy="374.7070650756359" r="1.9950671885162592" fill="#fff6d6"/><circle class="star" cx="1171.55657351017" cy="185.79001024365425" r="1.7873147721402347" fill="#fff6d6"/><circle class="star" cx="766.6006568819284" cy="209.82829114422202" r="2.5958028631284833" fill="#fff6d6"/><circle class="star" cx="1106.6492692381144" cy="157.8843416273594" r="3.325881415978074" fill="#fff6d6"/><circle class="star" cx="990.0780188664794" cy="289.1899601370096" r="2.860181815456599" fill="#fff6d6"/><circle class="star" cx="1220.9542341157794" cy="289.8513546027243" r="3.3424097201786935" fill="#fff6d6"/><circle class="star" cx="1143.4719511680305" cy="149.5948337391019" r="1.8498830939643085" fill="#fff6d6"/><circle class="star" cx="879.9093679152429" cy="242.0757738687098" r="1.540352228563279" fill="#fff6d6"/><circle class="star" cx="729.3394917435944" cy="324.32380536571145" r="2.2379386103712022" fill="#fff6d6"/><circle class="star" cx="918.9607940614223" cy="252.47903076931834" r="3.39244234142825" fill="#fff6d6"/><circle class="star" cx="1073.8374081254005" cy="305.19139220938087" r="2.1612958484329283" fill="#fff6d6"/><circle class="star" cx="879.5473330467939" cy="173.3098891749978" r="1.766586520243436" fill="#fff6d6"/><circle class="star" cx="1191.2995261885226" cy="217.38247103989124" r="1.880751053802669" fill="#fff6d6"/><circle class="star" cx="1034.0368986316025" cy="220.8250229433179" r="1.5872626681812108" fill="#fff6d6"/><circle class="star" cx="1063.182115200907" cy="361.12922532483935" r="2.595745285972953" fill="#fff6d6"/><circle class="star" cx="1142.8834136761725" cy="297.25865164771676" r="3.3397560226731002" fill="#fff6d6"/><circle class="star" cx="745.543180834502" cy="267.1829814463854" r="2.798332052771002" fill="#fff6d6"/><circle class="star" cx="1178.9963490702212" cy="370.5196142196655" r="3.175914950668812" fill="#fff6d6"/><circle class="star" cx="1012.7713655494153" cy="371.3289904035628" r="3.4350126488134265" fill="#fff6d6"/><circle class="star" cx="987.1982299908996" cy="336.44431758672" r="1.5113998837769032" fill="#fff6d6"/>
+  <circle cx="1120" cy="220" r="40" fill="#f6edc9"/><circle cx="1108" cy="210" r="8" fill="#e6dab0"/><circle cx="1132" cy="232" r="6" fill="#e6dab0"/>
+  <path d="M674 470 h572 v36 h-572Z" fill="#2a3352"/><rect x="684" y="435.48220473574474" width="38" height="70" fill="#353f62"/><rect x="694" y="460" width="8" height="10" fill="#ffd98a" opacity="0.9"/><rect x="731" y="441.728147843387" width="38" height="70" fill="#353f62"/><rect x="741" y="460" width="8" height="10" fill="#ffd98a" opacity="0"/><rect x="778" y="442.6624905830249" width="38" height="70" fill="#353f62"/><rect x="788" y="460" width="8" height="10" fill="#ffd98a" opacity="0"/><rect x="825" y="436.7265997175127" width="38" height="70" fill="#353f62"/><rect x="835" y="460" width="8" height="10" fill="#ffd98a" opacity="0"/><rect x="872" y="432.8998240130022" width="38" height="70" fill="#353f62"/><rect x="882" y="460" width="8" height="10" fill="#ffd98a" opacity="0"/><rect x="919" y="442.1566100581549" width="38" height="70" fill="#353f62"/><rect x="929" y="460" width="8" height="10" fill="#ffd98a" opacity="0"/><rect x="966" y="429.3715148186311" width="38" height="70" fill="#353f62"/><rect x="976" y="460" width="8" height="10" fill="#ffd98a" opacity="0.9"/><rect x="1013" y="420.2794445492327" width="38" height="70" fill="#353f62"/><rect x="1023" y="460" width="8" height="10" fill="#ffd98a" opacity="0.9"/><rect x="1060" y="448.30190722597763" width="38" height="70" fill="#353f62"/><rect x="1070" y="460" width="8" height="10" fill="#ffd98a" opacity="0"/><rect x="1107" y="438.91804217593744" width="38" height="70" fill="#353f62"/><rect x="1117" y="460" width="8" height="10" fill="#ffd98a" opacity="0.9"/><rect x="1154" y="438.5668820841238" width="38" height="70" fill="#353f62"/><rect x="1164" y="460" width="8" height="10" fill="#ffd98a" opacity="0"/><rect x="1201" y="441.50549257406965" width="38" height="70" fill="#353f62"/><rect x="1211" y="460" width="8" height="10" fill="#ffd98a" opacity="0"/>
+  <rect x="674" y="314" width="572" height="12" fill="#f6ece0"/><rect x="954" y="134" width="12" height="372" fill="#f6ece0"/>
+  <path class="curtain" d="M600 90 h110 C700 260 720 420 690 560 h-90Z" fill="#b5524a"/><path class="curtain" d="M1210 90 h110 v470 h-90 C1200 420 1220 260 1210 90Z" fill="#b5524a"/>
+  <path d="M630 100 v450 M660 100 v450 M1260 100 v450 M1290 100 v450" stroke="#9e443d" stroke-width="5"/>
+  <rect x="580" y="84" width="760" height="14" rx="7" fill="#7a4e36"/>
+  <rect x="40" y="150" width="230" height="610" fill="#8a5a3c"/><rect x="40" y="290" width="230" height="14" fill="#6e4630"/><rect x="52" y="180.45291594788432" width="17.335968846455216" height="109.54708405211568" rx="2" fill="#5d7fa0"/><rect x="71.33596884645522" y="185.6054162972141" width="21.492786961607635" height="104.3945837027859" rx="2" fill="#e2c08a"/><rect x="94.82875580806285" y="194.2926328307949" width="20.083179967477918" height="95.7073671692051" rx="2" fill="#e2c08a"/><rect x="97.82875580806285" y="204.2926328307949" width="14.083179967477918" height="4" fill="#00000022"/><rect x="116.91193577554077" y="186.1531067462638" width="16.528028518892825" height="103.8468932537362" rx="2" fill="#b5524a"/><rect x="135.4399642944336" y="180.32198438141495" width="21.901462414301932" height="109.67801561858505" rx="2" fill="#d9d0bd"/><rect x="159.34142670873553" y="196.8557468347717" width="25.464663443155587" height="93.14425316522829" rx="2" fill="#e2c08a"/><rect x="186.8060901518911" y="184.82066004141234" width="23.54817975591868" height="105.17933995858766" rx="2" fill="#e2c08a"/><rect x="212.3542699078098" y="195.65369044616818" width="19.73245928157121" height="94.34630955383182" rx="2" fill="#e2c08a"/><rect x="215.3542699078098" y="205.65369044616818" width="13.73245928157121" height="4" fill="#00000022"/><rect x="234.086729189381" y="197.24210353475064" width="19.267569444142282" height="92.75789646524936" rx="2" fill="#e2c08a"/><rect x="237.086729189381" y="207.24210353475064" width="13.267569444142282" height="4" fill="#00000022"/><rect x="40" y="440" width="230" height="14" fill="#6e4630"/><rect x="52" y="362.20452068326995" width="16.077833227813244" height="77.79547931673005" rx="2" fill="#c9784f"/><rect x="70.07783322781324" y="361.0160475745797" width="25.793789144605398" height="78.98395242542028" rx="2" fill="#e2c08a"/><rect x="73.07783322781324" y="371.0160475745797" width="19.793789144605398" height="4" fill="#00000022"/><rect x="97.87162237241864" y="338.83296769461595" width="19.987946594133973" height="101.16703230538405" rx="2" fill="#7f9f7b"/><rect x="100.87162237241864" y="348.83296769461595" width="13.987946594133973" height="4" fill="#00000022"/><rect x="119.85956896655262" y="339.54577129357494" width="23.498311589471996" height="100.45422870642506" rx="2" fill="#b5524a"/><rect x="145.3578805560246" y="349.39853818528354" width="23.579859105870128" height="90.60146181471646" rx="2" fill="#d9d0bd"/><rect x="148.3578805560246" y="359.39853818528354" width="17.579859105870128" height="4" fill="#00000022"/><rect x="170.93773966189474" y="337.37604584754445" width="20.327106134966016" height="102.62395415245555" rx="2" fill="#c9784f"/><rect x="173.93773966189474" y="347.37604584754445" width="14.327106134966016" height="4" fill="#00000022"/><rect x="193.26484579686075" y="335.69664778537117" width="23.922112409956753" height="104.30335221462883" rx="2" fill="#b5524a"/><rect x="196.26484579686075" y="345.69664778537117" width="17.922112409956753" height="4" fill="#00000022"/><rect x="219.1869582068175" y="332.6292315402534" width="18.282943674363196" height="107.37076845974661" rx="2" fill="#7f9f7b"/><rect x="222.1869582068175" y="342.6292315402534" width="12.282943674363196" height="4" fill="#00000022"/><rect x="239.4699018811807" y="335.59987458307296" width="19.7235764618963" height="104.40012541692704" rx="2" fill="#8a5a7a"/><rect x="40" y="590" width="230" height="14" fill="#6e4630"/><rect x="52" y="498.6016206876375" width="20.615376917645335" height="91.39837931236252" rx="2" fill="#7f9f7b"/><rect x="74.61537691764534" y="483.8217132843565" width="17.51905670762062" height="106.17828671564348" rx="2" fill="#d9d0bd"/><rect x="94.13443362526596" y="496.6440106071532" width="24.092057910747826" height="93.35598939284682" rx="2" fill="#8a5a7a"/><rect x="120.22649153601378" y="494.8283981492277" width="25.1727890484035" height="95.17160185077228" rx="2" fill="#5d7fa0"/><rect x="123.22649153601378" y="504.8283981492277" width="19.1727890484035" height="4" fill="#00000022"/><rect x="147.39928058441728" y="500.1035098603461" width="22.319622605107725" height="89.8964901396539" rx="2" fill="#d9d0bd"/><rect x="171.718903189525" y="503.2523444406688" width="18.605818705633283" height="86.74765555933118" rx="2" fill="#c9784f"/><rect x="192.3247218951583" y="481.1672164904885" width="22.785539714619517" height="108.8327835095115" rx="2" fill="#7f9f7b"/><rect x="195.3247218951583" y="491.1672164904885" width="16.785539714619517" height="4" fill="#00000022"/><rect x="217.1102616097778" y="489.2282159992028" width="14.808868620544672" height="100.7717840007972" rx="2" fill="#3f6b5a"/><rect x="233.91913023032248" y="481.22962858644314" width="23.945379310287535" height="108.77037141355686" rx="2" fill="#e2c08a"/><rect x="40" y="740" width="230" height="14" fill="#6e4630"/><rect x="52" y="645.2317743350286" width="17.391107405535877" height="94.7682256649714" rx="2" fill="#8a5a7a"/><rect x="71.39110740553588" y="642.4169205995277" width="23.1212307093665" height="97.58307940047234" rx="2" fill="#5d7fa0"/><rect x="96.51233811490238" y="654.0267360743601" width="21.130298198200762" height="85.97326392563991" rx="2" fill="#b5524a"/><rect x="99.51233811490238" y="664.0267360743601" width="15.130298198200762" height="4" fill="#00000022"/><rect x="119.64263631310314" y="639.156218332937" width="15.677865533158183" height="100.84378166706301" rx="2" fill="#8a5a7a"/><rect x="137.32050184626132" y="633.69504052517" width="20.615623309276998" height="106.30495947482996" rx="2" fill="#3f6b5a"/><rect x="140.32050184626132" y="643.69504052517" width="14.615623309276998" height="4" fill="#00000022"/><rect x="159.93612515553832" y="653.5318940486759" width="15.221038488671184" height="86.4681059513241" rx="2" fill="#d9d0bd"/><rect x="162.93612515553832" y="663.5318940486759" width="9.221038488671184" height="4" fill="#00000022"/><rect x="177.1571636442095" y="634.7102467250079" width="24.92069031856954" height="105.28975327499211" rx="2" fill="#d9d0bd"/><rect x="204.07785396277905" y="646.7269309416879" width="17.34477219171822" height="93.2730690583121" rx="2" fill="#3f6b5a"/><rect x="223.42262615449727" y="651.9933616044" width="23.549514730460942" height="88.00663839560002" rx="2" fill="#3f6b5a"/>
+  <rect x="330" y="150" width="150" height="120" rx="6" fill="#c69a6d"/><rect x="342" y="162" width="126" height="96" fill="#9cb795"/><path d="M342 258 L390 200 L420 230 L440 210 L468 258Z" fill="#6f8f6b"/><circle cx="440" cy="186" r="12" fill="#f3c96b"/>
+  <circle id="lampglow" cx="1745" cy="330" r="300" fill="url(#lg)" opacity=".55"/>
+  <line x1="1745" y1="320" x2="1745" y2="760" stroke="#3a2e28" stroke-width="8"/><ellipse cx="1745" cy="760" rx="50" ry="10" fill="#3a2e28"/>
+  <path d="M1690 320 L1712 236 H1778 L1800 320Z" fill="#f3d9a4"/>
+  <rect y="760" width="1920" height="320" fill="#9e6e55"/><ellipse cx="960" cy="900" rx="760" ry="110" fill="#c98a6a"/><ellipse cx="960" cy="900" rx="700" ry="90" fill="none" stroke="#e8c39a" stroke-width="6" stroke-dasharray="20 14"/>
+  <rect x="230" y="716" width="1460" height="46" rx="14" fill="#7a4e36"/><rect x="230" y="748" width="1460" height="14" rx="7" fill="#5e3a28"/></svg></div>
+      <div class="charBox" id="talk-lea">
+ <svg viewBox="0 0 360 480"><g filter="url(#pencil)">
+  <g class="breath">
+   <path d="M98 270 C110 240 150 228 182 228 C216 228 252 240 264 270 L290 431 L72 431 Z" fill="#cf7a52"/>
+   <path d="M264 270 L290 431 L252 431 C256 370 260 318 264 270 Z" fill="#b9653f" opacity="1"/>
+   <rect x="166" y="190" width="32" height="46" rx="12" fill="#e2a988"/>
+   <path d="M158 230 L206 230 L198 431 L166 431Z" fill="#f4ead6"/>
+                     <path d="M158 230 L166 431 M206 230 L198 431" stroke="#b9653f" stroke-width="6"/>
+                     <circle cx="164" cy="300" r="5" fill="#f4ead6"/><circle cx="165" cy="345" r="5" fill="#f4ead6"/><circle cx="166" cy="390" r="5" fill="#f4ead6"/><path d="M130 300v22 M152 338v22 M212 300v22 M236 345v22 M176 372v22 M118 380v22" stroke="#b9653f" stroke-width="3.5" stroke-linecap="round" opacity=".6"/>
+   <g class="head">
+    <path d="M112 140 C104 82 150 56 192 58 C242 60 266 102 258 152 C264 188 256 218 238 230 C222 238 206 230 200 222 L152 222 C136 234 112 230 106 206 C100 186 115 166 112 140 Z" fill="#6b3a26"/>
+    <path d="M140 115 C140 82 172 70 202 74 C236 79 250 108 247 145 C245 185 228 210 200 213 C172 216 150 198 145 172 C141 155 140 135 140 115 Z" fill="#f2c6a2"/>
+    <ellipse cx="143" cy="154" rx="9" ry="13" fill="#e8b08e"/>
+    <circle cx="228" cy="174" r="11" fill="#e8907e" opacity=".5"/><circle cx="168" cy="174" r="9" fill="#e8907e" opacity=".45"/>
+    <path d="M176 128 q10 -6 20 -1 M218 126 q8 -4 16 0" stroke="#5a301f" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <ellipse class="eye" cx="186" cy="147" rx="4.5" ry="6" fill="#3a2a24"/><ellipse class="eye" cx="226" cy="145" rx="4" ry="5.5" fill="#3a2a24"/>
+    <path d="M240 150 C250 162 248 170 237 171" stroke="#cf8d72" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+    <ellipse class="mouth" cx="214" cy="190" rx="9" ry="2.6" fill="#8a3a2c"/>
+    <path d="M138 128 C144 84 190 62 232 78 C250 86 258 106 256 122 C240 102 214 94 194 100 C174 106 158 118 138 134 Z" fill="#6b3a26"/>
+    <path d="M168 82 C194 72 222 76 242 94" stroke="#8a5236" stroke-width="3" fill="none" stroke-linecap="round"/>
+    
+   </g>
+  </g>
+  <path d="M118 285 C98 330 96 385 122 410 C150 426 182 420 204 408" stroke="#c87249" stroke-width="42" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M256 285 C278 330 288 380 268 406" stroke="#b9653f" stroke-width="42" fill="none" stroke-linecap="round"/>
+  <path class="steam" d="M226 344 c-8 -12 8 -20 0 -34" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round" opacity="0"/>
+             <path class="steam" d="M244 340 c-8 -12 8 -20 0 -34" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round" opacity="0"/><ellipse cx="234" cy="358" rx="28" ry="6" fill="#7a4a32"/>
+  <path d="M206 358 h56 v52 c0 14 -10 22 -28 22 c-18 0 -28 -8 -28 -22 Z" fill="#fbf4e6"/>
+  <rect x="206" y="380" width="56" height="10" fill="#d9774b"/>
+  <ellipse cx="204" cy="400" rx="14" ry="17" fill="#f2c6a2"/><ellipse cx="266" cy="402" rx="13" ry="16" fill="#eab896"/>
+ </g></svg></div>
+      <div class="charBox" id="talk-mat">
+ <svg viewBox="0 0 360 480"><g filter="url(#pencil)"><g transform="translate(360 0) scale(-1 1)">
+  <g class="breath">
+   <path d="M96 272 C108 240 150 228 182 228 C216 228 254 240 266 272 L292 431 L70 431 Z" fill="#a3aab0"/>
+   <path d="M266 272 L292 431 L254 431 C258 370 262 318 266 272 Z" fill="#8b9399"/>
+   <rect x="166" y="190" width="32" height="46" rx="12" fill="#d9a07c"/>
+   <path d="M136 246 C146 218 218 218 228 246 C214 268 150 268 136 246Z" fill="#8b9399"/>
+                     <path d="M156 244 C166 256 198 256 208 244" fill="#7a8288"/>
+                     <path d="M170 256 L167 312 M194 256 L197 312" stroke="#f4ead6" stroke-width="4" stroke-linecap="round"/>
+                     <circle cx="167" cy="314" r="4" fill="#f4ead6"/><circle cx="197" cy="314" r="4" fill="#f4ead6"/>
+                     <path d="M126 382 h112 l8 49 h-128Z" fill="#8b9399"/>
+   <g class="head">
+    <path d="M140 112 C140 80 172 68 204 72 C238 76 250 106 248 142 C247 182 232 212 202 215 C170 218 148 198 144 170 C141 150 140 130 140 112 Z" fill="#e8b591"/>
+    <path d="M150 185 C160 208 182 216 202 215 C226 213 240 196 246 172 C236 196 214 204 196 202 C176 200 160 194 150 185 Z" fill="#b98466" opacity=".35"/>
+    <ellipse cx="143" cy="152" rx="10" ry="14" fill="#dca684"/>
+    <g fill="#2f2420"><circle cx="150" cy="98" r="22"/><circle cx="172" cy="78" r="24"/><circle cx="202" cy="70" r="24"/>
+     <circle cx="230" cy="80" r="21"/><circle cx="246" cy="102" r="15"/><circle cx="138" cy="124" r="15"/><circle cx="188" cy="92" r="20"/></g>
+    <circle cx="228" cy="176" r="10" fill="#e08a74" opacity=".4"/>
+    <path d="M174 129 q11 -5 22 0 M216 127 q9 -4 18 0" stroke="#2f2420" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <ellipse class="eye" cx="187" cy="147" rx="4.5" ry="6" fill="#2f2420"/><ellipse class="eye" cx="227" cy="145" rx="4" ry="5.5" fill="#2f2420"/>
+    <g stroke="#3a2a24" stroke-width="3.5" fill="none"><circle cx="187" cy="147" r="16"/><circle cx="228" cy="145" r="14"/><path d="M203 146 q6 -5 11 -1 M171 147 L148 142"/></g>
+    <path d="M241 150 C252 163 250 171 238 172" stroke="#c4886a" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+    <ellipse class="mouth" cx="214" cy="192" rx="9" ry="2.6" fill="#7a3328"/>
+   </g>
+  </g>
+  <path d="M116 287 C96 332 94 386 120 410 C148 426 182 420 204 408" stroke="#9aa2a8" stroke-width="44" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M258 287 C280 332 290 380 268 406" stroke="#8b9399" stroke-width="44" fill="none" stroke-linecap="round"/>
+  <path class="steam" d="M226 344 c-8 -12 8 -20 0 -34" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round" opacity="0"/>
+             <path class="steam" d="M244 340 c-8 -12 8 -20 0 -34" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round" opacity="0"/><ellipse cx="234" cy="358" rx="28" ry="6" fill="#7a4a32"/>
+  <path d="M206 358 h56 v52 c0 14 -10 22 -28 22 c-18 0 -28 -8 -28 -22 Z" fill="#fbf4e6"/>
+  <rect x="206" y="380" width="56" height="10" fill="#8fae8b"/>
+  <ellipse cx="204" cy="400" rx="15" ry="18" fill="#e8b591"/><ellipse cx="266" cy="402" rx="14" ry="17" fill="#dca684"/>
+ </g></g></svg></div>
+    </div>
+    <div id="talk-grain" data-layout-ignore></div>
+    <div id="name-lea" class="nameTag">Léa</div>
+    <div id="name-mat" class="nameTag">Mathieu</div>
+    <div id="talk-brand"><div id="talk-logo">The Cozy <span>French</span></div>
+      <div id="talk-count">Mots clés : <span class="cntBox"><span id="cnt0" class="clip cnt" data-start="0.000" data-duration="11.970" data-track-index="5">0</span><span id="cnt1" class="clip cnt" data-start="11.970" data-duration="5.150" data-track-index="5">1</span><span id="cnt2" class="clip cnt" data-start="17.120" data-duration="10.110" data-track-index="5">2</span><span id="cnt3" class="clip cnt" data-start="27.230" data-duration="5.290" data-track-index="5">3</span><span id="cnt4" class="clip cnt" data-start="32.520" data-duration="5.050" data-track-index="5">4</span></span> / 4</div></div>
+    
+    <div id="card0" class="clip cardWrap" data-start="11.970" data-duration="4.600" data-track-index="4">
+      <div class="card"><span class="tag">expression</span><div class="word">garder pour soi</div><div class="ipa">/ɡaʁ.de puʁ swa/</div>
+      <div class="mean">to keep (something) to oneself</div><div class="ex">Elle garde ses soucis pour elle.<i>She keeps her worries to herself.</i></div></div>
+    </div>
+    <div id="card1" class="clip cardWrap" data-start="17.120" data-duration="4.600" data-track-index="4">
+      <div class="card"><span class="tag">adverbe</span><div class="word">forcément</div><div class="ipa">/fɔʁ.se.mɑ̃/</div>
+      <div class="mean">necessarily</div><div class="ex">Plus cher ne veut pas forcément dire meilleur.<i>More expensive doesn't necessarily mean better.</i></div></div>
+    </div>
+    <div id="card2" class="clip cardWrap" data-start="27.230" data-duration="4.600" data-track-index="4">
+      <div class="card"><span class="tag">nom masculin</span><div class="word">un accompagnement</div><div class="ipa">/a.kɔ̃.paɲ.mɑ̃/</div>
+      <div class="mean">support, guidance</div><div class="ex">Il a besoin d'un accompagnement psychologique.<i>He needs psychological support.</i></div></div>
+    </div>
+    <div id="card3" class="clip cardWrap" data-start="32.520" data-duration="4.950" data-track-index="4">
+      <div class="card"><span class="tag">expression</span><div class="word">il me faudra</div><div class="ipa">/il mə fo.dʁa/</div>
+      <div class="mean">I will need / it will take me</div><div class="ex">Il me faudra une semaine pour finir.<i>It will take me a week to finish.</i></div></div>
+    </div>
+    
+    <div id="sub0" class="clip subWrap" data-start="0.070" data-duration="1.860" data-track-index="3">
+      <div class="subBox"><div class="subFr"><span class="w" id="w0"><b class="tx">Pas</b></span> <span class="w" id="w1"><b class="tx">encore.</b></span></div><div class="subEn">Not yet.</div></div>
+    </div>
+    <div id="sub1" class="clip subWrap" data-start="1.930" data-duration="3.550" data-track-index="3">
+      <div class="subBox"><div class="subFr"><span class="w" id="w2"><b class="tx">Et</b></span> <span class="w" id="w3"><b class="tx">je</b></span> <span class="w" id="w4"><b class="tx">ne</b></span> <span class="w" id="w5"><b class="tx">sais</b></span> <span class="w" id="w6"><b class="tx">pas</b></span> <span class="w" id="w7"><b class="tx">si</b></span> <span class="w" id="w8"><b class="tx">cette</b></span> <span class="w" id="w9"><b class="tx">conversation</b></span> <span class="w" id="w10"><b class="tx">changera</b></span> <span class="w" id="w11"><b class="tx">grand</b></span> <span class="w" id="w12"><b class="tx">chose,</b></span></div><div class="subEn">And I don't know if this conversation will change much,</div></div>
+    </div>
+    <div id="sub2" class="clip subWrap" data-start="5.480" data-duration="3.680" data-track-index="3">
+      <div class="subBox"><div class="subFr"><span class="w" id="w13"><b class="tx">mais</b></span> <span class="w" id="w14"><b class="tx">au</b></span> <span class="w" id="w15"><b class="tx">moins,</b></span> <span class="w" id="w16"><b class="tx">je</b></span> <span class="w" id="w17"><b class="tx">vais</b></span> <span class="w" id="w18"><b class="tx">pouvoir</b></span> <span class="w" id="w19"><b class="tx">expliquer</b></span> <span class="w" id="w20"><b class="tx">la</b></span> <span class="w" id="w21"><b class="tx">situation.</b></span></div><div class="subEn">but at least I'll be able to explain the situation.</div></div>
+    </div>
+    <div id="sub3" class="clip subWrap" data-start="9.160" data-duration="4.080" data-track-index="3">
+      <div class="subBox"><div class="subFr"><span class="w" id="w22"><b class="tx">C'est</b></span> <span class="w" id="w23"><b class="tx">déjà</b></span> <span class="w" id="w24"><b class="tx">différent</b></span> <span class="w" id="w25"><b class="tx">de</b></span> <span class="w" id="w26"><b class="tx">continuer</b></span> <span class="w" id="w27"><b class="tx">à</b></span> <span class="w" id="w28"><b class="tx">tout</b></span> <span class="w vocab" id="w29"><i class="ul"></i><b class="tx">garder</b></span> <span class="w vocab" id="w30"><i class="ul"></i><b class="tx">pour</b></span> <span class="w vocab" id="w31"><i class="ul"></i><b class="tx">toi.</b></span></div><div class="subEn">That's already different from keeping it all to yourself.</div></div>
+    </div>
+    <div id="sub4" class="clip subWrap" data-start="13.240" data-duration="2.880" data-track-index="3">
+      <div class="subBox"><div class="subFr"><span class="w" id="w32"><b class="tx">Oui,</b></span> <span class="w" id="w33"><b class="tx">je</b></span> <span class="w" id="w34"><b class="tx">commence</b></span> <span class="w" id="w35"><b class="tx">à</b></span> <span class="w" id="w36"><b class="tx">comprendre</b></span></div><div class="subEn">Yes, I'm starting to understand</div></div>
+    </div>
+    <div id="sub5" class="clip subWrap" data-start="16.120" data-duration="2.560" data-track-index="3">
+      <div class="subBox"><div class="subFr"><span class="w" id="w37"><b class="tx">qu'on</b></span> <span class="w" id="w38"><b class="tx">ne</b></span> <span class="w" id="w39"><b class="tx">retrouve</b></span> <span class="w" id="w40"><b class="tx">pas</b></span> <span class="w vocab" id="w41"><i class="ul"></i><b class="tx">forcément</b></span> <span class="w" id="w42"><b class="tx">son</b></span> <span class="w" id="w43"><b class="tx">énergie</b></span></div><div class="subEn">that you don't necessarily get your energy back</div></div>
+    </div>
+    <div id="sub6" class="clip subWrap" data-start="18.680" data-duration="2.240" data-track-index="3">
+      <div class="subBox"><div class="subFr"><span class="w" id="w44"><b class="tx">en</b></span> <span class="w" id="w45"><b class="tx">faisant</b></span> <span class="w" id="w46"><b class="tx">davantage</b></span> <span class="w" id="w47"><b class="tx">d'efforts.</b></span></div><div class="subEn">by making more effort.</div></div>
+    </div>
+    <div id="sub7" class="clip subWrap" data-start="20.920" data-duration="2.750" data-track-index="3">
+      <div class="subBox"><div class="subFr"><span class="w" id="w48"><b class="tx">Et</b></span> <span class="w" id="w49"><b class="tx">que</b></span> <span class="w" id="w50"><b class="tx">le</b></span> <span class="w" id="w51"><b class="tx">repos,</b></span> <span class="w" id="w52"><b class="tx">même</b></span> <span class="w" id="w53"><b class="tx">nécessaire,</b></span></div><div class="subEn">And that rest, even when it's necessary,</div></div>
+    </div>
+    <div id="sub8" class="clip subWrap" data-start="23.670" data-duration="3.170" data-track-index="3">
+      <div class="subBox"><div class="subFr"><span class="w" id="w54"><b class="tx">ne</b></span> <span class="w" id="w55"><b class="tx">remplace</b></span> <span class="w" id="w56"><b class="tx">pas</b></span> <span class="w" id="w57"><b class="tx">toujours</b></span> <span class="w" id="w58"><b class="tx">un</b></span> <span class="w" id="w59"><b class="tx">vrai</b></span> <span class="w" id="w60"><b class="tx">changement</b></span></div><div class="subEn">doesn't always replace a real change</div></div>
+    </div>
+    <div id="sub9" class="clip subWrap" data-start="26.840" data-duration="2.370" data-track-index="3">
+      <div class="subBox"><div class="subFr"><span class="w" id="w61"><b class="tx">ou</b></span> <span class="w" id="w62"><b class="tx">un</b></span> <span class="w vocab" id="w63"><i class="ul"></i><b class="tx">accompagnement</b></span> <span class="w" id="w64"><b class="tx">adapté.</b></span></div><div class="subEn">or the right support.</div></div>
+    </div>
+    <div id="sub10" class="clip subWrap" data-start="29.210" data-duration="2.350" data-track-index="3">
+      <div class="subBox"><div class="subFr"><span class="w" id="w65"><b class="tx">Ce</b></span> <span class="w" id="w66"><b class="tx">qui</b></span> <span class="w" id="w67"><b class="tx">me</b></span> <span class="w" id="w68"><b class="tx">dérange,</b></span> <span class="w" id="w69"><b class="tx">c'est</b></span> <span class="w" id="w70"><b class="tx">de</b></span> <span class="w" id="w71"><b class="tx">ne</b></span> <span class="w" id="w72"><b class="tx">pas</b></span> <span class="w" id="w73"><b class="tx">savoir</b></span></div><div class="subEn">What bothers me is not knowing</div></div>
+    </div>
+    <div id="sub11" class="clip subWrap" data-start="31.560" data-duration="5.910" data-track-index="3">
+      <div class="subBox"><div class="subFr"><span class="w" id="w74"><b class="tx">combien</b></span> <span class="w" id="w75"><b class="tx">de</b></span> <span class="w" id="w76"><b class="tx">temps</b></span> <span class="w vocab" id="w77"><i class="ul"></i><b class="tx">il</b></span> <span class="w vocab" id="w78"><i class="ul"></i><b class="tx">me</b></span> <span class="w vocab" id="w79"><i class="ul"></i><b class="tx">faudra</b></span> <span class="w" id="w80"><b class="tx">pour</b></span> <span class="w" id="w81"><b class="tx">aller</b></span> <span class="w" id="w82"><b class="tx">mieux.</b></span></div><div class="subEn">how long it will take me to get better.</div></div>
+    </div>
+    <div id="recap" class="clip" data-start="37.570" data-duration="5.000" data-track-index="6">
+      <h2 id="recap-title">Aujourd'hui, on a appris…</h2>
+      <div class="grid"><div class="it" id="recap-it0">garder pour soi<small>to keep (something) to oneself</small></div><div class="it" id="recap-it1">forcément<small>necessarily</small></div><div class="it" id="recap-it2">un accompagnement<small>support, guidance</small></div><div class="it" id="recap-it3">il me faudra<small>I will need / it will take me</small></div></div>
+    </div>
+  </div>
+  <script>
+  (function(){
+    const TOTAL=42.57, RECAP=37.570;
+    const WORDS=[{"id":"w0","s":0.19,"e":0.5,"v":false,"who":"mat","n":3},{"id":"w1","s":0.5,"e":2.05,"v":false,"who":"mat","n":7},{"id":"w2","s":2.05,"e":2.11,"v":false,"who":"mat","n":2},{"id":"w3","s":2.11,"e":2.22,"v":false,"who":"mat","n":2},{"id":"w4","s":2.22,"e":2.33,"v":false,"who":"mat","n":2},{"id":"w5","s":2.33,"e":2.56,"v":false,"who":"mat","n":4},{"id":"w6","s":2.56,"e":2.73,"v":false,"who":"mat","n":3},{"id":"w7","s":2.73,"e":2.84,"v":false,"who":"mat","n":2},{"id":"w8","s":2.84,"e":3.13,"v":false,"who":"mat","n":5},{"id":"w9","s":3.13,"e":3.88,"v":false,"who":"mat","n":12},{"id":"w10","s":3.88,"e":4.6,"v":false,"who":"mat","n":8},{"id":"w11","s":4.6,"e":5.07,"v":false,"who":"mat","n":5},{"id":"w12","s":5.07,"e":5.6,"v":false,"who":"mat","n":6},{"id":"w13","s":5.6,"e":5.91,"v":false,"who":"mat","n":4},{"id":"w14","s":5.91,"e":6.06,"v":false,"who":"mat","n":2},{"id":"w15","s":6.06,"e":6.6,"v":false,"who":"mat","n":6},{"id":"w16","s":6.6,"e":6.75,"v":false,"who":"mat","n":2},{"id":"w17","s":6.75,"e":7.06,"v":false,"who":"mat","n":4},{"id":"w18","s":7.06,"e":7.65,"v":false,"who":"mat","n":7},{"id":"w19","s":7.65,"e":8.3,"v":false,"who":"mat","n":9},{"id":"w20","s":8.3,"e":8.45,"v":false,"who":"mat","n":2},{"id":"w21","s":8.45,"e":9.28,"v":false,"who":"mat","n":10},{"id":"w22","s":9.28,"e":9.68,"v":false,"who":"lea","n":5},{"id":"w23","s":9.68,"e":10.16,"v":false,"who":"lea","n":4},{"id":"w24","s":10.16,"e":10.73,"v":false,"who":"lea","n":9},{"id":"w25","s":10.73,"e":10.9,"v":false,"who":"lea","n":2},{"id":"w26","s":10.9,"e":11.62,"v":false,"who":"lea","n":9},{"id":"w27","s":11.62,"e":11.69,"v":false,"who":"lea","n":1},{"id":"w28","s":11.69,"e":12.02,"v":false,"who":"lea","n":4},{"id":"w29","s":12.02,"e":12.5,"v":true,"who":"lea","n":6},{"id":"w30","s":12.5,"e":12.82,"v":true,"who":"lea","n":4},{"id":"w31","s":12.82,"e":13.36,"v":true,"who":"lea","n":4},{"id":"w32","s":13.36,"e":13.88,"v":false,"who":"mat","n":4},{"id":"w33","s":13.88,"e":14.24,"v":false,"who":"mat","n":2},{"id":"w34","s":14.24,"e":14.99,"v":false,"who":"mat","n":8},{"id":"w35","s":14.99,"e":15.41,"v":false,"who":"mat","n":1},{"id":"w36","s":15.41,"e":16.24,"v":false,"who":"mat","n":10},{"id":"w37","s":16.24,"e":16.48,"v":false,"who":"mat","n":5},{"id":"w38","s":16.48,"e":16.59,"v":false,"who":"mat","n":2},{"id":"w39","s":16.59,"e":17.01,"v":false,"who":"mat","n":8},{"id":"w40","s":17.01,"e":17.17,"v":false,"who":"mat","n":3},{"id":"w41","s":17.17,"e":17.68,"v":true,"who":"mat","n":9},{"id":"w42","s":17.68,"e":17.95,"v":false,"who":"mat","n":3},{"id":"w43","s":17.95,"e":18.8,"v":false,"who":"mat","n":7},{"id":"w44","s":18.8,"e":18.85,"v":false,"who":"mat","n":2},{"id":"w45","s":18.85,"e":19.41,"v":false,"who":"mat","n":7},{"id":"w46","s":19.41,"e":20.22,"v":false,"who":"mat","n":9},{"id":"w47","s":20.22,"e":21.04,"v":false,"who":"mat","n":10},{"id":"w48","s":21.04,"e":21.24,"v":false,"who":"lea","n":2},{"id":"w49","s":21.24,"e":21.49,"v":false,"who":"lea","n":3},{"id":"w50","s":21.49,"e":21.92,"v":false,"who":"lea","n":2},{"id":"w51","s":21.92,"e":22.3,"v":false,"who":"lea","n":6},{"id":"w52","s":22.3,"e":23.09,"v":false,"who":"lea","n":4},{"id":"w53","s":23.09,"e":23.79,"v":false,"who":"lea","n":11},{"id":"w54","s":23.79,"e":23.96,"v":false,"who":"lea","n":2},{"id":"w55","s":23.96,"e":24.68,"v":false,"who":"lea","n":8},{"id":"w56","s":24.68,"e":24.84,"v":false,"who":"lea","n":3},{"id":"w57","s":24.84,"e":25.52,"v":false,"who":"lea","n":8},{"id":"w58","s":25.52,"e":25.72,"v":false,"who":"lea","n":2},{"id":"w59","s":25.72,"e":26.12,"v":false,"who":"lea","n":4},{"id":"w60","s":26.12,"e":26.96,"v":false,"who":"lea","n":10},{"id":"w61","s":26.96,"e":27.12,"v":false,"who":"lea","n":2},{"id":"w62","s":27.12,"e":27.28,"v":false,"who":"lea","n":2},{"id":"w63","s":27.28,"e":28.4,"v":true,"who":"lea","n":14},{"id":"w64","s":28.4,"e":29.16,"v":false,"who":"lea","n":7},{"id":"w65","s":29.33,"e":29.36,"v":false,"who":"mat","n":2},{"id":"w66","s":29.36,"e":29.59,"v":false,"who":"mat","n":3},{"id":"w67","s":29.59,"e":29.69,"v":false,"who":"mat","n":2},{"id":"w68","s":29.69,"e":30.56,"v":false,"who":"mat","n":8},{"id":"w69","s":30.56,"e":30.87,"v":false,"who":"mat","n":5},{"id":"w70","s":30.87,"e":31.11,"v":false,"who":"mat","n":2},{"id":"w71","s":31.11,"e":31.21,"v":false,"who":"mat","n":2},{"id":"w72","s":31.21,"e":31.3,"v":false,"who":"mat","n":3},{"id":"w73","s":31.3,"e":31.68,"v":false,"who":"mat","n":6},{"id":"w74","s":31.68,"e":32.21,"v":false,"who":"mat","n":7},{"id":"w75","s":32.21,"e":32.25,"v":false,"who":"mat","n":2},{"id":"w76","s":32.25,"e":32.57,"v":false,"who":"mat","n":5},{"id":"w77","s":32.57,"e":32.69,"v":true,"who":"mat","n":2},{"id":"w78","s":32.69,"e":32.81,"v":true,"who":"mat","n":2},{"id":"w79","s":32.81,"e":33.18,"v":true,"who":"mat","n":6},{"id":"w80","s":33.18,"e":33.43,"v":false,"who":"mat","n":4},{"id":"w81","s":33.43,"e":33.75,"v":false,"who":"mat","n":5},{"id":"w82","s":33.75,"e":34.36,"v":false,"who":"mat","n":6}];
+    const TURNS=[{"who":"mat","s":0.19,"e":9.28},{"who":"lea","s":9.28,"e":13.36},{"who":"mat","s":13.36,"e":21.04},{"who":"lea","s":21.04,"e":29.16},{"who":"mat","s":29.33,"e":34.36}];
+    const CARDS=[{"s":11.97,"d":4.6},{"s":17.12,"d":4.6},{"s":27.23,"d":4.6},{"s":32.52,"d":4.95}];
+    const SUBS=[{"s":0.07,"d":1.86},{"s":1.93,"d":3.55},{"s":5.48,"d":3.68},{"s":9.16,"d":4.08},{"s":13.24,"d":2.88},{"s":16.12,"d":2.56},{"s":18.68,"d":2.24},{"s":20.92,"d":2.75},{"s":23.67,"d":3.17},{"s":26.84,"d":2.37},{"s":29.21,"d":2.35},{"s":31.56,"d":5.91}];
+    function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296;}}
+    const R=mulberry32(42), rnd=(a,b)=>a+R()*(b-a), rep=d=>Math.ceil(TOTAL/d)+1;
+    const q=s=>Array.from(document.querySelectorAll(s));
+    const tl=gsap.timeline({paused:true});
+
+    // ---- scene ambience (salon) ----
+    q('#talk-scene .star').forEach(s=>tl.fromTo(s,{opacity:1},{opacity:.2,duration:rnd(.6,1.4),yoyo:true,repeat:rep(.6),ease:'sine.inOut'},rnd(0,2)));
+    q('#talk-scene .drop').forEach(d=>tl.fromTo(d,{y:-60},{y:470,duration:rnd(.8,1.3),ease:'none',repeat:rep(.8)},rnd(0,1.2)));
+    q('#talk-scene .glow,#lampglow,#glow,#sunglow,#beam').forEach(g=>tl.fromTo(g,{opacity:.6},{opacity:.4,duration:2.2,yoyo:true,repeat:rep(2.2),ease:'sine.inOut'},0));
+    q('#talk-scene .curtain').forEach(c=>tl.fromTo(c,{skewX:0},{skewX:1.2,transformOrigin:'50% 0%',duration:3,yoyo:true,repeat:rep(3),ease:'sine.inOut'},0));
+    q('#leaves,#canopy').forEach(l=>tl.fromTo(l,{rotation:0},{rotation:2,transformOrigin:'50% 100%',duration:2.2,yoyo:true,repeat:rep(2.2),ease:'sine.inOut'},0));
+    q('#clouds').forEach(c=>tl.fromTo(c,{x:0},{x:-400,duration:TOTAL,ease:'none'},0));
+    q('#talk-scene .leaf').forEach(l=>tl.fromTo(l,{y:-30,x:0,rotation:0},{y:rnd(650,800),x:rnd(-180,180),rotation:rnd(-400,400),duration:rnd(5,8),ease:'sine.inOut',repeat:rep(5)},rnd(0,6)));
+    q('#talk-scene .mote').forEach(m=>tl.fromTo(m,{y:0,opacity:0},{y:rnd(-80,-160),opacity:.9,duration:rnd(4,6),yoyo:true,repeat:rep(4),ease:'sine.inOut'},rnd(0,3)));
+    q('#talk-scene .bulbg').forEach(b=>tl.fromTo(b,{opacity:.25},{opacity:.08,duration:rnd(.8,1.6),yoyo:true,repeat:rep(.8)},rnd(0,2)));
+    q('#talk-scene .bird').forEach((b,i)=>tl.fromTo(b,{x:0,y:0},{x:2300,y:-80,duration:16,ease:'none',repeat:rep(16)},i*.5));
+
+    // ---- characters idle ----
+    ['#talk-lea','#talk-mat'].forEach((c,i)=>{
+      tl.fromTo(c+' .breath',{y:0},{y:-3,duration:1.6,yoyo:true,repeat:rep(1.6),ease:'sine.inOut'},i*.5);
+      for(let b=1.5+i;b<TOTAL;b+=3.3+i*.7) tl.fromTo(c+' .eye',{scaleY:1},{scaleY:.1,transformOrigin:'50% 50%',duration:.07,yoyo:true,repeat:1,immediateRender:false},b);
+      q(c+' .steam').forEach((s,j)=>tl.fromTo(s,{y:0,opacity:0},{y:-40,opacity:.8,duration:2.2,repeat:rep(2.2),ease:'sine.out'},i*.7+j*1.1));
+    });
+    tl.fromTo('#talk-world',{scale:1},{scale:1.05,duration:RECAP,ease:'none'},0);
+
+    // ---- who is speaking ----
+    tl.set(['#talk-lea .head','#talk-mat .head'],{rotation:0,transformOrigin:'50% 95%'},0);
+    tl.set('.nameTag',{opacity:0,y:0},0);
+    TURNS.forEach(t=>{
+      const c='#talk-'+t.who, n='#name-'+t.who;
+      tl.to(n,{opacity:1,y:-6,duration:.25},t.s-.2);
+      tl.to(c+' .head',{rotation:3,duration:.5,ease:'sine.out'},t.s-.2);
+      tl.to(n,{opacity:0,y:0,duration:.25},t.e+.15);
+      tl.to(c+' .head',{rotation:0,duration:.5},t.e+.15);
+    });
+
+    // ---- mouths + word highlight ----
+    tl.set('.subFr .ul',{scaleX:0},0);
+    WORDS.forEach(w=>{
+      const m='#talk-'+w.who+' .mouth', len=Math.min(w.e-w.s, .08*w.n+.08);
+      const flaps=Math.max(1,Math.round(len/.2)), fd=len/flaps/2;
+      for(let k=0;k<flaps;k++) tl.fromTo(m,{scaleY:1},{scaleY:2.4+R()*1.8,transformOrigin:'50% 0%',duration:fd,yoyo:true,repeat:1,ease:'sine.inOut',immediateRender:false},w.s+k*fd*2);
+      tl.to('#'+w.id,{color:w.v?'#b8552a':'#3a2e28',duration:.1},w.s);
+      if(w.v) tl.to('#'+w.id+' .ul',{scaleX:1,duration:.35,ease:'power2.out'},w.s);
+    });
+    SUBS.forEach((s,i)=>tl.fromTo('#sub'+i+' .subBox',{y:26,opacity:0},{y:0,opacity:1,duration:.25,ease:'back.out(2)'},s.s));
+
+    // ---- vocab cards ----
+    CARDS.forEach((c,i)=>{
+      const el='#card'+i+' .card';
+      tl.fromTo(el,{y:-80,opacity:0,rotation:3},{y:0,opacity:1,rotation:-1.5,duration:.5,ease:'back.out(1.7)'},c.s);
+      tl.fromTo('#card'+i+' .ex',{opacity:0,y:10},{opacity:1,y:0,duration:.4},c.s+.5);
+      tl.to(el,{y:-50,opacity:0,duration:.3,ease:'power2.in'},c.s+c.d-.35);
+    });
+
+    // ---- recap ----
+    tl.fromTo('#recap',{opacity:0},{opacity:1,duration:.5},RECAP);
+    tl.fromTo('#recap-title',{y:30,opacity:0},{y:0,opacity:1,duration:.6,ease:'back.out(2)'},RECAP+.2);
+    q('#recap .it').forEach((it,i)=>tl.fromTo(it,{y:30,opacity:0},{y:0,opacity:1,duration:.4,ease:'back.out(2)'},RECAP+.7+i*.35));
+
+    window.__timelines=window.__timelines||{};
+    window.__timelines["talk"]=tl;
+  })();
+  </script>
+</template>
