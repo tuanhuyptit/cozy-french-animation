@@ -50,7 +50,10 @@ curl -LO https://cental.uclouvain.be/cefrlex/static/resources/fr/FleLex_CRF.csv
 
 ```bash
 ln -s "$PWD/skills/cozy-french-episode" ~/.claude/skills/cozy-french-episode
+ln -s "$PWD/skills/cozy-french-voice" ~/.claude/skills/cozy-french-voice
 ```
+
+Gửi kịch bản chữ (vd. "làm voice từ ~/Downloads/ep05.txt") → Claude tự tách người nói, thêm thẻ cảm xúc, gửi duyệt rồi tạo voice (`cozy-french-voice`).
 
 Sau đó chỉ cần gửi cho Claude đường dẫn file voice (vd. "làm tập mới từ ~/Downloads/voice.mp3"), Claude sẽ tự chép lời, dịch, chọn từ vựng, chọn bối cảnh và render.
 
