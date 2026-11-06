@@ -30,6 +30,7 @@ vm.runInContext(`
   const rep=d=>Math.ceil(TOTAL/d)+1;
   ${src.slice(a, b)}
   this.leaSVG=leaSVG; this.matSVG=matSVG; this.SCENES=SCENES;`, sandbox);
+if (!sandbox.SCENES[EP.scene]) throw new Error(`unknown scene "${EP.scene}" (have: ${Object.keys(sandbox.SCENES).join(', ')})`);
 const sceneSVG = sandbox.SCENES[EP.scene].html();
 const leaSVG = sandbox.leaSVG(EP.lea).replace(/<div class="name">[^<]*<\/div>/, '');
 const matSVG = sandbox.matSVG(EP.mat).replace(/<div class="name">[^<]*<\/div>/, '');
@@ -59,6 +60,7 @@ chunks.forEach((c, i) => {
 // vocab cards: one per bracketed group, in order
 const vocabStarts = []; chunks.forEach(c => c.toks.forEach((t, i) => { if (t.v && !(i && c.toks[i - 1].v)) vocabStarts.push(t.s); }));
 if (vocabStarts.length !== EP.vocab.length) throw new Error(`vocab groups ${vocabStarts.length} != vocab entries ${EP.vocab.length}`);
+vocabStarts.forEach((s, i) => { if (i && s - vocabStarts[i - 1] < 3) console.warn(`warning: vocab ${i - 1} → ${i} only ${(s - vocabStarts[i - 1]).toFixed(1)}s apart (card shows < 3 s); pick another word`); });
 const RECAP_AT = Math.max(EP.audioEnd, chunks[chunks.length - 1].hide, vocabStarts[vocabStarts.length - 1] + 4.8) + 0.2;
 chunks[chunks.length - 1].hide = RECAP_AT - 0.1;
 const cards = EP.vocab.map((v, i) => {
@@ -179,6 +181,12 @@ const talk = `<template>
     q('#talk-scene .mote').forEach(m=>tl.fromTo(m,{y:0,opacity:0},{y:rnd(-80,-160),opacity:.9,duration:rnd(4,6),yoyo:true,repeat:rep(4),ease:'sine.inOut'},rnd(0,3)));
     q('#talk-scene .bulbg').forEach(b=>tl.fromTo(b,{opacity:.25},{opacity:.08,duration:rnd(.8,1.6),yoyo:true,repeat:rep(.8)},rnd(0,2)));
     q('#talk-scene .bird').forEach((b,i)=>tl.fromTo(b,{x:0,y:0},{x:2300,y:-80,duration:16,ease:'none',repeat:rep(16)},i*.5));
+    q('#talk-scene .snow').forEach(s=>tl.fromTo(s,{y:0,x:0},{y:rnd(380,420),x:rnd(-40,40),duration:rnd(4,7),ease:'none',repeat:rep(4)},rnd(0,4)));
+    q('#talk-scene .flame').forEach((fl,i)=>tl.fromTo(fl,{scaleY:1,scaleX:1},{scaleY:rnd(.75,.9),scaleX:rnd(1.05,1.12),transformOrigin:'50% 100%',duration:rnd(.25,.4),yoyo:true,repeat:rep(.25),ease:'sine.inOut'},i*.1));
+    q('#hillsfar').forEach(h=>tl.fromTo(h,{x:0},{x:-800,duration:24,ease:'none',repeat:rep(24)},0));
+    q('#hills').forEach(h=>tl.fromTo(h,{x:0},{x:-800,duration:9,ease:'none',repeat:rep(9)},0));
+    q('#poles').forEach(p=>tl.fromTo(p,{x:0},{x:-600,duration:1.6,ease:'none',repeat:rep(1.6)},0));
+    q('#talk-scene .ripple').forEach(r=>tl.fromTo(r,{scaleX:1,opacity:.6},{scaleX:rnd(1.3,1.8),opacity:.15,transformOrigin:'50% 50%',duration:rnd(1.2,2.2),yoyo:true,repeat:rep(1.2),ease:'sine.inOut'},rnd(0,2)));
 
     // ---- characters idle ----
     ['#talk-lea','#talk-mat'].forEach((c,i)=>{
