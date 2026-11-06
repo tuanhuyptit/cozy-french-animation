@@ -32,7 +32,7 @@ Tự động: skill `skills/cozy-french-episode` (người dùng chỉ gửi voi
 0. `node tools/new-episode.mjs voice.mp3` (gốc repo) tạo `cozy-epNN/` rồi chạy bước 1.
 1. `node tools/transcribe.mjs voice.mp3` → `assets/voice.mp3`, `assets/words.json`, `episode.draft.json` (đã đoán người nói).
 2. Duyệt `episode.draft.json`: sửa người nói nếu sai, viết `en`, bọc từ vựng bằng `[ ]`, thêm mục `vocab`, lưu thành `episode.json`. Mỗi đoạn phụ đề nên ≤ 1 dòng (~10 chữ).
-3. `node tools/build.mjs` → `npx hyperframes check` → `npx hyperframes snapshot --at …` → `npx hyperframes render`.
+3. `node tools/build.mjs` → `npx hyperframes check` → `npx hyperframes snapshot --at …` → `npx hyperframes preview --background` (gửi link Studio, chờ người dùng duyệt) → `npx hyperframes render`.
 
 ## Chi tiết kỹ thuật cần nhớ
 - **Nhận diện người nói** bằng cao độ giọng: Mathieu ~115–170 Hz, Léa ~180–230 Hz; ngưỡng mặc định 175 Hz (`--threshold`). Đây chỉ là đoán — luôn nghe lại các câu nối tiếp (vd. "Et que le repos…" là Léa nói tiếp ý của Mathieu).

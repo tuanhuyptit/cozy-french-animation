@@ -98,17 +98,32 @@ npx --yes hyperframes@0.9.16 snapshot --at <t1>,<t2>,<t3>
 - Cảnh báo được bỏ qua (cố ý): tương phản thấp của chữ chưa đọc (karaoke), thẻ từ ~4,4 s, track dày.
 - Chụp ít nhất: một lúc đang có thẻ từ, một bong bóng minh hoạ, một biểu cảm, một lúc Léa nói, một lúc Mathieu nói, màn ôn tập cuối (`RECAP` ≈ giây cuối − 5). **Mở ảnh ra xem** (Read) trước khi render: phụ đề một dòng, thẻ không che mặt, đúng người đang nói.
 
-## 4. Render
+## 4. Link preview — DỪNG, chờ người dùng duyệt
+
+**Không bao giờ render trước khi người dùng nói OK.** Sau bước 3:
 
 ```bash
-npx --yes hyperframes@0.9.16 render -o "$PWD/renders/<cozy-epNN>.mp4"    # trong cozy-epNN/
+npx --yes hyperframes@0.9.16 preview --background --no-open      # trong cozy-epNN/
+npx --yes hyperframes@0.9.16 preview --status --json             # lấy result.studioUrl
 ```
 
-Chạy nền; tập 20 phút có thể mất khá lâu. Xong thì kiểm tra file tồn tại và thời lượng (`ffprobe`).
+- Mở `studioUrl` (vd. `http://127.0.0.1:3002/#project/cozy-epNN`) trong Browser pane (`mcp__Claude_Browser__navigate`) để người dùng xem ngay, và gửi link đó trong tin nhắn (link chỉ mở được trên máy này).
+- Tin nhắn gửi kèm (tiếng Việt, ngắn): link preview; bối cảnh + trang phục; từ vựng (từ — nghĩa — mốc thời gian); số biểu cảm + minh hoạ; **các đoạn đoán người nói không chắc** (mốc thời gian) để họ nghe lại; hướng dẫn: bấm ▶ trong khung Preview, kéo thanh thời gian để tua.
+- Kết thúc lượt bằng `wrap_up` hỏi "Render tập này?" với nút **Render** / **Cần sửa**, rồi chờ.
+- Người dùng yêu cầu sửa (người nói, bản dịch, từ vựng, biểu cảm, minh hoạ, bối cảnh…) → sửa `work/` → `node tools/assemble.mjs` → `node tools/build.mjs` → `check`. Studio tự tải lại; báo lại link (vẫn link cũ) và chờ duyệt tiếp.
 
-## 5. Báo người dùng
+## 5. Render (chỉ sau khi người dùng OK)
 
-Ngắn gọn, tiếng Việt: đường dẫn MP4 (link markdown), bối cảnh + trang phục đã chọn, danh sách từ vựng (từ — nghĩa), số biểu cảm + minh hoạ đã đặt (và loại minh hoạ mới nếu có vẽ thêm), những đoạn đoán người nói không chắc (mốc thời gian) để họ nghe lại. **Không tự commit/push**: hỏi trước; khi commit thì không đưa `renders/` (đã gitignore) và hỏi có đưa `assets/voice.mp3` lên không (file lớn).
+```bash
+npx --yes hyperframes@0.9.16 preview --stop                                # trong cozy-epNN/
+npx --yes hyperframes@0.9.16 render -o "$PWD/renders/<cozy-epNN>.mp4"
+```
+
+Chạy nền; trên iMac M1 mất ~2× thời lượng video (tập 20 phút ≈ 40+ phút) — báo người dùng một câu. Xong thì kiểm tra file tồn tại và thời lượng (`ffprobe`).
+
+## 6. Báo người dùng
+
+Ngắn gọn, tiếng Việt: đường dẫn MP4 (link markdown) và thời lượng. **Không tự commit/push**: hỏi trước; khi commit thì không đưa `renders/` (đã gitignore) và hỏi có đưa `assets/voice.mp3` lên không (file lớn).
 
 ## Ghi chú
 
