@@ -17,10 +17,17 @@
 // Each line is cached in <out>.lines/ by a hash of its voice, text and settings: edit one line and run
 // again, only that line is regenerated. Writes <out> (mp3, -16 LUFS) and <out>.timeline.json
 // (start/end/speaker/text per line, in seconds).
+//
+// Voices: the reference clips live in voices/ (voices.json). A Léa or Mathieu profile missing from
+// VoiceStudio is created from them on the first run, so a new machine needs no manual cloning.
+//   node tools/voice-dialogue.mjs --setup      # only create the missing profiles, then exit
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { execFileSync } from 'node:child_process';
+import { fileURLToPath } from 'node:url';
+
+const VOICES_DIR = process.env.COZY_VOICES_DIR || path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', 'voices');
 
 const API = process.env.VOICESTUDIO_URL || 'http://127.0.0.1:3900';
 const SR = 24000;
@@ -32,7 +39,29 @@ const args = process.argv.slice(2);
 const opt = (k, d) => { const i = args.indexOf('--' + k); return i >= 0 ? args[i + 1] : d; };
 const opts = k => args.flatMap((a, i) => (a === '--' + k ? [args[i + 1]] : []));
 const flag = k => args.includes('--' + k);
-const scriptPath = args.find((a, i) => !a.startsWith('--') && !(i && args[i - 1].startsWith('--') && args[i - 1] !== '--force'));
+const scriptPath = args.find((a, i) => !a.startsWith('--') && !(i && args[i - 1].startsWith('--') && !['--force', '--setup'].includes(args[i - 1])));
+const nfc = s => s.normalize('NFC').toLowerCase();
+
+// ---- VoiceStudio: reachable, and every bundled voice has a profile ----
+try { await fetch(API + '/health').then(r => r.json()); }
+catch { console.error(`VoiceStudio is not reachable at ${API}. Open the VoiceStudio app and try again.`); process.exit(1); }
+let profiles = await fetch(API + '/profiles').then(r => r.json());
+const bundled = fs.existsSync(path.join(VOICES_DIR, 'voices.json')) ? JSON.parse(fs.readFileSync(path.join(VOICES_DIR, 'voices.json'), 'utf8')) : [];
+for (const v of bundled) {
+  if (profiles.some(p => nfc(p.name) === nfc(v.name))) { if (flag('setup')) console.log(`profile ${v.name}: already in VoiceStudio`); continue; }
+  const form = new FormData();
+  form.set('name', v.name);
+  form.set('language', v.language || 'French');
+  form.set('kind', 'clone');
+  form.set('ref_text', v.ref_text);
+  form.set('ref_audio', await fs.openAsBlob(path.join(VOICES_DIR, v.file)), v.file);
+  const r = await fetch(API + '/profiles', { method: 'POST', body: form });
+  if (!r.ok) { console.error(`creating profile ${v.name} failed: ${r.status} ${(await r.text()).slice(0, 300)}`); process.exit(1); }
+  console.log(`profile ${v.name}: created from voices/${v.file}`);
+  profiles = await fetch(API + '/profiles').then(r => r.json());
+}
+if (flag('setup')) process.exit(0);
+
 if (!scriptPath || !fs.existsSync(scriptPath)) {
   console.error('usage: node tools/voice-dialogue.mjs <script.txt> [--out voice.mp3] [--gap 350] [--para-gap 800] [--seed 42] [--voice LEA=Léa]');
   process.exit(1);
@@ -67,13 +96,10 @@ fs.readFileSync(scriptPath, 'utf8').split(/\r?\n/).forEach((raw, n) => {
 if (errors.length) { console.error(errors.join('\n')); process.exit(1); }
 if (!lines.length) { console.error('script has no lines'); process.exit(1); }
 
-// ---- VoiceStudio ----
-try { await fetch(API + '/health').then(r => r.json()); }
-catch { console.error(`VoiceStudio is not reachable at ${API}. Open the VoiceStudio app and try again.`); process.exit(1); }
-const profiles = await fetch(API + '/profiles').then(r => r.json());
+// ---- profiles for the speakers ----
 const profileId = {};
 for (const [s, name] of Object.entries(voiceNames)) {
-  const p = profiles.find(p => p.name.toLowerCase() === name.toLowerCase());
+  const p = profiles.find(p => nfc(p.name) === nfc(name));
   if (p) profileId[s] = p.id;
 }
 const missing = [...new Set(lines.map(l => l.speaker))].filter(s => !profileId[s]);

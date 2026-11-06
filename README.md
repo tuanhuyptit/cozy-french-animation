@@ -11,6 +11,7 @@ Animated podcast template for learning French (B1–B2): word-synced karaoke sub
 | `demo-animation-style.html` | Bản xem trước tương tác: 10 bối cảnh, 5 bộ trang phục mỗi nhân vật, 8 biểu cảm, 24 bong bóng minh hoạ. Mở bằng trình duyệt. |
 | `cozy-ep01/tools/vocab-help.mjs` | Gợi ý từ vựng theo cấp độ CEFR (FLELex) và tra IPA (WikiPron). |
 | `tools/new-episode.mjs` | Tạo thư mục tập mới `cozy-epNN/` từ mẫu `cozy-ep01` và chép lời voice. |
+| `voices/` | Đoạn giọng mẫu Léa & Mathieu (13–15 s, FLAC) để nhân bản giọng trong VoiceStudio. |
 | `tools/voice-dialogue.mjs` | Tạo voice hội thoại Léa & Mathieu từ kịch bản chữ bằng VoiceStudio (giọng nhân bản, chạy trên máy). Ví dụ: `tools/dialogue-example.txt`. |
 | `skills/cozy-french-episode/` | Skill Claude Code: gửi voice → Claude tự làm cả tập. |
 | `cozy-ep01/` | Project HyperFrames của tập thử (34 giây đầu voice). |
@@ -55,7 +56,14 @@ Sau đó chỉ cần gửi cho Claude đường dẫn file voice (vd. "làm tậ
 
 ## Tạo voice từ kịch bản (VoiceStudio)
 
-Cần app **VoiceStudio** đang mở (backend `http://127.0.0.1:3900`) với hai profile giọng: `Léa` và `Mathieu`.
+**Máy mới (một lần):**
+
+```bash
+brew install node ffmpeg
+brew tap debpalash/tap && brew install --cask debpalash/tap/voicestudio
+```
+
+Mở VoiceStudio, đồng ý tải model mặc định OmniVoice (~3 GB) và để app mở. Hai giọng mẫu Léa và Mathieu nằm ở `voices/` (`voices.json` ghi lời của từng đoạn); lần chạy đầu script tự tạo profile `Léa` và `Mathieu` trong VoiceStudio. Muốn tạo trước: `node tools/voice-dialogue.mjs --setup`.
 
 ```bash
 node tools/voice-dialogue.mjs kichban.txt --out ~/Downloads/voice.mp3

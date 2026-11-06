@@ -1,0 +1,16 @@
+[
+  {
+    "speaker": "LEA",
+    "name": "Léa",
+    "file": "lea.flac",
+    "language": "French",
+    "ref_text": "C'est un petit espace où je peux m'asseoir avec vous, partager des histoires, parler de la vie, explorer l'état d'esprit et le développement personnel, et vous aider à améliorer votre français naturellement en cours de route."
+  },
+  {
+    "speaker": "MATHIEU",
+    "name": "Mathieu",
+    "file": "mathieu.flac",
+    "language": "French",
+    "ref_text": "C'est un petit espace où je peux m'asseoir avec vous, partager des histoires, parler de la vie, explorer l'état d'esprit et le développement personnel, et vous aider à améliorer votre français naturellement en cours de route."
+  }
+]
