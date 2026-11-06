@@ -13,7 +13,9 @@
     {
       "who": "mat",
       "fr": "Et je ne sais pas si cette conversation changera grand chose,",
-      "en": "And I don't know if this conversation will change much,"
+      "en": "And I don't know if this conversation will change much,",
+      "emote": "question",
+      "illus": "stress"
     },
     {
       "who": "mat",
@@ -23,12 +25,14 @@
     {
       "who": "lea",
       "fr": "C'est déjà différent de continuer à tout [garder pour toi.]",
-      "en": "That's already different from keeping it all to yourself."
+      "en": "That's already different from keeping it all to yourself.",
+      "emote": "coeur"
     },
     {
       "who": "mat",
       "fr": "Oui, je commence à comprendre",
-      "en": "Yes, I'm starting to understand"
+      "en": "Yes, I'm starting to understand",
+      "emote": "idee"
     },
     {
       "who": "mat",
@@ -38,7 +42,8 @@
     {
       "who": "mat",
       "fr": "en faisant davantage d'efforts.",
-      "en": "by making more effort."
+      "en": "by making more effort.",
+      "react": "surpris"
     },
     {
       "who": "lea",
@@ -58,12 +63,14 @@
     {
       "who": "mat",
       "fr": "Ce qui me dérange, c'est de ne pas savoir",
-      "en": "What bothers me is not knowing"
+      "en": "What bothers me is not knowing",
+      "emote": "gene"
     },
     {
       "who": "mat",
       "fr": "combien de temps [il me faudra] pour aller mieux.",
-      "en": "how long it will take me to get better."
+      "en": "how long it will take me to get better.",
+      "react": "coeur"
     }
   ],
   "vocab": [

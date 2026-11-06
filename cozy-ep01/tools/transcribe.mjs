@@ -26,6 +26,8 @@ if (!input) { console.error('usage: node tools/transcribe.mjs <voice.mp3> [--sta
 const start = +opt('start', 0), duration = opt('duration'), threshold = +opt('threshold', 175);
 const out = path.resolve(opt('out', PROJECT));
 const model = opt('model', process.env.WHISPER_MODEL || [
+  path.join(os.homedir(), 'ggml-large-v3-turbo.bin'),
+  path.join(os.homedir(), 'ggml-medium.bin'),
   path.join(os.homedir(), '.cache/hyperframes/whisper/models/ggml-medium.bin'),
   path.join(os.homedir(), 'Desktop/Claude/youtube-videos/whisper.cpp/ggml-medium.bin'),
   path.join(os.homedir(), '.cache/hyperframes/whisper/models/ggml-small.bin'),

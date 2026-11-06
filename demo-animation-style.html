@@ -83,6 +83,7 @@
     <div class="mean" id="cMean">to avoid</div>
     <div class="ex" id="cEx"></div>
   </div>
+  <div id="bubble" style="position:absolute;left:640px;top:56px;width:640px;height:420px"></div>
   <div id="sub"><div id="subBox"><div id="subFr"></div><div id="subEn"></div></div></div>
   <div id="recap"><h2>Aujourd'hui, on a appris…</h2><div class="grid" id="rgrid"></div></div>
 </div></div>
@@ -92,6 +93,8 @@
   <label>Léa <select id="selLea"></select></label>
   <label>Mathieu <select id="selMat"></select></label>
   <button id="rand">Ngẫu nhiên</button>
+  <label>Biểu cảm <select id="selEmo"></select></label><button id="emoLea">Léa</button><button id="emoMat">Mathieu</button>
+  <label>Minh hoạ <select id="selIll"></select></label><button id="illLea">Léa</button><button id="illMat">Mathieu</button>
   <button id="pp">Pause</button><button id="rs">Rejouer</button><span id="tc">0.0s</span>
 </div>
 
@@ -187,6 +190,218 @@ const OUT_MAT={
                      <path d="M164 228 L182 250 L170 258Z M200 228 L182 250 L194 258Z" fill="#fbf8f2"/>`},
 };
 
+/* ============================================================
+   BIỂU CẢM (emotes) — mặt (fx-*) + biểu tượng cạnh đầu (emo-*)
+   ============================================================ */
+const EMO_TYPES={rire:'Rire',surpris:'Surprise',idee:'Idée',question:'Question',coeur:'Coeur',gene:'Gêne',triste:'Triste',fatigue:'Fatigue'};
+function faceFX(brow){ return `<g class="fx">
+ <path class="fx-smile" d="M200 184 Q214 206 230 184 Q214 193 200 184Z" fill="#8a3a2c" opacity="0"/>
+ <path class="fx-happy" d="M178 150 q8 -11 16 0 M219 148 q7 -10 14 0" stroke="#3a2a24" stroke-width="4.5" fill="none" stroke-linecap="round" opacity="0"/>
+ <path class="fx-sleepy" d="M178 149 q8 4 16 0 M219 147 q7 4 14 0" stroke="#3a2a24" stroke-width="4.5" fill="none" stroke-linecap="round" opacity="0"/>
+ <ellipse class="fx-o" cx="214" cy="193" rx="8" ry="10" fill="#7a3328" opacity="0"/>
+ <path class="fx-browup" d="M175 114 q11 -9 22 -2 M217 112 q9 -7 18 0" stroke="${brow}" stroke-width="4.5" stroke-linecap="round" fill="none" opacity="0"/>
+ <path class="fx-browsad" d="M176 131 L197 122 M217 120 L236 128" stroke="${brow}" stroke-width="4.5" stroke-linecap="round" fill="none" opacity="0"/>
+ <path class="fx-tear" d="M186 160 q-7 11 0 14 q7 -3 0 -14Z" fill="#8fc3e0" opacity="0"/>
+ <path class="fx-sweat" d="M254 92 q-10 16 0 21 q10 -5 0 -21Z" fill="#a9d3ea" stroke="#5f9cc0" stroke-width="2.5" opacity="0"/>
+ <g class="fx-blush" opacity="0"><circle cx="228" cy="177" r="15" fill="#e8707e" opacity=".55"/><circle cx="168" cy="177" r="13" fill="#e8707e" opacity=".5"/></g>
+</g>`;}
+const heart=(x,y,k,c)=>`<path class="h" d="M${x} ${y+10*k} C${x-20*k} ${y-6*k} ${x-12*k} ${y-26*k} ${x} ${y-14*k} C${x+12*k} ${y-26*k} ${x+20*k} ${y-6*k} ${x} ${y+10*k}Z" fill="${c}"/>`;
+const EMO_SYM={
+ rire:`<g class="ring">${[-1,0,1].map(i=>`<path d="M${i*34} -44 l${i*9} -18" stroke="#d9774b" stroke-width="7" stroke-linecap="round"/>`).join('')}</g>
+   <g class="bob"><text x="0" y="12" text-anchor="middle" font-family="Nunito" font-weight="800" font-size="46" fill="#d9774b" stroke="#fffaf0" stroke-width="8" paint-order="stroke" transform="rotate(-8)">Ha ha!</text></g>`,
+ surpris:`<g class="pop"><rect x="-13" y="-70" width="26" height="70" rx="13" fill="#c8443a" stroke="#fffaf0" stroke-width="6" paint-order="stroke"/><circle cx="0" cy="22" r="14" fill="#c8443a" stroke="#fffaf0" stroke-width="6" paint-order="stroke"/></g>
+   <g class="ring">${[[-40,-60,-54,-78],[40,-60,54,-78],[-48,-14,-70,-16],[48,-14,70,-16]].map(([a,b,c,d])=>`<path d="M${a} ${b} L${c} ${d}" stroke="#c8443a" stroke-width="6" stroke-linecap="round"/>`).join('')}</g>`,
+ idee:`<circle class="glowb" cy="-14" r="62" fill="#ffe2a6" opacity=".55"/>
+   <g class="rays">${[0,45,90,135,180,225,270,315].map(a=>`<path d="M0 -60 V-76" stroke="#e8a93c" stroke-width="6" stroke-linecap="round" transform="rotate(${a} 0 -14)"/>`).join('')}</g>
+   <path d="M-30 -16 a30 30 0 1 1 60 0 c0 14 -10 20 -12 32 h-36 c-2 -12 -12 -18 -12 -32Z" fill="#f3c96b" stroke="#3a2e28" stroke-width="4.5"/>
+   <path d="M-9 -12 q9 14 18 0" stroke="#d98a3c" stroke-width="4" fill="none"/>
+   <rect x="-17" y="18" width="34" height="18" rx="5" fill="#b9c0c5" stroke="#3a2e28" stroke-width="4.5"/>`,
+ question:`<g class="wob"><text x="0" y="30" text-anchor="middle" font-family="Playfair Display, Fraunces, serif" font-weight="700" font-size="110" fill="#5d7fa0" stroke="#fffaf0" stroke-width="8" paint-order="stroke">?</text></g>`,
+ coeur:`${heart(-26,10,1.5,'#d9574a')}${heart(22,-18,1.1,'#e8707e')}${heart(-6,-44,.8,'#d9574a')}`,
+ gene:`<g class="dots">${[-26,0,26].map(x=>`<circle cx="${x}" cy="0" r="8" fill="#8a7a6c"/>`).join('')}</g>`,
+ triste:`<g class="cloud"><g fill="#9aa3b4"><ellipse cx="0" cy="-20" rx="50" ry="22"/><ellipse cx="-20" cy="-34" rx="26" ry="22"/><ellipse cx="18" cy="-38" rx="28" ry="24"/></g>
+   ${[-26,0,26].map(x=>`<path class="rdrop" d="M${x} 8 q-6 10 0 13 q6 -3 0 -13Z" fill="#8fc3e0"/>`).join('')}</g>`,
+ fatigue:`${[[-30,20,34],[0,-10,44],[30,-46,56]].map(([x,y,fs])=>`<text class="z" x="${x}" y="${y}" font-family="Nunito" font-weight="800" font-size="${fs}" fill="#5d7fa0" stroke="#fffaf0" stroke-width="7" paint-order="stroke">Z</text>`).join('')}`,
+};
+const emoSyms=x=>`<g transform="translate(${x} 92) scale(1.1)">${Object.keys(EMO_SYM).map(k=>`<g class="emo emo-${k}" opacity="0">${EMO_SYM[k]}</g>`).join('')}</g>`;
+
+/* EMOTE-RUNTIME-START (chép nguyên văn vào video bởi tools/build.mjs — chỉ dùng gsap, không random) */
+const EMO_FACE={
+ rire:{show:['smile','happy'],hide:['eye']}, surpris:{show:['browup','o'],hide:['brow']}, idee:{show:['browup','smile'],hide:['brow']},
+ question:{show:['browup'],hide:['brow']}, coeur:{show:['blush','smile'],hide:[]}, gene:{show:['sweat'],hide:[]},
+ triste:{show:['browsad','tear'],hide:['brow']}, fatigue:{show:['sleepy'],hide:['eye']},
+};
+const EMO_ANIM={
+ rire:(tl,s,c,t,d)=>{ tl.fromTo(s+' .bob',{y:0},{y:-12,duration:.18,yoyo:true,repeat:Math.max(1,Math.floor((d-.6)/.18)),ease:'sine.inOut',immediateRender:false},t+.3);
+   tl.fromTo(s+' .ring',{opacity:0},{opacity:1,duration:.2,yoyo:true,repeat:5,immediateRender:false},t+.2); },
+ surpris:(tl,s,c,t,d)=>{ tl.fromTo(s+' .pop',{rotation:-14},{rotation:14,transformOrigin:'50% 100%',duration:.11,yoyo:true,repeat:5,ease:'sine.inOut',immediateRender:false},t+.3);
+   tl.fromTo(s+' .ring',{opacity:0,scale:.6},{opacity:1,scale:1.15,transformOrigin:'50% 50%',duration:.35,immediateRender:false},t+.15); },
+ idee:(tl,s,c,t,d)=>{ tl.fromTo(s+' .rays',{scale:.85,opacity:.3},{scale:1.12,opacity:1,transformOrigin:'50% 50%',duration:.4,yoyo:true,repeat:Math.max(1,Math.floor((d-.6)/.4)),ease:'sine.inOut',immediateRender:false},t+.3);
+   tl.fromTo(s+' .glowb',{opacity:.2},{opacity:.7,duration:.4,yoyo:true,repeat:Math.max(1,Math.floor((d-.6)/.4)),immediateRender:false},t+.3); },
+ question:(tl,s,c,t,d)=>{ tl.fromTo(s+' .wob',{rotation:-10},{rotation:10,transformOrigin:'50% 80%',duration:.5,yoyo:true,repeat:Math.max(1,Math.floor((d-.6)/.5)),ease:'sine.inOut',immediateRender:false},t+.2); },
+ coeur:(tl,s,c,t,d)=>{ tl.fromTo(s+' .h',{y:20,opacity:0},{y:-50,opacity:1,duration:(d-.4)/2,stagger:.25,yoyo:true,repeat:1,ease:'sine.out',immediateRender:false},t+.1); },
+ gene:(tl,s,c,t,d)=>{ tl.fromTo(c+' .fx-sweat',{y:0},{y:16,duration:d-.4,ease:'power1.in',immediateRender:false},t+.1);
+   tl.fromTo(s+' .dots circle',{opacity:.2},{opacity:1,duration:.25,stagger:.25,yoyo:true,repeat:Math.max(1,Math.floor((d-.6)/.5)),immediateRender:false},t+.3); },
+ triste:(tl,s,c,t,d)=>{ tl.fromTo(c+' .fx-tear',{y:0},{y:18,duration:d-.4,ease:'power1.in',immediateRender:false},t+.1);
+   tl.fromTo(s+' .rdrop',{y:0,opacity:1},{y:34,opacity:0,duration:.6,stagger:.2,repeat:Math.max(1,Math.floor((d-.8)/.6)),ease:'power1.in',immediateRender:false},t+.3); },
+ fatigue:(tl,s,c,t,d)=>{ tl.fromTo(s+' .z',{y:16,x:-8,opacity:0},{y:-24,x:10,opacity:1,duration:(d-.4)/2,stagger:.3,yoyo:true,repeat:1,ease:'sine.out',immediateRender:false},t+.1); },
+};
+function emoteTL(tl,c,type,t,d){
+  const F=EMO_FACE[type], s=c+' .emo-'+type;
+  F.show.forEach(k=>{ tl.fromTo(c+' .fx-'+k,{opacity:0},{opacity:1,duration:.15,immediateRender:false},t); tl.to(c+' .fx-'+k,{opacity:0,duration:.2},t+d-.2); });
+  F.hide.forEach(k=>{ tl.to(c+' .'+k,{opacity:0,duration:.1},t); tl.to(c+' .'+k,{opacity:1,duration:.15},t+d-.15); });
+  tl.fromTo(s,{opacity:0,scale:.3},{opacity:1,scale:1,transformOrigin:'50% 50%',duration:.35,ease:'back.out(2.5)',immediateRender:false},t);
+  EMO_ANIM[type](tl,s,c,t,d);
+  tl.to(s,{opacity:0,scale:.85,duration:.25},t+d-.25);
+}
+/* EMOTE-RUNTIME-END */
+
+/* ============================================================
+   BONG BÓNG MINH HOẠ (illus) — hình 300×200, hiện giữa phía trên khi không có thẻ từ
+   ============================================================ */
+const K='stroke="#3a2e28" stroke-width="5" stroke-linejoin="round"';
+const puff=(pts,fill)=>`<g fill="#3a2e28">${pts.map(([x,y,r])=>`<circle cx="${x}" cy="${y}" r="${r+5}"/>`).join('')}</g><g fill="${fill}">${pts.map(([x,y,r])=>`<circle cx="${x}" cy="${y}" r="${r}"/>`).join('')}</g>`;
+const star4=(x,y,r,c)=>`<path d="M${x} ${y-r} Q${x+r*.2} ${y-r*.2} ${x+r} ${y} Q${x+r*.2} ${y+r*.2} ${x} ${y+r} Q${x-r*.2} ${y+r*.2} ${x-r} ${y} Q${x-r*.2} ${y-r*.2} ${x} ${y-r}Z" fill="${c}"/>`;
+const ILLUS={
+ travail:{fr:'le travail', svg:`<rect x="70" y="26" width="160" height="112" rx="10" fill="#5d7fa0" ${K}/><rect x="84" y="40" width="132" height="84" rx="4" fill="#eef4f6"/>
+   ${[100,78,108].map((w,i)=>`<rect class="typ" x="96" y="${54+i*22}" width="${w}" height="10" rx="5" fill="#8fae8b"/>`).join('')}
+   <path d="M40 148 h220 l-14 24 h-192Z" fill="#c9cfd4" ${K}/>`},
+ pluie:{fr:'la pluie', svg:`${puff([[100,70,34],[150,50,44],[200,70,34],[150,84,32]],'#9aa3b4')}
+   ${[95,125,155,185,210,110,170].map((x,i)=>`<path class="rd" d="M${x} ${120+(i%2)*18} q-7 11 0 14 q7 -3 0 -14Z" fill="#5d9cd0"/>`).join('')}`},
+ soleil:{fr:'le soleil', svg:`<g class="rays">${range(12,i=>`<path d="M150 14 V36" stroke="#e8a93c" stroke-width="9" stroke-linecap="round" transform="rotate(${i*30} 150 100)"/>`)}</g>
+   <circle cx="150" cy="100" r="46" fill="#f3c96b" ${K}/><path d="M134 94 q5 -7 10 0 M158 94 q5 -7 10 0 M134 112 q16 14 32 0" stroke="#3a2e28" stroke-width="4.5" fill="none" stroke-linecap="round"/>`},
+ argent:{fr:"l'argent", svg:`${[0,1,2,3].map(i=>`<ellipse cx="90" cy="${160-i*15}" rx="42" ry="13" fill="#e8b84c" stroke="#3a2e28" stroke-width="4"/>`).join('')}
+   <g class="coin"><circle cx="200" cy="82" r="48" fill="#f3c96b" ${K}/><circle cx="200" cy="82" r="36" fill="none" stroke="#d9a33c" stroke-width="4"/><text x="200" y="101" text-anchor="middle" font-family="Nunito" font-weight="800" font-size="54" fill="#a8742a">€</text></g>`},
+ telephone:{fr:'le téléphone', svg:`<g class="ph"><rect x="112" y="22" width="76" height="144" rx="14" fill="#3a2e28"/><rect x="120" y="36" width="60" height="106" rx="6" fill="#a9d3ea"/>
+   <path d="M132 66 h36 M132 84 h24 M132 102 h30" stroke="#fffaf0" stroke-width="7" stroke-linecap="round"/><circle cx="150" cy="154" r="5" fill="#9aa3a8"/></g>
+   <g class="wv" stroke="#d9774b" stroke-width="7" fill="none" stroke-linecap="round"><path d="M92 64 q-14 30 0 60"/><path d="M70 50 q-22 44 0 88"/><path d="M208 64 q14 30 0 60"/><path d="M230 50 q22 44 0 88"/></g>`},
+ sommeil:{fr:'le sommeil', svg:`<rect x="40" y="76" width="20" height="96" rx="7" fill="#a8724e" ${K}/><rect x="242" y="104" width="20" height="68" rx="7" fill="#a8724e" ${K}/>
+   <rect x="46" y="118" width="212" height="40" rx="10" fill="#f4ead6" ${K}/><ellipse cx="88" cy="110" rx="30" ry="15" fill="#fffaf0" ${K}/>
+   <path d="M64 124 C110 84 200 92 252 122 L252 140 H64Z" fill="#d9774b" ${K}/>
+   <path d="M232 22 a30 30 0 1 0 24 46 a24 24 0 1 1 -24 -46Z" fill="#f3c96b" stroke="#3a2e28" stroke-width="4"/>
+   ${[[128,84,26],[152,62,32],[178,38,38]].map(([x,y,f])=>`<text class="z" x="${x}" y="${y}" font-family="Nunito" font-weight="800" font-size="${f}" fill="#5d7fa0">Z</text>`).join('')}`},
+ sante:{fr:'la santé', svg:`<path d="M150 172 C68 122 58 60 100 46 C126 38 146 56 150 72 C154 56 174 38 200 46 C242 60 232 122 150 172Z" fill="#f2b6b0" ${K}/>
+   <path class="ecg" d="M36 112 H110 L124 82 L140 142 L156 58 L170 122 L182 112 H264" stroke="#c8443a" stroke-width="8" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="440" stroke-dashoffset="440"/>`},
+ voyage:{fr:'le voyage', svg:`${puff([[70,150,24],[100,140,30],[130,152,22]],'#fffaf0')}${puff([[210,56,20],[236,48,24],[258,60,18]],'#fffaf0')}
+   <g class="pl"><path d="M128 100 L96 52 L118 52 L170 98Z M128 112 L100 160 L122 160 L170 114Z" fill="#d9774b" ${K}/><path d="M66 104 L50 72 L66 72 L88 100Z" fill="#d9774b" ${K}/>
+   <path d="M58 106 C58 96 70 94 90 94 H220 C246 94 256 100 256 106 C256 112 246 118 220 118 H90 C70 118 58 116 58 106Z" fill="#fffaf0" ${K}/>
+   ${[110,134,158,182,206].map(x=>`<circle cx="${x}" cy="104" r="5" fill="#5d7fa0"/>`).join('')}</g>`},
+ cafe:{fr:'le café', svg:`<ellipse cx="146" cy="178" rx="86" ry="10" fill="#e3d4c1" ${K}/>
+   <path d="M200 100 c34 0 34 44 0 44" fill="none" stroke="#3a2e28" stroke-width="8"/>
+   <path d="M88 84 h116 v52 c0 30 -22 44 -58 44 c-36 0 -58 -14 -58 -44Z" fill="#fbf4e6" ${K}/><rect x="90" y="116" width="112" height="12" fill="#d9774b"/>
+   <ellipse cx="146" cy="84" rx="58" ry="11" fill="#7a4a32" ${K}/>
+   ${[118,146,174].map(x=>`<path class="st" d="M${x} 62 c-10 -14 10 -24 0 -42" stroke="#b5a495" stroke-width="7" fill="none" stroke-linecap="round"/>`).join('')}`},
+ repas:{fr:'le repas', svg:`<path d="M40 56 v100 M30 56 v26 q10 12 20 0 v-26" stroke="#9aa3a8" stroke-width="7" fill="none" stroke-linecap="round"/>
+   <path d="M262 56 q14 32 0 54 v46" stroke="#9aa3a8" stroke-width="8" fill="none" stroke-linecap="round"/>
+   <ellipse cx="150" cy="136" rx="92" ry="36" fill="#fffaf0" ${K}/><ellipse cx="150" cy="130" rx="60" ry="20" fill="#e8b874"/>
+   <circle cx="128" cy="124" r="10" fill="#8fae8b"/><circle cx="164" cy="128" r="9" fill="#c8443a"/><circle cx="148" cy="120" r="7" fill="#7f9f7b"/>
+   ${[126,150,174].map(x=>`<path class="st" d="M${x} 100 c-9 -12 9 -22 0 -38" stroke="#b5a495" stroke-width="6" fill="none" stroke-linecap="round"/>`).join('')}`},
+ sport:{fr:'le sport', svg:`<g class="db"><rect x="70" y="92" width="160" height="16" rx="8" fill="#9aa3a8" stroke="#3a2e28" stroke-width="4"/>
+   ${[[60,62,30,76],[210,62,30,76],[38,72,24,56],[238,72,24,56]].map(([x,y,w,h])=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="8" fill="#3f6b8a" ${K}/>`).join('')}</g>
+   <g class="ml" stroke="#d9774b" stroke-width="6" stroke-linecap="round"><path d="M110 160 v22 M150 156 v28 M190 160 v22"/></g>`},
+ lecture:{fr:'la lecture', svg:`<path d="M150 48 C120 34 70 34 38 44 V166 C70 156 120 156 150 170Z" fill="#fffaf0" ${K}/><path d="M150 48 C180 34 230 34 262 44 V166 C230 156 180 156 150 170Z" fill="#fffaf0" ${K}/>
+   ${[70,92,114,136].map(y=>`<path d="M60 ${y} q40 -8 76 0 M164 ${y} q40 -8 76 0" stroke="#c9bba6" stroke-width="5" fill="none" stroke-linecap="round"/>`).join('')}
+   <path class="pg" d="M150 48 C180 34 230 34 262 44 V166 C230 156 180 156 150 170Z" fill="#f3e3c8" stroke="#3a2e28" stroke-width="4"/>`},
+ etudes:{fr:'les études', svg:`<g class="cap"><path d="M90 104 v42 c30 24 90 24 120 0 v-42 L150 128Z" fill="#4a3a30" ${K}/><path d="M150 38 L272 82 L150 126 L28 82Z" fill="#3a2e28" ${K}/></g>
+   <g class="tas"><path d="M150 82 L232 98 V146" stroke="#f3c96b" stroke-width="6" fill="none" stroke-linecap="round"/><path d="M224 146 h16 l4 24 h-24Z" fill="#f3c96b"/></g>`},
+ famille:{fr:'la famille', svg:`<rect x="196" y="34" width="22" height="44" fill="#a8724e" ${K}/>
+   <rect x="78" y="94" width="144" height="84" fill="#f3d9a4" ${K}/><path d="M60 100 L150 32 L240 100Z" fill="#c8443a" ${K}/>
+   <rect x="132" y="128" width="36" height="50" rx="4" fill="#8a5a3c" ${K}/><rect x="94" y="112" width="28" height="26" fill="#a9d3ea" stroke="#3a2e28" stroke-width="4"/><rect x="178" y="112" width="28" height="26" fill="#a9d3ea" stroke="#3a2e28" stroke-width="4"/>
+   ${[0,1].map(i=>`<circle class="smk" cx="${207+i*10}" cy="${22-i*16}" r="${9+i*3}" fill="#d9d0c2"/>`).join('')}
+   <path class="hrt" d="M150 86 C136 74 140 60 150 68 C160 60 164 74 150 86Z" fill="#e8707e"/>`},
+ amis:{fr:'les amis', svg:`<g class="g1"><path d="M86 52 h56 l-6 76 h-44Z" fill="#f3c96b" fill-opacity=".85" ${K}/><path d="M142 66 c22 0 22 40 -4 40" fill="none" stroke="#3a2e28" stroke-width="6"/><path d="M90 52 c8 -14 44 -14 52 0" fill="#fffaf0" ${K}/></g>
+   <g class="g2"><path d="M158 52 h56 l-6 76 h-44Z" fill="#f3c96b" fill-opacity=".85" ${K}/><path d="M158 66 c-22 0 -22 40 4 40" fill="none" stroke="#3a2e28" stroke-width="6"/><path d="M158 52 c8 -14 44 -14 52 0" fill="#fffaf0" ${K}/></g>
+   <g class="spk">${star4(150,24,14,'#e8a93c')}${star4(122,14,8,'#e8a93c')}${star4(180,12,8,'#e8a93c')}</g>
+   <path d="M60 172 h180" stroke="#c9bba6" stroke-width="6" stroke-linecap="round"/>`},
+ temps:{fr:'le temps', svg:`<circle cx="150" cy="100" r="78" fill="#fffaf0" stroke="#3a2e28" stroke-width="6"/>
+   ${range(12,i=>`<path d="M150 30 V${i%3?38:44}" stroke="#3a2e28" stroke-width="${i%3?4:6}" stroke-linecap="round" transform="rotate(${i*30} 150 100)"/>`)}
+   <path class="hh" d="M150 100 V62" stroke="#3a2e28" stroke-width="9" stroke-linecap="round"/><path class="mh" d="M150 100 V42" stroke="#d9774b" stroke-width="6" stroke-linecap="round"/>
+   <circle cx="150" cy="100" r="8" fill="#3a2e28"/>`},
+ stress:{fr:'le stress', svg:`<g class="cl">${puff([[100,70,34],[150,48,46],[204,70,36],[150,86,34]],'#6b6f80')}</g>
+   <path class="bolt" d="M156 104 L128 150 H152 L140 196 L184 136 H158 L172 104Z" fill="#f3c96b" ${K}/>
+   <g class="scr" stroke="#3a2e28" stroke-width="4" fill="none" stroke-linecap="round"><path d="M48 150 q10 -16 20 0 t20 0"/><path d="M212 160 q10 -16 20 0 t20 0"/></g>`},
+ musique:{fr:'la musique', svg:`<g class="n1"><ellipse cx="86" cy="150" rx="20" ry="14" fill="#3a2e28" transform="rotate(-20 86 150)"/><path d="M104 146 V60 q20 8 30 30" stroke="#3a2e28" stroke-width="7" fill="none" stroke-linecap="round"/></g>
+   <g class="n2"><ellipse cx="170" cy="136" rx="18" ry="13" fill="#d9774b" transform="rotate(-20 170 136)"/><ellipse cx="226" cy="122" rx="18" ry="13" fill="#d9774b" transform="rotate(-20 226 122)"/>
+   <path d="M186 132 V54 L242 40 V118" stroke="#d9774b" stroke-width="7" fill="none" stroke-linejoin="round"/><path d="M186 54 L242 40 L242 54 L186 68Z" fill="#d9774b"/></g>`},
+ paris:{fr:'Paris', svg:`<path d="M146 14 h8 l14 76 l26 82 h-24 c-6 -24 -12 -34 -20 -34 c-8 0 -14 10 -20 34 h-24 l26 -82Z" fill="#8a6a5c" ${K}/>
+   <rect x="126" y="86" width="48" height="10" rx="3" fill="#6e5246"/><rect x="138" y="52" width="24" height="8" rx="3" fill="#6e5246"/>
+   <g class="sp">${star4(70,60,16,'#f3c96b')}${star4(232,46,12,'#f3c96b')}${star4(236,130,16,'#f3c96b')}${star4(66,140,10,'#f3c96b')}</g>`},
+ nature:{fr:'la nature', svg:`<path d="M30 176 h240" stroke="#7f9f7b" stroke-width="8" stroke-linecap="round"/><rect x="138" y="100" width="24" height="76" rx="6" fill="#8a6248" ${K}/>
+   <g class="tree">${puff([[110,90,36],[150,56,46],[194,88,38],[150,104,34]],'#7fa673')}</g>
+   ${[[230,60],[70,40]].map(([x,y])=>`<ellipse class="lf" cx="${x}" cy="${y}" rx="11" ry="6" fill="#d99a4a"/>`).join('')}`},
+ hiver:{fr:"l'hiver", svg:`<g class="sf" stroke="#5d9cd0" stroke-width="8" stroke-linecap="round">${[0,60,120].map(a=>`<path d="M150 30 V170 M136 46 l14 14 l14 -14 M136 154 l14 -14 l14 14" fill="none" transform="rotate(${a} 150 100)"/>`).join('')}</g>
+   ${[[60,40],[240,60],[70,150],[230,160],[110,20]].map(([x,y])=>`<circle class="fl" cx="${x}" cy="${y}" r="7" fill="#a9d3ea"/>`).join('')}`},
+ courses:{fr:'les courses', svg:`<g class="bag"><path d="M196 70 l26 -54" stroke="#d9a35c" stroke-width="14" stroke-linecap="round"/><path d="M122 70 c-6 -40 10 -60 16 -60 c6 0 4 30 -2 60Z" fill="#7f9f7b" ${K}/>
+   <path d="M80 70 h140 l-12 106 h-116Z" fill="#e2c08a" ${K}/><path d="M110 70 c0 -34 80 -34 80 0" fill="none" stroke="#3a2e28" stroke-width="6"/>
+   <rect x="120" y="104" width="60" height="34" rx="6" fill="#fffaf0" stroke="#3a2e28" stroke-width="4"/></g>`},
+ rendezvous:{fr:'le rendez-vous', svg:`<rect x="60" y="30" width="180" height="150" rx="12" fill="#fffaf0" ${K}/><rect x="60" y="30" width="180" height="38" rx="12" fill="#c8443a" ${K}/>
+   ${[100,200].map(x=>`<rect x="${x-6}" y="18" width="12" height="28" rx="6" fill="#3a2e28"/>`).join('')}
+   ${range(15,i=>`<rect x="${78+(i%5)*30}" y="${82+Math.floor(i/5)*30}" width="22" height="18" rx="4" fill="#e3d4c1"/>`)}
+   <circle class="mark" cx="179" cy="121" r="20" fill="none" stroke="#d9774b" stroke-width="6" stroke-dasharray="130" stroke-dashoffset="130" transform="rotate(-90 179 121)"/>`},
+ voiture:{fr:'la voiture', svg:`<g class="road">${range(6,i=>`<rect x="${i*70-20}" y="182" width="40" height="8" rx="4" fill="#c9bba6"/>`)}</g>
+   <g class="car"><path d="M40 140 V118 C40 106 50 100 64 98 L96 92 L122 60 H200 L232 96 C250 98 262 106 262 120 V140Z" fill="#c8443a" ${K}/>
+   <path d="M132 70 H164 V96 H108Z M174 70 H196 L218 96 H174Z" fill="#a9d3ea" stroke="#3a2e28" stroke-width="4"/>
+   ${[90,214].map(x=>`<g class="wh"><circle cx="${x}" cy="148" r="22" fill="#3a2e28"/><circle cx="${x}" cy="148" r="9" fill="#c9cfd4"/><path d="M${x} 139 V157 M${x-9} 148 H${x+9}" stroke="#3a2e28" stroke-width="3"/></g>`).join('')}</g>`},
+};
+function bubbleSVG(type,label,side){
+  const P=[[110,90,62],[200,62,70],[300,52,74],[400,60,70],[490,88,62],[540,170,70],[500,260,62],[400,290,64],[300,296,66],[200,290,64],[110,262,62],[80,175,70]];
+  const tail=side==='lea'?[[150,356,24],[104,398,14]]:[[490,356,24],[536,398,14]];
+  return `<svg class="bub" viewBox="0 0 640 420" width="640" height="420" style="overflow:visible"><g filter="url(#pencil)">
+   <g fill="#3a2e28">${P.map(([x,y,r])=>`<circle cx="${x}" cy="${y}" r="${r+5}"/>`).join('')}</g>
+   <g fill="#fffaf0">${P.map(([x,y,r])=>`<circle cx="${x}" cy="${y}" r="${r}"/>`).join('')}<rect x="90" y="80" width="460" height="200"/></g>
+   ${tail.map(([x,y,r])=>`<circle cx="${x}" cy="${y}" r="${r}" fill="#fffaf0" stroke="#3a2e28" stroke-width="5"/>`).join('')}
+   <g transform="translate(155 ${label?22:50}) scale(1.1)">${ILLUS[type].svg}</g></g>
+   ${label?`<text x="320" y="306" text-anchor="middle" font-family="Playfair Display, Fraunces, serif" font-weight="700" font-size="42" fill="#b8552a">${label}</text>`:''}
+  </svg>`;}
+
+/* ILLUS-RUNTIME-START (chép nguyên văn vào video bởi tools/build.mjs — chỉ dùng gsap, không random) */
+const rp=(d,p)=>Math.max(1,Math.floor(d/p));
+const ILLUS_ANIM={
+ travail:(tl,s,t,d)=>tl.fromTo(s+' .typ',{scaleX:0},{scaleX:1,transformOrigin:'0% 50%',duration:.35,stagger:.3,repeat:rp(d,1.3)-1,repeatDelay:.35,immediateRender:false},t),
+ pluie:(tl,s,t,d)=>tl.fromTo(s+' .rd',{y:0,opacity:1},{y:44,opacity:0,duration:.55,stagger:.09,repeat:rp(d,.6),ease:'power1.in',immediateRender:false},t),
+ soleil:(tl,s,t,d)=>tl.fromTo(s+' .rays',{rotation:0},{rotation:45,transformOrigin:'50% 50%',duration:d,ease:'none',immediateRender:false},t),
+ argent:(tl,s,t,d)=>tl.fromTo(s+' .coin',{scaleX:1},{scaleX:.08,transformOrigin:'50% 50%',duration:.3,yoyo:true,repeat:rp(d,.3)|1,ease:'sine.inOut',immediateRender:false},t),
+ telephone:(tl,s,t,d)=>{ tl.fromTo(s+' .ph',{rotation:-7},{rotation:7,transformOrigin:'50% 80%',duration:.07,yoyo:true,repeat:rp(d,.07)|1,immediateRender:false},t);
+   tl.fromTo(s+' .wv path',{opacity:.15},{opacity:1,duration:.25,stagger:.12,yoyo:true,repeat:rp(d,.5),immediateRender:false},t); },
+ sommeil:(tl,s,t,d)=>tl.fromTo(s+' .z',{y:12,opacity:0},{y:-12,opacity:1,duration:d/2,stagger:.3,yoyo:true,repeat:1,ease:'sine.out',immediateRender:false},t),
+ sante:(tl,s,t,d)=>tl.fromTo(s+' .ecg',{strokeDashoffset:440},{strokeDashoffset:0,duration:1,repeat:rp(d,1.2)-1,repeatDelay:.2,ease:'power1.inOut',immediateRender:false},t),
+ voyage:(tl,s,t,d)=>{ tl.fromTo(s+' .pl',{x:-40,y:10,rotation:-4},{x:40,y:-10,rotation:2,transformOrigin:'50% 50%',duration:d,ease:'sine.inOut',immediateRender:false},t); },
+ cafe:(tl,s,t,d)=>tl.fromTo(s+' .st',{y:8,opacity:0},{y:-14,opacity:.9,duration:.9,stagger:.3,yoyo:true,repeat:rp(d,1.8),ease:'sine.inOut',immediateRender:false},t),
+ repas:(tl,s,t,d)=>tl.fromTo(s+' .st',{y:8,opacity:0},{y:-14,opacity:.9,duration:.9,stagger:.3,yoyo:true,repeat:rp(d,1.8),ease:'sine.inOut',immediateRender:false},t),
+ sport:(tl,s,t,d)=>{ tl.fromTo(s+' .db',{y:0},{y:-34,duration:.45,yoyo:true,repeat:rp(d,.45)|1,ease:'power1.inOut',immediateRender:false},t);
+   tl.fromTo(s+' .ml',{opacity:0},{opacity:1,duration:.45,yoyo:true,repeat:rp(d,.45)|1,immediateRender:false},t); },
+ lecture:(tl,s,t,d)=>tl.fromTo(s+' .pg',{scaleX:1},{scaleX:-1,transformOrigin:'0% 50%',duration:.7,repeat:rp(d,1.2)-1,repeatDelay:.5,ease:'power1.inOut',immediateRender:false},t),
+ etudes:(tl,s,t,d)=>{ tl.fromTo(s+' .tas',{rotation:-8},{rotation:8,transformOrigin:'0% 0%',duration:.5,yoyo:true,repeat:rp(d,.5)|1,ease:'sine.inOut',immediateRender:false},t);
+   tl.fromTo(s+' .cap',{y:0},{y:-8,duration:.5,yoyo:true,repeat:rp(d,.5)|1,ease:'sine.inOut',immediateRender:false},t); },
+ famille:(tl,s,t,d)=>{ tl.fromTo(s+' .hrt',{scale:.8},{scale:1.25,transformOrigin:'50% 50%',duration:.4,yoyo:true,repeat:rp(d,.4)|1,ease:'sine.inOut',immediateRender:false},t);
+   tl.fromTo(s+' .smk',{y:0,opacity:.9},{y:-16,opacity:0,duration:1,stagger:.4,repeat:rp(d,1.2)-1,immediateRender:false},t); },
+ amis:(tl,s,t,d)=>{ tl.fromTo(s+' .g1',{rotation:0},{rotation:12,transformOrigin:'50% 100%',duration:.35,yoyo:true,repeat:rp(d,.7)*2-1,repeatDelay:.35,immediateRender:false},t);
+   tl.fromTo(s+' .g2',{rotation:0},{rotation:-12,transformOrigin:'50% 100%',duration:.35,yoyo:true,repeat:rp(d,.7)*2-1,repeatDelay:.35,immediateRender:false},t);
+   tl.fromTo(s+' .spk',{scale:0,opacity:0},{scale:1,opacity:1,transformOrigin:'50% 50%',duration:.25,yoyo:true,repeat:rp(d,.7)*2-1,repeatDelay:.2,immediateRender:false},t+.3); },
+ temps:(tl,s,t,d)=>{ tl.fromTo(s+' .mh',{rotation:0},{rotation:720,transformOrigin:'50% 100%',duration:d,ease:'none',immediateRender:false},t);
+   tl.fromTo(s+' .hh',{rotation:0},{rotation:60,transformOrigin:'50% 100%',duration:d,ease:'none',immediateRender:false},t); },
+ stress:(tl,s,t,d)=>{ tl.fromTo(s+' .bolt',{opacity:0},{opacity:1,duration:.08,yoyo:true,repeat:rp(d,.5)*2-1,repeatDelay:.35,immediateRender:false},t);
+   tl.fromTo(s+' .cl',{x:-4},{x:4,duration:.08,yoyo:true,repeat:rp(d,.08)|1,immediateRender:false},t); },
+ musique:(tl,s,t,d)=>{ tl.fromTo(s+' .n1',{y:0,rotation:-6},{y:-16,rotation:6,transformOrigin:'50% 100%',duration:.5,yoyo:true,repeat:rp(d,.5)|1,ease:'sine.inOut',immediateRender:false},t);
+   tl.fromTo(s+' .n2',{y:-12,rotation:6},{y:4,rotation:-6,transformOrigin:'50% 100%',duration:.5,yoyo:true,repeat:rp(d,.5)|1,ease:'sine.inOut',immediateRender:false},t); },
+ paris:(tl,s,t,d)=>tl.fromTo(s+' .sp path',{scale:.3,opacity:.2},{scale:1.1,opacity:1,transformOrigin:'50% 50%',duration:.4,stagger:.2,yoyo:true,repeat:rp(d,.8),ease:'sine.inOut',immediateRender:false},t),
+ nature:(tl,s,t,d)=>{ tl.fromTo(s+' .tree',{rotation:-2},{rotation:2,transformOrigin:'50% 100%',duration:.8,yoyo:true,repeat:rp(d,.8)|1,ease:'sine.inOut',immediateRender:false},t);
+   tl.fromTo(s+' .lf',{y:0,x:0,rotation:0},{y:120,x:-30,rotation:200,duration:d,stagger:.4,ease:'sine.inOut',immediateRender:false},t); },
+ hiver:(tl,s,t,d)=>{ tl.fromTo(s+' .sf',{rotation:0},{rotation:90,transformOrigin:'50% 50%',duration:d,ease:'none',immediateRender:false},t);
+   tl.fromTo(s+' .fl',{y:0},{y:40,duration:1,stagger:.2,repeat:rp(d,1)-1,ease:'none',immediateRender:false},t); },
+ courses:(tl,s,t,d)=>tl.fromTo(s+' .bag',{y:0,rotation:0},{y:-12,rotation:3,transformOrigin:'50% 100%',duration:.35,yoyo:true,repeat:rp(d,.35)|1,ease:'sine.inOut',immediateRender:false},t),
+ rendezvous:(tl,s,t,d)=>tl.fromTo(s+' .mark',{strokeDashoffset:130},{strokeDashoffset:0,duration:.8,ease:'power2.out',immediateRender:false},t+.2),
+ voiture:(tl,s,t,d)=>{ tl.fromTo(s+' .road',{x:0},{x:-70,duration:.5,repeat:rp(d,.5)-1,ease:'none',immediateRender:false},t);
+   tl.fromTo(s+' .car',{y:0},{y:-4,duration:.15,yoyo:true,repeat:rp(d,.15)|1,immediateRender:false},t);
+   tl.fromTo(s+' .wh',{rotation:0},{rotation:-720,transformOrigin:'50% 50%',duration:d,ease:'none',immediateRender:false},t); },
+};
+function bubbleTL(tl,s,type,side,t,d){
+  tl.fromTo(s+' .bub',{scale:.4,opacity:0},{scale:1,opacity:1,transformOrigin:side==='lea'?'20% 95%':'80% 95%',duration:.4,ease:'back.out(1.7)',immediateRender:false},t);
+  ILLUS_ANIM[type](tl,s,t+.35,d-.7);
+  tl.to(s+' .bub',{scale:.9,opacity:0,duration:.3,ease:'power2.in'},t+d-.3);
+}
+/* ILLUS-RUNTIME-END */
+
 const STEAM=`<path class="steam" d="M226 344 c-8 -12 8 -20 0 -34" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round" opacity="0"/>
              <path class="steam" d="M244 340 c-8 -12 8 -20 0 -34" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round" opacity="0"/>`;
 const CUP=stripe=>`${STEAM}<ellipse cx="234" cy="358" rx="28" ry="6" fill="#7a4a32"/>
@@ -205,12 +420,13 @@ function leaSVG(k){ const o=OUT_LEA[k]; return `<div class="name">Léa</div>
     <path d="M140 115 C140 82 172 70 202 74 C236 79 250 108 247 145 C245 185 228 210 200 213 C172 216 150 198 145 172 C141 155 140 135 140 115 Z" fill="#f2c6a2"/>
     <ellipse cx="143" cy="154" rx="9" ry="13" fill="#e8b08e"/>
     <circle cx="228" cy="174" r="11" fill="#e8907e" opacity=".5"/><circle cx="168" cy="174" r="9" fill="#e8907e" opacity=".45"/>
-    <path d="M176 128 q10 -6 20 -1 M218 126 q8 -4 16 0" stroke="#5a301f" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <path class="brow" d="M176 128 q10 -6 20 -1 M218 126 q8 -4 16 0" stroke="#5a301f" stroke-width="4" stroke-linecap="round" fill="none"/>
     <ellipse class="eye" cx="186" cy="147" rx="4.5" ry="6" fill="#3a2a24"/><ellipse class="eye" cx="226" cy="145" rx="4" ry="5.5" fill="#3a2a24"/>
     <path d="M240 150 C250 162 248 170 237 171" stroke="#cf8d72" stroke-width="3.5" stroke-linecap="round" fill="none"/>
     <ellipse class="mouth" cx="214" cy="190" rx="9" ry="2.6" fill="#8a3a2c"/>
     <path d="M138 128 C144 84 190 62 232 78 C250 86 258 106 256 122 C240 102 214 94 194 100 C174 106 158 118 138 134 Z" fill="#6b3a26"/>
     <path d="M168 82 C194 72 222 76 242 94" stroke="#8a5236" stroke-width="3" fill="none" stroke-linecap="round"/>
+    ${faceFX('#5a301f')}
     ${o.hat||''}
    </g>
   </g>
@@ -218,6 +434,7 @@ function leaSVG(k){ const o=OUT_LEA[k]; return `<div class="name">Léa</div>
   <path d="M256 285 C278 330 288 380 268 406" stroke="${o.arm2}" stroke-width="42" fill="none" stroke-linecap="round"/>
   ${CUP('#d9774b')}
   <ellipse cx="204" cy="400" rx="14" ry="17" fill="#f2c6a2"/><ellipse cx="266" cy="402" rx="13" ry="16" fill="#eab896"/>
+ ${emoSyms(150)}
  </g></svg>`;}
 
 function matSVG(k){ const o=OUT_MAT[k]; return `<div class="name">Mathieu</div>
@@ -234,18 +451,19 @@ function matSVG(k){ const o=OUT_MAT[k]; return `<div class="name">Mathieu</div>
     <g fill="#2f2420"><circle cx="150" cy="98" r="22"/><circle cx="172" cy="78" r="24"/><circle cx="202" cy="70" r="24"/>
      <circle cx="230" cy="80" r="21"/><circle cx="246" cy="102" r="15"/><circle cx="138" cy="124" r="15"/><circle cx="188" cy="92" r="20"/></g>
     <circle cx="228" cy="176" r="10" fill="#e08a74" opacity=".4"/>
-    <path d="M174 129 q11 -5 22 0 M216 127 q9 -4 18 0" stroke="#2f2420" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <path class="brow" d="M174 129 q11 -5 22 0 M216 127 q9 -4 18 0" stroke="#2f2420" stroke-width="5" stroke-linecap="round" fill="none"/>
     <ellipse class="eye" cx="187" cy="147" rx="4.5" ry="6" fill="#2f2420"/><ellipse class="eye" cx="227" cy="145" rx="4" ry="5.5" fill="#2f2420"/>
     <g stroke="#3a2a24" stroke-width="3.5" fill="none"><circle cx="187" cy="147" r="16"/><circle cx="228" cy="145" r="14"/><path d="M203 146 q6 -5 11 -1 M171 147 L148 142"/></g>
     <path d="M241 150 C252 163 250 171 238 172" stroke="#c4886a" stroke-width="3.5" stroke-linecap="round" fill="none"/>
     <ellipse class="mouth" cx="214" cy="192" rx="9" ry="2.6" fill="#7a3328"/>
+    ${faceFX('#2f2420')}
    </g>
   </g>
   <path d="M116 287 C96 332 94 386 120 410 C148 426 182 420 204 408" stroke="${o.arm}" stroke-width="44" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M258 287 C280 332 290 380 268 406" stroke="${o.arm2}" stroke-width="44" fill="none" stroke-linecap="round"/>
   ${CUP('#8fae8b')}
   <ellipse cx="204" cy="400" rx="15" ry="18" fill="#e8b591"/><ellipse cx="266" cy="402" rx="14" ry="17" fill="#dca684"/>
- </g></g></svg>`;}
+ </g>${emoSyms(282)}</g></svg>`;}
 
 /* ============================================================
    BỐI CẢNH (1920×1080). Bàn luôn ở y=716–762 để tay + cốc khớp.
@@ -620,6 +838,14 @@ function apply(){ cfg.scene=$('#selScene').value; cfg.lea=$('#selLea').value; cf
   try{ history.replaceState(null,'','#scene='+cfg.scene+'&lea='+cfg.lea+'&mat='+cfg.mat); }catch(e){}
   build(cfg); }
 ['#selScene','#selLea','#selMat'].forEach(s=>$(s).onchange=apply);
+fillSel('#selEmo',Object.fromEntries(Object.entries(EMO_TYPES).map(([k,v])=>[k,{label:v}])),'rire');
+let emoTl=null;
+function tryEmo(c){ if(emoTl) emoTl.progress(1).kill(); emoTl=gsap.timeline(); emoteTL(emoTl,c,$('#selEmo').value,0,2.6); }
+$('#emoLea').onclick=()=>tryEmo('#lea'); $('#emoMat').onclick=()=>tryEmo('#mat');
+fillSel('#selIll',Object.fromEntries(Object.entries(ILLUS).map(([k,v])=>[k,{label:v.fr}])),'pluie');
+let illTl=null;
+function tryIll(side){ if(illTl) illTl.progress(1).kill(); const k=$('#selIll').value; $('#bubble').innerHTML=bubbleSVG(k,ILLUS[k].fr,side); illTl=gsap.timeline(); bubbleTL(illTl,'#bubble',k,side,0,3.8); }
+$('#illLea').onclick=()=>tryIll('lea'); $('#illMat').onclick=()=>tryIll('mat');
 $('#rand').onclick=()=>{ $('#selScene').value=pick(Object.keys(SCENES)); $('#selLea').value=pick(Object.keys(OUT_LEA)); $('#selMat').value=pick(Object.keys(OUT_MAT)); apply(); };
 
 build(cfg);

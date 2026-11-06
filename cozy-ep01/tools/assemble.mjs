@@ -3,7 +3,9 @@
 // Inputs (in the project dir):
 //   episode.draft.json   from transcribe.mjs (audio, audioEnd)
 //   work/setup.json      { "scene": "...", "lea": "...", "mat": "..." }
-//   work/parts/*.json    arrays of chunks { who, fr, en } in order (01.json, 02.json, …)
+//   work/parts/*.json    arrays of chunks { who, fr, en, emote?, react?, illus?, label? } in order (01.json, 02.json, …)
+//                        emote = speaker's reaction, react = listener's: rire surpris idee question coeur gene triste fatigue
+//                        illus = illustration bubble type (see ILLUS in demo-animation-style.html), label = its French caption
 //   work/vocab.json      array of { tag, word, ipa, mean, ex, exEn } in the order the [ ] groups appear
 // Output: episode.json, then checks every chunk's words against assets/words.json.
 // Usage : node tools/assemble.mjs
@@ -20,7 +22,7 @@ const chunks = fs.readdirSync(partsDir).filter(f => f.endsWith('.json')).sort().
 const vocab = read('work/vocab.json');
 
 const ep = { scene: setup.scene, lea: setup.lea, mat: setup.mat, audio: draft.audio, audioEnd: draft.audioEnd,
-  chunks: chunks.map(c => ({ who: c.who, fr: c.fr, en: c.en })), vocab };
+  chunks: chunks.map(c => ({ who: c.who, fr: c.fr, en: c.en, ...(c.emote && { emote: c.emote }), ...(c.react && { react: c.react }), ...(c.illus && { illus: c.illus }), ...(c.label && { label: c.label }) })), vocab };
 
 // validate against the transcript before writing
 const W = read('assets/words.json');

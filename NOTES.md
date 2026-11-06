@@ -22,6 +22,11 @@ Claude: đọc file này trước khi sửa gì trong repo.
 - Mỗi tập khoảng **8–15 từ** B1–B2. Thẻ hiện ~4,5 s; nếu 2 từ quá sát nhau (< ~3 s) thì chọn từ khác (ví dụ tập thử đã đổi *déranger* → *il me faudra*).
 - Bộ đếm "Mots clés n / N" góc trái; cuối video có màn "Aujourd'hui, on a appris…" ôn lại các từ.
 
+## Biểu cảm & minh hoạ
+- **Biểu cảm** (8 loại: rire, surpris, idee, question, coeur, gene, triste, fatigue): mặt đổi (mắt, lông mày, miệng, má) + biểu tượng nhỏ ở góc trên đầu, phía ngoài. Đặt bằng `emote`/`react` trong từng đoạn phụ đề.
+- **Bong bóng minh hoạ** (24 chủ đề): giữa phía trên, cùng chỗ thẻ từ nên không bao giờ hiện cùng lúc; có nhãn tiếng Pháp. Đặt bằng `illus` + `label`.
+- Hình + chuyển động nằm trong `demo-animation-style.html` (khối EMOTE-RUNTIME / ILLUS-RUNTIME được build chép nguyên văn vào video). Xem thử bằng nút "Biểu cảm" / "Minh hoạ" trong demo.
+
 ## Quy trình một tập
 Tự động: skill `skills/cozy-french-episode` (người dùng chỉ gửi voice). Bằng tay:
 0. `node tools/new-episode.mjs voice.mp3` (gốc repo) tạo `cozy-epNN/` rồi chạy bước 1.
@@ -31,13 +36,14 @@ Tự động: skill `skills/cozy-french-episode` (người dùng chỉ gửi voi
 
 ## Chi tiết kỹ thuật cần nhớ
 - **Nhận diện người nói** bằng cao độ giọng: Mathieu ~115–170 Hz, Léa ~180–230 Hz; ngưỡng mặc định 175 Hz (`--threshold`). Đây chỉ là đoán — luôn nghe lại các câu nối tiếp (vd. "Et que le repos…" là Léa nói tiếp ý của Mathieu).
-- Whisper trên iMac này chạy ~bằng thời lượng audio (34 s voice ≈ 33 s).
+- Máy: iMac Apple M1. Whisper `large-v3-turbo` (mặc định) ~0,7× thời lượng audio; `medium` chậm hơn. Render HyperFrames (draft) ~2× thời lượng video (42 s → 83 s), tập 20 phút ≈ 40+ phút.
+- Từ vựng: `vocab-help.mjs candidates` (FLELex, CC BY-NC-SA — phi thương mại, chỉ để ở `~/.cache/cozy-french`, không commit) và `vocab-help.mjs ipa` (WikiPron, `data/`).
 - Whisper: `whisper-cli` + model đa ngôn ngữ `ggml-medium.bin`, `-l fr -ml 1 -sow -oj` để có mốc từng chữ. Model không nằm trong repo.
 - `tools/build.mjs` lấy hình nhân vật + bối cảnh từ `../demo-animation-style.html` (nguồn duy nhất). Sửa hình ở file demo, rồi build lại.
 - Chữ trong `episode.json` phải khớp đúng thứ tự chữ trong `words.json` (build báo lỗi nếu lệch).
 - HyperFrames: mọi chuyển động phải seek được (không `Math.random` không seed, không `repeat:-1`). Các cảnh báo còn lại của `check` là cố ý: chữ chưa đọc có tương phản thấp (hiệu ứng karaoke), thẻ từ ~4,4 s.
 
 ## Trạng thái (2026-11-06)
-- 2026-11-06: thêm 4 bối cảnh (chalet, boulangerie, train, quai), `new-episode.mjs`, `assemble.mjs`, skill `cozy-french-episode`; build cảnh báo khi 2 từ vựng < 3 s.
+- 2026-11-06: thêm 4 bối cảnh (chalet, boulangerie, train, quai), `new-episode.mjs`, `assemble.mjs`, skill `cozy-french-episode`; build cảnh báo khi 2 từ vựng < 3 s. Sau đó: model turbo, `vocab-help.mjs` (IPA + cấp độ CEFR), biểu cảm (8) + bong bóng minh hoạ (24).
 - Xong: demo trình duyệt (10 bối cảnh, 10 trang phục), video thử 34 s đầu của voice `4f.mp3` (`cozy-ep01-test-30s.mp4`), script transcribe + build.
 - Chưa làm: nhạc nền / hiệu ứng âm thanh; tự động chia đoạn + dịch + chọn từ vựng cho tập 20 phút (nên để Claude làm từ `episode.draft.json`); intro/outro kênh; thumbnail.

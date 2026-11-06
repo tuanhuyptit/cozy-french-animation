@@ -29,7 +29,10 @@ vm.runInContext(`
   const pick=a=>a[Math.floor(Math.random()*a.length)];
   const rep=d=>Math.ceil(TOTAL/d)+1;
   ${src.slice(a, b)}
-  this.leaSVG=leaSVG; this.matSVG=matSVG; this.SCENES=SCENES;`, sandbox);
+  this.leaSVG=leaSVG; this.matSVG=matSVG; this.SCENES=SCENES; this.EMO_TYPES=EMO_TYPES; this.ILLUS=ILLUS; this.bubbleSVG=bubbleSVG;`, sandbox);
+// emote runtime (EMO_FACE, EMO_ANIM, emoteTL) is copied verbatim into the video script
+const EMO_RUNTIME = src.slice(src.indexOf('/* EMOTE-RUNTIME-START'), src.indexOf('/* EMOTE-RUNTIME-END */'));
+const ILLUS_RUNTIME = src.slice(src.indexOf('/* ILLUS-RUNTIME-START'), src.indexOf('/* ILLUS-RUNTIME-END */'));
 if (!sandbox.SCENES[EP.scene]) throw new Error(`unknown scene "${EP.scene}" (have: ${Object.keys(sandbox.SCENES).join(', ')})`);
 const sceneSVG = sandbox.SCENES[EP.scene].html();
 const leaSVG = sandbox.leaSVG(EP.lea).replace(/<div class="name">[^<]*<\/div>/, '');
@@ -72,6 +75,36 @@ const cards = EP.vocab.map((v, i) => {
 const turns = [];
 chunks.forEach(c => { const l = turns[turns.length - 1]; if (l && l.who === c.who) l.e = c.e; else turns.push({ who: c.who, s: c.s, e: c.e }); });
 
+// emotes: chunk.emote = the speaker's reaction while saying it, chunk.react = the listener's reaction near its end
+const EMO_D = 2.6, EMO_OK = Object.keys(sandbox.EMO_TYPES), emotes = [];
+chunks.forEach((c, i) => {
+  const other = c.who === 'lea' ? 'mat' : 'lea';
+  if (c.emote) emotes.push({ who: c.who, type: c.emote, t: c.s + 0.15, ci: i });
+  if (c.react) emotes.push({ who: other, type: c.react, t: Math.max(c.s + 0.4, c.e - 0.5), ci: i });
+});
+emotes.sort((a, b) => a.t - b.t);
+const lastEmo = {};
+emotes.forEach(e => {
+  if (!EMO_OK.includes(e.type)) throw new Error(`chunk ${e.ci}: unknown emote "${e.type}" (have: ${EMO_OK.join(', ')})`);
+  if (lastEmo[e.who] !== undefined && e.t < lastEmo[e.who] + EMO_D + 0.3) throw new Error(`chunk ${e.ci}: ${e.who} emote starts before the previous one ends (keep ≥ 3 s apart per character)`);
+  if (e.t + EMO_D > RECAP_AT) throw new Error(`chunk ${e.ci}: emote runs into the recap`);
+  lastEmo[e.who] = e.t;
+});
+
+// illustration bubbles: chunk.illus = type, chunk.label = French caption (optional; default from the library)
+const BUB_D = 3.8, bubs = [];
+chunks.forEach((c, i) => {
+  if (!c.illus) return;
+  if (!sandbox.ILLUS[c.illus]) throw new Error(`chunk ${i}: unknown illus "${c.illus}" (have: ${Object.keys(sandbox.ILLUS).join(', ')})`);
+  bubs.push({ type: c.illus, label: c.label ?? sandbox.ILLUS[c.illus].fr, who: c.who, t: c.s + 0.1, ci: i });
+});
+bubs.forEach((b, i) => {
+  const clash = cards.find(c => b.t < c.s + c.d + 0.3 && b.t + BUB_D > c.s - 0.3);
+  if (clash) throw new Error(`chunk ${b.ci}: illustration "${b.type}" overlaps the vocab card "${clash.word}" (same spot on screen) — move it to another chunk`);
+  if (i && b.t < bubs[i - 1].t + BUB_D + 6) throw new Error(`chunk ${b.ci}: illustration only ${(b.t - bubs[i - 1].t).toFixed(1)}s after the previous one (keep ≥ 10 s apart)`);
+  if (b.t + BUB_D > RECAP_AT) throw new Error(`chunk ${b.ci}: illustration runs into the recap`);
+});
+
 const END = Math.max(EP.audioEnd, chunks[chunks.length - 1].hide);
 const RECAP = RECAP_AT, RECAP_D = 5, TOTAL = +(RECAP + RECAP_D).toFixed(2);
 const f = n => (+n).toFixed(3);
@@ -87,6 +120,8 @@ const cardsHTML = cards.map((c, i) => `
       <div class="card"><span class="tag">${esc(c.tag)}</span><div class="word">${esc(c.word)}</div><div class="ipa">${esc(c.ipa)}</div>
       <div class="mean">${esc(c.mean)}</div><div class="ex">${esc(c.ex)}<i>${esc(c.exEn)}</i></div></div>
     </div>`).join('');
+const bubsHTML = bubs.map((b, i) => `
+    <div id="bub${i}" class="clip bubWrap" data-start="${f(b.t)}" data-duration="${f(BUB_D)}" data-track-index="7">${sandbox.bubbleSVG(b.type, esc(b.label), b.who)}</div>`).join('');
 const cntHTML = [0, ...cards.map(c => c.s)].map((s, i, arr) =>
   `<span id="cnt${i}" class="clip cnt" data-start="${f(s)}" data-duration="${f((arr[i + 1] ?? RECAP) - s)}" data-track-index="5">${i}</span>`).join('');
 
@@ -110,6 +145,7 @@ const talk = `<template>
     .subFr .tx{position:relative;font-weight:inherit}
     .subEn{font:600 30px Nunito;color:#7a6a5c;margin-top:8px}
     .cardWrap{position:absolute;left:690px;top:64px;width:540px}
+    .bubWrap{position:absolute;left:640px;top:56px;width:640px;height:420px}
     .card{background:#fffaf0;border-radius:30px;padding:28px 34px;box-shadow:0 14px 0 #0000001a;border:4px solid #3a2e28}
     .card .tag{display:inline-block;font:800 26px Nunito;letter-spacing:.08em;text-transform:uppercase;background:#f3c96b;color:#3a2e28;padding:4px 14px;border-radius:20px}
     .card .word{font:700 58px 'Playfair Display',serif;color:#b8552a;margin:12px 0 2px}
@@ -152,6 +188,7 @@ const talk = `<template>
     <div id="talk-brand"><div id="talk-logo">The Cozy <span>French</span></div>
       <div id="talk-count">Mots clés : <span class="cntBox">${cntHTML}</span> / ${cards.length}</div></div>
     ${cardsHTML}
+    ${bubsHTML}
     ${subsHTML}
     <div id="recap" class="clip" data-start="${f(RECAP)}" data-duration="${f(RECAP_D)}" data-track-index="6">
       <h2 id="recap-title">Aujourd'hui, on a appris…</h2>
@@ -165,6 +202,8 @@ const talk = `<template>
     const TURNS=${JSON.stringify(turns.map(t => ({ who: t.who, s: +f(t.s), e: +f(t.e) })))};
     const CARDS=${JSON.stringify(cards.map(c => ({ s: +f(c.s), d: +f(c.d) })))};
     const SUBS=${JSON.stringify(chunks.map(c => ({ s: +f(c.show), d: +f(c.hide - c.show) })))};
+    const BUBS=${JSON.stringify(bubs.map(b => ({ type: b.type, who: b.who, t: +f(b.t) })))};
+    const EMOTES=${JSON.stringify(emotes.map(e => ({ who: e.who, type: e.type, t: +f(e.t) })))};
     function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296;}}
     const R=mulberry32(42), rnd=(a,b)=>a+R()*(b-a), rep=d=>Math.ceil(TOTAL/d)+1;
     const q=s=>Array.from(document.querySelectorAll(s));
@@ -218,6 +257,14 @@ const talk = `<template>
     });
     SUBS.forEach((s,i)=>tl.fromTo('#sub'+i+' .subBox',{y:26,opacity:0},{y:0,opacity:1,duration:.25,ease:'back.out(2)'},s.s));
 
+    // ---- emotes ----
+    ${EMO_RUNTIME}
+    EMOTES.forEach(e=>emoteTL(tl,'#talk-'+e.who,e.type,e.t,${EMO_D}));
+
+    // ---- illustration bubbles ----
+    ${ILLUS_RUNTIME}
+    BUBS.forEach((b,i)=>bubbleTL(tl,'#bub'+i,b.type,b.who,b.t,${BUB_D}));
+
     // ---- vocab cards ----
     CARDS.forEach((c,i)=>{
       const el='#card'+i+' .card';
@@ -267,4 +314,4 @@ const index = `<!doctype html>
 </html>
 `;
 fs.writeFileSync(path.join(ROOT, 'index.html'), index);
-console.log(`built: ${chunks.length} subtitle chunks, ${words.length} words, ${cards.length} cards, ${turns.length} turns, total ${TOTAL}s`);
+console.log(`built: ${chunks.length} subtitle chunks, ${words.length} words, ${cards.length} cards, ${emotes.length} emotes, ${bubs.length} illustrations, ${turns.length} turns, total ${TOTAL}s`);

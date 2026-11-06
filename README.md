@@ -8,11 +8,12 @@ Animated podcast template for learning French (B1–B2): word-synced karaoke sub
 
 | Đường dẫn | Là gì |
 |---|---|
-| `demo-animation-style.html` | Bản xem trước tương tác: 10 bối cảnh, 5 bộ trang phục mỗi nhân vật. Mở bằng trình duyệt. |
+| `demo-animation-style.html` | Bản xem trước tương tác: 10 bối cảnh, 5 bộ trang phục mỗi nhân vật, 8 biểu cảm, 24 bong bóng minh hoạ. Mở bằng trình duyệt. |
+| `cozy-ep01/tools/vocab-help.mjs` | Gợi ý từ vựng theo cấp độ CEFR (FLELex) và tra IPA (WikiPron). |
 | `tools/new-episode.mjs` | Tạo thư mục tập mới `cozy-epNN/` từ mẫu `cozy-ep01` và chép lời voice. |
 | `skills/cozy-french-episode/` | Skill Claude Code: gửi voice → Claude tự làm cả tập. |
 | `cozy-ep01/` | Project HyperFrames của tập thử (34 giây đầu voice). |
-| `cozy-ep01/episode.json` | Cấu hình tập: bối cảnh, trang phục, phụ đề + dịch, từ vựng (đánh dấu bằng `[ ]`). |
+| `cozy-ep01/episode.json` | Cấu hình tập: bối cảnh, trang phục, phụ đề + dịch, từ vựng (đánh dấu bằng `[ ]`), biểu cảm (`emote`/`react`) và minh hoạ (`illus`/`label`) theo từng đoạn. |
 | `cozy-ep01/tools/build.mjs` | Ghép phụ đề / thẻ từ vào mốc thời gian từng chữ, sinh `index.html` + `compositions/talk.html`. |
 | `cozy-ep01-test-30s.mp4` | Video đã xuất. |
 
@@ -26,9 +27,22 @@ Các quyết định đã chốt và trạng thái dự án: xem [NOTES.md](NOTE
 
 ```bash
 brew install node ffmpeg whisper-cpp
-curl -L -o ~/ggml-medium.bin https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-medium.bin
-export WHISPER_MODEL=~/ggml-medium.bin
+curl -L -o ~/ggml-large-v3-turbo.bin https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v3-turbo.bin
 ```
+
+`tools/transcribe.mjs` tự dùng `~/ggml-large-v3-turbo.bin` (nhanh hơn), không có thì dùng `~/ggml-medium.bin`. Đừng đặt `WHISPER_MODEL` trừ khi muốn ép một model khác.
+
+Danh sách cấp độ từ vựng FLELex (tuỳ chọn, để gợi ý từ B1–B2):
+
+```bash
+mkdir -p ~/.cache/cozy-french && cd ~/.cache/cozy-french
+curl -LO https://cental.uclouvain.be/cefrlex/static/resources/fr/FleLex_TT_Beacco.tsv
+curl -LO https://cental.uclouvain.be/cefrlex/static/resources/fr/FleLex_CRF.csv
+```
+
+> FLELex dùng giấy phép **CC BY-NC-SA 4.0 (phi thương mại)** nên không đưa vào repo. Dùng nó cho kênh có kiếm tiền có thể vướng điều khoản "NonCommercial" — tự cân nhắc hoặc hỏi tác giả (CENTAL, UCLouvain). Không có FLELex thì mọi thứ khác vẫn chạy.
+>
+> IPA trong `data/fra_latn_broad.tsv` lấy từ [WikiPron](https://github.com/CUNY-CL/wikipron) (dữ liệu Wiktionary, CC BY-SA).
 
 ## Cài skill (một lần mỗi máy)
 
