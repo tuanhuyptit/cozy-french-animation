@@ -5,9 +5,10 @@
 // Usage  : node tools/build.mjs
 import fs from 'node:fs';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import vm from 'node:vm';
 
-const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
+const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const ART  = path.resolve(ROOT, '../demo-animation-style.html');
 const EP   = JSON.parse(fs.readFileSync(path.join(ROOT, 'episode.json'), 'utf8'));
 const W    = JSON.parse(fs.readFileSync(path.join(ROOT, 'assets/words.json'), 'utf8'));
