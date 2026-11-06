@@ -4,3 +4,6 @@ ep-work/
 **/.hyperframes/
 **/renders/
 *.wav
+**/.thumbnails/
+**/.waveform-cache/
+**/package-lock.json
