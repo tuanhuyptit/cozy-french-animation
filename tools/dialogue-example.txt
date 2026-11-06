@@ -1,0 +1,9 @@
+# Ví dụ kịch bản cho tools/voice-dialogue.mjs
+# Dòng trống = nghỉ lâu hơn. Chỉ dùng các thẻ: [laughter] [sigh] [surprise-oh] [pause 500ms] ...
+
+LÉA: Salut Mathieu ! Tu sais quoi ? J'ai enfin goûté le fameux croissant aux amandes.
+MATHIEU: Ah bon ? [surprise-oh] Et alors, verdict ?
+LÉA: Franchement... c'était incroyable. J'en ai mangé deux !
+MATHIEU: Deux ? [laughter] Léa, tu es impossible. [sigh] Bon, la prochaine fois, tu m'en gardes un.
+
+LÉA: Promis. [pause 400ms] Enfin... peut-être.

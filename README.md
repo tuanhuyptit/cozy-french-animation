@@ -11,6 +11,7 @@ Animated podcast template for learning French (B1–B2): word-synced karaoke sub
 | `demo-animation-style.html` | Bản xem trước tương tác: 10 bối cảnh, 5 bộ trang phục mỗi nhân vật, 8 biểu cảm, 24 bong bóng minh hoạ. Mở bằng trình duyệt. |
 | `cozy-ep01/tools/vocab-help.mjs` | Gợi ý từ vựng theo cấp độ CEFR (FLELex) và tra IPA (WikiPron). |
 | `tools/new-episode.mjs` | Tạo thư mục tập mới `cozy-epNN/` từ mẫu `cozy-ep01` và chép lời voice. |
+| `tools/voice-dialogue.mjs` | Tạo voice hội thoại Léa & Mathieu từ kịch bản chữ bằng VoiceStudio (giọng nhân bản, chạy trên máy). Ví dụ: `tools/dialogue-example.txt`. |
 | `skills/cozy-french-episode/` | Skill Claude Code: gửi voice → Claude tự làm cả tập. |
 | `cozy-ep01/` | Project HyperFrames của tập thử (34 giây đầu voice). |
 | `cozy-ep01/episode.json` | Cấu hình tập: bối cảnh, trang phục, phụ đề + dịch, từ vựng (đánh dấu bằng `[ ]`), biểu cảm (`emote`/`react`) và minh hoạ (`illus`/`label`) theo từng đoạn. |
@@ -51,6 +52,25 @@ ln -s "$PWD/skills/cozy-french-episode" ~/.claude/skills/cozy-french-episode
 ```
 
 Sau đó chỉ cần gửi cho Claude đường dẫn file voice (vd. "làm tập mới từ ~/Downloads/voice.mp3"), Claude sẽ tự chép lời, dịch, chọn từ vựng, chọn bối cảnh và render.
+
+## Tạo voice từ kịch bản (VoiceStudio)
+
+Cần app **VoiceStudio** đang mở (backend `http://127.0.0.1:3900`) với hai profile giọng: `Léa` và `Mathieu`.
+
+```bash
+node tools/voice-dialogue.mjs kichban.txt --out ~/Downloads/voice.mp3
+```
+
+Kịch bản: mỗi dòng `LÉA: ...` hoặc `MATHIEU: ...`; dòng trống = nghỉ lâu hơn; dòng bắt đầu bằng `#` bị bỏ qua.
+Thẻ dùng được: `[laughter]` `[sigh]` `[surprise-oh]` `[surprise-ah]` `[pause]` `[pause 500ms]`. Thẻ khác (`[happy]`, `[excited]`…) sẽ bị đọc thành chữ nên script báo lỗi và dừng.
+Cảm xúc chủ yếu đến từ cách viết: `...`, `!`, câu ngắn.
+
+- Ra `voice.mp3` (-16 LUFS) và `voice.mp3.timeline.json` (ai nói, câu nào, từ giây nào đến giây nào).
+- Từng câu lưu sẵn ở `voice.mp3.lines/`: sửa một câu rồi chạy lại thì chỉ câu đó được tạo lại. `--force` tạo lại tất cả.
+- Tuỳ chọn: `--gap 350` (ms giữa hai câu), `--para-gap 800` (ở dòng trống), `--seed 42`, `--speed 1.0`, `--steps 16` (32 sạch hơn, chậm gấp đôi), `--voice LEA=<profile>`.
+- Tốc độ trên iMac M1: ~20 s cho một câu 3–4 s (đoạn giọng mẫu càng dài càng chậm). Tập 20 phút ≈ 1,5–2 giờ, nên chạy nền.
+
+File ra đưa thẳng vào `node tools/new-episode.mjs` như voice bình thường.
 
 ## Làm một tập mới bằng tay
 
