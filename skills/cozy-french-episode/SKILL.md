@@ -72,6 +72,14 @@ node tools/new-episode.mjs "<đường dẫn voice>"          # chạy ở gốc
 - Bong bóng nằm cùng chỗ với thẻ từ: build báo lỗi nếu trùng thời gian với thẻ hoặc hai bong bóng cách nhau < 10 s → chuyển sang đoạn khác.
 - Cần chủ đề chưa có: vẽ thêm vào `ILLUS` + `ILLUS_ANIM` trong `demo-animation-style.html` (hình 300×200, nét `#3a2e28` dày 5, bảng màu của kênh, chuyển động chỉ dùng gsap, không random), xem trước bằng nút "Minh hoạ" trong demo, rồi báo người dùng đã thêm loại mới.
 
+**Bảng giải thích (bảng ghim gỗ)**: khi một người giải thích một cách nói hoặc hai người đóng vai một tình huống, chuyển sang cảnh bảng ghim (nhân vật thu nhỏ ở hai góc dưới, phụ đề vẫn chạy).
+- Mở ở đoạn đầu: `"board": { "mode": "word", "note": "= giải thích ngắn bằng tiếng Pháp (lấy từ lời thoại)", "icon": "<loại minh hoạ, tuỳ chọn>" }`; đóng ở đoạn cuối: `"boardEnd": true`.
+  - `word`: tờ giấy ghi cụm từ (tự lấy từ thẻ từ vựng nằm trong đoạn, thẻ nhỏ không hiện nữa) + giấy note vàng + ảnh polaroid nếu có `icon`. Có thể ghi đè `word`, `tag`, `ipa`, `mean`, `ex`, `exEn`.
+  - `sketch`: `{ "mode": "sketch", "title": "En situation : …" }` — mỗi câu trong đoạn thành một bong bóng thoại ghim lên bảng (4 bong bóng một trang; câu cùng người bị cắt đôi tự ghép lại).
+- Hai đoạn bảng cách nhau < 1,5 s dùng chung một lần chuyển cảnh (vd. `word` rồi `sketch` ngay sau).
+- Khoảng 6–10 lần mỗi tập 20 phút, mỗi lần 10–40 s. Không đặt bong bóng minh hoạ trong lúc có bảng (build báo lỗi).
+- Trong `work/src*.txt` (nếu viết dạng dòng `who|fr|en|extra`): thêm `B={json}` ở cuối phần extra để mở, `BE` để đóng; `work/convert.mjs` đổi thành `parts/*.json`.
+
 **Bối cảnh + trang phục** → `work/setup.json` `{ "scene": "…", "lea": "…", "mat": "…" }`
 - Bối cảnh: `cafe` (mưa, ấm) · `salon` (tối, đèn) · `parc` (ngày, xanh) · `cuisine` (sáng, gạch xanh) · `biblio` (tối, xanh rêu) · `terrasse` (hoàng hôn, mái nhà tím) · `chalet` (tuyết, lò sưởi, gỗ) · `boulangerie` (sáng, xanh sage, bánh mì) · `train` (tàu chạy, ghế đỏ) · `quai` (sông Seine buổi tối, tím).
 - Ưu tiên bối cảnh hợp chủ đề tập (du lịch → `train`, ăn uống → `boulangerie`/`cuisine`, mùa đông → `chalet`, tâm sự buổi tối → `salon`/`quai`); không trùng 3 tập gần nhất.

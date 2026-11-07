@@ -1,0 +1,73 @@
+lea|Il reste un moment important,|There's one important moment left:
+lea|celui où on réalise qu'on a encore quitté son activité.|the one when you realise you've left your activity again.
+mat|Moi, ma première réaction, c'est parfois de regarder l'heure|My first reaction is sometimes to look at the time
+mat|et de [me fâcher contre] moi-même.|and get angry with myself.|e=gene
+lea|Ça t'aide ?|Does that help?
+mat|Pas beaucoup.|Not much.
+mat|Je passe du temps à commenter ce que je n'ai pas fait.|I spend time commenting on what I haven't done.
+lea|Pour mon album, je me suis simplement demandé où j'en étais.|For my album, I simply asked myself where I was.
+lea|La première page était commencée,|The first page was started,
+lea|j'ai relu le petit texte et j'ai ajouté la date.|I reread the short text and added the date.
+mat|Donc tu as retrouvé une action possible ?|So you found something you could do?
+lea|Oui, et si j'avais oublié,|Yes, and if I'd forgotten,
+lea|j'aurais pu laisser une note avant ma pause.|I could have left a note before my break.
+lea|Prochaine étape, choisir la photo de couverture.|Next step: choosing the cover photo.
+mat|Ça, j'aimerais le faire avec mes documents.|I'd like to do that with my documents.
+mat|Quand je les rouvre le lendemain,|When I reopen them the next day,
+mat|je dois parfois mener une enquête sur mes propres intentions.|I sometimes have to investigate my own intentions.
+lea|Pourquoi ai-je écrit seulement le mot "parapluie" au milieu|Why did I write only the word "umbrella" in the middle|e=question i=pluie:le parapluie
+lea|de ce texte ?|of this text?
+mat|Exactement, et l'auteur n'est jamais disponible pour répondre.|Exactly, and the author is never available to answer.|e=rire
+lea|Une autre expression utile.|Another useful expression.|B={"mode": "word", "note": "= chercher le point où l'on s'est arrêté"}
+lea|[Où est-ce que j'en étais ?]|Where was I?
+lea|On le dit quand on cherche le point où l'on s'est arrêté.|You say it when you're looking for the point where you stopped.
+mat|Où est-ce que j'en étais ?|Where was I?
+mat|Ah oui, je devais terminer ce paragraphe.|Ah yes, I had to finish this paragraph.|BE e=idee
+lea|Pour une conversation aussi, tu en étais où dans ton histoire ?|For a conversation too: where were you in your story?
+mat|À la mouche, je crois.|At the fly, I think.
+mat|Elle est finalement sortie quand j'ai ouvert l'autre fenêtre.|She finally got out when I opened the other window.
+lea|Au moins une invitée a terminé son projet aujourd'hui.|At least one guest finished her project today.|e=rire
+mat|Pour finir, on vous propose de raconter une distraction en trois étapes.|To finish, we suggest you tell a distraction story in three steps.
+mat|Ce que vous vouliez faire,|What you wanted to do,
+mat|ce qui s'est passé et comment vous avez repris.|what happened, and how you got back to it.
+lea|Voici mon exemple.|Here's my example.
+lea|Je voulais préparer un album photo.|I wanted to make a photo album.
+lea|Je me suis [laissée distraire] par mes anciens messages.|I let myself get distracted by my old messages.
+lea|Ensuite, j'ai fermé les messages et j'ai terminé la première page.|Then I closed the messages and finished the first page.
+mat|Vous pouvez aussi parler d'une situation habituelle au présent.|You can also talk about a usual situation in the present tense.
+mat|Quand je travaille, les notifications me distraient.|When I work, notifications distract me.|i=telephone:les notifications
+mat|Alors, je coupe le son pendant un moment.|So I turn off the sound for a while.
+lea|Choisissez une version et préparez vos premières paroles.|Choose a version and prepare your first words.
+lea|"Je voulais" ou "Quand je" ?|"I wanted" or "When I"?
+mat|Si vous cherchez vos mots,|If you're searching for your words,
+mat|vous pouvez faire une pause.|you can pause.
+mat|Vous n'avez pas besoin de parler aussi vite que nous.|You don't need to speak as fast as us.|e=coeur
+lea|Et vous pouvez réutiliser une expression d'aujourd'hui.|And you can reuse an expression from today.
+lea|Avoir la tête ailleurs, perdre le fil,|Having your mind elsewhere, losing the thread,
+lea|remettre à plus tard ou se remettre au travail.|putting things off, or getting back to work.
+mat|Laquelle te ressemble le plus,|Which one is most like you,
+mat|Léa ?|Léa?|e=question
+lea|Aujourd'hui, se remettre au travail.|Today, getting back to work.
+lea|L'album a enfin une couverture.|The album finally has a cover.
+mat|Et ta mère, elle est contente ?|And your mother, is she happy?
+lea|Je ne lui ai pas encore donné.|I haven't given it to her yet.
+lea|Mais j'ai choisi une photo où elle rit.|But I chose a photo where she's laughing.|e=coeur
+lea|Chaque fois que je la regarde,|Every time I look at it,
+lea|j'ai envie de continuer.|I want to keep going.
+mat|C'est une belle raison de revenir à ton projet.|That's a lovely reason to come back to your project.|e=coeur
+lea|Dites-nous en commentaire ce qui vous distrait et ce|Tell us in the comments what distracts you and
+lea|que vous aimeriez retrouver.|what you'd like to get back to.
+lea|Le plaisir de lire, une vraie conversation ou du|The pleasure of reading, a real conversation, or
+lea|temps pour apprendre le français.|time to learn French.|i=etudes:le français
+mat|Et si vous voulez continuer à pratiquer avec nous,|And if you want to keep practising with us,
+mat|abonnez-vous à The Cozy French.|subscribe to The Cozy French.
+mat|On sera heureux de vous retrouver.|We'll be happy to see you again.
+lea|Merci d'avoir partagé ce moment avec nous.|Thank you for sharing this moment with us.|e=coeur
+lea|À très bientôt pour une nouvelle conversation.|See you very soon for a new conversation.
+lea|À bientôt.|See you soon.
+mat|Et Léa, tu peux m'envoyer le lien pour créer un album ?|Oh, Léa, can you send me the link to make an album?
+lea|Oui, tu veux en faire un ?|Yes, do you want to make one?|e=surpris
+mat|Peut-être, mais d'abord, il faut que je ferme la photo de classe.|Maybe, but first I need to close the class photo.
+mat|Je viens de retrouver le nom du professeur de sport.|I've just found the PE teacher's name.|r=rire
+lea|Une seule enquête à la fois,|One investigation at a time,
+lea|Mathieu.|Mathieu.

@@ -1,0 +1,488 @@
+[
+ {
+  "who": "lea",
+  "fr": "Parfois, la distraction vient des autres,",
+  "en": "Sometimes, the distraction comes from other people,"
+ },
+ {
+  "who": "lea",
+  "fr": "même quand ils sont très gentils.",
+  "en": "even when they're very kind."
+ },
+ {
+  "who": "mat",
+  "fr": "Oui, dans un logement partagé,",
+  "en": "Yes, in a shared flat,"
+ },
+ {
+  "who": "mat",
+  "fr": "quelqu'un peut poser une petite question toutes les 5 minutes.",
+  "en": "someone might ask a little question every 5 minutes."
+ },
+ {
+  "who": "lea",
+  "fr": "Et chaque question semble raisonnable,",
+  "en": "And each question seems reasonable,"
+ },
+ {
+  "who": "lea",
+  "fr": "mais à la fin, on n'arrive plus à reprendre ce qu'on faisait.",
+  "en": "but in the end, you can't get back to what you were doing.",
+  "emote": "fatigue"
+ },
+ {
+  "who": "mat",
+  "fr": "On peut expliquer son besoin.",
+  "en": "You can explain what you need.",
+  "board": {
+   "mode": "word",
+   "note": "= 15 minutes",
+   "icon": "temps"
+  }
+ },
+ {
+  "who": "mat",
+  "fr": "Par exemple, je termine quelque chose.",
+  "en": "For example: I'm finishing something."
+ },
+ {
+  "who": "mat",
+  "fr": "Est-ce qu'on peut en parler dans un quart d'heure ?",
+  "en": "Can we talk about it in a quarter of an hour?"
+ },
+ {
+  "who": "lea",
+  "fr": "[Un quart d'heure,] c'est 15 minutes.",
+  "en": "A quarter of an hour is 15 minutes."
+ },
+ {
+  "who": "lea",
+  "fr": "Et annoncer un moment précis peut rendre la demande plus claire.",
+  "en": "And naming a specific time can make the request clearer.",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "On essaie ?",
+  "en": "Shall we try?",
+  "board": {
+   "mode": "sketch",
+   "title": "En situation : demander un moment"
+  }
+ },
+ {
+  "who": "mat",
+  "fr": "Tu veux me demander mon avis sur quelque chose ?",
+  "en": "Do you want to ask my opinion on something?"
+ },
+ {
+  "who": "lea",
+  "fr": "Mathieu, tu préfères la photo où je suis près",
+  "en": "Mathieu, do you prefer the photo where I'm by"
+ },
+ {
+  "who": "lea",
+  "fr": "du lac ou celle où je suis devant la montagne ?",
+  "en": "the lake or the one in front of the mountain?"
+ },
+ {
+  "who": "mat",
+  "fr": "J'ai envie de regarder, mais je termine ce message.",
+  "en": "I'd like to look, but I'm finishing this message."
+ },
+ {
+  "who": "mat",
+  "fr": "Tu peux me laisser 10 minutes ?",
+  "en": "Can you give me 10 minutes?"
+ },
+ {
+  "who": "lea",
+  "fr": "D'accord, je reviens après.",
+  "en": "OK, I'll come back later."
+ },
+ {
+  "who": "mat",
+  "fr": "Et 10 minutes plus tard,",
+  "en": "And 10 minutes later,"
+ },
+ {
+  "who": "mat",
+  "fr": "je regarde vraiment les photos.",
+  "en": "I really do look at the photos.",
+  "boardEnd": true
+ },
+ {
+  "who": "mat",
+  "fr": "Sinon, ma demande [finit par] ressembler à une manière de t'éviter.",
+  "en": "Otherwise, my request ends up looking like a way to avoid you.",
+  "emote": "gene"
+ },
+ {
+  "who": "lea",
+  "fr": "Oui, et de mon côté,",
+  "en": "Yes, and on my side,"
+ },
+ {
+  "who": "lea",
+  "fr": "si c'est urgent, je peux le préciser.",
+  "en": "if it's urgent, I can say so."
+ },
+ {
+  "who": "lea",
+  "fr": "J'ai besoin de ta réponse maintenant.",
+  "en": "I need your answer now."
+ },
+ {
+  "who": "lea",
+  "fr": "La commande ferme dans 2 minutes.",
+  "en": "The order closes in 2 minutes."
+ },
+ {
+  "who": "mat",
+  "fr": "Là, je comprends mieux la situation.",
+  "en": "Now I understand the situation better.",
+  "emote": "idee"
+ },
+ {
+  "who": "mat",
+  "fr": "On peut décider ensemble.",
+  "en": "We can decide together."
+ },
+ {
+  "who": "lea",
+  "fr": "Essayez de répéter.",
+  "en": "Try repeating."
+ },
+ {
+  "who": "lea",
+  "fr": "Je termine quelque chose.",
+  "en": "I'm finishing something."
+ },
+ {
+  "who": "lea",
+  "fr": "On peut en parler dans 10 minutes ?",
+  "en": "Can we talk about it in 10 minutes?"
+ },
+ {
+  "who": "mat",
+  "fr": "Une phrase calme peut déjà aider à protéger un petit moment.",
+  "en": "One calm sentence can already help protect a little moment."
+ },
+ {
+  "who": "mat",
+  "fr": "Et on a le droit de s'arrêter aussi.",
+  "en": "And we're allowed to stop, too."
+ },
+ {
+  "who": "mat",
+  "fr": "Je le précise parce que parfois,",
+  "en": "I'm saying this because sometimes"
+ },
+ {
+  "who": "mat",
+  "fr": "je reste devant mon écran simplement pour [avoir l'air occupé.]",
+  "en": "I stay in front of my screen just to look busy."
+ },
+ {
+  "who": "lea",
+  "fr": "Tu lis la même ligne plusieurs fois ?",
+  "en": "You read the same line several times?",
+  "emote": "question"
+ },
+ {
+  "who": "mat",
+  "fr": "Oui, à la troisième lecture,",
+  "en": "Yes, by the third reading,"
+ },
+ {
+  "who": "mat",
+  "fr": "je connais les mots.",
+  "en": "I know the words."
+ },
+ {
+  "who": "mat",
+  "fr": "À la quatrième, je commence à reconnaître la police",
+  "en": "By the fourth, I start to recognise the font"
+ },
+ {
+  "who": "mat",
+  "fr": "de caractère personnellement.",
+  "en": "personally.",
+  "react": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Quand ça m'arrive, j'aime me lever,",
+  "en": "When that happens to me, I like to get up,"
+ },
+ {
+  "who": "lea",
+  "fr": "boire de l'eau ou sortir quelques minutes.",
+  "en": "drink some water or go out for a few minutes."
+ },
+ {
+  "who": "lea",
+  "fr": "Selon la journée, ça me fait du bien.",
+  "en": "Depending on the day, it does me good."
+ },
+ {
+  "who": "mat",
+  "fr": "Moi, j'aime bouger un peu les épaules.",
+  "en": "I like to move my shoulders a bit."
+ },
+ {
+  "who": "mat",
+  "fr": "Je découvre souvent que j'étais installé comme une crevette.",
+  "en": "I often find I've been sitting like a shrimp."
+ },
+ {
+  "who": "lea",
+  "fr": "Une crevette très professionnelle.",
+  "en": "A very professional shrimp.",
+  "emote": "rire"
+ },
+ {
+  "who": "mat",
+  "fr": "Avec une adresse électronique et beaucoup de responsabilités.",
+  "en": "With an email address and lots of responsibilities."
+ },
+ {
+  "who": "lea",
+  "fr": "Pour annoncer une pause, on dit \"Je fais une petite pause\".",
+  "en": "To announce a break, you say, \"I'm taking a little break.\"",
+  "board": {
+   "mode": "word",
+   "note": "= recommencer après un arrêt",
+   "icon": "travail"
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "Et quand on revient, \"Allez,",
+  "en": "And when you come back: \"Right,"
+ },
+ {
+  "who": "lea",
+  "fr": "je m'y remets\".",
+  "en": "back to it.\""
+ },
+ {
+  "who": "mat",
+  "fr": "[Se remettre à] quelque chose,",
+  "en": "To get back to something"
+ },
+ {
+  "who": "mat",
+  "fr": "c'est recommencer après un arrêt.",
+  "en": "means starting again after a stop."
+ },
+ {
+  "who": "mat",
+  "fr": "\"Je me remets au travail\" ou \"Je me remets à lire\".",
+  "en": "\"I'm getting back to work\" or \"I'm getting back to reading.\"",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "On peut aussi avoir besoin d'une vraie fin de journée.",
+  "en": "You may also need a proper end to the day."
+ },
+ {
+  "who": "lea",
+  "fr": "Si je suis épuisée, rester encore longtemps devant mon",
+  "en": "If I'm exhausted, staying a long time in front of my"
+ },
+ {
+  "who": "lea",
+  "fr": "projet ne m'aide pas forcément.",
+  "en": "project doesn't necessarily help.",
+  "emote": "fatigue"
+ },
+ {
+  "who": "mat",
+  "fr": "Il y a des jours où je peux modifier mon programme.",
+  "en": "There are days when I can change my plans."
+ },
+ {
+  "who": "mat",
+  "fr": "D'autres où j'ai une obligation.",
+  "en": "Others when I have an obligation."
+ },
+ {
+  "who": "mat",
+  "fr": "Dans ce cas, je regarde ce qui est vraiment",
+  "en": "In that case, I look at what's really"
+ },
+ {
+  "who": "mat",
+  "fr": "nécessaire et ce qui peut t'attendre.",
+  "en": "necessary and what can wait."
+ },
+ {
+  "who": "lea",
+  "fr": "Et un loisir peut très bien prendre toute notre attention.",
+  "en": "And a hobby can perfectly well take all our attention."
+ },
+ {
+  "who": "lea",
+  "fr": "Je n'ai pas besoin de transformer chaque moment calme",
+  "en": "I don't need to turn every quiet moment"
+ },
+ {
+  "who": "lea",
+  "fr": "en séance de travail.",
+  "en": "into a work session."
+ },
+ {
+  "who": "mat",
+  "fr": "Heureusement, j'aime écouter de la musique",
+  "en": "Luckily, I like listening to music",
+  "illus": "musique",
+  "label": "la musique"
+ },
+ {
+  "who": "mat",
+  "fr": "sans devoir produire un compte rendu.",
+  "en": "without having to write a report.",
+  "react": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Parlons justement de votre écoute.",
+  "en": "Speaking of which, let's talk about your listening."
+ },
+ {
+  "who": "lea",
+  "fr": "Si vous faites la cuisine en ce moment,",
+  "en": "If you're cooking right now,"
+ },
+ {
+  "who": "lea",
+  "fr": "vous avez peut-être suivi l'histoire tout en coupant vos légumes.",
+  "en": "maybe you followed the story while chopping your vegetables."
+ },
+ {
+  "who": "mat",
+  "fr": "Et vous avez peut-être manqué une expression.",
+  "en": "And maybe you missed an expression."
+ },
+ {
+  "who": "mat",
+  "fr": "Ça arrive aussi quand on écoute dans sa langue maternelle.",
+  "en": "That happens in your native language, too."
+ },
+ {
+  "who": "lea",
+  "fr": "Vous pouvez revenir plus tard sur un court passage qui vous intéresse.",
+  "en": "You can come back later to a short passage that interests you."
+ },
+ {
+  "who": "lea",
+  "fr": "Par exemple, notre demande pour avoir 10 minutes de calme.",
+  "en": "For example, our request for 10 minutes of quiet."
+ },
+ {
+  "who": "mat",
+  "fr": "Écoutez la question, puis essayez de répondre avant moi.",
+  "en": "Listen to the question, then try to answer before me."
+ },
+ {
+  "who": "mat",
+  "fr": "Ça donne un petit objectif concret à l'écoute.",
+  "en": "It gives your listening a small, concrete goal."
+ },
+ {
+  "who": "lea",
+  "fr": "On fait un essai maintenant.",
+  "en": "Let's try it now."
+ },
+ {
+  "who": "lea",
+  "fr": "Mathieu, qu'est-ce qui te distrait quand tu lis ?",
+  "en": "Mathieu, what distracts you when you read?",
+  "illus": "lecture",
+  "label": "tu lis"
+ },
+ {
+  "who": "mat",
+  "fr": "Les conversations autour de moi.",
+  "en": "Conversations around me."
+ },
+ {
+  "who": "mat",
+  "fr": "J'ai du mal à lire quand plusieurs personnes parlent.",
+  "en": "I find it hard to read when several people are talking."
+ },
+ {
+  "who": "lea",
+  "fr": "Et qu'est-ce que tu fais ?",
+  "en": "And what do you do?"
+ },
+ {
+  "who": "mat",
+  "fr": "Si je peux, je cherche un endroit plus calme.",
+  "en": "If I can, I look for a quieter spot."
+ },
+ {
+  "who": "mat",
+  "fr": "Sinon, je garde mon livre pour un autre moment.",
+  "en": "Otherwise, I save my book for another time."
+ },
+ {
+  "who": "lea",
+  "fr": "À vous !",
+  "en": "Your turn!"
+ },
+ {
+  "who": "lea",
+  "fr": "Qu'est-ce qui vous distrait pendant une activité que vous aimez ?",
+  "en": "What distracts you during an activity you enjoy?"
+ },
+ {
+  "who": "mat",
+  "fr": "Et qu'est-ce que vous faites dans cette situation ?",
+  "en": "And what do you do in that situation?"
+ },
+ {
+  "who": "lea",
+  "fr": "Vous pouvez relier les deux réponses.",
+  "en": "You can link the two answers."
+ },
+ {
+  "who": "lea",
+  "fr": "Le bruit me distrait, alors je ferme la porte.",
+  "en": "Noise distracts me, so I close the door."
+ },
+ {
+  "who": "lea",
+  "fr": "Le mot \"alors\" introduit ici ce que vous faites en conséquence.",
+  "en": "Here, the word \"alors\" introduces what you do as a result."
+ },
+ {
+  "who": "mat",
+  "fr": "Je pense à mes courses,",
+  "en": "I think about my shopping,",
+  "illus": "courses",
+  "label": "mes courses"
+ },
+ {
+  "who": "mat",
+  "fr": "alors je les note pour plus tard.",
+  "en": "so I write it down for later."
+ },
+ {
+  "who": "lea",
+  "fr": "Ou je suis fatiguée, alors je fais une pause.",
+  "en": "Or: I'm tired, so I take a break."
+ },
+ {
+  "who": "mat",
+  "fr": "Trois petites phrases, trois situations différentes.",
+  "en": "Three little sentences, three different situations."
+ },
+ {
+  "who": "mat",
+  "fr": "Pas besoin d'une explication compliquée.",
+  "en": "No need for a complicated explanation."
+ }
+]

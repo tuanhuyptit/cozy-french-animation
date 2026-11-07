@@ -1,0 +1,15 @@
+[
+ {"tag":"expression","word":"libérer de la place","ipa":"/li.be.ʁe də la plas/","mean":"to free up space","ex":"J'ai vidé le placard pour libérer de la place.","exEn":"I emptied the cupboard to free up some space."},
+ {"tag":"expression","word":"remettre à plus tard","ipa":"/ʁə.mɛtʁ a ply taʁ/","mean":"to put off, to postpone","ex":"Il remet toujours ses devoirs à plus tard.","exEn":"He always puts off his homework."},
+ {"tag":"expression","word":"avoir du mal à","ipa":"/a.vwaʁ dy mal a/","mean":"to have trouble (doing something)","ex":"J'ai du mal à me lever le lundi.","exEn":"I have trouble getting up on Mondays."},
+ {"tag":"expression","word":"avoir la tête ailleurs","ipa":"/a.vwaʁ la tɛt a.jœʁ/","mean":"to have your mind elsewhere","ex":"Pardon, j'ai la tête ailleurs ce matin.","exEn":"Sorry, my mind is elsewhere this morning."},
+ {"tag":"expression","word":"perdre le fil","ipa":"/pɛʁdʁ lə fil/","mean":"to lose the thread","ex":"Le film était si long que j'ai perdu le fil.","exEn":"The film was so long that I lost the thread."},
+ {"tag":"connecteur","word":"pour l'instant","ipa":"/puʁ lɛ̃s.tɑ̃/","mean":"for now, for the moment","ex":"Pour l'instant, tout va bien.","exEn":"For now, everything is fine."},
+ {"tag":"nom masculin","word":"un quart d'heure","ipa":"/œ̃ kaʁ dœʁ/","mean":"a quarter of an hour","ex":"Le bus arrive dans un quart d'heure.","exEn":"The bus arrives in a quarter of an hour."},
+ {"tag":"verbe","word":"finir par","ipa":"/fi.niʁ paʁ/","mean":"to end up (doing)","ex":"Elle a fini par accepter l'invitation.","exEn":"She ended up accepting the invitation."},
+ {"tag":"expression","word":"avoir l'air","ipa":"/a.vwaʁ lɛʁ/","mean":"to look, to seem","ex":"Tu as l'air fatigué aujourd'hui.","exEn":"You look tired today."},
+ {"tag":"verbe","word":"se remettre à","ipa":"/sə ʁə.mɛtʁ a/","mean":"to get back to (doing)","ex":"Après les vacances, je me remets au sport.","exEn":"After the holidays, I'm getting back into sport."},
+ {"tag":"verbe","word":"se fâcher contre","ipa":"/sə fa.ʃe kɔ̃tʁ/","mean":"to get angry with","ex":"Ne te fâche pas contre ton frère.","exEn":"Don't get angry with your brother."},
+ {"tag":"expression","word":"où est-ce que j'en étais ?","ipa":"/u ɛs kə ʒɑ̃.n‿e.tɛ/","mean":"where was I?","ex":"Désolé pour l'interruption, où est-ce que j'en étais ?","exEn":"Sorry for the interruption, where was I?"},
+ {"tag":"verbe","word":"se laisser distraire","ipa":"/sə lɛ.se dis.tʁɛʁ/","mean":"to let yourself get distracted","ex":"Il se laisse distraire par le moindre bruit.","exEn":"He lets himself get distracted by the slightest noise."}
+]

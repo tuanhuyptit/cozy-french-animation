@@ -1,0 +1,105 @@
+lea|Mais il y a un moment où mes distractions|But there's one moment when my distractions
+lea|me gênent particulièrement,|bother me in particular:
+lea|quand je suis avec quelqu'un.|when I'm with someone.
+mat|Quand tu regardes ton téléphone pendant une conversation ?|When you look at your phone during a conversation?
+lea|Parfois.|Sometimes.
+lea|Mais même sans téléphone, je peux penser à ma|But even without a phone, I can be thinking about my
+lea|réponse au lieu d'écouter la fin de la phrase.|answer instead of listening to the end of the sentence.
+mat|Je connais ça.|I know that feeling.
+mat|Quelqu'un me raconte ses vacances et je prépare déjà|Someone tells me about their holiday and I'm already preparing
+mat|mon histoire de vacances.|my own holiday story.
+mat|Pendant ce temps, je rate une partie de la sienne.|Meanwhile, I miss part of theirs.|e=gene
+lea|L'autre jour, une amie me parlait|The other day, a friend was telling me|i=travail:son travail
+lea|d'un changement dans son travail.|about a change at her work.
+lea|Je pensais à mon train,|I was thinking about my train,
+lea|à mon sac, à l'heure.|my bag, the time.
+lea|J'ai répondu "Ah, super !"|I answered, "Oh, great!"
+mat|Et ce n'était pas super ?|And it wasn't great?|e=question
+lea|Elle venait de dire que sa collègue préférée partait.|She'd just said her favourite colleague was leaving.|e=triste
+lea|Alors j'ai dû reconnaître que je n'avais pas bien écouté.|So I had to admit I hadn't really been listening.
+mat|Tu lui as dit quoi ?|What did you say to her?
+lea|Excuse-moi, j'avais [la tête ailleurs.]|Sorry, my mind was elsewhere.|B={"mode": "word", "note": "= penser à autre chose que la situation présente"}
+lea|Tu peux me redire ce qui s'est passé ?|Can you tell me again what happened?
+lea|Avoir la tête ailleurs.|To have your mind elsewhere.
+mat|C'est penser à autre chose que la situation présente.|It means thinking about something other than what's happening now.
+mat|C'est une expression très courante.|It's a very common expression.|BE
+lea|Et mon amie a repris.|And my friend started again.
+lea|C'était un peu gênant pendant quelques secondes.|It was a bit awkward for a few seconds.|e=gene
+lea|Mais ensuite, notre conversation était beaucoup plus agréable.|But afterwards, our conversation was much nicer.
+mat|C'est utile quand on apprend le français aussi.|It's useful when you're learning French, too.
+mat|On peut dire "Pardon, j'ai perdu le fil.|You can say, "Sorry, I lost the thread.|B={"mode": "word", "note": "= ne plus suivre une conversation ou une explication"}
+mat|Tu peux reprendre ?"|Can you go back?"
+lea|[Perdre le fil,]|To lose the thread
+lea|c'est ne plus suivre une conversation ou une explication.|means no longer following a conversation or an explanation.
+lea|On ne sait plus très bien où on en est.|You're not quite sure where you are anymore.|BE
+mat|Tu peux nous donner un exemple ?|Can you give us an example?|B={"mode": "sketch", "title": "En situation : perdre le fil"}
+lea|Bien sûr, tu me racontes comment tu as réparé ton vélo.|Sure. You're telling me how you fixed your bike.
+lea|Quelqu'un m'appelle.|Someone calls me.
+lea|Quand je reviens, je dis "J'ai perdu le fil,|When I come back, I say, "I lost the thread,
+lea|tu parlais de la roue ?"|were you talking about the wheel?"
+mat|Et je réponds "Oui,|And I answer, "Yes,
+mat|mais maintenant, on parle du frein.|but now we're talking about the brake.
+mat|Une grande aventure mécanique."|A great mechanical adventure."|BE r=rire
+mat|Pour ton album,|For your album,
+mat|qu'est-ce qui t'a finalement aidé ?|what helped you in the end?
+lea|J'ai fermé les anciens messages et je me suis posé une question.|I closed the old messages and asked myself a question.
+lea|Qu'est-ce que je veux avoir terminé|What do I want to have finished
+lea|avant de fermer mon ordinateur ?|before I close my computer?
+lea|L'album entier ?|The whole album?
+lea|Au début, oui.|At first, yes.
+lea|Puis, j'ai regardé l'heure|Then I looked at the time
+lea|et j'ai choisi seulement la première page.|and chose only the first page.
+lea|Une photo de ma mère et un petit texte.|A photo of my mother and a short text.
+mat|Là, tu savais ce que tu cherchais.|Then you knew what you were looking for.|e=idee
+lea|Exactement, je pouvais regarder une photo et me demander|Exactly, I could look at a photo and ask myself,
+lea|"Est-ce qu'elle convient pour cette page ?"|"Does it work for this page?"
+lea|Ça m'a aidé à décider.|That helped me decide.
+mat|Moi, je fais quelque chose de semblable avant de|I do something similar before
+mat|préparer un repas un peu long.|cooking a slightly long meal.|i=repas:un repas
+mat|Je lis toute la recette|I read the whole recipe,
+mat|puis je commence par une action précise.|then I start with one specific action.
+lea|Comme couper les légumes ?|Like chopping the vegetables?
+mat|Oui !|Yes!
+mat|Sinon, je sors une casserole,|Otherwise, I take out a pan,
+mat|je pense à la sauce,|I think about the sauce,
+mat|je cherche une épice et les oignons attendent toujours.|I look for a spice, and the onions are still waiting.
+lea|Ils sont polis, les oignons.|They're polite, those onions.|e=rire
+mat|Très !|Very!
+mat|Mais ensuite, ils me font pleurer.|But then they make me cry.|e=triste
+lea|Pour parler de ce choix,|To talk about this choice,|B={"mode": "word", "note": "= c'est cette activité qui compte maintenant"}
+lea|on peut dire ["Pour l'instant,]|you can say, "For now,
+lea|je m'occupe de ça".|I'm dealing with this."
+lea|Ça veut dire "C'est cette activité qui compte maintenant".|It means, "This is the activity that matters right now."
+mat|Pour l'instant, je m'occupe de l'introduction.|For now, I'm working on the introduction.
+mat|Je corrigerai la mise en page après.|I'll fix the layout afterwards.|BE
+lea|Ou "Aujourd'hui, je veux comprendre ce dialogue,|Or, "Today, I want to understand this dialogue,
+lea|je chercherai les mots nouveaux ensuite".|I'll look up the new words afterwards."
+mat|J'aime bien cette permission de laisser certaines choses pour après.|I like this permission to leave some things for later.|e=coeur
+mat|Sinon, j'essaie de tout faire en même temps.|Otherwise, I try to do everything at once.
+lea|Et quand une idée te vient pendant que tu travailles ?|And when an idea comes to you while you're working?|e=question
+mat|Ça dépend.|It depends.
+mat|Si je me rappelle qu'il faut acheter du pain,|If I remember I need to buy bread,|i=courses:du pain
+mat|je peux avoir envie de passer tout de suite une commande,|I might want to place an order right away,
+mat|puis je regarde les autres produits.|then I look at the other products.
+lea|Et ton document reste ouvert derrière les yaourts.|And your document stays open behind the yoghurts.|e=rire
+mat|Exactement !|Exactly!
+mat|Alors maintenant, quand c'est possible,|So now, when I can,
+mat|je note juste "Pain" sur une feuille près de moi.|I just write "Bread" on a sheet of paper next to me.
+lea|Pour y revenir plus tard ?|To come back to it later?
+mat|Oui, je sais que je ne vais pas forcément m'en occuper immédiatement,|Yes, I know I won't necessarily deal with it right away,
+mat|mais je n'ai pas besoin de garder cette idée dans ma tête.|but I don't need to keep that idea in my head.
+lea|Je fais ça quand je prépare un message important.|I do that when I'm writing an important message.
+lea|Si je pense à une autre personne à contacter,|If I think of someone else to contact,
+lea|je note son prénom sans ouvrir une nouvelle conversation.|I write down their name without opening a new chat.
+mat|Évidemment, si quelque chose est urgent,|Of course, if something is urgent,
+mat|on s'en occupe.|you deal with it.
+mat|La feuille ne décide pas à notre place.|The sheet of paper doesn't decide for us.
+lea|Heureusement, je n'aimerais pas travailler pour une feuille aussi autoritaire.|Luckily, I wouldn't like to work for such a bossy sheet of paper.|e=rire
+mat|On pourrait écrire "À voir plus tard".|We could write "To look at later."
+lea|C'est simple et utile.|It's simple and useful.
+mat|"À voir plus tard", réservation, facture,|"To look at later": booking, bill,
+mat|cadeau de Paul.|Paul's present.
+lea|Et si le cadeau de Paul devient urgent parce|And what if Paul's present becomes urgent because
+lea|que son anniversaire est ce soir ?|his birthday is tonight?|e=question
+mat|Alors Paul passe avant la feuille.|Then Paul comes before the sheet of paper.
+mat|Et je choisis une librairie près de chez lui.|And I pick a bookshop near his place.

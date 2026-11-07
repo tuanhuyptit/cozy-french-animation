@@ -1,0 +1,616 @@
+[
+ {
+  "who": "lea",
+  "fr": "Bonjour à toutes et à tous,",
+  "en": "Hello everyone,"
+ },
+ {
+  "who": "lea",
+  "fr": "bienvenue sur The Cozy French,",
+  "en": "welcome to The Cozy French,"
+ },
+ {
+  "who": "lea",
+  "fr": "votre petit rendez-vous pour écouter le français,",
+  "en": "your little get-together for listening to French,"
+ },
+ {
+  "who": "lea",
+  "fr": "découvrir des expressions du quotidien et pratiquer avec nous.",
+  "en": "discovering everyday expressions and practising with us."
+ },
+ {
+  "who": "lea",
+  "fr": "Moi c'est Léa.",
+  "en": "I'm Léa."
+ },
+ {
+  "who": "mat",
+  "fr": "Et moi c'est Mathieu.",
+  "en": "And I'm Mathieu."
+ },
+ {
+  "who": "mat",
+  "fr": "Que vous soyez à la maison,",
+  "en": "Whether you're at home,"
+ },
+ {
+  "who": "mat",
+  "fr": "dans les transports ou en train de prendre une petite pause,",
+  "en": "on public transport or taking a little break,"
+ },
+ {
+  "who": "mat",
+  "fr": "on est très heureux de vous retrouver.",
+  "en": "we're very happy to be with you again.",
+  "emote": "coeur"
+ },
+ {
+  "who": "lea",
+  "fr": "Installez-vous confortablement.",
+  "en": "Make yourselves comfortable."
+ },
+ {
+  "who": "lea",
+  "fr": "Aujourd'hui, nous allons parler d'un sujet qui nous concerne tous,",
+  "en": "Today, we're going to talk about something that concerns us all:"
+ },
+ {
+  "who": "lea",
+  "fr": "la concentration.",
+  "en": "concentration."
+ },
+ {
+  "who": "lea",
+  "fr": "Comment garder son attention sur ce qu'on a choisi",
+  "en": "How to keep your attention on what you've chosen"
+ },
+ {
+  "who": "lea",
+  "fr": "de faire quand tant de choses nous attirent ailleurs.",
+  "en": "to do when so many things pull us elsewhere."
+ },
+ {
+  "who": "mat",
+  "fr": "Un message, un bruit, une idée qui arrive au mauvais moment.",
+  "en": "A message, a noise, an idea that comes at the wrong moment."
+ },
+ {
+  "who": "mat",
+  "fr": "Parfois, il suffit de quelques secondes pour oublier ce",
+  "en": "Sometimes, a few seconds are enough to forget"
+ },
+ {
+  "who": "mat",
+  "fr": "qu'on était en train de faire.",
+  "en": "what you were doing."
+ },
+ {
+  "who": "lea",
+  "fr": "Cette conversation s'adresse aux personnes de niveau A2 à B1.",
+  "en": "This conversation is for people at level A2 to B1."
+ },
+ {
+  "who": "lea",
+  "fr": "Nous expliquerons les expressions utiles au fil de la",
+  "en": "We'll explain useful expressions along the way"
+ },
+ {
+  "who": "lea",
+  "fr": "discussion avec des exemples et quelques occasions de parler à votre tour.",
+  "en": "with examples and a few chances for you to speak in turn."
+ },
+ {
+  "who": "mat",
+  "fr": "Et vous n'avez pas besoin de comprendre chaque mot.",
+  "en": "And you don't need to understand every word."
+ },
+ {
+  "who": "mat",
+  "fr": "Essayez d'abord de suivre notre conversation,",
+  "en": "First, just try to follow our conversation,"
+ },
+ {
+  "who": "mat",
+  "fr": "comme si vous étiez assis avec nous.",
+  "en": "as if you were sitting with us."
+ },
+ {
+  "who": "lea",
+  "fr": "D'ailleurs Mathieu, avant de commencer,",
+  "en": "By the way, Mathieu, before we started,"
+ },
+ {
+  "who": "lea",
+  "fr": "je t'ai demandé si tu étais prêt.",
+  "en": "I asked you if you were ready."
+ },
+ {
+  "who": "lea",
+  "fr": "Tu m'as répondu oui, tout à fait.",
+  "en": "You said yes, absolutely."
+ },
+ {
+  "who": "lea",
+  "fr": "Mais tu regardais ailleurs.",
+  "en": "But you were looking somewhere else.",
+  "emote": "question"
+ },
+ {
+  "who": "mat",
+  "fr": "Je regardais une mouche essayer de sortir par une fenêtre fermée.",
+  "en": "I was watching a fly trying to get out through a closed window."
+ },
+ {
+  "who": "lea",
+  "fr": "Donc tu étais concentré, simplement sur une autre invitée.",
+  "en": "So you were focused, just on another guest.",
+  "emote": "rire"
+ },
+ {
+  "who": "mat",
+  "fr": "Elle avait un projet compliqué.",
+  "en": "She had a complicated plan."
+ },
+ {
+  "who": "mat",
+  "fr": "Je suivais son parcours.",
+  "en": "I was following her journey."
+ },
+ {
+  "who": "lea",
+  "fr": "Pour commencer, pensez à la dernière fois où vous",
+  "en": "To start, think of the last time you"
+ },
+ {
+  "who": "lea",
+  "fr": "avez voulu faire quelque chose avant de vous retrouver",
+  "en": "wanted to do something, before finding yourself"
+ },
+ {
+  "who": "lea",
+  "fr": "à faire complètement autre chose.",
+  "en": "doing something completely different."
+ },
+ {
+  "who": "mat",
+  "fr": "Moi, j'ai voulu libérer un peu de place sur mon ordinateur.",
+  "en": "I wanted to free up a bit of space on my computer."
+ },
+ {
+  "who": "mat",
+  "fr": "J'ai retrouvé une photo de classe.",
+  "en": "I found an old class photo."
+ },
+ {
+  "who": "mat",
+  "fr": "Une heure plus tard, je cherchais le nom de",
+  "en": "An hour later, I was looking up the name of"
+ },
+ {
+  "who": "mat",
+  "fr": "mon ancien professeur de sport.",
+  "en": "my old PE teacher.",
+  "react": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Et tu as [libéré de la place] ?",
+  "en": "And did you free up some space?"
+ },
+ {
+  "who": "mat",
+  "fr": "J'ai supprimé deux photos floues.",
+  "en": "I deleted two blurry photos."
+ },
+ {
+  "who": "mat",
+  "fr": "Une excellente heure de travail.",
+  "en": "An excellent hour of work.",
+  "emote": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "J'ai une histoire un peu semblable.",
+  "en": "I have a fairly similar story."
+ },
+ {
+  "who": "lea",
+  "fr": "Samedi, je voulais préparer un album photo",
+  "en": "On Saturday, I wanted to make a photo album",
+  "illus": "famille",
+  "label": "ma mère"
+ },
+ {
+  "who": "lea",
+  "fr": "pour l'anniversaire de ma mère.",
+  "en": "for my mother's birthday."
+ },
+ {
+  "who": "mat",
+  "fr": "C'est une belle idée.",
+  "en": "That's a lovely idea.",
+  "emote": "coeur"
+ },
+ {
+  "who": "lea",
+  "fr": "Oui.",
+  "en": "Yes."
+ },
+ {
+  "who": "lea",
+  "fr": "J'avais les photos, j'avais choisi le site,",
+  "en": "I had the photos, I'd chosen the website,"
+ },
+ {
+  "who": "lea",
+  "fr": "j'avais même préparé une tasse de café.",
+  "en": "I'd even made a cup of coffee."
+ },
+ {
+  "who": "lea",
+  "fr": "Deux heures plus tard,",
+  "en": "Two hours later,"
+ },
+ {
+  "who": "lea",
+  "fr": "je n'avais toujours pas créé une seule page.",
+  "en": "I still hadn't made a single page.",
+  "emote": "gene"
+ },
+ {
+  "who": "mat",
+  "fr": "Qu'est-ce qui s'est passé ?",
+  "en": "What happened?",
+  "emote": "question"
+ },
+ {
+  "who": "lea",
+  "fr": "J'ai commencé par classer les photos.",
+  "en": "I started by sorting the photos."
+ },
+ {
+  "who": "lea",
+  "fr": "Ensuite, j'ai changé le nom des dossiers.",
+  "en": "Then I renamed the folders."
+ },
+ {
+  "who": "lea",
+  "fr": "Puis, j'ai voulu retrouver la date exacte d'un voyage.",
+  "en": "Then I wanted to find the exact date of a trip.",
+  "illus": "voyage",
+  "label": "un voyage"
+ },
+ {
+  "who": "lea",
+  "fr": "Et là, j'ai ouvert mes anciens messages.",
+  "en": "And that's when I opened my old messages."
+ },
+ {
+  "who": "mat",
+  "fr": "Tu avais commencé un album et tu as ouvert un musée.",
+  "en": "You'd started an album and you opened a museum.",
+  "emote": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Avec des archives très détaillées.",
+  "en": "With very detailed archives."
+ },
+ {
+  "who": "lea",
+  "fr": "À un moment, j'ai relu une conversation sur une",
+  "en": "At one point, I reread a conversation about a"
+ },
+ {
+  "who": "lea",
+  "fr": "réservation de restaurants de 2019.",
+  "en": "restaurant booking from 2019."
+ },
+ {
+  "who": "mat",
+  "fr": "Il était bon, au moins ?",
+  "en": "Was it good, at least?"
+ },
+ {
+  "who": "lea",
+  "fr": "Selon mes messages, les desserts étaient excellents.",
+  "en": "According to my messages, the desserts were excellent.",
+  "emote": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Mais ma mère attendait toujours son album.",
+  "en": "But my mother was still waiting for her album."
+ },
+ {
+  "who": "mat",
+  "fr": "Ce qui est difficile, c'est que toutes ces petites",
+  "en": "What's tricky is that all these little"
+ },
+ {
+  "who": "mat",
+  "fr": "actions avaient un rapport avec ton projet.",
+  "en": "actions had something to do with your project."
+ },
+ {
+  "who": "lea",
+  "fr": "Voilà, je ne regardais pas une série.",
+  "en": "Exactly, I wasn't watching a TV series."
+ },
+ {
+  "who": "lea",
+  "fr": "J'avais vraiment l'impression d'avancer.",
+  "en": "I really felt like I was making progress."
+ },
+ {
+  "who": "lea",
+  "fr": "Pourtant, je repoussais le moment de choisir les photos.",
+  "en": "And yet I kept putting off choosing the photos."
+ },
+ {
+  "who": "mat",
+  "fr": "Parce que choisir, c'était la partie difficile ?",
+  "en": "Because choosing was the hard part?",
+  "emote": "question"
+ },
+ {
+  "who": "lea",
+  "fr": "Oui.",
+  "en": "Yes."
+ },
+ {
+  "who": "lea",
+  "fr": "J'avais peur d'oublier quelqu'un ou de choisir une photo",
+  "en": "I was afraid of forgetting someone or choosing a photo"
+ },
+ {
+  "who": "lea",
+  "fr": "que ma mère n'aimerait pas.",
+  "en": "my mother wouldn't like.",
+  "emote": "gene"
+ },
+ {
+  "who": "mat",
+  "fr": "On peut dire, je remets cette décision à plus tard.",
+  "en": "You can say: I'm putting this decision off until later.",
+  "board": {
+   "mode": "word",
+   "note": "= décider de faire quelque chose après, au lieu de maintenant",
+   "icon": "rendezvous"
+  }
+ },
+ {
+  "who": "mat",
+  "fr": "[Remettre à plus tard,] c'est décider de faire quelque",
+  "en": "To put off something means deciding to do it"
+ },
+ {
+  "who": "mat",
+  "fr": "chose après au lieu de le faire maintenant.",
+  "en": "later instead of doing it now.",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Et parfois, je ne prends même pas cette décision clairement.",
+  "en": "And sometimes I don't even make that decision clearly."
+ },
+ {
+  "who": "lea",
+  "fr": "Je trouve simplement une autre petite chose à faire.",
+  "en": "I just find another little thing to do."
+ },
+ {
+  "who": "mat",
+  "fr": "Comme nettoyer son bureau au moment exact où il",
+  "en": "Like cleaning your desk at the exact moment"
+ },
+ {
+  "who": "mat",
+  "fr": "faut remplir un formulaire.",
+  "en": "you have to fill in a form."
+ },
+ {
+  "who": "lea",
+  "fr": "Oui, mon bureau n'est jamais aussi propre que lorsque",
+  "en": "Yes, my desk is never as clean as when"
+ },
+ {
+  "who": "lea",
+  "fr": "j'ai un formulaire compliqué à remplir.",
+  "en": "I have a complicated form to fill in.",
+  "emote": "rire"
+ },
+ {
+  "who": "mat",
+  "fr": "On parle souvent du téléphone,",
+  "en": "We often talk about phones,",
+  "illus": "telephone",
+  "label": "le téléphone"
+ },
+ {
+  "who": "mat",
+  "fr": "mais ce n'est pas ma seule distraction.",
+  "en": "but it's not my only distraction."
+ },
+ {
+  "who": "mat",
+  "fr": "Chez moi, il y a aussi les bruits,",
+  "en": "For me, there are also noises,"
+ },
+ {
+  "who": "mat",
+  "fr": "les idées et parfois la faim.",
+  "en": "ideas, and sometimes hunger."
+ },
+ {
+  "who": "lea",
+  "fr": "Tu travailles bien quand tu as faim ?",
+  "en": "Do you work well when you're hungry?",
+  "emote": "question"
+ },
+ {
+  "who": "mat",
+  "fr": "Non, je commence à lire tous les mots comme",
+  "en": "No, I start reading every word as if"
+ },
+ {
+  "who": "mat",
+  "fr": "s'ils étaient des noms de plats.",
+  "en": "it were the name of a dish."
+ },
+ {
+  "who": "lea",
+  "fr": "Une réunion devient un gratin ?",
+  "en": "A meeting turns into a gratin?",
+  "emote": "surpris",
+  "illus": "repas",
+  "label": "un gratin"
+ },
+ {
+  "who": "mat",
+  "fr": "Ça dépend de la réunion.",
+  "en": "Depends on the meeting."
+ },
+ {
+  "who": "mat",
+  "fr": "Mais certaines gagneraient à être des gratins.",
+  "en": "But some would be better off as gratins.",
+  "emote": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Une distraction, c'est quelque chose qui détourne notre attention",
+  "en": "A distraction is something that takes our attention away"
+ },
+ {
+  "who": "lea",
+  "fr": "de ce qu'on fait.",
+  "en": "from what we're doing."
+ },
+ {
+  "who": "lea",
+  "fr": "Un bruit peut me distraire.",
+  "en": "A noise can distract me."
+ },
+ {
+  "who": "lea",
+  "fr": "Une inquiétude aussi.",
+  "en": "So can a worry."
+ },
+ {
+  "who": "mat",
+  "fr": "Et pour parler de soi,",
+  "en": "And to talk about yourself,"
+ },
+ {
+  "who": "mat",
+  "fr": "on peut dire « je me laisse distraire facilement ».",
+  "en": "you can say \"I get distracted easily.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Ou « j'ai du mal à me concentrer quand il y a du bruit ».",
+  "en": "Or \"I find it hard to concentrate when there's noise.\"",
+  "board": {
+   "mode": "word",
+   "note": "= trouver une chose difficile"
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "[Avoir du mal à] faire quelque chose,",
+  "en": "To have trouble doing something"
+ },
+ {
+  "who": "lea",
+  "fr": "c'est trouver cette chose difficile.",
+  "en": "means finding it difficult."
+ },
+ {
+  "who": "mat",
+  "fr": "J'ai du mal à lire quand la télévision est allumée.",
+  "en": "I find it hard to read when the TV is on.",
+  "boardEnd": true
+ },
+ {
+  "who": "mat",
+  "fr": "Même si je ne regarde pas l'émission,",
+  "en": "Even if I'm not watching the show,"
+ },
+ {
+  "who": "mat",
+  "fr": "j'écoute les gens parler.",
+  "en": "I listen to people talking."
+ },
+ {
+  "who": "lea",
+  "fr": "Moi, ce sont surtout les chansons avec des paroles.",
+  "en": "For me, it's mostly songs with lyrics.",
+  "illus": "musique",
+  "label": "les chansons"
+ },
+ {
+  "who": "lea",
+  "fr": "Je commence à écrire un message professionnel et,",
+  "en": "I start writing a work message and,"
+ },
+ {
+  "who": "lea",
+  "fr": "soudain, j'ai envie d'y ajouter le refrain.",
+  "en": "suddenly, I want to add the chorus.",
+  "emote": "gene"
+ },
+ {
+  "who": "mat",
+  "fr": "Bonjour madame.",
+  "en": "Dear Madam,"
+ },
+ {
+  "who": "mat",
+  "fr": "Concernant notre rendez-vous, je t'aimerai toujours.",
+  "en": "Regarding our appointment, I will always love you.",
+  "react": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Voilà.",
+  "en": "Exactly."
+ },
+ {
+  "who": "lea",
+  "fr": "Très chaleureux mais pas très adapté.",
+  "en": "Very warm, but not very appropriate."
+ },
+ {
+  "who": "lea",
+  "fr": "À vous maintenant.",
+  "en": "Your turn now."
+ },
+ {
+  "who": "mat",
+  "fr": "Terminez cette phrase.",
+  "en": "Finish this sentence."
+ },
+ {
+  "who": "mat",
+  "fr": "J'ai du mal à me concentrer quand…",
+  "en": "I find it hard to concentrate when…"
+ },
+ {
+  "who": "lea",
+  "fr": "Ça peut être quand je suis fatiguée,",
+  "en": "It could be when I'm tired,"
+ },
+ {
+  "who": "lea",
+  "fr": "quand on me parle ou quand mon téléphone sonne.",
+  "en": "when someone talks to me or when my phone rings."
+ },
+ {
+  "who": "lea",
+  "fr": "Choisissez une situation qui vous ressemble.",
+  "en": "Choose a situation that sounds like you."
+ }
+]

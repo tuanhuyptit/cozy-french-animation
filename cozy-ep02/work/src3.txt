@@ -1,0 +1,91 @@
+lea|Parfois, la distraction vient des autres,|Sometimes, the distraction comes from other people,
+lea|même quand ils sont très gentils.|even when they're very kind.
+mat|Oui, dans un logement partagé,|Yes, in a shared flat,
+mat|quelqu'un peut poser une petite question toutes les 5 minutes.|someone might ask a little question every 5 minutes.
+lea|Et chaque question semble raisonnable,|And each question seems reasonable,
+lea|mais à la fin, on n'arrive plus à reprendre ce qu'on faisait.|but in the end, you can't get back to what you were doing.|e=fatigue
+mat|On peut expliquer son besoin.|You can explain what you need.|B={"mode": "word", "note": "= 15 minutes", "icon": "temps"}
+mat|Par exemple, je termine quelque chose.|For example: I'm finishing something.
+mat|Est-ce qu'on peut en parler dans un quart d'heure ?|Can we talk about it in a quarter of an hour?
+lea|[Un quart d'heure,] c'est 15 minutes.|A quarter of an hour is 15 minutes.
+lea|Et annoncer un moment précis peut rendre la demande plus claire.|And naming a specific time can make the request clearer.|BE
+lea|On essaie ?|Shall we try?|B={"mode": "sketch", "title": "En situation : demander un moment"}
+mat|Tu veux me demander mon avis sur quelque chose ?|Do you want to ask my opinion on something?
+lea|Mathieu, tu préfères la photo où je suis près|Mathieu, do you prefer the photo where I'm by
+lea|du lac ou celle où je suis devant la montagne ?|the lake or the one in front of the mountain?
+mat|J'ai envie de regarder, mais je termine ce message.|I'd like to look, but I'm finishing this message.
+mat|Tu peux me laisser 10 minutes ?|Can you give me 10 minutes?
+lea|D'accord, je reviens après.|OK, I'll come back later.
+mat|Et 10 minutes plus tard,|And 10 minutes later,
+mat|je regarde vraiment les photos.|I really do look at the photos.|BE
+mat|Sinon, ma demande [finit par] ressembler à une manière de t'éviter.|Otherwise, my request ends up looking like a way to avoid you.|e=gene
+lea|Oui, et de mon côté,|Yes, and on my side,
+lea|si c'est urgent, je peux le préciser.|if it's urgent, I can say so.
+lea|J'ai besoin de ta réponse maintenant.|I need your answer now.
+lea|La commande ferme dans 2 minutes.|The order closes in 2 minutes.
+mat|Là, je comprends mieux la situation.|Now I understand the situation better.|e=idee
+mat|On peut décider ensemble.|We can decide together.
+lea|Essayez de répéter.|Try repeating.
+lea|Je termine quelque chose.|I'm finishing something.
+lea|On peut en parler dans 10 minutes ?|Can we talk about it in 10 minutes?
+mat|Une phrase calme peut déjà aider à protéger un petit moment.|One calm sentence can already help protect a little moment.
+mat|Et on a le droit de s'arrêter aussi.|And we're allowed to stop, too.
+mat|Je le précise parce que parfois,|I'm saying this because sometimes
+mat|je reste devant mon écran simplement pour [avoir l'air occupé.]|I stay in front of my screen just to look busy.
+lea|Tu lis la même ligne plusieurs fois ?|You read the same line several times?|e=question
+mat|Oui, à la troisième lecture,|Yes, by the third reading,
+mat|je connais les mots.|I know the words.
+mat|À la quatrième, je commence à reconnaître la police|By the fourth, I start to recognise the font
+mat|de caractère personnellement.|personally.|r=rire
+lea|Quand ça m'arrive, j'aime me lever,|When that happens to me, I like to get up,
+lea|boire de l'eau ou sortir quelques minutes.|drink some water or go out for a few minutes.
+lea|Selon la journée, ça me fait du bien.|Depending on the day, it does me good.
+mat|Moi, j'aime bouger un peu les épaules.|I like to move my shoulders a bit.
+mat|Je découvre souvent que j'étais installé comme une crevette.|I often find I've been sitting like a shrimp.
+lea|Une crevette très professionnelle.|A very professional shrimp.|e=rire
+mat|Avec une adresse électronique et beaucoup de responsabilités.|With an email address and lots of responsibilities.
+lea|Pour annoncer une pause, on dit "Je fais une petite pause".|To announce a break, you say, "I'm taking a little break."|B={"mode": "word", "note": "= recommencer après un arrêt", "icon": "travail"}
+lea|Et quand on revient, "Allez,|And when you come back: "Right,
+lea|je m'y remets".|back to it."
+mat|[Se remettre à] quelque chose,|To get back to something
+mat|c'est recommencer après un arrêt.|means starting again after a stop.
+mat|"Je me remets au travail" ou "Je me remets à lire".|"I'm getting back to work" or "I'm getting back to reading."|BE
+lea|On peut aussi avoir besoin d'une vraie fin de journée.|You may also need a proper end to the day.
+lea|Si je suis épuisée, rester encore longtemps devant mon|If I'm exhausted, staying a long time in front of my
+lea|projet ne m'aide pas forcément.|project doesn't necessarily help.|e=fatigue
+mat|Il y a des jours où je peux modifier mon programme.|There are days when I can change my plans.
+mat|D'autres où j'ai une obligation.|Others when I have an obligation.
+mat|Dans ce cas, je regarde ce qui est vraiment|In that case, I look at what's really
+mat|nécessaire et ce qui peut t'attendre.|necessary and what can wait.
+lea|Et un loisir peut très bien prendre toute notre attention.|And a hobby can perfectly well take all our attention.
+lea|Je n'ai pas besoin de transformer chaque moment calme|I don't need to turn every quiet moment
+lea|en séance de travail.|into a work session.
+mat|Heureusement, j'aime écouter de la musique|Luckily, I like listening to music|i=musique:la musique
+mat|sans devoir produire un compte rendu.|without having to write a report.|r=rire
+lea|Parlons justement de votre écoute.|Speaking of which, let's talk about your listening.
+lea|Si vous faites la cuisine en ce moment,|If you're cooking right now,
+lea|vous avez peut-être suivi l'histoire tout en coupant vos légumes.|maybe you followed the story while chopping your vegetables.
+mat|Et vous avez peut-être manqué une expression.|And maybe you missed an expression.
+mat|Ça arrive aussi quand on écoute dans sa langue maternelle.|That happens in your native language, too.
+lea|Vous pouvez revenir plus tard sur un court passage qui vous intéresse.|You can come back later to a short passage that interests you.
+lea|Par exemple, notre demande pour avoir 10 minutes de calme.|For example, our request for 10 minutes of quiet.
+mat|Écoutez la question, puis essayez de répondre avant moi.|Listen to the question, then try to answer before me.
+mat|Ça donne un petit objectif concret à l'écoute.|It gives your listening a small, concrete goal.
+lea|On fait un essai maintenant.|Let's try it now.
+lea|Mathieu, qu'est-ce qui te distrait quand tu lis ?|Mathieu, what distracts you when you read?|i=lecture:tu lis
+mat|Les conversations autour de moi.|Conversations around me.
+mat|J'ai du mal à lire quand plusieurs personnes parlent.|I find it hard to read when several people are talking.
+lea|Et qu'est-ce que tu fais ?|And what do you do?
+mat|Si je peux, je cherche un endroit plus calme.|If I can, I look for a quieter spot.
+mat|Sinon, je garde mon livre pour un autre moment.|Otherwise, I save my book for another time.
+lea|À vous !|Your turn!
+lea|Qu'est-ce qui vous distrait pendant une activité que vous aimez ?|What distracts you during an activity you enjoy?
+mat|Et qu'est-ce que vous faites dans cette situation ?|And what do you do in that situation?
+lea|Vous pouvez relier les deux réponses.|You can link the two answers.
+lea|Le bruit me distrait, alors je ferme la porte.|Noise distracts me, so I close the door.
+lea|Le mot "alors" introduit ici ce que vous faites en conséquence.|Here, the word "alors" introduces what you do as a result.
+mat|Je pense à mes courses,|I think about my shopping,|i=courses:mes courses
+mat|alors je les note pour plus tard.|so I write it down for later.
+lea|Ou je suis fatiguée, alors je fais une pause.|Or: I'm tired, so I take a break.
+mat|Trois petites phrases, trois situations différentes.|Three little sentences, three different situations.
+mat|Pas besoin d'une explication compliquée.|No need for a complicated explanation.

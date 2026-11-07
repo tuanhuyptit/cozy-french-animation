@@ -1,0 +1,115 @@
+lea|Bonjour à toutes et à tous,|Hello everyone,
+lea|bienvenue sur The Cozy French,|welcome to The Cozy French,
+lea|votre petit rendez-vous pour écouter le français,|your little get-together for listening to French,
+lea|découvrir des expressions du quotidien et pratiquer avec nous.|discovering everyday expressions and practising with us.
+lea|Moi c'est Léa.|I'm Léa.
+mat|Et moi c'est Mathieu.|And I'm Mathieu.
+mat|Que vous soyez à la maison,|Whether you're at home,
+mat|dans les transports ou en train de prendre une petite pause,|on public transport or taking a little break,
+mat|on est très heureux de vous retrouver.|we're very happy to be with you again.|e=coeur
+lea|Installez-vous confortablement.|Make yourselves comfortable.
+lea|Aujourd'hui, nous allons parler d'un sujet qui nous concerne tous,|Today, we're going to talk about something that concerns us all:
+lea|la concentration.|concentration.
+lea|Comment garder son attention sur ce qu'on a choisi|How to keep your attention on what you've chosen
+lea|de faire quand tant de choses nous attirent ailleurs.|to do when so many things pull us elsewhere.
+mat|Un message, un bruit, une idée qui arrive au mauvais moment.|A message, a noise, an idea that comes at the wrong moment.
+mat|Parfois, il suffit de quelques secondes pour oublier ce|Sometimes, a few seconds are enough to forget
+mat|qu'on était en train de faire.|what you were doing.
+lea|Cette conversation s'adresse aux personnes de niveau A2 à B1.|This conversation is for people at level A2 to B1.
+lea|Nous expliquerons les expressions utiles au fil de la|We'll explain useful expressions along the way
+lea|discussion avec des exemples et quelques occasions de parler à votre tour.|with examples and a few chances for you to speak in turn.
+mat|Et vous n'avez pas besoin de comprendre chaque mot.|And you don't need to understand every word.
+mat|Essayez d'abord de suivre notre conversation,|First, just try to follow our conversation,
+mat|comme si vous étiez assis avec nous.|as if you were sitting with us.
+lea|D'ailleurs Mathieu, avant de commencer,|By the way, Mathieu, before we started,
+lea|je t'ai demandé si tu étais prêt.|I asked you if you were ready.
+lea|Tu m'as répondu oui, tout à fait.|You said yes, absolutely.
+lea|Mais tu regardais ailleurs.|But you were looking somewhere else.|e=question
+mat|Je regardais une mouche essayer de sortir par une fenêtre fermée.|I was watching a fly trying to get out through a closed window.
+lea|Donc tu étais concentré, simplement sur une autre invitée.|So you were focused, just on another guest.|e=rire
+mat|Elle avait un projet compliqué.|She had a complicated plan.
+mat|Je suivais son parcours.|I was following her journey.
+lea|Pour commencer, pensez à la dernière fois où vous|To start, think of the last time you
+lea|avez voulu faire quelque chose avant de vous retrouver|wanted to do something, before finding yourself
+lea|à faire complètement autre chose.|doing something completely different.
+mat|Moi, j'ai voulu libérer un peu de place sur mon ordinateur.|I wanted to free up a bit of space on my computer.
+mat|J'ai retrouvé une photo de classe.|I found an old class photo.
+mat|Une heure plus tard, je cherchais le nom de|An hour later, I was looking up the name of
+mat|mon ancien professeur de sport.|my old PE teacher.|r=rire
+lea|Et tu as [libéré de la place] ?|And did you free up some space?
+mat|J'ai supprimé deux photos floues.|I deleted two blurry photos.
+mat|Une excellente heure de travail.|An excellent hour of work.|e=rire
+lea|J'ai une histoire un peu semblable.|I have a fairly similar story.
+lea|Samedi, je voulais préparer un album photo|On Saturday, I wanted to make a photo album|i=famille:ma mère
+lea|pour l'anniversaire de ma mère.|for my mother's birthday.
+mat|C'est une belle idée.|That's a lovely idea.|e=coeur
+lea|Oui.|Yes.
+lea|J'avais les photos, j'avais choisi le site,|I had the photos, I'd chosen the website,
+lea|j'avais même préparé une tasse de café.|I'd even made a cup of coffee.
+lea|Deux heures plus tard,|Two hours later,
+lea|je n'avais toujours pas créé une seule page.|I still hadn't made a single page.|e=gene
+mat|Qu'est-ce qui s'est passé ?|What happened?|e=question
+lea|J'ai commencé par classer les photos.|I started by sorting the photos.
+lea|Ensuite, j'ai changé le nom des dossiers.|Then I renamed the folders.
+lea|Puis, j'ai voulu retrouver la date exacte d'un voyage.|Then I wanted to find the exact date of a trip.|i=voyage:un voyage
+lea|Et là, j'ai ouvert mes anciens messages.|And that's when I opened my old messages.
+mat|Tu avais commencé un album et tu as ouvert un musée.|You'd started an album and you opened a museum.|e=rire
+lea|Avec des archives très détaillées.|With very detailed archives.
+lea|À un moment, j'ai relu une conversation sur une|At one point, I reread a conversation about a
+lea|réservation de restaurants de 2019.|restaurant booking from 2019.
+mat|Il était bon, au moins ?|Was it good, at least?
+lea|Selon mes messages, les desserts étaient excellents.|According to my messages, the desserts were excellent.|e=rire
+lea|Mais ma mère attendait toujours son album.|But my mother was still waiting for her album.
+mat|Ce qui est difficile, c'est que toutes ces petites|What's tricky is that all these little
+mat|actions avaient un rapport avec ton projet.|actions had something to do with your project.
+lea|Voilà, je ne regardais pas une série.|Exactly, I wasn't watching a TV series.
+lea|J'avais vraiment l'impression d'avancer.|I really felt like I was making progress.
+lea|Pourtant, je repoussais le moment de choisir les photos.|And yet I kept putting off choosing the photos.
+mat|Parce que choisir, c'était la partie difficile ?|Because choosing was the hard part?|e=question
+lea|Oui.|Yes.
+lea|J'avais peur d'oublier quelqu'un ou de choisir une photo|I was afraid of forgetting someone or choosing a photo
+lea|que ma mère n'aimerait pas.|my mother wouldn't like.|e=gene
+mat|On peut dire, je remets cette décision à plus tard.|You can say: I'm putting this decision off until later.|B={"mode": "word", "note": "= décider de faire quelque chose après, au lieu de maintenant", "icon": "rendezvous"}
+mat|[Remettre à plus tard,] c'est décider de faire quelque|To put off something means deciding to do it
+mat|chose après au lieu de le faire maintenant.|later instead of doing it now.|BE
+lea|Et parfois, je ne prends même pas cette décision clairement.|And sometimes I don't even make that decision clearly.
+lea|Je trouve simplement une autre petite chose à faire.|I just find another little thing to do.
+mat|Comme nettoyer son bureau au moment exact où il|Like cleaning your desk at the exact moment
+mat|faut remplir un formulaire.|you have to fill in a form.
+lea|Oui, mon bureau n'est jamais aussi propre que lorsque|Yes, my desk is never as clean as when
+lea|j'ai un formulaire compliqué à remplir.|I have a complicated form to fill in.|e=rire
+mat|On parle souvent du téléphone,|We often talk about phones,|i=telephone:le téléphone
+mat|mais ce n'est pas ma seule distraction.|but it's not my only distraction.
+mat|Chez moi, il y a aussi les bruits,|For me, there are also noises,
+mat|les idées et parfois la faim.|ideas, and sometimes hunger.
+lea|Tu travailles bien quand tu as faim ?|Do you work well when you're hungry?|e=question
+mat|Non, je commence à lire tous les mots comme|No, I start reading every word as if
+mat|s'ils étaient des noms de plats.|it were the name of a dish.
+lea|Une réunion devient un gratin ?|A meeting turns into a gratin?|e=surpris i=repas:un gratin
+mat|Ça dépend de la réunion.|Depends on the meeting.
+mat|Mais certaines gagneraient à être des gratins.|But some would be better off as gratins.|e=rire
+lea|Une distraction, c'est quelque chose qui détourne notre attention|A distraction is something that takes our attention away
+lea|de ce qu'on fait.|from what we're doing.
+lea|Un bruit peut me distraire.|A noise can distract me.
+lea|Une inquiétude aussi.|So can a worry.
+mat|Et pour parler de soi,|And to talk about yourself,
+mat|on peut dire « je me laisse distraire facilement ».|you can say "I get distracted easily."
+lea|Ou « j'ai du mal à me concentrer quand il y a du bruit ».|Or "I find it hard to concentrate when there's noise."|B={"mode": "word", "note": "= trouver une chose difficile"}
+lea|[Avoir du mal à] faire quelque chose,|To have trouble doing something
+lea|c'est trouver cette chose difficile.|means finding it difficult.
+mat|J'ai du mal à lire quand la télévision est allumée.|I find it hard to read when the TV is on.|BE
+mat|Même si je ne regarde pas l'émission,|Even if I'm not watching the show,
+mat|j'écoute les gens parler.|I listen to people talking.
+lea|Moi, ce sont surtout les chansons avec des paroles.|For me, it's mostly songs with lyrics.|i=musique:les chansons
+lea|Je commence à écrire un message professionnel et,|I start writing a work message and,
+lea|soudain, j'ai envie d'y ajouter le refrain.|suddenly, I want to add the chorus.|e=gene
+mat|Bonjour madame.|Dear Madam,
+mat|Concernant notre rendez-vous, je t'aimerai toujours.|Regarding our appointment, I will always love you.|r=rire
+lea|Voilà.|Exactly.
+lea|Très chaleureux mais pas très adapté.|Very warm, but not very appropriate.
+lea|À vous maintenant.|Your turn now.
+mat|Terminez cette phrase.|Finish this sentence.
+mat|J'ai du mal à me concentrer quand…|I find it hard to concentrate when…
+lea|Ça peut être quand je suis fatiguée,|It could be when I'm tired,
+lea|quand on me parle ou quand mon téléphone sonne.|when someone talks to me or when my phone rings.
+lea|Choisissez une situation qui vous ressemble.|Choose a situation that sounds like you.

@@ -43,6 +43,14 @@ Tự động: skill `skills/cozy-french-episode` (người dùng chỉ gửi voi
 - Chữ trong `episode.json` phải khớp đúng thứ tự chữ trong `words.json` (build báo lỗi nếu lệch).
 - HyperFrames: mọi chuyển động phải seek được (không `Math.random` không seed, không `repeat:-1`). Các cảnh báo còn lại của `check` là cố ý: chữ chưa đọc có tương phản thấp (hiệu ứng karaoke), thẻ từ ~4,4 s.
 
+## Cử động & nhận diện kênh (2026-11-07)
+- Khi nói: người lắc lư nhẹ (`.sway`, xoay quanh ghế 180,431) và tay ngoài làm 1 trong 5 cử chỉ (`ARM_UP` trong demo): `beat` nắm tay gõ theo từng chữ · `palm` ngửa lòng bàn tay · `up` giơ tay xoè · `point` chỉ về người kia (nhiều hơn khi câu có tu/toi/ton…) · `think` chống cằm (khi đặt câu hỏi). Không lặp cùng kiểu liền nhau, dài 1,6–3 s, nghỉ ngẫu nhiên (seed cố định), luôn bắt đầu đúng một chữ.
+- Khi nghe: thỉnh thoảng nhấp cà phê (~35–70 s/lần mỗi người; `.cupGrp` dịch + `.cupTilt` nghiêng, `.armSip`, hơi nóng tắt). Không làm trong lúc có bảng giải thích hay biểu cảm.
+- GSAP: tâm xoay SVG (`svgOrigin`) chỉ đặt MỘT lần ở t=0; truyền lại trong từng tween làm GSAP bù x/y → hình trôi dần.
+- Bỏ khung "The Cozy French / Mots clés" góc trái; logo kênh (`brand/logo.png`, 320 px) ở góc trên phải, 132 px, nhúng base64 vào video.
+- Màn ôn tập tự chuyển 3 cột + 7 s khi > 8 từ.
+- **Bảng ghim gỗ** (cảnh giải thích): đánh dấu `board` / `boardEnd` trong đoạn phụ đề (xem skill). Bảng phủ bối cảnh, hai nhân vật thu về góc dưới (scale .7) và vẫn nói/cử động; kiểu `word` (giấy + note + polaroid) hoặc `sketch` (bong bóng thoại đóng vai). Mã nằm trong `tools/build.mjs` (khối "explanation board").
+
 ## Trạng thái (2026-11-06)
 - 2026-11-06: thêm 4 bối cảnh (chalet, boulangerie, train, quai), `new-episode.mjs`, `assemble.mjs`, skill `cozy-french-episode`; build cảnh báo khi 2 từ vựng < 3 s. Sau đó: model turbo, `vocab-help.mjs` (IPA + cấp độ CEFR), biểu cảm (8) + bong bóng minh hoạ (24).
 - Xong: demo trình duyệt (10 bối cảnh, 10 trang phục), video thử 34 s đầu của voice `4f.mp3` (`cozy-ep01-test-30s.mp4`), script transcribe + build.

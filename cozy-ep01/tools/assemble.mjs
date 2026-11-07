@@ -22,7 +22,7 @@ const chunks = fs.readdirSync(partsDir).filter(f => f.endsWith('.json')).sort().
 const vocab = read('work/vocab.json');
 
 const ep = { scene: setup.scene, lea: setup.lea, mat: setup.mat, audio: draft.audio, audioEnd: draft.audioEnd,
-  chunks: chunks.map(c => ({ who: c.who, fr: c.fr, en: c.en, ...(c.emote && { emote: c.emote }), ...(c.react && { react: c.react }), ...(c.illus && { illus: c.illus }), ...(c.label && { label: c.label }) })), vocab };
+  chunks: chunks.map(c => ({ who: c.who, fr: c.fr, en: c.en, ...(c.emote && { emote: c.emote }), ...(c.react && { react: c.react }), ...(c.illus && { illus: c.illus }), ...(c.label && { label: c.label }), ...(c.board && { board: c.board }), ...(c.boardEnd && { boardEnd: true }) })), vocab };
 
 // validate against the transcript before writing
 const W = read('assets/words.json');

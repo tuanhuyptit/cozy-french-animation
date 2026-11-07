@@ -404,12 +404,37 @@ function bubbleTL(tl,s,type,side,t,d){
 
 const STEAM=`<path class="steam" d="M226 344 c-8 -12 8 -20 0 -34" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round" opacity="0"/>
              <path class="steam" d="M244 340 c-8 -12 8 -20 0 -34" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round" opacity="0"/>`;
-const CUP=stripe=>`${STEAM}<ellipse cx="234" cy="358" rx="28" ry="6" fill="#7a4a32"/>
+const CUP=stripe=>`<g class="steamGrp">${STEAM}</g><ellipse cx="234" cy="358" rx="28" ry="6" fill="#7a4a32"/>
   <path d="M206 358 h56 v52 c0 14 -10 22 -28 22 c-18 0 -28 -8 -28 -22 Z" fill="#fbf4e6"/>
   <rect x="206" y="380" width="56" height="10" fill="${stripe}"/>`;
 
+/* CỬ CHỈ TAY (ẩn sẵn; tools/build.mjs bật bằng gsap). Tay ngoài (arm2) có 5 tư thế .gest.g-<kiểu>,
+   mỗi tư thế = cánh tay trên (vai 257,286) + .fore (cẳng tay + bàn tay, xoay quanh khuỷu, xem GEST_ELBOW).
+   up: giơ tay xoè · point: chỉ về người kia · palm: ngửa lòng bàn tay · beat: nắm tay gõ nhịp · think: chống cằm.
+   Tay trong (arm1) + cốc: .armHold / .cupGrp; khi nhấp cà phê: .armSip hiện, .cupGrp đưa lên miệng. */
+const GEST_ELBOW={up:[286,388],point:[284,384],palm:[284,390],beat:[286,386],think:[282,392]};
+const ARM_UP=(c,skin,w)=>{
+  const up=(d)=>`<path d="${d}" stroke="${c}" stroke-width="${w}" fill="none" stroke-linecap="round"/>`;
+  const fa=(d)=>`<path d="${d}" stroke="${c}" stroke-width="${w-4}" fill="none" stroke-linecap="round"/>`;
+  const fg=(d,sw=8)=>`<path d="${d}" stroke="${skin}" stroke-width="${sw}" stroke-linecap="round" fill="none"/>`;
+  const P={
+   up:[up('M257 286 C278 328 290 362 286 388'), fa('M286 388 C300 376 312 352 318 326')+
+     `<g transform="rotate(18 322 306)"><ellipse cx="322" cy="308" rx="15" ry="19" fill="${skin}"/>${fg('M311 296 q-2 -14 4 -16 M319 292 q0 -16 6 -16 M327 294 q3 -14 8 -12')}${fg('M308 312 q-10 -2 -12 -10')}</g>`],
+   point:[up('M257 286 C276 328 286 362 284 384'), fa('M284 384 C304 372 322 358 336 352')+
+     `<ellipse cx="344" cy="350" rx="16" ry="14" fill="${skin}"/>${fg('M354 344 L376 338',9)}${fg('M346 338 q6 -6 12 -4',7)}`],
+   palm:[up('M257 286 C276 330 286 366 284 390'), fa('M284 390 C304 384 320 376 334 370')+
+     `<g transform="rotate(-10 346 366)"><ellipse cx="346" cy="366" rx="22" ry="10" fill="${skin}"/>${fg('M364 360 q8 -3 10 -9 M366 366 q9 -2 12 -8',7)}${fg('M332 358 q-2 -10 6 -14',7)}</g>`],
+   beat:[up('M257 286 C277 328 288 364 286 386'), fa('M286 386 C298 368 308 352 316 340')+
+     `<ellipse cx="322" cy="332" rx="16" ry="15" fill="${skin}"/><path d="M314 322 q8 -4 16 0" stroke="#00000030" stroke-width="3" fill="none" stroke-linecap="round"/>`],
+   think:[up('M257 286 C278 330 288 370 282 392'), fa('M282 392 C268 350 250 272 240 240')+
+     `<ellipse cx="236" cy="228" rx="15" ry="17" fill="${skin}"/>${fg('M228 220 q-2 -14 6 -24',8)}`]};
+  return Object.entries(P).map(([k,[u,f]])=>`<g class="gest g-${k}" opacity="0">${u}<g class="fore">${f}</g></g>`).join('');
+};
+/* tay cầm cốc đưa lên miệng (khớp với .cupGrp dịch -14,-150 xoay -18°) */
+const ARM_SIP=(c,w)=>`<path class="armSip" opacity="0" d="M118 285 C92 340 102 394 140 384 C168 376 184 300 192 254" stroke="${c}" stroke-width="${w}" fill="none" stroke-linecap="round" stroke-linejoin="round"/>`;
+
 function leaSVG(k){ const o=OUT_LEA[k]; return `<div class="name">Léa</div>
- <svg viewBox="0 0 360 480"><g filter="url(#pencil)">
+ <svg viewBox="0 0 360 480"><g filter="url(#pencil)"><g class="sway">
   <g class="breath">
    <path d="M98 270 C110 240 150 228 182 228 C216 228 252 240 264 270 L290 431 L72 431 Z" fill="${o.top}"/>
    <path d="M264 270 L290 431 L252 431 C256 370 260 318 264 270 Z" fill="${o.shade}" opacity="${o.shadeOp||1}"/>
@@ -430,15 +455,18 @@ function leaSVG(k){ const o=OUT_LEA[k]; return `<div class="name">Léa</div>
     ${o.hat||''}
    </g>
   </g>
-  <path d="M118 285 C98 330 96 385 122 410 C150 426 182 420 204 408" stroke="${o.arm}" stroke-width="42" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M256 285 C278 330 288 380 268 406" stroke="${o.arm2}" stroke-width="42" fill="none" stroke-linecap="round"/>
-  ${CUP('#d9774b')}
-  <ellipse cx="204" cy="400" rx="14" ry="17" fill="#f2c6a2"/><ellipse cx="266" cy="402" rx="13" ry="16" fill="#eab896"/>
+  <path class="armHold" d="M118 285 C98 330 96 385 122 410 C150 426 182 420 204 408" stroke="${o.arm}" stroke-width="42" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  ${ARM_SIP(o.arm,42)}
+  <path class="armRest" d="M256 285 C278 330 288 380 268 406" stroke="${o.arm2}" stroke-width="42" fill="none" stroke-linecap="round"/>
+  <g class="cupGrp"><g class="cupTilt">${CUP('#d9774b')}
+  <ellipse cx="204" cy="400" rx="14" ry="17" fill="#f2c6a2"/></g></g><ellipse class="armRest" cx="266" cy="402" rx="13" ry="16" fill="#eab896"/>
+  ${ARM_UP(o.arm2,'#eab896',42)}
+ </g>
  ${emoSyms(150)}
  </g></svg>`;}
 
 function matSVG(k){ const o=OUT_MAT[k]; return `<div class="name">Mathieu</div>
- <svg viewBox="0 0 360 480"><g filter="url(#pencil)"><g transform="translate(360 0) scale(-1 1)">
+ <svg viewBox="0 0 360 480"><g filter="url(#pencil)"><g transform="translate(360 0) scale(-1 1)"><g class="sway">
   <g class="breath">
    <path d="M96 272 C108 240 150 228 182 228 C216 228 254 240 266 272 L292 431 L70 431 Z" fill="${o.top}"/>
    <path d="M266 272 L292 431 L254 431 C258 370 262 318 266 272 Z" fill="${o.shade}"/>
@@ -459,11 +487,13 @@ function matSVG(k){ const o=OUT_MAT[k]; return `<div class="name">Mathieu</div>
     ${faceFX('#2f2420')}
    </g>
   </g>
-  <path d="M116 287 C96 332 94 386 120 410 C148 426 182 420 204 408" stroke="${o.arm}" stroke-width="44" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M258 287 C280 332 290 380 268 406" stroke="${o.arm2}" stroke-width="44" fill="none" stroke-linecap="round"/>
-  ${CUP('#8fae8b')}
-  <ellipse cx="204" cy="400" rx="15" ry="18" fill="#e8b591"/><ellipse cx="266" cy="402" rx="14" ry="17" fill="#dca684"/>
- </g>${emoSyms(282)}</g></svg>`;}
+  <path class="armHold" d="M116 287 C96 332 94 386 120 410 C148 426 182 420 204 408" stroke="${o.arm}" stroke-width="44" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  ${ARM_SIP(o.arm,44)}
+  <path class="armRest" d="M258 287 C280 332 290 380 268 406" stroke="${o.arm2}" stroke-width="44" fill="none" stroke-linecap="round"/>
+  <g class="cupGrp"><g class="cupTilt">${CUP('#8fae8b')}
+  <ellipse cx="204" cy="400" rx="15" ry="18" fill="#e8b591"/></g></g><ellipse class="armRest" cx="266" cy="402" rx="14" ry="17" fill="#dca684"/>
+  ${ARM_UP(o.arm2,'#dca684',44)}
+ </g></g>${emoSyms(282)}</g></svg>`;}
 
 /* ============================================================
    BỐI CẢNH (1920×1080). Bàn luôn ở y=716–762 để tay + cốc khớp.
