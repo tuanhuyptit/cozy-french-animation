@@ -1,0 +1,111 @@
+lea|Passons à la salle de bain.|Let's move on to the bathroom.
+lea|Tu prends ta douche le soir ou le matin ?|Do you shower in the evening or the morning?
+mat|Le soir, le plus souvent.|In the evening, most of the time.
+mat|J'aime me sentir propre avant de mettre mon pyjama.|I like feeling clean before I put on my pyjamas.
+lea|Moi aussi.|Me too.
+lea|Et j'aime ce moment où je me lave le visage.|And I love the moment when I wash my face.
+lea|C'est un geste tout simple,|It's a very simple gesture,
+lea|mais il marque la fin de ma journée dehors.|but it marks the end of my day out in the world.|e=coeur
+mat|Tu as beaucoup de produits ?|Do you have lots of products?
+lea|Quelques-uns.|A few.
+lea|Je [me démaquille] si je suis maquillée.|I take off my make-up if I'm wearing any.
+lea|Je me lave le visage,|I wash my face,
+lea|puis je mets de la crème.|then I put on some cream.
+mat|Moi, je cherche surtout à ne pas confondre les|Me, I mostly try not to mix up the
+mat|tubes quand je suis fatigué.|tubes when I'm tired.
+lea|Ça t'est arrivé ?|Has that happened to you?|e=question
+mat|J'ai presque mis de la crème pour les mains|I almost put hand cream
+mat|sur ma brosse à dents.|on my toothbrush.|e=gene r=surpris
+mat|Heureusement, j'ai lu l'étiquette.|Luckily, I read the label.
+lea|Une bonne occasion de rappeler.|A good chance to remind you:|B={"mode": "word", "word": "se brosser les dents", "tag": "expression", "ipa": "/sə bʁɔ.se le dɑ̃/", "mean": "to brush your teeth", "ex": "Les enfants se brossent les dents après le dîner.", "exEn": "The children brush their teeth after dinner.", "note": "les dents, pas « mes dents »", "icon": "sante"}
+lea|Je me brosse les dents.|I brush my teeth.
+lea|En français, on dit « les dents »,|In French, we say "les dents",
+lea|pas « mes dents » dans cette phrase.|not "mes dents", in this sentence.
+mat|Pareil pour « je me lave le visage »|Same for "je me lave le visage"
+mat|et « je me lave les mains ».|and "je me lave les mains".
+lea|Répétez avec nous tranquillement.|Repeat with us, calmly.
+lea|Je me lave le visage.|I wash my face.
+lea|Je me brosse les dents.|I brush my teeth.
+lea|Je mets mon pyjama.|I put on my pyjamas.|BE
+mat|Attention !|Careful!
+mat|Le pyjama n'oblige pas à aller immédiatement au lit.|Pyjamas don't mean you have to go straight to bed.
+mat|On peut aussi le mettre plus tôt pour être à l'aise.|You can also put them on earlier to be comfortable.
+lea|Le mien commence parfois son service|Mine sometimes starts its shift|e=rire
+lea|juste après le dîner.|right after dinner.
+mat|Avant d'aller dans ma chambre,|Before going to my bedroom,
+mat|je prépare généralement mon sac,|I usually get my bag ready,
+mat|mes clés, mon portefeuille,|my keys, my wallet,
+mat|les documents dont j'ai besoin.|the documents I need.
+lea|Tu vérifies vraiment tout ?|Do you really check everything?|e=question
+mat|J'essaie.|I try.
+mat|Une fois, je suis parti avec mon déjeuner|Once, I left with my lunch|
+mat|et sans mon ordinateur.|and without my computer.|i=travail:mon ordinateur
+lea|Tu avais choisi tes priorités.|You'd chosen your priorities.|e=rire
+mat|Une réunion avec une boîte de lentilles,|A meeting with a box of lentils
+mat|ça reste compliqué.|is still tricky.|e=gene
+lea|Moi, je prépare parfois mes vêtements,|Me, I sometimes get my clothes ready,
+lea|surtout quand je dois partir tôt.|especially when I have to leave early.
+lea|Le matin, je n'ai pas toujours envie|In the morning, I don't always feel like
+lea|de réfléchir à une tenue.|thinking about an outfit.
+mat|[Une tenue,] c'est l'ensemble des vêtements qu'on porte.|"Une tenue" is the set of clothes you're wearing.
+mat|Je prépare ma tenue pour demain.|I'm getting my outfit ready for tomorrow.
+lea|Et je regarde mon agenda,|And I look at my diary,
+lea|mais rapidement.|but quickly.
+lea|Je veux savoir ce qui m'attend,|I want to know what's coming,
+lea|pas recommencer à travailler.|not start working again.
+mat|Tu peux donner un exemple ?|Can you give an example?
+lea|Je vérifie l'heure d'un rendez-vous et je pose les|I check the time of an appointment and put the|i=rendezvous:un rendez-vous
+lea|papiers nécessaires près de mon sac.|papers I need next to my bag.
+lea|Ensuite, c'est fait.|Then, it's done.
+mat|J'aime bien cette expression.|I like that expression.|B={"mode": "word", "note": "= on n'a plus besoin d'y penser"}
+mat|[Comme ça, c'est fait.]|That way, it's done.
+mat|On l'utilise quand on termine quelque chose et qu'on|You use it when you finish something and
+mat|n'a plus besoin d'y penser.|no longer need to think about it.
+lea|Je prépare mon déjeuner ce soir.|I'm making my lunch tonight.
+lea|Comme ça, c'est fait.|That way, it's done.|e=idee BE
+mat|Pour raconter l'ordre de vos actions,|To describe the order of your actions,|B={"mode": "word", "word": "d'abord, ensuite, puis, enfin", "tag": "connecteur", "ipa": "/d‿a.bɔʁ ɑ̃.sɥit pɥi ɑ̃.fɛ̃/", "mean": "first, next, then, finally", "ex": "D'abord je dîne, ensuite je lis, enfin je dors.", "exEn": "First I have dinner, then I read, finally I sleep.", "note": "pour raconter l'ordre des actions", "icon": "temps"}
+mat|vous pouvez utiliser quatre petits mots.|you can use four little words.
+mat|D'abord, ensuite, puis, enfin.|First, next, then, finally.
+lea|Par exemple, d'abord, je prépare mon sac.|For example: first, I get my bag ready.
+lea|Ensuite, je choisis mes vêtements.|Next, I choose my clothes.
+lea|Puis, je règle mon réveil.|Then, I set my alarm.
+lea|Enfin, je vais dans ma chambre.|Finally, I go to my bedroom.|BE
+mat|À vous !|Your turn!
+mat|Choisissez deux actions de votre soirée|Choose two actions from your evening
+mat|et reliez-les avec "d'abord" et "ensuite".|and link them with "d'abord" and "ensuite".
+lea|Et une fois dans ton lit,|And once you're in bed,
+lea|tu t'endors vite ?|do you fall asleep quickly?|e=question
+mat|Ça dépend.|It depends.
+mat|Parfois, oui.|Sometimes, yes.
+mat|Parfois, je me souviens soudain|Sometimes I suddenly remember
+mat|d'une conversation de mardi|a conversation from Tuesday
+mat|et je trouve enfin la bonne réponse.|and finally find the right answer.
+lea|La réponse brillante, trois jours trop tard.|The brilliant answer, three days too late.|e=rire
+mat|Exactement.|Exactly.
+mat|Mon esprit a un service de livraison un peu lent.|My mind has a rather slow delivery service.|r=rire
+lea|Moi, je pense parfois à une chose que j'ai oubliée.|Me, sometimes I think of something I forgot.
+lea|Alors, je la note en quelques mots pour pouvoir|So I jot it down in a few words so I can
+lea|m'en occuper le lendemain.|deal with it the next day.
+mat|Et après ?|And then?
+lea|Parfois, je lis.|Sometimes I read.
+lea|Parfois, je reste simplement allongée.|Sometimes I just stay lying down.
+lea|Je préfère un livre que j'ai plaisir à retrouver,|I prefer a book I enjoy coming back to,
+lea|avec des chapitres assez courts.|with fairly short chapters.
+mat|Moi, j'ai commencé un roman policier.|Me, I've started a detective novel.|i=lecture:un roman policier
+mat|Mauvaise idée pour m'arrêter facilement.|Bad idea if I want to stop easily.
+mat|Chaque chapitre se termine avec une personne|Every chapter ends with someone
+mat|qui ouvre une porte mystérieuse.|opening a mysterious door.
+lea|Et toi, tu dois savoir ce qu'il y a derrière.|And you have to know what's behind it.
+mat|Toujours.|Always.
+mat|Je suis très poli avec les mystères.|I'm very polite with mysteries.
+mat|Je ne les laisse pas seuls dans le couloir.|I don't leave them alone in the hallway.|e=rire
+lea|Pour parler de la fatigue,|To talk about tiredness,|B={"mode": "word", "note": "= avoir envie de dormir", "icon": "sommeil"}
+lea|on peut dire ["j'ai sommeil".]|you can say "j'ai sommeil".
+lea|Ça veut dire qu'on a envie de dormir.|It means you feel like sleeping.
+mat|Et "je suis fatigué" est plus général.|And "je suis fatigué" is more general.
+mat|Après une longue promenade, je peux être fatigué sans|After a long walk, I can be tired without
+mat|avoir envie de dormir immédiatement.|wanting to sleep right away.|BE
+lea|Autre différence utile.|Another useful difference:|B={"mode": "word", "word": "se coucher / s'endormir", "tag": "verbe", "ipa": "/sə ku.ʃe/ · /sɑ̃.dɔʁ.miʁ/", "mean": "to go to bed / to fall asleep", "ex": "Je me couche à 22 h, mais je m'endors vers minuit.", "exEn": "I go to bed at 10 p.m., but I fall asleep around midnight.", "note": "se coucher = aller au lit · s'endormir = commencer à dormir"}
+lea|Se coucher et s'endormir.|"Se coucher" and "s'endormir".
+lea|Je me couche, je vais au lit.|Je me couche: I go to bed.
+lea|Je m'endors, je commence à dormir.|Je m'endors: I start sleeping.

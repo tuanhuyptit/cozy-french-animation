@@ -1,0 +1,536 @@
+[
+ {
+  "who": "mat",
+  "fr": "Donc, je peux dire \"je me couche vers 23",
+  "en": "So I can say, \"I go to bed around 11"
+ },
+ {
+  "who": "mat",
+  "fr": "heures mais je ne m'endors pas tout de suite\".",
+  "en": "but I don't fall asleep straight away.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Tout à fait.",
+  "en": "Exactly."
+ },
+ {
+  "who": "lea",
+  "fr": "Et \"vers\" indique une heure approximative.",
+  "en": "And \"vers\" indicates an approximate time."
+ },
+ {
+  "who": "lea",
+  "fr": "\"Vers 23 heures\", ce n'est pas forcément",
+  "en": "\"Around 11\" isn't necessarily"
+ },
+ {
+  "who": "lea",
+  "fr": "à 23 heures précises.",
+  "en": "at 11 on the dot.",
+  "boardEnd": true
+ },
+ {
+  "who": "mat",
+  "fr": "On a décrit une soirée assez calme.",
+  "en": "We've described a fairly calm evening."
+ },
+ {
+  "who": "mat",
+  "fr": "Mais hier, mon voisin a commencé à déplacer ses",
+  "en": "But yesterday, my neighbour started moving his"
+ },
+ {
+  "who": "mat",
+  "fr": "meubles pendant que je lisais.",
+  "en": "furniture while I was reading."
+ },
+ {
+  "who": "lea",
+  "fr": "Ah.",
+  "en": "Ah."
+ },
+ {
+  "who": "lea",
+  "fr": "Une activité discrète.",
+  "en": "A quiet little activity.",
+  "emote": "rire"
+ },
+ {
+  "who": "mat",
+  "fr": "J'ai découvert qu'il avait probablement 14 chaises.",
+  "en": "I found out he probably owns 14 chairs.",
+  "emote": "fatigue"
+ },
+ {
+  "who": "lea",
+  "fr": "Tu allais lui parler ?",
+  "en": "Did you go and talk to him?"
+ },
+ {
+  "who": "mat",
+  "fr": "Oui, gentiment.",
+  "en": "Yes, nicely."
+ },
+ {
+  "who": "mat",
+  "fr": "J'ai dit \"bonsoir, excusez-moi, je me lève tôt demain.",
+  "en": "I said, \"Good evening, sorry, I'm getting up early tomorrow.",
+  "board": {
+   "mode": "sketch",
+   "title": "En situation : une demande polie"
+  }
+ },
+ {
+  "who": "mat",
+  "fr": "Est-ce que vous pourriez faire un peu moins de",
+  "en": "Could you make a little less"
+ },
+ {
+  "who": "mat",
+  "fr": "bruit ?\"",
+  "en": "noise?\""
+ },
+ {
+  "who": "lea",
+  "fr": "C'est une phrase utile.",
+  "en": "That's a useful sentence."
+ },
+ {
+  "who": "lea",
+  "fr": "On explique la situation",
+  "en": "You explain the situation"
+ },
+ {
+  "who": "lea",
+  "fr": "et on formule une demande polie.",
+  "en": "and make a polite request.",
+  "boardEnd": true
+ },
+ {
+  "who": "mat",
+  "fr": "Il s'est excusé.",
+  "en": "He apologised."
+ },
+ {
+  "who": "mat",
+  "fr": "Il cherchait une petite pièce tombée sous un meuble.",
+  "en": "He was looking for a small coin that fell under a piece of furniture."
+ },
+ {
+  "who": "mat",
+  "fr": "On l'a retrouvée et j'ai pu reprendre mon livre.",
+  "en": "We found it and I could go back to my book.",
+  "emote": "coeur"
+ },
+ {
+  "who": "lea",
+  "fr": "Mes soirées changent aussi quand je reçois des amis.",
+  "en": "My evenings also change when I have friends over."
+ },
+ {
+  "who": "lea",
+  "fr": "Je ne vais pas interrompre",
+  "en": "I'm not going to interrupt"
+ },
+ {
+  "who": "lea",
+  "fr": "une belle conversation parce",
+  "en": "a lovely conversation because"
+ },
+ {
+  "who": "lea",
+  "fr": "que mon agenda indique crème pour le visage.",
+  "en": "my diary says \"face cream\"."
+ },
+ {
+  "who": "mat",
+  "fr": "Heureusement.",
+  "en": "Thank goodness."
+ },
+ {
+  "who": "mat",
+  "fr": "Merci d'être venu mais mon visage m'attend.",
+  "en": "\"Thanks for coming, but my face is waiting for me.\"",
+  "emote": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Voilà.",
+  "en": "Exactly."
+ },
+ {
+  "who": "lea",
+  "fr": "Une routine peut nous [servir de repère]",
+  "en": "A routine can serve as a reference point for us"
+ },
+ {
+  "who": "lea",
+  "fr": "tout en restant souple.",
+  "en": "while staying flexible."
+ },
+ {
+  "who": "mat",
+  "fr": "Et tout le monde n'a pas les mêmes horaires.",
+  "en": "And not everyone has the same schedule."
+ },
+ {
+  "who": "mat",
+  "fr": "Si on travaille le soir,",
+  "en": "If you work in the evening,"
+ },
+ {
+  "who": "mat",
+  "fr": "si on a de jeunes enfants",
+  "en": "if you have young children",
+  "illus": "famille",
+  "label": "de jeunes enfants"
+ },
+ {
+  "who": "mat",
+  "fr": "ou si on partage son logement,",
+  "en": "or share your home,"
+ },
+ {
+  "who": "mat",
+  "fr": "les soirées sont différentes.",
+  "en": "evenings are different."
+ },
+ {
+  "who": "lea",
+  "fr": "On peut donc dire \"en général\",",
+  "en": "So you can say \"en général\","
+ },
+ {
+  "who": "lea",
+  "fr": "\"souvent\", \"parfois\" ou \"ça dépend des jours\".",
+  "en": "\"souvent\", \"parfois\" or \"ça dépend des jours\"."
+ },
+ {
+  "who": "lea",
+  "fr": "Ce sont des mots très pratiques",
+  "en": "They're very handy words"
+ },
+ {
+  "who": "lea",
+  "fr": "pour décrire sa vraie vie.",
+  "en": "for describing your real life."
+ },
+ {
+  "who": "mat",
+  "fr": "Maintenant, petite conversation.",
+  "en": "Now, a little conversation."
+ },
+ {
+  "who": "mat",
+  "fr": "Léa va me poser trois questions.",
+  "en": "Léa is going to ask me three questions."
+ },
+ {
+  "who": "mat",
+  "fr": "Écoutez mes réponses puis ce sera à vous.",
+  "en": "Listen to my answers, then it'll be your turn."
+ },
+ {
+  "who": "lea",
+  "fr": "Qu'est-ce que tu fais après le dîner ?",
+  "en": "What do you do after dinner?",
+  "board": {
+   "mode": "sketch",
+   "title": "En situation : ma soirée"
+  }
+ },
+ {
+  "who": "mat",
+  "fr": "En général, je fais la vaisselle",
+  "en": "Usually, I do the washing-up,"
+ },
+ {
+  "who": "mat",
+  "fr": "puis j'écoute de la musique.",
+  "en": "then listen to music."
+ },
+ {
+  "who": "lea",
+  "fr": "Qu'est-ce qui t'aide à te détendre ?",
+  "en": "What helps you relax?"
+ },
+ {
+  "who": "mat",
+  "fr": "J'aime prendre une douche et lire un peu.",
+  "en": "I like taking a shower and reading a bit."
+ },
+ {
+  "who": "mat",
+  "fr": "Ça m'aide à penser à autre chose.",
+  "en": "It helps me think about something else."
+ },
+ {
+  "who": "lea",
+  "fr": "Et vers quelle heure tu te couches ?",
+  "en": "And around what time do you go to bed?"
+ },
+ {
+  "who": "mat",
+  "fr": "Je me couche vers 23 heures en semaine.",
+  "en": "I go to bed around 11 on weekdays."
+ },
+ {
+  "who": "mat",
+  "fr": "Le week-end, ça dépend.",
+  "en": "At the weekend, it depends.",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "À votre tour,",
+  "en": "Your turn:"
+ },
+ {
+  "who": "lea",
+  "fr": "qu'est-ce que vous faites après le dîner ?",
+  "en": "what do you do after dinner?"
+ },
+ {
+  "who": "mat",
+  "fr": "Qu'est-ce qui vous aide à vous détendre ?",
+  "en": "What helps you relax?"
+ },
+ {
+  "who": "mat",
+  "fr": "Vous pouvez commencer par \"pour me détendre,",
+  "en": "You can start with \"To relax,"
+ },
+ {
+  "who": "mat",
+  "fr": "je...\"",
+  "en": "I…\""
+ },
+ {
+  "who": "lea",
+  "fr": "Et vers quelle heure vous vous couchez ?",
+  "en": "And around what time do you go to bed?"
+ },
+ {
+  "who": "mat",
+  "fr": "Vous venez de parler de votre routine en français.",
+  "en": "You've just talked about your routine in French.",
+  "emote": "coeur"
+ },
+ {
+  "who": "mat",
+  "fr": "Vous pouvez garder vos réponses et les redire demain",
+  "en": "You can keep your answers and say them again tomorrow"
+ },
+ {
+  "who": "mat",
+  "fr": "avec un petit détail en plus.",
+  "en": "with one more little detail."
+ },
+ {
+  "who": "lea",
+  "fr": "Par exemple, ajoutez une raison.",
+  "en": "For example, add a reason."
+ },
+ {
+  "who": "lea",
+  "fr": "Je prépare mes vêtements le soir parce que je",
+  "en": "I get my clothes ready in the evening because I"
+ },
+ {
+  "who": "lea",
+  "fr": "pars tôt le matin.",
+  "en": "leave early in the morning."
+ },
+ {
+  "who": "mat",
+  "fr": "Ou une préférence.",
+  "en": "Or a preference."
+ },
+ {
+  "who": "mat",
+  "fr": "Je préfère lire dans mon lit parce que j'y suis bien.",
+  "en": "I prefer reading in bed because I feel good there."
+ },
+ {
+  "who": "lea",
+  "fr": "Ma version complète serait \"après le dîner,",
+  "en": "My full version would be: \"After dinner,"
+ },
+ {
+  "who": "lea",
+  "fr": "je range un peu la cuisine\".",
+  "en": "I tidy the kitchen a bit.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Ensuite, je prends un moment pour moi.",
+  "en": "Then, I take some time for myself."
+ },
+ {
+  "who": "lea",
+  "fr": "Avant de me coucher, je me brosse les dents",
+  "en": "Before going to bed, I brush my teeth"
+ },
+ {
+  "who": "lea",
+  "fr": "et je prépare mes affaires.",
+  "en": "and get my things ready."
+ },
+ {
+  "who": "lea",
+  "fr": "Puis je lis quelques pages.",
+  "en": "Then I read a few pages."
+ },
+ {
+  "who": "mat",
+  "fr": "C'est clair, naturel et on peut facilement",
+  "en": "It's clear, natural, and you can easily"
+ },
+ {
+  "who": "mat",
+  "fr": "l'adapter à sa propre soirée.",
+  "en": "adapt it to your own evening."
+ },
+ {
+  "who": "lea",
+  "fr": "Avant de partir, une dernière expression.",
+  "en": "Before we go, one last expression.",
+  "board": {
+   "mode": "word",
+   "note": "= avoir vraiment très envie de dormir",
+   "icon": "sommeil"
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "Je [tombe de sommeil.]",
+  "en": "I'm dropping with sleep."
+ },
+ {
+  "who": "lea",
+  "fr": "Ça veut dire qu'on a vraiment très envie de dormir.",
+  "en": "It means you really, really want to sleep."
+ },
+ {
+  "who": "mat",
+  "fr": "À utiliser quand vous relisez la même phrase",
+  "en": "Use it when you're rereading the same sentence"
+ },
+ {
+  "who": "mat",
+  "fr": "pour la quatrième fois.",
+  "en": "for the fourth time.",
+  "react": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Ou quand vous cherchez vos lunettes",
+  "en": "Or when you're looking for your glasses"
+ },
+ {
+  "who": "lea",
+  "fr": "alors qu'elles sont sur votre nez.",
+  "en": "while they're on your nose.",
+  "boardEnd": true,
+  "emote": "rire"
+ },
+ {
+  "who": "mat",
+  "fr": "Ça, chez moi, c'est possible à toute heure.",
+  "en": "That, for me, can happen at any time of day.",
+  "emote": "gene"
+ },
+ {
+  "who": "lea",
+  "fr": "Dites-nous en commentaire quelle petite habitude",
+  "en": "Tell us in the comments which little habit"
+ },
+ {
+  "who": "lea",
+  "fr": "vous aimez retrouver le soir.",
+  "en": "you love coming back to in the evening."
+ },
+ {
+  "who": "lea",
+  "fr": "Vous pouvez écrire \"Le soir,",
+  "en": "You can write: \"In the evening,"
+ },
+ {
+  "who": "lea",
+  "fr": "j'aime parce que...\"",
+  "en": "I like … because…\""
+ },
+ {
+  "who": "mat",
+  "fr": "Et si cet épisode vous a",
+  "en": "And if this episode has"
+ },
+ {
+  "who": "mat",
+  "fr": "aidé à parler français, vous pouvez vous abonner pour",
+  "en": "helped you speak French, you can subscribe to"
+ },
+ {
+  "who": "mat",
+  "fr": "retrouver nos prochaines conversations.",
+  "en": "catch our next conversations."
+ },
+ {
+  "who": "lea",
+  "fr": "Merci d'avoir passé ce moment avec nous.",
+  "en": "Thank you for spending this time with us.",
+  "emote": "coeur"
+ },
+ {
+  "who": "lea",
+  "fr": "Prenez soin de vous et à très bientôt !",
+  "en": "Take care and see you very soon!"
+ },
+ {
+  "who": "mat",
+  "fr": "Bonne soirée, bonne nuit,",
+  "en": "Have a good evening, good night,",
+  "illus": "sommeil",
+  "label": "bonne nuit"
+ },
+ {
+  "who": "mat",
+  "fr": "selon l'heure à laquelle vous nous écoutez.",
+  "en": "depending on when you're listening to us."
+ },
+ {
+  "who": "lea",
+  "fr": "Et toi Mathieu, maintenant, tu vas te coucher ?",
+  "en": "And you, Mathieu, are you going to bed now?",
+  "emote": "question"
+ },
+ {
+  "who": "mat",
+  "fr": "Oui, je prends le chemin direct.",
+  "en": "Yes, I'm taking the direct route."
+ },
+ {
+  "who": "lea",
+  "fr": "Sans passer par la cuisine ?",
+  "en": "Without going via the kitchen?",
+  "emote": "rire"
+ },
+ {
+  "who": "mat",
+  "fr": "Je vais faire un effort.",
+  "en": "I'll make an effort.",
+  "emote": "gene"
+ },
+ {
+  "who": "mat",
+  "fr": "Bonne nuit Léa !",
+  "en": "Good night, Léa!"
+ },
+ {
+  "who": "lea",
+  "fr": "Bonne nuit Mathieu !",
+  "en": "Good night, Mathieu!",
+  "emote": "coeur"
+ }
+]

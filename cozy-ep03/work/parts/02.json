@@ -1,0 +1,575 @@
+[
+ {
+  "who": "mat",
+  "fr": "Tu sors les grandes assiettes ?",
+  "en": "Do you get out the big plates?"
+ },
+ {
+  "who": "lea",
+  "fr": "Oui.",
+  "en": "Yes."
+ },
+ {
+  "who": "lea",
+  "fr": "Je mérite une grande assiette,",
+  "en": "I deserve a big plate,"
+ },
+ {
+  "who": "lea",
+  "fr": "même pour mon omelette.",
+  "en": "even for my omelette."
+ },
+ {
+  "who": "mat",
+  "fr": "Je soutiens complètement cette décision.",
+  "en": "I fully support that decision.",
+  "emote": "coeur"
+ },
+ {
+  "who": "lea",
+  "fr": "Après le dîner, je fais la vaisselle.",
+  "en": "After dinner, I do the washing-up."
+ },
+ {
+  "who": "lea",
+  "fr": "Enfin, généralement.",
+  "en": "Well, usually.",
+  "emote": "gene"
+ },
+ {
+  "who": "mat",
+  "fr": "Ce petit \"généralement\" contient une histoire.",
+  "en": "That little \"usually\" hides a story.",
+  "emote": "question"
+ },
+ {
+  "who": "lea",
+  "fr": "Dimanche, j'ai laissé un plat tremper toute la soirée.",
+  "en": "On Sunday, I left a dish to soak all evening."
+ },
+ {
+  "who": "mat",
+  "fr": "[Faire tremper,] c'est laisser quelque chose dans l'eau,",
+  "en": "\"Faire tremper\" means leaving something in water,"
+ },
+ {
+  "who": "mat",
+  "fr": "pour le nettoyer plus facilement par exemple.",
+  "en": "to clean it more easily, for example."
+ },
+ {
+  "who": "lea",
+  "fr": "Sauf qu'à la fin, je regardais le plat comme",
+  "en": "Except that in the end, I was looking at the dish as if"
+ },
+ {
+  "who": "lea",
+  "fr": "s'il allait se laver tout seul.",
+  "en": "it was going to wash itself."
+ },
+ {
+  "who": "mat",
+  "fr": "Moi aussi, je crois beaucoup",
+  "en": "Me too, I'm a big believer",
+  "emote": "rire"
+ },
+ {
+  "who": "mat",
+  "fr": "à l'autonomie des casseroles.",
+  "en": "in saucepan independence."
+ },
+ {
+  "who": "lea",
+  "fr": "Tu ranges ton appartement tous les soirs ?",
+  "en": "Do you tidy your flat every evening?"
+ },
+ {
+  "who": "mat",
+  "fr": "Non.",
+  "en": "No."
+ },
+ {
+  "who": "mat",
+  "fr": "Je range surtout ce qui va me gêner le lendemain.",
+  "en": "I mostly tidy what's going to bother me the next day."
+ },
+ {
+  "who": "mat",
+  "fr": "Une tasse sur le bureau,",
+  "en": "A mug on the desk,"
+ },
+ {
+  "who": "mat",
+  "fr": "un sac au milieu du passage.",
+  "en": "a bag in the middle of the way."
+ },
+ {
+  "who": "lea",
+  "fr": "Je préfère les petites missions.",
+  "en": "I prefer small missions."
+ },
+ {
+  "who": "lea",
+  "fr": "Je comprends.",
+  "en": "I understand."
+ },
+ {
+  "who": "lea",
+  "fr": "Une fois, j'ai décidé",
+  "en": "Once, I decided"
+ },
+ {
+  "who": "lea",
+  "fr": "de ranger une étagère à 21 heures.",
+  "en": "to tidy a shelf at 9 p.m."
+ },
+ {
+  "who": "lea",
+  "fr": "À 23 heures, tous mes livres étaient par terre.",
+  "en": "At 11 p.m., all my books were on the floor.",
+  "emote": "gene"
+ },
+ {
+  "who": "mat",
+  "fr": "Tu avais transformé une étagère",
+  "en": "You'd turned a shelf"
+ },
+ {
+  "who": "mat",
+  "fr": "en bibliothèque municipale.",
+  "en": "into a public library.",
+  "illus": "lecture",
+  "label": "la bibliothèque"
+ },
+ {
+  "who": "lea",
+  "fr": "Et je ne savais plus si je devais classer",
+  "en": "And I no longer knew whether to sort"
+ },
+ {
+  "who": "lea",
+  "fr": "les livres par hauteur ou par couleur.",
+  "en": "the books by height or by colour."
+ },
+ {
+  "who": "mat",
+  "fr": "À cette heure-là, je propose un classement",
+  "en": "At that time of night, I suggest sorting them"
+ },
+ {
+  "who": "mat",
+  "fr": "par proximité avec l'étagère.",
+  "en": "by how close they are to the shelf.",
+  "react": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Très pratique.",
+  "en": "Very practical."
+ },
+ {
+  "who": "lea",
+  "fr": "Aujourd'hui, je remets seulement",
+  "en": "These days, I just put"
+ },
+ {
+  "who": "lea",
+  "fr": "quelques objets à leur place.",
+  "en": "a few things back in their place."
+ },
+ {
+  "who": "lea",
+  "fr": "Ensuite, je garde un moment pour moi.",
+  "en": "Then I keep some time for myself."
+ },
+ {
+  "who": "mat",
+  "fr": "[Un moment pour moi,]",
+  "en": "\"Un moment pour moi\":"
+ },
+ {
+  "who": "mat",
+  "fr": "c'est une expression très naturelle.",
+  "en": "it's a very natural expression."
+ },
+ {
+  "who": "mat",
+  "fr": "Ça peut être lire, dessiner,",
+  "en": "It can be reading, drawing,"
+ },
+ {
+  "who": "mat",
+  "fr": "écouter un album",
+  "en": "listening to an album",
+  "illus": "musique",
+  "label": "un album"
+ },
+ {
+  "who": "mat",
+  "fr": "ou ne rien faire pendant quelques minutes.",
+  "en": "or doing nothing for a few minutes."
+ },
+ {
+  "who": "lea",
+  "fr": "Tu arrives à ne rien faire ?",
+  "en": "You manage to do nothing?",
+  "emote": "surpris"
+ },
+ {
+  "who": "mat",
+  "fr": "J'apprends.",
+  "en": "I'm learning."
+ },
+ {
+  "who": "mat",
+  "fr": "Au début, je me demandais si j'étais en train",
+  "en": "At first, I wondered if I was"
+ },
+ {
+  "who": "mat",
+  "fr": "de mal utiliser mon temps libre.",
+  "en": "misusing my free time."
+ },
+ {
+  "who": "lea",
+  "fr": "Oui, on peut finir par vouloir",
+  "en": "Yes, you can end up wanting",
+  "emote": "idee"
+ },
+ {
+  "who": "lea",
+  "fr": "réussir sa détente aussi.",
+  "en": "to succeed at relaxing too."
+ },
+ {
+  "who": "mat",
+  "fr": "Exactement.",
+  "en": "Exactly."
+ },
+ {
+  "who": "mat",
+  "fr": "Alors maintenant, certains soirs,",
+  "en": "So now, some evenings,"
+ },
+ {
+  "who": "mat",
+  "fr": "je m'assois près de la",
+  "en": "I sit by the"
+ },
+ {
+  "who": "mat",
+  "fr": "fenêtre et j'écoute ce qui se passe dehors.",
+  "en": "window and listen to what's going on outside."
+ },
+ {
+  "who": "mat",
+  "fr": "Un vélo, des gens qui discutent,",
+  "en": "A bike, people chatting,"
+ },
+ {
+  "who": "mat",
+  "fr": "quelqu'un qui ferme ses volets.",
+  "en": "someone closing their shutters."
+ },
+ {
+  "who": "lea",
+  "fr": "Moi, j'aime arroser mes plantes et regarder si une",
+  "en": "Me, I like watering my plants and checking whether a",
+  "illus": "nature",
+  "label": "mes plantes"
+ },
+ {
+  "who": "lea",
+  "fr": "nouvelle feuille a poussé.",
+  "en": "new leaf has grown."
+ },
+ {
+  "who": "lea",
+  "fr": "Il ne se passe pas grand chose,",
+  "en": "Not much happens,"
+ },
+ {
+  "who": "lea",
+  "fr": "mais ça me plaît.",
+  "en": "but I like it."
+ },
+ {
+  "who": "mat",
+  "fr": "Tes plantes [ont droit à] un compte rendu quotidien ?",
+  "en": "Your plants get a daily report?"
+ },
+ {
+  "who": "lea",
+  "fr": "Évidemment.",
+  "en": "Of course."
+ },
+ {
+  "who": "lea",
+  "fr": "Et elles ne m'interrompent jamais.",
+  "en": "And they never interrupt me."
+ },
+ {
+  "who": "mat",
+  "fr": "Ça, c'est agréable.",
+  "en": "Now that's nice.",
+  "emote": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Pour parler de votre moment préféré,",
+  "en": "To talk about your favourite moment,"
+ },
+ {
+  "who": "lea",
+  "fr": "vous pouvez dire \"Le soir,",
+  "en": "you can say: \"In the evening,"
+ },
+ {
+  "who": "lea",
+  "fr": "j'aime prendre un moment pour moi.",
+  "en": "I like taking some time for myself."
+ },
+ {
+  "who": "lea",
+  "fr": "En général, je...\"",
+  "en": "Usually, I…\""
+ },
+ {
+  "who": "mat",
+  "fr": "Mon problème,",
+  "en": "My problem"
+ },
+ {
+  "who": "mat",
+  "fr": "c'est que mon téléphone participe",
+  "en": "is that my phone takes part"
+ },
+ {
+  "who": "mat",
+  "fr": "à beaucoup trop de moments pour moi.",
+  "en": "in far too many of my \"me moments\".",
+  "emote": "gene"
+ },
+ {
+  "who": "lea",
+  "fr": "Comment ça ?",
+  "en": "What do you mean?",
+  "emote": "question"
+ },
+ {
+  "who": "mat",
+  "fr": "L'autre soir, je voulais regarder",
+  "en": "The other evening, I wanted to check"
+ },
+ {
+  "who": "mat",
+  "fr": "la météo du lendemain.",
+  "en": "tomorrow's weather.",
+  "illus": "soleil",
+  "label": "la météo"
+ },
+ {
+  "who": "mat",
+  "fr": "Vingt minutes plus tard, je regardais",
+  "en": "Twenty minutes later, I was watching"
+ },
+ {
+  "who": "mat",
+  "fr": "une personne restaurer une vieille chaise.",
+  "en": "someone restore an old chair."
+ },
+ {
+  "who": "lea",
+  "fr": "Et la météo ?",
+  "en": "And the weather?"
+ },
+ {
+  "who": "mat",
+  "fr": "Aucune idée.",
+  "en": "No idea.",
+  "emote": "gene"
+ },
+ {
+  "who": "mat",
+  "fr": "Mais pour la chaise, je pense qu'il fallait une",
+  "en": "But as for the chair, I think it needed a"
+ },
+ {
+  "who": "mat",
+  "fr": "deuxième couche de peinture.",
+  "en": "second coat of paint.",
+  "react": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Ça m'arrive aussi.",
+  "en": "That happens to me too."
+ },
+ {
+  "who": "lea",
+  "fr": "Je prends mon téléphone pour répondre à un message,",
+  "en": "I pick up my phone to answer a message,",
+  "illus": "telephone",
+  "label": "mon téléphone"
+ },
+ {
+  "who": "lea",
+  "fr": "puis j'oublie pourquoi je l'ai pris.",
+  "en": "then I forget why I picked it up."
+ },
+ {
+  "who": "mat",
+  "fr": "Tu fais quelque chose pour éviter ça ?",
+  "en": "Do you do anything to avoid that?"
+ },
+ {
+  "who": "lea",
+  "fr": "Quand je veux lire, je le laisse sur une petite table,",
+  "en": "When I want to read, I leave it on a little table,"
+ },
+ {
+  "who": "lea",
+  "fr": "loin du fauteuil.",
+  "en": "far from the armchair."
+ },
+ {
+  "who": "lea",
+  "fr": "Sinon, au moindre passage difficile,",
+  "en": "Otherwise, at the slightest difficult passage,"
+ },
+ {
+  "who": "lea",
+  "fr": "je vais vérifier quelque chose.",
+  "en": "I go and check something."
+ },
+ {
+  "who": "mat",
+  "fr": "Quelque chose de très urgent,",
+  "en": "Something very urgent,"
+ },
+ {
+  "who": "mat",
+  "fr": "comme la nouvelle couleur du salon de ta cousine.",
+  "en": "like the new colour of your cousin's living room.",
+  "react": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement.",
+  "en": "Exactly."
+ },
+ {
+  "who": "lea",
+  "fr": "Vert sauge, d'ailleurs.",
+  "en": "Sage green, by the way."
+ },
+ {
+  "who": "lea",
+  "fr": "Très joli.",
+  "en": "Very pretty."
+ },
+ {
+  "who": "mat",
+  "fr": "On peut dire \"Je mets mon téléphone de côté\".",
+  "en": "You can say, \"I put my phone aside.\"",
+  "board": {
+   "mode": "word",
+   "note": "= éloigner quelque chose pour un moment",
+   "icon": "telephone"
+  }
+ },
+ {
+  "who": "mat",
+  "fr": "[Mettre de côté,] ici, c'est éloigner quelque chose pour",
+  "en": "\"Mettre de côté\" here means moving something away so"
+ },
+ {
+  "who": "mat",
+  "fr": "ne plus s'en occuper pendant un moment.",
+  "en": "you don't deal with it for a while."
+ },
+ {
+  "who": "lea",
+  "fr": "Pendant le dîner, je mets mon téléphone de côté.",
+  "en": "During dinner, I put my phone aside."
+ },
+ {
+  "who": "lea",
+  "fr": "Ou je coupe les notifications pour être tranquille.",
+  "en": "Or I turn off notifications to have some peace.",
+  "boardEnd": true
+ },
+ {
+  "who": "mat",
+  "fr": "Être tranquille.",
+  "en": "To have some peace."
+ },
+ {
+  "who": "mat",
+  "fr": "J'aime bien cette expression.",
+  "en": "I really like that expression.",
+  "emote": "coeur"
+ },
+ {
+  "who": "mat",
+  "fr": "On ne cherche pas forcément un silence complet.",
+  "en": "You're not necessarily looking for complete silence."
+ },
+ {
+  "who": "mat",
+  "fr": "On veut juste un peu de calme.",
+  "en": "You just want a bit of calm."
+ },
+ {
+  "who": "lea",
+  "fr": "Voilà.",
+  "en": "That's it."
+ },
+ {
+  "who": "lea",
+  "fr": "Et parfois, j'utilise justement mon téléphone",
+  "en": "And sometimes, I actually use my phone"
+ },
+ {
+  "who": "lea",
+  "fr": "pour écouter de la musique.",
+  "en": "to listen to music."
+ },
+ {
+  "who": "lea",
+  "fr": "Je choisis ce que je veux écouter,",
+  "en": "I choose what I want to listen to,"
+ },
+ {
+  "who": "lea",
+  "fr": "puis je le pose.",
+  "en": "then I put it down."
+ },
+ {
+  "who": "mat",
+  "fr": "Je pourrais essayer avec un album.",
+  "en": "I could try that with an album."
+ },
+ {
+  "who": "mat",
+  "fr": "Il y aurait au moins une fin prévue.",
+  "en": "At least there'd be a planned ending."
+ },
+ {
+  "who": "lea",
+  "fr": "À condition de ne pas commencer à chercher toute",
+  "en": "As long as you don't start looking up the whole"
+ },
+ {
+  "who": "lea",
+  "fr": "la vie du chanteur.",
+  "en": "life story of the singer.",
+  "emote": "rire"
+ },
+ {
+  "who": "mat",
+  "fr": "Tu connais mes faiblesses.",
+  "en": "You know my weaknesses.",
+  "emote": "gene"
+ }
+]

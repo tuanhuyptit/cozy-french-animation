@@ -1,0 +1,108 @@
+mat|Tu sors les grandes assiettes ?|Do you get out the big plates?
+lea|Oui.|Yes.
+lea|Je mérite une grande assiette,|I deserve a big plate,
+lea|même pour mon omelette.|even for my omelette.
+mat|Je soutiens complètement cette décision.|I fully support that decision.|e=coeur
+lea|Après le dîner, je fais la vaisselle.|After dinner, I do the washing-up.
+lea|Enfin, généralement.|Well, usually.|e=gene
+mat|Ce petit "généralement" contient une histoire.|That little "usually" hides a story.|e=question
+lea|Dimanche, j'ai laissé un plat tremper toute la soirée.|On Sunday, I left a dish to soak all evening.
+mat|[Faire tremper,] c'est laisser quelque chose dans l'eau,|"Faire tremper" means leaving something in water,
+mat|pour le nettoyer plus facilement par exemple.|to clean it more easily, for example.
+lea|Sauf qu'à la fin, je regardais le plat comme|Except that in the end, I was looking at the dish as if
+lea|s'il allait se laver tout seul.|it was going to wash itself.
+mat|Moi aussi, je crois beaucoup|Me too, I'm a big believer|e=rire
+mat|à l'autonomie des casseroles.|in saucepan independence.
+lea|Tu ranges ton appartement tous les soirs ?|Do you tidy your flat every evening?
+mat|Non.|No.
+mat|Je range surtout ce qui va me gêner le lendemain.|I mostly tidy what's going to bother me the next day.
+mat|Une tasse sur le bureau,|A mug on the desk,
+mat|un sac au milieu du passage.|a bag in the middle of the way.
+lea|Je préfère les petites missions.|I prefer small missions.
+lea|Je comprends.|I understand.
+lea|Une fois, j'ai décidé|Once, I decided
+lea|de ranger une étagère à 21 heures.|to tidy a shelf at 9 p.m.
+lea|À 23 heures, tous mes livres étaient par terre.|At 11 p.m., all my books were on the floor.|e=gene
+mat|Tu avais transformé une étagère|You'd turned a shelf
+mat|en bibliothèque municipale.|into a public library.|i=lecture:la bibliothèque
+lea|Et je ne savais plus si je devais classer|And I no longer knew whether to sort
+lea|les livres par hauteur ou par couleur.|the books by height or by colour.
+mat|À cette heure-là, je propose un classement|At that time of night, I suggest sorting them
+mat|par proximité avec l'étagère.|by how close they are to the shelf.|r=rire
+lea|Très pratique.|Very practical.
+lea|Aujourd'hui, je remets seulement|These days, I just put
+lea|quelques objets à leur place.|a few things back in their place.
+lea|Ensuite, je garde un moment pour moi.|Then I keep some time for myself.
+mat|[Un moment pour moi,]|"Un moment pour moi":
+mat|c'est une expression très naturelle.|it's a very natural expression.
+mat|Ça peut être lire, dessiner,|It can be reading, drawing,
+mat|écouter un album|listening to an album|i=musique:un album
+mat|ou ne rien faire pendant quelques minutes.|or doing nothing for a few minutes.
+lea|Tu arrives à ne rien faire ?|You manage to do nothing?|e=surpris
+mat|J'apprends.|I'm learning.
+mat|Au début, je me demandais si j'étais en train|At first, I wondered if I was
+mat|de mal utiliser mon temps libre.|misusing my free time.
+lea|Oui, on peut finir par vouloir|Yes, you can end up wanting|e=idee
+lea|réussir sa détente aussi.|to succeed at relaxing too.
+mat|Exactement.|Exactly.
+mat|Alors maintenant, certains soirs,|So now, some evenings,
+mat|je m'assois près de la|I sit by the
+mat|fenêtre et j'écoute ce qui se passe dehors.|window and listen to what's going on outside.
+mat|Un vélo, des gens qui discutent,|A bike, people chatting,
+mat|quelqu'un qui ferme ses volets.|someone closing their shutters.
+lea|Moi, j'aime arroser mes plantes et regarder si une|Me, I like watering my plants and checking whether a|i=nature:mes plantes
+lea|nouvelle feuille a poussé.|new leaf has grown.
+lea|Il ne se passe pas grand chose,|Not much happens,
+lea|mais ça me plaît.|but I like it.
+mat|Tes plantes [ont droit à] un compte rendu quotidien ?|Your plants get a daily report?
+lea|Évidemment.|Of course.
+lea|Et elles ne m'interrompent jamais.|And they never interrupt me.
+mat|Ça, c'est agréable.|Now that's nice.|e=rire
+lea|Pour parler de votre moment préféré,|To talk about your favourite moment,
+lea|vous pouvez dire "Le soir,|you can say: "In the evening,
+lea|j'aime prendre un moment pour moi.|I like taking some time for myself.
+lea|En général, je..."|Usually, I…"
+mat|Mon problème,|My problem
+mat|c'est que mon téléphone participe|is that my phone takes part
+mat|à beaucoup trop de moments pour moi.|in far too many of my "me moments".|e=gene
+lea|Comment ça ?|What do you mean?|e=question
+mat|L'autre soir, je voulais regarder|The other evening, I wanted to check
+mat|la météo du lendemain.|tomorrow's weather.|i=soleil:la météo
+mat|Vingt minutes plus tard, je regardais|Twenty minutes later, I was watching
+mat|une personne restaurer une vieille chaise.|someone restore an old chair.
+lea|Et la météo ?|And the weather?
+mat|Aucune idée.|No idea.|e=gene
+mat|Mais pour la chaise, je pense qu'il fallait une|But as for the chair, I think it needed a
+mat|deuxième couche de peinture.|second coat of paint.|r=rire
+lea|Ça m'arrive aussi.|That happens to me too.
+lea|Je prends mon téléphone pour répondre à un message,|I pick up my phone to answer a message,|i=telephone:mon téléphone
+lea|puis j'oublie pourquoi je l'ai pris.|then I forget why I picked it up.
+mat|Tu fais quelque chose pour éviter ça ?|Do you do anything to avoid that?
+lea|Quand je veux lire, je le laisse sur une petite table,|When I want to read, I leave it on a little table,
+lea|loin du fauteuil.|far from the armchair.
+lea|Sinon, au moindre passage difficile,|Otherwise, at the slightest difficult passage,
+lea|je vais vérifier quelque chose.|I go and check something.
+mat|Quelque chose de très urgent,|Something very urgent,
+mat|comme la nouvelle couleur du salon de ta cousine.|like the new colour of your cousin's living room.|r=rire
+lea|Exactement.|Exactly.
+lea|Vert sauge, d'ailleurs.|Sage green, by the way.
+lea|Très joli.|Very pretty.
+mat|On peut dire "Je mets mon téléphone de côté".|You can say, "I put my phone aside."|B={"mode": "word", "note": "= éloigner quelque chose pour un moment", "icon": "telephone"}
+mat|[Mettre de côté,] ici, c'est éloigner quelque chose pour|"Mettre de côté" here means moving something away so
+mat|ne plus s'en occuper pendant un moment.|you don't deal with it for a while.
+lea|Pendant le dîner, je mets mon téléphone de côté.|During dinner, I put my phone aside.
+lea|Ou je coupe les notifications pour être tranquille.|Or I turn off notifications to have some peace.|BE
+mat|Être tranquille.|To have some peace.
+mat|J'aime bien cette expression.|I really like that expression.|e=coeur
+mat|On ne cherche pas forcément un silence complet.|You're not necessarily looking for complete silence.
+mat|On veut juste un peu de calme.|You just want a bit of calm.
+lea|Voilà.|That's it.
+lea|Et parfois, j'utilise justement mon téléphone|And sometimes, I actually use my phone
+lea|pour écouter de la musique.|to listen to music.
+lea|Je choisis ce que je veux écouter,|I choose what I want to listen to,
+lea|puis je le pose.|then I put it down.
+mat|Je pourrais essayer avec un album.|I could try that with an album.
+mat|Il y aurait au moins une fin prévue.|At least there'd be a planned ending.
+lea|À condition de ne pas commencer à chercher toute|As long as you don't start looking up the whole
+lea|la vie du chanteur.|life story of the singer.|e=rire
+mat|Tu connais mes faiblesses.|You know my weaknesses.|e=gene

@@ -1,0 +1,2302 @@
+{
+  "scene": "salon",
+  "lea": "cardigan",
+  "mat": "hoodie",
+  "audio": "assets/voice.mp3",
+  "audioEnd": 1119.45,
+  "chunks": [
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Mathieu, petite question.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Quand tu dis \"je vais me coucher\",",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "tu vas vraiment te coucher ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "Bien sûr.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "Enfin, je commence le voyage.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Le voyage ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Ta chambre est au bout du couloir ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "Oui, mais entre le canapé et la chambre,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 116,
+      "fr": "il y a la cuisine.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 118,
+      "fr": "Et dans la cuisine, il y a du fromage.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "Il faut prévoir les étapes.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Bonsoir tout le monde et bienvenue sur The Cosy French.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "Moi, c'est Léa.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "Et moi, c'est Mathieu.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "Aujourd'hui, on parle français et surtout,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "on parle de nos soirées,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 108,
+      "fr": "les vraies soirées, avec la vaisselle,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "le pyjama et parfois un petit détour par le réfrigérateur.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Vous allez apprendre à raconter votre routine du soir,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "à parler de ce qui vous détend et à",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "dire que vous êtes fatigué.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Installez-vous confortablement.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Vous pouvez simplement écouter ou répéter quelques phrases avec nous.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "Et gardez cette question en tête.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "Qu'est-ce que vous faites en premier quand vous rentrez chez vous ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Moi, j'enlève mes chaussures.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "Voilà une réponse simple et déjà très utile en français.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Hier soir, je suis rentrée avec une seule envie,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "mettre des vêtements confortables.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "J'avais porté un jean trop serré toute la journée.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "Le genre de jean qui te demande de choisir",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 160,
+      "fr": "entre t'asseoir et respirer ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Exactement.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "Alors j'ai posé mon sac,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "j'ai enlevé mes chaussures et j'ai mis un pantalon tout doux.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Là, j'ai senti que ma soirée commençait.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 110,
+      "fr": "J'aime ce moment aussi.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "Chez moi, je mets mes chaussons.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "Ils ne sont pas très beaux mais on a une relation sérieuse.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Tu les as depuis longtemps ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "Assez longtemps pour qu'ils connaissent tous mes secrets.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Pour raconter ses premières actions,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "on peut dire « Quand je rentre,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "je pose mon sac et je me change ».",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Se changer ici, c'est mettre d'autres vêtements.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 105,
+      "fr": "Je me change.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 116,
+      "fr": "Tu te changes.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 151,
+      "fr": "Et Léa se change avant même de regarder ses messages.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Souvent oui.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Et toi, tu arrives à laisser le travail à la porte ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "Pas toujours.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "Parfois, je suis chez moi mais dans ma tête,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "je suis encore en réunion.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Ah oui, le corps sur le canapé,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "l'esprit devant un tableau Excel.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "C'est ça.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "Alors, certains soirs, je marche un peu dans mon",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 107,
+      "fr": "quartier avant de rentrer.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "Dix minutes sans objectif particulier.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "Ça m'aide à décompresser.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Décompresser, ça veut dire relâcher l'attention après un moment fatigant ou stressant.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Par exemple, après le travail,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "j'écoute de la musique pour décompresser.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "Et vous ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 107,
+      "fr": "Complétez cette phrase à voix haute.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 118,
+      "fr": "Quand je rentre chez moi,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "je…",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 320,
+      "fr": "Très bien.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Même une petite phrase suffit pour commencer.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "Ensuite, chez moi vient la grande question.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 107,
+      "fr": "Qu'est-ce qu'on mange ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Tu décides au dernier moment ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Souvent.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "J'ouvre le réfrigérateur avec beaucoup d'espoir.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 107,
+      "fr": "Je le referme.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 119,
+      "fr": "Puis, je l'ouvre encore, au cas où une idée",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 113,
+      "fr": "serait arrivée entre temps.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Et elle arrive ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 114,
+      "fr": "Rarement.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "Mais les carottes restent très patientes.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Moi, j'aime cuisiner quand j'ai du temps.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Quand je suis fatiguée, je fais quelque chose de simple.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Une omelette, une soupe ou les restes de la veille.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "Les restes, ce sont les aliments qui restent après un repas.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "Ce soir, je réchauffe les restes.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "C'est une phrase que j'utilise avec beaucoup d'enthousiasme.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Parce que tu aimes éviter le gaspillage ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "Oui.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 116,
+      "fr": "Et parce que le dîner est presque prêt.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 119,
+      "fr": "Les deux peuvent être vrais.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Tu manges devant un écran ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 110,
+      "fr": "Parfois.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 114,
+      "fr": "Mais j'aime aussi appeler un ami pendant que je cuisine.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 110,
+      "fr": "Puis manger tranquillement.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "Et toi ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "J'essaie de m'asseoir à table,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "même quand je suis seule.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "J'aime préparer une jolie assiette,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "prendre mon temps.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Ça me fait plaisir.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "Tu sors les grandes assiettes ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Oui.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Je mérite une grande assiette,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "même pour mon omelette.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Je soutiens complètement cette décision.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Après le dîner, je fais la vaisselle.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Enfin, généralement.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 157,
+      "fr": "Ce petit \"généralement\" contient une histoire.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Dimanche, j'ai laissé un plat tremper toute la soirée.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 160,
+      "fr": "Faire tremper, c'est laisser quelque chose dans l'eau,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "pour le nettoyer plus facilement par exemple.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 267,
+      "fr": "Sauf qu'à la fin, je regardais le plat comme",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "s'il allait se laver tout seul.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "Moi aussi, je crois beaucoup à l'autonomie des casseroles.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Tu ranges ton appartement tous les soirs ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 101,
+      "fr": "Non.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "Je range surtout ce qui va me gêner le lendemain.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "Une tasse sur le bureau,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "un sac au milieu du passage.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "Je préfère les petites missions.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Je comprends.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Une fois, j'ai décidé de ranger une étagère à 21 heures.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "À 23 heures, tous mes livres étaient par terre.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Tu avais transformé une étagère en bibliothèque municipale.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Et je ne savais plus si je devais classer",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "les livres par hauteur ou par couleur.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "À cette heure-là, je propose un classement par proximité avec l'étagère.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 400,
+      "fr": "Très pratique.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Aujourd'hui, je remets seulement quelques objets à leur place.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Ensuite, je garde un moment pour moi.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 160,
+      "fr": "Un moment pour moi, c'est une expression très naturelle.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "Ça peut être lire, dessiner,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "écouter un album ou ne rien faire pendant quelques minutes.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Tu arrives à ne rien faire ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 107,
+      "fr": "J'apprends.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "Au début, je me demandais si j'étais en train",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "de mal utiliser mon temps libre.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Oui, on peut finir par vouloir réussir sa détente aussi.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 111,
+      "fr": "Exactement.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 119,
+      "fr": "Alors maintenant, certains soirs, je m'assois près de la",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "fenêtre et j'écoute ce qui se passe dehors.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "Un vélo, des gens qui discutent,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 118,
+      "fr": "quelqu'un qui ferme ses volets.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Moi, j'aime arroser mes plantes et regarder si une",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "nouvelle feuille a poussé.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Il ne se passe pas grand chose,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "mais ça me plaît.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "Tes plantes ont droit à un compte rendu quotidien ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Évidemment.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Et elles ne m'interrompent jamais.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 113,
+      "fr": "Ça, c'est agréable.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Pour parler de votre moment préféré,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "vous pouvez dire \"Le soir,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "j'aime prendre un moment pour moi.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "En général, je...\" Mon problème,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "c'est que mon téléphone participe à beaucoup trop de moments pour moi.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Comment ça ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 118,
+      "fr": "L'autre soir, je voulais regarder la météo du lendemain.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Vingt minutes plus tard, je regardais une personne restaurer une vieille chaise.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Et la météo ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "Aucune idée.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "Mais pour la chaise, je pense qu'il fallait une",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 151,
+      "fr": "deuxième couche de peinture.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Ça m'arrive aussi.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Je prends mon téléphone pour répondre à un message,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "puis j'oublie pourquoi je l'ai pris.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 160,
+      "fr": "Tu fais quelque chose pour éviter ça ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Quand je veux lire, je le laisse sur une petite table,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "loin du fauteuil.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Sinon, au moindre passage difficile,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "je vais vérifier quelque chose.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "Quelque chose de très urgent,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "comme la nouvelle couleur du salon de ta cousine.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "Exactement.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "Verre sauge d'ailleurs.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Très joli.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "On peut dire \"Je mets mon téléphone de côté\".",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 160,
+      "fr": "Mettre de côté, ici, c'est éloigner quelque chose pour",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 114,
+      "fr": "ne plus s'en occuper pendant un moment.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Pendant le dîner, je mets mon téléphone de côté.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Ou je coupe les notifications pour être tranquille.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "Être tranquille.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 107,
+      "fr": "J'aime bien cette expression.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "On ne cherche pas forcément un silence complet.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 105,
+      "fr": "On veut juste un peu de calme.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Voilà.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Et parfois, j'utilise justement mon téléphone pour écouter de la musique.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Je choisis ce que je veux écouter,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "puis je le pose.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "Je pourrais essayer avec un album.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "Il y aurait au moins une fin prévue.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "À condition de ne pas commencer à chercher toute",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 276,
+      "fr": "la vie du chanteur.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "Tu connais mes faiblesses.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Passons à la salle de bain.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Tu prends ta douche le soir ou le matin ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "Le soir, le plus souvent.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "J'aime me sentir propre avant de mettre mon pyjama.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Moi aussi.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Et j'aime ce moment où je me lave le visage.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 286,
+      "fr": "C'est un geste tout simple,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "mais il marque la fin de ma journée dehors.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Tu as beaucoup de produits ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 296,
+      "fr": "Quelques-uns.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Je me démaquille si je suis maquillée.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Je me lave le visage,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "puis je mets de la crème.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "Moi, je cherche surtout à ne pas confondre les",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 114,
+      "fr": "tubes quand je suis fatigué.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Ça t'est arrivé ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 157,
+      "fr": "J'ai presque mis de la crème pour les mains",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 119,
+      "fr": "sur ma brosse à dents.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "Heureusement, j'ai lu l'étiquette.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Une bonne occasion de rappeler.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Je me brosse les dents.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "En français, on dit « les dents »,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "pas « mes dents » dans cette phrase.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "Pareil pour « je me lave le visage »",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "et « je me lave les mains ».",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Répétez avec nous tranquillement.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Je me lave le visage.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Je me brosse les dents.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Je mets mon pyjama.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "Attention !",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "Le pyjama n'oblige pas à aller immédiatement au lit.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "On peut aussi le mettre plus tôt pour être à l'aise.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Le mien commence parfois son service juste après le dîner.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "Avant d'aller dans ma chambre,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 160,
+      "fr": "je prépare généralement mon sac,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "mes clés, mon portefeuille, les documents dont j'ai besoin.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Tu vérifies vraiment tout ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "J'essaie.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 151,
+      "fr": "Une fois, je suis parti avec mon déjeuner et sans mon ordinateur.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Tu avais choisi tes priorités.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "Une réunion avec une boîte de lentilles,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "ça reste compliqué.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Moi, je prépare parfois mes vêtements,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "surtout quand je dois partir tôt.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Le matin, je n'ai pas toujours envie de réfléchir à une tenue.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "Une tenue, c'est l'ensemble des vêtements qu'on porte.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "Je prépare ma tenue pour demain.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Et je regarde mon agenda,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "mais rapidement.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Je veux savoir ce qui m'attend,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "pas recommencer à travailler.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 170,
+      "fr": "Tu peux donner un exemple ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Je vérifie l'heure d'un rendez-vous et je pose les",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 267,
+      "fr": "papiers nécessaires près de mon sac.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 286,
+      "fr": "Ensuite, c'est fait.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "J'aime bien cette expression.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "Comme ça, c'est fait.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "On l'utilise quand on termine quelque chose et qu'on",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "n'a plus besoin d'y penser.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Je prépare mon déjeuner ce soir.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Comme ça, c'est fait.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "Pour raconter l'ordre de vos actions,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "vous pouvez utiliser quatre petits mots.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "D'abord, ensuite, puis, enfin.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Par exemple, d'abord, je prépare mon sac.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Ensuite, je choisis mes vêtements.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Puis, je règle mon réveil.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Enfin, je vais dans ma chambre.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 160,
+      "fr": "À vous !",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 129,
+      "fr": "Choisissez deux actions de votre soirée et reliez-les avec \"d'abord\" et \"ensuite\".",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Et une fois dans ton lit,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "tu t'endors vite ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "Ça dépend.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "Parfois, oui.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "Parfois, je me souviens soudain d'une conversation de mardi",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "et je trouve enfin la bonne réponse.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "La réponse brillante, trois jours trop tard.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "Exactement.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "Mon esprit a un service de livraison un peu lent.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Moi, je pense parfois à une chose que j'ai oubliée.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Alors, je la note en quelques mots pour pouvoir",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "m'en occuper le lendemain.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "Et après ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Parfois, je lis.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Parfois, je reste simplement allongé.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Je préfère un livre que j'ai plaisir à retrouver,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "avec des chapitres assez courts.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "Moi, j'ai commencé un roman policier.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 119,
+      "fr": "Mauvaise idée pour m'arrêter facilement.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 151,
+      "fr": "Chaque chapitre se termine avec une personne qui ouvre une porte mystérieuse.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Et toi, tu dois savoir ce qu'il y a derrière.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 116,
+      "fr": "Toujours.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "Je suis très poli avec les mystères.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 118,
+      "fr": "Je ne les laisse pas seuls dans le couloir.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 267,
+      "fr": "Pour parler de la fatigue,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "on peut dire \"j'ai sommeil\".",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Ça veut dire qu'on a envie de dormir.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "Et \"je suis fatigué\" est plus général.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Après une longue promenade, je peux être fatigué sans",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "avoir envie de dormir immédiatement.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Autre différence utile.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Se coucher et s'endormir.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Je me couche, je vais au lit.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Je m'endors, je commence à dormir.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "Donc, je peux dire \"je me couche vers 23",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "heures mais je ne m'endors pas tout de suite\".",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Tout à fait.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Et \"vers\" indique une heure approximative.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "\"Vers 23 heures\", ce n'est pas forcément à 23 heures précises.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "On a décrit une soirée assez calme.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "Mais hier, mon voisin a commencé à déplacer ses",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 118,
+      "fr": "meubles pendant que je lisais.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "Ah.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Une activité discrète.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "J'ai découvert qu'il avait probablement 14 chaises.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Tu allais lui parler ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 364,
+      "fr": "Oui, gentiment.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 129,
+      "fr": "J'ai dit \"bonsoir, excusez-moi, je me lève tôt demain.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "Est-ce que vous pourriez faire un peu moins de",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "bruit ?\" C'est une phrase utile.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "On explique la situation et on formule une demande polie.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "Il s'est excusé.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "Il cherchait une petite pièce tombée sous un meuble.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "On l'a retrouvée et j'ai pu reprendre mon livre.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Mes soirées changent aussi quand je reçois des amis.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Je ne vais pas interrompre une belle conversation parce",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "que mon agenda indique crème pour le visage.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "Heureusement.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Merci d'être venu mais mon visage m'attend.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "Voilà.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Une routine peut nous servir de repère tout en restant souple.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 129,
+      "fr": "Et tout le monde n'a pas les mêmes horaires.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 170,
+      "fr": "Si on travaille le soir,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 129,
+      "fr": "si on a de jeunes enfants ou si on partage son logement,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "les soirées sont différentes.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "On peut donc dire \"en général\",",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "\"souvent\", \"parfois\" ou \"ça dépend des jours\".",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Ce sont des mots très pratiques pour décrire sa vraie vie.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 160,
+      "fr": "Maintenant, petite conversation.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 170,
+      "fr": "Léa va me poser trois questions.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 151,
+      "fr": "Écoutez mes réponses puis ce sera à vous.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 267,
+      "fr": "Qu'est-ce que tu fais après le dîner ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "En général, je fais la vaisselle puis j'écoute de la musique.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Qu'est-ce qui t'aide à te détendre ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "J'aime prendre une douche et lire un peu.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "Ça m'aide à penser à autre chose.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Et vers quelle heure tu te couches ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 151,
+      "fr": "Je me couche vers 23 heures en semaine.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 116,
+      "fr": "Le week-end, ça dépend.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "À votre tour, qu'est-ce que vous faites après le dîner ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Qu'est-ce qui vous aide à vous détendre ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "Vous pouvez commencer par \"pour me détendre,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "je...\" Et vers quelle heure vous vous couchez ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "Vous venez de parler de votre routine en français.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "Vous pouvez garder vos réponses et les redire demain",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "avec un petit détail en plus.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Par exemple, ajoutez une raison.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Je prépare mes vêtements le soir parce que je",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "pars tôt le matin.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "Ou une préférence.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Je préfère lire dans mon lit parce que j'y suis bien.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Ma version complète serait \"après le dîner,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "je range un peu la cuisine\".",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Ensuite, je prends un moment pour moi.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Avant de me coucher, je me brosse les dents",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "et je prépare mes affaires.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Puis je lis quelques pages.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "C'est clair, naturel et on peut facilement l'adapter à sa propre soirée.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Avant de partir, une dernière expression.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Je tombe de sommeil.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Ça veut dire qu'on a vraiment très envie de dormir.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "À utiliser quand vous relisez la même phrase pour la quatrième fois.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Ou quand vous cherchez vos lunettes alors qu'elles sont sur votre nez.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 160,
+      "fr": "Ça, chez moi, c'est possible à toute heure.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Dites-nous en commentaire quelle petite habitude vous aimez retrouver le soir.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Vous pouvez écrire \"Le soir,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "j'aime parce que...\" Et si cet épisode vous a",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "aidé à parler français, vous pouvez vous abonner pour",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "retrouver nos prochaines conversations.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Merci d'avoir passé ce moment avec nous.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Prenez soin de vous et à très bientôt !",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 118,
+      "fr": "Bonne soirée, bonne nuit, selon l'heure à laquelle vous nous écoutez.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Et toi Mathieu, maintenant, tu vas te coucher ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "Oui, je prends le chemin direct.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Sans passer par la cuisine ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 113,
+      "fr": "Je vais faire un effort.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Bonne nuit Léa !",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 276,
+      "fr": "Bonne nuit Mathieu !",
+      "en": ""
+    }
+  ],
+  "vocab": []
+}

@@ -1,0 +1,100 @@
+mat|Donc, je peux dire "je me couche vers 23|So I can say, "I go to bed around 11
+mat|heures mais je ne m'endors pas tout de suite".|but I don't fall asleep straight away."
+lea|Tout à fait.|Exactly.
+lea|Et "vers" indique une heure approximative.|And "vers" indicates an approximate time.
+lea|"Vers 23 heures", ce n'est pas forcément|"Around 11" isn't necessarily
+lea|à 23 heures précises.|at 11 on the dot.|BE
+mat|On a décrit une soirée assez calme.|We've described a fairly calm evening.
+mat|Mais hier, mon voisin a commencé à déplacer ses|But yesterday, my neighbour started moving his
+mat|meubles pendant que je lisais.|furniture while I was reading.
+lea|Ah.|Ah.
+lea|Une activité discrète.|A quiet little activity.|e=rire
+mat|J'ai découvert qu'il avait probablement 14 chaises.|I found out he probably owns 14 chairs.|e=fatigue
+lea|Tu allais lui parler ?|Did you go and talk to him?
+mat|Oui, gentiment.|Yes, nicely.
+mat|J'ai dit "bonsoir, excusez-moi, je me lève tôt demain.|I said, "Good evening, sorry, I'm getting up early tomorrow.|B={"mode": "sketch", "title": "En situation : une demande polie"}
+mat|Est-ce que vous pourriez faire un peu moins de|Could you make a little less
+mat|bruit ?"|noise?"
+lea|C'est une phrase utile.|That's a useful sentence.
+lea|On explique la situation|You explain the situation
+lea|et on formule une demande polie.|and make a polite request.|BE
+mat|Il s'est excusé.|He apologised.
+mat|Il cherchait une petite pièce tombée sous un meuble.|He was looking for a small coin that fell under a piece of furniture.
+mat|On l'a retrouvée et j'ai pu reprendre mon livre.|We found it and I could go back to my book.|e=coeur
+lea|Mes soirées changent aussi quand je reçois des amis.|My evenings also change when I have friends over.
+lea|Je ne vais pas interrompre|I'm not going to interrupt
+lea|une belle conversation parce|a lovely conversation because
+lea|que mon agenda indique crème pour le visage.|my diary says "face cream".
+mat|Heureusement.|Thank goodness.
+mat|Merci d'être venu mais mon visage m'attend.|"Thanks for coming, but my face is waiting for me."|e=rire
+lea|Voilà.|Exactly.
+lea|Une routine peut nous [servir de repère]|A routine can serve as a reference point for us
+lea|tout en restant souple.|while staying flexible.
+mat|Et tout le monde n'a pas les mêmes horaires.|And not everyone has the same schedule.
+mat|Si on travaille le soir,|If you work in the evening,
+mat|si on a de jeunes enfants|if you have young children|i=famille:de jeunes enfants
+mat|ou si on partage son logement,|or share your home,
+mat|les soirées sont différentes.|evenings are different.
+lea|On peut donc dire "en général",|So you can say "en général",
+lea|"souvent", "parfois" ou "ça dépend des jours".|"souvent", "parfois" or "ça dépend des jours".
+lea|Ce sont des mots très pratiques|They're very handy words
+lea|pour décrire sa vraie vie.|for describing your real life.
+mat|Maintenant, petite conversation.|Now, a little conversation.
+mat|Léa va me poser trois questions.|Léa is going to ask me three questions.
+mat|Écoutez mes réponses puis ce sera à vous.|Listen to my answers, then it'll be your turn.
+lea|Qu'est-ce que tu fais après le dîner ?|What do you do after dinner?|B={"mode": "sketch", "title": "En situation : ma soirée"}
+mat|En général, je fais la vaisselle|Usually, I do the washing-up,
+mat|puis j'écoute de la musique.|then listen to music.
+lea|Qu'est-ce qui t'aide à te détendre ?|What helps you relax?
+mat|J'aime prendre une douche et lire un peu.|I like taking a shower and reading a bit.
+mat|Ça m'aide à penser à autre chose.|It helps me think about something else.
+lea|Et vers quelle heure tu te couches ?|And around what time do you go to bed?
+mat|Je me couche vers 23 heures en semaine.|I go to bed around 11 on weekdays.
+mat|Le week-end, ça dépend.|At the weekend, it depends.|BE
+lea|À votre tour,|Your turn:
+lea|qu'est-ce que vous faites après le dîner ?|what do you do after dinner?
+mat|Qu'est-ce qui vous aide à vous détendre ?|What helps you relax?
+mat|Vous pouvez commencer par "pour me détendre,|You can start with "To relax,
+mat|je..."|I…"
+lea|Et vers quelle heure vous vous couchez ?|And around what time do you go to bed?
+mat|Vous venez de parler de votre routine en français.|You've just talked about your routine in French.|e=coeur
+mat|Vous pouvez garder vos réponses et les redire demain|You can keep your answers and say them again tomorrow
+mat|avec un petit détail en plus.|with one more little detail.
+lea|Par exemple, ajoutez une raison.|For example, add a reason.
+lea|Je prépare mes vêtements le soir parce que je|I get my clothes ready in the evening because I
+lea|pars tôt le matin.|leave early in the morning.
+mat|Ou une préférence.|Or a preference.
+mat|Je préfère lire dans mon lit parce que j'y suis bien.|I prefer reading in bed because I feel good there.
+lea|Ma version complète serait "après le dîner,|My full version would be: "After dinner,
+lea|je range un peu la cuisine".|I tidy the kitchen a bit."
+lea|Ensuite, je prends un moment pour moi.|Then, I take some time for myself.
+lea|Avant de me coucher, je me brosse les dents|Before going to bed, I brush my teeth
+lea|et je prépare mes affaires.|and get my things ready.
+lea|Puis je lis quelques pages.|Then I read a few pages.
+mat|C'est clair, naturel et on peut facilement|It's clear, natural, and you can easily
+mat|l'adapter à sa propre soirée.|adapt it to your own evening.
+lea|Avant de partir, une dernière expression.|Before we go, one last expression.|B={"mode": "word", "note": "= avoir vraiment très envie de dormir", "icon": "sommeil"}
+lea|Je [tombe de sommeil.]|I'm dropping with sleep.
+lea|Ça veut dire qu'on a vraiment très envie de dormir.|It means you really, really want to sleep.
+mat|À utiliser quand vous relisez la même phrase|Use it when you're rereading the same sentence
+mat|pour la quatrième fois.|for the fourth time.|r=rire
+lea|Ou quand vous cherchez vos lunettes|Or when you're looking for your glasses
+lea|alors qu'elles sont sur votre nez.|while they're on your nose.|e=rire BE
+mat|Ça, chez moi, c'est possible à toute heure.|That, for me, can happen at any time of day.|e=gene
+lea|Dites-nous en commentaire quelle petite habitude|Tell us in the comments which little habit
+lea|vous aimez retrouver le soir.|you love coming back to in the evening.
+lea|Vous pouvez écrire "Le soir,|You can write: "In the evening,
+lea|j'aime parce que..."|I like … because…"
+mat|Et si cet épisode vous a|And if this episode has
+mat|aidé à parler français, vous pouvez vous abonner pour|helped you speak French, you can subscribe to
+mat|retrouver nos prochaines conversations.|catch our next conversations.
+lea|Merci d'avoir passé ce moment avec nous.|Thank you for spending this time with us.|e=coeur
+lea|Prenez soin de vous et à très bientôt !|Take care and see you very soon!
+mat|Bonne soirée, bonne nuit,|Have a good evening, good night,|i=sommeil:bonne nuit
+mat|selon l'heure à laquelle vous nous écoutez.|depending on when you're listening to us.
+lea|Et toi Mathieu, maintenant, tu vas te coucher ?|And you, Mathieu, are you going to bed now?|e=question
+mat|Oui, je prends le chemin direct.|Yes, I'm taking the direct route.
+lea|Sans passer par la cuisine ?|Without going via the kitchen?|e=rire
+mat|Je vais faire un effort.|I'll make an effort.|e=gene
+mat|Bonne nuit Léa !|Good night, Léa!
+lea|Bonne nuit Mathieu !|Good night, Mathieu!|e=coeur

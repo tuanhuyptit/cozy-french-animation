@@ -1,0 +1,17 @@
+[
+ {"tag":"verbe","word":"prévoir","ipa":"/pʁe.vwaʁ/","mean":"to plan, to anticipate","ex":"Il faut prévoir un parapluie pour demain.","exEn":"You should plan on an umbrella for tomorrow."},
+ {"tag":"verbe","word":"se changer","ipa":"/sə ʃɑ̃.ʒe/","mean":"to get changed (put on other clothes)","ex":"Je me change avant d'aller au restaurant.","exEn":"I get changed before going to the restaurant."},
+ {"tag":"verbe","word":"décompresser","ipa":"/de.kɔ̃.pʁe.se/","mean":"to unwind, to decompress","ex":"Le week-end, je vais à la mer pour décompresser.","exEn":"At the weekend, I go to the seaside to unwind."},
+ {"tag":"connecteur","word":"au cas où","ipa":"/o ka u/","mean":"just in case","ex":"Prends ta veste, au cas où il ferait froid.","exEn":"Take your jacket, just in case it gets cold."},
+ {"tag":"nom masculin","word":"les restes","ipa":"/le ʁɛst/","mean":"leftovers","ex":"On a mangé les restes de la fête à midi.","exEn":"We ate the party leftovers at lunchtime."},
+ {"tag":"expression","word":"faire tremper","ipa":"/fɛʁ tʁɑ̃.pe/","mean":"to soak, to leave to soak","ex":"Fais tremper les haricots toute la nuit.","exEn":"Soak the beans overnight."},
+ {"tag":"expression","word":"un moment pour soi","ipa":"/œ̃ mɔ.mɑ̃ puʁ swa/","mean":"some time for yourself, me-time","ex":"Le dimanche matin, c'est mon moment pour moi.","exEn":"Sunday morning is my me-time."},
+ {"tag":"expression","word":"avoir droit à","ipa":"/a.vwaʁ dʁwa a/","mean":"to be entitled to, to get","ex":"Les étudiants ont droit à une réduction.","exEn":"Students are entitled to a discount."},
+ {"tag":"expression","word":"mettre de côté","ipa":"/mɛtʁ də ko.te/","mean":"to put aside","ex":"J'ai mis ce dossier de côté pour lundi.","exEn":"I've put this file aside for Monday."},
+ {"tag":"verbe","word":"se démaquiller","ipa":"/sə de.ma.ki.je/","mean":"to take off your make-up","ex":"Elle se démaquille toujours avant de dormir.","exEn":"She always takes off her make-up before sleeping."},
+ {"tag":"nom féminin","word":"une tenue","ipa":"/yn tə.ny/","mean":"an outfit","ex":"Il a choisi une tenue élégante pour le mariage.","exEn":"He chose an elegant outfit for the wedding."},
+ {"tag":"expression","word":"comme ça, c'est fait","ipa":"/kɔm sa sɛ fɛ/","mean":"that way, it's done (out of the way)","ex":"Je paie la facture maintenant, comme ça, c'est fait.","exEn":"I'll pay the bill now, that way it's done."},
+ {"tag":"expression","word":"avoir sommeil","ipa":"/a.vwaʁ sɔ.mɛj/","mean":"to be sleepy","ex":"Après le déjeuner, j'ai souvent sommeil.","exEn":"After lunch, I'm often sleepy."},
+ {"tag":"expression","word":"servir de repère","ipa":"/sɛʁ.viʁ də ʁə.pɛʁ/","mean":"to act as a reference point, a guide","ex":"Cette église nous sert de repère dans la ville.","exEn":"That church serves as our landmark in the town."},
+ {"tag":"expression","word":"tomber de sommeil","ipa":"/tɔ̃.be də sɔ.mɛj/","mean":"to be dead tired, falling asleep on your feet","ex":"Après ce long voyage, je tombe de sommeil.","exEn":"After that long trip, I'm dead on my feet."}
+]

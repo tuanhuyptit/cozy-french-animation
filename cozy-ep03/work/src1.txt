@@ -1,0 +1,113 @@
+lea|Mathieu, petite question.|Mathieu, quick question.
+lea|Quand tu dis "je vais me coucher",|When you say "I'm going to bed",
+lea|tu vas vraiment te coucher ?|do you really go to bed?|e=question
+mat|Bien sûr.|Of course.
+mat|Enfin, je commence le voyage.|Well, I begin the journey.
+lea|Le voyage ?|The journey?|e=surpris
+lea|Ta chambre est au bout du couloir ?|Your bedroom is at the end of the hallway?
+mat|Oui, mais entre le canapé et la chambre,|Yes, but between the sofa and the bedroom,
+mat|il y a la cuisine.|there's the kitchen.|i=repas:la cuisine
+mat|Et dans la cuisine, il y a du fromage.|And in the kitchen, there's cheese.|r=rire
+mat|Il faut [prévoir] les étapes.|You have to plan the stages.
+lea|Bonsoir tout le monde|Good evening everyone
+lea|et bienvenue sur The Cozy French.|and welcome to The Cozy French.
+lea|Moi, c'est Léa.|I'm Léa.
+mat|Et moi, c'est Mathieu.|And I'm Mathieu.
+mat|Aujourd'hui, on parle français et surtout,|Today, we're speaking French and above all,
+mat|on parle de nos soirées,|we're talking about our evenings,
+mat|les vraies soirées, avec la vaisselle,|real evenings, with the washing-up,|
+mat|le pyjama et parfois|pyjamas and sometimes|i=sommeil:le pyjama
+mat|un petit détour par le réfrigérateur.|a little detour via the fridge.
+lea|Vous allez apprendre à raconter votre routine du soir,|You're going to learn to describe your evening routine,
+lea|à parler de ce qui vous détend et à|to talk about what relaxes you and to
+lea|dire que vous êtes fatigué.|say that you're tired.
+lea|Installez-vous confortablement.|Make yourselves comfortable.
+lea|Vous pouvez simplement écouter|You can simply listen
+lea|ou répéter quelques phrases avec nous.|or repeat a few sentences with us.
+mat|Et gardez cette question en tête.|And keep this question in mind:
+mat|Qu'est-ce que vous faites en premier|What's the first thing you do|e=question
+mat|quand vous rentrez chez vous ?|when you get home?
+lea|Moi, j'enlève mes chaussures.|Me, I take off my shoes.
+mat|Voilà une réponse simple|There's a simple answer,
+mat|et déjà très utile en français.|and already very useful in French.
+lea|Hier soir, je suis rentrée avec une seule envie,|Last night, I came home wanting just one thing:
+lea|mettre des vêtements confortables.|to put on comfortable clothes.
+lea|J'avais porté un jean trop serré toute la journée.|I'd worn jeans that were too tight all day.|e=fatigue
+mat|Le genre de jean qui te demande de choisir|The kind of jeans that make you choose
+mat|entre t'asseoir et respirer ?|between sitting down and breathing?|r=rire
+lea|Exactement.|Exactly.
+lea|Alors j'ai posé mon sac,|So I put down my bag,
+lea|j'ai enlevé mes chaussures|took off my shoes
+lea|et j'ai mis un pantalon tout doux.|and put on some really soft trousers.
+lea|Là, j'ai senti que ma soirée commençait.|That's when I felt my evening was starting.|e=coeur
+mat|J'aime ce moment aussi.|I love that moment too.
+mat|Chez moi, je mets mes chaussons.|At home, I put on my slippers.
+mat|Ils ne sont pas très beaux|They're not very pretty,|e=rire
+mat|mais on a une relation sérieuse.|but we're in a serious relationship.
+lea|Tu les as depuis longtemps ?|Have you had them for long?
+mat|Assez longtemps pour qu'ils|Long enough for them
+mat|connaissent tous mes secrets.|to know all my secrets.|r=rire
+lea|Pour raconter ses premières actions,|To describe your first actions,|B={"mode": "word", "note": "= mettre d'autres vêtements", "icon": "temps"}
+lea|on peut dire « Quand je rentre,|you can say, "When I get home,
+lea|je pose mon sac et je me change ».|I put down my bag and I get changed."
+lea|[Se changer] ici, c'est mettre d'autres vêtements.|"Se changer" here means putting on other clothes.
+mat|Je me change.|I get changed.
+mat|Tu te changes.|You get changed.
+mat|Et Léa se change avant même de regarder ses messages.|And Léa gets changed before she even checks her messages.|BE
+lea|Souvent oui.|Often, yes.
+lea|Et toi, tu arrives à laisser le travail à la porte ?|And you, do you manage to leave work at the door?|i=travail:le travail
+mat|Pas toujours.|Not always.
+mat|Parfois, je suis chez moi mais dans ma tête,|Sometimes I'm at home, but in my head,
+mat|je suis encore en réunion.|I'm still in a meeting.|e=fatigue
+lea|Ah oui, le corps sur le canapé,|Oh yes, body on the sofa,
+lea|l'esprit devant un tableau Excel.|mind in front of an Excel spreadsheet.|e=rire
+mat|C'est ça.|That's it.
+mat|Alors, certains soirs, je marche un peu dans mon|So some evenings, I walk a little around my
+mat|quartier avant de rentrer.|neighbourhood before going home.
+mat|Dix minutes sans objectif particulier.|Ten minutes with no particular goal.
+mat|Ça m'aide à [décompresser.]|It helps me unwind.|B={"mode": "word", "note": "= relâcher l'attention", "icon": "musique"}
+lea|Décompresser, ça veut dire relâcher l'attention|"Décompresser" means letting your focus go
+lea|après un moment fatigant ou stressant.|after a tiring or stressful moment.
+lea|Par exemple, après le travail,|For example, after work,
+lea|j'écoute de la musique pour décompresser.|I listen to music to unwind.|BE
+mat|Et vous ?|What about you?
+mat|Complétez cette phrase à voix haute.|Complete this sentence out loud.
+mat|Quand je rentre chez moi,|When I get home,
+mat|je…|I…
+lea|Très bien.|Very good.
+lea|Même une petite phrase suffit pour commencer.|Even a short sentence is enough to start.|e=coeur
+mat|Ensuite, chez moi vient la grande question.|Next, at my place, comes the big question:
+mat|Qu'est-ce qu'on mange ?|What are we eating?
+lea|Tu décides au dernier moment ?|Do you decide at the last minute?
+mat|Souvent.|Often.
+mat|J'ouvre le réfrigérateur avec beaucoup d'espoir.|I open the fridge full of hope.
+mat|Je le referme.|I close it again.
+mat|Puis, je l'ouvre encore, [au cas où] une idée|Then I open it again, in case an idea
+mat|serait arrivée entre temps.|has turned up in the meantime.
+lea|Et elle arrive ?|And does it?|e=question
+mat|Rarement.|Rarely.|e=triste
+mat|Mais les carottes restent très patientes.|But the carrots stay very patient.|r=rire
+lea|Moi, j'aime cuisiner quand j'ai du temps.|Me, I like cooking when I have time.
+lea|Quand je suis fatiguée,|When I'm tired,
+lea|je fais quelque chose de simple.|I make something simple.
+lea|Une omelette, une soupe ou les restes de la veille.|An omelette, a soup or the leftovers from the day before.
+mat|[Les restes,] ce sont les aliments|"Les restes" are the food|B={"mode": "word", "note": "= ce qui reste après un repas", "icon": "repas"}
+mat|qui restent après un repas.|left over after a meal.
+mat|Ce soir, je réchauffe les restes.|Tonight, I'm heating up the leftovers.
+mat|C'est une phrase que j'utilise|It's a sentence I use|e=rire
+mat|avec beaucoup d'enthousiasme.|with a lot of enthusiasm.|BE
+lea|Parce que tu aimes éviter le gaspillage ?|Because you like avoiding waste?
+mat|Oui.|Yes.
+mat|Et parce que le dîner est presque prêt.|And because dinner is almost ready.|i=repas:le dîner
+mat|Les deux peuvent être vrais.|Both can be true.
+lea|Tu manges devant un écran ?|Do you eat in front of a screen?
+mat|Parfois.|Sometimes.
+mat|Mais j'aime aussi appeler un ami|But I also like calling a friend
+mat|pendant que je cuisine.|while I cook.
+mat|Puis manger tranquillement.|Then eating in peace.
+mat|Et toi ?|And you?
+lea|J'essaie de m'asseoir à table,|I try to sit down at the table,
+lea|même quand je suis seule.|even when I'm on my own.
+lea|J'aime préparer une jolie assiette,|I like making a pretty plate,
+lea|prendre mon temps.|taking my time.
+lea|Ça me fait plaisir.|It makes me happy.|e=coeur
