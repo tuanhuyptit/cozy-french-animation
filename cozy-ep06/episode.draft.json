@@ -1,0 +1,2062 @@
+{
+  "scene": "salon",
+  "lea": "cardigan",
+  "mat": "hoodie",
+  "audio": "assets/voice.mp3",
+  "audioEnd": 1075.37,
+  "chunks": [
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Bonjour tout le monde et bienvenue sur The Cosy French.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Moi, c'est Léa.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "Et moi, c'est Mathieu.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "Merci d'être avec nous pour une nouvelle conversation en français.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Installez-vous confortablement, chez vous, dans le train ou pendant votre pause ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "Justement, Léa revient d'un petit voyage en train.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 163,
+      "fr": "Deux jours, trois sacs et une question importante.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Laquelle ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "Est-ce que ta valise avait son propre billet ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Non, mais elle aurait aimé sa propre chambre.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "Je comprends, elle avait apparemment prévu de rester plus longtemps que toi.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Aujourd'hui, nous parlons de ce qu'on peut gagner quand",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 308,
+      "fr": "on choisit d'avoir un peu moins.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Moins de choses à transporter,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 160,
+      "fr": "moins de choix à faire et peut-être plus de",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "temps pour ce qu'on aime.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Cette conversation est pour les niveaux B1 et B2.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Nous allons parler lentement et expliquer des expressions du quotidien.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "À la fin, vous saurez décrire ce qui vous",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "est utile et expliquer pourquoi vous gardez un objet.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Vous pourrez aussi discuter d'un achat avant de vous décider.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "Pas besoin de comprendre chaque mot.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "Écoutez les histoires, puis choisissez quelques phrases à répéter.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Et rassurez-vous, personne ne va compter vos chaussures ou inspecter vos placards.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "Très bien, mes placards préfèrent rester discrets.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Nous allons surtout chercher ce qui nous aide à",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "profiter de notre vie quotidienne.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 129,
+      "fr": "Pensez à un objet que vous utilisez avec plaisir,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "quelque chose de simple qui vous convient vraiment.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Qu'est-ce que c'est et qu'est-ce qu'il vous apporte ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Gardez votre réponse pour notre exercice de fin.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 119,
+      "fr": "Vous pouvez aussi nous dire dans quel pays vous écoutez cet épisode.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "J'aime découvrir les habitudes qui se cachent derrière vos exemples.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Un même objet peut avoir une histoire différente dans chaque maison.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Le mois dernier, je suis partie à Nantes pour retrouver une amie.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Je restais deux nuits chez elle.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "Et tu as emporté ton appartement ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Une sélection seulement.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Une grande valise, un sac à dos et un",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "sac avec des chaussures.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "Tu avais prévu combien de pieds pour le week-end ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 286,
+      "fr": "Visiblement plus de deux.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Dans le tram, j'ai compris que ma valise était vraiment encombrante.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "Encombrante, ça veut dire qu'elle prend beaucoup de place",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "et qu'elle est difficile à déplacer ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Exactement.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Par exemple, cette grande table est encombrante dans un petit studio.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 114,
+      "fr": "Et dans ton cas, le studio avançait sur des rails ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "À la gare, je cherchais toujours une place pour les sacs.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Puis je cherchais mon billet dans le mauvais sac.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "Un voyage avec plusieurs étapes,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "même sans changer de train.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Chez mon amie, j'ai ouvert la valise.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "J'avais pris deux vestes, plusieurs pulls et une tenue plus habillée,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "au cas où.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "Au cas où quelque chose arriverait,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 116,
+      "fr": "c'est une manière de prévoir une possibilité.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Oui, par exemple, je garde le numéro de l'hôtel,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "au cas où je me perdrai.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "Mais pour ton voyage, quelle était la possibilité ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Une invitation surprise, un changement de temps,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "une envie de changer de tenue.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "J'avais préparé beaucoup de versions du même samedi.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "Vous avez fait quoi finalement ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Nous avons marché, déjeuné dans un petit restaurant et discuté chez elle.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "J'ai porté le même pantalon tout le week-end.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 119,
+      "fr": "Les autres vêtements ont donc découvert Nantes depuis la chambre ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Oui, et dimanche, pendant que mon amie préparait le café,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "je remettais tout dans les sacs.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "Tu aurais préféré rester avec elle ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Bien sûr, en rentrant, je me suis demandé de",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "quoi je pouvais me passer la prochaine fois.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "Se passer de quelque chose,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 157,
+      "fr": "c'est réussir à faire sans cette chose.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Voilà, par exemple, pour ce trajet en ville,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "nous pouvons nous passer de voiture.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "Donc, pour deux jours, tu pouvais peut-être laisser quelques",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 116,
+      "fr": "vêtements chez toi ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Oui, j'avais besoin de vérifier la météo et de",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "prévoir des vêtements adaptés.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Mais pas d'emporter chaque option possible.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "Tu vas faire une petite liste pour le prochain départ ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Une liste courte avec ce que j'ai réellement utilisé.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Je veux passer moins de temps à m'occuper de mes affaires.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "Et davantage à boire le café pendant qu'il est encore chaud.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Exactement, mon amie m'avait invité moi,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "pas toute ma garde-robe.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 118,
+      "fr": "J'ai vécu quelque chose de semblable avec mes jeux de société.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "J'avais invité quatre amis un vendredi soir.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Tu avais choisi un jeu ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "J'en avais sorti sept.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Je voulais que chacun trouve quelque chose qui lui plaise.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 276,
+      "fr": "Sept jeux pour une seule soirée ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "Oui, une pile très impressionnante.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 104,
+      "fr": "Mais pour profiter pleinement de la soirée,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 108,
+      "fr": "ce n'était pas très pratique.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 286,
+      "fr": "Profiter pleinement de quelque chose,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "c'est l'apprécier vraiment et vivre ce moment aussi complètement que possible.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 151,
+      "fr": "Par exemple, j'ai laissé mon téléphone dans mon sac",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "pour profiter pleinement du concert.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Et vendredi, vous avez réussi à commencer ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "D'abord, j'ai présenté les sept boîtes.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "Ensuite, quelqu'un a demandé si le troisième jeu était",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "plus long que le cinquième.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Une question dangereuse.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "Très dangereuse, j'ai ouvert deux notices.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 114,
+      "fr": "Un ami s'est levé pour couper du pain.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "Une autre a proposé de voter.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Et le vote a pris combien de temps ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "Assez longtemps pour que le pain soit presque terminé.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "Nous avions beaucoup de choix mais nous ne jouions toujours pas.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Vous avez fini par prendre lequel ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "Un jeu de cartes que nous connaissions déjà.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 114,
+      "fr": "Nous avons fait plusieurs parties et beaucoup ri.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Tu aurais pu laisser les grandes boîtes sur l'étagère ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "Oui, certaines prennent la poussière depuis longtemps.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 113,
+      "fr": "Elles restent là sans être utilisées.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 111,
+      "fr": "C'est le sens de cette expression.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Autre exemple, mes rôleurs prennent la poussière depuis que je préfère marcher.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 110,
+      "fr": "Pourtant, j'aime certains jeux compliqués.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "Je veux juste choisir un moment où mes amis",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "ont envie de découvrir les règles.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Avec ce groupe-là, ce soir-là,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "un jeu familier suffisait.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 103,
+      "fr": "Exactement.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "La prochaine fois, je proposerai deux options avant leur arrivée.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 160,
+      "fr": "Et je garderai une place pour le pain.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Une place plus facile à trouver quand la table",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "ne ressemble pas à un magasin.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 276,
+      "fr": "Ce qui me frappe, c'est que nous voulions tous",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "les deux être prêts.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Moi pour chaque situation, toi pour chaque envie.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 113,
+      "fr": "Oui, et j'ai du mal à renoncer à une possibilité.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 151,
+      "fr": "Même quand elle ne m'intéresse pas vraiment ce jour-là.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Avoir du mal à faire quelque chose,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "c'est trouver cette action difficile.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "Par exemple, j'ai du mal à choisir un film",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "quand tout le monde attend ma réponse.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Moi, je crains parfois de regretter.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Alors je garde, j'ajoute, je prévois une autre solution.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 118,
+      "fr": "C'est utile dans certaines situations.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 108,
+      "fr": "Une veste pour la pluie peut vraiment servir.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Oui, la question, c'est de regarder ce qui convient",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "à notre vie réelle.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 111,
+      "fr": "Et de garder aussi ce qu'on aime.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 105,
+      "fr": "Je tiens à mon vieux jeu d'échec,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "même si je n'y joue pas chaque semaine.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Tenir à quelque chose, c'est lui accorder de l'importance,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "y être attaché.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "Par exemple, ma colocataire tient à cette affiche parce",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 119,
+      "fr": "qu'elle lui rappelle son premier concert.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "On peut donc garder un objet pour son utilité,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "mais aussi pour le plaisir ou les souvenirs qu'il apporte.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "Et se contenter de moi,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "ça ne risque pas de devenir triste ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 308,
+      "fr": "Se contenter de quelque chose,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "c'est considérer que cela suffit,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "mais chacun doit pouvoir choisir ce qui lui suffit.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 108,
+      "fr": "Par exemple, pour notre promenade,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 129,
+      "fr": "nous nous sommes contentés d'un petit sac avec de",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "l'eau et un goûter.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Les besoins changent selon les personnes.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Certaines ont déjà trop peu et ont surtout besoin",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "de davantage de ressources.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 160,
+      "fr": "Oui, pour moi, aujourd'hui, il s'agit de choisir parmi mes possibilités.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 163,
+      "fr": "Pas de décider à la place des autres.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Essayons une petite scène.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Nous préparons un pique-nique et tu regardes une boutique en ligne.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "Vous pourrez répondre avant moi.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "J'ai trouvé un panier avec des assiettes et des verres assortis.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "On le commande pour dimanche ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "À vous !",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "Vous avez déjà de quoi transporter le repas.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "Comment proposeriez-vous de vérifier avant d'acheter ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Prenez quelques secondes.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Vous pouvez commencer par « Est-ce qu'on a déjà ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "» Est-ce qu'on a déjà quelque chose qui pourrait servir ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "J'ai un sac solide et quelques boîtes.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "C'est vrai, moi j'ai des couverts et une grande nappe.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Le panier serait peut-être un achat impulsif.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "Un achat impulsif, c'est un achat décidé sur le moment,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "sans vraiment réfléchir avant.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Par exemple, ces lunettes étaient un achat impulsif pendant",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "une promenade en ville.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "Elles te servent ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Oui, mais toutes mes décisions rapides ne sont pas aussi heureuses.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Revenons à dimanche.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Ton sac sera assez grand ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 119,
+      "fr": "Oui, pour le repas.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "Et pour les boissons, je peux emprunter un sac",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 151,
+      "fr": "isotherme à mon voisin.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 348,
+      "fr": "D'accord.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Avant de commander, on peut peser le pour et le contre.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 129,
+      "fr": "C'est examiner les avantages et les inconvénients pour prendre une décision.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Par exemple, avant de changer d'appartement,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "nous avons pesé le pour et le contre.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "Pour le panier, il est joli,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "mais il faut le payer,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "le ranger et le transporter.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Alors, pour cette fois, utilisons ce que nous avons.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Nous pourrons réfléchir à un achat si le besoin revient.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Très bien.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 151,
+      "fr": "Et maintenant, une décision vraiment importante.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "Qui apporte le fromage ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Je crois que tu viens de te proposer.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 163,
+      "fr": "Si je veux désencombrer chez moi,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "par où je commence ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "Je regarde mon salon et je vois déjà plusieurs projets.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Désencombrer, c'est retirer ce qui occupe inutilement de la",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "place pour rendre un espace plus agréable ou plus pratique.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "Par exemple, elle a désencombré son entrée pour pouvoir",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "ouvrir la porte facilement.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Tu peux commencer par un endroit précis,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 267,
+      "fr": "le petit coin où tu poses ton courrier,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "par exemple.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "Je trie aussi le courrier de mon colocataire ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Non, tu gardes ses affaires pour qu'il décide lui-même.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Tu peux commencer avec tes propres papiers.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "Donc faire le tri, regarder les choses et les",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "séparer selon ce qu'on va en faire.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Oui, par exemple, nous avons fait le tri dans",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "les photos avant de préparer un album.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 151,
+      "fr": "Pour mon courrier, je peux séparer les documents à conserver,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "ceux à traiter et les publicités à recycler.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 286,
+      "fr": "Voilà !",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 296,
+      "fr": "Pour un objet, tu peux te demander quand tu",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "l'as utilisé et si tu souhaites vraiment le garder.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "Je pourrais aussi trouver quelqu'un qui aimerait un jeu",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "auquel je ne joue plus.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Oui, s'il est complet et en bon état.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Mais tu peux prendre le temps de choisir une solution adaptée.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "Et pour éviter d'ajouter du superflu,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "c'est ce qui dépasse nos besoins,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 118,
+      "fr": "ce qui n'est pas nécessaire dans une situation.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Exactement !",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Par exemple, pour cette courte présentation,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "les animations étaient superflues, les images suffisaient.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 118,
+      "fr": "Je peux attendre avant de commander un nouvel objet,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "puis vérifier si j'en ai déjà un qui convient.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Et si tu en as réellement besoin,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "tu peux chercher ce qui correspond à ton usage",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "et à ton budget.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "Pour mes soirées et jeux,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "je veux surtout faire de la place pour les conversations.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 276,
+      "fr": "« Faire de la place »,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "c'est libérer un espace.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "On peut aussi employer cette expression pour le temps ou les activités.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "Par exemple, j'ai déplacé une réunion pour faire de",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 118,
+      "fr": "la place à un rendez-vous personnel.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "Moi, je vais préparer un bagage plus simple.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Ce sera une manière de garder mon attention pour mon ami.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 160,
+      "fr": "Et moi, je commencerai par une seule étagère.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "Je connais mon enthousiasme, il pourrait commander trois meubles",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "pour ranger moins de choses.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Revenons à votre objet du début.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Vous pouvez dire « Je garde parce que…",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "» Je l'utilise pour…",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "Je garde mon jeu d'échec parce que j'aime son plateau.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "Je l'utilise pour jouer avec un ami quand nous avons le temps.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Je garde mon petit sac à dos parce qu'il est confortable.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Je l'utilise pour les promenades et les voyages courts.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "À votre tour, dites vos deux phrases à voix haute.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "Il peut s'agir d'un objet très ordinaire.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Maintenant, essayez.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Je pourrais avoir moins de…",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "pour avoir plus de…",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "Je pourrais avoir moins de jeux sur la table",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "pour avoir plus de temps ensemble.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Je pourrais avoir moins de vêtements dans ma valise",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "pour avoir plus de liberté pendant mes déplacements.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "Votre réponse peut aussi parler des choix,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "des notifications ou des activités.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "Premier exemple concret.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Même une seule phrase vous aidera à parler de",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "vos priorités en français.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Retrouvons cinq expressions de la conversation.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "Écoutez puis répétez avec nous.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "D'abord « au cas où ».",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Dans ma valise, j'avais prévu des vêtements pour plusieurs situations possibles.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 163,
+      "fr": "On prépare quelque chose pour une éventualité.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Nouvelle exemple.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "Je prends une copie du document « au cas",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 118,
+      "fr": "où » l'original serait difficile à lire.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "On répète « au cas où ».",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Quand on ajoute une phrase avec un verbe,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "on utilise normalement le conditionnel.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "Ensuite « se passer de ».",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "Tu pouvais voyager sans certaines affaires.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "C'est faire sans quelque chose.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "Exemple.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Pour cette recette, je peux me passer de mixeur",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "et utiliser une fourchette.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "On répète « se passer de ».",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 157,
+      "fr": "Vous pouvez commencer par « je peux me passer de…",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "».",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "Troisième expression « prendre la poussière ».",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Certaines boîtes de jeux restaient longtemps sur ton étagère sans être ouvertes.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "Elles n'étaient plus utilisées.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Exemple.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "Ce dictionnaire prend la poussière depuis que je consulte la version numérique.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "On répète « prendre la poussière ».",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "L'expression décrit un objet qui reste oublié ou inutilisé.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "Quatrième expression « tenir à quelque chose ».",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "Je tiens à mon jeu d'échec et ma colocataire",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 116,
+      "fr": "tient à son affiche.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "C'est y être attaché.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "Exemple.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Je tiens à ce carnet car il contient les",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "idées de mon premier spectacle.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 157,
+      "fr": "On répète « tenir à quelque chose ».",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "On peut expliquer la raison avec « parce que…",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "».",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 276,
+      "fr": "Enfin « peser le pour et le contre ».",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Avant d'acheter le panier, nous avons regardé les avantages et les inconvénients.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Exemple.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 163,
+      "fr": "Avant d'accepter cette formation, je vais peser le pour",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "et le contre avec mon responsable.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "On répète « peser le pour et le contre ».",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Cela peut servir pour un achat,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "un projet ou un changement important.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "Choisissez maintenant une expression et imaginez votre propre situation.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "Vous pouvez la noter puis la dire à voix haute.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Un exemple lié à votre vie sera plus personnel",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "qu'une phrase que vous répétez sans y penser.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Pour votre commentaire, complétez cette phrase.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "« Je garde parce que…",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "».",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Nous aimerions découvrir vos objets préférés.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "Vous pouvez aussi écrire ce que vous aimeriez simplifier",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "et ce que cela vous permettrait de mieux apprécier.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 296,
+      "fr": "Si cette conversation vous a plu,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "abonnez-vous à The Cozy French pour continuer à apprendre avec nous.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 160,
+      "fr": "Et pour pratiquer, reprenez quelques répliques du pique-nique.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 113,
+      "fr": "Vous pouvez jouer les deux personnages.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Merci d'avoir partagé ce moment.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Prenez soin de vous et à très bientôt !",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "Une dernière question.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "Pour ton prochain voyage, ta grande valise vient avec toi ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Non, cette fois elle reste chez moi.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Elle prend quelques jours de repos.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "Très bien, son billet de train était sûrement plus",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "cher que le tien.",
+      "en": ""
+    }
+  ],
+  "vocab": []
+}

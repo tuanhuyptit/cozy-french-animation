@@ -1,0 +1,623 @@
+[
+ {
+  "who": "lea",
+  "fr": "C'est vrai.",
+  "en": "That's true."
+ },
+ {
+  "who": "lea",
+  "fr": "Moi, j'ai des couverts et une grande nappe.",
+  "en": "And I have cutlery and a big tablecloth."
+ },
+ {
+  "who": "lea",
+  "fr": "Le panier serait peut-être un achat impulsif.",
+  "en": "The basket might be an impulse purchase.",
+  "boardEnd": true
+ },
+ {
+  "who": "mat",
+  "fr": "[Un achat impulsif,] c'est un achat décidé sur le moment,",
+  "en": "An impulse purchase is a purchase decided on the spot,",
+  "board": {
+   "mode": "word",
+   "note": "= un achat décidé sur le moment, sans vraiment réfléchir avant",
+   "icon": "courses"
+  }
+ },
+ {
+  "who": "mat",
+  "fr": "sans vraiment réfléchir avant.",
+  "en": "without really thinking first."
+ },
+ {
+  "who": "lea",
+  "fr": "Par exemple, ces lunettes étaient un achat impulsif",
+  "en": "For example, these glasses were an impulse purchase"
+ },
+ {
+  "who": "lea",
+  "fr": "pendant une promenade en ville.",
+  "en": "during a walk in town.",
+  "boardEnd": true
+ },
+ {
+  "who": "mat",
+  "fr": "Elles te servent ?",
+  "en": "Do you use them?",
+  "emote": "question"
+ },
+ {
+  "who": "lea",
+  "fr": "Oui, mais toutes mes décisions rapides",
+  "en": "Yes, but not all my quick decisions"
+ },
+ {
+  "who": "lea",
+  "fr": "ne sont pas aussi heureuses.",
+  "en": "turn out so well.",
+  "emote": "gene"
+ },
+ {
+  "who": "lea",
+  "fr": "Revenons à dimanche : ton sac sera assez grand ?",
+  "en": "Back to Sunday: will your bag be big enough?"
+ },
+ {
+  "who": "mat",
+  "fr": "Oui, pour le repas.",
+  "en": "Yes, for the food."
+ },
+ {
+  "who": "mat",
+  "fr": "Et pour les boissons,",
+  "en": "And for the drinks,"
+ },
+ {
+  "who": "mat",
+  "fr": "je peux emprunter un sac isotherme à mon voisin.",
+  "en": "I can borrow a cool bag from my neighbour."
+ },
+ {
+  "who": "lea",
+  "fr": "D'accord.",
+  "en": "OK."
+ },
+ {
+  "who": "lea",
+  "fr": "Avant de commander, on peut [peser le pour et le contre.]",
+  "en": "Before ordering, we can weigh the pros and cons.",
+  "board": {
+   "mode": "word",
+   "bg": "carnet",
+   "note": "= examiner les avantages et les inconvénients pour prendre une décision"
+  }
+ },
+ {
+  "who": "mat",
+  "fr": "C'est examiner les avantages",
+  "en": "That's examining the advantages"
+ },
+ {
+  "who": "mat",
+  "fr": "et les inconvénients pour prendre une décision.",
+  "en": "and disadvantages to make a decision."
+ },
+ {
+  "who": "lea",
+  "fr": "Par exemple, avant de changer d'appartement,",
+  "en": "For example, before moving flats,"
+ },
+ {
+  "who": "lea",
+  "fr": "nous avons pesé le pour et le contre.",
+  "en": "we weighed the pros and cons.",
+  "boardEnd": true
+ },
+ {
+  "who": "mat",
+  "fr": "Pour le panier, il est joli.",
+  "en": "As for the basket, it's pretty.",
+  "board": {
+   "mode": "compare",
+   "title": "Le panier",
+   "left": {
+    "head": "le pour",
+    "sub": "avantages",
+    "items": [
+     {
+      "text": "il est joli",
+      "at": 0
+     }
+    ]
+   },
+   "right": {
+    "head": "le contre",
+    "sub": "inconvénients",
+    "items": [
+     {
+      "text": "le payer",
+      "at": 1
+     },
+     {
+      "text": "le ranger",
+      "at": 1
+     },
+     {
+      "text": "le transporter",
+      "at": 1
+     }
+    ]
+   }
+  }
+ },
+ {
+  "who": "mat",
+  "fr": "Mais il faut le payer, le ranger et le transporter.",
+  "en": "But you have to pay for it, store it and carry it."
+ },
+ {
+  "who": "lea",
+  "fr": "Alors, pour cette fois, utilisons ce que nous avons.",
+  "en": "So, for this time, let's use what we have."
+ },
+ {
+  "who": "lea",
+  "fr": "Nous pourrons réfléchir à un achat si le besoin revient.",
+  "en": "We can think about buying something if the need comes back.",
+  "boardEnd": true
+ },
+ {
+  "who": "mat",
+  "fr": "Très bien.",
+  "en": "Very good."
+ },
+ {
+  "who": "mat",
+  "fr": "Et maintenant, une décision vraiment importante :",
+  "en": "And now, a truly important decision:"
+ },
+ {
+  "who": "mat",
+  "fr": "qui apporte le fromage ?",
+  "en": "who's bringing the cheese?",
+  "emote": "question",
+  "illus": "courses",
+  "label": "le fromage"
+ },
+ {
+  "who": "lea",
+  "fr": "Je crois que tu viens de te proposer.",
+  "en": "I think you just volunteered.",
+  "emote": "rire"
+ },
+ {
+  "who": "mat",
+  "fr": "Si je veux désencombrer chez moi, par où je commence ?",
+  "en": "If I want to declutter at home, where do I start?"
+ },
+ {
+  "who": "mat",
+  "fr": "Je regarde mon salon et je vois déjà plusieurs projets.",
+  "en": "I look at my living room and I already see several projects.",
+  "emote": "fatigue"
+ },
+ {
+  "who": "lea",
+  "fr": "[Désencombrer,]",
+  "en": "To declutter"
+ },
+ {
+  "who": "lea",
+  "fr": "c'est retirer ce qui occupe inutilement de la place",
+  "en": "is to remove what takes up space for no reason"
+ },
+ {
+  "who": "lea",
+  "fr": "pour rendre un espace plus agréable ou plus pratique.",
+  "en": "to make a space more pleasant or more practical."
+ },
+ {
+  "who": "mat",
+  "fr": "Par exemple, elle a désencombré son entrée",
+  "en": "For example, she decluttered her hallway"
+ },
+ {
+  "who": "mat",
+  "fr": "pour pouvoir ouvrir la porte facilement.",
+  "en": "so she could open the door easily."
+ },
+ {
+  "who": "lea",
+  "fr": "Tu peux commencer par un endroit précis.",
+  "en": "You can start with one specific spot."
+ },
+ {
+  "who": "lea",
+  "fr": "Le petit coin où tu poses ton courrier, par exemple.",
+  "en": "The little corner where you put your mail, for example."
+ },
+ {
+  "who": "mat",
+  "fr": "Je trie aussi le courrier de mon colocataire ?",
+  "en": "Do I sort my flatmate's mail too?",
+  "emote": "question"
+ },
+ {
+  "who": "lea",
+  "fr": "Non, tu gardes ses affaires pour qu'il décide lui-même.",
+  "en": "No, you leave his things so he can decide himself."
+ },
+ {
+  "who": "lea",
+  "fr": "Tu peux commencer avec tes propres papiers.",
+  "en": "You can start with your own papers."
+ },
+ {
+  "who": "mat",
+  "fr": "Donc, [faire le tri :]",
+  "en": "So, to sort through:",
+  "board": {
+   "mode": "word",
+   "bg": "craie",
+   "note": "= regarder les choses et les séparer selon ce qu'on va en faire"
+  }
+ },
+ {
+  "who": "mat",
+  "fr": "regarder les choses et les séparer",
+  "en": "looking at things and separating them"
+ },
+ {
+  "who": "mat",
+  "fr": "selon ce qu'on va en faire.",
+  "en": "according to what you'll do with them."
+ },
+ {
+  "who": "lea",
+  "fr": "Oui. Par exemple, nous avons fait le tri",
+  "en": "Yes. For example, we sorted through the photos"
+ },
+ {
+  "who": "lea",
+  "fr": "dans les photos avant de préparer un album.",
+  "en": "before making an album.",
+  "boardEnd": true
+ },
+ {
+  "who": "mat",
+  "fr": "Pour mon courrier, je peux séparer",
+  "en": "For my mail, I can separate",
+  "board": {
+   "mode": "steps",
+   "bg": "craie",
+   "title": "Trier son courrier",
+   "items": [
+    {
+     "text": "les documents à conserver",
+     "at": 1
+    },
+    {
+     "text": "ceux à traiter",
+     "at": 2
+    },
+    {
+     "text": "les publicités à recycler",
+     "at": 2
+    }
+   ]
+  }
+ },
+ {
+  "who": "mat",
+  "fr": "les documents à conserver,",
+  "en": "the documents to keep,"
+ },
+ {
+  "who": "mat",
+  "fr": "ceux à traiter et les publicités à recycler.",
+  "en": "the ones to deal with and the ads to recycle.",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Voilà. Pour un objet,",
+  "en": "That's it. For an object,"
+ },
+ {
+  "who": "lea",
+  "fr": "tu peux te demander quand tu l'as utilisé",
+  "en": "you can ask yourself when you last used it"
+ },
+ {
+  "who": "lea",
+  "fr": "et si tu souhaites vraiment le garder.",
+  "en": "and whether you really want to keep it."
+ },
+ {
+  "who": "mat",
+  "fr": "Je pourrais aussi trouver quelqu'un",
+  "en": "I could also find someone",
+  "emote": "idee"
+ },
+ {
+  "who": "mat",
+  "fr": "qui aimerait un jeu auquel je ne joue plus.",
+  "en": "who'd like a game I no longer play."
+ },
+ {
+  "who": "lea",
+  "fr": "Oui, s'il est complet et en bon état.",
+  "en": "Yes, if it's complete and in good condition."
+ },
+ {
+  "who": "lea",
+  "fr": "Mais tu peux prendre le temps",
+  "en": "But you can take the time"
+ },
+ {
+  "who": "lea",
+  "fr": "de choisir une solution adaptée.",
+  "en": "to choose a suitable solution."
+ },
+ {
+  "who": "mat",
+  "fr": "Et pour éviter d'ajouter du [superflu ?]",
+  "en": "And to avoid adding what's unnecessary?"
+ },
+ {
+  "who": "mat",
+  "fr": "C'est ce qui dépasse nos besoins,",
+  "en": "It's what goes beyond our needs,"
+ },
+ {
+  "who": "mat",
+  "fr": "ce qui n'est pas nécessaire dans une situation.",
+  "en": "what isn't necessary in a situation."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement.",
+  "en": "Exactly."
+ },
+ {
+  "who": "lea",
+  "fr": "Par exemple, pour cette courte présentation,",
+  "en": "For example, for this short presentation,"
+ },
+ {
+  "who": "lea",
+  "fr": "les animations étaient superflues.",
+  "en": "the animations were unnecessary."
+ },
+ {
+  "who": "lea",
+  "fr": "Les images suffisaient.",
+  "en": "The pictures were enough."
+ },
+ {
+  "who": "mat",
+  "fr": "Je peux attendre avant de commander un nouvel objet.",
+  "en": "I can wait before ordering a new object."
+ },
+ {
+  "who": "mat",
+  "fr": "Puis vérifier si j'en ai déjà un qui convient.",
+  "en": "Then check whether I already have one that works."
+ },
+ {
+  "who": "lea",
+  "fr": "Et si tu en as réellement besoin,",
+  "en": "And if you really need it,"
+ },
+ {
+  "who": "lea",
+  "fr": "tu peux chercher ce qui correspond",
+  "en": "you can look for what fits"
+ },
+ {
+  "who": "lea",
+  "fr": "à ton usage et à ton budget.",
+  "en": "your use and your budget.",
+  "illus": "argent",
+  "label": "ton budget"
+ },
+ {
+  "who": "mat",
+  "fr": "Pour mes soirées jeux,",
+  "en": "For my game nights,"
+ },
+ {
+  "who": "mat",
+  "fr": "je veux surtout faire de la place pour les conversations.",
+  "en": "I mainly want to make room for conversation."
+ },
+ {
+  "who": "lea",
+  "fr": "[Faire de la place,] c'est libérer un espace.",
+  "en": "To make room means freeing up a space."
+ },
+ {
+  "who": "lea",
+  "fr": "On peut aussi employer cette expression",
+  "en": "You can also use this expression"
+ },
+ {
+  "who": "lea",
+  "fr": "pour le temps ou les activités.",
+  "en": "for time or activities."
+ },
+ {
+  "who": "mat",
+  "fr": "Par exemple, j'ai déplacé une réunion",
+  "en": "For example, I moved a meeting"
+ },
+ {
+  "who": "mat",
+  "fr": "pour faire de la place à un rendez-vous personnel.",
+  "en": "to make room for a personal appointment."
+ },
+ {
+  "who": "lea",
+  "fr": "Moi, je vais préparer un bagage plus simple.",
+  "en": "Me, I'm going to pack a simpler bag."
+ },
+ {
+  "who": "lea",
+  "fr": "Ce sera une manière de garder",
+  "en": "It'll be a way of keeping"
+ },
+ {
+  "who": "lea",
+  "fr": "mon attention pour mon amie.",
+  "en": "my attention for my friend.",
+  "emote": "coeur"
+ },
+ {
+  "who": "mat",
+  "fr": "Et moi, je commencerai par une seule étagère.",
+  "en": "And I'll start with a single shelf."
+ },
+ {
+  "who": "mat",
+  "fr": "Je connais mon enthousiasme :",
+  "en": "I know my enthusiasm:"
+ },
+ {
+  "who": "mat",
+  "fr": "il pourrait commander trois meubles pour ranger moins de choses.",
+  "en": "it could order three pieces of furniture to store fewer things.",
+  "emote": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Revenons à votre objet du début.",
+  "en": "Let's go back to your object from the beginning."
+ },
+ {
+  "who": "lea",
+  "fr": "Vous pouvez dire : « Je garde… parce que…",
+  "en": "You can say: \"I keep… because…"
+ },
+ {
+  "who": "lea",
+  "fr": "Je l'utilise pour… »",
+  "en": "I use it for…\""
+ },
+ {
+  "who": "mat",
+  "fr": "Je garde mon jeu d'échecs parce que j'aime son plateau.",
+  "en": "I keep my chess set because I love its board.",
+  "emote": "coeur"
+ },
+ {
+  "who": "mat",
+  "fr": "Je l'utilise pour jouer avec un ami",
+  "en": "I use it to play with a friend"
+ },
+ {
+  "who": "mat",
+  "fr": "quand nous avons le temps.",
+  "en": "when we have time."
+ },
+ {
+  "who": "lea",
+  "fr": "Je garde mon petit sac à dos",
+  "en": "I keep my little backpack"
+ },
+ {
+  "who": "lea",
+  "fr": "parce qu'il est confortable.",
+  "en": "because it's comfortable.",
+  "emote": "coeur"
+ },
+ {
+  "who": "lea",
+  "fr": "Je l'utilise pour les promenades et les voyages courts.",
+  "en": "I use it for walks and short trips."
+ },
+ {
+  "who": "mat",
+  "fr": "À votre tour.",
+  "en": "Your turn."
+ },
+ {
+  "who": "mat",
+  "fr": "Dites vos deux phrases à voix haute.",
+  "en": "Say your two sentences out loud."
+ },
+ {
+  "who": "mat",
+  "fr": "Il peut s'agir d'un objet très ordinaire.",
+  "en": "It can be a very ordinary object."
+ },
+ {
+  "who": "lea",
+  "fr": "Maintenant, essayez :",
+  "en": "Now, try:",
+  "board": {
+   "mode": "compare",
+   "bg": "craie",
+   "title": "Moins de… pour plus de…",
+   "left": {
+    "head": "moins de…",
+    "sub": "j'enlève",
+    "items": [
+     {
+      "text": "jeux sur la table",
+      "at": 2
+     },
+     {
+      "text": "vêtements dans ma valise",
+      "at": 4
+     }
+    ]
+   },
+   "right": {
+    "head": "plus de…",
+    "sub": "je gagne",
+    "items": [
+     {
+      "text": "temps ensemble",
+      "at": 3
+     },
+     {
+      "text": "liberté",
+      "at": 5
+     }
+    ]
+   }
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "« Je pourrais avoir moins de… pour avoir plus de… »",
+  "en": "\"I could have less… to have more…\""
+ },
+ {
+  "who": "mat",
+  "fr": "Je pourrais avoir moins de jeux sur la table",
+  "en": "I could have fewer games on the table"
+ },
+ {
+  "who": "mat",
+  "fr": "pour avoir plus de temps ensemble.",
+  "en": "to have more time together."
+ },
+ {
+  "who": "lea",
+  "fr": "Je pourrais avoir moins de vêtements dans ma valise",
+  "en": "I could have fewer clothes in my suitcase"
+ },
+ {
+  "who": "lea",
+  "fr": "pour avoir plus de liberté pendant mes déplacements.",
+  "en": "to have more freedom when I travel.",
+  "boardEnd": true
+ },
+ {
+  "who": "mat",
+  "fr": "Votre réponse peut aussi parler des choix,",
+  "en": "Your answer can also be about choices,"
+ }
+]

@@ -1,0 +1,558 @@
+[
+ {
+  "who": "lea",
+  "fr": "Bonjour tout le monde et bienvenue sur The Cozy French !",
+  "en": "Hello everyone and welcome to The Cozy French!"
+ },
+ {
+  "who": "lea",
+  "fr": "Moi, c'est Léa.",
+  "en": "I'm Léa."
+ },
+ {
+  "who": "mat",
+  "fr": "Et moi, c'est Mathieu.",
+  "en": "And I'm Mathieu."
+ },
+ {
+  "who": "mat",
+  "fr": "Merci d'être avec nous",
+  "en": "Thank you for being with us"
+ },
+ {
+  "who": "mat",
+  "fr": "pour une nouvelle conversation en français.",
+  "en": "for a new conversation in French."
+ },
+ {
+  "who": "lea",
+  "fr": "Installez-vous confortablement, chez vous,",
+  "en": "Get comfortable, at home,"
+ },
+ {
+  "who": "lea",
+  "fr": "dans le train ou pendant votre pause.",
+  "en": "on the train or during your break."
+ },
+ {
+  "who": "mat",
+  "fr": "Justement, Léa revient d'un petit voyage en train.",
+  "en": "In fact, Léa just got back from a little train trip.",
+  "illus": "voyage",
+  "label": "le train"
+ },
+ {
+  "who": "mat",
+  "fr": "Deux jours, trois sacs, et une question importante.",
+  "en": "Two days, three bags, and one important question."
+ },
+ {
+  "who": "lea",
+  "fr": "Laquelle ?",
+  "en": "Which one?"
+ },
+ {
+  "who": "mat",
+  "fr": "Est-ce que ta valise avait son propre billet ?",
+  "en": "Did your suitcase have its own ticket?"
+ },
+ {
+  "who": "lea",
+  "fr": "Non, mais elle aurait aimé sa propre chambre.",
+  "en": "No, but it would have liked its own room.",
+  "emote": "rire"
+ },
+ {
+  "who": "mat",
+  "fr": "Je comprends.",
+  "en": "I understand."
+ },
+ {
+  "who": "mat",
+  "fr": "Elle avait apparemment prévu de rester plus longtemps que toi.",
+  "en": "Apparently it was planning to stay longer than you.",
+  "react": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Aujourd'hui, nous parlons de ce qu'on peut gagner",
+  "en": "Today, we're talking about what we can gain"
+ },
+ {
+  "who": "lea",
+  "fr": "quand on choisit d'avoir un peu moins.",
+  "en": "when we choose to have a little less."
+ },
+ {
+  "who": "mat",
+  "fr": "Moins de choses à transporter, moins de choix à faire,",
+  "en": "Fewer things to carry, fewer choices to make,"
+ },
+ {
+  "who": "mat",
+  "fr": "et peut-être plus de temps pour ce qu'on aime.",
+  "en": "and maybe more time for what we love."
+ },
+ {
+  "who": "lea",
+  "fr": "Cette conversation est pour les niveaux B1 et B2.",
+  "en": "This conversation is for B1 and B2 levels."
+ },
+ {
+  "who": "lea",
+  "fr": "Nous allons parler lentement et expliquer des expressions du quotidien.",
+  "en": "We'll speak slowly and explain everyday expressions."
+ },
+ {
+  "who": "mat",
+  "fr": "À la fin,",
+  "en": "By the end,",
+  "board": {
+   "mode": "steps",
+   "title": "À la fin, vous saurez…",
+   "items": [
+    {
+     "text": "décrire ce qui vous est utile",
+     "at": 1
+    },
+    {
+     "text": "expliquer pourquoi vous gardez un objet",
+     "at": 2
+    },
+    {
+     "text": "discuter d'un achat avant de décider",
+     "at": 3
+    }
+   ]
+  }
+ },
+ {
+  "who": "mat",
+  "fr": "vous saurez décrire ce qui vous est utile",
+  "en": "you'll be able to describe what's useful to you"
+ },
+ {
+  "who": "mat",
+  "fr": "et expliquer pourquoi vous gardez un objet.",
+  "en": "and explain why you keep an object."
+ },
+ {
+  "who": "lea",
+  "fr": "Vous pourrez aussi discuter d'un achat avant de vous décider.",
+  "en": "You'll also be able to discuss a purchase before making up your mind.",
+  "boardEnd": true
+ },
+ {
+  "who": "mat",
+  "fr": "Pas besoin de comprendre chaque mot.",
+  "en": "No need to understand every word."
+ },
+ {
+  "who": "mat",
+  "fr": "Écoutez les histoires, puis choisissez quelques phrases à répéter.",
+  "en": "Listen to the stories, then pick a few sentences to repeat."
+ },
+ {
+  "who": "lea",
+  "fr": "Et rassurez-vous, personne ne va compter",
+  "en": "And don't worry, nobody is going to count"
+ },
+ {
+  "who": "lea",
+  "fr": "vos chaussures ou inspecter vos placards.",
+  "en": "your shoes or inspect your cupboards.",
+  "emote": "rire"
+ },
+ {
+  "who": "mat",
+  "fr": "Très bien. Mes placards préfèrent rester discrets.",
+  "en": "Good. My cupboards prefer to stay discreet.",
+  "emote": "gene"
+ },
+ {
+  "who": "lea",
+  "fr": "Nous allons surtout chercher ce qui nous aide",
+  "en": "Above all, we'll look for what helps us"
+ },
+ {
+  "who": "lea",
+  "fr": "à profiter de notre vie quotidienne.",
+  "en": "enjoy our everyday life."
+ },
+ {
+  "who": "mat",
+  "fr": "Pensez à un objet que vous utilisez avec plaisir.",
+  "en": "Think of an object you enjoy using."
+ },
+ {
+  "who": "mat",
+  "fr": "Quelque chose de simple, qui vous convient vraiment.",
+  "en": "Something simple, that really suits you."
+ },
+ {
+  "who": "lea",
+  "fr": "Qu'est-ce que c'est ?",
+  "en": "What is it?"
+ },
+ {
+  "who": "lea",
+  "fr": "Et qu'est-ce qu'il vous apporte ?",
+  "en": "And what does it bring you?"
+ },
+ {
+  "who": "lea",
+  "fr": "Gardez votre réponse pour notre exercice de fin.",
+  "en": "Keep your answer for our final exercise."
+ },
+ {
+  "who": "mat",
+  "fr": "Vous pouvez aussi nous dire",
+  "en": "You can also tell us"
+ },
+ {
+  "who": "mat",
+  "fr": "dans quel pays vous écoutez cet épisode.",
+  "en": "which country you're listening to this episode from."
+ },
+ {
+  "who": "lea",
+  "fr": "J'aime découvrir les habitudes qui se cachent derrière vos exemples.",
+  "en": "I love discovering the habits behind your examples."
+ },
+ {
+  "who": "lea",
+  "fr": "Un même objet peut avoir",
+  "en": "The same object can have"
+ },
+ {
+  "who": "lea",
+  "fr": "une histoire différente dans chaque maison.",
+  "en": "a different story in every home.",
+  "emote": "coeur"
+ },
+ {
+  "who": "lea",
+  "fr": "Le mois dernier,",
+  "en": "Last month,"
+ },
+ {
+  "who": "lea",
+  "fr": "je suis partie à Nantes pour retrouver une amie.",
+  "en": "I went to Nantes to see a friend.",
+  "illus": "amis",
+  "label": "une amie"
+ },
+ {
+  "who": "lea",
+  "fr": "Je restais deux nuits chez elle.",
+  "en": "I was staying two nights at her place."
+ },
+ {
+  "who": "mat",
+  "fr": "Et tu as emporté ton appartement ?",
+  "en": "And you took your apartment with you?",
+  "emote": "surpris"
+ },
+ {
+  "who": "lea",
+  "fr": "Une sélection seulement.",
+  "en": "Just a selection."
+ },
+ {
+  "who": "lea",
+  "fr": "Une grande valise,",
+  "en": "A big suitcase,"
+ },
+ {
+  "who": "lea",
+  "fr": "un sac à dos et un sac avec des chaussures.",
+  "en": "a backpack and a bag with shoes."
+ },
+ {
+  "who": "mat",
+  "fr": "Tu avais prévu combien de pieds pour le week-end ?",
+  "en": "How many feet had you planned for the weekend?",
+  "emote": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Visiblement plus de deux.",
+  "en": "Clearly more than two.",
+  "emote": "gene"
+ },
+ {
+  "who": "lea",
+  "fr": "Dans le tram,",
+  "en": "On the tram,"
+ },
+ {
+  "who": "lea",
+  "fr": "j'ai compris que ma valise était vraiment encombrante.",
+  "en": "I realised my suitcase was really bulky."
+ },
+ {
+  "who": "mat",
+  "fr": "[Encombrante,] ça veut dire qu'elle prend beaucoup de place",
+  "en": "\"Bulky\" means it takes up a lot of space",
+  "board": {
+   "mode": "word",
+   "note": "= qui prend beaucoup de place et qui est difficile à déplacer",
+   "icon": "voyage"
+  }
+ },
+ {
+  "who": "mat",
+  "fr": "et qu'elle est difficile à déplacer ?",
+  "en": "and it's hard to move around?"
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Par exemple, cette grande table",
+  "en": "Exactly. For example, this big table"
+ },
+ {
+  "who": "lea",
+  "fr": "est encombrante dans un petit studio.",
+  "en": "is bulky in a small studio flat.",
+  "boardEnd": true
+ },
+ {
+  "who": "mat",
+  "fr": "Et dans ton cas, le studio avançait sur des rails.",
+  "en": "And in your case, the studio was moving on rails.",
+  "emote": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "À la gare,",
+  "en": "At the station,"
+ },
+ {
+  "who": "lea",
+  "fr": "je cherchais toujours une place pour les sacs.",
+  "en": "I was always looking for a spot for the bags."
+ },
+ {
+  "who": "lea",
+  "fr": "Puis je cherchais mon billet dans le mauvais sac.",
+  "en": "Then I looked for my ticket in the wrong bag.",
+  "emote": "gene"
+ },
+ {
+  "who": "mat",
+  "fr": "Un voyage avec plusieurs étapes, même sans changer de train.",
+  "en": "A trip with several stages, without even changing trains."
+ },
+ {
+  "who": "lea",
+  "fr": "Chez mon amie, j'ai ouvert la valise.",
+  "en": "At my friend's place, I opened the suitcase."
+ },
+ {
+  "who": "lea",
+  "fr": "J'avais pris deux vestes,",
+  "en": "I had packed two jackets,"
+ },
+ {
+  "who": "lea",
+  "fr": "plusieurs pulls et une tenue plus habillée, au cas où.",
+  "en": "several jumpers and a dressier outfit, just in case."
+ },
+ {
+  "who": "mat",
+  "fr": "Au cas où quelque chose arriverait.",
+  "en": "Just in case something happened."
+ },
+ {
+  "who": "mat",
+  "fr": "C'est une manière de prévoir une possibilité.",
+  "en": "It's a way of planning for a possibility."
+ },
+ {
+  "who": "lea",
+  "fr": "Oui. Par exemple, je garde le numéro de l'hôtel,",
+  "en": "Yes. For example, I keep the hotel's number,"
+ },
+ {
+  "who": "lea",
+  "fr": "au cas où je me perdrais.",
+  "en": "in case I get lost."
+ },
+ {
+  "who": "mat",
+  "fr": "Mais pour ton voyage, quelle était la possibilité ?",
+  "en": "But for your trip, what was the possibility?"
+ },
+ {
+  "who": "lea",
+  "fr": "Une invitation surprise, un changement de temps,",
+  "en": "A surprise invitation, a change in the weather,"
+ },
+ {
+  "who": "lea",
+  "fr": "une envie de changer de tenue…",
+  "en": "wanting to change outfits…"
+ },
+ {
+  "who": "lea",
+  "fr": "J'avais préparé beaucoup de versions du même samedi.",
+  "en": "I had prepared lots of versions of the same Saturday.",
+  "emote": "rire"
+ },
+ {
+  "who": "mat",
+  "fr": "Vous avez fait quoi, finalement ?",
+  "en": "So what did you end up doing?"
+ },
+ {
+  "who": "lea",
+  "fr": "Nous avons marché,",
+  "en": "We walked,"
+ },
+ {
+  "who": "lea",
+  "fr": "déjeuné dans un petit restaurant et discuté chez elle.",
+  "en": "had lunch in a little restaurant and chatted at her place.",
+  "illus": "repas",
+  "label": "un petit restaurant"
+ },
+ {
+  "who": "lea",
+  "fr": "J'ai porté le même pantalon tout le week-end.",
+  "en": "I wore the same trousers all weekend."
+ },
+ {
+  "who": "mat",
+  "fr": "Les autres vêtements ont donc découvert Nantes depuis la chambre.",
+  "en": "So the other clothes discovered Nantes from the bedroom.",
+  "emote": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Oui.",
+  "en": "Yes."
+ },
+ {
+  "who": "lea",
+  "fr": "Et dimanche, pendant que mon amie préparait le café,",
+  "en": "And on Sunday, while my friend was making coffee,",
+  "illus": "cafe",
+  "label": "le café"
+ },
+ {
+  "who": "lea",
+  "fr": "je remettais tout dans les sacs.",
+  "en": "I was putting everything back in the bags.",
+  "emote": "triste"
+ },
+ {
+  "who": "mat",
+  "fr": "Tu aurais préféré rester avec elle ?",
+  "en": "You would have preferred to stay with her?"
+ },
+ {
+  "who": "lea",
+  "fr": "Bien sûr.",
+  "en": "Of course."
+ },
+ {
+  "who": "lea",
+  "fr": "En rentrant, je me suis demandé",
+  "en": "On the way home, I asked myself"
+ },
+ {
+  "who": "lea",
+  "fr": "de quoi je pouvais me passer la prochaine fois.",
+  "en": "what I could do without next time."
+ },
+ {
+  "who": "mat",
+  "fr": "[Se passer de] quelque chose,",
+  "en": "To do without something",
+  "board": {
+   "mode": "word",
+   "bg": "craie",
+   "note": "= réussir à faire sans cette chose",
+   "icon": "voiture"
+  }
+ },
+ {
+  "who": "mat",
+  "fr": "c'est réussir à faire sans cette chose.",
+  "en": "is managing without that thing."
+ },
+ {
+  "who": "lea",
+  "fr": "Voilà. Par exemple, pour ce trajet en ville,",
+  "en": "That's it. For example, for this trip across town,"
+ },
+ {
+  "who": "lea",
+  "fr": "nous pouvons nous passer de voiture.",
+  "en": "we can do without a car.",
+  "boardEnd": true
+ },
+ {
+  "who": "mat",
+  "fr": "Donc, pour deux jours,",
+  "en": "So, for two days,"
+ },
+ {
+  "who": "mat",
+  "fr": "tu pouvais peut-être laisser quelques vêtements chez toi.",
+  "en": "maybe you could have left some clothes at home."
+ },
+ {
+  "who": "lea",
+  "fr": "Oui. J'avais besoin de vérifier la météo",
+  "en": "Yes. I needed to check the weather",
+  "illus": "soleil",
+  "label": "la météo"
+ },
+ {
+  "who": "lea",
+  "fr": "et de prévoir des vêtements adaptés.",
+  "en": "and plan suitable clothes."
+ },
+ {
+  "who": "lea",
+  "fr": "Mais pas d'emporter chaque option possible.",
+  "en": "But not to take every possible option."
+ },
+ {
+  "who": "mat",
+  "fr": "Tu vas faire une petite liste pour le prochain départ ?",
+  "en": "Are you going to make a little list for the next trip?"
+ },
+ {
+  "who": "lea",
+  "fr": "Une liste courte, avec ce que j'ai réellement utilisé.",
+  "en": "A short list, with what I actually used."
+ },
+ {
+  "who": "lea",
+  "fr": "Je veux passer moins de temps",
+  "en": "I want to spend less time"
+ },
+ {
+  "who": "lea",
+  "fr": "à m'occuper de mes affaires.",
+  "en": "looking after my things."
+ },
+ {
+  "who": "mat",
+  "fr": "Et davantage à boire le café",
+  "en": "And more time drinking coffee"
+ },
+ {
+  "who": "mat",
+  "fr": "pendant qu'il est encore chaud.",
+  "en": "while it's still hot.",
+  "react": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Mon amie m'avait invitée, moi.",
+  "en": "Exactly. My friend had invited me."
+ }
+]

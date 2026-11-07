@@ -1,0 +1,545 @@
+[
+ {
+  "who": "lea",
+  "fr": "Pas toute ma garde-robe.",
+  "en": "Not my entire wardrobe.",
+  "emote": "rire"
+ },
+ {
+  "who": "mat",
+  "fr": "J'ai vécu quelque chose de semblable",
+  "en": "I experienced something similar"
+ },
+ {
+  "who": "mat",
+  "fr": "avec mes jeux de société.",
+  "en": "with my board games."
+ },
+ {
+  "who": "mat",
+  "fr": "J'avais invité quatre amis un vendredi soir.",
+  "en": "I had invited four friends on a Friday evening.",
+  "illus": "amis",
+  "label": "quatre amis"
+ },
+ {
+  "who": "lea",
+  "fr": "Tu avais choisi un jeu ?",
+  "en": "Had you chosen a game?"
+ },
+ {
+  "who": "mat",
+  "fr": "J'en avais sorti sept.",
+  "en": "I had brought out seven."
+ },
+ {
+  "who": "mat",
+  "fr": "Je voulais que chacun trouve quelque chose qui lui plaise.",
+  "en": "I wanted everyone to find something they liked."
+ },
+ {
+  "who": "lea",
+  "fr": "Sept jeux pour une seule soirée ?",
+  "en": "Seven games for a single evening?",
+  "emote": "surpris"
+ },
+ {
+  "who": "mat",
+  "fr": "Oui. Une pile très impressionnante.",
+  "en": "Yes. A very impressive pile."
+ },
+ {
+  "who": "mat",
+  "fr": "Mais pour profiter pleinement de la soirée,",
+  "en": "But to really make the most of the evening,"
+ },
+ {
+  "who": "mat",
+  "fr": "ce n'était pas très pratique.",
+  "en": "it wasn't very practical."
+ },
+ {
+  "who": "lea",
+  "fr": "[Profiter pleinement de] quelque chose,",
+  "en": "To make the most of something",
+  "board": {
+   "mode": "word",
+   "bg": "carnet",
+   "note": "= apprécier vraiment et vivre ce moment aussi complètement que possible",
+   "icon": "musique"
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "c'est l'apprécier vraiment",
+  "en": "means really enjoying it"
+ },
+ {
+  "who": "lea",
+  "fr": "et vivre ce moment aussi complètement que possible.",
+  "en": "and living that moment as fully as possible."
+ },
+ {
+  "who": "mat",
+  "fr": "Par exemple, j'ai laissé mon téléphone",
+  "en": "For example, I left my phone"
+ },
+ {
+  "who": "mat",
+  "fr": "dans mon sac pour profiter pleinement du concert.",
+  "en": "in my bag to fully enjoy the concert.",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Et vendredi, vous avez réussi à commencer ?",
+  "en": "And on Friday, did you manage to get started?"
+ },
+ {
+  "who": "mat",
+  "fr": "D'abord, j'ai présenté les sept boîtes.",
+  "en": "First, I presented the seven boxes."
+ },
+ {
+  "who": "mat",
+  "fr": "Ensuite, quelqu'un a demandé",
+  "en": "Then someone asked"
+ },
+ {
+  "who": "mat",
+  "fr": "si le troisième jeu était plus long que le cinquième.",
+  "en": "whether the third game was longer than the fifth."
+ },
+ {
+  "who": "lea",
+  "fr": "Une question dangereuse.",
+  "en": "A dangerous question.",
+  "emote": "rire"
+ },
+ {
+  "who": "mat",
+  "fr": "Très dangereuse. J'ai ouvert deux notices.",
+  "en": "Very dangerous. I opened two rulebooks."
+ },
+ {
+  "who": "mat",
+  "fr": "Un ami s'est levé pour couper du pain.",
+  "en": "One friend got up to cut some bread.",
+  "illus": "repas",
+  "label": "du pain"
+ },
+ {
+  "who": "mat",
+  "fr": "Une autre a proposé de voter.",
+  "en": "Another suggested a vote."
+ },
+ {
+  "who": "lea",
+  "fr": "Et le vote a pris combien de temps ?",
+  "en": "And how long did the vote take?"
+ },
+ {
+  "who": "mat",
+  "fr": "Assez longtemps pour que le pain soit presque terminé.",
+  "en": "Long enough for the bread to be almost gone.",
+  "emote": "gene"
+ },
+ {
+  "who": "mat",
+  "fr": "Nous avions beaucoup de choix,",
+  "en": "We had lots of choice,"
+ },
+ {
+  "who": "mat",
+  "fr": "mais nous ne jouions toujours pas.",
+  "en": "but we still weren't playing."
+ },
+ {
+  "who": "lea",
+  "fr": "Vous avez fini par prendre lequel ?",
+  "en": "Which one did you end up picking?"
+ },
+ {
+  "who": "mat",
+  "fr": "Un jeu de cartes que nous connaissions déjà.",
+  "en": "A card game we already knew."
+ },
+ {
+  "who": "mat",
+  "fr": "Nous avons fait plusieurs parties et beaucoup ri.",
+  "en": "We played several rounds and laughed a lot.",
+  "emote": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Tu aurais pu laisser les grandes boîtes sur l'étagère.",
+  "en": "You could have left the big boxes on the shelf."
+ },
+ {
+  "who": "mat",
+  "fr": "Oui. Certaines [prennent la poussière] depuis longtemps.",
+  "en": "Yes. Some have been gathering dust for a long time."
+ },
+ {
+  "who": "mat",
+  "fr": "Elles restent là, sans être utilisées.",
+  "en": "They just sit there, unused."
+ },
+ {
+  "who": "mat",
+  "fr": "C'est le sens de cette expression.",
+  "en": "That's what this expression means."
+ },
+ {
+  "who": "lea",
+  "fr": "Autre exemple :",
+  "en": "Another example:"
+ },
+ {
+  "who": "lea",
+  "fr": "mes rollers prennent la poussière depuis que je préfère marcher.",
+  "en": "my rollerblades have been gathering dust since I started preferring to walk."
+ },
+ {
+  "who": "mat",
+  "fr": "Pourtant, j'aime certains jeux compliqués.",
+  "en": "Still, I like some complicated games."
+ },
+ {
+  "who": "mat",
+  "fr": "Je veux juste choisir un moment",
+  "en": "I just want to choose a moment"
+ },
+ {
+  "who": "mat",
+  "fr": "où mes amis ont envie de découvrir les règles.",
+  "en": "when my friends feel like learning the rules."
+ },
+ {
+  "who": "lea",
+  "fr": "Avec ce groupe-là, ce soir-là, un jeu familier suffisait.",
+  "en": "With that group, on that evening, a familiar game was enough."
+ },
+ {
+  "who": "mat",
+  "fr": "Exactement.",
+  "en": "Exactly."
+ },
+ {
+  "who": "mat",
+  "fr": "La prochaine fois, je proposerai deux options avant leur arrivée.",
+  "en": "Next time, I'll suggest two options before they arrive."
+ },
+ {
+  "who": "mat",
+  "fr": "Et je garderai une place pour le pain.",
+  "en": "And I'll keep some room for the bread.",
+  "react": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Une place plus facile à trouver",
+  "en": "Room that's easier to find"
+ },
+ {
+  "who": "lea",
+  "fr": "quand la table ne ressemble pas à un magasin.",
+  "en": "when the table doesn't look like a shop."
+ },
+ {
+  "who": "lea",
+  "fr": "Ce qui me frappe,",
+  "en": "What strikes me",
+  "emote": "idee"
+ },
+ {
+  "who": "lea",
+  "fr": "c'est que nous voulions tous les deux être prêts.",
+  "en": "is that we both wanted to be ready."
+ },
+ {
+  "who": "lea",
+  "fr": "Moi pour chaque situation, toi pour chaque envie.",
+  "en": "Me for every situation, you for every craving."
+ },
+ {
+  "who": "mat",
+  "fr": "Oui.",
+  "en": "Yes."
+ },
+ {
+  "who": "mat",
+  "fr": "Et j'ai du mal à renoncer à une possibilité,",
+  "en": "And I find it hard to give up a possibility,",
+  "emote": "gene"
+ },
+ {
+  "who": "mat",
+  "fr": "même quand elle ne m'intéresse pas vraiment ce jour-là.",
+  "en": "even when it doesn't really interest me that day."
+ },
+ {
+  "who": "lea",
+  "fr": "Avoir du mal à faire quelque chose,",
+  "en": "To find it hard to do something"
+ },
+ {
+  "who": "lea",
+  "fr": "c'est trouver cette action difficile.",
+  "en": "means finding that action difficult."
+ },
+ {
+  "who": "mat",
+  "fr": "Par exemple, j'ai du mal à choisir un film",
+  "en": "For example, I find it hard to choose a film"
+ },
+ {
+  "who": "mat",
+  "fr": "quand tout le monde attend ma réponse.",
+  "en": "when everyone is waiting for my answer."
+ },
+ {
+  "who": "lea",
+  "fr": "Moi, je crains parfois de regretter.",
+  "en": "Me, I'm sometimes afraid of regretting things.",
+  "emote": "gene"
+ },
+ {
+  "who": "lea",
+  "fr": "Alors je garde, j'ajoute, je prévois une autre solution.",
+  "en": "So I keep, I add, I plan another solution."
+ },
+ {
+  "who": "mat",
+  "fr": "C'est utile dans certaines situations.",
+  "en": "It's useful in some situations."
+ },
+ {
+  "who": "mat",
+  "fr": "Une veste pour la pluie peut vraiment servir.",
+  "en": "A jacket for the rain can really come in handy.",
+  "illus": "pluie",
+  "label": "la pluie"
+ },
+ {
+  "who": "lea",
+  "fr": "Oui. La question, c'est de regarder",
+  "en": "Yes. The question is to look at"
+ },
+ {
+  "who": "lea",
+  "fr": "ce qui convient à notre vie réelle.",
+  "en": "what suits our real life."
+ },
+ {
+  "who": "mat",
+  "fr": "Et de garder aussi ce qu'on aime.",
+  "en": "And also to keep what we love."
+ },
+ {
+  "who": "mat",
+  "fr": "Je tiens à mon vieux jeu d'échecs,",
+  "en": "I'm attached to my old chess set,",
+  "emote": "coeur"
+ },
+ {
+  "who": "mat",
+  "fr": "même si je n'y joue pas chaque semaine.",
+  "en": "even if I don't play every week."
+ },
+ {
+  "who": "lea",
+  "fr": "[Tenir à] quelque chose,",
+  "en": "To be attached to something",
+  "board": {
+   "mode": "word",
+   "note": "= lui accorder de l'importance, y être attaché"
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "c'est lui accorder de l'importance, y être attaché.",
+  "en": "means giving it importance, being attached to it."
+ },
+ {
+  "who": "mat",
+  "fr": "Par exemple, ma colocataire tient à cette affiche",
+  "en": "For example, my flatmate is attached to this poster"
+ },
+ {
+  "who": "mat",
+  "fr": "parce qu'elle lui rappelle son premier concert.",
+  "en": "because it reminds her of her first concert.",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "On peut donc garder un objet pour son utilité,",
+  "en": "So we can keep an object for its usefulness,"
+ },
+ {
+  "who": "lea",
+  "fr": "mais aussi pour le plaisir ou les souvenirs qu'il apporte.",
+  "en": "but also for the pleasure or the memories it brings."
+ },
+ {
+  "who": "mat",
+  "fr": "Et se contenter de moins,",
+  "en": "And being satisfied with less,"
+ },
+ {
+  "who": "mat",
+  "fr": "ça ne risque pas de devenir triste ?",
+  "en": "doesn't that risk becoming sad?",
+  "emote": "question"
+ },
+ {
+  "who": "lea",
+  "fr": "[Se contenter de] quelque chose,",
+  "en": "To be satisfied with something",
+  "board": {
+   "mode": "word",
+   "bg": "craie",
+   "note": "= considérer que cela suffit",
+   "icon": "nature"
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "c'est considérer que cela suffit.",
+  "en": "means considering that it's enough."
+ },
+ {
+  "who": "lea",
+  "fr": "Mais chacun doit pouvoir choisir ce qui lui suffit.",
+  "en": "But everyone should be able to choose what's enough for them."
+ },
+ {
+  "who": "mat",
+  "fr": "Par exemple, pour notre promenade,",
+  "en": "For example, for our walk,"
+ },
+ {
+  "who": "mat",
+  "fr": "nous nous sommes contentés",
+  "en": "we made do"
+ },
+ {
+  "who": "mat",
+  "fr": "d'un petit sac avec de l'eau et un goûter.",
+  "en": "with a small bag with some water and a snack.",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Les besoins changent selon les personnes.",
+  "en": "Needs vary from person to person."
+ },
+ {
+  "who": "lea",
+  "fr": "Certaines ont déjà trop peu",
+  "en": "Some already have too little"
+ },
+ {
+  "who": "lea",
+  "fr": "et ont surtout besoin de davantage de ressources.",
+  "en": "and above all need more resources."
+ },
+ {
+  "who": "mat",
+  "fr": "Oui.",
+  "en": "Yes."
+ },
+ {
+  "who": "mat",
+  "fr": "Pour moi, aujourd'hui,",
+  "en": "For me, today,"
+ },
+ {
+  "who": "mat",
+  "fr": "il s'agit de choisir parmi mes possibilités.",
+  "en": "it's about choosing among my options."
+ },
+ {
+  "who": "mat",
+  "fr": "Pas de décider à la place des autres.",
+  "en": "Not deciding for other people."
+ },
+ {
+  "who": "lea",
+  "fr": "Essayons une petite scène.",
+  "en": "Let's try a little scene."
+ },
+ {
+  "who": "lea",
+  "fr": "Nous préparons un pique-nique",
+  "en": "We're preparing a picnic",
+  "illus": "repas",
+  "label": "un pique-nique"
+ },
+ {
+  "who": "lea",
+  "fr": "et tu regardes une boutique en ligne.",
+  "en": "and you're looking at an online shop."
+ },
+ {
+  "who": "mat",
+  "fr": "Vous pourrez répondre avant moi.",
+  "en": "You can answer before me."
+ },
+ {
+  "who": "lea",
+  "fr": "J'ai trouvé un panier",
+  "en": "I found a basket",
+  "board": {
+   "mode": "sketch",
+   "title": "En situation : un pique-nique"
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "avec des assiettes et des verres assortis.",
+  "en": "with matching plates and glasses."
+ },
+ {
+  "who": "lea",
+  "fr": "On le commande pour dimanche ?",
+  "en": "Shall we order it for Sunday?",
+  "emote": "question"
+ },
+ {
+  "who": "mat",
+  "fr": "À vous !",
+  "en": "Your turn!"
+ },
+ {
+  "who": "mat",
+  "fr": "Vous avez déjà de quoi transporter le repas.",
+  "en": "You already have something to carry the meal in."
+ },
+ {
+  "who": "mat",
+  "fr": "Comment proposeriez-vous de vérifier avant d'acheter ?",
+  "en": "How would you suggest checking before buying?"
+ },
+ {
+  "who": "mat",
+  "fr": "Prenez quelques secondes.",
+  "en": "Take a few seconds."
+ },
+ {
+  "who": "lea",
+  "fr": "Vous pouvez commencer par : « Est-ce qu'on a déjà… ? »",
+  "en": "You can start with: \"Do we already have…?\""
+ },
+ {
+  "who": "mat",
+  "fr": "Est-ce qu'on a déjà quelque chose qui pourrait servir ?",
+  "en": "Do we already have something that could do the job?"
+ },
+ {
+  "who": "mat",
+  "fr": "J'ai un sac solide et quelques boîtes.",
+  "en": "I have a sturdy bag and a few boxes."
+ }
+]

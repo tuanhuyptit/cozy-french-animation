@@ -1,0 +1,369 @@
+0|Hello everyone and welcome to The Cozy French!
+1|I'm Léa.
+2|And I'm Mathieu.
+3|Thank you for being with us
+4|for a new conversation in French.
+5|Get comfortable, at home,
+6|on the train or during your break.
+7|In fact, Léa just got back from a little train trip.|i=voyage:le train
+8|Two days, three bags, and one important question.
+9|Which one?
+10|Did your suitcase have its own ticket?
+11|No, but it would have liked its own room.|e=rire
+12|I understand.
+13|Apparently it was planning to stay longer than you.|r=rire
+14|Today, we're talking about what we can gain
+15|when we choose to have a little less.
+16|Fewer things to carry, fewer choices to make,
+17|and maybe more time for what we love.
+18|This conversation is for B1 and B2 levels.
+19|We'll speak slowly and explain everyday expressions.
+20|By the end,|B={"mode":"steps","title":"À la fin, vous saurez…","items":[{"text":"décrire ce qui vous est utile","at":1},{"text":"expliquer pourquoi vous gardez un objet","at":2},{"text":"discuter d'un achat avant de décider","at":3}]}
+21|you'll be able to describe what's useful to you
+22|and explain why you keep an object.
+23|You'll also be able to discuss a purchase before making up your mind.|BE
+24|No need to understand every word.
+25|Listen to the stories, then pick a few sentences to repeat.
+26|And don't worry, nobody is going to count
+27|your shoes or inspect your cupboards.|e=rire
+28|Good. My cupboards prefer to stay discreet.|e=gene
+29|Above all, we'll look for what helps us
+30|enjoy our everyday life.
+31|Think of an object you enjoy using.
+32|Something simple, that really suits you.
+33|What is it?
+34|And what does it bring you?
+35|Keep your answer for our final exercise.
+36|You can also tell us
+37|which country you're listening to this episode from.
+38|I love discovering the habits behind your examples.
+39|The same object can have
+40|a different story in every home.|e=coeur
+41|Last month,
+42|I went to Nantes to see a friend.|i=amis:une amie
+43|I was staying two nights at her place.
+44|And you took your apartment with you?|e=surpris
+45|Just a selection.
+46|A big suitcase,
+47|a backpack and a bag with shoes.
+48|How many feet had you planned for the weekend?|e=rire
+49|Clearly more than two.|e=gene
+50|On the tram,
+51|I realised my suitcase was really bulky.
+52|"Bulky" means it takes up a lot of space|B={"mode":"word","note":"= qui prend beaucoup de place et qui est difficile à déplacer","icon":"voyage"}
+53|and it's hard to move around?
+54|Exactly. For example, this big table
+55|is bulky in a small studio flat.|BE
+56|And in your case, the studio was moving on rails.|e=rire
+57|At the station,
+58|I was always looking for a spot for the bags.
+59|Then I looked for my ticket in the wrong bag.|e=gene
+60|A trip with several stages, without even changing trains.
+61|At my friend's place, I opened the suitcase.
+62|I had packed two jackets,
+63|several jumpers and a dressier outfit, just in case.
+64|Just in case something happened.
+65|It's a way of planning for a possibility.
+66|Yes. For example, I keep the hotel's number,
+67|in case I get lost.
+68|But for your trip, what was the possibility?
+69|A surprise invitation, a change in the weather,
+70|wanting to change outfits…
+71|I had prepared lots of versions of the same Saturday.|e=rire
+72|So what did you end up doing?
+73|We walked,
+74|had lunch in a little restaurant and chatted at her place.|i=repas:un petit restaurant
+75|I wore the same trousers all weekend.
+76|So the other clothes discovered Nantes from the bedroom.|e=rire
+77|Yes.
+78|And on Sunday, while my friend was making coffee,|i=cafe:le café
+79|I was putting everything back in the bags.|e=triste
+80|You would have preferred to stay with her?
+81|Of course.
+82|On the way home, I asked myself
+83|what I could do without next time.
+84|To do without something|B={"mode":"word","bg":"craie","note":"= réussir à faire sans cette chose","icon":"voiture"}
+85|is managing without that thing.
+86|That's it. For example, for this trip across town,
+87|we can do without a car.|BE
+88|So, for two days,
+89|maybe you could have left some clothes at home.
+90|Yes. I needed to check the weather|i=soleil:la météo
+91|and plan suitable clothes.
+92|But not to take every possible option.
+93|Are you going to make a little list for the next trip?
+94|A short list, with what I actually used.
+95|I want to spend less time
+96|looking after my things.
+97|And more time drinking coffee
+98|while it's still hot.|r=rire
+99|Exactly. My friend had invited me.
+100|Not my entire wardrobe.|e=rire
+101|I experienced something similar
+102|with my board games.
+103|I had invited four friends on a Friday evening.|i=amis:quatre amis
+104|Had you chosen a game?
+105|I had brought out seven.
+106|I wanted everyone to find something they liked.
+107|Seven games for a single evening?|e=surpris
+108|Yes. A very impressive pile.
+109|But to really make the most of the evening,
+110|it wasn't very practical.
+111|To make the most of something|B={"mode":"word","bg":"carnet","note":"= apprécier vraiment et vivre ce moment aussi complètement que possible","icon":"musique"}
+112|means really enjoying it
+113|and living that moment as fully as possible.
+114|For example, I left my phone
+115|in my bag to fully enjoy the concert.|BE
+116|And on Friday, did you manage to get started?
+117|First, I presented the seven boxes.
+118|Then someone asked
+119|whether the third game was longer than the fifth.
+120|A dangerous question.|e=rire
+121|Very dangerous. I opened two rulebooks.
+122|One friend got up to cut some bread.|i=repas:du pain
+123|Another suggested a vote.
+124|And how long did the vote take?
+125|Long enough for the bread to be almost gone.|e=gene
+126|We had lots of choice,
+127|but we still weren't playing.
+128|Which one did you end up picking?
+129|A card game we already knew.
+130|We played several rounds and laughed a lot.|e=rire
+131|You could have left the big boxes on the shelf.
+132|Yes. Some have been gathering dust for a long time.
+133|They just sit there, unused.
+134|That's what this expression means.
+135|Another example:
+136|my rollerblades have been gathering dust since I started preferring to walk.
+137|Still, I like some complicated games.
+138|I just want to choose a moment
+139|when my friends feel like learning the rules.
+140|With that group, on that evening, a familiar game was enough.
+141|Exactly.
+142|Next time, I'll suggest two options before they arrive.
+143|And I'll keep some room for the bread.|r=rire
+144|Room that's easier to find
+145|when the table doesn't look like a shop.
+146|What strikes me|e=idee
+147|is that we both wanted to be ready.
+148|Me for every situation, you for every craving.
+149|Yes.
+150|And I find it hard to give up a possibility,|e=gene
+151|even when it doesn't really interest me that day.
+152|To find it hard to do something
+153|means finding that action difficult.
+154|For example, I find it hard to choose a film
+155|when everyone is waiting for my answer.
+156|Me, I'm sometimes afraid of regretting things.|e=gene
+157|So I keep, I add, I plan another solution.
+158|It's useful in some situations.
+159|A jacket for the rain can really come in handy.|i=pluie:la pluie
+160|Yes. The question is to look at
+161|what suits our real life.
+162|And also to keep what we love.
+163|I'm attached to my old chess set,|e=coeur
+164|even if I don't play every week.
+165|To be attached to something|B={"mode":"word","note":"= lui accorder de l'importance, y être attaché"}
+166|means giving it importance, being attached to it.
+167|For example, my flatmate is attached to this poster
+168|because it reminds her of her first concert.|BE
+169|So we can keep an object for its usefulness,
+170|but also for the pleasure or the memories it brings.
+171|And being satisfied with less,
+172|doesn't that risk becoming sad?|e=question
+173|To be satisfied with something|B={"mode":"word","bg":"craie","note":"= considérer que cela suffit","icon":"nature"}
+174|means considering that it's enough.
+175|But everyone should be able to choose what's enough for them.
+176|For example, for our walk,
+177|we made do
+178|with a small bag with some water and a snack.|BE
+179|Needs vary from person to person.
+180|Some already have too little
+181|and above all need more resources.
+182|Yes.
+183|For me, today,
+184|it's about choosing among my options.
+185|Not deciding for other people.
+186|Let's try a little scene.
+187|We're preparing a picnic|i=repas:un pique-nique
+188|and you're looking at an online shop.
+189|You can answer before me.
+190|I found a basket|B={"mode":"sketch","title":"En situation : un pique-nique"}
+191|with matching plates and glasses.
+192|Shall we order it for Sunday?|e=question
+193|Your turn!
+194|You already have something to carry the meal in.
+195|How would you suggest checking before buying?
+196|Take a few seconds.
+197|You can start with: "Do we already have…?"
+198|Do we already have something that could do the job?
+199|I have a sturdy bag and a few boxes.
+200|That's true.
+201|And I have cutlery and a big tablecloth.
+202|The basket might be an impulse purchase.|BE
+203|An impulse purchase is a purchase decided on the spot,|B={"mode":"word","note":"= un achat décidé sur le moment, sans vraiment réfléchir avant","icon":"courses"}
+204|without really thinking first.
+205|For example, these glasses were an impulse purchase
+206|during a walk in town.|BE
+207|Do you use them?|e=question
+208|Yes, but not all my quick decisions
+209|turn out so well.|e=gene
+210|Back to Sunday: will your bag be big enough?
+211|Yes, for the food.
+212|And for the drinks,
+213|I can borrow a cool bag from my neighbour.
+214|OK.
+215|Before ordering, we can weigh the pros and cons.|B={"mode":"word","bg":"carnet","note":"= examiner les avantages et les inconvénients pour prendre une décision"}
+216|That's examining the advantages
+217|and disadvantages to make a decision.
+218|For example, before moving flats,
+219|we weighed the pros and cons.|BE
+220|As for the basket, it's pretty.|B={"mode":"compare","title":"Le panier","left":{"head":"le pour","sub":"avantages","items":[{"text":"il est joli","at":0}]},"right":{"head":"le contre","sub":"inconvénients","items":[{"text":"le payer","at":1},{"text":"le ranger","at":1},{"text":"le transporter","at":1}]}}
+221|But you have to pay for it, store it and carry it.
+222|So, for this time, let's use what we have.
+223|We can think about buying something if the need comes back.|BE
+224|Very good.
+225|And now, a truly important decision:
+226|who's bringing the cheese?|e=question i=courses:le fromage
+227|I think you just volunteered.|e=rire
+228|If I want to declutter at home, where do I start?
+229|I look at my living room and I already see several projects.|e=fatigue
+230|To declutter
+231|is to remove what takes up space for no reason
+232|to make a space more pleasant or more practical.
+233|For example, she decluttered her hallway
+234|so she could open the door easily.
+235|You can start with one specific spot.
+236|The little corner where you put your mail, for example.
+237|Do I sort my flatmate's mail too?|e=question
+238|No, you leave his things so he can decide himself.
+239|You can start with your own papers.
+240|So, to sort through:|B={"mode":"word","bg":"craie","note":"= regarder les choses et les séparer selon ce qu'on va en faire"}
+241|looking at things and separating them
+242|according to what you'll do with them.
+243|Yes. For example, we sorted through the photos
+244|before making an album.|BE
+245|For my mail, I can separate|B={"mode":"steps","bg":"craie","title":"Trier son courrier","items":[{"text":"les documents à conserver","at":1},{"text":"ceux à traiter","at":2},{"text":"les publicités à recycler","at":2}]}
+246|the documents to keep,
+247|the ones to deal with and the ads to recycle.|BE
+248|That's it. For an object,
+249|you can ask yourself when you last used it
+250|and whether you really want to keep it.
+251|I could also find someone|e=idee
+252|who'd like a game I no longer play.
+253|Yes, if it's complete and in good condition.
+254|But you can take the time
+255|to choose a suitable solution.
+256|And to avoid adding what's unnecessary?
+257|It's what goes beyond our needs,
+258|what isn't necessary in a situation.
+259|Exactly.
+260|For example, for this short presentation,
+261|the animations were unnecessary.
+262|The pictures were enough.
+263|I can wait before ordering a new object.
+264|Then check whether I already have one that works.
+265|And if you really need it,
+266|you can look for what fits
+267|your use and your budget.|i=argent:ton budget
+268|For my game nights,
+269|I mainly want to make room for conversation.
+270|To make room means freeing up a space.
+271|You can also use this expression
+272|for time or activities.
+273|For example, I moved a meeting
+274|to make room for a personal appointment.
+275|Me, I'm going to pack a simpler bag.
+276|It'll be a way of keeping
+277|my attention for my friend.|e=coeur
+278|And I'll start with a single shelf.
+279|I know my enthusiasm:
+280|it could order three pieces of furniture to store fewer things.|e=rire
+281|Let's go back to your object from the beginning.
+282|You can say: "I keep… because…
+283|I use it for…"
+284|I keep my chess set because I love its board.|e=coeur
+285|I use it to play with a friend
+286|when we have time.
+287|I keep my little backpack
+288|because it's comfortable.|e=coeur
+289|I use it for walks and short trips.
+290|Your turn.
+291|Say your two sentences out loud.
+292|It can be a very ordinary object.
+293|Now, try:|B={"mode":"compare","bg":"craie","title":"Moins de… pour plus de…","left":{"head":"moins de…","sub":"j'enlève","items":[{"text":"jeux sur la table","at":2},{"text":"vêtements dans ma valise","at":4}]},"right":{"head":"plus de…","sub":"je gagne","items":[{"text":"temps ensemble","at":3},{"text":"liberté","at":5}]}}
+294|"I could have less… to have more…"
+295|I could have fewer games on the table
+296|to have more time together.
+297|I could have fewer clothes in my suitcase
+298|to have more freedom when I travel.|BE
+299|Your answer can also be about choices,
+300|notifications or activities.|i=telephone:les notifications
+301|Take a concrete example.
+302|Even a single sentence will help you
+303|talk about your priorities in French.
+304|Let's go back over five expressions from the conversation.
+305|Listen, then repeat with us.
+306|First, "au cas où" – just in case.
+307|In my suitcase,
+308|I had planned clothes for several possible situations.
+309|You prepare something for a possibility.
+310|New example: I take a copy of the document,|B={"mode":"quiz","bg":"carnet","q":"Je prends une copie, au cas où l'original … difficile à lire.","options":["est","serait","sera"],"answer":1,"reveal":1,"explain":"au cas où + conditionnel"}
+311|in case the original is hard to read.
+312|Let's repeat: au cas où.
+313|When you add a clause with a verb,
+314|you normally use the conditional.|BE
+315|Next, "se passer de".
+316|You could travel without some of your things.
+317|It means doing without something.
+318|Example: for this recipe,|i=repas:la recette
+319|I can do without a blender and use a fork.
+320|Let's repeat: se passer de.
+321|You can start with "I can do without…"
+322|Third expression: "prendre la poussière".
+323|Some game boxes stayed for a long time
+324|on your shelf without being opened.
+325|They were no longer being used.
+326|Example: this dictionary has been gathering dust
+327|since I started using the digital version.
+328|Let's repeat: prendre la poussière.
+329|The expression describes an object that stays forgotten or unused.
+330|Fourth expression: "tenir à quelque chose".
+331|I'm attached to my chess set
+332|and my flatmate is attached to her poster.
+333|It means being attached to it.
+334|Example: I'm attached to this notebook,
+335|because it holds the ideas for my first show.|e=coeur
+336|Let's repeat: tenir à quelque chose.
+337|You can explain the reason with "parce que".
+338|Finally, "peser le pour et le contre".
+339|Before buying the basket,
+340|we looked at the advantages and disadvantages.
+341|Example: before accepting this training course,|i=etudes:la formation
+342|I'm going to weigh the pros and cons
+343|with my manager.
+344|Let's repeat: peser le pour et le contre.
+345|It can be useful for a purchase,
+346|a project or a big change.
+347|Now choose an expression and imagine your own situation.
+348|You can write it down, then say it out loud.
+349|An example linked to your life will be more personal
+350|than a sentence you repeat without thinking.
+351|For your comment,
+352|complete this sentence: "I keep… because…"
+353|We'd love to discover your favourite objects.|e=coeur
+354|You can also write what you'd like to simplify,
+355|and what it would let you enjoy more.
+356|If you enjoyed this conversation,
+357|subscribe to The Cozy French
+358|to keep learning with us.
+359|And to practise, go back over a few lines from the picnic.
+360|You can play both characters.
+361|Thank you for sharing this moment.|e=coeur
+362|Take care and see you very soon!
+363|One last question: for your next trip,|i=voyage:le voyage
+364|is your big suitcase coming with you?|e=question
+365|No, this time it's staying at home.
+366|It's taking a few days off.|e=rire
+367|Very good.
+368|Its train ticket was surely more expensive than yours.
