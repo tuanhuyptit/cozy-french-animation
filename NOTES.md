@@ -14,7 +14,7 @@ Claude: đọc file này trước khi sửa gì trong repo.
 - **Chất liệu**: viền rung kiểu vẽ tay + hạt bút chì (SVG filter `#pencil`) + lớp grain giấy phủ toàn cảnh, để gần với nét minh hoạ cũ của kênh.
 - **Bảng màu**: kem `#f6eddc`, mực `#3a2e28`, cam đất `#b8552a`/`#d9774b`, vàng bơ `#f3c96b`, xanh sage `#8fae8b`.
 - **Font**: Nunito (phụ đề, thẻ), Playfair Display (tiêu đề từ, logo). Bản demo trình duyệt dùng Fraunces, bản video dùng Playfair Display vì HyperFrames có sẵn.
-- 10 bối cảnh: `cafe`, `salon`, `parc`, `cuisine`, `biblio`, `terrasse`, `chalet` (tuyết + lò sưởi), `boulangerie`, `train` (phong cảnh trôi ngoài cửa sổ), `quai` (sông Seine buổi tối). 5 trang phục mỗi người (xem README). Chọn trang phục khác tông với bối cảnh (vd. tránh bếp xanh + đồ xanh).
+- 15 bối cảnh: `cafe`, `salon`, `parc`, `cuisine`, `biblio`, `terrasse`, `chalet` (tuyết + lò sưởi), `boulangerie`, `train` (phong cảnh trôi ngoài cửa sổ), `quai` (sông Seine buổi tối), `marche` (chợ Provence), `plage` (bờ biển), `atelier` (xưởng vẽ áp mái), `lavande` (đồng oải hương hoàng hôn), `bureau` (văn phòng). 10 trang phục mỗi người (xem README). Chọn trang phục khác tông với bối cảnh (vd. tránh bếp xanh + đồ xanh).
 
 ## Highlight từ vựng
 - Phụ đề karaoke: chữ xám nâu → sáng dần đúng lúc được đọc; từ khoá đổi màu cam đất + gạch chân vàng chạy.
@@ -50,6 +50,12 @@ Tự động: skill `skills/cozy-french-episode` (người dùng chỉ gửi voi
 - Bỏ khung "The Cozy French / Mots clés" góc trái; logo kênh (`brand/logo.png`, 320 px) ở góc trên phải, 132 px, nhúng base64 vào video.
 - Màn ôn tập tự chuyển 3 cột + 7 s khi > 8 từ.
 - **Bảng ghim gỗ** (cảnh giải thích): đánh dấu `board` / `boardEnd` trong đoạn phụ đề (xem skill). Bảng phủ bối cảnh, hai nhân vật thu về góc dưới (scale .7) và vẫn nói/cử động; kiểu `word` (giấy + note + polaroid) hoặc `sketch` (bong bóng thoại đóng vai). Mã nằm trong `tools/build.mjs` (khối "explanation board").
+
+## Thêm 2026-11-07 (chiều)
+- 5 bối cảnh mới + 5 trang phục mới mỗi nhân vật (hoa văn `pois`/`check`/`cord` ở `<defs>` ẩn đầu demo; build tự lấy mọi `<pattern>` ở đó).
+- Cử chỉ mới `wave`/`shrug`/`count`/`scratch` + gật đầu `nod`, tự chọn theo lời thoại (danh sách cụm từ `AUTO_ACT`, `NOD_START` trong `tools/build.mjs`), ép bằng `"act"`. Chuyển động nằm ở khối GEST-RUNTIME của demo (dùng chung demo ↔ video).
+- Bảng giải thích có 3 nền (`liege` gỗ, `craie` bảng phấn rơi xuống + bộ lọc `#chalk`, `carnet` sổ tay trượt lên) và 5 kiểu mới (`compare`, `steps`, `conjug`, `mindmap`, `quiz`). Màu theo nền dùng biến CSS (`--paper`, `--ink`, `--acc`…) trên `.bseg.th-<nền>`.
+- Các tập cũ build lại vẫn chạy (mặc định nền `liege`), nhưng cử chỉ ngẫu nhiên sẽ khác lần trước vì có thêm hành động tự động.
 
 ## Trạng thái (2026-11-06)
 - 2026-11-06: thêm 4 bối cảnh (chalet, boulangerie, train, quai), `new-episode.mjs`, `assemble.mjs`, skill `cozy-french-episode`; build cảnh báo khi 2 từ vựng < 3 s. Sau đó: model turbo, `vocab-help.mjs` (IPA + cấp độ CEFR), biểu cảm (8) + bong bóng minh hoạ (24).

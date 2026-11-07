@@ -30,9 +30,12 @@ vm.runInContext(`
   const rep=d=>Math.ceil(TOTAL/d)+1;
   ${src.slice(a, b)}
   this.leaSVG=leaSVG; this.matSVG=matSVG; this.SCENES=SCENES; this.EMO_TYPES=EMO_TYPES; this.ILLUS=ILLUS; this.bubbleSVG=bubbleSVG; this.GEST_ELBOW=GEST_ELBOW;`, sandbox);
+// fabric patterns (stripes, gingham, pois, check, cord…) live in the demo's hidden <defs>
+const PATTERNS = (src.slice(src.indexOf('<svg width="0" height="0"'), src.indexOf('</defs></svg>')).match(/<pattern[\s\S]*?<\/pattern>/g) || []).join('\n      ');
 // emote runtime (EMO_FACE, EMO_ANIM, emoteTL) is copied verbatim into the video script
 const EMO_RUNTIME = src.slice(src.indexOf('/* EMOTE-RUNTIME-START'), src.indexOf('/* EMOTE-RUNTIME-END */'));
 const ILLUS_RUNTIME = src.slice(src.indexOf('/* ILLUS-RUNTIME-START'), src.indexOf('/* ILLUS-RUNTIME-END */'));
+const GEST_RUNTIME = src.slice(src.indexOf('/* GEST-RUNTIME-START'), src.indexOf('/* GEST-RUNTIME-END */'));
 if (!sandbox.SCENES[EP.scene]) throw new Error(`unknown scene "${EP.scene}" (have: ${Object.keys(sandbox.SCENES).join(', ')})`);
 const sceneSVG = sandbox.SCENES[EP.scene].html();
 const leaSVG = sandbox.leaSVG(EP.lea).replace(/<div class="name">[^<]*<\/div>/, '');
@@ -105,33 +108,91 @@ bubs.forEach((b, i) => {
   if (b.t + BUB_D > RECAP_AT) throw new Error(`chunk ${b.ci}: illustration runs into the recap`);
 });
 
-// explanation board (bảng ghim gỗ): chunk.board = { mode: 'word'|'sketch', note?, icon?, title?, word?… } opens a segment, chunk.boardEnd closes it
-//   word   = the expression pinned on paper (taken from the first vocab card inside the segment unless overridden) + sticky note + optional illustration
-//   sketch = role-play: every line of the segment is pinned as a speech bubble (pages of 4)
-// segments less than 1.5 s apart share one board session (characters stay in the corners).
+// explanation board: chunk.board = { mode, bg?, … } opens a segment, chunk.boardEnd closes it. Characters shrink to the bottom corners.
+//   bg (background + entrance): liege = cork/wood pinboard (fades in) · craie = school chalkboard (drops from the top, chalk lettering)
+//                               · carnet = open lined notebook (slides up from below, blue ink + washi tape). Default: EP.boardBg || 'liege'.
+//   word    = the expression pinned on paper (taken from the first vocab card inside the segment unless overridden) + sticky note + optional illustration
+//   sketch  = role-play: every line of the segment is pinned as a speech bubble (pages of 4)
+//   compare = two columns side by side (tu / vous, savoir / connaître): { title, left:{head, sub?, items:[…]}, right:{…} }
+//   steps   = numbered steps appearing one by one (recipe, routine, how-to): { title, items:[…] } (≤ 6)
+//   conjug  = conjugation table: { verb, tense, rows:[["je","parl|e"], …], note? } — text after "|" is the highlighted ending
+//   mindmap = a word in the middle with related words branching out: { word, icon?, items:[…] } (≤ 6)
+//   quiz    = question + 2–4 options, the right one lights up: { q, options:[…], answer: index, reveal?: chunk offset, explain? }
+// Item = "text" (appears automatically, evenly spread over the segment) or { "text": "…", "at": n } (appears with the n-th chunk of the segment, 0 = first).
+// segments less than 1.5 s apart share one board session (characters stay in the corners; the session keeps the first segment's bg).
+const BOARD_BG = ['liege', 'craie', 'carnet'], BOARD_MODES = ['word', 'sketch', 'compare', 'steps', 'conjug', 'mindmap', 'quiz'];
 const segs = []; let curSeg = null;
 chunks.forEach((c, i) => {
   if (c.board) { if (curSeg) throw new Error(`chunk ${i}: board opens before chunk ${curSeg.a}'s board is closed`); curSeg = { ...c.board, a: i }; }
   if (c.boardEnd) { if (!curSeg) throw new Error(`chunk ${i}: boardEnd without board`); curSeg.b = i; segs.push(curSeg); curSeg = null; }
 });
 if (curSeg) throw new Error(`chunk ${curSeg.a}: board never closed (add "boardEnd": true)`);
+const itemText = it => typeof it === 'string' ? it : (it && it.text) || '';
 segs.forEach(sg => {
   sg.s = chunks[sg.a].show; sg.e = chunks[sg.b].hide;
-  if (!['word', 'sketch'].includes(sg.mode)) throw new Error(`chunk ${sg.a}: board.mode must be word or sketch`);
-  if (sg.icon && !sandbox.ILLUS[sg.icon]) throw new Error(`chunk ${sg.a}: unknown board icon "${sg.icon}"`);
+  const where = `chunk ${sg.a}`;
+  if (!BOARD_MODES.includes(sg.mode)) throw new Error(`${where}: board.mode must be one of ${BOARD_MODES.join(', ')}`);
+  sg.bg = sg.bg || EP.boardBg || 'liege';
+  if (!BOARD_BG.includes(sg.bg)) throw new Error(`${where}: board.bg must be one of ${BOARD_BG.join(', ')}`);
+  if (sg.icon && !sandbox.ILLUS[sg.icon]) throw new Error(`${where}: unknown board icon "${sg.icon}"`);
+  const chunkT = n => { if (!(n >= 0 && sg.a + n <= sg.b)) throw new Error(`${where}: "at": ${n} is outside the segment (0–${sg.b - sg.a})`); return chunks[sg.a + n].show + 0.1; };
+  // times for a list of items: explicit "at" wins, the others are spread evenly between t0 and t1
+  sg.times = (items, t0, t1) => items.map((it, i) => it && typeof it === 'object' && it.at !== undefined ? chunkT(it.at)
+    : items.length === 1 ? t0 : t0 + i * (Math.max(t0, t1) - t0) / (items.length - 1));
+  const need = (k, test, msg) => { if (!test(sg[k])) throw new Error(`${where}: ${sg.mode} board needs ${msg}`); };
   if (sg.mode === 'word') {
     const vi = cards.findIndex(cd => cd.s >= sg.s - 0.1 && cd.s <= sg.e);
     const v = vi >= 0 ? EP.vocab[vi] : {};
     for (const k of ['tag', 'word', 'ipa', 'mean', 'ex', 'exEn']) if (sg[k] === undefined) sg[k] = v[k] || '';
-    if (!sg.word) throw new Error(`chunk ${sg.a}: word board needs a vocab group inside it or board.word`);
-  } else sg.lines = chunks.slice(sg.a, sg.b + 1).reduce((acc, c) => {   // one bubble per sentence: glue a same-speaker chunk that continues an unfinished one
+    if (!sg.word) throw new Error(`${where}: word board needs a vocab group inside it or board.word`);
+  } else if (sg.mode === 'sketch') sg.lines = chunks.slice(sg.a, sg.b + 1).reduce((acc, c) => {   // one bubble per sentence: glue a same-speaker chunk that continues an unfinished one
     const text = c.toks.map(t => t.t).join(' '), l = acc[acc.length - 1];
     if (l && l.who === c.who && !/[.?!…"»]$/.test(l.text)) l.text += ' ' + text; else acc.push({ who: c.who, text, s: c.show });
     return acc;
   }, []);
+  else if (sg.mode === 'compare') { need('left', x => x && x.head, 'left.head'); need('right', x => x && x.head, 'right.head'); }
+  else if (sg.mode === 'steps') { need('items', x => Array.isArray(x) && x.length >= 2 && x.length <= 6, '2–6 items'); }
+  else if (sg.mode === 'conjug') { need('verb', Boolean, 'verb'); need('rows', x => Array.isArray(x) && x.length >= 2 && x.length <= 8 && x.every(r => Array.isArray(r) && (r.length === 2 || r.length === 3)), 'rows: [["je","parl|e"], …] (2–8)'); }
+  else if (sg.mode === 'mindmap') { need('word', Boolean, 'word'); need('items', x => Array.isArray(x) && x.length >= 2 && x.length <= 6, '2–6 items'); }
+  else if (sg.mode === 'quiz') {
+    need('q', Boolean, 'q (the question)'); need('options', x => Array.isArray(x) && x.length >= 2 && x.length <= 4, '2–4 options');
+    need('answer', x => Number.isInteger(x) && x >= 0 && x < sg.options.length, 'answer (index of the right option, 0 = first)');
+  }
 });
 const sessions = [];
-segs.forEach(sg => { const l = sessions[sessions.length - 1]; if (l && sg.s - l.e < 1.5) { l.e = sg.e; l.segs.push(sg); } else sessions.push({ s: sg.s, e: sg.e, segs: [sg] }); });
+segs.forEach(sg => { const l = sessions[sessions.length - 1]; if (l && sg.s - l.e < 1.5) { l.e = sg.e; l.segs.push(sg); } else sessions.push({ s: sg.s, e: sg.e, bg: sg.bg, segs: [sg] }); });
+// when each segment's content starts (after the background has come in) + what appears when
+const BG_IN_D = { liege: 0.15, craie: 0.6, carnet: 0.55 };
+sessions.forEach(ss => ss.segs.forEach((sg, j) => {
+  sg.t0 = j ? sg.s : ss.s + BG_IN_D[ss.bg];
+  const t0 = sg.t0, end = Math.max(t0 + 1.5, sg.e - 1.4), rv = sg.rv = [];   // rv: [element suffix, time, effect]
+  if (sg.mode === 'compare') {
+    rv.push(['t', t0, 'drop'], ['L', t0 + 0.35, 'pop'], ['vs', t0 + 0.6, 'stamp'], ['R', t0 + 0.8, 'pop']);
+    const L = sg.left.items || [], R = sg.right.items || [], seq = [];
+    for (let i = 0; i < Math.max(L.length, R.length); i++) { if (L[i] !== undefined) seq.push(['L' + i, L[i]]); if (R[i] !== undefined) seq.push(['R' + i, R[i]]); }
+    sg.times(seq.map(x => x[1]), t0 + 1.4, end).forEach((t, i) => rv.push([seq[i][0], t, 'slide']));
+  } else if (sg.mode === 'steps') {
+    rv.push(['t', t0, 'drop']);
+    sg.times(sg.items, t0 + 0.7, end).forEach((t, i) => { rv.push(['i' + i, t, 'slide']); if (i) rv.push(['i' + (i - 1), t, 'dim']); });
+  } else if (sg.mode === 'conjug') {
+    rv.push(['h', t0, 'drop']);
+    const ts = sg.times(sg.rows.map(r => r[2] !== undefined ? { at: r[2] } : ''), t0 + 0.7, Math.min(end, t0 + 0.7 + 0.45 * sg.rows.length));
+    ts.forEach((t, i) => rv.push(['c' + i, t, 'pop']));
+    if (sg.note) rv.push(['n', Math.max(...ts) + 0.8, 'pop']);
+  } else if (sg.mode === 'mindmap') {
+    rv.push(['c', t0, 'pop']);
+    sg.times(sg.items, t0 + 0.8, end).forEach((t, i) => rv.push(['l' + i, t, 'draw'], ['n' + i, t + 0.3, 'pop']));
+  } else if (sg.mode === 'quiz') {
+    rv.push(['q', t0, 'drop']);
+    sg.options.forEach((o, i) => rv.push(['o' + i, t0 + 0.6 + i * 0.3, 'pop']));
+    const minR = t0 + 0.6 + sg.options.length * 0.3 + 1;
+    const R = sg.reveal !== undefined ? Math.max(minR, sg.times([{ at: sg.reveal }])[0]) : Math.max(minR, chunks[sg.b].show + 0.2);
+    if (R > sg.e - 0.5) console.warn(`warning: chunk ${sg.a}: quiz answer shows only ${(sg.e - R).toFixed(1)} s before the board closes — add "reveal" or lengthen the segment`);
+    sg.options.forEach((o, i) => rv.push(i === sg.answer ? ['ok' + i, R, 'fade'] : ['o' + i, R, 'dim']));
+    rv.push(['tick', R + 0.1, 'stamp']);
+    if (sg.explain) rv.push(['x', R + 0.6, 'pop']);
+  }
+}));
 cards.forEach(c => { c.hidden = sessions.some(ss => c.s >= ss.s - 0.3 && c.s <= ss.e + 0.3); });
 bubs.forEach(b => { const ss = sessions.find(ss => b.t < ss.e + 0.6 && b.t + BUB_D > ss.s - 0.4); if (ss) throw new Error(`chunk ${b.ci}: illustration "${b.type}" overlaps the board at ${ss.s.toFixed(1)}–${ss.e.toFixed(1)}s — move or drop it`); });
 if (sessions.length && sessions[sessions.length - 1].e + 0.8 > RECAP_AT) throw new Error('board runs into the recap');
@@ -164,40 +225,133 @@ const cardsHTML = cards.map((c, i) => c.hidden ? '' : `
       <div class="card"><span class="tag">${esc(c.tag)}</span><div class="word">${esc(c.word)}</div><div class="ipa">${esc(c.ipa)}</div>
       <div class="mean">${esc(c.mean)}</div><div class="ex">${esc(c.ex)}<i>${esc(c.exEn)}</i></div></div>
     </div>`).join('');
-const boardRnd = mulberry32(11);
-const boardBG = `<svg viewBox="0 0 1920 1080" width="1920" height="1080" style="position:absolute;inset:0">
+// board backgrounds (only the ones this episode uses are emitted)
+const boardRnd = mulberry32(11), BR = (a, b, d = 0) => (a + boardRnd() * (b - a)).toFixed(d);
+const BOARD_SVG = {
+  liege: () => `
   <rect width="1920" height="1080" fill="#7a4c33"/><rect x="0" y="0" width="1920" height="1080" fill="none" stroke="#5e3825" stroke-width="18"/>
   <rect x="44" y="34" width="1832" height="1012" rx="12" fill="#c9965f"/>
-  <g fill="#a87542" opacity=".55">${Array.from({ length: 520 }, () => `<ellipse cx="${(60 + boardRnd() * 1800).toFixed(0)}" cy="${(50 + boardRnd() * 980).toFixed(0)}" rx="${(1.5 + boardRnd() * 3).toFixed(1)}" ry="${(1 + boardRnd() * 2).toFixed(1)}"/>`).join('')}</g>
-  <g fill="#e2b77f" opacity=".5">${Array.from({ length: 260 }, () => `<circle cx="${(60 + boardRnd() * 1800).toFixed(0)}" cy="${(50 + boardRnd() * 980).toFixed(0)}" r="${(1 + boardRnd() * 2).toFixed(1)}"/>`).join('')}</g>
-  <rect x="44" y="34" width="1832" height="1012" rx="12" fill="none" stroke="#00000030" stroke-width="10"/></svg>`;
-const NAME = { lea: 'Léa', mat: 'Mathieu' };
-const boardHTML = segs.map((sg, k) => sg.mode === 'word' ? `
-      <div class="bseg" id="bseg${k}">
-        <div class="bpaper"><i class="pin"></i><span class="tag">${esc(sg.tag)}</span><div class="bword">${esc(sg.word)}</div><div class="bipa">${esc(sg.ipa)}</div>
+  <g fill="#a87542" opacity=".55">${Array.from({ length: 520 }, () => `<ellipse cx="${BR(60, 1860)}" cy="${BR(50, 1030)}" rx="${BR(1.5, 4.5, 1)}" ry="${BR(1, 3, 1)}"/>`).join('')}</g>
+  <g fill="#e2b77f" opacity=".5">${Array.from({ length: 260 }, () => `<circle cx="${BR(60, 1860)}" cy="${BR(50, 1030)}" r="${BR(1, 3, 1)}"/>`).join('')}</g>
+  <rect x="44" y="34" width="1832" height="1012" rx="12" fill="none" stroke="#00000030" stroke-width="10"/>`,
+  craie: () => `
+  <rect width="1920" height="1080" fill="#e9dcc3"/>
+  <rect x="26" y="20" width="1868" height="1040" rx="14" fill="#8a5a3c"/><rect x="26" y="20" width="1868" height="1040" rx="14" fill="none" stroke="#6e4630" stroke-width="6"/>
+  <rect x="54" y="46" width="1812" height="988" rx="6" fill="#2f4a3e"/>
+  <g fill="#ffffff">${Array.from({ length: 34 }, () => `<ellipse cx="${BR(120, 1800)}" cy="${BR(90, 990)}" rx="${BR(80, 260)}" ry="${BR(20, 70)}" opacity="${BR(0.012, 0.03, 3)}" transform="rotate(${BR(-12, 12)} 960 540)"/>`).join('')}</g>
+  <g stroke="#ffffff" stroke-width="3" fill="none" opacity=".07" stroke-linecap="round">${Array.from({ length: 10 }, () => { const x = +BR(120, 1600), y = +BR(110, 980); return `<path d="M${x} ${y} q40 -18 80 0 t80 0 t80 0"/>`; }).join('')}</g>
+  <rect x="54" y="46" width="1812" height="988" rx="6" fill="none" stroke="#00000040" stroke-width="10"/>
+  <rect x="300" y="1022" width="1320" height="22" rx="6" fill="#6e4630"/><rect x="760" y="1012" width="70" height="14" rx="6" fill="#f4f1e8"/><rect x="860" y="1014" width="44" height="12" rx="5" fill="#f3c96b"/><rect x="1100" y="1008" width="110" height="20" rx="4" fill="#b98d6a"/><rect x="1104" y="1002" width="102" height="8" rx="3" fill="#3a2e28"/>`,
+  carnet: () => `
+  <rect width="1920" height="1080" fill="#b98d6a"/>${Array.from({ length: 14 }, (_, i) => `<path d="M0 ${40 + i * 80} C600 ${30 + i * 80} 1300 ${55 + i * 80} 1920 ${40 + i * 80}" stroke="#a57a59" stroke-width="4" fill="none"/>`).join('')}
+  <rect x="96" y="40" width="1740" height="1030" rx="10" fill="#00000026" transform="translate(10 12)"/>
+  <rect x="96" y="40" width="1740" height="1030" rx="10" fill="#fffdf6"/>
+  <g stroke="#9cb9d8" stroke-width="2.5">${Array.from({ length: 17 }, (_, i) => `<line x1="96" y1="${150 + i * 54}" x2="1836" y2="${150 + i * 54}"/>`).join('')}</g>
+  <line x1="300" y1="40" x2="300" y2="1070" stroke="#e08a8a" stroke-width="3"/>
+  <g>${Array.from({ length: 30 }, (_, i) => `<circle cx="${140 + i * 57}" cy="70" r="11" fill="#b98d6a"/><path d="M${140 + i * 57} 70 v-48" stroke="#8a8f96" stroke-width="7" stroke-linecap="round"/>`).join('')}</g>
+  <circle cx="1560" cy="740" r="70" fill="none" stroke="#b98d6a" stroke-width="10" opacity=".22"/>`,
+};
+const usedBG = [...new Set(sessions.map(ss => ss.bg))];
+const boardBG = usedBG.map(bg => `<div class="bbg" id="bbg-${bg}"><svg viewBox="0 0 1920 1080" width="1920" height="1080" style="position:absolute;inset:0">${BOARD_SVG[bg]()}</svg></div>`).join('');
+const NAME = { lea: 'Léa', mat: 'Mathieu' }, LETTERS = 'ABCD';
+const ending = s => { const [a, b] = String(s).split('|'); return esc(a) + (b !== undefined ? `<em>${esc(b)}</em>` : ''); };
+const MODE_HTML = {
+  word: (sg, k) => `
+        <div class="bpaper pc"><i class="pin"></i><span class="tag">${esc(sg.tag)}</span><div class="bword">${esc(sg.word)}</div><div class="bipa">${esc(sg.ipa)}</div>
           <div class="bmean">${esc(sg.mean)}</div>${sg.ex ? `<div class="bex">${esc(sg.ex)}<i>${esc(sg.exEn)}</i></div>` : ''}</div>
-        ${sg.icon ? `<div class="bpola"><i class="pin y"></i><svg viewBox="0 0 300 200" width="360" height="240"><g filter="url(#pencil)">${sandbox.ILLUS[sg.icon].svg}</g></svg></div>` : ''}
-        ${sg.note ? `<div class="bnote${sg.icon ? '' : ' solo'}"><i class="pin"></i>${esc(sg.note)}</div>` : ''}
-      </div>` : `
-      <div class="bseg" id="bseg${k}">
-        <div class="btitle"><i class="pin"></i>${esc(sg.title || 'En situation')}</div>
-        ${sg.lines.map((l, j) => `<div class="bl ${l.who}" id="bseg${k}l${j}" style="top:${196 + (j % 4) * 168}px"><i class="pin"></i><b>${NAME[l.who]}</b>${esc(l.text)}</div>`).join('')}
+        ${sg.icon ? `<div class="bpola pc"><i class="pin y"></i><svg viewBox="0 0 300 200" width="360" height="240"><g filter="url(#pencil)">${sandbox.ILLUS[sg.icon].svg}</g></svg></div>` : ''}
+        ${sg.note ? `<div class="bnote pc${sg.icon ? '' : ' solo'}"><i class="pin"></i>${esc(sg.note)}</div>` : ''}`,
+  sketch: (sg, k) => `
+        <div class="btitle pc"><i class="pin"></i>${esc(sg.title || 'En situation')}</div>
+        ${sg.lines.map((l, j) => `<div class="bl pc ${l.who}" id="bseg${k}l${j}" style="top:${196 + (j % 4) * 168}px"><i class="pin"></i><b>${NAME[l.who]}</b>${esc(l.text)}</div>`).join('')}`,
+  compare: (sg, k) => {
+    const col = (side, c) => `<div class="bcol ${side}"><div class="bch pc rv" id="bs${k}_${side}"><i class="pin"></i><div class="bchh">${esc(c.head)}</div>${c.sub ? `<div class="bchs">${esc(c.sub)}</div>` : ''}</div>
+          ${(c.items || []).map((it, i) => `<div class="bci rv" id="bs${k}_${side}${i}">${esc(itemText(it))}</div>`).join('')}</div>`;
+    return `
+        ${sg.title ? `<div class="btitle pc rv" id="bs${k}_t"><i class="pin"></i>${esc(sg.title)}</div>` : ''}
+        ${col('L', sg.left)}<div class="bvs rv" id="bs${k}_vs">${esc(sg.vs || 'VS')}</div>${col('R', sg.right)}`;
+  },
+  steps: (sg, k) => `
+        ${sg.title ? `<div class="btitle pc rv" id="bs${k}_t"><i class="pin"></i>${esc(sg.title)}</div>` : ''}
+        <div class="bsteps${sg.items.length > 4 ? ' many' : ''}">${sg.items.map((it, i) => `<div class="bstep pc rv" id="bs${k}_i${i}"><b>${i + 1}</b><span>${esc(itemText(it))}</span></div>`).join('')}</div>`,
+  conjug: (sg, k) => {
+    const half = Math.ceil(sg.rows.length / 2);
+    return `
+        <div class="bcjh pc rv" id="bs${k}_h"><i class="pin"></i><span class="bcjv">${esc(sg.verb)}</span>${sg.tense ? `<span class="tag">${esc(sg.tense)}</span>` : ''}</div>
+        <div class="bcjg" style="grid-template-rows:repeat(${half},auto)">${sg.rows.map((r, i) => `<div class="bcjc pc rv" id="bs${k}_c${i}"><span class="bcjp">${esc(r[0])}</span> ${ending(r[1])}</div>`).join('')}</div>
+        ${sg.note ? `<div class="bnote pc bcjn rv" id="bs${k}_n"><i class="pin"></i>${esc(sg.note)}</div>` : ''}`;
+  },
+  mindmap: (sg, k) => {
+    const n = sg.items.length, CX = 960, CY = 430;
+    const pos = sg.items.map((_, i) => { const a = (-90 + 180 / n + i * 360 / n) * Math.PI / 180; return [Math.round(CX + 480 * Math.cos(a)), Math.round(CY + 255 * Math.sin(a))]; });
+    return `
+        <svg class="bmml" viewBox="0 0 1920 1080" width="1920" height="1080">${pos.map(([x, y], i) => `<line class="rv" id="bs${k}_l${i}" x1="${CX}" y1="${CY}" x2="${x}" y2="${y}" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/>`).join('')}</svg>
+        <div class="bmmc pc rv" id="bs${k}_c">${sg.icon ? `<svg viewBox="0 0 300 200" width="150" height="100"><g filter="url(#pencil)">${sandbox.ILLUS[sg.icon].svg}</g></svg>` : ''}<div>${esc(sg.word)}</div></div>
+        ${pos.map(([x, y], i) => `<div class="bmmn rv" id="bs${k}_n${i}" style="left:${x}px;top:${y}px"><div class="pc">${esc(itemText(sg.items[i]))}</div></div>`).join('')}`;
+  },
+  quiz: (sg, k) => `
+        <div class="bq pc rv" id="bs${k}_q"><i class="pin"></i><b>?</b>${esc(sg.q)}</div>
+        <div class="bopts${sg.options.length > 2 ? '' : ' two'}">${sg.options.map((o, i) => `<div class="bo pc rv" id="bs${k}_o${i}"><i class="okl rv" id="bs${k}_ok${i}"></i><b class="lt">${LETTERS[i]}</b><span>${esc(itemText(o))}</span>${i === sg.answer ? `<span class="btick rv" id="bs${k}_tick">✓</span>` : ''}</div>`).join('')}</div>
+        ${sg.explain ? `<div class="bnote pc bqx rv" id="bs${k}_x"><i class="pin"></i>${esc(sg.explain)}</div>` : ''}`,
+};
+const boardHTML = segs.map((sg, k) => `
+      <div class="bseg th-${(sessions.find(ss => ss.segs.includes(sg)) || sg).bg} m-${sg.mode}" id="bseg${k}">${MODE_HTML[sg.mode](sg, k)}
       </div>`).join('');
 const bubsHTML = bubs.map((b, i) => `
     <div id="bub${i}" class="clip bubWrap" data-start="${f(b.t)}" data-duration="${f(BUB_D)}" data-track-index="7">${sandbox.bubbleSVG(b.type, esc(b.label), b.who)}</div>`).join('');
 // channel badge (top right): repo brand/logo.png, embedded so the sub-composition needs no asset path
 const LOGO = 'data:image/png;base64,' + fs.readFileSync(path.join(ROOT, '..', 'brand', 'logo.png')).toString('base64');
-// hand gestures while talking. The free (outer) arm takes one of 5 poses drawn in demo-animation-style.html (ARM_UP):
+// hand gestures while talking. The free (outer) arm takes one of 9 poses drawn in demo-animation-style.html (ARM_UP),
+// animated by gestTL (GEST-RUNTIME block of the demo, copied verbatim into the video):
 //   beat (fist, ticks on each word) · palm (palm up, slow bob) · up (open hand, wave) · point (towards the other person) · think (hand to chin)
-// picked from what is being said: "tu/toi/ton…" → more point, a question → more think; never the same pose twice in a row,
-// random length 1.6–3 s, random rests (and sometimes no gesture at all), always starting on a word.
-const gR = mulberry32(21), gests = [], lastPose = {};
+//   wave (hello / goodbye) · shrug (« je sais pas », « bof ») · count (fingers 1→2→3: « d'abord », « deux choses ») · scratch (scratches head: « euh », « comment dire »)
+// 1) actions triggered by what is said (or forced with chunk.act) are placed first, on the trigger word;
+// 2) the random talking gestures fill the rest: "tu/toi/ton…" → more point, a question → more think; never the same pose twice in a row,
+//    random length 1.6–3 s, random rests (and sometimes no gesture at all), always starting on a word.
+// Head nods (nodTL): the speaker nods on « oui / exactement / voilà… », the listener nods now and then (or on chunk.act = "nod").
+const POSES = ['beat', 'palm', 'up', 'point', 'think', 'wave', 'shrug', 'count', 'scratch'];
+const ACT_OK = [...POSES, 'nod', 'none'];
+const flat = s => s.toLowerCase().replace(/[’]/g, "'").replace(/[^a-zà-ÿœæç'\- ]/g, ' ').replace(/\s+/g, ' ').trim();
+const AUTO_ACT = {
+  wave: ['bonjour', 'salut', 'coucou', 'bonsoir', 'au revoir', 'à bientôt', 'à demain', 'à la prochaine', 'bienvenue', 'ciao', 'bisous', 'bonne soirée', 'bonne journée', 'bonne semaine'],
+  count: ["d'abord", 'premièrement', 'deuxièmement', 'troisièmement', 'en premier', 'premier point', 'deux choses', 'trois choses', 'plusieurs choses', 'primo'],
+  shrug: ['je sais pas', 'je ne sais pas', 'sais pas trop', "j'en sais rien", 'aucune idée', 'bof', 'ça dépend', 'peut-être', 'qui sait', "je m'en fiche", 'pourquoi pas'],
+  scratch: ['euh', 'hmm', 'bah', 'comment dire', 'je me demande', 'bonne question', "j'hésite", 'voyons voir'],
+};
+const AUTO_GAP = { wave: 20, count: 30, shrug: 30, scratch: 30 }, ACT_D = { wave: 2.0, shrug: 1.8, count: 2.8, scratch: 1.9 };
+const NOD_START = ['oui', 'exactement', 'voilà', 'tout à fait', "d'accord", 'carrément', 'absolument', 'bien sûr', "c'est vrai", 'effectivement', 'évidemment', 'ah oui', 'mais oui', 'ouais'];
+function findPhrase(c, list) {                 // → index of the token where the first listed phrase starts
+  let str = ' '; const starts = [];
+  c.toks.forEach((t, i) => { starts.push([str.length, i]); str += flat(t.t) + ' '; });
+  for (const p of list) { const k = str.indexOf(' ' + p + ' '); if (k >= 0) { let ti = 0; for (const [o, i] of starts) if (o <= k + 1) ti = i; return ti; } }
+  return -1;
+}
+const turnOf = (who, t) => turns.find(x => x.who === who && x.s <= t + 0.01 && x.e >= t - 0.01);
+const gR = mulberry32(21), gests = [], lastPose = {}, lastAuto = {};
+chunks.forEach((c, ci) => {
+  if (c.act !== undefined && !ACT_OK.includes(c.act)) throw new Error(`chunk ${ci}: unknown act "${c.act}" (have: ${ACT_OK.join(', ')})`);
+  if (c.act === 'none' || c.act === 'nod') return;
+  let pose = c.act, ti = 0;
+  if (!pose) for (const p of Object.keys(AUTO_ACT)) { const i = findPhrase(c, AUTO_ACT[p]); if (i >= 0) { pose = p; ti = i; break; } }
+  if (!pose) return;
+  const t0 = c.toks[ti].s, key = c.who + pose, tn = turnOf(c.who, t0);
+  if (!c.act && lastAuto[key] !== undefined && t0 - lastAuto[key] < AUTO_GAP[pose]) return;
+  const d = Math.min(ACT_D[pose] || 2.2, (tn ? tn.e : c.e) - t0 + 0.4);
+  if (d < (c.act ? 1.0 : 1.2)) return;
+  if (gests.some(g => g.who === c.who && t0 < g.t + g.d + 0.3 && t0 + d > g.t - 0.3)) return;
+  const tw = words.filter(w => w.who === c.who && w.s > t0 + 0.35 && w.s < t0 + d - 0.4);
+  gests.push({ who: c.who, pose, t: t0, d, b: tw.map(w => +w.s.toFixed(3)), auto: true });
+  lastAuto[key] = t0;
+});
+const fixed = gests.slice();
 turns.forEach(t => {
   if (t.e - t.s < 2.2) return;
   const tw = words.filter(w => w.who === t.who && w.s >= t.s && w.s <= t.e);
   let next = t.s + 0.2 + gR() * 0.8;
   tw.forEach(w => {
     if (w.s < next) return;
+    const blk = fixed.find(g => g.who === t.who && w.s < g.t + g.d + 1.5 && w.s + 3.2 > g.t);
+    if (blk) { next = blk.t + blk.d + 1.5; return; }
     if (gR() < 0.25) { next = w.s + 1.5; return; }
     const d = Math.min(1.6 + gR() * 1.4, t.e - w.s - 0.2); if (d < 1.3) return;
     const win = tw.filter(x => x.s >= w.s && x.s < w.s + d), txt = ' ' + win.map(x => x.t.toLowerCase()).join(' ') + ' ';
@@ -212,6 +366,28 @@ turns.forEach(t => {
     next = w.s + d + 2.2 + gR() * 3;
   });
 });
+gests.sort((x, y) => x.t - y.t);
+
+// head nods
+const nods = [], nR = mulberry32(55);
+const addNod = (who, t) => { if (t + 0.8 < RECAP_AT && !nods.some(n => n.who === who && Math.abs(n.t - t) < 4)) nods.push({ who, t: +t.toFixed(3) }); };
+chunks.forEach((c, i) => {
+  const other = c.who === 'lea' ? 'mat' : 'lea';
+  if (c.act === 'nod') addNod(other, c.s + 0.3);
+  else if (findPhrase(c, NOD_START) === 0) addNod(c.who, c.s + 0.02);
+});
+['lea', 'mat'].forEach(who => {
+  let next = 6 + nR() * 10;
+  turns.filter(t => t.who !== who && t.e - t.s >= 5).forEach(t => {
+    words.filter(w => w.who === t.who && w.s > t.s + 1.2 && w.s < t.e - 1).forEach(w => {
+      if (w.s < next) return;
+      if (sips.some(sp => sp.who === who && w.s < sp.t + 2.6 && w.s + 1 > sp.t - 0.3)) return;
+      if (emotes.some(e => e.who === who && w.s < e.t + EMO_D && w.s + 1 > e.t)) return;
+      addNod(who, w.s); next = w.s + 14 + nR() * 14;
+    });
+  });
+});
+nods.sort((x, y) => x.t - y.t);
 
 const talk = `<template>
   <style>
@@ -241,24 +417,79 @@ const talk = `<template>
     .card .mean{font:800 34px Nunito;color:#3a2e28;margin-top:14px}
     .card .ex{font:600 28px/1.35 Nunito;color:#3a2e28;margin-top:14px;padding-top:14px;border-top:3px dashed #e3d4c1}
     .card .ex i{color:#6f5f52;display:block;font-style:normal;margin-top:4px}
-    #board{position:absolute;inset:0;opacity:0}
-    .bseg{position:absolute;inset:0;opacity:0}
-    .pin{position:absolute;left:50%;top:-14px;width:26px;height:26px;margin-left:-13px;border-radius:50%;background:#c8463a;box-shadow:0 4px 0 #0003,inset -4px -4px 0 #0002}
+    #board{position:absolute;inset:0}
+    .bbg{position:absolute;inset:0;opacity:0}
+    .bseg{position:absolute;inset:0;opacity:0;color:var(--ink);
+      --paper:#fffaf0;--ink:#3a2e28;--acc:#b8552a;--acc2:#3f6b8a;--mut:#6f5f52;--line:#e3d4c1;--tag:#f3c96b;--note:#f3c96b;--lea:#fde3cf;--mat:#dbe8f3;--ok:#e1f0d6;--okc:#4f8a4a;--sh:0 14px 0 #0000002a;--bc:#3a2e28}
+    .bseg.th-craie{--paper:#ffffff0d;--ink:#f4f1e8;--acc:#f6d77a;--acc2:#a9d3ea;--mut:#c9d8cf;--line:#ffffff55;--tag:#ffffff22;--note:#ffffff12;--lea:#ffffff10;--mat:#ffffff10;--ok:#9fd38a33;--okc:#c3eeb0;--sh:none;--bc:#f4f1e8bb;filter:url(#chalk)}
+    .bseg.th-carnet{--paper:#fffdf8;--ink:#26324f;--acc:#c8443a;--acc2:#2f5f9e;--mut:#5b6b8c;--line:#26324f33;--tag:#f7e26b;--note:#f7e26b;--lea:#ffe6d6;--mat:#dfeaf7;--ok:#e3f2d8;--okc:#3f7f3a;--sh:0 6px 0 #26324f1f;--bc:#26324f}
+    .pc{background:var(--paper);box-shadow:var(--sh)}
+    .th-craie .pc{border:3px dashed var(--bc);border-radius:18px}
+    .th-carnet .pc{border:3px solid var(--bc);border-radius:10px}
+    .rv{opacity:0} .bmml line.rv{opacity:1}
+    .pin{position:absolute;left:50%;top:-14px;width:26px;height:26px;margin-left:-13px;border-radius:50%;background:#c8463a;box-shadow:0 4px 0 #0003,inset -4px -4px 0 #0002;z-index:2}
     .pin.y{background:#e9b44c}
-    .bpaper{position:absolute;left:350px;top:96px;width:700px;background:#fffaf0;padding:34px 44px 38px;box-shadow:0 14px 0 #0000002a;transform:rotate(-1.5deg)}
-    .bpaper .tag{display:inline-block;font:800 26px Nunito;letter-spacing:.08em;text-transform:uppercase;background:#f3c96b;color:#3a2e28;padding:4px 14px;border-radius:20px}
-    .bword{font:700 76px/1.1 'Playfair Display',serif;color:#b8552a;margin:14px 0 6px}
-    .bipa{font:600 32px 'Noto Sans',Nunito,sans-serif;color:#6f5f52}
-    .bmean{font:800 40px Nunito;color:#3a2e28;margin-top:18px}
-    .bex{font:600 32px/1.35 Nunito;color:#3a2e28;margin-top:20px;padding-top:18px;border-top:3px dashed #e3d4c1}
-    .bex i{display:block;font-style:normal;color:#6f5f52;margin-top:6px}
-    .bpola{position:absolute;left:1130px;top:80px;background:#fffaf0;padding:22px 22px 54px;box-shadow:0 12px 0 #0000002a;transform:rotate(3deg)}
-    .bnote{position:absolute;left:1150px;top:470px;width:360px;min-height:200px;background:#f3c96b;padding:40px 30px 30px;font:800 36px/1.3 Nunito;color:#3a2e28;box-shadow:0 12px 0 #0000002a;transform:rotate(-3deg)}
+    .th-craie .pin{display:none}
+    .th-carnet .pin{width:120px;height:32px;margin-left:-60px;top:-18px;border-radius:3px;background:#f3c96bb8;box-shadow:none;transform:rotate(-3deg)}
+    .th-carnet .pin.y{background:#a9d3eab8}
+    .tag{display:inline-block;font:800 26px Nunito;letter-spacing:.08em;text-transform:uppercase;background:var(--tag);color:var(--ink);padding:4px 14px;border-radius:20px}
+    .bpaper{position:absolute;left:350px;top:96px;width:700px;padding:34px 44px 38px;transform:rotate(-1.5deg)}
+    .bword{font:700 76px/1.1 'Playfair Display',serif;color:var(--acc);margin:14px 0 6px}
+    .bipa{font:600 32px 'Noto Sans',Nunito,sans-serif;color:var(--mut)}
+    .bmean{font:800 40px Nunito;color:var(--ink);margin-top:18px}
+    .bex{font:600 32px/1.35 Nunito;color:var(--ink);margin-top:20px;padding-top:18px;border-top:3px dashed var(--line)}
+    .bex i{display:block;font-style:normal;color:var(--mut);margin-top:6px}
+    .bpola{position:absolute;left:1130px;top:80px;padding:22px 22px 54px;transform:rotate(3deg)}
+    .th-craie .bpola{background:#fffaf0;filter:none}
+    .bnote{position:absolute;left:1150px;top:470px;width:360px;min-height:200px;background:var(--note);padding:40px 30px 30px;font:800 36px/1.3 Nunito;color:var(--ink);transform:rotate(-3deg)}
     .bnote.solo{top:200px}
-    .btitle{position:absolute;left:50%;top:70px;transform:translateX(-50%) rotate(-1deg);background:#fffaf0;padding:16px 44px;font:700 46px 'Playfair Display',serif;color:#b8552a;box-shadow:0 10px 0 #0000002a;white-space:nowrap}
-    .bl{position:absolute;max-width:900px;padding:16px 32px 18px;border-radius:26px;border:4px solid #3a2e28;font:800 36px/1.25 Nunito;color:#3a2e28;box-shadow:0 10px 0 #00000026;opacity:0}
-    .bl b{display:block;font:800 22px Nunito;letter-spacing:.06em;text-transform:uppercase;color:#8a6a55;margin-bottom:2px}
-    .bl.lea{left:360px;background:#fde3cf} .bl.mat{right:360px;background:#dbe8f3}
+    .btitle{position:absolute;left:50%;top:70px;transform:translateX(-50%) rotate(-1deg);padding:16px 44px;font:700 46px 'Playfair Display',serif;color:var(--acc);white-space:nowrap}
+    .bl{position:absolute;max-width:900px;padding:16px 32px 18px;border-radius:26px;border:4px solid var(--bc);font:800 36px/1.25 Nunito;color:var(--ink);opacity:0}
+    .bl b{display:block;font:800 22px Nunito;letter-spacing:.06em;text-transform:uppercase;color:var(--mut);margin-bottom:2px}
+    .bl.lea{left:360px;background:var(--lea)} .bl.mat{right:360px;background:var(--mat)}
+    /* compare */
+    .bcol{position:absolute;top:200px;width:540px;display:flex;flex-direction:column;gap:16px}
+    .bcol.L{left:370px} .bcol.R{left:1010px}
+    .bch{position:relative;padding:22px 30px 18px;text-align:center;border-radius:18px}
+    .bchh{font:700 64px/1.05 'Playfair Display',serif;color:var(--acc)} .bcol.R .bchh{color:var(--acc2)}
+    .bchs{font:800 26px Nunito;color:var(--mut);margin-top:6px;letter-spacing:.04em}
+    .bci{font:800 34px/1.25 Nunito;color:var(--ink);padding:6px 10px 6px 50px;position:relative}
+    .bci::before{content:"";position:absolute;left:12px;top:20px;width:18px;height:18px;border-radius:50%;background:var(--acc)}
+    .bcol.R .bci::before{background:var(--acc2)}
+    .bvs{position:absolute;left:910px;top:232px;width:100px;height:100px;border-radius:50%;background:var(--tag);color:var(--ink);font:800 38px/100px Nunito;text-align:center;box-shadow:var(--sh)}
+    /* steps */
+    .bsteps{position:absolute;left:420px;top:190px;width:1080px;display:flex;flex-direction:column;gap:18px}
+    .bstep{display:flex;align-items:center;gap:26px;padding:16px 30px;border-radius:18px;font:800 38px/1.2 Nunito;color:var(--ink)}
+    .bstep b{flex:none;width:64px;height:64px;border-radius:50%;background:var(--acc);color:#fffaf0;font:800 36px/64px Nunito;text-align:center}
+    .th-craie .bstep b{background:none;border:3px solid var(--acc);color:var(--acc);line-height:58px}
+    .bsteps.many{gap:12px} .bsteps.many .bstep{padding:10px 26px;font-size:32px} .bsteps.many .bstep b{width:54px;height:54px;line-height:54px;font-size:30px}
+    /* conjugation */
+    .bcjh{position:absolute;left:50%;top:72px;transform:translateX(-50%) rotate(-1deg);padding:18px 46px;display:flex;align-items:center;gap:26px;white-space:nowrap}
+    .bcjv{font:700 60px 'Playfair Display',serif;color:var(--acc)}
+    .bcjg{position:absolute;left:400px;top:230px;width:1120px;display:grid;grid-auto-flow:column;grid-template-columns:1fr 1fr;gap:18px 34px}
+    .bcjc{padding:16px 30px;border-radius:16px;font:800 42px Nunito;color:var(--ink)}
+    .bcjp{color:var(--mut);font-weight:700}
+    .bcjc em{font-style:normal;color:var(--acc);border-bottom:6px solid var(--tag)}
+    .bcjn{left:1240px;top:560px;width:330px;min-height:0;font-size:30px;padding:34px 26px 24px}
+    /* mind map */
+    .bmml{position:absolute;inset:0} .bmml line{stroke:var(--ink);stroke-width:6;stroke-linecap:round;opacity:.85}
+    .bmmc{position:absolute;left:960px;top:430px;width:300px;height:300px;margin:-150px 0 0 -150px;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;font:700 50px/1.1 'Playfair Display',serif;color:var(--acc);border:5px solid var(--bc)}
+    .bmmn{position:absolute;width:0;height:0}
+    .th-craie .bmmc,.th-craie .bmmn>div{background:#34503f;border-radius:50%} .th-craie .bmmn>div{border-radius:40px}
+    .th-liege .bmmn>div,.th-liege .bmmc{background:#fffaf0}
+    .bmmn>div{position:absolute;left:0;top:0;transform:translate(-50%,-50%);white-space:nowrap;padding:14px 28px;border-radius:40px;border:4px solid var(--bc);font:800 36px Nunito;color:var(--ink)}
+    /* quiz */
+    .bq{position:absolute;left:50%;top:80px;transform:translateX(-50%) rotate(-1deg);width:1180px;padding:28px 40px 28px 120px;font:800 44px/1.25 Nunito;color:var(--ink);border-radius:20px}
+    .bq b{position:absolute;left:30px;top:50%;margin-top:-36px;width:72px;height:72px;border-radius:50%;background:var(--acc);color:#fffaf0;font:700 54px/72px 'Playfair Display',serif;text-align:center}
+    .th-craie .bq b{background:none;border:3px solid var(--acc);color:var(--acc)}
+    .bopts{position:absolute;left:370px;top:300px;width:1180px;display:grid;grid-template-columns:1fr 1fr;gap:22px 30px}
+    .bopts.two{top:330px}
+    .bo{position:relative;display:flex;align-items:center;gap:22px;padding:22px 30px;border-radius:20px;font:800 38px/1.2 Nunito;color:var(--ink);min-height:96px}
+    .bo .lt{position:relative;z-index:1;flex:none;width:58px;height:58px;border-radius:14px;background:var(--tag);font:800 32px/58px Nunito;text-align:center;color:var(--ink)}
+    .bo span{position:relative;z-index:1}
+    .okl{position:absolute;inset:-4px;border-radius:20px;background:var(--ok);border:5px solid var(--okc)}
+    .btick{position:absolute!important;right:22px;top:50%;margin-top:-34px;width:68px;height:68px;border-radius:50%;background:var(--okc);color:#fffaf0;font:800 44px/68px Nunito;text-align:center}
+    .bqx{left:50%;top:610px;width:auto;max-width:1100px;min-height:0;transform:translateX(-50%) rotate(-1.5deg);font-size:32px;padding:30px 36px 24px}
     #talk-badge{position:absolute;right:40px;top:34px;width:132px;height:132px;filter:drop-shadow(0 4px 8px #0004)}
     .cntBox{position:relative;width:18px;height:36px} .cnt{position:absolute;left:0;top:0}
     #recap{position:absolute;inset:0;background:#f6eddc;display:flex;flex-direction:column;align-items:center;justify-content:center}
@@ -281,8 +512,14 @@ const talk = `<template>
         <feComposite in="nc" in2="d" operator="in" result="nm"/>
         <feMerge><feMergeNode in="d"/><feMergeNode in="nm"/></feMerge>
       </filter>
-      <pattern id="stripes" width="20" height="20" patternUnits="userSpaceOnUse"><rect width="20" height="20" fill="#f7f3ea"/><rect width="20" height="8" fill="#2d3e66"/></pattern>
-      <pattern id="gingham" width="40" height="40" patternUnits="userSpaceOnUse"><rect width="40" height="40" fill="#fbf4ea"/><rect width="20" height="40" fill="#d9574a" opacity=".45"/><rect width="40" height="20" fill="#d9574a" opacity=".45"/></pattern>
+      ${PATTERNS}
+      <filter id="chalk" x="-5%" y="-5%" width="110%" height="110%">
+        <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="n"/>
+        <feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 -0.8 1.15" result="m"/>
+        <feComposite in="SourceGraphic" in2="m" operator="in" result="c"/>
+        <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="8" result="w"/>
+        <feDisplacementMap in="c" in2="w" scale="3" xChannelSelector="R" yChannelSelector="G"/>
+      </filter>
     </defs></svg>
     <div id="talk-world" data-layout-ignore>
       <div id="talk-scene">${sceneSVG}</div>
@@ -308,11 +545,11 @@ const talk = `<template>
     const WORDS=${JSON.stringify(words.map(w => ({ id: w.id, s: +f(w.s), e: +f(w.e), v: w.v, who: w.who, n: w.t.length })))};
     const TURNS=${JSON.stringify(turns.map(t => ({ who: t.who, s: +f(t.s), e: +f(t.e) })))};
     const CARDS=${JSON.stringify(cards.map(c => ({ s: +f(c.s), d: +f(c.d), h: c.hidden ? 1 : 0 })))};
-    const SESS=${JSON.stringify(sessions.map(ss => ({ s: +f(ss.s), e: +f(ss.e), segs: ss.segs.map(sg => ({ s: +f(sg.s), e: +f(sg.e), mode: sg.mode, lines: sg.lines ? sg.lines.map(l => +f(l.s)) : undefined })) })))};
+    const SESS=${JSON.stringify(sessions.map(ss => ({ s: +f(ss.s), e: +f(ss.e), bg: ss.bg, segs: ss.segs.map(sg => ({ s: +f(sg.s), e: +f(sg.e), t0: +f(sg.t0), mode: sg.mode, lines: sg.lines ? sg.lines.map(l => +f(l.s)) : undefined, rv: sg.rv.map(([id, t, fx]) => [id, +f(t), fx]) })) })))};
     const SUBS=${JSON.stringify(chunks.map(c => ({ s: +f(c.show), d: +f(c.hide - c.show) })))};
     const BUBS=${JSON.stringify(bubs.map(b => ({ type: b.type, who: b.who, t: +f(b.t) })))};
     const GESTS=${JSON.stringify(gests.map(g => ({ who: g.who, p: g.pose, t: +f(g.t), d: +f(g.d), b: g.b })))};
-    const SIPS=${JSON.stringify(sips)}, ELB=${JSON.stringify(sandbox.GEST_ELBOW)};
+    const SIPS=${JSON.stringify(sips)}, ELB=${JSON.stringify(sandbox.GEST_ELBOW)}, NODS=${JSON.stringify(nods)};
     const EMOTES=${JSON.stringify(emotes.map(e => ({ who: e.who, type: e.type, t: +f(e.t) })))};
     function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296;}}
     const R=mulberry32(42), rnd=(a,b)=>a+R()*(b-a), rep=d=>Math.ceil(TOTAL/d)+1;
@@ -336,6 +573,12 @@ const talk = `<template>
     q('#hills').forEach(h=>tl.fromTo(h,{x:0},{x:-800,duration:9,ease:'none',repeat:rep(9)},0));
     q('#poles').forEach(p=>tl.fromTo(p,{x:0},{x:-600,duration:1.6,ease:'none',repeat:rep(1.6)},0));
     q('#talk-scene .ripple').forEach(r=>tl.fromTo(r,{scaleX:1,opacity:.6},{scaleX:rnd(1.3,1.8),opacity:.15,transformOrigin:'50% 50%',duration:rnd(1.2,2.2),yoyo:true,repeat:rep(1.2),ease:'sine.inOut'},rnd(0,2)));
+    q('#talk-scene .flag').forEach(fl=>tl.fromTo(fl,{rotation:-6},{rotation:6,transformOrigin:'50% 0%',duration:rnd(.9,1.4),yoyo:true,repeat:rep(.9),ease:'sine.inOut'},rnd(0,1)));
+    q('#talk-scene .wave').forEach(w=>tl.fromTo(w,{x:0,opacity:.9},{x:rnd(-30,-60),opacity:.3,duration:rnd(1.6,2.6),yoyo:true,repeat:rep(1.6),ease:'sine.inOut'},rnd(0,2)));
+    q('#talk-scene .boat').forEach(b=>{ tl.fromTo(b,{rotation:-3,y:0},{rotation:3,y:-6,transformOrigin:'50% 100%',duration:1.8,yoyo:true,repeat:rep(1.8),ease:'sine.inOut'},0); tl.fromTo(b,{x:0},{x:-260,duration:TOTAL,ease:'none'},0); });
+    q('#talk-scene .lav').forEach(l=>tl.fromTo(l,{rotation:-5},{rotation:5,transformOrigin:'50% 100%',duration:rnd(1.4,2),yoyo:true,repeat:rep(1.4),ease:'sine.inOut'},rnd(0,1)));
+    q('#talk-scene .firefly').forEach(fl=>{ tl.fromTo(fl,{x:0,y:0},{x:rnd(-60,60),y:rnd(-50,30),duration:rnd(2.5,4),yoyo:true,repeat:rep(2.5),ease:'sine.inOut'},rnd(0,2)); tl.fromTo(fl,{opacity:.1},{opacity:1,duration:rnd(.5,1),yoyo:true,repeat:rep(.5),ease:'sine.inOut'},rnd(0,2)); });
+    q('#talk-scene .clockhand').forEach((h,i)=>tl.fromTo(h,{rotation:i?0:120},{rotation:i?360:150,transformOrigin:'50% 100%',duration:i?60:TOTAL,ease:'none',repeat:i?rep(60):0},0));
 
     // ---- characters idle ----
     ['#talk-lea','#talk-mat'].forEach((c,i)=>{
@@ -363,22 +606,10 @@ const talk = `<template>
       const L=Math.max(t.e-t.s,1), k=Math.max(1,Math.round(L/1.8)), amp=(R()<.5?-1:1)*rnd(1.1,1.8);
       tl.fromTo(c+' .sway',{rotation:0},{rotation:amp,duration:L/(2*k),yoyo:true,repeat:2*k-1,ease:'sine.inOut',immediateRender:false},t.s);
     });
-    // ---- hand gestures ----
-    GESTS.forEach(g=>{
-      const c='#talk-'+g.who, el=c+' .g-'+g.p, lift=g.p==='think'?35:50;
-      const h0=g.t+.32, h1=g.t+g.d-.3;
-      tl.set(c+' .armRest',{opacity:0},g.t); tl.set(el,{opacity:1},g.t);
-      tl.fromTo(el,{rotation:lift},{rotation:0,duration:.32,ease:'back.out(1.5)',immediateRender:false},g.t);
-      if(g.p==='up'||g.p==='palm'||g.p==='think'){
-        const per={up:.7,palm:1.1,think:1.3}[g.p], amp={up:-12,palm:9,think:-4}[g.p], w=Math.max(1,Math.round((h1-h0)/per));
-        tl.fromTo(el+' .fore',{rotation:0},{rotation:amp,duration:(h1-h0)/(2*w),yoyo:true,repeat:2*w-1,ease:'sine.inOut',immediateRender:false},h0);
-      } else {
-        const amp=g.p==='beat'?12:-7;
-        g.b.forEach(bt=>{ if(bt>h0&&bt<h1-.2) tl.fromTo(el+' .fore',{rotation:0},{rotation:amp,duration:.11,yoyo:true,repeat:1,ease:'power2.out',immediateRender:false},bt-.04); });
-      }
-      tl.to(el,{rotation:lift,duration:.26,ease:'power2.in'},h1);
-      tl.set(el,{opacity:0},g.t+g.d-.04); tl.set(c+' .armRest',{opacity:1},g.t+g.d-.04);
-    });
+    // ---- hand gestures + nods (gestTL / nodTL from the demo's GEST-RUNTIME) ----
+    ${GEST_RUNTIME}
+    GESTS.forEach(g=>gestTL(tl,'#talk-'+g.who,{p:g.p,t:g.t,d:g.d,b:g.b}));
+    NODS.forEach(n=>nodTL(tl,'#talk-'+n.who,n.t));
     // ---- listener sips coffee (.cupGrp moves, .cupTilt tilts) ----
     SIPS.forEach(sp=>{
       const c='#talk-'+sp.who, t=sp.t;
@@ -414,17 +645,33 @@ const talk = `<template>
     // ---- explanation board ----
     let segK=0;
     const CORNER={lea:{x:-330,y:338},mat:{x:355,y:338}};
+    // background entrance / exit: liege fades in, craie drops from the top, carnet slides up from below
+    const BG_IN={liege:[{opacity:0,scale:1.06,y:0,rotation:0},{opacity:1,scale:1,duration:.5,ease:'power2.out'}],
+      craie:[{opacity:1,y:-1120,scale:1,rotation:0},{y:0,duration:.75,ease:'back.out(1.1)'}],
+      carnet:[{opacity:1,y:1120,rotation:5,scale:1},{y:0,rotation:0,duration:.7,ease:'power3.out'}]};
+    const BG_OUT={liege:{opacity:0,duration:.45,ease:'power2.in'},craie:{y:-1120,duration:.5,ease:'power2.in'},carnet:{y:1120,rotation:-4,duration:.5,ease:'power2.in'}};
+    // reveal effects for the new board modes (each element starts hidden via .rv)
+    const FX={
+      pop:(e,t)=>tl.fromTo(e,{opacity:0,scale:.6},{opacity:1,scale:1,duration:.38,ease:'back.out(2.2)',immediateRender:false},t),
+      drop:(e,t)=>tl.fromTo(e,{opacity:0,y:-50},{opacity:1,y:0,duration:.45,ease:'back.out(1.7)',immediateRender:false},t),
+      slide:(e,t)=>tl.fromTo(e,{opacity:0,x:-46},{opacity:1,x:0,duration:.42,ease:'power2.out',immediateRender:false},t),
+      stamp:(e,t)=>tl.fromTo(e,{opacity:0,scale:2.2,rotation:-20},{opacity:1,scale:1,rotation:0,duration:.35,ease:'back.out(1.6)',immediateRender:false},t),
+      draw:(e,t)=>tl.fromTo(e,{strokeDashoffset:1},{strokeDashoffset:0,duration:.45,ease:'power2.out',immediateRender:false},t),
+      fade:(e,t)=>tl.fromTo(e,{opacity:0},{opacity:1,duration:.3,immediateRender:false},t),
+      dim:(e,t)=>tl.fromTo(e,{opacity:1},{opacity:.42,duration:.35,immediateRender:false},t),
+    };
     SESS.forEach(ss=>{
-      const a=ss.s-.3, b=ss.e-.1;
-      tl.fromTo('#board',{opacity:0,scale:1.06},{opacity:1,scale:1,duration:.5,ease:'power2.out',immediateRender:false},a);
-      tl.to('#board',{opacity:0,duration:.45,ease:'power2.in'},b);
+      const a=ss.s-.3, b=ss.e-.1, bg='#bbg-'+ss.bg, I=BG_IN[ss.bg];
+      tl.fromTo(bg,I[0],{...I[1],opacity:1,immediateRender:false},a);
+      tl.fromTo(bg,{opacity:1,y:0,rotation:0,scale:1},{...BG_OUT[ss.bg],immediateRender:false},b);
+      tl.set(bg,{opacity:0,y:0,rotation:0},b+.55);
       tl.to('#names',{opacity:0,duration:.2},a); tl.to('#names',{opacity:1,duration:.3},b+.5);
       ['lea','mat'].forEach(w=>{
         tl.fromTo('#talk-'+w,{x:0,y:0,scale:1.22,transformOrigin:'50% 90%'},{x:CORNER[w].x,y:CORNER[w].y,scale:.7,transformOrigin:'50% 90%',duration:.7,ease:'power2.inOut',immediateRender:false},a);
         tl.to('#talk-'+w,{x:0,y:0,scale:1.22,duration:.7,ease:'power2.inOut'},b);
       });
       ss.segs.forEach((sg,j)=>{
-        const k=segK++, el='#bseg'+k, t0=j?sg.s:ss.s+.15, last=j===ss.segs.length-1;
+        const k=segK++, el='#bseg'+k, t0=sg.t0, last=j===ss.segs.length-1;
         tl.fromTo(el,{opacity:0},{opacity:1,duration:.3,immediateRender:false},t0);
         tl.to(el,{opacity:0,duration:.3},last?b+.45:ss.segs[j+1].s-.35);
         if(sg.mode==='word'){
@@ -432,14 +679,14 @@ const talk = `<template>
           tl.fromTo(el+' .bpola',{scale:.6,opacity:0,rotation:10},{scale:1,opacity:1,rotation:3,duration:.5,ease:'back.out(2)',immediateRender:false},t0+.6);
           tl.fromTo(el+' .bnote',{scale:.6,opacity:0,rotation:-12},{scale:1,opacity:1,rotation:-3,duration:.5,ease:'back.out(2)',immediateRender:false},t0+1.1);
           tl.fromTo(el+' .bex',{opacity:0,y:12},{opacity:1,y:0,duration:.4,immediateRender:false},t0+1.6);
-        } else {
+        } else if(sg.mode==='sketch'){
           tl.fromTo(el+' .btitle',{y:-50,opacity:0},{y:0,opacity:1,duration:.45,ease:'back.out(1.7)',immediateRender:false},t0);
           sg.lines.forEach((ls,i)=>{
             const t=Math.max(ls,t0+.3);
             tl.fromTo(el+'l'+i,{opacity:0,y:24,scale:.92},{opacity:1,y:0,scale:1,duration:.35,ease:'back.out(2)',immediateRender:false},t);
             if(i%4===0&&i) for(let p=i-4;p<i;p++) tl.to(el+'l'+p,{opacity:0,y:-16,duration:.25},t-.3);
           });
-        }
+        } else sg.rv.forEach(([id,t,fx])=>FX[fx]('#bs'+k+'_'+id,t));
       });
     });
 
@@ -492,4 +739,4 @@ const index = `<!doctype html>
 </html>
 `;
 fs.writeFileSync(path.join(ROOT, 'index.html'), index);
-console.log(`built: ${gests.length} gestures (${['beat','palm','up','point','think'].map(p => p + ' ' + gests.filter(g => g.pose === p).length).join(', ')}), ${sips.length} sips, ${chunks.length} subtitle chunks, ${words.length} words, ${cards.length} cards, ${emotes.length} emotes, ${bubs.length} illustrations, ${turns.length} turns, total ${TOTAL}s`);
+console.log(`built: ${gests.length} gestures (${POSES.map(p => p + ' ' + gests.filter(g => g.pose === p).length).join(', ')}), ${nods.length} nods, ${sips.length} sips, ${chunks.length} subtitle chunks, ${words.length} words, ${cards.length} cards, ${emotes.length} emotes, ${bubs.length} illustrations, ${turns.length} turns, total ${TOTAL}s`);

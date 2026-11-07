@@ -8,7 +8,7 @@ Animated podcast template for learning French (B1–B2): word-synced karaoke sub
 
 | Đường dẫn | Là gì |
 |---|---|
-| `demo-animation-style.html` | Bản xem trước tương tác: 10 bối cảnh, 5 bộ trang phục mỗi nhân vật, 8 biểu cảm, 24 bong bóng minh hoạ. Mở bằng trình duyệt. |
+| `demo-animation-style.html` | Bản xem trước tương tác: 15 bối cảnh, 10 bộ trang phục mỗi nhân vật, 8 biểu cảm, 24 bong bóng minh hoạ, 10 cử chỉ (nút "Cử chỉ"). Mở bằng trình duyệt. |
 | `cozy-ep01/tools/vocab-help.mjs` | Gợi ý từ vựng theo cấp độ CEFR (FLELex) và tra IPA (WikiPron). |
 | `tools/new-episode.mjs` | Tạo thư mục tập mới `cozy-epNN/` từ mẫu `cozy-ep01` và chép lời voice. |
 | `voices/` | Đoạn giọng mẫu Léa & Mathieu (13–15 s, FLAC) để nhân bản giọng trong VoiceStudio. |
@@ -20,9 +20,11 @@ Animated podcast template for learning French (B1–B2): word-synced karaoke sub
 | `cozy-ep01/tools/build.mjs` | Ghép phụ đề / thẻ từ vào mốc thời gian từng chữ, sinh `index.html` + `compositions/talk.html`. |
 | `cozy-ep01-test-30s.mp4` | Video đã xuất. |
 
-**Bối cảnh:** `cafe` · `salon` · `parc` · `cuisine` · `biblio` · `terrasse` · `chalet` · `boulangerie` · `train` · `quai`
-**Léa:** `pull` · `mariniere` · `trench` · `chemise` · `cardigan`
-**Mathieu:** `denim` · `hoodie` · `colroule` · `blazer` · `pull`
+**Bối cảnh:** `cafe` · `salon` · `parc` · `cuisine` · `biblio` · `terrasse` · `chalet` · `boulangerie` · `train` · `quai` · `marche` · `plage` · `atelier` · `lavande` · `bureau`
+**Léa:** `pull` · `mariniere` · `trench` · `chemise` · `cardigan` · `pois` · `jean` · `lilas` · `foulard` · `doudoune`
+**Mathieu:** `denim` · `hoodie` · `colroule` · `blazer` · `pull` · `carreaux` · `velours` · `polo` · `gilet` · `tablier`
+**Cử chỉ:** `beat` · `palm` · `up` · `point` · `think` · `wave` · `shrug` · `count` · `scratch` + gật đầu `nod` (tự chọn theo lời thoại, ép bằng `"act"`)
+**Bảng giải thích:** nền `liege` · `craie` · `carnet`; kiểu `word` · `sketch` · `compare` · `steps` · `conjug` · `mindmap` · `quiz` (xem skill `cozy-french-episode`)
 
 Các quyết định đã chốt và trạng thái dự án: xem [NOTES.md](NOTES.md).
 

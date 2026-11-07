@@ -72,20 +72,30 @@ node tools/new-episode.mjs "<đường dẫn voice>"          # chạy ở gốc
 - Bong bóng nằm cùng chỗ với thẻ từ: build báo lỗi nếu trùng thời gian với thẻ hoặc hai bong bóng cách nhau < 10 s → chuyển sang đoạn khác.
 - Cần chủ đề chưa có: vẽ thêm vào `ILLUS` + `ILLUS_ANIM` trong `demo-animation-style.html` (hình 300×200, nét `#3a2e28` dày 5, bảng màu của kênh, chuyển động chỉ dùng gsap, không random), xem trước bằng nút "Minh hoạ" trong demo, rồi báo người dùng đã thêm loại mới.
 
-**Bảng giải thích (bảng ghim gỗ)**: khi một người giải thích một cách nói hoặc hai người đóng vai một tình huống, chuyển sang cảnh bảng ghim (nhân vật thu nhỏ ở hai góc dưới, phụ đề vẫn chạy).
+**Bảng giải thích**: khi một người giải thích một cách nói, so sánh, liệt kê, chia động từ, đố vui, hoặc hai người đóng vai một tình huống, chuyển sang cảnh bảng (nhân vật thu nhỏ ở hai góc dưới, phụ đề vẫn chạy).
+- Nền (`"bg"`, mặc định `liege` hoặc `"boardBg"` ở đầu `episode.json`): `liege` bảng ghim gỗ (hiện mờ dần) · `craie` bảng phấn xanh (rơi từ trên xuống, chữ phấn) · `carnet` trang sổ tay kẻ dòng (trượt từ dưới lên, mực xanh + băng dính washi). Đổi nền giữa các lần trong tập cho đỡ đơn điệu (vd. từ vựng → `liege`, ngữ pháp/chia động từ → `carnet`, so sánh/sơ đồ → `craie`).
 - Mở ở đoạn đầu: `"board": { "mode": "word", "note": "= giải thích ngắn bằng tiếng Pháp (lấy từ lời thoại)", "icon": "<loại minh hoạ, tuỳ chọn>" }`; đóng ở đoạn cuối: `"boardEnd": true`.
   - `word`: tờ giấy ghi cụm từ (tự lấy từ thẻ từ vựng nằm trong đoạn, thẻ nhỏ không hiện nữa) + giấy note vàng + ảnh polaroid nếu có `icon`. Có thể ghi đè `word`, `tag`, `ipa`, `mean`, `ex`, `exEn`.
   - `sketch`: `{ "mode": "sketch", "title": "En situation : …" }` — mỗi câu trong đoạn thành một bong bóng thoại ghim lên bảng (4 bong bóng một trang; câu cùng người bị cắt đôi tự ghép lại).
-- Hai đoạn bảng cách nhau < 1,5 s dùng chung một lần chuyển cảnh (vd. `word` rồi `sketch` ngay sau).
-- Khoảng 6–10 lần mỗi tập 20 phút, mỗi lần 10–40 s. Không đặt bong bóng minh hoạ trong lúc có bảng (build báo lỗi).
+  - `compare`: `{ "mode": "compare", "title": "tu ou vous ?", "left": { "head": "tu", "sub": "informel", "items": ["un ami", "la famille"] }, "right": { "head": "vous", "sub": "poli", "items": [...] } }` — hai cột, tiêu đề cột hiện trước, các dòng hiện xen kẽ trái/phải.
+  - `steps`: `{ "mode": "steps", "title": "Ma routine du soir", "items": ["…", "…"] }` — 2–6 bước đánh số hiện lần lượt, bước trước mờ đi.
+  - `conjug`: `{ "mode": "conjug", "verb": "se changer", "tense": "présent", "rows": [["je","me chang|e"], ["tu","te chang|es"], …], "note": "…" }` — bảng chia động từ, phần sau `|` (đuôi) được tô màu; 2–8 dòng.
+  - `mindmap`: `{ "mode": "mindmap", "word": "la routine", "icon": "<minh hoạ, tuỳ chọn>", "items": ["…", …] }` — từ ở giữa, 2–6 nhánh từ liên quan vẽ ra lần lượt.
+  - `quiz`: `{ "mode": "quiz", "q": "Câu hỏi ?", "options": ["…","…","…"], "answer": 0, "reveal": 3, "explain": "…" }` — 2–4 lựa chọn, đáp án đúng sáng xanh + dấu ✓ ở đoạn `reveal` (số thứ tự đoạn tính từ đoạn mở bảng, 0 = đoạn đầu; mặc định đoạn cuối), `explain` hiện ngay sau.
+  - Mục (`items`, dòng `rows` thêm phần tử thứ 3) tự rải đều theo thời lượng bảng; muốn hiện đúng lúc được nói thì viết `{ "text": "…", "at": n }` (n = đoạn thứ n của bảng). Nội dung trên bảng bằng tiếng Pháp, lấy từ lời thoại.
+- Hai đoạn bảng cách nhau < 1,5 s dùng chung một lần chuyển cảnh (vd. `word` rồi `sketch` ngay sau; dùng nền của đoạn đầu).
+- Khoảng 6–10 lần mỗi tập 20 phút, mỗi lần 10–40 s; trộn nhiều kiểu (không chỉ `word`). Không đặt bong bóng minh hoạ trong lúc có bảng (build báo lỗi).
+
+**Hành động** (tự động theo lời thoại, không cần đánh dấu): vẫy tay `wave` (bonjour, salut, au revoir, à bientôt…), đếm ngón tay `count` (d'abord, premièrement, deux choses…), nhún vai `shrug` (je sais pas, bof, ça dépend, peut-être…), gãi đầu `scratch` (euh, hmm, comment dire, bonne question…); gật đầu khi câu mở bằng *oui / exactement / voilà / d'accord…*, người nghe thỉnh thoảng gật đầu. Ép bằng `"act": "<kiểu>"` trong đoạn (`wave|shrug|count|scratch|beat|palm|up|point|think`), `"act": "nod"` = người nghe gật đầu, `"act": "none"` = tắt hành động tự động ở đoạn đó.
 - Trong `work/src*.txt` (nếu viết dạng dòng `who|fr|en|extra`): thêm `B={json}` ở cuối phần extra để mở, `BE` để đóng; `work/convert.mjs` đổi thành `parts/*.json`.
+- Snapshot ít nhất một lần cho mỗi kiểu bảng/nền đã dùng để chắc chữ không tràn khung.
 
 **Bối cảnh + trang phục** → `work/setup.json` `{ "scene": "…", "lea": "…", "mat": "…" }`
-- Bối cảnh: `cafe` (mưa, ấm) · `salon` (tối, đèn) · `parc` (ngày, xanh) · `cuisine` (sáng, gạch xanh) · `biblio` (tối, xanh rêu) · `terrasse` (hoàng hôn, mái nhà tím) · `chalet` (tuyết, lò sưởi, gỗ) · `boulangerie` (sáng, xanh sage, bánh mì) · `train` (tàu chạy, ghế đỏ) · `quai` (sông Seine buổi tối, tím).
-- Ưu tiên bối cảnh hợp chủ đề tập (du lịch → `train`, ăn uống → `boulangerie`/`cuisine`, mùa đông → `chalet`, tâm sự buổi tối → `salon`/`quai`); không trùng 3 tập gần nhất.
-- Léa: `pull` vàng · `mariniere` sọc navy · `trench` be + béret đỏ · `chemise` xanh sage · `cardigan` cam đất.
-  Mathieu: `denim` xanh · `hoodie` xám · `colroule` đen · `blazer` navy · `pull` xanh rêu.
-- Trang phục phải khác tông nền: tránh đồ xanh sage/rêu ở `cuisine`, `parc`, `boulangerie`, `biblio`; tránh `colroule`/`blazer` (tối) ở `quai`, `salon`, `biblio`; tránh `cardigan` cam ở `chalet` (gỗ cam), `terrasse`. Hai nhân vật khác tông nhau.
+- Bối cảnh: `cafe` (mưa, ấm) · `salon` (tối, đèn) · `parc` (ngày, xanh) · `cuisine` (sáng, gạch xanh) · `biblio` (tối, xanh rêu) · `terrasse` (hoàng hôn, mái nhà tím) · `chalet` (tuyết, lò sưởi, gỗ) · `boulangerie` (sáng, xanh sage, bánh mì) · `train` (tàu chạy, ghế đỏ) · `quai` (sông Seine buổi tối, tím) · `marche` (chợ Provence buổi sáng, cờ đuôi nheo, sạp trái cây) · `plage` (bờ biển, sóng, thuyền buồm, chòi tắm sọc) · `atelier` (xưởng vẽ áp mái, cửa sổ mái nhìn mái nhà Paris, tranh) · `lavande` (cánh đồng oải hương lúc hoàng hôn, đom đóm) · `bureau` (văn phòng nhìn ra phố, đồng hồ chạy, bảng biểu đồ).
+- Ưu tiên bối cảnh hợp chủ đề tập (du lịch → `train`/`plage`, ăn uống → `boulangerie`/`cuisine`/`marche`, mua sắm → `marche`, mùa đông → `chalet`, mùa hè/kỳ nghỉ → `plage`/`lavande`, sở thích/sáng tạo → `atelier`, công việc/học tập → `bureau`, tâm sự buổi tối → `salon`/`quai`); không trùng 3 tập gần nhất.
+- Léa: `pull` vàng · `mariniere` sọc navy · `trench` be + béret đỏ · `chemise` xanh sage · `cardigan` cam đất · `pois` váy chấm bi navy · `jean` áo khoác jean xanh đậm · `lilas` sweat tím lilas chữ Paris · `foulard` sơ mi trắng + khăn đỏ · `doudoune` áo phao đỏ rượu + khăn len (chỉ mùa lạnh).
+  Mathieu: `denim` xanh · `hoodie` xám · `colroule` đen · `blazer` navy · `pull` xanh rêu · `carreaux` sơ mi caro đỏ · `velours` vest nhung camel · `polo` polo vàng mù tạt · `gilet` cardigan xám + sơ mi xanh nhạt · `tablier` áo thun trắng + tạp dề (tập nấu ăn).
+- Trang phục phải khác tông nền: tránh đồ xanh sage/rêu ở `cuisine`, `parc`, `boulangerie`, `biblio`; tránh `colroule`/`blazer` (tối) ở `quai`, `salon`, `biblio`; tránh `cardigan` cam ở `chalet` (gỗ cam), `terrasse`; tránh `lilas` ở `lavande`, `quai`, `terrasse` (tím); tránh `velours`/`polo` ở `marche`, `atelier` (gỗ/vàng); tránh đồ trắng (`foulard`, `tablier`, `gilet`) ở `bureau`, `plage` (nền sáng); `jean`/`denim` không đi cùng nhau; `pull` (Léa, vàng) không đi cùng `polo`; `doudoune` chỉ cho `chalet` hoặc tập về mùa đông. Hai nhân vật khác tông nhau.
 
 **Ghi file theo lô** (tập dài rất nhiều đoạn): `work/parts/01.json`, `02.json`, … mỗi file một mảng ~60 đoạn `{ "who": "lea|mat", "fr": "…", "en": "…" }` (thêm `emote` / `react` / `illus` / `label` khi cần), theo thứ tự. Rồi:
 
@@ -147,6 +157,6 @@ Ngắn gọn, tiếng Việt: đường dẫn MP4 (link markdown), thời lượ
 
 ## Ghi chú
 
-- Sửa hình nhân vật/bối cảnh: chỉ sửa `demo-animation-style.html` ở gốc repo (nguồn duy nhất), rồi build lại. Hiệu ứng chuyển động của bối cảnh trong video nằm ở `tools/build.mjs` (khối `scene ambience`), theo class: `.star .drop .glow .curtain .leaf .mote .bulbg .bird .snow .flame .ripple`, id `#leaves #canopy #clouds #hills #hillsfar #poles`.
+- Sửa hình nhân vật/bối cảnh: chỉ sửa `demo-animation-style.html` ở gốc repo (nguồn duy nhất), rồi build lại. Hiệu ứng chuyển động của bối cảnh trong video nằm ở `tools/build.mjs` (khối `scene ambience`), theo class: `.star .drop .glow .curtain .leaf .mote .bulbg .bird .snow .flame .ripple .flag .wave .boat .lav .firefly .clockhand`, id `#leaves #canopy #clouds #hills #hillsfar #poles #sunglow #beam`. Cử chỉ tay + gật đầu nằm ở khối GEST-RUNTIME trong demo (build chép nguyên văn), hoa văn vải (`<pattern>`) lấy từ `<defs>` ẩn đầu file demo.
 - Công cụ của tập mới được chép từ `cozy-ep01/tools/` — sửa công cụ thì sửa ở `cozy-ep01` trước.
 - Mọi chuyển động phải seek được: không `Math.random()` không seed, không `repeat:-1`.
