@@ -1,0 +1,543 @@
+[
+ {
+  "who": "mat",
+  "fr": "La courge peut enfin prendre quelques jours de vacances.",
+  "en": "The squash can finally take a few days off.",
+  "emote": "rire"
+ },
+ {
+  "who": "mat",
+  "fr": "Moi, vendredi, j'ai préparé une quiche aux",
+  "en": "Me, on Friday, I made a mushroom"
+ },
+ {
+  "who": "mat",
+  "fr": "champignons pour un déjeuner partagé au bureau.",
+  "en": "quiche for a shared lunch at the office."
+ },
+ {
+  "who": "lea",
+  "fr": "Tu l'as vraiment faite toi-même ?",
+  "en": "You really made it yourself?",
+  "emote": "surpris"
+ },
+ {
+  "who": "mat",
+  "fr": "Oui. Ma sœur m'a donné sa recette.",
+  "en": "Yes. My sister gave me her recipe."
+ },
+ {
+  "who": "mat",
+  "fr": "Cette fois, j'ai [mis la main à la pâte.]",
+  "en": "This time, I got my hands dirty.",
+  "board": {
+   "mode": "word",
+   "note": "= participer à la préparation, au travail",
+   "icon": "amis"
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "Tu as participé à la préparation.",
+  "en": "You took part in the preparation."
+ },
+ {
+  "who": "lea",
+  "fr": "C'est le sens de cette expression,",
+  "en": "That's the meaning of this expression,"
+ },
+ {
+  "who": "lea",
+  "fr": "même quand on ne cuisine pas.",
+  "en": "even when you're not cooking."
+ },
+ {
+  "who": "mat",
+  "fr": "Pour préparer la fête du quartier,",
+  "en": "To prepare the neighbourhood party,"
+ },
+ {
+  "who": "mat",
+  "fr": "tous les voisins ont mis la main à la pâte.",
+  "en": "all the neighbours pitched in.",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Et ta quiche ?",
+  "en": "And your quiche?"
+ },
+ {
+  "who": "mat",
+  "fr": "Elle sentait très bon.",
+  "en": "It smelled really good."
+ },
+ {
+  "who": "mat",
+  "fr": "J'avais même rangé la cuisine avant de partir.",
+  "en": "I'd even tidied the kitchen before leaving."
+ },
+ {
+  "who": "mat",
+  "fr": "Un événement assez rare pour être annoncé.",
+  "en": "An event rare enough to be announced.",
+  "react": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Tes collègues ont apprécié ?",
+  "en": "Did your colleagues like it?"
+ },
+ {
+  "who": "mat",
+  "fr": "Oui. Puis quelqu'un m'a demandé ce qu'elle contenait.",
+  "en": "Yes. Then someone asked me what was in it."
+ },
+ {
+  "who": "mat",
+  "fr": "J'ai répondu des champignons,",
+  "en": "I answered: mushrooms,"
+ },
+ {
+  "who": "mat",
+  "fr": "du fromage et beaucoup de bonne volonté.",
+  "en": "cheese and lots of goodwill."
+ },
+ {
+  "who": "lea",
+  "fr": "Les œufs ont apprécié d'être oubliés.",
+  "en": "The eggs loved being forgotten.",
+  "emote": "rire",
+  "react": "gene"
+ },
+ {
+  "who": "mat",
+  "fr": "J'ai appelé ma sœur pour vérifier.",
+  "en": "I called my sister to check."
+ },
+ {
+  "who": "mat",
+  "fr": "Elle m'a expliqué que les œufs",
+  "en": "She explained that the eggs"
+ },
+ {
+  "who": "mat",
+  "fr": "contribuaient à [l'apport] en protéines du plat.",
+  "en": "contributed to the dish's protein intake."
+ },
+ {
+  "who": "lea",
+  "fr": "L'apport en protéines.",
+  "en": "Protein intake."
+ },
+ {
+  "who": "lea",
+  "fr": "C'est la quantité de protéines fournie par ce qu'on mange.",
+  "en": "It's the amount of protein provided by what we eat."
+ },
+ {
+  "who": "mat",
+  "fr": "Donc je peux dire,",
+  "en": "So I can say:"
+ },
+ {
+  "who": "mat",
+  "fr": "les pois chiches contribuent à l'apport",
+  "en": "chickpeas contribute to the protein"
+ },
+ {
+  "who": "mat",
+  "fr": "en protéines de cette salade.",
+  "en": "intake of this salad."
+ },
+ {
+  "who": "lea",
+  "fr": "Oui. Et les protéines servent notamment à construire",
+  "en": "Yes. And proteins are used in particular to build"
+ },
+ {
+  "who": "lea",
+  "fr": "et entretenir les tissus du corps.",
+  "en": "and maintain the body's tissues."
+ },
+ {
+  "who": "mat",
+  "fr": "On en trouve dans les œufs, le poisson,",
+  "en": "You find them in eggs, fish,"
+ },
+ {
+  "who": "mat",
+  "fr": "les produits laitiers mais aussi les légumes secs.",
+  "en": "dairy products, but also in pulses."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Plusieurs aliments différents peuvent contribuer à nos besoins.",
+  "en": "Exactly. Several different foods can help meet our needs."
+ },
+ {
+  "who": "mat",
+  "fr": "Mon collègue avait apporté une salade de haricots",
+  "en": "My colleague had brought a white bean"
+ },
+ {
+  "who": "mat",
+  "fr": "blancs avec quelques légumes et une sauce au citron.",
+  "en": "salad with a few vegetables and a lemon dressing."
+ },
+ {
+  "who": "lea",
+  "fr": "Une bonne occasion de parler des fibres alimentaires.",
+  "en": "A good opportunity to talk about dietary fibre."
+ },
+ {
+  "who": "mat",
+  "fr": "Ce sont les parties des aliments végétaux",
+  "en": "That's the part of plant foods"
+ },
+ {
+  "who": "mat",
+  "fr": "que notre corps ne digère pas complètement ?",
+  "en": "that our body doesn't fully digest?"
+ },
+ {
+  "who": "lea",
+  "fr": "Oui. Elles participent notamment au bon fonctionnement du transit.",
+  "en": "Yes. It notably helps keep digestion working well."
+ },
+ {
+  "who": "lea",
+  "fr": "On en trouve aussi dans",
+  "en": "You also find it in"
+ },
+ {
+  "who": "lea",
+  "fr": "les fruits et les céréales complètes.",
+  "en": "fruit and wholegrain cereals."
+ },
+ {
+  "who": "mat",
+  "fr": "Par exemple, les flocons d'avoine apportent",
+  "en": "For example, oat flakes provide"
+ },
+ {
+  "who": "mat",
+  "fr": "des fibres alimentaires au petit déjeuner.",
+  "en": "dietary fibre at breakfast.",
+  "illus": "repas",
+  "label": "le petit déjeuner"
+ },
+ {
+  "who": "lea",
+  "fr": "Voilà.",
+  "en": "That's it."
+ },
+ {
+  "who": "lea",
+  "fr": "Tu vois, ton déjeuner partagé permet de découvrir plusieurs choses.",
+  "en": "You see, your shared lunch lets you discover several things."
+ },
+ {
+  "who": "mat",
+  "fr": "Surtout que ma quiche n'est pas obligée de travailler seule.",
+  "en": "Especially since my quiche doesn't have to work alone."
+ },
+ {
+  "who": "mat",
+  "fr": "Les autres plats peuvent rejoindre son équipe.",
+  "en": "The other dishes can join its team."
+ },
+ {
+  "who": "lea",
+  "fr": "Et les légumes que tes collègues ont apportés ?",
+  "en": "And the vegetables your colleagues brought?"
+ },
+ {
+  "who": "mat",
+  "fr": "Très bons.",
+  "en": "Very good."
+ },
+ {
+  "who": "mat",
+  "fr": "Mais la prochaine fois, j'écris les ingrédients avant de partir.",
+  "en": "But next time, I'll write down the ingredients before leaving."
+ },
+ {
+  "who": "mat",
+  "fr": "Ma sœur aimerait déjeuner sans répondre à mon enquête.",
+  "en": "My sister would like to eat lunch without answering my survey."
+ },
+ {
+  "who": "lea",
+  "fr": "Parfois, ce qui complique les repas,",
+  "en": "Sometimes, what makes meals complicated"
+ },
+ {
+  "who": "lea",
+  "fr": "ce sont toutes les règles qu'on entend.",
+  "en": "is all the rules we hear."
+ },
+ {
+  "who": "mat",
+  "fr": "Oui. Une personne dit de supprimer le pain.",
+  "en": "Yes. One person says to cut out bread."
+ },
+ {
+  "who": "mat",
+  "fr": "Une autre dit de manger davantage de céréales.",
+  "en": "Another says to eat more cereals."
+ },
+ {
+  "who": "mat",
+  "fr": "Je finis par [me prendre la tête.]",
+  "en": "I end up getting worked up about it.",
+  "board": {
+   "mode": "word",
+   "note": "= réfléchir tellement qu'on se stresse",
+   "icon": "stress"
+  },
+  "emote": "gene"
+ },
+ {
+  "who": "lea",
+  "fr": "Tu réfléchis tellement que tu te stresses.",
+  "en": "You think so much that you stress yourself out."
+ },
+ {
+  "who": "mat",
+  "fr": "Exactement. Pour choisir un cadeau,",
+  "en": "Exactly. To choose a present,"
+ },
+ {
+  "who": "mat",
+  "fr": "je me prends parfois la tête pendant des jours.",
+  "en": "I sometimes fret over it for days.",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Avec la nourriture,",
+  "en": "With food,"
+ },
+ {
+  "who": "lea",
+  "fr": "on peut aussi avoir peur de mal faire.",
+  "en": "we can also be afraid of getting it wrong."
+ },
+ {
+  "who": "lea",
+  "fr": "Et le budget ou le manque de temps comptent vraiment.",
+  "en": "And budget or lack of time really matter."
+ },
+ {
+  "who": "mat",
+  "fr": "Moi, je pensais qu'un dîner léger devait être minuscule.",
+  "en": "Me, I thought a light dinner had to be tiny."
+ },
+ {
+  "who": "mat",
+  "fr": "Une fois, j'ai mangé quelques feuilles de salade,",
+  "en": "Once, I ate a few lettuce leaves,"
+ },
+ {
+  "who": "mat",
+  "fr": "puis je suis [resté sur ma faim.]",
+  "en": "then I was still hungry.",
+  "board": {
+   "mode": "word",
+   "note": "= avoir encore faim après le repas",
+   "icon": "repas"
+  },
+  "emote": "triste"
+ },
+ {
+  "who": "lea",
+  "fr": "Tu avais encore faim après le repas.",
+  "en": "You were still hungry after the meal."
+ },
+ {
+  "who": "lea",
+  "fr": "C'est le sens concret de cette expression.",
+  "en": "That's the literal meaning of this expression."
+ },
+ {
+  "who": "mat",
+  "fr": "On peut aussi l'utiliser autrement ?",
+  "en": "Can you use it another way too?"
+ },
+ {
+  "who": "lea",
+  "fr": "Oui. Le documentaire était intéressant, mais trop court.",
+  "en": "Yes. The documentary was interesting, but too short."
+ },
+ {
+  "who": "lea",
+  "fr": "Je suis restée sur ma faim.",
+  "en": "I was left wanting more."
+ },
+ {
+  "who": "mat",
+  "fr": "Dans mon cas, le documentaire était une salade.",
+  "en": "In my case, the documentary was a salad."
+ },
+ {
+  "who": "mat",
+  "fr": "Très court, effectivement.",
+  "en": "Very short, indeed.",
+  "boardEnd": true,
+  "react": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Tu aurais pu y ajouter d'autres aliments selon ton appétit.",
+  "en": "You could have added other foods depending on your appetite."
+ },
+ {
+  "who": "lea",
+  "fr": "Des pommes de terre,",
+  "en": "Potatoes,"
+ },
+ {
+  "who": "lea",
+  "fr": "des haricots ou des œufs par exemple.",
+  "en": "beans or eggs, for example."
+ },
+ {
+  "who": "mat",
+  "fr": "[Les féculents,] comme les pommes de terre ou les pâtes,",
+  "en": "Starchy foods, like potatoes or pasta,"
+ },
+ {
+  "who": "mat",
+  "fr": "apportent notamment des glucides.",
+  "en": "provide carbohydrates in particular."
+ },
+ {
+  "who": "mat",
+  "fr": "Ils fournissent de l'énergie.",
+  "en": "They provide energy.",
+  "illus": "sante",
+  "label": "l'énergie"
+ },
+ {
+  "who": "lea",
+  "fr": "Et une alimentation variée apporte",
+  "en": "And a varied diet also provides"
+ },
+ {
+  "who": "lea",
+  "fr": "aussi différentes vitamines et différents minéraux.",
+  "en": "different vitamins and different minerals."
+ },
+ {
+  "who": "mat",
+  "fr": "Donc, je peux m'intéresser à ce que je",
+  "en": "So I can take an interest in what I"
+ },
+ {
+  "who": "mat",
+  "fr": "mange sans transformer chaque repas en examen.",
+  "en": "eat without turning every meal into an exam."
+ },
+ {
+  "who": "lea",
+  "fr": "Oui, et nous avons des goûts et des besoins différents.",
+  "en": "Yes, and we have different tastes and needs."
+ },
+ {
+  "who": "lea",
+  "fr": "Dans un repas partagé, chacun peut [trouver son compte.]",
+  "en": "At a shared meal, everyone can find something they like.",
+  "board": {
+   "mode": "word",
+   "note": "= trouver quelque chose qui nous convient",
+   "icon": "lecture"
+  }
+ },
+ {
+  "who": "mat",
+  "fr": "Ça veut dire trouver quelque chose qui lui convient,",
+  "en": "That means finding something that suits you,"
+ },
+ {
+  "who": "mat",
+  "fr": "qui le satisfait.",
+  "en": "that satisfies you."
+ },
+ {
+  "who": "lea",
+  "fr": "Par exemple, dans cette bibliothèque, chacun trouve son compte,",
+  "en": "For example, in this library, everyone finds something for them:"
+ },
+ {
+  "who": "lea",
+  "fr": "romans, bandes dessinées ou livres de cuisine.",
+  "en": "novels, comics or cookbooks."
+ },
+ {
+  "who": "mat",
+  "fr": "Tu sais déjà dans quel rayon me chercher !",
+  "en": "You already know which section to find me in!",
+  "boardEnd": true,
+  "emote": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Essayons une petite scène.",
+  "en": "Let's try a little scene."
+ },
+ {
+  "who": "lea",
+  "fr": "Je travaille dans un café",
+  "en": "I work in a café"
+ },
+ {
+  "who": "lea",
+  "fr": "et tu viens commander ton déjeuner.",
+  "en": "and you come to order your lunch."
+ },
+ {
+  "who": "mat",
+  "fr": "Vous allez pouvoir répondre avant moi.",
+  "en": "You'll be able to answer before me."
+ },
+ {
+  "who": "lea",
+  "fr": "Bonjour !",
+  "en": "Hello!",
+  "board": {
+   "mode": "sketch",
+   "title": "En situation : au café"
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "Vous souhaitez connaître la composition d'un plat ?",
+  "en": "Would you like to know what's in a dish?"
+ },
+ {
+  "who": "mat",
+  "fr": "À vous !",
+  "en": "Your turn!"
+ },
+ {
+  "who": "mat",
+  "fr": "Comment demanderiez-vous ce qu'il y a",
+  "en": "How would you ask what's"
+ },
+ {
+  "who": "mat",
+  "fr": "dans la salade du jour ?",
+  "en": "in the salad of the day?"
+ },
+ {
+  "who": "mat",
+  "fr": "Prenez quelques secondes.",
+  "en": "Take a few seconds."
+ },
+ {
+  "who": "lea",
+  "fr": "Vous pouvez commencer par Qu'est-ce qu'il y a dans ?",
+  "en": "You can start with \"What's in…?\""
+ }
+]

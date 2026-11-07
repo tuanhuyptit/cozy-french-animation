@@ -1,0 +1,369 @@
+0|Hello everyone and welcome
+1|to The Cozy French!
+2|I'm Léa.
+3|And I'm Mathieu.
+4|Thank you for spending this time with us.
+5|Get comfortable, wherever you are.
+6|In your kitchen,
+7|on the metro or during a little break,
+8|you're very welcome.
+9|Today, we're talking about food and nutrition.|i=repas:la nourriture
+10|So yes, I agreed to prepare
+11|this episode with a lot of enthusiasm.
+12|You even brought a file.
+13|It's my quiche's CV.|r=surpris
+14|It's looking for a place in your eating habits.
+15|Its main skills?
+16|Bringing colleagues together around the table
+17|and disappearing before the end of the break.|r=rire
+18|This conversation is for B1 and B2 levels.
+19|We're going to speak slowly, with
+20|situations from everyday life.
+21|By the end,
+22|you'll be able to describe your eating habits
+23|and ask questions about ingredients.
+24|You'll also be able to explain a small change
+25|you'd like to make in your daily life.
+26|No need to know all the names of vitamins.
+27|Me, I mostly know the names of cheeses.|e=rire
+28|We're going to talk about our meals,
+29|a few nutrients and the pressure we sometimes feel.
+30|Because choosing your lunch shouldn't
+31|require a two-hour meeting.
+32|If you don't understand every word, keep listening.
+33|The context will help you.
+34|And you can repeat a sentence you like.
+35|Your pronunciation can improve while your coffee cools down.|i=cafe:votre café r=rire
+36|To start, think of a dish you often make.
+37|What's in it?
+38|And why do you like it?
+39|Its taste?
+40|Its price?
+41|The memories it brings back?
+42|Keep your answer.
+43|We'll help you tell it in French.
+44|You can also tell us where you're listening from.
+45|I'm curious to know the dishes from your neighbourhood.
+46|Last Saturday, I went to the market around 10.|i=courses:le marché
+47|It was chilly and the stallholders
+48|were still setting out their last baskets.
+49|Did you have a list?
+50|A small list, but a very big ambition.
+51|I wanted to get back to a balanced diet
+52|after several weeks of improvised meals.
+53|A balanced diet, what does that mean in practice?
+54|It's a way of eating varied food,
+55|with different foods and amounts suited to your needs.
+56|For example, my sister tries to keep a balanced|i=famille:ma sœur
+57|diet even when she travels for work.
+58|Exactly. At the market, I bought carrots,
+59|a cabbage, leeks and apples.
+60|Then a magnificent squash.
+61|Magnificent how?
+62|Big enough to have its
+63|own seat on the bus?|r=rire
+64|Almost. On the way home, I had to carry it
+65|against me like a little sleeping animal.|r=rire
+66|And had you planned to cook all that?
+67|Yes, except that on Wednesday evening, the leeks were still waiting.
+68|My eyes had been bigger than my stomach.|e=gene B={"mode":"word","note":"= vouloir manger plus qu'on ne peut manger","icon":"repas"}
+69|You'd bought more than you could eat?
+70|That's it. This expression means you want more
+71|food than you can actually eat.
+72|At the hotel buffet,
+73|my eyes were bigger than my stomach.
+74|Three plates was too much.|BE
+75|For me, the problem was also time.
+76|I'd forgotten my Monday meeting|i=travail:ma réunion
+77|and my Tuesday class.
+78|Your basket had a calmer
+79|schedule than you.|r=rire
+80|Much calmer.
+81|So I made a soup for several meals.
+82|And I froze some of the vegetables.
+83|Did the whole basket find a destination?
+84|Yes. But next week,
+85|I'm going to ring the changes with|B={"mode":"word","note":"= changer pour garder du plaisir","icon":"nature"}
+86|fewer things at a time.
+87|Ring the changes?
+88|Changing what you do or what
+89|you choose, to keep the pleasure.
+90|To ring the changes,
+91|my neighbour picks a different walking route every Sunday.|BE
+92|That's it. For meals,
+93|I can keep a simple base
+94|and change the vegetables or the seasoning.
+95|So you don't reinvent
+96|your whole kitchen every evening?
+97|No. And a frozen vegetable can help me too.
+98|I don't need another
+99|trip to the market to make every dinner.
+100|The squash can finally take a few days off.|e=rire
+101|Me, on Friday, I made a mushroom
+102|quiche for a shared lunch at the office.
+103|You really made it yourself?|e=surpris
+104|Yes. My sister gave me her recipe.
+105|This time, I got my hands dirty.|B={"mode":"word","note":"= participer à la préparation, au travail","icon":"amis"}
+106|You took part in the preparation.
+107|That's the meaning of this expression,
+108|even when you're not cooking.
+109|To prepare the neighbourhood party,
+110|all the neighbours pitched in.|BE
+111|And your quiche?
+112|It smelled really good.
+113|I'd even tidied the kitchen before leaving.
+114|An event rare enough to be announced.|r=rire
+115|Did your colleagues like it?
+116|Yes. Then someone asked me what was in it.
+117|I answered: mushrooms,
+118|cheese and lots of goodwill.
+119|The eggs loved being forgotten.|e=rire r=gene
+120|I called my sister to check.
+121|She explained that the eggs
+122|contributed to the dish's protein intake.
+123|Protein intake.
+124|It's the amount of protein provided by what we eat.
+125|So I can say:
+126|chickpeas contribute to the protein
+127|intake of this salad.
+128|Yes. And proteins are used in particular to build
+129|and maintain the body's tissues.
+130|You find them in eggs, fish,
+131|dairy products, but also in pulses.
+132|Exactly. Several different foods can help meet our needs.
+133|My colleague had brought a white bean
+134|salad with a few vegetables and a lemon dressing.
+135|A good opportunity to talk about dietary fibre.
+136|That's the part of plant foods
+137|that our body doesn't fully digest?
+138|Yes. It notably helps keep digestion working well.
+139|You also find it in
+140|fruit and wholegrain cereals.
+141|For example, oat flakes provide
+142|dietary fibre at breakfast.|i=repas:le petit déjeuner
+143|That's it.
+144|You see, your shared lunch lets you discover several things.
+145|Especially since my quiche doesn't have to work alone.
+146|The other dishes can join its team.
+147|And the vegetables your colleagues brought?
+148|Very good.
+149|But next time, I'll write down the ingredients before leaving.
+150|My sister would like to eat lunch without answering my survey.
+151|Sometimes, what makes meals complicated
+152|is all the rules we hear.
+153|Yes. One person says to cut out bread.
+154|Another says to eat more cereals.
+155|I end up getting worked up about it.|e=gene B={"mode":"word","note":"= réfléchir tellement qu'on se stresse","icon":"stress"}
+156|You think so much that you stress yourself out.
+157|Exactly. To choose a present,
+158|I sometimes fret over it for days.|BE
+159|With food,
+160|we can also be afraid of getting it wrong.
+161|And budget or lack of time really matter.
+162|Me, I thought a light dinner had to be tiny.
+163|Once, I ate a few lettuce leaves,
+164|then I was still hungry.|e=triste B={"mode":"word","note":"= avoir encore faim après le repas","icon":"repas"}
+165|You were still hungry after the meal.
+166|That's the literal meaning of this expression.
+167|Can you use it another way too?
+168|Yes. The documentary was interesting, but too short.
+169|I was left wanting more.
+170|In my case, the documentary was a salad.
+171|Very short, indeed.|r=rire BE
+172|You could have added other foods depending on your appetite.
+173|Potatoes,
+174|beans or eggs, for example.
+175|Starchy foods, like potatoes or pasta,
+176|provide carbohydrates in particular.
+177|They provide energy.|i=sante:l'énergie
+178|And a varied diet also provides
+179|different vitamins and different minerals.
+180|So I can take an interest in what I
+181|eat without turning every meal into an exam.
+182|Yes, and we have different tastes and needs.
+183|At a shared meal, everyone can find something they like.|B={"mode":"word","note":"= trouver quelque chose qui nous convient","icon":"lecture"}
+184|That means finding something that suits you,
+185|that satisfies you.
+186|For example, in this library, everyone finds something for them:
+187|novels, comics or cookbooks.
+188|You already know which section to find me in!|e=rire BE
+189|Let's try a little scene.
+190|I work in a café
+191|and you come to order your lunch.
+192|You'll be able to answer before me.
+193|Hello!|B={"mode":"sketch","title":"En situation : au café"}
+194|Would you like to know what's in a dish?
+195|Your turn!
+196|How would you ask what's
+197|in the salad of the day?
+198|Take a few seconds.
+199|You can start with "What's in…?"
+200|Hello! What's in the salad
+201|of the day, please?
+202|Chickpeas, grated carrots,
+203|red cabbage and wholegrain semolina.|BE
+204|OK. I'm looking for something filling|B={"mode":"word","note":"= qui aide à satisfaire la faim","icon":"cafe"}
+205|because I have lunch quite early.
+206|Filling. It means the meal
+207|helps satisfy your hunger.
+208|For example, I find this
+209|breakfast more filling than yesterday's.|BE
+210|Very good. Let's go back to our café.|B={"mode":"sketch","title":"En situation : au café (suite)"}
+211|The salad comes with bread.
+212|Would you like the dressing on the side?
+213|Yes, thank you. What's in it?
+214|Rapeseed oil, vinegar,
+215|mustard and herbs.
+216|Perfect. I'll have this salad
+217|and a jug of water, please.
+218|Are you eating in?
+219|Yes. I have twenty minutes before going back to the office.
+220|Sit by the window.
+221|I'll bring that over.
+222|Thank you very much.|BE
+223|There you go. You asked about the ingredients,
+224|explained what you were looking for and chose your drink.
+225|Without reciting a whole nutrition lecture at the till.|r=rire
+226|You can reuse: I'm looking for something quick,
+227|hot, vegetarian or easy to take away.
+228|And if you don't understand an ingredient,
+229|just ask: "What's that?"
+230|For my next market trip,
+231|I'm going to favour two or three easy-to-cook vegetables.|B={"mode":"word","note":"= choisir en priorité, donner la préférence","icon":"courses"}
+232|Favour means choosing something first?|e=question
+233|Yes, giving it preference.
+234|To get around town, I prefer the tram.
+235|And I can favour recipes
+236|I know how to make without calling my sister.|BE
+237|Very good idea.|e=idee
+238|An omelette with vegetables and bread, for example.
+239|Or pasta with peas and fish.
+240|I can keep a few handy ingredients at home.
+241|Second idea: look at what we buy
+242|when hesitating between two similar products.
+243|I can read the ingredients list,|i=courses:la liste d'ingrédients
+244|it shows what was used to make the product.
+245|Yes, for example,
+246|I checked the ingredients list of this
+247|sauce to find out which oil it contained.
+248|And the nutrition table gives amounts of nutrients.
+249|To compare, you need to look at the same amount of product.
+250|The values per 100 grams, for example.
+251|But you can start with just one useful comparison.
+252|I take two soups, I look at their salt content,
+253|then I also choose based on my budget and my tastes.
+254|Exactly.
+255|Third idea: keep room for what we love.
+256|Treating yourself matters too.|B={"mode":"word","note":"= s'accorder quelque chose qu'on apprécie"}
+257|Treating yourself means allowing yourself something you enjoy.
+258|On Saturday, I treated
+259|myself to a cinema ticket.|BE
+260|And for meals,
+261|a portion of dessert can be part of a varied diet.
+262|Frequency and amounts matter.
+263|Same principle for fats,|i=sante:les matières grasses
+264|our body needs them.
+265|Their quality and quantity are important.
+266|You can vary your oils,
+267|for example with olive or rapeseed oil,
+268|without adding it everywhere.
+269|I'm going to try to change everything on Monday.
+270|My shopping, my recipes, my schedule.
+271|Or start little by little.|e=idee
+272|Gradually, in small steps.
+273|I learned to ride a bike little by little,|i=sport:le vélo
+274|in a quiet street.
+275|There you go, for this week, one new recipe may be enough.
+276|And think about water during your meals.
+277|OK, one recipe,
+278|one jug and no big speech to my saucepans.|r=rire
+279|Now, tell us about your dish from the start.
+280|Here's a simple structure.
+281|I often make…, there's…,
+282|I like this dish because…
+283|I often make a mushroom quiche.
+284|There are eggs, milk,
+285|mushrooms and a bit of cheese.
+286|I like this dish because I
+287|can share it with my colleagues.
+288|I often make a vegetable soup.|i=repas:une soupe de légumes
+289|There are carrots,
+290|leeks and potatoes.
+291|I like this dish because it warms me up
+292|and I can keep some for the next day.
+293|Your turn, say your sentence out loud.
+294|Even three very simple sentences,
+295|that's already a conversation starting.
+296|You can add…
+297|This week, I'm going to…
+298|Then choose a small change.
+299|This week, I'm going to write down the ingredients
+300|of my recipe before the shared lunch.
+301|Me, I'm going to check my schedule|i=temps:mon emploi du temps
+302|before filling my basket.
+303|You can reuse our structure with your own foods.
+304|The name of a dish from your country is perfect.
+305|Let's go back over five expressions.
+306|Listen, then repeat calmly with us.
+307|First, at the market,
+308|Léa's eyes were bigger than her stomach.
+309|She'd bought too much food.
+310|It's wanting to eat more than you really can.
+311|New example. I ordered two desserts, but
+312|I didn't finish the first one.
+313|Your eyes were bigger than your stomach.
+314|Let's repeat: avoir les yeux plus gros que le ventre.
+315|Next, you got your hands
+316|dirty making the quiche.
+317|Yes, I took part in the work.
+318|You can use this expression in cooking
+319|but also for helping with a project.
+320|Before the shop opened,
+321|the whole family pitched
+322|in to put up the shelves.
+323|Let's repeat: mettre la main à la pâte.
+324|Third expression: se prendre la tête.
+325|We used it to talk about
+326|the food rules that stress us out.|i=stress:le stress
+327|It's overcomplicating things or worrying too much.
+328|Example: don't stress about the decorations,
+329|a few flowers will do.
+330|Let's repeat: se prendre la tête.
+331|This expression is informal and common
+332|in a conversation between friends.
+333|Fourth expression: rester sur sa faim.
+334|After my little salad, I was still hungry.
+335|Figuratively, you expected more from something.
+336|Example: the tour ended too quickly,|i=voyage:la visite
+337|we were left wanting more.
+338|Let's repeat: rester sur sa faim.
+339|This time, nobody's asking for a second lunch.|r=rire
+340|And finally, trouver son compte.
+341|Everyone finds something that meets their expectations.
+342|Example: on that holiday, everyone found something they liked.
+343|My sister went cycling
+344|and I discovered the restaurants.
+345|Let's repeat: trouver son compte.
+346|Now choose one of these
+347|expressions and imagine another situation.
+348|Your example can be about food,
+349|work or an outing.
+350|The main thing is that it's like you.
+351|For your comment,
+352|write: I often make… because… This week I'm going to…
+353|You can also ask a question about an ingredient.
+354|We love discovering what people cook where you live.
+355|And if this episode helped you,
+356|subscribe to The Cozy French
+357|to keep practising with us.
+358|Listen again to a short exchange and repeat both roles.
+359|You can start with the order at the café.|i=cafe:le café
+360|Thank you for sharing this break with us.|e=coeur
+361|Take care and see you very soon!
+362|Goodbye everyone!|e=coeur
+363|I just have one thing left to sort out.
+364|Your quiche's CV?|e=question
+365|Yes. In the references section,
+366|should I put my sister's number?|r=rire
+367|Put the recipe instead,
+368|it finally deserves a quiet lunch break.

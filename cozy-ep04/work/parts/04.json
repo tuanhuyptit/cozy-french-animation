@@ -1,0 +1,360 @@
+[
+ {
+  "who": "mat",
+  "fr": "de ma recette avant le déjeuner partagé.",
+  "en": "of my recipe before the shared lunch."
+ },
+ {
+  "who": "lea",
+  "fr": "Moi, je vais vérifier mon emploi",
+  "en": "Me, I'm going to check my schedule",
+  "illus": "temps",
+  "label": "mon emploi du temps"
+ },
+ {
+  "who": "lea",
+  "fr": "du temps avant de remplir mon panier.",
+  "en": "before filling my basket."
+ },
+ {
+  "who": "mat",
+  "fr": "Vous pouvez reprendre notre structure avec vos propres aliments.",
+  "en": "You can reuse our structure with your own foods."
+ },
+ {
+  "who": "mat",
+  "fr": "Le nom d'un plat de votre pays convient parfaitement.",
+  "en": "The name of a dish from your country is perfect."
+ },
+ {
+  "who": "lea",
+  "fr": "Revenons sur cinq expressions.",
+  "en": "Let's go back over five expressions."
+ },
+ {
+  "who": "lea",
+  "fr": "Écoutez puis répétez tranquillement avec nous.",
+  "en": "Listen, then repeat calmly with us."
+ },
+ {
+  "who": "mat",
+  "fr": "D'abord, au marché,",
+  "en": "First, at the market,"
+ },
+ {
+  "who": "mat",
+  "fr": "Léa avait eu les yeux plus gros que le ventre.",
+  "en": "Léa's eyes were bigger than her stomach."
+ },
+ {
+  "who": "mat",
+  "fr": "Elle avait acheté trop de nourriture.",
+  "en": "She'd bought too much food."
+ },
+ {
+  "who": "lea",
+  "fr": "C'est vouloir manger plus qu'on ne peut réellement manger.",
+  "en": "It's wanting to eat more than you really can."
+ },
+ {
+  "who": "lea",
+  "fr": "Nouvel exemple. J'ai commandé deux desserts mais",
+  "en": "New example. I ordered two desserts, but"
+ },
+ {
+  "who": "lea",
+  "fr": "je n'ai pas terminé le premier.",
+  "en": "I didn't finish the first one."
+ },
+ {
+  "who": "mat",
+  "fr": "Tu avais les yeux plus gros que le ventre.",
+  "en": "Your eyes were bigger than your stomach."
+ },
+ {
+  "who": "mat",
+  "fr": "On répète, avoir les yeux plus gros que le ventre.",
+  "en": "Let's repeat: avoir les yeux plus gros que le ventre."
+ },
+ {
+  "who": "lea",
+  "fr": "Ensuite, tu as mis la main",
+  "en": "Next, you got your hands"
+ },
+ {
+  "who": "lea",
+  "fr": "à la pâte pour préparer la quiche.",
+  "en": "dirty making the quiche."
+ },
+ {
+  "who": "mat",
+  "fr": "Oui, j'ai participé au travail.",
+  "en": "Yes, I took part in the work."
+ },
+ {
+  "who": "mat",
+  "fr": "On peut employer cette expression en cuisine",
+  "en": "You can use this expression in cooking"
+ },
+ {
+  "who": "mat",
+  "fr": "mais aussi pour aider dans un projet.",
+  "en": "but also for helping with a project."
+ },
+ {
+  "who": "lea",
+  "fr": "Avant l'ouverture du magasin,",
+  "en": "Before the shop opened,"
+ },
+ {
+  "who": "lea",
+  "fr": "toute la famille a mis la main",
+  "en": "the whole family pitched"
+ },
+ {
+  "who": "lea",
+  "fr": "à la pâte pour installer les étagères.",
+  "en": "in to put up the shelves."
+ },
+ {
+  "who": "mat",
+  "fr": "On répète, mettre la main à la pâte.",
+  "en": "Let's repeat: mettre la main à la pâte."
+ },
+ {
+  "who": "lea",
+  "fr": "Troisième expression, se prendre la tête.",
+  "en": "Third expression: se prendre la tête."
+ },
+ {
+  "who": "lea",
+  "fr": "Nous l'avons utilisée pour parler",
+  "en": "We used it to talk about"
+ },
+ {
+  "who": "lea",
+  "fr": "des règles alimentaires qui nous stressent.",
+  "en": "the food rules that stress us out.",
+  "illus": "stress",
+  "label": "le stress"
+ },
+ {
+  "who": "mat",
+  "fr": "C'est se compliquer les choses ou trop s'inquiéter.",
+  "en": "It's overcomplicating things or worrying too much."
+ },
+ {
+  "who": "mat",
+  "fr": "Exemple, ne te prends pas la tête pour la décoration,",
+  "en": "Example: don't stress about the decorations,"
+ },
+ {
+  "who": "mat",
+  "fr": "quelques fleurs suffiront.",
+  "en": "a few flowers will do."
+ },
+ {
+  "who": "lea",
+  "fr": "On répète, se prendre la tête.",
+  "en": "Let's repeat: se prendre la tête."
+ },
+ {
+  "who": "lea",
+  "fr": "Cette expression est familière et fréquente",
+  "en": "This expression is informal and common"
+ },
+ {
+  "who": "lea",
+  "fr": "dans une conversation entre amis.",
+  "en": "in a conversation between friends."
+ },
+ {
+  "who": "mat",
+  "fr": "Quatrième expression, rester sur sa faim.",
+  "en": "Fourth expression: rester sur sa faim."
+ },
+ {
+  "who": "mat",
+  "fr": "Après ma petite salade, j'avais encore faim.",
+  "en": "After my little salad, I was still hungry."
+ },
+ {
+  "who": "lea",
+  "fr": "Au sens figuré, on attendait davantage de quelque chose.",
+  "en": "Figuratively, you expected more from something."
+ },
+ {
+  "who": "lea",
+  "fr": "Exemple, la visite s'est terminée trop vite,",
+  "en": "Example: the tour ended too quickly,",
+  "illus": "voyage",
+  "label": "la visite"
+ },
+ {
+  "who": "lea",
+  "fr": "nous sommes restés sur notre faim.",
+  "en": "we were left wanting more."
+ },
+ {
+  "who": "mat",
+  "fr": "On répète, rester sur sa faim.",
+  "en": "Let's repeat: rester sur sa faim."
+ },
+ {
+  "who": "mat",
+  "fr": "Cette fois, personne ne demande un deuxième déjeuner.",
+  "en": "This time, nobody's asking for a second lunch.",
+  "react": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Et enfin, trouver son compte.",
+  "en": "And finally, trouver son compte."
+ },
+ {
+  "who": "lea",
+  "fr": "Chacun trouve quelque chose qui répond à ses attentes.",
+  "en": "Everyone finds something that meets their expectations."
+ },
+ {
+  "who": "mat",
+  "fr": "Exemple, pendant ces vacances, chacun a trouvé son compte.",
+  "en": "Example: on that holiday, everyone found something they liked."
+ },
+ {
+  "who": "mat",
+  "fr": "Ma sœur a fait du vélo",
+  "en": "My sister went cycling"
+ },
+ {
+  "who": "mat",
+  "fr": "et moi j'ai découvert les restaurants.",
+  "en": "and I discovered the restaurants."
+ },
+ {
+  "who": "lea",
+  "fr": "On répète, trouver son compte.",
+  "en": "Let's repeat: trouver son compte."
+ },
+ {
+  "who": "lea",
+  "fr": "Choisissez maintenant une de ces",
+  "en": "Now choose one of these"
+ },
+ {
+  "who": "lea",
+  "fr": "expressions et imaginez une autre situation.",
+  "en": "expressions and imagine another situation."
+ },
+ {
+  "who": "mat",
+  "fr": "Votre exemple peut parler de nourriture,",
+  "en": "Your example can be about food,"
+ },
+ {
+  "who": "mat",
+  "fr": "de travail ou d'une sortie.",
+  "en": "work or an outing."
+ },
+ {
+  "who": "mat",
+  "fr": "L'essentiel, c'est qu'il vous ressemble.",
+  "en": "The main thing is that it's like you."
+ },
+ {
+  "who": "lea",
+  "fr": "Pour votre commentaire,",
+  "en": "For your comment,"
+ },
+ {
+  "who": "lea",
+  "fr": "écrivez Je prépare souvent parce que Cette semaine je vais",
+  "en": "write: I often make… because… This week I'm going to…"
+ },
+ {
+  "who": "mat",
+  "fr": "Vous pouvez aussi poser une question sur un ingrédient.",
+  "en": "You can also ask a question about an ingredient."
+ },
+ {
+  "who": "mat",
+  "fr": "Nous aimons découvrir ce qui se cuisine chez vous.",
+  "en": "We love discovering what people cook where you live."
+ },
+ {
+  "who": "lea",
+  "fr": "Et si cet épisode vous a aidés,",
+  "en": "And if this episode helped you,"
+ },
+ {
+  "who": "lea",
+  "fr": "abonnez-vous à The Cozy French",
+  "en": "subscribe to The Cozy French"
+ },
+ {
+  "who": "lea",
+  "fr": "pour continuer à pratiquer avec nous.",
+  "en": "to keep practising with us."
+ },
+ {
+  "who": "mat",
+  "fr": "Réécoutez un petit échange et répétez les deux rôles.",
+  "en": "Listen again to a short exchange and repeat both roles."
+ },
+ {
+  "who": "mat",
+  "fr": "Vous pouvez commencer par la commande au café.",
+  "en": "You can start with the order at the café.",
+  "illus": "cafe",
+  "label": "le café"
+ },
+ {
+  "who": "lea",
+  "fr": "Merci d'avoir partagé cette pause avec nous.",
+  "en": "Thank you for sharing this break with us.",
+  "emote": "coeur"
+ },
+ {
+  "who": "lea",
+  "fr": "Prenez soin de vous et à très bientôt !",
+  "en": "Take care and see you very soon!"
+ },
+ {
+  "who": "mat",
+  "fr": "Au revoir tout le monde !",
+  "en": "Goodbye everyone!",
+  "emote": "coeur"
+ },
+ {
+  "who": "mat",
+  "fr": "Il me reste juste une chose à régler.",
+  "en": "I just have one thing left to sort out."
+ },
+ {
+  "who": "lea",
+  "fr": "Le CV de ta quiche ?",
+  "en": "Your quiche's CV?",
+  "emote": "question"
+ },
+ {
+  "who": "mat",
+  "fr": "Oui, à la rubrique références,",
+  "en": "Yes. In the references section,"
+ },
+ {
+  "who": "mat",
+  "fr": "je mets le numéro de ma sœur.",
+  "en": "should I put my sister's number?",
+  "react": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Mets plutôt la recette,",
+  "en": "Put the recipe instead,"
+ },
+ {
+  "who": "lea",
+  "fr": "elle mérite enfin une pause déjeuner tranquille.",
+  "en": "it finally deserves a quiet lunch break."
+ }
+]

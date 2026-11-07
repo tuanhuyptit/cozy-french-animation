@@ -1,0 +1,538 @@
+[
+ {
+  "who": "mat",
+  "fr": "Bonjour ! Qu'est-ce qu'il y a dans la salade",
+  "en": "Hello! What's in the salad"
+ },
+ {
+  "who": "mat",
+  "fr": "du jour s'il vous plaît ?",
+  "en": "of the day, please?"
+ },
+ {
+  "who": "lea",
+  "fr": "Des pois chiches, des carottes râpées,",
+  "en": "Chickpeas, grated carrots,"
+ },
+ {
+  "who": "lea",
+  "fr": "du chou rouge et de la semoule complète.",
+  "en": "red cabbage and wholegrain semolina.",
+  "boardEnd": true
+ },
+ {
+  "who": "mat",
+  "fr": "D'accord. Je cherche quelque chose de [rassasiant]",
+  "en": "OK. I'm looking for something filling",
+  "board": {
+   "mode": "word",
+   "note": "= qui aide à satisfaire la faim",
+   "icon": "cafe"
+  }
+ },
+ {
+  "who": "mat",
+  "fr": "parce que je déjeune assez tôt.",
+  "en": "because I have lunch quite early."
+ },
+ {
+  "who": "lea",
+  "fr": "Rassasiant. Ça veut dire que le repas",
+  "en": "Filling. It means the meal"
+ },
+ {
+  "who": "lea",
+  "fr": "aide à satisfaire votre faim.",
+  "en": "helps satisfy your hunger."
+ },
+ {
+  "who": "mat",
+  "fr": "Par exemple, je trouve ce petit",
+  "en": "For example, I find this"
+ },
+ {
+  "who": "mat",
+  "fr": "déjeuner plus rassasiant que celui d'hier.",
+  "en": "breakfast more filling than yesterday's.",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Très bien. Revenons à notre café.",
+  "en": "Very good. Let's go back to our café.",
+  "board": {
+   "mode": "sketch",
+   "title": "En situation : au café (suite)"
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "La salade est servie avec du pain.",
+  "en": "The salad comes with bread."
+ },
+ {
+  "who": "lea",
+  "fr": "Vous préférez la sauce à part ?",
+  "en": "Would you like the dressing on the side?"
+ },
+ {
+  "who": "mat",
+  "fr": "Oui, merci. Qu'est-ce qu'elle contient ?",
+  "en": "Yes, thank you. What's in it?"
+ },
+ {
+  "who": "lea",
+  "fr": "De l'huile de colza, du vinaigre,",
+  "en": "Rapeseed oil, vinegar,"
+ },
+ {
+  "who": "lea",
+  "fr": "de la moutarde et des herbes.",
+  "en": "mustard and herbs."
+ },
+ {
+  "who": "mat",
+  "fr": "Parfait. Je vais prendre cette salade",
+  "en": "Perfect. I'll have this salad"
+ },
+ {
+  "who": "mat",
+  "fr": "et une carafe d'eau s'il vous plaît.",
+  "en": "and a jug of water, please."
+ },
+ {
+  "who": "lea",
+  "fr": "Vous mangez sur place ?",
+  "en": "Are you eating in?"
+ },
+ {
+  "who": "mat",
+  "fr": "Oui. J'ai vingt minutes avant de retourner au bureau.",
+  "en": "Yes. I have twenty minutes before going back to the office."
+ },
+ {
+  "who": "lea",
+  "fr": "Installez-vous près de la fenêtre.",
+  "en": "Sit by the window."
+ },
+ {
+  "who": "lea",
+  "fr": "Je vous apporte ça.",
+  "en": "I'll bring that over."
+ },
+ {
+  "who": "mat",
+  "fr": "Merci beaucoup.",
+  "en": "Thank you very much.",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Voilà. Tu as demandé les ingrédients,",
+  "en": "There you go. You asked about the ingredients,"
+ },
+ {
+  "who": "lea",
+  "fr": "expliqué ce que tu cherchais et choisi ta boisson.",
+  "en": "explained what you were looking for and chose your drink."
+ },
+ {
+  "who": "mat",
+  "fr": "Sans réciter tout un cours de nutrition devant la caisse.",
+  "en": "Without reciting a whole nutrition lecture at the till.",
+  "react": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Vous pouvez réutiliser je cherche quelque chose de rapide,",
+  "en": "You can reuse: I'm looking for something quick,"
+ },
+ {
+  "who": "lea",
+  "fr": "chaud, végétarien ou facile à emporter.",
+  "en": "hot, vegetarian or easy to take away."
+ },
+ {
+  "who": "mat",
+  "fr": "Et si vous ne comprenez pas un ingrédient,",
+  "en": "And if you don't understand an ingredient,"
+ },
+ {
+  "who": "mat",
+  "fr": "demandez simplement qu'est-ce que c'est ?",
+  "en": "just ask: \"What's that?\""
+ },
+ {
+  "who": "lea",
+  "fr": "Pour mon prochain marché,",
+  "en": "For my next market trip,"
+ },
+ {
+  "who": "lea",
+  "fr": "je vais [privilégier] deux ou trois légumes faciles à préparer.",
+  "en": "I'm going to favour two or three easy-to-cook vegetables.",
+  "board": {
+   "mode": "word",
+   "note": "= choisir en priorité, donner la préférence",
+   "icon": "courses"
+  }
+ },
+ {
+  "who": "mat",
+  "fr": "Privilégier, c'est choisir quelque chose en priorité ?",
+  "en": "Favour means choosing something first?",
+  "emote": "question"
+ },
+ {
+  "who": "lea",
+  "fr": "Oui, lui donner la préférence.",
+  "en": "Yes, giving it preference."
+ },
+ {
+  "who": "lea",
+  "fr": "Pour mes déplacements en ville, je privilégie le tram.",
+  "en": "To get around town, I prefer the tram."
+ },
+ {
+  "who": "mat",
+  "fr": "Et moi, je peux privilégier des recettes",
+  "en": "And I can favour recipes"
+ },
+ {
+  "who": "mat",
+  "fr": "que je sais faire sans appeler ma sœur.",
+  "en": "I know how to make without calling my sister.",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Très bonne idée.",
+  "en": "Very good idea.",
+  "emote": "idee"
+ },
+ {
+  "who": "lea",
+  "fr": "Une omelette avec des légumes et du pain par exemple.",
+  "en": "An omelette with vegetables and bread, for example."
+ },
+ {
+  "who": "mat",
+  "fr": "Ou des pâtes avec des petits pois et du poisson.",
+  "en": "Or pasta with peas and fish."
+ },
+ {
+  "who": "mat",
+  "fr": "Je peux garder quelques ingrédients pratiques chez moi.",
+  "en": "I can keep a few handy ingredients at home."
+ },
+ {
+  "who": "lea",
+  "fr": "Deuxième idée, regarder ce qu'on achète",
+  "en": "Second idea: look at what we buy"
+ },
+ {
+  "who": "lea",
+  "fr": "quand on hésite entre deux produits semblables.",
+  "en": "when hesitating between two similar products."
+ },
+ {
+  "who": "mat",
+  "fr": "Je peux lire la liste d'ingrédients,",
+  "en": "I can read the ingredients list,",
+  "illus": "courses",
+  "label": "la liste d'ingrédients"
+ },
+ {
+  "who": "mat",
+  "fr": "elle indique les éléments utilisés pour fabriquer le produit.",
+  "en": "it shows what was used to make the product."
+ },
+ {
+  "who": "lea",
+  "fr": "Oui, par exemple,",
+  "en": "Yes, for example,"
+ },
+ {
+  "who": "lea",
+  "fr": "j'ai consulté la liste d'ingrédients de cette",
+  "en": "I checked the ingredients list of this"
+ },
+ {
+  "who": "lea",
+  "fr": "sauce pour savoir quelle huile elle contenait.",
+  "en": "sauce to find out which oil it contained."
+ },
+ {
+  "who": "mat",
+  "fr": "Et le tableau nutritionnel donne des quantités de nutriments.",
+  "en": "And the nutrition table gives amounts of nutrients."
+ },
+ {
+  "who": "mat",
+  "fr": "Pour comparer, il faut regarder la même quantité de produit.",
+  "en": "To compare, you need to look at the same amount of product."
+ },
+ {
+  "who": "lea",
+  "fr": "Les valeurs pour 100 grammes par exemple.",
+  "en": "The values per 100 grams, for example."
+ },
+ {
+  "who": "lea",
+  "fr": "Mais on peut commencer avec une seule comparaison utile.",
+  "en": "But you can start with just one useful comparison."
+ },
+ {
+  "who": "mat",
+  "fr": "Je prends deux soupes, je regarde leur [teneur en] sel,",
+  "en": "I take two soups, I look at their salt content,"
+ },
+ {
+  "who": "mat",
+  "fr": "puis je choisis aussi selon mon budget et mes goûts.",
+  "en": "then I also choose based on my budget and my tastes."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement.",
+  "en": "Exactly."
+ },
+ {
+  "who": "lea",
+  "fr": "Troisième idée, garder une place pour ce qu'on aime.",
+  "en": "Third idea: keep room for what we love."
+ },
+ {
+  "who": "lea",
+  "fr": "[Se faire plaisir] compte aussi.",
+  "en": "Treating yourself matters too.",
+  "board": {
+   "mode": "word",
+   "note": "= s'accorder quelque chose qu'on apprécie"
+  }
+ },
+ {
+  "who": "mat",
+  "fr": "Se faire plaisir, c'est s'accorder quelque chose qu'on apprécie.",
+  "en": "Treating yourself means allowing yourself something you enjoy."
+ },
+ {
+  "who": "mat",
+  "fr": "Samedi, je me suis fait",
+  "en": "On Saturday, I treated"
+ },
+ {
+  "who": "mat",
+  "fr": "plaisir avec une place de cinéma.",
+  "en": "myself to a cinema ticket.",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Et pour les repas,",
+  "en": "And for meals,"
+ },
+ {
+  "who": "lea",
+  "fr": "une part de dessert peut faire partie d'une alimentation variée.",
+  "en": "a portion of dessert can be part of a varied diet."
+ },
+ {
+  "who": "lea",
+  "fr": "La fréquence et les quantités comptent.",
+  "en": "Frequency and amounts matter."
+ },
+ {
+  "who": "mat",
+  "fr": "Même principe pour les matières grasses,",
+  "en": "Same principle for fats,",
+  "illus": "sante",
+  "label": "les matières grasses"
+ },
+ {
+  "who": "mat",
+  "fr": "notre corps en a besoin.",
+  "en": "our body needs them."
+ },
+ {
+  "who": "mat",
+  "fr": "Leur qualité et leur quantité ont de l'importance.",
+  "en": "Their quality and quantity are important."
+ },
+ {
+  "who": "lea",
+  "fr": "On peut varier les huiles,",
+  "en": "You can vary your oils,"
+ },
+ {
+  "who": "lea",
+  "fr": "par exemple avec de l'huile d'olive ou de colza,",
+  "en": "for example with olive or rapeseed oil,"
+ },
+ {
+  "who": "lea",
+  "fr": "sans en ajouter partout.",
+  "en": "without adding it everywhere."
+ },
+ {
+  "who": "mat",
+  "fr": "Je vais essayer de tout changer lundi.",
+  "en": "I'm going to try to change everything on Monday."
+ },
+ {
+  "who": "mat",
+  "fr": "Mes courses, mes recettes, mes horaires.",
+  "en": "My shopping, my recipes, my schedule."
+ },
+ {
+  "who": "lea",
+  "fr": "Ou commencer [petit à petit.]",
+  "en": "Or start little by little.",
+  "emote": "idee"
+ },
+ {
+  "who": "mat",
+  "fr": "Progressivement, par petites étapes.",
+  "en": "Gradually, in small steps."
+ },
+ {
+  "who": "mat",
+  "fr": "J'ai appris à faire du vélo petit à petit,",
+  "en": "I learned to ride a bike little by little,",
+  "illus": "sport",
+  "label": "le vélo"
+ },
+ {
+  "who": "mat",
+  "fr": "dans une rue calme.",
+  "en": "in a quiet street."
+ },
+ {
+  "who": "lea",
+  "fr": "Voilà, pour cette semaine, une nouvelle recette suffit peut-être.",
+  "en": "There you go, for this week, one new recipe may be enough."
+ },
+ {
+  "who": "lea",
+  "fr": "Et pense à l'eau pendant tes repas.",
+  "en": "And think about water during your meals."
+ },
+ {
+  "who": "mat",
+  "fr": "D'accord, une recette,",
+  "en": "OK, one recipe,"
+ },
+ {
+  "who": "mat",
+  "fr": "une carafe et aucun grand discours à mes casseroles.",
+  "en": "one jug and no big speech to my saucepans.",
+  "react": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Maintenant, racontez votre plat du début.",
+  "en": "Now, tell us about your dish from the start."
+ },
+ {
+  "who": "lea",
+  "fr": "Voici une structure simple.",
+  "en": "Here's a simple structure."
+ },
+ {
+  "who": "lea",
+  "fr": "Je prépare souvent, il y a,",
+  "en": "I often make…, there's…,"
+ },
+ {
+  "who": "lea",
+  "fr": "j'aime ce plat parce que...",
+  "en": "I like this dish because…"
+ },
+ {
+  "who": "mat",
+  "fr": "Je prépare souvent une quiche aux champignons.",
+  "en": "I often make a mushroom quiche."
+ },
+ {
+  "who": "mat",
+  "fr": "Il y a des œufs, du lait,",
+  "en": "There are eggs, milk,"
+ },
+ {
+  "who": "mat",
+  "fr": "des champignons et un peu de fromage.",
+  "en": "mushrooms and a bit of cheese."
+ },
+ {
+  "who": "mat",
+  "fr": "J'aime ce plat parce que je",
+  "en": "I like this dish because I"
+ },
+ {
+  "who": "mat",
+  "fr": "peux le partager avec mes collègues.",
+  "en": "can share it with my colleagues."
+ },
+ {
+  "who": "lea",
+  "fr": "Je prépare souvent une soupe de légumes.",
+  "en": "I often make a vegetable soup.",
+  "illus": "repas",
+  "label": "une soupe de légumes"
+ },
+ {
+  "who": "lea",
+  "fr": "Il y a des carottes,",
+  "en": "There are carrots,"
+ },
+ {
+  "who": "lea",
+  "fr": "des poireaux et des pommes de terre.",
+  "en": "leeks and potatoes."
+ },
+ {
+  "who": "lea",
+  "fr": "J'aime ce plat parce qu'il me réchauffe",
+  "en": "I like this dish because it warms me up"
+ },
+ {
+  "who": "lea",
+  "fr": "et que je peux en garder pour le lendemain.",
+  "en": "and I can keep some for the next day."
+ },
+ {
+  "who": "mat",
+  "fr": "À votre tour, dites votre phrase à voix haute.",
+  "en": "Your turn, say your sentence out loud."
+ },
+ {
+  "who": "mat",
+  "fr": "Même trois phrases très simples,",
+  "en": "Even three very simple sentences,"
+ },
+ {
+  "who": "mat",
+  "fr": "c'est déjà une conversation qui commence.",
+  "en": "that's already a conversation starting."
+ },
+ {
+  "who": "lea",
+  "fr": "Vous pouvez ajouter...",
+  "en": "You can add…"
+ },
+ {
+  "who": "lea",
+  "fr": "Cette semaine, je vais...",
+  "en": "This week, I'm going to…"
+ },
+ {
+  "who": "lea",
+  "fr": "Puis choisir un petit changement.",
+  "en": "Then choose a small change."
+ },
+ {
+  "who": "mat",
+  "fr": "Cette semaine, je vais noter les ingrédients",
+  "en": "This week, I'm going to write down the ingredients"
+ }
+]

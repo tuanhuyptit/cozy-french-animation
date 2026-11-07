@@ -1,0 +1,532 @@
+[
+ {
+  "who": "lea",
+  "fr": "Bonjour tout le monde et bienvenue",
+  "en": "Hello everyone and welcome"
+ },
+ {
+  "who": "lea",
+  "fr": "sur The Cozy French !",
+  "en": "to The Cozy French!"
+ },
+ {
+  "who": "lea",
+  "fr": "Moi c'est Léa.",
+  "en": "I'm Léa."
+ },
+ {
+  "who": "mat",
+  "fr": "Et moi c'est Mathieu.",
+  "en": "And I'm Mathieu."
+ },
+ {
+  "who": "mat",
+  "fr": "Merci de passer ce moment avec nous.",
+  "en": "Thank you for spending this time with us."
+ },
+ {
+  "who": "mat",
+  "fr": "Installez-vous confortablement où que vous soyez.",
+  "en": "Get comfortable, wherever you are."
+ },
+ {
+  "who": "lea",
+  "fr": "Dans votre cuisine,",
+  "en": "In your kitchen,"
+ },
+ {
+  "who": "lea",
+  "fr": "dans le métro ou pendant une petite pause,",
+  "en": "on the metro or during a little break,"
+ },
+ {
+  "who": "lea",
+  "fr": "vous êtes les bienvenus.",
+  "en": "you're very welcome."
+ },
+ {
+  "who": "mat",
+  "fr": "Aujourd'hui, on parle de nourriture et de nutrition.",
+  "en": "Today, we're talking about food and nutrition.",
+  "illus": "repas",
+  "label": "la nourriture"
+ },
+ {
+  "who": "mat",
+  "fr": "Donc oui, j'ai accepté de préparer",
+  "en": "So yes, I agreed to prepare"
+ },
+ {
+  "who": "mat",
+  "fr": "cet épisode avec beaucoup d'enthousiasme.",
+  "en": "this episode with a lot of enthusiasm."
+ },
+ {
+  "who": "lea",
+  "fr": "Tu as même apporté un dossier.",
+  "en": "You even brought a file."
+ },
+ {
+  "who": "mat",
+  "fr": "C'est le CV de ma quiche.",
+  "en": "It's my quiche's CV.",
+  "react": "surpris"
+ },
+ {
+  "who": "mat",
+  "fr": "Elle cherche une place dans vos habitudes alimentaires.",
+  "en": "It's looking for a place in your eating habits."
+ },
+ {
+  "who": "lea",
+  "fr": "Ses principales compétences ?",
+  "en": "Its main skills?"
+ },
+ {
+  "who": "mat",
+  "fr": "Réunir les collègues autour de la table",
+  "en": "Bringing colleagues together around the table"
+ },
+ {
+  "who": "mat",
+  "fr": "et disparaître avant la fin de la pause.",
+  "en": "and disappearing before the end of the break.",
+  "react": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Cette conversation s'adresse aux niveaux B1 et B2.",
+  "en": "This conversation is for B1 and B2 levels."
+ },
+ {
+  "who": "lea",
+  "fr": "Nous allons parler lentement avec",
+  "en": "We're going to speak slowly, with"
+ },
+ {
+  "who": "lea",
+  "fr": "des situations de la vie quotidienne.",
+  "en": "situations from everyday life."
+ },
+ {
+  "who": "mat",
+  "fr": "À la fin,",
+  "en": "By the end,"
+ },
+ {
+  "who": "mat",
+  "fr": "vous saurez raconter vos habitudes alimentaires",
+  "en": "you'll be able to describe your eating habits"
+ },
+ {
+  "who": "mat",
+  "fr": "et poser des questions sur les ingrédients.",
+  "en": "and ask questions about ingredients."
+ },
+ {
+  "who": "lea",
+  "fr": "Vous pourrez aussi expliquer un petit changement",
+  "en": "You'll also be able to explain a small change"
+ },
+ {
+  "who": "lea",
+  "fr": "que vous aimeriez faire dans votre quotidien.",
+  "en": "you'd like to make in your daily life."
+ },
+ {
+  "who": "mat",
+  "fr": "Pas besoin de connaître tous les noms de vitamines.",
+  "en": "No need to know all the names of vitamins."
+ },
+ {
+  "who": "mat",
+  "fr": "Moi, je connais surtout les noms des fromages.",
+  "en": "Me, I mostly know the names of cheeses.",
+  "emote": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Nous allons parler de nos repas,",
+  "en": "We're going to talk about our meals,"
+ },
+ {
+  "who": "lea",
+  "fr": "de quelques nutriments et de la pression qu'on ressent parfois.",
+  "en": "a few nutrients and the pressure we sometimes feel."
+ },
+ {
+  "who": "mat",
+  "fr": "Parce que choisir son déjeuner ne devrait",
+  "en": "Because choosing your lunch shouldn't"
+ },
+ {
+  "who": "mat",
+  "fr": "pas demander une réunion de deux heures.",
+  "en": "require a two-hour meeting."
+ },
+ {
+  "who": "lea",
+  "fr": "Si vous ne comprenez pas chaque mot, continuez à écouter.",
+  "en": "If you don't understand every word, keep listening."
+ },
+ {
+  "who": "lea",
+  "fr": "Le contexte va vous aider.",
+  "en": "The context will help you."
+ },
+ {
+  "who": "mat",
+  "fr": "Et vous pouvez répéter une phrase qui vous plaît.",
+  "en": "And you can repeat a sentence you like."
+ },
+ {
+  "who": "mat",
+  "fr": "Votre prononciation peut avancer pendant que votre café refroidit.",
+  "en": "Your pronunciation can improve while your coffee cools down.",
+  "illus": "cafe",
+  "label": "votre café",
+  "react": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Pour commencer, pensez à un plat que vous préparez souvent.",
+  "en": "To start, think of a dish you often make."
+ },
+ {
+  "who": "lea",
+  "fr": "Qu'est-ce qu'il contient ?",
+  "en": "What's in it?"
+ },
+ {
+  "who": "mat",
+  "fr": "Et pourquoi vous plaît-il ?",
+  "en": "And why do you like it?"
+ },
+ {
+  "who": "mat",
+  "fr": "Son goût ?",
+  "en": "Its taste?"
+ },
+ {
+  "who": "mat",
+  "fr": "Son prix ?",
+  "en": "Its price?"
+ },
+ {
+  "who": "mat",
+  "fr": "Les souvenirs qu'il vous rappelle ?",
+  "en": "The memories it brings back?"
+ },
+ {
+  "who": "lea",
+  "fr": "Gardez votre réponse.",
+  "en": "Keep your answer."
+ },
+ {
+  "who": "lea",
+  "fr": "Nous vous aiderons à la raconter en français.",
+  "en": "We'll help you tell it in French."
+ },
+ {
+  "who": "mat",
+  "fr": "Vous pouvez aussi nous dire d'où vous écoutez cet épisode.",
+  "en": "You can also tell us where you're listening from."
+ },
+ {
+  "who": "mat",
+  "fr": "Je suis curieux de connaître les repas de votre quartier.",
+  "en": "I'm curious to know the dishes from your neighbourhood."
+ },
+ {
+  "who": "lea",
+  "fr": "Samedi dernier, je suis allée au marché vers 10 heures.",
+  "en": "Last Saturday, I went to the market around 10.",
+  "illus": "courses",
+  "label": "le marché"
+ },
+ {
+  "who": "lea",
+  "fr": "Il faisait frais et les commerçants",
+  "en": "It was chilly and the stallholders"
+ },
+ {
+  "who": "lea",
+  "fr": "installaient encore leurs derniers paniers.",
+  "en": "were still setting out their last baskets."
+ },
+ {
+  "who": "mat",
+  "fr": "Tu avais une liste ?",
+  "en": "Did you have a list?"
+ },
+ {
+  "who": "lea",
+  "fr": "Une petite liste, mais une très grande ambition.",
+  "en": "A small list, but a very big ambition."
+ },
+ {
+  "who": "lea",
+  "fr": "Je voulais retrouver [une alimentation équilibrée]",
+  "en": "I wanted to get back to a balanced diet"
+ },
+ {
+  "who": "lea",
+  "fr": "après plusieurs semaines de repas improvisés.",
+  "en": "after several weeks of improvised meals."
+ },
+ {
+  "who": "mat",
+  "fr": "Une alimentation équilibrée, ça veut dire quoi concrètement ?",
+  "en": "A balanced diet, what does that mean in practice?"
+ },
+ {
+  "who": "lea",
+  "fr": "C'est une façon de manger variée,",
+  "en": "It's a way of eating varied food,"
+ },
+ {
+  "who": "lea",
+  "fr": "avec différents aliments et des quantités adaptées à ses besoins.",
+  "en": "with different foods and amounts suited to your needs."
+ },
+ {
+  "who": "mat",
+  "fr": "Par exemple, ma sœur essaie de garder une alimentation",
+  "en": "For example, my sister tries to keep a balanced",
+  "illus": "famille",
+  "label": "ma sœur"
+ },
+ {
+  "who": "mat",
+  "fr": "équilibrée même quand elle voyage pour son travail.",
+  "en": "diet even when she travels for work."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Au marché, j'ai acheté des carottes,",
+  "en": "Exactly. At the market, I bought carrots,"
+ },
+ {
+  "who": "lea",
+  "fr": "un chou, des poireaux et des pommes.",
+  "en": "a cabbage, leeks and apples."
+ },
+ {
+  "who": "lea",
+  "fr": "Puis une courge magnifique.",
+  "en": "Then a magnificent squash."
+ },
+ {
+  "who": "mat",
+  "fr": "Magnifique comment ?",
+  "en": "Magnificent how?"
+ },
+ {
+  "who": "mat",
+  "fr": "Assez grosse pour avoir sa",
+  "en": "Big enough to have its"
+ },
+ {
+  "who": "mat",
+  "fr": "propre chaise dans le bus ?",
+  "en": "own seat on the bus?",
+  "react": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Presque. En rentrant, j'ai dû la porter",
+  "en": "Almost. On the way home, I had to carry it"
+ },
+ {
+  "who": "lea",
+  "fr": "contre moi comme un petit animal endormi.",
+  "en": "against me like a little sleeping animal.",
+  "react": "rire"
+ },
+ {
+  "who": "mat",
+  "fr": "Et tu avais prévu de cuisiner tout ça ?",
+  "en": "And had you planned to cook all that?"
+ },
+ {
+  "who": "lea",
+  "fr": "Oui, sauf que mercredi soir, les poireaux attendaient toujours.",
+  "en": "Yes, except that on Wednesday evening, the leeks were still waiting."
+ },
+ {
+  "who": "lea",
+  "fr": "J'avais eu [les yeux plus gros que le ventre.]",
+  "en": "My eyes had been bigger than my stomach.",
+  "board": {
+   "mode": "word",
+   "note": "= vouloir manger plus qu'on ne peut manger",
+   "icon": "repas"
+  },
+  "emote": "gene"
+ },
+ {
+  "who": "mat",
+  "fr": "Tu avais acheté plus que tu pouvais manger ?",
+  "en": "You'd bought more than you could eat?"
+ },
+ {
+  "who": "lea",
+  "fr": "Voilà. Cette expression signifie qu'on veut plus",
+  "en": "That's it. This expression means you want more"
+ },
+ {
+  "who": "lea",
+  "fr": "de nourriture qu'on ne peut en manger.",
+  "en": "food than you can actually eat."
+ },
+ {
+  "who": "mat",
+  "fr": "Au buffet de l'hôtel,",
+  "en": "At the hotel buffet,"
+ },
+ {
+  "who": "mat",
+  "fr": "j'ai eu les yeux plus gros que le ventre.",
+  "en": "my eyes were bigger than my stomach."
+ },
+ {
+  "who": "mat",
+  "fr": "Trois assiettes, c'était trop.",
+  "en": "Three plates was too much.",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Chez moi, le problème était aussi le temps.",
+  "en": "For me, the problem was also time."
+ },
+ {
+  "who": "lea",
+  "fr": "J'avais oublié ma réunion du lundi",
+  "en": "I'd forgotten my Monday meeting",
+  "illus": "travail",
+  "label": "ma réunion"
+ },
+ {
+  "who": "lea",
+  "fr": "et mon cours du mardi.",
+  "en": "and my Tuesday class."
+ },
+ {
+  "who": "mat",
+  "fr": "Ton panier avait un emploi",
+  "en": "Your basket had a calmer"
+ },
+ {
+  "who": "mat",
+  "fr": "du temps plus calme que toi.",
+  "en": "schedule than you.",
+  "react": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Beaucoup plus calme.",
+  "en": "Much calmer."
+ },
+ {
+  "who": "lea",
+  "fr": "Alors j'ai préparé une soupe pour plusieurs repas.",
+  "en": "So I made a soup for several meals."
+ },
+ {
+  "who": "lea",
+  "fr": "Et j'ai congelé une partie des légumes.",
+  "en": "And I froze some of the vegetables."
+ },
+ {
+  "who": "mat",
+  "fr": "Tout le panier a trouvé une destination ?",
+  "en": "Did the whole basket find a destination?"
+ },
+ {
+  "who": "lea",
+  "fr": "Oui. Mais la semaine prochaine,",
+  "en": "Yes. But next week,"
+ },
+ {
+  "who": "lea",
+  "fr": "je vais [varier les plaisirs] avec",
+  "en": "I'm going to ring the changes with",
+  "board": {
+   "mode": "word",
+   "note": "= changer pour garder du plaisir",
+   "icon": "nature"
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "moins de choses à la fois.",
+  "en": "fewer things at a time."
+ },
+ {
+  "who": "mat",
+  "fr": "Varier les plaisirs ?",
+  "en": "Ring the changes?"
+ },
+ {
+  "who": "lea",
+  "fr": "Changer ce qu'on fait ou ce",
+  "en": "Changing what you do or what"
+ },
+ {
+  "who": "lea",
+  "fr": "qu'on choisit pour garder du plaisir.",
+  "en": "you choose, to keep the pleasure."
+ },
+ {
+  "who": "mat",
+  "fr": "Pour varier les plaisirs,",
+  "en": "To ring the changes,"
+ },
+ {
+  "who": "mat",
+  "fr": "mon voisin choisit chaque dimanche un autre chemin de promenade.",
+  "en": "my neighbour picks a different walking route every Sunday.",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "C'est ça. Pour les repas,",
+  "en": "That's it. For meals,"
+ },
+ {
+  "who": "lea",
+  "fr": "je peux garder une base simple",
+  "en": "I can keep a simple base"
+ },
+ {
+  "who": "lea",
+  "fr": "et changer les légumes ou l'assaisonnement.",
+  "en": "and change the vegetables or the seasoning."
+ },
+ {
+  "who": "mat",
+  "fr": "Donc tu ne recommences pas",
+  "en": "So you don't reinvent"
+ },
+ {
+  "who": "mat",
+  "fr": "toute ta cuisine chaque soir ?",
+  "en": "your whole kitchen every evening?"
+ },
+ {
+  "who": "lea",
+  "fr": "Non. Et un légume surgelé peut aussi m'aider.",
+  "en": "No. And a frozen vegetable can help me too."
+ },
+ {
+  "who": "lea",
+  "fr": "Je n'ai pas besoin d'une nouvelle",
+  "en": "I don't need another"
+ },
+ {
+  "who": "lea",
+  "fr": "visite au marché pour préparer chaque dîner.",
+  "en": "trip to the market to make every dinner."
+ }
+]

@@ -1,0 +1,2158 @@
+{
+ "scene": "salon",
+ "lea": "cardigan",
+ "mat": "hoodie",
+ "audio": "assets/voice.mp3",
+ "audioEnd": 1058.34,
+ "chunks": [
+  {
+   "who": "lea",
+   "hz": 286,
+   "fr": "Bonjour tout le monde et bienvenue sur The Cosy French !",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 205,
+   "fr": "Moi c'est Léa.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 154,
+   "fr": "Et moi c'est Mathieu.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 145,
+   "fr": "Merci de passer ce moment avec nous.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 190,
+   "fr": "Installez-vous confortablement où que vous soyez.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 216,
+   "fr": "Dans votre cuisine, dans le métro ou pendant une petite pause,",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 205,
+   "fr": "vous êtes les bienvenus.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 143,
+   "fr": "Aujourd'hui, on parle de nourriture et de nutrition.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 133,
+   "fr": "Donc oui, j'ai accepté de préparer cet épisode avec beaucoup d'enthousiasme.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 211,
+   "fr": "Tu as même apporté un dossier.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 151,
+   "fr": "C'est le CV de ma quiche.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 131,
+   "fr": "Elle cherche une place dans vos habitudes alimentaires.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 267,
+   "fr": "Ses principales compétences ?",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 145,
+   "fr": "Réunir les collègues autour de la table et disparaître",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 129,
+   "fr": "avant la fin de la pause.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 211,
+   "fr": "Cette conversation s'adresse au niveau B1 et B2.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 216,
+   "fr": "Nous allons parler lentement avec des situations de la vie quotidienne.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 129,
+   "fr": "À la fin, vous saurez raconter vos habitudes alimentaires",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 145,
+   "fr": "et poser des questions sur les ingrédients.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 250,
+   "fr": "Vous pourrez aussi expliquer un petit changement que vous",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 216,
+   "fr": "aimeriez faire dans votre quotidien.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 140,
+   "fr": "Pas besoin de connaître tous les noms de vitamines.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 140,
+   "fr": "Moi, je connais surtout les noms des fromages.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 222,
+   "fr": "Nous allons parler de nos repas,",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 242,
+   "fr": "de quelques nutriments et de la pression qu'on ressent parfois.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 129,
+   "fr": "Parce que choisir son déjeuner ne devrait pas demander",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 119,
+   "fr": "une réunion de deux heures.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 250,
+   "fr": "Si vous ne comprenez pas chaque mot,",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 229,
+   "fr": "continuez à écouter.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 200,
+   "fr": "Le contexte va vous aider.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 131,
+   "fr": "Et vous pouvez répéter une phrase qui vous plaît.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 125,
+   "fr": "Votre prononciation peut avancer pendant que votre café refroidit.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 235,
+   "fr": "Pour commencer, pensez à un plat que vous préparez souvent.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 205,
+   "fr": "Qu'est-ce qu'il contient ?",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 127,
+   "fr": "Et pourquoi vous plaît-il ?",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 174,
+   "fr": "Son goût ?",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 250,
+   "fr": "Son prix ?",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 127,
+   "fr": "Les souvenirs qu'il vous rappelle ?",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 235,
+   "fr": "Gardez votre réponse.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 205,
+   "fr": "Nous vous aiderons à la raconter en français.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 131,
+   "fr": "Vous pouvez aussi nous dire d'où vous écoutez cet épisode.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 129,
+   "fr": "Je suis curieux de connaître les repas de votre quartier.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 222,
+   "fr": "Samedi dernier, je suis allée au marché vers 10 heures.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 211,
+   "fr": "Il faisait frais et les commerçants installaient encore leur dernier panier.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 129,
+   "fr": "Tu avais une liste ?",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 211,
+   "fr": "Une petite liste, mais une très grande ambition.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 211,
+   "fr": "Je voulais retrouver une alimentation équilibrée après plusieurs semaines de repas improvisés.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 125,
+   "fr": "Une alimentation équilibrée, ça veut dire quoi concrètement ?",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 229,
+   "fr": "C'est une façon de manger variés,",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 216,
+   "fr": "avec différents aliments et des quantités adaptées à ses besoins.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 138,
+   "fr": "Par exemple, ma sœur essaie de garder une alimentation",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 127,
+   "fr": "équilibrée même quand elle voyage pour son travail.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 195,
+   "fr": "Exactement.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 205,
+   "fr": "Au marché, j'ai acheté des carottes,",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 211,
+   "fr": "un chou, des poireaux et des pommes.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 229,
+   "fr": "Puis une courge magnifique.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 140,
+   "fr": "Magnifique comment ?",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 136,
+   "fr": "Assez grosse pour avoir sa propre chaise dans le bus ?",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 235,
+   "fr": "Presque.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 242,
+   "fr": "En rentrant, j'ai dû la porter contre moi comme",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 222,
+   "fr": "un petit animal endormi.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 136,
+   "fr": "Et tu avais prévu de cuisiner tout ça ?",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 229,
+   "fr": "Oui, sauf que mercredi soir,",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 222,
+   "fr": "les poireaux attendaient toujours.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 211,
+   "fr": "J'avais eu les yeux plus gros que le ventre.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 143,
+   "fr": "Tu avais acheté plus que tu pouvais manger ?",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 195,
+   "fr": "Voilà.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 235,
+   "fr": "Cette expression signifie qu'on veut plus de nourriture qu'on",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 200,
+   "fr": "ne peut en manger.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 129,
+   "fr": "Au buffet de l'hôtel, j'ai eu les yeux plus",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 127,
+   "fr": "gros que le ventre.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 154,
+   "fr": "Trois assiettes, c'était trop.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 235,
+   "fr": "Chez moi, le problème était aussi le temps.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 205,
+   "fr": "J'avais oublié ma réunion du lundi et mon cours du mardi.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 129,
+   "fr": "Ton panier avait un emploi du temps plus calme que toi.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 170,
+   "fr": "Beaucoup plus calme.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 235,
+   "fr": "Alors j'ai préparé une soupe pour plusieurs repas.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 216,
+   "fr": "Et j'ai congelé une partie des légumes.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 133,
+   "fr": "Tout le panier a trouvé une destination ?",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 205,
+   "fr": "Oui.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 205,
+   "fr": "Mais la semaine prochaine, je vais varier les plaisirs",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 205,
+   "fr": "avec moins de choses à la fois.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 145,
+   "fr": "Varier les plaisirs ?",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 216,
+   "fr": "Changer ce qu'on fait ou ce qu'on choisit pour garder du plaisir.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 127,
+   "fr": "Pour varier les plaisirs, mon voisin choisit chaque dimanche",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 125,
+   "fr": "un autre chemin de promenade.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 229,
+   "fr": "C'est ça.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 229,
+   "fr": "Pour les repas, je peux garder une base simple",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 235,
+   "fr": "et changer les légumes ou l'assaisonnement.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 174,
+   "fr": "Donc tu ne recommences pas toute ta cuisine chaque soir ?",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 195,
+   "fr": "Non.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 229,
+   "fr": "Et un légume surgelé peut aussi m'aider.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 216,
+   "fr": "Je n'ai pas besoin d'une nouvelle visite au marché",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 186,
+   "fr": "pour préparer chaque dîner.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 163,
+   "fr": "La cour, je peux t'enfin prendre quelques jours de vacances.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 148,
+   "fr": "Moi, vendredi, j'ai préparé une quiche aux champignons pour",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 136,
+   "fr": "un déjeuner partagé au bureau.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 235,
+   "fr": "Tu l'as vraiment fait toi-même ?",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 205,
+   "fr": "Oui.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 148,
+   "fr": "Ma sœur m'a donné sa recette.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 127,
+   "fr": "Cette fois, j'ai mis la main à la pâte.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 205,
+   "fr": "Tu as participé à la préparation.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 200,
+   "fr": "C'est le sens de cette expression,",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 216,
+   "fr": "même quand on ne cuisine pas.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 145,
+   "fr": "Pour préparer la fête du quartier,",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 138,
+   "fr": "tous les voisins ont mis la main à la pâte.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 222,
+   "fr": "Et ta quiche ?",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 129,
+   "fr": "Elle sentait très bon.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 143,
+   "fr": "J'avais même rangé la cuisine avant de partir.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 160,
+   "fr": "Un événement assez rare pour être annoncé.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 235,
+   "fr": "Tes collègues ont apprécié ?",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 195,
+   "fr": "Oui.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 167,
+   "fr": "Puis quelqu'un m'a demandé ce qu'elle contenait.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 119,
+   "fr": "J'ai répondu « des champignons,",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 167,
+   "fr": "du fromage et beaucoup de bonne volonté ».",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 216,
+   "fr": "Les œufs ont apprécié d'être oubliés.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 140,
+   "fr": "J'ai appelé ma sœur pour vérifier.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 154,
+   "fr": "Elle m'a expliqué que les œufs contribuaient à l'apport",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 170,
+   "fr": "en protéines du plat.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 186,
+   "fr": "L'apport en protéines.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 242,
+   "fr": "C'est la quantité de protéines fournie par ce qu'on mange.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 151,
+   "fr": "Donc je peux dire, les pois chiches contribuent à",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 136,
+   "fr": "l'apport en protéines de cette salade.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 229,
+   "fr": "Oui.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 222,
+   "fr": "Et les protéines servent notamment à construire et entretenir",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 216,
+   "fr": "les tissus du corps.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 131,
+   "fr": "On en trouve dans les œufs,",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 148,
+   "fr": "le poisson, les produits laitiers mais aussi les légumes secs.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 205,
+   "fr": "Exactement.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 216,
+   "fr": "Plusieurs aliments différents peuvent contribuer à nos besoins.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 151,
+   "fr": "Mon collègue avait apporté une salade de haricots blancs",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 121,
+   "fr": "avec quelques légumes et une sauce au citron.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 235,
+   "fr": "Une bonne occasion de parler des fibres alimentaires.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 182,
+   "fr": "Ce sont les parties des aliments végétaux que notre",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 190,
+   "fr": "corps ne digère pas complètement ?",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 211,
+   "fr": "Oui.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 216,
+   "fr": "Elles participent notamment au bon fonctionnement du transit.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 205,
+   "fr": "On en trouve aussi dans les fruits et les céréales complètes.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 143,
+   "fr": "Par exemple, les flocons d'avoine apportent des fibres alimentaires au petit-déjeuner.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 195,
+   "fr": "Voilà.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 229,
+   "fr": "Tu vois, ton déjeuner partagé permet de découvrir plusieurs choses.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 133,
+   "fr": "Surtout que ma quiche n'est pas obligée de travailler seule.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 143,
+   "fr": "Les autres plats peuvent rejoindre son équipe.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 235,
+   "fr": "Et les légumes que tes collègues ont apportés ?",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 222,
+   "fr": "Très bon.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 138,
+   "fr": "Mais la prochaine fois, j'écris les ingrédients avant de partir.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 131,
+   "fr": "Ma sœur aimerait déjeuner sans répondre à mon enquête.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 235,
+   "fr": "Parfois, ce qui complique les repas,",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 222,
+   "fr": "ce sont toutes les règles qu'on entend.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 154,
+   "fr": "Oui.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 151,
+   "fr": "Une personne dit de supprimer le pain.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 140,
+   "fr": "Une autre dit de manger davantage de céréales.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 121,
+   "fr": "Je finis par me prendre la tête.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 211,
+   "fr": "Tu réfléchis tellement que tu te stresses.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 110,
+   "fr": "Exactement.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 148,
+   "fr": "Pour choisir un cadeau, je me prends parfois la",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 129,
+   "fr": "tête pendant des jours.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 235,
+   "fr": "Avec la nourriture, on peut aussi avoir peur de mal faire.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 205,
+   "fr": "Et le budget ou le manque de temps compte vraiment.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 129,
+   "fr": "Moi, je pensais qu'un dîner léger devait être minuscule.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 154,
+   "fr": "Une fois, j'ai mangé quelques feuilles de salade,",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 131,
+   "fr": "puis je suis resté sur ma faim.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 216,
+   "fr": "Tu avais encore faim après le repas.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 216,
+   "fr": "C'est le sens concret de cette expression.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 154,
+   "fr": "On peut aussi l'utiliser autrement ?",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 229,
+   "fr": "Oui.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 229,
+   "fr": "Le documentaire était intéressant, mais trop court.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 211,
+   "fr": "Je suis restée sur ma faim.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 129,
+   "fr": "Dans mon cas, le documentaire était une salade.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 98,
+   "fr": "Très court, effectivement.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 229,
+   "fr": "Tu aurais pu y ajouter d'autres aliments selon ton appétit.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 195,
+   "fr": "Des pommes de terre, des haricots ou des œufs par exemple.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 118,
+   "fr": "Les féculents, comme les pommes de terre ou les pâtes,",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 143,
+   "fr": "apportent notamment des glucides.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 136,
+   "fr": "Ils fournissent de l'énergie.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 211,
+   "fr": "Et une alimentation variée apporte aussi différentes vitamines et différents minéraux.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 148,
+   "fr": "Donc, je peux m'intéresser à ce que je mange",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 116,
+   "fr": "sans transformer chaque repas en examen.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 222,
+   "fr": "Oui, et nous avons des goûts et des besoins différents.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 211,
+   "fr": "Dans un repas partagé, chacun peut trouver son compte.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 174,
+   "fr": "Ça veut dire trouver quelque chose qui lui convient,",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 170,
+   "fr": "qui le satisfait.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 216,
+   "fr": "Par exemple, dans cette bibliothèque,",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 200,
+   "fr": "chacun trouve son compte, roman,",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 216,
+   "fr": "bande dessinée ou livre de cuisine.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 136,
+   "fr": "Tu sais déjà dans quel rayon me chercher !",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 250,
+   "fr": "Essayons une petite scène.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 222,
+   "fr": "Je travaille dans un café et tu viens commander ton déjeuner.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 116,
+   "fr": "Vous allez pouvoir répondre avant moi.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 333,
+   "fr": "Bonjour !",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 242,
+   "fr": "Vous souhaitez connaître la composition d'un plat ?",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 211,
+   "fr": "À vous !",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 178,
+   "fr": "Comment demanderiez-vous ce qu'il y a dans la salade du jour ?",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 127,
+   "fr": "Prenez quelques secondes.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 267,
+   "fr": "Vous pouvez commencer par « Qu'est-ce qu'il y a dans ?",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 182,
+   "fr": "» Bonjour !",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 123,
+   "fr": "Qu'est-ce qu'il y a dans la salade du jour",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 160,
+   "fr": "s'il vous plaît ?",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 205,
+   "fr": "Des pois chiches, des carottes râpées,",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 222,
+   "fr": "du chou rouge et de la semoule complète.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 113,
+   "fr": "D'accord.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 138,
+   "fr": "Je cherche quelque chose de rassasiant parce que je déjeune assez tôt.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 222,
+   "fr": "Rassasiant.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 222,
+   "fr": "Ça veut dire que le repas aide à satisfaire votre faim.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 151,
+   "fr": "Par exemple, je trouve ce petit déjeuner plus rassasiant que celui d'hier.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 333,
+   "fr": "Très bien.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 296,
+   "fr": "Revenons à notre café.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 195,
+   "fr": "La salade est servie avec du pain.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 200,
+   "fr": "Vous préférez la sauce à part ?",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 140,
+   "fr": "Oui, merci.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 195,
+   "fr": "Qu'est-ce qu'elle contient ?",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 205,
+   "fr": "De l'huile de colza, du vinaigre,",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 200,
+   "fr": "de la moutarde et des herbes.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 125,
+   "fr": "Parfait.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 140,
+   "fr": "Je vais prendre sept salades et une carafe d'eau s'il vous plaît.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 222,
+   "fr": "Vous mangez sur place ?",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 205,
+   "fr": "Oui.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 127,
+   "fr": "J'ai vingt minutes avant de retourner au bureau.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 200,
+   "fr": "Installez-vous près de la fenêtre.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 195,
+   "fr": "Je vous apporte ça.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 205,
+   "fr": "Merci beaucoup.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 267,
+   "fr": "Voilà.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 222,
+   "fr": "Tu as demandé les ingrédients,",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 190,
+   "fr": "expliqué ce que tu cherchais et choisi ta boisson.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 148,
+   "fr": "Sans réciter tout un cours de nutrition devant la caisse.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 235,
+   "fr": "Vous pouvez réutiliser « je cherche quelque chose de rapide,",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 229,
+   "fr": "chaud, végétarien ou facile à emporter ».",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 121,
+   "fr": "Et si vous ne comprenez pas un ingrédient,",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 138,
+   "fr": "demandez simplement « qu'est-ce que c'est ?",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 267,
+   "fr": "» Pour mon prochain marché,",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 250,
+   "fr": "je vais privilégier deux ou trois légumes faciles à préparer.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 157,
+   "fr": "Privilégier, c'est choisir quelque chose en priorité ?",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 235,
+   "fr": "Oui, lui donner la préférence.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 235,
+   "fr": "Pour mes déplacements en ville,",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 211,
+   "fr": "je privilégie le tram.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 167,
+   "fr": "Et moi, je peux privilégier des recettes que je",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 127,
+   "fr": "sais faire sans appeler ma sœur.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 205,
+   "fr": "Très bonne idée.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 211,
+   "fr": "Une omelette avec des légumes et du pain par exemple.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 129,
+   "fr": "Ou des pâtes avec des petits pois et du poisson.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 123,
+   "fr": "Je peux garder quelques ingrédients pratiques chez moi.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 216,
+   "fr": "Deuxième idée, regarder ce qu'on achète quand on hésite",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 205,
+   "fr": "entre deux produits semblables.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 140,
+   "fr": "Je peux lire la liste d'ingrédients,",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 138,
+   "fr": "elle indique les éléments utilisés pour fabriquer le produit.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 222,
+   "fr": "Oui, par exemple, j'ai consulté la liste d'ingrédients de",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 216,
+   "fr": "cette sauce pour savoir quelle huile elle contenait.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 140,
+   "fr": "Et le tableau nutritionnel donne des quantités de nutriments.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 116,
+   "fr": "Pour comparer, il faut regarder la même quantité de produits.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 195,
+   "fr": "Les valeurs pour 100 grammes par exemple.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 267,
+   "fr": "Mais on peut commencer avec une seule comparaison utile.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 127,
+   "fr": "Je prends deux soupes, je regarde leur teneur en sel,",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 138,
+   "fr": "puis je choisis aussi selon mon budget et mes goûts.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 205,
+   "fr": "Exactement.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 216,
+   "fr": "Troisième idée, garder une place pour ce qu'on aime.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 200,
+   "fr": "Se faire plaisir compte aussi.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 148,
+   "fr": "Se faire plaisir, c'est s'accorder quelque chose qu'on apprécie.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 125,
+   "fr": "Samedi, je me suis fait plaisir avec une place de cinéma.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 216,
+   "fr": "Et pour les repas, une part de dessert peut",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 216,
+   "fr": "faire partie d'une alimentation variée.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 216,
+   "fr": "La fréquence et les quantités comptent.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 125,
+   "fr": "Même principe para les matières grasses,",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 118,
+   "fr": "notre corps en a besoin.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 116,
+   "fr": "Leur qualité et leur quantité ont de l'importance.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 250,
+   "fr": "On peut varier les huiles,",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 186,
+   "fr": "par exemple avec de l'huile d'olive ou de colza,",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 229,
+   "fr": "sans en ajouter partout.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 148,
+   "fr": "Je vais essayer de tout changer lundi.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 138,
+   "fr": "Mes courses, mes recettes, mes horaires.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 242,
+   "fr": "Ou commencer petit à petit.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 125,
+   "fr": "Progressivement, par petites étapes.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 163,
+   "fr": "J'ai appris à faire du vélo petit à petit,",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 118,
+   "fr": "dans une rue calme.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 222,
+   "fr": "Voilà, pour cette semaine, une nouvelle recette suffit peut-être.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 222,
+   "fr": "Et pense à l'eau pendant tes repas.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 140,
+   "fr": "D'accord, une recette, une carafe et aucun grand discours à mes casseroles.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 235,
+   "fr": "Maintenant, racontez votre plat du début.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 276,
+   "fr": "Voici une structure simple.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 200,
+   "fr": "Je prépare souvent, il y a,",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 216,
+   "fr": "j'aime ce plat parce que...",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 163,
+   "fr": "Je prépare souvent une quiche aux champignons.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 133,
+   "fr": "Il y a des œufs,",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 140,
+   "fr": "du lait, des champignons et un peu de fromage.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 136,
+   "fr": "J'aime ce plat parce que je peux le partager avec mes collègues.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 242,
+   "fr": "Je prépare souvent une soupe de légumes.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 222,
+   "fr": "Il y a des carottes,",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 205,
+   "fr": "des poireaux et des pommes de terre.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 216,
+   "fr": "J'aime ce plat parce qu'il me réchauffe et que",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 195,
+   "fr": "je peux en garder pour le lendemain.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 151,
+   "fr": "À votre tour, dites votre phrase à voix haute.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 195,
+   "fr": "Même trois phrases très simples,",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 129,
+   "fr": "c'est déjà une conversation qui commence.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 222,
+   "fr": "Vous pouvez ajouter...",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 296,
+   "fr": "Cette semaine, je vais...",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 276,
+   "fr": "Puis choisir un petit changement.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 148,
+   "fr": "Cette semaine, je vais noter les ingrédients de ma",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 125,
+   "fr": "recette avant le déjeuner partagé.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 242,
+   "fr": "Moi, je vais vérifier mon emploi du temps avant",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 200,
+   "fr": "de remplir mon panier.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 154,
+   "fr": "Vous pouvez reprendre notre structure avec vos propres aliments.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 119,
+   "fr": "Le nom d'un plat de votre pays convient parfaitement.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 276,
+   "fr": "Revenons sur cinq expressions.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 216,
+   "fr": "Écoutez puis répétez tranquillement avec nous.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 163,
+   "fr": "D'abord, au marché, Léa avait eu les yeux plus",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 140,
+   "fr": "gros que le ventre.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 133,
+   "fr": "Elle avait acheté trop de nourriture.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 222,
+   "fr": "C'est vouloir manger plus qu'on ne peut réellement manger.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 242,
+   "fr": "Nouvelle exemple.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 200,
+   "fr": "J'ai commandé deux desserts mais je n'ai pas terminé le premier.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 151,
+   "fr": "Tu avais les yeux plus gros que le ventre.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 133,
+   "fr": "On répète, avoir les yeux plus gros que le ventre.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 242,
+   "fr": "Ensuite, tu as mis la main à la pâte",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 242,
+   "fr": "pour préparer la quiche.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 163,
+   "fr": "Oui, j'ai participé au travail.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 195,
+   "fr": "On peut employer cette expression en cuisine mais aussi",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 118,
+   "fr": "pour aider dans un projet.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 229,
+   "fr": "Avant l'ouverture du magasin, toute la famille a mis",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 190,
+   "fr": "la main à la pâte pour installer les étagères.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 123,
+   "fr": "On répète, mettre la main à la pâte.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 250,
+   "fr": "Troisième expression, se prendre la tête.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 222,
+   "fr": "Nous savons utiliser pour parler des règles alimentaires qui nous stressent.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 151,
+   "fr": "C'est se compliquer les choses ou trop s'inquiéter.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 148,
+   "fr": "Exemple, ne te prends pas la tête pour la décoration,",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 186,
+   "fr": "quelques fleurs suffiront.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 205,
+   "fr": "On répète, se prendre la tête.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 211,
+   "fr": "Cette expression est familière et fréquente dans une conversation entre amis.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 148,
+   "fr": "Quatrième expression, rester sur sa faim.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 131,
+   "fr": "Après ma petite salade, j'avais encore faim.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 229,
+   "fr": "Au sens figuré, on attendait davantage de quelque chose.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 216,
+   "fr": "Exemple, la visite s'est terminée trop vite,",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 200,
+   "fr": "nous sommes restés sur notre faim.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 154,
+   "fr": "On répète, rester sur sa faim.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 138,
+   "fr": "Cette fois, personne ne demande un deuxième déjeuner.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 235,
+   "fr": "Et enfin, trouver son compte.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 242,
+   "fr": "Chacun trouve quelque chose qui répond à ses attentes.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 131,
+   "fr": "Exemple, pendant ses vacances, chacun a trouvé son compte.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 123,
+   "fr": "Ma sœur a fait du vélo et moi j'ai découvert les restaurants.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 242,
+   "fr": "On répète, trouver son compte.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 276,
+   "fr": "Choisissez maintenant une de ces expressions et imaginez une autre situation.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 148,
+   "fr": "Votre exemple peut parler de nourriture,",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 127,
+   "fr": "de travail ou d'une sortie.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 140,
+   "fr": "L'essentiel, c'est qu'il vous ressemble.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 229,
+   "fr": "Pour votre commentaire, écrivez Je prépare souvent parce que",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 157,
+   "fr": "Cette semaine je vais Vous pouvez aussi poser une",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 131,
+   "fr": "question sur un ingrédient.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 138,
+   "fr": "Nous aimons découvrir ce qui se cuisine chez vous.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 242,
+   "fr": "Et si cet épisode vous a aidé,",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 211,
+   "fr": "abonnez-vous à The Cozy French pour continuer à pratiquer avec nous.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 143,
+   "fr": "Réécoutez un petit échange et répétez les deux rôles.",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 119,
+   "fr": "Vous pouvez commencer par la commande au café.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 216,
+   "fr": "Merci d'avoir partagé cette pause avec nous.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 242,
+   "fr": "Prenez soin de vous et à très bientôt !",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 167,
+   "fr": "Au revoir tout le monde !",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 157,
+   "fr": "Il me reste juste une chose à régler.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 235,
+   "fr": "Le CV de ta quiche ?",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 125,
+   "fr": "Oui, à la rubrique référence,",
+   "en": ""
+  },
+  {
+   "who": "mat",
+   "hz": 129,
+   "fr": "je mets le numéro de ma sœur.",
+   "en": ""
+  },
+  {
+   "who": "lea",
+   "hz": 235,
+   "fr": "Mais plutôt la recette, elle mérite enfin une pause déjeuner tranquille.",
+   "en": ""
+  }
+ ],
+ "vocab": []
+}
