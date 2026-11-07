@@ -12,6 +12,7 @@ Animated podcast template for learning French (B1–B2): word-synced karaoke sub
 | `cozy-ep01/tools/vocab-help.mjs` | Gợi ý từ vựng theo cấp độ CEFR (FLELex) và tra IPA (WikiPron). |
 | `tools/new-episode.mjs` | Tạo thư mục tập mới `cozy-epNN/` từ mẫu `cozy-ep01` và chép lời voice. |
 | `voices/` | Đoạn giọng mẫu Léa & Mathieu (13–15 s, FLAC) để nhân bản giọng trong VoiceStudio. |
+| `tools/youtube-seo.mjs` | Xuất mốc chương, khối từ vựng và phụ đề `.srt` (Pháp + Anh) cho YouTube; dùng để viết `cozy-epNN/youtube-seo.md` (tiêu đề, mô tả, tags). |
 | `tools/voice-dialogue.mjs` | Tạo voice hội thoại Léa & Mathieu từ kịch bản chữ bằng VoiceStudio (giọng nhân bản, chạy trên máy). Ví dụ: `tools/dialogue-example.txt`. |
 | `skills/cozy-french-episode/` | Skill Claude Code: gửi voice → Claude tự làm cả tập. |
 | `cozy-ep01/` | Project HyperFrames của tập thử (34 giây đầu voice). |

@@ -129,9 +129,21 @@ npx --yes hyperframes@0.9.16 render -o "$PWD/renders/<cozy-epNN>.mp4"
 
 Chạy nền; trên iMac M1 mất ~2× thời lượng video (tập 20 phút ≈ 40+ phút) — báo người dùng một câu. Xong thì kiểm tra file tồn tại và thời lượng (`ffprobe`).
 
+## 5b. YouTube SEO (làm trong lúc render chạy nền)
+
+```bash
+node tools/youtube-seo.mjs cozy-epNN     # ở gốc repo → cozy-epNN/youtube/{outline.txt, vocab.md, captions.fr.srt, captions.en.srt}
+```
+
+Viết `cozy-epNN/youtube-seo.md` theo đúng mẫu `cozy-ep02/youtube-seo.md` (tiếng Anh cho khán giả, ghi chú tiếng Việt cho chủ kênh):
+- **3 tiêu đề** ≤ 100 ký tự, từ khoá trong ~50 ký tự đầu: (1) câu móc tiếng Anh + 🇫🇷 + `Slow French Conversation (<trình độ>) | French Podcast with Subtitles`; (2) `Learn/Talk … in French: <chủ đề> (<trình độ>) | FR/EN Subtitles`; (3) `« cụm tiếng Pháp hay nhất tập » — Real French for <chủ đề> | <trình độ> Podcast`. Không đánh số tập trong tiêu đề. Trình độ lấy từ lời thoại nếu tập có nói (vd. "niveau A2 à B1"), không thì ghi A2–B1 và báo chủ kênh kiểm.
+- **Mô tả**: 2 dòng đầu chứa "Learn French", "slow conversation", chủ đề, trình độ, "French & English subtitles" → đoạn tóm tắt (nhắc chi tiết vui trong tập) → 4 dòng ✔ → `⏱ CHAPTERS` 12–16 chương lấy từ `outline.txt` (bắt đầu `0:00`, mỗi chương ≥ 10 s, ưu tiên mốc ◆ bảng giải thích, tên chương có cụm tiếng Pháp) → `📚 VOCABULARY` (từ — nghĩa, từ `vocab.md`) → câu hỏi bình luận lấy từ cuối tập + câu mẫu tiếng Pháp → link đăng ký `https://www.youtube.com/@TheCozyFrench?sub_confirmation=1` → đúng 3 hashtag `#LearnFrench #FrenchPodcast #FrenchConversation`.
+- **Tags** ≤ 500 ký tự: bộ cố định (the cozy french, french podcast, learn french, french conversation, slow french, french listening practice, french with subtitles, french podcast with subtitles, french A2, french B1, intermediate french, comprehensible input french, podcast français, français facile, apprendre le français) + 5–7 tag theo chủ đề/cụm từ của tập.
+- Kiểm độ dài (tiêu đề ≤ 100, mô tả ≤ 5000, tags ≤ 500) trước khi gửi.
+
 ## 6. Báo người dùng
 
-Ngắn gọn, tiếng Việt: đường dẫn MP4 (link markdown) và thời lượng. **Không tự commit/push**: hỏi trước; khi commit thì không đưa `renders/` (đã gitignore) và hỏi có đưa `assets/voice.mp3` lên không (file lớn).
+Ngắn gọn, tiếng Việt: đường dẫn MP4 (link markdown), thời lượng, link `youtube-seo.md` + tiêu đề đề xuất, nhắc tải 2 file `.srt` lên YouTube Studio. **Không tự commit/push**: hỏi trước; khi commit thì không đưa `renders/` (đã gitignore) và hỏi có đưa `assets/voice.mp3` lên không (file lớn).
 
 ## Ghi chú
 
