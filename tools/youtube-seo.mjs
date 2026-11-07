@@ -24,7 +24,7 @@ fs.mkdirSync(OUT, { recursive: true });
 const norm = s => s.toLowerCase().replace(/[^a-zà-ÿœæç']/g, '');
 let wi = 0;
 const chunks = EP.chunks.map((c, ci) => {
-  const toks = c.fr.split(/\s+/).map(raw => {
+  const toks = c.fr.split(/[ \t\n]+/).map(raw => {
     const t = raw.replace(/[\[\]]/g, ''), w = W[wi++];
     if (!w || norm(w.t) !== norm(t)) throw new Error(`chunk ${ci}: "${t}" vs transcript "${w && w.t}"`);
     return w;

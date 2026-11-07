@@ -1,0 +1,2228 @@
+{
+  "scene": "pluie",
+  "lea": "chemise",
+  "mat": "hoodie",
+  "audio": "assets/voice.mp3",
+  "audioEnd": 1075.85,
+  "chunks": [
+    {
+      "who": "lea",
+      "fr": "Bonjour tout le monde et bienvenue sur The Cozy French !",
+      "en": "Hello everyone and welcome to The Cozy French!"
+    },
+    {
+      "who": "lea",
+      "fr": "Moi, c'est Léa.",
+      "en": "I'm Léa."
+    },
+    {
+      "who": "mat",
+      "fr": "Et moi, c'est Mathieu.",
+      "en": "And I'm Mathieu."
+    },
+    {
+      "who": "mat",
+      "fr": "Merci de partager un moment de votre journée avec nous.",
+      "en": "Thank you for sharing a moment of your day with us."
+    },
+    {
+      "who": "lea",
+      "fr": "Installez-vous confortablement.",
+      "en": "Get comfortable."
+    },
+    {
+      "who": "lea",
+      "fr": "Aujourd'hui, nous allons parler de nos journées,",
+      "en": "Today, we're going to talk about our days,"
+    },
+    {
+      "who": "lea",
+      "fr": "du réveil jusqu'au soir.",
+      "en": "from waking up until the evening."
+    },
+    {
+      "who": "mat",
+      "fr": "J'ai demandé à mes collègues de participer,",
+      "en": "I asked my colleagues to take part,"
+    },
+    {
+      "who": "mat",
+      "fr": "mais ils préfèrent rester sous le bureau.",
+      "en": "but they'd rather stay under the desk."
+    },
+    {
+      "who": "lea",
+      "fr": "Tes collègues ?",
+      "en": "Your colleagues?",
+      "emote": "surpris"
+    },
+    {
+      "who": "mat",
+      "fr": "Mes chaussons. Ils travaillent à domicile avec moi.",
+      "en": "My slippers. They work from home with me.",
+      "react": "rire",
+      "illus": "travail",
+      "label": "à domicile"
+    },
+    {
+      "who": "mat",
+      "fr": "Très discrets, toujours présents, jamais en retard.",
+      "en": "Very discreet, always there, never late."
+    },
+    {
+      "who": "lea",
+      "fr": "J'espère que tu leur accordes une pause déjeuner.",
+      "en": "I hope you give them a lunch break."
+    },
+    {
+      "who": "mat",
+      "fr": "Bien sûr. Ils n'ont pas encore déposé de réclamation.",
+      "en": "Of course. They haven't filed a complaint yet.",
+      "emote": "rire"
+    },
+    {
+      "who": "lea",
+      "fr": "Cette conversation est pour les niveaux B1 et B2.",
+      "en": "This conversation is for levels B1 and B2."
+    },
+    {
+      "who": "lea",
+      "fr": "Nous allons parler lentement",
+      "en": "We're going to speak slowly"
+    },
+    {
+      "who": "lea",
+      "fr": "et expliquer des expressions utiles.",
+      "en": "and explain some useful expressions."
+    },
+    {
+      "who": "mat",
+      "fr": "À la fin,",
+      "en": "By the end,"
+    },
+    {
+      "who": "mat",
+      "fr": "vous saurez raconter votre journée dans l'ordre",
+      "en": "you'll be able to describe your day in order"
+    },
+    {
+      "who": "mat",
+      "fr": "et parler de ce que vous faites régulièrement.",
+      "en": "and talk about what you do regularly."
+    },
+    {
+      "who": "lea",
+      "fr": "Vous pourrez aussi expliquer ce qui change certains jours,",
+      "en": "You'll also be able to explain what changes on certain days,"
+    },
+    {
+      "who": "lea",
+      "fr": "quand vos plans sont un peu différents.",
+      "en": "when your plans are a little different."
+    },
+    {
+      "who": "mat",
+      "fr": "Pas besoin d'avoir une vie extraordinaire.",
+      "en": "No need to have an extraordinary life."
+    },
+    {
+      "who": "mat",
+      "fr": "Préparer le petit déjeuner ou prendre le bus,",
+      "en": "Making breakfast or taking the bus,",
+      "illus": "repas",
+      "label": "le petit déjeuner"
+    },
+    {
+      "who": "mat",
+      "fr": "c'est déjà quelque chose à raconter.",
+      "en": "that's already something to talk about."
+    },
+    {
+      "who": "lea",
+      "fr": "Et pas besoin de comprendre chaque mot.",
+      "en": "And no need to understand every word."
+    },
+    {
+      "who": "lea",
+      "fr": "Suivez les histoires,",
+      "en": "Follow the stories,"
+    },
+    {
+      "who": "lea",
+      "fr": "puis répétez quelques phrases avec nous.",
+      "en": "then repeat a few sentences with us."
+    },
+    {
+      "who": "mat",
+      "fr": "Nous allons comparer une journée au bureau",
+      "en": "We're going to compare a day at the office"
+    },
+    {
+      "who": "mat",
+      "fr": "et une journée de travail à la maison.",
+      "en": "and a day working from home."
+    },
+    {
+      "who": "lea",
+      "fr": "Ensuite, nous vous aiderons",
+      "en": "Then we'll help you"
+    },
+    {
+      "who": "lea",
+      "fr": "à décrire votre propre routine.",
+      "en": "describe your own routine."
+    },
+    {
+      "who": "mat",
+      "fr": "Même si elle commence",
+      "en": "Even if it starts"
+    },
+    {
+      "who": "mat",
+      "fr": "par une longue négociation avec votre couette.",
+      "en": "with a long negotiation with your duvet.",
+      "emote": "rire"
+    },
+    {
+      "who": "mat",
+      "fr": "Nous sommes prêts à vous écouter.",
+      "en": "We're ready to listen to you."
+    },
+    {
+      "who": "lea",
+      "fr": "Pour commencer,",
+      "en": "To start,"
+    },
+    {
+      "who": "lea",
+      "fr": "pensez à une petite chose",
+      "en": "think of one small thing"
+    },
+    {
+      "who": "lea",
+      "fr": "que vous faites presque tous les jours.",
+      "en": "you do almost every day."
+    },
+    {
+      "who": "mat",
+      "fr": "Ouvrir les fenêtres, nourrir votre chat,",
+      "en": "Opening the windows, feeding your cat,"
+    },
+    {
+      "who": "mat",
+      "fr": "préparer votre sac ou appeler quelqu'un en rentrant.",
+      "en": "packing your bag or calling someone on your way home."
+    },
+    {
+      "who": "lea",
+      "fr": "À quel moment la faites-vous ?",
+      "en": "When do you do it?"
+    },
+    {
+      "who": "lea",
+      "fr": "Et pourquoi cette habitude vous plaît-elle ?",
+      "en": "And why do you like this habit?"
+    },
+    {
+      "who": "mat",
+      "fr": "Gardez votre idée pour la fin.",
+      "en": "Keep your idea for the end."
+    },
+    {
+      "who": "mat",
+      "fr": "Vous pouvez aussi nous dire d'où vous écoutez cet épisode.",
+      "en": "You can also tell us where you're listening to this episode from."
+    },
+    {
+      "who": "lea",
+      "fr": "C'est toujours agréable d'imaginer",
+      "en": "It's always nice to imagine"
+    },
+    {
+      "who": "lea",
+      "fr": "nos conversations dans vos journées,",
+      "en": "our conversations in your days,"
+    },
+    {
+      "who": "lea",
+      "fr": "à des heures parfois très différentes.",
+      "en": "at hours that are sometimes very different."
+    },
+    {
+      "who": "lea",
+      "fr": "Les jours où je vais au bureau,",
+      "en": "On the days I go to the office,"
+    },
+    {
+      "who": "lea",
+      "fr": "je me réveille vers sept heures.",
+      "en": "I wake up around seven.",
+      "illus": "temps",
+      "label": "sept heures"
+    },
+    {
+      "who": "lea",
+      "fr": "Je reste un petit moment assise avant de me lever.",
+      "en": "I stay sitting for a little while before getting up."
+    },
+    {
+      "who": "mat",
+      "fr": "Tu es tout de suite prête à discuter ?",
+      "en": "Are you ready to chat straight away?",
+      "emote": "question"
+    },
+    {
+      "who": "lea",
+      "fr": "Pas vraiment. J'ai encore [la tête dans le brouillard.]",
+      "en": "Not really. My head is still in a fog.",
+      "emote": "fatigue",
+      "board": {
+        "mode": "word",
+        "note": "= avoir du mal à réfléchir clairement, les pensées pas encore bien réveillées",
+        "icon": "sommeil"
+      }
+    },
+    {
+      "who": "mat",
+      "fr": "Tu as du mal à réfléchir clairement,",
+      "en": "You have trouble thinking clearly,"
+    },
+    {
+      "who": "mat",
+      "fr": "comme si tes pensées n'étaient pas encore bien réveillées.",
+      "en": "as if your thoughts weren't quite awake yet."
+    },
+    {
+      "who": "lea",
+      "fr": "Exactement. Par exemple, après un long voyage de nuit,",
+      "en": "Exactly. For example, after a long night journey,"
+    },
+    {
+      "who": "lea",
+      "fr": "j'avais la tête dans le brouillard.",
+      "en": "my head was in a fog.",
+      "boardEnd": true
+    },
+    {
+      "who": "mat",
+      "fr": "Donc, j'attends avant de te demander",
+      "en": "So I wait before asking you"
+    },
+    {
+      "who": "mat",
+      "fr": "de résoudre un problème compliqué.",
+      "en": "to solve a complicated problem."
+    },
+    {
+      "who": "lea",
+      "fr": "C'est préférable. D'abord, j'ouvre les volets.",
+      "en": "That's better. First, I open the shutters.",
+      "emote": "rire"
+    },
+    {
+      "who": "lea",
+      "fr": "Ensuite, je prépare mon petit déjeuner.",
+      "en": "Then I make my breakfast."
+    },
+    {
+      "who": "lea",
+      "fr": "J'aime [prendre mon temps] à ce moment-là.",
+      "en": "I like to take my time at that moment."
+    },
+    {
+      "who": "mat",
+      "fr": "Prendre son temps,",
+      "en": "To take your time"
+    },
+    {
+      "who": "mat",
+      "fr": "c'est faire quelque chose sans se dépêcher.",
+      "en": "means doing something without rushing."
+    },
+    {
+      "who": "lea",
+      "fr": "Oui. Par exemple, le samedi,",
+      "en": "Yes. For example, on Saturdays,"
+    },
+    {
+      "who": "lea",
+      "fr": "je prends mon temps pour choisir les légumes au marché.",
+      "en": "I take my time choosing vegetables at the market.",
+      "illus": "courses",
+      "label": "le marché"
+    },
+    {
+      "who": "mat",
+      "fr": "Mais le matin, tu surveilles quand même l'heure ?",
+      "en": "But in the morning, you still keep an eye on the time?"
+    },
+    {
+      "who": "lea",
+      "fr": "Un peu. Je mange, puis je me prépare.",
+      "en": "A little. I eat, then I get ready."
+    },
+    {
+      "who": "lea",
+      "fr": "Je me lave,",
+      "en": "I wash,"
+    },
+    {
+      "who": "lea",
+      "fr": "je m'habille et je vérifie ce que je dois emporter.",
+      "en": "I get dressed and I check what I need to take."
+    },
+    {
+      "who": "mat",
+      "fr": "[Se préparer,] ici,",
+      "en": "\"Se préparer,\" here,"
+    },
+    {
+      "who": "mat",
+      "fr": "c'est faire les choses nécessaires",
+      "en": "means doing the things you need"
+    },
+    {
+      "who": "mat",
+      "fr": "pour être prêt à partir.",
+      "en": "to be ready to leave."
+    },
+    {
+      "who": "lea",
+      "fr": "Voilà. Autre exemple :",
+      "en": "That's it. Another example:"
+    },
+    {
+      "who": "lea",
+      "fr": "nous nous préparons pour une sortie au théâtre.",
+      "en": "we're getting ready for an evening at the theatre."
+    },
+    {
+      "who": "mat",
+      "fr": "Tu prépares aussi ton déjeuner ?",
+      "en": "Do you make your lunch too?"
+    },
+    {
+      "who": "lea",
+      "fr": "Parfois, mais je mange souvent avec mes collègues.",
+      "en": "Sometimes, but I often eat with my colleagues."
+    },
+    {
+      "who": "lea",
+      "fr": "Avant de sortir,",
+      "en": "Before going out,"
+    },
+    {
+      "who": "lea",
+      "fr": "je prends mon casque et je descends chercher mon vélo.",
+      "en": "I grab my helmet and go downstairs to get my bike."
+    },
+    {
+      "who": "mat",
+      "fr": "À quelle heure est-ce que tu te mets en route ?",
+      "en": "What time do you set off?"
+    },
+    {
+      "who": "lea",
+      "fr": "Vers huit heures et quart.",
+      "en": "Around a quarter past eight."
+    },
+    {
+      "who": "lea",
+      "fr": "[Se mettre en route,]",
+      "en": "\"Se mettre en route\""
+    },
+    {
+      "who": "lea",
+      "fr": "c'est partir, commencer son déplacement.",
+      "en": "means leaving, starting your journey."
+    },
+    {
+      "who": "mat",
+      "fr": "Par exemple, pour arriver avant midi chez mon oncle,",
+      "en": "For example, to get to my uncle's before noon,"
+    },
+    {
+      "who": "mat",
+      "fr": "nous nous mettons en route à dix heures.",
+      "en": "we set off at ten."
+    },
+    {
+      "who": "lea",
+      "fr": "Sur le chemin, je m'arrête parfois à la boulangerie.",
+      "en": "On the way, I sometimes stop at the bakery."
+    },
+    {
+      "who": "lea",
+      "fr": "Je prends du pain pour le déjeuner, puis je repars.",
+      "en": "I get some bread for lunch, then I head off again.",
+      "illus": "repas",
+      "label": "du pain"
+    },
+    {
+      "who": "mat",
+      "fr": "Tu rencontres des habitués ?",
+      "en": "Do you meet any regulars?"
+    },
+    {
+      "who": "lea",
+      "fr": "Oui, dont un monsieur",
+      "en": "Yes, including a man"
+    },
+    {
+      "who": "lea",
+      "fr": "qui commande toujours avant d'avoir choisi.",
+      "en": "who always orders before he's chosen."
+    },
+    {
+      "who": "lea",
+      "fr": "La boulangère connaît déjà la fin de la conversation.",
+      "en": "The baker already knows how the conversation ends.",
+      "emote": "rire"
+    },
+    {
+      "who": "mat",
+      "fr": "Son achat est devenu une petite cérémonie.",
+      "en": "His purchase has become a little ceremony."
+    },
+    {
+      "who": "lea",
+      "fr": "Un peu.",
+      "en": "A bit."
+    },
+    {
+      "who": "lea",
+      "fr": "Mon trajet jusqu'au bureau dure environ vingt minutes,",
+      "en": "My commute to the office takes about twenty minutes,"
+    },
+    {
+      "who": "lea",
+      "fr": "sans cet arrêt.",
+      "en": "without that stop."
+    },
+    {
+      "who": "mat",
+      "fr": "[Un trajet,]",
+      "en": "\"Un trajet\""
+    },
+    {
+      "who": "mat",
+      "fr": "c'est le déplacement",
+      "en": "is the journey"
+    },
+    {
+      "who": "mat",
+      "fr": "entre un point de départ et un point d'arrivée.",
+      "en": "between a starting point and a destination."
+    },
+    {
+      "who": "lea",
+      "fr": "Oui. Par exemple,",
+      "en": "Yes. For example,"
+    },
+    {
+      "who": "lea",
+      "fr": "son trajet jusqu'à l'université",
+      "en": "her commute to the university"
+    },
+    {
+      "who": "lea",
+      "fr": "comprend dix minutes de marche et un voyage en tram.",
+      "en": "includes a ten-minute walk and a tram ride."
+    },
+    {
+      "who": "mat",
+      "fr": "Et quand tu arrives au bureau ?",
+      "en": "And when you get to the office?"
+    },
+    {
+      "who": "lea",
+      "fr": "Je salue mes collègues et je regarde mes rendez-vous.",
+      "en": "I greet my colleagues and look at my appointments.",
+      "illus": "rendezvous",
+      "label": "mes rendez-vous"
+    },
+    {
+      "who": "lea",
+      "fr": "Vers midi et demi, nous allons souvent déjeuner ensemble.",
+      "en": "Around half past twelve, we often have lunch together."
+    },
+    {
+      "who": "mat",
+      "fr": "Tu peux donc raconter",
+      "en": "So you can describe",
+      "board": {
+        "mode": "steps",
+        "bg": "craie",
+        "title": "Raconter dans l'ordre",
+        "items": [
+          "d'abord…",
+          "ensuite…",
+          "puis…"
+        ]
+      }
+    },
+    {
+      "who": "mat",
+      "fr": "plusieurs étapes avec des mots très simples.",
+      "en": "several steps with very simple words."
+    },
+    {
+      "who": "lea",
+      "fr": "Exactement : d'abord, ensuite, puis.",
+      "en": "Exactly: first, then, next."
+    },
+    {
+      "who": "lea",
+      "fr": "Ils aident la personne qui écoute à suivre ma journée.",
+      "en": "They help the listener follow my day.",
+      "boardEnd": true
+    },
+    {
+      "who": "mat",
+      "fr": "Moi, quand je travaille à la maison,",
+      "en": "Me, when I work from home,"
+    },
+    {
+      "who": "mat",
+      "fr": "je me lève vers sept heures et demie.",
+      "en": "I get up around half past seven."
+    },
+    {
+      "who": "mat",
+      "fr": "Je prépare du café et quelque chose à manger.",
+      "en": "I make coffee and something to eat.",
+      "illus": "cafe",
+      "label": "du café"
+    },
+    {
+      "who": "lea",
+      "fr": "Et tes chaussons commencent leur journée ?",
+      "en": "And your slippers start their day?",
+      "emote": "rire"
+    },
+    {
+      "who": "mat",
+      "fr": "Ils sont déjà sur place.",
+      "en": "They're already there."
+    },
+    {
+      "who": "mat",
+      "fr": "Ensuite, j'arrose mes plantes",
+      "en": "Then I water my plants"
+    },
+    {
+      "who": "mat",
+      "fr": "si elles en ont besoin",
+      "en": "if they need it"
+    },
+    {
+      "who": "mat",
+      "fr": "et j'aère un peu l'appartement.",
+      "en": "and I air out the apartment a bit."
+    },
+    {
+      "who": "lea",
+      "fr": "Tu commences à travailler juste après ?",
+      "en": "Do you start working right after?"
+    },
+    {
+      "who": "mat",
+      "fr": "Avant, je passais de la table au bureau",
+      "en": "Before, I'd drift from the table to the desk"
+    },
+    {
+      "who": "mat",
+      "fr": "sans vraiment décider quand commencer.",
+      "en": "without really deciding when to start."
+    },
+    {
+      "who": "mat",
+      "fr": "Maintenant, à neuf heures, je m'y mets.",
+      "en": "Now, at nine o'clock, I get down to it."
+    },
+    {
+      "who": "lea",
+      "fr": "[S'y mettre,]",
+      "en": "\"S'y mettre\""
+    },
+    {
+      "who": "lea",
+      "fr": "ça veut dire commencer une activité ou une tâche.",
+      "en": "means starting an activity or a task."
+    },
+    {
+      "who": "mat",
+      "fr": "Oui. Par exemple, les cartons sont arrivés ;",
+      "en": "Yes. For example, the boxes have arrived;"
+    },
+    {
+      "who": "mat",
+      "fr": "cet après-midi, nous nous mettons au rangement.",
+      "en": "this afternoon, we're getting down to the tidying."
+    },
+    {
+      "who": "lea",
+      "fr": "Qu'est-ce qui t'aide à commencer ?",
+      "en": "What helps you get started?"
+    },
+    {
+      "who": "mat",
+      "fr": "Je déplace ma tasse,",
+      "en": "I move my mug,",
+      "board": {
+        "mode": "steps",
+        "bg": "carnet",
+        "title": "Pour commencer à travailler",
+        "items": [
+          "je déplace ma tasse",
+          "j'ouvre mon carnet",
+          "je choisis une première tâche"
+        ]
+      }
+    },
+    {
+      "who": "mat",
+      "fr": "j'ouvre mon carnet et je choisis une première tâche.",
+      "en": "I open my notebook and choose a first task."
+    },
+    {
+      "who": "mat",
+      "fr": "Ce sont de petites actions très ordinaires.",
+      "en": "These are very ordinary little actions.",
+      "boardEnd": true
+    },
+    {
+      "who": "lea",
+      "fr": "Mais tu sais que ta matinée de travail commence.",
+      "en": "But you know your work morning is starting.",
+      "emote": "idee"
+    },
+    {
+      "who": "mat",
+      "fr": "Voilà. Ensuite,",
+      "en": "That's it. Then"
+    },
+    {
+      "who": "mat",
+      "fr": "je peux être pris par un dossier",
+      "en": "I can get caught up in a file"
+    },
+    {
+      "who": "mat",
+      "fr": "ou par un appel assez long.",
+      "en": "or a fairly long call."
+    },
+    {
+      "who": "lea",
+      "fr": "[Être pris par quelque chose,]",
+      "en": "\"Être pris par quelque chose\"",
+      "board": {
+        "mode": "word",
+        "bg": "craie",
+        "note": "= être occupé par cette activité, avec peu de disponibilité pour le reste",
+        "icon": "travail"
+      }
+    },
+    {
+      "who": "lea",
+      "fr": "c'est être occupé par cette activité,",
+      "en": "means being busy with that activity,"
+    },
+    {
+      "who": "lea",
+      "fr": "avec peu de disponibilité pour le reste.",
+      "en": "with little time for anything else."
+    },
+    {
+      "who": "mat",
+      "fr": "Par exemple, demain matin,",
+      "en": "For example, tomorrow morning,"
+    },
+    {
+      "who": "mat",
+      "fr": "je serai pris par la préparation de la réunion.",
+      "en": "I'll be busy preparing the meeting.",
+      "boardEnd": true
+    },
+    {
+      "who": "lea",
+      "fr": "Et ton déjeuner arrive à quelle heure ?",
+      "en": "And what time does your lunch come?"
+    },
+    {
+      "who": "mat",
+      "fr": "Vers treize heures.",
+      "en": "Around one o'clock."
+    },
+    {
+      "who": "mat",
+      "fr": "Je réchauffe parfois un plat,",
+      "en": "Sometimes I heat up a dish,"
+    },
+    {
+      "who": "mat",
+      "fr": "ou je prépare quelque chose de rapide.",
+      "en": "or I make something quick."
+    },
+    {
+      "who": "mat",
+      "fr": "Puis je change de pièce pour manger.",
+      "en": "Then I go to another room to eat."
+    },
+    {
+      "who": "lea",
+      "fr": "Tu fais une pause hors de ton coin de travail.",
+      "en": "You take a break away from your work corner."
+    },
+    {
+      "who": "mat",
+      "fr": "Oui. [Faire une pause,]",
+      "en": "Yes. \"Faire une pause\""
+    },
+    {
+      "who": "mat",
+      "fr": "c'est interrompre une activité pendant un moment,",
+      "en": "means stopping an activity for a while,"
+    },
+    {
+      "who": "mat",
+      "fr": "avant de la reprendre.",
+      "en": "before going back to it."
+    },
+    {
+      "who": "lea",
+      "fr": "Par exemple, pendant notre visite du musée,",
+      "en": "For example, during our visit to the museum,"
+    },
+    {
+      "who": "lea",
+      "fr": "nous avons fait une pause dans le jardin.",
+      "en": "we took a break in the garden.",
+      "illus": "nature",
+      "label": "le jardin"
+    },
+    {
+      "who": "mat",
+      "fr": "L'après-midi, je reprends mon travail.",
+      "en": "In the afternoon, I go back to work."
+    },
+    {
+      "who": "mat",
+      "fr": "Je termine généralement vers dix-huit heures",
+      "en": "I usually finish around six p.m."
+    },
+    {
+      "who": "mat",
+      "fr": "et je range mes affaires.",
+      "en": "and I put my things away."
+    },
+    {
+      "who": "lea",
+      "fr": "Et après ?",
+      "en": "And after that?"
+    },
+    {
+      "who": "mat",
+      "fr": "Je vais parfois chercher quelques courses.",
+      "en": "Sometimes I go and get a bit of shopping."
+    },
+    {
+      "who": "mat",
+      "fr": "Le soir, je cuisine, je mange,",
+      "en": "In the evening, I cook, I eat,"
+    },
+    {
+      "who": "mat",
+      "fr": "puis je fais la vaisselle.",
+      "en": "then I do the dishes."
+    },
+    {
+      "who": "lea",
+      "fr": "Tu gardes du temps pour toi ?",
+      "en": "Do you keep some time for yourself?",
+      "emote": "coeur"
+    },
+    {
+      "who": "mat",
+      "fr": "Oui. Souvent,",
+      "en": "Yes. Often,"
+    },
+    {
+      "who": "mat",
+      "fr": "j'écoute de la musique ou je téléphone à un ami.",
+      "en": "I listen to music or call a friend.",
+      "illus": "musique",
+      "label": "de la musique"
+    },
+    {
+      "who": "mat",
+      "fr": "Je me couche vers vingt-trois heures,",
+      "en": "I go to bed around eleven p.m.,"
+    },
+    {
+      "who": "mat",
+      "fr": "mais ça dépend des jours.",
+      "en": "but it depends on the day."
+    },
+    {
+      "who": "lea",
+      "fr": "Justement, pour décrire sa routine,",
+      "en": "Exactly, to describe your routine,"
+    },
+    {
+      "who": "lea",
+      "fr": "on peut dire ce qui se passe",
+      "en": "you can say what happens"
+    },
+    {
+      "who": "lea",
+      "fr": "normalement et ce qui change.",
+      "en": "normally and what changes."
+    },
+    {
+      "who": "mat",
+      "fr": "Par exemple : « D'habitude, je travaille chez moi,",
+      "en": "For example: \"Usually, I work from home,"
+    },
+    {
+      "who": "mat",
+      "fr": "mais le jeudi, je vais au bureau. »",
+      "en": "but on Thursdays, I go to the office.\""
+    },
+    {
+      "who": "lea",
+      "fr": "[D'habitude] veut dire généralement,",
+      "en": "\"D'habitude\" means generally,",
+      "board": {
+        "mode": "word",
+        "bg": "carnet",
+        "note": "= généralement, dans les circonstances ordinaires",
+        "icon": "repas"
+      }
+    },
+    {
+      "who": "lea",
+      "fr": "dans les circonstances ordinaires.",
+      "en": "in ordinary circumstances."
+    },
+    {
+      "who": "mat",
+      "fr": "Autre exemple : d'habitude, nous déjeunons à la cantine,",
+      "en": "Another example: usually we have lunch in the canteen,"
+    },
+    {
+      "who": "mat",
+      "fr": "mais aujourd'hui, nous allons au restaurant.",
+      "en": "but today, we're going to a restaurant.",
+      "boardEnd": true
+    },
+    {
+      "who": "lea",
+      "fr": "Moi, mercredi dernier, il pleuvait beaucoup.",
+      "en": "Me, last Wednesday, it was raining a lot.",
+      "emote": "triste"
+    },
+    {
+      "who": "lea",
+      "fr": "J'ai laissé mon vélo chez moi",
+      "en": "I left my bike at home",
+      "illus": "pluie",
+      "label": "il pleuvait"
+    },
+    {
+      "who": "lea",
+      "fr": "et j'ai pris le tram.",
+      "en": "and took the tram."
+    },
+    {
+      "who": "mat",
+      "fr": "Tu as dû partir plus tôt ?",
+      "en": "Did you have to leave earlier?"
+    },
+    {
+      "who": "lea",
+      "fr": "Oui, et prendre mon pain près du bureau.",
+      "en": "Yes, and get my bread near the office."
+    },
+    {
+      "who": "lea",
+      "fr": "Les étapes étaient presque les mêmes,",
+      "en": "The steps were almost the same,"
+    },
+    {
+      "who": "lea",
+      "fr": "mais leur ordre avait changé.",
+      "en": "but their order had changed."
+    },
+    {
+      "who": "mat",
+      "fr": "Tu n'avais pas besoin de reconstruire toute ta journée.",
+      "en": "You didn't need to rebuild your whole day."
+    },
+    {
+      "who": "lea",
+      "fr": "Non. Ces petits repères m'aident,",
+      "en": "No. These little landmarks help me,"
+    },
+    {
+      "who": "lea",
+      "fr": "même quand mon emploi du temps bouge.",
+      "en": "even when my schedule shifts."
+    },
+    {
+      "who": "mat",
+      "fr": "Et notre énergie change aussi.",
+      "en": "And our energy changes too."
+    },
+    {
+      "who": "mat",
+      "fr": "Certains après-midi, j'ai [un coup de barre.]",
+      "en": "Some afternoons, I hit a slump.",
+      "emote": "fatigue",
+      "board": {
+        "mode": "word",
+        "note": "= une baisse soudaine d'énergie : on se sent fatigué"
+      }
+    },
+    {
+      "who": "lea",
+      "fr": "C'est une baisse soudaine d'énergie.",
+      "en": "It's a sudden drop in energy."
+    },
+    {
+      "who": "lea",
+      "fr": "On se sent fatigué et on a envie de ralentir.",
+      "en": "You feel tired and want to slow down."
+    },
+    {
+      "who": "mat",
+      "fr": "Par exemple, après avoir porté tous ces cartons,",
+      "en": "For example, after carrying all those boxes,"
+    },
+    {
+      "who": "mat",
+      "fr": "j'ai eu un coup de barre",
+      "en": "I suddenly felt exhausted"
+    },
+    {
+      "who": "mat",
+      "fr": "et je me suis assis.",
+      "en": "and sat down.",
+      "boardEnd": true
+    },
+    {
+      "who": "lea",
+      "fr": "Tu peux alors expliquer :",
+      "en": "You can then explain:"
+    },
+    {
+      "who": "lea",
+      "fr": "« Vers quinze heures, je suis parfois fatigué.",
+      "en": "\"Around three p.m., I'm sometimes tired."
+    },
+    {
+      "who": "lea",
+      "fr": "Je m'arrête quelques minutes. »",
+      "en": "I stop for a few minutes.\""
+    },
+    {
+      "who": "mat",
+      "fr": "C'est plus proche de ma vraie vie que de dire",
+      "en": "That's closer to my real life than saying"
+    },
+    {
+      "who": "mat",
+      "fr": "que je travaille toujours",
+      "en": "that I always work"
+    },
+    {
+      "who": "mat",
+      "fr": "avec enthousiasme jusqu'au dîner.",
+      "en": "enthusiastically until dinner.",
+      "emote": "rire"
+    },
+    {
+      "who": "lea",
+      "fr": "Et pour quelqu'un qui travaille le soir,",
+      "en": "And for someone who works in the evening,"
+    },
+    {
+      "who": "lea",
+      "fr": "ou qui s'occupe d'un proche,",
+      "en": "or who looks after a loved one,"
+    },
+    {
+      "who": "lea",
+      "fr": "les horaires seront encore différents.",
+      "en": "the hours will be different again."
+    },
+    {
+      "who": "mat",
+      "fr": "Oui. Votre routine raconte votre situation.",
+      "en": "Yes. Your routine tells your story."
+    },
+    {
+      "who": "mat",
+      "fr": "Elle n'a pas besoin de ressembler à la nôtre.",
+      "en": "It doesn't need to look like ours.",
+      "emote": "coeur"
+    },
+    {
+      "who": "lea",
+      "fr": "Même les jours un peu désordonnés",
+      "en": "Even slightly messy days"
+    },
+    {
+      "who": "lea",
+      "fr": "vous donnent des choses à raconter.",
+      "en": "give you things to talk about."
+    },
+    {
+      "who": "mat",
+      "fr": "Essayons une scène.",
+      "en": "Let's try a scene."
+    },
+    {
+      "who": "mat",
+      "fr": "Nous nous rencontrons avant notre premier cours de poterie",
+      "en": "We meet before our first pottery class",
+      "illus": "etudes",
+      "label": "un cours de poterie"
+    },
+    {
+      "who": "mat",
+      "fr": "et nous discutons de nos journées.",
+      "en": "and we chat about our days."
+    },
+    {
+      "who": "lea",
+      "fr": "Vous pourrez répondre à ma question avant Mathieu.",
+      "en": "You can answer my question before Mathieu."
+    },
+    {
+      "who": "mat",
+      "fr": "Pour une fois,",
+      "en": "For once,"
+    },
+    {
+      "who": "mat",
+      "fr": "je ne vais pas commencer par parler des chaussons.",
+      "en": "I'm not going to start by talking about my slippers.",
+      "emote": "rire"
+    },
+    {
+      "who": "lea",
+      "fr": "Alors, à quoi ressemble une journée habituelle pour toi ?",
+      "en": "So, what does a typical day look like for you?"
+    },
+    {
+      "who": "mat",
+      "fr": "À vous !",
+      "en": "Your turn!"
+    },
+    {
+      "who": "mat",
+      "fr": "Racontez le début de votre journée en deux phrases.",
+      "en": "Describe the start of your day in two sentences."
+    },
+    {
+      "who": "mat",
+      "fr": "Prenez quelques secondes.",
+      "en": "Take a few seconds."
+    },
+    {
+      "who": "lea",
+      "fr": "Vous pouvez commencer par :",
+      "en": "You can start with:"
+    },
+    {
+      "who": "lea",
+      "fr": "« En semaine, je me lève vers…",
+      "en": "\"On weekdays, I get up around…"
+    },
+    {
+      "who": "lea",
+      "fr": "Ensuite, je… »",
+      "en": "Then I…\""
+    },
+    {
+      "who": "mat",
+      "fr": "En semaine, je me lève vers sept heures et demie.",
+      "en": "On weekdays, I get up around half past seven.",
+      "board": {
+        "mode": "sketch",
+        "title": "En situation : au cours de poterie"
+      }
+    },
+    {
+      "who": "mat",
+      "fr": "Ensuite, je prends mon petit déjeuner",
+      "en": "Then I have breakfast"
+    },
+    {
+      "who": "mat",
+      "fr": "et je travaille chez moi.",
+      "en": "and I work from home."
+    },
+    {
+      "who": "lea",
+      "fr": "Tu commences à quelle heure ?",
+      "en": "What time do you start?"
+    },
+    {
+      "who": "mat",
+      "fr": "Vers neuf heures.",
+      "en": "Around nine."
+    },
+    {
+      "who": "mat",
+      "fr": "Et toi, tu travailles aussi à la maison ?",
+      "en": "And you, do you work from home too?"
+    },
+    {
+      "who": "lea",
+      "fr": "Certains jours, oui.",
+      "en": "Some days, yes."
+    },
+    {
+      "who": "lea",
+      "fr": "Mais je vais souvent au bureau à vélo.",
+      "en": "But I often cycle to the office."
+    },
+    {
+      "who": "lea",
+      "fr": "En rentrant,",
+      "en": "On the way home,"
+    },
+    {
+      "who": "lea",
+      "fr": "je fais parfois un détour pour passer au marché.",
+      "en": "I sometimes take a detour to stop by the market.",
+      "boardEnd": true
+    },
+    {
+      "who": "mat",
+      "fr": "[Faire un détour,]",
+      "en": "\"Faire un détour\"",
+      "board": {
+        "mode": "word",
+        "note": "= prendre un chemin plus long ou différent du chemin direct",
+        "icon": "voyage"
+      }
+    },
+    {
+      "who": "mat",
+      "fr": "c'est prendre un chemin plus long",
+      "en": "means taking a longer route"
+    },
+    {
+      "who": "mat",
+      "fr": "ou différent du chemin direct.",
+      "en": "or one that differs from the direct route."
+    },
+    {
+      "who": "lea",
+      "fr": "Par exemple,",
+      "en": "For example,"
+    },
+    {
+      "who": "lea",
+      "fr": "nous avons fait un détour pour voir",
+      "en": "we took a detour to see"
+    },
+    {
+      "who": "lea",
+      "fr": "le vieux pont avant de rentrer.",
+      "en": "the old bridge before going home.",
+      "boardEnd": true
+    },
+    {
+      "who": "mat",
+      "fr": "D'accord. Et tu as le temps",
+      "en": "OK. And do you have time"
+    },
+    {
+      "who": "mat",
+      "fr": "de cuisiner avant le cours ?",
+      "en": "to cook before the class?"
+    },
+    {
+      "who": "lea",
+      "fr": "Pas toujours. Le mercredi, je mange souvent après.",
+      "en": "Not always. On Wednesdays, I often eat afterwards."
+    },
+    {
+      "who": "lea",
+      "fr": "Je prépare quelque chose de simple avant de partir.",
+      "en": "I make something simple before leaving."
+    },
+    {
+      "who": "mat",
+      "fr": "Moi aussi.",
+      "en": "Me too."
+    },
+    {
+      "who": "mat",
+      "fr": "J'aime bien avoir mon dîner presque prêt quand je rentre.",
+      "en": "I like having my dinner almost ready when I get home."
+    },
+    {
+      "who": "lea",
+      "fr": "Et qu'est-ce que tu fais les autres soirs ?",
+      "en": "And what do you do on the other evenings?"
+    },
+    {
+      "who": "mat",
+      "fr": "Je reste souvent chez moi,",
+      "en": "I often stay at home,"
+    },
+    {
+      "who": "mat",
+      "fr": "mais le vendredi, je vois parfois des amis.",
+      "en": "but on Fridays, I sometimes see friends.",
+      "illus": "amis",
+      "label": "des amis"
+    },
+    {
+      "who": "lea",
+      "fr": "Voilà une conversation qui peut continuer.",
+      "en": "There's a conversation that can keep going."
+    },
+    {
+      "who": "lea",
+      "fr": "On pose une question, on répond,",
+      "en": "You ask a question, you answer,"
+    },
+    {
+      "who": "lea",
+      "fr": "puis on s'intéresse à l'autre personne.",
+      "en": "then you take an interest in the other person."
+    },
+    {
+      "who": "mat",
+      "fr": "Vous n'avez pas besoin de raconter",
+      "en": "You don't need to describe"
+    },
+    {
+      "who": "mat",
+      "fr": "vingt-quatre heures sans vous arrêter.",
+      "en": "twenty-four hours without stopping."
+    },
+    {
+      "who": "mat",
+      "fr": "Quelques étapes suffisent pour commencer.",
+      "en": "A few steps are enough to start."
+    },
+    {
+      "who": "lea",
+      "fr": "Pour organiser votre récit, choisissez trois moments :",
+      "en": "To organise your story, choose three moments:",
+      "board": {
+        "mode": "mindmap",
+        "bg": "carnet",
+        "word": "ma journée",
+        "items": [
+          "le matin",
+          "pendant la journée",
+          "le soir",
+          "une action",
+          "une heure",
+          "un petit détail"
+        ]
+      }
+    },
+    {
+      "who": "lea",
+      "fr": "le matin, pendant la journée et le soir.",
+      "en": "the morning, during the day and the evening."
+    },
+    {
+      "who": "mat",
+      "fr": "Pour chaque moment, vous pouvez donner une action,",
+      "en": "For each moment, you can give an action,"
+    },
+    {
+      "who": "mat",
+      "fr": "une heure et un petit détail personnel.",
+      "en": "a time and a small personal detail.",
+      "boardEnd": true
+    },
+    {
+      "who": "lea",
+      "fr": "Par exemple : « Le matin, je pars vers huit heures.",
+      "en": "For example: \"In the morning, I leave around eight."
+    },
+    {
+      "who": "lea",
+      "fr": "J'aime marcher un peu avant de prendre le tram. »",
+      "en": "I like to walk a little before taking the tram.\""
+    },
+    {
+      "who": "mat",
+      "fr": "Ou : « Après le déjeuner,",
+      "en": "Or: \"After lunch,"
+    },
+    {
+      "who": "mat",
+      "fr": "je sors pour me dégourdir les jambes. »",
+      "en": "I go out to stretch my legs.\""
+    },
+    {
+      "who": "lea",
+      "fr": "[Se dégourdir les jambes,]",
+      "en": "\"Se dégourdir les jambes\""
+    },
+    {
+      "who": "lea",
+      "fr": "c'est marcher un peu après",
+      "en": "means walking a little after"
+    },
+    {
+      "who": "lea",
+      "fr": "être resté assis ou sans bouger.",
+      "en": "sitting or staying still."
+    },
+    {
+      "who": "mat",
+      "fr": "Par exemple, pendant un long voyage en voiture,",
+      "en": "For example, on a long car journey,",
+      "illus": "voiture",
+      "label": "en voiture"
+    },
+    {
+      "who": "mat",
+      "fr": "nous nous arrêtons pour nous dégourdir les jambes.",
+      "en": "we stop to stretch our legs."
+    },
+    {
+      "who": "lea",
+      "fr": "Tu vois,",
+      "en": "You see,"
+    },
+    {
+      "who": "lea",
+      "fr": "ce petit détail donne déjà une image de ton après-midi.",
+      "en": "that little detail already paints a picture of your afternoon."
+    },
+    {
+      "who": "mat",
+      "fr": "Pour parler de fréquence, je peux dire « souvent »,",
+      "en": "To talk about frequency, I can say \"often,\""
+    },
+    {
+      "who": "mat",
+      "fr": "« parfois » ou « presque tous les jours ».",
+      "en": "\"sometimes\" or \"almost every day.\""
+    },
+    {
+      "who": "lea",
+      "fr": "Oui. « Je cuisine presque tous les jours »",
+      "en": "Yes. \"I cook almost every day\""
+    },
+    {
+      "who": "lea",
+      "fr": "et « Je cuisine parfois »",
+      "en": "and \"I sometimes cook\""
+    },
+    {
+      "who": "lea",
+      "fr": "ne racontent pas la même habitude.",
+      "en": "don't describe the same habit."
+    },
+    {
+      "who": "mat",
+      "fr": "Et le soir,",
+      "en": "And in the evening,"
+    },
+    {
+      "who": "mat",
+      "fr": "je peux expliquer pourquoi je fais une activité.",
+      "en": "I can explain why I do an activity."
+    },
+    {
+      "who": "mat",
+      "fr": "« J'écoute de la musique pour me changer les idées. »",
+      "en": "\"I listen to music to take my mind off things.\""
+    },
+    {
+      "who": "lea",
+      "fr": "[Se changer les idées,] c'est penser à autre chose,",
+      "en": "\"Se changer les idées\" means thinking about something else,"
+    },
+    {
+      "who": "lea",
+      "fr": "souvent grâce à une activité agréable.",
+      "en": "often thanks to a pleasant activity."
+    },
+    {
+      "who": "mat",
+      "fr": "Autre exemple : après cette longue réunion,",
+      "en": "Another example: after that long meeting,"
+    },
+    {
+      "who": "mat",
+      "fr": "je suis allé au cinéma pour me changer les idées.",
+      "en": "I went to the cinema to take my mind off things."
+    },
+    {
+      "who": "lea",
+      "fr": "Vous pouvez aussi parler d'un jour particulier :",
+      "en": "You can also talk about a particular day:"
+    },
+    {
+      "who": "lea",
+      "fr": "« Le mardi,",
+      "en": "\"On Tuesdays,"
+    },
+    {
+      "who": "lea",
+      "fr": "je rentre plus tard parce que j'ai un cours. »",
+      "en": "I get home later because I have a class.\""
+    },
+    {
+      "who": "mat",
+      "fr": "Et si mon organisation est encore en train de changer ?",
+      "en": "And what if my routine is still changing?"
+    },
+    {
+      "who": "lea",
+      "fr": "Tu peux le dire.",
+      "en": "You can say so."
+    },
+    {
+      "who": "lea",
+      "fr": "« En ce moment,",
+      "en": "\"At the moment,"
+    },
+    {
+      "who": "lea",
+      "fr": "j'essaie de préparer mon déjeuner la veille. »",
+      "en": "I'm trying to make my lunch the night before.\""
+    },
+    {
+      "who": "lea",
+      "fr": "Cela décrit une nouvelle habitude.",
+      "en": "That describes a new habit."
+    },
+    {
+      "who": "mat",
+      "fr": "Je ne vais pas transformer toute ma journée",
+      "en": "I'm not going to transform my whole day",
+      "emote": "gene"
+    },
+    {
+      "who": "mat",
+      "fr": "du jour au lendemain.",
+      "en": "overnight."
+    },
+    {
+      "who": "lea",
+      "fr": "[Du jour au lendemain,]",
+      "en": "\"Du jour au lendemain\"",
+      "board": {
+        "mode": "word",
+        "bg": "craie",
+        "note": "= très rapidement, sans longue transition"
+      }
+    },
+    {
+      "who": "lea",
+      "fr": "ça veut dire très rapidement, sans longue transition.",
+      "en": "means very quickly, without a long transition."
+    },
+    {
+      "who": "lea",
+      "fr": "Exemple : il ne peut pas changer",
+      "en": "Example: he can't change"
+    },
+    {
+      "who": "lea",
+      "fr": "tous ses horaires du jour au lendemain.",
+      "en": "all his hours overnight.",
+      "boardEnd": true
+    },
+    {
+      "who": "mat",
+      "fr": "Donc, je commence avec une phrase qui me ressemble.",
+      "en": "So I start with a sentence that suits me."
+    },
+    {
+      "who": "mat",
+      "fr": "Puis j'ajoute un détail quand je suis à l'aise.",
+      "en": "Then I add a detail when I feel comfortable."
+    },
+    {
+      "who": "lea",
+      "fr": "Exactement. On peut apprendre",
+      "en": "Exactly. You can learn"
+    },
+    {
+      "who": "lea",
+      "fr": "à raconter sa journée progressivement,",
+      "en": "to describe your day gradually,"
+    },
+    {
+      "who": "lea",
+      "fr": "avec le vocabulaire qu'on connaît déjà.",
+      "en": "with the vocabulary you already know."
+    },
+    {
+      "who": "mat",
+      "fr": "Et demander un mot quand il manque.",
+      "en": "And ask for a word when it's missing."
+    },
+    {
+      "who": "mat",
+      "fr": "« Comment on dit… ? » reste une question très utile.",
+      "en": "\"How do you say…?\" is still a very useful question.",
+      "emote": "question"
+    },
+    {
+      "who": "lea",
+      "fr": "C'est votre tour.",
+      "en": "It's your turn."
+    },
+    {
+      "who": "lea",
+      "fr": "Voici un modèle : « D'habitude, je me lève vers…",
+      "en": "Here's a model: \"Usually, I get up around…"
+    },
+    {
+      "who": "lea",
+      "fr": "D'abord, je… Ensuite, je…",
+      "en": "First, I… Then, I…"
+    },
+    {
+      "who": "lea",
+      "fr": "Le soir, je… »",
+      "en": "In the evening, I…\""
+    },
+    {
+      "who": "mat",
+      "fr": "D'habitude, je me lève vers sept heures et demie.",
+      "en": "Usually, I get up around half past seven."
+    },
+    {
+      "who": "mat",
+      "fr": "D'abord, je prépare le petit déjeuner.",
+      "en": "First, I make breakfast."
+    },
+    {
+      "who": "mat",
+      "fr": "Ensuite, je travaille.",
+      "en": "Then I work."
+    },
+    {
+      "who": "mat",
+      "fr": "Le soir, je cuisine.",
+      "en": "In the evening, I cook."
+    },
+    {
+      "who": "lea",
+      "fr": "Moi, je peux ajouter :",
+      "en": "I can add:"
+    },
+    {
+      "who": "lea",
+      "fr": "« Je vais souvent au bureau à vélo.",
+      "en": "\"I often cycle to the office."
+    },
+    {
+      "who": "lea",
+      "fr": "Mais quand il pleut beaucoup, je prends le tram. »",
+      "en": "But when it rains a lot, I take the tram.\""
+    },
+    {
+      "who": "mat",
+      "fr": "Dites votre version à voix haute.",
+      "en": "Say your version out loud."
+    },
+    {
+      "who": "mat",
+      "fr": "Prenez le temps de retrouver les mots.",
+      "en": "Take time to find the words."
+    },
+    {
+      "who": "mat",
+      "fr": "Vous pouvez faire des phrases courtes.",
+      "en": "You can use short sentences."
+    },
+    {
+      "who": "lea",
+      "fr": "Maintenant, ajoutez votre petite habitude du début :",
+      "en": "Now add your little habit from the beginning:"
+    },
+    {
+      "who": "lea",
+      "fr": "« Presque tous les jours, je…",
+      "en": "\"Almost every day, I…"
+    },
+    {
+      "who": "lea",
+      "fr": "parce que… »",
+      "en": "because…\""
+    },
+    {
+      "who": "mat",
+      "fr": "Presque tous les jours,",
+      "en": "Almost every day,"
+    },
+    {
+      "who": "mat",
+      "fr": "j'aère mon appartement le matin",
+      "en": "I air out my apartment in the morning"
+    },
+    {
+      "who": "mat",
+      "fr": "parce que j'aime commencer la journée",
+      "en": "because I like to start the day"
+    },
+    {
+      "who": "mat",
+      "fr": "avec de l'air frais.",
+      "en": "with fresh air."
+    },
+    {
+      "who": "lea",
+      "fr": "Presque tous les jours,",
+      "en": "Almost every day,"
+    },
+    {
+      "who": "lea",
+      "fr": "je discute avec une collègue pendant le déjeuner",
+      "en": "I chat with a colleague during lunch"
+    },
+    {
+      "who": "lea",
+      "fr": "parce que j'apprécie ce moment ensemble.",
+      "en": "because I enjoy that moment together.",
+      "emote": "coeur"
+    },
+    {
+      "who": "mat",
+      "fr": "Et pour continuer la conversation, posez une question :",
+      "en": "And to keep the conversation going, ask a question:"
+    },
+    {
+      "who": "mat",
+      "fr": "« Et toi, qu'est-ce que tu fais après le travail ? »",
+      "en": "\"And you, what do you do after work?\""
+    },
+    {
+      "who": "lea",
+      "fr": "Revenons sur cinq expressions.",
+      "en": "Let's go back over five expressions."
+    },
+    {
+      "who": "lea",
+      "fr": "Écoutez, puis répétez avec nous.",
+      "en": "Listen, then repeat with us."
+    },
+    {
+      "who": "mat",
+      "fr": "Première expression : avoir la tête dans le brouillard.",
+      "en": "First expression: \"avoir la tête dans le brouillard.\""
+    },
+    {
+      "who": "mat",
+      "fr": "Au réveil,",
+      "en": "When she wakes up,"
+    },
+    {
+      "who": "mat",
+      "fr": "Léa n'est pas toujours prête à réfléchir très vite.",
+      "en": "Léa isn't always ready to think very fast."
+    },
+    {
+      "who": "lea",
+      "fr": "C'est avoir les idées peu claires.",
+      "en": "It means your thoughts aren't very clear."
+    },
+    {
+      "who": "lea",
+      "fr": "Nouvel exemple : ce matin,",
+      "en": "New example: this morning,"
+    },
+    {
+      "who": "lea",
+      "fr": "j'avais la tête dans le brouillard",
+      "en": "my head was in a fog"
+    },
+    {
+      "who": "lea",
+      "fr": "et j'ai relu trois fois le même message.",
+      "en": "and I reread the same message three times.",
+      "emote": "gene"
+    },
+    {
+      "who": "mat",
+      "fr": "On répète : avoir la tête dans le brouillard.",
+      "en": "Let's repeat: \"avoir la tête dans le brouillard.\""
+    },
+    {
+      "who": "mat",
+      "fr": "Une expression pour décrire cette impression",
+      "en": "An expression to describe that feeling"
+    },
+    {
+      "who": "mat",
+      "fr": "sans raconter toute sa nuit.",
+      "en": "without recounting your whole night."
+    },
+    {
+      "who": "lea",
+      "fr": "Deuxième expression : se mettre en route.",
+      "en": "Second expression: \"se mettre en route.\""
+    },
+    {
+      "who": "lea",
+      "fr": "Je pars vers huit heures et quart",
+      "en": "I leave around a quarter past eight"
+    },
+    {
+      "who": "lea",
+      "fr": "pour aller au bureau.",
+      "en": "to go to the office."
+    },
+    {
+      "who": "mat",
+      "fr": "C'est commencer son déplacement.",
+      "en": "It means starting your journey."
+    },
+    {
+      "who": "mat",
+      "fr": "Exemple : le concert commence bientôt,",
+      "en": "Example: the concert starts soon,"
+    },
+    {
+      "who": "mat",
+      "fr": "il est temps de nous mettre en route.",
+      "en": "it's time for us to set off."
+    },
+    {
+      "who": "lea",
+      "fr": "On répète : se mettre en route.",
+      "en": "Let's repeat: \"se mettre en route.\""
+    },
+    {
+      "who": "lea",
+      "fr": "Vous pouvez préciser l'heure ou la destination.",
+      "en": "You can specify the time or the destination."
+    },
+    {
+      "who": "mat",
+      "fr": "Troisième expression : s'y mettre.",
+      "en": "Third expression: \"s'y mettre.\"",
+      "board": {
+        "mode": "conjug",
+        "bg": "carnet",
+        "verb": "s'y mettre",
+        "tense": "présent",
+        "rows": [
+          [
+            "je",
+            "m'y met|s"
+          ],
+          [
+            "tu",
+            "t'y met|s"
+          ],
+          [
+            "il / elle / on",
+            "s'y me|t"
+          ],
+          [
+            "nous",
+            "nous y mett|ons"
+          ],
+          [
+            "vous",
+            "vous y mett|ez"
+          ],
+          [
+            "ils / elles",
+            "s'y mett|ent"
+          ]
+        ],
+        "note": "Bon, on s'y met ?"
+      }
+    },
+    {
+      "who": "mat",
+      "fr": "À neuf heures, je commence mon travail.",
+      "en": "At nine o'clock, I start my work."
+    },
+    {
+      "who": "lea",
+      "fr": "On commence l'activité dont on parle.",
+      "en": "You start the activity you're talking about."
+    },
+    {
+      "who": "lea",
+      "fr": "Exemple : pour préparer le spectacle,",
+      "en": "Example: to prepare the show,"
+    },
+    {
+      "who": "lea",
+      "fr": "nous nous y mettons dès samedi.",
+      "en": "we're getting down to it from Saturday."
+    },
+    {
+      "who": "mat",
+      "fr": "On répète : s'y mettre.",
+      "en": "Let's repeat: \"s'y mettre.\""
+    },
+    {
+      "who": "mat",
+      "fr": "Dans une conversation, on entend souvent :",
+      "en": "In a conversation, you often hear:"
+    },
+    {
+      "who": "mat",
+      "fr": "« Bon, on s'y met ? »",
+      "en": "\"Right, shall we get started?\"",
+      "boardEnd": true
+    },
+    {
+      "who": "lea",
+      "fr": "Quatrième expression : un coup de barre.",
+      "en": "Fourth expression: \"un coup de barre.\"",
+      "board": {
+        "mode": "quiz",
+        "bg": "craie",
+        "q": "Un coup de barre, c'est… ?",
+        "options": [
+          "une fatigue soudaine",
+          "un bon petit déjeuner",
+          "un long trajet"
+        ],
+        "answer": 0,
+        "reveal": 2,
+        "explain": "= un moment de fatigue soudaine"
+      }
+    },
+    {
+      "who": "lea",
+      "fr": "Certains après-midi, tu ressens une baisse d'énergie.",
+      "en": "Some afternoons, you feel a drop in energy."
+    },
+    {
+      "who": "mat",
+      "fr": "C'est un moment de fatigue soudaine.",
+      "en": "It's a moment of sudden tiredness."
+    },
+    {
+      "who": "mat",
+      "fr": "Exemple : après la visite,",
+      "en": "Example: after the visit,"
+    },
+    {
+      "who": "mat",
+      "fr": "elle a eu un coup de barre",
+      "en": "she suddenly felt exhausted"
+    },
+    {
+      "who": "mat",
+      "fr": "et a préféré rentrer.",
+      "en": "and preferred to go home.",
+      "boardEnd": true
+    },
+    {
+      "who": "lea",
+      "fr": "On répète : un coup de barre.",
+      "en": "Let's repeat: \"un coup de barre.\""
+    },
+    {
+      "who": "lea",
+      "fr": "C'est une expression courante",
+      "en": "It's a common expression"
+    },
+    {
+      "who": "lea",
+      "fr": "dans les conversations du quotidien.",
+      "en": "in everyday conversations."
+    },
+    {
+      "who": "mat",
+      "fr": "Enfin, se changer les idées.",
+      "en": "Finally, \"se changer les idées.\""
+    },
+    {
+      "who": "mat",
+      "fr": "Le soir, la musique m'aide à penser à autre chose.",
+      "en": "In the evening, music helps me think about something else."
+    },
+    {
+      "who": "lea",
+      "fr": "Exemple : nous sommes allés voir une exposition",
+      "en": "Example: we went to see an exhibition"
+    },
+    {
+      "who": "lea",
+      "fr": "pour nous changer les idées après une semaine chargée.",
+      "en": "to take our minds off things after a busy week."
+    },
+    {
+      "who": "mat",
+      "fr": "On répète : se changer les idées.",
+      "en": "Let's repeat: \"se changer les idées.\""
+    },
+    {
+      "who": "mat",
+      "fr": "Vous pouvez expliquer quelle activité vous plaît",
+      "en": "You can explain which activity you enjoy"
+    },
+    {
+      "who": "mat",
+      "fr": "et à quel moment vous la faites.",
+      "en": "and when you do it."
+    },
+    {
+      "who": "lea",
+      "fr": "Choisissez maintenant une expression et faites une phrase",
+      "en": "Now choose an expression and make a sentence"
+    },
+    {
+      "who": "lea",
+      "fr": "sur votre journée d'hier ou sur votre routine habituelle.",
+      "en": "about your day yesterday or your usual routine."
+    },
+    {
+      "who": "mat",
+      "fr": "Les petits détails sont les bienvenus.",
+      "en": "Little details are welcome."
+    },
+    {
+      "who": "mat",
+      "fr": "C'est souvent grâce à eux",
+      "en": "It's often thanks to them"
+    },
+    {
+      "who": "mat",
+      "fr": "qu'une conversation devient personnelle.",
+      "en": "that a conversation becomes personal."
+    },
+    {
+      "who": "lea",
+      "fr": "Dans les commentaires, complétez cette phrase :",
+      "en": "In the comments, complete this sentence:"
+    },
+    {
+      "who": "lea",
+      "fr": "« Presque tous les jours, je…",
+      "en": "\"Almost every day, I…"
+    },
+    {
+      "who": "lea",
+      "fr": "parce que… »",
+      "en": "because…\""
+    },
+    {
+      "who": "mat",
+      "fr": "Ou racontez votre journée",
+      "en": "Or describe your day"
+    },
+    {
+      "who": "mat",
+      "fr": "en trois étapes avec « d'abord »,",
+      "en": "in three steps with \"first,\""
+    },
+    {
+      "who": "mat",
+      "fr": "« ensuite » et « enfin ».",
+      "en": "\"then\" and \"finally.\""
+    },
+    {
+      "who": "lea",
+      "fr": "Si cet épisode vous a aidés,",
+      "en": "If this episode helped you,"
+    },
+    {
+      "who": "lea",
+      "fr": "abonnez-vous à The Cozy French pour continuer",
+      "en": "subscribe to The Cozy French to keep"
+    },
+    {
+      "who": "lea",
+      "fr": "à écouter et à parler avec nous.",
+      "en": "listening and speaking with us."
+    },
+    {
+      "who": "mat",
+      "fr": "Vous pouvez réécouter un petit échange,",
+      "en": "You can listen to a short exchange again,"
+    },
+    {
+      "who": "mat",
+      "fr": "puis essayer de le raconter avec vos propres habitudes.",
+      "en": "then try to retell it with your own habits."
+    },
+    {
+      "who": "lea",
+      "fr": "Merci d'avoir partagé ce moment.",
+      "en": "Thank you for sharing this moment.",
+      "emote": "coeur"
+    },
+    {
+      "who": "lea",
+      "fr": "Prenez soin de vous et à très bientôt !",
+      "en": "Take care and see you very soon!"
+    },
+    {
+      "who": "mat",
+      "fr": "Au revoir tout le monde !",
+      "en": "Goodbye everyone!"
+    },
+    {
+      "who": "mat",
+      "fr": "Je vais maintenant annoncer la fin",
+      "en": "Now I'm going to announce the end"
+    },
+    {
+      "who": "mat",
+      "fr": "de la journée à mes collègues.",
+      "en": "of the day to my colleagues."
+    },
+    {
+      "who": "lea",
+      "fr": "Tes chaussons peuvent enfin rentrer chez eux ?",
+      "en": "So your slippers can finally go home?",
+      "emote": "rire"
+    },
+    {
+      "who": "mat",
+      "fr": "Ils y sont déjà.",
+      "en": "They're already there.",
+      "react": "rire"
+    },
+    {
+      "who": "mat",
+      "fr": "Mais pour ce soir,",
+      "en": "But for tonight,"
+    },
+    {
+      "who": "mat",
+      "fr": "ils quittent le bureau et rejoignent le canapé.",
+      "en": "they're leaving the office and joining the sofa."
+    },
+    {
+      "who": "lea",
+      "fr": "Un trajet très raisonnable.",
+      "en": "A very reasonable commute."
+    }
+  ],
+  "vocab": [
+    {
+      "tag": "expression",
+      "word": "avoir la tête dans le brouillard",
+      "ipa": "/a.vwaʁ la tɛt dɑ̃ lə bʁu.jaʁ/",
+      "mean": "to feel mentally foggy; to have trouble thinking clearly",
+      "ex": "Après ce réveil très matinal, elle avait encore la tête dans le brouillard.",
+      "exEn": "After such an early start, she still felt mentally foggy."
+    },
+    {
+      "tag": "expression",
+      "word": "prendre son temps",
+      "ipa": "/pʁɑ̃.dʁə sɔ̃ tɑ̃/",
+      "mean": "to take your time",
+      "ex": "Nous prenons notre temps pour visiter ce quartier.",
+      "exEn": "We are taking our time to explore this neighbourhood."
+    },
+    {
+      "tag": "verbe",
+      "word": "se préparer",
+      "ipa": "/sə pʁe.pa.ʁe/",
+      "mean": "to get ready",
+      "ex": "Je me prépare pour aller chez des amis.",
+      "exEn": "I am getting ready to go to my friends' place."
+    },
+    {
+      "tag": "expression",
+      "word": "se mettre en route",
+      "ipa": "/sə mɛ.tʁ‿ɑ̃ ʁut/",
+      "mean": "to set off; to get going",
+      "ex": "Pour éviter d'arriver trop tard, nous nous mettons en route maintenant.",
+      "exEn": "To avoid arriving too late, we are setting off now."
+    },
+    {
+      "tag": "nom masculin",
+      "word": "un trajet",
+      "ipa": "/œ̃ tʁa.ʒɛ/",
+      "mean": "a journey between two places; a commute",
+      "ex": "Pendant mon trajet en bus, j'écoute un podcast.",
+      "exEn": "During my bus journey, I listen to a podcast."
+    },
+    {
+      "tag": "expression",
+      "word": "s'y mettre",
+      "ipa": "/si mɛtʁ/",
+      "mean": "to get started; to get down to it",
+      "ex": "La préparation du repas va prendre du temps ; on s'y met ?",
+      "exEn": "Preparing the meal is going to take time; shall we get started?"
+    },
+    {
+      "tag": "expression",
+      "word": "être pris par quelque chose",
+      "ipa": "/ɛtʁ pʁi paʁ kɛl.kə ʃoz/",
+      "mean": "to be busy with; to be taken up by something",
+      "ex": "Cet après-midi, elle sera prise par plusieurs rendez-vous.",
+      "exEn": "This afternoon, she will be busy with several appointments."
+    },
+    {
+      "tag": "expression",
+      "word": "faire une pause",
+      "ipa": "/fɛʁ yn poz/",
+      "mean": "to take a break",
+      "ex": "Les élèves font une pause avant le prochain exercice.",
+      "exEn": "The students take a break before the next exercise."
+    },
+    {
+      "tag": "adverbe",
+      "word": "d'habitude",
+      "ipa": "/d‿a.bi.tyd/",
+      "mean": "usually; normally",
+      "ex": "D'habitude, je fais les courses le lundi matin.",
+      "exEn": "I usually do the shopping on Monday mornings."
+    },
+    {
+      "tag": "nom masculin",
+      "word": "un coup de barre",
+      "ipa": "/œ̃ ku d(ə) baʁ/",
+      "mean": "a sudden dip in energy; a sudden feeling of tiredness",
+      "ex": "J'ai eu un coup de barre pendant le trajet du retour.",
+      "exEn": "I suddenly felt tired on the way home."
+    },
+    {
+      "tag": "expression",
+      "word": "faire un détour",
+      "ipa": "/fɛ.ʁ‿œ̃ de.tuʁ/",
+      "mean": "to take a detour; to go out of your way",
+      "ex": "Je fais un détour pour déposer un livre chez ma voisine.",
+      "exEn": "I'm taking a detour to drop a book off at my neighbour's."
+    },
+    {
+      "tag": "expression",
+      "word": "se dégourdir les jambes",
+      "ipa": "/sə de.ɡuʁ.diʁ le ʒɑ̃b/",
+      "mean": "to stretch your legs; to walk a little after sitting",
+      "ex": "Après le film, nous sommes sortis nous dégourdir les jambes.",
+      "exEn": "After the film, we went outside to stretch our legs."
+    },
+    {
+      "tag": "expression",
+      "word": "se changer les idées",
+      "ipa": "/sə ʃɑ̃.ʒe le.z‿i.de/",
+      "mean": "to take your mind off things",
+      "ex": "Il appelle un ami pour se changer les idées.",
+      "exEn": "He calls a friend to take his mind off things."
+    },
+    {
+      "tag": "expression",
+      "word": "du jour au lendemain",
+      "ipa": "/dy ʒu.ʁ‿o lɑ̃d.mɛ̃/",
+      "mean": "overnight; suddenly, without a gradual transition",
+      "ex": "On ne maîtrise pas une nouvelle langue du jour au lendemain.",
+      "exEn": "You don't master a new language overnight."
+    }
+  ]
+}

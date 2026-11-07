@@ -1,0 +1,386 @@
+0|Hello everyone and welcome to The Cozy French!|
+1|I'm Léa.|
+2|And I'm Mathieu.|
+3|Thank you for sharing a moment of your day with us.|
+4|Get comfortable.|
+5|Today, we're going to talk about our days,|
+6|from waking up until the evening.|
+7|I asked my colleagues to take part,|
+8|but they'd rather stay under the desk.|
+9|Your colleagues?|e=surpris
+10|My slippers. They work from home with me.|r=rire i=travail:à domicile
+11|Very discreet, always there, never late.|
+12|I hope you give them a lunch break.|
+13|Of course. They haven't filed a complaint yet.|e=rire
+14|This conversation is for levels B1 and B2.|
+15|We're going to speak slowly|
+16|and explain some useful expressions.|
+17|By the end,|
+18|you'll be able to describe your day in order|
+19|and talk about what you do regularly.|
+20|You'll also be able to explain what changes on certain days,|
+21|when your plans are a little different.|
+22|No need to have an extraordinary life.|
+23|Making breakfast or taking the bus,|i=repas:le petit déjeuner
+24|that's already something to talk about.|
+25|And no need to understand every word.|
+26|Follow the stories,|
+27|then repeat a few sentences with us.|
+28|We're going to compare a day at the office|
+29|and a day working from home.|
+30|Then we'll help you|
+31|describe your own routine.|
+32|Even if it starts|
+33|with a long negotiation with your duvet.|e=rire
+34|We're ready to listen to you.|
+35|To start,|
+36|think of one small thing|
+37|you do almost every day.|
+38|Opening the windows, feeding your cat,|
+39|packing your bag or calling someone on your way home.|
+40|When do you do it?|
+41|And why do you like this habit?|
+42|Keep your idea for the end.|
+43|You can also tell us where you're listening to this episode from.|
+44|It's always nice to imagine|
+45|our conversations in your days,|
+46|at hours that are sometimes very different.|
+47|On the days I go to the office,|
+48|I wake up around seven.|i=temps:sept heures
+49|I stay sitting for a little while before getting up.|
+50|Are you ready to chat straight away?|e=question
+51|Not really. My head is still in a fog.|e=fatigue B={"mode":"word","note":"= avoir du mal à réfléchir clairement, les pensées pas encore bien réveillées","icon":"sommeil"}
+52|You have trouble thinking clearly,|
+53|as if your thoughts weren't quite awake yet.|
+54|Exactly. For example, after a long night journey,|
+55|my head was in a fog.|BE
+56|So I wait before asking you|
+57|to solve a complicated problem.|
+58|That's better. First, I open the shutters.|e=rire
+59|Then I make my breakfast.|
+60|I like to take my time at that moment.|
+61|To take your time|
+62|means doing something without rushing.|
+63|Yes. For example, on Saturdays,|
+64|I take my time choosing vegetables at the market.|i=courses:le marché
+65|But in the morning, you still keep an eye on the time?|
+66|A little. I eat, then I get ready.|
+67|I wash,|
+68|I get dressed and I check what I need to take.|
+69|"Se préparer," here,|
+70|means doing the things you need|
+71|to be ready to leave.|
+72|That's it. Another example:|
+73|we're getting ready for an evening at the theatre.|
+74|Do you make your lunch too?|
+75|Sometimes, but I often eat with my colleagues.|
+76|Before going out,|
+77|I grab my helmet and go downstairs to get my bike.|
+78|What time do you set off?|
+79|Around a quarter past eight.|
+80|"Se mettre en route"|
+81|means leaving, starting your journey.|
+82|For example, to get to my uncle's before noon,|
+83|we set off at ten.|
+84|On the way, I sometimes stop at the bakery.|
+85|I get some bread for lunch, then I head off again.|i=repas:du pain
+86|Do you meet any regulars?|
+87|Yes, including a man|
+88|who always orders before he's chosen.|
+89|The baker already knows how the conversation ends.|e=rire
+90|His purchase has become a little ceremony.|
+91|A bit.|
+92|My commute to the office takes about twenty minutes,|
+93|without that stop.|
+94|"Un trajet"|
+95|is the journey|
+96|between a starting point and a destination.|
+97|Yes. For example,|
+98|her commute to the university|
+99|includes a ten-minute walk and a tram ride.|
+100|And when you get to the office?|
+101|I greet my colleagues and look at my appointments.|i=rendezvous:mes rendez-vous
+102|Around half past twelve, we often have lunch together.|
+103|So you can describe|B={"mode":"steps","bg":"craie","title":"Raconter dans l'ordre","items":["d'abord…","ensuite…","puis…"]}
+104|several steps with very simple words.|
+105|Exactly: first, then, next.|
+106|They help the listener follow my day.|BE
+107|Me, when I work from home,|
+108|I get up around half past seven.|
+109|I make coffee and something to eat.|i=cafe:du café
+110|And your slippers start their day?|e=rire
+111|They're already there.|
+112|Then I water my plants|
+113|if they need it|
+114|and I air out the apartment a bit.|
+115|Do you start working right after?|
+116|Before, I'd drift from the table to the desk|
+117|without really deciding when to start.|
+118|Now, at nine o'clock, I get down to it.|
+119|"S'y mettre"|
+120|means starting an activity or a task.|
+121|Yes. For example, the boxes have arrived;|
+122|this afternoon, we're getting down to the tidying.|
+123|What helps you get started?|
+124|I move my mug,|B={"mode":"steps","bg":"carnet","title":"Pour commencer à travailler","items":["je déplace ma tasse","j'ouvre mon carnet","je choisis une première tâche"]}
+125|I open my notebook and choose a first task.|
+126|These are very ordinary little actions.|BE
+127|But you know your work morning is starting.|e=idee
+128|That's it. Then|
+129|I can get caught up in a file|
+130|or a fairly long call.|
+131|"Être pris par quelque chose"|B={"mode":"word","bg":"craie","note":"= être occupé par cette activité, avec peu de disponibilité pour le reste","icon":"travail"}
+132|means being busy with that activity,|
+133|with little time for anything else.|
+134|For example, tomorrow morning,|
+135|I'll be busy preparing the meeting.|BE
+136|And what time does your lunch come?|
+137|Around one o'clock.|
+138|Sometimes I heat up a dish,|
+139|or I make something quick.|
+140|Then I go to another room to eat.|
+141|You take a break away from your work corner.|
+142|Yes. "Faire une pause"|
+143|means stopping an activity for a while,|
+144|before going back to it.|
+145|For example, during our visit to the museum,|
+146|we took a break in the garden.|i=nature:le jardin
+147|In the afternoon, I go back to work.|
+148|I usually finish around six p.m.|
+149|and I put my things away.|
+150|And after that?|
+151|Sometimes I go and get a bit of shopping.|
+152|In the evening, I cook, I eat,|
+153|then I do the dishes.|
+154|Do you keep some time for yourself?|e=coeur
+155|Yes. Often,|
+156|I listen to music or call a friend.|i=musique:de la musique
+157|I go to bed around eleven p.m.,|
+158|but it depends on the day.|
+159|Exactly, to describe your routine,|
+160|you can say what happens|
+161|normally and what changes.|
+162|For example: "Usually, I work from home,|
+163|but on Thursdays, I go to the office."|
+164|"D'habitude" means generally,|B={"mode":"word","bg":"carnet","note":"= généralement, dans les circonstances ordinaires","icon":"repas"}
+165|in ordinary circumstances.|
+166|Another example: usually we have lunch in the canteen,|
+167|but today, we're going to a restaurant.|BE
+168|Me, last Wednesday, it was raining a lot.|e=triste
+169|I left my bike at home|i=pluie:il pleuvait
+170|and took the tram.|
+171|Did you have to leave earlier?|
+172|Yes, and get my bread near the office.|
+173|The steps were almost the same,|
+174|but their order had changed.|
+175|You didn't need to rebuild your whole day.|
+176|No. These little landmarks help me,|
+177|even when my schedule shifts.|
+178|And our energy changes too.|
+179|Some afternoons, I hit a slump.|e=fatigue B={"mode":"word","note":"= une baisse soudaine d'énergie : on se sent fatigué"}
+180|It's a sudden drop in energy.|
+181|You feel tired and want to slow down.|
+182|For example, after carrying all those boxes,|
+183|I suddenly felt exhausted|
+184|and sat down.|BE
+185|You can then explain:|
+186|"Around three p.m., I'm sometimes tired.|
+187|I stop for a few minutes."|
+188|That's closer to my real life than saying|
+189|that I always work|
+190|enthusiastically until dinner.|e=rire
+191|And for someone who works in the evening,|
+192|or who looks after a loved one,|
+193|the hours will be different again.|
+194|Yes. Your routine tells your story.|
+195|It doesn't need to look like ours.|e=coeur
+196|Even slightly messy days|
+197|give you things to talk about.|
+198|Let's try a scene.|
+199|We meet before our first pottery class|i=etudes:un cours de poterie
+200|and we chat about our days.|
+201|You can answer my question before Mathieu.|
+202|For once,|
+203|I'm not going to start by talking about my slippers.|e=rire
+204|So, what does a typical day look like for you?|
+205|Your turn!|
+206|Describe the start of your day in two sentences.|
+207|Take a few seconds.|
+208|You can start with:|
+209|"On weekdays, I get up around…|
+210|Then I…"|
+211|On weekdays, I get up around half past seven.|B={"mode":"sketch","title":"En situation : au cours de poterie"}
+212|Then I have breakfast|
+213|and I work from home.|
+214|What time do you start?|
+215|Around nine.|
+216|And you, do you work from home too?|
+217|Some days, yes.|
+218|But I often cycle to the office.|
+219|On the way home,|
+220|I sometimes take a detour to stop by the market.|BE
+221|"Faire un détour"|B={"mode":"word","note":"= prendre un chemin plus long ou différent du chemin direct","icon":"voyage"}
+222|means taking a longer route|
+223|or one that differs from the direct route.|
+224|For example,|
+225|we took a detour to see|
+226|the old bridge before going home.|BE
+227|OK. And do you have time|
+228|to cook before the class?|
+229|Not always. On Wednesdays, I often eat afterwards.|
+230|I make something simple before leaving.|
+231|Me too.|
+232|I like having my dinner almost ready when I get home.|
+233|And what do you do on the other evenings?|
+234|I often stay at home,|
+235|but on Fridays, I sometimes see friends.|i=amis:des amis
+236|There's a conversation that can keep going.|
+237|You ask a question, you answer,|
+238|then you take an interest in the other person.|
+239|You don't need to describe|
+240|twenty-four hours without stopping.|
+241|A few steps are enough to start.|
+242|To organise your story, choose three moments:|B={"mode":"mindmap","bg":"carnet","word":"ma journée","items":["le matin","pendant la journée","le soir","une action","une heure","un petit détail"]}
+243|the morning, during the day and the evening.|
+244|For each moment, you can give an action,|
+245|a time and a small personal detail.|BE
+246|For example: "In the morning, I leave around eight.|
+247|I like to walk a little before taking the tram."|
+248|Or: "After lunch,|
+249|I go out to stretch my legs."|
+250|"Se dégourdir les jambes"|
+251|means walking a little after|
+252|sitting or staying still.|
+253|For example, on a long car journey,|i=voiture:en voiture
+254|we stop to stretch our legs.|
+255|You see,|
+256|that little detail already paints a picture of your afternoon.|
+257|To talk about frequency, I can say "often,"|
+258|"sometimes" or "almost every day."|
+259|Yes. "I cook almost every day"|
+260|and "I sometimes cook"|
+261|don't describe the same habit.|
+262|And in the evening,|
+263|I can explain why I do an activity.|
+264|"I listen to music to take my mind off things."|
+265|"Se changer les idées" means thinking about something else,|
+266|often thanks to a pleasant activity.|
+267|Another example: after that long meeting,|
+268|I went to the cinema to take my mind off things.|
+269|You can also talk about a particular day:|
+270|"On Tuesdays,|
+271|I get home later because I have a class."|
+272|And what if my routine is still changing?|
+273|You can say so.|
+274|"At the moment,|
+275|I'm trying to make my lunch the night before."|
+276|That describes a new habit.|
+277|I'm not going to transform my whole day|e=gene
+278|overnight.|
+279|"Du jour au lendemain"|B={"mode":"word","bg":"craie","note":"= très rapidement, sans longue transition"}
+280|means very quickly, without a long transition.|
+281|Example: he can't change|
+282|all his hours overnight.|BE
+283|So I start with a sentence that suits me.|
+284|Then I add a detail when I feel comfortable.|
+285|Exactly. You can learn|
+286|to describe your day gradually,|
+287|with the vocabulary you already know.|
+288|And ask for a word when it's missing.|
+289|"How do you say…?" is still a very useful question.|e=question
+290|It's your turn.|
+291|Here's a model: "Usually, I get up around…|
+292|First, I… Then, I…|
+293|In the evening, I…"|
+294|Usually, I get up around half past seven.|
+295|First, I make breakfast.|
+296|Then I work.|
+297|In the evening, I cook.|
+298|I can add:|
+299|"I often cycle to the office.|
+300|But when it rains a lot, I take the tram."|
+301|Say your version out loud.|
+302|Take time to find the words.|
+303|You can use short sentences.|
+304|Now add your little habit from the beginning:|
+305|"Almost every day, I…|
+306|because…"|
+307|Almost every day,|
+308|I air out my apartment in the morning|
+309|because I like to start the day|
+310|with fresh air.|
+311|Almost every day,|
+312|I chat with a colleague during lunch|
+313|because I enjoy that moment together.|e=coeur
+314|And to keep the conversation going, ask a question:|
+315|"And you, what do you do after work?"|
+316|Let's go back over five expressions.|
+317|Listen, then repeat with us.|
+318|First expression: "avoir la tête dans le brouillard."|
+319|When she wakes up,|
+320|Léa isn't always ready to think very fast.|
+321|It means your thoughts aren't very clear.|
+322|New example: this morning,|
+323|my head was in a fog|
+324|and I reread the same message three times.|e=gene
+325|Let's repeat: "avoir la tête dans le brouillard."|
+326|An expression to describe that feeling|
+327|without recounting your whole night.|
+328|Second expression: "se mettre en route."|
+329|I leave around a quarter past eight|
+330|to go to the office.|
+331|It means starting your journey.|
+332|Example: the concert starts soon,|
+333|it's time for us to set off.|
+334|Let's repeat: "se mettre en route."|
+335|You can specify the time or the destination.|
+336|Third expression: "s'y mettre."|B={"mode":"conjug","bg":"carnet","verb":"s'y mettre","tense":"présent","rows":[["je","m'y met|s"],["tu","t'y met|s"],["il / elle / on","s'y me|t"],["nous","nous y mett|ons"],["vous","vous y mett|ez"],["ils / elles","s'y mett|ent"]],"note":"Bon, on s'y met ?"}
+337|At nine o'clock, I start my work.|
+338|You start the activity you're talking about.|
+339|Example: to prepare the show,|
+340|we're getting down to it from Saturday.|
+341|Let's repeat: "s'y mettre."|
+342|In a conversation, you often hear:|
+343|"Right, shall we get started?"|BE
+344|Fourth expression: "un coup de barre."|B={"mode":"quiz","bg":"craie","q":"Un coup de barre, c'est… ?","options":["une fatigue soudaine","un bon petit déjeuner","un long trajet"],"answer":0,"reveal":2,"explain":"= un moment de fatigue soudaine"}
+345|Some afternoons, you feel a drop in energy.|
+346|It's a moment of sudden tiredness.|
+347|Example: after the visit,|
+348|she suddenly felt exhausted|
+349|and preferred to go home.|BE
+350|Let's repeat: "un coup de barre."|
+351|It's a common expression|
+352|in everyday conversations.|
+353|Finally, "se changer les idées."|
+354|In the evening, music helps me think about something else.|
+355|Example: we went to see an exhibition|
+356|to take our minds off things after a busy week.|
+357|Let's repeat: "se changer les idées."|
+358|You can explain which activity you enjoy|
+359|and when you do it.|
+360|Now choose an expression and make a sentence|
+361|about your day yesterday or your usual routine.|
+362|Little details are welcome.|
+363|It's often thanks to them|
+364|that a conversation becomes personal.|
+365|In the comments, complete this sentence:|
+366|"Almost every day, I…|
+367|because…"|
+368|Or describe your day|
+369|in three steps with "first,"|
+370|"then" and "finally."|
+371|If this episode helped you,|
+372|subscribe to The Cozy French to keep|
+373|listening and speaking with us.|
+374|You can listen to a short exchange again,|
+375|then try to retell it with your own habits.|
+376|Thank you for sharing this moment.|e=coeur
+377|Take care and see you very soon!|
+378|Goodbye everyone!|
+379|Now I'm going to announce the end|
+380|of the day to my colleagues.|
+381|So your slippers can finally go home?|e=rire
+382|They're already there.|r=rire
+383|But for tonight,|
+384|they're leaving the office and joining the sofa.|
+385|A very reasonable commute.|

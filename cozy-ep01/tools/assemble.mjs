@@ -22,7 +22,7 @@ const chunks = fs.readdirSync(partsDir).filter(f => f.endsWith('.json')).sort().
 const vocab = read('work/vocab.json');
 
 const ep = { scene: setup.scene, lea: setup.lea, mat: setup.mat, audio: draft.audio, audioEnd: draft.audioEnd,
-  chunks: chunks.map(c => ({ who: c.who, fr: c.fr, en: c.en, ...(c.emote && { emote: c.emote }), ...(c.react && { react: c.react }), ...(c.illus && { illus: c.illus }), ...(c.label && { label: c.label }), ...(c.board && { board: c.board }), ...(c.boardEnd && { boardEnd: true }) })), vocab };
+  chunks: chunks.map(c => ({ who: c.who, fr: c.fr, en: c.en, ...(c.emote && { emote: c.emote }), ...(c.react && { react: c.react }), ...(c.illus && { illus: c.illus }), ...(c.label && { label: c.label }), ...(c.act && { act: c.act }), ...(c.board && { board: c.board }), ...(c.boardEnd && { boardEnd: true }) })), vocab };
 
 // validate against the transcript before writing
 const W = read('assets/words.json');
@@ -31,7 +31,7 @@ let wi = 0, groups = 0, problems = [];
 ep.chunks.forEach((c, ci) => {
   if (!['lea', 'mat'].includes(c.who)) problems.push(`chunk ${ci}: who="${c.who}"`);
   if (!c.en) problems.push(`chunk ${ci}: missing en`);
-  const toks = c.fr.split(/\s+/);
+  const toks = c.fr.split(/[ \t\n]+/);   // NBSP (French punctuation spacing) stays inside a token
   toks.forEach(raw => {
     if (raw.startsWith('[')) groups++;
     const w = W[wi++];

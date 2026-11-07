@@ -98,6 +98,7 @@
   <label>Léa <select id="selLea"></select></label>
   <label>Mathieu <select id="selMat"></select></label>
   <button id="rand">Ngẫu nhiên</button>
+  <button id="sipTry">Nhấp cà phê</button>
   <label>Biểu cảm <select id="selEmo"></select></label><button id="emoLea">Léa</button><button id="emoMat">Mathieu</button>
   <label>Minh hoạ <select id="selIll"></select></label><button id="illLea">Léa</button><button id="illMat">Mathieu</button>
   <label>Cử chỉ <select id="selGest"></select></label><button id="gLea">Léa</button><button id="gMat">Mathieu</button>
@@ -110,7 +111,8 @@
    CẤU HÌNH TỪNG TẬP — chỉ cần đổi dòng này
    scene: cafe | salon | parc | cuisine | biblio | terrasse | chalet | boulangerie | train | quai
           marche | plage | atelier | lavande | bureau
-          đi dạo: promenade | ruelle | automne | corniche | village | jardin
+          bistrot | verriere | peniche
+          đi dạo: promenade | ruelle | automne | corniche | village | jardin | canal | noel | vignoble | pluie | port
    lea:   pull | mariniere | trench | chemise | cardigan | pois | jean | lilas | foulard | doudoune
    mat:   denim | hoodie | colroule | blazer | pull | carreaux | velours | polo | gilet | tablier
    ============================================================ */
@@ -657,6 +659,20 @@ function walkCardTL(tl,card,t0,t1,dir,fade){
 }
 /* WALK-RUNTIME-END */
 
+/* SIP-RUNTIME-START (chép nguyên văn vào video bởi tools/build.mjs — chỉ dùng gsap, không random).
+   người nghe thỉnh thoảng nhấp cà phê (2,6 s bắt đầu từ t): đưa cốc lên miệng, nghiêng, đặt xuống */
+function sipTL(tl,c,t){
+  tl.set(c+' .armHold',{opacity:0},t); tl.set(c+' .armSip',{opacity:1},t);
+  tl.to(c+' .steamGrp',{opacity:0,duration:.2},t); tl.to(c+' .steamGrp',{opacity:1,duration:.6},t+2.3);
+  tl.fromTo(c+' .cupGrp',{x:0,y:0},{x:-14,y:-150,duration:.4,ease:'power2.inOut',immediateRender:false},t);
+  tl.fromTo(c+' .cupTilt',{rotation:0},{rotation:-18,duration:.4,ease:'power2.inOut',immediateRender:false},t);
+  tl.fromTo(c+' .cupTilt',{rotation:-18},{rotation:-28,duration:.6,yoyo:true,repeat:1,ease:'sine.inOut',immediateRender:false},t+.45);
+  tl.fromTo(c+' .cupGrp',{x:-14,y:-150},{x:0,y:0,duration:.4,ease:'power2.inOut',immediateRender:false},t+1.75);
+  tl.fromTo(c+' .cupTilt',{rotation:-18},{rotation:0,duration:.4,ease:'power2.inOut',immediateRender:false},t+1.75);
+  tl.set(c+' .armSip',{opacity:0},t+2.15); tl.set(c+' .armHold',{opacity:1},t+2.15);
+}
+/* SIP-RUNTIME-END */
+
 function leaSVG(k,walk){ const o=OUT_LEA[k]; return `<div class="name">Léa</div>
  <svg viewBox="0 0 360 480"><g filter="url(#pencil)">${walk?`<g class="walkBob"><g class="walkLean">${LEGS('lea',k)}`:''}<g class="sway">${walk?WALK_ARM_BACK(o,'#eab896',42):''}
   <g class="breath">
@@ -755,7 +771,15 @@ function walkAmb(tl){
   Q('.wave').forEach(w=>tl.fromTo(w,{x:0,opacity:.9},{x:rnd(-30,-60),opacity:.3,duration:rnd(1.6,2.6),yoyo:true,repeat:rep(1.6),ease:'sine.inOut'},rnd(0,2)));
   Q('.boat').forEach(b=>tl.fromTo(b,{rotation:-3,y:0},{rotation:3,y:-6,transformOrigin:'50% 100%',duration:1.8,yoyo:true,repeat:rep(1.8),ease:'sine.inOut'},0));
   Q('.flag').forEach(f=>tl.fromTo(f,{rotation:-6},{rotation:6,transformOrigin:'50% 0%',duration:rnd(.9,1.4),yoyo:true,repeat:rep(.9),ease:'sine.inOut'},rnd(0,1)));
+  Q('.drop').forEach(d=>tl.fromTo(d,{y:-60},{y:470,duration:rnd(.8,1.3),ease:'none',repeat:rep(.8)},rnd(0,1.2)));
+  Q('.bulbg').forEach(b=>tl.fromTo(b,{opacity:.25},{opacity:.08,duration:rnd(.8,1.6),yoyo:true,repeat:rep(.8)},rnd(0,2)));
+  Q('.mote').forEach(m=>tl.fromTo(m,{y:0,opacity:0},{y:rnd(-80,-160),opacity:.9,duration:rnd(4,6),yoyo:true,repeat:rep(4),ease:'sine.inOut'},rnd(0,3)));
+  const h=document.querySelectorAll('#scene .clockhand');
+  if(h[0]) tl.fromTo(h[0],{rotation:120},{rotation:150,transformOrigin:'50% 100%',duration:TOTAL,ease:'none'},0);
+  if(h[1]) tl.fromTo(h[1],{rotation:0},{rotation:360,transformOrigin:'50% 100%',duration:60,ease:'none',repeat:rep(60)},0);
+  if(document.querySelector('#leaves')) tl.fromTo('#leaves',{rotation:0},{rotation:2,transformOrigin:'50% 0%',duration:2.2,yoyo:true,repeat:rep(2.2),ease:'sine.inOut'},0);
 }
+const sitAmb=walkAmb;
 const gradV=(id,a,b)=>`<linearGradient id="${id}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${a}"/><stop offset="1" stop-color="${b}"/></linearGradient>`;
 const cobbles=(w,cols,y0=718,rows=7)=>{let g='';for(let r=0;r<rows;r++)for(let x=0;x<w;x+=60)g+=`<ellipse cx="${x+(r%2)*30+rnd(-4,4)}" cy="${y0+r*52+rnd(-3,3)}" rx="${rnd(24,28)}" ry="${rnd(13,17)+r*1.6}" fill="${pick(cols)}"/>`;return g;};
 const PARIS_LAMP=(x,c='#3f5a4c')=>`<circle class="glow" cx="${x}" cy="330" r="140" fill="url(#lg)" opacity=".55"/><rect x="${x-6}" y="330" width="12" height="370" fill="${c}"/><path d="M${x-26} 340 h52 l-8 -50 h-36Z" fill="${c}"/><path d="M${x-18} 334 h36 l-6 -38 h-24Z" fill="#ffe2a6"/><path d="M${x-30} 292 h60 l-30 -22Z" fill="${c}"/><path d="M${x-18} 700 h36 l-6 -26 h-24Z" fill="${c}"/>`;
@@ -1138,7 +1162,7 @@ const SCENES={
   <g transform="rotate(-3 200 425)"><rect x="110" y="314" width="182" height="222" fill="#f6c99a"/><circle cx="230" cy="380" r="34" fill="#e9897a"/><path d="M110 470 C160 430 220 450 292 420 V536 H110Z" fill="#6f8f9e"/><path d="M110 500 C170 480 230 500 292 470 V536 H110Z" fill="#8a6bb0"/></g>
   <rect x="330" y="610" width="200" height="12" fill="#8a5a3c"/>${[[350,'#c8443a'],[400,'#f3c96b'],[450,'#5d7fa0']].map(([x,c])=>`<rect x="${x}" y="560" width="40" height="50" rx="6" fill="#fbf6ec"/><rect x="${x}" y="580" width="40" height="30" rx="4" fill="${c}"/><path d="M${x+14} 562 l-8 -50 M${x+24} 562 l6 -46" stroke="#a8724e" stroke-width="5"/>`).join('')}
   <line x1="1760" y1="0" x2="1760" y2="170" stroke="#3a2e28" stroke-width="3"/>
-  <g id="leaves"><path d="M1720 170 h80 l-10 60 h-60Z" fill="#c9825c"/>${range(9,i=>`<path d="M${1730+i*8} 200 C${1700+i*14} ${260+i*10} ${1690+i*16} ${330+i*14} ${1710+i*12} ${380+(i%3)*30}" stroke="#6f8f6b" stroke-width="6" fill="none"/><ellipse cx="${1710+i*12}" cy="${380+(i%3)*30}" rx="10" ry="16" fill="#8fae8b"/>`)}</g>
+  <g id="leaves" data-pivot="top"><path d="M1720 170 h80 l-10 60 h-60Z" fill="#c9825c"/>${range(9,i=>`<path d="M${1730+i*8} 200 C${1700+i*14} ${260+i*10} ${1690+i*16} ${330+i*14} ${1710+i*12} ${380+(i%3)*30}" stroke="#6f8f6b" stroke-width="6" fill="none"/><ellipse cx="${1710+i*12}" cy="${380+(i%3)*30}" rx="10" ry="16" fill="#8fae8b"/>`)}</g>
   ${[[1640,'#d9774b',-6],[1690,'#5d7fa0',-2],[1740,'#f3c96b',4]].map(([x,c,r])=>`<g transform="rotate(${r} ${x+70} 760)"><rect x="${x}" y="520" width="150" height="240" fill="#fffaf0" stroke="#8a5a3c" stroke-width="6"/><rect x="${x+14}" y="534" width="122" height="212" fill="${c}" opacity=".75"/></g>`).join('')}
   ${range(20,()=>`<circle class="mote" cx="${rnd(700,1300)}" cy="${rnd(480,700)}" r="${rnd(2,4)}" fill="#fffbe6" opacity=".8"/>`)}
   <rect y="760" width="1920" height="320" fill="#b98d6a"/>${range(12,i=>`<line x1="${i*170}" y1="760" x2="${i*170}" y2="1080" stroke="#a57a59" stroke-width="4"/>`)}
@@ -1319,6 +1343,124 @@ const SCENES={
      near, ground:range(30,()=>`<circle cx="${rnd(0,240)}" cy="${rnd(710,1070)}" r="${rnd(1.5,3)}" fill="#cdbf9f"/>`),
      groundFill:`<rect x="-800" y="700" width="3520" height="380" fill="#e3d6b8"/><rect x="-800" y="698" width="3520" height="8" fill="#6f9763"/>`});},
   anim(tl){ walkAmb(tl); }},
+
+ /* ---------------- 5 cảnh ngồi mới ---------------- */
+ bistrot:{label:'22. Bistrot du soir', html:()=>{
+   const bottles=range(22,i=>{const x=700+i*24,h=rnd(60,90),c=pick(['#2f5f3a','#6b2a33','#c9a24a','#3f6b8a','#8a5a3c','#e9dcc3']);return `<rect x="${x}" y="${330-h}" width="18" height="${h}" rx="6" fill="${c}"/><rect x="${x+5}" y="${318-h}" width="8" height="16" fill="${c}"/><rect x="${x+2}" y="${330-h*.55}" width="14" height="14" fill="#f4ead6" opacity=".8"/>`;});
+   return `<svg class="bg" viewBox="0 0 1920 1080"><defs>${lampGrad}${gradV('bsn','#1f2846','#3d4570')}</defs>
+  <rect width="1920" height="1080" fill="#6b2f2a"/><rect y="440" width="1920" height="320" fill="#5a3a28"/>${range(16,i=>`<rect x="${i*124+12}" y="470" width="100" height="260" rx="6" fill="none" stroke="#4a2f20" stroke-width="5"/>`)}
+  <rect x="660" y="120" width="600" height="300" rx="8" fill="#c9a24a"/><rect x="676" y="136" width="568" height="268" fill="#8a6a5c" opacity=".55"/>
+  <rect x="680" y="330" width="560" height="10" fill="#4a2f20"/><rect x="680" y="230" width="560" height="8" fill="#4a2f20"/>${bottles}${range(20,i=>`<path d="M${708+i*26} 222 l6 -22 h8 l6 22Z" fill="#f4eef0" opacity=".7"/>`)}
+  <rect x="600" y="520" width="720" height="180" fill="#9aa3ad"/><rect x="590" y="508" width="740" height="20" rx="6" fill="#c9d0d6"/><rect x="600" y="528" width="720" height="10" fill="#7f8891"/>
+  <rect x="60" y="130" width="250" height="300" rx="8" fill="#3a2e28"/><rect x="74" y="144" width="222" height="272" fill="url(#bsn)"/>${stars(14,80,290,150,300)}<rect x="74" y="330" width="222" height="86" fill="#2a2f4a"/>${range(5,i=>`<rect x="${84+i*42}" y="${340}" width="16" height="22" fill="${i%2?'#ffd98a':'#3a3f60'}"/>`)}<path d="M185 144 v272 M74 280 h222" stroke="#3a2e28" stroke-width="8"/>
+  <rect x="1620" y="150" width="240" height="300" rx="8" fill="#8e6446"/><rect x="1632" y="162" width="216" height="276" fill="#2d3a33"/>
+  <g fill="#f0eadc" font-family="Nunito" font-weight="700" font-size="26"><text x="1740" y="210" text-anchor="middle" font-size="32">Plat du jour</text><text x="1650" y="262">Bœuf bourguignon</text><text x="1650" y="306">Soupe à l'oignon</text><text x="1650" y="350">Tarte Tatin</text><text x="1650" y="394">Verre de vin</text></g>
+  ${[480,960,1440].map(x=>`<line x1="${x}" y1="0" x2="${x}" y2="70" stroke="#3a2e28" stroke-width="3"/><circle class="glow" cx="${x}" cy="100" r="170" fill="url(#lg)" opacity=".6"/><circle cx="${x}" cy="100" r="30" fill="#ffe9b8"/><rect x="${x-10}" y="64" width="20" height="10" fill="#c9a24a"/>`).join('')}
+  <rect y="760" width="1920" height="320" fill="#efe8dc"/>${range(24,i=>range(4,j=>(i+j)%2?`<rect x="${i*80}" y="${760+j*80}" width="80" height="80" fill="#2f2a2a"/>`:''))}
+  ${TABLE('#e9e4da','#c9c2b6')}</svg>`;},
+  anim(tl){ sitAmb(tl); }},
+
+ verriere:{label:"23. Jardin d'hiver sous la pluie", html:()=>`<svg class="bg" viewBox="0 0 1920 1080"><defs>${lampGrad}${gradV('vsk2','#b9c9cf','#dfe7e2')}<clipPath id="vglass"><rect x="40" y="60" width="1840" height="640"/></clipPath></defs>
+  <rect width="1920" height="1080" fill="#e9e2d2"/><rect x="40" y="60" width="1840" height="640" fill="url(#vsk2)"/>
+  <g clip-path="url(#vglass)">${range(12,i=>`<ellipse cx="${i*170+rnd(-30,30)}" cy="${560+rnd(-30,20)}" rx="${rnd(110,150)}" ry="${rnd(90,130)}" fill="${pick(['#7f9f7b','#8fae8b','#6f8f6b'])}"/>`)}<rect x="40" y="620" width="1840" height="80" fill="#9cb98f"/>
+   ${range(46,()=>`<rect class="drop" x="${rnd(50,1870)}" y="${rnd(40,200)}" width="3" height="${rnd(18,30)}" rx="2" fill="#fff" opacity=".7"/>`)}</g>
+  <g stroke="#2f3338" stroke-width="8" fill="none">${range(9,i=>`<line x1="${40+i*230}" y1="60" x2="${40+i*230}" y2="700"/>`)}<line x1="40" y1="300" x2="1880" y2="300"/><line x1="40" y1="60" x2="1880" y2="60"/><line x1="40" y1="700" x2="1880" y2="700"/>${range(8,i=>`<path d="M${40+i*230} 300 Q${155+i*230} 220 ${270+i*230} 300"/>`)}</g>
+  <g id="leaves" data-pivot="top"><path d="M60 0 v120" stroke="#3a2e28" stroke-width="3"/><path d="M30 120 h60 l-8 40 h-44Z" fill="#c9825c"/>${range(8,k=>`<path d="M${40+k*6} 160 C${20+k*8} ${220+k*10} ${10+k*12} ${280+k*10} ${30+k*10} ${320+(k%3)*30}" stroke="#5f8f5a" stroke-width="5" fill="none"/><ellipse cx="${30+k*10}" cy="${320+(k%3)*30}" rx="9" ry="14" fill="#7fa673"/>`)}</g>
+  ${[[150,'#c9825c'],[1720,'#a8724e']].map(([x,c])=>`<path d="M${x-60} 760 h120 l-14 -110 h-92Z" fill="${c}"/>${range(9,k=>`<ellipse cx="${x+Math.cos(k*.7)*70}" cy="${600-Math.sin(k*.9)*60-k*12}" rx="44" ry="20" fill="${k%2?'#4f7a52':'#5f8f5a'}" transform="rotate(${k*40-160} ${x+Math.cos(k*.7)*70} ${600-Math.sin(k*.9)*60-k*12})"/>`)}`).join('')}
+  <circle class="glow" cx="960" cy="120" r="200" fill="url(#lg)" opacity=".45"/><line x1="960" y1="0" x2="960" y2="90" stroke="#2f3338" stroke-width="3"/><path d="M930 120 Q960 80 990 120Z" fill="#2f3338"/><circle cx="960" cy="122" r="10" fill="#ffe9b8"/>
+  <rect y="760" width="1920" height="320" fill="#efe8dc"/>${range(24,i=>range(4,j=>(i+j)%2?`<rect x="${i*80}" y="${760+j*80}" width="80" height="80" fill="#8fae8b" opacity=".7"/>`:''))}
+  ${TABLE('#f1ebe0','#d7cfc0')}</svg>`,
+  anim(tl){ sitAmb(tl); }},
+
+ peniche:{label:'24. Sur une péniche', html:()=>{
+   const view=`<rect x="0" y="0" width="900" height="300" fill="#a9d3e6"/>${range(5,i=>`<rect x="${i*180}" y="${110+(i%2)*20}" width="150" height="${90-(i%2)*20}" fill="${pick(['#efe1c4','#e9cfa6','#f2e6d0'])}"/><path d="M${i*180-4} ${110+(i%2)*20} h158 l-12 -20 h-134Z" fill="#8a97a8"/>`)}${range(9,i=>`<circle cx="${i*100+40}" cy="${185}" r="${rnd(20,30)}" fill="#7fa673"/>`)}<rect x="0" y="200" width="900" height="100" fill="#5d8fa8"/>`;
+   const port=(cx,cy)=>`<clipPath id="pw${cx}"><circle cx="${cx}" cy="${cy}" r="120"/></clipPath><g clip-path="url(#pw${cx})"><g data-roll="900,20" transform="translate(0 ${cy-170})">${tileX(900,view,-900).replace(/translate\((-?\d+(?:\.\d+)?) 0\)/g,(m,x)=>`translate(${+x+cx-500} 0)`)}</g></g><circle cx="${cx}" cy="${cy}" r="120" fill="none" stroke="#c9a24a" stroke-width="22"/><circle cx="${cx}" cy="${cy}" r="132" fill="none" stroke="#8a6a3c" stroke-width="5"/>`;
+   return `<svg class="bg" viewBox="0 0 1920 1080"><defs>${lampGrad}</defs>
+  <rect width="1920" height="1080" fill="#c99a6a"/>${range(14,i=>`<rect x="0" y="${i*56}" width="1920" height="50" fill="${i%2?'#c08f5e':'#cfa271'}"/>`)}
+  <path d="M0 0 H1920 V80 Q960 160 0 80Z" fill="#8a5a3c"/>${range(8,i=>`<path d="M${i*280} 0 Q${i*280+140} 60 ${i*280+280} 0" stroke="#6e4630" stroke-width="6" fill="none"/>`)}
+  ${port(760,330)}${port(1160,330)}
+  <circle cx="200" cy="330" r="80" fill="none" stroke="#fbf6ec" stroke-width="34"/>${range(4,i=>`<path d="M${200+Math.cos(i*Math.PI/2+.4)*80} ${330+Math.sin(i*Math.PI/2+.4)*80}" stroke="#c8443a" stroke-width="34" fill="none"/>`)}<circle cx="200" cy="330" r="80" fill="none" stroke="#c8443a" stroke-width="34" stroke-dasharray="60 66"/>
+  <path d="M1700 150 C1660 300 1760 420 1720 600" stroke="#d9c39a" stroke-width="12" fill="none"/><circle cx="1720" cy="610" r="40" fill="none" stroke="#d9c39a" stroke-width="12"/>
+  <circle class="glow" cx="960" cy="200" r="160" fill="url(#lg)" opacity=".55"/><line x1="960" y1="90" x2="960" y2="150" stroke="#3a2e28" stroke-width="3"/><rect x="944" y="150" width="32" height="50" rx="6" fill="#3a3f48"/><rect x="950" y="158" width="20" height="34" rx="4" fill="#ffe2a6"/>
+  <rect y="760" width="1920" height="320" fill="#8a5a3c"/>${range(10,i=>`<line x1="0" y1="${780+i*30}" x2="1920" y2="${780+i*30}" stroke="#6e4630" stroke-width="4"/>`)}
+  ${TABLE('#a8724e','#8c5c3d')}</svg>`;},
+  anim(tl){ sitAmb(tl); }},
+
+ /* ---------------- 5 cảnh đi bộ mới ---------------- */
+ canal:{label:'25. Canal Saint-Martin (đi dạo)', walk:true, html:()=>{
+   let mid='';
+   for(let x=0;x<1920;x+=rnd(170,230)) mid+=`<rect x="${x+40}" y="440" width="18" height="200" fill="#8a7a62"/>${range(4,k=>`<circle cx="${x+49+rnd(-50,50)}" cy="${400+rnd(-40,30)}" r="${rnd(50,70)}" fill="${pick(['#7fa673','#8db27f','#6f9763'])}"/>`)}`;
+   mid+=`<g transform="translate(700 0)"><path d="M0 560 Q200 430 400 560" stroke="#3f6b5a" stroke-width="14" fill="none"/><path d="M0 556 Q200 426 400 556 M20 556 v-30 M380 556 v-30" stroke="#3f6b5a" stroke-width="6" fill="none"/>${range(15,k=>`<line x1="${30+k*24}" y1="${560-Math.sin((30+k*24)/400*Math.PI)*120}" x2="${30+k*24}" y2="${520-Math.sin((30+k*24)/400*Math.PI)*120}" stroke="#3f6b5a" stroke-width="3"/>`)}<path d="M-40 560 h60 v40 h-60Z M380 560 h60 v40 h-60Z" fill="#cfc4b0"/></g>`;
+   const near=`<rect x="70" y="250" width="44" height="450" fill="#b5a58a"/>${range(8,k=>`<ellipse cx="${78+rnd(0,28)}" cy="${280+k*52}" rx="${rnd(8,14)}" ry="${rnd(6,10)}" fill="${pick(['#d9cdb0','#8f8068','#c9bb98'])}"/>`)}<g fill="#6f9763">${range(6,k=>`<circle cx="${92+rnd(-90,90)}" cy="${rnd(-10,120)}" r="${rnd(60,90)}"/>`)}</g>
+     <g transform="translate(330 0)"><rect x="0" y="640" width="150" height="12" rx="4" fill="#3f6b5a"/><rect x="0" y="610" width="150" height="10" rx="4" fill="#3f6b5a"/><path d="M10 652 v48 M140 652 v48" stroke="#2f4a3e" stroke-width="7"/></g>
+     <g transform="translate(520 0)" stroke="#3a3f48" stroke-width="5" fill="none"><circle cx="0" cy="672" r="26"/><circle cx="74" cy="672" r="26"/><path d="M0 672 L26 630 L60 630 L74 672 M26 630 L36 672 L60 630 M22 622 h14 M60 630 l4 -14 h10"/></g>`;
+   return WALK_SCENE({defs:gradV('cnk','#a9d6ea','#f4efdc')+gradV('cnw','#4f8a95','#6fa3a8'),
+     sky:`<rect width="1920" height="1080" fill="url(#cnk)"/><circle cx="1600" cy="140" r="50" fill="#fbe3a1"/>${range(3,i=>`<path class="bird" d="M${-80-i*90} ${170+i*30} q14 -12 28 0 q14 -12 28 0" stroke="#3a2e28" stroke-width="4" fill="none" stroke-linecap="round"/>`)}`,
+     far:range(14,i=>`<rect x="${i*140}" y="${380+rnd(-30,20)}" width="130" height="200" fill="#d9cdb8"/><path d="M${i*140-4} ${380} h138 l-10 -24 h-118Z" fill="#a9b2bd"/>`),
+     mid, river:`<rect x="-800" y="560" width="3520" height="96" fill="url(#cnw)"/>${range(30,()=>`<rect class="ripple" x="${rnd(-500,2400)}" y="${rnd(570,645)}" width="${rnd(30,80)}" height="4" rx="2" fill="#e8f6fb" opacity=".6"/>`)}<rect x="-800" y="650" width="3520" height="14" fill="#cfc4b0"/>`,
+     near, nearW:680, ground:cobbles(240,['#b5aca0','#a69c90','#c0b8ac']), groundFill:`<rect x="-800" y="660" width="3520" height="420" fill="#9a9084"/>`});},
+  anim(tl){ walkAmb(tl); }},
+
+ noel:{label:'26. Marché de Noël (đi dạo)', walk:true, html:()=>{
+   let mid='';
+   for(let x=0;x<1920;){const w=rnd(200,250),y=470,c=pick(['#8a5a3c','#9a6a48','#7a4e36']),sign=pick(['Vin chaud','Crêpes','Pain d’épices','Marrons','Bougies','Santons']);
+     mid+=`<rect x="${x}" y="${y}" width="${w}" height="180" fill="${c}"/>${range(Math.floor(w/22),k=>`<line x1="${x+k*22}" y1="${y}" x2="${x+k*22}" y2="${y+180}" stroke="#00000022" stroke-width="3"/>`)}<path d="M${x-20} ${y+4} L${x+w/2} ${y-70} L${x+w+20} ${y+4}Z" fill="#5e3a28"/>
+       <rect x="${x+20}" y="${y+40}" width="${w-40}" height="90" fill="#ffd98a" opacity=".85"/><rect x="${x+10}" y="${y+130}" width="${w-20}" height="16" fill="#6e4630"/>
+       <rect x="${x+w/2-70}" y="${y-30}" width="140" height="34" rx="6" fill="#fbf6ec"/><text x="${x+w/2}" y="${y-6}" text-anchor="middle" font-family="Nunito" font-weight="800" font-size="20" fill="#8a2f2a">${sign}</text>
+       <path d="M${x-10} ${y+8} ${range(8,k=>`Q${x+w/16*(2*k+1)} ${y+28} ${x+w/8*(k+1)} ${y+8}`)}" stroke="#2f2a24" stroke-width="2" fill="none"/>${range(8,k=>`<circle class="bulbg" cx="${x+w/8*k+w/16}" cy="${y+20}" r="10" fill="#ffe6a3" opacity=".25"/><circle cx="${x+w/8*k+w/16}" cy="${y+20}" r="4" fill="${['#ffe6a3','#e8483a','#8fd18a'][k%3]}"/>`)}`;x+=w+rnd(40,90);}
+   mid+=`<g transform="translate(1000 0)"><path d="M0 650 L60 470 L120 650Z M14 560 L60 420 L106 560Z M26 480 L60 380 L94 480Z" fill="#2f5a3a"/>${range(10,k=>`<circle cx="${30+rnd(0,60)}" cy="${420+rnd(0,220)}" r="5" fill="${['#e8483a','#f3c96b','#5d9cd0'][k%3]}"/>`)}<path d="M60 364 l6 14 h14 l-11 9 l4 14 l-13 -8 l-13 8 l4 -14 l-11 -9 h14Z" fill="#f3c96b"/></g>`;
+   const near=`<rect x="80" y="240" width="10" height="460" fill="#2f2a33"/><path d="M85 260 Q320 340 640 260" stroke="#2f2a33" stroke-width="2.5" fill="none"/>${range(10,k=>{const t=(k+.5)/10,x=85+555*t,y=260+80*4*t*(1-t);return `<circle class="bulbg" cx="${x}" cy="${y+10}" r="22" fill="#ffe6a3" opacity=".25"/><circle cx="${x}" cy="${y+10}" r="7" fill="#ffe6a3"/>`;})}
+     <g transform="translate(400 0)"><rect x="0" y="620" width="70" height="80" rx="6" fill="#8a2f2a"/><rect x="8" y="606" width="54" height="16" rx="4" fill="#6e2420"/><circle class="glow" cx="35" cy="600" r="70" fill="url(#lg)" opacity=".5"/></g>`;
+   return WALK_SCENE({defs:gradV('nsk','#1c2244','#3d3f6e'),
+     sky:`<rect width="1920" height="1080" fill="url(#nsk)"/>${stars(46,0,1920,30,330)}<circle cx="320" cy="150" r="40" fill="#f6edc9"/>`,
+     far:`<path d="M800 470 V250 L840 180 L880 250 V470Z" fill="#2c2f55"/><path d="M836 180 V120" stroke="#2c2f55" stroke-width="8"/>${range(16,i=>`<rect x="${i*120}" y="${400+rnd(-40,20)}" width="114" height="120" fill="#2c2f55"/><path d="M${i*120} ${400} l57 -40 l57 40Z" fill="#2c2f55"/>`)}${range(30,()=>`<rect x="${rnd(0,1900)}" y="${rnd(410,470)}" width="10" height="14" fill="#ffd98a" opacity=".8"/>`)}`,
+     mid, river:`<rect x="-800" y="650" width="3520" height="56" fill="#4a4250"/>`,
+     near, ground:cobbles(240,['#6f6660','#665d58','#79706a']), groundFill:`<rect x="-800" y="700" width="3520" height="380" fill="#5a524e"/><rect x="-800" y="700" width="3520" height="380" fill="#ffd98a" opacity=".06"/>`});},
+  anim(tl){ walkAmb(tl); }},
+
+ vignoble:{label:'27. Route des vignes (đi dạo)', walk:true, html:()=>{
+   let mid=`<path d="M0 520 C400 440 900 470 1300 440 C1600 420 1800 450 1920 440 V660 H0Z" fill="#a8b46a"/>`;
+   for(let r=0;r<6;r++){const y=480+r*28;for(let x=(r%2)*20;x<1920;x+=40) mid+=`<line x1="${x}" y1="${y}" x2="${x}" y2="${y+16}" stroke="#7a5a3c" stroke-width="2"/><circle cx="${x}" cy="${y}" r="${7+r*.8}" fill="${pick(['#6f8f3a','#7f9f4a','#5f7f30'])}"/>`;}
+   mid+=range(6,()=>{const x=rnd(0,1900),y=rnd(500,620);return `<circle cx="${x}" cy="${y}" r="5" fill="#6b2a5a"/><circle cx="${x+6}" cy="${y+4}" r="5" fill="#6b2a5a"/>`;});
+   const near=`${range(5,k=>`<rect x="${k*120+20}" y="610" width="12" height="90" fill="#8a6a4c"/>`)}<path d="M0 630 H600 M0 660 H600" stroke="#6e5a48" stroke-width="2"/>
+     ${range(9,k=>`<path d="M${40+k*60} 700 v-${rnd(30,60)}" stroke="#6f8f4a" stroke-width="3"/><circle cx="${40+k*60}" cy="${700-rnd(30,60)}" r="9" fill="#d9442f"/>`)}`;
+   return WALK_SCENE({defs:gradV('vgk','#f0b27e','#fbe9c8'),
+     sky:`<rect width="1920" height="1080" fill="url(#vgk)"/><circle cx="1500" cy="300" r="90" fill="#ffd9a0"/>${range(3,i=>`<path class="bird" d="M${-80-i*90} ${200+i*30} q14 -12 28 0 q14 -12 28 0" stroke="#5a3a3a" stroke-width="4" fill="none" stroke-linecap="round"/>`)}`,
+     far:`<path d="M0 460 C300 360 600 380 900 420 C1200 360 1500 350 1920 410 V560 H0Z" fill="#b79aa8"/><g transform="translate(1200 0)"><rect x="0" y="360" width="160" height="60" fill="#e9dcc3"/><path d="M-6 362 l86 -30 l86 30Z" fill="#c2674a"/><rect x="60" y="300" width="24" height="70" fill="#e9dcc3"/><path d="M56 302 l16 -26 l16 26Z" fill="#c2674a"/></g>`,
+     mid, midV:50, river:`<rect x="-800" y="650" width="3520" height="56" fill="#b7a46a"/>`,
+     near, nearW:600, ground:range(16,()=>`<ellipse cx="${rnd(0,240)}" cy="${rnd(712,1070)}" rx="${rnd(3,7)}" ry="${rnd(2,4)}" fill="#a8865c"/>`), groundFill:`<rect x="-800" y="700" width="3520" height="380" fill="#c9a77c"/><rect x="-800" y="698" width="3520" height="10" fill="#9a944f"/>`});},
+  anim(tl){ walkAmb(tl); }},
+
+ pluie:{label:'28. Rue sous la pluie (đi dạo)', walk:true, html:()=>{
+   let mid='';
+   for(let x=0;x<1920;){const w=rnd(200,260),h=rnd(300,380),y=650-h,shop=pick(['Librairie','Boulangerie','Fleuriste','Fromagerie','Bistrot']);
+     mid+=`<rect x="${x}" y="${y}" width="${w}" height="${h}" fill="${pick(['#6a6f80','#5f6475','#737889'])}"/><path d="M${x-6} ${y} h${w+12} l-14 -34 h${-w+16}Z" fill="#4a4f60"/>`+range(Math.floor((w-20)/56),j=>range(2,r=>`<rect x="${x+20+j*56}" y="${y+24+r*76}" width="28" height="44" fill="${rnd(0,1)<.5?'#ffd98a':'#4f5466'}"/>`))+
+       `<rect x="${x+12}" y="540" width="${w-24}" height="110" fill="#3a3f4f"/><rect x="${x+24}" y="560" width="${w-48}" height="80" fill="#ffd98a" opacity=".85"/><rect x="${x+12}" y="512" width="${w-24}" height="30" fill="${pick(['#3f6b5a','#8a3a2c','#2f3a52'])}"/><text x="${x+w/2}" y="534" text-anchor="middle" font-family="Nunito" font-weight="800" font-size="20" fill="#fbf6ec">${shop}</text>`;x+=w+6;}
+   const near=`${PARIS_LAMP(110,'#2a2e38')}<g transform="translate(400 0)"><path d="M0 580 Q50 520 100 580Z" fill="#c8443a"/><path d="M50 580 v80" stroke="#3a2e28" stroke-width="4"/><path d="M50 660 q0 14 12 10" stroke="#3a2e28" stroke-width="4" fill="none"/><path d="M20 580 h60" stroke="#3a2e28" stroke-width="2"/><rect x="34" y="660" width="34" height="40" rx="6" fill="#2a2e38"/></g>`;
+   const gnd=`${range(3,k=>`<path d="M${k*80+20} 712 q6 20 0 40 q-6 20 0 40" stroke="#ffd98a" stroke-width="${rnd(10,22)}" fill="none" opacity=".1"/>`)}<ellipse cx="${rnd(40,200)}" cy="${rnd(860,1000)}" rx="${rnd(50,80)}" ry="12" fill="#7a8090" opacity=".55"/><path d="M0 900 h240" stroke="#646a76" stroke-width="3"/>`;
+   return WALK_SCENE({defs:gradV('psk2','#4f5a72','#8a93a6'),
+     sky:`<rect width="1920" height="1080" fill="url(#psk2)"/>`,
+     far:range(16,i=>`<rect x="${i*120}" y="${360+rnd(-30,20)}" width="114" height="200" fill="#5a6278"/><path d="M${i*120} ${360} h114 l-10 -24 h-94Z" fill="#4c5368"/>`),
+     mid, river:`<rect x="-800" y="650" width="3520" height="56" fill="#4a4f5c"/><rect x="-800" y="650" width="3520" height="56" fill="#ffd98a" opacity=".08"/>`,
+     near, ground:gnd, groundFill:`<rect x="-800" y="700" width="3520" height="380" fill="#5a5f6a"/><rect x="-800" y="698" width="3520" height="10" fill="#3f434d"/>`,
+     top:range(70,()=>`<rect class="drop" x="${rnd(0,1920)}" y="${rnd(-60,620)}" width="3" height="${rnd(22,34)}" rx="2" fill="#dfe6f2" opacity=".55" transform="rotate(8)"/>`)});},
+  anim(tl){ walkAmb(tl); }},
+
+ port:{label:'29. Petit port breton (đi dạo)', walk:true, html:()=>{
+   let mid='';
+   for(let x=0;x<1920;){const w=rnd(90,140),h=rnd(60,90);mid+=`<rect x="${x}" y="${470-h}" width="${w}" height="${h}" fill="${pick(['#fbf6ec','#efe6d6','#f4ead6'])}"/><path d="M${x-6} ${470-h} L${x+w/2} ${470-h-36} L${x+w+6} ${470-h}Z" fill="#4f5a6a"/><rect x="${x+w*.3}" y="${470-h+20}" width="16" height="20" fill="${pick(['#2f5f8a','#c8443a','#3f6b5a'])}"/><rect x="${x+w*.6}" y="${470-h+20}" width="16" height="20" fill="${pick(['#2f5f8a','#c8443a','#3f6b5a'])}"/>`;x+=w+rnd(4,30);}
+   const boat=(x,w,c)=>`<g class="boat"><path d="M${x} 606 h${w} l-24 36 h${-w+48}Z" fill="${c}"/><path d="M${x} 606 h${w}" stroke="#fbf6ec" stroke-width="6"/><rect x="${x+w*.35}" y="566" width="${w*.3}" height="40" fill="#fbf6ec"/><rect x="${x+w*.4}" y="574" width="16" height="16" fill="#a9d3e6"/><path d="M${x+w*.62} 606 V430" stroke="#5a4a40" stroke-width="5"/><path d="M${x+w*.62} 440 L${x+w*.95} 606 M${x+w*.62} 440 L${x+w*.1} 606" stroke="#5a4a40" stroke-width="2"/></g>`;
+   const near=`${boat(110,170,pick(['#c8443a','#2f5f8a','#f3c96b']))}${[60,360].map(x=>`<path d="M${x} 700 v-40 q0 -14 16 -14 h12 q16 0 16 14 v40Z" fill="#2f2a2a"/><rect x="${x-4}" y="652" width="52" height="10" rx="4" fill="#3f3838"/>`).join('')}
+     <ellipse cx="220" cy="690" rx="44" ry="12" fill="none" stroke="#d9c39a" stroke-width="8"/><ellipse cx="220" cy="682" rx="34" ry="9" fill="none" stroke="#d9c39a" stroke-width="7"/>
+     <g transform="translate(470 0)"><path d="M0 700 h70 v-50 q-35 -30 -70 0Z" fill="#a8724e"/>${range(4,k=>`<path d="M${k*18+6} 700 v-48" stroke="#6e4630" stroke-width="3"/>`)}</g>
+     <g transform="translate(580 0)"><ellipse cx="0" cy="660" rx="20" ry="13" fill="#fbf6ec"/><circle cx="16" cy="648" r="9" fill="#fbf6ec"/><path d="M24 648 l10 3 l-10 3Z" fill="#f3c96b"/><path d="M-14 656 q-14 -2 -18 6" fill="#9aa3a8"/><path d="M-4 672 v20 M4 672 v20" stroke="#f3a83c" stroke-width="3"/></g>`;
+   return WALK_SCENE({defs:gradV('ptk','#8fcbe8','#eef6f4')+gradV('ptw','#3f7fa3','#5d9cb8'),
+     sky:`<rect width="1920" height="1080" fill="url(#ptk)"/>${range(5,i=>`<path class="bird" d="M${-80-i*110} ${180+(i%3)*40} q12 -11 24 0 q12 -11 24 0" stroke="#3a2e28" stroke-width="3.5" fill="none" stroke-linecap="round"/>`)}`,
+     far:`<rect x="0" y="440" width="1920" height="40" fill="#5d9cb8"/><path d="M1300 460 C1400 420 1550 410 1700 440 V470 H1300Z" fill="#8a9a7a"/><rect x="1560" y="330" width="34" height="110" fill="#fbf6ec"/><rect x="1560" y="360" width="34" height="18" fill="#c8443a"/><rect x="1560" y="400" width="34" height="18" fill="#c8443a"/><rect x="1554" y="316" width="46" height="16" fill="#3a2e28"/>${range(3,()=>{const x=rnd(200,1200);return `<path d="M${x} 450 l10 -18 v18Z" fill="#fffaf0"/>`;})}`,
+     mid, river:`<rect x="-800" y="470" width="3520" height="190" fill="url(#ptw)"/>${range(36,()=>`<rect class="ripple" x="${rnd(-500,2400)}" y="${rnd(480,650)}" width="${rnd(30,90)}" height="4" rx="2" fill="#e8f6fb" opacity=".55"/>`)}`,
+     near, nearW:640, ground:range(5,k=>`<rect x="${k*48}" y="${704+(k%2)*60}" width="46" height="58" fill="none" stroke="#a69c8e" stroke-width="3"/>`)+range(4,k=>`<rect x="${k*60}" y="${830+(k%2)*70}" width="58" height="68" fill="none" stroke="#a69c8e" stroke-width="3"/>`),
+     groundFill:`<rect x="-800" y="660" width="3520" height="420" fill="#b9b0a2"/><rect x="-800" y="656" width="3520" height="12" fill="#8f877b"/>`});},
+  anim(tl){ walkAmb(tl); }},
 };
 
 /* ============================================================
@@ -1407,6 +1549,7 @@ function apply(){ cfg.scene=$('#selScene').value; cfg.lea=$('#selLea').value; cf
   try{ history.replaceState(null,'','#scene='+cfg.scene+'&lea='+cfg.lea+'&mat='+cfg.mat); }catch(e){}
   build(cfg); }
 ['#selScene','#selLea','#selMat'].forEach(s=>$(s).onchange=apply);
+let pTl=null; $('#sipTry').onclick=()=>{ if(pTl) pTl.progress(1).kill(); pTl=gsap.timeline(); gsap.set(['#lea .cupTilt','#mat .cupTilt'],{svgOrigin:'234 384'}); sipTL(pTl,'#lea',0); sipTL(pTl,'#mat',.4); };
 fillSel('#selEmo',Object.fromEntries(Object.entries(EMO_TYPES).map(([k,v])=>[k,{label:v}])),'rire');
 let emoTl=null;
 function tryEmo(c){ if(emoTl) emoTl.progress(1).kill(); emoTl=gsap.timeline(); emoteTL(emoTl,c,$('#selEmo').value,0,2.6); }

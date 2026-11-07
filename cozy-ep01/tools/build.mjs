@@ -37,6 +37,7 @@ const PATTERNS = (src.slice(src.indexOf('<svg width="0" height="0"'), src.indexO
 const EMO_RUNTIME = src.slice(src.indexOf('/* EMOTE-RUNTIME-START'), src.indexOf('/* EMOTE-RUNTIME-END */'));
 const ILLUS_RUNTIME = src.slice(src.indexOf('/* ILLUS-RUNTIME-START'), src.indexOf('/* ILLUS-RUNTIME-END */'));
 const GEST_RUNTIME = src.slice(src.indexOf('/* GEST-RUNTIME-START'), src.indexOf('/* GEST-RUNTIME-END */'));
+const SIP_RUNTIME = src.slice(src.indexOf('/* SIP-RUNTIME-START'), src.indexOf('/* SIP-RUNTIME-END */'));
 const WALK_RUNTIME = src.slice(src.indexOf('/* WALK-RUNTIME-START'), src.indexOf('/* WALK-RUNTIME-END */'));
 if (!sandbox.SCENES[EP.scene]) throw new Error(`unknown scene "${EP.scene}" (have: ${Object.keys(sandbox.SCENES).join(', ')})`);
 // staging (sit at a table / walk side by side) follows the scene; its specific parts live in tools/staging.mjs
@@ -50,7 +51,7 @@ const norm = s => s.toLowerCase().replace(/[^a-zà-ÿœæç']/g, '');
 let wi = 0; const words = [];
 const chunks = EP.chunks.map((c, ci) => {
   const toks = []; let inVocab = false;
-  for (let raw of c.fr.split(/\s+/)) {
+  for (let raw of c.fr.split(/[ \t\n]+/)) {   // NBSP stays inside a token
     const open = raw.startsWith('['), close = raw.endsWith(']');
     raw = raw.replace(/[\[\]]/g, '');
     if (open) inVocab = true;
@@ -569,7 +570,7 @@ const talk = `<template>
     q('#talk-scene .drop').forEach(d=>tl.fromTo(d,{y:-60},{y:470,duration:rnd(.8,1.3),ease:'none',repeat:rep(.8)},rnd(0,1.2)));
     q('#talk-scene .glow,#lampglow,#glow,#sunglow,#beam').forEach(g=>tl.fromTo(g,{opacity:.6},{opacity:.4,duration:2.2,yoyo:true,repeat:rep(2.2),ease:'sine.inOut'},0));
     q('#talk-scene .curtain').forEach(c=>tl.fromTo(c,{skewX:0},{skewX:1.2,transformOrigin:'50% 0%',duration:3,yoyo:true,repeat:rep(3),ease:'sine.inOut'},0));
-    q('#leaves,#canopy').forEach(l=>tl.fromTo(l,{rotation:0},{rotation:2,transformOrigin:'50% 100%',duration:2.2,yoyo:true,repeat:rep(2.2),ease:'sine.inOut'},0));
+    q('#leaves,#canopy').forEach(l=>tl.fromTo(l,{rotation:0},{rotation:2,transformOrigin:l.dataset.pivot==='top'?'50% 0%':'50% 100%',duration:2.2,yoyo:true,repeat:rep(2.2),ease:'sine.inOut'},0));
     q('#clouds').forEach(c=>tl.fromTo(c,{x:0},{x:-400,duration:TOTAL,ease:'none'},0));
     q('#talk-scene .leaf').forEach(l=>tl.fromTo(l,{y:-30,x:0,rotation:0},{y:rnd(650,800),x:rnd(-180,180),rotation:rnd(-400,400),duration:rnd(5,8),ease:'sine.inOut',repeat:rep(5)},rnd(0,6)));
     q('#talk-scene .mote').forEach(m=>tl.fromTo(m,{y:0,opacity:0},{y:rnd(-80,-160),opacity:.9,duration:rnd(4,6),yoyo:true,repeat:rep(4),ease:'sine.inOut'},rnd(0,3)));
@@ -621,18 +622,9 @@ const talk = `<template>
     NODS.forEach(n=>nodTL(tl,'#talk-'+n.who,n.t));
     ${WALK ? `// ---- walking (WALK-RUNTIME from the demo + tools/staging.mjs) ----
     ${WALK_RUNTIME}${STAGE.runtime(STAGE_DATA, f)}` : ''}
-    // ---- listener sips coffee (.cupGrp moves, .cupTilt tilts) ----
-    SIPS.forEach(sp=>{
-      const c='#talk-'+sp.who, t=sp.t;
-      tl.set(c+' .armHold',{opacity:0},t); tl.set(c+' .armSip',{opacity:1},t);
-      tl.to(c+' .steamGrp',{opacity:0,duration:.2},t); tl.to(c+' .steamGrp',{opacity:1,duration:.6},t+2.3);
-      tl.fromTo(c+' .cupGrp',{x:0,y:0},{x:-14,y:-150,duration:.4,ease:'power2.inOut',immediateRender:false},t);
-      tl.fromTo(c+' .cupTilt',{rotation:0},{rotation:-18,duration:.4,ease:'power2.inOut',immediateRender:false},t);
-      tl.to(c+' .cupTilt',{rotation:-28,duration:.6,yoyo:true,repeat:1,ease:'sine.inOut'},t+.45);
-      tl.to(c+' .cupGrp',{x:0,y:0,duration:.4,ease:'power2.inOut'},t+1.75);
-      tl.to(c+' .cupTilt',{rotation:0,duration:.4,ease:'power2.inOut'},t+1.75);
-      tl.set(c+' .armSip',{opacity:0},t+2.15); tl.set(c+' .armHold',{opacity:1},t+2.15);
-    });
+    // ---- listener sips coffee now and then (sipTL from the demo's SIP-RUNTIME) ----
+    ${SIP_RUNTIME}
+    SIPS.forEach(sp=>sipTL(tl,'#talk-'+sp.who,sp.t));
 
     // ---- mouths + word highlight ----
     tl.set('.subFr .ul',{scaleX:0},0);

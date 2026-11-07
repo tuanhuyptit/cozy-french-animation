@@ -8,7 +8,7 @@ Animated podcast template for learning French (B1–B2): word-synced karaoke sub
 
 | Đường dẫn | Là gì |
 |---|---|
-| `demo-animation-style.html` | Bản xem trước tương tác: 15 bối cảnh ngồi + 6 bối cảnh đi dạo, 10 bộ trang phục mỗi nhân vật, 8 biểu cảm, 24 bong bóng minh hoạ, 10 cử chỉ (nút "Cử chỉ"). Mở bằng trình duyệt. |
+| `demo-animation-style.html` | Bản xem trước tương tác: 18 bối cảnh ngồi + 11 bối cảnh đi dạo, 10 bộ trang phục mỗi nhân vật, 8 biểu cảm, 24 bong bóng minh hoạ, 10 cử chỉ (nút "Cử chỉ"). Mở bằng trình duyệt. |
 | `cozy-ep01/tools/vocab-help.mjs` | Gợi ý từ vựng theo cấp độ CEFR (FLELex) và tra IPA (WikiPron). |
 | `tools/new-episode.mjs` | Tạo thư mục tập mới `cozy-epNN/` từ mẫu `cozy-ep01`, bốc ngẫu nhiên chế độ/bối cảnh/trang phục và chép lời voice. |
 | `tools/pick-setup.mjs` | Bốc ngẫu nhiên chế độ (ngồi / đi dạo), bối cảnh, trang phục cho một tập — không trùng tập gần đây, không trùng tông. `--write` ghi `work/setup.json`. |
@@ -23,7 +23,7 @@ Animated podcast template for learning French (B1–B2): word-synced karaoke sub
 | `cozy-ep01-test-30s.mp4` | Video đã xuất. |
 
 **Chế độ:** ngồi (`sit`) · đi dạo (`walk`)
-**Bối cảnh:** `cafe` · `salon` · `parc` · `cuisine` · `biblio` · `terrasse` · `chalet` · `boulangerie` · `train` · `quai` · `marche` · `plage` · `atelier` · `lavande` · `bureau` · đi dạo: `promenade` · `ruelle` · `automne` · `corniche` · `village` · `jardin`
+**Bối cảnh:** `cafe` · `salon` · `parc` · `cuisine` · `biblio` · `terrasse` · `chalet` · `boulangerie` · `train` · `quai` · `marche` · `plage` · `atelier` · `lavande` · `bureau` · `bistrot` · `verriere` · `peniche` · đi dạo: `promenade` · `ruelle` · `automne` · `corniche` · `village` · `jardin` · `canal` · `noel` · `vignoble` · `pluie` · `port`
 **Léa:** `pull` · `mariniere` · `trench` · `chemise` · `cardigan` · `pois` · `jean` · `lilas` · `foulard` · `doudoune`
 **Mathieu:** `denim` · `hoodie` · `colroule` · `blazer` · `pull` · `carreaux` · `velours` · `polo` · `gilet` · `tablier`
 **Cử chỉ:** `beat` · `palm` · `up` · `point` · `think` · `wave` · `shrug` · `count` · `scratch` + gật đầu `nod`; khi đi dạo thêm `explain` · `regarde` · `coeur` · `pouce` · `bof` · `pince` · `rire` · `menton` · `poche` · `grand` (tự chọn theo lời thoại, ép bằng `"act"`)

@@ -3,11 +3,11 @@
 // Usage (repo root):
 //   node tools/pick-setup.mjs cozy-ep07                 → prints the pick
 //   node tools/pick-setup.mjs cozy-ep07 --write         → also writes cozy-ep07/work/setup.json (read by assemble.mjs)
-//   options: --mode sit|walk   --scene <name>   --lea <outfit>   --mat <outfit>   --seed <n> (another draw)   --walk-chance 0.3
+//   options: --mode sit|walk   --scene <name>   --lea <outfit>   --mat <outfit>   --seed <n> (another draw)   --walk-chance 0 (default; 0.3 = old random walk)
 //
 // Rules:
 //   • the draw is seeded by the episode name, so re-running gives the same answer (add --seed to draw again);
-//   • walk happens with --walk-chance (default 30 %) when a walk scene is free;
+//   • walk only when asked (--mode walk, a walk --scene, or --walk-chance > 0); default = sit (channel owner, 2026-11-07);
 //   • no scene used by the 3 previous episodes, no outfit worn by the same character in the 2 previous episodes;
 //   • outfit ↔ scene colour clashes and outfit ↔ outfit clashes from the table below are never drawn.
 // The pick is written into the episode (work/setup.json → episode.json), so a build is always reproducible.
@@ -30,10 +30,12 @@ const LEA = keys(block('const OUT_LEA={', '\n};')), MAT = keys(block('const OUT_
 
 // clashes: outfit → scenes it must not be drawn in ("only" = the only scenes allowed)
 const AVOID = {
-  lea: { chemise: ['cuisine', 'parc', 'boulangerie', 'biblio', 'jardin'], cardigan: ['chalet', 'terrasse', 'automne'], lilas: ['lavande', 'quai', 'terrasse', 'promenade'],
-         foulard: ['bureau', 'plage', 'corniche'], doudoune: { only: ['chalet', 'village'] } },
-  mat: { pull: ['cuisine', 'parc', 'boulangerie', 'biblio', 'jardin'], colroule: ['quai', 'salon', 'biblio', 'promenade', 'village'], blazer: ['quai', 'salon', 'biblio', 'promenade', 'village'],
-         velours: ['marche', 'atelier', 'automne'], polo: ['marche', 'atelier', 'automne'], gilet: ['bureau', 'plage', 'corniche'], tablier: { only: ['cuisine', 'boulangerie'] } },
+  lea: { chemise: ['cuisine', 'parc', 'boulangerie', 'biblio', 'jardin', 'verriere', 'canal', 'vignoble'], cardigan: ['chalet', 'terrasse', 'automne', 'peniche'],
+         lilas: ['lavande', 'quai', 'terrasse', 'promenade'], foulard: ['bureau', 'plage', 'corniche'],
+         doudoune: { only: ['chalet', 'village', 'noel'] } },
+  mat: { pull: ['cuisine', 'parc', 'boulangerie', 'biblio', 'jardin', 'verriere', 'canal', 'vignoble'], colroule: ['quai', 'salon', 'biblio', 'promenade', 'village', 'noel', 'pluie'],
+         blazer: ['quai', 'salon', 'biblio', 'promenade', 'village', 'noel', 'pluie'], velours: ['marche', 'atelier', 'automne', 'peniche', 'bistrot'],
+         polo: ['marche', 'atelier', 'automne'], gilet: ['bureau', 'plage', 'corniche', 'pluie'], carreaux: ['bistrot'], tablier: { only: ['cuisine', 'boulangerie'] } },
 };
 const PAIR_AVOID = [['jean', 'denim'], ['pull', 'polo'], ['chemise', 'pull'], ['cardigan', 'velours']];   // [lea, mat]
 const okFor = (who, o, scene) => { const r = AVOID[who][o]; return !r || (Array.isArray(r) ? !r.includes(scene) : r.only.includes(scene)); };
@@ -56,7 +58,7 @@ let scene = opt('scene');
 if (scene && !SCENES.some(s => s.k === scene)) { console.error(`unknown scene ${scene} (have: ${SCENES.map(s => s.k).join(', ')})`); process.exit(1); }
 let mode = scene ? (SCENES.find(s => s.k === scene).walk ? 'walk' : 'sit') : opt('mode');
 const walkFree = SCENES.filter(s => s.walk && sceneOK(s));
-if (!mode) mode = walkFree.length && rand() < +(opt('walk-chance') ?? 0.3) ? 'walk' : 'sit';
+if (!mode) mode = walkFree.length && rand() < +(opt('walk-chance') ?? 0) ? 'walk' : 'sit';
 if (!scene) {
   let pool = SCENES.filter(s => s.walk === (mode === 'walk') && sceneOK(s));
   if (!pool.length) pool = SCENES.filter(s => s.walk === (mode === 'walk'));   // every scene of that mode used recently: allow repeats

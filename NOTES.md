@@ -65,6 +65,11 @@ Tự động: skill `skills/cozy-french-episode` (người dùng chỉ gửi voi
 - 6 cảnh đi dạo: `promenade`, `ruelle`, `automne`, `corniche`, `village`, `jardin`. Cảnh mới dùng khung `WALK_SCENE({sky, far, mid, river, near, ground, groundFill, top})` trong demo (lớp `river` đứng yên, `top` = lá/tuyết rơi) + `walkAmb(tl)`.
 - Tay khi đi: tay sau nằm sau thân (tối hơn), tay trước vung ±26°; hai người cách nhau 320 px để tay vung không chạm nhau.
 
+## Thêm cảnh (2026-11-07)
+- 18 cảnh ngồi (+ bistrot, verriere, peniche), 11 cảnh đi dạo (+ canal, noel, vignoble, pluie, port). Chuyển động chung `walkAmb` (= `sitAmb`) trong demo; cây treo dùng `data-pivot="top"`.
+- Khi ngồi luôn cầm cốc cà phê; người nghe nhấp cà phê bằng `sipTL` (khối SIP-RUNTIME trong demo, build chép nguyên văn). Đã thử đạo cụ khác (micro podcast + tai nghe, sổ tay, ly vang) và cảnh studio / nhà ga — chủ kênh bỏ hết.
+- `assemble.mjs` chép cả trường `act` của đoạn phụ đề sang `episode.json`.
+
 ## Trạng thái (2026-11-06)
 - 2026-11-06: thêm 4 bối cảnh (chalet, boulangerie, train, quai), `new-episode.mjs`, `assemble.mjs`, skill `cozy-french-episode`; build cảnh báo khi 2 từ vựng < 3 s. Sau đó: model turbo, `vocab-help.mjs` (IPA + cấp độ CEFR), biểu cảm (8) + bong bóng minh hoạ (24).
 - Xong: demo trình duyệt (10 bối cảnh, 10 trang phục), video thử 34 s đầu của voice `4f.mp3` (`cozy-ep01-test-30s.mp4`), script transcribe + build.
