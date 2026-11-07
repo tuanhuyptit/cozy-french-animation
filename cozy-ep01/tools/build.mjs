@@ -7,6 +7,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import vm from 'node:vm';
+import { STAGING } from './staging.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const ART  = path.resolve(ROOT, '../demo-animation-style.html');
@@ -29,17 +30,20 @@ vm.runInContext(`
   const pick=a=>a[Math.floor(Math.random()*a.length)];
   const rep=d=>Math.ceil(TOTAL/d)+1;
   ${src.slice(a, b)}
-  this.leaSVG=leaSVG; this.matSVG=matSVG; this.SCENES=SCENES; this.EMO_TYPES=EMO_TYPES; this.ILLUS=ILLUS; this.bubbleSVG=bubbleSVG; this.GEST_ELBOW=GEST_ELBOW;`, sandbox);
+  this.leaSVG=leaSVG; this.matSVG=matSVG; this.SCENES=SCENES; this.EMO_TYPES=EMO_TYPES; this.ILLUS=ILLUS; this.bubbleSVG=bubbleSVG; this.GEST_ELBOW=GEST_ELBOW; this.WALK_GEST_KEYS=WALK_GEST_KEYS;`, sandbox);
 // fabric patterns (stripes, gingham, pois, check, cord…) live in the demo's hidden <defs>
 const PATTERNS = (src.slice(src.indexOf('<svg width="0" height="0"'), src.indexOf('</defs></svg>')).match(/<pattern[\s\S]*?<\/pattern>/g) || []).join('\n      ');
 // emote runtime (EMO_FACE, EMO_ANIM, emoteTL) is copied verbatim into the video script
 const EMO_RUNTIME = src.slice(src.indexOf('/* EMOTE-RUNTIME-START'), src.indexOf('/* EMOTE-RUNTIME-END */'));
 const ILLUS_RUNTIME = src.slice(src.indexOf('/* ILLUS-RUNTIME-START'), src.indexOf('/* ILLUS-RUNTIME-END */'));
 const GEST_RUNTIME = src.slice(src.indexOf('/* GEST-RUNTIME-START'), src.indexOf('/* GEST-RUNTIME-END */'));
+const WALK_RUNTIME = src.slice(src.indexOf('/* WALK-RUNTIME-START'), src.indexOf('/* WALK-RUNTIME-END */'));
 if (!sandbox.SCENES[EP.scene]) throw new Error(`unknown scene "${EP.scene}" (have: ${Object.keys(sandbox.SCENES).join(', ')})`);
+// staging (sit at a table / walk side by side) follows the scene; its specific parts live in tools/staging.mjs
+const WALK = !!sandbox.SCENES[EP.scene].walk, STAGE = STAGING[WALK ? 'walk' : 'sit'];
 const sceneSVG = sandbox.SCENES[EP.scene].html();
-const leaSVG = sandbox.leaSVG(EP.lea).replace(/<div class="name">[^<]*<\/div>/, '');
-const matSVG = sandbox.matSVG(EP.mat).replace(/<div class="name">[^<]*<\/div>/, '');
+const leaSVG = sandbox.leaSVG(EP.lea, WALK).replace(/<div class="name">[^<]*<\/div>/, '');
+const matSVG = sandbox.matSVG(EP.mat, WALK).replace(/<div class="name">[^<]*<\/div>/, '');
 
 /* ---------- align subtitle chunks to word timestamps ---------- */
 const norm = s => s.toLowerCase().replace(/[^a-zà-ÿœæç']/g, '');
@@ -199,7 +203,7 @@ if (sessions.length && sessions[sessions.length - 1].e + 0.8 > RECAP_AT) throw n
 
 // listener sips coffee now and then (every ~35–70 s each, while the other talks ≥ 4.5 s, not on the board, not during an emote)
 const sips = [], sR = mulberry32(33);
-['lea', 'mat'].forEach(who => {
+if (STAGE.sips) ['lea', 'mat'].forEach(who => {
   let next = 15 + sR() * 25;
   turns.filter(t => t.who !== who && t.e - t.s >= 4.5).forEach(t => {
     const st = t.s + 0.8;
@@ -216,12 +220,14 @@ const f = n => (+n).toFixed(3);
 
 /* ---------- talk.html ---------- */
 const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;');
+// long lines: shrink the French line so it stays on one line (box fits ~48 chars at 50px)
+const subFit = c => { const n = c.toks.map(t => t.t).join(' ').length; return n > 48 ? ` style="font-size:${Math.max(40, Math.floor(50 * 48 / n))}px"` : ''; };
 const subsHTML = chunks.map((c, i) => `
     <div id="sub${i}" class="clip subWrap" data-start="${f(c.show)}" data-duration="${f(c.hide - c.show)}" data-track-index="3">
-      <div class="subBox"><div class="subFr">${c.toks.map(t => `<span class="w${t.v ? ' vocab' : ''}" id="${t.id}">${t.v ? '<i class="ul"></i>' : ''}<b class="tx">${esc(t.t)}</b></span>`).join(' ')}</div><div class="subEn">${esc(c.en)}</div></div>
+      <div class="subBox"><div class="subFr"${subFit(c)}>${c.toks.map(t => `<span class="w${t.v ? ' vocab' : ''}" id="${t.id}">${t.v ? '<i class="ul"></i>' : ''}<b class="tx">${esc(t.t)}</b></span>`).join(' ')}</div><div class="subEn">${esc(c.en)}</div></div>
     </div>`).join('');
-const cardsHTML = cards.map((c, i) => c.hidden ? '' : `
-    <div id="card${i}" class="clip cardWrap" data-start="${f(c.s)}" data-duration="${f(c.d)}" data-track-index="4">
+const cardsHTML = () => cards.map((c, i) => c.hidden ? '' : `
+    <div id="card${i}" class="clip cardWrap" data-start="${f(c.s)}" data-duration="${f(c.d + (WALK && !c.fade ? 0.6 : 0))}" data-track-index="4">
       <div class="card"><span class="tag">${esc(c.tag)}</span><div class="word">${esc(c.word)}</div><div class="ipa">${esc(c.ipa)}</div>
       <div class="mean">${esc(c.mean)}</div><div class="ex">${esc(c.ex)}<i>${esc(c.exEn)}</i></div></div>
     </div>`).join('');
@@ -297,8 +303,8 @@ const MODE_HTML = {
 const boardHTML = segs.map((sg, k) => `
       <div class="bseg th-${(sessions.find(ss => ss.segs.includes(sg)) || sg).bg} m-${sg.mode}" id="bseg${k}">${MODE_HTML[sg.mode](sg, k)}
       </div>`).join('');
-const bubsHTML = bubs.map((b, i) => `
-    <div id="bub${i}" class="clip bubWrap" data-start="${f(b.t)}" data-duration="${f(BUB_D)}" data-track-index="7">${sandbox.bubbleSVG(b.type, esc(b.label), b.who)}</div>`).join('');
+const bubsHTML = () => bubs.map((b, i) => `
+    <div id="bub${i}" class="clip bubWrap" data-start="${f(b.t)}" data-duration="${f(BUB_D)}" data-track-index="7"${WALK ? ` style="left:${640 + (b.dir < 0 ? 460 : -460)}px"` : ''}>${sandbox.bubbleSVG(b.type, esc(b.label), WALK ? b.side : b.who)}</div>`).join('');
 // channel badge (top right): repo brand/logo.png, embedded so the sub-composition needs no asset path
 const LOGO = 'data:image/png;base64,' + fs.readFileSync(path.join(ROOT, '..', 'brand', 'logo.png')).toString('base64');
 // hand gestures while talking. The free (outer) arm takes one of 9 poses drawn in demo-animation-style.html (ARM_UP),
@@ -309,7 +315,7 @@ const LOGO = 'data:image/png;base64,' + fs.readFileSync(path.join(ROOT, '..', 'b
 // 2) the random talking gestures fill the rest: "tu/toi/ton…" → more point, a question → more think; never the same pose twice in a row,
 //    random length 1.6–3 s, random rests (and sometimes no gesture at all), always starting on a word.
 // Head nods (nodTL): the speaker nods on « oui / exactement / voilà… », the listener nods now and then (or on chunk.act = "nod").
-const POSES = ['beat', 'palm', 'up', 'point', 'think', 'wave', 'shrug', 'count', 'scratch'];
+const POSES = ['beat', 'palm', 'up', 'point', 'think', 'wave', 'shrug', 'count', 'scratch', ...(WALK ? sandbox.WALK_GEST_KEYS : [])];
 const ACT_OK = [...POSES, 'nod', 'none'];
 const flat = s => s.toLowerCase().replace(/[’]/g, "'").replace(/[^a-zà-ÿœæç'\- ]/g, ' ').replace(/\s+/g, ' ').trim();
 const AUTO_ACT = {
@@ -318,6 +324,7 @@ const AUTO_ACT = {
   shrug: ['je sais pas', 'je ne sais pas', 'sais pas trop', "j'en sais rien", 'aucune idée', 'bof', 'ça dépend', 'peut-être', 'qui sait', "je m'en fiche", 'pourquoi pas'],
   scratch: ['euh', 'hmm', 'bah', 'comment dire', 'je me demande', 'bonne question', "j'hésite", 'voyons voir'],
 };
+Object.assign(AUTO_ACT, STAGE.autoActs);
 const AUTO_GAP = { wave: 20, count: 30, shrug: 30, scratch: 30 }, ACT_D = { wave: 2.0, shrug: 1.8, count: 2.8, scratch: 1.9 };
 const NOD_START = ['oui', 'exactement', 'voilà', 'tout à fait', "d'accord", 'carrément', 'absolument', 'bien sûr', "c'est vrai", 'effectivement', 'évidemment', 'ah oui', 'mais oui', 'ouais'];
 function findPhrase(c, list) {                 // → index of the token where the first listed phrase starts
@@ -335,7 +342,7 @@ chunks.forEach((c, ci) => {
   if (!pose) for (const p of Object.keys(AUTO_ACT)) { const i = findPhrase(c, AUTO_ACT[p]); if (i >= 0) { pose = p; ti = i; break; } }
   if (!pose) return;
   const t0 = c.toks[ti].s, key = c.who + pose, tn = turnOf(c.who, t0);
-  if (!c.act && lastAuto[key] !== undefined && t0 - lastAuto[key] < AUTO_GAP[pose]) return;
+  if (!c.act && lastAuto[key] !== undefined && t0 - lastAuto[key] < (AUTO_GAP[pose] ?? 25)) return;
   const d = Math.min(ACT_D[pose] || 2.2, (tn ? tn.e : c.e) - t0 + 0.4);
   if (d < (c.act ? 1.0 : 1.2)) return;
   if (gests.some(g => g.who === c.who && t0 < g.t + g.d + 0.3 && t0 + d > g.t - 0.3)) return;
@@ -356,9 +363,7 @@ turns.forEach(t => {
     const d = Math.min(1.6 + gR() * 1.4, t.e - w.s - 0.2); if (d < 1.3) return;
     const win = tw.filter(x => x.s >= w.s && x.s < w.s + d), txt = ' ' + win.map(x => x.t.toLowerCase()).join(' ') + ' ';
     const ch = chunks.find(c => c.who === t.who && c.s <= w.s + 0.01 && c.e >= w.s - 0.01);
-    let pool = ['beat', 'beat', 'palm', 'palm', 'up', 'point'];
-    if (/[ "«](tu|toi|te|ton|ta|tes|t'\S*)[ ,.?!]/.test(txt)) pool.push('point', 'point');
-    if (ch && (/\?$/.test(ch.toks[ch.toks.length - 1].t) || ch.emote === 'question')) pool.push('think', 'think', 'think');
+    let pool = STAGE.talkPool(txt, !!(ch && (/\?$/.test(ch.toks[ch.toks.length - 1].t) || ch.emote === 'question')));
     pool = pool.filter(x => x !== lastPose[t.who]);
     const pose = pool[Math.floor(gR() * pool.length)]; lastPose[t.who] = pose;
     const beats = win.filter((x, i, arr) => !i || x.s - arr[i - 1].s >= 0.28).map(x => +x.s.toFixed(3)).filter(s => s > w.s + 0.35 && s < w.s + d - 0.4);
@@ -389,16 +394,19 @@ chunks.forEach((c, i) => {
 });
 nods.sort((x, y) => x.t - y.t);
 
+// staging-specific timing (walk: head turns, listener hand in pocket, camera pans + which side cards/bubbles drop on)
+const STAGE_DATA = STAGE.plan({ chunks, turns, gests, cards, bubs, sessions, emotes, EMO_D, BUB_D, mulberry32 });
+
+const NAMES = `<div id="names"><div id="name-lea" class="nameTag">Léa</div><div id="name-mat" class="nameTag">Mathieu</div></div>`;
 const talk = `<template>
   <style>
     #talk{position:absolute;inset:0;overflow:hidden;background:#f3e3c8;font-family:Nunito,sans-serif}
     #talk-world{position:absolute;inset:0;transform-origin:50% 60%}
     #talk-scene,#talk-scene svg.bg{position:absolute;inset:0;width:1920px;height:1080px}
-    .charBox{position:absolute;top:290px;width:360px;height:480px;transform:scale(1.22);transform-origin:50% 90%}
     .charBox svg{position:absolute;inset:0;width:360px;height:480px;overflow:visible}
-    #talk-lea{left:300px} #talk-mat{left:1235px}
+    #talk-pair{position:absolute;inset:0}
     .nameTag{position:absolute;top:196px;width:fit-content;font:800 30px Nunito;color:#fffaf0;background:#3a2e28;padding:6px 20px;border-radius:30px;opacity:0}
-    #name-lea{left:428px} #name-mat{left:1340px}
+    ${STAGE.css}
     #talk-grain{position:absolute;inset:0;pointer-events:none;opacity:.22;mix-blend-mode:multiply;
       background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='320' height='320'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .3  0 0 0 0 .22  0 0 0 0 .15  0 0 0 .9 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
     .subWrap{position:absolute;left:0;right:0;bottom:64px;display:flex;justify-content:center}
@@ -524,15 +532,14 @@ const talk = `<template>
     <div id="talk-world" data-layout-ignore>
       <div id="talk-scene">${sceneSVG}</div>
       <div id="board" data-layout-ignore>${boardBG}${boardHTML}</div>
-      <div class="charBox" id="talk-lea">${leaSVG}</div>
-      <div class="charBox" id="talk-mat">${matSVG}</div>
+      <div id="talk-pair" data-layout-ignore><div class="charBox" id="talk-lea">${leaSVG}</div>
+      <div class="charBox" id="talk-mat">${matSVG}</div>${WALK ? NAMES : ''}</div>
     </div>
     <div id="talk-grain" data-layout-ignore></div>
-    <div id="names"><div id="name-lea" class="nameTag">Léa</div>
-    <div id="name-mat" class="nameTag">Mathieu</div></div>
+    ${WALK ? '' : NAMES}
     <img id="talk-badge" src="${LOGO}" alt="The Cozy French">
-    ${cardsHTML}
-    ${bubsHTML}
+    ${cardsHTML()}
+    ${bubsHTML()}
     ${subsHTML}
     <div id="recap" class="clip${cards.length > 8 ? ' many' : ''}" data-start="${f(RECAP)}" data-duration="${f(RECAP_D)}" data-track-index="6">
       <h2 id="recap-title">Aujourd'hui, on a appris…</h2>
@@ -544,10 +551,11 @@ const talk = `<template>
     const TOTAL=${TOTAL}, RECAP=${f(RECAP)};
     const WORDS=${JSON.stringify(words.map(w => ({ id: w.id, s: +f(w.s), e: +f(w.e), v: w.v, who: w.who, n: w.t.length })))};
     const TURNS=${JSON.stringify(turns.map(t => ({ who: t.who, s: +f(t.s), e: +f(t.e) })))};
-    const CARDS=${JSON.stringify(cards.map(c => ({ s: +f(c.s), d: +f(c.d), h: c.hidden ? 1 : 0 })))};
+    const WALK=${WALK}, SWAY=${STAGE.sway};
+    const CARDS=${JSON.stringify(cards.map(c => ({ s: +f(c.s), d: +f(c.d), h: c.hidden ? 1 : 0, dir: c.dir || 0, fade: c.fade ? 1 : 0 })))};
     const SESS=${JSON.stringify(sessions.map(ss => ({ s: +f(ss.s), e: +f(ss.e), bg: ss.bg, segs: ss.segs.map(sg => ({ s: +f(sg.s), e: +f(sg.e), t0: +f(sg.t0), mode: sg.mode, lines: sg.lines ? sg.lines.map(l => +f(l.s)) : undefined, rv: sg.rv.map(([id, t, fx]) => [id, +f(t), fx]) })) })))};
     const SUBS=${JSON.stringify(chunks.map(c => ({ s: +f(c.show), d: +f(c.hide - c.show) })))};
-    const BUBS=${JSON.stringify(bubs.map(b => ({ type: b.type, who: b.who, t: +f(b.t) })))};
+    const BUBS=${JSON.stringify(bubs.map(b => ({ type: b.type, who: WALK ? b.side : b.who, t: +f(b.t) })))};
     const GESTS=${JSON.stringify(gests.map(g => ({ who: g.who, p: g.pose, t: +f(g.t), d: +f(g.d), b: g.b })))};
     const SIPS=${JSON.stringify(sips)}, ELB=${JSON.stringify(sandbox.GEST_ELBOW)}, NODS=${JSON.stringify(nods)};
     const EMOTES=${JSON.stringify(emotes.map(e => ({ who: e.who, type: e.type, t: +f(e.t) })))};
@@ -579,6 +587,7 @@ const talk = `<template>
     q('#talk-scene .lav').forEach(l=>tl.fromTo(l,{rotation:-5},{rotation:5,transformOrigin:'50% 100%',duration:rnd(1.4,2),yoyo:true,repeat:rep(1.4),ease:'sine.inOut'},rnd(0,1)));
     q('#talk-scene .firefly').forEach(fl=>{ tl.fromTo(fl,{x:0,y:0},{x:rnd(-60,60),y:rnd(-50,30),duration:rnd(2.5,4),yoyo:true,repeat:rep(2.5),ease:'sine.inOut'},rnd(0,2)); tl.fromTo(fl,{opacity:.1},{opacity:1,duration:rnd(.5,1),yoyo:true,repeat:rep(.5),ease:'sine.inOut'},rnd(0,2)); });
     q('#talk-scene .clockhand').forEach((h,i)=>tl.fromTo(h,{rotation:i?0:120},{rotation:i?360:150,transformOrigin:'50% 100%',duration:i?60:TOTAL,ease:'none',repeat:i?rep(60):0},0));
+    q('#talk-scene [data-roll]').forEach(el=>{ const [w,v]=el.dataset.roll.split(',').map(Number); tl.fromTo(el,{x:0},{x:-w,duration:w/v,ease:'none',repeat:rep(w/v)},0); });
 
     // ---- characters idle ----
     ['#talk-lea','#talk-mat'].forEach((c,i)=>{
@@ -604,12 +613,14 @@ const talk = `<template>
       tl.to(c+' .head',{rotation:0,duration:.5},t.e+.15);
       // gentle body sway while talking (pivot at the seat)
       const L=Math.max(t.e-t.s,1), k=Math.max(1,Math.round(L/1.8)), amp=(R()<.5?-1:1)*rnd(1.1,1.8);
-      tl.fromTo(c+' .sway',{rotation:0},{rotation:amp,duration:L/(2*k),yoyo:true,repeat:2*k-1,ease:'sine.inOut',immediateRender:false},t.s);
+      if(SWAY) tl.fromTo(c+' .sway',{rotation:0},{rotation:amp,duration:L/(2*k),yoyo:true,repeat:2*k-1,ease:'sine.inOut',immediateRender:false},t.s);
     });
     // ---- hand gestures + nods (gestTL / nodTL from the demo's GEST-RUNTIME) ----
     ${GEST_RUNTIME}
     GESTS.forEach(g=>gestTL(tl,'#talk-'+g.who,{p:g.p,t:g.t,d:g.d,b:g.b}));
     NODS.forEach(n=>nodTL(tl,'#talk-'+n.who,n.t));
+    ${WALK ? `// ---- walking (WALK-RUNTIME from the demo + tools/staging.mjs) ----
+    ${WALK_RUNTIME}${STAGE.runtime(STAGE_DATA, f)}` : ''}
     // ---- listener sips coffee (.cupGrp moves, .cupTilt tilts) ----
     SIPS.forEach(sp=>{
       const c='#talk-'+sp.who, t=sp.t;
@@ -644,7 +655,7 @@ const talk = `<template>
 
     // ---- explanation board ----
     let segK=0;
-    const CORNER={lea:{x:-330,y:338},mat:{x:355,y:338}};
+    const CORNER=${JSON.stringify(STAGE.corner)}, BASE=${STAGE.base};
     // background entrance / exit: liege fades in, craie drops from the top, carnet slides up from below
     const BG_IN={liege:[{opacity:0,scale:1.06,y:0,rotation:0},{opacity:1,scale:1,duration:.5,ease:'power2.out'}],
       craie:[{opacity:1,y:-1120,scale:1,rotation:0},{y:0,duration:.75,ease:'back.out(1.1)'}],
@@ -667,8 +678,8 @@ const talk = `<template>
       tl.set(bg,{opacity:0,y:0,rotation:0},b+.55);
       tl.to('#names',{opacity:0,duration:.2},a); tl.to('#names',{opacity:1,duration:.3},b+.5);
       ['lea','mat'].forEach(w=>{
-        tl.fromTo('#talk-'+w,{x:0,y:0,scale:1.22,transformOrigin:'50% 90%'},{x:CORNER[w].x,y:CORNER[w].y,scale:.7,transformOrigin:'50% 90%',duration:.7,ease:'power2.inOut',immediateRender:false},a);
-        tl.to('#talk-'+w,{x:0,y:0,scale:1.22,duration:.7,ease:'power2.inOut'},b);
+        tl.fromTo('#talk-'+w,{x:0,y:0,scale:BASE,transformOrigin:'50% 90%'},{x:CORNER[w].x,y:CORNER[w].y,scale:CORNER[w].s,transformOrigin:'50% 90%',duration:.7,ease:'power2.inOut',immediateRender:false},a);
+        tl.to('#talk-'+w,{x:0,y:0,scale:BASE,duration:.7,ease:'power2.inOut'},b);
       });
       ss.segs.forEach((sg,j)=>{
         const k=segK++, el='#bseg'+k, t0=sg.t0, last=j===ss.segs.length-1;
@@ -693,6 +704,7 @@ const talk = `<template>
     // ---- vocab cards ----
     CARDS.forEach((c,i)=>{ if(c.h) return;
       const el='#card'+i+' .card';
+      if(WALK){ walkCardTL(tl,el,c.s-.1,c.s+c.d,c.dir,c.fade); tl.fromTo('#card'+i+' .ex',{opacity:0,y:10},{opacity:1,y:0,duration:.4},c.s+.7); return; }
       tl.fromTo(el,{y:-80,opacity:0,rotation:3},{y:0,opacity:1,rotation:-1.5,duration:.5,ease:'back.out(1.7)'},c.s);
       tl.fromTo('#card'+i+' .ex',{opacity:0,y:10},{opacity:1,y:0,duration:.4},c.s+.5);
       tl.to(el,{y:-50,opacity:0,duration:.3,ease:'power2.in'},c.s+c.d-.35);
@@ -739,4 +751,4 @@ const index = `<!doctype html>
 </html>
 `;
 fs.writeFileSync(path.join(ROOT, 'index.html'), index);
-console.log(`built: ${gests.length} gestures (${POSES.map(p => p + ' ' + gests.filter(g => g.pose === p).length).join(', ')}), ${nods.length} nods, ${sips.length} sips, ${chunks.length} subtitle chunks, ${words.length} words, ${cards.length} cards, ${emotes.length} emotes, ${bubs.length} illustrations, ${turns.length} turns, total ${TOTAL}s`);
+console.log(`built (${WALK ? 'walk' : 'sit'}): ${gests.length} gestures (${POSES.map(p => p + ' ' + gests.filter(g => g.pose === p).length).join(', ')}), ${nods.length} nods, ${sips.length} sips, ${chunks.length} subtitle chunks, ${words.length} words, ${cards.length} cards, ${emotes.length} emotes, ${bubs.length} illustrations, ${turns.length} turns, total ${TOTAL}s`);

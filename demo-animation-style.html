@@ -17,6 +17,8 @@
   .char svg{position:absolute;inset:0;width:360px;height:480px;overflow:visible}
   .char .name{position:absolute;left:50%;top:-28px;transform:translateX(-50%);font:800 26px Nunito;color:var(--paper);background:var(--ink);padding:6px 18px;border-radius:30px;opacity:0;z-index:2}
   #lea{left:300px} #mat{left:1235px}
+  #stage.walk .char{top:221px;transform:scale(1.05)} #stage.walk #lea{left:620px;z-index:2} #stage.walk #mat{left:940px;z-index:1}
+  #scene svg.bg{overflow:visible}
   #grain{position:absolute;inset:0;pointer-events:none;opacity:.22;mix-blend-mode:multiply;
     background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='320' height='320'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .3  0 0 0 0 .22  0 0 0 0 .15  0 0 0 .9 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");}
   /* subtitle */
@@ -74,8 +76,8 @@
 <div id="fit"><div id="stage">
   <div id="world">
     <div id="scene"></div>
-    <div class="char" id="lea"></div>
-    <div class="char" id="mat"></div>
+    <div id="pair" style="position:absolute;inset:0"><div class="char" id="lea"></div>
+    <div class="char" id="mat"></div></div>
   </div>
   <div id="grain"></div>
   <div id="brand"><div id="logo">The Cozy <span>French</span></div><div id="count">Mots clés : <b id="cnum">0</b> / 4</div></div>
@@ -108,6 +110,7 @@
    CẤU HÌNH TỪNG TẬP — chỉ cần đổi dòng này
    scene: cafe | salon | parc | cuisine | biblio | terrasse | chalet | boulangerie | train | quai
           marche | plage | atelier | lavande | bureau
+          đi dạo: promenade | ruelle | automne | corniche | village | jardin
    lea:   pull | mariniere | trench | chemise | cardigan | pois | jean | lilas | foulard | doudoune
    mat:   denim | hoodie | colroule | blazer | pull | carreaux | velours | polo | gilet | tablier
    ============================================================ */
@@ -463,7 +466,8 @@ const CUP=stripe=>`<g class="steamGrp">${STEAM}</g><ellipse cx="234" cy="358" rx
    up: giơ tay xoè · point: chỉ về người kia · palm: ngửa lòng bàn tay · beat: nắm tay gõ nhịp · think: chống cằm.
    Tay trong (arm1) + cốc: .armHold / .cupGrp; khi nhấp cà phê: .armSip hiện, .cupGrp đưa lên miệng. */
 const GEST_ELBOW={up:[286,388],point:[284,384],palm:[284,390],beat:[286,386],think:[282,392],
-  wave:[326,250],shrug:[300,372],count:[286,388],scratch:[320,232]};
+  wave:[326,250],shrug:[300,372],count:[286,388],scratch:[320,232],
+  explain:[282,372],regarde:[312,318],coeur:[276,380],pouce:[284,376],bof:[284,378],pince:[286,378],rire:[300,302],menton:[288,350],poche:[266,352],grand:[318,300],rireT:[300,302],mentonT:[288,350]};
 /* 4 cử chỉ mới: wave vẫy tay chào · shrug nhún vai ngửa tay · count đếm ngón tay (1→2→3) · scratch gãi đầu. Thêm nod = gật đầu (đầu, không dùng tay). */
 const ARM_UP=(c,skin,w)=>{
   const up=(d)=>`<path d="${d}" stroke="${c}" stroke-width="${w}" fill="none" stroke-linecap="round"/>`;
@@ -493,10 +497,11 @@ const ARM_UP=(c,skin,w)=>{
 /* GEST-RUNTIME-START (chép nguyên văn vào video bởi tools/build.mjs — chỉ dùng gsap, không random).
    Cần đặt svgOrigin MỘT lần ở t=0: .gest = '257 286', .g-<kiểu> .fore = GEST_ELBOW[kiểu].
    g = {p:kiểu, t:bắt đầu, d:độ dài, b:[mốc chữ để gõ nhịp]} */
-const GEST_LIFT={think:35,wave:65,scratch:65,count:40,shrug:40};
-const GEST_WIG={up:[.7,-12],palm:[1.1,9],think:[1.3,-4],wave:[.36,-18],scratch:[.14,6],shrug:[.9,8]};
+const GEST_LIFT={think:35,wave:65,scratch:65,count:40,shrug:40,explain:45,regarde:55,coeur:40,pouce:45,bof:45,pince:45,rire:60,menton:55,poche:15,grand:0};
+const GEST_WIG={up:[.7,-12],palm:[1.1,9],think:[1.3,-4],wave:[.36,-18],scratch:[.14,6],shrug:[.9,8],
+  explain:[.7,10],regarde:[1.2,-3],coeur:[.5,-5],pouce:[.6,-7],bof:[.32,14],rire:[.18,4],menton:[1,-4],grand:[.5,-8]};
 function gestTL(tl,c,g){
-  const el=c+' .g-'+g.p, lift=GEST_LIFT[g.p]||50, h0=g.t+.32, h1=g.t+g.d-.3, W=GEST_WIG[g.p];
+  const base=g.p.replace(/T$/,''), el=c+' .g-'+g.p, lift=GEST_LIFT[base]??50, h0=g.t+.32, h1=g.t+g.d-.3, W=GEST_WIG[base];
   tl.set(c+' .armRest',{opacity:0},g.t); tl.set(el,{opacity:1},g.t);
   tl.fromTo(el,{rotation:lift},{rotation:0,duration:.32,ease:'back.out(1.5)',immediateRender:false},g.t);
   if(W){ const w=Math.max(1,Math.round((h1-h0)/W[0]));
@@ -508,7 +513,8 @@ function gestTL(tl,c,g){
       tl.set(c+' .cf'+k,{opacity:1},tk);
       tl.fromTo(el+' .fore',{rotation:0},{rotation:-7,duration:.12,yoyo:true,repeat:1,ease:'power2.out',immediateRender:false},tk); }
     for(let k=1;k<=3;k++) tl.set(c+' .cf'+k,{opacity:0},g.t+g.d-.04); }
-  if(g.p==='beat'||g.p==='point'){ const amp=g.p==='beat'?12:-7;
+  if(g.p==='grand'){ tl.set(c+' .swingA',{opacity:0},g.t); tl.set(c+' .swingA',{opacity:1},g.t+g.d-.04); }
+  if(g.p==='beat'||g.p==='point'||g.p==='pince'){ const amp={beat:12,point:-7,pince:10}[g.p];
     (g.b||[]).forEach(bt=>{ if(bt>h0&&bt<h1-.2) tl.fromTo(el+' .fore',{rotation:0},{rotation:amp,duration:.11,yoyo:true,repeat:1,ease:'power2.out',immediateRender:false},bt-.04); }); }
   tl.to(el,{rotation:lift,duration:.26,ease:'power2.in'},h1);
   tl.set(el,{opacity:0},g.t+g.d-.04); tl.set(c+' .armRest',{opacity:1},g.t+g.d-.04);
@@ -520,8 +526,139 @@ function nodTL(tl,c,t){ tl.fromTo(c+' .head',{y:0},{y:7,duration:.17,yoyo:true,r
 /* tay cầm cốc đưa lên miệng (khớp với .cupGrp dịch -14,-150 xoay -18°) */
 const ARM_SIP=(c,w)=>`<path class="armSip" opacity="0" d="M118 285 C92 340 102 394 140 384 C168 376 184 300 192 254" stroke="${c}" stroke-width="${w}" fill="none" stroke-linecap="round" stroke-linejoin="round"/>`;
 
-function leaSVG(k){ const o=OUT_LEA[k]; return `<div class="name">Léa</div>
- <svg viewBox="0 0 360 480"><g filter="url(#pencil)"><g class="sway">
+/* ============================================================
+   ĐI DẠO (bối cảnh có walk:true) — chân + tay đánh, nhân vật đứng giữa khung, nền trôi ngược lại.
+   Cả hai cùng quay sang phải (Mathieu không lật người, chỉ lật đầu để nhìn lại Léa).
+   ============================================================ */
+const WALK_LEGS={
+  lea:{pull:'#5b7398',mariniere:'#2f3a52',trench:'#3a3434',chemise:'#d9cbb0',cardigan:'#4f6f99',pois:'skirt',jean:'#3a3434',lilas:'#5b7398',foulard:'#33476b',doudoune:'#3a3434'},
+  mat:{denim:'#c9b28e',hoodie:'#3a3f48',colroule:'#8a6a4c',blazer:'#d9cbb0',pull:'#5b5048',carreaux:'#4f6f99',velours:'#3a3f48',polo:'#5b7398',gilet:'#33476b',tablier:'#3a3f48'}};
+/* giày theo bộ đồ: ballerine (giày búp bê) · bottine (bốt cổ thấp) · basket (giày thể thao) · derby (giày da buộc dây).
+   Vẽ hướng sang phải, cổ chân ở (x,582), mặt đất y≈606. */
+const WALK_SHOES={
+  lea:{pull:'basket',mariniere:'ballerine',trench:'bottine',chemise:'ballerine',cardigan:'ballerine',pois:'ballerine',jean:'basket',lilas:'basket',foulard:'ballerine',doudoune:'bottine'},
+  mat:{denim:'basket',hoodie:'basket',colroule:'derby',blazer:'derby',pull:'derby',carreaux:'basket',velours:'derby',polo:'basket',gilet:'derby',tablier:'basket'}};
+const SHOE={
+  ballerine:(x,who)=>`<path d="M${x-25} 580 C${x-28} 596 ${x-22} 606 ${x-10} 606 L${x+44} 606 C${x+58} 606 ${x+60} 592 ${x+46} 588 C${x+32} 584 ${x+20} 586 ${x+18} 580Z" fill="#a8423a"/>
+    <path d="M${x-12} 590 C${x+4} 596 ${x+22} 594 ${x+30} 588" stroke="#7a2e28" stroke-width="3" fill="none" stroke-linecap="round"/><circle cx="${x+34}" cy="590" r="4" fill="#7a2e28"/>
+    <path d="M${x-22} 606 H${x+48}" stroke="#5a2420" stroke-width="4" stroke-linecap="round"/>`,
+  bottine:(x,who)=>`<path d="M${x-26} 558 H${x+22} V578 C${x+38} 582 ${x+56} 586 ${x+56} 598 V606 H${x-28}Z" fill="#6e4630"/>
+    <path d="M${x-26} 566 H${x+22}" stroke="#5a3824" stroke-width="3"/><rect x="${x-28}" y="603" width="86" height="7" rx="3" fill="#3a2e28"/><rect x="${x-28}" y="600" width="22" height="10" rx="2" fill="#3a2e28"/>`,
+  basket:(x,who)=>{const c=who==='lea'?'#fbf6ec':'#e9e4da', st=who==='lea'?'#d9774b':'#5d7fa0';return `<path d="M${x-27} 570 L${x+18} 570 C${x+34} 576 ${x+54} 582 ${x+56} 594 L${x+56} 600 L${x-29} 600 C${x-31} 588 ${x-29} 578 ${x-27} 570Z" fill="${c}" stroke="#b9b2a6" stroke-width="2"/>
+    <path d="M${x-14} 590 C${x+4} 584 ${x+20} 586 ${x+34} 592" stroke="${st}" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M${x+6} 574 l8 6 M${x+14} 572 l8 7 M${x+22} 575 l7 6" stroke="#8a8378" stroke-width="2.5" stroke-linecap="round"/>
+    <rect x="${x-31}" y="598" width="90" height="10" rx="5" fill="#fffdf8" stroke="#b9b2a6" stroke-width="2"/>`;},
+  derby:(x,who)=>`<path d="M${x-26} 574 L${x+14} 574 C${x+30} 578 ${x+54} 584 ${x+56} 596 L${x+56} 602 L${x-28} 602 C${x-30} 590 ${x-28} 580 ${x-26} 574Z" fill="#4a3226"/>
+    <path d="M${x+2} 578 l10 4 M${x+10} 576 l10 5" stroke="#c9a77c" stroke-width="2.5" stroke-linecap="round"/><path d="M${x+30} 584 C${x+44} 586 ${x+52} 590 ${x+54} 596" stroke="#6b4a38" stroke-width="3" fill="none"/>
+    <rect x="${x-29}" y="601" width="88" height="7" rx="3" fill="#2a1e18"/>`,
+};
+const LEGS=(who,k)=>{
+  const o=(who==='lea'?OUT_LEA:OUT_MAT)[k], v=WALK_LEGS[who][k]||'#4a4a52', skirt=v==='skirt', c=skirt?'#3a3434':v, s=skirt?.62:1, shoe=SHOE[WALK_SHOES[who][k]||'basket'];
+  const A=WALK_HIP.A, B=WALK_HIP.B;
+  // đùi to ở hông, thon dần xuống gối; ống đồng → cổ chân. Khớp gối tròn để gập không bị gãy.
+  const leg=(n,x,far)=>{ const tw=32*s, kw=27*s, aw=21*s;
+    const thigh=`M${x-tw} 410 L${x+tw} 410 L${x+kw} 505 L${x-kw} 505Z`, shin=`M${x-kw} 505 L${x+kw} 505 L${x+aw} 584 L${x-aw} 584Z`;
+    return `<g class="leg${n}"${far?' style="filter:brightness(.8)"':''}><path d="${thigh}" fill="${c}"/>
+     <g class="shin${n}"><circle cx="${x}" cy="505" r="${kw}" fill="${c}"/><path d="${shin}" fill="${c}"/>${shoe(x,who)}</g></g>`; };
+  // phần hông/đáy quần nối hai chân ngay dưới gấu áo → chân không còn như hai cái que cắm vào áo
+  const hips=skirt?'':`<path d="M${A-36} 396 H${B+36} L${B+33} 448 Q${(A+B)/2} 470 ${A-33} 448Z" fill="${c}"/><path d="M${(A+B)/2} 440 V462" stroke="#000" stroke-opacity=".15" stroke-width="3"/>`;
+  const skirtP=skirt?`<path d="M84 416 L280 416 L300 488 Q182 502 64 488Z" fill="${o.top}"/>`:'';
+  return leg('A',A,true)+hips+leg('B',B,false)+skirtP+`<path d="M92 428 H272 L268 438 Q182 446 96 438Z" fill="#000" opacity=".12"/>`;
+};
+/* 10 cử chỉ tay khi đi (thay cho tay đánh lắc lư lúc nói). Tay trước (vai 256,285); mx = x của miệng (Léa 214, Mathieu quay đầu 176).
+   explain giải thích ngửa tay · regarde chỉ về phía trước · coeur tay đặt lên ngực · pouce giơ ngón cái · bof lắc bàn tay "comme ci comme ça"
+   pince chụm ngón nhấn mạnh · rire che miệng cười · menton vuốt cằm suy nghĩ · poche đút tay túi quần (người nghe) · grand dang rộng hai tay */
+const WALK_GEST_KEYS=['explain','regarde','coeur','pouce','bof','pince','rire','menton','poche','grand'];
+const WALK_GEST=(o,skin,w,mx,mxT)=>{
+  const up=(d,c=o.arm2)=>`<path d="${d}" stroke="${c}" stroke-width="${w}" fill="none" stroke-linecap="round"/>`;
+  const fa=(d,c=o.arm2)=>`<path d="${d}" stroke="${c}" stroke-width="${w-4}" fill="none" stroke-linecap="round"/>`;
+  const fg=(d,sw=8)=>`<path d="${d}" stroke="${skin}" stroke-width="${sw}" stroke-linecap="round" fill="none"/>`;
+  const P={
+   explain:[up('M256 285 C266 324 276 352 282 372'), fa('M282 372 C304 366 326 358 344 350')+
+     `<g transform="rotate(-12 360 346)"><ellipse cx="360" cy="346" rx="22" ry="10" fill="${skin}"/>${fg('M378 340 q8 -4 10 -10 M380 346 q10 -3 13 -9',7)}${fg('M346 338 q-2 -10 6 -14',7)}</g>`],
+   regarde:[up('M256 285 C276 300 296 310 312 318'), fa('M312 318 C332 302 352 282 370 264')+
+     `<ellipse cx="378" cy="256" rx="15" ry="13" fill="${skin}"/>${fg('M386 248 L404 230',9)}${fg('M376 246 q4 -8 10 -8',7)}`],
+   coeur:[up('M256 285 C266 326 274 360 276 380'), fa('M276 380 C252 364 222 340 204 320')+
+     `<g transform="rotate(-35 198 312)"><ellipse cx="198" cy="312" rx="20" ry="13" fill="${skin}"/>${fg('M182 304 q-8 -4 -10 -12 M188 300 q-6 -6 -6 -14',6)}</g>`],
+   pouce:[up('M256 285 C268 326 280 356 284 376'), fa('M284 376 C296 356 308 336 316 320')+
+     `<ellipse cx="322" cy="308" rx="16" ry="15" fill="${skin}"/>${fg('M318 296 L318 272',10)}<path d="M312 312 q10 4 20 0" stroke="#00000030" stroke-width="3" fill="none"/>`],
+   bof:[up('M256 285 C268 326 278 358 284 378'), fa('M284 378 C304 370 324 360 342 352')+
+     `<g transform="rotate(-6 360 348)"><ellipse cx="360" cy="348" rx="24" ry="8" fill="${skin}"/>${fg('M380 346 h12 M380 351 h10',6)}</g>`],
+   pince:[up('M256 285 C270 326 282 358 286 378'), fa('M286 378 C298 358 310 338 320 322')+
+     `<ellipse cx="324" cy="310" rx="15" ry="16" fill="${skin}"/>${fg('M318 300 Q322 288 328 282 M326 300 Q328 290 329 282 M334 302 Q333 290 330 282',6)}`],
+   rire:[up('M256 285 C276 296 292 300 300 302'), fa(`M300 302 C280 270 ${mx+30} 226 ${mx+14} 206`)+
+     `<ellipse cx="${mx+6}" cy="198" rx="17" ry="14" fill="${skin}"/>${fg(`M${mx-6} 192 h-10 M${mx-6} 200 h-10`,6)}`],
+   menton:[up('M256 285 C274 316 286 336 288 350'), fa(`M288 350 C270 300 ${mx+24} 246 ${mx+4} 226`)+
+     `<ellipse cx="${mx-2}" cy="220" rx="15" ry="13" fill="${skin}"/>${fg(`M${mx-12} 214 q-6 -6 -4 -14`,6)}`],
+   poche:[up('M256 285 C270 322 274 352 266 352'), fa('M266 352 C258 372 246 392 234 410')+
+     `<path d="M216 404 q14 18 30 4" stroke="#00000040" stroke-width="4" fill="none" stroke-linecap="round"/>`],
+   grand:[up('M256 285 C278 296 300 300 318 300')+up('M118 285 C96 296 76 300 60 300',o.arm), fa('M318 300 C334 280 348 258 358 238')+fa('M60 300 C46 280 34 258 26 238',o.arm)+
+     `<ellipse cx="362" cy="226" rx="15" ry="18" fill="${skin}"/>${fg('M354 214 q-2 -12 2 -16 M362 210 q0 -14 4 -16 M370 212 q3 -12 8 -12')}<ellipse cx="22" cy="226" rx="15" ry="18" fill="${skin}"/>${fg('M30 214 q2 -12 -2 -16 M22 210 q0 -14 -4 -16 M14 212 q-3 -12 -8 -12')}`]};
+  // người hay quay đầu (Mathieu): thêm bản rireT / mentonT cho lúc đang quay đầu lại (miệng ở mxT)
+  if(mxT!==undefined){ P.rireT=[P.rire[0],fa(`M300 302 C280 270 ${mxT+30} 226 ${mxT+14} 206`)+`<ellipse cx="${mxT+6}" cy="198" rx="17" ry="14" fill="${skin}"/>${fg(`M${mxT-6} 192 h-10 M${mxT-6} 200 h-10`,6)}`];
+    P.mentonT=[P.menton[0],fa(`M288 350 C270 300 ${mxT+24} 246 ${mxT+4} 226`)+`<ellipse cx="${mxT-2}" cy="220" rx="15" ry="13" fill="${skin}"/>${fg(`M${mxT-12} 214 q-6 -6 -4 -14`,6)}`]; }
+  return Object.entries(P).map(([k,[u,f]])=>`<g class="gest g-${k}" opacity="0">${u}<g class="fore">${f}</g></g>`).join('');
+};
+/* tay khi đi: tay phía sau (A) nằm SAU thân, tối hơn, chỉ ló ra khi vung; tay phía trước (B) thẳng xuống dọc thân và vung rộng.
+   (trước đây cả hai tay nằm trước áo, hai người đi sát nhau nên tay Léa và tay Mathieu chạm nhau như đang chụm tay) */
+const WALK_ARM_BACK=(o,skin,w)=>`<g class="swingA" style="filter:brightness(.8)"><path d="M118 285 C112 330 110 372 112 410" stroke="${o.arm}" stroke-width="${w}" fill="none" stroke-linecap="round"/><ellipse cx="113" cy="420" rx="13" ry="16" fill="${skin}"/></g>`;
+const WALK_ARMS=(o,skin,w)=>`<g class="armRest"><g class="swingB"><path d="M256 285 C262 330 264 372 262 410" stroke="${o.arm2}" stroke-width="${w}" fill="none" stroke-linecap="round"/><ellipse cx="262" cy="420" rx="13" ry="16" fill="${skin}"/></g></g>`;
+
+/* WALK-RUNTIME-START (chép nguyên văn vào video bởi tools/build.mjs — chỉ dùng gsap, không random).
+   WALK_P = thời gian một bước; WALK_SPEED = tốc độ mặt đất (px/s) khớp với bàn chân. */
+/* Dáng đi kiểu 3/4 (thân + mặt hướng ra người xem, nên chân KHÔNG vung rộng sang ngang như nhìn nghiêng — trông như đi ngang):
+   sải ngắn (đùi ±10°), chân vung thì nhấc gối lên cao + gập cẳng chân rồi đặt xuống phía trước; chân trụ lùi đều theo mặt đất
+   (ease 'none' để bàn chân không trượt); chân sau nằm khuất một phần sau chân trước; người hơi ngả về phía trước, nhún giữa bước. */
+const WALK_P=.6, WALK_SPEED=112, WALK_HIP={A:156,B:208};
+function walkSetup(tl,c){
+  ['A','B'].forEach(n=>{ tl.set(c+' .leg'+n,{svgOrigin:WALK_HIP[n]+' 418'},0); tl.set(c+' .shin'+n,{svgOrigin:WALK_HIP[n]+' 505'},0); });
+  tl.set(c+' .swingA',{svgOrigin:'118 285'},0); tl.set(c+' .swingB',{svgOrigin:'256 285'},0); tl.set(c+' .headTurn',{svgOrigin:'195 0'},0);
+  tl.set(c+' .walkLean',{svgOrigin:'182 606',rotation:2},0);
+}
+function walkTL(tl,c,t0,dur){
+  const P=WALK_P, cyc=Math.ceil(dur/(2*P))+1, n=2*cyc, E='sine.inOut';
+  // một chu kỳ = 2 bước. Vung: đùi +10 → -26 (gối nhấc) → -10 (đặt chân); trụ: -10 → +10 đều theo mặt đất
+  const swing=[{rotation:-26,duration:P*.55,ease:'sine.out'},{rotation:-10,duration:P*.45,ease:'sine.in'}], stance=[{rotation:10,duration:P,ease:'none'}];
+  const bend=[{rotation:58,duration:P*.42,ease:'sine.out'},{rotation:0,duration:P*.58,ease:'sine.inOut'}], rest=[{rotation:0,duration:P}];
+  tl.set(c+' .legA',{rotation:10},t0); tl.to(c+' .legA',{keyframes:[...swing,...stance],repeat:cyc},t0);
+  tl.set(c+' .legB',{rotation:-10},t0); tl.to(c+' .legB',{keyframes:[...stance,...swing],repeat:cyc},t0);
+  tl.set(c+' .shinA',{rotation:0},t0); tl.to(c+' .shinA',{keyframes:[...bend,...rest],repeat:cyc},t0);
+  tl.set(c+' .shinB',{rotation:0},t0); tl.to(c+' .shinB',{keyframes:[...rest,...bend],repeat:cyc},t0);
+  // tay đánh ngược chân cùng bên (vừa phải); người nhô cao nhất giữa bước
+  tl.fromTo(c+' .swingA',{rotation:-16},{rotation:16,duration:P,yoyo:true,repeat:n,ease:E,immediateRender:false},t0);
+  tl.fromTo(c+' .swingB',{rotation:18},{rotation:-18,duration:P,yoyo:true,repeat:n,ease:E,immediateRender:false},t0);
+  tl.fromTo(c+' .walkBob',{y:0},{y:-7,duration:P/2,yoyo:true,repeat:2*n+1,ease:E,immediateRender:false},t0);
+}
+/* người đi trước (Mathieu) nhìn đường; chỉ quay đầu lại nhìn người kia trong lúc mình nói (lật .headTurn quanh x=195) */
+/* quay đầu kiểu "flip" của hoạt hình 2D: không bóp dẹt qua 0 như đồng xu, mà hơi co lại + chúi xuống,
+   đổi hướng ngay lập tức (một khung hình), rồi bật nảy về kích thước thật ở hướng mới */
+function headFlipTL(tl,sel,t,from,to){
+  const H=sel+' .headTurn';
+  tl.fromTo(H,{scaleX:from,y:0},{scaleX:from*.88,y:5,duration:.07,ease:'power1.in',immediateRender:false},t);
+  tl.set(H,{scaleX:to*.88},t+.07);
+  tl.fromTo(H,{scaleX:to*.88,y:5},{scaleX:to,y:0,duration:.2,ease:'back.out(2.2)',immediateRender:false},t+.07);
+}
+function walkLookTL(tl,c,t0,t1){ headFlipTL(tl,c,t0-.2,1,-1); headFlipTL(tl,c,t1+.25,-1,1); }
+/* camera lia khi có thẻ từ: dir -1 = camera sang phải (hai người dạt sang trái, thẻ rơi xuống bên phải), +1 ngược lại.
+   Mỗi lớp nền dịch theo hệ số riêng (xa ít, gần nhiều) để có chiều sâu; pair = khung chứa hai nhân vật. */
+const WALK_PAN=380, WALK_CARD_X=500, WALK_PAR={'#pfar':.15,'#pmid':.4,'#priver':.6,'#pnear':1,'#pground':1};
+function walkPanTL(tl,pair,t0,t1,dir){
+  [[pair,1],...Object.entries(WALK_PAR)].forEach(([sel,k])=>{
+    tl.fromTo(sel,{x:0},{x:dir*WALK_PAN*k,duration:.8,ease:'power2.inOut',immediateRender:false},t0);
+    tl.fromTo(sel,{x:dir*WALK_PAN*k},{x:0,duration:.8,ease:'power2.inOut',immediateRender:false},t1);
+  });
+}
+/* thẻ từ kéo xuống từ trên ở phía còn lại, rồi kéo lên khi camera quay về giữa */
+function walkCardTL(tl,card,t0,t1,dir,fade){
+  const x=-dir*WALK_CARD_X;
+  tl.fromTo(card,{x,y:-560,opacity:1,rotation:5},{x,y:0,rotation:-1.5,duration:.8,ease:'back.out(1.3)',immediateRender:false},t0+.2);
+  if(fade) tl.fromTo(card,{opacity:1},{opacity:0,duration:.25,immediateRender:false},t1-.3);   // thẻ kế tiếp tới ngay: mờ đi thay vì kéo lên
+  else tl.fromTo(card,{x,y:0,rotation:-1.5},{x,y:-560,rotation:4,duration:.6,ease:'power2.in',immediateRender:false},t1-.1);
+}
+/* WALK-RUNTIME-END */
+
+function leaSVG(k,walk){ const o=OUT_LEA[k]; return `<div class="name">Léa</div>
+ <svg viewBox="0 0 360 480"><g filter="url(#pencil)">${walk?`<g class="walkBob"><g class="walkLean">${LEGS('lea',k)}`:''}<g class="sway">${walk?WALK_ARM_BACK(o,'#eab896',42):''}
   <g class="breath">
    <path d="M98 270 C110 240 150 228 182 228 C216 228 252 240 264 270 L290 431 L72 431 Z" fill="${o.top}"/>
    <path d="M264 270 L290 431 L252 431 C256 370 260 318 264 270 Z" fill="${o.shade}" opacity="${o.shadeOp||1}"/>
@@ -542,24 +679,24 @@ function leaSVG(k){ const o=OUT_LEA[k]; return `<div class="name">Léa</div>
     ${o.hat||''}
    </g>
   </g>
-  <path class="armHold" d="M118 285 C98 330 96 385 122 410 C150 426 182 420 204 408" stroke="${o.arm}" stroke-width="42" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  ${walk?WALK_ARMS(o,'#eab896',42)+WALK_GEST(o,'#eab896',42,214):`<path class="armHold" d="M118 285 C98 330 96 385 122 410 C150 426 182 420 204 408" stroke="${o.arm}" stroke-width="42" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
   ${ARM_SIP(o.arm,42)}
   <path class="armRest" d="M256 285 C278 330 288 380 268 406" stroke="${o.arm2}" stroke-width="42" fill="none" stroke-linecap="round"/>
   <g class="cupGrp"><g class="cupTilt">${CUP('#d9774b')}
-  <ellipse cx="204" cy="400" rx="14" ry="17" fill="#f2c6a2"/></g></g><ellipse class="armRest" cx="266" cy="402" rx="13" ry="16" fill="#eab896"/>
+  <ellipse cx="204" cy="400" rx="14" ry="17" fill="#f2c6a2"/></g></g><ellipse class="armRest" cx="266" cy="402" rx="13" ry="16" fill="#eab896"/>`}
   ${ARM_UP(o.arm2,'#eab896',42)}
- </g>
+ </g>${walk?'</g></g>':''}
  ${emoSyms(150)}
  </g></svg>`;}
 
-function matSVG(k){ const o=OUT_MAT[k]; return `<div class="name">Mathieu</div>
- <svg viewBox="0 0 360 480"><g filter="url(#pencil)"><g transform="translate(360 0) scale(-1 1)"><g class="sway">
+function matSVG(k,walk){ const o=OUT_MAT[k]; return `<div class="name">Mathieu</div>
+ <svg viewBox="0 0 360 480"><g filter="url(#pencil)"><g${walk?'':' transform="translate(360 0) scale(-1 1)"'}>${walk?`<g class="walkBob"><g class="walkLean">${LEGS('mat',k)}`:''}<g class="sway">${walk?WALK_ARM_BACK(o,'#dca684',44):''}
   <g class="breath">
    <path d="M96 272 C108 240 150 228 182 228 C216 228 254 240 266 272 L292 431 L70 431 Z" fill="${o.top}"/>
    <path d="M266 272 L292 431 L254 431 C258 370 262 318 266 272 Z" fill="${o.shade}" opacity="${o.shadeOp||1}"/>
    <rect x="166" y="190" width="32" height="46" rx="12" fill="#d9a07c"/>
    ${o.detail}
-   <g class="head">
+   ${walk?'<g class="headTurn">':''}<g class="head">
     <path d="M140 112 C140 80 172 68 204 72 C238 76 250 106 248 142 C247 182 232 212 202 215 C170 218 148 198 144 170 C141 150 140 130 140 112 Z" fill="#e8b591"/>
     <path d="M150 185 C160 208 182 216 202 215 C226 213 240 196 246 172 C236 196 214 204 196 202 C176 200 160 194 150 185 Z" fill="#b98466" opacity=".35"/>
     <ellipse cx="143" cy="152" rx="10" ry="14" fill="#dca684"/>
@@ -572,15 +709,15 @@ function matSVG(k){ const o=OUT_MAT[k]; return `<div class="name">Mathieu</div>
     <path d="M241 150 C252 163 250 171 238 172" stroke="#c4886a" stroke-width="3.5" stroke-linecap="round" fill="none"/>
     <ellipse class="mouth" cx="214" cy="192" rx="9" ry="2.6" fill="#7a3328"/>
     ${faceFX('#2f2420')}
-   </g>
+   </g>${walk?'</g>':''}
   </g>
-  <path class="armHold" d="M116 287 C96 332 94 386 120 410 C148 426 182 420 204 408" stroke="${o.arm}" stroke-width="44" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  ${walk?WALK_ARMS(o,'#dca684',44)+WALK_GEST(o,'#dca684',44,214,176):`<path class="armHold" d="M116 287 C96 332 94 386 120 410 C148 426 182 420 204 408" stroke="${o.arm}" stroke-width="44" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
   ${ARM_SIP(o.arm,44)}
   <path class="armRest" d="M258 287 C280 332 290 380 268 406" stroke="${o.arm2}" stroke-width="44" fill="none" stroke-linecap="round"/>
   <g class="cupGrp"><g class="cupTilt">${CUP('#8fae8b')}
-  <ellipse cx="204" cy="400" rx="15" ry="18" fill="#e8b591"/></g></g><ellipse class="armRest" cx="266" cy="402" rx="14" ry="17" fill="#dca684"/>
+  <ellipse cx="204" cy="400" rx="15" ry="18" fill="#e8b591"/></g></g><ellipse class="armRest" cx="266" cy="402" rx="14" ry="17" fill="#dca684"/>`}
   ${ARM_UP(o.arm2,'#dca684',44)}
- </g></g>${emoSyms(282)}</g></svg>`;}
+ </g>${walk?'</g></g>':''}</g>${emoSyms(282)}</g></svg>`;}
 
 /* ============================================================
    BỐI CẢNH (1920×1080). Bàn luôn ở y=716–762 để tay + cốc khớp.
@@ -591,6 +728,37 @@ const books=(x0,x1,y,h)=>{let s='',x=x0;const C=['#c9784f','#e2c08a','#7f9f7b','
    if(Math.random()<.5)s+=`<rect x="${x+3}" y="${y-bh+10}" width="${w-6}" height="4" fill="#00000022"/>`;x+=w+2;} return s;};
 const TABLE=(c,edge)=>`<rect x="230" y="716" width="1460" height="46" rx="14" fill="${c}"/><rect x="230" y="748" width="1460" height="14" rx="7" fill="${edge}"/>`;
 const stars=(n,x0,x1,y0,y1)=>range(n,()=>`<circle class="star" cx="${rnd(x0,x1)}" cy="${rnd(y0,y1)}" r="${rnd(1.5,3.5)}" fill="#fff6d6"/>`);
+
+/* CẢNH ĐI DẠO — khung chung. Mỗi lớp là một "ô" vẽ một lần rồi lặp liền nhau; lớp trôi theo data-roll="bề rộng ô,tốc độ px/s"
+   (gần = WALK_SPEED để khớp bàn chân, càng xa càng chậm). Các lớp bọc trong #pfar/#pmid/#priver/#pnear/#pground để khi camera lia
+   mỗi lớp dịch theo hệ số riêng (parallax). Lớp river đứng yên khi đi (sông, biển, bãi cỏ…). Mặt đất từ y=700 trở xuống, chân ở y≈836.
+   top = lớp phủ không trôi (lá rơi .leaf, tuyết .snow). */
+const tileX=(w,g,from)=>range(Math.ceil((1920-from)/w)+2,i=>`<g transform="translate(${from+i*w} 0)">${g}</g>`);
+const WALK_SCENE=({defs='',sky,far='',farV=12,mid='',midV=40,river='',near='',nearW=640,ground='',groundW=240,groundFill='',top=''})=>`<svg class="bg" viewBox="0 0 1920 1080"><defs>${lampGrad}${defs}</defs>
+  ${sky}
+  <g id="pfar"><g id="wfar" data-roll="1920,${farV}">${tileX(1920,far,-1920)}</g></g>
+  <g id="pmid"><g id="wmid" data-roll="1920,${midV}">${tileX(1920,mid,-1920)}</g></g>
+  <g id="priver">${river}</g>
+  <g id="pnear"><g id="wnear" data-roll="${nearW},${WALK_SPEED}">${tileX(nearW,near,-2*nearW)}</g></g>
+  <g id="pground">${groundFill}<g id="wground" data-roll="${groundW},${WALK_SPEED}">${tileX(groundW,ground,-3*groundW)}</g></g>
+  ${top}</svg>`;
+/* chuyển động chung cho cảnh đi dạo trong demo (video: tools/build.mjs khối scene ambience làm y như vậy theo class) */
+function walkAmb(tl){
+  const Q=s=>document.querySelectorAll('#scene '+s);
+  Q('[data-roll]').forEach(el=>{ const [w,v]=el.dataset.roll.split(',').map(Number); tl.fromTo(el,{x:0},{x:-w,duration:w/v,ease:'none',repeat:rep(w/v)},0); });
+  Q('.ripple').forEach(r=>tl.fromTo(r,{scaleX:1,opacity:.6},{scaleX:rnd(1.3,1.8),opacity:.15,transformOrigin:'50% 50%',duration:rnd(1.2,2.2),yoyo:true,repeat:rep(1.2),ease:'sine.inOut'},rnd(0,2)));
+  Q('.star').forEach(s=>tl.to(s,{opacity:.2,duration:rnd(.6,1.4),yoyo:true,repeat:rep(.6)},rnd(0,2)));
+  Q('.glow').forEach(g=>tl.fromTo(g,{opacity:.6},{opacity:.4,duration:2.2,yoyo:true,repeat:rep(2.2),ease:'sine.inOut'},0));
+  Q('.bird').forEach((b,i)=>tl.fromTo(b,{x:0,y:0},{x:2300,y:-80,duration:16,ease:'none',repeat:rep(16)},i*.5));
+  Q('.leaf').forEach(l=>tl.fromTo(l,{y:-30,x:0,rotation:0},{y:rnd(650,800),x:rnd(-180,180),rotation:rnd(-400,400),duration:rnd(5,8),ease:'sine.inOut',repeat:rep(5)},rnd(0,6)));
+  Q('.snow').forEach(f=>tl.fromTo(f,{y:0,x:0},{y:rnd(380,420),x:rnd(-40,40),duration:rnd(4,7),ease:'none',repeat:rep(4)},rnd(0,4)));
+  Q('.wave').forEach(w=>tl.fromTo(w,{x:0,opacity:.9},{x:rnd(-30,-60),opacity:.3,duration:rnd(1.6,2.6),yoyo:true,repeat:rep(1.6),ease:'sine.inOut'},rnd(0,2)));
+  Q('.boat').forEach(b=>tl.fromTo(b,{rotation:-3,y:0},{rotation:3,y:-6,transformOrigin:'50% 100%',duration:1.8,yoyo:true,repeat:rep(1.8),ease:'sine.inOut'},0));
+  Q('.flag').forEach(f=>tl.fromTo(f,{rotation:-6},{rotation:6,transformOrigin:'50% 0%',duration:rnd(.9,1.4),yoyo:true,repeat:rep(.9),ease:'sine.inOut'},rnd(0,1)));
+}
+const gradV=(id,a,b)=>`<linearGradient id="${id}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${a}"/><stop offset="1" stop-color="${b}"/></linearGradient>`;
+const cobbles=(w,cols,y0=718,rows=7)=>{let g='';for(let r=0;r<rows;r++)for(let x=0;x<w;x+=60)g+=`<ellipse cx="${x+(r%2)*30+rnd(-4,4)}" cy="${y0+r*52+rnd(-3,3)}" rx="${rnd(24,28)}" ry="${rnd(13,17)+r*1.6}" fill="${pick(cols)}"/>`;return g;};
+const PARIS_LAMP=(x,c='#3f5a4c')=>`<circle class="glow" cx="${x}" cy="330" r="140" fill="url(#lg)" opacity=".55"/><rect x="${x-6}" y="330" width="12" height="370" fill="${c}"/><path d="M${x-26} 340 h52 l-8 -50 h-36Z" fill="${c}"/><path d="M${x-18} 334 h36 l-6 -38 h-24Z" fill="#ffe2a6"/><path d="M${x-30} 292 h60 l-30 -22Z" fill="${c}"/><path d="M${x-18} 700 h36 l-6 -26 h-24Z" fill="${c}"/>`;
 
 const SCENES={
  cafe:{label:'1. Café pluvieux', html:()=>`<svg class="bg" viewBox="0 0 1920 1080"><defs>${lampGrad}
@@ -1036,6 +1204,121 @@ const SCENES={
    if(h[1]) tl.fromTo(h[1],{rotation:0},{rotation:360,transformOrigin:'50% 100%',duration:60,ease:'none',repeat:rep(60)},0);
    tl.to('#scene .glow',{opacity:.35,duration:2,yoyo:true,repeat:rep(2),ease:'sine.inOut',stagger:.6},0);
   }},
+
+ promenade:{label:'16. Promenade sur les quais (đi dạo)', walk:true, html:()=>{
+   // mỗi lớp = một "ô" vẽ một lần rồi lặp liền nhau; anim dịch đúng một ô rồi lặp lại → trôi vô tận, seek được
+   const tile=(w,g,from)=>range(Math.ceil((1920-from)/w)+2,i=>`<g transform="translate(${from+i*w} 0)">${g}</g>`);
+   let far=`<g fill="#3f3658"><path d="M1407 140 h8 l14 160 l30 190 l32 120 h-40 c-10 -40 -20 -55 -40 -55 c-20 0 -30 15 -40 55 h-40 l32 -120 l30 -190Z" transform="translate(0 -150)"/></g>`;
+   for(let x=0;x<1920;){const w=rnd(60,140),h=rnd(30,80);far+=`<rect x="${x}" y="${470-h}" width="${w}" height="${h}" fill="#4b4470"/>`;x+=w;}
+   let mid='';
+   for(let x=0;x<1920;){const w=rnd(110,190),h=rnd(130,210);mid+=`<rect x="${x}" y="${470-h}" width="${w}" height="${h}" fill="#5a4d72"/><path d="M${x-6} ${470-h} h${w+12} l-14 -30 h${-w+28}Z" fill="#463c5c"/>`+range(Math.floor(w/40),j=>range(3,r=>`<rect x="${x+12+j*38}" y="${470-h+24+r*44}" width="16" height="22" fill="${Math.random()<.45?'#ffd98a':'#6b5d85'}"/>`));x+=w+4;}
+   mid+=`<g transform="translate(1200 0)"><path d="M0 548 h300 l-20 26 h-262Z" fill="#3f3658"/><rect x="40" y="520" width="140" height="30" rx="4" fill="#6b5d85"/>${range(5,i=>`<rect x="${54+i*24}" y="528" width="14" height="12" fill="#ffd98a"/>`)}<rect x="210" y="530" width="50" height="20" fill="#c8443a"/></g>`;
+   const near=`<rect x="0" y="600" width="640" height="104" fill="#b9a99a"/><rect x="0" y="590" width="640" height="16" fill="#d3c4b4"/>
+     ${range(5,i=>`<line x1="${i*128+20}" y1="606" x2="${i*128+20}" y2="704" stroke="#a39484" stroke-width="3"/>`)}<line x1="0" y1="654" x2="640" y2="654" stroke="#a39484" stroke-width="3"/>
+     <circle class="glow" cx="90" cy="330" r="150" fill="url(#lg)" opacity=".6"/><rect x="84" y="330" width="12" height="262" fill="#2f2a33"/><path d="M64 340 h52 l-8 -50 h-36Z" fill="#2f2a33"/><path d="M72 334 h36 l-6 -38 h-24Z" fill="#ffe2a6"/><path d="M60 292 h60 l-30 -22Z" fill="#2f2a33"/><path d="M76 592 h28 l-4 -20 h-20Z" fill="#2f2a33"/>
+     <path d="M300 590 v-46 h220 v46Z" fill="#3f6b5a"/><path d="M294 546 l14 -34 h204 l14 34Z" fill="#335a4b"/>${range(6,i=>`<rect x="${318+i*32}" y="556" width="18" height="26" fill="${['#c8443a','#f3c96b','#e9dcc3','#5d7fa0'][i%4]}"/>`)}`;
+   let gnd=''; for(let r=0;r<7;r++) for(let x=0;x<240;x+=60) gnd+=`<ellipse cx="${x+(r%2)*30+rnd(-4,4)}" cy="${720+r*52+rnd(-3,3)}" rx="${rnd(24,28)}" ry="${rnd(13,17)+r*1.6}" fill="${pick(['#9a8a80','#a3938a','#94857b'])}"/>`;
+   return `<svg class="bg" viewBox="0 0 1920 1080"><defs>${lampGrad}
+   <linearGradient id="ps" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2c2f5e"/><stop offset=".6" stop-color="#7d5f8f"/><stop offset="1" stop-color="#f0a77e"/></linearGradient>
+   <linearGradient id="pw" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4b4a7a"/><stop offset="1" stop-color="#2c2f52"/></linearGradient></defs>
+  <rect width="1920" height="1080" fill="url(#ps)"/>
+  ${stars(30,0,1920,30,250)}<circle cx="1620" cy="140" r="44" fill="#f6edc9"/><circle cx="1606" cy="130" r="8" fill="#e6dab0"/>
+  <g id="pfar"><g id="wfar" data-roll="1920,12">${tile(1920,far,-1920)}</g></g>
+  <g id="pmid"><g id="wmid" data-roll="1920,40">${tile(1920,mid,-1920)}</g></g>
+  <g id="priver"><rect x="-800" y="470" width="3520" height="130" fill="url(#pw)"/>
+  ${range(36,()=>`<rect class="ripple" x="${rnd(-500,2400)}" y="${rnd(480,590)}" width="${rnd(30,90)}" height="4" rx="2" fill="${pick(['#ffd98a','#f0a77e','#c9b6e0'])}" opacity=".6"/>`)}</g>
+  <g id="pnear"><g id="wnear" data-roll="640,${WALK_SPEED}">${tile(640,near,-1280)}</g></g>
+  <g id="pground"><rect x="-800" y="704" width="3520" height="376" fill="#8a7a70"/><rect x="-800" y="700" width="3520" height="10" fill="#6f625a"/>
+  <g id="wground" data-roll="240,${WALK_SPEED}">${tile(240,gnd,-720)}</g></g></svg>`;},
+  anim(tl){
+   document.querySelectorAll('#scene [data-roll]').forEach(el=>{ const [w,v]=el.dataset.roll.split(',').map(Number); tl.fromTo(el,{x:0},{x:-w,duration:w/v,ease:'none',repeat:rep(w/v)},0); });
+   document.querySelectorAll('#scene .ripple').forEach(r=>tl.fromTo(r,{scaleX:1,opacity:.6},{scaleX:rnd(1.3,1.8),opacity:.15,transformOrigin:'50% 50%',duration:rnd(1.2,2.2),yoyo:true,repeat:rep(1.2),ease:'sine.inOut'},rnd(0,2)));
+   document.querySelectorAll('#scene .star').forEach(s=>tl.to(s,{opacity:.2,duration:rnd(.6,1.4),yoyo:true,repeat:rep(.6)},rnd(0,2)));
+  }},
+
+ ruelle:{label:'17. Ruelle de Montmartre (đi dạo)', walk:true, html:()=>{
+   let mid='';
+   for(let x=0;x<1920;){const w=rnd(160,240),h=rnd(280,380),c=pick(['#efe1c4','#e9cfa6','#f2e6d0','#e3c5a0','#ead7b8']),y=640-h,sh=pick(['#6f9fb8','#8fae8b','#c8443a','#5d7fa0']);
+     mid+=`<rect x="${x}" y="${y}" width="${w}" height="${h}" fill="${c}"/><path d="M${x-6} ${y} h${w+12} l-16 -40 h${-w+20}Z" fill="#8a97a8"/><rect x="${x+w*.3}" y="${y-58}" width="18" height="26" fill="#c2674a"/>`+
+       range(Math.floor((w-20)/58),j=>range(h>330?3:2,r=>`<rect x="${x+20+j*58}" y="${y+26+r*84}" width="26" height="44" fill="#9db7c4"/><rect x="${x+12+j*58}" y="${y+26+r*84}" width="8" height="44" fill="${sh}"/><rect x="${x+46+j*58}" y="${y+26+r*84}" width="8" height="44" fill="${sh}"/><rect x="${x+16+j*58}" y="${y+70+r*84}" width="34" height="6" fill="#3a2e28"/>`))+
+       (rnd(0,1)<.6?`<rect x="${x+14}" y="566" width="${w-28}" height="74" fill="${pick(['#3f6b5a','#8a3a2c','#2f3a52','#a8724e'])}"/><rect x="${x+26}" y="578" width="${w-52}" height="50" fill="#f6e3b8" opacity=".8"/><path d="M${x+8} 548 h${w-16} v18 h${-(w-16)}Z" fill="${pick(['#c8443a','#3f6b5a','#f3c96b'])}"/>${range(Math.floor((w-16)/24),k=>`<path d="M${x+8+k*24} 566 q12 14 24 0" fill="${k%2?'#fffaf0':'#c8443a'}"/>`)}`:`${range(3,k=>`<circle cx="${x+30+k*40}" cy="${y+64}" r="7" fill="#d9574a"/>`)}`);x+=w+6;}
+   const near=`${PARIS_LAMP(110)}
+     <ellipse cx="430" cy="664" rx="44" ry="10" fill="#4a3a30"/><rect x="426" y="664" width="8" height="34" fill="#4a3a30"/><ellipse cx="430" cy="700" rx="22" ry="5" fill="#4a3a30"/>
+     ${[370,490].map((x,i)=>`<path d="M${x} 640 v${-30} M${x+(i?-24:24)} 676 v24 M${x} 676 v24 M${x} 676 h${i?-24:24}" stroke="#7a4a32" stroke-width="6" fill="none" stroke-linecap="round"/><path d="M${x-4} 610 h8 v66 h-8Z" fill="#a8724e"/>`).join('')}
+     <path d="M600 700 h60 l-8 -48 h-44Z" fill="#c9825c"/><ellipse cx="630" cy="636" rx="34" ry="30" fill="#6f9763"/>${range(5,k=>`<circle cx="${612+k*9}" cy="${628+(k%2)*10}" r="5" fill="#d9574a"/>`)}`;
+   return WALK_SCENE({defs:gradV('rsk','#a9d6ea','#f6ecd6'),
+     sky:`<rect width="1920" height="1080" fill="url(#rsk)"/><circle cx="1650" cy="140" r="50" fill="#fbe3a1"/>${range(3,i=>`<path class="bird" d="M${-80-i*90} ${170+i*30} q14 -12 28 0 q14 -12 28 0" stroke="#3a2e28" stroke-width="4" fill="none" stroke-linecap="round"/>`)}`,
+     far:`<path d="M0 470 C300 400 600 380 900 400 C1200 320 1500 330 1920 420 V600 H0Z" fill="#cfd8c0"/><rect x="1180" y="296" width="150" height="70" fill="#f1ebde"/><path d="M1208 300 C1208 228 1302 228 1302 300Z" fill="#f4efe4"/><rect x="1250" y="210" width="10" height="26" fill="#f4efe4"/><path d="M1180 310 C1180 278 1214 278 1214 310Z M1296 310 C1296 278 1330 278 1330 310Z" fill="#ece5d6"/><rect x="0" y="430" width="1920" height="50" fill="#b9b4a6" opacity=".6"/>`,
+     mid, river:`<rect x="-800" y="636" width="3520" height="70" fill="#9b8f84"/><rect x="-800" y="632" width="3520" height="8" fill="#b5aa9e"/>`,
+     near, nearW:700, ground:cobbles(240,['#c8b49c','#ad9a84','#bca890']), groundFill:`<rect x="-800" y="700" width="3520" height="380" fill="#a8957f"/><rect x="-800" y="696" width="3520" height="10" fill="#8c7b68"/>`});},
+  anim(tl){ walkAmb(tl); }},
+
+ automne:{label:"18. Sentier d'automne (đi dạo)", walk:true, html:()=>{
+   let mid='';
+   for(let x=0;x<1920;){const r=rnd(70,110),c=pick(['#d9822b','#e8b33c','#c9502e','#b8862f','#e09a3c']);
+     mid+=`<rect x="${x+r-10}" y="${520}" width="20" height="140" fill="#6e4a33"/>${range(5,k=>`<circle cx="${x+r+rnd(-r*.7,r*.7)}" cy="${470+rnd(-r*.6,r*.3)}" r="${r*rnd(.5,.75)}" fill="${c}"/>`)}`;x+=r*1.6+rnd(10,50);}
+   mid+=range(10,()=>`<ellipse cx="${rnd(0,1920)}" cy="${rnd(630,660)}" rx="${rnd(40,80)}" ry="${rnd(16,26)}" fill="${pick(['#a3893f','#b8862f','#8f8a45'])}"/>`);
+   const near=`<path d="M70 700 C80 560 76 380 92 160 C96 100 100 40 98 0 H170 C168 60 172 120 176 180 C186 380 184 560 196 700Z" fill="#5a3a28"/><path d="M112 300 C126 360 120 460 130 560" stroke="#47301f" stroke-width="6" fill="none"/>
+     <path d="M176 260 C230 230 270 200 300 150" stroke="#5a3a28" stroke-width="18" fill="none" stroke-linecap="round"/>${range(9,k=>`<circle cx="${190+rnd(0,200)}" cy="${rnd(40,200)}" r="${rnd(40,70)}" fill="${pick(['#d9822b','#c9502e','#e8b33c'])}"/>`)}
+     ${range(7,k=>`<ellipse cx="${360+k*22}" cy="${680-rnd(0,24)}" rx="${rnd(20,32)}" ry="${rnd(16,28)}" fill="${pick(['#7f8f4a','#8f8a45','#a3893f'])}"/>`)}`;
+   const gnd=range(14,()=>{const x=rnd(0,240),y=rnd(712,1070);return `<ellipse cx="${x}" cy="${y}" rx="${rnd(7,11)}" ry="${rnd(4,6)}" fill="${pick(['#d9822b','#c9502e','#e8b33c','#8a5a3c'])}" transform="rotate(${rnd(-60,60)} ${x} ${y})" opacity=".85"/>`;});
+   return WALK_SCENE({defs:gradV('ask2','#f2d3a0','#fbeedd'),
+     sky:`<rect width="1920" height="1080" fill="url(#ask2)"/><circle cx="420" cy="230" r="70" fill="#fbe3a1" opacity=".9"/>`,
+     far:`<path d="M0 480 C320 400 640 430 960 410 C1280 390 1600 430 1920 400 V600 H0Z" fill="#c7b49a"/>${range(40,i=>`<circle cx="${i*50+rnd(-10,10)}" cy="${470+rnd(-20,10)}" r="${rnd(30,50)}" fill="${pick(['#d8a868','#c9955a','#b9a060'])}"/>`)}`,
+     mid, midV:55, river:`<rect x="-800" y="640" width="3520" height="66" fill="#9a944f"/>`,
+     near, nearW:560, ground:gnd, groundFill:`<rect x="-800" y="700" width="3520" height="380" fill="#b48a5a"/><rect x="-800" y="696" width="3520" height="12" fill="#8f8a45"/>`,
+     top:range(16,()=>`<ellipse class="leaf" cx="${rnd(0,1900)}" cy="0" rx="9" ry="5" fill="${pick(['#d99a4a','#c97a3c','#e2b65b','#c9502e'])}"/>`)});},
+  anim(tl){ walkAmb(tl); }},
+
+ corniche:{label:'19. Promenade au bord de la mer (đi dạo)', walk:true, html:()=>{
+   let mid='';
+   for(let x=60;x<1920;x+=rnd(260,360)){const lean=rnd(-30,30),h=rnd(220,280);
+     mid+=`<path d="M${x} 640 C${x+lean*.3} ${640-h*.5} ${x+lean*.8} ${640-h*.8} ${x+lean} ${640-h}" stroke="#8a6a4c" stroke-width="16" fill="none" stroke-linecap="round"/>`+
+       range(7,k=>{const a=-160+k*24,tx=x+lean,ty=640-h,ex=tx+Math.cos(a*Math.PI/180)*110,ey=ty+Math.sin(a*Math.PI/180)*60+40;return `<path d="M${tx} ${ty} Q${(tx+ex)/2} ${ty-40} ${ex} ${ey}" stroke="#4f8a52" stroke-width="16" fill="none" stroke-linecap="round"/>`;});}
+   const near=`<rect x="0" y="600" width="600" height="14" rx="4" fill="#f4f1ea"/>${range(20,k=>`<path d="M${10+k*30} 614 c-8 20 8 30 0 50 c8 10 -8 18 0 26" stroke="#f4f1ea" stroke-width="12" fill="none"/>`)}<rect x="0" y="690" width="600" height="14" fill="#e3ddd0"/>
+     <rect x="74" y="300" width="10" height="300" fill="#f4f1ea"/><path d="M60 300 h38 l-6 -36 h-26Z" fill="#f4f1ea"/><path d="M66 296 h26 l-4 -26 h-18Z" fill="#ffe9b8"/>
+     <g transform="translate(360 0)"><path d="M0 640 h70 l-6 14 h-58Z" fill="#3f7fc0"/><path d="M8 640 l-10 -60 h14 l8 60Z" fill="#3f7fc0"/><path d="M6 654 l-6 46 M60 654 l6 46" stroke="#2f5f9e" stroke-width="6"/></g>`;
+   return WALK_SCENE({defs:gradV('csk','#8fcbe8','#eaf5f6')+gradV('csea','#3f8fbf','#78c2d6'),
+     sky:`<rect width="1920" height="1080" fill="url(#csk)"/><circle cx="1500" cy="140" r="54" fill="#fff2c4"/>${range(4,i=>`<path class="bird" d="M${-80-i*110} ${190+(i%2)*40} q12 -11 24 0 q12 -11 24 0" stroke="#3a2e28" stroke-width="3.5" fill="none" stroke-linecap="round"/>`)}`,
+     far:`<path d="M0 470 C160 420 340 420 520 470Z" fill="#9db8a8"/><path d="M1400 470 C1550 430 1750 420 1920 450 V470Z" fill="#a9bfb3"/>${range(4,()=>{const x=rnd(600,1350),y=rnd(440,462);return `<path d="M${x} ${y} l14 -26 v26Z" fill="#fffaf0"/><path d="M${x-8} ${y} h28 l-4 6 h-20Z" fill="#c8443a"/>`;})}`,
+     river:`<rect x="-800" y="470" width="3520" height="170" fill="url(#csea)"/>${range(30,()=>`<path class="wave" d="M${rnd(-500,2400)} ${rnd(485,590)} q16 -7 32 0 q16 7 32 0" stroke="#e8f6fb" stroke-width="4" fill="none" stroke-linecap="round"/>`)}<rect x="-800" y="596" width="3520" height="44" fill="#e6d7b8"/><path d="M-800 598 ${range(42,()=>'q40 12 80 0')}" stroke="#fbf6ec" stroke-width="6" fill="none"/>`,
+     mid, midV:60, near, nearW:600, ground:`${range(4,k=>`<line x1="${k*60}" y1="704" x2="${k*60-30}" y2="1080" stroke="#d7cdbb" stroke-width="3"/>`)}<line x1="0" y1="790" x2="240" y2="790" stroke="#d7cdbb" stroke-width="3"/><line x1="0" y1="900" x2="240" y2="900" stroke="#d7cdbb" stroke-width="3"/>`,
+     groundFill:`<rect x="-800" y="700" width="3520" height="380" fill="#e8dfcf"/><rect x="-800" y="700" width="3520" height="8" fill="#cfc4b0"/>`});},
+  anim(tl){ walkAmb(tl); }},
+
+ village:{label:'20. Village sous la neige (đi dạo)', walk:true, html:()=>{
+   let mid='';
+   for(let x=0;x<1920;){const w=rnd(170,230),h=rnd(110,150),y=650-h;
+     mid+=`<rect x="${x}" y="${y}" width="${w}" height="${h}" fill="${pick(['#8a5a3c','#9a6a48','#7a4e36'])}"/>${range(Math.floor(h/18),k=>`<line x1="${x}" y1="${y+k*18}" x2="${x+w}" y2="${y+k*18}" stroke="#00000022" stroke-width="2"/>`)}
+       <path d="M${x-22} ${y+6} L${x+w/2} ${y-76} L${x+w+22} ${y+6}Z" fill="#5e3a28"/><path d="M${x-26} ${y+4} L${x+w/2} ${y-82} L${x+w+26} ${y+4} L${x+w+16} ${y+12} L${x+w/2} ${y-66} L${x-16} ${y+12}Z" fill="#f4f7fb"/>
+       ${range(Math.floor(w/70),j=>`<rect x="${x+26+j*70}" y="${y+34}" width="34" height="40" fill="#ffd98a"/><path d="M${x+43+j*70} ${y+34} v40 M${x+26+j*70} ${y+54} h34" stroke="#7a4e36" stroke-width="3"/>`)}
+       <path d="M${x+w+30} 650 l26 -70 l26 70Z M${x+w+36} 620 l20 -50 l20 50Z" fill="#3f5a4a"/><path d="M${x+w+44} 590 l12 -22 l12 22Z" fill="#f4f7fb"/>`;x+=w+rnd(90,140);}
+   const near=`${PARIS_LAMP(120,'#2f2a33')}<ellipse cx="120" cy="268" rx="32" ry="8" fill="#f4f7fb"/>
+     ${[[420,1],[520,.8]].map(([x,k])=>`<path d="M${x-60*k} 700 L${x} ${700-230*k} L${x+60*k} 700Z" fill="#2f4a3e"/><path d="M${x-44*k} ${700-80*k} L${x} ${700-230*k} L${x+44*k} ${700-80*k} Q${x} ${700-110*k} ${x-44*k} ${700-80*k}Z" fill="#f4f7fb" opacity=".9"/><rect x="${x-8}" y="${690}" width="16" height="12" fill="#5a3a28"/>`).join('')}`;
+   return WALK_SCENE({defs:gradV('vsk','#27305a','#8a7fae'),
+     sky:`<rect width="1920" height="1080" fill="url(#vsk)"/>${stars(40,0,1920,30,300)}<circle cx="1500" cy="150" r="44" fill="#f6edc9"/><circle cx="1486" cy="140" r="8" fill="#e6dab0"/>`,
+     far:`<path d="M0 480 L250 270 L420 380 L640 230 L900 420 L1150 260 L1400 400 L1650 250 L1920 430 V560 H0Z" fill="#cfd8ea"/><path d="M250 270 L300 330 L260 330 L320 400 L180 330Z M640 230 L700 300 L650 300 L720 380 L560 300Z M1150 260 L1210 330 L1160 330 L1230 400 L1080 330Z M1650 250 L1710 320 L1660 320 L1730 400 L1580 320Z" fill="#aebbd6"/>`,
+     mid, river:`<rect x="-800" y="640" width="3520" height="66" fill="#dfe6f2"/>`,
+     near, ground:range(4,k=>`<ellipse cx="${k*60+20}" cy="${760+(k%2)*120}" rx="10" ry="5" fill="#d3dbe8"/><ellipse cx="${k*60+44}" cy="${780+(k%2)*120}" rx="10" ry="5" fill="#d3dbe8"/>`)+`<path d="M0 960 h240" stroke="#d9e1ee" stroke-width="10"/>`,
+     groundFill:`<rect x="-800" y="700" width="3520" height="380" fill="#eef2f8"/><rect x="-800" y="698" width="3520" height="10" fill="#c9d3e3"/>`,
+     top:range(60,()=>`<circle class="snow" cx="${rnd(0,1920)}" cy="${rnd(-20,680)}" r="${rnd(2,5)}" fill="#fff" opacity=".85"/>`)});},
+  anim(tl){ walkAmb(tl); }},
+
+ jardin:{label:'21. Jardin à la française (đi dạo)', walk:true, html:()=>{
+   let mid='';
+   for(let x=40;x<1920;x+=240){ mid+=`<rect x="${x+56}" y="520" width="14" height="130" fill="#6e4a33"/><rect x="${x}" y="400" width="126" height="130" rx="20" fill="#6f9763"/><rect x="${x+8}" y="410" width="110" height="40" rx="14" fill="#7fa673"/>`;
+     if(x%480<240) mid+=`<rect x="${x+170}" y="580" width="40" height="70" fill="#e9e3d6"/><path d="M${x+178} 580 c0 -40 4 -66 12 -78 c10 -2 14 8 12 20 c6 18 4 40 0 58Z" fill="#f4f1ea"/><circle cx="${x+192}" cy="496" r="10" fill="#f4f1ea"/>`;}
+   mid+=`<ellipse cx="960" cy="640" rx="300" ry="34" fill="#dcd2bc"/><ellipse cx="960" cy="640" rx="280" ry="26" fill="#7fb7cf"/>${range(3,k=>`<g class="boat"><path d="M${860+k*90} 640 h36 l-6 8 h-24Z" fill="#c8443a"/><path d="M${876+k*90} 638 v-30 l16 26Z" fill="#fffaf0"/></g>`)}`;
+   mid+=range(16,k=>`<circle cx="${rnd(0,1920)}" cy="${rnd(652,664)}" r="${rnd(6,10)}" fill="${pick(['#d9574a','#f3c96b','#e8707e','#fbf6ec'])}"/>`);
+   const near=`<rect x="40" y="610" width="80" height="90" fill="#f4f1ea" stroke="#4f7a52" stroke-width="6"/><rect x="74" y="540" width="12" height="70" fill="#6e4a33"/><circle cx="80" cy="520" r="54" fill="#5f8f5a"/>${range(7,k=>`<circle cx="${50+rnd(0,60)}" cy="${490+rnd(0,60)}" r="7" fill="#e89a3c"/>`)}
+     ${[300,372].map((x,i)=>`<g transform="translate(${x} 0)${i?' scale(-1 1) translate(-60 0)':''}"><path d="M0 646 h52 l-4 10 h-44Z" fill="#4f7a52"/><path d="M6 646 c-4 -30 -6 -46 -2 -64 h10 c-2 18 0 34 4 64Z" fill="#4f7a52"/><path d="M6 656 l-6 44 M48 656 l6 44" stroke="#3f6644" stroke-width="5"/></g>`).join('')}`;
+   return WALK_SCENE({defs:gradV('jsk','#bfe3f0','#f5f0de'),
+     sky:`<rect width="1920" height="1080" fill="url(#jsk)"/><circle cx="300" cy="150" r="50" fill="#fbe3a1"/>${range(3,i=>`<path class="bird" d="M${-80-i*90} ${170+i*30} q14 -12 28 0 q14 -12 28 0" stroke="#3a2e28" stroke-width="4" fill="none" stroke-linecap="round"/>`)}`,
+     far:`${range(30,i=>`<circle cx="${i*66}" cy="${470+rnd(-12,8)}" r="${rnd(40,56)}" fill="#7f9f7b"/>`)}<rect x="600" y="340" width="720" height="130" fill="#e2d6be"/><rect x="880" y="290" width="160" height="180" fill="#e8ddc6"/><path d="M900 290 C900 236 1020 236 1020 290Z" fill="#9aa3ad"/><rect x="954" y="214" width="12" height="28" fill="#9aa3ad"/><rect x="590" y="330" width="740" height="12" fill="#9aa3ad"/>${range(16,k=>`<rect x="${620+k*44}" y="370" width="20" height="34" fill="#b9b09c"/><rect x="${620+k*44}" y="420" width="20" height="34" fill="#b9b09c"/>`)}`,
+     mid, river:`<rect x="-800" y="650" width="3520" height="56" fill="#8fb77a"/>`,
+     near, ground:range(30,()=>`<circle cx="${rnd(0,240)}" cy="${rnd(710,1070)}" r="${rnd(1.5,3)}" fill="#cdbf9f"/>`),
+     groundFill:`<rect x="-800" y="700" width="3520" height="380" fill="#e3d6b8"/><rect x="-800" y="698" width="3520" height="8" fill="#6f9763"/>`});},
+  anim(tl){ walkAmb(tl); }},
 };
 
 /* ============================================================
@@ -1044,15 +1327,27 @@ const SCENES={
 let tl=null, playing=true, last=performance.now(), T=0;
 function build(cfg){
   if(tl) tl.kill();
+  const W=!!SCENES[cfg.scene].walk;
+  $('#stage').classList.toggle('walk',W);
   $('#scene').innerHTML=SCENES[cfg.scene].html();
-  $('#lea').innerHTML=leaSVG(cfg.lea);
-  $('#mat').innerHTML=matSVG(cfg.mat);
-  gsap.set(['#card','#subBox','#recap'],{clearProps:'all'});
+  $('#lea').innerHTML=leaSVG(cfg.lea,W);
+  $('#mat').innerHTML=matSVG(cfg.mat,W);
+  gsap.set(['#card','#subBox','#recap','#pair'],{clearProps:'all'});
   gsap.set('.char .eye',{transformOrigin:'50% 50%'});gsap.set('.char .mouth',{transformOrigin:'50% 0%'});gsap.set('.char .head',{transformOrigin:'50% 95%'});
   $('#subFr').innerHTML='';$('#subEn').textContent='';$('#cnum').textContent='0';
 
   tl=gsap.timeline({paused:true});
   SCENES[cfg.scene].anim(tl);
+  if(W){
+    ['#lea','#mat'].forEach((c,i)=>{ walkSetup(tl,c); walkTL(tl,c,i*.21,TOTAL+1);
+      tl.set(c+' .gest',{svgOrigin:'257 286'},0); Object.keys(GEST_ELBOW).forEach(k=>tl.set(c+' .g-'+k+' .fore',{svgOrigin:GEST_ELBOW[k].join(' ')},0)); });
+    const K=WALK_GEST_KEYS.filter(k=>k!=='poche');
+    LINES.forEach((L,li)=>{ const c='#'+L.who, o=L.who==='lea'?'#mat':'#lea', d=Math.max(1.4,L.end-L.start);
+      let p=K[(li*3)%K.length]; if(L.who==='mat'&&(p==='rire'||p==='menton')) p+='T';
+      gestTL(tl,c,{p,t:L.start+.1,d,b:L.toks.map(k=>k.s)});
+      if(li%2) gestTL(tl,o,{p:'poche',t:L.start+.2,d:Math.max(1.2,d-.3),b:[]});
+      if(L.who==='mat') walkLookTL(tl,'#mat',L.start,L.end); });
+  }
   ['#lea','#mat'].forEach((c,i)=>{
     tl.to(c+' .breath',{y:-3,duration:1.6,yoyo:true,repeat:rep(1.6),ease:'sine.inOut'},i*0.5);
     for(let b=1.5+i;b<TOTAL;b+=3.3+i*0.7) tl.to(c+' .eye',{scaleY:0.1,duration:0.07,yoyo:true,repeat:1},b);
@@ -1073,9 +1368,14 @@ function build(cfg){
       if(k.v){
         const V=VOCAB[k.t], idx=Object.keys(VOCAB).indexOf(k.t);
         tl.call(()=>fillCard(V,idx+1),null,k.s-0.01);
+        if(W){ const dir=idx%2?1:-1, t1=L.end+GAP+0.9;
+          walkPanTL(tl,'#pair',k.s-0.1,t1,dir); walkCardTL(tl,'#card',k.s-0.1,t1,dir);
+          tl.fromTo('#card .ex',{opacity:0,y:10},{opacity:1,y:0,duration:0.4,immediateRender:false},k.s+0.8);
+        } else {
         tl.fromTo('#card',{y:-80,opacity:0,rotation:3},{y:0,opacity:1,rotation:-1.5,duration:0.5,ease:'back.out(1.7)',immediateRender:false},k.s+0.05);
         tl.fromTo('#card .ex',{opacity:0,y:10},{opacity:1,y:0,duration:0.4,immediateRender:false},k.s+0.6);
         tl.to('#card',{y:-60,opacity:0,duration:0.35,ease:'power2.in'},L.end+GAP+0.9);
+        }
       }
     });
     tl.to(ch+' .name',{opacity:0,duration:0.25},L.end+0.4);
@@ -1115,7 +1415,8 @@ fillSel('#selIll',Object.fromEntries(Object.entries(ILLUS).map(([k,v])=>[k,{labe
 let illTl=null;
 function tryIll(side){ if(illTl) illTl.progress(1).kill(); const k=$('#selIll').value; $('#bubble').innerHTML=bubbleSVG(k,ILLUS[k].fr,side); illTl=gsap.timeline(); bubbleTL(illTl,'#bubble',k,side,0,3.8); }
 $('#illLea').onclick=()=>tryIll('lea'); $('#illMat').onclick=()=>tryIll('mat');
-const GEST_LABEL={beat:'beat · gõ nhịp',palm:'palm · ngửa tay',up:'up · giơ tay',point:'point · chỉ',think:'think · chống cằm',wave:'wave · vẫy chào',shrug:'shrug · nhún vai',count:'count · đếm ngón',scratch:'scratch · gãi đầu',nod:'nod · gật đầu'};
+const GEST_LABEL={beat:'beat · gõ nhịp',palm:'palm · ngửa tay',up:'up · giơ tay',point:'point · chỉ',think:'think · chống cằm',wave:'wave · vẫy chào',shrug:'shrug · nhún vai',count:'count · đếm ngón',scratch:'scratch · gãi đầu',nod:'nod · gật đầu',
+  explain:'(đi) explain · giải thích',regarde:'(đi) regarde · chỉ phía trước',coeur:'(đi) coeur · tay lên ngực',pouce:'(đi) pouce · ngón cái',bof:'(đi) bof · lắc tay',pince:'(đi) pince · chụm ngón',rire:'(đi) rire · che miệng cười',menton:'(đi) menton · vuốt cằm',poche:'(đi) poche · đút túi',grand:'(đi) grand · dang tay'};
 fillSel('#selGest',Object.fromEntries(Object.entries(GEST_LABEL).map(([k,v])=>[k,{label:v}])),'wave');
 let gTl=null;
 function tryGest(c){ if(gTl) gTl.progress(1).kill(); gTl=gsap.timeline(); const p=$('#selGest').value;

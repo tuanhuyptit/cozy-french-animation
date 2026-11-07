@@ -4,7 +4,7 @@
 //   node tools/new-episode.mjs <voice.mp3> [--name cozy-ep07] [--start s] [--duration s] [--threshold hz] [--no-transcribe]
 //
 // Copies the template files from cozy-ep01 (tools, HyperFrames config, agent notes) into a fresh folder,
-// then runs <folder>/tools/transcribe.mjs on the voice. Prints the scenes/outfits used by earlier
+// picks a random staging/scene/outfits (tools/pick-setup.mjs → work/setup.json), then runs <folder>/tools/transcribe.mjs on the voice. Prints the scenes/outfits used by earlier
 // episodes so the next one can pick something different.
 import fs from 'node:fs';
 import path from 'node:path';
@@ -40,6 +40,10 @@ for (const d of eps) {
   try { const e = JSON.parse(fs.readFileSync(path.join(REPO, d, 'episode.json'), 'utf8')); console.log(`  ${d}: scene=${e.scene} lea=${e.lea} mat=${e.mat} vocab=${e.vocab.map(v => v.word).join(', ')}`); }
   catch { console.log(`  ${d}: (no episode.json)`); }
 }
+
+// random staging / scene / outfits for this episode (no clash, no repeat of the last episodes) → work/setup.json
+console.log('');
+execFileSync(process.execPath, [path.join(REPO, 'tools/pick-setup.mjs'), name, '--write'], { stdio: 'inherit' });
 
 if (!flag('no-transcribe')) {
   const pass = ['start', 'duration', 'threshold', 'model'].flatMap(k => opt(k) !== undefined ? ['--' + k, opt(k)] : []);

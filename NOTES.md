@@ -57,6 +57,14 @@ Tự động: skill `skills/cozy-french-episode` (người dùng chỉ gửi voi
 - Bảng giải thích có 3 nền (`liege` gỗ, `craie` bảng phấn rơi xuống + bộ lọc `#chalk`, `carnet` sổ tay trượt lên) và 5 kiểu mới (`compare`, `steps`, `conjug`, `mindmap`, `quiz`). Màu theo nền dùng biến CSS (`--paper`, `--ink`, `--acc`…) trên `.bseg.th-<nền>`.
 - Các tập cũ build lại vẫn chạy (mặc định nền `liege`), nhưng cử chỉ ngẫu nhiên sẽ khác lần trước vì có thêm hành động tự động.
 
+## Chế độ đi dạo (2026-11-07)
+- Hai chế độ: **ngồi** (bàn) và **đi dạo** (cảnh có `walk:true`, hiện có `promenade`). Chế độ do bối cảnh quyết định. Một bộ build chung; phần riêng mỗi chế độ ở `cozy-ep01/tools/staging.mjs`.
+- Đi dạo: nhân vật đứng giữa khung (Léa sau-trái nhưng vẽ lớp trên, Mathieu trước-phải), chân bước + gập gối + tay đánh + nhún (kiểu 3/4: sải ngắn ±10°, nhấc gối khi vung chân, người ngả trước 2°; `WALK_P` 0,6 s/bước), nền trôi nhiều lớp (`data-roll="ô,tốc độ"`, mặt đất `WALK_SPEED` 112 px/s khớp bàn chân). Mathieu nhìn đường, quay đầu kiểu "flip" (co 88 % → đổi hướng 1 khung → nảy) khi mình nói. Có thẻ từ / bong bóng → camera lia 380 px (parallax theo lớp: xa .15, giữa .4, sông .6, gần 1), thẻ rơi xuống phía kia; các mục cách nhau < 2,5 s dùng chung một lần lia.
+- Không uống cà phê, không lắc lư; 10 cử chỉ tay riêng khi đi; người nghe thỉnh thoảng đút tay túi (`poche`).
+- Mỗi tập bốc ngẫu nhiên chế độ/bối cảnh/trang phục bằng `tools/pick-setup.mjs` lúc tạo tập (seed theo tên tập → build lại vẫn y hệt). Luật tránh trùng tông nằm trong script.
+- 6 cảnh đi dạo: `promenade`, `ruelle`, `automne`, `corniche`, `village`, `jardin`. Cảnh mới dùng khung `WALK_SCENE({sky, far, mid, river, near, ground, groundFill, top})` trong demo (lớp `river` đứng yên, `top` = lá/tuyết rơi) + `walkAmb(tl)`.
+- Tay khi đi: tay sau nằm sau thân (tối hơn), tay trước vung ±26°; hai người cách nhau 320 px để tay vung không chạm nhau.
+
 ## Trạng thái (2026-11-06)
 - 2026-11-06: thêm 4 bối cảnh (chalet, boulangerie, train, quai), `new-episode.mjs`, `assemble.mjs`, skill `cozy-french-episode`; build cảnh báo khi 2 từ vựng < 3 s. Sau đó: model turbo, `vocab-help.mjs` (IPA + cấp độ CEFR), biểu cảm (8) + bong bóng minh hoạ (24).
 - Xong: demo trình duyệt (10 bối cảnh, 10 trang phục), video thử 34 s đầu của voice `4f.mp3` (`cozy-ep01-test-30s.mp4`), script transcribe + build.
