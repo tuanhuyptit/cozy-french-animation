@@ -70,6 +70,11 @@ Tự động: skill `skills/cozy-french-episode` (người dùng chỉ gửi voi
 - Khi ngồi luôn cầm cốc cà phê; người nghe nhấp cà phê bằng `sipTL` (khối SIP-RUNTIME trong demo, build chép nguyên văn). Đã thử đạo cụ khác (micro podcast + tai nghe, sổ tay, ly vang) và cảnh studio / nhà ga — chủ kênh bỏ hết.
 - `assemble.mjs` chép cả trường `act` của đoạn phụ đề sang `episode.json`.
 
+## Thêm cảnh, trang phục, bảng (2026-11-07 tối)
+- 21 cảnh ngồi (+ `toits` mái nhà Paris ban đêm, tháp Eiffel lấp lánh · `cinema` ciné-club rétro, màn chiếu chữ cổ + bỏng ngô · `fleuriste` tiệm hoa, xô hoa + bảng phấn). Chỉ dùng class chuyển động có sẵn (`.star .glow .bulbg .mote .curtain`, `#leaves`).
+- 13 trang phục mỗi người: Léa + `rose` (blouse hồng cổ Claudine) · `tartan` (váy yếm kẻ ô xanh, hoa văn `#tartan`) · `torsade` (len vặn thừng xanh nhạt); Mathieu + `raye` (sơ mi sọc, hoa văn `#raye`) · `chale` (cardigan cổ choàng đỏ rượu) · `bomber` (bomber kaki). Luật tránh trùng tông đã thêm trong `pick-setup.mjs`.
+- Bảng giải thích thêm 5 kiểu: `timeline` (dòng thời gian), `truefalse` (Vrai ou faux + con dấu), `fill` (điền từ vào chỗ trống), `mistake` (lỗi sai bị gạch → câu đúng), `scale` (thang sắc thái yếu → mạnh). Hiệu ứng mới `rise`, `strike`; biến màu `--bad`.
+
 ## Trạng thái (2026-11-06)
 - 2026-11-06: thêm 4 bối cảnh (chalet, boulangerie, train, quai), `new-episode.mjs`, `assemble.mjs`, skill `cozy-french-episode`; build cảnh báo khi 2 từ vựng < 3 s. Sau đó: model turbo, `vocab-help.mjs` (IPA + cấp độ CEFR), biểu cảm (8) + bong bóng minh hoạ (24).
 - Xong: demo trình duyệt (10 bối cảnh, 10 trang phục), video thử 34 s đầu của voice `4f.mp3` (`cozy-ep01-test-30s.mp4`), script transcribe + build.

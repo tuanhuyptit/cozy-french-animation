@@ -123,9 +123,14 @@ bubs.forEach((b, i) => {
 //   conjug  = conjugation table: { verb, tense, rows:[["je","parl|e"], …], note? } — text after "|" is the highlighted ending
 //   mindmap = a word in the middle with related words branching out: { word, icon?, items:[…] } (≤ 6)
 //   quiz    = question + 2–4 options, the right one lights up: { q, options:[…], answer: index, reveal?: chunk offset, explain? }
+//   timeline  = events on a time line, left → right (a day, a story, passé composé): { title?, items:[{ "label": "8h", "text": "…" }, …] } (2–6)
+//   truefalse = « Vrai ou faux ? »: a statement, then a VRAI / FAUX stamp slams on it: { q, answer: true|false, reveal?, explain? }
+//   fill      = gap sentence, the missing word drops in: { title?, sentence: "Je ___ au marché.", answer: "vais", hint?, en?, reveal? }
+//   mistake   = common mistake: wrong sentence gets struck out, the right one slides in: { title?, wrong, right, rightAt?: chunk offset, note? }
+//   scale     = nuance scale from weak to strong (content → heureux → ravi): { title?, low?, high?, items:[…] } (2–6)
 // Item = "text" (appears automatically, evenly spread over the segment) or { "text": "…", "at": n } (appears with the n-th chunk of the segment, 0 = first).
 // segments less than 1.5 s apart share one board session (characters stay in the corners; the session keeps the first segment's bg).
-const BOARD_BG = ['liege', 'craie', 'carnet'], BOARD_MODES = ['word', 'sketch', 'compare', 'steps', 'conjug', 'mindmap', 'quiz'];
+const BOARD_BG = ['liege', 'craie', 'carnet'], BOARD_MODES = ['word', 'sketch', 'compare', 'steps', 'conjug', 'mindmap', 'quiz', 'timeline', 'truefalse', 'fill', 'mistake', 'scale'];
 const segs = []; let curSeg = null;
 chunks.forEach((c, i) => {
   if (c.board) { if (curSeg) throw new Error(`chunk ${i}: board opens before chunk ${curSeg.a}'s board is closed`); curSeg = { ...c.board, a: i }; }
@@ -163,6 +168,17 @@ segs.forEach(sg => {
     need('q', Boolean, 'q (the question)'); need('options', x => Array.isArray(x) && x.length >= 2 && x.length <= 4, '2–4 options');
     need('answer', x => Number.isInteger(x) && x >= 0 && x < sg.options.length, 'answer (index of the right option, 0 = first)');
   }
+  else if (sg.mode === 'timeline') { need('items', x => Array.isArray(x) && x.length >= 2 && x.length <= 6, '2–6 items'); }
+  else if (sg.mode === 'truefalse') { need('q', Boolean, 'q (the statement)'); need('answer', x => typeof x === 'boolean', 'answer: true or false'); }
+  else if (sg.mode === 'fill') { need('sentence', x => typeof x === 'string' && x.split('___').length === 2, 'sentence with exactly one ___'); need('answer', Boolean, 'answer'); }
+  else if (sg.mode === 'mistake') { need('wrong', Boolean, 'wrong'); need('right', Boolean, 'right'); if (sg.rightAt !== undefined) chunkT(sg.rightAt); }
+  else if (sg.mode === 'scale') { need('items', x => Array.isArray(x) && x.length >= 2 && x.length <= 6, '2–6 items'); }
+  // answer time for quiz-like modes: chunk "reveal" (offset in the segment) or the last chunk, never before the question had time to be read
+  sg.revealAt = (minR, what) => {
+    const R = sg.reveal !== undefined ? Math.max(minR, sg.times([{ at: sg.reveal }])[0]) : Math.max(minR, chunks[sg.b].show + 0.2);
+    if (R > sg.e - 0.5) console.warn(`warning: ${where}: ${what} shows only ${(sg.e - R).toFixed(1)} s before the board closes — add "reveal" or lengthen the segment`);
+    return R;
+  };
 });
 const sessions = [];
 segs.forEach(sg => { const l = sessions[sessions.length - 1]; if (l && sg.s - l.e < 1.5) { l.e = sg.e; l.segs.push(sg); } else sessions.push({ s: sg.s, e: sg.e, bg: sg.bg, segs: [sg] }); });
@@ -190,12 +206,34 @@ sessions.forEach(ss => ss.segs.forEach((sg, j) => {
   } else if (sg.mode === 'quiz') {
     rv.push(['q', t0, 'drop']);
     sg.options.forEach((o, i) => rv.push(['o' + i, t0 + 0.6 + i * 0.3, 'pop']));
-    const minR = t0 + 0.6 + sg.options.length * 0.3 + 1;
-    const R = sg.reveal !== undefined ? Math.max(minR, sg.times([{ at: sg.reveal }])[0]) : Math.max(minR, chunks[sg.b].show + 0.2);
-    if (R > sg.e - 0.5) console.warn(`warning: chunk ${sg.a}: quiz answer shows only ${(sg.e - R).toFixed(1)} s before the board closes — add "reveal" or lengthen the segment`);
+    const R = sg.revealAt(t0 + 0.6 + sg.options.length * 0.3 + 1, 'quiz answer');
     sg.options.forEach((o, i) => rv.push(i === sg.answer ? ['ok' + i, R, 'fade'] : ['o' + i, R, 'dim']));
     rv.push(['tick', R + 0.1, 'stamp']);
     if (sg.explain) rv.push(['x', R + 0.6, 'pop']);
+  } else if (sg.mode === 'timeline') {
+    if (sg.title) rv.push(['t', t0, 'drop']);
+    rv.push(['ln', t0 + 0.4, 'draw']);
+    sg.times(sg.items, t0 + 1.0, end).forEach((t, i) => rv.push(['d' + i, t, 'pop'], ['i' + i, t + 0.15, 'rise']));
+  } else if (sg.mode === 'truefalse') {
+    rv.push(['q', t0, 'drop'], ['v', t0 + 0.6, 'pop'], ['f', t0 + 0.85, 'pop']);
+    const R = sg.revealAt(t0 + 2.2, 'vrai/faux answer');
+    rv.push([sg.answer ? 'f' : 'v', R, 'dim'], ['s', R, 'stamp']);
+    if (sg.explain) rv.push(['x', R + 0.7, 'pop']);
+  } else if (sg.mode === 'fill') {
+    rv.push(['t', t0, 'drop'], ['c', t0 + 0.35, 'pop']);
+    if (sg.hint) rv.push(['h', t0 + 1.2, 'pop']);
+    const R = sg.revealAt(t0 + (sg.hint ? 2.4 : 1.8), 'fill answer');
+    rv.push(['a', R, 'stamp']);
+    if (sg.en) rv.push(['e', R + 0.6, 'fade']);
+  } else if (sg.mode === 'mistake') {
+    rv.push(['t', t0, 'drop'], ['w', t0 + 0.4, 'pop']);
+    const Rt = sg.rightAt !== undefined ? Math.max(t0 + 1.8, sg.times([{ at: sg.rightAt }])[0]) : Math.max(t0 + 1.8, (t0 + end) / 2);
+    rv.push(['k', Rt - 0.6, 'strike'], ['wx', Rt - 0.6, 'stamp'], ['w', Rt - 0.2, 'dim'], ['r', Rt, 'slide'], ['rx', Rt + 0.3, 'stamp']);
+    if (sg.note) rv.push(['n', Rt + 0.9, 'pop']);
+  } else if (sg.mode === 'scale') {
+    if (sg.title) rv.push(['t', t0, 'drop']);
+    rv.push(['bar', t0 + 0.4, 'strike'], ['lo', t0 + 0.8, 'fade'], ['hi', t0 + 0.9, 'fade']);
+    sg.times(sg.items, t0 + 1.3, end).forEach((t, i) => rv.push(['i' + i, t, 'rise']));
   }
 }));
 cards.forEach(c => { c.hidden = sessions.some(ss => c.s >= ss.s - 0.3 && c.s <= ss.e + 0.3); });
@@ -261,6 +299,7 @@ const BOARD_SVG = {
 const usedBG = [...new Set(sessions.map(ss => ss.bg))];
 const boardBG = usedBG.map(bg => `<div class="bbg" id="bbg-${bg}"><svg viewBox="0 0 1920 1080" width="1920" height="1080" style="position:absolute;inset:0">${BOARD_SVG[bg]()}</svg></div>`).join('');
 const NAME = { lea: 'Léa', mat: 'Mathieu' }, LETTERS = 'ABCD';
+const titleHTML = (sg, k, def) => (sg.title || def) ? `<div class="btitle pc rv" id="bs${k}_t"><i class="pin"></i>${esc(sg.title || def)}</div>` : '';
 const ending = s => { const [a, b] = String(s).split('|'); return esc(a) + (b !== undefined ? `<em>${esc(b)}</em>` : ''); };
 const MODE_HTML = {
   word: (sg, k) => `
@@ -300,6 +339,41 @@ const MODE_HTML = {
         <div class="bq pc rv" id="bs${k}_q"><i class="pin"></i><b>?</b>${esc(sg.q)}</div>
         <div class="bopts${sg.options.length > 2 ? '' : ' two'}">${sg.options.map((o, i) => `<div class="bo pc rv" id="bs${k}_o${i}"><i class="okl rv" id="bs${k}_ok${i}"></i><b class="lt">${LETTERS[i]}</b><span>${esc(itemText(o))}</span>${i === sg.answer ? `<span class="btick rv" id="bs${k}_tick">✓</span>` : ''}</div>`).join('')}</div>
         ${sg.explain ? `<div class="bnote pc bqx rv" id="bs${k}_x"><i class="pin"></i>${esc(sg.explain)}</div>` : ''}`,
+  timeline: (sg, k) => {
+    const n = sg.items.length, X0 = 360, X1 = 1560, xs = sg.items.map((_, i) => Math.round(X0 + (n === 1 ? 0.5 : i / (n - 1)) * (X1 - X0)));
+    const w = Math.min(360, Math.floor((X1 - X0) / (n - 1)) - 20);
+    return `
+        ${titleHTML(sg, k)}
+        <svg class="bmml" viewBox="0 0 1920 1080" width="1920" height="1080"><line class="rv btll" id="bs${k}_ln" x1="${X0 - 70}" y1="400" x2="${X1 + 70}" y2="400" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/></svg>
+        ${sg.items.map((it, i) => `<div class="btld rv" id="bs${k}_d${i}" style="left:${xs[i]}px"><b></b>${it.label ? `<span>${esc(it.label)}</span>` : ''}</div>
+        <div class="btli pc rv${n > 4 ? ' sm' : ''}" id="bs${k}_i${i}" style="left:${xs[i] - w / 2}px;width:${w}px;top:${i % 2 && n > 3 ? 600 : 470}px">${esc(itemText(it))}</div>`).join('')}`;
+  },
+  truefalse: (sg, k) => `
+        <div class="btf pc rv" id="bs${k}_q"><i class="pin"></i><div class="btfh">Vrai ou faux ?</div>${esc(sg.q)}
+          <div class="btfs ${sg.answer ? 'ok' : 'no'} rv" id="bs${k}_s"><span>${sg.answer ? 'VRAI ✓' : 'FAUX ✗'}</span></div></div>
+        <div class="btfo ok pc rv" id="bs${k}_v">Vrai</div><div class="btfo no pc rv" id="bs${k}_f">Faux</div>
+        ${sg.explain ? `<div class="bnote pc bqx btfx rv" id="bs${k}_x"><i class="pin"></i>${esc(sg.explain)}</div>` : ''}`,
+  fill: (sg, k) => {
+    const [a, b] = sg.sentence.split('___');
+    return `
+        ${titleHTML(sg, k, 'Complète la phrase !')}
+        <div class="bfill pc rv" id="bs${k}_c"><i class="pin"></i>${esc(a)}<span class="bblank" style="min-width:${Math.max(4, sg.answer.length) * 0.62 + 1}em"><span class="bans rv" id="bs${k}_a">${esc(sg.answer)}</span></span>${esc(b)}
+          ${sg.en ? `<div class="bfen rv" id="bs${k}_e">${esc(sg.en)}</div>` : ''}</div>
+        ${sg.hint ? `<div class="bnote pc bfh rv" id="bs${k}_h"><i class="pin"></i>${esc(sg.hint)}</div>` : ''}`;
+  },
+  mistake: (sg, k) => `
+        ${titleHTML(sg, k, 'Attention, erreur fréquente !')}
+        <div class="bmk w pc rv" id="bs${k}_w"><i class="bmkx rv" id="bs${k}_wx">✗</i><span>${esc(sg.wrong)}<i class="bstrike rv" id="bs${k}_k"></i></span></div>
+        <div class="bmk r pc rv" id="bs${k}_r"><i class="bmkx rv" id="bs${k}_rx">✓</i><span>${esc(sg.right)}</span></div>
+        ${sg.note ? `<div class="bnote pc bmkn rv" id="bs${k}_n"><i class="pin"></i>${esc(sg.note)}</div>` : ''}`,
+  scale: (sg, k) => {
+    const n = sg.items.length, X0 = 470, X1 = 1450;
+    return `
+        ${titleHTML(sg, k)}
+        <div class="bscbar rv" id="bs${k}_bar"></div>
+        <div class="bsclab lo rv" id="bs${k}_lo">${esc(sg.low || '−')}</div><div class="bsclab hi rv" id="bs${k}_hi">${esc(sg.high || '+')}</div>
+        ${sg.items.map((it, i) => `<div class="bsci rv" id="bs${k}_i${i}" style="left:${Math.round(X0 + i / (n - 1) * (X1 - X0))}px"><div class="pc" style="font-size:${Math.round(32 + 20 * i / (n - 1))}px">${esc(itemText(it))}</div><b></b></div>`).join('')}`;
+  },
 };
 const boardHTML = segs.map((sg, k) => `
       <div class="bseg th-${(sessions.find(ss => ss.segs.includes(sg)) || sg).bg} m-${sg.mode}" id="bseg${k}">${MODE_HTML[sg.mode](sg, k)}
@@ -429,9 +503,9 @@ const talk = `<template>
     #board{position:absolute;inset:0}
     .bbg{position:absolute;inset:0;opacity:0}
     .bseg{position:absolute;inset:0;opacity:0;color:var(--ink);
-      --paper:#fffaf0;--ink:#3a2e28;--acc:#b8552a;--acc2:#3f6b8a;--mut:#6f5f52;--line:#e3d4c1;--tag:#f3c96b;--note:#f3c96b;--lea:#fde3cf;--mat:#dbe8f3;--ok:#e1f0d6;--okc:#4f8a4a;--sh:0 14px 0 #0000002a;--bc:#3a2e28}
-    .bseg.th-craie{--paper:#ffffff0d;--ink:#f4f1e8;--acc:#f6d77a;--acc2:#a9d3ea;--mut:#c9d8cf;--line:#ffffff55;--tag:#ffffff22;--note:#ffffff12;--lea:#ffffff10;--mat:#ffffff10;--ok:#9fd38a33;--okc:#c3eeb0;--sh:none;--bc:#f4f1e8bb;filter:url(#chalk)}
-    .bseg.th-carnet{--paper:#fffdf8;--ink:#26324f;--acc:#c8443a;--acc2:#2f5f9e;--mut:#5b6b8c;--line:#26324f33;--tag:#f7e26b;--note:#f7e26b;--lea:#ffe6d6;--mat:#dfeaf7;--ok:#e3f2d8;--okc:#3f7f3a;--sh:0 6px 0 #26324f1f;--bc:#26324f}
+      --paper:#fffaf0;--ink:#3a2e28;--acc:#b8552a;--acc2:#3f6b8a;--mut:#6f5f52;--line:#e3d4c1;--tag:#f3c96b;--note:#f3c96b;--lea:#fde3cf;--mat:#dbe8f3;--ok:#e1f0d6;--okc:#4f8a4a;--bad:#c8443a;--sh:0 14px 0 #0000002a;--bc:#3a2e28}
+    .bseg.th-craie{--paper:#ffffff0d;--ink:#f4f1e8;--acc:#f6d77a;--acc2:#a9d3ea;--mut:#c9d8cf;--line:#ffffff55;--tag:#ffffff22;--note:#ffffff12;--lea:#ffffff10;--mat:#ffffff10;--ok:#9fd38a33;--okc:#c3eeb0;--bad:#f5a092;--sh:none;--bc:#f4f1e8bb;filter:url(#chalk)}
+    .bseg.th-carnet{--paper:#fffdf8;--ink:#26324f;--acc:#c8443a;--acc2:#2f5f9e;--mut:#5b6b8c;--line:#26324f33;--tag:#f7e26b;--note:#f7e26b;--lea:#ffe6d6;--mat:#dfeaf7;--ok:#e3f2d8;--okc:#3f7f3a;--bad:#c8443a;--sh:0 6px 0 #26324f1f;--bc:#26324f}
     .pc{background:var(--paper);box-shadow:var(--sh)}
     .th-craie .pc{border:3px dashed var(--bc);border-radius:18px}
     .th-carnet .pc{border:3px solid var(--bc);border-radius:10px}
@@ -498,6 +572,42 @@ const talk = `<template>
     .bo span{position:relative;z-index:1}
     .okl{position:absolute;inset:-4px;border-radius:20px;background:var(--ok);border:5px solid var(--okc)}
     .btick{position:absolute!important;right:22px;top:50%;margin-top:-34px;width:68px;height:68px;border-radius:50%;background:var(--okc);color:#fffaf0;font:800 44px/68px Nunito;text-align:center}
+    .btll{stroke-width:8}
+    .btld{position:absolute;top:400px;width:0;height:0}
+    .btld b{position:absolute;left:-20px;top:-20px;width:40px;height:40px;border-radius:50%;background:var(--acc);border:5px solid var(--bc);box-sizing:border-box}
+    .btld span{position:absolute;left:0;top:-96px;transform:translateX(-50%);white-space:nowrap;font:700 54px 'Playfair Display',serif;color:var(--acc)}
+    .btli{position:absolute;padding:20px 18px;border-radius:16px;text-align:center;font:800 40px/1.2 Nunito;color:var(--ink);box-sizing:border-box}
+    .btli.sm{font-size:34px;padding:16px 12px}
+    .btli::before{content:"";position:absolute;left:50%;top:-34px;height:28px;border-left:4px dashed var(--bc)}
+    .btf{position:absolute;left:50%;top:150px;transform:translateX(-50%) rotate(-1deg);width:1080px;padding:36px 50px 44px;text-align:center;font:800 50px/1.25 Nunito;color:var(--ink);border-radius:20px;box-sizing:border-box}
+    .btfh{font:700 40px 'Playfair Display',serif;color:var(--acc);margin-bottom:14px}
+    .btfs{position:absolute;right:-60px;top:-50px}
+    .btfs>span{display:block;padding:10px 28px;border:8px solid currentColor;border-radius:14px;font:800 64px Nunito;letter-spacing:.06em;transform:rotate(12deg);background:var(--paper);white-space:nowrap}
+    .btfs.ok{color:var(--okc)} .btfs.no{color:var(--bad)}
+    .btfo{position:absolute;top:500px;width:300px;padding:20px 0;border-radius:60px;text-align:center;font:800 46px Nunito;border:5px solid currentColor}
+    .btfo.ok{left:590px;color:var(--okc)} .btfo.no{left:1030px;color:var(--bad)}
+    .btfx{top:650px}
+    .bfill{position:absolute;left:50%;top:250px;transform:translateX(-50%) rotate(-1deg);max-width:1240px;padding:44px 56px 48px;text-align:center;font:800 58px/1.5 Nunito;color:var(--ink);border-radius:20px;white-space:nowrap}
+    .bblank{display:inline-block;position:relative;height:1.1em;vertical-align:-0.2em;margin:0 .2em;border-bottom:6px solid var(--acc)}
+    .bans{position:absolute;left:0;right:0;bottom:4px;text-align:center;color:var(--acc);line-height:1.1}
+    .bfen{font:600 34px Nunito;color:var(--mut);margin-top:16px;white-space:normal}
+    .bfh{left:1300px;top:500px;width:320px;min-height:0;font-size:30px;padding:34px 26px 24px}
+    .bmk{position:absolute;left:50%;transform:translateX(-50%);display:flex;align-items:center;gap:28px;padding:26px 44px 26px 30px;border-radius:20px;font:800 50px/1.25 Nunito;color:var(--ink);white-space:nowrap}
+    .bmk.w{top:220px} .bmk.r{top:420px}
+    .bmk span{position:relative}
+    .bmkx{flex:none;width:72px;height:72px;border-radius:50%;font:800 48px/72px Nunito;font-style:normal;text-align:center;color:#fffaf0}
+    .bmk.w .bmkx{background:var(--bad)} .bmk.r .bmkx{background:var(--okc)}
+    .bmk.r{border-color:var(--okc)} .th-liege .bmk.r,.th-carnet .bmk.r{box-shadow:var(--sh),0 0 0 6px var(--ok)}
+    .bstrike{position:absolute;left:-10px;right:-10px;top:52%;height:8px;border-radius:4px;background:var(--bad);transform-origin:left center}
+    .bmkn{left:50%;top:640px;width:auto;max-width:1000px;min-height:0;transform:translateX(-50%) rotate(-1.5deg);font-size:32px;padding:30px 36px 24px}
+    .bscbar{position:absolute;left:380px;top:600px;width:1160px;height:26px;border-radius:13px;background:linear-gradient(90deg,var(--acc2),var(--acc));transform-origin:left center}
+    .bscbar::after{content:"";position:absolute;right:-30px;top:-17px;border:30px solid transparent;border-left:40px solid var(--acc);border-right:0}
+    .bsclab{position:absolute;top:650px;font:800 30px Nunito;color:var(--mut);letter-spacing:.06em;text-transform:uppercase}
+    .bsclab.lo{left:380px} .bsclab.hi{left:1540px;transform:translateX(-100%)}
+    .bsci{position:absolute;top:613px;width:0;height:0}
+    .bsci>div{position:absolute;left:0;bottom:60px;transform:translateX(-50%);white-space:nowrap;padding:12px 26px;border-radius:16px;font-family:Nunito;font-weight:800;color:var(--ink)}
+    .bsci b{position:absolute;left:-14px;top:-14px;width:28px;height:28px;border-radius:50%;background:var(--paper);border:5px solid var(--bc);box-sizing:border-box}
+    .bsci>div::after{content:"";position:absolute;left:50%;bottom:-38px;height:30px;border-left:4px dashed var(--bc)}
     .bqx{left:50%;top:610px;width:auto;max-width:1100px;min-height:0;transform:translateX(-50%) rotate(-1.5deg);font-size:32px;padding:30px 36px 24px}
     #talk-badge{position:absolute;right:40px;top:34px;width:132px;height:132px;filter:drop-shadow(0 4px 8px #0004)}
     .cntBox{position:relative;width:18px;height:36px} .cnt{position:absolute;left:0;top:0}
@@ -662,6 +772,8 @@ const talk = `<template>
       draw:(e,t)=>tl.fromTo(e,{strokeDashoffset:1},{strokeDashoffset:0,duration:.45,ease:'power2.out',immediateRender:false},t),
       fade:(e,t)=>tl.fromTo(e,{opacity:0},{opacity:1,duration:.3,immediateRender:false},t),
       dim:(e,t)=>tl.fromTo(e,{opacity:1},{opacity:.42,duration:.35,immediateRender:false},t),
+      rise:(e,t)=>tl.fromTo(e,{opacity:0,y:36},{opacity:1,y:0,duration:.42,ease:'back.out(1.8)',immediateRender:false},t),
+      strike:(e,t)=>tl.fromTo(e,{opacity:1,scaleX:0},{scaleX:1,duration:.4,ease:'power2.out',immediateRender:false},t),
     };
     SESS.forEach(ss=>{
       const a=ss.s-.3, b=ss.e-.1, bg='#bbg-'+ss.bg, I=BG_IN[ss.bg];

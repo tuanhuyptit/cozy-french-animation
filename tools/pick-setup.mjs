@@ -31,13 +31,15 @@ const LEA = keys(block('const OUT_LEA={', '\n};')), MAT = keys(block('const OUT_
 // clashes: outfit → scenes it must not be drawn in ("only" = the only scenes allowed)
 const AVOID = {
   lea: { chemise: ['cuisine', 'parc', 'boulangerie', 'biblio', 'jardin', 'verriere', 'canal', 'vignoble'], cardigan: ['chalet', 'terrasse', 'automne', 'peniche'],
-         lilas: ['lavande', 'quai', 'terrasse', 'promenade'], foulard: ['bureau', 'plage', 'corniche'],
-         doudoune: { only: ['chalet', 'village', 'noel'] } },
-  mat: { pull: ['cuisine', 'parc', 'boulangerie', 'biblio', 'jardin', 'verriere', 'canal', 'vignoble'], colroule: ['quai', 'salon', 'biblio', 'promenade', 'village', 'noel', 'pluie'],
-         blazer: ['quai', 'salon', 'biblio', 'promenade', 'village', 'noel', 'pluie'], velours: ['marche', 'atelier', 'automne', 'peniche', 'bistrot'],
-         polo: ['marche', 'atelier', 'automne'], gilet: ['bureau', 'plage', 'corniche', 'pluie'], carreaux: ['bistrot'], tablier: { only: ['cuisine', 'boulangerie'] } },
+         lilas: ['lavande', 'quai', 'terrasse', 'promenade', 'toits'], foulard: ['bureau', 'plage', 'corniche'],
+         doudoune: { only: ['chalet', 'village', 'noel'] }, rose: ['fleuriste', 'cinema'], tartan: ['cuisine', 'parc', 'jardin', 'verriere', 'canal', 'vignoble', 'fleuriste'],
+         torsade: ['plage', 'corniche', 'port'] },
+  mat: { pull: ['cuisine', 'parc', 'boulangerie', 'biblio', 'jardin', 'verriere', 'canal', 'vignoble'], colroule: ['quai', 'salon', 'biblio', 'promenade', 'village', 'noel', 'pluie', 'toits', 'cinema'],
+         blazer: ['quai', 'salon', 'biblio', 'promenade', 'village', 'noel', 'pluie', 'toits'], velours: ['marche', 'atelier', 'automne', 'peniche', 'bistrot'],
+         polo: ['marche', 'atelier', 'automne'], gilet: ['bureau', 'plage', 'corniche', 'pluie'], carreaux: ['bistrot', 'cinema'], tablier: { only: ['cuisine', 'boulangerie'] },
+         raye: ['plage', 'corniche', 'port'], chale: ['bistrot', 'cinema', 'peniche'], bomber: ['parc', 'jardin', 'verriere', 'canal', 'vignoble', 'fleuriste'] },
 };
-const PAIR_AVOID = [['jean', 'denim'], ['pull', 'polo'], ['chemise', 'pull'], ['cardigan', 'velours']];   // [lea, mat]
+const PAIR_AVOID = [['jean', 'denim'], ['pull', 'polo'], ['chemise', 'pull'], ['cardigan', 'velours'], ['torsade', 'raye'], ['torsade', 'denim'], ['tartan', 'bomber'], ['tartan', 'pull'], ['rose', 'chale'], ['doudoune', 'chale'], ['chemise', 'bomber']];   // [lea, mat]
 const okFor = (who, o, scene) => { const r = AVOID[who][o]; return !r || (Array.isArray(r) ? !r.includes(scene) : r.only.includes(scene)); };
 
 // previous episodes (by number, before this one)

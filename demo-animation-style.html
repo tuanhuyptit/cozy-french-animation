@@ -71,6 +71,8 @@
   <pattern id="pois" width="34" height="34" patternUnits="userSpaceOnUse"><rect width="34" height="34" fill="#2d3e66"/><circle cx="8" cy="8" r="4.5" fill="#fbf6ec"/><circle cx="25" cy="25" r="4.5" fill="#fbf6ec"/></pattern>
   <pattern id="check" width="48" height="48" patternUnits="userSpaceOnUse"><rect width="48" height="48" fill="#b5403a"/><rect width="24" height="48" fill="#2a2020" opacity=".4"/><rect width="48" height="24" fill="#2a2020" opacity=".4"/><path d="M36 0v48M0 36h48" stroke="#e9d6c4" stroke-width="2" opacity=".5"/></pattern>
   <pattern id="cord" width="12" height="12" patternUnits="userSpaceOnUse"><rect width="12" height="12" fill="#b9864f"/><rect width="5" height="12" fill="#a8763f"/></pattern>
+  <pattern id="tartan" width="60" height="60" patternUnits="userSpaceOnUse"><rect width="60" height="60" fill="#2f5a45"/><rect x="18" width="24" height="60" fill="#1f2f4a" opacity=".55"/><rect y="18" width="60" height="24" fill="#1f2f4a" opacity=".55"/><path d="M30 0v60M0 30h60" stroke="#c8443a" stroke-width="3"/><path d="M6 0v60M0 6h60" stroke="#f3c96b" stroke-width="1.5" opacity=".7"/></pattern>
+  <pattern id="raye" width="18" height="18" patternUnits="userSpaceOnUse"><rect width="18" height="18" fill="#f3f6fa"/><rect width="6" height="18" fill="#6f93c4"/></pattern>
 </defs></svg>
 
 <div id="fit"><div id="stage">
@@ -111,10 +113,10 @@
    CẤU HÌNH TỪNG TẬP — chỉ cần đổi dòng này
    scene: cafe | salon | parc | cuisine | biblio | terrasse | chalet | boulangerie | train | quai
           marche | plage | atelier | lavande | bureau
-          bistrot | verriere | peniche
+          bistrot | verriere | peniche | toits | cinema | fleuriste
           đi dạo: promenade | ruelle | automne | corniche | village | jardin | canal | noel | vignoble | pluie | port
-   lea:   pull | mariniere | trench | chemise | cardigan | pois | jean | lilas | foulard | doudoune
-   mat:   denim | hoodie | colroule | blazer | pull | carreaux | velours | polo | gilet | tablier
+   lea:   pull | mariniere | trench | chemise | cardigan | pois | jean | lilas | foulard | doudoune | rose | tartan | torsade
+   mat:   denim | hoodie | colroule | blazer | pull | carreaux | velours | polo | gilet | tablier | raye | chale | bomber
    ============================================================ */
 const EPISODE = { scene:'cafe', lea:'pull', mat:'denim' };
 
@@ -197,6 +199,20 @@ const OUT_LEA={
                      <path d="M182 250 V431" stroke="#5e242c" stroke-width="5"/>
                      <path d="M144 224 C160 252 204 252 220 224 L226 252 C206 276 158 276 138 252Z" fill="#f1e6d2"/>
                      <path d="M196 262 L212 346 L190 350 L178 266Z" fill="#e6d8bf"/>${knit('#d9c8a8').replace(/stroke-width="3.5"/,'stroke-width="2"')}`},
+  rose:     {label:'Blouse rose poudré + col Claudine', top:'#e9b3b5', shade:'#d69b9e', arm:'#e3abae', arm2:'#d69b9e',
+             detail:`<path d="M182 256 V431" stroke="#d69b9e" stroke-width="3"/>${[290,330,370,410].map(y=>`<circle cx="182" cy="${y}" r="5" fill="#fbf6ec" stroke="#d9c7bd" stroke-width="1.5"/>`).join('')}
+                     <path d="M146 232 C146 256 176 262 182 240 C176 234 160 230 146 232Z M218 232 C218 256 188 262 182 240 C188 234 204 230 218 232Z" fill="#fbf6ec" stroke="#e3cfc8" stroke-width="2"/>
+                     <path d="M168 240 l14 7 l-14 7Z M196 240 l-14 7 l14 7Z" fill="#2d3e66"/><circle cx="182" cy="247" r="4.5" fill="#2d3e66"/>`},
+  tartan:   {label:'Robe chasuble écossaise', top:'url(#tartan)', shade:'#14261d', shadeOp:.3, arm:'#f1e8d8', arm2:'#ddd2bf',
+             detail:`<path d="M138 238 C150 228 214 228 226 238 L212 292 L152 292Z" fill="#f1e8d8"/>
+                     <path d="M152 236 C160 250 204 250 212 236" stroke="#ddd2bf" stroke-width="3" fill="none"/>
+                     <path d="M126 252 L152 292 H212 L238 252" stroke="#1f2f4a" stroke-width="6" fill="none"/>
+                     <circle cx="160" cy="306" r="6" fill="#e0b44c"/><circle cx="204" cy="306" r="6" fill="#e0b44c"/>`},
+  torsade:  {label:'Pull torsadé bleu ciel', top:'#9ec3dc', shade:'#86abc6', arm:'#97bcd5', arm2:'#86abc6',
+             detail:`${[138,182,226].map(x=>`<path d="M${x} 250 ${range(7,()=>'q-9 13 0 26')}" stroke="#7fa3be" stroke-width="4" fill="none"/>
+                     <path d="M${x} 250 ${range(7,()=>'q9 13 0 26')}" stroke="#7fa3be" stroke-width="4" fill="none"/>`).join('')}
+                     <ellipse cx="182" cy="236" rx="36" ry="12" fill="#86abc6"/><path d="M152 238 q30 14 60 0" stroke="#7fa3be" stroke-width="3" fill="none"/>
+                     <path d="M80 408 h206 l4 23 h-214Z" fill="#86abc6"/>`},
 };
 const OUT_MAT={
   denim:    {label:'Sơ mi denim', top:'#6f97b8', shade:'#5a82a3', arm:'#6890b1', arm2:'#5a82a3',
@@ -243,6 +259,21 @@ const OUT_MAT={
                      <path d="M150 276 L166 232 M214 276 L198 232" stroke="#33476b" stroke-width="7"/>
                      <path d="M140 274 h84 l8 157 h-100Z" fill="#33476b"/><path d="M140 290 h84" stroke="#fbf6ec" stroke-width="4"/>
                      <path d="M110 330 h150" stroke="#33476b" stroke-width="7"/><path d="M160 350 h44 v30 h-44Z" fill="none" stroke="#fbf6ec" stroke-width="3"/>`},
+  raye:     {label:'Chemise rayée bleu-blanc', top:'url(#raye)', shade:'#2d4a73', shadeOp:.2, arm:'url(#raye)', arm2:'url(#raye)',
+             detail:`<path d="M182 244 V431" stroke="#dfe7f2" stroke-width="10"/>
+                     <circle cx="182" cy="280" r="4" fill="#9db3d3"/><circle cx="182" cy="320" r="4" fill="#9db3d3"/><circle cx="182" cy="360" r="4" fill="#9db3d3"/><circle cx="182" cy="400" r="4" fill="#9db3d3"/>
+                     <path d="M158 230 L174 264 L182 240Z M206 230 L190 264 L182 240Z" fill="#fbfdff" stroke="#9db3d3" stroke-width="2"/>
+                     <path d="M118 322 h34 v30 h-34Z" fill="none" stroke="#5c7fae" stroke-width="3"/>`},
+  chale:    {label:'Cardigan col châle bordeaux', top:'#7e2f3a', shade:'#682631', arm:'#772c37', arm2:'#682631',
+             detail:`<path d="M158 232 L206 232 L194 340 L170 340Z" fill="#efe6d6"/>
+                     <path d="M150 228 C138 280 156 330 176 352 L186 342 C168 306 162 268 168 232Z M214 228 C226 280 208 330 188 352 L178 342 C196 306 202 268 196 232Z" fill="#8e3743" stroke="#5e1f28" stroke-width="2"/>
+                     <circle cx="182" cy="376" r="6" fill="#d9c39a"/><circle cx="182" cy="408" r="6" fill="#d9c39a"/>`+knit('#682631')},
+  bomber:   {label:'Bomber kaki + tee blanc', top:'#6e7448', shade:'#5b603a', arm:'#686e43', arm2:'#5b603a',
+             detail:`<path d="M160 232 L204 232 L200 431 L164 431Z" fill="#f7f3ea"/>
+                     <path d="M160 236 L164 431 M204 236 L200 431" stroke="#d9774b" stroke-width="5"/>
+                     <path d="M146 228 C160 248 204 248 218 228" stroke="#4e5232" stroke-width="12" fill="none" stroke-linecap="round"/>
+                     <path d="M74 410 h216 l2 21 h-220Z" fill="#4e5232"/>${range(18,i=>`<path d="M${80+i*12} 412 v18" stroke="#3f4228" stroke-width="2"/>`)}
+                     <path d="M118 300 h30 l-2 26 h-26Z" fill="#5b603a"/>`},
 };
 
 /* ============================================================
@@ -1384,6 +1415,82 @@ const SCENES={
   <circle class="glow" cx="960" cy="200" r="160" fill="url(#lg)" opacity=".55"/><line x1="960" y1="90" x2="960" y2="150" stroke="#3a2e28" stroke-width="3"/><rect x="944" y="150" width="32" height="50" rx="6" fill="#3a3f48"/><rect x="950" y="158" width="20" height="34" rx="4" fill="#ffe2a6"/>
   <rect y="760" width="1920" height="320" fill="#8a5a3c"/>${range(10,i=>`<line x1="0" y1="${780+i*30}" x2="1920" y2="${780+i*30}" stroke="#6e4630" stroke-width="4"/>`)}
   ${TABLE('#a8724e','#8c5c3d')}</svg>`;},
+  anim(tl){ sitAmb(tl); }},
+
+ /* ---------------- 3 cảnh ngồi mới (toits, cinema, fleuriste) ---------------- */
+ toits:{label:'30. Toits de Paris la nuit', html:()=>{
+   // mansard building: wall + slate roof + dormers (some lit) + chimneys with terracotta pots
+   const bld=(x,w,top,c)=>`<rect x="${x}" y="${top+70}" width="${w}" height="${640-top}" fill="${c}"/>
+     <path d="M${x-8} ${top+72} L${x+18} ${top} H${x+w-18} L${x+w+8} ${top+72}Z" fill="#454d63"/>
+     ${range(Math.max(1,Math.floor((w-40)/80)),i=>{const dx=x+40+i*80,lit=Math.random()<.55;return `<rect x="${dx}" y="${top+18}" width="34" height="42" rx="15" fill="${lit?'#ffd98a':'#2a3048'}"/><path d="M${dx-6} ${top+22} q23 -26 46 0" fill="#5a6278"/>`;})}
+     ${range(Math.max(1,Math.floor(w/70)),i=>{const lit=Math.random()<.45;return `<rect x="${x+20+i*70}" y="${top+100}" width="30" height="46" fill="${lit?'#ffd98a':'#323954'}"/>`;})}
+     ${range(2,i=>{const cx=x+30+i*(w-90);return `<rect x="${cx}" y="${top-46}" width="40" height="52" fill="#a06048"/>${range(3,k=>`<rect x="${cx+3+k*12}" y="${top-62}" width="9" height="18" rx="3" fill="#c9784f"/>`)}`;})}`;
+   // Eiffel tower silhouette + sparkles (reuses .star twinkle)
+   const tw=y=>4+(y-150)*.11;
+   const sparkle=range(26,()=>{const y=rnd(170,520),x=960+rnd(-1,1)*tw(y);return `<circle class="star" cx="${x}" cy="${y}" r="${rnd(2,4)}" fill="#fff3c4"/>`;});
+   const bulbs=(y0,sag,n)=>`<path d="M0 ${y0} Q960 ${y0+sag*2} 1920 ${y0}" stroke="#2a2f45" stroke-width="3" fill="none"/>`+range(n,i=>{const t=(i+.5)/n,x=t*1920,y=y0+sag*4*t*(1-t)+8;return `<circle class="glow" cx="${x}" cy="${y}" r="34" fill="url(#lg)" opacity=".6"/><circle cx="${x}" cy="${y}" r="8" fill="${['#ffe2a6','#f6b98a','#fff1c9'][i%3]}"/>`;});
+   return `<svg class="bg" viewBox="0 0 1920 1080"><defs>${lampGrad}${gradV('tsk','#171c38','#5a4a78')}</defs>
+  <rect width="1920" height="1080" fill="url(#tsk)"/>${stars(60,20,1900,20,420)}
+  <circle cx="1560" cy="170" r="62" fill="#fbefcf"/><circle cx="1540" cy="160" r="12" fill="#ecdcb4"/><circle cx="1580" cy="190" r="8" fill="#ecdcb4"/><circle class="glow" cx="1560" cy="170" r="150" fill="url(#lg)" opacity=".35"/>
+  <g fill="#262a44"><path d="M960 140 L967 220 L982 380 L1012 520 L1040 600 H880 L908 520 L938 380 L953 220Z"/><rect x="926" y="372" width="68" height="12"/><rect x="898" y="510" width="124" height="14"/><rect x="955" y="118" width="10" height="26"/></g>
+  <path d="M928 600 Q960 548 992 600Z" fill="#4a4270"/>${sparkle}<circle class="glow" cx="960" cy="124" r="70" fill="url(#lg)" opacity=".6"/>
+  ${bld(-20,300,420,'#e8dcc4')}${bld(300,250,470,'#d9c9ad')}${bld(570,240,520,'#e2d3b8')}${bld(1110,250,510,'#dccbb0')}${bld(1380,240,450,'#e8dcc4')}${bld(1640,300,400,'#d6c4a6')}
+  <rect x="0" y="590" width="1920" height="12" rx="4" fill="#2f3346"/>${range(49,i=>`<rect x="${i*40}" y="600" width="7" height="116" fill="#2f3346"/>`)}<rect x="0" y="700" width="1920" height="16" fill="#2f3346"/>
+  ${bulbs(40,40,14)}
+  ${[[110,'#c9825c'],[1810,'#a8724e']].map(([x,c])=>`<path d="M${x-55} 760 h110 l-12 -96 h-86Z" fill="${c}"/>${range(9,k=>`<ellipse cx="${x+Math.cos(k*.8)*60}" cy="${640-Math.sin(k*.9)*40-k*10}" rx="40" ry="18" fill="${k%2?'#3f6b4f':'#4f7a52'}" transform="rotate(${k*40-160} ${x+Math.cos(k*.8)*60} ${640-Math.sin(k*.9)*40-k*10})"/>`)}`).join('')}
+  <rect y="760" width="1920" height="320" fill="#8a5a3c"/>${range(10,i=>`<line x1="0" y1="${782+i*30}" x2="1920" y2="${782+i*30}" stroke="#6e4630" stroke-width="4"/>`)}
+  ${TABLE('#a8724e','#8c5c3d')}</svg>`;},
+  anim(tl){ sitAmb(tl); }},
+
+ cinema:{label:'31. Ciné-club rétro', html:()=>{
+   const seats=(y,w,h,n,c,hi)=>range(n,i=>{const x=(1920-n*w)/2+i*w;return `<rect x="${x+4}" y="${y}" width="${w-8}" height="${h}" rx="${w*.3}" fill="${c}"/><rect x="${x+12}" y="${y+8}" width="${w-24}" height="10" rx="5" fill="${hi}" opacity=".6"/>`;});
+   const poster=(x,title,c1,c2)=>`<rect x="${x}" y="130" width="210" height="300" rx="6" fill="#c9a24a"/><rect x="${x+12}" y="142" width="186" height="276" fill="${c1}"/>
+     <circle cx="${x+105}" cy="250" r="56" fill="${c2}"/><path d="M${x+30} 350 q19 -16 38 0 t38 0 t38 0 t38 0" stroke="${c2}" stroke-width="8" fill="none"/>
+     <text x="${x+105}" y="400" text-anchor="middle" font-family="Playfair Display, Fraunces, serif" font-weight="700" font-size="30" fill="#fbefcf">${title}</text>`;
+   const curtain=(x,dir)=>`<g class="curtain"><path d="M${x} 50 h${dir*130} C${x+dir*110} 220 ${x+dir*150} 380 ${x+dir*120} 520 h${-dir*120}Z" fill="#9e2a32"/>${range(4,k=>`<path d="M${x+dir*(20+k*28)} 54 C${x+dir*(14+k*26)} 220 ${x+dir*(30+k*26)} 380 ${x+dir*(16+k*24)} 516" stroke="#7a1f27" stroke-width="7" fill="none"/>`)}<path d="M${x+dir*96} 330 q${dir*30} 10 ${dir*36} 30" stroke="#e0b44c" stroke-width="8" fill="none"/></g>`;
+   return `<svg class="bg" viewBox="0 0 1920 1080"><defs>${lampGrad}</defs>
+  <rect width="1920" height="1080" fill="#5a1f24"/>${range(30,i=>`<rect x="${i*64}" y="0" width="30" height="760" fill="#4a191e" opacity=".7"/>`)}
+  <rect y="470" width="1920" height="12" fill="#c9a24a"/><rect y="482" width="1920" height="278" fill="#3e1418"/>
+  <rect x="560" y="60" width="800" height="440" rx="6" fill="#1d1a1a"/><rect x="584" y="84" width="752" height="392" fill="#2b2727"/>
+  <rect x="614" y="112" width="692" height="336" fill="none" stroke="#e8e2d4" stroke-width="4"/><rect x="626" y="124" width="668" height="312" fill="none" stroke="#e8e2d4" stroke-width="1.5"/>
+  ${[[614,112],[1306,112],[614,448],[1306,448]].map(([x,y])=>`<circle cx="${x}" cy="${y}" r="12" fill="none" stroke="#e8e2d4" stroke-width="3"/>`).join('')}
+  <text x="960" y="270" text-anchor="middle" font-family="Playfair Display, Fraunces, serif" font-style="italic" font-weight="700" font-size="64" fill="#efe9dc">Il était une fois…</text>
+  <path d="M820 310 h320" stroke="#e8e2d4" stroke-width="3"/><text x="960" y="370" text-anchor="middle" font-family="Playfair Display, Fraunces, serif" font-size="34" fill="#cfc8ba">à Paris, en 1930</text>
+  <rect class="bulbg" x="584" y="84" width="752" height="392" fill="#ffffff" opacity=".2"/>
+  ${range(14,()=>`<circle class="mote" cx="${rnd(620,1300)}" cy="${rnd(380,560)}" r="${rnd(2,4)}" fill="#fff3d0" opacity="0"/>`)}
+  <path d="M520 40 H1400 V74 ${range(11,i=>`q-40 34 -80 0`)} Z" fill="#8a232b"/><path d="M520 40 H1400" stroke="#e0b44c" stroke-width="8"/>
+  ${curtain(530,1)}${curtain(1390,-1)}
+  ${poster(90,'La Rencontre','#3f6b5a','#c8443a')}${poster(1620,'Le Voyage','#2d3e66','#f3c96b')}
+  ${[420,1500].map(x=>`<circle class="glow" cx="${x}" cy="300" r="150" fill="url(#lg)" opacity=".55"/><path d="M${x-22} 320 h44 l-8 -46 h-28Z" fill="#e0b44c"/><path d="M${x-14} 316 h28 l-6 -36 h-16Z" fill="#ffe9b8"/><rect x="${x-4}" y="320" width="8" height="40" fill="#a8822e"/>`).join('')}
+  ${seats(560,96,90,18,'#7a2a30','#b5525a')}${seats(624,112,96,16,'#8e3038','#c45c64')}
+  <rect y="760" width="1920" height="320" fill="#6b2129"/>${range(24,i=>range(4,j=>`<path d="M${i*80+40} ${770+j*80} l14 14 l-14 14 l-14 -14Z" fill="#e0b44c" opacity=".35"/>`))}
+  <g transform="translate(960 0)"><path d="M-38 716 l-8 -86 h92 l-8 86Z" fill="#fbf6ec"/>${range(4,k=>`<path d="M${-36+k*22} 716 l-3 -86 h11 l2 86Z" fill="#c8443a"/>`)}${range(9,k=>`<circle cx="${-38+k*9.5}" cy="${626-(k%3)*8}" r="${11+(k%2)*3}" fill="${k%3?'#fbe7a6':'#fff6dc'}"/>`)}</g>
+  ${TABLE('#8a5a3c','#6e4630')}</svg>`;},
+  anim(tl){ sitAmb(tl); }},
+
+ fleuriste:{label:'32. Chez le fleuriste', html:()=>{
+   const bloom=(x,y,c,r=16)=>`<g>${range(5,k=>`<circle cx="${x+Math.cos(k*1.256)*r*.7}" cy="${y+Math.sin(k*1.256)*r*.7}" r="${r*.62}" fill="${c}"/>`)}<circle cx="${x}" cy="${y}" r="${r*.38}" fill="#f3c96b"/></g>`;
+   const tulip=(x,y,c)=>`<path d="M${x-11} ${y} q-2 -22 11 -26 q13 4 11 26 q-11 8 -22 0Z" fill="${c}"/>`;
+   const bucket=(x,w,kind,cols)=>{const top=600;let f='';for(let k=0;k<7;k++){const fx=x+10+k*(w-20)/6+rnd(-6,6),fy=top-60-rnd(0,70);f+=`<path d="M${x+w/2} ${top} Q${(fx+x+w/2)/2} ${fy+40} ${fx} ${fy}" stroke="#5f8f5a" stroke-width="5" fill="none"/>`+(kind==='t'?tulip(fx,fy+6,pick(cols)):kind==='s'?bloom(fx,fy,'#f2b632',22).replace('#f3c96b','#6b4a2a'):bloom(fx,fy,pick(cols)));}
+     return f+`<path d="M${x} ${top} h${w} l-10 116 h${-w+20}Z" fill="#b9c3c9"/><path d="M${x} ${top} h${w}" stroke="#8f9aa1" stroke-width="6"/><path d="M${x+6} ${top+40} h${w-12}" stroke="#a3aeb5" stroke-width="3"/>`;};
+   const hang=x=>`<path d="M${x} 0 v110 M${x-50} 160 L${x} 110 L${x+50} 160" stroke="#8a6a3c" stroke-width="3" fill="none"/><path d="M${x-54} 160 h108 l-14 50 h-80Z" fill="#c9825c"/>${range(7,k=>`<path d="M${x-40+k*13} 200 C${x-60+k*18} ${260+k*8} ${x-50+k*16} ${320+k*6} ${x-44+k*14} ${360+(k%3)*30}" stroke="#5f8f5a" stroke-width="5" fill="none"/><ellipse cx="${x-44+k*14}" cy="${360+(k%3)*30}" rx="9" ry="14" fill="#7fa673"/>`)}`;
+   return `<svg class="bg" viewBox="0 0 1920 1080"><defs>${lampGrad}${gradV('fsk','#bfe0ec','#eaf4ef')}</defs>
+  <rect width="1920" height="1080" fill="#e9efe2"/><rect y="0" width="1920" height="28" fill="#2f4a3e"/>${range(48,i=>`<rect x="${i*40}" y="430" width="20" height="330" fill="#dfe7d6"/>`)}<rect y="424" width="1920" height="10" fill="#c9d4c0"/>
+  <rect x="600" y="80" width="720" height="470" fill="url(#fsk)"/>
+  <rect x="640" y="190" width="300" height="360" fill="#efe1c4"/><path d="M630 190 h320 l-20 -40 h-280Z" fill="#8a97a8"/>${range(3,i=>`<rect x="${668+i*92}" y="${230}" width="56" height="80" fill="#a9c7d4"/><rect x="${668+i*92}" y="${350}" width="56" height="80" fill="#a9c7d4"/>`)}
+  <rect x="980" y="240" width="320" height="310" fill="#e9cfa6"/><rect x="980" y="240" width="320" height="40" fill="#c8443a"/>${range(8,i=>`<path d="M${980+i*40} 280 q20 26 40 0" fill="#fbf6ec"/>`)}<rect x="1020" y="330" width="90" height="150" fill="#7a9cb0"/><rect x="1150" y="330" width="110" height="90" fill="#a9c7d4"/>
+  <rect x="600" y="500" width="720" height="50" fill="#b9b0a2"/>
+  <path d="M600 80 h720 v470 h-720Z M960 80 v470 M600 300 h720" stroke="#2f4a3e" stroke-width="14" fill="none"/>
+  <path d="M700 186 Q960 126 1220 186" stroke="#e0b44c" stroke-width="0" fill="none" id="fl-arc"/><text font-family="Playfair Display, Fraunces, serif" font-weight="700" font-size="54" fill="#2f4a3e" text-anchor="middle"><textPath href="#fl-arc" startOffset="50%">Fleurs &amp; Cie</textPath></text>
+  ${hang(160)}${hang(1760)}
+  <rect x="120" y="380" width="360" height="16" rx="4" fill="#a8724e"/>${range(4,i=>`<path d="M${150+i*84} 380 h50 l-6 -46 h-38Z" fill="${['#c9825c','#e9dcc3','#8fae8b','#c9825c'][i]}"/>${bloom(175+i*84,316,['#e98aa0','#fbf6ec','#b9a3cf','#f2b632'][i],14)}`)}
+  <rect x="1480" y="170" width="300" height="230" rx="8" fill="#8a5a3c"/><rect x="1494" y="184" width="272" height="202" fill="#2f4a3e"/>
+  <g fill="#f4f1e8" font-family="Nunito" font-weight="800" text-anchor="middle"><text x="1630" y="236" font-size="30">Bouquet</text><text x="1630" y="276" font-size="30">du jour</text><text x="1630" y="350" font-size="44" fill="#f3c96b">12 €</text></g>${bloom(1520,370,'#e98aa0',10)}${bloom(1740,210,'#f3c96b',10)}
+  ${bucket(760,110,'t',['#e14b5a','#f08a4b','#f6c1cf'])}${bucket(890,120,'s')}${bucket(1030,110,'r',['#e98aa0','#fbf6ec','#c8443a','#b9a3cf'])}
+  ${range(16,()=>`<ellipse class="mote" cx="${rnd(200,1720)}" cy="${rnd(200,640)}" rx="5" ry="3" fill="${pick(['#f6c1cf','#e98aa0','#fbf6ec'])}" opacity="0"/>`)}
+  <circle class="glow" cx="960" cy="40" r="180" fill="url(#lg)" opacity=".35"/>
+  <rect y="760" width="1920" height="320" fill="#c98a63"/>${range(13,i=>`<line x1="${i*160}" y1="760" x2="${i*160-80}" y2="1080" stroke="#b5764f" stroke-width="4"/>`)}${range(4,j=>`<line x1="0" y1="${840+j*80}" x2="1920" y2="${840+j*80}" stroke="#b5764f" stroke-width="4"/>`)}
+  ${TABLE('#e8d9bf','#cbb894')}</svg>`;},
   anim(tl){ sitAmb(tl); }},
 
  /* ---------------- 5 cảnh đi bộ mới ---------------- */
