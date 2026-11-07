@@ -1,0 +1,2330 @@
+{
+  "scene": "salon",
+  "lea": "lilas",
+  "mat": "carreaux",
+  "audio": "assets/voice.mp3",
+  "audioEnd": 1080.09,
+  "chunks": [
+    {
+      "who": "lea",
+      "fr": "Bonjour tout le monde et bienvenue sur The Cozy French !",
+      "en": "Hello everyone and welcome to The Cozy French!"
+    },
+    {
+      "who": "lea",
+      "fr": "Moi, c'est Léa.",
+      "en": "I'm Léa."
+    },
+    {
+      "who": "mat",
+      "fr": "Et moi, c'est Mathieu.",
+      "en": "And I'm Mathieu."
+    },
+    {
+      "who": "mat",
+      "fr": "Merci d'être avec nous.",
+      "en": "Thank you for being with us."
+    },
+    {
+      "who": "mat",
+      "fr": "Aujourd'hui, vous pouvez vous installer",
+      "en": "Today, you can settle in"
+    },
+    {
+      "who": "mat",
+      "fr": "sans rien préparer.",
+      "en": "without preparing anything."
+    },
+    {
+      "who": "lea",
+      "fr": "Pas de liste à terminer avant de commencer.",
+      "en": "No list to finish before we start."
+    },
+    {
+      "who": "lea",
+      "fr": "Juste un moment pour écouter du français ensemble.",
+      "en": "Just a moment to listen to French together."
+    },
+    {
+      "who": "mat",
+      "fr": "J'ai quand même apporté un document important :",
+      "en": "Still, I brought an important document:"
+    },
+    {
+      "who": "mat",
+      "fr": "la carte de fidélité de mon fauteuil.",
+      "en": "my armchair's loyalty card."
+    },
+    {
+      "who": "lea",
+      "fr": "Il distribue des points maintenant ?",
+      "en": "It hands out points now?",
+      "emote": "surpris"
+    },
+    {
+      "who": "mat",
+      "fr": "Une case pour chaque vraie pause.",
+      "en": "One box for every real break."
+    },
+    {
+      "who": "mat",
+      "fr": "Pour l'instant, ma carte est complètement vide.",
+      "en": "For now, my card is completely empty."
+    },
+    {
+      "who": "lea",
+      "fr": "Ton fauteuil attend donc son premier client régulier.",
+      "en": "So your armchair is waiting for its first regular customer.",
+      "emote": "rire"
+    },
+    {
+      "who": "lea",
+      "fr": "Aujourd'hui, nous parlons du fait",
+      "en": "Today, we're talking about"
+    },
+    {
+      "who": "lea",
+      "fr": "de ralentir sans culpabiliser.",
+      "en": "slowing down without feeling guilty."
+    },
+    {
+      "who": "lea",
+      "fr": "Prendre son temps peut sembler simple,",
+      "en": "Taking your time can seem simple,",
+      "illus": "temps",
+      "label": "prendre son temps"
+    },
+    {
+      "who": "lea",
+      "fr": "jusqu'au moment où on essaie.",
+      "en": "until the moment you try."
+    },
+    {
+      "who": "mat",
+      "fr": "On s'assoit, puis une petite voix demande :",
+      "en": "You sit down, then a little voice asks:"
+    },
+    {
+      "who": "mat",
+      "fr": "« Tu es sûr que tu n'as",
+      "en": "\"Are you sure you don't have"
+    },
+    {
+      "who": "mat",
+      "fr": "rien de plus utile à faire ? »",
+      "en": "anything more useful to do?\"",
+      "emote": "gene"
+    },
+    {
+      "who": "lea",
+      "fr": "Cette conversation est pour les niveaux B1 et B2.",
+      "en": "This conversation is for B1 and B2 levels."
+    },
+    {
+      "who": "lea",
+      "fr": "Nous allons parler lentement",
+      "en": "We'll speak slowly"
+    },
+    {
+      "who": "lea",
+      "fr": "et expliquer des expressions du quotidien.",
+      "en": "and explain everyday expressions."
+    },
+    {
+      "who": "mat",
+      "fr": "À la fin,",
+      "en": "By the end,"
+    },
+    {
+      "who": "mat",
+      "fr": "vous saurez parler de votre besoin de repos",
+      "en": "you'll be able to talk about your need for rest"
+    },
+    {
+      "who": "mat",
+      "fr": "et demander si une tâche peut attendre.",
+      "en": "and ask whether a task can wait."
+    },
+    {
+      "who": "lea",
+      "fr": "Vous apprendrez aussi à poser une limite simplement,",
+      "en": "You'll also learn to set a limit simply,"
+    },
+    {
+      "who": "lea",
+      "fr": "sans préparer un discours de dix minutes.",
+      "en": "without preparing a ten-minute speech."
+    },
+    {
+      "who": "mat",
+      "fr": "Vous pouvez écouter dans le train,",
+      "en": "You can listen on the train,",
+      "illus": "voyage",
+      "label": "le train"
+    },
+    {
+      "who": "mat",
+      "fr": "chez vous ou pendant une promenade.",
+      "en": "at home or during a walk."
+    },
+    {
+      "who": "mat",
+      "fr": "Pas besoin de comprendre chaque mot.",
+      "en": "No need to understand every word."
+    },
+    {
+      "who": "lea",
+      "fr": "Suivez les histoires et répétez",
+      "en": "Follow the stories and repeat"
+    },
+    {
+      "who": "lea",
+      "fr": "les phrases qui vous seront utiles.",
+      "en": "the phrases that will be useful to you."
+    },
+    {
+      "who": "mat",
+      "fr": "Et si vous avez déjà commencé à faire une liste,",
+      "en": "And if you've already started making a list,"
+    },
+    {
+      "who": "mat",
+      "fr": "gardez une petite place pour votre fauteuil.",
+      "en": "keep a little room for your armchair.",
+      "react": "rire"
+    },
+    {
+      "who": "lea",
+      "fr": "Voici notre question du jour :",
+      "en": "Here's our question of the day:"
+    },
+    {
+      "who": "lea",
+      "fr": "qu'aimeriez-vous faire plus lentement,",
+      "en": "what would you like to do more slowly,"
+    },
+    {
+      "who": "lea",
+      "fr": "sans vous sentir coupable ?",
+      "en": "without feeling guilty?"
+    },
+    {
+      "who": "mat",
+      "fr": "Marcher jusqu'à la boulangerie ?",
+      "en": "Walking to the bakery?"
+    },
+    {
+      "who": "mat",
+      "fr": "Lire quelques pages ?",
+      "en": "Reading a few pages?"
+    },
+    {
+      "who": "mat",
+      "fr": "Finir une conversation sans regarder l'heure ?",
+      "en": "Finishing a conversation without looking at the time?"
+    },
+    {
+      "who": "lea",
+      "fr": "Gardez une idée en tête.",
+      "en": "Keep one idea in mind."
+    },
+    {
+      "who": "lea",
+      "fr": "À la fin,",
+      "en": "At the end,"
+    },
+    {
+      "who": "lea",
+      "fr": "nous vous proposerons une phrase pour la raconter.",
+      "en": "we'll give you a sentence to tell us about it."
+    },
+    {
+      "who": "mat",
+      "fr": "Et dites-nous d'où vous nous écoutez.",
+      "en": "And tell us where you're listening from."
+    },
+    {
+      "who": "mat",
+      "fr": "Une petite pause peut nous réunir,",
+      "en": "A little break can bring us together,"
+    },
+    {
+      "who": "mat",
+      "fr": "même à plusieurs milliers de kilomètres.",
+      "en": "even thousands of kilometres apart.",
+      "emote": "coeur"
+    },
+    {
+      "who": "lea",
+      "fr": "Dimanche dernier, je suis allée",
+      "en": "Last Sunday, I went"
+    },
+    {
+      "who": "lea",
+      "fr": "à la médiathèque de mon quartier.",
+      "en": "to the media library in my neighbourhood."
+    },
+    {
+      "who": "lea",
+      "fr": "J'avais envie de lire un roman dans un endroit calme.",
+      "en": "I felt like reading a novel somewhere quiet.",
+      "illus": "lecture",
+      "label": "un roman"
+    },
+    {
+      "who": "mat",
+      "fr": "Tu avais choisi un livre ?",
+      "en": "Had you picked a book?"
+    },
+    {
+      "who": "lea",
+      "fr": "Oui, une histoire qui se passe",
+      "en": "Yes, a story that takes place"
+    },
+    {
+      "who": "lea",
+      "fr": "au bord de la mer.",
+      "en": "by the sea."
+    },
+    {
+      "who": "lea",
+      "fr": "J'ai trouvé un fauteuil près d'une grande fenêtre.",
+      "en": "I found an armchair near a big window."
+    },
+    {
+      "who": "mat",
+      "fr": "Déjà, ton fauteuil est mieux placé que le mien.",
+      "en": "Already, your armchair is better placed than mine."
+    },
+    {
+      "who": "mat",
+      "fr": "Il a une vue.",
+      "en": "It has a view.",
+      "react": "rire"
+    },
+    {
+      "who": "lea",
+      "fr": "Il pleuvait doucement.",
+      "en": "It was raining gently.",
+      "illus": "pluie",
+      "label": "la pluie"
+    },
+    {
+      "who": "lea",
+      "fr": "J'ai posé mon manteau et ouvert le livre.",
+      "en": "I put down my coat and opened the book."
+    },
+    {
+      "who": "lea",
+      "fr": "Puis j'ai pensé à ma semaine.",
+      "en": "Then I thought about my week."
+    },
+    {
+      "who": "mat",
+      "fr": "La mer a disparu ?",
+      "en": "The sea disappeared?",
+      "emote": "surpris"
+    },
+    {
+      "who": "lea",
+      "fr": "Complètement. À sa place, j'ai vu mes rendez-vous.",
+      "en": "Completely. In its place, I saw my appointments."
+    },
+    {
+      "who": "lea",
+      "fr": "Je me suis mise à [culpabiliser]",
+      "en": "I started feeling guilty",
+      "emote": "gene",
+      "board": {
+        "mode": "word",
+        "note": "= se sentir coupable, penser qu'on fait quelque chose de mal"
+      }
+    },
+    {
+      "who": "lea",
+      "fr": "parce que je ne préparais rien.",
+      "en": "because I wasn't preparing anything."
+    },
+    {
+      "who": "mat",
+      "fr": "Culpabiliser, c'est se sentir coupable,",
+      "en": "\"Culpabiliser\" means feeling guilty,"
+    },
+    {
+      "who": "mat",
+      "fr": "penser qu'on fait quelque chose de mal ?",
+      "en": "thinking you're doing something wrong?"
+    },
+    {
+      "who": "lea",
+      "fr": "Oui, même quand personne ne nous reproche rien.",
+      "en": "Yes, even when nobody blames us for anything."
+    },
+    {
+      "who": "lea",
+      "fr": "Par exemple, je culpabilise parfois",
+      "en": "For example, I sometimes feel guilty"
+    },
+    {
+      "who": "lea",
+      "fr": "de refuser une invitation.",
+      "en": "about turning down an invitation.",
+      "boardEnd": true
+    },
+    {
+      "who": "mat",
+      "fr": "Et ton roman attendait pendant",
+      "en": "And your novel was waiting while"
+    },
+    {
+      "who": "mat",
+      "fr": "que tu te faisais des reproches.",
+      "en": "you were blaming yourself."
+    },
+    {
+      "who": "lea",
+      "fr": "Exactement. J'ai sorti mon carnet.",
+      "en": "Exactly. I took out my notebook."
+    },
+    {
+      "who": "lea",
+      "fr": "J'ai noté les courses du lundi,",
+      "en": "I wrote down Monday's shopping,",
+      "illus": "courses",
+      "label": "les courses"
+    },
+    {
+      "who": "lea",
+      "fr": "un dossier à envoyer et un cadeau à acheter.",
+      "en": "a file to send and a present to buy."
+    },
+    {
+      "who": "mat",
+      "fr": "Tu avais emprunté un bureau, finalement.",
+      "en": "So you'd borrowed a desk, in the end.",
+      "react": "rire"
+    },
+    {
+      "who": "lea",
+      "fr": "Un bureau très confortable.",
+      "en": "A very comfortable desk."
+    },
+    {
+      "who": "lea",
+      "fr": "Mais au bout de vingt minutes,",
+      "en": "But after twenty minutes,"
+    },
+    {
+      "who": "lea",
+      "fr": "je me mettais encore plus la pression.",
+      "en": "I was putting even more pressure on myself."
+    },
+    {
+      "who": "mat",
+      "fr": "[Se mettre la pression,]",
+      "en": "\"Se mettre la pression\"",
+      "board": {
+        "mode": "word",
+        "bg": "craie",
+        "note": "= exiger beaucoup de soi et se créer du stress",
+        "icon": "stress"
+      }
+    },
+    {
+      "who": "mat",
+      "fr": "c'est exiger beaucoup de soi et se créer du stress.",
+      "en": "means demanding a lot of yourself and creating stress."
+    },
+    {
+      "who": "lea",
+      "fr": "Oui. Avant une présentation,",
+      "en": "Yes. Before a presentation,"
+    },
+    {
+      "who": "lea",
+      "fr": "mon collègue se met la pression",
+      "en": "my colleague puts pressure on himself"
+    },
+    {
+      "who": "lea",
+      "fr": "pour répondre parfaitement à chaque question.",
+      "en": "to answer every question perfectly.",
+      "boardEnd": true
+    },
+    {
+      "who": "mat",
+      "fr": "Il pourrait déjà répondre à la première.",
+      "en": "He could start by answering the first one."
+    },
+    {
+      "who": "mat",
+      "fr": "Le reste viendra ensuite.",
+      "en": "The rest will come later."
+    },
+    {
+      "who": "lea",
+      "fr": "Ce jour-là, je voulais commencer lundi",
+      "en": "That day, I wanted to start Monday"
+    },
+    {
+      "who": "lea",
+      "fr": "sans aucune surprise.",
+      "en": "with no surprises at all."
+    },
+    {
+      "who": "lea",
+      "fr": "Alors chaque ligne de mon carnet en appelait une autre.",
+      "en": "So every line in my notebook led to another."
+    },
+    {
+      "who": "mat",
+      "fr": "Tu avais trouvé une réunion où tu étais",
+      "en": "You'd found a meeting where you were"
+    },
+    {
+      "who": "mat",
+      "fr": "à la fois l'organisatrice et toute l'équipe.",
+      "en": "both the organiser and the whole team."
+    },
+    {
+      "who": "lea",
+      "fr": "Avec beaucoup de demandes et aucun biscuit.",
+      "en": "With lots of requests and no biscuits.",
+      "emote": "rire"
+    },
+    {
+      "who": "lea",
+      "fr": "Puis j'ai entendu une petite fille demander",
+      "en": "Then I heard a little girl ask"
+    },
+    {
+      "who": "lea",
+      "fr": "à son père de regarder la pluie.",
+      "en": "her father to look at the rain."
+    },
+    {
+      "who": "mat",
+      "fr": "Et tu as regardé aussi ?",
+      "en": "And you looked too?"
+    },
+    {
+      "who": "lea",
+      "fr": "Oui. Juste quelques secondes.",
+      "en": "Yes. Just a few seconds."
+    },
+    {
+      "who": "lea",
+      "fr": "Ça m'a rappelé pourquoi j'étais venue :",
+      "en": "It reminded me why I'd come:",
+      "board": {
+        "mode": "word",
+        "bg": "carnet",
+        "note": "= arrêter de penser à ses préoccupations, prendre de la distance",
+        "icon": "pluie"
+      }
+    },
+    {
+      "who": "lea",
+      "fr": "pour [décrocher] un peu.",
+      "en": "to switch off a little."
+    },
+    {
+      "who": "mat",
+      "fr": "Décrocher, ici, ça veut dire arrêter de penser",
+      "en": "\"Décrocher\", here, means to stop thinking"
+    },
+    {
+      "who": "mat",
+      "fr": "à ses préoccupations et prendre de la distance.",
+      "en": "about your worries and step back."
+    },
+    {
+      "who": "lea",
+      "fr": "Voilà.",
+      "en": "That's it."
+    },
+    {
+      "who": "lea",
+      "fr": "Par exemple, dessiner m'aide à décrocher",
+      "en": "For example, drawing helps me switch off"
+    },
+    {
+      "who": "lea",
+      "fr": "après une journée chargée.",
+      "en": "after a busy day.",
+      "boardEnd": true
+    },
+    {
+      "who": "mat",
+      "fr": "Alors, tu as réussi à lire ?",
+      "en": "So, did you manage to read?"
+    },
+    {
+      "who": "lea",
+      "fr": "Quelques pages. J'ai rangé mon carnet,",
+      "en": "A few pages. I put my notebook away,"
+    },
+    {
+      "who": "lea",
+      "fr": "même si ma semaine n'était pas entièrement organisée.",
+      "en": "even though my week wasn't fully organised."
+    },
+    {
+      "who": "mat",
+      "fr": "Et la mer est revenue.",
+      "en": "And the sea came back."
+    },
+    {
+      "who": "lea",
+      "fr": "Oui. Avec un personnage qui avait raté son bateau.",
+      "en": "Yes. With a character who had missed his boat."
+    },
+    {
+      "who": "lea",
+      "fr": "J'étais ravie que ce rendez-vous ne soit pas le mien.",
+      "en": "I was delighted that appointment wasn't mine.",
+      "emote": "rire"
+    },
+    {
+      "who": "mat",
+      "fr": "Samedi, j'ai participé à un atelier",
+      "en": "On Saturday, I took part in a repair workshop"
+    },
+    {
+      "who": "mat",
+      "fr": "de réparation à la maison de quartier.",
+      "en": "at the community centre."
+    },
+    {
+      "who": "mat",
+      "fr": "On aide les gens à réparer de petits objets.",
+      "en": "We help people fix small objects."
+    },
+    {
+      "who": "lea",
+      "fr": "Tu y vas souvent ?",
+      "en": "Do you go often?"
+    },
+    {
+      "who": "mat",
+      "fr": "Une fois par mois.",
+      "en": "Once a month."
+    },
+    {
+      "who": "mat",
+      "fr": "Cette fois, je devais rester jusqu'à midi.",
+      "en": "This time, I was supposed to stay until noon."
+    },
+    {
+      "who": "mat",
+      "fr": "Après, j'avais prévu une promenade avec un ami.",
+      "en": "After that, I'd planned a walk with a friend.",
+      "illus": "amis",
+      "label": "un ami"
+    },
+    {
+      "who": "lea",
+      "fr": "Tu as pu partir à l'heure ?",
+      "en": "Were you able to leave on time?"
+    },
+    {
+      "who": "mat",
+      "fr": "Non. J'ai commencé à [en faire trop.]",
+      "en": "No. I started overdoing it.",
+      "emote": "gene"
+    },
+    {
+      "who": "mat",
+      "fr": "Une personne avait besoin d'aide pour une fermeture,",
+      "en": "One person needed help with a zip,"
+    },
+    {
+      "who": "mat",
+      "fr": "une autre pour une lampe.",
+      "en": "another with a lamp."
+    },
+    {
+      "who": "lea",
+      "fr": "En faire trop, c'est dépasser",
+      "en": "\"En faire trop\" means going beyond"
+    },
+    {
+      "who": "lea",
+      "fr": "ce qu'on peut raisonnablement faire.",
+      "en": "what you can reasonably do."
+    },
+    {
+      "who": "mat",
+      "fr": "Comme quand je prépare six activités",
+      "en": "Like when I plan six activities"
+    },
+    {
+      "who": "mat",
+      "fr": "pour une seule journée de vacances.",
+      "en": "for a single day of holiday."
+    },
+    {
+      "who": "mat",
+      "fr": "J'en fais trop et je cours partout.",
+      "en": "I overdo it and I rush around everywhere."
+    },
+    {
+      "who": "lea",
+      "fr": "Tu n'étais pas le seul bénévole, pourtant.",
+      "en": "You weren't the only volunteer, though."
+    },
+    {
+      "who": "mat",
+      "fr": "Non, mais je disais oui avant",
+      "en": "No, but I said yes before"
+    },
+    {
+      "who": "mat",
+      "fr": "de regarder ce qui m'attendait déjà.",
+      "en": "looking at what was already waiting for me."
+    },
+    {
+      "who": "mat",
+      "fr": "À midi, j'avais [la tête sous l'eau.]",
+      "en": "By noon, I was completely snowed under.",
+      "emote": "fatigue",
+      "board": {
+        "mode": "word",
+        "note": "= se sentir débordé, avec trop de choses à gérer",
+        "icon": "travail"
+      }
+    },
+    {
+      "who": "lea",
+      "fr": "Tu te sentais débordé, avec trop de choses à gérer.",
+      "en": "You felt overwhelmed, with too many things to handle."
+    },
+    {
+      "who": "lea",
+      "fr": "C'est une expression imagée.",
+      "en": "It's a figurative expression."
+    },
+    {
+      "who": "mat",
+      "fr": "Par exemple, cette semaine, avec les commandes du magasin,",
+      "en": "For example, this week, with the shop's orders,"
+    },
+    {
+      "who": "mat",
+      "fr": "ma cousine a la tête sous l'eau.",
+      "en": "my cousin is snowed under.",
+      "boardEnd": true
+    },
+    {
+      "who": "lea",
+      "fr": "Et ton ami ?",
+      "en": "And your friend?"
+    },
+    {
+      "who": "mat",
+      "fr": "Il m'a appelé.",
+      "en": "He called me."
+    },
+    {
+      "who": "mat",
+      "fr": "J'ai dit : « Encore dix minutes. »",
+      "en": "I said: \"Ten more minutes.\""
+    },
+    {
+      "who": "mat",
+      "fr": "Sauf que je n'avais aucune idée du temps nécessaire.",
+      "en": "Except I had no idea how long it would take."
+    },
+    {
+      "who": "lea",
+      "fr": "Dix minutes très optimistes.",
+      "en": "Ten very optimistic minutes.",
+      "emote": "rire"
+    },
+    {
+      "who": "mat",
+      "fr": "Oui.",
+      "en": "Yes."
+    },
+    {
+      "who": "mat",
+      "fr": "Une autre bénévole m'a demandé",
+      "en": "Another volunteer asked me"
+    },
+    {
+      "who": "mat",
+      "fr": "à quelle heure je finissais.",
+      "en": "what time I finished."
+    },
+    {
+      "who": "mat",
+      "fr": "J'ai répondu : « Normalement, il y a une demi-heure. »",
+      "en": "I answered: \"Normally, half an hour ago.\"",
+      "react": "surpris"
+    },
+    {
+      "who": "lea",
+      "fr": "Elle a dû comprendre.",
+      "en": "She must have understood."
+    },
+    {
+      "who": "mat",
+      "fr": "Elle m'a proposé de reprendre la suite.",
+      "en": "She offered to take over."
+    },
+    {
+      "who": "mat",
+      "fr": "Elle m'a aussi conseillé de",
+      "en": "She also advised me to"
+    },
+    {
+      "who": "mat",
+      "fr": "[poser mes limites] dès mon arrivée.",
+      "en": "set my boundaries as soon as I arrive.",
+      "board": {
+        "mode": "word",
+        "bg": "carnet",
+        "note": "= dire clairement ce qu'on accepte et jusqu'où on peut aller",
+        "icon": "telephone"
+      }
+    },
+    {
+      "who": "lea",
+      "fr": "C'est dire clairement ce qu'on accepte",
+      "en": "That's saying clearly what you accept"
+    },
+    {
+      "who": "lea",
+      "fr": "et jusqu'où on peut aller.",
+      "en": "and how far you can go."
+    },
+    {
+      "who": "mat",
+      "fr": "Par exemple, pour les appels professionnels,",
+      "en": "For example, for work calls,"
+    },
+    {
+      "who": "mat",
+      "fr": "je pose mes limites :",
+      "en": "I set my limits:"
+    },
+    {
+      "who": "mat",
+      "fr": "je suis disponible jusqu'à dix-huit heures.",
+      "en": "I'm available until six p.m.",
+      "boardEnd": true
+    },
+    {
+      "who": "lea",
+      "fr": "Tu peux donc être utile sans rester",
+      "en": "So you can be useful without"
+    },
+    {
+      "who": "lea",
+      "fr": "jusqu'au départ de la dernière personne.",
+      "en": "staying until the last person leaves."
+    },
+    {
+      "who": "mat",
+      "fr": "Oui.",
+      "en": "Yes."
+    },
+    {
+      "who": "mat",
+      "fr": "La prochaine fois, je dirai mon horaire au début.",
+      "en": "Next time, I'll say my schedule at the start."
+    },
+    {
+      "who": "mat",
+      "fr": "Mon ami a été patient,",
+      "en": "My friend was patient,"
+    },
+    {
+      "who": "mat",
+      "fr": "mais notre promenade méritait aussi une place.",
+      "en": "but our walk deserved a place too."
+    },
+    {
+      "who": "lea",
+      "fr": "Tu lui as présenté tes excuses ?",
+      "en": "Did you apologise to him?"
+    },
+    {
+      "who": "mat",
+      "fr": "Oui. Puis nous avons marché tranquillement.",
+      "en": "Yes. Then we walked at a relaxed pace."
+    },
+    {
+      "who": "mat",
+      "fr": "Je n'ai proposé de réparer aucun banc.",
+      "en": "I didn't offer to repair a single bench.",
+      "react": "rire"
+    },
+    {
+      "who": "lea",
+      "fr": "Dans nos deux histoires,",
+      "en": "In both our stories,"
+    },
+    {
+      "who": "lea",
+      "fr": "personne ne nous demandait de tout faire.",
+      "en": "nobody was asking us to do everything."
+    },
+    {
+      "who": "lea",
+      "fr": "Pourtant, nous nous sentions obligés de continuer.",
+      "en": "And yet, we felt we had to keep going."
+    },
+    {
+      "who": "mat",
+      "fr": "Pour moi, partir semblait vouloir dire",
+      "en": "For me, leaving seemed to mean"
+    },
+    {
+      "who": "mat",
+      "fr": "que je n'étais pas assez serviable.",
+      "en": "that I wasn't helpful enough."
+    },
+    {
+      "who": "mat",
+      "fr": "Même avec d'autres bénévoles présents.",
+      "en": "Even with other volunteers there."
+    },
+    {
+      "who": "lea",
+      "fr": "Moi, j'avais l'impression qu'une heure",
+      "en": "Me, I felt that an hour"
+    },
+    {
+      "who": "lea",
+      "fr": "sans préparation était une heure perdue.",
+      "en": "without preparing was an hour wasted."
+    },
+    {
+      "who": "mat",
+      "fr": "On confond parfois une envie",
+      "en": "We sometimes confuse a wish"
+    },
+    {
+      "who": "mat",
+      "fr": "de bien faire avec une urgence.",
+      "en": "to do well with an emergency."
+    },
+    {
+      "who": "lea",
+      "fr": "[Une urgence,] c'est une situation",
+      "en": "An emergency is a situation"
+    },
+    {
+      "who": "lea",
+      "fr": "qui demande une action rapide.",
+      "en": "that calls for quick action."
+    },
+    {
+      "who": "lea",
+      "fr": "Mais toutes les demandes ne sont pas urgentes.",
+      "en": "But not every request is urgent."
+    },
+    {
+      "who": "mat",
+      "fr": "Par exemple, une fuite d'eau importante est une urgence.",
+      "en": "For example, a big water leak is an emergency.",
+      "board": {
+        "mode": "compare",
+        "bg": "craie",
+        "title": "C'est urgent ?",
+        "left": {
+          "head": "une urgence",
+          "sub": "une action rapide",
+          "items": [
+            {
+              "text": "une fuite d'eau importante",
+              "at": 0
+            }
+          ]
+        },
+        "right": {
+          "head": "ça peut attendre",
+          "sub": "pas urgent",
+          "items": [
+            {
+              "text": "la couleur d'une affiche",
+              "at": 1
+            },
+            {
+              "text": "« Pour quand en as-tu besoin ? »",
+              "at": 4
+            }
+          ]
+        }
+      }
+    },
+    {
+      "who": "mat",
+      "fr": "Choisir la couleur d'une affiche",
+      "en": "Choosing the colour of a poster"
+    },
+    {
+      "who": "mat",
+      "fr": "peut généralement attendre.",
+      "en": "can usually wait."
+    },
+    {
+      "who": "lea",
+      "fr": "Et quand le délai n'est pas clair,",
+      "en": "And when the deadline isn't clear,"
+    },
+    {
+      "who": "lea",
+      "fr": "on peut demander : « Pour quand en as-tu besoin ? »",
+      "en": "you can ask: \"When do you need it by?\"",
+      "boardEnd": true
+    },
+    {
+      "who": "mat",
+      "fr": "Ça évite d'inventer un délai dans sa tête.",
+      "en": "That stops you inventing a deadline in your head."
+    },
+    {
+      "who": "mat",
+      "fr": "Je suis très fort pour m'attribuer",
+      "en": "I'm very good at giving myself"
+    },
+    {
+      "who": "mat",
+      "fr": "des missions avant même le début du projet.",
+      "en": "missions before the project has even started.",
+      "react": "rire"
+    },
+    {
+      "who": "lea",
+      "fr": "[Une obligation] est différente :",
+      "en": "An obligation is different:"
+    },
+    {
+      "who": "lea",
+      "fr": "c'est quelque chose qu'on doit faire,",
+      "en": "it's something you have to do,"
+    },
+    {
+      "who": "lea",
+      "fr": "à cause d'un engagement ou d'une règle.",
+      "en": "because of a commitment or a rule."
+    },
+    {
+      "who": "mat",
+      "fr": "Par exemple, respecter cet horaire",
+      "en": "For example, keeping to this schedule"
+    },
+    {
+      "who": "mat",
+      "fr": "fait partie de mes obligations au travail.",
+      "en": "is part of my obligations at work."
+    },
+    {
+      "who": "lea",
+      "fr": "Certaines obligations sont réelles.",
+      "en": "Some obligations are real."
+    },
+    {
+      "who": "lea",
+      "fr": "On ne peut pas simplement quitter",
+      "en": "You can't simply leave"
+    },
+    {
+      "who": "lea",
+      "fr": "son poste ou arrêter de s'occuper d'un enfant.",
+      "en": "your post or stop looking after a child."
+    },
+    {
+      "who": "mat",
+      "fr": "Une amie travaille à l'accueil d'un centre sportif.",
+      "en": "A friend works at the front desk of a sports centre.",
+      "illus": "sport",
+      "label": "un centre sportif"
+    },
+    {
+      "who": "mat",
+      "fr": "Elle ne peut pas fermer",
+      "en": "She can't close"
+    },
+    {
+      "who": "mat",
+      "fr": "le guichet quand elle souhaite se promener.",
+      "en": "the counter whenever she wants to go for a walk."
+    },
+    {
+      "who": "lea",
+      "fr": "Alors lui dire de ralentir ne suffit pas.",
+      "en": "So telling her to slow down isn't enough."
+    },
+    {
+      "who": "lea",
+      "fr": "Il faut aussi regarder l'organisation",
+      "en": "You also have to look at the organisation"
+    },
+    {
+      "who": "lea",
+      "fr": "et les possibilités de relais.",
+      "en": "and who can take over."
+    },
+    {
+      "who": "mat",
+      "fr": "Oui. Et avoir une soirée libre",
+      "en": "Yes. And having a free evening"
+    },
+    {
+      "who": "mat",
+      "fr": "ne signifie pas toujours avoir encore de l'énergie.",
+      "en": "doesn't always mean you still have energy."
+    },
+    {
+      "who": "lea",
+      "fr": "Parfois, on [est à bout] : on se sent épuisé,",
+      "en": "Sometimes, you're at the end of your rope: you feel exhausted,"
+    },
+    {
+      "who": "lea",
+      "fr": "avec très peu de forces disponibles.",
+      "en": "with very little strength left."
+    },
+    {
+      "who": "mat",
+      "fr": "Après plusieurs jours de déménagement,",
+      "en": "After several days of moving house,"
+    },
+    {
+      "who": "mat",
+      "fr": "mon frère était à bout.",
+      "en": "my brother was exhausted.",
+      "emote": "fatigue",
+      "illus": "famille",
+      "label": "mon frère"
+    },
+    {
+      "who": "mat",
+      "fr": "Il a demandé qu'on l'aide à terminer.",
+      "en": "He asked for help to finish."
+    },
+    {
+      "who": "lea",
+      "fr": "Demander de l'aide peut compter davantage",
+      "en": "Asking for help can matter more than a"
+    },
+    {
+      "who": "lea",
+      "fr": "qu'une nouvelle méthode pour mieux remplir son agenda.",
+      "en": "new method to fill your diary better."
+    },
+    {
+      "who": "lea",
+      "fr": "Faisons un jeu de rôle.",
+      "en": "Let's do a role play."
+    },
+    {
+      "who": "lea",
+      "fr": "Je suis ta voisine et je te demande un service.",
+      "en": "I'm your neighbour and I'm asking you a favour."
+    },
+    {
+      "who": "mat",
+      "fr": "Écoutez sa demande, puis essayez de répondre avant moi.",
+      "en": "Listen to her request, then try to answer before me."
+    },
+    {
+      "who": "lea",
+      "fr": "Je serai absente cette semaine.",
+      "en": "I'll be away this week.",
+      "board": {
+        "mode": "sketch",
+        "title": "En situation : entre voisins"
+      }
+    },
+    {
+      "who": "lea",
+      "fr": "Tu pourrais recevoir mes colis tous les jours ?",
+      "en": "Could you take in my parcels every day?"
+    },
+    {
+      "who": "mat",
+      "fr": "À vous.",
+      "en": "Your turn."
+    },
+    {
+      "who": "mat",
+      "fr": "Vous voulez aider,",
+      "en": "You want to help,"
+    },
+    {
+      "who": "mat",
+      "fr": "mais vous êtes disponible seulement mardi.",
+      "en": "but you're only free on Tuesday."
+    },
+    {
+      "who": "mat",
+      "fr": "Que diriez-vous ? Prenez quelques secondes.",
+      "en": "What would you say? Take a few seconds."
+    },
+    {
+      "who": "lea",
+      "fr": "Vous pouvez commencer par : « Je peux…",
+      "en": "You can start with: \"I can…"
+    },
+    {
+      "who": "lea",
+      "fr": "mais je ne peux pas… »",
+      "en": "but I can't…\""
+    },
+    {
+      "who": "mat",
+      "fr": "Je peux recevoir tes colis mardi,",
+      "en": "I can take in your parcels on Tuesday,"
+    },
+    {
+      "who": "mat",
+      "fr": "mais je ne peux pas rester disponible toute la semaine.",
+      "en": "but I can't stay available all week."
+    },
+    {
+      "who": "lea",
+      "fr": "Ah, d'accord.",
+      "en": "Ah, OK.",
+      "emote": "idee"
+    },
+    {
+      "who": "lea",
+      "fr": "Tu travailles chez toi les autres jours, pourtant ?",
+      "en": "You work from home the other days, though?"
+    },
+    {
+      "who": "mat",
+      "fr": "Oui, mais j'ai des rendez-vous",
+      "en": "Yes, but I have appointments and I"
+    },
+    {
+      "who": "mat",
+      "fr": "et je ne peux pas m'interrompre à chaque livraison.",
+      "en": "can't stop for every delivery."
+    },
+    {
+      "who": "lea",
+      "fr": "Je comprends.",
+      "en": "I understand."
+    },
+    {
+      "who": "lea",
+      "fr": "Pour mardi, je t'envoie les informations maintenant ?",
+      "en": "For Tuesday, shall I send you the details now?"
+    },
+    {
+      "who": "mat",
+      "fr": "Est-ce qu'on peut remettre ça à plus tard ?",
+      "en": "Can we put that off until later?"
+    },
+    {
+      "who": "mat",
+      "fr": "Je pars dans quelques minutes.",
+      "en": "I'm leaving in a few minutes."
+    },
+    {
+      "who": "mat",
+      "fr": "Je pourrai regarder ce soir.",
+      "en": "I'll be able to look this evening."
+    },
+    {
+      "who": "lea",
+      "fr": "Remettre à plus tard,",
+      "en": "\"Remettre à plus tard\""
+    },
+    {
+      "who": "lea",
+      "fr": "c'est décider de faire quelque chose après,",
+      "en": "means deciding to do something afterwards,"
+    },
+    {
+      "who": "lea",
+      "fr": "au lieu de le faire maintenant.",
+      "en": "instead of doing it now."
+    },
+    {
+      "who": "mat",
+      "fr": "Par exemple, nous avons remis la visite",
+      "en": "For example, we put the visit off"
+    },
+    {
+      "who": "mat",
+      "fr": "à plus tard parce que le musée était fermé.",
+      "en": "until later because the museum was closed."
+    },
+    {
+      "who": "lea",
+      "fr": "Très bien. Je t'envoie un message ce soir.",
+      "en": "Very good. I'll send you a message this evening."
+    },
+    {
+      "who": "lea",
+      "fr": "Et je vais chercher une autre",
+      "en": "And I'll look for another"
+    },
+    {
+      "who": "lea",
+      "fr": "solution pour les autres jours.",
+      "en": "solution for the other days."
+    },
+    {
+      "who": "mat",
+      "fr": "Merci. Mardi, je pourrai réceptionner les colis",
+      "en": "Thanks. On Tuesday, I can receive the parcels"
+    },
+    {
+      "who": "mat",
+      "fr": "entre neuf heures et midi.",
+      "en": "between nine and noon."
+    },
+    {
+      "who": "lea",
+      "fr": "Parfait, je vérifierai si ce créneau convient.",
+      "en": "Perfect, I'll check if that time slot works.",
+      "boardEnd": true
+    },
+    {
+      "who": "mat",
+      "fr": "Voilà. J'ai proposé quelque chose de précis,",
+      "en": "There. I offered something specific,",
+      "board": {
+        "mode": "steps",
+        "title": "Poser une limite simplement",
+        "items": [
+          {
+            "text": "Je peux…, mais je ne peux pas…",
+            "at": 0
+          },
+          {
+            "text": "Cette fois, je ne pourrai pas.",
+            "at": 7
+          },
+          {
+            "text": "Je peux t'aider pendant une demi-heure.",
+            "at": 8
+          }
+        ]
+      }
+    },
+    {
+      "who": "mat",
+      "fr": "sans promettre toute ma semaine.",
+      "en": "without promising my whole week."
+    },
+    {
+      "who": "lea",
+      "fr": "Et tu n'as pas raconté",
+      "en": "And you didn't recount"
+    },
+    {
+      "who": "lea",
+      "fr": "chaque rendez-vous pour justifier ta réponse.",
+      "en": "every appointment to justify your answer."
+    },
+    {
+      "who": "mat",
+      "fr": "J'aurais pu. Avec les horaires,",
+      "en": "I could have. With the times,"
+    },
+    {
+      "who": "mat",
+      "fr": "les adresses et un petit plan du quartier.",
+      "en": "the addresses and a little map of the neighbourhood.",
+      "react": "rire"
+    },
+    {
+      "who": "lea",
+      "fr": "Une réponse claire suffisait.",
+      "en": "A clear answer was enough."
+    },
+    {
+      "who": "lea",
+      "fr": "On peut aussi dire : « Cette fois, je ne pourrai pas. »",
+      "en": "You can also say: \"This time, I won't be able to.\""
+    },
+    {
+      "who": "mat",
+      "fr": "Ou : « Je peux t'aider pendant une demi-heure. »",
+      "en": "Or: \"I can help you for half an hour.\""
+    },
+    {
+      "who": "mat",
+      "fr": "Même une réponse courte peut être chaleureuse.",
+      "en": "Even a short answer can be warm.",
+      "emote": "coeur",
+      "boardEnd": true
+    },
+    {
+      "who": "lea",
+      "fr": "Pour commencer, on peut choisir un moment",
+      "en": "To start, you can choose a moment"
+    },
+    {
+      "who": "lea",
+      "fr": "où l'on a réellement une marge de liberté.",
+      "en": "when you really have some room to breathe."
+    },
+    {
+      "who": "mat",
+      "fr": "Moi, je vais [lever le pied] après l'atelier du samedi.",
+      "en": "Me, I'm going to ease off after the Saturday workshop."
+    },
+    {
+      "who": "mat",
+      "fr": "Je vais ralentir au lieu d'ajouter encore une activité.",
+      "en": "I'll slow down instead of adding yet another activity."
+    },
+    {
+      "who": "lea",
+      "fr": "C'est le sens de lever le pied.",
+      "en": "That's what \"lever le pied\" means."
+    },
+    {
+      "who": "lea",
+      "fr": "Exemple : après ce gros projet,",
+      "en": "Example: after this big project,"
+    },
+    {
+      "who": "lea",
+      "fr": "notre équipe va lever le pied pendant quelques jours.",
+      "en": "our team is going to ease off for a few days."
+    },
+    {
+      "who": "mat",
+      "fr": "Je garde donc ma promenade,",
+      "en": "So I'm keeping my walk,"
+    },
+    {
+      "who": "mat",
+      "fr": "mais je ne transforme pas le retour",
+      "en": "but I'm not turning"
+    },
+    {
+      "who": "mat",
+      "fr": "en liste de courses interminable.",
+      "en": "the way home into an endless shopping list."
+    },
+    {
+      "who": "lea",
+      "fr": "De mon côté,",
+      "en": "As for me,"
+    },
+    {
+      "who": "lea",
+      "fr": "je vais laisser mon carnet",
+      "en": "I'm going to leave my notebook in"
+    },
+    {
+      "who": "lea",
+      "fr": "dans mon sac quand j'arrive à la médiathèque.",
+      "en": "my bag when I get to the media library."
+    },
+    {
+      "who": "mat",
+      "fr": "Une idée peut quand même arriver pendant la lecture.",
+      "en": "An idea can still come up while you're reading.",
+      "illus": "lecture",
+      "label": "la lecture"
+    },
+    {
+      "who": "lea",
+      "fr": "Oui.",
+      "en": "Yes."
+    },
+    {
+      "who": "lea",
+      "fr": "Je peux noter un mot, puis revenir au livre.",
+      "en": "I can jot down a word, then go back to the book."
+    },
+    {
+      "who": "lea",
+      "fr": "Je n'ai pas besoin de développer",
+      "en": "I don't need to develop"
+    },
+    {
+      "who": "lea",
+      "fr": "tout le projet immédiatement.",
+      "en": "the whole project right away."
+    },
+    {
+      "who": "mat",
+      "fr": "Et pour [souffler,]",
+      "en": "And to take a breather,"
+    },
+    {
+      "who": "mat",
+      "fr": "il faut forcément un grand moment de calme ?",
+      "en": "do you necessarily need a long moment of calm?"
+    },
+    {
+      "who": "lea",
+      "fr": "Non. Souffler, ici, c'est prendre une petite pause.",
+      "en": "No. \"Souffler\", here, means taking a little break."
+    },
+    {
+      "who": "lea",
+      "fr": "Après avoir installé les tables,",
+      "en": "After setting up the tables,"
+    },
+    {
+      "who": "lea",
+      "fr": "on a soufflé quelques minutes dans la cour.",
+      "en": "we took a breather for a few minutes in the courtyard."
+    },
+    {
+      "who": "mat",
+      "fr": "Moi, je pourrais simplement m'asseoir",
+      "en": "Me, I could simply sit down",
+      "board": {
+        "mode": "mindmap",
+        "bg": "craie",
+        "word": "une pause",
+        "icon": "cafe",
+        "items": [
+          {
+            "text": "s'asseoir",
+            "at": 0
+          },
+          {
+            "text": "ne rien écouter",
+            "at": 1
+          },
+          {
+            "text": "marcher",
+            "at": 3
+          },
+          {
+            "text": "discuter",
+            "at": 3
+          }
+        ]
+      }
+    },
+    {
+      "who": "mat",
+      "fr": "sans chercher quelque chose à écouter,",
+      "en": "without looking for something to listen to,"
+    },
+    {
+      "who": "mat",
+      "fr": "à ranger ou à apprendre.",
+      "en": "to tidy or to learn."
+    },
+    {
+      "who": "lea",
+      "fr": "Tu peux aussi marcher ou discuter.",
+      "en": "You can also walk or chat.",
+      "boardEnd": true
+    },
+    {
+      "who": "lea",
+      "fr": "Il n'y a pas",
+      "en": "There isn't"
+    },
+    {
+      "who": "lea",
+      "fr": "une seule bonne façon de passer ce moment.",
+      "en": "one single right way to spend that moment."
+    },
+    {
+      "who": "mat",
+      "fr": "Et si je pense encore au travail ?",
+      "en": "And what if I still think about work?",
+      "illus": "travail",
+      "label": "le travail"
+    },
+    {
+      "who": "lea",
+      "fr": "Ça peut arriver.",
+      "en": "That can happen."
+    },
+    {
+      "who": "lea",
+      "fr": "Tu n'as pas raté ta pause",
+      "en": "You haven't failed your break"
+    },
+    {
+      "who": "lea",
+      "fr": "parce qu'une pensée est revenue.",
+      "en": "because a thought came back."
+    },
+    {
+      "who": "mat",
+      "fr": "Ça me rassure.",
+      "en": "That reassures me.",
+      "emote": "coeur"
+    },
+    {
+      "who": "mat",
+      "fr": "Sinon, j'allais préparer un tableau",
+      "en": "Otherwise, I was going to make a chart"
+    },
+    {
+      "who": "mat",
+      "fr": "pour mesurer la qualité de mes pauses.",
+      "en": "to measure the quality of my breaks.",
+      "react": "rire"
+    },
+    {
+      "who": "lea",
+      "fr": "Tu peux plutôt essayer de [ménager tes forces] :",
+      "en": "Instead, you can try to pace yourself:",
+      "board": {
+        "mode": "word",
+        "note": "= utiliser son énergie avec attention, ne pas tout dépenser d'un coup",
+        "icon": "sport"
+      }
+    },
+    {
+      "who": "lea",
+      "fr": "utiliser ton énergie avec attention",
+      "en": "use your energy carefully"
+    },
+    {
+      "who": "lea",
+      "fr": "pour ne pas tout dépenser d'un coup.",
+      "en": "so you don't spend it all at once."
+    },
+    {
+      "who": "mat",
+      "fr": "Par exemple, pendant une longue randonnée,",
+      "en": "For example, on a long hike,"
+    },
+    {
+      "who": "mat",
+      "fr": "je ménage mes forces",
+      "en": "I pace myself"
+    },
+    {
+      "who": "mat",
+      "fr": "en marchant tranquillement dès le départ.",
+      "en": "by walking calmly from the start.",
+      "boardEnd": true
+    },
+    {
+      "who": "lea",
+      "fr": "Pour moi, ça veut dire garder un dîner simple",
+      "en": "For me, it means keeping dinner simple"
+    },
+    {
+      "who": "lea",
+      "fr": "les soirs où j'ai déjà beaucoup de choses à faire.",
+      "en": "on evenings when I already have lots to do."
+    },
+    {
+      "who": "mat",
+      "fr": "Et si je range toute la cuisine",
+      "en": "And if I tidy the whole"
+    },
+    {
+      "who": "mat",
+      "fr": "pour éviter un message difficile,",
+      "en": "kitchen to avoid a difficult message,"
+    },
+    {
+      "who": "mat",
+      "fr": "ce n'est peut-être pas la pause dont j'avais envie.",
+      "en": "maybe that's not the break I wanted."
+    },
+    {
+      "who": "lea",
+      "fr": "Tu peux te demander ce qui te retient,",
+      "en": "You can ask yourself what's holding you back,"
+    },
+    {
+      "who": "lea",
+      "fr": "puis choisir quand répondre.",
+      "en": "then choose when to reply."
+    },
+    {
+      "who": "lea",
+      "fr": "Ce n'est pas nécessaire de régler cela immédiatement.",
+      "en": "You don't need to sort it out right away."
+    },
+    {
+      "who": "mat",
+      "fr": "Chacun peut avancer [à son rythme] :",
+      "en": "Everyone can move forward at their own pace:"
+    },
+    {
+      "who": "mat",
+      "fr": "à une vitesse qui lui convient.",
+      "en": "at a speed that suits them."
+    },
+    {
+      "who": "lea",
+      "fr": "Oui.",
+      "en": "Yes."
+    },
+    {
+      "who": "lea",
+      "fr": "Dans mon cours de dessin, chacun apprend à son rythme.",
+      "en": "In my drawing class, everyone learns at their own pace."
+    },
+    {
+      "who": "lea",
+      "fr": "Personne ne termine au même moment.",
+      "en": "Nobody finishes at the same time."
+    },
+    {
+      "who": "mat",
+      "fr": "Mon fauteuil sera content.",
+      "en": "My armchair will be happy."
+    },
+    {
+      "who": "mat",
+      "fr": "Il n'a jamais aimé les compétitions.",
+      "en": "It's never liked competitions.",
+      "react": "rire"
+    },
+    {
+      "who": "lea",
+      "fr": "Maintenant, reprenez votre idée du début.",
+      "en": "Now, go back to your idea from the start.",
+      "board": {
+        "mode": "steps",
+        "bg": "carnet",
+        "title": "À vous de parler",
+        "items": [
+          {
+            "text": "J'aimerais prendre mon temps pour… parce que…",
+            "at": 2
+          },
+          {
+            "text": "Pour garder ce moment, je peux…",
+            "at": 13
+          },
+          {
+            "text": "Est-ce que tu pourrais prendre le relais ?",
+            "at": 25
+          }
+        ]
+      }
+    },
+    {
+      "who": "lea",
+      "fr": "Complétez cette phrase :",
+      "en": "Complete this sentence:"
+    },
+    {
+      "who": "lea",
+      "fr": "« J'aimerais prendre mon temps pour…",
+      "en": "\"I'd like to take my time to…"
+    },
+    {
+      "who": "lea",
+      "fr": "parce que… »",
+      "en": "because…\""
+    },
+    {
+      "who": "mat",
+      "fr": "J'aimerais prendre mon temps",
+      "en": "I'd like to take my time"
+    },
+    {
+      "who": "mat",
+      "fr": "pour marcher après le déjeuner,",
+      "en": "walking after lunch,"
+    },
+    {
+      "who": "mat",
+      "fr": "parce que j'aime regarder ce qui change dans mon quartier.",
+      "en": "because I like seeing what changes in my neighbourhood."
+    },
+    {
+      "who": "lea",
+      "fr": "J'aimerais prendre mon temps pour lire le dimanche,",
+      "en": "I'd like to take my time reading on Sundays,"
+    },
+    {
+      "who": "lea",
+      "fr": "parce que j'ai envie de suivre une histoire",
+      "en": "because I want to follow a story"
+    },
+    {
+      "who": "lea",
+      "fr": "sans préparer la suite de ma journée.",
+      "en": "without planning the rest of my day."
+    },
+    {
+      "who": "mat",
+      "fr": "À votre tour.",
+      "en": "Your turn."
+    },
+    {
+      "who": "mat",
+      "fr": "Dites votre phrase à voix haute.",
+      "en": "Say your sentence out loud."
+    },
+    {
+      "who": "mat",
+      "fr": "Vous pouvez utiliser des mots très simples.",
+      "en": "You can use very simple words."
+    },
+    {
+      "who": "lea",
+      "fr": "Ensuite, ajoutez une limite possible :",
+      "en": "Then, add a possible limit:"
+    },
+    {
+      "who": "lea",
+      "fr": "« Pour garder ce moment, je peux… »",
+      "en": "\"To protect this moment, I can…\""
+    },
+    {
+      "who": "mat",
+      "fr": "Pour garder ce moment,",
+      "en": "To protect this moment,"
+    },
+    {
+      "who": "mat",
+      "fr": "je peux annoncer mon heure",
+      "en": "I can announce my leaving time"
+    },
+    {
+      "who": "mat",
+      "fr": "de départ avant de commencer l'atelier.",
+      "en": "before the workshop starts."
+    },
+    {
+      "who": "lea",
+      "fr": "Pour garder ce moment,",
+      "en": "To protect this moment,"
+    },
+    {
+      "who": "lea",
+      "fr": "je peux préparer ma liste de courses",
+      "en": "I can make my shopping list"
+    },
+    {
+      "who": "lea",
+      "fr": "à un autre moment de la journée.",
+      "en": "at another time of day."
+    },
+    {
+      "who": "mat",
+      "fr": "Choisissez quelque chose qui dépend un peu de vous.",
+      "en": "Choose something that depends a little on you."
+    },
+    {
+      "who": "mat",
+      "fr": "Vous n'avez pas besoin de réorganiser toute votre vie.",
+      "en": "You don't need to reorganise your whole life."
+    },
+    {
+      "who": "lea",
+      "fr": "Et si vous avez surtout besoin d'aide,",
+      "en": "And if what you mostly need is help,"
+    },
+    {
+      "who": "lea",
+      "fr": "vous pouvez dire :",
+      "en": "you can say:"
+    },
+    {
+      "who": "lea",
+      "fr": "« Est-ce que tu pourrais prendre le relais ? »",
+      "en": "\"Could you take over?\""
+    },
+    {
+      "who": "mat",
+      "fr": "C'est aussi une phrase précieuse à savoir prononcer.",
+      "en": "That's also a precious sentence to know how to say.",
+      "boardEnd": true
+    },
+    {
+      "who": "lea",
+      "fr": "Revenons sur cinq expressions.",
+      "en": "Let's go back over five expressions.",
+      "board": {
+        "mode": "steps",
+        "title": "Le petit tour des mots",
+        "items": [
+          {
+            "text": "se mettre la pression",
+            "at": 2
+          },
+          {
+            "text": "avoir la tête sous l'eau",
+            "at": 12
+          },
+          {
+            "text": "poser ses limites",
+            "at": 20
+          },
+          {
+            "text": "lever le pied",
+            "at": 29
+          },
+          {
+            "text": "ménager ses forces",
+            "at": 37
+          }
+        ]
+      }
+    },
+    {
+      "who": "lea",
+      "fr": "Écoutez leur sens, puis répétez avec nous.",
+      "en": "Listen to their meaning, then repeat with us."
+    },
+    {
+      "who": "mat",
+      "fr": "La première, c'est se mettre la pression.",
+      "en": "The first one is \"se mettre la pression\"."
+    },
+    {
+      "who": "mat",
+      "fr": "À la médiathèque,",
+      "en": "At the media library,"
+    },
+    {
+      "who": "mat",
+      "fr": "Léa voulait préparer une semaine sans aucune surprise.",
+      "en": "Léa wanted to plan a week with no surprises at all."
+    },
+    {
+      "who": "lea",
+      "fr": "C'est se créer une forte exigence,",
+      "en": "It's setting yourself high standards,"
+    },
+    {
+      "who": "lea",
+      "fr": "parfois difficile à supporter.",
+      "en": "sometimes hard to bear."
+    },
+    {
+      "who": "lea",
+      "fr": "Nouvel exemple : pour ce repas entre amis,",
+      "en": "New example: for this meal with friends,"
+    },
+    {
+      "who": "lea",
+      "fr": "je me mets la pression inutilement.",
+      "en": "I'm putting pressure on myself for nothing."
+    },
+    {
+      "who": "mat",
+      "fr": "On répète : se mettre la pression.",
+      "en": "Let's repeat: se mettre la pression."
+    },
+    {
+      "who": "mat",
+      "fr": "Un dîner peut commencer",
+      "en": "A dinner can start without"
+    },
+    {
+      "who": "mat",
+      "fr": "sans que les serviettes soient parfaitement pliées.",
+      "en": "the napkins being perfectly folded."
+    },
+    {
+      "who": "lea",
+      "fr": "Deuxième expression : avoir la tête sous l'eau.",
+      "en": "Second expression: avoir la tête sous l'eau."
+    },
+    {
+      "who": "lea",
+      "fr": "À l'atelier, tu avais accepté trop de petites demandes.",
+      "en": "At the workshop, you'd accepted too many little requests."
+    },
+    {
+      "who": "mat",
+      "fr": "Oui, j'étais débordé.",
+      "en": "Yes, I was overwhelmed."
+    },
+    {
+      "who": "mat",
+      "fr": "Exemple : depuis l'ouverture du restaurant,",
+      "en": "Example: since the restaurant opened,"
+    },
+    {
+      "who": "mat",
+      "fr": "les propriétaires ont la tête sous l'eau.",
+      "en": "the owners have been snowed under."
+    },
+    {
+      "who": "lea",
+      "fr": "On répète : avoir la tête sous l'eau.",
+      "en": "Let's repeat: avoir la tête sous l'eau."
+    },
+    {
+      "who": "lea",
+      "fr": "On parle de toutes les tâches à gérer,",
+      "en": "We're talking about all the tasks to handle,"
+    },
+    {
+      "who": "lea",
+      "fr": "pas d'une piscine.",
+      "en": "not a swimming pool."
+    },
+    {
+      "who": "mat",
+      "fr": "Troisième expression : poser ses limites.",
+      "en": "Third expression: poser ses limites."
+    },
+    {
+      "who": "mat",
+      "fr": "Je peux annoncer mon heure de départ",
+      "en": "I can announce my leaving time"
+    },
+    {
+      "who": "mat",
+      "fr": "et ce que je peux accepter.",
+      "en": "and what I can accept."
+    },
+    {
+      "who": "lea",
+      "fr": "C'est préciser ses possibilités et ce qu'on refuse.",
+      "en": "It's stating what you can do and what you refuse."
+    },
+    {
+      "who": "lea",
+      "fr": "Exemple : dans ce groupe,",
+      "en": "Example: in this group,"
+    },
+    {
+      "who": "lea",
+      "fr": "j'ai posé mes limites sur les appels tardifs.",
+      "en": "I set my limits on late calls."
+    },
+    {
+      "who": "mat",
+      "fr": "On répète : poser ses limites.",
+      "en": "Let's repeat: poser ses limites."
+    },
+    {
+      "who": "mat",
+      "fr": "Vous pouvez commencer par une phrase,",
+      "en": "You can start with one sentence,"
+    },
+    {
+      "who": "mat",
+      "fr": "sans organiser une conférence.",
+      "en": "without organising a conference."
+    },
+    {
+      "who": "lea",
+      "fr": "Quatrième expression : lever le pied.",
+      "en": "Fourth expression: lever le pied."
+    },
+    {
+      "who": "lea",
+      "fr": "Tu veux ralentir après ton activité du samedi.",
+      "en": "You want to slow down after your Saturday activity."
+    },
+    {
+      "who": "mat",
+      "fr": "C'est réduire son rythme ou son activité.",
+      "en": "It means reducing your pace or your activity."
+    },
+    {
+      "who": "mat",
+      "fr": "Exemple : pendant les vacances,",
+      "en": "Example: during the holidays,"
+    },
+    {
+      "who": "mat",
+      "fr": "elle lève le pied et garde ses matinées libres.",
+      "en": "she eases off and keeps her mornings free."
+    },
+    {
+      "who": "lea",
+      "fr": "On répète : lever le pied.",
+      "en": "Let's repeat: lever le pied."
+    },
+    {
+      "who": "lea",
+      "fr": "On peut le dire pour le travail,",
+      "en": "You can say it about work,"
+    },
+    {
+      "who": "lea",
+      "fr": "les activités ou un emploi du temps chargé.",
+      "en": "activities or a busy schedule."
+    },
+    {
+      "who": "mat",
+      "fr": "Enfin, ménager ses forces.",
+      "en": "Finally, ménager ses forces."
+    },
+    {
+      "who": "mat",
+      "fr": "Pendant une longue journée,",
+      "en": "During a long day,"
+    },
+    {
+      "who": "mat",
+      "fr": "on essaie de préserver son énergie.",
+      "en": "you try to save your energy."
+    },
+    {
+      "who": "lea",
+      "fr": "Exemple : avant le spectacle du soir,",
+      "en": "Example: before the evening show,"
+    },
+    {
+      "who": "lea",
+      "fr": "les danseurs ménagent leurs forces",
+      "en": "the dancers save their strength"
+    },
+    {
+      "who": "lea",
+      "fr": "pendant leur temps libre.",
+      "en": "during their free time."
+    },
+    {
+      "who": "mat",
+      "fr": "On répète : ménager ses forces.",
+      "en": "Let's repeat: ménager ses forces."
+    },
+    {
+      "who": "mat",
+      "fr": "Ce n'est pas forcément tout arrêter,",
+      "en": "It doesn't necessarily mean stopping everything,"
+    },
+    {
+      "who": "mat",
+      "fr": "mais choisir où l'on met son énergie.",
+      "en": "but choosing where you put your energy.",
+      "boardEnd": true
+    },
+    {
+      "who": "lea",
+      "fr": "Choisissez maintenant une expression.",
+      "en": "Now choose one expression."
+    },
+    {
+      "who": "lea",
+      "fr": "Pensez à une situation qui vous appartient",
+      "en": "Think of a situation that's your own"
+    },
+    {
+      "who": "lea",
+      "fr": "et construisez votre propre phrase.",
+      "en": "and build your own sentence."
+    },
+    {
+      "who": "mat",
+      "fr": "Même si vous cherchez vos mots, prenez le temps.",
+      "en": "Even if you're searching for words, take your time."
+    },
+    {
+      "who": "mat",
+      "fr": "Ici aussi, vous pouvez aller à votre rythme.",
+      "en": "Here too, you can go at your own pace."
+    },
+    {
+      "who": "lea",
+      "fr": "Dans les commentaires, écrivez :",
+      "en": "In the comments, write:"
+    },
+    {
+      "who": "lea",
+      "fr": "« J'aimerais prendre mon temps pour…",
+      "en": "\"I'd like to take my time to…"
+    },
+    {
+      "who": "lea",
+      "fr": "parce que… » Nous serons heureux de lire vos idées.",
+      "en": "because…\" We'll be happy to read your ideas."
+    },
+    {
+      "who": "mat",
+      "fr": "Et si vous avez appris une phrase utile,",
+      "en": "And if you've learned a useful sentence,"
+    },
+    {
+      "who": "mat",
+      "fr": "abonnez-vous à The Cozy French",
+      "en": "subscribe to The Cozy French"
+    },
+    {
+      "who": "mat",
+      "fr": "pour continuer à pratiquer avec nous.",
+      "en": "to keep practising with us."
+    },
+    {
+      "who": "lea",
+      "fr": "Vous pouvez réécouter notre petite conversation",
+      "en": "You can listen again to our little conversation"
+    },
+    {
+      "who": "lea",
+      "fr": "entre voisins et essayer les deux rôles.",
+      "en": "between neighbours and try both roles."
+    },
+    {
+      "who": "mat",
+      "fr": "Merci d'avoir partagé ce moment.",
+      "en": "Thank you for sharing this moment.",
+      "emote": "coeur"
+    },
+    {
+      "who": "mat",
+      "fr": "Où que vous soyez,",
+      "en": "Wherever you are,"
+    },
+    {
+      "who": "mat",
+      "fr": "nous vous souhaitons une belle suite de journée.",
+      "en": "we wish you a lovely rest of your day."
+    },
+    {
+      "who": "lea",
+      "fr": "Prenez soin de vous et à très bientôt !",
+      "en": "Take care of yourselves and see you very soon!",
+      "emote": "coeur"
+    },
+    {
+      "who": "lea",
+      "fr": "Tu vas t'asseoir un peu, maintenant ?",
+      "en": "Are you going to sit down for a bit now?"
+    },
+    {
+      "who": "mat",
+      "fr": "Oui. Mon fauteuil m'attend.",
+      "en": "Yes. My armchair is waiting for me."
+    },
+    {
+      "who": "mat",
+      "fr": "Je vais enfin remplir la première case de ma carte.",
+      "en": "I'm finally going to fill in the first box on my card."
+    },
+    {
+      "who": "lea",
+      "fr": "Attention à ne pas transformer",
+      "en": "Careful not to turn"
+    },
+    {
+      "who": "lea",
+      "fr": "les pauses en course aux points.",
+      "en": "breaks into a race for points."
+    },
+    {
+      "who": "mat",
+      "fr": "Tu as raison.",
+      "en": "You're right."
+    },
+    {
+      "who": "mat",
+      "fr": "Je pose la carte.",
+      "en": "I'm putting the card down."
+    },
+    {
+      "who": "mat",
+      "fr": "Cette fois, je m'assois, c'est tout.",
+      "en": "This time, I'm just sitting down, that's all."
+    }
+  ],
+  "vocab": [
+    {
+      "tag": "verbe",
+      "word": "culpabiliser",
+      "ipa": "/kyl.pa.bi.li.ze/",
+      "mean": "to feel guilty",
+      "ex": "Il culpabilise de ne pas pouvoir venir à chaque repas de famille.",
+      "exEn": "He feels guilty about not being able to come to every family meal."
+    },
+    {
+      "tag": "expression",
+      "word": "se mettre la pression",
+      "ipa": "/sə mɛtʁ la pʁe.sjɔ̃/",
+      "mean": "to put pressure on yourself",
+      "ex": "Tu te mets la pression pour une décision qui peut attendre.",
+      "exEn": "You're putting pressure on yourself over a decision that can wait."
+    },
+    {
+      "tag": "verbe",
+      "word": "décrocher",
+      "ipa": "/de.kʁɔ.ʃe/",
+      "mean": "to switch off mentally, to disconnect",
+      "ex": "Le jardinage lui permet de décrocher le week-end.",
+      "exEn": "Gardening helps her switch off at the weekend."
+    },
+    {
+      "tag": "expression",
+      "word": "en faire trop",
+      "ipa": "/ɑ̃ fɛʁ tʁo/",
+      "mean": "to overdo it, to take on too much",
+      "ex": "Pour nous accueillir, tu en as trop fait : un seul plat suffisait.",
+      "exEn": "You went to too much trouble for us: one dish was enough."
+    },
+    {
+      "tag": "expression",
+      "word": "avoir la tête sous l'eau",
+      "ipa": "/a.vwaʁ la tɛt su lo/",
+      "mean": "to be overwhelmed, snowed under",
+      "ex": "Avec les examens et son travail, il a la tête sous l'eau.",
+      "exEn": "Between exams and his job, he's snowed under."
+    },
+    {
+      "tag": "expression",
+      "word": "poser ses limites",
+      "ipa": "/po.ze se li.mit/",
+      "mean": "to set boundaries",
+      "ex": "Elle pose ses limites en précisant ses jours de disponibilité.",
+      "exEn": "She sets boundaries by saying which days she's available."
+    },
+    {
+      "tag": "nom féminin",
+      "word": "une urgence",
+      "ipa": "/y.n‿yʁ.ʒɑ̃s/",
+      "mean": "an emergency, an urgent matter",
+      "ex": "Est-ce une urgence ou pouvons-nous en discuter demain ?",
+      "exEn": "Is this urgent, or can we discuss it tomorrow?"
+    },
+    {
+      "tag": "nom féminin",
+      "word": "une obligation",
+      "ipa": "/y.n‿ɔ.bli.ɡa.sjɔ̃/",
+      "mean": "an obligation, a duty",
+      "ex": "Elle a annulé sa sortie à cause d'une obligation professionnelle.",
+      "exEn": "She cancelled her outing because of a work commitment."
+    },
+    {
+      "tag": "expression",
+      "word": "être à bout",
+      "ipa": "/ɛ.tʁ‿a bu/",
+      "mean": "to be exhausted, at the end of your rope",
+      "ex": "Après cette semaine difficile, je suis à bout et j'ai besoin d'aide.",
+      "exEn": "After this difficult week, I'm exhausted and I need help."
+    },
+    {
+      "tag": "expression",
+      "word": "lever le pied",
+      "ipa": "/lə.ve lə pje/",
+      "mean": "to slow down, to ease off",
+      "ex": "Après le festival, les organisateurs vont lever le pied.",
+      "exEn": "After the festival, the organisers are going to ease off."
+    },
+    {
+      "tag": "verbe",
+      "word": "souffler",
+      "ipa": "/su.fle/",
+      "mean": "to take a breather",
+      "ex": "Asseyez-vous un instant pour souffler avant de repartir.",
+      "exEn": "Sit down for a moment to catch your breath before setting off again."
+    },
+    {
+      "tag": "expression",
+      "word": "ménager ses forces",
+      "ipa": "/me.na.ʒe se fɔʁs/",
+      "mean": "to pace yourself, to save your energy",
+      "ex": "Il ménage ses forces avant une longue journée de voyage.",
+      "exEn": "He saves his energy before a long day of travelling."
+    },
+    {
+      "tag": "expression",
+      "word": "à son rythme",
+      "ipa": "/a sɔ̃ ʁitm/",
+      "mean": "at your own pace",
+      "ex": "Avec cet enregistrement, chacun peut pratiquer à son rythme.",
+      "exEn": "With this recording, everyone can practise at their own pace."
+    }
+  ]
+}

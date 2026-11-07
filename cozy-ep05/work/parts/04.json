@@ -1,0 +1,552 @@
+[
+ {
+  "who": "lea",
+  "fr": "Personne ne termine au même moment.",
+  "en": "Nobody finishes at the same time."
+ },
+ {
+  "who": "mat",
+  "fr": "Mon fauteuil sera content.",
+  "en": "My armchair will be happy."
+ },
+ {
+  "who": "mat",
+  "fr": "Il n'a jamais aimé les compétitions.",
+  "en": "It's never liked competitions.",
+  "react": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Maintenant, reprenez votre idée du début.",
+  "en": "Now, go back to your idea from the start.",
+  "board": {
+   "mode": "steps",
+   "bg": "carnet",
+   "title": "À vous de parler",
+   "items": [
+    {
+     "text": "J'aimerais prendre mon temps pour… parce que…",
+     "at": 2
+    },
+    {
+     "text": "Pour garder ce moment, je peux…",
+     "at": 13
+    },
+    {
+     "text": "Est-ce que tu pourrais prendre le relais ?",
+     "at": 25
+    }
+   ]
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "Complétez cette phrase :",
+  "en": "Complete this sentence:"
+ },
+ {
+  "who": "lea",
+  "fr": "« J'aimerais prendre mon temps pour…",
+  "en": "\"I'd like to take my time to…"
+ },
+ {
+  "who": "lea",
+  "fr": "parce que… »",
+  "en": "because…\""
+ },
+ {
+  "who": "mat",
+  "fr": "J'aimerais prendre mon temps",
+  "en": "I'd like to take my time"
+ },
+ {
+  "who": "mat",
+  "fr": "pour marcher après le déjeuner,",
+  "en": "walking after lunch,"
+ },
+ {
+  "who": "mat",
+  "fr": "parce que j'aime regarder ce qui change dans mon quartier.",
+  "en": "because I like seeing what changes in my neighbourhood."
+ },
+ {
+  "who": "lea",
+  "fr": "J'aimerais prendre mon temps pour lire le dimanche,",
+  "en": "I'd like to take my time reading on Sundays,"
+ },
+ {
+  "who": "lea",
+  "fr": "parce que j'ai envie de suivre une histoire",
+  "en": "because I want to follow a story"
+ },
+ {
+  "who": "lea",
+  "fr": "sans préparer la suite de ma journée.",
+  "en": "without planning the rest of my day."
+ },
+ {
+  "who": "mat",
+  "fr": "À votre tour.",
+  "en": "Your turn."
+ },
+ {
+  "who": "mat",
+  "fr": "Dites votre phrase à voix haute.",
+  "en": "Say your sentence out loud."
+ },
+ {
+  "who": "mat",
+  "fr": "Vous pouvez utiliser des mots très simples.",
+  "en": "You can use very simple words."
+ },
+ {
+  "who": "lea",
+  "fr": "Ensuite, ajoutez une limite possible :",
+  "en": "Then, add a possible limit:"
+ },
+ {
+  "who": "lea",
+  "fr": "« Pour garder ce moment, je peux… »",
+  "en": "\"To protect this moment, I can…\""
+ },
+ {
+  "who": "mat",
+  "fr": "Pour garder ce moment,",
+  "en": "To protect this moment,"
+ },
+ {
+  "who": "mat",
+  "fr": "je peux annoncer mon heure",
+  "en": "I can announce my leaving time"
+ },
+ {
+  "who": "mat",
+  "fr": "de départ avant de commencer l'atelier.",
+  "en": "before the workshop starts."
+ },
+ {
+  "who": "lea",
+  "fr": "Pour garder ce moment,",
+  "en": "To protect this moment,"
+ },
+ {
+  "who": "lea",
+  "fr": "je peux préparer ma liste de courses",
+  "en": "I can make my shopping list"
+ },
+ {
+  "who": "lea",
+  "fr": "à un autre moment de la journée.",
+  "en": "at another time of day."
+ },
+ {
+  "who": "mat",
+  "fr": "Choisissez quelque chose qui dépend un peu de vous.",
+  "en": "Choose something that depends a little on you."
+ },
+ {
+  "who": "mat",
+  "fr": "Vous n'avez pas besoin de réorganiser toute votre vie.",
+  "en": "You don't need to reorganise your whole life."
+ },
+ {
+  "who": "lea",
+  "fr": "Et si vous avez surtout besoin d'aide,",
+  "en": "And if what you mostly need is help,"
+ },
+ {
+  "who": "lea",
+  "fr": "vous pouvez dire :",
+  "en": "you can say:"
+ },
+ {
+  "who": "lea",
+  "fr": "« Est-ce que tu pourrais prendre le relais ? »",
+  "en": "\"Could you take over?\""
+ },
+ {
+  "who": "mat",
+  "fr": "C'est aussi une phrase précieuse à savoir prononcer.",
+  "en": "That's also a precious sentence to know how to say.",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Revenons sur cinq expressions.",
+  "en": "Let's go back over five expressions.",
+  "board": {
+   "mode": "steps",
+   "title": "Le petit tour des mots",
+   "items": [
+    {
+     "text": "se mettre la pression",
+     "at": 2
+    },
+    {
+     "text": "avoir la tête sous l'eau",
+     "at": 12
+    },
+    {
+     "text": "poser ses limites",
+     "at": 20
+    },
+    {
+     "text": "lever le pied",
+     "at": 29
+    },
+    {
+     "text": "ménager ses forces",
+     "at": 37
+    }
+   ]
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "Écoutez leur sens, puis répétez avec nous.",
+  "en": "Listen to their meaning, then repeat with us."
+ },
+ {
+  "who": "mat",
+  "fr": "La première, c'est se mettre la pression.",
+  "en": "The first one is \"se mettre la pression\"."
+ },
+ {
+  "who": "mat",
+  "fr": "À la médiathèque,",
+  "en": "At the media library,"
+ },
+ {
+  "who": "mat",
+  "fr": "Léa voulait préparer une semaine sans aucune surprise.",
+  "en": "Léa wanted to plan a week with no surprises at all."
+ },
+ {
+  "who": "lea",
+  "fr": "C'est se créer une forte exigence,",
+  "en": "It's setting yourself high standards,"
+ },
+ {
+  "who": "lea",
+  "fr": "parfois difficile à supporter.",
+  "en": "sometimes hard to bear."
+ },
+ {
+  "who": "lea",
+  "fr": "Nouvel exemple : pour ce repas entre amis,",
+  "en": "New example: for this meal with friends,"
+ },
+ {
+  "who": "lea",
+  "fr": "je me mets la pression inutilement.",
+  "en": "I'm putting pressure on myself for nothing."
+ },
+ {
+  "who": "mat",
+  "fr": "On répète : se mettre la pression.",
+  "en": "Let's repeat: se mettre la pression."
+ },
+ {
+  "who": "mat",
+  "fr": "Un dîner peut commencer",
+  "en": "A dinner can start without"
+ },
+ {
+  "who": "mat",
+  "fr": "sans que les serviettes soient parfaitement pliées.",
+  "en": "the napkins being perfectly folded."
+ },
+ {
+  "who": "lea",
+  "fr": "Deuxième expression : avoir la tête sous l'eau.",
+  "en": "Second expression: avoir la tête sous l'eau."
+ },
+ {
+  "who": "lea",
+  "fr": "À l'atelier, tu avais accepté trop de petites demandes.",
+  "en": "At the workshop, you'd accepted too many little requests."
+ },
+ {
+  "who": "mat",
+  "fr": "Oui, j'étais débordé.",
+  "en": "Yes, I was overwhelmed."
+ },
+ {
+  "who": "mat",
+  "fr": "Exemple : depuis l'ouverture du restaurant,",
+  "en": "Example: since the restaurant opened,"
+ },
+ {
+  "who": "mat",
+  "fr": "les propriétaires ont la tête sous l'eau.",
+  "en": "the owners have been snowed under."
+ },
+ {
+  "who": "lea",
+  "fr": "On répète : avoir la tête sous l'eau.",
+  "en": "Let's repeat: avoir la tête sous l'eau."
+ },
+ {
+  "who": "lea",
+  "fr": "On parle de toutes les tâches à gérer,",
+  "en": "We're talking about all the tasks to handle,"
+ },
+ {
+  "who": "lea",
+  "fr": "pas d'une piscine.",
+  "en": "not a swimming pool."
+ },
+ {
+  "who": "mat",
+  "fr": "Troisième expression : poser ses limites.",
+  "en": "Third expression: poser ses limites."
+ },
+ {
+  "who": "mat",
+  "fr": "Je peux annoncer mon heure de départ",
+  "en": "I can announce my leaving time"
+ },
+ {
+  "who": "mat",
+  "fr": "et ce que je peux accepter.",
+  "en": "and what I can accept."
+ },
+ {
+  "who": "lea",
+  "fr": "C'est préciser ses possibilités et ce qu'on refuse.",
+  "en": "It's stating what you can do and what you refuse."
+ },
+ {
+  "who": "lea",
+  "fr": "Exemple : dans ce groupe,",
+  "en": "Example: in this group,"
+ },
+ {
+  "who": "lea",
+  "fr": "j'ai posé mes limites sur les appels tardifs.",
+  "en": "I set my limits on late calls."
+ },
+ {
+  "who": "mat",
+  "fr": "On répète : poser ses limites.",
+  "en": "Let's repeat: poser ses limites."
+ },
+ {
+  "who": "mat",
+  "fr": "Vous pouvez commencer par une phrase,",
+  "en": "You can start with one sentence,"
+ },
+ {
+  "who": "mat",
+  "fr": "sans organiser une conférence.",
+  "en": "without organising a conference."
+ },
+ {
+  "who": "lea",
+  "fr": "Quatrième expression : lever le pied.",
+  "en": "Fourth expression: lever le pied."
+ },
+ {
+  "who": "lea",
+  "fr": "Tu veux ralentir après ton activité du samedi.",
+  "en": "You want to slow down after your Saturday activity."
+ },
+ {
+  "who": "mat",
+  "fr": "C'est réduire son rythme ou son activité.",
+  "en": "It means reducing your pace or your activity."
+ },
+ {
+  "who": "mat",
+  "fr": "Exemple : pendant les vacances,",
+  "en": "Example: during the holidays,"
+ },
+ {
+  "who": "mat",
+  "fr": "elle lève le pied et garde ses matinées libres.",
+  "en": "she eases off and keeps her mornings free."
+ },
+ {
+  "who": "lea",
+  "fr": "On répète : lever le pied.",
+  "en": "Let's repeat: lever le pied."
+ },
+ {
+  "who": "lea",
+  "fr": "On peut le dire pour le travail,",
+  "en": "You can say it about work,"
+ },
+ {
+  "who": "lea",
+  "fr": "les activités ou un emploi du temps chargé.",
+  "en": "activities or a busy schedule."
+ },
+ {
+  "who": "mat",
+  "fr": "Enfin, ménager ses forces.",
+  "en": "Finally, ménager ses forces."
+ },
+ {
+  "who": "mat",
+  "fr": "Pendant une longue journée,",
+  "en": "During a long day,"
+ },
+ {
+  "who": "mat",
+  "fr": "on essaie de préserver son énergie.",
+  "en": "you try to save your energy."
+ },
+ {
+  "who": "lea",
+  "fr": "Exemple : avant le spectacle du soir,",
+  "en": "Example: before the evening show,"
+ },
+ {
+  "who": "lea",
+  "fr": "les danseurs ménagent leurs forces",
+  "en": "the dancers save their strength"
+ },
+ {
+  "who": "lea",
+  "fr": "pendant leur temps libre.",
+  "en": "during their free time."
+ },
+ {
+  "who": "mat",
+  "fr": "On répète : ménager ses forces.",
+  "en": "Let's repeat: ménager ses forces."
+ },
+ {
+  "who": "mat",
+  "fr": "Ce n'est pas forcément tout arrêter,",
+  "en": "It doesn't necessarily mean stopping everything,"
+ },
+ {
+  "who": "mat",
+  "fr": "mais choisir où l'on met son énergie.",
+  "en": "but choosing where you put your energy.",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Choisissez maintenant une expression.",
+  "en": "Now choose one expression."
+ },
+ {
+  "who": "lea",
+  "fr": "Pensez à une situation qui vous appartient",
+  "en": "Think of a situation that's your own"
+ },
+ {
+  "who": "lea",
+  "fr": "et construisez votre propre phrase.",
+  "en": "and build your own sentence."
+ },
+ {
+  "who": "mat",
+  "fr": "Même si vous cherchez vos mots, prenez le temps.",
+  "en": "Even if you're searching for words, take your time."
+ },
+ {
+  "who": "mat",
+  "fr": "Ici aussi, vous pouvez aller à votre rythme.",
+  "en": "Here too, you can go at your own pace."
+ },
+ {
+  "who": "lea",
+  "fr": "Dans les commentaires, écrivez :",
+  "en": "In the comments, write:"
+ },
+ {
+  "who": "lea",
+  "fr": "« J'aimerais prendre mon temps pour…",
+  "en": "\"I'd like to take my time to…"
+ },
+ {
+  "who": "lea",
+  "fr": "parce que… » Nous serons heureux de lire vos idées.",
+  "en": "because…\" We'll be happy to read your ideas."
+ },
+ {
+  "who": "mat",
+  "fr": "Et si vous avez appris une phrase utile,",
+  "en": "And if you've learned a useful sentence,"
+ },
+ {
+  "who": "mat",
+  "fr": "abonnez-vous à The Cozy French",
+  "en": "subscribe to The Cozy French"
+ },
+ {
+  "who": "mat",
+  "fr": "pour continuer à pratiquer avec nous.",
+  "en": "to keep practising with us."
+ },
+ {
+  "who": "lea",
+  "fr": "Vous pouvez réécouter notre petite conversation",
+  "en": "You can listen again to our little conversation"
+ },
+ {
+  "who": "lea",
+  "fr": "entre voisins et essayer les deux rôles.",
+  "en": "between neighbours and try both roles."
+ },
+ {
+  "who": "mat",
+  "fr": "Merci d'avoir partagé ce moment.",
+  "en": "Thank you for sharing this moment.",
+  "emote": "coeur"
+ },
+ {
+  "who": "mat",
+  "fr": "Où que vous soyez,",
+  "en": "Wherever you are,"
+ },
+ {
+  "who": "mat",
+  "fr": "nous vous souhaitons une belle suite de journée.",
+  "en": "we wish you a lovely rest of your day."
+ },
+ {
+  "who": "lea",
+  "fr": "Prenez soin de vous et à très bientôt !",
+  "en": "Take care of yourselves and see you very soon!",
+  "emote": "coeur"
+ },
+ {
+  "who": "lea",
+  "fr": "Tu vas t'asseoir un peu, maintenant ?",
+  "en": "Are you going to sit down for a bit now?"
+ },
+ {
+  "who": "mat",
+  "fr": "Oui. Mon fauteuil m'attend.",
+  "en": "Yes. My armchair is waiting for me."
+ },
+ {
+  "who": "mat",
+  "fr": "Je vais enfin remplir la première case de ma carte.",
+  "en": "I'm finally going to fill in the first box on my card."
+ },
+ {
+  "who": "lea",
+  "fr": "Attention à ne pas transformer",
+  "en": "Careful not to turn"
+ },
+ {
+  "who": "lea",
+  "fr": "les pauses en course aux points.",
+  "en": "breaks into a race for points."
+ },
+ {
+  "who": "mat",
+  "fr": "Tu as raison.",
+  "en": "You're right."
+ },
+ {
+  "who": "mat",
+  "fr": "Je pose la carte.",
+  "en": "I'm putting the card down."
+ }
+]

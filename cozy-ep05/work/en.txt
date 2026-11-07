@@ -1,0 +1,373 @@
+0|Hello everyone and welcome to The Cozy French!
+1|I'm Léa.
+2|And I'm Mathieu.
+3|Thank you for being with us.
+4|Today, you can settle in without preparing anything.
+5|No list to finish before we start.
+6|Just a moment to listen to French together.
+7|Still, I brought an important document:
+8|my armchair's loyalty card.
+9|It hands out points now?|e=surpris
+10|One box for every real break.
+11|For now, my card is completely empty.
+12|So your armchair is waiting for its first regular customer.|e=rire
+13|Today, we're talking about slowing down without feeling guilty.
+14|Taking your time can seem simple,|i=temps:prendre son temps
+15|until the moment you try.
+16|You sit down, then a little voice asks:
+17|"Are you sure you don't have
+18|anything more useful to do?"|e=gene
+19|This conversation is for B1 and B2 levels.
+20|We'll speak slowly and explain everyday expressions.
+21|By the end,
+22|you'll be able to talk about your need for rest
+23|and ask whether a task can wait.
+24|You'll also learn to set a limit simply,
+25|without preparing a ten-minute speech.
+26|You can listen on the train,|i=voyage:le train
+27|at home or during a walk.
+28|No need to understand every word.
+29|Follow the stories and repeat
+30|the phrases that will be useful to you.
+31|And if you've already started making a list,
+32|keep a little room for your armchair.|r=rire
+33|Here's our question of the day:
+34|what would you like to do more slowly, without feeling guilty?
+35|Walking to the bakery?
+36|Reading a few pages?
+37|Finishing a conversation without looking at the time?
+38|Keep one idea in mind.
+39|At the end,
+40|we'll give you a sentence to tell us about it.
+41|And tell us where you're listening from.
+42|A little break can bring us together,
+43|even thousands of kilometres apart.|e=coeur
+44|Last Sunday, I went
+45|to the media library in my neighbourhood.
+46|I felt like reading a novel somewhere quiet.|i=lecture:un roman
+47|Had you picked a book?
+48|Yes, a story that takes place
+49|by the sea.
+50|I found an armchair near a big window.
+51|Already, your armchair is better placed than mine.
+52|It has a view.|r=rire
+53|It was raining gently.|i=pluie:la pluie
+54|I put down my coat and opened the book.
+55|Then I thought about my week.
+56|The sea disappeared?|e=surpris
+57|Completely. In its place, I saw my appointments.
+58|I started feeling guilty|e=gene B={"mode":"word","note":"= se sentir coupable, penser qu'on fait quelque chose de mal"}
+59|because I wasn't preparing anything.
+60|"Culpabiliser" means feeling guilty,
+61|thinking you're doing something wrong?
+62|Yes, even when nobody blames us for anything.
+63|For example, I sometimes feel guilty about turning down an invitation.|BE
+64|And your novel was waiting while
+65|you were blaming yourself.
+66|Exactly. I took out my notebook.
+67|I wrote down Monday's shopping,|i=courses:les courses
+68|a file to send and a present to buy.
+69|So you'd borrowed a desk, in the end.|r=rire
+70|A very comfortable desk.
+71|But after twenty minutes,
+72|I was putting even more pressure on myself.
+73|"Se mettre la pression"|B={"mode":"word","bg":"craie","note":"= exiger beaucoup de soi et se créer du stress","icon":"stress"}
+74|means demanding a lot of yourself and creating stress.
+75|Yes. Before a presentation,
+76|my colleague puts pressure on himself
+77|to answer every question perfectly.|BE
+78|He could start by answering the first one.
+79|The rest will come later.
+80|That day, I wanted to start Monday with no surprises at all.
+81|So every line in my notebook led to another.
+82|You'd found a meeting where you were
+83|both the organiser and the whole team.
+84|With lots of requests and no biscuits.|e=rire
+85|Then I heard a little girl ask
+86|her father to look at the rain.
+87|And you looked too?
+88|Yes. Just a few seconds.
+89|It reminded me why I'd come: to switch off a little.|B={"mode":"word","bg":"carnet","note":"= arrêter de penser à ses préoccupations, prendre de la distance","icon":"pluie"}
+90|"Décrocher", here, means to stop thinking
+91|about your worries and step back.
+92|That's it.
+93|For example, drawing helps me switch off after a busy day.|BE
+94|So, did you manage to read?
+95|A few pages. I put my notebook away,
+96|even though my week wasn't fully organised.
+97|And the sea came back.
+98|Yes. With a character who had missed his boat.
+99|I was delighted that appointment wasn't mine.|e=rire
+100|On Saturday, I took part in a repair workshop
+101|at the community centre.
+102|We help people fix small objects.
+103|Do you go often?
+104|Once a month.
+105|This time, I was supposed to stay until noon.
+106|After that, I'd planned a walk with a friend.|i=amis:un ami
+107|Were you able to leave on time?
+108|No. I started overdoing it.|e=gene
+109|One person needed help with a zip,
+110|another with a lamp.
+111|"En faire trop" means going beyond what you can reasonably do.
+112|Like when I plan six activities
+113|for a single day of holiday.
+114|I overdo it and I rush around everywhere.
+115|You weren't the only volunteer, though.
+116|No, but I said yes before
+117|looking at what was already waiting for me.
+118|By noon, I was completely snowed under.|e=fatigue B={"mode":"word","note":"= se sentir débordé, avec trop de choses à gérer","icon":"travail"}
+119|You felt overwhelmed, with too many things to handle.
+120|It's a figurative expression.
+121|For example, this week, with the shop's orders,
+122|my cousin is snowed under.|BE
+123|And your friend?
+124|He called me.
+125|I said: "Ten more minutes."
+126|Except I had no idea how long it would take.
+127|Ten very optimistic minutes.|e=rire
+128|Yes.
+129|Another volunteer asked me what time I finished.
+130|I answered: "Normally, half an hour ago."|r=surpris
+131|She must have understood.
+132|She offered to take over.
+133|She also advised me to
+134|set my boundaries as soon as I arrive.|B={"mode":"word","bg":"carnet","note":"= dire clairement ce qu'on accepte et jusqu'où on peut aller","icon":"telephone"}
+135|That's saying clearly what you accept
+136|and how far you can go.
+137|For example, for work calls,
+138|I set my limits: I'm available until six p.m.|BE
+139|So you can be useful without
+140|staying until the last person leaves.
+141|Yes.
+142|Next time, I'll say my schedule at the start.
+143|My friend was patient,
+144|but our walk deserved a place too.
+145|Did you apologise to him?
+146|Yes. Then we walked at a relaxed pace.
+147|I didn't offer to repair a single bench.|r=rire
+148|In both our stories,
+149|nobody was asking us to do everything.
+150|And yet, we felt we had to keep going.
+151|For me, leaving seemed to mean
+152|that I wasn't helpful enough.
+153|Even with other volunteers there.
+154|Me, I felt that an hour
+155|without preparing was an hour wasted.
+156|We sometimes confuse a wish
+157|to do well with an emergency.
+158|An emergency is a situation that calls for quick action.
+159|But not every request is urgent.
+160|For example, a big water leak is an emergency.|B={"mode":"compare","bg":"craie","title":"C'est urgent ?","left":{"head":"une urgence","sub":"une action rapide","items":[{"text":"une fuite d'eau importante","at":0}]},"right":{"head":"ça peut attendre","sub":"pas urgent","items":[{"text":"la couleur d'une affiche","at":1},{"text":"« Pour quand en as-tu besoin ? »","at":3}]}}
+161|Choosing the colour of a poster can usually wait.
+162|And when the deadline isn't clear,
+163|you can ask: "When do you need it by?"|BE
+164|That stops you inventing a deadline in your head.
+165|I'm very good at giving myself
+166|missions before the project has even started.|r=rire
+167|An obligation is different: it's something you have to do,
+168|because of a commitment or a rule.
+169|For example, keeping to this schedule
+170|is part of my obligations at work.
+171|Some obligations are real.
+172|You can't simply leave
+173|your post or stop looking after a child.
+174|A friend works at the front desk of a sports centre.|i=sport:un centre sportif
+175|She can't close
+176|the counter whenever she wants to go for a walk.
+177|So telling her to slow down isn't enough.
+178|You also have to look at the organisation and who can take over.
+179|Yes. And having a free evening
+180|doesn't always mean you still have energy.
+181|Sometimes, you're at the end of your rope: you feel exhausted,
+182|with very little strength left.
+183|After several days of moving house, my brother was exhausted.|e=fatigue i=famille:mon frère
+184|He asked for help to finish.
+185|Asking for help can matter more than a
+186|new method to fill your diary better.
+187|Let's do a role play.
+188|I'm your neighbour and I'm asking you a favour.
+189|Listen to her request, then try to answer before me.
+190|I'll be away this week.|B={"mode":"sketch","title":"En situation : entre voisins"}
+191|Could you take in my parcels every day?
+192|Your turn.
+193|You want to help, but you're only free on Tuesday.
+194|What would you say? Take a few seconds.
+195|You can start with: "I can…
+196|but I can't…"
+197|I can take in your parcels on Tuesday,
+198|but I can't stay available all week.
+199|Ah, OK.|e=idee
+200|You work from home the other days, though?
+201|Yes, but I have appointments and I
+202|can't stop for every delivery.
+203|I understand. For Tuesday, shall I send you the details now?
+204|Can we put that off until later?
+205|I'm leaving in a few minutes.
+206|I'll be able to look this evening.
+207|"Remettre à plus tard"
+208|means deciding to do something afterwards,
+209|instead of doing it now.
+210|For example, we put the visit off
+211|until later because the museum was closed.
+212|Very good. I'll send you a message this evening.
+213|And I'll look for another
+214|solution for the other days.
+215|Thanks. On Tuesday, I can receive the parcels
+216|between nine and noon.
+217|Perfect, I'll check if that time slot works.|BE
+218|There. I offered something specific,|B={"mode":"steps","title":"Poser une limite simplement","items":[{"text":"Je peux…, mais je ne peux pas…","at":0},{"text":"Cette fois, je ne pourrai pas.","at":7},{"text":"Je peux t'aider pendant une demi-heure.","at":8}]}
+219|without promising my whole week.
+220|And you didn't recount
+221|every appointment to justify your answer.
+222|I could have. With the times,
+223|the addresses and a little map of the neighbourhood.|r=rire
+224|A clear answer was enough.
+225|You can also say: "This time, I won't be able to."
+226|Or: "I can help you for half an hour."
+227|Even a short answer can be warm.|e=coeur BE
+228|To start, you can choose a moment
+229|when you really have some room to breathe.
+230|Me, I'm going to ease off after the Saturday workshop.
+231|I'll slow down instead of adding yet another activity.
+232|That's what "lever le pied" means.
+233|Example: after this big project,
+234|our team is going to ease off for a few days.
+235|So I'm keeping my walk,
+236|but I'm not turning
+237|the way home into an endless shopping list.
+238|As for me,
+239|I'm going to leave my notebook in
+240|my bag when I get to the media library.
+241|An idea can still come up while you're reading.|i=lecture:la lecture
+242|Yes.
+243|I can jot down a word, then go back to the book.
+244|I don't need to develop the whole project right away.
+245|And to take a breather,
+246|do you necessarily need a long moment of calm?
+247|No. "Souffler", here, means taking a little break.
+248|After setting up the tables,
+249|we took a breather for a few minutes in the courtyard.
+250|Me, I could simply sit down|B={"mode":"mindmap","bg":"craie","word":"une pause","icon":"cafe","items":[{"text":"s'asseoir","at":0},{"text":"ne rien écouter","at":1},{"text":"marcher","at":3},{"text":"discuter","at":3}]}
+251|without looking for something to listen to,
+252|to tidy or to learn.
+253|You can also walk or chat.|BE
+254|There isn't
+255|one single right way to spend that moment.
+256|And what if I still think about work?|i=travail:le travail
+257|That can happen.
+258|You haven't failed your break
+259|because a thought came back.
+260|That reassures me.|e=coeur
+261|Otherwise, I was going to make a chart
+262|to measure the quality of my breaks.|r=rire
+263|Instead, you can try to pace yourself:|B={"mode":"word","note":"= utiliser son énergie avec attention, ne pas tout dépenser d'un coup","icon":"sport"}
+264|use your energy carefully
+265|so you don't spend it all at once.
+266|For example, on a long hike,
+267|I pace myself by walking calmly from the start.|BE
+268|For me, it means keeping dinner simple
+269|on evenings when I already have lots to do.
+270|And if I tidy the whole
+271|kitchen to avoid a difficult message,
+272|maybe that's not the break I wanted.
+273|You can ask yourself what's holding you back,
+274|then choose when to reply.
+275|You don't need to sort it out right away.
+276|Everyone can move forward at their own pace:
+277|at a speed that suits them.
+278|Yes.
+279|In my drawing class, everyone learns at their own pace.
+280|Nobody finishes at the same time.
+281|My armchair will be happy.
+282|It's never liked competitions.|r=rire
+283|Now, go back to your idea from the start.|B={"mode":"steps","bg":"carnet","title":"À vous de parler","items":[{"text":"J'aimerais prendre mon temps pour… parce que…","at":1},{"text":"Pour garder ce moment, je peux…","at":11},{"text":"Est-ce que tu pourrais prendre le relais ?","at":22}]}
+284|Complete this sentence: "I'd like to take my time to…
+285|because…"
+286|I'd like to take my time walking after lunch,
+287|because I like seeing what changes in my neighbourhood.
+288|I'd like to take my time reading on Sundays,
+289|because I want to follow a story
+290|without planning the rest of my day.
+291|Your turn.
+292|Say your sentence out loud.
+293|You can use very simple words.
+294|Then, add a possible limit:
+295|"To protect this moment, I can…"
+296|To protect this moment,
+297|I can announce my leaving time
+298|before the workshop starts.
+299|To protect this moment,
+300|I can make my shopping list
+301|at another time of day.
+302|Choose something that depends a little on you.
+303|You don't need to reorganise your whole life.
+304|And if what you mostly need is help,
+305|you can say: "Could you take over?"
+306|That's also a precious sentence to know how to say.|BE
+307|Let's go back over five expressions.|B={"mode":"steps","title":"Le petit tour des mots","items":[{"text":"se mettre la pression","at":2},{"text":"avoir la tête sous l'eau","at":11},{"text":"poser ses limites","at":19},{"text":"lever le pied","at":27},{"text":"ménager ses forces","at":35}]}
+308|Listen to their meaning, then repeat with us.
+309|The first one is "se mettre la pression".
+310|At the media library,
+311|Léa wanted to plan a week with no surprises at all.
+312|It's setting yourself high standards, sometimes hard to bear.
+313|New example: for this meal with friends,
+314|I'm putting pressure on myself for nothing.
+315|Let's repeat: se mettre la pression.
+316|A dinner can start without
+317|the napkins being perfectly folded.
+318|Second expression: avoir la tête sous l'eau.
+319|At the workshop, you'd accepted too many little requests.
+320|Yes, I was overwhelmed.
+321|Example: since the restaurant opened,
+322|the owners have been snowed under.
+323|Let's repeat: avoir la tête sous l'eau.
+324|We're talking about all the tasks to handle,
+325|not a swimming pool.
+326|Third expression: poser ses limites.
+327|I can announce my leaving time
+328|and what I can accept.
+329|It's stating what you can do and what you refuse.
+330|Example: in this group,
+331|I set my limits on late calls.
+332|Let's repeat: poser ses limites.
+333|You can start with one sentence, without organising a conference.
+334|Fourth expression: lever le pied.
+335|You want to slow down after your Saturday activity.
+336|It means reducing your pace or your activity.
+337|Example: during the holidays,
+338|she eases off and keeps her mornings free.
+339|Let's repeat: lever le pied.
+340|You can say it about work,
+341|activities or a busy schedule.
+342|Finally, ménager ses forces.
+343|During a long day, you try to save your energy.
+344|Example: before the evening show,
+345|the dancers save their strength during their free time.
+346|Let's repeat: ménager ses forces.
+347|It doesn't necessarily mean stopping everything,
+348|but choosing where you put your energy.|BE
+349|Now choose one expression.
+350|Think of a situation that's your own
+351|and build your own sentence.
+352|Even if you're searching for words, take your time.
+353|Here too, you can go at your own pace.
+354|In the comments, write: "I'd like to take my time to…
+355|because…" We'll be happy to read your ideas.
+356|And if you've learned a useful sentence,
+357|subscribe to The Cozy French
+358|to keep practising with us.
+359|You can listen again to our little conversation
+360|between neighbours and try both roles.
+361|Thank you for sharing this moment.|e=coeur
+362|Wherever you are,
+363|we wish you a lovely rest of your day.
+364|Take care of yourselves and see you very soon!|e=coeur
+365|Are you going to sit down for a bit now?
+366|Yes. My armchair is waiting for me.
+367|I'm finally going to fill in the first box on my card.
+368|Careful not to turn
+369|breaks into a race for points.
+370|You're right.
+371|I'm putting the card down.
+372|This time, I'm just sitting down, that's all.

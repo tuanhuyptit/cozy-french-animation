@@ -1,0 +1,373 @@
+0 0.1 lea Bonjour tout le monde et bienvenue sur The Cozy French !
+1 3.7 lea Moi, c'est Léa.
+2 4.9 mat Et moi, c'est Mathieu.
+3 6.4 mat Merci d'être avec nous.
+4 8.3 mat Aujourd'hui, vous pouvez vous installer sans rien préparer.
+5 12.2 lea Pas de liste à terminer avant de commencer.
+6 14.6 lea Juste un moment pour écouter du français ensemble.
+7 18.6 mat J'ai quand même apporté un document important :
+8 21.9 mat la carte de fidélité de mon fauteuil.
+9 25.5 lea Il distribue des points maintenant ?
+10 28.0 mat Une case pour chaque vraie pause.
+11 31.3 mat Pour l'instant, ma carte est complètement vide.
+12 34.7 lea Ton fauteuil attend donc son premier client régulier.
+13 38.3 lea Aujourd'hui, nous parlons du fait de ralentir sans culpabiliser.
+14 42.9 lea Prendre son temps peut sembler simple,
+15 45.5 lea jusqu'au moment où on essaie.
+16 47.7 mat On s'assoit, puis une petite voix demande :
+17 51.4 mat « Tu es sûr que tu n'as
+18 53.1 mat rien de plus utile à faire ? »
+19 55.7 lea Cette conversation est pour les niveaux B1 et B2.
+20 59.5 lea Nous allons parler lentement et expliquer des expressions du quotidien.
+21 64.4 mat À la fin,
+22 65.0 mat vous saurez parler de votre besoin de repos
+23 68.1 mat et demander si une tâche peut attendre.
+24 71.2 lea Vous apprendrez aussi à poser une limite simplement,
+25 74.7 lea sans préparer un discours de dix minutes.
+26 77.6 mat Vous pouvez écouter dans le train,
+27 79.7 mat chez vous ou pendant une promenade.
+28 82.2 mat Pas besoin de comprendre chaque mot.
+29 84.9 lea Suivez les histoires et répétez
+30 86.8 lea les phrases qui vous seront utiles.
+31 89.2 mat Et si vous avez déjà commencé à faire une liste,
+32 92.5 mat gardez une petite place pour votre fauteuil.
+33 96.2 lea Voici notre question du jour :
+34 98.3 lea qu'aimeriez-vous faire plus lentement, sans vous sentir coupable ?
+35 103.0 mat Marcher jusqu'à la boulangerie ?
+36 105.2 mat Lire quelques pages ?
+37 107.1 mat Finir une conversation sans regarder l'heure ?
+38 111.0 lea Gardez une idée en tête.
+39 112.9 lea À la fin,
+40 113.5 lea nous vous proposerons une phrase pour la raconter.
+41 117.1 mat Et dites-nous d'où vous nous écoutez.
+42 120.1 mat Une petite pause peut nous réunir,
+43 122.6 mat même à plusieurs milliers de kilomètres.
+44 126.3 lea Dimanche dernier, je suis allée
+45 128.2 lea à la médiathèque de mon quartier.
+46 130.1 lea J'avais envie de lire un roman dans un endroit calme.
+47 133.4 mat Tu avais choisi un livre ?
+48 135.1 lea Oui, une histoire qui se passe
+49 137.3 lea au bord de la mer.
+50 138.6 lea J'ai trouvé un fauteuil près d'une grande fenêtre.
+51 141.9 mat Déjà, ton fauteuil est mieux placé que le mien.
+52 145.7 mat Il a une vue.
+53 147.0 lea Il pleuvait doucement.
+54 148.6 lea J'ai posé mon manteau et ouvert le livre.
+55 151.3 lea Puis j'ai pensé à ma semaine.
+56 153.8 mat La mer a disparu ?
+57 155.5 lea Complètement. À sa place, j'ai vu mes rendez-vous.
+58 159.3 lea Je me suis mise à culpabiliser
+59 161.3 lea parce que je ne préparais rien.
+60 163.3 mat Culpabiliser, c'est se sentir coupable,
+61 166.9 mat penser qu'on fait quelque chose de mal ?
+62 169.5 lea Oui, même quand personne ne nous reproche rien.
+63 172.4 lea Par exemple, je culpabilise parfois de refuser une invitation.
+64 176.8 mat Et ton roman attendait pendant
+65 178.8 mat que tu te faisais des reproches.
+66 181.2 lea Exactement. J'ai sorti mon carnet.
+67 183.7 lea J'ai noté les courses du lundi,
+68 185.7 lea un dossier à envoyer et un cadeau à acheter.
+69 189.0 mat Tu avais emprunté un bureau, finalement.
+70 191.8 lea Un bureau très confortable.
+71 193.8 lea Mais au bout de vingt minutes,
+72 195.7 lea je me mettais encore plus la pression.
+73 198.6 mat Se mettre la pression,
+74 200.3 mat c'est exiger beaucoup de soi et se créer du stress.
+75 205.3 lea Oui. Avant une présentation,
+76 207.4 lea mon collègue se met la pression
+77 209.2 lea pour répondre parfaitement à chaque question.
+78 212.4 mat Il pourrait déjà répondre à la première.
+79 214.8 mat Le reste viendra ensuite.
+80 216.8 lea Ce jour-là, je voulais commencer lundi sans aucune surprise.
+81 221.2 lea Alors chaque ligne de mon carnet en appelait une autre.
+82 224.9 mat Tu avais trouvé une réunion où tu étais
+83 227.5 mat à la fois l'organisatrice et toute l'équipe.
+84 231.2 lea Avec beaucoup de demandes et aucun biscuit.
+85 234.4 lea Puis j'ai entendu une petite fille demander
+86 237.2 lea à son père de regarder la pluie.
+87 239.3 mat Et tu as regardé aussi ?
+88 241.3 lea Oui. Juste quelques secondes.
+89 243.4 lea Ça m'a rappelé pourquoi j'étais venue : pour décrocher un peu.
+90 247.6 mat Décrocher, ici, ça veut dire arrêter de penser
+91 251.4 mat à ses préoccupations et prendre de la distance.
+92 255.6 lea Voilà.
+93 256.1 lea Par exemple, dessiner m'aide à décrocher après une journée chargée.
+94 260.7 mat Alors, tu as réussi à lire ?
+95 263.3 lea Quelques pages. J'ai rangé mon carnet,
+96 266.4 lea même si ma semaine n'était pas entièrement organisée.
+97 269.8 mat Et la mer est revenue.
+98 272.1 lea Oui. Avec un personnage qui avait raté son bateau.
+99 276.2 lea J'étais ravie que ce rendez-vous ne soit pas le mien.
+100 279.4 mat Samedi, j'ai participé à un atelier
+101 282.0 mat de réparation à la maison de quartier.
+102 284.8 mat On aide les gens à réparer de petits objets.
+103 288.5 lea Tu y vas souvent ?
+104 289.9 mat Une fois par mois.
+105 291.6 mat Cette fois, je devais rester jusqu'à midi.
+106 294.3 mat Après, j'avais prévu une promenade avec un ami.
+107 297.9 lea Tu as pu partir à l'heure ?
+108 299.8 mat Non. J'ai commencé à en faire trop.
+109 303.1 mat Une personne avait besoin d'aide pour une fermeture,
+110 306.2 mat une autre pour une lampe.
+111 308.6 lea En faire trop, c'est dépasser ce qu'on peut raisonnablement faire.
+112 314.0 mat Comme quand je prépare six activités
+113 316.6 mat pour une seule journée de vacances.
+114 318.9 mat J'en fais trop et je cours partout.
+115 322.1 lea Tu n'étais pas le seul bénévole, pourtant.
+116 324.8 mat Non, mais je disais oui avant
+117 327.8 mat de regarder ce qui m'attendait déjà.
+118 330.3 mat À midi, j'avais la tête sous l'eau.
+119 333.1 lea Tu te sentais débordé, avec trop de choses à gérer.
+120 337.2 lea C'est une expression imagée.
+121 339.7 mat Par exemple, cette semaine, avec les commandes du magasin,
+122 343.4 mat ma cousine a la tête sous l'eau.
+123 346.3 lea Et ton ami ?
+124 347.6 mat Il m'a appelé.
+125 348.8 mat J'ai dit : « Encore dix minutes. »
+126 351.5 mat Sauf que je n'avais aucune idée du temps nécessaire.
+127 355.5 lea Dix minutes très optimistes.
+128 358.5 mat Oui.
+129 358.8 mat Une autre bénévole m'a demandé à quelle heure je finissais.
+130 363.1 mat J'ai répondu : « Normalement, il y a une demi-heure. »
+131 367.2 lea Elle a dû comprendre.
+132 369.0 mat Elle m'a proposé de reprendre la suite.
+133 371.8 mat Elle m'a aussi conseillé de poser
+134 374.1 mat mes limites dès mon arrivée.
+135 376.4 lea C'est dire clairement ce qu'on accepte
+136 378.9 lea et jusqu'où on peut aller.
+137 381.0 mat Par exemple, pour les appels professionnels,
+138 383.8 mat je pose mes limites : je suis disponible jusqu'à dix-huit heures.
+139 389.0 lea Tu peux donc être utile sans rester
+140 391.2 lea jusqu'au départ de la dernière personne.
+141 393.8 mat Oui.
+142 394.3 mat La prochaine fois, je dirai mon horaire au début.
+143 398.5 mat Mon ami a été patient,
+144 400.3 mat mais notre promenade méritait aussi une place.
+145 403.6 lea Tu lui as présenté tes excuses ?
+146 406.1 mat Oui. Puis nous avons marché tranquillement.
+147 409.5 mat Je n'ai proposé de réparer aucun banc.
+148 412.5 lea Dans nos deux histoires,
+149 413.9 lea personne ne nous demandait de tout faire.
+150 416.5 lea Pourtant, nous nous sentions obligés de continuer.
+151 420.3 mat Pour moi, partir semblait vouloir dire
+152 423.2 mat que je n'étais pas assez serviable.
+153 425.6 mat Même avec d'autres bénévoles présents.
+154 428.4 lea Moi, j'avais l'impression qu'une heure
+155 430.8 lea sans préparation était une heure perdue.
+156 433.4 mat On confond parfois une envie
+157 435.6 mat de bien faire avec une urgence.
+158 438.4 lea Une urgence, c'est une situation qui demande une action rapide.
+159 443.1 lea Mais toutes les demandes ne sont pas urgentes.
+160 446.3 mat Par exemple, une fuite d'eau importante est une urgence.
+161 450.8 mat Choisir la couleur d'une affiche peut généralement attendre.
+162 455.2 lea Et quand le délai n'est pas clair,
+163 457.1 lea on peut demander : « Pour quand en as-tu besoin ? »
+164 460.6 mat Ça évite d'inventer un délai dans sa tête.
+165 463.7 mat Je suis très fort pour m'attribuer
+166 465.9 mat des missions avant même le début du projet.
+167 469.1 lea Une obligation est différente : c'est quelque chose qu'on doit faire,
+168 473.6 lea à cause d'un engagement ou d'une règle.
+169 476.4 mat Par exemple, respecter cet horaire fait
+170 479.3 mat partie de mes obligations au travail.
+171 482.2 lea Certaines obligations sont réelles.
+172 484.8 lea On ne peut pas simplement quitter
+173 486.7 lea son poste ou arrêter de s'occuper d'un enfant.
+174 489.6 mat Une amie travaille à l'accueil d'un centre sportif.
+175 493.1 mat Elle ne peut pas fermer
+176 494.3 mat le guichet quand elle souhaite se promener.
+177 497.0 lea Alors lui dire de ralentir ne suffit pas.
+178 500.2 lea Il faut aussi regarder l'organisation et les possibilités de relais.
+179 504.8 mat Oui. Et avoir une soirée libre ne signifie
+180 508.4 mat pas toujours avoir encore de l'énergie.
+181 511.2 lea Parfois, on est à bout : on se sent épuisé,
+182 514.7 lea avec très peu de forces disponibles.
+183 517.5 mat Après plusieurs jours de déménagement, mon frère était à bout.
+184 521.9 mat Il a demandé qu'on l'aide à terminer.
+185 524.0 lea Demander de l'aide peut compter davantage
+186 526.6 lea qu'une nouvelle méthode pour mieux remplir son agenda.
+187 530.2 lea Faisons un jeu de rôle.
+188 531.7 lea Je suis ta voisine et je te demande un service.
+189 535.4 mat Écoutez sa demande, puis essayez de répondre avant moi.
+190 539.6 lea Je serai absente cette semaine.
+191 541.7 lea Tu pourrais recevoir mes colis tous les jours ?
+192 545.7 mat À vous.
+193 547.3 mat Vous voulez aider, mais vous êtes disponible seulement mardi.
+194 551.4 mat Que diriez-vous ? Prenez quelques secondes.
+195 555.2 lea Vous pouvez commencer par : « Je peux…
+196 558.4 lea mais je ne peux pas… »
+197 561.2 mat Je peux recevoir tes colis mardi,
+198 563.7 mat mais je ne peux pas rester disponible toute la semaine.
+199 566.8 lea Ah, d'accord.
+200 568.1 lea Tu travailles chez toi les autres jours, pourtant ?
+201 571.1 mat Oui, mais j'ai des rendez-vous
+202 573.3 mat et je ne peux pas m'interrompre à chaque livraison.
+203 576.4 lea Je comprends. Pour mardi, je t'envoie les informations maintenant ?
+204 581.3 mat Est-ce qu'on peut remettre ça à plus tard ?
+205 583.6 mat Je pars dans quelques minutes.
+206 585.5 mat Je pourrai regarder ce soir.
+207 588.0 lea Remettre à plus tard,
+208 589.4 lea c'est décider de faire quelque chose après,
+209 592.2 lea au lieu de le faire maintenant.
+210 594.5 mat Par exemple, nous avons remis la visite
+211 597.1 mat à plus tard parce que le musée était fermé.
+212 600.2 lea Très bien. Je t'envoie un message ce soir.
+213 603.2 lea Et je vais chercher une autre
+214 604.7 lea solution pour les autres jours.
+215 607.0 mat Merci. Mardi, je pourrai réceptionner les colis
+216 611.1 mat entre neuf heures et midi.
+217 612.7 lea Parfait, je vérifierai si ce créneau convient.
+218 616.3 mat Voilà. J'ai proposé quelque chose de précis,
+219 619.4 mat sans promettre toute ma semaine.
+220 621.9 lea Et tu n'as pas raconté
+221 623.2 lea chaque rendez-vous pour justifier ta réponse.
+222 626.6 mat J'aurais pu. Avec les horaires,
+223 629.1 mat les adresses et un petit plan du quartier.
+224 632.4 lea Une réponse claire suffisait.
+225 635.3 lea On peut aussi dire : « Cette fois, je ne pourrai pas. »
+226 639.3 mat Ou : « Je peux t'aider pendant une demi-heure. »
+227 643.0 mat Même une réponse courte peut être chaleureuse.
+228 646.4 lea Pour commencer, on peut choisir un moment
+229 649.3 lea où l'on a réellement une marge de liberté.
+230 652.3 mat Moi, je vais lever le pied après l'atelier du samedi.
+231 655.8 mat Je vais ralentir au lieu d'ajouter encore une activité.
+232 659.6 lea C'est le sens de lever le pied.
+233 662.2 lea Exemple : après ce gros projet,
+234 665.1 lea notre équipe va lever le pied pendant quelques jours.
+235 668.8 mat Je garde donc ma promenade,
+236 670.9 mat mais je ne transforme pas le retour
+237 673.1 mat en liste de courses interminable.
+238 675.8 lea De mon côté,
+239 676.6 lea je vais laisser mon carnet
+240 678.3 lea dans mon sac quand j'arrive à la médiathèque.
+241 681.5 mat Une idée peut quand même arriver pendant la lecture.
+242 684.8 lea Oui.
+243 685.2 lea Je peux noter un mot, puis revenir au livre.
+244 688.7 lea Je n'ai pas besoin de développer tout le projet immédiatement.
+245 692.6 mat Et pour souffler,
+246 694.0 mat il faut forcément un grand moment de calme ?
+247 697.3 lea Non. Souffler, ici, c'est prendre une petite pause.
+248 701.5 lea Après avoir installé les tables,
+249 703.5 lea on a soufflé quelques minutes dans la cour.
+250 706.6 mat Moi, je pourrais simplement m'asseoir
+251 708.8 mat sans chercher quelque chose à écouter,
+252 711.0 mat à ranger ou à apprendre.
+253 713.7 lea Tu peux aussi marcher ou discuter.
+254 716.7 lea Il n'y a pas une seule
+255 717.8 lea bonne façon de passer ce moment.
+256 720.2 mat Et si je pense encore au travail ?
+257 722.7 lea Ça peut arriver.
+258 723.9 lea Tu n'as pas raté ta pause
+259 725.4 lea parce qu'une pensée est revenue.
+260 727.8 mat Ça me rassure.
+261 729.3 mat Sinon, j'allais préparer un tableau
+262 731.5 mat pour mesurer la qualité de mes pauses.
+263 734.0 lea Tu peux plutôt essayer de ménager tes forces :
+264 737.2 lea utiliser ton énergie avec attention
+265 739.8 lea pour ne pas tout dépenser d'un coup.
+266 742.7 mat Par exemple, pendant une longue randonnée,
+267 745.6 mat je ménage mes forces en marchant tranquillement dès le départ.
+268 750.2 lea Pour moi, ça veut dire garder un dîner simple
+269 753.5 lea les soirs où j'ai déjà beaucoup de choses à faire.
+270 757.0 mat Et si je range toute la cuisine
+271 758.9 mat pour éviter un message difficile,
+272 761.2 mat ce n'est peut-être pas la pause dont j'avais envie.
+273 764.3 lea Tu peux te demander ce qui te retient,
+274 766.9 lea puis choisir quand répondre.
+275 769.3 lea Ce n'est pas nécessaire de régler cela immédiatement.
+276 772.8 mat Chacun peut avancer à son rythme :
+277 775.2 mat à une vitesse qui lui convient.
+278 777.5 lea Oui.
+279 777.9 lea Dans mon cours de dessin, chacun apprend à son rythme.
+280 781.8 lea Personne ne termine au même moment.
+281 784.6 mat Mon fauteuil sera content.
+282 786.8 mat Il n'a jamais aimé les compétitions.
+283 789.5 lea Maintenant, reprenez votre idée du début.
+284 792.5 lea Complétez cette phrase : « J'aimerais prendre mon temps pour…
+285 798.8 lea parce que… »
+286 799.5 mat J'aimerais prendre mon temps pour marcher après le déjeuner,
+287 803.4 mat parce que j'aime regarder ce qui change dans mon quartier.
+288 807.6 lea J'aimerais prendre mon temps pour lire le dimanche,
+289 811.3 lea parce que j'ai envie de suivre une histoire
+290 813.4 lea sans préparer la suite de ma journée.
+291 816.6 mat À votre tour.
+292 817.9 mat Dites votre phrase à voix haute.
+293 820.2 mat Vous pouvez utiliser des mots très simples.
+294 824.0 lea Ensuite, ajoutez une limite possible :
+295 827.2 lea « Pour garder ce moment, je peux… »
+296 830.7 mat Pour garder ce moment,
+297 832.5 mat je peux annoncer mon heure
+298 834.5 mat de départ avant de commencer l'atelier.
+299 837.8 lea Pour garder ce moment,
+300 839.5 lea je peux préparer ma liste de courses
+301 842.1 lea à un autre moment de la journée.
+302 844.5 mat Choisissez quelque chose qui dépend un peu de vous.
+303 848.0 mat Vous n'avez pas besoin de réorganiser toute votre vie.
+304 852.1 lea Et si vous avez surtout besoin d'aide,
+305 854.3 lea vous pouvez dire : « Est-ce que tu pourrais prendre le relais ? »
+306 859.0 mat C'est aussi une phrase précieuse à savoir prononcer.
+307 863.6 lea Revenons sur cinq expressions.
+308 865.9 lea Écoutez leur sens, puis répétez avec nous.
+309 869.8 mat La première, c'est se mettre la pression.
+310 873.6 mat À la médiathèque,
+311 875.1 mat Léa voulait préparer une semaine sans aucune surprise.
+312 879.9 lea C'est se créer une forte exigence, parfois difficile à supporter.
+313 885.7 lea Nouvel exemple : pour ce repas entre amis,
+314 889.0 lea je me mets la pression inutilement.
+315 891.8 mat On répète : se mettre la pression.
+316 895.4 mat Un dîner peut commencer
+317 897.0 mat sans que les serviettes soient parfaitement pliées.
+318 901.0 lea Deuxième expression : avoir la tête sous l'eau.
+319 904.6 lea À l'atelier, tu avais accepté trop de petites demandes.
+320 909.1 mat Oui, j'étais débordé.
+321 912.0 mat Exemple : depuis l'ouverture du restaurant,
+322 915.5 mat les propriétaires ont la tête sous l'eau.
+323 918.7 lea On répète : avoir la tête sous l'eau.
+324 922.0 lea On parle de toutes les tâches à gérer,
+325 924.8 lea pas d'une piscine.
+326 926.5 mat Troisième expression : poser ses limites.
+327 930.6 mat Je peux annoncer mon heure de départ
+328 933.4 mat et ce que je peux accepter.
+329 935.7 lea C'est préciser ses possibilités et ce qu'on refuse.
+330 939.8 lea Exemple : dans ce groupe,
+331 942.2 lea j'ai posé mes limites sur les appels tardifs.
+332 945.8 mat On répète : poser ses limites.
+333 949.2 mat Vous pouvez commencer par une phrase, sans organiser une conférence.
+334 954.7 lea Quatrième expression : lever le pied.
+335 958.0 lea Tu veux ralentir après ton activité du samedi.
+336 962.1 mat C'est réduire son rythme ou son activité.
+337 965.8 mat Exemple : pendant les vacances,
+338 968.4 mat elle lève le pied et garde ses matinées libres.
+339 972.8 lea On répète : lever le pied.
+340 975.6 lea On peut le dire pour le travail,
+341 977.9 lea les activités ou un emploi du temps chargé.
+342 981.3 mat Enfin, ménager ses forces.
+343 984.9 mat Pendant une longue journée, on essaie de préserver son énergie.
+344 990.2 lea Exemple : avant le spectacle du soir,
+345 993.0 lea les danseurs ménagent leurs forces pendant leur temps libre.
+346 997.2 mat On répète : ménager ses forces.
+347 1000.7 mat Ce n'est pas forcément tout arrêter,
+348 1003.3 mat mais choisir où l'on met son énergie.
+349 1007.0 lea Choisissez maintenant une expression.
+350 1009.6 lea Pensez à une situation qui vous appartient
+351 1012.1 lea et construisez votre propre phrase.
+352 1015.8 mat Même si vous cherchez vos mots, prenez le temps.
+353 1019.4 mat Ici aussi, vous pouvez aller à votre rythme.
+354 1023.4 lea Dans les commentaires, écrivez : « J'aimerais prendre mon temps pour…
+355 1028.9 lea parce que… » Nous serons heureux de lire vos idées.
+356 1033.2 mat Et si vous avez appris une phrase utile,
+357 1036.3 mat abonnez-vous à The Cozy French
+358 1038.2 mat pour continuer à pratiquer avec nous.
+359 1041.4 lea Vous pouvez réécouter notre petite conversation
+360 1044.4 lea entre voisins et essayer les deux rôles.
+361 1047.7 mat Merci d'avoir partagé ce moment.
+362 1050.0 mat Où que vous soyez,
+363 1051.3 mat nous vous souhaitons une belle suite de journée.
+364 1054.9 lea Prenez soin de vous et à très bientôt !
+365 1059.1 lea Tu vas t'asseoir un peu, maintenant ?
+366 1061.8 mat Oui. Mon fauteuil m'attend.
+367 1064.5 mat Je vais enfin remplir la première case de ma carte.
+368 1069.3 lea Attention à ne pas transformer
+369 1071.5 lea les pauses en course aux points.
+370 1073.8 mat Tu as raison.
+371 1075.4 mat Je pose la carte.
+372 1077.2 mat Cette fois, je m'assois, c'est tout.

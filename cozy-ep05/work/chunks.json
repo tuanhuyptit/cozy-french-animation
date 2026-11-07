@@ -1,0 +1,1867 @@
+[
+ {
+  "who": "lea",
+  "s": 0.11,
+  "fr": "Bonjour tout le monde et bienvenue sur The Cozy French !"
+ },
+ {
+  "who": "lea",
+  "s": 3.66,
+  "fr": "Moi, c'est Léa."
+ },
+ {
+  "who": "mat",
+  "s": 4.92,
+  "fr": "Et moi, c'est Mathieu."
+ },
+ {
+  "who": "mat",
+  "s": 6.44,
+  "fr": "Merci d'être avec nous."
+ },
+ {
+  "who": "mat",
+  "s": 8.28,
+  "fr": "Aujourd'hui, vous pouvez vous installer sans rien préparer."
+ },
+ {
+  "who": "lea",
+  "s": 12.2,
+  "fr": "Pas de liste à terminer avant de commencer."
+ },
+ {
+  "who": "lea",
+  "s": 14.56,
+  "fr": "Juste un moment pour écouter du français ensemble."
+ },
+ {
+  "who": "mat",
+  "s": 18.6,
+  "fr": "J'ai quand même apporté un document important :"
+ },
+ {
+  "who": "mat",
+  "s": 21.92,
+  "fr": "la carte de fidélité de mon fauteuil."
+ },
+ {
+  "who": "lea",
+  "s": 25.48,
+  "fr": "Il distribue des points maintenant ?"
+ },
+ {
+  "who": "mat",
+  "s": 28.03,
+  "fr": "Une case pour chaque vraie pause."
+ },
+ {
+  "who": "mat",
+  "s": 31.32,
+  "fr": "Pour l'instant, ma carte est complètement vide."
+ },
+ {
+  "who": "lea",
+  "s": 34.72,
+  "fr": "Ton fauteuil attend donc son premier client régulier."
+ },
+ {
+  "who": "lea",
+  "s": 38.28,
+  "fr": "Aujourd'hui, nous parlons du fait de ralentir sans culpabiliser."
+ },
+ {
+  "who": "lea",
+  "s": 42.92,
+  "fr": "Prendre son temps peut sembler simple,"
+ },
+ {
+  "who": "lea",
+  "s": 45.46,
+  "fr": "jusqu'au moment où on essaie."
+ },
+ {
+  "who": "mat",
+  "s": 47.68,
+  "fr": "On s'assoit, puis une petite voix demande :"
+ },
+ {
+  "who": "mat",
+  "s": 51.44,
+  "fr": "« Tu es sûr que tu n'as"
+ },
+ {
+  "who": "mat",
+  "s": 53.06,
+  "fr": "rien de plus utile à faire ? »"
+ },
+ {
+  "who": "lea",
+  "s": 55.71,
+  "fr": "Cette conversation est pour les niveaux B1 et B2."
+ },
+ {
+  "who": "lea",
+  "s": 59.52,
+  "fr": "Nous allons parler lentement et expliquer des expressions du quotidien."
+ },
+ {
+  "who": "mat",
+  "s": 64.36,
+  "fr": "À la fin,"
+ },
+ {
+  "who": "mat",
+  "s": 65.01,
+  "fr": "vous saurez parler de votre besoin de repos"
+ },
+ {
+  "who": "mat",
+  "s": 68.08,
+  "fr": "et demander si une tâche peut attendre."
+ },
+ {
+  "who": "lea",
+  "s": 71.24,
+  "fr": "Vous apprendrez aussi à poser une limite simplement,"
+ },
+ {
+  "who": "lea",
+  "s": 74.68,
+  "fr": "sans préparer un discours de dix minutes."
+ },
+ {
+  "who": "mat",
+  "s": 77.56,
+  "fr": "Vous pouvez écouter dans le train,"
+ },
+ {
+  "who": "mat",
+  "s": 79.73,
+  "fr": "chez vous ou pendant une promenade."
+ },
+ {
+  "who": "mat",
+  "s": 82.16,
+  "fr": "Pas besoin de comprendre chaque mot."
+ },
+ {
+  "who": "lea",
+  "s": 84.87,
+  "fr": "Suivez les histoires et répétez"
+ },
+ {
+  "who": "lea",
+  "s": 86.81,
+  "fr": "les phrases qui vous seront utiles."
+ },
+ {
+  "who": "mat",
+  "s": 89.24,
+  "fr": "Et si vous avez déjà commencé à faire une liste,"
+ },
+ {
+  "who": "mat",
+  "s": 92.48,
+  "fr": "gardez une petite place pour votre fauteuil."
+ },
+ {
+  "who": "lea",
+  "s": 96.24,
+  "fr": "Voici notre question du jour :"
+ },
+ {
+  "who": "lea",
+  "s": 98.28,
+  "fr": "qu'aimeriez-vous faire plus lentement, sans vous sentir coupable ?"
+ },
+ {
+  "who": "mat",
+  "s": 103.04,
+  "fr": "Marcher jusqu'à la boulangerie ?"
+ },
+ {
+  "who": "mat",
+  "s": 105.2,
+  "fr": "Lire quelques pages ?"
+ },
+ {
+  "who": "mat",
+  "s": 107.12,
+  "fr": "Finir une conversation sans regarder l'heure ?"
+ },
+ {
+  "who": "lea",
+  "s": 110.96,
+  "fr": "Gardez une idée en tête."
+ },
+ {
+  "who": "lea",
+  "s": 112.88,
+  "fr": "À la fin,"
+ },
+ {
+  "who": "lea",
+  "s": 113.45,
+  "fr": "nous vous proposerons une phrase pour la raconter."
+ },
+ {
+  "who": "mat",
+  "s": 117.12,
+  "fr": "Et dites-nous d'où vous nous écoutez."
+ },
+ {
+  "who": "mat",
+  "s": 120.08,
+  "fr": "Une petite pause peut nous réunir,"
+ },
+ {
+  "who": "mat",
+  "s": 122.56,
+  "fr": "même à plusieurs milliers de kilomètres."
+ },
+ {
+  "who": "lea",
+  "s": 126.28,
+  "fr": "Dimanche dernier, je suis allée"
+ },
+ {
+  "who": "lea",
+  "s": 128.15,
+  "fr": "à la médiathèque de mon quartier."
+ },
+ {
+  "who": "lea",
+  "s": 130.12,
+  "fr": "J'avais envie de lire un roman dans un endroit calme."
+ },
+ {
+  "who": "mat",
+  "s": 133.4,
+  "fr": "Tu avais choisi un livre ?"
+ },
+ {
+  "who": "lea",
+  "s": 135.08,
+  "fr": "Oui, une histoire qui se passe"
+ },
+ {
+  "who": "lea",
+  "s": 137.25,
+  "fr": "au bord de la mer."
+ },
+ {
+  "who": "lea",
+  "s": 138.6,
+  "fr": "J'ai trouvé un fauteuil près d'une grande fenêtre."
+ },
+ {
+  "who": "mat",
+  "s": 141.95,
+  "fr": "Déjà, ton fauteuil est mieux placé que le mien."
+ },
+ {
+  "who": "mat",
+  "s": 145.72,
+  "fr": "Il a une vue."
+ },
+ {
+  "who": "lea",
+  "s": 147,
+  "fr": "Il pleuvait doucement."
+ },
+ {
+  "who": "lea",
+  "s": 148.6,
+  "fr": "J'ai posé mon manteau et ouvert le livre."
+ },
+ {
+  "who": "lea",
+  "s": 151.32,
+  "fr": "Puis j'ai pensé à ma semaine."
+ },
+ {
+  "who": "mat",
+  "s": 153.84,
+  "fr": "La mer a disparu ?"
+ },
+ {
+  "who": "lea",
+  "s": 155.48,
+  "fr": "Complètement. À sa place, j'ai vu mes rendez-vous."
+ },
+ {
+  "who": "lea",
+  "s": 159.32,
+  "fr": "Je me suis mise à culpabiliser"
+ },
+ {
+  "who": "lea",
+  "s": 161.35,
+  "fr": "parce que je ne préparais rien."
+ },
+ {
+  "who": "mat",
+  "s": 163.28,
+  "fr": "Culpabiliser, c'est se sentir coupable,"
+ },
+ {
+  "who": "mat",
+  "s": 166.88,
+  "fr": "penser qu'on fait quelque chose de mal ?"
+ },
+ {
+  "who": "lea",
+  "s": 169.47,
+  "fr": "Oui, même quand personne ne nous reproche rien."
+ },
+ {
+  "who": "lea",
+  "s": 172.44,
+  "fr": "Par exemple, je culpabilise parfois de refuser une invitation."
+ },
+ {
+  "who": "mat",
+  "s": 176.84,
+  "fr": "Et ton roman attendait pendant"
+ },
+ {
+  "who": "mat",
+  "s": 178.85,
+  "fr": "que tu te faisais des reproches."
+ },
+ {
+  "who": "lea",
+  "s": 181.16,
+  "fr": "Exactement. J'ai sorti mon carnet."
+ },
+ {
+  "who": "lea",
+  "s": 183.68,
+  "fr": "J'ai noté les courses du lundi,"
+ },
+ {
+  "who": "lea",
+  "s": 185.74,
+  "fr": "un dossier à envoyer et un cadeau à acheter."
+ },
+ {
+  "who": "mat",
+  "s": 188.96,
+  "fr": "Tu avais emprunté un bureau, finalement."
+ },
+ {
+  "who": "lea",
+  "s": 191.76,
+  "fr": "Un bureau très confortable."
+ },
+ {
+  "who": "lea",
+  "s": 193.84,
+  "fr": "Mais au bout de vingt minutes,"
+ },
+ {
+  "who": "lea",
+  "s": 195.72,
+  "fr": "je me mettais encore plus la pression."
+ },
+ {
+  "who": "mat",
+  "s": 198.63,
+  "fr": "Se mettre la pression,"
+ },
+ {
+  "who": "mat",
+  "s": 200.32,
+  "fr": "c'est exiger beaucoup de soi et se créer du stress."
+ },
+ {
+  "who": "lea",
+  "s": 205.28,
+  "fr": "Oui. Avant une présentation,"
+ },
+ {
+  "who": "lea",
+  "s": 207.45,
+  "fr": "mon collègue se met la pression"
+ },
+ {
+  "who": "lea",
+  "s": 209.19,
+  "fr": "pour répondre parfaitement à chaque question."
+ },
+ {
+  "who": "mat",
+  "s": 212.44,
+  "fr": "Il pourrait déjà répondre à la première."
+ },
+ {
+  "who": "mat",
+  "s": 214.76,
+  "fr": "Le reste viendra ensuite."
+ },
+ {
+  "who": "lea",
+  "s": 216.84,
+  "fr": "Ce jour-là, je voulais commencer lundi sans aucune surprise."
+ },
+ {
+  "who": "lea",
+  "s": 221.24,
+  "fr": "Alors chaque ligne de mon carnet en appelait une autre."
+ },
+ {
+  "who": "mat",
+  "s": 224.87,
+  "fr": "Tu avais trouvé une réunion où tu étais"
+ },
+ {
+  "who": "mat",
+  "s": 227.53,
+  "fr": "à la fois l'organisatrice et toute l'équipe."
+ },
+ {
+  "who": "lea",
+  "s": 231.16,
+  "fr": "Avec beaucoup de demandes et aucun biscuit."
+ },
+ {
+  "who": "lea",
+  "s": 234.44,
+  "fr": "Puis j'ai entendu une petite fille demander"
+ },
+ {
+  "who": "lea",
+  "s": 237.15,
+  "fr": "à son père de regarder la pluie."
+ },
+ {
+  "who": "mat",
+  "s": 239.28,
+  "fr": "Et tu as regardé aussi ?"
+ },
+ {
+  "who": "lea",
+  "s": 241.28,
+  "fr": "Oui. Juste quelques secondes."
+ },
+ {
+  "who": "lea",
+  "s": 243.4,
+  "fr": "Ça m'a rappelé pourquoi j'étais venue : pour décrocher un peu."
+ },
+ {
+  "who": "mat",
+  "s": 247.62,
+  "fr": "Décrocher, ici, ça veut dire arrêter de penser"
+ },
+ {
+  "who": "mat",
+  "s": 251.42,
+  "fr": "à ses préoccupations et prendre de la distance."
+ },
+ {
+  "who": "lea",
+  "s": 255.64,
+  "fr": "Voilà."
+ },
+ {
+  "who": "lea",
+  "s": 256.15,
+  "fr": "Par exemple, dessiner m'aide à décrocher après une journée chargée."
+ },
+ {
+  "who": "mat",
+  "s": 260.72,
+  "fr": "Alors, tu as réussi à lire ?"
+ },
+ {
+  "who": "lea",
+  "s": 263.32,
+  "fr": "Quelques pages. J'ai rangé mon carnet,"
+ },
+ {
+  "who": "lea",
+  "s": 266.36,
+  "fr": "même si ma semaine n'était pas entièrement organisée."
+ },
+ {
+  "who": "mat",
+  "s": 269.76,
+  "fr": "Et la mer est revenue."
+ },
+ {
+  "who": "lea",
+  "s": 272.08,
+  "fr": "Oui. Avec un personnage qui avait raté son bateau."
+ },
+ {
+  "who": "lea",
+  "s": 276.19,
+  "fr": "J'étais ravie que ce rendez-vous ne soit pas le mien."
+ },
+ {
+  "who": "mat",
+  "s": 279.44,
+  "fr": "Samedi, j'ai participé à un atelier"
+ },
+ {
+  "who": "mat",
+  "s": 281.98,
+  "fr": "de réparation à la maison de quartier."
+ },
+ {
+  "who": "mat",
+  "s": 284.8,
+  "fr": "On aide les gens à réparer de petits objets."
+ },
+ {
+  "who": "lea",
+  "s": 288.52,
+  "fr": "Tu y vas souvent ?"
+ },
+ {
+  "who": "mat",
+  "s": 289.92,
+  "fr": "Une fois par mois."
+ },
+ {
+  "who": "mat",
+  "s": 291.6,
+  "fr": "Cette fois, je devais rester jusqu'à midi."
+ },
+ {
+  "who": "mat",
+  "s": 294.32,
+  "fr": "Après, j'avais prévu une promenade avec un ami."
+ },
+ {
+  "who": "lea",
+  "s": 297.92,
+  "fr": "Tu as pu partir à l'heure ?"
+ },
+ {
+  "who": "mat",
+  "s": 299.84,
+  "fr": "Non. J'ai commencé à en faire trop."
+ },
+ {
+  "who": "mat",
+  "s": 303.15,
+  "fr": "Une personne avait besoin d'aide pour une fermeture,"
+ },
+ {
+  "who": "mat",
+  "s": 306.2,
+  "fr": "une autre pour une lampe."
+ },
+ {
+  "who": "lea",
+  "s": 308.56,
+  "fr": "En faire trop, c'est dépasser ce qu'on peut raisonnablement faire."
+ },
+ {
+  "who": "mat",
+  "s": 314.04,
+  "fr": "Comme quand je prépare six activités"
+ },
+ {
+  "who": "mat",
+  "s": 316.58,
+  "fr": "pour une seule journée de vacances."
+ },
+ {
+  "who": "mat",
+  "s": 318.88,
+  "fr": "J'en fais trop et je cours partout."
+ },
+ {
+  "who": "lea",
+  "s": 322.12,
+  "fr": "Tu n'étais pas le seul bénévole, pourtant."
+ },
+ {
+  "who": "mat",
+  "s": 324.84,
+  "fr": "Non, mais je disais oui avant"
+ },
+ {
+  "who": "mat",
+  "s": 327.78,
+  "fr": "de regarder ce qui m'attendait déjà."
+ },
+ {
+  "who": "mat",
+  "s": 330.29,
+  "fr": "À midi, j'avais la tête sous l'eau."
+ },
+ {
+  "who": "lea",
+  "s": 333.12,
+  "fr": "Tu te sentais débordé, avec trop de choses à gérer."
+ },
+ {
+  "who": "lea",
+  "s": 337.24,
+  "fr": "C'est une expression imagée."
+ },
+ {
+  "who": "mat",
+  "s": 339.68,
+  "fr": "Par exemple, cette semaine, avec les commandes du magasin,"
+ },
+ {
+  "who": "mat",
+  "s": 343.44,
+  "fr": "ma cousine a la tête sous l'eau."
+ },
+ {
+  "who": "lea",
+  "s": 346.28,
+  "fr": "Et ton ami ?"
+ },
+ {
+  "who": "mat",
+  "s": 347.56,
+  "fr": "Il m'a appelé."
+ },
+ {
+  "who": "mat",
+  "s": 348.8,
+  "fr": "J'ai dit : « Encore dix minutes. »"
+ },
+ {
+  "who": "mat",
+  "s": 351.52,
+  "fr": "Sauf que je n'avais aucune idée du temps nécessaire."
+ },
+ {
+  "who": "lea",
+  "s": 355.52,
+  "fr": "Dix minutes très optimistes."
+ },
+ {
+  "who": "mat",
+  "s": 358.47,
+  "fr": "Oui."
+ },
+ {
+  "who": "mat",
+  "s": 358.76,
+  "fr": "Une autre bénévole m'a demandé à quelle heure je finissais."
+ },
+ {
+  "who": "mat",
+  "s": 363.12,
+  "fr": "J'ai répondu : « Normalement, il y a une demi-heure. »"
+ },
+ {
+  "who": "lea",
+  "s": 367.2,
+  "fr": "Elle a dû comprendre."
+ },
+ {
+  "who": "mat",
+  "s": 368.96,
+  "fr": "Elle m'a proposé de reprendre la suite."
+ },
+ {
+  "who": "mat",
+  "s": 371.84,
+  "fr": "Elle m'a aussi conseillé de"
+ },
+ {
+  "who": "mat",
+  "s": 373.72,
+  "fr": "poser mes limites dès mon arrivée."
+ },
+ {
+  "who": "lea",
+  "s": 376.36,
+  "fr": "C'est dire clairement ce qu'on accepte"
+ },
+ {
+  "who": "lea",
+  "s": 378.9,
+  "fr": "et jusqu'où on peut aller."
+ },
+ {
+  "who": "mat",
+  "s": 381.04,
+  "fr": "Par exemple, pour les appels professionnels,"
+ },
+ {
+  "who": "mat",
+  "s": 383.8,
+  "fr": "je pose mes limites : je suis disponible jusqu'à dix-huit heures."
+ },
+ {
+  "who": "lea",
+  "s": 388.96,
+  "fr": "Tu peux donc être utile sans rester"
+ },
+ {
+  "who": "lea",
+  "s": 391.18,
+  "fr": "jusqu'au départ de la dernière personne."
+ },
+ {
+  "who": "mat",
+  "s": 393.84,
+  "fr": "Oui."
+ },
+ {
+  "who": "mat",
+  "s": 394.3,
+  "fr": "La prochaine fois, je dirai mon horaire au début."
+ },
+ {
+  "who": "mat",
+  "s": 398.48,
+  "fr": "Mon ami a été patient,"
+ },
+ {
+  "who": "mat",
+  "s": 400.27,
+  "fr": "mais notre promenade méritait aussi une place."
+ },
+ {
+  "who": "lea",
+  "s": 403.64,
+  "fr": "Tu lui as présenté tes excuses ?"
+ },
+ {
+  "who": "mat",
+  "s": 406.08,
+  "fr": "Oui. Puis nous avons marché tranquillement."
+ },
+ {
+  "who": "mat",
+  "s": 409.52,
+  "fr": "Je n'ai proposé de réparer aucun banc."
+ },
+ {
+  "who": "lea",
+  "s": 412.51,
+  "fr": "Dans nos deux histoires,"
+ },
+ {
+  "who": "lea",
+  "s": 413.88,
+  "fr": "personne ne nous demandait de tout faire."
+ },
+ {
+  "who": "lea",
+  "s": 416.52,
+  "fr": "Pourtant, nous nous sentions obligés de continuer."
+ },
+ {
+  "who": "mat",
+  "s": 420.28,
+  "fr": "Pour moi, partir semblait vouloir dire"
+ },
+ {
+  "who": "mat",
+  "s": 423.22,
+  "fr": "que je n'étais pas assez serviable."
+ },
+ {
+  "who": "mat",
+  "s": 425.64,
+  "fr": "Même avec d'autres bénévoles présents."
+ },
+ {
+  "who": "lea",
+  "s": 428.44,
+  "fr": "Moi, j'avais l'impression qu'une heure"
+ },
+ {
+  "who": "lea",
+  "s": 430.76,
+  "fr": "sans préparation était une heure perdue."
+ },
+ {
+  "who": "mat",
+  "s": 433.4,
+  "fr": "On confond parfois une envie"
+ },
+ {
+  "who": "mat",
+  "s": 435.61,
+  "fr": "de bien faire avec une urgence."
+ },
+ {
+  "who": "lea",
+  "s": 438.39,
+  "fr": "Une urgence, c'est une situation qui demande une action rapide."
+ },
+ {
+  "who": "lea",
+  "s": 443.12,
+  "fr": "Mais toutes les demandes ne sont pas urgentes."
+ },
+ {
+  "who": "mat",
+  "s": 446.32,
+  "fr": "Par exemple, une fuite d'eau importante est une urgence."
+ },
+ {
+  "who": "mat",
+  "s": 450.76,
+  "fr": "Choisir la couleur d'une affiche peut généralement attendre."
+ },
+ {
+  "who": "lea",
+  "s": 455.2,
+  "fr": "Et quand le délai n'est pas clair,"
+ },
+ {
+  "who": "lea",
+  "s": 457.08,
+  "fr": "on peut demander : « Pour quand en as-tu besoin ? »"
+ },
+ {
+  "who": "mat",
+  "s": 460.6,
+  "fr": "Ça évite d'inventer un délai dans sa tête."
+ },
+ {
+  "who": "mat",
+  "s": 463.67,
+  "fr": "Je suis très fort pour m'attribuer"
+ },
+ {
+  "who": "mat",
+  "s": 465.88,
+  "fr": "des missions avant même le début du projet."
+ },
+ {
+  "who": "lea",
+  "s": 469.08,
+  "fr": "Une obligation est différente : c'est quelque chose qu'on doit faire,"
+ },
+ {
+  "who": "lea",
+  "s": 473.62,
+  "fr": "à cause d'un engagement ou d'une règle."
+ },
+ {
+  "who": "mat",
+  "s": 476.44,
+  "fr": "Par exemple, respecter cet horaire"
+ },
+ {
+  "who": "mat",
+  "s": 479.01,
+  "fr": "fait partie de mes obligations au travail."
+ },
+ {
+  "who": "lea",
+  "s": 482.2,
+  "fr": "Certaines obligations sont réelles."
+ },
+ {
+  "who": "lea",
+  "s": 484.84,
+  "fr": "On ne peut pas simplement quitter"
+ },
+ {
+  "who": "lea",
+  "s": 486.68,
+  "fr": "son poste ou arrêter de s'occuper d'un enfant."
+ },
+ {
+  "who": "mat",
+  "s": 489.64,
+  "fr": "Une amie travaille à l'accueil d'un centre sportif."
+ },
+ {
+  "who": "mat",
+  "s": 493.15,
+  "fr": "Elle ne peut pas fermer"
+ },
+ {
+  "who": "mat",
+  "s": 494.31,
+  "fr": "le guichet quand elle souhaite se promener."
+ },
+ {
+  "who": "lea",
+  "s": 497,
+  "fr": "Alors lui dire de ralentir ne suffit pas."
+ },
+ {
+  "who": "lea",
+  "s": 500.16,
+  "fr": "Il faut aussi regarder l'organisation et les possibilités de relais."
+ },
+ {
+  "who": "mat",
+  "s": 504.8,
+  "fr": "Oui. Et avoir une soirée libre"
+ },
+ {
+  "who": "mat",
+  "s": 507.52,
+  "fr": "ne signifie pas toujours avoir encore de l'énergie."
+ },
+ {
+  "who": "lea",
+  "s": 511.24,
+  "fr": "Parfois, on est à bout : on se sent épuisé,"
+ },
+ {
+  "who": "lea",
+  "s": 514.68,
+  "fr": "avec très peu de forces disponibles."
+ },
+ {
+  "who": "mat",
+  "s": 517.48,
+  "fr": "Après plusieurs jours de déménagement, mon frère était à bout."
+ },
+ {
+  "who": "mat",
+  "s": 521.9,
+  "fr": "Il a demandé qu'on l'aide à terminer."
+ },
+ {
+  "who": "lea",
+  "s": 524.04,
+  "fr": "Demander de l'aide peut compter davantage"
+ },
+ {
+  "who": "lea",
+  "s": 526.58,
+  "fr": "qu'une nouvelle méthode pour mieux remplir son agenda."
+ },
+ {
+  "who": "lea",
+  "s": 530.24,
+  "fr": "Faisons un jeu de rôle."
+ },
+ {
+  "who": "lea",
+  "s": 531.72,
+  "fr": "Je suis ta voisine et je te demande un service."
+ },
+ {
+  "who": "mat",
+  "s": 535.4,
+  "fr": "Écoutez sa demande, puis essayez de répondre avant moi."
+ },
+ {
+  "who": "lea",
+  "s": 539.64,
+  "fr": "Je serai absente cette semaine."
+ },
+ {
+  "who": "lea",
+  "s": 541.72,
+  "fr": "Tu pourrais recevoir mes colis tous les jours ?"
+ },
+ {
+  "who": "mat",
+  "s": 545.72,
+  "fr": "À vous."
+ },
+ {
+  "who": "mat",
+  "s": 547.32,
+  "fr": "Vous voulez aider, mais vous êtes disponible seulement mardi."
+ },
+ {
+  "who": "mat",
+  "s": 551.35,
+  "fr": "Que diriez-vous ? Prenez quelques secondes."
+ },
+ {
+  "who": "lea",
+  "s": 555.2,
+  "fr": "Vous pouvez commencer par : « Je peux…"
+ },
+ {
+  "who": "lea",
+  "s": 558.43,
+  "fr": "mais je ne peux pas… »"
+ },
+ {
+  "who": "mat",
+  "s": 561.24,
+  "fr": "Je peux recevoir tes colis mardi,"
+ },
+ {
+  "who": "mat",
+  "s": 563.69,
+  "fr": "mais je ne peux pas rester disponible toute la semaine."
+ },
+ {
+  "who": "lea",
+  "s": 566.84,
+  "fr": "Ah, d'accord."
+ },
+ {
+  "who": "lea",
+  "s": 568.1,
+  "fr": "Tu travailles chez toi les autres jours, pourtant ?"
+ },
+ {
+  "who": "mat",
+  "s": 571.12,
+  "fr": "Oui, mais j'ai des rendez-vous"
+ },
+ {
+  "who": "mat",
+  "s": 573.29,
+  "fr": "et je ne peux pas m'interrompre à chaque livraison."
+ },
+ {
+  "who": "lea",
+  "s": 576.44,
+  "fr": "Je comprends. Pour mardi, je t'envoie les informations maintenant ?"
+ },
+ {
+  "who": "mat",
+  "s": 581.31,
+  "fr": "Est-ce qu'on peut remettre ça à plus tard ?"
+ },
+ {
+  "who": "mat",
+  "s": 583.64,
+  "fr": "Je pars dans quelques minutes."
+ },
+ {
+  "who": "mat",
+  "s": 585.48,
+  "fr": "Je pourrai regarder ce soir."
+ },
+ {
+  "who": "lea",
+  "s": 588,
+  "fr": "Remettre à plus tard,"
+ },
+ {
+  "who": "lea",
+  "s": 589.4,
+  "fr": "c'est décider de faire quelque chose après,"
+ },
+ {
+  "who": "lea",
+  "s": 592.22,
+  "fr": "au lieu de le faire maintenant."
+ },
+ {
+  "who": "mat",
+  "s": 594.48,
+  "fr": "Par exemple, nous avons remis la visite"
+ },
+ {
+  "who": "mat",
+  "s": 597.07,
+  "fr": "à plus tard parce que le musée était fermé."
+ },
+ {
+  "who": "lea",
+  "s": 600.2,
+  "fr": "Très bien. Je t'envoie un message ce soir."
+ },
+ {
+  "who": "lea",
+  "s": 603.16,
+  "fr": "Et je vais chercher une autre"
+ },
+ {
+  "who": "lea",
+  "s": 604.7,
+  "fr": "solution pour les autres jours."
+ },
+ {
+  "who": "mat",
+  "s": 606.95,
+  "fr": "Merci. Mardi, je pourrai réceptionner les colis"
+ },
+ {
+  "who": "mat",
+  "s": 611.06,
+  "fr": "entre neuf heures et midi."
+ },
+ {
+  "who": "lea",
+  "s": 612.72,
+  "fr": "Parfait, je vérifierai si ce créneau convient."
+ },
+ {
+  "who": "mat",
+  "s": 616.28,
+  "fr": "Voilà. J'ai proposé quelque chose de précis,"
+ },
+ {
+  "who": "mat",
+  "s": 619.37,
+  "fr": "sans promettre toute ma semaine."
+ },
+ {
+  "who": "lea",
+  "s": 621.88,
+  "fr": "Et tu n'as pas raconté"
+ },
+ {
+  "who": "lea",
+  "s": 623.23,
+  "fr": "chaque rendez-vous pour justifier ta réponse."
+ },
+ {
+  "who": "mat",
+  "s": 626.6,
+  "fr": "J'aurais pu. Avec les horaires,"
+ },
+ {
+  "who": "mat",
+  "s": 629.14,
+  "fr": "les adresses et un petit plan du quartier."
+ },
+ {
+  "who": "lea",
+  "s": 632.36,
+  "fr": "Une réponse claire suffisait."
+ },
+ {
+  "who": "lea",
+  "s": 635.27,
+  "fr": "On peut aussi dire : « Cette fois, je ne pourrai pas. »"
+ },
+ {
+  "who": "mat",
+  "s": 639.28,
+  "fr": "Ou : « Je peux t'aider pendant une demi-heure. »"
+ },
+ {
+  "who": "mat",
+  "s": 643,
+  "fr": "Même une réponse courte peut être chaleureuse."
+ },
+ {
+  "who": "lea",
+  "s": 646.4,
+  "fr": "Pour commencer, on peut choisir un moment"
+ },
+ {
+  "who": "lea",
+  "s": 649.3,
+  "fr": "où l'on a réellement une marge de liberté."
+ },
+ {
+  "who": "mat",
+  "s": 652.32,
+  "fr": "Moi, je vais lever le pied après l'atelier du samedi."
+ },
+ {
+  "who": "mat",
+  "s": 655.8,
+  "fr": "Je vais ralentir au lieu d'ajouter encore une activité."
+ },
+ {
+  "who": "lea",
+  "s": 659.6,
+  "fr": "C'est le sens de lever le pied."
+ },
+ {
+  "who": "lea",
+  "s": 662.19,
+  "fr": "Exemple : après ce gros projet,"
+ },
+ {
+  "who": "lea",
+  "s": 665.08,
+  "fr": "notre équipe va lever le pied pendant quelques jours."
+ },
+ {
+  "who": "mat",
+  "s": 668.84,
+  "fr": "Je garde donc ma promenade,"
+ },
+ {
+  "who": "mat",
+  "s": 670.85,
+  "fr": "mais je ne transforme pas le retour"
+ },
+ {
+  "who": "mat",
+  "s": 673.06,
+  "fr": "en liste de courses interminable."
+ },
+ {
+  "who": "lea",
+  "s": 675.8,
+  "fr": "De mon côté,"
+ },
+ {
+  "who": "lea",
+  "s": 676.64,
+  "fr": "je vais laisser mon carnet"
+ },
+ {
+  "who": "lea",
+  "s": 678.34,
+  "fr": "dans mon sac quand j'arrive à la médiathèque."
+ },
+ {
+  "who": "mat",
+  "s": 681.48,
+  "fr": "Une idée peut quand même arriver pendant la lecture."
+ },
+ {
+  "who": "lea",
+  "s": 684.76,
+  "fr": "Oui."
+ },
+ {
+  "who": "lea",
+  "s": 685.17,
+  "fr": "Je peux noter un mot, puis revenir au livre."
+ },
+ {
+  "who": "lea",
+  "s": 688.71,
+  "fr": "Je n'ai pas besoin de développer tout le projet immédiatement."
+ },
+ {
+  "who": "mat",
+  "s": 692.64,
+  "fr": "Et pour souffler,"
+ },
+ {
+  "who": "mat",
+  "s": 694,
+  "fr": "il faut forcément un grand moment de calme ?"
+ },
+ {
+  "who": "lea",
+  "s": 697.32,
+  "fr": "Non. Souffler, ici, c'est prendre une petite pause."
+ },
+ {
+  "who": "lea",
+  "s": 701.52,
+  "fr": "Après avoir installé les tables,"
+ },
+ {
+  "who": "lea",
+  "s": 703.52,
+  "fr": "on a soufflé quelques minutes dans la cour."
+ },
+ {
+  "who": "mat",
+  "s": 706.56,
+  "fr": "Moi, je pourrais simplement m'asseoir"
+ },
+ {
+  "who": "mat",
+  "s": 708.79,
+  "fr": "sans chercher quelque chose à écouter,"
+ },
+ {
+  "who": "mat",
+  "s": 710.96,
+  "fr": "à ranger ou à apprendre."
+ },
+ {
+  "who": "lea",
+  "s": 713.68,
+  "fr": "Tu peux aussi marcher ou discuter."
+ },
+ {
+  "who": "lea",
+  "s": 716.67,
+  "fr": "Il n'y a pas"
+ },
+ {
+  "who": "lea",
+  "s": 717.22,
+  "fr": "une seule bonne façon de passer ce moment."
+ },
+ {
+  "who": "mat",
+  "s": 720.16,
+  "fr": "Et si je pense encore au travail ?"
+ },
+ {
+  "who": "lea",
+  "s": 722.68,
+  "fr": "Ça peut arriver."
+ },
+ {
+  "who": "lea",
+  "s": 723.88,
+  "fr": "Tu n'as pas raté ta pause"
+ },
+ {
+  "who": "lea",
+  "s": 725.38,
+  "fr": "parce qu'une pensée est revenue."
+ },
+ {
+  "who": "mat",
+  "s": 727.76,
+  "fr": "Ça me rassure."
+ },
+ {
+  "who": "mat",
+  "s": 729.28,
+  "fr": "Sinon, j'allais préparer un tableau"
+ },
+ {
+  "who": "mat",
+  "s": 731.54,
+  "fr": "pour mesurer la qualité de mes pauses."
+ },
+ {
+  "who": "lea",
+  "s": 734.04,
+  "fr": "Tu peux plutôt essayer de ménager tes forces :"
+ },
+ {
+  "who": "lea",
+  "s": 737.16,
+  "fr": "utiliser ton énergie avec attention"
+ },
+ {
+  "who": "lea",
+  "s": 739.79,
+  "fr": "pour ne pas tout dépenser d'un coup."
+ },
+ {
+  "who": "mat",
+  "s": 742.71,
+  "fr": "Par exemple, pendant une longue randonnée,"
+ },
+ {
+  "who": "mat",
+  "s": 745.57,
+  "fr": "je ménage mes forces en marchant tranquillement dès le départ."
+ },
+ {
+  "who": "lea",
+  "s": 750.24,
+  "fr": "Pour moi, ça veut dire garder un dîner simple"
+ },
+ {
+  "who": "lea",
+  "s": 753.48,
+  "fr": "les soirs où j'ai déjà beaucoup de choses à faire."
+ },
+ {
+  "who": "mat",
+  "s": 757,
+  "fr": "Et si je range toute la cuisine"
+ },
+ {
+  "who": "mat",
+  "s": 758.89,
+  "fr": "pour éviter un message difficile,"
+ },
+ {
+  "who": "mat",
+  "s": 761.2,
+  "fr": "ce n'est peut-être pas la pause dont j'avais envie."
+ },
+ {
+  "who": "lea",
+  "s": 764.28,
+  "fr": "Tu peux te demander ce qui te retient,"
+ },
+ {
+  "who": "lea",
+  "s": 766.89,
+  "fr": "puis choisir quand répondre."
+ },
+ {
+  "who": "lea",
+  "s": 769.31,
+  "fr": "Ce n'est pas nécessaire de régler cela immédiatement."
+ },
+ {
+  "who": "mat",
+  "s": 772.84,
+  "fr": "Chacun peut avancer à son rythme :"
+ },
+ {
+  "who": "mat",
+  "s": 775.2,
+  "fr": "à une vitesse qui lui convient."
+ },
+ {
+  "who": "lea",
+  "s": 777.48,
+  "fr": "Oui."
+ },
+ {
+  "who": "lea",
+  "s": 777.87,
+  "fr": "Dans mon cours de dessin, chacun apprend à son rythme."
+ },
+ {
+  "who": "lea",
+  "s": 781.76,
+  "fr": "Personne ne termine au même moment."
+ },
+ {
+  "who": "mat",
+  "s": 784.6,
+  "fr": "Mon fauteuil sera content."
+ },
+ {
+  "who": "mat",
+  "s": 786.77,
+  "fr": "Il n'a jamais aimé les compétitions."
+ },
+ {
+  "who": "lea",
+  "s": 789.48,
+  "fr": "Maintenant, reprenez votre idée du début."
+ },
+ {
+  "who": "lea",
+  "s": 792.52,
+  "fr": "Complétez cette phrase : « J'aimerais prendre mon temps pour…"
+ },
+ {
+  "who": "lea",
+  "s": 798.78,
+  "fr": "parce que… »"
+ },
+ {
+  "who": "mat",
+  "s": 799.52,
+  "fr": "J'aimerais prendre mon temps pour marcher après le déjeuner,"
+ },
+ {
+  "who": "mat",
+  "s": 803.36,
+  "fr": "parce que j'aime regarder ce qui change dans mon quartier."
+ },
+ {
+  "who": "lea",
+  "s": 807.64,
+  "fr": "J'aimerais prendre mon temps pour lire le dimanche,"
+ },
+ {
+  "who": "lea",
+  "s": 811.27,
+  "fr": "parce que j'ai envie de suivre une histoire"
+ },
+ {
+  "who": "lea",
+  "s": 813.36,
+  "fr": "sans préparer la suite de ma journée."
+ },
+ {
+  "who": "mat",
+  "s": 816.56,
+  "fr": "À votre tour."
+ },
+ {
+  "who": "mat",
+  "s": 817.88,
+  "fr": "Dites votre phrase à voix haute."
+ },
+ {
+  "who": "mat",
+  "s": 820.24,
+  "fr": "Vous pouvez utiliser des mots très simples."
+ },
+ {
+  "who": "lea",
+  "s": 823.99,
+  "fr": "Ensuite, ajoutez une limite possible :"
+ },
+ {
+  "who": "lea",
+  "s": 827.16,
+  "fr": "« Pour garder ce moment, je peux… »"
+ },
+ {
+  "who": "mat",
+  "s": 830.72,
+  "fr": "Pour garder ce moment,"
+ },
+ {
+  "who": "mat",
+  "s": 832.52,
+  "fr": "je peux annoncer mon heure"
+ },
+ {
+  "who": "mat",
+  "s": 834.5,
+  "fr": "de départ avant de commencer l'atelier."
+ },
+ {
+  "who": "lea",
+  "s": 837.84,
+  "fr": "Pour garder ce moment,"
+ },
+ {
+  "who": "lea",
+  "s": 839.53,
+  "fr": "je peux préparer ma liste de courses"
+ },
+ {
+  "who": "lea",
+  "s": 842.06,
+  "fr": "à un autre moment de la journée."
+ },
+ {
+  "who": "mat",
+  "s": 844.48,
+  "fr": "Choisissez quelque chose qui dépend un peu de vous."
+ },
+ {
+  "who": "mat",
+  "s": 848.04,
+  "fr": "Vous n'avez pas besoin de réorganiser toute votre vie."
+ },
+ {
+  "who": "lea",
+  "s": 852.11,
+  "fr": "Et si vous avez surtout besoin d'aide,"
+ },
+ {
+  "who": "lea",
+  "s": 854.32,
+  "fr": "vous pouvez dire : « Est-ce que tu pourrais prendre le relais ? »"
+ },
+ {
+  "who": "mat",
+  "s": 858.96,
+  "fr": "C'est aussi une phrase précieuse à savoir prononcer."
+ },
+ {
+  "who": "lea",
+  "s": 863.6,
+  "fr": "Revenons sur cinq expressions."
+ },
+ {
+  "who": "lea",
+  "s": 865.88,
+  "fr": "Écoutez leur sens, puis répétez avec nous."
+ },
+ {
+  "who": "mat",
+  "s": 869.8,
+  "fr": "La première, c'est se mettre la pression."
+ },
+ {
+  "who": "mat",
+  "s": 873.56,
+  "fr": "À la médiathèque,"
+ },
+ {
+  "who": "mat",
+  "s": 875.06,
+  "fr": "Léa voulait préparer une semaine sans aucune surprise."
+ },
+ {
+  "who": "lea",
+  "s": 879.85,
+  "fr": "C'est se créer une forte exigence, parfois difficile à supporter."
+ },
+ {
+  "who": "lea",
+  "s": 885.72,
+  "fr": "Nouvel exemple : pour ce repas entre amis,"
+ },
+ {
+  "who": "lea",
+  "s": 889,
+  "fr": "je me mets la pression inutilement."
+ },
+ {
+  "who": "mat",
+  "s": 891.8,
+  "fr": "On répète : se mettre la pression."
+ },
+ {
+  "who": "mat",
+  "s": 895.4,
+  "fr": "Un dîner peut commencer"
+ },
+ {
+  "who": "mat",
+  "s": 897.03,
+  "fr": "sans que les serviettes soient parfaitement pliées."
+ },
+ {
+  "who": "lea",
+  "s": 900.96,
+  "fr": "Deuxième expression : avoir la tête sous l'eau."
+ },
+ {
+  "who": "lea",
+  "s": 904.56,
+  "fr": "À l'atelier, tu avais accepté trop de petites demandes."
+ },
+ {
+  "who": "mat",
+  "s": 909.15,
+  "fr": "Oui, j'étais débordé."
+ },
+ {
+  "who": "mat",
+  "s": 912,
+  "fr": "Exemple : depuis l'ouverture du restaurant,"
+ },
+ {
+  "who": "mat",
+  "s": 915.55,
+  "fr": "les propriétaires ont la tête sous l'eau."
+ },
+ {
+  "who": "lea",
+  "s": 918.68,
+  "fr": "On répète : avoir la tête sous l'eau."
+ },
+ {
+  "who": "lea",
+  "s": 922.04,
+  "fr": "On parle de toutes les tâches à gérer,"
+ },
+ {
+  "who": "lea",
+  "s": 924.8,
+  "fr": "pas d'une piscine."
+ },
+ {
+  "who": "mat",
+  "s": 926.48,
+  "fr": "Troisième expression : poser ses limites."
+ },
+ {
+  "who": "mat",
+  "s": 930.64,
+  "fr": "Je peux annoncer mon heure de départ"
+ },
+ {
+  "who": "mat",
+  "s": 933.35,
+  "fr": "et ce que je peux accepter."
+ },
+ {
+  "who": "lea",
+  "s": 935.69,
+  "fr": "C'est préciser ses possibilités et ce qu'on refuse."
+ },
+ {
+  "who": "lea",
+  "s": 939.76,
+  "fr": "Exemple : dans ce groupe,"
+ },
+ {
+  "who": "lea",
+  "s": 942.19,
+  "fr": "j'ai posé mes limites sur les appels tardifs."
+ },
+ {
+  "who": "mat",
+  "s": 945.8,
+  "fr": "On répète : poser ses limites."
+ },
+ {
+  "who": "mat",
+  "s": 949.16,
+  "fr": "Vous pouvez commencer par une phrase, sans organiser une conférence."
+ },
+ {
+  "who": "lea",
+  "s": 954.68,
+  "fr": "Quatrième expression : lever le pied."
+ },
+ {
+  "who": "lea",
+  "s": 958,
+  "fr": "Tu veux ralentir après ton activité du samedi."
+ },
+ {
+  "who": "mat",
+  "s": 962.06,
+  "fr": "C'est réduire son rythme ou son activité."
+ },
+ {
+  "who": "mat",
+  "s": 965.84,
+  "fr": "Exemple : pendant les vacances,"
+ },
+ {
+  "who": "mat",
+  "s": 968.38,
+  "fr": "elle lève le pied et garde ses matinées libres."
+ },
+ {
+  "who": "lea",
+  "s": 972.84,
+  "fr": "On répète : lever le pied."
+ },
+ {
+  "who": "lea",
+  "s": 975.56,
+  "fr": "On peut le dire pour le travail,"
+ },
+ {
+  "who": "lea",
+  "s": 977.9,
+  "fr": "les activités ou un emploi du temps chargé."
+ },
+ {
+  "who": "mat",
+  "s": 981.32,
+  "fr": "Enfin, ménager ses forces."
+ },
+ {
+  "who": "mat",
+  "s": 984.92,
+  "fr": "Pendant une longue journée, on essaie de préserver son énergie."
+ },
+ {
+  "who": "lea",
+  "s": 990.19,
+  "fr": "Exemple : avant le spectacle du soir,"
+ },
+ {
+  "who": "lea",
+  "s": 992.98,
+  "fr": "les danseurs ménagent leurs forces pendant leur temps libre."
+ },
+ {
+  "who": "mat",
+  "s": 997.24,
+  "fr": "On répète : ménager ses forces."
+ },
+ {
+  "who": "mat",
+  "s": 1000.72,
+  "fr": "Ce n'est pas forcément tout arrêter,"
+ },
+ {
+  "who": "mat",
+  "s": 1003.26,
+  "fr": "mais choisir où l'on met son énergie."
+ },
+ {
+  "who": "lea",
+  "s": 1007.04,
+  "fr": "Choisissez maintenant une expression."
+ },
+ {
+  "who": "lea",
+  "s": 1009.56,
+  "fr": "Pensez à une situation qui vous appartient"
+ },
+ {
+  "who": "lea",
+  "s": 1012.1,
+  "fr": "et construisez votre propre phrase."
+ },
+ {
+  "who": "mat",
+  "s": 1015.76,
+  "fr": "Même si vous cherchez vos mots, prenez le temps."
+ },
+ {
+  "who": "mat",
+  "s": 1019.39,
+  "fr": "Ici aussi, vous pouvez aller à votre rythme."
+ },
+ {
+  "who": "lea",
+  "s": 1023.36,
+  "fr": "Dans les commentaires, écrivez : « J'aimerais prendre mon temps pour…"
+ },
+ {
+  "who": "lea",
+  "s": 1028.86,
+  "fr": "parce que… » Nous serons heureux de lire vos idées."
+ },
+ {
+  "who": "mat",
+  "s": 1033.2,
+  "fr": "Et si vous avez appris une phrase utile,"
+ },
+ {
+  "who": "mat",
+  "s": 1036.26,
+  "fr": "abonnez-vous à The Cozy French"
+ },
+ {
+  "who": "mat",
+  "s": 1038.22,
+  "fr": "pour continuer à pratiquer avec nous."
+ },
+ {
+  "who": "lea",
+  "s": 1041.36,
+  "fr": "Vous pouvez réécouter notre petite conversation"
+ },
+ {
+  "who": "lea",
+  "s": 1044.38,
+  "fr": "entre voisins et essayer les deux rôles."
+ },
+ {
+  "who": "mat",
+  "s": 1047.67,
+  "fr": "Merci d'avoir partagé ce moment."
+ },
+ {
+  "who": "mat",
+  "s": 1049.96,
+  "fr": "Où que vous soyez,"
+ },
+ {
+  "who": "mat",
+  "s": 1051.25,
+  "fr": "nous vous souhaitons une belle suite de journée."
+ },
+ {
+  "who": "lea",
+  "s": 1054.92,
+  "fr": "Prenez soin de vous et à très bientôt !"
+ },
+ {
+  "who": "lea",
+  "s": 1059.08,
+  "fr": "Tu vas t'asseoir un peu, maintenant ?"
+ },
+ {
+  "who": "mat",
+  "s": 1061.8,
+  "fr": "Oui. Mon fauteuil m'attend."
+ },
+ {
+  "who": "mat",
+  "s": 1064.48,
+  "fr": "Je vais enfin remplir la première case de ma carte."
+ },
+ {
+  "who": "lea",
+  "s": 1069.28,
+  "fr": "Attention à ne pas transformer"
+ },
+ {
+  "who": "lea",
+  "s": 1071.45,
+  "fr": "les pauses en course aux points."
+ },
+ {
+  "who": "mat",
+  "s": 1073.76,
+  "fr": "Tu as raison."
+ },
+ {
+  "who": "mat",
+  "s": 1075.36,
+  "fr": "Je pose la carte."
+ },
+ {
+  "who": "mat",
+  "s": 1077.15,
+  "fr": "Cette fois, je m'assois, c'est tout."
+ }
+]
