@@ -1,0 +1,553 @@
+[
+ {
+  "who": "mat",
+  "fr": "je peux aussi choisir un autre moment",
+  "en": "I can also choose another moment"
+ },
+ {
+  "who": "mat",
+  "fr": "ou une autre manière de faire.",
+  "en": "or another way of doing it."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Nous parlons de nos expériences ordinaires.",
+  "en": "Exactly. We're talking about our ordinary experiences."
+ },
+ {
+  "who": "lea",
+  "fr": "Personne n'est obligé de se mettre",
+  "en": "Nobody has to put themselves"
+ },
+ {
+  "who": "lea",
+  "fr": "dans une situation qui lui fait trop peur.",
+  "en": "in a situation that scares them too much."
+ },
+ {
+  "who": "mat",
+  "fr": "Je vais commencer par mon ami.",
+  "en": "I'll start with my friend."
+ },
+ {
+  "who": "mat",
+  "fr": "Il comprend très bien les règles",
+  "en": "He understands the rules very well"
+ },
+ {
+  "who": "mat",
+  "fr": "quand il reste du gâteau.",
+  "en": "when there's cake left.",
+  "react": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Reprenez votre exemple du début.",
+  "en": "Go back to your example from the start.",
+  "board": {
+   "mode": "steps",
+   "bg": "carnet",
+   "title": "À vous de parler",
+   "items": [
+    {
+     "text": "Avant, j'hésitais à…",
+     "at": 1
+    },
+    {
+     "text": "Maintenant, je peux…",
+     "at": 2
+    },
+    {
+     "text": "Je suis encore en train d'apprendre à…",
+     "at": 3
+    }
+   ]
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "Voici une structure : « Avant, j'hésitais à…",
+  "en": "Here's a structure: \"Before, I hesitated to…"
+ },
+ {
+  "who": "lea",
+  "fr": "Maintenant, je peux…",
+  "en": "Now, I can…"
+ },
+ {
+  "who": "lea",
+  "fr": "Je suis encore en train d'apprendre à… »",
+  "en": "I'm still learning to…\""
+ },
+ {
+  "who": "mat",
+  "fr": "Avant, j'hésitais à expliquer un jeu à un groupe.",
+  "en": "Before, I hesitated to explain a game to a group."
+ },
+ {
+  "who": "mat",
+  "fr": "Maintenant, je peux montrer un tour.",
+  "en": "Now, I can show a round."
+ },
+ {
+  "who": "mat",
+  "fr": "Je suis encore en train d'apprendre à répondre clairement.",
+  "en": "I'm still learning to answer clearly.",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Avant, j'hésitais à présenter mes idées.",
+  "en": "Before, I hesitated to present my ideas."
+ },
+ {
+  "who": "lea",
+  "fr": "Maintenant, je peux montrer une première proposition.",
+  "en": "Now, I can show a first proposal."
+ },
+ {
+  "who": "lea",
+  "fr": "Je suis encore en train",
+  "en": "I'm still"
+ },
+ {
+  "who": "lea",
+  "fr": "d'apprendre à accueillir les questions.",
+  "en": "learning to welcome questions."
+ },
+ {
+  "who": "mat",
+  "fr": "À votre tour.",
+  "en": "Your turn."
+ },
+ {
+  "who": "mat",
+  "fr": "Dites vos phrases à voix haute.",
+  "en": "Say your sentences out loud."
+ },
+ {
+  "who": "mat",
+  "fr": "Votre exemple peut être très simple et très personnel.",
+  "en": "Your example can be very simple and very personal."
+ },
+ {
+  "who": "lea",
+  "fr": "Vous pouvez aussi parler d'un prochain essai :",
+  "en": "You can also talk about a next try:"
+ },
+ {
+  "who": "lea",
+  "fr": "« La prochaine fois, je vais essayer de… »",
+  "en": "\"Next time, I'll try to…\""
+ },
+ {
+  "who": "mat",
+  "fr": "La prochaine fois,",
+  "en": "Next time,"
+ },
+ {
+  "who": "mat",
+  "fr": "je vais essayer de donner une consigne courte,",
+  "en": "I'll try to give a short instruction,"
+ },
+ {
+  "who": "mat",
+  "fr": "puis laisser les participants jouer.",
+  "en": "then let the participants play."
+ },
+ {
+  "who": "lea",
+  "fr": "Moi, je vais essayer de parler",
+  "en": "Me, I'll try to speak"
+ },
+ {
+  "who": "lea",
+  "fr": "avant d'avoir préparé toutes les réponses possibles.",
+  "en": "before preparing every possible answer."
+ },
+ {
+  "who": "mat",
+  "fr": "Choisissez ce qui vous convient.",
+  "en": "Choose what suits you."
+ },
+ {
+  "who": "mat",
+  "fr": "Et si un mot vous manque en français,",
+  "en": "And if you're missing a word in French,"
+ },
+ {
+  "who": "mat",
+  "fr": "vous pouvez décrire votre idée autrement.",
+  "en": "you can describe your idea another way."
+ },
+ {
+  "who": "lea",
+  "fr": "Revenons sur cinq expressions.",
+  "en": "Let's go back over five expressions."
+ },
+ {
+  "who": "lea",
+  "fr": "Écoutez leur sens, puis répétez avec nous.",
+  "en": "Listen to their meaning, then repeat with us."
+ },
+ {
+  "who": "mat",
+  "fr": "D'abord, avoir le trac.",
+  "en": "First, \"avoir le trac\".",
+  "board": {
+   "mode": "fill",
+   "sentence": "J'ai un peu le ___, c'est ma première fois.",
+   "answer": "trac",
+   "hint": "avoir le … = être nerveux",
+   "en": "I'm a little nervous, it's my first time.",
+   "reveal": 7
+  }
+ },
+ {
+  "who": "mat",
+  "fr": "Avant ma démonstration,",
+  "en": "Before my demonstration,"
+ },
+ {
+  "who": "mat",
+  "fr": "j'étais nerveux devant les participants.",
+  "en": "I was nervous in front of the participants."
+ },
+ {
+  "who": "lea",
+  "fr": "C'est ressentir cette nervosité avant une prestation.",
+  "en": "It's feeling that nervousness before a performance."
+ },
+ {
+  "who": "lea",
+  "fr": "Nouvel exemple :",
+  "en": "New example:"
+ },
+ {
+  "who": "lea",
+  "fr": "elle a le trac",
+  "en": "she gets stage fright"
+ },
+ {
+  "who": "lea",
+  "fr": "avant de lire son texte à la soirée poésie.",
+  "en": "before reading her text at the poetry evening."
+ },
+ {
+  "who": "mat",
+  "fr": "On répète : avoir le trac.",
+  "en": "Let's repeat: \"avoir le trac\"."
+ },
+ {
+  "who": "mat",
+  "fr": "Vous pouvez dire :",
+  "en": "You can say:"
+ },
+ {
+  "who": "mat",
+  "fr": "« J'ai un peu le trac, c'est ma première fois. »",
+  "en": "\"I'm a little nervous, it's my first time.\"",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Deuxième expression : être à la hauteur.",
+  "en": "Second expression: \"être à la hauteur\".",
+  "board": {
+   "mode": "quiz",
+   "bg": "craie",
+   "q": "Être à la hauteur, c'est… ?",
+   "options": [
+    "avoir peur du vide",
+    "pouvoir répondre à ce que la situation demande",
+    "être plus grand que les autres"
+   ],
+   "answer": 1,
+   "reveal": 4,
+   "explain": "« à la hauteur de la tâche »"
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "Pendant la réunion,",
+  "en": "During the meeting,"
+ },
+ {
+  "who": "lea",
+  "fr": "je doutais de mes capacités",
+  "en": "I doubted my ability"
+ },
+ {
+  "who": "lea",
+  "fr": "à proposer une affiche adaptée.",
+  "en": "to propose a suitable poster."
+ },
+ {
+  "who": "mat",
+  "fr": "C'est pouvoir répondre à ce que la situation demande.",
+  "en": "It's being able to meet what the situation requires."
+ },
+ {
+  "who": "mat",
+  "fr": "Exemple : notre équipe a été à la hauteur",
+  "en": "Example: our team rose to the occasion"
+ },
+ {
+  "who": "mat",
+  "fr": "malgré le changement de programme.",
+  "en": "despite the change of plan."
+ },
+ {
+  "who": "lea",
+  "fr": "On répète : être à la hauteur.",
+  "en": "Let's repeat: \"être à la hauteur\"."
+ },
+ {
+  "who": "lea",
+  "fr": "On peut préciser : « à la hauteur de la tâche ».",
+  "en": "You can specify: \"up to the task\".",
+  "boardEnd": true
+ },
+ {
+  "who": "mat",
+  "fr": "Troisième expression : prendre du recul.",
+  "en": "Third expression: \"prendre du recul\"."
+ },
+ {
+  "who": "mat",
+  "fr": "Dans le bus, je pensais seulement à mon début difficile.",
+  "en": "On the bus, I was only thinking about my difficult start."
+ },
+ {
+  "who": "lea",
+  "fr": "C'est regarder la situation avec de la distance.",
+  "en": "It's looking at the situation from a distance."
+ },
+ {
+  "who": "lea",
+  "fr": "Exemple : avant de répondre à ce commentaire,",
+  "en": "Example: before replying to that comment,"
+ },
+ {
+  "who": "lea",
+  "fr": "je vais prendre du recul.",
+  "en": "I'll take a step back."
+ },
+ {
+  "who": "mat",
+  "fr": "On répète : prendre du recul.",
+  "en": "Let's repeat: \"prendre du recul\"."
+ },
+ {
+  "who": "mat",
+  "fr": "Nous pouvons nous demander ce qui s'est passé,",
+  "en": "We can ask ourselves what happened,"
+ },
+ {
+  "who": "mat",
+  "fr": "avec des détails concrets.",
+  "en": "with concrete details."
+ },
+ {
+  "who": "lea",
+  "fr": "Quatrième expression : se lancer.",
+  "en": "Fourth expression: \"se lancer\"."
+ },
+ {
+  "who": "lea",
+  "fr": "Dans notre petite scène,",
+  "en": "In our little scene,"
+ },
+ {
+  "who": "lea",
+  "fr": "j'ai décidé de rejoindre le groupe de marche.",
+  "en": "I decided to join the walking group."
+ },
+ {
+  "who": "mat",
+  "fr": "C'est commencer malgré une hésitation.",
+  "en": "It's starting despite some hesitation."
+ },
+ {
+  "who": "mat",
+  "fr": "Exemple : après avoir trouvé un professeur,",
+  "en": "Example: after finding a teacher,"
+ },
+ {
+  "who": "mat",
+  "fr": "il s'est lancé dans l'apprentissage du piano.",
+  "en": "he took the plunge and started learning the piano.",
+  "illus": "musique",
+  "label": "le piano"
+ },
+ {
+  "who": "lea",
+  "fr": "On répète : se lancer.",
+  "en": "Let's repeat: \"se lancer\"."
+ },
+ {
+  "who": "lea",
+  "fr": "Votre prochain essai peut être",
+  "en": "Your next try can be"
+ },
+ {
+  "who": "lea",
+  "fr": "une simple question dans une conversation.",
+  "en": "a simple question in a conversation."
+ },
+ {
+  "who": "mat",
+  "fr": "Enfin, gagner en assurance.",
+  "en": "Finally, \"gagner en assurance\"."
+ },
+ {
+  "who": "mat",
+  "fr": "Avec de l'expérience,",
+  "en": "With experience,"
+ },
+ {
+  "who": "mat",
+  "fr": "on peut devenir plus à l'aise dans une activité.",
+  "en": "you can become more at ease in an activity."
+ },
+ {
+  "who": "lea",
+  "fr": "Exemple : depuis qu'elle présente la météo de l'école,",
+  "en": "Example: since she started presenting the school weather report,",
+  "illus": "soleil",
+  "label": "la météo"
+ },
+ {
+  "who": "lea",
+  "fr": "cette élève gagne en assurance devant la caméra.",
+  "en": "this pupil has grown more confident in front of the camera."
+ },
+ {
+  "who": "mat",
+  "fr": "On répète : gagner en assurance.",
+  "en": "Let's repeat: \"gagner en assurance\"."
+ },
+ {
+  "who": "mat",
+  "fr": "Pensez maintenant à une expérience",
+  "en": "Now think of an experience"
+ },
+ {
+  "who": "mat",
+  "fr": "où vous avez remarqué un petit changement.",
+  "en": "where you noticed a small change."
+ },
+ {
+  "who": "lea",
+  "fr": "Choisissez une de ces expressions",
+  "en": "Choose one of these expressions"
+ },
+ {
+  "who": "lea",
+  "fr": "et racontez ce moment avec vos propres mots.",
+  "en": "and tell that moment in your own words."
+ },
+ {
+  "who": "mat",
+  "fr": "Même avec une hésitation.",
+  "en": "Even with some hesitation."
+ },
+ {
+  "who": "mat",
+  "fr": "Vous pouvez nous demander de répéter ;",
+  "en": "You can ask us to repeat;"
+ },
+ {
+  "who": "mat",
+  "fr": "nous connaissons très bien cette phrase.",
+  "en": "we know that sentence very well.",
+  "react": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Dans les commentaires, complétez :",
+  "en": "In the comments, complete:"
+ },
+ {
+  "who": "lea",
+  "fr": "« J'aimerais être plus à l'aise pour…",
+  "en": "\"I'd like to feel more at ease when…"
+ },
+ {
+  "who": "lea",
+  "fr": "La prochaine fois, je vais essayer de… »",
+  "en": "Next time, I'll try to…\""
+ },
+ {
+  "who": "mat",
+  "fr": "Vous pouvez aussi raconter une chose",
+  "en": "You can also tell us something"
+ },
+ {
+  "who": "mat",
+  "fr": "que vous savez faire aujourd'hui",
+  "en": "you can do today"
+ },
+ {
+  "who": "mat",
+  "fr": "et qui vous semblait difficile auparavant.",
+  "en": "that used to seem difficult."
+ },
+ {
+  "who": "lea",
+  "fr": "Si cet épisode vous a aidés,",
+  "en": "If this episode helped you,"
+ },
+ {
+  "who": "lea",
+  "fr": "abonnez-vous à The Cozy French",
+  "en": "subscribe to The Cozy French"
+ },
+ {
+  "who": "lea",
+  "fr": "pour continuer à pratiquer avec nous.",
+  "en": "to keep practising with us."
+ },
+ {
+  "who": "mat",
+  "fr": "Réécoutez quelques répliques du groupe de marche,",
+  "en": "Listen again to a few lines from the walking group,"
+ },
+ {
+  "who": "mat",
+  "fr": "puis changez les détails",
+  "en": "then change the details"
+ },
+ {
+  "who": "mat",
+  "fr": "pour une activité qui vous intéresse.",
+  "en": "for an activity that interests you."
+ },
+ {
+  "who": "mat",
+  "fr": "Merci d'avoir partagé ce moment.",
+  "en": "Thank you for sharing this moment."
+ },
+ {
+  "who": "mat",
+  "fr": "Prenez soin de vous et à très bientôt !",
+  "en": "Take care and see you very soon!",
+  "emote": "coeur"
+ },
+ {
+  "who": "lea",
+  "fr": "Au revoir tout le monde !",
+  "en": "Goodbye everyone!"
+ },
+ {
+  "who": "mat",
+  "fr": "Bon, il faut que j'annule ma demande de certificat.",
+  "en": "Right, I need to cancel my certificate application."
+ },
+ {
+  "who": "lea",
+  "fr": "Pourquoi ?",
+  "en": "Why?",
+  "emote": "surpris"
+ }
+]

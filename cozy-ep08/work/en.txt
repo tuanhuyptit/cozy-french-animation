@@ -1,0 +1,406 @@
+0|Hello everyone and welcome to The Cozy French!|
+1|I'm Léa.|
+2|And I'm Mathieu.|
+3|Thank you for being with us,|
+4|whether you're discovering us today|
+5|or you come back every week.|
+6|Get comfortable.|
+7|Today, we're going to talk about self-confidence.|
+8|Funny you say that, I'm waiting for my certificate.|
+9|As soon as I'm officially confident enough,|
+10|I'll be able to try new things.|
+11|And who's supposed to give it to you?|e=question
+12|I'm still looking for the right department.|
+13|For now, nobody's answering.|r=rire
+14|Maybe that's|
+15|because you can start without that document.|
+16|Start before I feel completely ready?|e=surpris
+17|That's an interesting proposal,|
+18|but slightly worrying.|e=gene
+19|We'll talk about it|
+20|with two very ordinary stories:|
+21|a neighbourhood meeting and a games night.|i=amis:une soirée jeux
+22|This conversation is for levels B1 and B2.|
+23|We'll speak slowly|
+24|and explain useful expressions.|
+25|By the end, you'll be able to talk about your doubts,|
+26|recognise your strengths and ask for help.|
+27|You'll also be able to tell|
+28|a little experience that encouraged you.|
+29|No need to understand every word.|
+30|Follow the conversation,|
+31|then repeat a few sentences with us.|
+32|And you don't need|
+33|to speak perfect French to take part.|
+34|We're going to look precisely|
+35|at what you can do when you're still hesitating.|
+36|Very well.|
+37|I'll leave my application form|
+38|for the certificate on the table.|r=rire
+39|Think of something|
+40|that seemed difficult at first|
+41|and that you do more easily now.|
+42|Ordering at a restaurant,|i=repas:le restaurant
+43|taking the metro in a new city|
+44|or asking a question during a class.|
+45|What changed?|
+46|Keep your example for our final exercise.|
+47|You can also tell us where you're listening to this episode from.|
+48|It's lovely to know|
+49|where our conversations go with you.|e=coeur
+50|Last week,|B={"mode":"timeline","title":"La réunion de Léa","items":[{"label":"la semaine dernière","text":"une réunion","at":1},{"label":"avant","text":"une affiche dessinée","at":3},{"label":"en arrivant","text":"intimidée…","at":6}]}
+51|I went to a meeting|
+52|to prepare the neighbourhood party.|
+53|I had drawn a poster idea.|
+54|Did you bring it with you?|
+55|Yes, in a big blue folder.|
+56|But when I arrived,|BE
+57|I felt intimidated by the other participants.|e=gene B={"mode":"word","note":"= impressionné par les autres, moins à l'aise","icon":"amis"}
+58|They impressed you and you felt less at ease.|
+59|That's what "être intimidé" means.|
+60|Exactly. For example,|
+61|my cousin felt intimidated|
+62|during his first rehearsal with the orchestra.|BE
+63|What impressed you about these people?|
+64|They already knew the place,|
+65|the schedules and the habits of the neighbourhood.|
+66|Me, I was taking part for the first time.|
+67|And your folder stayed closed?|
+68|Firmly closed.|
+69|Then the person in charge asked|
+70|if anyone had an idea for the poster.|
+71|I decided to dare to show my drawing.|
+72|"Oser"...|
+73|means doing something despite hesitation or some fear.|
+74|Yes. For example,|
+75|she dared to ask for another time for her interview.|
+76|How did you start?|
+77|I said: "I've prepared a first idea.|
+78|May I show it to you?"|
+79|Then I opened the folder.|
+80|So you had a real proposal.|
+81|It wasn't just|
+82|a very professional-looking folder.|r=rire
+83|Still, I wondered if I was up to it.|
+84|"Être à la hauteur"...|B={"mode":"word","bg":"carnet","note":"= avoir les capacités nécessaires pour ce que la situation demande"}
+85|means having the necessary abilities|
+86|to meet what a situation requires.|
+87|That's it. For example, for this assignment,|
+88|our new colleague was up to the task:|
+89|she found a suitable solution.|BE
+90|And how did the others react?|
+91|One person liked the colours.|
+92|Another asked me where I'd put the date,|
+93|because it was hard to read.|
+94|A concrete question about your poster.|
+95|Yes. I suggested moving the title.|
+96|We looked at it together,|
+97|and the layout became clearer.|
+98|Were you still a bit nervous?|
+99|Yes, but I could answer.|
+100|On the way home, I realised I had underestimated myself.|e=idee
+101|"Se sous-estimer"...|
+102|means thinking your abilities|
+103|are weaker than they really are.|
+104|For example,|
+105|you underestimate yourself when you say|
+106|you can't cook anything:|
+107|your gratin is excellent.|e=coeur i=repas:ton gratin
+108|Thanks. I'll write down that compliment.|
+109|It can serve as supporting evidence for my certificate.|r=rire
+110|Above all, you can remind yourself|
+111|that you already know how to make|
+112|something other people enjoy.|
+113|My story takes place at the community centre.|
+114|I'd been asked to explain|
+115|a game to a few new participants.|
+116|A game you knew?|
+117|Very well. I'd played it several times.|
+118|Yet, in front of the six people sitting at the table,|
+119|I had stage fright.|e=gene
+120|"Avoir le trac"...|
+121|means feeling nervous before speaking,|
+122|playing or doing something in front of other people.|
+123|For example,|
+124|my sister gets stage fright|
+125|before singing with her choir.|
+126|And you, had you prepared your explanation?|B={"mode":"timeline","bg":"craie","title":"La soirée jeux de Mathieu","items":[{"label":"dans ma tête","text":"tout est prêt","at":1},{"label":"d'abord","text":"une règle compliquée","at":2},{"label":"puis","text":"retour au début","at":3},{"label":"alors…","text":"je perds mes moyens","at":4}]}
+127|In my head, yes.|
+128|I started with a complicated rule,|
+129|then I went back to the beginning.|
+130|I was getting flustered.|e=triste BE
+131|"Perdre ses moyens"...|B={"mode":"word","note":"= ne plus réussir à utiliser ses capacités habituelles"}
+132|means no longer managing to use your usual abilities|
+133|because you're shaken or overwhelmed.|
+134|Another example: during the audition,|
+135|he got flustered|
+136|and forgot a passage he knew.|BE
+137|Did someone help you get going again?|
+138|A participant asked me:|
+139|"Can we watch one round of the game?"|
+140|I showed the cards and played an example.|
+141|You used another way of explaining.|
+142|Yes. Playing and explaining are two different skills.|
+143|I had one, but I was still discovering the other.|e=idee
+144|"Une compétence"...|
+145|is an ability you can use to carry out a task.|
+146|For example,|
+147|knowing how to organise orders is one|
+148|of my cousin's skills in his shop.|i=courses:sa boutique
+149|And after your demonstration, did the participants understand?|
+150|Much better.|
+151|Then someone asked what happened|
+152|if two players had the same score.|
+153|Did you know the answer?|
+154|I didn't remember exactly.|
+155|I acknowledged my limits:|
+156|"For this case, I'd rather check the rulebook."|
+157|"Reconnaître ses limites"...|
+158|means accepting and saying|
+159|what you can't do|
+160|or what you don't know yet.|
+161|For example, to translate this contract,|i=travail:ce contrat
+162|she acknowledged her limits|
+163|and asked a specialist for help.|
+164|And the game went on.|
+165|Yes. The rulebook had the answer.|
+166|It was well prepared, at least.|r=rire
+167|What touches me in your story|
+168|is that your hesitation doesn't sum up the whole evening.|
+169|Still, on the bus home,|
+170|I was mostly thinking about my first explanation.|
+171|I'd forgotten the parts that had gone well.|e=triste
+172|You needed to step back.|
+173|"Prendre du recul"...|
+174|means looking at a situation from a little distance,|
+175|to understand it better.|
+176|Yes. For example, after a difficult discussion,|
+177|we waited until the next day|
+178|to step back before deciding.|
+179|In the end, I thought back to the participant.|
+180|She had suggested a demonstration and I'd done it.|
+181|That was part of the story too.|
+182|Me, I mostly remembered|
+183|the date being too small on my poster.|
+184|But I'd also found a solution with the group.|
+185|So you can question yourself|
+186|without erasing everything you got right.|
+187|"Se remettre en question"...|
+188|means examining the way you do things|
+189|and accepting to change it if necessary.|
+190|For example, after the customers' comments,|
+191|the restaurant owner reassessed his approach|
+192|and simplified his menu.|
+193|For my poster, I could tell myself:|B={"mode":"compare","bg":"carnet","title":"La prochaine fois…","left":{"head":"mon affiche","sub":"Léa","items":[{"text":"vérifier la taille des informations","at":2}]},"right":{"head":"mon jeu","sub":"Mathieu","items":[{"text":"montrer un tour","at":4},{"text":"expliquer les cas particuliers","at":5}]}}
+194|"Next time,|
+195|I'll check the size of the important information."|
+196|That's precise. And for my game:|
+197|"I'll start by showing a round,|
+198|then explain the special cases."|BE
+199|That gives us something to try.|
+200|We don't need to decide|
+201|whether we're permanently good or bad.|
+202|And you can stay careful when you don't know.|
+203|I wouldn't want to confuse|
+204|my enthusiasm with expertise.|
+205|Especially if someone is counting on your answer|
+206|to make an important decision.|
+207|So my certificate will need a little box:|
+208|"Knows how to ask for a check."|r=rire
+209|Let's do a role play.|
+210|You arrive at a guided walk in the neighbourhood.|i=nature:une promenade
+211|I'm a member of the group.|
+212|You'll get to try my first line before me.|
+213|Hello! Are you coming walking with us today?|
+214|Your turn! It's your first visit.|
+215|How would you ask if you're in the right place?|
+216|Take a few seconds.|
+217|You can start with:|
+218|"Hello, is this where…?"|
+219|Hello, is this where|
+220|the walking group meets?|
+221|It's my first time coming.|
+222|Yes, welcome! I'm Mathieu.|e=coeur
+223|We're still waiting for two people before leaving.|
+224|Nice to meet you, I'm Léa.|
+225|I saw your ad and decided to take the plunge.|
+226|"Se lancer"...|
+227|means starting something|
+228|you were hesitating to do|
+229|or that is new to you.|
+230|For example, after several tries at home,|
+231|my friend took the plunge|
+232|and showed her drawings at the village fair.|
+233|Very good. Back to the walk.|B={"mode":"sketch","title":"En situation : le groupe de marche"}
+234|Do you already know the neighbourhood a bit?|
+235|Yes, but not the route.|
+236|Did you say we're heading to the canal?|
+237|I didn't hear properly.|e=question
+238|Yes, towards the canal,|
+239|then to the little garden near the bridge.|
+240|Okay, thanks. Do we come back here at the end?|
+241|Exactly. And you can walk|
+242|next to me if you like.|
+243|With pleasure!|BE
+244|There you go. You started the conversation,|
+245|asked for clarification and accepted an offer.|
+246|And I was able to say I hadn't heard.|
+247|You can reuse that sentence|
+248|in a real conversation in French.|
+249|A simple question often keeps the conversation going.|
+250|No need to come up with a spectacular introduction.|
+251|When I think back to the meeting,|
+252|I now know I was able to present an idea|
+253|and discuss a change.|
+254|You had the chance to prove yourself.|
+255|"Faire ses preuves"...|
+256|means showing your abilities through what you do.|
+257|Example: during her internship,|
+258|she proved herself by preparing the visits.|
+259|But that doesn't mean|B={"mode":"truefalse","bg":"craie","q":"Faire ses preuves = passer un examen à chaque conversation.","answer":false,"reveal":1,"explain":"On peut aussi essayer juste pour apprendre."}
+260|taking an exam in every conversation.|
+261|I can also try something just to learn.|
+262|Of course.|BE
+263|For my next meeting, I'll prepare two sentences:|
+264|what I'm proposing|
+265|and the question I'd like an opinion on.|
+266|Me, I'll rehearse a demonstration|
+267|with a friend before the next games night.|i=amis:la soirée jeux
+268|I can ask him what's still unclear.|
+269|That can help you|
+270|grow more confident in that situation.|
+271|"Gagner en assurance"...|
+272|means becoming more at ease|
+273|and surer of the way you act.|
+274|For example, over the tours,|
+275|the new guide grew more confident|
+276|speaking to the group.|
+277|So I can choose a fairly small next try.|
+278|Not organise a whole tournament tomorrow|
+279|to prove I've understood.|r=rire
+280|You can already explain the first cards.|
+281|And afterwards,|
+282|note one thing that worked|
+283|and another to clarify.|
+284|So having self-confidence|B={"mode":"word","note":"= croire qu'on peut agir ou apprendre, même sans tout maîtriser"}
+285|would mean believing you can|
+286|act or learn in a situation,|
+287|even without mastering everything.|
+288|Yes. For example,|
+289|she feels confident welcoming visitors,|
+290|while asking for help|
+291|with certain technical questions.|BE
+292|I like that idea.|e=coeur B={"mode":"compare","title":"Ma confiance dépend de l'activité","left":{"head":"à l'aise","sub":"je peux","items":["en cuisine","jouer au jeu"]},"right":{"head":"j'hésite","sub":"j'apprends","items":["devant un groupe","expliquer les règles"]}}
+293|My confidence can be about one specific activity.|
+294|I can be at ease in the kitchen|
+295|and hesitate in front of a group.|BE
+296|And you can ask for conditions that help you:|B={"mode":"steps","title":"Des conditions qui aident","items":[{"text":"un peu de temps pour préparer","at":1},{"text":"une explication écrite","at":2},{"text":"la présence d'un collègue","at":2}]}
+297|a little time to prepare,|
+298|written instructions or a colleague being there.|BE
+299|If a try goes badly,|
+300|I can also choose another moment|
+301|or another way of doing it.|
+302|Exactly. We're talking about our ordinary experiences.|
+303|Nobody has to put themselves|
+304|in a situation that scares them too much.|
+305|I'll start with my friend.|
+306|He understands the rules very well|
+307|when there's cake left.|r=rire
+308|Go back to your example from the start.|B={"mode":"steps","bg":"carnet","title":"À vous de parler","items":[{"text":"Avant, j'hésitais à…","at":1},{"text":"Maintenant, je peux…","at":2},{"text":"Je suis encore en train d'apprendre à…","at":3}]}
+309|Here's a structure: "Before, I hesitated to…|
+310|Now, I can…|
+311|I'm still learning to…"|
+312|Before, I hesitated to explain a game to a group.|
+313|Now, I can show a round.|
+314|I'm still learning to answer clearly.|BE
+315|Before, I hesitated to present my ideas.|
+316|Now, I can show a first proposal.|
+317|I'm still|
+318|learning to welcome questions.|
+319|Your turn.|
+320|Say your sentences out loud.|
+321|Your example can be very simple and very personal.|
+322|You can also talk about a next try:|
+323|"Next time, I'll try to…"|
+324|Next time,|
+325|I'll try to give a short instruction,|
+326|then let the participants play.|
+327|Me, I'll try to speak|
+328|before preparing every possible answer.|
+329|Choose what suits you.|
+330|And if you're missing a word in French,|
+331|you can describe your idea another way.|
+332|Let's go back over five expressions.|
+333|Listen to their meaning, then repeat with us.|
+334|First, "avoir le trac".|B={"mode":"fill","sentence":"J'ai un peu le ___, c'est ma première fois.","answer":"trac","hint":"avoir le … = être nerveux","en":"I'm a little nervous, it's my first time.","reveal":7}
+335|Before my demonstration,|
+336|I was nervous in front of the participants.|
+337|It's feeling that nervousness before a performance.|
+338|New example:|
+339|she gets stage fright|
+340|before reading her text at the poetry evening.|
+341|Let's repeat: "avoir le trac".|
+342|You can say:|
+343|"I'm a little nervous, it's my first time."|BE
+344|Second expression: "être à la hauteur".|B={"mode":"quiz","bg":"craie","q":"Être à la hauteur, c'est… ?","options":["avoir peur du vide","pouvoir répondre à ce que la situation demande","être plus grand que les autres"],"answer":1,"reveal":4,"explain":"« à la hauteur de la tâche »"}
+345|During the meeting,|
+346|I doubted my ability|
+347|to propose a suitable poster.|
+348|It's being able to meet what the situation requires.|
+349|Example: our team rose to the occasion|
+350|despite the change of plan.|
+351|Let's repeat: "être à la hauteur".|
+352|You can specify: "up to the task".|BE
+353|Third expression: "prendre du recul".|
+354|On the bus, I was only thinking about my difficult start.|
+355|It's looking at the situation from a distance.|
+356|Example: before replying to that comment,|
+357|I'll take a step back.|
+358|Let's repeat: "prendre du recul".|
+359|We can ask ourselves what happened,|
+360|with concrete details.|
+361|Fourth expression: "se lancer".|
+362|In our little scene,|
+363|I decided to join the walking group.|
+364|It's starting despite some hesitation.|
+365|Example: after finding a teacher,|
+366|he took the plunge and started learning the piano.|i=musique:le piano
+367|Let's repeat: "se lancer".|
+368|Your next try can be|
+369|a simple question in a conversation.|
+370|Finally, "gagner en assurance".|
+371|With experience,|
+372|you can become more at ease in an activity.|
+373|Example: since she started presenting the school weather report,|i=soleil:la météo
+374|this pupil has grown more confident in front of the camera.|
+375|Let's repeat: "gagner en assurance".|
+376|Now think of an experience|
+377|where you noticed a small change.|
+378|Choose one of these expressions|
+379|and tell that moment in your own words.|
+380|Even with some hesitation.|
+381|You can ask us to repeat;|
+382|we know that sentence very well.|r=rire
+383|In the comments, complete:|
+384|"I'd like to feel more at ease when…|
+385|Next time, I'll try to…"|
+386|You can also tell us something|
+387|you can do today|
+388|that used to seem difficult.|
+389|If this episode helped you,|
+390|subscribe to The Cozy French|
+391|to keep practising with us.|
+392|Listen again to a few lines from the walking group,|
+393|then change the details|
+394|for an activity that interests you.|
+395|Thank you for sharing this moment.|
+396|Take care and see you very soon!|e=coeur
+397|Goodbye everyone!|
+398|Right, I need to cancel my certificate application.|
+399|Why?|e=surpris
+400|I've already explained a game|
+401|and welcomed a new participant.|
+402|I didn't wait for it to be printed.|r=rire
+403|Very good.|
+404|You can start your next try|
+405|while the printer takes a rest.|

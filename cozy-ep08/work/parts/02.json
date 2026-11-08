@@ -1,0 +1,579 @@
+[
+ {
+  "who": "lea",
+  "fr": "En rentrant, j'ai compris que je m'étais sous-estimée.",
+  "en": "On the way home, I realised I had underestimated myself.",
+  "emote": "idee"
+ },
+ {
+  "who": "mat",
+  "fr": "[Se sous-estimer,]",
+  "en": "\"Se sous-estimer\"..."
+ },
+ {
+  "who": "mat",
+  "fr": "c'est penser que ses capacités",
+  "en": "means thinking your abilities"
+ },
+ {
+  "who": "mat",
+  "fr": "sont plus faibles qu'elles ne le sont réellement.",
+  "en": "are weaker than they really are."
+ },
+ {
+  "who": "lea",
+  "fr": "Par exemple,",
+  "en": "For example,"
+ },
+ {
+  "who": "lea",
+  "fr": "tu te sous-estimes quand tu dis",
+  "en": "you underestimate yourself when you say"
+ },
+ {
+  "who": "lea",
+  "fr": "que tu ne sais rien cuisiner :",
+  "en": "you can't cook anything:"
+ },
+ {
+  "who": "lea",
+  "fr": "ton gratin est excellent.",
+  "en": "your gratin is excellent.",
+  "emote": "coeur",
+  "illus": "repas",
+  "label": "ton gratin"
+ },
+ {
+  "who": "mat",
+  "fr": "Merci. Je vais noter ce compliment.",
+  "en": "Thanks. I'll write down that compliment."
+ },
+ {
+  "who": "mat",
+  "fr": "Il pourra servir de pièce justificative pour mon certificat.",
+  "en": "It can serve as supporting evidence for my certificate.",
+  "react": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Tu peux surtout te rappeler",
+  "en": "Above all, you can remind yourself"
+ },
+ {
+  "who": "lea",
+  "fr": "que tu sais déjà préparer",
+  "en": "that you already know how to make"
+ },
+ {
+  "who": "lea",
+  "fr": "quelque chose que les autres apprécient.",
+  "en": "something other people enjoy."
+ },
+ {
+  "who": "mat",
+  "fr": "Mon histoire se passe à la maison de quartier.",
+  "en": "My story takes place at the community centre."
+ },
+ {
+  "who": "mat",
+  "fr": "On m'avait proposé d'expliquer",
+  "en": "I'd been asked to explain"
+ },
+ {
+  "who": "mat",
+  "fr": "un jeu à quelques nouveaux participants.",
+  "en": "a game to a few new participants."
+ },
+ {
+  "who": "lea",
+  "fr": "Un jeu que tu connaissais ?",
+  "en": "A game you knew?"
+ },
+ {
+  "who": "mat",
+  "fr": "Très bien. J'y avais joué plusieurs fois.",
+  "en": "Very well. I'd played it several times."
+ },
+ {
+  "who": "mat",
+  "fr": "Pourtant, devant les six personnes assises à table,",
+  "en": "Yet, in front of the six people sitting at the table,"
+ },
+ {
+  "who": "mat",
+  "fr": "j'avais le trac.",
+  "en": "I had stage fright.",
+  "emote": "gene"
+ },
+ {
+  "who": "lea",
+  "fr": "[Avoir le trac,]",
+  "en": "\"Avoir le trac\"..."
+ },
+ {
+  "who": "lea",
+  "fr": "c'est ressentir de la nervosité avant de parler,",
+  "en": "means feeling nervous before speaking,"
+ },
+ {
+  "who": "lea",
+  "fr": "de jouer ou de faire quelque chose devant d'autres personnes.",
+  "en": "playing or doing something in front of other people."
+ },
+ {
+  "who": "mat",
+  "fr": "Par exemple,",
+  "en": "For example,"
+ },
+ {
+  "who": "mat",
+  "fr": "ma sœur a le trac",
+  "en": "my sister gets stage fright"
+ },
+ {
+  "who": "mat",
+  "fr": "avant de chanter avec sa chorale.",
+  "en": "before singing with her choir."
+ },
+ {
+  "who": "lea",
+  "fr": "Et toi, tu avais préparé ton explication ?",
+  "en": "And you, had you prepared your explanation?",
+  "board": {
+   "mode": "timeline",
+   "bg": "craie",
+   "title": "La soirée jeux de Mathieu",
+   "items": [
+    {
+     "label": "dans ma tête",
+     "text": "tout est prêt",
+     "at": 1
+    },
+    {
+     "label": "d'abord",
+     "text": "une règle compliquée",
+     "at": 2
+    },
+    {
+     "label": "puis",
+     "text": "retour au début",
+     "at": 3
+    },
+    {
+     "label": "alors…",
+     "text": "je perds mes moyens",
+     "at": 4
+    }
+   ]
+  }
+ },
+ {
+  "who": "mat",
+  "fr": "Dans ma tête, oui.",
+  "en": "In my head, yes."
+ },
+ {
+  "who": "mat",
+  "fr": "J'ai commencé par une règle compliquée,",
+  "en": "I started with a complicated rule,"
+ },
+ {
+  "who": "mat",
+  "fr": "puis je suis revenu au début.",
+  "en": "then I went back to the beginning."
+ },
+ {
+  "who": "mat",
+  "fr": "Je perdais mes moyens.",
+  "en": "I was getting flustered.",
+  "boardEnd": true,
+  "emote": "triste"
+ },
+ {
+  "who": "lea",
+  "fr": "[Perdre ses moyens,]",
+  "en": "\"Perdre ses moyens\"...",
+  "board": {
+   "mode": "word",
+   "note": "= ne plus réussir à utiliser ses capacités habituelles"
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "c'est ne plus réussir à utiliser ses capacités habituelles",
+  "en": "means no longer managing to use your usual abilities"
+ },
+ {
+  "who": "lea",
+  "fr": "parce qu'on est troublé ou impressionné.",
+  "en": "because you're shaken or overwhelmed."
+ },
+ {
+  "who": "mat",
+  "fr": "Autre exemple : pendant l'audition,",
+  "en": "Another example: during the audition,"
+ },
+ {
+  "who": "mat",
+  "fr": "il a perdu ses moyens",
+  "en": "he got flustered"
+ },
+ {
+  "who": "mat",
+  "fr": "et oublié un passage qu'il connaissait.",
+  "en": "and forgot a passage he knew.",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Quelqu'un t'a aidé à reprendre ?",
+  "en": "Did someone help you get going again?"
+ },
+ {
+  "who": "mat",
+  "fr": "Une participante m'a demandé :",
+  "en": "A participant asked me:"
+ },
+ {
+  "who": "mat",
+  "fr": "« Est-ce qu'on peut regarder un tour de jeu ? »",
+  "en": "\"Can we watch one round of the game?\""
+ },
+ {
+  "who": "mat",
+  "fr": "J'ai montré les cartes et joué un exemple.",
+  "en": "I showed the cards and played an example."
+ },
+ {
+  "who": "lea",
+  "fr": "Tu as utilisé une autre façon d'expliquer.",
+  "en": "You used another way of explaining."
+ },
+ {
+  "who": "mat",
+  "fr": "Oui. Jouer et expliquer sont deux compétences différentes.",
+  "en": "Yes. Playing and explaining are two different skills."
+ },
+ {
+  "who": "mat",
+  "fr": "J'en avais une, mais je découvrais encore l'autre.",
+  "en": "I had one, but I was still discovering the other.",
+  "emote": "idee"
+ },
+ {
+  "who": "lea",
+  "fr": "[Une compétence,]",
+  "en": "\"Une compétence\"..."
+ },
+ {
+  "who": "lea",
+  "fr": "c'est une capacité qu'on peut utiliser pour réaliser une tâche.",
+  "en": "is an ability you can use to carry out a task."
+ },
+ {
+  "who": "mat",
+  "fr": "Par exemple,",
+  "en": "For example,"
+ },
+ {
+  "who": "mat",
+  "fr": "savoir organiser les commandes fait partie",
+  "en": "knowing how to organise orders is one"
+ },
+ {
+  "who": "mat",
+  "fr": "des compétences de mon cousin dans sa boutique.",
+  "en": "of my cousin's skills in his shop.",
+  "illus": "courses",
+  "label": "sa boutique"
+ },
+ {
+  "who": "lea",
+  "fr": "Et après ta démonstration, les participants ont compris ?",
+  "en": "And after your demonstration, did the participants understand?"
+ },
+ {
+  "who": "mat",
+  "fr": "Beaucoup mieux.",
+  "en": "Much better."
+ },
+ {
+  "who": "mat",
+  "fr": "Puis quelqu'un a demandé ce qui se passait",
+  "en": "Then someone asked what happened"
+ },
+ {
+  "who": "mat",
+  "fr": "si deux joueurs avaient le même résultat.",
+  "en": "if two players had the same score."
+ },
+ {
+  "who": "lea",
+  "fr": "Tu connaissais la réponse ?",
+  "en": "Did you know the answer?"
+ },
+ {
+  "who": "mat",
+  "fr": "Je ne m'en souvenais plus exactement.",
+  "en": "I didn't remember exactly."
+ },
+ {
+  "who": "mat",
+  "fr": "J'ai reconnu mes limites :",
+  "en": "I acknowledged my limits:"
+ },
+ {
+  "who": "mat",
+  "fr": "« Pour ce cas, je préfère vérifier dans la notice. »",
+  "en": "\"For this case, I'd rather check the rulebook.\""
+ },
+ {
+  "who": "lea",
+  "fr": "[Reconnaître ses limites,]",
+  "en": "\"Reconnaître ses limites\"..."
+ },
+ {
+  "who": "lea",
+  "fr": "c'est accepter et dire",
+  "en": "means accepting and saying"
+ },
+ {
+  "who": "lea",
+  "fr": "ce qu'on ne sait pas faire",
+  "en": "what you can't do"
+ },
+ {
+  "who": "lea",
+  "fr": "ou ce qu'on ne connaît pas encore.",
+  "en": "or what you don't know yet."
+ },
+ {
+  "who": "mat",
+  "fr": "Par exemple, pour traduire ce contrat,",
+  "en": "For example, to translate this contract,",
+  "illus": "travail",
+  "label": "ce contrat"
+ },
+ {
+  "who": "mat",
+  "fr": "elle a reconnu ses limites",
+  "en": "she acknowledged her limits"
+ },
+ {
+  "who": "mat",
+  "fr": "et demandé l'aide d'une personne spécialisée.",
+  "en": "and asked a specialist for help."
+ },
+ {
+  "who": "lea",
+  "fr": "Et la partie a continué.",
+  "en": "And the game went on."
+ },
+ {
+  "who": "mat",
+  "fr": "Oui. La notice avait la réponse.",
+  "en": "Yes. The rulebook had the answer."
+ },
+ {
+  "who": "mat",
+  "fr": "Elle était bien préparée, elle.",
+  "en": "It was well prepared, at least.",
+  "react": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Ce qui me touche dans ton histoire,",
+  "en": "What touches me in your story"
+ },
+ {
+  "who": "lea",
+  "fr": "c'est que ton hésitation ne résume pas toute la soirée.",
+  "en": "is that your hesitation doesn't sum up the whole evening."
+ },
+ {
+  "who": "mat",
+  "fr": "Pourtant, dans le bus du retour,",
+  "en": "Still, on the bus home,"
+ },
+ {
+  "who": "mat",
+  "fr": "je pensais surtout à ma première explication.",
+  "en": "I was mostly thinking about my first explanation."
+ },
+ {
+  "who": "mat",
+  "fr": "J'avais oublié les parties qui avaient bien fonctionné.",
+  "en": "I'd forgotten the parts that had gone well.",
+  "emote": "triste"
+ },
+ {
+  "who": "lea",
+  "fr": "Tu avais besoin de prendre du recul.",
+  "en": "You needed to step back."
+ },
+ {
+  "who": "mat",
+  "fr": "[Prendre du recul,]",
+  "en": "\"Prendre du recul\"..."
+ },
+ {
+  "who": "mat",
+  "fr": "c'est regarder une situation avec un peu de distance,",
+  "en": "means looking at a situation from a little distance,"
+ },
+ {
+  "who": "mat",
+  "fr": "pour mieux la comprendre.",
+  "en": "to understand it better."
+ },
+ {
+  "who": "lea",
+  "fr": "Oui. Par exemple, après une discussion difficile,",
+  "en": "Yes. For example, after a difficult discussion,"
+ },
+ {
+  "who": "lea",
+  "fr": "nous avons attendu le lendemain",
+  "en": "we waited until the next day"
+ },
+ {
+  "who": "lea",
+  "fr": "pour prendre du recul avant de décider.",
+  "en": "to step back before deciding."
+ },
+ {
+  "who": "mat",
+  "fr": "J'ai finalement repensé à la participante.",
+  "en": "In the end, I thought back to the participant."
+ },
+ {
+  "who": "mat",
+  "fr": "Elle avait proposé une démonstration et je l'avais faite.",
+  "en": "She had suggested a demonstration and I'd done it."
+ },
+ {
+  "who": "mat",
+  "fr": "C'était aussi une partie de l'histoire.",
+  "en": "That was part of the story too."
+ },
+ {
+  "who": "lea",
+  "fr": "Moi, je me souvenais surtout",
+  "en": "Me, I mostly remembered"
+ },
+ {
+  "who": "lea",
+  "fr": "de la date trop petite sur mon affiche.",
+  "en": "the date being too small on my poster."
+ },
+ {
+  "who": "lea",
+  "fr": "Mais j'avais aussi trouvé une solution avec le groupe.",
+  "en": "But I'd also found a solution with the group."
+ },
+ {
+  "who": "mat",
+  "fr": "On peut donc se remettre en question",
+  "en": "So you can question yourself"
+ },
+ {
+  "who": "mat",
+  "fr": "sans effacer tout ce qu'on a réussi.",
+  "en": "without erasing everything you got right."
+ },
+ {
+  "who": "lea",
+  "fr": "[Se remettre en question,]",
+  "en": "\"Se remettre en question\"..."
+ },
+ {
+  "who": "lea",
+  "fr": "c'est examiner sa manière de faire",
+  "en": "means examining the way you do things"
+ },
+ {
+  "who": "lea",
+  "fr": "et accepter de la modifier si nécessaire.",
+  "en": "and accepting to change it if necessary."
+ },
+ {
+  "who": "mat",
+  "fr": "Par exemple, après les remarques des clients,",
+  "en": "For example, after the customers' comments,"
+ },
+ {
+  "who": "mat",
+  "fr": "le restaurateur s'est remis en question",
+  "en": "the restaurant owner reassessed his approach"
+ },
+ {
+  "who": "mat",
+  "fr": "et a simplifié sa carte.",
+  "en": "and simplified his menu."
+ },
+ {
+  "who": "lea",
+  "fr": "Pour mon affiche, je pouvais me dire :",
+  "en": "For my poster, I could tell myself:",
+  "board": {
+   "mode": "compare",
+   "bg": "carnet",
+   "title": "La prochaine fois…",
+   "left": {
+    "head": "mon affiche",
+    "sub": "Léa",
+    "items": [
+     {
+      "text": "vérifier la taille des informations",
+      "at": 2
+     }
+    ]
+   },
+   "right": {
+    "head": "mon jeu",
+    "sub": "Mathieu",
+    "items": [
+     {
+      "text": "montrer un tour",
+      "at": 4
+     },
+     {
+      "text": "expliquer les cas particuliers",
+      "at": 5
+     }
+    ]
+   }
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "« La prochaine fois,",
+  "en": "\"Next time,"
+ },
+ {
+  "who": "lea",
+  "fr": "je vérifierai la taille des informations importantes. »",
+  "en": "I'll check the size of the important information.\""
+ },
+ {
+  "who": "mat",
+  "fr": "C'est précis. Et pour mon jeu :",
+  "en": "That's precise. And for my game:"
+ },
+ {
+  "who": "mat",
+  "fr": "« Je vais commencer par montrer un tour,",
+  "en": "\"I'll start by showing a round,"
+ },
+ {
+  "who": "mat",
+  "fr": "puis expliquer les cas particuliers. »",
+  "en": "then explain the special cases.\"",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Cela nous donne quelque chose à essayer.",
+  "en": "That gives us something to try."
+ }
+]

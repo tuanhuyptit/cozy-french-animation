@@ -1,0 +1,406 @@
+0|lea|Bonjour tout le monde et bienvenue sur The Cozy French !
+1|lea|Moi, c'est Léa.
+2|mat|Et moi, c'est Mathieu.
+3|mat|Merci d'être avec nous,
+4|mat|que vous nous découvriez aujourd'hui
+5|mat|ou que vous reveniez chaque semaine.
+6|lea|Installez-vous confortablement.
+7|lea|Aujourd'hui, nous allons parler de la confiance en soi.
+8|mat|Justement, j'attends mon certificat.
+9|mat|Dès que je serai officiellement assez confiant,
+10|mat|je pourrai essayer de nouvelles choses.
+11|lea|Et qui doit te le donner ?
+12|mat|Je cherche encore le bon service.
+13|mat|Pour l'instant, personne ne répond.
+14|lea|C'est peut-être
+15|lea|parce que tu peux commencer sans ce document.
+16|mat|Commencer avant de me sentir complètement prêt ?
+17|mat|Voilà une proposition intéressante,
+18|mat|mais légèrement inquiétante.
+19|lea|Nous allons en parler
+20|lea|avec deux histoires très ordinaires :
+21|lea|une réunion de quartier et une soirée jeux.
+22|mat|Cette conversation est pour les niveaux B1 et B2.
+23|mat|Nous allons parler lentement
+24|mat|et expliquer des expressions utiles.
+25|lea|À la fin, vous saurez parler de vos doutes,
+26|lea|reconnaître vos points forts et demander de l'aide.
+27|mat|Vous pourrez aussi raconter
+28|mat|une petite expérience qui vous a encouragés.
+29|lea|Pas besoin de comprendre chaque mot.
+30|lea|Suivez la conversation,
+31|lea|puis répétez quelques phrases avec nous.
+32|mat|Et vous n'avez pas besoin
+33|mat|de parler parfaitement français pour participer.
+34|lea|Nous allons justement nous intéresser
+35|lea|à ce qu'on peut faire quand on hésite encore.
+36|mat|Très bien.
+37|mat|Je vais laisser mon dossier de candidature
+38|mat|au certificat sur la table.
+39|lea|Pensez à une chose
+40|lea|qui vous semblait difficile au début
+41|lea|et que vous faites plus facilement maintenant.
+42|mat|Commander au restaurant,
+43|mat|prendre le métro dans une nouvelle ville
+44|mat|ou poser une question pendant un cours.
+45|lea|Qu'est-ce qui a changé ?
+46|lea|Gardez votre exemple pour notre exercice de fin.
+47|mat|Vous pouvez aussi nous dire d'où vous écoutez cet épisode.
+48|mat|C'est agréable de savoir
+49|mat|où nos conversations vous accompagnent.
+50|lea|La semaine dernière,
+51|lea|je suis allée à une réunion
+52|lea|pour préparer la fête du quartier.
+53|lea|J'avais dessiné une proposition d'affiche.
+54|mat|Tu l'avais apportée avec toi ?
+55|lea|Oui, dans une grande pochette bleue.
+56|lea|Mais en arrivant,
+57|lea|j'étais intimidée par les autres participants.
+58|mat|Ils t'impressionnaient et tu te sentais moins à l'aise.
+59|mat|C'est le sens d'être intimidé.
+60|lea|Exactement. Par exemple,
+61|lea|mon cousin était intimidé
+62|lea|pendant sa première répétition avec l'orchestre.
+63|mat|Qu'est-ce qui t'impressionnait chez ces personnes ?
+64|lea|Elles connaissaient déjà les lieux,
+65|lea|les horaires et les habitudes du quartier.
+66|lea|Moi, je participais pour la première fois.
+67|mat|Et ta pochette restait fermée ?
+68|lea|Bien fermée.
+69|lea|Puis la responsable a demandé
+70|lea|si quelqu'un avait une idée pour l'affiche.
+71|lea|J'ai décidé d'oser montrer mon dessin.
+72|mat|Oser,
+73|mat|c'est faire quelque chose malgré une hésitation ou une certaine peur.
+74|lea|Oui. Par exemple,
+75|lea|elle a osé demander un autre horaire pour son entretien.
+76|mat|Comment as-tu commencé ?
+77|lea|J'ai dit : « J'ai préparé une première idée.
+78|lea|Est-ce que je peux vous la montrer ? »
+79|lea|Puis j'ai ouvert la pochette.
+80|mat|Tu avais donc une vraie proposition.
+81|mat|Ce n'était pas seulement
+82|mat|une pochette très professionnelle.
+83|lea|Pourtant, je me demandais si j'étais à la hauteur.
+84|mat|Être à la hauteur,
+85|mat|c'est avoir les capacités nécessaires
+86|mat|pour répondre à ce qu'une situation demande.
+87|lea|Voilà. Par exemple, pour cette mission,
+88|lea|notre nouvelle collègue a été à la hauteur :
+89|lea|elle a trouvé une solution adaptée.
+90|mat|Et les autres ont réagi comment ?
+91|lea|Une personne a aimé les couleurs.
+92|lea|Une autre m'a demandé où je mettrais la date,
+93|lea|car elle était difficile à lire.
+94|mat|Une question concrète sur ton affiche.
+95|lea|Oui. J'ai proposé de déplacer le titre.
+96|lea|Nous avons regardé ensemble,
+97|lea|et la présentation est devenue plus claire.
+98|mat|Tu étais toujours un peu nerveuse ?
+99|lea|Oui, mais je pouvais répondre.
+100|lea|En rentrant, j'ai compris que je m'étais sous-estimée.
+101|mat|Se sous-estimer,
+102|mat|c'est penser que ses capacités
+103|mat|sont plus faibles qu'elles ne le sont réellement.
+104|lea|Par exemple,
+105|lea|tu te sous-estimes quand tu dis
+106|lea|que tu ne sais rien cuisiner :
+107|lea|ton gratin est excellent.
+108|mat|Merci. Je vais noter ce compliment.
+109|mat|Il pourra servir de pièce justificative pour mon certificat.
+110|lea|Tu peux surtout te rappeler
+111|lea|que tu sais déjà préparer
+112|lea|quelque chose que les autres apprécient.
+113|mat|Mon histoire se passe à la maison de quartier.
+114|mat|On m'avait proposé d'expliquer
+115|mat|un jeu à quelques nouveaux participants.
+116|lea|Un jeu que tu connaissais ?
+117|mat|Très bien. J'y avais joué plusieurs fois.
+118|mat|Pourtant, devant les six personnes assises à table,
+119|mat|j'avais le trac.
+120|lea|Avoir le trac,
+121|lea|c'est ressentir de la nervosité avant de parler,
+122|lea|de jouer ou de faire quelque chose devant d'autres personnes.
+123|mat|Par exemple,
+124|mat|ma sœur a le trac
+125|mat|avant de chanter avec sa chorale.
+126|lea|Et toi, tu avais préparé ton explication ?
+127|mat|Dans ma tête, oui.
+128|mat|J'ai commencé par une règle compliquée,
+129|mat|puis je suis revenu au début.
+130|mat|Je perdais mes moyens.
+131|lea|Perdre ses moyens,
+132|lea|c'est ne plus réussir à utiliser ses capacités habituelles
+133|lea|parce qu'on est troublé ou impressionné.
+134|mat|Autre exemple : pendant l'audition,
+135|mat|il a perdu ses moyens
+136|mat|et oublié un passage qu'il connaissait.
+137|lea|Quelqu'un t'a aidé à reprendre ?
+138|mat|Une participante m'a demandé :
+139|mat|« Est-ce qu'on peut regarder un tour de jeu ? »
+140|mat|J'ai montré les cartes et joué un exemple.
+141|lea|Tu as utilisé une autre façon d'expliquer.
+142|mat|Oui. Jouer et expliquer sont deux compétences différentes.
+143|mat|J'en avais une, mais je découvrais encore l'autre.
+144|lea|Une compétence,
+145|lea|c'est une capacité qu'on peut utiliser pour réaliser une tâche.
+146|mat|Par exemple,
+147|mat|savoir organiser les commandes fait partie
+148|mat|des compétences de mon cousin dans sa boutique.
+149|lea|Et après ta démonstration, les participants ont compris ?
+150|mat|Beaucoup mieux.
+151|mat|Puis quelqu'un a demandé ce qui se passait
+152|mat|si deux joueurs avaient le même résultat.
+153|lea|Tu connaissais la réponse ?
+154|mat|Je ne m'en souvenais plus exactement.
+155|mat|J'ai reconnu mes limites :
+156|mat|« Pour ce cas, je préfère vérifier dans la notice. »
+157|lea|Reconnaître ses limites,
+158|lea|c'est accepter et dire
+159|lea|ce qu'on ne sait pas faire
+160|lea|ou ce qu'on ne connaît pas encore.
+161|mat|Par exemple, pour traduire ce contrat,
+162|mat|elle a reconnu ses limites
+163|mat|et demandé l'aide d'une personne spécialisée.
+164|lea|Et la partie a continué.
+165|mat|Oui. La notice avait la réponse.
+166|mat|Elle était bien préparée, elle.
+167|lea|Ce qui me touche dans ton histoire,
+168|lea|c'est que ton hésitation ne résume pas toute la soirée.
+169|mat|Pourtant, dans le bus du retour,
+170|mat|je pensais surtout à ma première explication.
+171|mat|J'avais oublié les parties qui avaient bien fonctionné.
+172|lea|Tu avais besoin de prendre du recul.
+173|mat|Prendre du recul,
+174|mat|c'est regarder une situation avec un peu de distance,
+175|mat|pour mieux la comprendre.
+176|lea|Oui. Par exemple, après une discussion difficile,
+177|lea|nous avons attendu le lendemain
+178|lea|pour prendre du recul avant de décider.
+179|mat|J'ai finalement repensé à la participante.
+180|mat|Elle avait proposé une démonstration et je l'avais faite.
+181|mat|C'était aussi une partie de l'histoire.
+182|lea|Moi, je me souvenais surtout
+183|lea|de la date trop petite sur mon affiche.
+184|lea|Mais j'avais aussi trouvé une solution avec le groupe.
+185|mat|On peut donc se remettre en question
+186|mat|sans effacer tout ce qu'on a réussi.
+187|lea|Se remettre en question,
+188|lea|c'est examiner sa manière de faire
+189|lea|et accepter de la modifier si nécessaire.
+190|mat|Par exemple, après les remarques des clients,
+191|mat|le restaurateur s'est remis en question
+192|mat|et a simplifié sa carte.
+193|lea|Pour mon affiche, je pouvais me dire :
+194|lea|« La prochaine fois,
+195|lea|je vérifierai la taille des informations importantes. »
+196|mat|C'est précis. Et pour mon jeu :
+197|mat|« Je vais commencer par montrer un tour,
+198|mat|puis expliquer les cas particuliers. »
+199|lea|Cela nous donne quelque chose à essayer.
+200|lea|Nous n'avons pas besoin de décider
+201|lea|si nous sommes définitivement bons ou mauvais.
+202|mat|Et on peut rester prudent quand on ne sait pas.
+203|mat|Je n'aimerais pas confondre
+204|mat|mon enthousiasme avec une expertise.
+205|lea|Surtout si quelqu'un compte sur ta réponse
+206|lea|pour prendre une décision importante.
+207|mat|Mon certificat devra donc avoir une petite case :
+208|mat|« Sait demander une vérification. »
+209|mat|Faisons un jeu de rôle.
+210|mat|Tu arrives à une promenade organisée dans le quartier.
+211|mat|Je suis un membre du groupe.
+212|lea|Vous allez pouvoir essayer ma première phrase avant moi.
+213|mat|Bonjour ! Vous venez marcher avec nous aujourd'hui ?
+214|lea|À vous ! C'est votre première visite.
+215|lea|Comment demanderiez-vous si vous êtes au bon endroit ?
+216|lea|Prenez quelques secondes.
+217|mat|Vous pouvez commencer par :
+218|mat|« Bonjour, c'est bien ici que… ? »
+219|lea|Bonjour, c'est bien ici
+220|lea|que le groupe de marche se retrouve ?
+221|lea|C'est la première fois que je viens.
+222|mat|Oui, bienvenue ! Moi, c'est Mathieu.
+223|mat|Nous attendons encore deux personnes avant de partir.
+224|lea|Enchantée, moi, c'est Léa.
+225|lea|J'ai vu votre annonce et j'ai décidé de me lancer.
+226|mat|Se lancer,
+227|mat|c'est commencer quelque chose
+228|mat|qu'on hésitait à faire
+229|mat|ou qui est nouveau pour soi.
+230|lea|Par exemple, après plusieurs essais chez elle,
+231|lea|mon amie s'est lancée
+232|lea|et a exposé ses dessins à la fête du village.
+233|mat|Très bien. Revenons à la promenade.
+234|mat|Vous connaissez déjà un peu le quartier ?
+235|lea|Oui, mais pas le parcours.
+236|lea|Vous avez dit que nous allions vers le canal ?
+237|lea|Je n'ai pas bien entendu.
+238|mat|Oui, vers le canal,
+239|mat|puis jusqu'au petit jardin près du pont.
+240|lea|D'accord, merci. Est-ce qu'on revient ici à la fin ?
+241|mat|Exactement. Et vous pouvez marcher
+242|mat|près de moi si vous voulez.
+243|lea|Avec plaisir !
+244|mat|Voilà. Tu as commencé la conversation,
+245|mat|demandé une précision et accepté une proposition.
+246|lea|Et j'ai pu dire que je n'avais pas entendu.
+247|lea|Vous pouvez réutiliser cette phrase
+248|lea|pendant une vraie conversation en français.
+249|mat|Une question simple permet souvent de poursuivre l'échange.
+250|mat|Pas besoin d'inventer une présentation spectaculaire.
+251|lea|Quand je repense à la réunion,
+252|lea|je sais maintenant que j'ai pu présenter une idée
+253|lea|et discuter d'une modification.
+254|mat|Tu as eu l'occasion de faire tes preuves.
+255|lea|Faire ses preuves,
+256|lea|c'est montrer ses capacités par ce qu'on fait.
+257|lea|Exemple : pendant son stage,
+258|lea|elle a fait ses preuves en préparant les visites.
+259|mat|Mais cela ne veut pas dire
+260|mat|passer un examen à chaque conversation.
+261|mat|Je peux aussi essayer quelque chose juste pour apprendre.
+262|lea|Bien sûr.
+263|lea|Pour ma prochaine réunion, je vais préparer deux phrases :
+264|lea|ce que je propose
+265|lea|et la question sur laquelle j'aimerais un avis.
+266|mat|Moi, je vais répéter une démonstration
+267|mat|avec un ami avant la prochaine soirée jeux.
+268|mat|Je pourrai lui demander ce qui reste flou.
+269|lea|Cela peut t'aider
+270|lea|à gagner en assurance dans cette situation.
+271|mat|Gagner en assurance,
+272|mat|c'est devenir plus à l'aise
+273|mat|et plus sûr de sa manière d'agir.
+274|lea|Par exemple, au fil des visites,
+275|lea|la nouvelle guide a gagné en assurance
+276|lea|pour parler au groupe.
+277|mat|Je peux donc choisir un prochain essai assez petit.
+278|mat|Pas organiser tout un tournoi demain
+279|mat|pour prouver que j'ai compris.
+280|lea|Tu peux déjà expliquer les premières cartes.
+281|lea|Et après,
+282|lea|noter une chose qui a fonctionné
+283|lea|et une autre à clarifier.
+284|mat|Avoir confiance en soi,
+285|mat|ce serait alors croire qu'on peut
+286|mat|agir ou apprendre dans une situation,
+287|mat|même sans tout maîtriser.
+288|lea|Oui. Par exemple,
+289|lea|elle a confiance en elle pour accueillir les visiteurs,
+290|lea|tout en demandant de l'aide
+291|lea|pour certaines questions techniques.
+292|mat|J'aime cette idée.
+293|mat|Ma confiance peut concerner une activité précise.
+294|mat|Je peux être à l'aise en cuisine
+295|mat|et hésiter devant un groupe.
+296|lea|Et tu peux demander des conditions qui t'aident :
+297|lea|un peu de temps pour préparer,
+298|lea|une explication écrite ou la présence d'un collègue.
+299|mat|Si un essai se passe mal,
+300|mat|je peux aussi choisir un autre moment
+301|mat|ou une autre manière de faire.
+302|lea|Exactement. Nous parlons de nos expériences ordinaires.
+303|lea|Personne n'est obligé de se mettre
+304|lea|dans une situation qui lui fait trop peur.
+305|mat|Je vais commencer par mon ami.
+306|mat|Il comprend très bien les règles
+307|mat|quand il reste du gâteau.
+308|lea|Reprenez votre exemple du début.
+309|lea|Voici une structure : « Avant, j'hésitais à…
+310|lea|Maintenant, je peux…
+311|lea|Je suis encore en train d'apprendre à… »
+312|mat|Avant, j'hésitais à expliquer un jeu à un groupe.
+313|mat|Maintenant, je peux montrer un tour.
+314|mat|Je suis encore en train d'apprendre à répondre clairement.
+315|lea|Avant, j'hésitais à présenter mes idées.
+316|lea|Maintenant, je peux montrer une première proposition.
+317|lea|Je suis encore en train
+318|lea|d'apprendre à accueillir les questions.
+319|mat|À votre tour.
+320|mat|Dites vos phrases à voix haute.
+321|mat|Votre exemple peut être très simple et très personnel.
+322|lea|Vous pouvez aussi parler d'un prochain essai :
+323|lea|« La prochaine fois, je vais essayer de… »
+324|mat|La prochaine fois,
+325|mat|je vais essayer de donner une consigne courte,
+326|mat|puis laisser les participants jouer.
+327|lea|Moi, je vais essayer de parler
+328|lea|avant d'avoir préparé toutes les réponses possibles.
+329|mat|Choisissez ce qui vous convient.
+330|mat|Et si un mot vous manque en français,
+331|mat|vous pouvez décrire votre idée autrement.
+332|lea|Revenons sur cinq expressions.
+333|lea|Écoutez leur sens, puis répétez avec nous.
+334|mat|D'abord, avoir le trac.
+335|mat|Avant ma démonstration,
+336|mat|j'étais nerveux devant les participants.
+337|lea|C'est ressentir cette nervosité avant une prestation.
+338|lea|Nouvel exemple :
+339|lea|elle a le trac
+340|lea|avant de lire son texte à la soirée poésie.
+341|mat|On répète : avoir le trac.
+342|mat|Vous pouvez dire :
+343|mat|« J'ai un peu le trac, c'est ma première fois. »
+344|lea|Deuxième expression : être à la hauteur.
+345|lea|Pendant la réunion,
+346|lea|je doutais de mes capacités
+347|lea|à proposer une affiche adaptée.
+348|mat|C'est pouvoir répondre à ce que la situation demande.
+349|mat|Exemple : notre équipe a été à la hauteur
+350|mat|malgré le changement de programme.
+351|lea|On répète : être à la hauteur.
+352|lea|On peut préciser : « à la hauteur de la tâche ».
+353|mat|Troisième expression : prendre du recul.
+354|mat|Dans le bus, je pensais seulement à mon début difficile.
+355|lea|C'est regarder la situation avec de la distance.
+356|lea|Exemple : avant de répondre à ce commentaire,
+357|lea|je vais prendre du recul.
+358|mat|On répète : prendre du recul.
+359|mat|Nous pouvons nous demander ce qui s'est passé,
+360|mat|avec des détails concrets.
+361|lea|Quatrième expression : se lancer.
+362|lea|Dans notre petite scène,
+363|lea|j'ai décidé de rejoindre le groupe de marche.
+364|mat|C'est commencer malgré une hésitation.
+365|mat|Exemple : après avoir trouvé un professeur,
+366|mat|il s'est lancé dans l'apprentissage du piano.
+367|lea|On répète : se lancer.
+368|lea|Votre prochain essai peut être
+369|lea|une simple question dans une conversation.
+370|mat|Enfin, gagner en assurance.
+371|mat|Avec de l'expérience,
+372|mat|on peut devenir plus à l'aise dans une activité.
+373|lea|Exemple : depuis qu'elle présente la météo de l'école,
+374|lea|cette élève gagne en assurance devant la caméra.
+375|mat|On répète : gagner en assurance.
+376|mat|Pensez maintenant à une expérience
+377|mat|où vous avez remarqué un petit changement.
+378|lea|Choisissez une de ces expressions
+379|lea|et racontez ce moment avec vos propres mots.
+380|mat|Même avec une hésitation.
+381|mat|Vous pouvez nous demander de répéter ;
+382|mat|nous connaissons très bien cette phrase.
+383|lea|Dans les commentaires, complétez :
+384|lea|« J'aimerais être plus à l'aise pour…
+385|lea|La prochaine fois, je vais essayer de… »
+386|mat|Vous pouvez aussi raconter une chose
+387|mat|que vous savez faire aujourd'hui
+388|mat|et qui vous semblait difficile auparavant.
+389|lea|Si cet épisode vous a aidés,
+390|lea|abonnez-vous à The Cozy French
+391|lea|pour continuer à pratiquer avec nous.
+392|mat|Réécoutez quelques répliques du groupe de marche,
+393|mat|puis changez les détails
+394|mat|pour une activité qui vous intéresse.
+395|lea|Merci d'avoir partagé ce moment.
+396|lea|Prenez soin de vous et à très bientôt !
+397|mat|Au revoir tout le monde !
+398|mat|Bon, il faut que j'annule ma demande de certificat.
+399|lea|Pourquoi ?
+400|mat|J'ai déjà expliqué un jeu
+401|mat|et accueilli une nouvelle participante.
+402|mat|Je n'ai pas attendu qu'il soit imprimé.
+403|lea|Très bien.
+404|lea|Tu peux commencer ton prochain essai
+405|lea|pendant que l'imprimante se repose.

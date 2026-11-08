@@ -499,10 +499,10 @@ const CUP=stripe=>`<g class="steamGrp">${STEAM}</g><ellipse cx="234" cy="358" rx
    up: giơ tay xoè · point: chỉ về người kia · palm: ngửa lòng bàn tay · beat: nắm tay gõ nhịp · think: chống cằm.
    Tay trong (arm1) + cốc: .armHold / .cupGrp; khi nhấp cà phê: .armSip hiện, .cupGrp đưa lên miệng. */
 const GEST_ELBOW={up:[286,388],point:[284,384],palm:[284,390],beat:[286,386],think:[282,392],
-  wave:[326,250],shrug:[300,372],count:[286,388],scratch:[320,232],
+  wave:[330,352],shrug:[300,372],count:[286,388],scratch:[320,232],
   explain:[282,372],regarde:[312,318],coeur:[276,380],pouce:[284,376],bof:[284,378],pince:[286,378],rire:[300,302],menton:[288,350],poche:[266,352],grand:[318,300],rireT:[300,302],mentonT:[288,350]};
 /* 4 cử chỉ mới: wave vẫy tay chào · shrug nhún vai ngửa tay · count đếm ngón tay (1→2→3) · scratch gãi đầu. Thêm nod = gật đầu (đầu, không dùng tay). */
-const ARM_UP=(c,skin,w)=>{
+const ARM_UP=(c,skin,w,wsh='M262 282 C292 300 318 326')=>{   // wsh: start of the wave upper arm (Léa's chunky tops sit wider)
   const up=(d)=>`<path d="${d}" stroke="${c}" stroke-width="${w}" fill="none" stroke-linecap="round"/>`;
   const fa=(d)=>`<path d="${d}" stroke="${c}" stroke-width="${w-4}" fill="none" stroke-linecap="round"/>`;
   const fg=(d,sw=8)=>`<path d="${d}" stroke="${skin}" stroke-width="${sw}" stroke-linecap="round" fill="none"/>`;
@@ -517,8 +517,8 @@ const ARM_UP=(c,skin,w)=>{
      `<ellipse cx="322" cy="332" rx="16" ry="15" fill="${skin}"/><path d="M314 322 q8 -4 16 0" stroke="#00000030" stroke-width="3" fill="none" stroke-linecap="round"/>`],
    think:[up('M257 286 C278 330 288 370 282 392'), fa('M282 392 C268 350 250 272 240 240')+
      `<ellipse cx="236" cy="228" rx="15" ry="17" fill="${skin}"/>${fg('M228 220 q-2 -14 6 -24',8)}`],
-   wave:[up('M257 286 C286 282 312 270 326 250'), fa('M326 250 C330 222 332 196 334 172')+
-     `<g transform="rotate(8 336 156)"><ellipse cx="336" cy="156" rx="16" ry="19" fill="${skin}"/>${fg('M324 146 q-4 -14 0 -20 M332 141 q0 -18 4 -22 M341 142 q3 -16 8 -19 M348 150 q6 -10 10 -11')}${fg('M322 162 q-12 -2 -14 -12')}</g>`],
+   wave:[up(wsh+' 330 352'), fa('M330 352 C346 312 360 272 370 242')+
+     `<g transform="rotate(12 376 224)"><ellipse cx="376" cy="224" rx="16" ry="19" fill="${skin}"/>${fg('M364 214 q-4 -14 0 -20 M372 209 q0 -18 4 -22 M381 210 q3 -16 8 -19 M388 218 q6 -10 10 -11')}${fg('M362 230 q-12 -2 -14 -12')}</g>`],
    shrug:[up('M257 286 C276 324 290 352 300 372'), fa('M300 372 C318 356 334 338 346 322')+
      `<g transform="rotate(-32 356 312)"><ellipse cx="356" cy="312" rx="22" ry="10" fill="${skin}"/>${fg('M372 304 q8 -8 8 -16 M377 312 q10 -6 12 -14 M366 300 q4 -10 2 -18',7)}${fg('M342 304 q-4 -10 2 -16',7)}</g>`],
    count:[up('M257 286 C276 330 288 366 286 388'), fa('M286 388 C292 364 298 342 302 322')+
@@ -731,7 +731,7 @@ function leaSVG(k,walk){ const o=OUT_LEA[k]; return `<div class="name">Léa</div
   <path class="armRest" d="M256 285 C278 330 288 380 268 406" stroke="${o.arm2}" stroke-width="42" fill="none" stroke-linecap="round"/>
   <g class="cupGrp"><g class="cupTilt">${CUP('#d9774b')}
   <ellipse cx="204" cy="400" rx="14" ry="17" fill="#f2c6a2"/></g></g><ellipse class="armRest" cx="266" cy="402" rx="13" ry="16" fill="#eab896"/>`}
-  ${ARM_UP(o.arm2,'#eab896',42)}
+  ${ARM_UP(o.arm2,'#eab896',42,'M300 270 C318 296 328 324')}
  </g>${walk?'</g></g>':''}
  ${emoSyms(150)}
  </g></svg>`;}

@@ -1,0 +1,114 @@
+[
+ {
+  "tag": "expression",
+  "word": "être intimidé",
+  "ipa": "/ɛ.tʁ‿ɛ̃.ti.mi.de/",
+  "mean": "to feel intimidated",
+  "ex": "J'étais intimidé par les autres candidats, qui semblaient très expérimentés.",
+  "exEn": "I felt intimidated by the other candidates, who seemed very experienced."
+ },
+ {
+  "tag": "verbe",
+  "word": "oser",
+  "ipa": "/o.ze/",
+  "mean": "to dare; to feel able to try despite hesitation",
+  "ex": "Cette fois, il a osé poser sa question au professeur.",
+  "exEn": "This time, he dared to ask the teacher his question."
+ },
+ {
+  "tag": "expression",
+  "word": "être à la hauteur",
+  "ipa": "/ɛ.tʁ‿a la o.tœʁ/",
+  "mean": "to be up to the task; to meet expectations",
+  "ex": "Pour organiser cet accueil, les bénévoles ont été à la hauteur.",
+  "exEn": "The volunteers rose to the occasion when organising this welcome."
+ },
+ {
+  "tag": "verbe",
+  "word": "se sous-estimer",
+  "ipa": "/sə su.z‿ɛs.ti.me/",
+  "mean": "to underestimate yourself",
+  "ex": "Tu te sous-estimes : tu as déjà organisé deux événements.",
+  "exEn": "You're underestimating yourself: you've already organised two events."
+ },
+ {
+  "tag": "expression",
+  "word": "avoir le trac",
+  "ipa": "/a.vwaʁ lə tʁak/",
+  "mean": "to have stage fright; to feel nervous before a performance",
+  "ex": "J'ai le trac avant de présenter mon projet aux voisins.",
+  "exEn": "I feel nervous before presenting my project to the neighbours."
+ },
+ {
+  "tag": "expression",
+  "word": "perdre ses moyens",
+  "ipa": "/pɛʁ.dʁə se mwa.jɛ̃/",
+  "mean": "to become flustered; to lose your composure",
+  "ex": "Quand tout le monde l'a regardé, il a perdu ses moyens.",
+  "exEn": "When everyone looked at him, he became flustered."
+ },
+ {
+  "tag": "nom féminin",
+  "word": "une compétence",
+  "ipa": "/yn kɔ̃.pe.tɑ̃s/",
+  "mean": "a skill; an ability used to perform a task",
+  "ex": "La gestion des réservations fait partie de ses compétences.",
+  "exEn": "Managing bookings is one of her skills."
+ },
+ {
+  "tag": "expression",
+  "word": "reconnaître ses limites",
+  "ipa": "/ʁə.kɔ.nɛ.tʁə se li.mit/",
+  "mean": "to acknowledge your limits",
+  "ex": "Je reconnais mes limites et je demande conseil pour cette étape.",
+  "exEn": "I acknowledge my limits and ask for advice with this step."
+ },
+ {
+  "tag": "expression",
+  "word": "prendre du recul",
+  "ipa": "/pʁɑ̃.dʁə dy ʁə.kyl/",
+  "mean": "to step back; to gain perspective",
+  "ex": "Avant de tout modifier, prenons du recul sur les remarques reçues.",
+  "exEn": "Before changing everything, let's step back and consider the feedback."
+ },
+ {
+  "tag": "expression",
+  "word": "se remettre en question",
+  "ipa": "/sə ʁə.mɛ.tʁ‿ɑ̃ kɛs.tjɔ̃/",
+  "mean": "to question yourself; to reassess your approach",
+  "ex": "Elle sait se remettre en question quand une méthode ne fonctionne plus.",
+  "exEn": "She can reassess her approach when a method no longer works."
+ },
+ {
+  "tag": "verbe",
+  "word": "se lancer",
+  "ipa": "/sə lɑ̃.se/",
+  "mean": "to take the plunge; to get started with something new",
+  "ex": "Après plusieurs recettes, elle s'est lancée dans un concours de cuisine.",
+  "exEn": "After several recipes, she took the plunge and entered a cooking competition."
+ },
+ {
+  "tag": "expression",
+  "word": "faire ses preuves",
+  "ipa": "/fɛʁ se pʁœv/",
+  "mean": "to prove what you can do",
+  "ex": "Il a fait ses preuves en accompagnant les nouveaux membres du club.",
+  "exEn": "He proved himself by helping the club's new members."
+ },
+ {
+  "tag": "expression",
+  "word": "gagner en assurance",
+  "ipa": "/ɡa.ɲe ɑ̃.n‿a.sy.ʁɑ̃s/",
+  "mean": "to grow more confident; to become more self-assured",
+  "ex": "En répondant aux visiteurs, il a gagné en assurance au fil des semaines.",
+  "exEn": "By answering visitors' questions, he grew more confident over the weeks."
+ },
+ {
+  "tag": "expression",
+  "word": "avoir confiance en soi",
+  "ipa": "/a.vwaʁ kɔ̃.fjɑ̃s ɑ̃ swa/",
+  "mean": "to have self-confidence; to believe in your abilities",
+  "ex": "Elle a confiance en elle quand elle organise une visite.",
+  "exEn": "She feels confident when organising a visit."
+ }
+]

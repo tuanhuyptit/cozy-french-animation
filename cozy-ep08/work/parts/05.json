@@ -1,0 +1,33 @@
+[
+ {
+  "who": "mat",
+  "fr": "J'ai déjà expliqué un jeu",
+  "en": "I've already explained a game"
+ },
+ {
+  "who": "mat",
+  "fr": "et accueilli une nouvelle participante.",
+  "en": "and welcomed a new participant."
+ },
+ {
+  "who": "mat",
+  "fr": "Je n'ai pas attendu qu'il soit imprimé.",
+  "en": "I didn't wait for it to be printed.",
+  "react": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Très bien.",
+  "en": "Very good."
+ },
+ {
+  "who": "mat",
+  "fr": "Tu peux commencer ton prochain essai",
+  "en": "You can start your next try"
+ },
+ {
+  "who": "mat",
+  "fr": "pendant que l'imprimante se repose.",
+  "en": "while the printer takes a rest."
+ }
+]

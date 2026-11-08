@@ -1,0 +1,2396 @@
+{
+  "scene": "marche",
+  "lea": "torsade",
+  "mat": "blazer",
+  "audio": "assets/voice.mp3",
+  "audioEnd": 1086.45,
+  "chunks": [
+    {
+      "who": "lea",
+      "fr": "Bonjour tout le monde et bienvenue sur The Cozy French !",
+      "en": "Hello everyone and welcome to The Cozy French!"
+    },
+    {
+      "who": "lea",
+      "fr": "Moi, c'est Léa.",
+      "en": "I'm Léa."
+    },
+    {
+      "who": "mat",
+      "fr": "Et moi, c'est Mathieu.",
+      "en": "And I'm Mathieu."
+    },
+    {
+      "who": "mat",
+      "fr": "Merci d'être avec nous,",
+      "en": "Thank you for being with us,"
+    },
+    {
+      "who": "mat",
+      "fr": "que vous nous découvriez aujourd'hui",
+      "en": "whether you're discovering us today"
+    },
+    {
+      "who": "mat",
+      "fr": "ou que vous reveniez chaque semaine.",
+      "en": "or you come back every week."
+    },
+    {
+      "who": "lea",
+      "fr": "Installez-vous confortablement.",
+      "en": "Get comfortable."
+    },
+    {
+      "who": "lea",
+      "fr": "Aujourd'hui, nous allons parler de la confiance en soi.",
+      "en": "Today, we're going to talk about self-confidence."
+    },
+    {
+      "who": "mat",
+      "fr": "Justement, j'attends mon certificat.",
+      "en": "Funny you say that, I'm waiting for my certificate."
+    },
+    {
+      "who": "mat",
+      "fr": "Dès que je serai officiellement assez confiant,",
+      "en": "As soon as I'm officially confident enough,"
+    },
+    {
+      "who": "mat",
+      "fr": "je pourrai essayer de nouvelles choses.",
+      "en": "I'll be able to try new things."
+    },
+    {
+      "who": "lea",
+      "fr": "Et qui doit te le donner ?",
+      "en": "And who's supposed to give it to you?",
+      "emote": "question"
+    },
+    {
+      "who": "mat",
+      "fr": "Je cherche encore le bon service.",
+      "en": "I'm still looking for the right department."
+    },
+    {
+      "who": "mat",
+      "fr": "Pour l'instant, personne ne répond.",
+      "en": "For now, nobody's answering.",
+      "react": "rire"
+    },
+    {
+      "who": "lea",
+      "fr": "C'est peut-être",
+      "en": "Maybe that's"
+    },
+    {
+      "who": "lea",
+      "fr": "parce que tu peux commencer sans ce document.",
+      "en": "because you can start without that document."
+    },
+    {
+      "who": "mat",
+      "fr": "Commencer avant de me sentir complètement prêt ?",
+      "en": "Start before I feel completely ready?",
+      "emote": "surpris"
+    },
+    {
+      "who": "mat",
+      "fr": "Voilà une proposition intéressante,",
+      "en": "That's an interesting proposal,"
+    },
+    {
+      "who": "mat",
+      "fr": "mais légèrement inquiétante.",
+      "en": "but slightly worrying.",
+      "emote": "gene"
+    },
+    {
+      "who": "lea",
+      "fr": "Nous allons en parler",
+      "en": "We'll talk about it"
+    },
+    {
+      "who": "lea",
+      "fr": "avec deux histoires très ordinaires :",
+      "en": "with two very ordinary stories:"
+    },
+    {
+      "who": "lea",
+      "fr": "une réunion de quartier et une soirée jeux.",
+      "en": "a neighbourhood meeting and a games night.",
+      "illus": "amis",
+      "label": "une soirée jeux"
+    },
+    {
+      "who": "mat",
+      "fr": "Cette conversation est pour les niveaux B1 et B2.",
+      "en": "This conversation is for levels B1 and B2."
+    },
+    {
+      "who": "mat",
+      "fr": "Nous allons parler lentement",
+      "en": "We'll speak slowly"
+    },
+    {
+      "who": "mat",
+      "fr": "et expliquer des expressions utiles.",
+      "en": "and explain useful expressions."
+    },
+    {
+      "who": "lea",
+      "fr": "À la fin, vous saurez parler de vos doutes,",
+      "en": "By the end, you'll be able to talk about your doubts,"
+    },
+    {
+      "who": "lea",
+      "fr": "reconnaître vos points forts et demander de l'aide.",
+      "en": "recognise your strengths and ask for help."
+    },
+    {
+      "who": "mat",
+      "fr": "Vous pourrez aussi raconter",
+      "en": "You'll also be able to tell"
+    },
+    {
+      "who": "mat",
+      "fr": "une petite expérience qui vous a encouragés.",
+      "en": "a little experience that encouraged you."
+    },
+    {
+      "who": "lea",
+      "fr": "Pas besoin de comprendre chaque mot.",
+      "en": "No need to understand every word."
+    },
+    {
+      "who": "lea",
+      "fr": "Suivez la conversation,",
+      "en": "Follow the conversation,"
+    },
+    {
+      "who": "lea",
+      "fr": "puis répétez quelques phrases avec nous.",
+      "en": "then repeat a few sentences with us."
+    },
+    {
+      "who": "mat",
+      "fr": "Et vous n'avez pas besoin",
+      "en": "And you don't need"
+    },
+    {
+      "who": "mat",
+      "fr": "de parler parfaitement français pour participer.",
+      "en": "to speak perfect French to take part."
+    },
+    {
+      "who": "lea",
+      "fr": "Nous allons justement nous intéresser",
+      "en": "We're going to look precisely"
+    },
+    {
+      "who": "lea",
+      "fr": "à ce qu'on peut faire quand on hésite encore.",
+      "en": "at what you can do when you're still hesitating."
+    },
+    {
+      "who": "mat",
+      "fr": "Très bien.",
+      "en": "Very well."
+    },
+    {
+      "who": "mat",
+      "fr": "Je vais laisser mon dossier de candidature",
+      "en": "I'll leave my application form"
+    },
+    {
+      "who": "mat",
+      "fr": "au certificat sur la table.",
+      "en": "for the certificate on the table.",
+      "react": "rire"
+    },
+    {
+      "who": "lea",
+      "fr": "Pensez à une chose",
+      "en": "Think of something"
+    },
+    {
+      "who": "lea",
+      "fr": "qui vous semblait difficile au début",
+      "en": "that seemed difficult at first"
+    },
+    {
+      "who": "lea",
+      "fr": "et que vous faites plus facilement maintenant.",
+      "en": "and that you do more easily now."
+    },
+    {
+      "who": "mat",
+      "fr": "Commander au restaurant,",
+      "en": "Ordering at a restaurant,",
+      "illus": "repas",
+      "label": "le restaurant"
+    },
+    {
+      "who": "mat",
+      "fr": "prendre le métro dans une nouvelle ville",
+      "en": "taking the metro in a new city"
+    },
+    {
+      "who": "mat",
+      "fr": "ou poser une question pendant un cours.",
+      "en": "or asking a question during a class."
+    },
+    {
+      "who": "lea",
+      "fr": "Qu'est-ce qui a changé ?",
+      "en": "What changed?"
+    },
+    {
+      "who": "lea",
+      "fr": "Gardez votre exemple pour notre exercice de fin.",
+      "en": "Keep your example for our final exercise."
+    },
+    {
+      "who": "mat",
+      "fr": "Vous pouvez aussi nous dire d'où vous écoutez cet épisode.",
+      "en": "You can also tell us where you're listening to this episode from."
+    },
+    {
+      "who": "mat",
+      "fr": "C'est agréable de savoir",
+      "en": "It's lovely to know"
+    },
+    {
+      "who": "mat",
+      "fr": "où nos conversations vous accompagnent.",
+      "en": "where our conversations go with you.",
+      "emote": "coeur"
+    },
+    {
+      "who": "lea",
+      "fr": "La semaine dernière,",
+      "en": "Last week,",
+      "board": {
+        "mode": "timeline",
+        "title": "La réunion de Léa",
+        "items": [
+          {
+            "label": "la semaine dernière",
+            "text": "une réunion",
+            "at": 1
+          },
+          {
+            "label": "avant",
+            "text": "une affiche dessinée",
+            "at": 3
+          },
+          {
+            "label": "en arrivant",
+            "text": "intimidée…",
+            "at": 6
+          }
+        ]
+      }
+    },
+    {
+      "who": "lea",
+      "fr": "je suis allée à une réunion",
+      "en": "I went to a meeting"
+    },
+    {
+      "who": "lea",
+      "fr": "pour préparer la fête du quartier.",
+      "en": "to prepare the neighbourhood party."
+    },
+    {
+      "who": "lea",
+      "fr": "J'avais dessiné une proposition d'affiche.",
+      "en": "I had drawn a poster idea."
+    },
+    {
+      "who": "mat",
+      "fr": "Tu l'avais apportée avec toi ?",
+      "en": "Did you bring it with you?"
+    },
+    {
+      "who": "lea",
+      "fr": "Oui, dans une grande pochette bleue.",
+      "en": "Yes, in a big blue folder."
+    },
+    {
+      "who": "lea",
+      "fr": "Mais en arrivant,",
+      "en": "But when I arrived,",
+      "boardEnd": true
+    },
+    {
+      "who": "lea",
+      "fr": "[j'étais intimidée] par les autres participants.",
+      "en": "I felt intimidated by the other participants.",
+      "emote": "gene",
+      "board": {
+        "mode": "word",
+        "note": "= impressionné par les autres, moins à l'aise",
+        "icon": "amis"
+      }
+    },
+    {
+      "who": "mat",
+      "fr": "Ils t'impressionnaient et tu te sentais moins à l'aise.",
+      "en": "They impressed you and you felt less at ease."
+    },
+    {
+      "who": "mat",
+      "fr": "C'est le sens d'être intimidé.",
+      "en": "That's what \"être intimidé\" means."
+    },
+    {
+      "who": "lea",
+      "fr": "Exactement. Par exemple,",
+      "en": "Exactly. For example,"
+    },
+    {
+      "who": "lea",
+      "fr": "mon cousin était intimidé",
+      "en": "my cousin felt intimidated"
+    },
+    {
+      "who": "lea",
+      "fr": "pendant sa première répétition avec l'orchestre.",
+      "en": "during his first rehearsal with the orchestra.",
+      "boardEnd": true
+    },
+    {
+      "who": "mat",
+      "fr": "Qu'est-ce qui t'impressionnait chez ces personnes ?",
+      "en": "What impressed you about these people?"
+    },
+    {
+      "who": "lea",
+      "fr": "Elles connaissaient déjà les lieux,",
+      "en": "They already knew the place,"
+    },
+    {
+      "who": "lea",
+      "fr": "les horaires et les habitudes du quartier.",
+      "en": "the schedules and the habits of the neighbourhood."
+    },
+    {
+      "who": "lea",
+      "fr": "Moi, je participais pour la première fois.",
+      "en": "Me, I was taking part for the first time."
+    },
+    {
+      "who": "mat",
+      "fr": "Et ta pochette restait fermée ?",
+      "en": "And your folder stayed closed?"
+    },
+    {
+      "who": "lea",
+      "fr": "Bien fermée.",
+      "en": "Firmly closed."
+    },
+    {
+      "who": "lea",
+      "fr": "Puis la responsable a demandé",
+      "en": "Then the person in charge asked"
+    },
+    {
+      "who": "lea",
+      "fr": "si quelqu'un avait une idée pour l'affiche.",
+      "en": "if anyone had an idea for the poster."
+    },
+    {
+      "who": "lea",
+      "fr": "J'ai décidé d'oser montrer mon dessin.",
+      "en": "I decided to dare to show my drawing."
+    },
+    {
+      "who": "mat",
+      "fr": "[Oser,]",
+      "en": "\"Oser\"..."
+    },
+    {
+      "who": "mat",
+      "fr": "c'est faire quelque chose malgré une hésitation ou une certaine peur.",
+      "en": "means doing something despite hesitation or some fear."
+    },
+    {
+      "who": "lea",
+      "fr": "Oui. Par exemple,",
+      "en": "Yes. For example,"
+    },
+    {
+      "who": "lea",
+      "fr": "elle a osé demander un autre horaire pour son entretien.",
+      "en": "she dared to ask for another time for her interview."
+    },
+    {
+      "who": "mat",
+      "fr": "Comment as-tu commencé ?",
+      "en": "How did you start?"
+    },
+    {
+      "who": "lea",
+      "fr": "J'ai dit : « J'ai préparé une première idée.",
+      "en": "I said: \"I've prepared a first idea."
+    },
+    {
+      "who": "lea",
+      "fr": "Est-ce que je peux vous la montrer ? »",
+      "en": "May I show it to you?\""
+    },
+    {
+      "who": "lea",
+      "fr": "Puis j'ai ouvert la pochette.",
+      "en": "Then I opened the folder."
+    },
+    {
+      "who": "mat",
+      "fr": "Tu avais donc une vraie proposition.",
+      "en": "So you had a real proposal."
+    },
+    {
+      "who": "mat",
+      "fr": "Ce n'était pas seulement",
+      "en": "It wasn't just"
+    },
+    {
+      "who": "mat",
+      "fr": "une pochette très professionnelle.",
+      "en": "a very professional-looking folder.",
+      "react": "rire"
+    },
+    {
+      "who": "lea",
+      "fr": "Pourtant, je me demandais si j'étais à la hauteur.",
+      "en": "Still, I wondered if I was up to it."
+    },
+    {
+      "who": "mat",
+      "fr": "[Être à la hauteur,]",
+      "en": "\"Être à la hauteur\"...",
+      "board": {
+        "mode": "word",
+        "bg": "carnet",
+        "note": "= avoir les capacités nécessaires pour ce que la situation demande"
+      }
+    },
+    {
+      "who": "mat",
+      "fr": "c'est avoir les capacités nécessaires",
+      "en": "means having the necessary abilities"
+    },
+    {
+      "who": "mat",
+      "fr": "pour répondre à ce qu'une situation demande.",
+      "en": "to meet what a situation requires."
+    },
+    {
+      "who": "lea",
+      "fr": "Voilà. Par exemple, pour cette mission,",
+      "en": "That's it. For example, for this assignment,"
+    },
+    {
+      "who": "lea",
+      "fr": "notre nouvelle collègue a été à la hauteur :",
+      "en": "our new colleague was up to the task:"
+    },
+    {
+      "who": "lea",
+      "fr": "elle a trouvé une solution adaptée.",
+      "en": "she found a suitable solution.",
+      "boardEnd": true
+    },
+    {
+      "who": "mat",
+      "fr": "Et les autres ont réagi comment ?",
+      "en": "And how did the others react?"
+    },
+    {
+      "who": "lea",
+      "fr": "Une personne a aimé les couleurs.",
+      "en": "One person liked the colours."
+    },
+    {
+      "who": "lea",
+      "fr": "Une autre m'a demandé où je mettrais la date,",
+      "en": "Another asked me where I'd put the date,"
+    },
+    {
+      "who": "lea",
+      "fr": "car elle était difficile à lire.",
+      "en": "because it was hard to read."
+    },
+    {
+      "who": "mat",
+      "fr": "Une question concrète sur ton affiche.",
+      "en": "A concrete question about your poster."
+    },
+    {
+      "who": "lea",
+      "fr": "Oui. J'ai proposé de déplacer le titre.",
+      "en": "Yes. I suggested moving the title."
+    },
+    {
+      "who": "lea",
+      "fr": "Nous avons regardé ensemble,",
+      "en": "We looked at it together,"
+    },
+    {
+      "who": "lea",
+      "fr": "et la présentation est devenue plus claire.",
+      "en": "and the layout became clearer."
+    },
+    {
+      "who": "mat",
+      "fr": "Tu étais toujours un peu nerveuse ?",
+      "en": "Were you still a bit nervous?"
+    },
+    {
+      "who": "lea",
+      "fr": "Oui, mais je pouvais répondre.",
+      "en": "Yes, but I could answer."
+    },
+    {
+      "who": "lea",
+      "fr": "En rentrant, j'ai compris que je m'étais sous-estimée.",
+      "en": "On the way home, I realised I had underestimated myself.",
+      "emote": "idee"
+    },
+    {
+      "who": "mat",
+      "fr": "[Se sous-estimer,]",
+      "en": "\"Se sous-estimer\"..."
+    },
+    {
+      "who": "mat",
+      "fr": "c'est penser que ses capacités",
+      "en": "means thinking your abilities"
+    },
+    {
+      "who": "mat",
+      "fr": "sont plus faibles qu'elles ne le sont réellement.",
+      "en": "are weaker than they really are."
+    },
+    {
+      "who": "lea",
+      "fr": "Par exemple,",
+      "en": "For example,"
+    },
+    {
+      "who": "lea",
+      "fr": "tu te sous-estimes quand tu dis",
+      "en": "you underestimate yourself when you say"
+    },
+    {
+      "who": "lea",
+      "fr": "que tu ne sais rien cuisiner :",
+      "en": "you can't cook anything:"
+    },
+    {
+      "who": "lea",
+      "fr": "ton gratin est excellent.",
+      "en": "your gratin is excellent.",
+      "emote": "coeur",
+      "illus": "repas",
+      "label": "ton gratin"
+    },
+    {
+      "who": "mat",
+      "fr": "Merci. Je vais noter ce compliment.",
+      "en": "Thanks. I'll write down that compliment."
+    },
+    {
+      "who": "mat",
+      "fr": "Il pourra servir de pièce justificative pour mon certificat.",
+      "en": "It can serve as supporting evidence for my certificate.",
+      "react": "rire"
+    },
+    {
+      "who": "lea",
+      "fr": "Tu peux surtout te rappeler",
+      "en": "Above all, you can remind yourself"
+    },
+    {
+      "who": "lea",
+      "fr": "que tu sais déjà préparer",
+      "en": "that you already know how to make"
+    },
+    {
+      "who": "lea",
+      "fr": "quelque chose que les autres apprécient.",
+      "en": "something other people enjoy."
+    },
+    {
+      "who": "mat",
+      "fr": "Mon histoire se passe à la maison de quartier.",
+      "en": "My story takes place at the community centre."
+    },
+    {
+      "who": "mat",
+      "fr": "On m'avait proposé d'expliquer",
+      "en": "I'd been asked to explain"
+    },
+    {
+      "who": "mat",
+      "fr": "un jeu à quelques nouveaux participants.",
+      "en": "a game to a few new participants."
+    },
+    {
+      "who": "lea",
+      "fr": "Un jeu que tu connaissais ?",
+      "en": "A game you knew?"
+    },
+    {
+      "who": "mat",
+      "fr": "Très bien. J'y avais joué plusieurs fois.",
+      "en": "Very well. I'd played it several times."
+    },
+    {
+      "who": "mat",
+      "fr": "Pourtant, devant les six personnes assises à table,",
+      "en": "Yet, in front of the six people sitting at the table,"
+    },
+    {
+      "who": "mat",
+      "fr": "j'avais le trac.",
+      "en": "I had stage fright.",
+      "emote": "gene"
+    },
+    {
+      "who": "lea",
+      "fr": "[Avoir le trac,]",
+      "en": "\"Avoir le trac\"..."
+    },
+    {
+      "who": "lea",
+      "fr": "c'est ressentir de la nervosité avant de parler,",
+      "en": "means feeling nervous before speaking,"
+    },
+    {
+      "who": "lea",
+      "fr": "de jouer ou de faire quelque chose devant d'autres personnes.",
+      "en": "playing or doing something in front of other people."
+    },
+    {
+      "who": "mat",
+      "fr": "Par exemple,",
+      "en": "For example,"
+    },
+    {
+      "who": "mat",
+      "fr": "ma sœur a le trac",
+      "en": "my sister gets stage fright"
+    },
+    {
+      "who": "mat",
+      "fr": "avant de chanter avec sa chorale.",
+      "en": "before singing with her choir."
+    },
+    {
+      "who": "lea",
+      "fr": "Et toi, tu avais préparé ton explication ?",
+      "en": "And you, had you prepared your explanation?",
+      "board": {
+        "mode": "timeline",
+        "bg": "craie",
+        "title": "La soirée jeux de Mathieu",
+        "items": [
+          {
+            "label": "dans ma tête",
+            "text": "tout est prêt",
+            "at": 1
+          },
+          {
+            "label": "d'abord",
+            "text": "une règle compliquée",
+            "at": 2
+          },
+          {
+            "label": "puis",
+            "text": "retour au début",
+            "at": 3
+          },
+          {
+            "label": "alors…",
+            "text": "je perds mes moyens",
+            "at": 4
+          }
+        ]
+      }
+    },
+    {
+      "who": "mat",
+      "fr": "Dans ma tête, oui.",
+      "en": "In my head, yes."
+    },
+    {
+      "who": "mat",
+      "fr": "J'ai commencé par une règle compliquée,",
+      "en": "I started with a complicated rule,"
+    },
+    {
+      "who": "mat",
+      "fr": "puis je suis revenu au début.",
+      "en": "then I went back to the beginning."
+    },
+    {
+      "who": "mat",
+      "fr": "Je perdais mes moyens.",
+      "en": "I was getting flustered.",
+      "emote": "triste",
+      "boardEnd": true
+    },
+    {
+      "who": "lea",
+      "fr": "[Perdre ses moyens,]",
+      "en": "\"Perdre ses moyens\"...",
+      "board": {
+        "mode": "word",
+        "note": "= ne plus réussir à utiliser ses capacités habituelles"
+      }
+    },
+    {
+      "who": "lea",
+      "fr": "c'est ne plus réussir à utiliser ses capacités habituelles",
+      "en": "means no longer managing to use your usual abilities"
+    },
+    {
+      "who": "lea",
+      "fr": "parce qu'on est troublé ou impressionné.",
+      "en": "because you're shaken or overwhelmed."
+    },
+    {
+      "who": "mat",
+      "fr": "Autre exemple : pendant l'audition,",
+      "en": "Another example: during the audition,"
+    },
+    {
+      "who": "mat",
+      "fr": "il a perdu ses moyens",
+      "en": "he got flustered"
+    },
+    {
+      "who": "mat",
+      "fr": "et oublié un passage qu'il connaissait.",
+      "en": "and forgot a passage he knew.",
+      "boardEnd": true
+    },
+    {
+      "who": "lea",
+      "fr": "Quelqu'un t'a aidé à reprendre ?",
+      "en": "Did someone help you get going again?"
+    },
+    {
+      "who": "mat",
+      "fr": "Une participante m'a demandé :",
+      "en": "A participant asked me:"
+    },
+    {
+      "who": "mat",
+      "fr": "« Est-ce qu'on peut regarder un tour de jeu ? »",
+      "en": "\"Can we watch one round of the game?\""
+    },
+    {
+      "who": "mat",
+      "fr": "J'ai montré les cartes et joué un exemple.",
+      "en": "I showed the cards and played an example."
+    },
+    {
+      "who": "lea",
+      "fr": "Tu as utilisé une autre façon d'expliquer.",
+      "en": "You used another way of explaining."
+    },
+    {
+      "who": "mat",
+      "fr": "Oui. Jouer et expliquer sont deux compétences différentes.",
+      "en": "Yes. Playing and explaining are two different skills."
+    },
+    {
+      "who": "mat",
+      "fr": "J'en avais une, mais je découvrais encore l'autre.",
+      "en": "I had one, but I was still discovering the other.",
+      "emote": "idee"
+    },
+    {
+      "who": "lea",
+      "fr": "[Une compétence,]",
+      "en": "\"Une compétence\"..."
+    },
+    {
+      "who": "lea",
+      "fr": "c'est une capacité qu'on peut utiliser pour réaliser une tâche.",
+      "en": "is an ability you can use to carry out a task."
+    },
+    {
+      "who": "mat",
+      "fr": "Par exemple,",
+      "en": "For example,"
+    },
+    {
+      "who": "mat",
+      "fr": "savoir organiser les commandes fait partie",
+      "en": "knowing how to organise orders is one"
+    },
+    {
+      "who": "mat",
+      "fr": "des compétences de mon cousin dans sa boutique.",
+      "en": "of my cousin's skills in his shop.",
+      "illus": "courses",
+      "label": "sa boutique"
+    },
+    {
+      "who": "lea",
+      "fr": "Et après ta démonstration, les participants ont compris ?",
+      "en": "And after your demonstration, did the participants understand?"
+    },
+    {
+      "who": "mat",
+      "fr": "Beaucoup mieux.",
+      "en": "Much better."
+    },
+    {
+      "who": "mat",
+      "fr": "Puis quelqu'un a demandé ce qui se passait",
+      "en": "Then someone asked what happened"
+    },
+    {
+      "who": "mat",
+      "fr": "si deux joueurs avaient le même résultat.",
+      "en": "if two players had the same score."
+    },
+    {
+      "who": "lea",
+      "fr": "Tu connaissais la réponse ?",
+      "en": "Did you know the answer?"
+    },
+    {
+      "who": "mat",
+      "fr": "Je ne m'en souvenais plus exactement.",
+      "en": "I didn't remember exactly."
+    },
+    {
+      "who": "mat",
+      "fr": "J'ai reconnu mes limites :",
+      "en": "I acknowledged my limits:"
+    },
+    {
+      "who": "mat",
+      "fr": "« Pour ce cas, je préfère vérifier dans la notice. »",
+      "en": "\"For this case, I'd rather check the rulebook.\""
+    },
+    {
+      "who": "lea",
+      "fr": "[Reconnaître ses limites,]",
+      "en": "\"Reconnaître ses limites\"..."
+    },
+    {
+      "who": "lea",
+      "fr": "c'est accepter et dire",
+      "en": "means accepting and saying"
+    },
+    {
+      "who": "lea",
+      "fr": "ce qu'on ne sait pas faire",
+      "en": "what you can't do"
+    },
+    {
+      "who": "lea",
+      "fr": "ou ce qu'on ne connaît pas encore.",
+      "en": "or what you don't know yet."
+    },
+    {
+      "who": "mat",
+      "fr": "Par exemple, pour traduire ce contrat,",
+      "en": "For example, to translate this contract,",
+      "illus": "travail",
+      "label": "ce contrat"
+    },
+    {
+      "who": "mat",
+      "fr": "elle a reconnu ses limites",
+      "en": "she acknowledged her limits"
+    },
+    {
+      "who": "mat",
+      "fr": "et demandé l'aide d'une personne spécialisée.",
+      "en": "and asked a specialist for help."
+    },
+    {
+      "who": "lea",
+      "fr": "Et la partie a continué.",
+      "en": "And the game went on."
+    },
+    {
+      "who": "mat",
+      "fr": "Oui. La notice avait la réponse.",
+      "en": "Yes. The rulebook had the answer."
+    },
+    {
+      "who": "mat",
+      "fr": "Elle était bien préparée, elle.",
+      "en": "It was well prepared, at least.",
+      "react": "rire"
+    },
+    {
+      "who": "lea",
+      "fr": "Ce qui me touche dans ton histoire,",
+      "en": "What touches me in your story"
+    },
+    {
+      "who": "lea",
+      "fr": "c'est que ton hésitation ne résume pas toute la soirée.",
+      "en": "is that your hesitation doesn't sum up the whole evening."
+    },
+    {
+      "who": "mat",
+      "fr": "Pourtant, dans le bus du retour,",
+      "en": "Still, on the bus home,"
+    },
+    {
+      "who": "mat",
+      "fr": "je pensais surtout à ma première explication.",
+      "en": "I was mostly thinking about my first explanation."
+    },
+    {
+      "who": "mat",
+      "fr": "J'avais oublié les parties qui avaient bien fonctionné.",
+      "en": "I'd forgotten the parts that had gone well.",
+      "emote": "triste"
+    },
+    {
+      "who": "lea",
+      "fr": "Tu avais besoin de prendre du recul.",
+      "en": "You needed to step back."
+    },
+    {
+      "who": "mat",
+      "fr": "[Prendre du recul,]",
+      "en": "\"Prendre du recul\"..."
+    },
+    {
+      "who": "mat",
+      "fr": "c'est regarder une situation avec un peu de distance,",
+      "en": "means looking at a situation from a little distance,"
+    },
+    {
+      "who": "mat",
+      "fr": "pour mieux la comprendre.",
+      "en": "to understand it better."
+    },
+    {
+      "who": "lea",
+      "fr": "Oui. Par exemple, après une discussion difficile,",
+      "en": "Yes. For example, after a difficult discussion,"
+    },
+    {
+      "who": "lea",
+      "fr": "nous avons attendu le lendemain",
+      "en": "we waited until the next day"
+    },
+    {
+      "who": "lea",
+      "fr": "pour prendre du recul avant de décider.",
+      "en": "to step back before deciding."
+    },
+    {
+      "who": "mat",
+      "fr": "J'ai finalement repensé à la participante.",
+      "en": "In the end, I thought back to the participant."
+    },
+    {
+      "who": "mat",
+      "fr": "Elle avait proposé une démonstration et je l'avais faite.",
+      "en": "She had suggested a demonstration and I'd done it."
+    },
+    {
+      "who": "mat",
+      "fr": "C'était aussi une partie de l'histoire.",
+      "en": "That was part of the story too."
+    },
+    {
+      "who": "lea",
+      "fr": "Moi, je me souvenais surtout",
+      "en": "Me, I mostly remembered"
+    },
+    {
+      "who": "lea",
+      "fr": "de la date trop petite sur mon affiche.",
+      "en": "the date being too small on my poster."
+    },
+    {
+      "who": "lea",
+      "fr": "Mais j'avais aussi trouvé une solution avec le groupe.",
+      "en": "But I'd also found a solution with the group."
+    },
+    {
+      "who": "mat",
+      "fr": "On peut donc se remettre en question",
+      "en": "So you can question yourself"
+    },
+    {
+      "who": "mat",
+      "fr": "sans effacer tout ce qu'on a réussi.",
+      "en": "without erasing everything you got right."
+    },
+    {
+      "who": "lea",
+      "fr": "[Se remettre en question,]",
+      "en": "\"Se remettre en question\"..."
+    },
+    {
+      "who": "lea",
+      "fr": "c'est examiner sa manière de faire",
+      "en": "means examining the way you do things"
+    },
+    {
+      "who": "lea",
+      "fr": "et accepter de la modifier si nécessaire.",
+      "en": "and accepting to change it if necessary."
+    },
+    {
+      "who": "mat",
+      "fr": "Par exemple, après les remarques des clients,",
+      "en": "For example, after the customers' comments,"
+    },
+    {
+      "who": "mat",
+      "fr": "le restaurateur s'est remis en question",
+      "en": "the restaurant owner reassessed his approach"
+    },
+    {
+      "who": "mat",
+      "fr": "et a simplifié sa carte.",
+      "en": "and simplified his menu."
+    },
+    {
+      "who": "lea",
+      "fr": "Pour mon affiche, je pouvais me dire :",
+      "en": "For my poster, I could tell myself:",
+      "board": {
+        "mode": "compare",
+        "bg": "carnet",
+        "title": "La prochaine fois…",
+        "left": {
+          "head": "mon affiche",
+          "sub": "Léa",
+          "items": [
+            {
+              "text": "vérifier la taille des informations",
+              "at": 2
+            }
+          ]
+        },
+        "right": {
+          "head": "mon jeu",
+          "sub": "Mathieu",
+          "items": [
+            {
+              "text": "montrer un tour",
+              "at": 4
+            },
+            {
+              "text": "expliquer les cas particuliers",
+              "at": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "who": "lea",
+      "fr": "« La prochaine fois,",
+      "en": "\"Next time,"
+    },
+    {
+      "who": "lea",
+      "fr": "je vérifierai la taille des informations importantes. »",
+      "en": "I'll check the size of the important information.\""
+    },
+    {
+      "who": "mat",
+      "fr": "C'est précis. Et pour mon jeu :",
+      "en": "That's precise. And for my game:"
+    },
+    {
+      "who": "mat",
+      "fr": "« Je vais commencer par montrer un tour,",
+      "en": "\"I'll start by showing a round,"
+    },
+    {
+      "who": "mat",
+      "fr": "puis expliquer les cas particuliers. »",
+      "en": "then explain the special cases.\"",
+      "boardEnd": true
+    },
+    {
+      "who": "lea",
+      "fr": "Cela nous donne quelque chose à essayer.",
+      "en": "That gives us something to try."
+    },
+    {
+      "who": "lea",
+      "fr": "Nous n'avons pas besoin de décider",
+      "en": "We don't need to decide"
+    },
+    {
+      "who": "lea",
+      "fr": "si nous sommes définitivement bons ou mauvais.",
+      "en": "whether we're permanently good or bad."
+    },
+    {
+      "who": "mat",
+      "fr": "Et on peut rester prudent quand on ne sait pas.",
+      "en": "And you can stay careful when you don't know."
+    },
+    {
+      "who": "mat",
+      "fr": "Je n'aimerais pas confondre",
+      "en": "I wouldn't want to confuse"
+    },
+    {
+      "who": "mat",
+      "fr": "mon enthousiasme avec une expertise.",
+      "en": "my enthusiasm with expertise."
+    },
+    {
+      "who": "lea",
+      "fr": "Surtout si quelqu'un compte sur ta réponse",
+      "en": "Especially if someone is counting on your answer"
+    },
+    {
+      "who": "lea",
+      "fr": "pour prendre une décision importante.",
+      "en": "to make an important decision."
+    },
+    {
+      "who": "mat",
+      "fr": "Mon certificat devra donc avoir une petite case :",
+      "en": "So my certificate will need a little box:"
+    },
+    {
+      "who": "mat",
+      "fr": "« Sait demander une vérification. »",
+      "en": "\"Knows how to ask for a check.\"",
+      "react": "rire"
+    },
+    {
+      "who": "mat",
+      "fr": "Faisons un jeu de rôle.",
+      "en": "Let's do a role play."
+    },
+    {
+      "who": "mat",
+      "fr": "Tu arrives à une promenade organisée dans le quartier.",
+      "en": "You arrive at a guided walk in the neighbourhood.",
+      "illus": "nature",
+      "label": "une promenade"
+    },
+    {
+      "who": "mat",
+      "fr": "Je suis un membre du groupe.",
+      "en": "I'm a member of the group."
+    },
+    {
+      "who": "lea",
+      "fr": "Vous allez pouvoir essayer ma première phrase avant moi.",
+      "en": "You'll get to try my first line before me."
+    },
+    {
+      "who": "mat",
+      "fr": "Bonjour ! Vous venez marcher avec nous aujourd'hui ?",
+      "en": "Hello! Are you coming walking with us today?"
+    },
+    {
+      "who": "lea",
+      "fr": "À vous ! C'est votre première visite.",
+      "en": "Your turn! It's your first visit."
+    },
+    {
+      "who": "lea",
+      "fr": "Comment demanderiez-vous si vous êtes au bon endroit ?",
+      "en": "How would you ask if you're in the right place?"
+    },
+    {
+      "who": "lea",
+      "fr": "Prenez quelques secondes.",
+      "en": "Take a few seconds."
+    },
+    {
+      "who": "mat",
+      "fr": "Vous pouvez commencer par :",
+      "en": "You can start with:"
+    },
+    {
+      "who": "mat",
+      "fr": "« Bonjour, c'est bien ici que… ? »",
+      "en": "\"Hello, is this where…?\""
+    },
+    {
+      "who": "lea",
+      "fr": "Bonjour, c'est bien ici",
+      "en": "Hello, is this where"
+    },
+    {
+      "who": "lea",
+      "fr": "que le groupe de marche se retrouve ?",
+      "en": "the walking group meets?"
+    },
+    {
+      "who": "lea",
+      "fr": "C'est la première fois que je viens.",
+      "en": "It's my first time coming."
+    },
+    {
+      "who": "mat",
+      "fr": "Oui, bienvenue ! Moi, c'est Mathieu.",
+      "en": "Yes, welcome! I'm Mathieu.",
+      "emote": "coeur"
+    },
+    {
+      "who": "mat",
+      "fr": "Nous attendons encore deux personnes avant de partir.",
+      "en": "We're still waiting for two people before leaving."
+    },
+    {
+      "who": "lea",
+      "fr": "Enchantée, moi, c'est Léa.",
+      "en": "Nice to meet you, I'm Léa."
+    },
+    {
+      "who": "lea",
+      "fr": "J'ai vu votre annonce et j'ai décidé de me lancer.",
+      "en": "I saw your ad and decided to take the plunge."
+    },
+    {
+      "who": "mat",
+      "fr": "[Se lancer,]",
+      "en": "\"Se lancer\"..."
+    },
+    {
+      "who": "mat",
+      "fr": "c'est commencer quelque chose",
+      "en": "means starting something"
+    },
+    {
+      "who": "mat",
+      "fr": "qu'on hésitait à faire",
+      "en": "you were hesitating to do"
+    },
+    {
+      "who": "mat",
+      "fr": "ou qui est nouveau pour soi.",
+      "en": "or that is new to you."
+    },
+    {
+      "who": "lea",
+      "fr": "Par exemple, après plusieurs essais chez elle,",
+      "en": "For example, after several tries at home,"
+    },
+    {
+      "who": "lea",
+      "fr": "mon amie s'est lancée",
+      "en": "my friend took the plunge"
+    },
+    {
+      "who": "lea",
+      "fr": "et a exposé ses dessins à la fête du village.",
+      "en": "and showed her drawings at the village fair."
+    },
+    {
+      "who": "mat",
+      "fr": "Très bien. Revenons à la promenade.",
+      "en": "Very good. Back to the walk.",
+      "board": {
+        "mode": "sketch",
+        "title": "En situation : le groupe de marche"
+      }
+    },
+    {
+      "who": "mat",
+      "fr": "Vous connaissez déjà un peu le quartier ?",
+      "en": "Do you already know the neighbourhood a bit?"
+    },
+    {
+      "who": "lea",
+      "fr": "Oui, mais pas le parcours.",
+      "en": "Yes, but not the route."
+    },
+    {
+      "who": "lea",
+      "fr": "Vous avez dit que nous allions vers le canal ?",
+      "en": "Did you say we're heading to the canal?"
+    },
+    {
+      "who": "lea",
+      "fr": "Je n'ai pas bien entendu.",
+      "en": "I didn't hear properly.",
+      "emote": "question"
+    },
+    {
+      "who": "mat",
+      "fr": "Oui, vers le canal,",
+      "en": "Yes, towards the canal,"
+    },
+    {
+      "who": "mat",
+      "fr": "puis jusqu'au petit jardin près du pont.",
+      "en": "then to the little garden near the bridge."
+    },
+    {
+      "who": "lea",
+      "fr": "D'accord, merci. Est-ce qu'on revient ici à la fin ?",
+      "en": "Okay, thanks. Do we come back here at the end?"
+    },
+    {
+      "who": "mat",
+      "fr": "Exactement. Et vous pouvez marcher",
+      "en": "Exactly. And you can walk"
+    },
+    {
+      "who": "mat",
+      "fr": "près de moi si vous voulez.",
+      "en": "next to me if you like."
+    },
+    {
+      "who": "lea",
+      "fr": "Avec plaisir !",
+      "en": "With pleasure!",
+      "boardEnd": true
+    },
+    {
+      "who": "mat",
+      "fr": "Voilà. Tu as commencé la conversation,",
+      "en": "There you go. You started the conversation,"
+    },
+    {
+      "who": "mat",
+      "fr": "demandé une précision et accepté une proposition.",
+      "en": "asked for clarification and accepted an offer."
+    },
+    {
+      "who": "lea",
+      "fr": "Et j'ai pu dire que je n'avais pas entendu.",
+      "en": "And I was able to say I hadn't heard."
+    },
+    {
+      "who": "lea",
+      "fr": "Vous pouvez réutiliser cette phrase",
+      "en": "You can reuse that sentence"
+    },
+    {
+      "who": "lea",
+      "fr": "pendant une vraie conversation en français.",
+      "en": "in a real conversation in French."
+    },
+    {
+      "who": "mat",
+      "fr": "Une question simple permet souvent de poursuivre l'échange.",
+      "en": "A simple question often keeps the conversation going."
+    },
+    {
+      "who": "mat",
+      "fr": "Pas besoin d'inventer une présentation spectaculaire.",
+      "en": "No need to come up with a spectacular introduction."
+    },
+    {
+      "who": "lea",
+      "fr": "Quand je repense à la réunion,",
+      "en": "When I think back to the meeting,"
+    },
+    {
+      "who": "lea",
+      "fr": "je sais maintenant que j'ai pu présenter une idée",
+      "en": "I now know I was able to present an idea"
+    },
+    {
+      "who": "lea",
+      "fr": "et discuter d'une modification.",
+      "en": "and discuss a change."
+    },
+    {
+      "who": "mat",
+      "fr": "Tu as eu l'occasion de faire tes preuves.",
+      "en": "You had the chance to prove yourself."
+    },
+    {
+      "who": "lea",
+      "fr": "[Faire ses preuves,]",
+      "en": "\"Faire ses preuves\"..."
+    },
+    {
+      "who": "lea",
+      "fr": "c'est montrer ses capacités par ce qu'on fait.",
+      "en": "means showing your abilities through what you do."
+    },
+    {
+      "who": "lea",
+      "fr": "Exemple : pendant son stage,",
+      "en": "Example: during her internship,"
+    },
+    {
+      "who": "lea",
+      "fr": "elle a fait ses preuves en préparant les visites.",
+      "en": "she proved herself by preparing the visits."
+    },
+    {
+      "who": "mat",
+      "fr": "Mais cela ne veut pas dire",
+      "en": "But that doesn't mean",
+      "board": {
+        "mode": "truefalse",
+        "bg": "craie",
+        "q": "Faire ses preuves = passer un examen à chaque conversation.",
+        "answer": false,
+        "reveal": 1,
+        "explain": "On peut aussi essayer juste pour apprendre."
+      }
+    },
+    {
+      "who": "mat",
+      "fr": "passer un examen à chaque conversation.",
+      "en": "taking an exam in every conversation."
+    },
+    {
+      "who": "mat",
+      "fr": "Je peux aussi essayer quelque chose juste pour apprendre.",
+      "en": "I can also try something just to learn."
+    },
+    {
+      "who": "lea",
+      "fr": "Bien sûr.",
+      "en": "Of course.",
+      "boardEnd": true
+    },
+    {
+      "who": "lea",
+      "fr": "Pour ma prochaine réunion, je vais préparer deux phrases :",
+      "en": "For my next meeting, I'll prepare two sentences:"
+    },
+    {
+      "who": "lea",
+      "fr": "ce que je propose",
+      "en": "what I'm proposing"
+    },
+    {
+      "who": "lea",
+      "fr": "et la question sur laquelle j'aimerais un avis.",
+      "en": "and the question I'd like an opinion on."
+    },
+    {
+      "who": "mat",
+      "fr": "Moi, je vais répéter une démonstration",
+      "en": "Me, I'll rehearse a demonstration"
+    },
+    {
+      "who": "mat",
+      "fr": "avec un ami avant la prochaine soirée jeux.",
+      "en": "with a friend before the next games night.",
+      "illus": "amis",
+      "label": "la soirée jeux"
+    },
+    {
+      "who": "mat",
+      "fr": "Je pourrai lui demander ce qui reste flou.",
+      "en": "I can ask him what's still unclear."
+    },
+    {
+      "who": "lea",
+      "fr": "Cela peut t'aider",
+      "en": "That can help you"
+    },
+    {
+      "who": "lea",
+      "fr": "à gagner en assurance dans cette situation.",
+      "en": "grow more confident in that situation."
+    },
+    {
+      "who": "mat",
+      "fr": "[Gagner en assurance,]",
+      "en": "\"Gagner en assurance\"..."
+    },
+    {
+      "who": "mat",
+      "fr": "c'est devenir plus à l'aise",
+      "en": "means becoming more at ease"
+    },
+    {
+      "who": "mat",
+      "fr": "et plus sûr de sa manière d'agir.",
+      "en": "and surer of the way you act."
+    },
+    {
+      "who": "lea",
+      "fr": "Par exemple, au fil des visites,",
+      "en": "For example, over the tours,"
+    },
+    {
+      "who": "lea",
+      "fr": "la nouvelle guide a gagné en assurance",
+      "en": "the new guide grew more confident"
+    },
+    {
+      "who": "lea",
+      "fr": "pour parler au groupe.",
+      "en": "speaking to the group."
+    },
+    {
+      "who": "mat",
+      "fr": "Je peux donc choisir un prochain essai assez petit.",
+      "en": "So I can choose a fairly small next try."
+    },
+    {
+      "who": "mat",
+      "fr": "Pas organiser tout un tournoi demain",
+      "en": "Not organise a whole tournament tomorrow"
+    },
+    {
+      "who": "mat",
+      "fr": "pour prouver que j'ai compris.",
+      "en": "to prove I've understood.",
+      "react": "rire"
+    },
+    {
+      "who": "lea",
+      "fr": "Tu peux déjà expliquer les premières cartes.",
+      "en": "You can already explain the first cards."
+    },
+    {
+      "who": "lea",
+      "fr": "Et après,",
+      "en": "And afterwards,"
+    },
+    {
+      "who": "lea",
+      "fr": "noter une chose qui a fonctionné",
+      "en": "note one thing that worked"
+    },
+    {
+      "who": "lea",
+      "fr": "et une autre à clarifier.",
+      "en": "and another to clarify."
+    },
+    {
+      "who": "mat",
+      "fr": "[Avoir confiance en soi,]",
+      "en": "So having self-confidence",
+      "board": {
+        "mode": "word",
+        "note": "= croire qu'on peut agir ou apprendre, même sans tout maîtriser"
+      }
+    },
+    {
+      "who": "mat",
+      "fr": "ce serait alors croire qu'on peut",
+      "en": "would mean believing you can"
+    },
+    {
+      "who": "mat",
+      "fr": "agir ou apprendre dans une situation,",
+      "en": "act or learn in a situation,"
+    },
+    {
+      "who": "mat",
+      "fr": "même sans tout maîtriser.",
+      "en": "even without mastering everything."
+    },
+    {
+      "who": "lea",
+      "fr": "Oui. Par exemple,",
+      "en": "Yes. For example,"
+    },
+    {
+      "who": "lea",
+      "fr": "elle a confiance en elle pour accueillir les visiteurs,",
+      "en": "she feels confident welcoming visitors,"
+    },
+    {
+      "who": "lea",
+      "fr": "tout en demandant de l'aide",
+      "en": "while asking for help"
+    },
+    {
+      "who": "lea",
+      "fr": "pour certaines questions techniques.",
+      "en": "with certain technical questions.",
+      "boardEnd": true
+    },
+    {
+      "who": "mat",
+      "fr": "J'aime cette idée.",
+      "en": "I like that idea.",
+      "emote": "coeur",
+      "board": {
+        "mode": "compare",
+        "title": "Ma confiance dépend de l'activité",
+        "left": {
+          "head": "à l'aise",
+          "sub": "je peux",
+          "items": [
+            "en cuisine",
+            "jouer au jeu"
+          ]
+        },
+        "right": {
+          "head": "j'hésite",
+          "sub": "j'apprends",
+          "items": [
+            "devant un groupe",
+            "expliquer les règles"
+          ]
+        }
+      }
+    },
+    {
+      "who": "mat",
+      "fr": "Ma confiance peut concerner une activité précise.",
+      "en": "My confidence can be about one specific activity."
+    },
+    {
+      "who": "mat",
+      "fr": "Je peux être à l'aise en cuisine",
+      "en": "I can be at ease in the kitchen"
+    },
+    {
+      "who": "mat",
+      "fr": "et hésiter devant un groupe.",
+      "en": "and hesitate in front of a group.",
+      "boardEnd": true
+    },
+    {
+      "who": "lea",
+      "fr": "Et tu peux demander des conditions qui t'aident :",
+      "en": "And you can ask for conditions that help you:",
+      "board": {
+        "mode": "steps",
+        "title": "Des conditions qui aident",
+        "items": [
+          {
+            "text": "un peu de temps pour préparer",
+            "at": 1
+          },
+          {
+            "text": "une explication écrite",
+            "at": 2
+          },
+          {
+            "text": "la présence d'un collègue",
+            "at": 2
+          }
+        ]
+      }
+    },
+    {
+      "who": "lea",
+      "fr": "un peu de temps pour préparer,",
+      "en": "a little time to prepare,"
+    },
+    {
+      "who": "lea",
+      "fr": "une explication écrite ou la présence d'un collègue.",
+      "en": "written instructions or a colleague being there.",
+      "boardEnd": true
+    },
+    {
+      "who": "mat",
+      "fr": "Si un essai se passe mal,",
+      "en": "If a try goes badly,"
+    },
+    {
+      "who": "mat",
+      "fr": "je peux aussi choisir un autre moment",
+      "en": "I can also choose another moment"
+    },
+    {
+      "who": "mat",
+      "fr": "ou une autre manière de faire.",
+      "en": "or another way of doing it."
+    },
+    {
+      "who": "lea",
+      "fr": "Exactement. Nous parlons de nos expériences ordinaires.",
+      "en": "Exactly. We're talking about our ordinary experiences."
+    },
+    {
+      "who": "lea",
+      "fr": "Personne n'est obligé de se mettre",
+      "en": "Nobody has to put themselves"
+    },
+    {
+      "who": "lea",
+      "fr": "dans une situation qui lui fait trop peur.",
+      "en": "in a situation that scares them too much."
+    },
+    {
+      "who": "mat",
+      "fr": "Je vais commencer par mon ami.",
+      "en": "I'll start with my friend."
+    },
+    {
+      "who": "mat",
+      "fr": "Il comprend très bien les règles",
+      "en": "He understands the rules very well"
+    },
+    {
+      "who": "mat",
+      "fr": "quand il reste du gâteau.",
+      "en": "when there's cake left.",
+      "react": "rire"
+    },
+    {
+      "who": "lea",
+      "fr": "Reprenez votre exemple du début.",
+      "en": "Go back to your example from the start.",
+      "board": {
+        "mode": "steps",
+        "bg": "carnet",
+        "title": "À vous de parler",
+        "items": [
+          {
+            "text": "Avant, j'hésitais à…",
+            "at": 1
+          },
+          {
+            "text": "Maintenant, je peux…",
+            "at": 2
+          },
+          {
+            "text": "Je suis encore en train d'apprendre à…",
+            "at": 3
+          }
+        ]
+      }
+    },
+    {
+      "who": "lea",
+      "fr": "Voici une structure : « Avant, j'hésitais à…",
+      "en": "Here's a structure: \"Before, I hesitated to…"
+    },
+    {
+      "who": "lea",
+      "fr": "Maintenant, je peux…",
+      "en": "Now, I can…"
+    },
+    {
+      "who": "lea",
+      "fr": "Je suis encore en train d'apprendre à… »",
+      "en": "I'm still learning to…\""
+    },
+    {
+      "who": "mat",
+      "fr": "Avant, j'hésitais à expliquer un jeu à un groupe.",
+      "en": "Before, I hesitated to explain a game to a group."
+    },
+    {
+      "who": "mat",
+      "fr": "Maintenant, je peux montrer un tour.",
+      "en": "Now, I can show a round."
+    },
+    {
+      "who": "mat",
+      "fr": "Je suis encore en train d'apprendre à répondre clairement.",
+      "en": "I'm still learning to answer clearly.",
+      "boardEnd": true
+    },
+    {
+      "who": "lea",
+      "fr": "Avant, j'hésitais à présenter mes idées.",
+      "en": "Before, I hesitated to present my ideas."
+    },
+    {
+      "who": "lea",
+      "fr": "Maintenant, je peux montrer une première proposition.",
+      "en": "Now, I can show a first proposal."
+    },
+    {
+      "who": "lea",
+      "fr": "Je suis encore en train",
+      "en": "I'm still"
+    },
+    {
+      "who": "lea",
+      "fr": "d'apprendre à accueillir les questions.",
+      "en": "learning to welcome questions."
+    },
+    {
+      "who": "mat",
+      "fr": "À votre tour.",
+      "en": "Your turn."
+    },
+    {
+      "who": "mat",
+      "fr": "Dites vos phrases à voix haute.",
+      "en": "Say your sentences out loud."
+    },
+    {
+      "who": "mat",
+      "fr": "Votre exemple peut être très simple et très personnel.",
+      "en": "Your example can be very simple and very personal."
+    },
+    {
+      "who": "lea",
+      "fr": "Vous pouvez aussi parler d'un prochain essai :",
+      "en": "You can also talk about a next try:"
+    },
+    {
+      "who": "lea",
+      "fr": "« La prochaine fois, je vais essayer de… »",
+      "en": "\"Next time, I'll try to…\""
+    },
+    {
+      "who": "mat",
+      "fr": "La prochaine fois,",
+      "en": "Next time,"
+    },
+    {
+      "who": "mat",
+      "fr": "je vais essayer de donner une consigne courte,",
+      "en": "I'll try to give a short instruction,"
+    },
+    {
+      "who": "mat",
+      "fr": "puis laisser les participants jouer.",
+      "en": "then let the participants play."
+    },
+    {
+      "who": "lea",
+      "fr": "Moi, je vais essayer de parler",
+      "en": "Me, I'll try to speak"
+    },
+    {
+      "who": "lea",
+      "fr": "avant d'avoir préparé toutes les réponses possibles.",
+      "en": "before preparing every possible answer."
+    },
+    {
+      "who": "mat",
+      "fr": "Choisissez ce qui vous convient.",
+      "en": "Choose what suits you."
+    },
+    {
+      "who": "mat",
+      "fr": "Et si un mot vous manque en français,",
+      "en": "And if you're missing a word in French,"
+    },
+    {
+      "who": "mat",
+      "fr": "vous pouvez décrire votre idée autrement.",
+      "en": "you can describe your idea another way."
+    },
+    {
+      "who": "lea",
+      "fr": "Revenons sur cinq expressions.",
+      "en": "Let's go back over five expressions."
+    },
+    {
+      "who": "lea",
+      "fr": "Écoutez leur sens, puis répétez avec nous.",
+      "en": "Listen to their meaning, then repeat with us."
+    },
+    {
+      "who": "mat",
+      "fr": "D'abord, avoir le trac.",
+      "en": "First, \"avoir le trac\".",
+      "board": {
+        "mode": "fill",
+        "sentence": "J'ai un peu le ___, c'est ma première fois.",
+        "answer": "trac",
+        "hint": "avoir le … = être nerveux",
+        "en": "I'm a little nervous, it's my first time.",
+        "reveal": 7
+      }
+    },
+    {
+      "who": "mat",
+      "fr": "Avant ma démonstration,",
+      "en": "Before my demonstration,"
+    },
+    {
+      "who": "mat",
+      "fr": "j'étais nerveux devant les participants.",
+      "en": "I was nervous in front of the participants."
+    },
+    {
+      "who": "lea",
+      "fr": "C'est ressentir cette nervosité avant une prestation.",
+      "en": "It's feeling that nervousness before a performance."
+    },
+    {
+      "who": "lea",
+      "fr": "Nouvel exemple :",
+      "en": "New example:"
+    },
+    {
+      "who": "lea",
+      "fr": "elle a le trac",
+      "en": "she gets stage fright"
+    },
+    {
+      "who": "lea",
+      "fr": "avant de lire son texte à la soirée poésie.",
+      "en": "before reading her text at the poetry evening."
+    },
+    {
+      "who": "mat",
+      "fr": "On répète : avoir le trac.",
+      "en": "Let's repeat: \"avoir le trac\"."
+    },
+    {
+      "who": "mat",
+      "fr": "Vous pouvez dire :",
+      "en": "You can say:"
+    },
+    {
+      "who": "mat",
+      "fr": "« J'ai un peu le trac, c'est ma première fois. »",
+      "en": "\"I'm a little nervous, it's my first time.\"",
+      "boardEnd": true
+    },
+    {
+      "who": "lea",
+      "fr": "Deuxième expression : être à la hauteur.",
+      "en": "Second expression: \"être à la hauteur\".",
+      "board": {
+        "mode": "quiz",
+        "bg": "craie",
+        "q": "Être à la hauteur, c'est… ?",
+        "options": [
+          "avoir peur du vide",
+          "pouvoir répondre à ce que la situation demande",
+          "être plus grand que les autres"
+        ],
+        "answer": 1,
+        "reveal": 4,
+        "explain": "« à la hauteur de la tâche »"
+      }
+    },
+    {
+      "who": "lea",
+      "fr": "Pendant la réunion,",
+      "en": "During the meeting,"
+    },
+    {
+      "who": "lea",
+      "fr": "je doutais de mes capacités",
+      "en": "I doubted my ability"
+    },
+    {
+      "who": "lea",
+      "fr": "à proposer une affiche adaptée.",
+      "en": "to propose a suitable poster."
+    },
+    {
+      "who": "mat",
+      "fr": "C'est pouvoir répondre à ce que la situation demande.",
+      "en": "It's being able to meet what the situation requires."
+    },
+    {
+      "who": "mat",
+      "fr": "Exemple : notre équipe a été à la hauteur",
+      "en": "Example: our team rose to the occasion"
+    },
+    {
+      "who": "mat",
+      "fr": "malgré le changement de programme.",
+      "en": "despite the change of plan."
+    },
+    {
+      "who": "lea",
+      "fr": "On répète : être à la hauteur.",
+      "en": "Let's repeat: \"être à la hauteur\"."
+    },
+    {
+      "who": "lea",
+      "fr": "On peut préciser : « à la hauteur de la tâche ».",
+      "en": "You can specify: \"up to the task\".",
+      "boardEnd": true
+    },
+    {
+      "who": "mat",
+      "fr": "Troisième expression : prendre du recul.",
+      "en": "Third expression: \"prendre du recul\"."
+    },
+    {
+      "who": "mat",
+      "fr": "Dans le bus, je pensais seulement à mon début difficile.",
+      "en": "On the bus, I was only thinking about my difficult start."
+    },
+    {
+      "who": "lea",
+      "fr": "C'est regarder la situation avec de la distance.",
+      "en": "It's looking at the situation from a distance."
+    },
+    {
+      "who": "lea",
+      "fr": "Exemple : avant de répondre à ce commentaire,",
+      "en": "Example: before replying to that comment,"
+    },
+    {
+      "who": "lea",
+      "fr": "je vais prendre du recul.",
+      "en": "I'll take a step back."
+    },
+    {
+      "who": "mat",
+      "fr": "On répète : prendre du recul.",
+      "en": "Let's repeat: \"prendre du recul\"."
+    },
+    {
+      "who": "mat",
+      "fr": "Nous pouvons nous demander ce qui s'est passé,",
+      "en": "We can ask ourselves what happened,"
+    },
+    {
+      "who": "mat",
+      "fr": "avec des détails concrets.",
+      "en": "with concrete details."
+    },
+    {
+      "who": "lea",
+      "fr": "Quatrième expression : se lancer.",
+      "en": "Fourth expression: \"se lancer\"."
+    },
+    {
+      "who": "lea",
+      "fr": "Dans notre petite scène,",
+      "en": "In our little scene,"
+    },
+    {
+      "who": "lea",
+      "fr": "j'ai décidé de rejoindre le groupe de marche.",
+      "en": "I decided to join the walking group."
+    },
+    {
+      "who": "mat",
+      "fr": "C'est commencer malgré une hésitation.",
+      "en": "It's starting despite some hesitation."
+    },
+    {
+      "who": "mat",
+      "fr": "Exemple : après avoir trouvé un professeur,",
+      "en": "Example: after finding a teacher,"
+    },
+    {
+      "who": "mat",
+      "fr": "il s'est lancé dans l'apprentissage du piano.",
+      "en": "he took the plunge and started learning the piano.",
+      "illus": "musique",
+      "label": "le piano"
+    },
+    {
+      "who": "lea",
+      "fr": "On répète : se lancer.",
+      "en": "Let's repeat: \"se lancer\"."
+    },
+    {
+      "who": "lea",
+      "fr": "Votre prochain essai peut être",
+      "en": "Your next try can be"
+    },
+    {
+      "who": "lea",
+      "fr": "une simple question dans une conversation.",
+      "en": "a simple question in a conversation."
+    },
+    {
+      "who": "mat",
+      "fr": "Enfin, gagner en assurance.",
+      "en": "Finally, \"gagner en assurance\"."
+    },
+    {
+      "who": "mat",
+      "fr": "Avec de l'expérience,",
+      "en": "With experience,"
+    },
+    {
+      "who": "mat",
+      "fr": "on peut devenir plus à l'aise dans une activité.",
+      "en": "you can become more at ease in an activity."
+    },
+    {
+      "who": "lea",
+      "fr": "Exemple : depuis qu'elle présente la météo de l'école,",
+      "en": "Example: since she started presenting the school weather report,",
+      "illus": "soleil",
+      "label": "la météo"
+    },
+    {
+      "who": "lea",
+      "fr": "cette élève gagne en assurance devant la caméra.",
+      "en": "this pupil has grown more confident in front of the camera."
+    },
+    {
+      "who": "mat",
+      "fr": "On répète : gagner en assurance.",
+      "en": "Let's repeat: \"gagner en assurance\"."
+    },
+    {
+      "who": "mat",
+      "fr": "Pensez maintenant à une expérience",
+      "en": "Now think of an experience"
+    },
+    {
+      "who": "mat",
+      "fr": "où vous avez remarqué un petit changement.",
+      "en": "where you noticed a small change."
+    },
+    {
+      "who": "lea",
+      "fr": "Choisissez une de ces expressions",
+      "en": "Choose one of these expressions"
+    },
+    {
+      "who": "lea",
+      "fr": "et racontez ce moment avec vos propres mots.",
+      "en": "and tell that moment in your own words."
+    },
+    {
+      "who": "mat",
+      "fr": "Même avec une hésitation.",
+      "en": "Even with some hesitation."
+    },
+    {
+      "who": "mat",
+      "fr": "Vous pouvez nous demander de répéter ;",
+      "en": "You can ask us to repeat;"
+    },
+    {
+      "who": "mat",
+      "fr": "nous connaissons très bien cette phrase.",
+      "en": "we know that sentence very well.",
+      "react": "rire"
+    },
+    {
+      "who": "lea",
+      "fr": "Dans les commentaires, complétez :",
+      "en": "In the comments, complete:"
+    },
+    {
+      "who": "lea",
+      "fr": "« J'aimerais être plus à l'aise pour…",
+      "en": "\"I'd like to feel more at ease when…"
+    },
+    {
+      "who": "lea",
+      "fr": "La prochaine fois, je vais essayer de… »",
+      "en": "Next time, I'll try to…\""
+    },
+    {
+      "who": "mat",
+      "fr": "Vous pouvez aussi raconter une chose",
+      "en": "You can also tell us something"
+    },
+    {
+      "who": "mat",
+      "fr": "que vous savez faire aujourd'hui",
+      "en": "you can do today"
+    },
+    {
+      "who": "mat",
+      "fr": "et qui vous semblait difficile auparavant.",
+      "en": "that used to seem difficult."
+    },
+    {
+      "who": "lea",
+      "fr": "Si cet épisode vous a aidés,",
+      "en": "If this episode helped you,"
+    },
+    {
+      "who": "lea",
+      "fr": "abonnez-vous à The Cozy French",
+      "en": "subscribe to The Cozy French"
+    },
+    {
+      "who": "lea",
+      "fr": "pour continuer à pratiquer avec nous.",
+      "en": "to keep practising with us."
+    },
+    {
+      "who": "mat",
+      "fr": "Réécoutez quelques répliques du groupe de marche,",
+      "en": "Listen again to a few lines from the walking group,"
+    },
+    {
+      "who": "mat",
+      "fr": "puis changez les détails",
+      "en": "then change the details"
+    },
+    {
+      "who": "mat",
+      "fr": "pour une activité qui vous intéresse.",
+      "en": "for an activity that interests you."
+    },
+    {
+      "who": "mat",
+      "fr": "Merci d'avoir partagé ce moment.",
+      "en": "Thank you for sharing this moment."
+    },
+    {
+      "who": "mat",
+      "fr": "Prenez soin de vous et à très bientôt !",
+      "en": "Take care and see you very soon!",
+      "emote": "coeur"
+    },
+    {
+      "who": "lea",
+      "fr": "Au revoir tout le monde !",
+      "en": "Goodbye everyone!"
+    },
+    {
+      "who": "mat",
+      "fr": "Bon, il faut que j'annule ma demande de certificat.",
+      "en": "Right, I need to cancel my certificate application."
+    },
+    {
+      "who": "lea",
+      "fr": "Pourquoi ?",
+      "en": "Why?",
+      "emote": "surpris"
+    },
+    {
+      "who": "mat",
+      "fr": "J'ai déjà expliqué un jeu",
+      "en": "I've already explained a game"
+    },
+    {
+      "who": "mat",
+      "fr": "et accueilli une nouvelle participante.",
+      "en": "and welcomed a new participant."
+    },
+    {
+      "who": "mat",
+      "fr": "Je n'ai pas attendu qu'il soit imprimé.",
+      "en": "I didn't wait for it to be printed.",
+      "react": "rire"
+    },
+    {
+      "who": "lea",
+      "fr": "Très bien.",
+      "en": "Very good."
+    },
+    {
+      "who": "mat",
+      "fr": "Tu peux commencer ton prochain essai",
+      "en": "You can start your next try"
+    },
+    {
+      "who": "mat",
+      "fr": "pendant que l'imprimante se repose.",
+      "en": "while the printer takes a rest."
+    }
+  ],
+  "vocab": [
+    {
+      "tag": "expression",
+      "word": "être intimidé",
+      "ipa": "/ɛ.tʁ‿ɛ̃.ti.mi.de/",
+      "mean": "to feel intimidated",
+      "ex": "J'étais intimidé par les autres candidats, qui semblaient très expérimentés.",
+      "exEn": "I felt intimidated by the other candidates, who seemed very experienced."
+    },
+    {
+      "tag": "verbe",
+      "word": "oser",
+      "ipa": "/o.ze/",
+      "mean": "to dare; to feel able to try despite hesitation",
+      "ex": "Cette fois, il a osé poser sa question au professeur.",
+      "exEn": "This time, he dared to ask the teacher his question."
+    },
+    {
+      "tag": "expression",
+      "word": "être à la hauteur",
+      "ipa": "/ɛ.tʁ‿a la o.tœʁ/",
+      "mean": "to be up to the task; to meet expectations",
+      "ex": "Pour organiser cet accueil, les bénévoles ont été à la hauteur.",
+      "exEn": "The volunteers rose to the occasion when organising this welcome."
+    },
+    {
+      "tag": "verbe",
+      "word": "se sous-estimer",
+      "ipa": "/sə su.z‿ɛs.ti.me/",
+      "mean": "to underestimate yourself",
+      "ex": "Tu te sous-estimes : tu as déjà organisé deux événements.",
+      "exEn": "You're underestimating yourself: you've already organised two events."
+    },
+    {
+      "tag": "expression",
+      "word": "avoir le trac",
+      "ipa": "/a.vwaʁ lə tʁak/",
+      "mean": "to have stage fright; to feel nervous before a performance",
+      "ex": "J'ai le trac avant de présenter mon projet aux voisins.",
+      "exEn": "I feel nervous before presenting my project to the neighbours."
+    },
+    {
+      "tag": "expression",
+      "word": "perdre ses moyens",
+      "ipa": "/pɛʁ.dʁə se mwa.jɛ̃/",
+      "mean": "to become flustered; to lose your composure",
+      "ex": "Quand tout le monde l'a regardé, il a perdu ses moyens.",
+      "exEn": "When everyone looked at him, he became flustered."
+    },
+    {
+      "tag": "nom féminin",
+      "word": "une compétence",
+      "ipa": "/yn kɔ̃.pe.tɑ̃s/",
+      "mean": "a skill; an ability used to perform a task",
+      "ex": "La gestion des réservations fait partie de ses compétences.",
+      "exEn": "Managing bookings is one of her skills."
+    },
+    {
+      "tag": "expression",
+      "word": "reconnaître ses limites",
+      "ipa": "/ʁə.kɔ.nɛ.tʁə se li.mit/",
+      "mean": "to acknowledge your limits",
+      "ex": "Je reconnais mes limites et je demande conseil pour cette étape.",
+      "exEn": "I acknowledge my limits and ask for advice with this step."
+    },
+    {
+      "tag": "expression",
+      "word": "prendre du recul",
+      "ipa": "/pʁɑ̃.dʁə dy ʁə.kyl/",
+      "mean": "to step back; to gain perspective",
+      "ex": "Avant de tout modifier, prenons du recul sur les remarques reçues.",
+      "exEn": "Before changing everything, let's step back and consider the feedback."
+    },
+    {
+      "tag": "expression",
+      "word": "se remettre en question",
+      "ipa": "/sə ʁə.mɛ.tʁ‿ɑ̃ kɛs.tjɔ̃/",
+      "mean": "to question yourself; to reassess your approach",
+      "ex": "Elle sait se remettre en question quand une méthode ne fonctionne plus.",
+      "exEn": "She can reassess her approach when a method no longer works."
+    },
+    {
+      "tag": "verbe",
+      "word": "se lancer",
+      "ipa": "/sə lɑ̃.se/",
+      "mean": "to take the plunge; to get started with something new",
+      "ex": "Après plusieurs recettes, elle s'est lancée dans un concours de cuisine.",
+      "exEn": "After several recipes, she took the plunge and entered a cooking competition."
+    },
+    {
+      "tag": "expression",
+      "word": "faire ses preuves",
+      "ipa": "/fɛʁ se pʁœv/",
+      "mean": "to prove what you can do",
+      "ex": "Il a fait ses preuves en accompagnant les nouveaux membres du club.",
+      "exEn": "He proved himself by helping the club's new members."
+    },
+    {
+      "tag": "expression",
+      "word": "gagner en assurance",
+      "ipa": "/ɡa.ɲe ɑ̃.n‿a.sy.ʁɑ̃s/",
+      "mean": "to grow more confident; to become more self-assured",
+      "ex": "En répondant aux visiteurs, il a gagné en assurance au fil des semaines.",
+      "exEn": "By answering visitors' questions, he grew more confident over the weeks."
+    },
+    {
+      "tag": "expression",
+      "word": "avoir confiance en soi",
+      "ipa": "/a.vwaʁ kɔ̃.fjɑ̃s ɑ̃ swa/",
+      "mean": "to have self-confidence; to believe in your abilities",
+      "ex": "Elle a confiance en elle quand elle organise une visite.",
+      "exEn": "She feels confident when organising a visit."
+    }
+  ]
+}
