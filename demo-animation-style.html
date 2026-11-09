@@ -99,6 +99,7 @@
   <label>Bối cảnh <select id="selScene"></select></label>
   <label>Léa <select id="selLea"></select></label>
   <label>Mathieu <select id="selMat"></select></label>
+  <span id="decorBox">Trên bàn:</span>
   <button id="rand">Ngẫu nhiên</button>
   <button id="sipTry">Nhấp cà phê</button>
   <label>Biểu cảm <select id="selEmo"></select></label><button id="emoLea">Léa</button><button id="emoMat">Mathieu</button>
@@ -113,12 +114,13 @@
    CẤU HÌNH TỪNG TẬP — chỉ cần đổi dòng này
    scene: cafe | salon | parc | cuisine | biblio | terrasse | chalet | boulangerie | train | quai
           marche | plage | atelier | lavande | bureau
-          bistrot | verriere | peniche | toits | cinema | fleuriste
+          bistrot | verriere | peniche | toits | cinema | fleuriste | musee | disquaire
           đi dạo: promenade | ruelle | automne | corniche | village | jardin | canal | noel | vignoble | pluie | port
    lea:   pull | mariniere | trench | chemise | cardigan | pois | jean | lilas | foulard | doudoune | rose | tartan | torsade
    mat:   denim | hoodie | colroule | blazer | pull | carreaux | velours | polo | gilet | tablier | raye | chale | bomber
+   decor: đồ trên bàn (cảnh ngồi), cách nhau dấu phẩy, tối đa 3: drapeau | macarons | boule | bougie | croissants | fleurs | livres | theiere
    ============================================================ */
-const EPISODE = { scene:'cafe', lea:'pull', mat:'denim' };
+const EPISODE = { scene:'cafe', lea:'pull', mat:'denim', decor:'drapeau,macarons' };
 
 const LINES=[
  {who:'lea', fr:"Tu sais, j'ai longtemps *évité* les conflits.", en:"You know, I avoided conflict for a long time."},
@@ -808,6 +810,13 @@ function walkAmb(tl){
   const h=document.querySelectorAll('#scene .clockhand');
   if(h[0]) tl.fromTo(h[0],{rotation:120},{rotation:150,transformOrigin:'50% 100%',duration:TOTAL,ease:'none'},0);
   if(h[1]) tl.fromTo(h[1],{rotation:0},{rotation:360,transformOrigin:'50% 100%',duration:60,ease:'none',repeat:rep(60)},0);
+  Q('.fanion').forEach(p=>{ const F=p.dataset.wave.split('|'), s=gsap.timeline({repeat:rep(1.2)});
+    F.forEach((d,i)=>s.fromTo(p,{attr:{d}},{attr:{d:F[(i+1)%F.length]},duration:.3,ease:'none',immediateRender:false})); tl.add(s,0); });
+  Q('.gflake').forEach(f=>tl.fromTo(f,{y:0,x:0},{y:rnd(22,36),x:rnd(-6,6),duration:rnd(2.5,4.5),yoyo:true,repeat:rep(2.5),ease:'sine.inOut'},rnd(0,2)));
+  Q('.cflame').forEach((f,i)=>tl.fromTo(f,{scaleY:1,scaleX:1},{scaleY:rnd(.78,.88),scaleX:rnd(1.06,1.14),transformOrigin:'50% 100%',duration:rnd(.25,.4),yoyo:true,repeat:rep(.25),ease:'sine.inOut'},i*.1));
+  Q('.tige').forEach(g=>tl.fromTo(g,{rotation:-3},{rotation:3,transformOrigin:'50% 100%',duration:rnd(1.6,2.4),yoyo:true,repeat:rep(1.6),ease:'sine.inOut'},rnd(0,1)));
+  Q('.vapeur').forEach((v,i)=>tl.fromTo(v,{y:0,opacity:0},{y:-30,opacity:.75,duration:2,ease:'sine.out',repeat:rep(2)},i*.65));
+  Q('.spin').forEach(r=>tl.fromTo(r,{rotation:0},{rotation:360,transformOrigin:'50% 50%',duration:1.8,ease:'none',repeat:rep(1.8)},0));
   if(document.querySelector('#leaves')) tl.fromTo('#leaves',{rotation:0},{rotation:2,transformOrigin:'50% 0%',duration:2.2,yoyo:true,repeat:rep(2.2),ease:'sine.inOut'},0);
 }
 const sitAmb=walkAmb;
@@ -916,7 +925,7 @@ const SCENES={
    document.querySelectorAll('#scene .mote').forEach(m=>tl.to(m,{y:rnd(-60,-120),x:rnd(-30,30),opacity:0,duration:rnd(3,5),repeat:rep(3),ease:'sine.inOut'},rnd(0,3)));
   }},
 
- biblio:{label:'5. Bibliothèque', html:()=>`<svg class="bg" viewBox="0 0 1920 1080"><defs>${lampGrad}
+ biblio:{label:'5. Bibliothèque', busy:true, html:()=>`<svg class="bg" viewBox="0 0 1920 1080"><defs>${lampGrad}
    <linearGradient id="bn" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1f2a40"/><stop offset="1" stop-color="#3a4766"/></linearGradient></defs>
   <rect width="1920" height="1080" fill="#3e5a4b"/>
   ${[[30,560],[1360,1890]].map(([a,b])=>`<rect x="${a}" y="70" width="${b-a}" height="690" fill="#5b3b28"/>${[220,370,520,670].map(y=>`<rect x="${a+14}" y="${y-140}" width="${b-a-28}" height="140" fill="#3a2618"/>${books(a+20,b-20,y,120)}<rect x="${a}" y="${y}" width="${b-a}" height="16" fill="#6e4a33"/>`).join('')}`).join('')}
@@ -1231,7 +1240,7 @@ const SCENES={
    document.querySelectorAll('#scene .bird').forEach((b,i)=>tl.fromTo(b,{x:0,y:0},{x:2300,y:-80,duration:16,ease:'none',repeat:rep(16)},i*.5));
   }},
 
- bureau:{label:'15. Bureau en ville', html:()=>{
+ bureau:{label:'15. Bureau en ville', busy:true, html:()=>{
    let city='',x=570; while(x<1360){const w=rnd(120,200),h=rnd(200,320);city+=`<rect x="${x}" y="${560-h}" width="${w}" height="${h}" fill="${pick(['#efe3cc','#e8d9bd','#f2e8d6'])}"/><path d="M${x-4} ${560-h} h${w+8} l-12 -40 h${-w+16}Z" fill="#8a97a8"/>`+range(Math.floor(h/70),r=>range(Math.floor(w/44),j=>`<rect x="${x+12+j*42}" y="${560-h+20+r*70}" width="20" height="34" fill="#7f9fb4"/><rect x="${x+8+j*42}" y="${560-h+54+r*70}" width="28" height="5" fill="#3a2e28"/>`));x+=w+6;}
    return `<svg class="bg" viewBox="0 0 1920 1080"><defs>${lampGrad}
    <linearGradient id="bsk" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b9dcef"/><stop offset="1" stop-color="#eef3ec"/></linearGradient>
@@ -1442,7 +1451,7 @@ const SCENES={
   ${TABLE('#a8724e','#8c5c3d')}</svg>`;},
   anim(tl){ sitAmb(tl); }},
 
- cinema:{label:'31. Ciné-club rétro', html:()=>{
+ cinema:{label:'31. Ciné-club rétro', busy:true, html:()=>{
    const seats=(y,w,h,n,c,hi)=>range(n,i=>{const x=(1920-n*w)/2+i*w;return `<rect x="${x+4}" y="${y}" width="${w-8}" height="${h}" rx="${w*.3}" fill="${c}"/><rect x="${x+12}" y="${y+8}" width="${w-24}" height="10" rx="5" fill="${hi}" opacity=".6"/>`;});
    const poster=(x,title,c1,c2)=>`<rect x="${x}" y="130" width="210" height="300" rx="6" fill="#c9a24a"/><rect x="${x+12}" y="142" width="186" height="276" fill="${c1}"/>
      <circle cx="${x+105}" cy="250" r="56" fill="${c2}"/><path d="M${x+30} 350 q19 -16 38 0 t38 0 t38 0 t38 0" stroke="${c2}" stroke-width="8" fill="none"/>
@@ -1491,6 +1500,79 @@ const SCENES={
   <circle class="glow" cx="960" cy="40" r="180" fill="url(#lg)" opacity=".35"/>
   <rect y="760" width="1920" height="320" fill="#c98a63"/>${range(13,i=>`<line x1="${i*160}" y1="760" x2="${i*160-80}" y2="1080" stroke="#b5764f" stroke-width="4"/>`)}${range(4,j=>`<line x1="0" y1="${840+j*80}" x2="1920" y2="${840+j*80}" stroke="#b5764f" stroke-width="4"/>`)}
   ${TABLE('#e8d9bf','#cbb894')}</svg>`;},
+  anim(tl){ sitAmb(tl); }},
+
+ /* ---------------- 2 cảnh ngồi mới (musee, disquaire) ---------------- */
+ musee:{label:'33. Galerie du musée', html:()=>{
+   // gilded frame around a nested painting svg
+   const frame=(x,y,w,h,inner)=>`<rect x="${x-20}" y="${y-20}" width="${w+40}" height="${h+40}" rx="4" fill="#c9a24a" stroke="#8a6a2a" stroke-width="4"/>
+     <rect x="${x-9}" y="${y-9}" width="${w+18}" height="${h+18}" fill="#e6c877"/><svg x="${x}" y="${y}" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">${inner}</svg>
+     <rect x="${x+w/2-46}" y="${y+h+40}" width="92" height="26" rx="3" fill="#efe6d0"/><path d="M${x+w/2-30} ${y+h+50} h60 M${x+w/2-30} ${y+h+57} h40" stroke="#8a7a62" stroke-width="3"/>`;
+   // brass picture light: halo on the wall (behind the frame) + lamp bar
+   const halo=(cx,y,r)=>`<circle class="glow" cx="${cx}" cy="${y}" r="${r}" fill="url(#lg)" opacity=".5"/>`;
+   const plight=(cx,y)=>`<path d="M${cx} ${y-30} v24" stroke="#8a6a2a" stroke-width="5"/><rect x="${cx-80}" y="${y-8}" width="160" height="16" rx="8" fill="#b08a3c"/><rect x="${cx-74}" y="${y+4}" width="148" height="5" rx="2" fill="#ffe2a6"/>`;
+   const lilies=`<rect width="520" height="320" fill="#7fa9b8"/><rect width="520" height="110" fill="#f2dcb4"/><circle cx="410" cy="56" r="30" fill="#f6b98a"/>
+     ${range(14,i=>`<ellipse cx="${i*40+rnd(-8,8)}" cy="${110+rnd(-6,4)}" rx="${rnd(34,50)}" ry="${rnd(18,30)}" fill="${pick(['#4f7a52','#5f8f5a','#3f6b4f'])}"/>`)}
+     ${range(46,()=>`<rect x="${rnd(0,500)}" y="${rnd(140,315)}" width="${rnd(18,46)}" height="${rnd(4,7)}" rx="3" fill="${pick(['#a9c7d4','#5f8f9f','#f2dcb4','#9cc0b0','#6f98a8'])}" opacity=".8"/>`)}
+     ${range(6,i=>`<rect x="${396+rnd(-16,16)}" y="${150+i*22}" width="${rnd(16,30)}" height="5" rx="2" fill="#f6b98a" opacity=".85"/>`)}
+     ${range(10,()=>{const x=rnd(30,490),y=rnd(170,300);return `<ellipse cx="${x}" cy="${y}" rx="${rnd(18,28)}" ry="${rnd(7,10)}" fill="#6f9a5a"/><circle cx="${x+rnd(-6,6)}" cy="${y-4}" r="${rnd(5,8)}" fill="${pick(['#f2a7b5','#fbf6ec','#e98aa0'])}"/>`;})}`;
+   const still=`<rect width="250" height="240" fill="#5a4636"/><rect y="160" width="250" height="80" fill="#e9dcc3"/><path d="M0 160 h250" stroke="#cdbb9a" stroke-width="4"/>
+     <circle cx="92" cy="138" r="24" fill="#e8843a"/><circle cx="140" cy="132" r="26" fill="#c8443a"/><ellipse cx="180" cy="140" rx="17" ry="24" fill="#c9c25a"/>
+     ${range(7,i=>`<circle cx="${100+(i%4)*12+(i>3?6:0)}" cy="${150-(i>3?10:0)}" r="8" fill="#6e4a7a"/>`)}
+     <path d="M60 156 h130 q-10 34 -65 34 q-55 0 -65 -34Z" fill="#5d7fa0"/><path d="M70 164 h110" stroke="#8fb0cf" stroke-width="4"/>`;
+   const portrait=`<rect width="250" height="280" fill="#2f3a4a"/><ellipse cx="125" cy="140" rx="104" ry="128" fill="#3c4a5e"/>
+     <path d="M40 280 C46 214 86 196 125 196 C164 196 204 214 210 280Z" fill="#3a2e28"/><path d="M104 196 h42 l-6 -24 h-30Z" fill="#f1c9a5"/>
+     <ellipse cx="125" cy="146" rx="34" ry="42" fill="#f1c9a5"/><path d="M91 142 C88 104 162 104 159 142 C156 118 94 118 91 142Z" fill="#5a3a28"/>
+     <ellipse cx="125" cy="104" rx="84" ry="16" fill="#b5524a"/><path d="M84 104 C86 66 164 66 166 104Z" fill="#b5524a"/><path d="M86 96 h78" stroke="#f3c96b" stroke-width="7"/>
+     <circle cx="112" cy="146" r="3.5" fill="#3a2e28"/><circle cx="138" cy="146" r="3.5" fill="#3a2e28"/><path d="M116 168 q9 6 18 0" stroke="#b5524a" stroke-width="3" fill="none"/>`;
+   const post=x=>`<rect x="${x-7}" y="560" width="14" height="200" rx="5" fill="#c9a24a"/><circle cx="${x}" cy="556" r="13" fill="#e0b44c"/><ellipse cx="${x}" cy="758" rx="34" ry="8" fill="#b08a3c"/>`;
+   return `<svg class="bg" viewBox="0 0 1920 1080"><defs>${lampGrad}</defs>
+  <rect width="1920" height="1080" fill="#3d6b64"/>${range(48,i=>`<rect x="${i*40+13}" y="40" width="14" height="500" fill="#2f5a54" opacity=".35"/>`)}
+  <rect width="1920" height="40" fill="#e9dcc3"/><rect y="36" width="1920" height="8" fill="#c9a24a"/>
+  <rect y="540" width="1920" height="220" fill="#2c4f4a"/><rect y="532" width="1920" height="12" fill="#c9a24a"/>
+  ${range(12,i=>`<rect x="${i*160+24}" y="572" width="112" height="160" rx="4" fill="none" stroke="#3e6a64" stroke-width="5"/>`)}
+  ${halo(960,240,360)}${halo(245,250,200)}${halo(1675,250,200)}
+  ${frame(700,120,520,320,lilies)}${frame(120,150,250,240,still)}${frame(1550,140,250,280,portrait)}
+  ${plight(960,92)}${plight(245,122)}${plight(1675,112)}
+  ${range(18,()=>`<circle class="mote" cx="${rnd(700,1220)}" cy="${rnd(220,540)}" r="${rnd(2,3.5)}" fill="#fff1c4" opacity="0"/>`)}
+  ${post(560)}${post(1360)}<path d="M560 580 Q960 680 1360 580" stroke="#9e2a32" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <rect y="760" width="1920" height="320" fill="#9a6a44"/>${range(8,r=>`<path d="M0 ${790+r*40} ${range(24,i=>`l40 ${i%2?-20:20} l40 ${i%2?20:-20}`)}" stroke="#7d5232" stroke-width="4" fill="none"/>`)}
+  ${TABLE('#efe9df','#d3cabb')}<path d="M300 728 q120 -10 240 6 M1200 724 q160 12 320 -4" stroke="#d9d0c2" stroke-width="3" fill="none"/></svg>`;},
+  anim(tl){ sitAmb(tl); }},
+
+ disquaire:{label:'34. Disquaire vintage', html:()=>{
+   const C=['#c8443a','#2d3e66','#f3c96b','#3f6b5a','#e98aa0','#d9774b','#5d7fa0','#8a5a7a','#f1ebe0','#2a2a2a'];
+   const sleeve=(x,y,s)=>{const c=pick(C),c2=pick(C.filter(v=>v!==c)),k=Math.floor(rnd(0,4));
+     const art=k===0?`<circle cx="${x+s/2}" cy="${y+s/2}" r="${s*.3}" fill="${c2}"/><circle cx="${x+s/2}" cy="${y+s/2}" r="${s*.1}" fill="${c}"/>`
+       :k===1?`<rect x="${x}" y="${y+s*.55}" width="${s}" height="${s*.18}" fill="${c2}"/><rect x="${x}" y="${y+s*.78}" width="${s}" height="${s*.06}" fill="${c2}"/>`
+       :k===2?`<path d="M${x} ${y+s} L${x+s/2} ${y+s*.3} L${x+s} ${y+s}Z" fill="${c2}"/>`
+       :`<circle cx="${x+s*.65}" cy="${y+s*.4}" r="${s*.18}" fill="${c2}"/><rect x="${x+s*.15}" y="${y+s*.72}" width="${s*.5}" height="7" rx="3" fill="${c2}"/>`;
+     return `<rect x="${x}" y="${y}" width="${s}" height="${s}" rx="3" fill="${c}"/>${art}`;};
+   // one wall shelf of sleeves facing out, a few with the record peeking out
+   const shelf=(x0,x1,y)=>{let s='',x=x0;while(x<x1-104){const sz=rnd(94,110);
+       if(Math.random()<.3) s+=`<circle cx="${x+sz*.78}" cy="${y-sz/2}" r="${sz*.45}" fill="#1e1a1a"/><circle cx="${x+sz*.78}" cy="${y-sz/2}" r="${sz*.3}" fill="none" stroke="#3a3434" stroke-width="2"/><circle cx="${x+sz*.78}" cy="${y-sz/2}" r="${sz*.13}" fill="${pick(C)}"/>`;
+       s+=sleeve(x,y-sz,sz); x+=sz+rnd(18,34);}
+     return s+`<rect x="${x0-24}" y="${y}" width="${x1-x0+48}" height="16" rx="3" fill="#6e4630"/><rect x="${x0-24}" y="${y+16}" width="${x1-x0+48}" height="6" fill="#00000022"/>`;};
+   const crate=x=>`${range(16,i=>`<rect x="${x+10+i*11}" y="${600+rnd(0,26)}" width="9" height="140" rx="2" fill="${pick(C)}"/>`)}<rect x="${x}" y="660" width="200" height="100" fill="#b98d6a"/><rect x="${x}" y="660" width="200" height="14" fill="#a07650"/><path d="M${x} 710 h200" stroke="#a07650" stroke-width="5"/><rect x="${x+70}" y="688" width="60" height="14" rx="7" fill="#7a5638"/>`;
+   const pendant=x=>`<path d="M${x} 0 v120" stroke="#3a2e28" stroke-width="4"/><circle class="glow" cx="${x}" cy="190" r="190" fill="url(#lg)" opacity=".55"/><path d="M${x-60} 176 Q${x} 96 ${x+60} 176Z" fill="#3f6b5a"/><ellipse cx="${x}" cy="176" rx="60" ry="9" fill="#2f5446"/><circle cx="${x}" cy="182" r="11" fill="#ffe9b8"/>`;
+   return `<svg class="bg" viewBox="0 0 1920 1080"><defs>${lampGrad}</defs>
+  <rect width="1920" height="1080" fill="#e0a64a"/>${range(17,i=>range(7,j=>`<circle cx="${i*120+(j%2)*60}" cy="${j*120}" r="40" fill="none" stroke="#cf9336" stroke-width="12" opacity=".7"/>`))}
+  <rect y="560" width="1920" height="200" fill="#7a4e36"/><rect y="552" width="1920" height="12" fill="#5e3a28"/>${range(24,i=>`<path d="M${i*80} 564 v196" stroke="#6b4430" stroke-width="4"/>`)}
+  ${shelf(60,640,250)}${shelf(60,640,470)}${shelf(1280,1880,250)}${shelf(1280,1880,470)}
+  <rect x="700" y="96" width="520" height="230" rx="22" fill="#3a2a2a"/><rect x="700" y="96" width="520" height="230" rx="22" fill="none" stroke="#5e3a28" stroke-width="8"/>
+  <text class="glow" x="960" y="232" text-anchor="middle" font-family="Playfair Display, Fraunces, serif" font-style="italic" font-weight="700" font-size="116" fill="none" stroke="#ff6f9a" stroke-width="18" opacity=".5">Vinyles</text>
+  <text x="960" y="232" text-anchor="middle" font-family="Playfair Display, Fraunces, serif" font-style="italic" font-weight="700" font-size="116" fill="#ffe0ea" stroke="#ff8fb1" stroke-width="3">Vinyles</text>
+  <text x="960" y="292" text-anchor="middle" font-family="Nunito" font-weight="800" font-size="30" letter-spacing="6" fill="#9fd8e6">DEPUIS 1968</text>
+  ${pendant(560)}${pendant(1360)}
+  <g transform="translate(905 360)"><path d="M10 160 L55 0 L100 160" stroke="#5e3a28" stroke-width="7" fill="none"/>${sleeve(0,10,110)}<rect x="-6" y="118" width="122" height="10" rx="4" fill="#5e3a28"/></g>
+  ${crate(20)}
+  <rect x="1660" y="580" width="250" height="180" rx="6" fill="#8a5a3c"/>${[1720,1850].map(x=>`<circle cx="${x}" cy="680" r="42" fill="#5e3a28"/><circle cx="${x}" cy="680" r="14" fill="#3a2e28"/>`).join('')}
+  <rect x="1670" y="548" width="230" height="34" rx="6" fill="#3a2e28"/>
+  <g transform="translate(1772 548) scale(1 .34)"><circle r="92" fill="#2a2525"/><g class="spin"><circle r="86" fill="#1e1a1a"/>${range(4,i=>`<circle r="${30+i*13}" fill="none" stroke="#3a3434" stroke-width="2"/>`)}<path d="M0 -86 A86 86 0 0 1 60 -61 L0 0Z" fill="#ffffff" opacity=".08"/><circle r="26" fill="#c8443a"/><rect x="-14" y="-6" width="28" height="5" fill="#f3c96b"/><circle r="4" fill="#ddd"/></g></g>
+  <path d="M1880 520 v16 M1880 528 L1820 556" stroke="#c9c2b6" stroke-width="6" stroke-linecap="round"/><circle cx="1880" cy="520" r="9" fill="#9aa3a8"/>
+  ${range(12,()=>`<circle class="mote" cx="${rnd(460,1460)}" cy="${rnd(200,540)}" r="${rnd(2,3.5)}" fill="#fff1c4" opacity="0"/>`)}
+  <rect y="760" width="1920" height="320" fill="#efe1c4"/>${range(24,i=>range(4,j=>(i+j)%2?`<rect x="${i*80}" y="${760+j*80}" width="80" height="80" fill="#b98d6a"/>`:''))}
+  ${TABLE('#a8724e','#8c5c3d')}</svg>`;},
   anim(tl){ sitAmb(tl); }},
 
  /* ---------------- 5 cảnh đi bộ mới ---------------- */
@@ -1571,6 +1653,87 @@ const SCENES={
 };
 
 /* ============================================================
+   ĐỒ TRANG TRÍ TRÊN BÀN — dùng chung cho mọi cảnh ngồi (episode.json "decor": ["drapeau","macarons"]).
+   Ô 1 = trái (x 770), ô 2 = phải (x 1130), ô 3 = giữa (x 960). Cảnh có busy:true (giữa bàn đã có đèn / laptop / bỏng ngô)
+   chỉ có 2 ô đầu. Đáy đồ vật nằm trên mặt bàn y=716, giữa hai nhân vật (x≈700–1195) nên không bị tay/cốc che.
+   Chuyển động: .fanion (cờ bay — data-wave = 4 khung hình path), .gflake (tuyết trong boule à neige), .cflame (lửa nến),
+   .tige (cành hoa đung đưa), .vapeur (hơi nước ấm trà). Lửa nến có quầng sáng .glow riêng (gradient của chính món đồ).
+   ============================================================ */
+const DECOR_SLOTS=[770,1130,960];
+// French flag cloth: 3 stripes, 4 frames of a travelling wave (amplitude grows away from the pole)
+const flagFrames=x=>{ const X0=x+3,W=66,H=40,Y=598;
+  return [0,1,2,3].map(f=>{ const wv=u=>Math.sin(u*Math.PI*1.6-f*Math.PI/2)*5*u;
+    return [0,1,2].map(k=>{ const us=[0,1,2,3,4].map(j=>(k+j/4)/3);
+      const top=us.map(u=>`${(X0+u*W).toFixed(1)} ${(Y+wv(u)).toFixed(1)}`), bot=us.slice().reverse().map(u=>`${(X0+u*W).toFixed(1)} ${(Y+H+wv(u)+u*3).toFixed(1)}`);
+      return 'M'+top.join(' L')+' L'+bot.join(' L')+'Z'; }); }); };
+const DECOR={
+  drapeau:{label:'Petit drapeau français', svg:x=>{ const F=flagFrames(x);
+    return `<ellipse cx="${x}" cy="715" rx="30" ry="5" fill="#00000026"/><rect x="${x-24}" y="702" width="48" height="13" rx="5" fill="#8a5a3c"/><rect x="${x-24}" y="702" width="48" height="4" rx="2" fill="#a8724e"/>
+      <rect x="${x-2.5}" y="592" width="5" height="112" rx="2" fill="#c9a24a"/><circle cx="${x}" cy="590" r="5.5" fill="#e0b44c"/>
+      ${['#35529a','#f7f3ea','#d0453a'].map((c,k)=>`<path class="fanion" d="${F[0][k]}" data-wave="${F.map(fr=>fr[k]).join('|')}" fill="${c}"/>`).join('')}`; }},
+  macarons:{label:'Assiette de macarons', svg:x=>{ const C=['#f2a7b5','#b9d48c','#c6b2e0','#f6dc7a','#a8724e','#9ec3dc'];
+    const mac=(cx,cy,c)=>`<ellipse cx="${cx}" cy="${cy+5}" rx="15" ry="6.5" fill="${c}"/><rect x="${cx-13}" y="${cy-1}" width="26" height="5" rx="2" fill="#fbf3e4"/><ellipse cx="${cx}" cy="${cy-3}" rx="15" ry="7" fill="${c}"/><ellipse cx="${cx-4}" cy="${cy-6}" rx="6" ry="2" fill="#ffffff66"/>`;
+    return `<ellipse cx="${x}" cy="715" rx="36" ry="5" fill="#00000026"/><path d="M${x-22} 715 h44 l-8 -8 h-28Z" fill="#e9e2d6"/><rect x="${x-4}" y="690" width="8" height="18" fill="#ddd5c6"/>
+      <ellipse cx="${x}" cy="690" rx="56" ry="9" fill="#f7f3ea"/><ellipse cx="${x}" cy="688" rx="48" ry="6" fill="#e9e2d6"/>
+      ${mac(x-32,676,C[0])}${mac(x,676,C[1])}${mac(x+32,676,C[2])}${mac(x-16,659,C[3])}${mac(x+16,659,C[5])}${mac(x,642,C[4])}`; }},
+  boule:{label:'Boule à neige tour Eiffel', svg:x=>{ const id='bclip'+Math.round(x);
+    return `<defs><clipPath id="${id}"><circle cx="${x}" cy="650" r="40"/></clipPath></defs>
+      <ellipse cx="${x}" cy="715" rx="42" ry="5" fill="#00000026"/><path d="M${x-40} 715 l6 -28 h68 l6 28Z" fill="#8a5a3c"/><rect x="${x-36}" y="694" width="72" height="6" fill="#e0b44c"/>
+      <g clip-path="url(#${id})"><circle cx="${x}" cy="650" r="40" fill="#cfe6f2"/>
+        <path d="M${x} 614 L${x+3} 640 L${x+9} 664 L${x+17} 686 H${x-17} L${x-9} 664 L${x-3} 640Z" fill="#3a4560"/><rect x="${x-11}" y="660" width="22" height="3" fill="#3a4560"/><path d="M${x-7} 686 Q${x} 674 ${x+7} 686Z" fill="#cfe6f2"/>
+        <ellipse cx="${x}" cy="690" rx="44" ry="9" fill="#fbfdff"/>
+        ${range(12,()=>`<circle class="gflake" cx="${x+rnd(-30,30)}" cy="${rnd(616,648)}" r="${rnd(1.5,2.8)}" fill="#ffffff"/>`)}</g>
+      <circle cx="${x}" cy="650" r="40" fill="none" stroke="#ffffffb0" stroke-width="3"/><path d="M${x-27} 634 A30 30 0 0 1 ${x-8} 618" stroke="#ffffff" stroke-width="5" stroke-linecap="round" fill="none" opacity=".85"/>`; }},
+  bougie:{label:'Bougie dans une bouteille', svg:x=>{ const g='dlg'+Math.round(x);
+    return `<defs><radialGradient id="${g}"><stop offset="0" stop-color="#ffd27a" stop-opacity=".85"/><stop offset="1" stop-color="#ffd27a" stop-opacity="0"/></radialGradient></defs>
+      <circle class="glow" cx="${x}" cy="572" r="90" fill="url(#${g})" opacity=".5"/>
+      <ellipse cx="${x}" cy="715" rx="30" ry="5" fill="#00000026"/>
+      <path d="M${x-22} 714 C${x-27} 682 ${x-20} 658 ${x-7} 648 V628 h14 V648 C${x+20} 658 ${x+27} 682 ${x+22} 714Z" fill="#3f6b4f"/>
+      <path d="M${x-24} 714 C${x-26} 700 ${x-25} 690 ${x-23} 684 H${x+23} C${x+25} 690 ${x+26} 700 ${x+24} 714Z" fill="#d9b876"/>
+      ${range(5,i=>`<path d="M${x-20+i*10} 686 l6 26 M${x-14+i*10} 686 l-6 26" stroke="#b8945a" stroke-width="2"/>`)}
+      <path d="M${x-12} 664 q-6 10 -4 18" stroke="#ffffff66" stroke-width="4" fill="none" stroke-linecap="round"/>
+      <path d="M${x-10} 628 h20 v8 q-3 9 -5 0 v-2 q-3 16 -6 0 q-3 7 -6 0 q-2 10 -3 0Z" fill="#f3e6c8"/>
+      <rect x="${x-6}" y="588" width="12" height="42" rx="3" fill="#fbf3e4"/><path d="M${x} 588 v-6" stroke="#3a2e28" stroke-width="2"/>
+      <path class="cflame" d="M${x} 554 C${x+10} 567 ${x+9} 580 ${x} 584 C${x-9} 580 ${x-10} 567 ${x} 554Z" fill="#f6a640"/>
+      <path class="cflame" d="M${x} 566 C${x+5} 573 ${x+5} 580 ${x} 582 C${x-5} 580 ${x-5} 573 ${x} 566Z" fill="#ffe27a"/>`; }},
+  croissants:{label:'Assiette de croissants', svg:x=>{
+    // crescent = 5 overlapping puffs, tips curled down
+    const cro=(cx,cy,k)=>{ const P=[[-28,7,8,7,-35],[-16,1,11,10,-18],[0,-2,14,12,0],[16,1,11,10,18],[28,7,8,7,35]];
+      return P.map(([dx,dy,rx,ry,r])=>`<ellipse cx="${cx+dx*k}" cy="${cy+dy*k}" rx="${rx*k}" ry="${ry*k}" fill="#d99a48" stroke="#b8772e" stroke-width="2" transform="rotate(${r} ${cx+dx*k} ${cy+dy*k})"/>`).join('')
+        +`<ellipse cx="${cx-3*k}" cy="${cy-7*k}" rx="${7*k}" ry="${3*k}" fill="#f2c27a" opacity=".8"/>`; };
+    return `<ellipse cx="${x}" cy="715" rx="54" ry="5" fill="#00000026"/><ellipse cx="${x}" cy="708" rx="56" ry="10" fill="#f7f3ea"/><ellipse cx="${x}" cy="706" rx="44" ry="6" fill="#e9e2d6"/>
+      ${cro(x+12,684,.8)}${cro(x-6,696,1)}`; }},
+  fleurs:{label:'Petit vase de tulipes', svg:x=>{
+    const tulip=(dx,top,c,lean)=>`<g class="tige"><path d="M${x} 668 Q${x+dx*.3} ${(668+top)/2} ${x+dx} ${top+10}" stroke="#5f8f5a" stroke-width="4" fill="none"/>
+      <path d="M${x+dx-10} ${top+12} q-2 -18 10 -22 q12 4 10 22 q-10 7 -20 0Z" fill="${c}" transform="rotate(${lean} ${x+dx} ${top+10})"/><path d="M${x+dx} ${top-8} v14" stroke="#00000022" stroke-width="2" transform="rotate(${lean} ${x+dx} ${top+10})"/></g>`;
+    return `<ellipse cx="${x}" cy="715" rx="26" ry="5" fill="#00000026"/>
+      ${tulip(-22,600,'#e14b5a',-12)}${tulip(20,596,'#f6c1cf',10)}${tulip(0,582,'#f2b632',0)}
+      <path d="M${x} 668 q-26 -10 -30 -34 q22 6 30 34Z" fill="#7fa673"/>
+      <path d="M${x-12} 664 h24 v6 C${x+26} 680 ${x+24} 708 ${x+16} 714 H${x-16} C${x-24} 708 ${x-26} 680 ${x-12} 670Z" fill="#5d7fa0"/>
+      <path d="M${x-18} 690 h36" stroke="#f3e6c8" stroke-width="4"/>${range(3,i=>`<circle cx="${x-10+i*10}" cy="701" r="3" fill="#f3e6c8"/>`)}<path d="M${x-14} 664 h28" stroke="#4a6a8a" stroke-width="4" stroke-linecap="round"/>`; }},
+  livres:{label:'Pile de livres + lunettes', svg:x=>{
+    const book=(y,w,h,c,dx)=>`<rect x="${x-w/2+dx}" y="${y-h}" width="${w}" height="${h}" rx="3" fill="${c}"/><rect x="${x+w/2+dx-8}" y="${y-h+3}" width="6" height="${h-6}" fill="#f7f0de"/><path d="M${x-w/2+dx+12} ${y-h} v${h} M${x-w/2+dx+18} ${y-h} v${h}" stroke="#00000026" stroke-width="2"/>`;
+    return `<ellipse cx="${x}" cy="715" rx="56" ry="5" fill="#00000026"/>
+      ${book(715,108,18,'#b5524a',0)}${book(697,98,15,'#3f6b5a',6)}${book(682,90,19,'#e2c08a',-4)}
+      <path d="M${x-30} 655 l-14 6 M${x+28} 655 l14 6" stroke="#3a2e28" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="${x-16}" cy="654" r="12" fill="#ffffff44" stroke="#3a2e28" stroke-width="3.5"/><circle cx="${x+14}" cy="654" r="12" fill="#ffffff44" stroke="#3a2e28" stroke-width="3.5"/>
+      <path d="M${x-4} 652 q3 -4 6 0" stroke="#3a2e28" stroke-width="3" fill="none"/>`; }},
+  theiere:{label:'Théière fumante', svg:x=>
+    `<ellipse cx="${x}" cy="715" rx="44" ry="5" fill="#00000026"/>
+      <path d="M${x+28} 690 C${x+44} 686 ${x+42} 664 ${x+56} 652 l5 4 C${x+52} 668 ${x+52} 692 ${x+30} 702Z" fill="#e9e2d6" stroke="#cfc6b6" stroke-width="2"/>
+      <path d="M${x-30} 676 C${x-56} 672 ${x-56} 706 ${x-28} 700" stroke="#cfc6b6" stroke-width="7" fill="none" stroke-linecap="round"/>
+      <path d="M${x-22} 714 h44 l-4 -6 h-36Z" fill="#cfc6b6"/>
+      <ellipse cx="${x}" cy="686" rx="35" ry="26" fill="#f4efe6"/><path d="M${x-35} 688 q35 14 70 0" stroke="#5d7fa0" stroke-width="5" fill="none"/>
+      ${[[-16,676],[2,670],[18,680],[-4,700],[16,698]].map(([dx,dy])=>`<circle cx="${x+dx}" cy="${dy}" r="4" fill="#5d7fa0"/>`).join('')}
+      <ellipse cx="${x}" cy="662" rx="20" ry="6" fill="#e9e2d6" stroke="#cfc6b6" stroke-width="2"/><circle cx="${x}" cy="653" r="6" fill="#5d7fa0"/>
+      <ellipse cx="${x-14}" cy="678" rx="7" ry="11" fill="#ffffff88"/>
+      ${range(3,i=>`<path class="vapeur" d="M${x+58+i*5} 646 q-8 -12 0 -24 q8 -12 0 -24" stroke="#ffffff" stroke-width="4" fill="none" stroke-linecap="round" opacity="0"/>`)}`},
+};
+function decorSVG(list,busy){ const slots=busy?DECOR_SLOTS.slice(0,2):DECOR_SLOTS;
+  return `<g class="decor">${(list||[]).slice(0,slots.length).map((k,i)=>DECOR[k]?DECOR[k].svg(slots[i]):'').join('')}</g>`; }
+function withDecor(html,list,busy){ if(!list||!list.length) return html; const i=html.lastIndexOf('</svg>'); return html.slice(0,i)+decorSVG(list,busy)+html.slice(i); }
+
+/* ============================================================
    TIMELINE
    ============================================================ */
 let tl=null, playing=true, last=performance.now(), T=0;
@@ -1578,7 +1741,7 @@ function build(cfg){
   if(tl) tl.kill();
   const W=!!SCENES[cfg.scene].walk;
   $('#stage').classList.toggle('walk',W);
-  $('#scene').innerHTML=SCENES[cfg.scene].html();
+  $('#scene').innerHTML=W?SCENES[cfg.scene].html():withDecor(SCENES[cfg.scene].html(),(cfg.decor||'').split(',').filter(Boolean),SCENES[cfg.scene].busy);
   $('#lea').innerHTML=leaSVG(cfg.lea,W);
   $('#mat').innerHTML=matSVG(cfg.mat,W);
   gsap.set(['#card','#subBox','#recap','#pair'],{clearProps:'all'});
@@ -1652,10 +1815,13 @@ const cfg={...EPISODE};
 try{ new URLSearchParams(location.hash.slice(1)).forEach((v,k)=>{ if(k in cfg) cfg[k]=v; }); }catch(e){}
 function fillSel(id,obj,val){ $(id).innerHTML=Object.entries(obj).map(([k,o])=>`<option value="${k}" ${k===val?'selected':''}>${o.label}</option>`).join(''); }
 fillSel('#selScene',SCENES,cfg.scene); fillSel('#selLea',OUT_LEA,cfg.lea); fillSel('#selMat',OUT_MAT,cfg.mat);
+$('#decorBox').innerHTML+=Object.entries(DECOR).map(([k,o])=>` <label><input type="checkbox" value="${k}" ${cfg.decor.split(',').includes(k)?'checked':''}> ${o.label}</label>`).join('');
 function apply(){ cfg.scene=$('#selScene').value; cfg.lea=$('#selLea').value; cfg.mat=$('#selMat').value;
-  try{ history.replaceState(null,'','#scene='+cfg.scene+'&lea='+cfg.lea+'&mat='+cfg.mat); }catch(e){}
+  cfg.decor=[...document.querySelectorAll('#decorBox input:checked')].map(i=>i.value).join(',');
+  try{ history.replaceState(null,'','#scene='+cfg.scene+'&lea='+cfg.lea+'&mat='+cfg.mat+'&decor='+cfg.decor); }catch(e){}
   build(cfg); }
 ['#selScene','#selLea','#selMat'].forEach(s=>$(s).onchange=apply);
+document.querySelectorAll('#decorBox input').forEach(i=>i.onchange=apply);
 let pTl=null; $('#sipTry').onclick=()=>{ if(pTl) pTl.progress(1).kill(); pTl=gsap.timeline(); gsap.set(['#lea .cupTilt','#mat .cupTilt'],{svgOrigin:'234 384'}); sipTL(pTl,'#lea',0); sipTL(pTl,'#mat',.4); };
 fillSel('#selEmo',Object.fromEntries(Object.entries(EMO_TYPES).map(([k,v])=>[k,{label:v}])),'rire');
 let emoTl=null;

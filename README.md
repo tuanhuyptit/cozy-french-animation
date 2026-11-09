@@ -8,7 +8,7 @@ Animated podcast template for learning French (B1–B2): word-synced karaoke sub
 
 | Đường dẫn | Là gì |
 |---|---|
-| `demo-animation-style.html` | Bản xem trước tương tác: 21 bối cảnh ngồi + 11 bối cảnh đi dạo, 13 bộ trang phục mỗi nhân vật, 8 biểu cảm, 24 bong bóng minh hoạ, 10 cử chỉ (nút "Cử chỉ"). Mở bằng trình duyệt. |
+| `demo-animation-style.html` | Bản xem trước tương tác: 23 bối cảnh ngồi + 11 bối cảnh đi dạo, 8 đồ trang trí trên bàn (ô "Trên bàn"), 13 bộ trang phục mỗi nhân vật, 8 biểu cảm, 24 bong bóng minh hoạ, 10 cử chỉ (nút "Cử chỉ"). Mở bằng trình duyệt. |
 | `cozy-ep01/tools/vocab-help.mjs` | Gợi ý từ vựng theo cấp độ CEFR (FLELex) và tra IPA (WikiPron). |
 | `tools/new-episode.mjs` | Tạo thư mục tập mới `cozy-epNN/` từ mẫu `cozy-ep01`, bốc ngẫu nhiên chế độ/bối cảnh/trang phục và chép lời voice. |
 | `tools/pick-setup.mjs` | Bốc ngẫu nhiên chế độ (ngồi / đi dạo), bối cảnh, trang phục cho một tập — không trùng tập gần đây, không trùng tông. `--write` ghi `work/setup.json`. |
@@ -23,11 +23,12 @@ Animated podcast template for learning French (B1–B2): word-synced karaoke sub
 | `cozy-ep01-test-30s.mp4` | Video đã xuất. |
 
 **Chế độ:** ngồi (`sit`) · đi dạo (`walk`)
-**Bối cảnh:** `cafe` · `salon` · `parc` · `cuisine` · `biblio` · `terrasse` · `chalet` · `boulangerie` · `train` · `quai` · `marche` · `plage` · `atelier` · `lavande` · `bureau` · `bistrot` · `verriere` · `peniche` · đi dạo: `promenade` · `ruelle` · `automne` · `corniche` · `village` · `jardin` · `canal` · `noel` · `vignoble` · `pluie` · `port`
+**Bối cảnh:** `cafe` · `salon` · `parc` · `cuisine` · `biblio` · `terrasse` · `chalet` · `boulangerie` · `train` · `quai` · `marche` · `plage` · `atelier` · `lavande` · `bureau` · `bistrot` · `verriere` · `peniche` · `toits` · `cinema` · `fleuriste` · `musee` · `disquaire` · đi dạo: `promenade` · `ruelle` · `automne` · `corniche` · `village` · `jardin` · `canal` · `noel` · `vignoble` · `pluie` · `port`
 **Léa:** `pull` · `mariniere` · `trench` · `chemise` · `cardigan` · `pois` · `jean` · `lilas` · `foulard` · `doudoune` · `rose` · `tartan` · `torsade`
 **Mathieu:** `denim` · `hoodie` · `colroule` · `blazer` · `pull` · `carreaux` · `velours` · `polo` · `gilet` · `tablier` · `raye` · `chale` · `bomber`
 **Cử chỉ:** `beat` · `palm` · `up` · `point` · `think` · `wave` · `shrug` · `count` · `scratch` + gật đầu `nod`; khi đi dạo thêm `explain` · `regarde` · `coeur` · `pouce` · `bof` · `pince` · `rire` · `menton` · `poche` · `grand` (tự chọn theo lời thoại, ép bằng `"act"`)
-**Bảng giải thích:** nền `liege` · `craie` · `carnet`; kiểu `word` · `sketch` · `compare` · `steps` · `conjug` · `mindmap` · `quiz` (xem skill `cozy-french-episode`)
+**Bảng giải thích:** nền `liege` · `craie` · `carnet`; kiểu `word` · `sketch` · `compare` · `steps` · `conjug` · `mindmap` · `quiz` · `timeline` · `truefalse` · `fill` · `mistake` · `scale` · `idiom` · `order` (xem skill `cozy-french-episode`)
+**Đồ trên bàn (cảnh ngồi):** `drapeau` (cờ Pháp nhỏ bay) · `macarons` (đĩa macaron) · `boule` (boule à neige tháp Eiffel, tuyết bay) · `bougie` (nến cắm chai, lửa lay) · `croissants` · `fleurs` (bình tulip đung đưa) · `livres` (chồng sách + kính) · `theiere` (ấm trà bốc hơi) — `"decor": [...]` trong `episode.json`, tối đa 3
 
 Các quyết định đã chốt và trạng thái dự án: xem [NOTES.md](NOTES.md).
 

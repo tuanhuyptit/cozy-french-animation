@@ -75,6 +75,11 @@ Tự động: skill `skills/cozy-french-episode` (người dùng chỉ gửi voi
 - 13 trang phục mỗi người: Léa + `rose` (blouse hồng cổ Claudine) · `tartan` (váy yếm kẻ ô xanh, hoa văn `#tartan`) · `torsade` (len vặn thừng xanh nhạt); Mathieu + `raye` (sơ mi sọc, hoa văn `#raye`) · `chale` (cardigan cổ choàng đỏ rượu) · `bomber` (bomber kaki). Luật tránh trùng tông đã thêm trong `pick-setup.mjs`.
 - Bảng giải thích thêm 5 kiểu: `timeline` (dòng thời gian), `truefalse` (Vrai ou faux + con dấu), `fill` (điền từ vào chỗ trống), `mistake` (lỗi sai bị gạch → câu đúng), `scale` (thang sắc thái yếu → mạnh). Hiệu ứng mới `rise`, `strike`; biến màu `--bad`.
 
+## Cảnh mới, đồ trên bàn, bảng mới (2026-11-09)
+- 23 cảnh ngồi (+ `musee` galerie tường xanh, khung vàng, đèn tranh, dây nhung đỏ · `disquaire` tiệm đĩa than, giấy dán tường vàng mù tạt, biển neon "Vinyles", máy quay đĩa có đĩa quay `.spin`).
+- **Đồ trang trí trên bàn** (`DECOR` trong demo, dùng chung mọi cảnh ngồi): `drapeau` cờ Pháp nhỏ bay (`.fanion`, 4 khung sóng) · `macarons` · `boule` boule à neige tháp Eiffel (`.gflake`) · `bougie` nến cắm chai rượu bọc rơm (`.cflame` + quầng sáng riêng) · `croissants` · `fleurs` bình tulip (`.tige` đung đưa) · `livres` chồng sách + kính tròn · `theiere` ấm trà chấm bi (`.vapeur` hơi nước). Đặt giữa hai nhân vật: ô trái x 770, ô phải x 1130, ô giữa x 960 — cảnh có `busy:true` (`biblio` đèn, `bureau` laptop, `cinema` bỏng ngô) chỉ có 2 ô. `episode.json` `"decor": [...]`; `pick-setup.mjs` tự bốc 2 món (không trùng cặp tập trước), `--decor a,b` / `--decor none`.
+- Bảng giải thích thêm 2 kiểu: `idiom` (expression imagée: mot à mot → en vrai, mũi tên vẽ ra) và `order` (Remets dans l'ordre : chữ xáo trộn rồi câu ghép dần từng chữ).
+
 ## Trạng thái (2026-11-06)
 - 2026-11-06: thêm 4 bối cảnh (chalet, boulangerie, train, quai), `new-episode.mjs`, `assemble.mjs`, skill `cozy-french-episode`; build cảnh báo khi 2 từ vựng < 3 s. Sau đó: model turbo, `vocab-help.mjs` (IPA + cấp độ CEFR), biểu cảm (8) + bong bóng minh hoạ (24).
 - Xong: demo trình duyệt (10 bối cảnh, 10 trang phục), video thử 34 s đầu của voice `4f.mp3` (`cozy-ep01-test-30s.mp4`), script transcribe + build.

@@ -30,7 +30,7 @@ vm.runInContext(`
   const pick=a=>a[Math.floor(Math.random()*a.length)];
   const rep=d=>Math.ceil(TOTAL/d)+1;
   ${src.slice(a, b)}
-  this.leaSVG=leaSVG; this.matSVG=matSVG; this.SCENES=SCENES; this.EMO_TYPES=EMO_TYPES; this.ILLUS=ILLUS; this.bubbleSVG=bubbleSVG; this.GEST_ELBOW=GEST_ELBOW; this.WALK_GEST_KEYS=WALK_GEST_KEYS;`, sandbox);
+  this.leaSVG=leaSVG; this.matSVG=matSVG; this.SCENES=SCENES; this.EMO_TYPES=EMO_TYPES; this.ILLUS=ILLUS; this.bubbleSVG=bubbleSVG; this.GEST_ELBOW=GEST_ELBOW; this.WALK_GEST_KEYS=WALK_GEST_KEYS; this.DECOR=DECOR; this.withDecor=withDecor;`, sandbox);
 // fabric patterns (stripes, gingham, pois, check, cord…) live in the demo's hidden <defs>
 const PATTERNS = (src.slice(src.indexOf('<svg width="0" height="0"'), src.indexOf('</defs></svg>')).match(/<pattern[\s\S]*?<\/pattern>/g) || []).join('\n      ');
 // emote runtime (EMO_FACE, EMO_ANIM, emoteTL) is copied verbatim into the video script
@@ -42,7 +42,10 @@ const WALK_RUNTIME = src.slice(src.indexOf('/* WALK-RUNTIME-START'), src.indexOf
 if (!sandbox.SCENES[EP.scene]) throw new Error(`unknown scene "${EP.scene}" (have: ${Object.keys(sandbox.SCENES).join(', ')})`);
 // staging (sit at a table / walk side by side) follows the scene; its specific parts live in tools/staging.mjs
 const WALK = !!sandbox.SCENES[EP.scene].walk, STAGE = STAGING[WALK ? 'walk' : 'sit'];
-const sceneSVG = sandbox.SCENES[EP.scene].html();
+// table decor (sit only): EP.decor = ["drapeau", "macarons", "boule"] → slots left / right / centre (centre skipped in busy scenes)
+const DECOR = WALK ? [] : (EP.decor || []);
+DECOR.forEach(d => { if (!sandbox.DECOR[d]) throw new Error(`unknown decor "${d}" (have: ${Object.keys(sandbox.DECOR).join(', ')})`); });
+const sceneSVG = sandbox.withDecor(sandbox.SCENES[EP.scene].html(), DECOR, sandbox.SCENES[EP.scene].busy);
 const leaSVG = sandbox.leaSVG(EP.lea, WALK).replace(/<div class="name">[^<]*<\/div>/, '');
 const matSVG = sandbox.matSVG(EP.mat, WALK).replace(/<div class="name">[^<]*<\/div>/, '');
 
@@ -128,9 +131,11 @@ bubs.forEach((b, i) => {
 //   fill      = gap sentence, the missing word drops in: { title?, sentence: "Je ___ au marché.", answer: "vais", hint?, en?, reveal? }
 //   mistake   = common mistake: wrong sentence gets struck out, the right one slides in: { title?, wrong, right, rightAt?: chunk offset, note? }
 //   scale     = nuance scale from weak to strong (content → heureux → ravi): { title?, low?, high?, items:[…] } (2–6)
+//   idiom     = « expression imagée »: word-for-word vs real meaning, an arrow between: { expr, literal, meaning, icon?, tag?, ex?, exEn?, meaningAt?: chunk offset }
+//   order     = « Remets dans l'ordre ! »: shuffled word tiles, then the sentence builds word by word: { title?, sentence (3–9 words), en?, reveal? }
 // Item = "text" (appears automatically, evenly spread over the segment) or { "text": "…", "at": n } (appears with the n-th chunk of the segment, 0 = first).
 // segments less than 1.5 s apart share one board session (characters stay in the corners; the session keeps the first segment's bg).
-const BOARD_BG = ['liege', 'craie', 'carnet'], BOARD_MODES = ['word', 'sketch', 'compare', 'steps', 'conjug', 'mindmap', 'quiz', 'timeline', 'truefalse', 'fill', 'mistake', 'scale'];
+const BOARD_BG = ['liege', 'craie', 'carnet'], BOARD_MODES = ['word', 'sketch', 'compare', 'steps', 'conjug', 'mindmap', 'quiz', 'timeline', 'truefalse', 'fill', 'mistake', 'scale', 'idiom', 'order'];
 const segs = []; let curSeg = null;
 chunks.forEach((c, i) => {
   if (c.board) { if (curSeg) throw new Error(`chunk ${i}: board opens before chunk ${curSeg.a}'s board is closed`); curSeg = { ...c.board, a: i }; }
@@ -173,6 +178,20 @@ segs.forEach(sg => {
   else if (sg.mode === 'fill') { need('sentence', x => typeof x === 'string' && x.split('___').length === 2, 'sentence with exactly one ___'); need('answer', Boolean, 'answer'); }
   else if (sg.mode === 'mistake') { need('wrong', Boolean, 'wrong'); need('right', Boolean, 'right'); if (sg.rightAt !== undefined) chunkT(sg.rightAt); }
   else if (sg.mode === 'scale') { need('items', x => Array.isArray(x) && x.length >= 2 && x.length <= 6, '2–6 items'); }
+  else if (sg.mode === 'idiom') {
+    need('expr', Boolean, 'expr (the expression)'); need('literal', Boolean, 'literal (word-for-word English)'); need('meaning', Boolean, 'meaning (what it really means)');
+    if (sg.meaningAt !== undefined) chunkT(sg.meaningAt);
+  }
+  else if (sg.mode === 'order') {
+    sg.words = String(sg.sentence || '').trim().split(/\s+/).filter(Boolean);
+    need('words', x => x.length >= 3 && x.length <= 9, 'sentence of 3–9 words');
+    // shuffle seeded by the sentence (same build every time); at most a third of the words may stay in place
+    const r = mulberry32([...sg.sentence].reduce((h, ch) => Math.imul(h ^ ch.charCodeAt(0), 16777619), 2166136261) >>> 0);
+    let p;
+    do { p = sg.words.map((_, i) => i); for (let i = p.length - 1; i > 0; i--) { const j = Math.floor(r() * (i + 1)); [p[i], p[j]] = [p[j], p[i]]; } }
+    while (p.filter((v, i) => v === i).length > p.length / 3);
+    sg.perm = p;   // tile j shows word perm[j]
+  }
   // answer time for quiz-like modes: chunk "reveal" (offset in the segment) or the last chunk, never before the question had time to be read
   sg.revealAt = (minR, what) => {
     const R = sg.reveal !== undefined ? Math.max(minR, sg.times([{ at: sg.reveal }])[0]) : Math.max(minR, chunks[sg.b].show + 0.2);
@@ -234,6 +253,19 @@ sessions.forEach(ss => ss.segs.forEach((sg, j) => {
     if (sg.title) rv.push(['t', t0, 'drop']);
     rv.push(['bar', t0 + 0.4, 'strike'], ['lo', t0 + 0.8, 'fade'], ['hi', t0 + 0.9, 'fade']);
     sg.times(sg.items, t0 + 1.3, end).forEach((t, i) => rv.push(['i' + i, t, 'rise']));
+  } else if (sg.mode === 'idiom') {
+    rv.push(['h', t0, 'drop'], ['l', t0 + 0.7, 'pop']);
+    const Mt = sg.meaningAt !== undefined ? Math.max(t0 + 2, sg.times([{ at: sg.meaningAt }])[0]) : Math.max(t0 + 2, (t0 + end) / 2);
+    rv.push(['ar', Mt - 0.45, 'draw'], ['m', Mt, 'pop']);
+    if (sg.ex) rv.push(['x', Mt + 0.9, 'rise']);
+  } else if (sg.mode === 'order') {
+    const n = sg.words.length;
+    rv.push(['t', t0, 'drop']);
+    sg.perm.forEach((w, j) => rv.push(['s' + j, t0 + 0.4 + j * 0.12, 'pop']));
+    rv.push(['row', t0 + 0.5 + n * 0.12, 'fade']);
+    const R = sg.revealAt(t0 + 0.6 + n * 0.12 + 1.5, 'order answer'), step = Math.min(0.45, Math.max(0.22, (sg.e - 1 - R) / n));
+    sg.words.forEach((w, i) => { const j = sg.perm.indexOf(i); rv.push(['s' + j, R + i * step, 'dim'], ['a' + i, R + i * step, 'drop']); });
+    if (sg.en) rv.push(['e', R + n * step + 0.3, 'fade']);
   }
 }));
 cards.forEach(c => { c.hidden = sessions.some(ss => c.s >= ss.s - 0.3 && c.s <= ss.e + 0.3); });
@@ -375,6 +407,20 @@ const MODE_HTML = {
         ${sg.items.map((it, i) => `<div class="bsci rv" id="bs${k}_i${i}" style="left:${Math.round(X0 + i / (n - 1) * (X1 - X0))}px"><div class="pc" style="font-size:${Math.round(32 + 20 * i / (n - 1))}px">${esc(itemText(it))}</div><b></b></div>`).join('')}`;
   },
 };
+const TILT = [-4, 3, -2, 4, -3, 2, -5, 3, -1];
+Object.assign(MODE_HTML, {
+  idiom: (sg, k) => `
+        <div class="bidh pc rv" id="bs${k}_h"><i class="pin"></i><span class="tag">${esc(sg.tag || 'expression')}</span><div class="bidx">${esc(sg.expr)}</div></div>
+        <div class="bidc l pc rv" id="bs${k}_l"><i class="pin y"></i><div class="bidk">Mot à mot</div>${sg.icon ? `<svg viewBox="0 0 300 200" width="270" height="180"><g filter="url(#pencil)">${sandbox.ILLUS[sg.icon].svg}</g></svg>` : ''}<div class="bidt">“${esc(sg.literal)}”</div></div>
+        <svg class="bmml" viewBox="0 0 1920 1080" width="1920" height="1080"><path class="rv bida" id="bs${k}_ar" d="M880 450 C930 370 990 370 1040 450 M1040 450 l-34 -10 M1040 450 l0 -36" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/></svg>
+        <div class="bidc m pc rv" id="bs${k}_m"><i class="pin"></i><div class="bidk">En vrai</div><div class="bidt">${esc(sg.meaning)}</div></div>
+        ${sg.ex ? `<div class="bidex pc rv" id="bs${k}_x">${esc(sg.ex)}${sg.exEn ? `<i>${esc(sg.exEn)}</i>` : ''}</div>` : ''}`,
+  order: (sg, k) => `
+        ${titleHTML(sg, k, "Remets dans l'ordre !")}
+        <div class="bortiles">${sg.perm.map((w, j) => `<div class="bort pc rv" id="bs${k}_s${j}" style="transform:rotate(${TILT[j % TILT.length]}deg)">${esc(sg.words[w])}</div>`).join('')}</div>
+        <div class="borrow pc rv" id="bs${k}_row"><div class="borws">${sg.words.map((w, i) => `<span class="borslot"><b class="rv" id="bs${k}_a${i}">${esc(w)}</b></span>`).join('')}</div>
+          ${sg.en ? `<div class="borren rv" id="bs${k}_e">${esc(sg.en)}</div>` : ''}</div>`,
+});
 const boardHTML = segs.map((sg, k) => `
       <div class="bseg th-${(sessions.find(ss => ss.segs.includes(sg)) || sg).bg} m-${sg.mode}" id="bseg${k}">${MODE_HTML[sg.mode](sg, k)}
       </div>`).join('');
@@ -608,6 +654,31 @@ const talk = `<template>
     .bsci>div{position:absolute;left:0;bottom:60px;transform:translateX(-50%);white-space:nowrap;padding:12px 26px;border-radius:16px;font-family:Nunito;font-weight:800;color:var(--ink)}
     .bsci b{position:absolute;left:-14px;top:-14px;width:28px;height:28px;border-radius:50%;background:var(--paper);border:5px solid var(--bc);box-sizing:border-box}
     .bsci>div::after{content:"";position:absolute;left:50%;bottom:-38px;height:30px;border-left:4px dashed var(--bc)}
+    /* idiom */
+    .bmml path.rv{opacity:1}
+    .bidh{position:absolute;left:50%;top:66px;transform:translateX(-50%) rotate(-1deg);padding:20px 54px 24px;text-align:center;white-space:nowrap}
+    .bidx{font:700 76px/1.1 'Playfair Display',serif;color:var(--acc);margin-top:8px}
+    .bidc{position:absolute;top:300px;width:470px;padding:34px 34px 30px;text-align:center;box-sizing:border-box;border-radius:14px}
+    .bidc.l{left:390px;transform:rotate(-2.5deg)} .bidc.m{left:1060px;transform:rotate(2deg)}
+    .th-liege .bidc.m,.th-carnet .bidc.m{box-shadow:var(--sh),0 0 0 6px var(--ok)}
+    .bidk{font:800 24px Nunito;letter-spacing:.1em;text-transform:uppercase;color:var(--mut);margin-bottom:10px}
+    .bidc.m .bidk{color:var(--okc)}
+    .bidt{font:800 40px/1.25 Nunito;color:var(--mut);font-style:italic}
+    .bidc.m .bidt{font-size:46px;color:var(--acc2);font-style:normal}
+    .bida{stroke:var(--acc);stroke-width:8;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .th-liege .bida{stroke:#fffaf0}
+    .bidex{position:absolute;left:50%;top:690px;transform:translateX(-50%) rotate(-1deg);width:max-content;max-width:1300px;box-sizing:border-box;padding:22px 44px;font:700 36px/1.3 Nunito;color:var(--ink);text-align:center;border-radius:16px}
+    .bidex i{display:block;font-style:normal;font-weight:600;color:var(--mut);font-size:30px;margin-top:4px}
+    /* order */
+    .bortiles{position:absolute;left:50%;top:220px;transform:translateX(-50%);width:1300px;display:flex;flex-wrap:wrap;justify-content:center;gap:28px 34px}
+    .bort{padding:14px 32px;border-radius:14px;font:800 50px Nunito;color:var(--ink);border:4px solid var(--bc)}
+    .bort:nth-child(3n+1){background:var(--lea)} .bort:nth-child(3n+2){background:var(--mat)} .bort:nth-child(3n){background:var(--note)}
+    .th-craie .bort{background:#ffffff10}
+    .borrow{position:absolute;left:50%;top:500px;transform:translateX(-50%) rotate(-1deg);width:max-content;max-width:1400px;box-sizing:border-box;padding:34px 46px 30px;border-radius:20px;text-align:center}
+    .borws{display:flex;flex-wrap:wrap;justify-content:center;gap:14px 20px}
+    .borslot{display:inline-block;min-width:60px;padding:4px 10px 2px;border-bottom:6px dashed var(--mut);font:800 54px Nunito;color:var(--acc);white-space:nowrap}
+    .borslot b{display:inline-block}
+    .borren{font:600 34px Nunito;color:var(--mut);margin-top:18px;white-space:nowrap}
     .bqx{left:50%;top:610px;width:auto;max-width:1100px;min-height:0;transform:translateX(-50%) rotate(-1.5deg);font-size:32px;padding:30px 36px 24px}
     #talk-badge{position:absolute;right:40px;top:34px;width:132px;height:132px;filter:drop-shadow(0 4px 8px #0004)}
     .cntBox{position:relative;width:18px;height:36px} .cnt{position:absolute;left:0;top:0}
@@ -697,6 +768,13 @@ const talk = `<template>
     q('#talk-scene .boat').forEach(b=>{ tl.fromTo(b,{rotation:-3,y:0},{rotation:3,y:-6,transformOrigin:'50% 100%',duration:1.8,yoyo:true,repeat:rep(1.8),ease:'sine.inOut'},0); tl.fromTo(b,{x:0},{x:-260,duration:TOTAL,ease:'none'},0); });
     q('#talk-scene .lav').forEach(l=>tl.fromTo(l,{rotation:-5},{rotation:5,transformOrigin:'50% 100%',duration:rnd(1.4,2),yoyo:true,repeat:rep(1.4),ease:'sine.inOut'},rnd(0,1)));
     q('#talk-scene .firefly').forEach(fl=>{ tl.fromTo(fl,{x:0,y:0},{x:rnd(-60,60),y:rnd(-50,30),duration:rnd(2.5,4),yoyo:true,repeat:rep(2.5),ease:'sine.inOut'},rnd(0,2)); tl.fromTo(fl,{opacity:.1},{opacity:1,duration:rnd(.5,1),yoyo:true,repeat:rep(.5),ease:'sine.inOut'},rnd(0,2)); });
+    q('#talk-scene .fanion').forEach(p=>{ const F=p.dataset.wave.split('|'), s=gsap.timeline({repeat:rep(1.2)});
+      F.forEach((d,i)=>s.fromTo(p,{attr:{d}},{attr:{d:F[(i+1)%F.length]},duration:.3,ease:'none',immediateRender:false})); tl.add(s,0); });
+    q('#talk-scene .gflake').forEach(fl=>tl.fromTo(fl,{y:0,x:0},{y:rnd(22,36),x:rnd(-6,6),duration:rnd(2.5,4.5),yoyo:true,repeat:rep(2.5),ease:'sine.inOut'},rnd(0,2)));
+    q('#talk-scene .cflame').forEach((fl,i)=>tl.fromTo(fl,{scaleY:1,scaleX:1},{scaleY:rnd(.78,.88),scaleX:rnd(1.06,1.14),transformOrigin:'50% 100%',duration:rnd(.25,.4),yoyo:true,repeat:rep(.25),ease:'sine.inOut'},i*.1));
+    q('#talk-scene .tige').forEach(g=>tl.fromTo(g,{rotation:-3},{rotation:3,transformOrigin:'50% 100%',duration:rnd(1.6,2.4),yoyo:true,repeat:rep(1.6),ease:'sine.inOut'},rnd(0,1)));
+    q('#talk-scene .vapeur').forEach((v,i)=>tl.fromTo(v,{y:0,opacity:0},{y:-30,opacity:.75,duration:2,ease:'sine.out',repeat:rep(2)},i*.65));
+    q('#talk-scene .spin').forEach(r=>tl.fromTo(r,{rotation:0},{rotation:360,transformOrigin:'50% 50%',duration:1.8,ease:'none',repeat:rep(1.8)},0));
     q('#talk-scene .clockhand').forEach((h,i)=>tl.fromTo(h,{rotation:i?0:120},{rotation:i?360:150,transformOrigin:'50% 100%',duration:i?60:TOTAL,ease:'none',repeat:i?rep(60):0},0));
     q('#talk-scene [data-roll]').forEach(el=>{ const [w,v]=el.dataset.roll.split(',').map(Number); tl.fromTo(el,{x:0},{x:-w,duration:w/v,ease:'none',repeat:rep(w/v)},0); });
 
