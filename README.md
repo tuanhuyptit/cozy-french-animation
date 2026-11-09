@@ -58,7 +58,10 @@ curl -LO https://cental.uclouvain.be/cefrlex/static/resources/fr/FleLex_CRF.csv
 ```bash
 ln -s "$PWD/skills/cozy-french-episode" ~/.claude/skills/cozy-french-episode
 ln -s "$PWD/skills/cozy-french-voice" ~/.claude/skills/cozy-french-voice
+ln -s "$PWD/skills/cozy-french-script" ~/.claude/skills/cozy-french-script
 ```
+
+Gửi script đối thủ (vd. "viết kịch bản từ ~/Downloads/script.txt, topic: night routine") → Claude lên kế hoạch Pháp hoá, chờ duyệt rồi viết kịch bản Léa & Mathieu ~20 phút (`cozy-french-script`, hướng dẫn chi tiết trong `skills/cozy-french-script/README.md`).
 
 Gửi kịch bản chữ (vd. "làm voice từ ~/Downloads/ep05.txt") → Claude tự tách người nói, thêm thẻ cảm xúc, gửi duyệt rồi tạo voice (`cozy-french-voice`).
 
