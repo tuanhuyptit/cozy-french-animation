@@ -20,17 +20,18 @@ So a competitor script is always COMPRESSED, never followed line by line. Keep t
 | 3 | `# 3. Petit rendez-vous` | 50–80 | Community moment woven into the conversation, not a dry "like & subscribe": invite listeners to leave a ☕ in the comments if they understood a joke without translating, or to say where they are listening from. Then "the question to keep in mind" for the episode. |
 | 4 | `# 4. Histoire de Léa` | 400–500 | A concrete personal story with sensory details (time, place, objects). Mathieu reacts, teases, asks questions. 1–2 vocab items get a light gloss (see §3); the others are just used. |
 | 5 | `# 5. Histoire de Mathieu` | 350–450 | Mathieu's contrasting story (often the funny "bad example"). 1–2 light glosses. |
-| 6 | `# 6. Pourquoi c'est difficile` | 280–380 | The emotional insight: why we really do this (e.g. "le soir, c'est le seul moment où personne ne nous demande rien"). Calm, sincere, built around one named image (§9). Ends with a short « Bon, attention… » counterpoint. This is what makes viewers comment. |
+| 6 | `# 6. Pourquoi c'est difficile` | 280–380 | The heart moment (§10): a short serious story about a friend, told in the third person, then the emotional insight: why we really do this (e.g. "le soir, c'est le seul moment où personne ne nous demande rien"). Calm, sincere, built around one named image (§9). Ends with a short « Bon, attention… » counterpoint. This is what makes viewers comment. |
 | 7 | `# 7. Jeu de rôle` | 250–320 | "On essaie ? Je suis ta voisine, il est tard…" Announce the scene, ONE line of the situation, then stop: "À vous ! Qu'est-ce que vous diriez ?" (leave the next line as a short pause sentence like "Prenez quelques secondes."). Then play the full mini-dialogue, then 1–2 lines on why it works. |
 | 8 | `# 8. Des solutions simples` | 330–430 | 2–3 practical, small, realistic ideas, each tied to a story detail. Mathieu tests one and fails a bit, Léa adjusts it. Each idea also gets one line linking it to learning French. |
 | 9 | `# 9. À vous de parler` | 150–220 | A sentence frame ("Avant de me coucher, je… Ça m'aide à…"), one example from each host, then "Dites votre phrase à voix haute." |
 | 10 | `# 10. Le petit tour des mots` | 300–380 | Spoken recap of 5 key expressions. For each: remind the moment in the story → simple definition → one NEW example → "On répète : …". Optional mini "Dites-le autrement": 2–3 simple sentences re-said with a natural French expression. |
 | 11 | `# 11. Au revoir` | 120–170 | Back to the block-9 frame + add a reason ("parce que…"). Comment question with a fill-in template ("Écrivez : « Le soir, j'aime… parce que… »"). "Abonnez-vous à The Cozy French". Warm sign-off ("Prenez soin de vous et à très bientôt !"). LAST 2–4 lines: callback to the block-1 joke. |
 
-Rhythm rules: change speaker every 1–3 sentences; a light joke or a funny image at least every ~90 seconds (≈ 200 words); never more than 2 lines of pure explanation in a row before the other host reacts. Full conversation style: §9.
+Each block 4–8 ends with a **question à emporter** (§10). Rhythm rules: change speaker every 1–3 sentences; a light joke or a funny image at least every ~90 seconds (≈ 200 words); never more than 2 lines of pure explanation in a row before the other host reacts. Full conversation style: §9.
 
 ## 3. Vocabulary
 - 13–16 items per episode, level B1–B2, mostly expressions and verbs used in daily life (se changer, avoir du mal à, perdre le fil, au cas où, tomber de sommeil…). Avoid A1 words (manger, maison) and rare C1 literary words.
+- **Three exposures:** every item appears at least twice in blocks 1–9, in two different situations, before it is taught in block 10; one item may also come back as a joke in block 11 (« Tu viens d'utiliser une expression du jour ! »).
 - In blocks 4–8 the conversation comes first. Use every item naturally, but only 4–6 items in the whole body get a **light gloss**, and it is always triggered by the other host: "Décompresser ? Développe." → one short definition line → back to the story. No "Par exemple" sentence there, never two glosses in the same block.
 - The full teaching (definition + NEW example + "On répète") happens in block 10, opened by a memory of the moment: "Tout à l'heure, Mathieu nous parlait de son Navigo oublié… le mot, c'était *laisser traîner*."
 - Space them out: at least ~45 words between two items (the video shows a card for each word).
@@ -125,9 +126,11 @@ SEWC gives its blocks names that come back every episode ("Word Tour", "Say It B
 
 ## 9. Conversation style — how Léa and Mathieu talk
 
+The detailed move bank and the harvesting rules are in `conversation-moves.md`.
+
 The goal: it must sound like two friends who enjoy each other, not a lesson read in two voices. These are the techniques of the best English podcasts, rebuilt for us. Never reuse their images or jokes: invent French ones.
 
-1. **Very short turns, lots of reactions.** Half the lines are 1–8 words. Reactions in French: "Ah bon ?", "Attends…", "Non !", "Mmh.", "Développe.", "C'est-à-dire ?", "Je t'écoute.", "Exactement.", "Oh là là.", "Ha !". One host often finishes the other's sentence:
+1. **Very short turns, lots of reactions.** Half the lines are 1–8 words. Reactions in French: "Ah bon ?", "Attends…", "Non !", "Mmh.", "Développe.", "C'est-à-dire ?", "Je t'écoute.", "Exactement.", "Oh là là.", "Ha !". Backchannels (« Mmh. », « D'accord. », « Je vois. ») follow the rules of move 33 in `conversation-moves.md`. One host often finishes the other's sentence:
    LÉA: Tu as commencé un album…
    MATHIEU: …et j'ai ouvert un musée.
 2. **Named images (2–3 per episode).** A concrete, slightly funny picture that sums up an idea, given a short name and brought back 3–4 times: in the body, in block 10, and in the last line. French-life examples: "le Navigo qui dort dans le tiroir" (a habit you pay for but don't use), "la file de la boulangerie" (waiting for your turn in life), "le dimanche soir" (the fear of Monday), "un variateur, pas un interrupteur" (you slow down a day gradually). One host proposes the image, the other plays with it ("Ça, il faut l'écrire sur un mug."), and it becomes a running joke.
@@ -142,3 +145,31 @@ The goal: it must sound like two friends who enjoy each other, not a lesson read
 11. **The ending is a callback.** The last 2–4 lines bring back the opening joke or the named image, and the very last line is a little joke, not just "au revoir".
 
 Word budget note: these techniques replace explanation, they don't add length. If the episode gets too long, cut inline definitions and summary lines first, never the reactions or the named images.
+
+## 10. Story types, emotional curve, retention
+
+Story types — each has a job:
+1. **Host's own funny story** (blocks 4 and 5): one time, one place, one absurd detail, comic precision ("douze minutes", "vers dix-sept heures trente").
+2. **A friend's serious story, third person** (block 6): « Une amie, appelons-la Claire… ». 4–8 lines, no joke inside. It lets us talk about something real (regret, a boss who humiliates, a parent getting older) without making a host a hero or a victim.
+3. **Hypothetical mini-scene** (block 6, 7 or 8): « Imaginez deux anciens camarades de lycée qui se retrouvent… ». Ends with a question the hosts cannot answer at once.
+
+Emotional curve: funny open → the **heart moment** around 55–65 % (block 6): jokes stop for a few lines, sentences slow down, one host says something like « C'est drôle… mais un peu triste aussi. » → warm and funny ending. This is where comments come from.
+
+**Question à emporter**: blocks 4–8 each end with one short question the listener can ask himself (« Qu'est-ce que je sais faire aujourd'hui que je ne savais pas faire il y a un an ? »). Block 11 repeats 3–4 of them as a fast recap, as questions, not as a summary.
+
+Retention:
+- **Two open loops**: one planted in block 1 (revealed in block 11), one planted in block 4 or 5 (« On y reviendra… ») and closed in block 8.
+- **Roadmap** in block 2: one line on what comes later (« Et à la fin, on fait le petit tour des mots. »).
+- **Subscribe at ~60 %**, after value, at the end of block 7 or 8, inside a joke; block 11 only says « à très bientôt ».
+- **Three different comment hooks**: where you listen from (block 3), a vote on a light disagreement between the hosts (block 6–8, move 22), the sentence frame (block 11).
+- **Fixed last line before the closing joke**, for the YouTube end screen: « Et si vous voulez continuer à écouter, on vous attend dans l'épisode suivant. »
+
+Transitions are said out loud, often with a wink: « Et ça m'amène à… — Tiens donc. », « Belle transition. — Je ne l'ai même pas fait exprès. »
+
+Modern daily life makes it feel real: les vocaux WhatsApp de quatre minutes, le groupe de la famille, Doctolib, Vinted, Leboncoin, l'appli SNCF quand le train a du retard, le Navigo. One or two per episode, never as advertising.
+
+« Dites-le autrement » includes 1–2 **softening** items: how to say something less brutally (« je déteste ça » → « ce n'est pas trop mon truc » ; « tu as tort » → « je ne suis pas sûr de voir les choses comme ça » ; « répète » → « pardon, je n'ai pas bien saisi »).
+
+In block 10, « On répète » says the expression twice, slowly: « On répète : tenir bon. Tenir bon. »
+
+Character continuity: read `character-bible.md`; bring back 1–2 old facts per episode and never contradict them.

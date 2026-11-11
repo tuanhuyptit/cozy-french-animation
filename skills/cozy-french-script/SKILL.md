@@ -8,6 +8,8 @@ description: Viết kịch bản tiếng Pháp Léa & Mathieu (~2.750 từ, ~20 
 Làm đúng theo `GPT-INSTRUCTIONS.md` trong thư mục này (bản dùng chung với ChatGPT), đọc thêm:
 - `references/episode-blueprint.md` — khung 11 phần + số chữ, bảng Pháp hoá, bảng đổi thành ngữ.
 - `references/exemple-style.txt` — đoạn mẫu giọng nói chuyện mục tiêu (blueprint §9); ưu tiên bắt giọng theo file này.
+- `references/conversation-moves.md` — kho "cách nói" tự nhiên rút từ script đối thủ + 3 quy tắc biến đổi; mỗi tập nhặt 8–12 cách nói từ script mới, đưa vào kế hoạch.
+- `references/character-bible.md` — chi tiết nhân vật dùng xuyên các tập; đọc trước khi lên kế hoạch, không được mâu thuẫn. Viết xong tập thì tự thêm chi tiết mới vào file này.
 - `references/exemple-ep03.txt` — đoạn kịch bản thật của kênh (giọng cũ, nhiều giải thích hơn).
 
 Khác với bản ChatGPT:
