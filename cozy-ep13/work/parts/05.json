@@ -1,0 +1,529 @@
+[
+ {
+  "who": "lea",
+  "fr": "On peut commencer par quelque chose de simple,",
+  "en": "You can start with something simple,"
+ },
+ {
+  "who": "lea",
+  "fr": "à condition que notre énergie",
+  "en": "as long as your energy"
+ },
+ {
+  "who": "lea",
+  "fr": "et notre situation le permettent.",
+  "en": "and your situation allow it."
+ },
+ {
+  "who": "mat",
+  "fr": "Comme écouter dix minutes de français",
+  "en": "Like listening to ten minutes of French"
+ },
+ {
+  "who": "mat",
+  "fr": "au lieu de prévoir une grande séance.",
+  "en": "instead of planning a big session."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Mais si tu es réellement épuisé,",
+  "en": "Exactly. But if you're truly exhausted,"
+ },
+ {
+  "who": "lea",
+  "fr": "tu peux aussi choisir de te reposer.",
+  "en": "you can also choose to rest."
+ },
+ {
+  "who": "mat",
+  "fr": "Donc il n'y a pas seulement deux possibilités :",
+  "en": "So there aren't just two options:"
+ },
+ {
+  "who": "mat",
+  "fr": "tout faire parfaitement ou tout abandonner.",
+  "en": "do everything perfectly or give up on everything."
+ },
+ {
+  "who": "lea",
+  "fr": "Voilà. Il existe beaucoup",
+  "en": "That's it. There are lots"
+ },
+ {
+  "who": "lea",
+  "fr": "de possibilités entre ces deux extrêmes.",
+  "en": "of options between those two extremes."
+ },
+ {
+  "who": "mat",
+  "fr": "Tu sais, Léa,",
+  "en": "You know, Léa,"
+ },
+ {
+  "who": "mat",
+  "fr": "j'aimerais te poser une question un peu plus difficile.",
+  "en": "I'd like to ask you a slightly harder question."
+ },
+ {
+  "who": "lea",
+  "fr": "Je t'écoute.",
+  "en": "I'm listening."
+ },
+ {
+  "who": "mat",
+  "fr": "Est-ce qu'il faut toujours persévérer ?",
+  "en": "Should you always persevere?",
+  "emote": "question"
+ },
+ {
+  "who": "mat",
+  "fr": "Parce que parfois,",
+  "en": "Because sometimes,"
+ },
+ {
+  "who": "mat",
+  "fr": "on continue simplement parce qu'on a peur",
+  "en": "we keep going simply because we're afraid"
+ },
+ {
+  "who": "mat",
+  "fr": "d'admettre qu'un projet ne nous correspond plus.",
+  "en": "to admit a project isn't right for us anymore."
+ },
+ {
+  "who": "lea",
+  "fr": "C'est une question importante.",
+  "en": "That's an important question."
+ },
+ {
+  "who": "lea",
+  "fr": "Et non,",
+  "en": "And no,"
+ },
+ {
+  "who": "lea",
+  "fr": "il ne faut pas continuer [à n'importe quel prix.]",
+  "en": "you shouldn't keep going at any cost."
+ },
+ {
+  "who": "mat",
+  "fr": "Donc notre titre « N'abandonne pas maintenant »",
+  "en": "So our title \"Don't give up now\""
+ },
+ {
+  "who": "mat",
+  "fr": "ne signifie pas « N'abandonne jamais ».",
+  "en": "doesn't mean \"Never give up\"."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Si un objectif",
+  "en": "Exactly. If a goal"
+ },
+ {
+  "who": "lea",
+  "fr": "ne correspond plus à nos besoins,",
+  "en": "no longer meets our needs,"
+ },
+ {
+  "who": "lea",
+  "fr": "si une situation nous fait du mal",
+  "en": "if a situation is hurting us"
+ },
+ {
+  "who": "lea",
+  "fr": "ou si nos circonstances ont changé,",
+  "en": "or if our circumstances have changed,"
+ },
+ {
+  "who": "lea",
+  "fr": "il peut être raisonnable de prendre une autre direction.",
+  "en": "it can be sensible to take another direction."
+ },
+ {
+  "who": "mat",
+  "fr": "Mais comment savoir si on veut vraiment arrêter",
+  "en": "But how do you know if you really want to stop"
+ },
+ {
+  "who": "mat",
+  "fr": "ou si on traverse simplement une période difficile ?",
+  "en": "or if you're just going through a hard time?"
+ },
+ {
+  "who": "lea",
+  "fr": "On peut prendre du recul et se poser quelques questions.",
+  "en": "You can step back and ask yourself a few questions.",
+  "board": {
+   "mode": "steps",
+   "bg": "craie",
+   "title": "Les bonnes questions",
+   "items": [
+    {
+     "text": "Cet objectif compte-t-il encore ?",
+     "at": 1
+    },
+    {
+     "text": "Suis-je simplement fatigué ?",
+     "at": 2
+    },
+    {
+     "text": "Ma méthode fonctionne-t-elle ?",
+     "at": 3
+    },
+    {
+     "text": "Ai-je besoin d'aide ?",
+     "at": 4
+    }
+   ]
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "Est-ce que cet objectif compte encore pour moi ?",
+  "en": "Does this goal still matter to me?"
+ },
+ {
+  "who": "lea",
+  "fr": "Est-ce que je suis simplement fatigué ?",
+  "en": "Am I simply tired?"
+ },
+ {
+  "who": "lea",
+  "fr": "Est-ce que ma méthode fonctionne ?",
+  "en": "Is my method working?"
+ },
+ {
+  "who": "lea",
+  "fr": "Est-ce que j'ai besoin d'aide ?",
+  "en": "Do I need help?",
+  "boardEnd": true
+ },
+ {
+  "who": "mat",
+  "fr": "Et si les réponses ne sont pas claires ?",
+  "en": "And what if the answers aren't clear?"
+ },
+ {
+  "who": "lea",
+  "fr": "Alors, on peut se donner du temps.",
+  "en": "Then, you can give yourself time."
+ },
+ {
+  "who": "lea",
+  "fr": "Certaines décisions importantes méritent de la réflexion.",
+  "en": "Some important decisions deserve some thought."
+ },
+ {
+  "who": "mat",
+  "fr": "Donc parfois, il faut continuer.",
+  "en": "So sometimes, you have to keep going."
+ },
+ {
+  "who": "mat",
+  "fr": "Parfois, il faut ralentir.",
+  "en": "Sometimes, you have to slow down."
+ },
+ {
+  "who": "mat",
+  "fr": "Et parfois, il faut changer de direction.",
+  "en": "And sometimes, you have to change direction."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. La persévérance ne doit pas devenir une obligation",
+  "en": "Exactly. Perseverance shouldn't become an obligation"
+ },
+ {
+  "who": "lea",
+  "fr": "de souffrir ou de rester",
+  "en": "to suffer or to stay"
+ },
+ {
+  "who": "lea",
+  "fr": "dans une situation qui ne nous convient plus.",
+  "en": "in a situation that no longer suits us."
+ },
+ {
+  "who": "mat",
+  "fr": "J'aime beaucoup cette nuance.",
+  "en": "I really like that nuance.",
+  "emote": "coeur"
+ },
+ {
+  "who": "mat",
+  "fr": "Elle me semble plus humaine.",
+  "en": "It feels more human to me."
+ },
+ {
+  "who": "lea",
+  "fr": "Moi aussi.",
+  "en": "Me too."
+ },
+ {
+  "who": "lea",
+  "fr": "Et je crois que c'est une belle",
+  "en": "And I think it's a lovely"
+ },
+ {
+  "who": "lea",
+  "fr": "manière de comprendre notre sujet.",
+  "en": "way to understand our topic."
+ },
+ {
+  "who": "lea",
+  "fr": "Avant d'abandonner quelque chose",
+  "en": "Before giving up on something"
+ },
+ {
+  "who": "lea",
+  "fr": "qui compte encore pour nous,",
+  "en": "that still matters to us,"
+ },
+ {
+  "who": "lea",
+  "fr": "il peut être utile de chercher",
+  "en": "it can help to look for"
+ },
+ {
+  "who": "lea",
+  "fr": "ce qui rend la situation difficile.",
+  "en": "what's making the situation difficult."
+ },
+ {
+  "who": "mat",
+  "fr": "Et parfois,",
+  "en": "And sometimes,"
+ },
+ {
+  "who": "mat",
+  "fr": "une petite modification suffit",
+  "en": "a small change is enough"
+ },
+ {
+  "who": "mat",
+  "fr": "à nous permettre de continuer.",
+  "en": "to let us keep going."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Maintenant,",
+  "en": "Exactly. Now,"
+ },
+ {
+  "who": "lea",
+  "fr": "si nous revenions sur quelques",
+  "en": "shall we go back over a few"
+ },
+ {
+  "who": "lea",
+  "fr": "expressions françaises de notre conversation ?",
+  "en": "French expressions from our conversation?"
+ },
+ {
+  "who": "mat",
+  "fr": "Excellente idée ! Commençons avec [« baisser les bras ».]",
+  "en": "Great idea! Let's start with \"baisser les bras\".",
+  "emote": "idee"
+ },
+ {
+  "who": "lea",
+  "fr": "« Baisser les bras » signifie abandonner ses efforts,",
+  "en": "\"Baisser les bras\" means giving up your efforts,"
+ },
+ {
+  "who": "lea",
+  "fr": "généralement parce qu'on est découragé.",
+  "en": "usually because you're discouraged."
+ },
+ {
+  "who": "mat",
+  "fr": "Par exemple : « Même si ce projet est difficile,",
+  "en": "For example: \"Even if this project is hard,"
+ },
+ {
+  "who": "mat",
+  "fr": "je ne veux pas baisser les bras trop vite. »",
+  "en": "I don't want to give up too quickly.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Deuxième expression : « tenir bon ».",
+  "en": "Second expression: \"tenir bon\"."
+ },
+ {
+  "who": "mat",
+  "fr": "« Tenir bon »",
+  "en": "\"Tenir bon\""
+ },
+ {
+  "who": "mat",
+  "fr": "signifie rester déterminé face à une difficulté.",
+  "en": "means staying determined in the face of difficulty."
+ },
+ {
+  "who": "lea",
+  "fr": "Par exemple : « Cette période a été compliquée,",
+  "en": "For example: \"This period was complicated,"
+ },
+ {
+  "who": "lea",
+  "fr": "mais elle a réussi à tenir bon. »",
+  "en": "but she managed to hold on.\""
+ },
+ {
+  "who": "mat",
+  "fr": "Troisième expression : « se décourager ».",
+  "en": "Third expression: \"se décourager\"."
+ },
+ {
+  "who": "lea",
+  "fr": "Se décourager signifie perdre l'envie",
+  "en": "\"Se décourager\" means losing the drive"
+ },
+ {
+  "who": "lea",
+  "fr": "ou la confiance nécessaires pour continuer.",
+  "en": "or the confidence you need to keep going."
+ },
+ {
+  "who": "mat",
+  "fr": "Par exemple :",
+  "en": "For example:"
+ },
+ {
+  "who": "mat",
+  "fr": "« Quand je ne comprends pas une conversation en français,",
+  "en": "\"When I don't understand a conversation in French,"
+ },
+ {
+  "who": "mat",
+  "fr": "j'ai parfois [tendance à] me décourager. »",
+  "en": "I sometimes tend to get discouraged.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Quatrième expression : « encaisser un coup dur ».",
+  "en": "Fourth expression: \"encaisser un coup dur\"."
+ },
+ {
+  "who": "mat",
+  "fr": "Cela signifie traverser une grande",
+  "en": "It means going through a big"
+ },
+ {
+  "who": "mat",
+  "fr": "déception ou une expérience difficile.",
+  "en": "disappointment or a difficult experience."
+ },
+ {
+  "who": "lea",
+  "fr": "Par exemple : « Après cette mauvaise nouvelle,",
+  "en": "For example: \"After that bad news,"
+ },
+ {
+  "who": "lea",
+  "fr": "j'ai eu besoin de temps pour encaisser le coup. »",
+  "en": "I needed time to take the blow.\""
+ },
+ {
+  "who": "mat",
+  "fr": "Cinquième expression :",
+  "en": "Fifth expression:"
+ },
+ {
+  "who": "mat",
+  "fr": "« reprendre là où on s'était arrêté ».",
+  "en": "\"reprendre là où on s'était arrêté\"."
+ },
+ {
+  "who": "lea",
+  "fr": "Cela signifie recommencer une activité après une pause,",
+  "en": "It means starting an activity again after a break,"
+ },
+ {
+  "who": "lea",
+  "fr": "sans nécessairement revenir au tout début.",
+  "en": "without necessarily going back to the very beginning."
+ },
+ {
+  "who": "mat",
+  "fr": "Par exemple :",
+  "en": "For example:"
+ },
+ {
+  "who": "mat",
+  "fr": "« J'ai interrompu mes études pendant quelque temps,",
+  "en": "\"I interrupted my studies for a while,"
+ },
+ {
+  "who": "mat",
+  "fr": "mais maintenant,",
+  "en": "but now,"
+ },
+ {
+  "who": "mat",
+  "fr": "je vais reprendre là où je m'étais arrêté. »",
+  "en": "I'm going to pick up where I left off.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Et notre dernière expression : « avancer à son rythme ».",
+  "en": "And our last expression: \"avancer à son rythme\"."
+ },
+ {
+  "who": "mat",
+  "fr": "Cela signifie progresser en respectant",
+  "en": "It means making progress while respecting"
+ },
+ {
+  "who": "mat",
+  "fr": "ses propres capacités et ses circonstances.",
+  "en": "your own abilities and circumstances."
+ },
+ {
+  "who": "lea",
+  "fr": "Par exemple :",
+  "en": "For example:"
+ },
+ {
+  "who": "lea",
+  "fr": "« Je préfère avancer à mon rythme plutôt",
+  "en": "\"I'd rather go at my own pace"
+ },
+ {
+  "who": "lea",
+  "fr": "que de me comparer constamment aux autres. »",
+  "en": "than constantly compare myself to others.\""
+ },
+ {
+  "who": "mat",
+  "fr": "Voilà six expressions que vous pouvez",
+  "en": "There you go, six expressions you can"
+ },
+ {
+  "who": "mat",
+  "fr": "facilement utiliser dans vos conversations quotidiennes.",
+  "en": "easily use in your everyday conversations."
+ },
+ {
+  "who": "lea",
+  "fr": "Et maintenant,",
+  "en": "And now,"
+ },
+ {
+  "who": "lea",
+  "fr": "regardons comment exprimer certaines idées",
+  "en": "let's see how to express some ideas"
+ },
+ {
+  "who": "lea",
+  "fr": "de manière plus naturelle en français.",
+  "en": "in a more natural way in French."
+ },
+ {
+  "who": "mat",
+  "fr": "Commençons par : « Je n'ai plus de motivation. »",
+  "en": "Let's start with: \"I have no motivation left.\""
+ }
+]

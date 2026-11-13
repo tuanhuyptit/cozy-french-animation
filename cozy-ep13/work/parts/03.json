@@ -1,0 +1,580 @@
+[
+ {
+  "who": "mat",
+  "fr": "Je t'écoute.",
+  "en": "I'm listening."
+ },
+ {
+  "who": "lea",
+  "fr": "Une amie à moi rêvait de devenir pâtissière.",
+  "en": "A friend of mine dreamed of becoming a pastry chef."
+ },
+ {
+  "who": "lea",
+  "fr": "Elle adorait préparer des desserts",
+  "en": "She loved making desserts"
+ },
+ {
+  "who": "lea",
+  "fr": "et passait beaucoup de temps à apprendre de nouvelles techniques.",
+  "en": "and spent a lot of time learning new techniques."
+ },
+ {
+  "who": "mat",
+  "fr": "Ah, la pâtisserie !",
+  "en": "Ah, pastry!",
+  "emote": "coeur",
+  "illus": "repas",
+  "label": "la pâtisserie"
+ },
+ {
+  "who": "mat",
+  "fr": "Voilà un sujet que j'approuve totalement.",
+  "en": "Now that's a subject I fully approve of."
+ },
+ {
+  "who": "lea",
+  "fr": "Je savais que tu allais dire ça !",
+  "en": "I knew you'd say that!",
+  "emote": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Mais écoute la suite.",
+  "en": "But listen to what happened next."
+ },
+ {
+  "who": "lea",
+  "fr": "Après plusieurs mois de formation,",
+  "en": "After several months of training,"
+ },
+ {
+  "who": "lea",
+  "fr": "elle a participé à un concours.",
+  "en": "she entered a competition."
+ },
+ {
+  "who": "mat",
+  "fr": "Elle devait être très enthousiaste.",
+  "en": "She must have been really excited."
+ },
+ {
+  "who": "lea",
+  "fr": "Oui.",
+  "en": "Yes."
+ },
+ {
+  "who": "lea",
+  "fr": "Elle avait travaillé pendant des semaines sur un dessert spécial.",
+  "en": "She'd worked for weeks on a special dessert."
+ },
+ {
+  "who": "lea",
+  "fr": "Mais le jour du concours,",
+  "en": "But on the day of the competition,"
+ },
+ {
+  "who": "lea",
+  "fr": "une partie de sa préparation s'est abîmée.",
+  "en": "part of her creation got damaged.",
+  "emote": "triste"
+ },
+ {
+  "who": "mat",
+  "fr": "Oh non ! Quelle déception.",
+  "en": "Oh no! What a disappointment.",
+  "emote": "triste"
+ },
+ {
+  "who": "lea",
+  "fr": "Elle était tellement triste",
+  "en": "She was so sad"
+ },
+ {
+  "who": "lea",
+  "fr": "qu'elle a commencé à [douter de] ses capacités.",
+  "en": "that she started to doubt her abilities."
+ },
+ {
+  "who": "lea",
+  "fr": "Elle se disait :",
+  "en": "She kept telling herself:"
+ },
+ {
+  "who": "lea",
+  "fr": "« Peut-être que je ne suis pas faite pour ce métier. »",
+  "en": "\"Maybe I'm not cut out for this job.\""
+ },
+ {
+  "who": "mat",
+  "fr": "C'est difficile.",
+  "en": "That's hard."
+ },
+ {
+  "who": "mat",
+  "fr": "Parce qu'elle avait consacré beaucoup",
+  "en": "Because she'd put a lot"
+ },
+ {
+  "who": "mat",
+  "fr": "de temps et d'énergie à son rêve.",
+  "en": "of time and energy into her dream."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Mais ce qui me frappait,",
+  "en": "Exactly. But what struck me",
+  "board": {
+   "mode": "compare",
+   "bg": "craie",
+   "title": "Un événement… ou un jugement ?",
+   "left": {
+    "head": "un événement",
+    "sub": "ce qui s'est passé",
+    "items": [
+     {
+      "text": "« Mon dessert n'a pas réussi »",
+      "at": 2
+     }
+    ]
+   },
+   "right": {
+    "head": "un jugement",
+    "sub": "sur soi-même",
+    "items": [
+     {
+      "text": "« Je ne suis pas capable de réussir »",
+      "at": 3
+     }
+    ]
+   }
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "c'est qu'elle ne disait plus seulement",
+  "en": "was that she no longer just said"
+ },
+ {
+  "who": "lea",
+  "fr": "« Mon dessert n'a pas réussi ».",
+  "en": "\"My dessert didn't work out\"."
+ },
+ {
+  "who": "lea",
+  "fr": "Elle disait « Je ne suis pas capable de réussir ».",
+  "en": "She said \"I'm not capable of succeeding\"."
+ },
+ {
+  "who": "mat",
+  "fr": "Ah... Elle transformait un événement",
+  "en": "Ah... She was turning a difficult event",
+  "emote": "idee"
+ },
+ {
+  "who": "mat",
+  "fr": "difficile en jugement sur elle-même.",
+  "en": "into a judgement about herself.",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Oui. Et cela arrive souvent après un échec.",
+  "en": "Yes. And that often happens after a failure."
+ },
+ {
+  "who": "lea",
+  "fr": "Nous oublions que le résultat d'une seule",
+  "en": "We forget that the result of a single"
+ },
+ {
+  "who": "lea",
+  "fr": "expérience ne résume pas toutes nos capacités.",
+  "en": "experience doesn't sum up all our abilities."
+ },
+ {
+  "who": "mat",
+  "fr": "Alors, qu'est-ce qu'elle a fait ?",
+  "en": "So, what did she do?"
+ },
+ {
+  "who": "lea",
+  "fr": "Elle a pris quelques semaines de repos.",
+  "en": "She took a few weeks off."
+ },
+ {
+  "who": "lea",
+  "fr": "Puis elle a discuté avec une ancienne professeure,",
+  "en": "Then she talked with a former teacher,"
+ },
+ {
+  "who": "lea",
+  "fr": "qui l'a aidée à comprendre",
+  "en": "who helped her understand"
+ },
+ {
+  "who": "lea",
+  "fr": "ses erreurs et à retrouver confiance.",
+  "en": "her mistakes and regain her confidence."
+ },
+ {
+  "who": "mat",
+  "fr": "Et elle a recommencé ?",
+  "en": "And she started again?",
+  "emote": "question"
+ },
+ {
+  "who": "lea",
+  "fr": "Oui, mais doucement.",
+  "en": "Yes, but gently."
+ },
+ {
+  "who": "lea",
+  "fr": "Elle a commencé à préparer des desserts",
+  "en": "She started making desserts"
+ },
+ {
+  "who": "lea",
+  "fr": "pour sa famille et ses amis,",
+  "en": "for her family and friends,",
+  "illus": "famille",
+  "label": "sa famille"
+ },
+ {
+  "who": "lea",
+  "fr": "simplement pour retrouver le plaisir de créer.",
+  "en": "just to rediscover the joy of creating."
+ },
+ {
+  "who": "mat",
+  "fr": "Et aujourd'hui ?",
+  "en": "And today?"
+ },
+ {
+  "who": "lea",
+  "fr": "Elle travaille toujours dans ce domaine.",
+  "en": "She still works in that field."
+ },
+ {
+  "who": "lea",
+  "fr": "Son parcours n'a pas été exactement celui qu'elle imaginait,",
+  "en": "Her path wasn't exactly the one she imagined,"
+ },
+ {
+  "who": "lea",
+  "fr": "mais elle a appris",
+  "en": "but she learned"
+ },
+ {
+  "who": "lea",
+  "fr": "à ne pas laisser une seule déception décider de son avenir.",
+  "en": "not to let one disappointment decide her future."
+ },
+ {
+  "who": "mat",
+  "fr": "J'aime cette histoire.",
+  "en": "I like that story.",
+  "emote": "coeur"
+ },
+ {
+  "who": "mat",
+  "fr": "Elle me rappelle qu'il faut parfois distinguer",
+  "en": "It reminds me that sometimes you have to tell the difference between"
+ },
+ {
+  "who": "mat",
+  "fr": "la peur de recommencer et le véritable désir d'abandonner.",
+  "en": "the fear of starting again and a real wish to give up."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Mon amie aimait toujours la pâtisserie.",
+  "en": "Exactly. My friend still loved pastry."
+ },
+ {
+  "who": "lea",
+  "fr": "Elle avait simplement peur de revivre la même déception.",
+  "en": "She was simply afraid of going through the same disappointment."
+ },
+ {
+  "who": "mat",
+  "fr": "Et cette peur est compréhensible.",
+  "en": "And that fear is understandable."
+ },
+ {
+  "who": "lea",
+  "fr": "Bien sûr.",
+  "en": "Of course."
+ },
+ {
+  "who": "lea",
+  "fr": "Il ne faut pas toujours essayer de transformer",
+  "en": "We shouldn't always try to turn"
+ },
+ {
+  "who": "lea",
+  "fr": "immédiatement une expérience",
+  "en": "a painful experience immediately"
+ },
+ {
+  "who": "lea",
+  "fr": "douloureuse en message positif.",
+  "en": "into a positive message."
+ },
+ {
+  "who": "lea",
+  "fr": "On peut être triste, déçu et avoir besoin de temps.",
+  "en": "You can be sad, disappointed and need time."
+ },
+ {
+  "who": "mat",
+  "fr": "Tu sais,",
+  "en": "You know,",
+  "board": {
+   "mode": "idiom",
+   "bg": "liege",
+   "expr": "encaisser un coup dur",
+   "literal": "to cash in a hard punch",
+   "meaning": "to take a hard blow, to get through a tough setback",
+   "ipa": "/ɑ̃.ke.se œ̃ ku dyʁ/",
+   "ex": "Il a fallu du temps à Paul pour encaisser ce coup dur.",
+   "exEn": "It took Paul time to get over that hard blow.",
+   "meaningAt": 5
+  }
+ },
+ {
+  "who": "mat",
+  "fr": "il existe une expression française",
+  "en": "there's a French expression"
+ },
+ {
+  "who": "mat",
+  "fr": "qui correspond bien à cette situation :",
+  "en": "that fits this situation well:"
+ },
+ {
+  "who": "mat",
+  "fr": "[« encaisser un coup dur ».]",
+  "en": "\"encaisser un coup dur\"."
+ },
+ {
+  "who": "lea",
+  "fr": "Très juste. « Encaisser un coup dur »",
+  "en": "Spot on. \"Encaisser un coup dur\""
+ },
+ {
+  "who": "lea",
+  "fr": "signifie traverser une expérience particulièrement difficile.",
+  "en": "means going through a particularly difficult experience."
+ },
+ {
+  "who": "mat",
+  "fr": "Par exemple : « Après avoir échoué à son examen,",
+  "en": "For example: \"After failing his exam,"
+ },
+ {
+  "who": "mat",
+  "fr": "il a eu besoin de temps pour encaisser le coup. »",
+  "en": "he needed time to take the blow.\"",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Et après avoir pris du recul,",
+  "en": "Exactly. And after stepping back,"
+ },
+ {
+  "who": "lea",
+  "fr": "on peut réfléchir à la suite.",
+  "en": "you can think about what comes next."
+ },
+ {
+  "who": "mat",
+  "fr": "Mais si on a déjà essayé plusieurs fois sans réussir,",
+  "en": "But if you've already tried several times without success,",
+  "emote": "question"
+ },
+ {
+  "who": "mat",
+  "fr": "comment garder confiance ?",
+  "en": "how do you stay confident?"
+ },
+ {
+  "who": "lea",
+  "fr": "Peut-être en arrêtant de regarder",
+  "en": "Maybe by no longer looking"
+ },
+ {
+  "who": "lea",
+  "fr": "uniquement le résultat final.",
+  "en": "only at the final result."
+ },
+ {
+  "who": "lea",
+  "fr": "Il peut être utile d'observer",
+  "en": "It can help to notice"
+ },
+ {
+  "who": "lea",
+  "fr": "ce que nous avons appris pendant le parcours.",
+  "en": "what we've learned along the way."
+ },
+ {
+  "who": "mat",
+  "fr": "Donc même si je n'ai pas encore atteint mon objectif,",
+  "en": "So even if I haven't reached my goal yet,"
+ },
+ {
+  "who": "mat",
+  "fr": "certains progrès peuvent déjà avoir de la valeur.",
+  "en": "some progress can already be worth something."
+ },
+ {
+  "who": "lea",
+  "fr": "Absolument. Et c'est particulièrement",
+  "en": "Absolutely. And that's especially"
+ },
+ {
+  "who": "lea",
+  "fr": "vrai dans l'apprentissage d'une langue.",
+  "en": "true when learning a language."
+ },
+ {
+  "who": "mat",
+  "fr": "Ah oui.",
+  "en": "Ah yes."
+ },
+ {
+  "who": "mat",
+  "fr": "Parce qu'on peut étudier",
+  "en": "Because you can study"
+ },
+ {
+  "who": "mat",
+  "fr": "le français pendant plusieurs mois",
+  "en": "French for several months"
+ },
+ {
+  "who": "mat",
+  "fr": "et avoir l'impression de toujours faire les mêmes erreurs.",
+  "en": "and feel like you keep making the same mistakes."
+ },
+ {
+  "who": "lea",
+  "fr": "Pourtant, si on compare notre niveau actuel",
+  "en": "And yet, if we compare our current level",
+  "board": {
+   "mode": "timeline",
+   "bg": "carnet",
+   "title": "Mes progrès en français",
+   "items": [
+    {
+     "label": "avant",
+     "text": "quelques mots dans un podcast",
+     "at": 4
+    },
+    {
+     "label": "aujourd'hui",
+     "text": "une conversation entière",
+     "at": 6
+    },
+    {
+     "label": "avant",
+     "text": "peur de parler",
+     "at": 8
+    },
+    {
+     "label": "aujourd'hui",
+     "text": "on ose poser des questions",
+     "at": 9
+    }
+   ]
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "avec celui d'il y a six mois,",
+  "en": "with where we were six months ago,"
+ },
+ {
+  "who": "lea",
+  "fr": "on remarque parfois de grandes différences.",
+  "en": "we sometimes notice big differences."
+ },
+ {
+  "who": "mat",
+  "fr": "Par exemple, avant,",
+  "en": "For example, before,"
+ },
+ {
+  "who": "mat",
+  "fr": "on comprenait seulement quelques mots dans un podcast.",
+  "en": "you only understood a few words in a podcast."
+ },
+ {
+  "who": "lea",
+  "fr": "Et aujourd'hui,",
+  "en": "And today,"
+ },
+ {
+  "who": "lea",
+  "fr": "on arrive peut-être à suivre une conversation entière,",
+  "en": "maybe you can follow a whole conversation,"
+ },
+ {
+  "who": "lea",
+  "fr": "même si certaines expressions restent difficiles.",
+  "en": "even if some expressions are still difficult."
+ },
+ {
+  "who": "mat",
+  "fr": "Ou avant, on avait peur de parler,",
+  "en": "Or before, you were afraid to speak,"
+ },
+ {
+  "who": "mat",
+  "fr": "alors qu'aujourd'hui, on ose poser des questions.",
+  "en": "whereas today, you dare to ask questions."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Et parfois,",
+  "en": "Exactly. And sometimes,"
+ },
+ {
+  "who": "lea",
+  "fr": "le progrès n'est pas de ne plus faire d'erreurs.",
+  "en": "progress isn't about making no more mistakes."
+ },
+ {
+  "who": "lea",
+  "fr": "C'est de réussir à continuer malgré elles.",
+  "en": "It's about managing to keep going despite them.",
+  "boardEnd": true
+ },
+ {
+  "who": "mat",
+  "fr": "J'aime beaucoup cette idée.",
+  "en": "I really like that idea."
+ },
+ {
+  "who": "mat",
+  "fr": "Parce que la confiance ne se mesure",
+  "en": "Because confidence isn't measured"
+ },
+ {
+  "who": "mat",
+  "fr": "pas uniquement au nombre de mots qu'on connaît.",
+  "en": "only by how many words you know."
+ },
+ {
+  "who": "lea",
+  "fr": "Oui. Elle se construit aussi quand",
+  "en": "Yes. It also grows when"
+ },
+ {
+  "who": "lea",
+  "fr": "nous découvrons que nous pouvons communiquer,",
+  "en": "we discover that we can communicate,"
+ }
+]

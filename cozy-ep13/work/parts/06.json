@@ -1,0 +1,520 @@
+[
+ {
+  "who": "lea",
+  "fr": "On peut dire :",
+  "en": "You can say:"
+ },
+ {
+  "who": "lea",
+  "fr": "« En ce moment, j'ai du mal à trouver la motivation. »",
+  "en": "\"Right now, I'm struggling to find motivation.\""
+ },
+ {
+  "who": "mat",
+  "fr": "Ou : « Je traverse une période où",
+  "en": "Or: \"I'm going through a period where"
+ },
+ {
+  "who": "mat",
+  "fr": "j'ai moins d'énergie pour mes projets. »",
+  "en": "I have less energy for my projects.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Très bien.",
+  "en": "Very good."
+ },
+ {
+  "who": "lea",
+  "fr": "Ces phrases montrent",
+  "en": "These sentences show"
+ },
+ {
+  "who": "lea",
+  "fr": "que la difficulté peut être temporaire.",
+  "en": "that the difficulty can be temporary."
+ },
+ {
+  "who": "mat",
+  "fr": "Deuxième phrase : « Je suis paresseux. »",
+  "en": "Second sentence: \"I'm lazy.\"",
+  "board": {
+   "mode": "mistake",
+   "bg": "carnet",
+   "title": "Dis-le autrement !",
+   "wrong": "Je suis paresseux.",
+   "right": "Je n'ai pas encore trouvé un rythme qui me convient.",
+   "rightAt": 4,
+   "note": "décrire la situation, sans se juger"
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "On peut dire :",
+  "en": "You can say:"
+ },
+ {
+  "who": "lea",
+  "fr": "« J'ai du mal à garder",
+  "en": "\"I'm finding it hard to keep"
+ },
+ {
+  "who": "lea",
+  "fr": "une routine régulière en ce moment. »",
+  "en": "a regular routine at the moment.\""
+ },
+ {
+  "who": "mat",
+  "fr": "Ou : « Je n'ai pas encore",
+  "en": "Or: \"I haven't yet"
+ },
+ {
+  "who": "mat",
+  "fr": "trouvé un rythme qui me convient. »",
+  "en": "found a rhythm that suits me.\"",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Troisième phrase :",
+  "en": "Exactly. Third sentence:"
+ },
+ {
+  "who": "lea",
+  "fr": "« J'ai échoué, donc je veux arrêter. »",
+  "en": "\"I failed, so I want to stop.\""
+ },
+ {
+  "who": "mat",
+  "fr": "On pourrait dire :",
+  "en": "You could say:"
+ },
+ {
+  "who": "mat",
+  "fr": "« Cette tentative n'a pas fonctionné comme je l'espérais,",
+  "en": "\"This attempt didn't work out the way I hoped,"
+ },
+ {
+  "who": "mat",
+  "fr": "mais je peux essayer autrement. »",
+  "en": "but I can try a different way.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Ou : « Je suis déçue,",
+  "en": "Or: \"I'm disappointed,"
+ },
+ {
+  "who": "lea",
+  "fr": "mais je préfère prendre du recul avant de décider. »",
+  "en": "but I'd rather step back before deciding.\""
+ },
+ {
+  "who": "mat",
+  "fr": "Quatrième phrase : « Je recommencerai lundi. »",
+  "en": "Fourth sentence: \"I'll start again on Monday.\""
+ },
+ {
+  "who": "lea",
+  "fr": "On peut dire : « Je vais m'y remettre dès que possible. »",
+  "en": "You can say: \"I'll get back to it as soon as possible.\""
+ },
+ {
+  "who": "mat",
+  "fr": "Ah, « s'y remettre » !",
+  "en": "Ah, \"s'y remettre\"!",
+  "emote": "idee"
+ },
+ {
+  "who": "mat",
+  "fr": "Cela signifie recommencer",
+  "en": "It means starting again"
+ },
+ {
+  "who": "mat",
+  "fr": "une activité qu'on avait interrompue.",
+  "en": "an activity you'd interrupted."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Par exemple :",
+  "en": "Exactly. For example:"
+ },
+ {
+  "who": "lea",
+  "fr": "« J'avais arrêté de lire régulièrement,",
+  "en": "\"I'd stopped reading regularly,"
+ },
+ {
+  "who": "lea",
+  "fr": "mais j'aimerais m'y remettre. »",
+  "en": "but I'd like to get back into it.\""
+ },
+ {
+  "who": "mat",
+  "fr": "Cinquième phrase : « Je dois tout faire aujourd'hui. »",
+  "en": "Fifth sentence: \"I have to do everything today.\""
+ },
+ {
+  "who": "lea",
+  "fr": "On peut dire : « Je vais me concentrer [sur l'essentiel. »]",
+  "en": "You can say: \"I'm going to focus on what matters most.\""
+ },
+ {
+  "who": "mat",
+  "fr": "Ou : « Je vais commencer par ce qui compte le plus. »",
+  "en": "Or: \"I'll start with what matters most.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Et notre dernière phrase :",
+  "en": "And our last sentence:"
+ },
+ {
+  "who": "lea",
+  "fr": "« Si je ne peux pas tout faire,",
+  "en": "\"If I can't do everything,"
+ },
+ {
+  "who": "lea",
+  "fr": "je préfère ne rien faire. »",
+  "en": "I'd rather do nothing.\""
+ },
+ {
+  "who": "mat",
+  "fr": "On peut dire :",
+  "en": "You can say:"
+ },
+ {
+  "who": "mat",
+  "fr": "« Je vais faire ce que je peux aujourd'hui,",
+  "en": "\"I'll do what I can today,"
+ },
+ {
+  "who": "mat",
+  "fr": "même si ce n'est pas parfait. »",
+  "en": "even if it's not perfect.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Voilà. Ces expressions permettent de parler",
+  "en": "There you go. These expressions let us talk"
+ },
+ {
+  "who": "lea",
+  "fr": "de nos difficultés sans être",
+  "en": "about our difficulties without being"
+ },
+ {
+  "who": "lea",
+  "fr": "inutilement sévères envers nous-mêmes.",
+  "en": "needlessly hard on ourselves."
+ },
+ {
+  "who": "mat",
+  "fr": "Tu sais, Léa,",
+  "en": "You know, Léa,"
+ },
+ {
+  "who": "mat",
+  "fr": "cette conversation m'a donné envie de revoir",
+  "en": "this conversation made me want to rethink"
+ },
+ {
+  "who": "mat",
+  "fr": "mon fameux programme du dimanche soir.",
+  "en": "my famous Sunday-evening plan."
+ },
+ {
+  "who": "lea",
+  "fr": "Ah oui ? Qu'est-ce que tu vas changer ?",
+  "en": "Oh really? What are you going to change?",
+  "emote": "question"
+ },
+ {
+  "who": "mat",
+  "fr": "Je vais choisir deux habitudes au lieu de six.",
+  "en": "I'm going to pick two habits instead of six."
+ },
+ {
+  "who": "mat",
+  "fr": "Marcher un peu plus souvent",
+  "en": "Walking a bit more often",
+  "illus": "sport",
+  "label": "marcher"
+ },
+ {
+  "who": "mat",
+  "fr": "et lire quelques pages avant de dormir.",
+  "en": "and reading a few pages before bed."
+ },
+ {
+  "who": "lea",
+  "fr": "Ça me semble beaucoup plus réaliste.",
+  "en": "That sounds much more realistic."
+ },
+ {
+  "who": "mat",
+  "fr": "Et si je manque une journée,",
+  "en": "And if I miss a day,"
+ },
+ {
+  "who": "mat",
+  "fr": "je ne vais pas attendre le lundi suivant pour recommencer.",
+  "en": "I won't wait for the following Monday to start again."
+ },
+ {
+  "who": "lea",
+  "fr": "Excellente décision !",
+  "en": "Excellent decision!",
+  "emote": "coeur"
+ },
+ {
+  "who": "mat",
+  "fr": "Je vais simplement reprendre quand je pourrai.",
+  "en": "I'll simply pick it up again when I can."
+ },
+ {
+  "who": "lea",
+  "fr": "Voilà. Tu n'as pas besoin d'être parfaitement",
+  "en": "That's it. You don't need to be perfectly"
+ },
+ {
+  "who": "lea",
+  "fr": "motivé chaque jour pour construire une habitude.",
+  "en": "motivated every day to build a habit."
+ },
+ {
+  "who": "mat",
+  "fr": "Et je crois que je vais",
+  "en": "And I think I'm also going"
+ },
+ {
+  "who": "mat",
+  "fr": "aussi apprendre à remarquer mes petites réussites.",
+  "en": "to learn to notice my small wins."
+ },
+ {
+  "who": "lea",
+  "fr": "C'est une très bonne idée.",
+  "en": "That's a very good idea."
+ },
+ {
+  "who": "lea",
+  "fr": "Parce que quand nous regardons",
+  "en": "Because when we only look at"
+ },
+ {
+  "who": "lea",
+  "fr": "uniquement ce qui reste à faire,",
+  "en": "what's left to do,"
+ },
+ {
+  "who": "lea",
+  "fr": "nous oublions parfois tout le chemin déjà parcouru.",
+  "en": "we sometimes forget how far we've already come."
+ },
+ {
+  "who": "mat",
+  "fr": "Oui. Et quelques progrès peuvent",
+  "en": "Yes. And a bit of progress can"
+ },
+ {
+  "who": "mat",
+  "fr": "nous rappeler pourquoi nous avons commencé.",
+  "en": "remind us why we started."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Alors, chers amis, avant de terminer,",
+  "en": "Exactly. So, dear friends, before we finish,"
+ },
+ {
+  "who": "lea",
+  "fr": "nous aimerions vous poser une petite question.",
+  "en": "we'd like to ask you a little question."
+ },
+ {
+  "who": "mat",
+  "fr": "Est-ce qu'il y a quelque chose",
+  "en": "Is there something"
+ },
+ {
+  "who": "mat",
+  "fr": "dans votre vie que vous souhaitez continuer,",
+  "en": "in your life you want to keep doing,"
+ },
+ {
+  "who": "mat",
+  "fr": "même si ce n'est pas toujours facile ?",
+  "en": "even if it isn't always easy?"
+ },
+ {
+  "who": "lea",
+  "fr": "Peut-être apprendre le français, reprendre une activité,",
+  "en": "Maybe learning French, getting back into an activity,",
+  "illus": "etudes",
+  "label": "le français"
+ },
+ {
+  "who": "lea",
+  "fr": "travailler sur un projet ou simplement retrouver",
+  "en": "working on a project or simply getting back"
+ },
+ {
+  "who": "lea",
+  "fr": "une habitude qui vous fait du bien.",
+  "en": "a habit that's good for you."
+ },
+ {
+  "who": "mat",
+  "fr": "Dans les commentaires,",
+  "en": "In the comments,"
+ },
+ {
+  "who": "mat",
+  "fr": "vous pouvez compléter cette phrase :",
+  "en": "you can complete this sentence:"
+ },
+ {
+  "who": "mat",
+  "fr": "« Même si ce n'est pas toujours facile,",
+  "en": "\"Even if it isn't always easy,"
+ },
+ {
+  "who": "mat",
+  "fr": "je veux continuer à... »",
+  "en": "I want to keep...\""
+ },
+ {
+  "who": "lea",
+  "fr": "Ou : « En ce moment, j'ai du mal à...,",
+  "en": "Or: \"Right now, I'm struggling to...,"
+ },
+ {
+  "who": "lea",
+  "fr": "mais je ne veux pas baisser les bras. »",
+  "en": "but I don't want to give up.\""
+ },
+ {
+  "who": "mat",
+  "fr": "Une ou deux phrases suffisent.",
+  "en": "One or two sentences are enough."
+ },
+ {
+  "who": "mat",
+  "fr": "N'ayez pas peur de faire des erreurs.",
+  "en": "Don't be afraid of making mistakes."
+ },
+ {
+  "who": "mat",
+  "fr": "C'est en utilisant le français",
+  "en": "It's by using French"
+ },
+ {
+  "who": "mat",
+  "fr": "qu'on apprend progressivement à mieux s'exprimer.",
+  "en": "that you gradually learn to express yourself better."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Et si cet épisode vous a plu,",
+  "en": "Exactly. And if you enjoyed this episode,"
+ },
+ {
+  "who": "lea",
+  "fr": "pensez à laisser un petit pouce en l'air,",
+  "en": "remember to leave a little thumbs-up,"
+ },
+ {
+  "who": "lea",
+  "fr": "à vous abonner à The Cozy French et à partager",
+  "en": "subscribe to The Cozy French and share"
+ },
+ {
+  "who": "lea",
+  "fr": "notre conversation avec une personne",
+  "en": "our conversation with someone"
+ },
+ {
+  "who": "lea",
+  "fr": "qui pourrait l'apprécier.",
+  "en": "who might enjoy it."
+ },
+ {
+  "who": "mat",
+  "fr": "Merci beaucoup d'avoir passé ce moment avec nous.",
+  "en": "Thank you so much for spending this time with us.",
+  "emote": "coeur"
+ },
+ {
+  "who": "mat",
+  "fr": "Avant de partir, Léa,",
+  "en": "Before we go, Léa,"
+ },
+ {
+  "who": "mat",
+  "fr": "j'aimerais te poser une dernière question.",
+  "en": "I'd like to ask you one last question."
+ },
+ {
+  "who": "lea",
+  "fr": "Je t'écoute.",
+  "en": "I'm listening."
+ },
+ {
+  "who": "mat",
+  "fr": "Qu'est-ce que tu dirais à une personne",
+  "en": "What would you say to someone"
+ },
+ {
+  "who": "mat",
+  "fr": "qui se sent complètement découragée aujourd'hui ?",
+  "en": "who feels completely discouraged today?"
+ },
+ {
+  "who": "lea",
+  "fr": "Je lui dirais qu'elle n'a pas besoin de tout résoudre immédiatement.",
+  "en": "I'd tell them they don't need to solve everything right away."
+ },
+ {
+  "who": "lea",
+  "fr": "Elle peut se reposer,",
+  "en": "They can rest,"
+ },
+ {
+  "who": "lea",
+  "fr": "réfléchir à ce qui compte encore pour elle",
+  "en": "think about what still matters to them"
+ },
+ {
+  "who": "lea",
+  "fr": "et choisir ensuite une petite action adaptée à sa situation.",
+  "en": "and then choose a small step suited to their situation."
+ },
+ {
+  "who": "mat",
+  "fr": "Et si elle a toujours envie de poursuivre son objectif ?",
+  "en": "And if they still want to pursue their goal?"
+ },
+ {
+  "who": "lea",
+  "fr": "Alors, elle peut se donner une nouvelle chance.",
+  "en": "Then, they can give themselves a new chance."
+ },
+ {
+  "who": "lea",
+  "fr": "Pas nécessairement en travaillant davantage,",
+  "en": "Not necessarily by working harder,"
+ },
+ {
+  "who": "lea",
+  "fr": "mais peut-être en trouvant",
+  "en": "but maybe by finding"
+ },
+ {
+  "who": "lea",
+  "fr": "une manière différente de continuer.",
+  "en": "a different way to keep going."
+ }
+]

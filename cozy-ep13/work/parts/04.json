@@ -1,0 +1,544 @@
+[
+ {
+  "who": "lea",
+  "fr": "même imparfaitement.",
+  "en": "even imperfectly."
+ },
+ {
+  "who": "mat",
+  "fr": "Comme quand on oublie un mot,",
+  "en": "Like when you forget a word,"
+ },
+ {
+  "who": "mat",
+  "fr": "mais qu'on trouve une autre manière d'expliquer son idée.",
+  "en": "but find another way to explain your idea."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Au lieu de s'arrêter complètement,",
+  "en": "Exactly. Instead of stopping completely,"
+ },
+ {
+  "who": "lea",
+  "fr": "on reformule.",
+  "en": "you rephrase."
+ },
+ {
+  "who": "mat",
+  "fr": "Et après la conversation,",
+  "en": "And after the conversation,"
+ },
+ {
+  "who": "mat",
+  "fr": "on réalise qu'on a réussi à [se faire comprendre.]",
+  "en": "you realise you managed to make yourself understood."
+ },
+ {
+  "who": "lea",
+  "fr": "Voilà une petite réussite qui mérite d'être remarquée.",
+  "en": "That's a small win worth noticing.",
+  "emote": "coeur"
+ },
+ {
+  "who": "mat",
+  "fr": "Tu sais, nous parlons beaucoup de progrès,",
+  "en": "You know, we talk a lot about progress,"
+ },
+ {
+  "who": "mat",
+  "fr": "mais parfois, mon problème est différent.",
+  "en": "but sometimes, my problem is different."
+ },
+ {
+  "who": "mat",
+  "fr": "Je ne sais tout simplement pas par où commencer.",
+  "en": "I simply don't know where to start.",
+  "board": {
+   "mode": "steps",
+   "bg": "craie",
+   "title": "Quand Mathieu se sent dépassé",
+   "items": [
+    {
+     "text": "une liste de quinze tâches",
+     "at": 3
+    },
+    {
+     "text": "ranger son bureau",
+     "at": 7
+    },
+    {
+     "text": "répondre à de petits messages",
+     "at": 8
+    },
+    {
+     "text": "repousser la tâche principale",
+     "at": 9
+    }
+   ]
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "Pourquoi ?",
+  "en": "Why?",
+  "emote": "question"
+ },
+ {
+  "who": "mat",
+  "fr": "Parce que j'ai trop de choses à faire.",
+  "en": "Because I have too many things to do."
+ },
+ {
+  "who": "mat",
+  "fr": "Je prépare une liste de quinze",
+  "en": "I make a list of fifteen"
+ },
+ {
+  "who": "mat",
+  "fr": "tâches et elles me semblent toutes importantes.",
+  "en": "tasks and they all seem important."
+ },
+ {
+  "who": "lea",
+  "fr": "Et ensuite ?",
+  "en": "And then?"
+ },
+ {
+  "who": "mat",
+  "fr": "Ensuite, je me sens dépassé.",
+  "en": "Then I feel overwhelmed."
+ },
+ {
+  "who": "mat",
+  "fr": "Je commence par ranger mon bureau",
+  "en": "I start by tidying my desk"
+ },
+ {
+  "who": "mat",
+  "fr": "ou répondre à de petits messages,",
+  "en": "or answering little messages,"
+ },
+ {
+  "who": "mat",
+  "fr": "mais je repousse la tâche principale.",
+  "en": "but I put off the main task."
+ },
+ {
+  "who": "lea",
+  "fr": "Donc tu es occupé,",
+  "en": "So you're busy,"
+ },
+ {
+  "who": "lea",
+  "fr": "mais tu n'avances pas vraiment",
+  "en": "but you're not really making progress"
+ },
+ {
+  "who": "lea",
+  "fr": "sur ce qui compte le plus.",
+  "en": "on what matters most.",
+  "boardEnd": true
+ },
+ {
+  "who": "mat",
+  "fr": "Exactement. Et le soir, je me sens découragé.",
+  "en": "Exactly. And in the evening, I feel discouraged.",
+  "emote": "triste"
+ },
+ {
+  "who": "lea",
+  "fr": "Peut-être que tu n'as pas besoin de davantage de motivation.",
+  "en": "Maybe you don't need more motivation."
+ },
+ {
+  "who": "lea",
+  "fr": "Peut-être que tu as simplement besoin de choisir une priorité.",
+  "en": "Maybe you simply need to choose one priority."
+ },
+ {
+  "who": "mat",
+  "fr": "Une seule ?",
+  "en": "Just one?",
+  "emote": "surpris"
+ },
+ {
+  "who": "lea",
+  "fr": "Oui. Demande-toi :",
+  "en": "Yes. Ask yourself:"
+ },
+ {
+  "who": "lea",
+  "fr": "« Si je ne pouvais terminer",
+  "en": "\"If I could finish"
+ },
+ {
+  "who": "lea",
+  "fr": "qu'une seule chose importante aujourd'hui,",
+  "en": "only one important thing today,"
+ },
+ {
+  "who": "lea",
+  "fr": "laquelle choisirais-je ? »",
+  "en": "which one would I choose?\""
+ },
+ {
+  "who": "mat",
+  "fr": "C'est une bonne question.",
+  "en": "That's a good question."
+ },
+ {
+  "who": "mat",
+  "fr": "Mais elle m'oblige à accepter",
+  "en": "But it forces me to accept"
+ },
+ {
+  "who": "mat",
+  "fr": "que je ne peux pas tout faire.",
+  "en": "that I can't do everything."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Et parfois,",
+  "en": "Exactly. And sometimes,"
+ },
+ {
+  "who": "lea",
+  "fr": "cette acceptation peut nous soulager.",
+  "en": "that acceptance can be a relief."
+ },
+ {
+  "who": "mat",
+  "fr": "Parce qu'au lieu de regarder quinze tâches,",
+  "en": "Because instead of looking at fifteen tasks,"
+ },
+ {
+  "who": "mat",
+  "fr": "je peux concentrer mon attention sur une seule.",
+  "en": "I can focus my attention on just one."
+ },
+ {
+  "who": "lea",
+  "fr": "Voilà. Et une fois cette tâche commencée,",
+  "en": "That's it. And once that task is started,"
+ },
+ {
+  "who": "lea",
+  "fr": "la suite peut paraître un peu moins difficile.",
+  "en": "the rest can seem a little less hard."
+ },
+ {
+  "who": "mat",
+  "fr": "En français, on dit « se sentir débordé »",
+  "en": "In French, we say \"se sentir débordé\""
+ },
+ {
+  "who": "mat",
+  "fr": "quand on a trop de choses à gérer, n'est-ce pas ?",
+  "en": "when you have too much to handle, right?"
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Par exemple :",
+  "en": "Exactly. For example:"
+ },
+ {
+  "who": "lea",
+  "fr": "« En ce moment,",
+  "en": "\"Right now,"
+ },
+ {
+  "who": "lea",
+  "fr": "je suis [débordée] au travail",
+  "en": "I'm swamped at work"
+ },
+ {
+  "who": "lea",
+  "fr": "et j'ai du mal à m'organiser. »",
+  "en": "and I'm struggling to get organised.\""
+ },
+ {
+  "who": "mat",
+  "fr": "Et « prioriser »,",
+  "en": "And \"prioriser\""
+ },
+ {
+  "who": "mat",
+  "fr": "c'est choisir ce qui doit passer en premier.",
+  "en": "means choosing what has to come first."
+ },
+ {
+  "who": "lea",
+  "fr": "Très bien.",
+  "en": "Very good."
+ },
+ {
+  "who": "lea",
+  "fr": "Prioriser ne signifie pas",
+  "en": "Prioritising doesn't mean"
+ },
+ {
+  "who": "lea",
+  "fr": "que les autres tâches n'ont aucune importance.",
+  "en": "the other tasks don't matter at all."
+ },
+ {
+  "who": "lea",
+  "fr": "Cela signifie simplement que nous devons",
+  "en": "It simply means we have to"
+ },
+ {
+  "who": "lea",
+  "fr": "parfois faire des choix.",
+  "en": "make choices sometimes."
+ },
+ {
+  "who": "mat",
+  "fr": "Tu sais,",
+  "en": "You know,"
+ },
+ {
+  "who": "mat",
+  "fr": "je crois que mon programme du dimanche soir",
+  "en": "I think my Sunday-evening plan"
+ },
+ {
+  "who": "mat",
+  "fr": "avait surtout besoin d'une bonne dose de réalisme.",
+  "en": "mostly needed a good dose of realism."
+ },
+ {
+  "who": "lea",
+  "fr": "Je suis entièrement d'accord !",
+  "en": "I completely agree!",
+  "emote": "rire"
+ },
+ {
+  "who": "mat",
+  "fr": "Mais j'ai aussi une autre mauvaise habitude.",
+  "en": "But I have another bad habit too."
+ },
+ {
+  "who": "mat",
+  "fr": "Quand je manque une journée,",
+  "en": "When I miss a day,"
+ },
+ {
+  "who": "mat",
+  "fr": "j'ai envie de tout recommencer depuis le début.",
+  "en": "I want to start everything over from scratch."
+ },
+ {
+  "who": "lea",
+  "fr": "Comment ça ?",
+  "en": "What do you mean?",
+  "emote": "question"
+ },
+ {
+  "who": "mat",
+  "fr": "Si je manque ma séance de sport le mardi,",
+  "en": "If I miss my sports session on Tuesday,"
+ },
+ {
+  "who": "mat",
+  "fr": "je me dis : [« Tant pis,] je recommencerai lundi prochain. »",
+  "en": "I tell myself: \"Oh well, I'll start again next Monday.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Mais pourquoi attendre lundi ?",
+  "en": "But why wait for Monday?"
+ },
+ {
+  "who": "mat",
+  "fr": "Je ne sais pas !",
+  "en": "I don't know!",
+  "emote": "rire"
+ },
+ {
+  "who": "mat",
+  "fr": "Le lundi a quelque chose d'officiel.",
+  "en": "Monday feels kind of official."
+ },
+ {
+  "who": "mat",
+  "fr": "C'est comme si tout pouvait recommencer proprement.",
+  "en": "It's as if everything could start again cleanly."
+ },
+ {
+  "who": "lea",
+  "fr": "Pourtant, une journée manquée n'efface pas tous tes efforts précédents.",
+  "en": "And yet, one missed day doesn't erase all your past efforts."
+ },
+ {
+  "who": "mat",
+  "fr": "C'est vrai.",
+  "en": "True."
+ },
+ {
+  "who": "mat",
+  "fr": "Alors maintenant,",
+  "en": "So now,"
+ },
+ {
+  "who": "mat",
+  "fr": "j'essaie simplement de reprendre le lendemain.",
+  "en": "I simply try to pick it up again the next day."
+ },
+ {
+  "who": "lea",
+  "fr": "Voilà. Il n'est pas nécessaire",
+  "en": "That's it. You don't need"
+ },
+ {
+  "who": "lea",
+  "fr": "d'attendre une nouvelle semaine ou une nouvelle année pour recommencer.",
+  "en": "to wait for a new week or a new year to start again."
+ },
+ {
+  "who": "mat",
+  "fr": "On peut [« reprendre là où on s'était arrêté ».]",
+  "en": "You can \"pick up where you left off\".",
+  "board": {
+   "mode": "word",
+   "bg": "carnet",
+   "note": "= recommencer sans repartir de zéro"
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Cette expression signifie recommencer",
+  "en": "Exactly. This expression means starting"
+ },
+ {
+  "who": "lea",
+  "fr": "une activité après une interruption,",
+  "en": "an activity again after a break,"
+ },
+ {
+  "who": "lea",
+  "fr": "sans nécessairement repartir de zéro.",
+  "en": "without necessarily going back to square one."
+ },
+ {
+  "who": "mat",
+  "fr": "Par exemple :",
+  "en": "For example:"
+ },
+ {
+  "who": "mat",
+  "fr": "« J'ai arrêté le français pendant quelques semaines,",
+  "en": "\"I stopped French for a few weeks,"
+ },
+ {
+  "who": "mat",
+  "fr": "mais je vais reprendre là où je m'étais arrêté. »",
+  "en": "but I'm going to pick up where I left off.\"",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Très bien. Et c'est important pour nos auditeurs.",
+  "en": "Very good. And that's important for our listeners."
+ },
+ {
+  "who": "lea",
+  "fr": "Peut-être que certains d'entre vous ont",
+  "en": "Maybe some of you have"
+ },
+ {
+  "who": "lea",
+  "fr": "interrompu leur apprentissage pendant plusieurs mois.",
+  "en": "interrupted your learning for several months."
+ },
+ {
+  "who": "mat",
+  "fr": "Vous aviez beaucoup de travail,",
+  "en": "You had a lot of work,",
+  "illus": "travail",
+  "label": "le travail"
+ },
+ {
+  "who": "mat",
+  "fr": "des responsabilités familiales",
+  "en": "family responsibilities"
+ },
+ {
+  "who": "mat",
+  "fr": "ou simplement besoin de repos.",
+  "en": "or simply needed a rest."
+ },
+ {
+  "who": "lea",
+  "fr": "Mais vous pouvez revenir tranquillement.",
+  "en": "But you can come back calmly."
+ },
+ {
+  "who": "lea",
+  "fr": "Vous n'avez pas besoin",
+  "en": "You don't need"
+ },
+ {
+  "who": "lea",
+  "fr": "de vous reprocher constamment cette interruption.",
+  "en": "to keep blaming yourself for that break."
+ },
+ {
+  "who": "mat",
+  "fr": "Et même si certaines choses ont été oubliées,",
+  "en": "And even if you've forgotten some things,"
+ },
+ {
+  "who": "mat",
+  "fr": "cela ne signifie pas que tout a disparu.",
+  "en": "that doesn't mean everything has disappeared."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Vous pouvez revoir ce dont vous avez besoin,",
+  "en": "Exactly. You can review what you need,"
+ },
+ {
+  "who": "lea",
+  "fr": "retrouver votre rythme et continuer progressivement.",
+  "en": "find your rhythm again and keep going step by step."
+ },
+ {
+  "who": "mat",
+  "fr": "Tu sais, j'aime beaucoup cette idée :",
+  "en": "You know, I really like this idea:"
+ },
+ {
+  "who": "mat",
+  "fr": "on peut revenir sans transformer",
+  "en": "you can come back without turning"
+ },
+ {
+  "who": "mat",
+  "fr": "ce retour en un événement extraordinaire.",
+  "en": "your return into a huge event."
+ },
+ {
+  "who": "lea",
+  "fr": "Oui. Parfois, il suffit simplement de rouvrir son livre,",
+  "en": "Yes. Sometimes, all it takes is reopening your book,",
+  "illus": "lecture",
+  "label": "son livre"
+ },
+ {
+  "who": "lea",
+  "fr": "de réécouter une conversation",
+  "en": "listening to a conversation again"
+ },
+ {
+  "who": "lea",
+  "fr": "ou de reprendre une petite habitude.",
+  "en": "or picking up a small habit again."
+ },
+ {
+  "who": "mat",
+  "fr": "Et si on ne se sent toujours pas très motivé ?",
+  "en": "And what if you still don't feel very motivated?",
+  "emote": "question"
+ }
+]

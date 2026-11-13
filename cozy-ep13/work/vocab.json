@@ -1,0 +1,122 @@
+[
+ {
+  "tag": "adverbe",
+  "word": "davantage",
+  "ipa": "/da.vɑ̃.taʒ/",
+  "mean": "more",
+  "ex": "Je voudrais voyager davantage cette année.",
+  "exEn": "I'd like to travel more this year."
+ },
+ {
+  "tag": "adjectif",
+  "word": "paresseux, paresseuse",
+  "ipa": "/pa.ʁe.sø/",
+  "mean": "lazy",
+  "ex": "Le dimanche, mon chat est très paresseux.",
+  "exEn": "On Sundays, my cat is very lazy."
+ },
+ {
+  "tag": "verbe",
+  "word": "s'épuiser",
+  "ipa": "/se.pɥi.ze/",
+  "mean": "to wear yourself out",
+  "ex": "Ne t'épuise pas, on finira demain.",
+  "exEn": "Don't wear yourself out, we'll finish tomorrow."
+ },
+ {
+  "tag": "expression",
+  "word": "demander conseil",
+  "ipa": "/də.mɑ̃.de kɔ̃.sɛj/",
+  "mean": "to ask for advice",
+  "ex": "Avant d'acheter un vélo, j'ai demandé conseil à mon frère.",
+  "exEn": "Before buying a bike, I asked my brother for advice."
+ },
+ {
+  "tag": "verbe",
+  "word": "renoncer à",
+  "ipa": "/ʁə.nɔ̃.se a/",
+  "mean": "to give up on, to abandon",
+  "ex": "Elle a renoncé à son voyage à cause de la grève.",
+  "exEn": "She gave up on her trip because of the strike."
+ },
+ {
+  "tag": "verbe",
+  "word": "douter de",
+  "ipa": "/du.te də/",
+  "mean": "to doubt",
+  "ex": "Je doute un peu de ce plan.",
+  "exEn": "I have some doubts about this plan."
+ },
+ {
+  "tag": "expression",
+  "word": "encaisser un coup dur",
+  "ipa": "/ɑ̃.ke.se œ̃ ku dyʁ/",
+  "mean": "to take a hard blow, to get through a tough setback",
+  "ex": "Il a fallu du temps à Paul pour encaisser ce coup dur.",
+  "exEn": "It took Paul time to get over that hard blow."
+ },
+ {
+  "tag": "expression",
+  "word": "se faire comprendre",
+  "ipa": "/sə fɛʁ kɔ̃.pʁɑ̃dʁ/",
+  "mean": "to make yourself understood",
+  "ex": "À Lisbonne, j'ai réussi à me faire comprendre avec des gestes.",
+  "exEn": "In Lisbon, I managed to make myself understood with gestures."
+ },
+ {
+  "tag": "adjectif",
+  "word": "être débordé(e)",
+  "ipa": "/ɛtʁ de.bɔʁ.de/",
+  "mean": "to be swamped, overloaded",
+  "ex": "Désolé, je suis débordé cette semaine.",
+  "exEn": "Sorry, I'm swamped this week."
+ },
+ {
+  "tag": "expression",
+  "word": "tant pis",
+  "ipa": "/tɑ̃ pi/",
+  "mean": "oh well, never mind",
+  "ex": "Il n'y a plus de croissants ? Tant pis, je prends un pain au chocolat.",
+  "exEn": "No croissants left? Oh well, I'll have a pain au chocolat."
+ },
+ {
+  "tag": "expression",
+  "word": "reprendre là où on s'était arrêté",
+  "ipa": "/ʁə.pʁɑ̃dʁ la u ɔ̃ se.tɛ a.ʁe.te/",
+  "mean": "to pick up where you left off",
+  "ex": "Après les vacances, on reprend là où on s'était arrêtés.",
+  "exEn": "After the holidays, we pick up where we left off."
+ },
+ {
+  "tag": "expression",
+  "word": "à n'importe quel prix",
+  "ipa": "/a nɛ̃.pɔʁt kɛl pʁi/",
+  "mean": "at any cost",
+  "ex": "Il veut gagner ce match à n'importe quel prix.",
+  "exEn": "He wants to win this match at any cost."
+ },
+ {
+  "tag": "expression",
+  "word": "baisser les bras",
+  "ipa": "/be.se le bʁa/",
+  "mean": "to give up, to throw in the towel",
+  "ex": "Le marathon est dur, mais elle ne baisse pas les bras.",
+  "exEn": "The marathon is hard, but she isn't giving up."
+ },
+ {
+  "tag": "expression",
+  "word": "avoir tendance à",
+  "ipa": "/a.vwaʁ tɑ̃.dɑ̃s a/",
+  "mean": "to tend to",
+  "ex": "J'ai tendance à oublier mes clés.",
+  "exEn": "I tend to forget my keys."
+ },
+ {
+  "tag": "expression",
+  "word": "se concentrer sur l'essentiel",
+  "ipa": "/sə kɔ̃.sɑ̃.tʁe syʁ le.sɑ̃.sjɛl/",
+  "mean": "to focus on what matters most",
+  "ex": "Pour ce rapport, concentre-toi sur l'essentiel.",
+  "exEn": "For this report, focus on what matters most."
+ }
+]
