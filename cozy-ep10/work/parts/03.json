@@ -1,0 +1,571 @@
+[
+ {
+  "who": "lea",
+  "fr": "Le premier janvier, tout est propre.",
+  "en": "On the first of January, everything is clean."
+ },
+ {
+  "who": "lea",
+  "fr": "On n'a encore rien raté.",
+  "en": "We haven't failed at anything yet."
+ },
+ {
+  "who": "mat",
+  "fr": "Alors qu'un mercredi de novembre,",
+  "en": "Whereas on a Wednesday in November,"
+ },
+ {
+  "who": "mat",
+  "fr": "à dix-huit heures, il pleut, on est fatigué…",
+  "en": "at six p.m., it's raining, we're tired…",
+  "illus": "pluie",
+  "label": "il pleut",
+  "emote": "fatigue"
+ },
+ {
+  "who": "lea",
+  "fr": "…et on a déjà raté",
+  "en": "…and we've already missed"
+ },
+ {
+  "who": "lea",
+  "fr": "plein de choses dans la semaine.",
+  "en": "lots of things during the week."
+ },
+ {
+  "who": "lea",
+  "fr": "Ça ne ressemble pas au début d'une nouvelle vie.",
+  "en": "It doesn't look like the start of a new life."
+ },
+ {
+  "who": "mat",
+  "fr": "Et il y a autre chose.",
+  "en": "And there's something else."
+ },
+ {
+  "who": "mat",
+  "fr": "Quand on commence, on peut échouer.",
+  "en": "When you start, you can fail."
+ },
+ {
+  "who": "mat",
+  "fr": "Tant qu'on attend janvier, le projet reste parfait.",
+  "en": "As long as you wait for January, the project stays perfect."
+ },
+ {
+  "who": "lea",
+  "fr": "Dans notre tête, plus tard, on est toujours prêt.",
+  "en": "In our heads, later on, we're always ready."
+ },
+ {
+  "who": "mat",
+  "fr": "Plus tard, je fais un pain magnifique.",
+  "en": "Later on, I make a magnificent loaf."
+ },
+ {
+  "who": "lea",
+  "fr": "Plus tard, je parle espagnol avec ma grand-mère…",
+  "en": "Later on, I speak Spanish with my grandmother…"
+ },
+ {
+  "who": "lea",
+  "fr": "qui ne parle pas espagnol.",
+  "en": "who doesn't speak Spanish.",
+  "react": "rire"
+ },
+ {
+  "who": "mat",
+  "fr": "Ha ! Et puis, on [se fait des films.]",
+  "en": "Ha! And then, we imagine things.",
+  "board": {
+   "mode": "word",
+   "bg": "liege",
+   "note": "= imaginer des choses qui n'existent pas",
+   "icon": "stress"
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "Des films ?",
+  "en": "Imagine things?"
+ },
+ {
+  "who": "mat",
+  "fr": "On imagine des choses qui n'existent pas.",
+  "en": "We imagine things that don't exist."
+ },
+ {
+  "who": "mat",
+  "fr": "« Si je rate mon pain,",
+  "en": "\"If my bread fails,"
+ },
+ {
+  "who": "mat",
+  "fr": "ma voisine va penser que je suis nul. »",
+  "en": "my neighbour will think I'm useless.\"",
+  "emote": "gene"
+ },
+ {
+  "who": "lea",
+  "fr": "Alors qu'elle t'a apporté du pain.",
+  "en": "Even though she brought you bread."
+ },
+ {
+  "who": "lea",
+  "fr": "Elle a plutôt envie que tu réussisses.",
+  "en": "She'd rather you succeed."
+ },
+ {
+  "who": "mat",
+  "fr": "Oui, dit comme ça, mon film n'est pas très réaliste.",
+  "en": "Yes, put like that, my film isn't very realistic.",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Moi, ça m'arrive surtout après une conversation.",
+  "en": "For me, it mostly happens after a conversation."
+ },
+ {
+  "who": "lea",
+  "fr": "Quelqu'un me fait une petite remarque,",
+  "en": "Someone makes a little remark,"
+ },
+ {
+  "who": "lea",
+  "fr": "et je la [ressasse] pendant trois jours.",
+  "en": "and I go over it again and again for three days."
+ },
+ {
+  "who": "mat",
+  "fr": "Ressasser ? Développe.",
+  "en": "Ressasser? Go on."
+ },
+ {
+  "who": "lea",
+  "fr": "Repenser à la même chose, encore et encore, sans avancer.",
+  "en": "Thinking about the same thing, over and over, without moving forward."
+ },
+ {
+  "who": "lea",
+  "fr": "Le soir, en faisant la vaisselle,",
+  "en": "In the evening, while doing the dishes,"
+ },
+ {
+  "who": "lea",
+  "fr": "je prépare la réponse parfaite.",
+  "en": "I prepare the perfect answer."
+ },
+ {
+  "who": "lea",
+  "fr": "Trois jours trop tard.",
+  "en": "Three days too late.",
+  "emote": "triste"
+ },
+ {
+  "who": "mat",
+  "fr": "Et toute cette énergie,",
+  "en": "And all that energy,"
+ },
+ {
+  "who": "mat",
+  "fr": "elle ne va pas dans le projet.",
+  "en": "doesn't go into the project."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. On dépense beaucoup d'énergie à penser,",
+  "en": "Exactly. We spend a lot of energy thinking,"
+ },
+ {
+  "who": "lea",
+  "fr": "et il en reste très peu pour faire.",
+  "en": "and very little is left for doing."
+ },
+ {
+  "who": "lea",
+  "fr": "Bon, attention.",
+  "en": "Right, careful.",
+  "board": {
+   "mode": "truefalse",
+   "bg": "craie",
+   "q": "Pour changer, il faut attendre le premier janvier.",
+   "answer": false,
+   "reveal": 6,
+   "explain": "On peut commencer une toute petite version maintenant."
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "On ne dit pas que janvier est une mauvaise idée.",
+  "en": "We're not saying January is a bad idea."
+ },
+ {
+  "who": "lea",
+  "fr": "Si janvier vous aide, très bien.",
+  "en": "If January helps you, great."
+ },
+ {
+  "who": "mat",
+  "fr": "Et parfois, attendre, c'est raisonnable.",
+  "en": "And sometimes, waiting is reasonable."
+ },
+ {
+  "who": "mat",
+  "fr": "Un déménagement, un bébé, des examens…",
+  "en": "A move, a baby, exams…"
+ },
+ {
+  "who": "lea",
+  "fr": "La vraie question, c'est plutôt :",
+  "en": "The real question is rather:"
+ },
+ {
+  "who": "lea",
+  "fr": "est-ce qu'il existe",
+  "en": "is there"
+ },
+ {
+  "who": "lea",
+  "fr": "une toute petite version que je peux commencer maintenant ?",
+  "en": "a tiny version I can start now?",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Juste pour [mettre le pied à l'étrier.]",
+  "en": "Just to get a foot in the door."
+ },
+ {
+  "who": "mat",
+  "fr": "Comme à cheval.",
+  "en": "Like on a horse."
+ },
+ {
+  "who": "mat",
+  "fr": "Une fois le pied dedans, le reste devient plus facile.",
+  "en": "Once your foot is in, the rest gets easier."
+ },
+ {
+  "who": "lea",
+  "fr": "On essaie quelque chose ?",
+  "en": "Shall we try something?"
+ },
+ {
+  "who": "lea",
+  "fr": "Dans quelques semaines, c'est le repas de Noël en famille.",
+  "en": "In a few weeks, it's Christmas dinner with the family.",
+  "illus": "repas",
+  "label": "le repas de Noël"
+ },
+ {
+  "who": "mat",
+  "fr": "Le moment où tout le monde",
+  "en": "The moment when everyone"
+ },
+ {
+  "who": "mat",
+  "fr": "pose des questions sur tes projets.",
+  "en": "asks questions about your plans."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Je suis ta tante Monique.",
+  "en": "Exactly. I'm your aunt Monique.",
+  "emote": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "On en est au fromage.",
+  "en": "We're at the cheese course."
+ },
+ {
+  "who": "lea",
+  "fr": "Et je te dis, devant tout le monde :",
+  "en": "And I say to you, in front of everyone:"
+ },
+ {
+  "who": "lea",
+  "fr": "« Alors Mathieu, ce fameux pain, ça avance ? »",
+  "en": "\"So, Mathieu, that famous bread, how's it going?\""
+ },
+ {
+  "who": "mat",
+  "fr": "Je ne réponds pas tout de suite.",
+  "en": "I won't answer right away."
+ },
+ {
+  "who": "mat",
+  "fr": "Vous, à ma place, qu'est-ce que vous diriez ?",
+  "en": "You, in my place, what would you say?"
+ },
+ {
+  "who": "mat",
+  "fr": "Prenez quelques secondes.",
+  "en": "Take a few seconds."
+ },
+ {
+  "who": "lea",
+  "fr": "Voilà. Maintenant, la version de Mathieu.",
+  "en": "There. Now, Mathieu's version."
+ },
+ {
+  "who": "lea",
+  "fr": "Alors, ce fameux pain, ça avance ?",
+  "en": "So, that famous bread, how's it going?",
+  "board": {
+   "mode": "sketch",
+   "bg": "craie",
+   "title": "En situation : le repas de Noël"
+  }
+ },
+ {
+  "who": "mat",
+  "fr": "Ça avance doucement !",
+  "en": "It's coming along slowly!"
+ },
+ {
+  "who": "mat",
+  "fr": "Le premier était un peu plat, mais délicieux.",
+  "en": "The first one was a bit flat, but delicious."
+ },
+ {
+  "who": "mat",
+  "fr": "Samedi, j'en refais un.",
+  "en": "On Saturday, I'm making another one."
+ },
+ {
+  "who": "mat",
+  "fr": "Si tu veux, je t'en garde un morceau.",
+  "en": "If you like, I'll save you a piece.",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Oh, ça, c'est une très bonne réponse.",
+  "en": "Oh, that's a very good answer.",
+  "emote": "surpris"
+ },
+ {
+  "who": "mat",
+  "fr": "Pourquoi ?",
+  "en": "Why?"
+ },
+ {
+  "who": "lea",
+  "fr": "Tu es honnête, tu fais une petite blague sur toi,",
+  "en": "You're honest, you make a little joke about yourself,"
+ },
+ {
+  "who": "lea",
+  "fr": "et tu donnes une prochaine étape : samedi.",
+  "en": "and you give a next step: Saturday."
+ },
+ {
+  "who": "mat",
+  "fr": "Et en plus, je fais un cadeau à tante Monique.",
+  "en": "And on top of that, I give aunt Monique a present."
+ },
+ {
+  "who": "mat",
+  "fr": "Elle ne peut plus rien dire.",
+  "en": "She can't say anything anymore.",
+  "emote": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Mais tu sais, certaines personnes répondent :",
+  "en": "But you know, some people answer:"
+ },
+ {
+  "who": "lea",
+  "fr": "« Le pain ? À ton âge ?",
+  "en": "\"Bread? At your age?"
+ },
+ {
+  "who": "lea",
+  "fr": "Va donc à la boulangerie. »",
+  "en": "Just go to the bakery.\""
+ },
+ {
+  "who": "mat",
+  "fr": "Ah, oui. Après ce genre de conversation,",
+  "en": "Ah, yes. After that kind of conversation,"
+ },
+ {
+  "who": "mat",
+  "fr": "on a moins envie de faire quoi que ce soit.",
+  "en": "you feel less like doing anything at all."
+ },
+ {
+  "who": "lea",
+  "fr": "Et d'autres te demandent juste :",
+  "en": "And others just ask you:"
+ },
+ {
+  "who": "lea",
+  "fr": "« C'est quoi, la prochaine étape ? »",
+  "en": "\"What's the next step?\""
+ },
+ {
+  "who": "lea",
+  "fr": "Et tout à coup, ça paraît possible.",
+  "en": "And suddenly, it seems possible.",
+  "emote": "idee"
+ },
+ {
+  "who": "mat",
+  "fr": "L'enthousiasme, c'est [contagieux.] Le découragement aussi.",
+  "en": "Enthusiasm is contagious. So is discouragement."
+ },
+ {
+  "who": "lea",
+  "fr": "Alors voilà une bonne question à se poser :",
+  "en": "So here's a good question to ask yourself:"
+ },
+ {
+  "who": "lea",
+  "fr": "après avoir parlé avec cette personne,",
+  "en": "after talking with this person,"
+ },
+ {
+  "who": "lea",
+  "fr": "j'ai plus envie, ou moins envie ?",
+  "en": "do I feel more like it, or less?"
+ },
+ {
+  "who": "mat",
+  "fr": "Avec toi, j'ai envie de faire du pain.",
+  "en": "With you, I feel like making bread.",
+  "emote": "coeur"
+ },
+ {
+  "who": "lea",
+  "fr": "Et moi, j'ai envie d'en manger.",
+  "en": "And I feel like eating some."
+ },
+ {
+  "who": "lea",
+  "fr": "Tout le monde y gagne.",
+  "en": "Everyone wins."
+ },
+ {
+  "who": "mat",
+  "fr": "En français, c'est pareil.",
+  "en": "In French, it's the same."
+ },
+ {
+  "who": "mat",
+  "fr": "Entourez-vous de gens",
+  "en": "Surround yourself with people"
+ },
+ {
+  "who": "mat",
+  "fr": "qui vous laissent finir votre phrase.",
+  "en": "who let you finish your sentence."
+ },
+ {
+  "who": "lea",
+  "fr": "Même quand elle est un peu plate.",
+  "en": "Even when it's a bit flat."
+ },
+ {
+  "who": "mat",
+  "fr": "Bon. Concrètement, il reste moins de deux mois.",
+  "en": "Right. In practical terms, there are less than two months left."
+ },
+ {
+  "who": "mat",
+  "fr": "On fait quoi ?",
+  "en": "What do we do?"
+ },
+ {
+  "who": "lea",
+  "fr": "Première idée : une seule chose.",
+  "en": "First idea: one single thing."
+ },
+ {
+  "who": "lea",
+  "fr": "Pas neuf. Une.",
+  "en": "Not nine. One."
+ },
+ {
+  "who": "mat",
+  "fr": "Une seule ? Ça me paraît très peu.",
+  "en": "Just one? That seems very little to me.",
+  "emote": "surpris"
+ },
+ {
+  "who": "lea",
+  "fr": "Ce n'est pas pour toute la vie.",
+  "en": "It's not for your whole life."
+ },
+ {
+  "who": "lea",
+  "fr": "C'est jusqu'au premier janvier.",
+  "en": "It's until the first of January."
+ },
+ {
+  "who": "lea",
+  "fr": "Les autres idées restent dans le carnet, bien au chaud.",
+  "en": "The other ideas stay in the notebook, nice and cosy."
+ },
+ {
+  "who": "mat",
+  "fr": "Comme Monsieur Bulle dans le frigo.",
+  "en": "Like Monsieur Bulle in the fridge."
+ },
+ {
+  "who": "lea",
+  "fr": "Voilà. Moi,",
+  "en": "Exactly. Me,"
+ },
+ {
+  "who": "lea",
+  "fr": "j'ai choisi d'appeler ma grand-mère tous les dimanches.",
+  "en": "I chose to call my grandmother every Sunday."
+ },
+ {
+  "who": "lea",
+  "fr": "Je [m'en tiens à] ça jusqu'à la fin de l'année.",
+  "en": "I'm sticking to that until the end of the year.",
+  "board": {
+   "mode": "conjug",
+   "bg": "carnet",
+   "verb": "s'en tenir à",
+   "tense": "présent",
+   "rows": [
+    [
+     "je",
+     "m'en tien|s"
+    ],
+    [
+     "tu",
+     "t'en tien|s"
+    ],
+    [
+     "il / elle",
+     "s'en tien|t"
+    ],
+    [
+     "nous",
+     "nous en ten|ons"
+    ],
+    [
+     "vous",
+     "vous en ten|ez"
+    ],
+    [
+     "ils / elles",
+     "s'en tienn|ent"
+    ]
+   ],
+   "note": "Je m'en tiens à ça."
+  }
+ },
+ {
+  "who": "mat",
+  "fr": "S'en tenir à une seule chose…",
+  "en": "Sticking to one single thing…"
+ }
+]

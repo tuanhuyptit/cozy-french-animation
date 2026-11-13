@@ -1,0 +1,458 @@
+0|Mathieu, I made a discovery this week.|
+1|In the drawer of my desk.|
+2|A twenty-euro note?|
+3|Better. My New Year's resolutions notebook.|
+4|The one from January 2026.|
+5|Oh dear. And so?|
+6|First page: nine resolutions,|
+7|very nicely written, in colour.|
+8|And the following pages?|
+9|Empty. Except for one line.|
+10|Written in March.|
+11|Just one line? What does it say?|
+12|I'll tell you at the end of the episode.|
+13|No! You can't do that to me.|e=surpris
+14|Yes. It's called suspense.|e=rire
+15|Hello everyone and welcome to The Cozy French.|
+16|I'm Léa.|
+17|And I'm Mathieu.|
+18|I'm going to spend twenty minutes wondering|
+19|what's in that notebook.|
+20|Perfect, that way you'll listen carefully.|
+21|Today, we're talking about changing your life before 2027.|
+22|Is that all?|
+23|There are less than two months left.|
+24|Exactly. Everyone waits for the first of January.|
+25|We're asking ourselves a question:|
+26|what if we started before?|
+27|Don't worry, we're not going to ask you|
+28|to get up at five to run ten kilometres.|e=rire
+29|No. Rest isn't wasted time.|
+30|We're talking more about the things|
+31|that matter to you and that you always put off.|
+32|This conversation is for levels B1 and B2.|
+33|By the end,|
+34|you'll be able to talk about your plans for next year,|
+35|explain what holds you back|
+36|and say what you're going to start.|
+37|No need to understand every word.|
+38|Follow the conversation,|
+39|as if you were sitting with us.|
+40|And if you recognise|
+41|expressions from previous episodes,|
+42|that's on purpose.|
+43|It's by hearing them a second time that they stick.|
+44|Before we start, tell us where you're listening from.|
+45|We love imagining where you are.|e=coeur
+46|And if you too|
+47|have a resolutions notebook|
+48|sleeping in a drawer,|
+49|give us a little thumbs-up.|
+50|We don't judge.|
+51|Especially not me.|e=gene
+52|And keep this question in mind:|
+53|what have you been putting off since the start of the year?|
+54|Right. The notebook.|
+55|On the first of January, I was full of energy.|
+56|I had made good resolutions. Nine.|
+57|Nine? Why not ten?|e=surpris
+58|The tenth was "be less ambitious".|
+59|I crossed it out.|
+60|Ha! Read me the list.|B={"mode":"mindmap","bg":"carnet","word":"mes résolutions","items":[{"text":"l'espagnol","at":1},{"text":"courir","at":1},{"text":"lire","at":2},{"text":"la poterie","at":3},{"text":"appeler mamie","at":5},{"text":"coudre","at":8}]}
+61|Learn Spanish. Run three times a week.|
+62|Read thirty books.|
+63|Do pottery.|
+64|Sort my photos.|
+65|Call my grandmother every Sunday…|
+66|That one's really sweet.|e=coeur
+67|Thanks. Eat less sugar.|
+68|Learn to sew.|
+69|And go to bed before eleven p.m.|BE
+70|January Léa had big plans|
+71|for February Léa.|
+72|Huge. And February Léa hadn't asked for anything.|
+73|And how long did it last?|
+74|One week, very well.|
+75|I ran twice,|i=sport:la course
+76|I downloaded a Spanish app,|
+77|I bought some wool.|
+78|Three beginnings in one week. Impressive.|e=rire
+79|Yes, but the following Monday,|
+80|I wanted to do everything on the same evening.|
+81|Spanish, sewing, reading…|
+82|At ten p.m., I was on the sofa,|
+83|with a closed book|
+84|and a ball of wool on my lap.|e=fatigue
+85|You were spreading yourself too thin.|
+86|Spreading myself too thin? Yes, that's the word.|
+87|A little energy everywhere, and nothing really moving forward.|
+88|And in February?|
+89|In February,|
+90|I stopped running because it was cold.|
+91|In March, Spanish, because I'd missed three days.|
+92|And the little character in the app|
+93|cried every time I opened my phone.|i=telephone:mon téléphone r=rire
+94|You felt guilty in front of a cartoon.|
+95|Exactly.|
+96|My grandfather always used to say:|B={"mode":"idiom","bg":"liege","expr":"courir deux lièvres à la fois","literal":"to chase two hares at the same time","meaning":"to try to do several things at once and succeed at none","ex":"Travailler et réviser le même soir ? Tu cours deux lièvres à la fois.","exEn":"Working and revising on the same evening? You're doing too much at once.","meaningAt":4}
+97|"You shouldn't chase two hares at once."|
+98|Your grandfather hunted hares?|
+99|No, he mostly hunted naps.|e=rire
+100|But the idea is that by trying to catch everything,|
+101|you catch nothing.|BE
+102|Me, I was chasing nine.|
+103|And what did you catch?|
+104|A cold. From running in the rain.|r=rire
+105|But wait, the best part is September.|B={"mode":"timeline","bg":"craie","title":"L'année de Léa","items":[{"label":"janvier","text":"neuf résolutions","at":0},{"label":"février","text":"plus de course","at":0},{"label":"mars","text":"plus d'espagnol","at":1},{"label":"septembre","text":"la même liste !","at":8}]}
+106|The return to school.|
+107|The rentrée!|
+108|You know, in France, we have two first of Januarys.|
+109|The real one, and the second first of January:|
+110|the September rentrée.|
+111|Exactly. New diary, new pens, new life.|
+112|So I bought a lovely diary…|
+113|and I copied out the same list.|
+114|All nine?|e=surpris
+115|All nine. In the same colours.|BE
+116|I wanted to start again from scratch.|
+117|Starting from scratch with exactly the same list.|
+118|It's almost art.|
+119|I laughed a lot finding|
+120|the two notebooks side by side.|
+121|But I also understood something.|
+122|I didn't lack motivation.|
+123|I lacked choices.|e=idee
+124|Now that's a nice sentence.|
+125|And you?|
+126|You're not going to tell me|
+127|you haven't put anything off this year.|
+128|I have a very serious project.|
+129|Bread.|
+130|Bread? You want to make your own bread?|e=surpris
+131|Sourdough bread.|
+132|Like at the local bakery,|
+133|with the crust that sings when you cut it.|
+134|The crust that sings…|
+135|You've already convinced me.|
+136|So, in spring, I watched a video.|
+137|Then another.|
+138|I think I watched about forty.|
+139|Forty videos about bread?|
+140|I know everything.|
+141|Flour, water, temperature, resting time.|
+142|I could give you a lecture.|
+143|And how many loaves have you made?|
+144|Zero.|e=gene
+145|Zero?|
+146|But I have a sourdough starter.|
+147|He's called Monsieur Bulle.|
+148|He lives in my fridge,|
+149|and I feed him every three days.|
+150|Wait. You've been feeding a starter for months…|
+151|without ever making bread?|
+152|Let's say he's become a pet.|r=rire
+153|Mathieu, that's the starter in the fridge.|
+154|You look after the project, but you never use it.|
+155|Ooh, that hurts.|e=triste
+156|But it's true.|
+157|Watching videos was pleasant.|
+158|I felt I was making progress, without taking any risk.|
+159|Because you never took the plunge.|
+160|Taking the plunge… Yes.|
+161|Stop preparing, and really do the thing.|
+162|And what changed?|
+163|Two weeks ago,|
+164|my upstairs neighbour brought me|i=amis:ma voisine
+165|a loaf she'd made herself.|
+166|She'd started in September.|
+167|With just one video.|
+168|Just one?|
+169|Just one. And her bread was magnificent.|
+170|That's when it clicked for me.|e=idee
+171|The famous click.|
+172|The following Saturday, I made my first loaf.|
+173|And so?|
+174|It was flat. Really flat.|e=triste
+175|It looked like a slightly sad crêpe.|
+176|Oh no…|
+177|But with a piece of Comté,|
+178|I swear, it was delicious.|e=coeur
+179|And above all,|
+180|I learned more in one hour than in forty videos.|
+181|Because now,|
+182|you know what's difficult for you.|
+183|The dough. It sticks everywhere.|
+184|To my hands, the worktop, my phone…|
+185|To your phone?|
+186|I wanted to watch a video again.|e=gene
+187|Of course.|
+188|And it's the same with French, isn't it?|B={"mode":"compare","bg":"carnet","title":"La vidéo ou le pain ?","left":{"head":"la vidéo","sub":"la règle","items":[{"text":"le passé composé","at":1},{"text":"toutes les règles","at":1}]},"right":{"head":"le pain","sub":"la conversation","items":[{"text":"« Qu'est-ce que tu as fait ? »","at":3},{"text":"un peu plat… mais bon !","at":6}]}}
+189|You can know all the rules of the passé composé…|
+190|…and still get stuck when someone asks:|
+191|"What did you do this weekend?"|
+192|Exactly. The rule is the video.|
+193|The conversation is the bread.|
+194|Even if it's a bit flat.|BE
+195|But why do we do this?|e=question
+196|Why do we always wait for the first of January,|
+197|or a Monday?|
+198|I think a date|
+199|gives us the feeling of a blank page.|
+200|On the first of January, everything is clean.|
+201|We haven't failed at anything yet.|
+202|Whereas on a Wednesday in November,|
+203|at six p.m., it's raining, we're tired…|i=pluie:il pleut e=fatigue
+204|…and we've already missed|
+205|lots of things during the week.|
+206|It doesn't look like the start of a new life.|
+207|And there's something else.|
+208|When you start, you can fail.|
+209|As long as you wait for January, the project stays perfect.|
+210|In our heads, later on, we're always ready.|
+211|Later on, I make a magnificent loaf.|
+212|Later on, I speak Spanish with my grandmother…|
+213|who doesn't speak Spanish.|r=rire
+214|Ha! And then, we imagine things.|B={"mode":"word","bg":"liege","note":"= imaginer des choses qui n'existent pas","icon":"stress"}
+215|Imagine things?|
+216|We imagine things that don't exist.|
+217|"If my bread fails,|
+218|my neighbour will think I'm useless."|e=gene
+219|Even though she brought you bread.|
+220|She'd rather you succeed.|
+221|Yes, put like that, my film isn't very realistic.|BE
+222|For me, it mostly happens after a conversation.|
+223|Someone makes a little remark,|
+224|and I go over it again and again for three days.|
+225|Ressasser? Go on.|
+226|Thinking about the same thing, over and over, without moving forward.|
+227|In the evening, while doing the dishes,|
+228|I prepare the perfect answer.|
+229|Three days too late.|e=triste
+230|And all that energy,|
+231|doesn't go into the project.|
+232|Exactly. We spend a lot of energy thinking,|
+233|and very little is left for doing.|
+234|Right, careful.|B={"mode":"truefalse","bg":"craie","q":"Pour changer, il faut attendre le premier janvier.","answer":false,"reveal":6,"explain":"On peut commencer une toute petite version maintenant."}
+235|We're not saying January is a bad idea.|
+236|If January helps you, great.|
+237|And sometimes, waiting is reasonable.|
+238|A move, a baby, exams…|
+239|The real question is rather:|
+240|is there|
+241|a tiny version I can start now?|BE
+242|Just to get a foot in the door.|
+243|Like on a horse.|
+244|Once your foot is in, the rest gets easier.|
+245|Shall we try something?|
+246|In a few weeks, it's Christmas dinner with the family.|i=repas:le repas de Noël
+247|The moment when everyone|
+248|asks questions about your plans.|
+249|Exactly. I'm your aunt Monique.|e=rire
+250|We're at the cheese course.|
+251|And I say to you, in front of everyone:|
+252|"So, Mathieu, that famous bread, how's it going?"|
+253|I won't answer right away.|
+254|You, in my place, what would you say?|
+255|Take a few seconds.|
+256|There. Now, Mathieu's version.|
+257|So, that famous bread, how's it going?|B={"mode":"sketch","bg":"craie","title":"En situation : le repas de Noël"}
+258|It's coming along slowly!|
+259|The first one was a bit flat, but delicious.|
+260|On Saturday, I'm making another one.|
+261|If you like, I'll save you a piece.|BE
+262|Oh, that's a very good answer.|e=surpris
+263|Why?|
+264|You're honest, you make a little joke about yourself,|
+265|and you give a next step: Saturday.|
+266|And on top of that, I give aunt Monique a present.|
+267|She can't say anything anymore.|e=rire
+268|But you know, some people answer:|
+269|"Bread? At your age?|
+270|Just go to the bakery."|
+271|Ah, yes. After that kind of conversation,|
+272|you feel less like doing anything at all.|
+273|And others just ask you:|
+274|"What's the next step?"|
+275|And suddenly, it seems possible.|e=idee
+276|Enthusiasm is contagious. So is discouragement.|
+277|So here's a good question to ask yourself:|
+278|after talking with this person,|
+279|do I feel more like it, or less?|
+280|With you, I feel like making bread.|e=coeur
+281|And I feel like eating some.|
+282|Everyone wins.|
+283|In French, it's the same.|
+284|Surround yourself with people|
+285|who let you finish your sentence.|
+286|Even when it's a bit flat.|
+287|Right. In practical terms, there are less than two months left.|
+288|What do we do?|
+289|First idea: one single thing.|
+290|Not nine. One.|
+291|Just one? That seems very little to me.|e=surpris
+292|It's not for your whole life.|
+293|It's until the first of January.|
+294|The other ideas stay in the notebook, nice and cosy.|
+295|Like Monsieur Bulle in the fridge.|
+296|Exactly. Me,|
+297|I chose to call my grandmother every Sunday.|
+298|I'm sticking to that until the end of the year.|B={"mode":"conjug","bg":"carnet","verb":"s'en tenir à","tense":"présent","rows":[["je","m'en tien|s"],["tu","t'en tien|s"],["il / elle","s'en tien|t"],["nous","nous en ten|ons"],["vous","vous en ten|ez"],["ils / elles","s'en tienn|ent"]],"note":"Je m'en tiens à ça."}
+299|Sticking to one single thing…|
+300|It's almost restful.|
+301|Very. I no longer need to choose every evening.|BE
+302|Second idea?|
+303|Stop saying "I don't have time".|i=temps:le temps
+304|Free time doesn't fall from the sky.|
+305|You book it, like a doctor's appointment.|
+306|A time slot, in fact.|
+307|A slot, yes: a precise moment in the diary.|
+308|On Sunday,|
+309|from six to six-thirty p.m., it's Grandma.|
+310|So I tried it.|
+311|I decided to devote my Sunday morning to bread.|
+312|At seven o'clock.|
+313|Seven o'clock? You?|e=surpris
+314|Saturday-night Mathieu thought it was an excellent idea.|
+315|And Sunday-morning Mathieu?|
+316|He switched off the alarm|i=sommeil:le réveil
+317|and sent an out-of-office message.|e=gene r=rire
+318|Then we change the slot.|
+319|Saturday afternoon, one loaf.|
+320|Not three. One.|
+321|Saturday afternoon, that I can do.|
+322|Third idea, and maybe the most important:|
+323|hold on when it gets boring.|
+324|Boring? But at the start, it's exciting.|
+325|At the start, yes.|
+326|New notebook, new flour.|
+327|But after two or three weeks,|
+328|nobody applauds you anymore.|
+329|That's when a lot of people give up.|e=triste
+330|A bit like bread rising.|i=repas:le pain
+331|For hours,|
+332|you feel like nothing is happening.|
+333|And yet, lots of things are happening inside.|
+334|You just mustn't open|
+335|the oven every five minutes.|
+336|For French,|
+337|it could be twenty minutes out loud,|
+338|three times a week, until the end of the year.|
+339|Rather than two hours on the first of January…|
+340|and nothing by the fourth.|e=rire
+341|And what if you miss a day?|
+342|You don't start from scratch.|
+343|You pick up again the next day.|
+344|It's not an exam, it's a habit.|e=coeur
+345|Over to you now.|
+346|Here's a sentence to complete:|
+347|"By 2027, I want…|
+348|To do that, I'm going to…"|
+349|Me: by 2027, I want to make a real loaf.|B={"mode":"fill","bg":"liege","sentence":"Un pain chaque ___ après-midi.","answer":"samedi","hint":"un créneau précis","en":"One loaf every Saturday afternoon.","reveal":1}
+350|To do that, I'll make one every Saturday afternoon.|
+351|And me: by 2027,|
+352|I want to talk more often with my grandmother.|
+353|To do that,|
+354|I'll call her every Sunday at six p.m.|
+355|Did you notice?|
+356|One single thing, and a precise time slot.|BE
+357|If you're learning French,|
+358|your sentence can be about French.|
+359|"By 2027, I want to understand a film without subtitles.|
+360|To do that, I'll watch ten minutes a day."|
+361|Ten minutes is small.|
+362|But ten minutes every day|
+363|adds up to a lot of films.|
+364|Your turn. Say your sentence out loud.|
+365|Take a few seconds.|
+366|No need for a perfect sentence.|
+367|A simple sentence is already a sentence in French.|e=coeur
+368|Keep it safe. At the end of the episode,|
+369|we'll add something to it.|
+370|Let's go back over a few expressions.|
+371|Listen, then repeat with us.|
+372|Earlier,|
+373|I was telling you about my nine resolutions|
+374|and Mathieu's grandfather.|
+375|The expression was: courir deux lièvres à la fois.|
+376|It means wanting to do several things at once,|
+377|and in the end, succeeding at none.|
+378|Example: he's preparing for a competitive exam|
+379|and moving house the same month.|
+380|He's chasing two hares at once.|
+381|Let's repeat: courir deux lièvres à la fois.|
+382|Next, my forty videos and Monsieur Bulle.|
+383|The expression was: passer à l'acte.|
+384|It means stopping preparing or talking about it,|
+385|and really doing the thing.|
+386|Example: she'd been talking about this trip for years,|i=voyage:ce voyage
+387|and this summer, she finally did it.|
+388|Let's repeat: passer à l'acte.|
+389|When Mathieu was afraid his neighbour would think he was useless,|
+390|we said: se faire des films.|
+391|It means imagining things, often negative,|
+392|that aren't real.|
+393|Example: he hasn't replied to me yet,|
+394|but I'm not going to imagine things.|
+395|He's surely busy.|
+396|Let's repeat: se faire des films.|
+397|For the bread that rises slowly,|
+398|we talked about tenir bon.|
+399|It means carrying on despite difficulty or tiredness,|
+400|without giving up.|
+401|Example: the last week on the building site was hard,|
+402|but the whole team held on.|
+403|Let's repeat: tenir bon.|
+404|And finally, for the people who make us want to, or not:|i=sante:contagieux
+405|contagious.|
+406|An illness can be contagious, but so can a laugh.|
+407|Example: her good mood is contagious,|
+408|the whole office smiles on Monday morning.|e=rire
+409|Let's repeat: contagieux, contagieuse.|
+410|And now, say it differently.|
+411|I say a simple sentence, Léa says the natural version.|
+412|Go ahead.|
+413|"I start everything and finish nothing."|B={"mode":"compare","bg":"craie","title":"Dites-le autrement","left":{"head":"simple","items":[{"text":"Je commence tout…","at":0},{"text":"Je n'ai pas le temps.","at":2},{"text":"J'ai compris d'un coup.","at":4},{"text":"J'y pense tout le temps.","at":6}]},"right":{"head":"naturel","items":[{"text":"Je m'éparpille.","at":1},{"text":"Je n'arrive pas à trouver un créneau.","at":3},{"text":"J'ai eu le déclic.","at":5},{"text":"Je la ressasse.","at":7}]}}
+414|I'm spreading myself too thin.|
+415|"I don't have time for that."|
+416|I can't manage to find a slot.|
+417|"I suddenly understood I had to do it."|
+418|It clicked for me.|
+419|"I think about that argument all the time."|
+420|I keep going over it.|BE
+421|And a very useful sentence in conversation:|
+422|"I didn't understand."|
+423|Sorry, I didn't quite catch that.|
+424|Could you repeat?|
+425|With this sentence, you stay in the conversation,|
+426|even when it goes too fast.|
+427|A little tip for this episode:|
+428|listen to it once without stopping,|
+429|then a second time with the subtitles.|
+430|Choose a short exchange,|
+431|for example with aunt Monique,|
+432|and repeat it with us.|
+433|And now, take your sentence from earlier,|
+434|and add a reason: "By 2027, I want…|
+435|To do that, I'm going to… because…"|
+436|Me: by 2027, I want to make a real loaf,|
+437|because I finally want to hear the crust sing.|e=coeur
+438|Write your sentence in the comments.|
+439|We read them all.|
+440|And send this episode to someone|
+441|who has a starter in the fridge.|
+442|They'll understand.|e=rire
+443|If this conversation helped you,|
+444|subscribe to The Cozy French.|
+445|Take care of yourselves and see you very soon!|
+446|Goodbye everyone!|
+447|Wait… Léa. The notebook.|
+448|Oh yes. The famous line from March.|
+449|So?|
+450|"Buy a new notebook."|
+451|No!|e=surpris
+452|Yes. And I bought it.|
+453|In September.|e=gene
+454|So that's the only resolution you kept.|
+455|Exactly. One hundred percent success.|e=rire
+456|Right. I'm going to feed Monsieur Bulle.|
+457|On Saturday, he's working.|

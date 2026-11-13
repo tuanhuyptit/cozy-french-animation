@@ -1,0 +1,579 @@
+[
+ {
+  "who": "mat",
+  "fr": "Mais l'idée, c'est qu'en voulant tout attraper,",
+  "en": "But the idea is that by trying to catch everything,"
+ },
+ {
+  "who": "mat",
+  "fr": "on n'attrape rien.",
+  "en": "you catch nothing.",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Moi, j'en courais neuf.",
+  "en": "Me, I was chasing nine."
+ },
+ {
+  "who": "mat",
+  "fr": "Et tu as attrapé quoi ?",
+  "en": "And what did you catch?"
+ },
+ {
+  "who": "lea",
+  "fr": "Un rhume. En courant sous la pluie.",
+  "en": "A cold. From running in the rain.",
+  "react": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Mais attends, le meilleur, c'est septembre.",
+  "en": "But wait, the best part is September.",
+  "board": {
+   "mode": "timeline",
+   "bg": "craie",
+   "title": "L'année de Léa",
+   "items": [
+    {
+     "label": "janvier",
+     "text": "neuf résolutions",
+     "at": 0
+    },
+    {
+     "label": "février",
+     "text": "plus de course",
+     "at": 0
+    },
+    {
+     "label": "mars",
+     "text": "plus d'espagnol",
+     "at": 1
+    },
+    {
+     "label": "septembre",
+     "text": "la même liste !",
+     "at": 8
+    }
+   ]
+  }
+ },
+ {
+  "who": "mat",
+  "fr": "La rentrée.",
+  "en": "The return to school."
+ },
+ {
+  "who": "lea",
+  "fr": "La rentrée !",
+  "en": "The rentrée!"
+ },
+ {
+  "who": "lea",
+  "fr": "Tu sais, en France, on a deux premiers janvier.",
+  "en": "You know, in France, we have two first of Januarys."
+ },
+ {
+  "who": "mat",
+  "fr": "Le vrai, et le deuxième premier janvier :",
+  "en": "The real one, and the second first of January:"
+ },
+ {
+  "who": "mat",
+  "fr": "la rentrée de septembre.",
+  "en": "the September rentrée."
+ },
+ {
+  "who": "lea",
+  "fr": "Voilà. Nouvel agenda, nouveaux stylos, nouvelle vie.",
+  "en": "Exactly. New diary, new pens, new life."
+ },
+ {
+  "who": "lea",
+  "fr": "Alors j'ai acheté un bel agenda…",
+  "en": "So I bought a lovely diary…"
+ },
+ {
+  "who": "lea",
+  "fr": "et j'ai recopié la même liste.",
+  "en": "and I copied out the same list."
+ },
+ {
+  "who": "mat",
+  "fr": "Les neuf ?",
+  "en": "All nine?",
+  "emote": "surpris"
+ },
+ {
+  "who": "lea",
+  "fr": "Les neuf. Avec les mêmes couleurs.",
+  "en": "All nine. In the same colours.",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Je voulais [repartir de zéro.]",
+  "en": "I wanted to start again from scratch."
+ },
+ {
+  "who": "mat",
+  "fr": "Repartir de zéro avec exactement la même liste.",
+  "en": "Starting from scratch with exactly the same list."
+ },
+ {
+  "who": "mat",
+  "fr": "C'est presque de l'art.",
+  "en": "It's almost art."
+ },
+ {
+  "who": "lea",
+  "fr": "J'ai bien ri en retrouvant",
+  "en": "I laughed a lot finding"
+ },
+ {
+  "who": "lea",
+  "fr": "les deux carnets côte à côte.",
+  "en": "the two notebooks side by side."
+ },
+ {
+  "who": "lea",
+  "fr": "Mais j'ai aussi compris quelque chose.",
+  "en": "But I also understood something."
+ },
+ {
+  "who": "lea",
+  "fr": "Je n'ai pas manqué de motivation.",
+  "en": "I didn't lack motivation."
+ },
+ {
+  "who": "lea",
+  "fr": "J'ai manqué de choix.",
+  "en": "I lacked choices.",
+  "emote": "idee"
+ },
+ {
+  "who": "mat",
+  "fr": "Ça, c'est une belle phrase.",
+  "en": "Now that's a nice sentence."
+ },
+ {
+  "who": "lea",
+  "fr": "Et toi ?",
+  "en": "And you?"
+ },
+ {
+  "who": "lea",
+  "fr": "Tu ne vas pas me dire",
+  "en": "You're not going to tell me"
+ },
+ {
+  "who": "lea",
+  "fr": "que tu n'as rien repoussé cette année.",
+  "en": "you haven't put anything off this year."
+ },
+ {
+  "who": "mat",
+  "fr": "Moi, j'ai un projet très sérieux.",
+  "en": "I have a very serious project."
+ },
+ {
+  "who": "mat",
+  "fr": "Le pain.",
+  "en": "Bread."
+ },
+ {
+  "who": "lea",
+  "fr": "Le pain ? Tu veux faire ton propre pain ?",
+  "en": "Bread? You want to make your own bread?",
+  "emote": "surpris"
+ },
+ {
+  "who": "mat",
+  "fr": "Du pain au levain.",
+  "en": "Sourdough bread."
+ },
+ {
+  "who": "mat",
+  "fr": "Comme à la boulangerie du coin,",
+  "en": "Like at the local bakery,"
+ },
+ {
+  "who": "mat",
+  "fr": "avec la croûte qui chante quand on la coupe.",
+  "en": "with the crust that sings when you cut it."
+ },
+ {
+  "who": "lea",
+  "fr": "La croûte qui chante…",
+  "en": "The crust that sings…"
+ },
+ {
+  "who": "lea",
+  "fr": "Tu m'as déjà convaincue.",
+  "en": "You've already convinced me."
+ },
+ {
+  "who": "mat",
+  "fr": "Alors, au printemps, j'ai regardé une vidéo.",
+  "en": "So, in spring, I watched a video."
+ },
+ {
+  "who": "mat",
+  "fr": "Puis une autre.",
+  "en": "Then another."
+ },
+ {
+  "who": "mat",
+  "fr": "Je crois que j'en ai vu une quarantaine.",
+  "en": "I think I watched about forty."
+ },
+ {
+  "who": "lea",
+  "fr": "Quarante vidéos sur le pain ?",
+  "en": "Forty videos about bread?"
+ },
+ {
+  "who": "mat",
+  "fr": "Je connais tout.",
+  "en": "I know everything."
+ },
+ {
+  "who": "mat",
+  "fr": "La farine, l'eau, la température, le temps de repos.",
+  "en": "Flour, water, temperature, resting time."
+ },
+ {
+  "who": "mat",
+  "fr": "Je peux te faire une conférence.",
+  "en": "I could give you a lecture."
+ },
+ {
+  "who": "lea",
+  "fr": "Et combien de pains tu as faits ?",
+  "en": "And how many loaves have you made?"
+ },
+ {
+  "who": "mat",
+  "fr": "Zéro.",
+  "en": "Zero.",
+  "emote": "gene"
+ },
+ {
+  "who": "lea",
+  "fr": "Zéro ?",
+  "en": "Zero?"
+ },
+ {
+  "who": "mat",
+  "fr": "Mais j'ai un levain.",
+  "en": "But I have a sourdough starter."
+ },
+ {
+  "who": "mat",
+  "fr": "Il s'appelle Monsieur Bulle.",
+  "en": "He's called Monsieur Bulle."
+ },
+ {
+  "who": "mat",
+  "fr": "Il vit dans mon frigo,",
+  "en": "He lives in my fridge,"
+ },
+ {
+  "who": "mat",
+  "fr": "et je le nourris tous les trois jours.",
+  "en": "and I feed him every three days."
+ },
+ {
+  "who": "lea",
+  "fr": "Attends. Tu nourris un levain depuis des mois…",
+  "en": "Wait. You've been feeding a starter for months…"
+ },
+ {
+  "who": "lea",
+  "fr": "pour ne jamais faire de pain ?",
+  "en": "without ever making bread?"
+ },
+ {
+  "who": "mat",
+  "fr": "Disons que c'est devenu un animal de compagnie.",
+  "en": "Let's say he's become a pet.",
+  "react": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Mathieu, c'est le levain dans le frigo.",
+  "en": "Mathieu, that's the starter in the fridge."
+ },
+ {
+  "who": "lea",
+  "fr": "Tu t'occupes du projet, mais tu ne l'utilises jamais.",
+  "en": "You look after the project, but you never use it."
+ },
+ {
+  "who": "mat",
+  "fr": "Ouh, ça fait mal.",
+  "en": "Ooh, that hurts.",
+  "emote": "triste"
+ },
+ {
+  "who": "mat",
+  "fr": "Mais c'est vrai.",
+  "en": "But it's true."
+ },
+ {
+  "who": "mat",
+  "fr": "Regarder des vidéos, c'était agréable.",
+  "en": "Watching videos was pleasant."
+ },
+ {
+  "who": "mat",
+  "fr": "J'avais l'impression d'avancer, sans prendre aucun risque.",
+  "en": "I felt I was making progress, without taking any risk."
+ },
+ {
+  "who": "lea",
+  "fr": "Parce que tu ne [passais jamais à l'acte.]",
+  "en": "Because you never took the plunge."
+ },
+ {
+  "who": "mat",
+  "fr": "Passer à l'acte… Oui.",
+  "en": "Taking the plunge… Yes."
+ },
+ {
+  "who": "mat",
+  "fr": "Arrêter de préparer, et faire vraiment la chose.",
+  "en": "Stop preparing, and really do the thing."
+ },
+ {
+  "who": "lea",
+  "fr": "Et qu'est-ce qui a changé ?",
+  "en": "And what changed?"
+ },
+ {
+  "who": "mat",
+  "fr": "Il y a deux semaines,",
+  "en": "Two weeks ago,"
+ },
+ {
+  "who": "mat",
+  "fr": "ma voisine du dessus m'a apporté",
+  "en": "my upstairs neighbour brought me",
+  "illus": "amis",
+  "label": "ma voisine"
+ },
+ {
+  "who": "mat",
+  "fr": "un pain qu'elle avait fait elle-même.",
+  "en": "a loaf she'd made herself."
+ },
+ {
+  "who": "mat",
+  "fr": "Elle avait commencé en septembre.",
+  "en": "She'd started in September."
+ },
+ {
+  "who": "mat",
+  "fr": "Avec une seule vidéo.",
+  "en": "With just one video."
+ },
+ {
+  "who": "lea",
+  "fr": "Une seule ?",
+  "en": "Just one?"
+ },
+ {
+  "who": "mat",
+  "fr": "Une seule. Et son pain était magnifique.",
+  "en": "Just one. And her bread was magnificent."
+ },
+ {
+  "who": "mat",
+  "fr": "Là, j'ai [eu le déclic.]",
+  "en": "That's when it clicked for me.",
+  "emote": "idee"
+ },
+ {
+  "who": "lea",
+  "fr": "Le fameux déclic.",
+  "en": "The famous click."
+ },
+ {
+  "who": "mat",
+  "fr": "Le samedi suivant, j'ai fait mon premier pain.",
+  "en": "The following Saturday, I made my first loaf."
+ },
+ {
+  "who": "lea",
+  "fr": "Et alors ?",
+  "en": "And so?"
+ },
+ {
+  "who": "mat",
+  "fr": "Il était plat. Vraiment plat.",
+  "en": "It was flat. Really flat.",
+  "emote": "triste"
+ },
+ {
+  "who": "mat",
+  "fr": "On aurait dit une crêpe un peu triste.",
+  "en": "It looked like a slightly sad crêpe."
+ },
+ {
+  "who": "lea",
+  "fr": "Oh non…",
+  "en": "Oh no…"
+ },
+ {
+  "who": "mat",
+  "fr": "Mais avec un morceau de comté,",
+  "en": "But with a piece of Comté,"
+ },
+ {
+  "who": "mat",
+  "fr": "je te jure, c'était délicieux.",
+  "en": "I swear, it was delicious.",
+  "emote": "coeur"
+ },
+ {
+  "who": "mat",
+  "fr": "Et surtout,",
+  "en": "And above all,"
+ },
+ {
+  "who": "mat",
+  "fr": "j'ai appris plus en une heure qu'en quarante vidéos.",
+  "en": "I learned more in one hour than in forty videos."
+ },
+ {
+  "who": "lea",
+  "fr": "Parce que maintenant,",
+  "en": "Because now,"
+ },
+ {
+  "who": "lea",
+  "fr": "tu sais ce qui est difficile pour toi.",
+  "en": "you know what's difficult for you."
+ },
+ {
+  "who": "mat",
+  "fr": "La pâte. Elle colle partout.",
+  "en": "The dough. It sticks everywhere."
+ },
+ {
+  "who": "mat",
+  "fr": "Aux mains, au plan de travail, à mon téléphone…",
+  "en": "To my hands, the worktop, my phone…"
+ },
+ {
+  "who": "lea",
+  "fr": "À ton téléphone ?",
+  "en": "To your phone?"
+ },
+ {
+  "who": "mat",
+  "fr": "Je voulais revoir une vidéo.",
+  "en": "I wanted to watch a video again.",
+  "emote": "gene"
+ },
+ {
+  "who": "lea",
+  "fr": "Évidemment.",
+  "en": "Of course."
+ },
+ {
+  "who": "lea",
+  "fr": "Et c'est pareil avec le français, non ?",
+  "en": "And it's the same with French, isn't it?",
+  "board": {
+   "mode": "compare",
+   "bg": "carnet",
+   "title": "La vidéo ou le pain ?",
+   "left": {
+    "head": "la vidéo",
+    "sub": "la règle",
+    "items": [
+     {
+      "text": "le passé composé",
+      "at": 1
+     },
+     {
+      "text": "toutes les règles",
+      "at": 1
+     }
+    ]
+   },
+   "right": {
+    "head": "le pain",
+    "sub": "la conversation",
+    "items": [
+     {
+      "text": "« Qu'est-ce que tu as fait ? »",
+      "at": 3
+     },
+     {
+      "text": "un peu plat… mais bon !",
+      "at": 6
+     }
+    ]
+   }
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "On peut connaître toutes les règles du passé composé…",
+  "en": "You can know all the rules of the passé composé…"
+ },
+ {
+  "who": "mat",
+  "fr": "…et rester bloqué quand quelqu'un demande :",
+  "en": "…and still get stuck when someone asks:"
+ },
+ {
+  "who": "mat",
+  "fr": "« Qu'est-ce que tu as fait ce week-end ? »",
+  "en": "\"What did you do this weekend?\""
+ },
+ {
+  "who": "lea",
+  "fr": "Voilà. La règle, c'est la vidéo.",
+  "en": "Exactly. The rule is the video."
+ },
+ {
+  "who": "lea",
+  "fr": "La conversation, c'est le pain.",
+  "en": "The conversation is the bread."
+ },
+ {
+  "who": "mat",
+  "fr": "Même s'il est un peu plat.",
+  "en": "Even if it's a bit flat.",
+  "boardEnd": true
+ },
+ {
+  "who": "mat",
+  "fr": "Mais pourquoi on fait ça ?",
+  "en": "But why do we do this?",
+  "emote": "question"
+ },
+ {
+  "who": "mat",
+  "fr": "Pourquoi on attend toujours le premier janvier,",
+  "en": "Why do we always wait for the first of January,"
+ },
+ {
+  "who": "mat",
+  "fr": "ou un lundi ?",
+  "en": "or a Monday?"
+ },
+ {
+  "who": "lea",
+  "fr": "Je crois qu'une date",
+  "en": "I think a date"
+ },
+ {
+  "who": "lea",
+  "fr": "nous donne l'impression d'une page blanche.",
+  "en": "gives us the feeling of a blank page."
+ }
+]

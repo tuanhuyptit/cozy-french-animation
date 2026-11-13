@@ -1,0 +1,458 @@
+0|lea|Mathieu, j'ai fait une découverte cette semaine.
+1|lea|Dans le tiroir de mon bureau.
+2|mat|Un billet de vingt euros ?
+3|lea|Mieux. Mon carnet de bonnes résolutions.
+4|lea|Celui de janvier 2026.
+5|mat|Oh là là. Et alors ?
+6|lea|Première page : neuf résolutions,
+7|lea|très bien écrites, avec des couleurs.
+8|mat|Et les pages suivantes ?
+9|lea|Vides. Sauf une ligne.
+10|lea|Écrite en mars.
+11|mat|Une seule ligne ? Qu'est-ce qu'elle dit ?
+12|lea|Je te le dirai à la fin de l'épisode.
+13|mat|Non ! Tu ne peux pas me faire ça.
+14|lea|Si. Ça s'appelle du suspense.
+15|lea|Bonjour tout le monde et bienvenue sur The Cozy French.
+16|lea|Moi, c'est Léa.
+17|mat|Et moi, c'est Mathieu.
+18|mat|Je vais passer vingt minutes à me demander
+19|mat|ce qu'il y a dans ce carnet.
+20|lea|Parfait, comme ça, tu vas bien écouter.
+21|lea|Aujourd'hui, on parle de changer sa vie avant 2027.
+22|mat|Rien que ça.
+23|mat|Il reste moins de deux mois.
+24|lea|Justement. Tout le monde attend le premier janvier.
+25|lea|Nous, on se pose une question :
+26|lea|et si on commençait avant ?
+27|mat|Rassurez-vous, on ne va pas vous demander
+28|mat|de vous lever à cinq heures pour courir dix kilomètres.
+29|lea|Non. Le repos, ce n'est pas du temps perdu.
+30|lea|On parle plutôt des choses
+31|lea|qui comptent pour vous et qu'on repousse toujours.
+32|mat|Cette conversation est pour les niveaux B1 et B2.
+33|mat|À la fin,
+34|mat|vous saurez parler de vos projets pour l'année prochaine,
+35|mat|expliquer ce qui vous freine
+36|mat|et dire ce que vous allez commencer.
+37|lea|Pas besoin de comprendre chaque mot.
+38|lea|Suivez la conversation,
+39|lea|comme si vous étiez assis avec nous.
+40|mat|Et si vous reconnaissez
+41|mat|des expressions des épisodes précédents,
+42|mat|c'est voulu.
+43|mat|C'est en les entendant une deuxième fois qu'elles restent.
+44|lea|Avant de commencer, dites-nous d'où vous écoutez.
+45|lea|On aime imaginer où vous êtes.
+46|mat|Et si vous aussi,
+47|mat|vous avez un carnet de résolutions
+48|mat|qui dort dans un tiroir,
+49|mat|mettez un petit pouce.
+50|mat|On ne juge pas.
+51|lea|Surtout pas moi.
+52|mat|Et gardez cette question en tête :
+53|mat|qu'est-ce que vous repoussez depuis le début de l'année ?
+54|lea|Bon. Le carnet.
+55|lea|Le premier janvier, j'étais pleine d'énergie.
+56|lea|J'avais pris de bonnes résolutions. Neuf.
+57|mat|Neuf ? Pourquoi pas dix ?
+58|lea|La dixième, c'était « être moins ambitieuse ».
+59|lea|Je l'ai barrée.
+60|mat|Ha ! Lis-moi la liste.
+61|lea|Apprendre l'espagnol. Courir trois fois par semaine.
+62|lea|Lire trente livres.
+63|lea|Faire de la poterie.
+64|lea|Trier mes photos.
+65|lea|Appeler ma grand-mère tous les dimanches…
+66|mat|Ça, c'est très joli.
+67|lea|Merci. Manger moins de sucre.
+68|lea|Apprendre à coudre.
+69|lea|Et me coucher avant vingt-trois heures.
+70|mat|La Léa de janvier avait de grands projets
+71|mat|pour la Léa de février.
+72|lea|Énormes. Et la Léa de février n'avait rien demandé.
+73|mat|Et ça a duré combien de temps ?
+74|lea|Une semaine, très bien.
+75|lea|J'ai couru deux fois,
+76|lea|j'ai téléchargé une application d'espagnol,
+77|lea|j'ai acheté de la laine.
+78|mat|Trois débuts en une semaine. Impressionnant.
+79|lea|Oui, mais le lundi suivant,
+80|lea|j'ai voulu tout faire le même soir.
+81|lea|Espagnol, couture, lecture…
+82|lea|À vingt-deux heures, j'étais sur le canapé,
+83|lea|avec un livre fermé
+84|lea|et une pelote de laine sur les genoux.
+85|mat|Tu t'éparpillais.
+86|lea|Je m'éparpillais ? Oui, c'est le mot.
+87|lea|Un peu d'énergie partout, et rien qui avance vraiment.
+88|mat|Et en février ?
+89|lea|En février,
+90|lea|j'ai arrêté la course parce qu'il faisait froid.
+91|lea|En mars, l'espagnol, parce que j'avais raté trois jours.
+92|lea|Et le petit personnage de l'application
+93|lea|pleurait chaque fois que j'ouvrais mon téléphone.
+94|mat|Tu culpabilisais devant un dessin animé.
+95|lea|Exactement.
+96|mat|Mon grand-père disait toujours :
+97|mat|« Il ne faut pas courir deux lièvres à la fois. »
+98|lea|Ton grand-père chassait le lièvre ?
+99|mat|Non, il chassait surtout la sieste.
+100|mat|Mais l'idée, c'est qu'en voulant tout attraper,
+101|mat|on n'attrape rien.
+102|lea|Moi, j'en courais neuf.
+103|mat|Et tu as attrapé quoi ?
+104|lea|Un rhume. En courant sous la pluie.
+105|lea|Mais attends, le meilleur, c'est septembre.
+106|mat|La rentrée.
+107|lea|La rentrée !
+108|lea|Tu sais, en France, on a deux premiers janvier.
+109|mat|Le vrai, et le deuxième premier janvier :
+110|mat|la rentrée de septembre.
+111|lea|Voilà. Nouvel agenda, nouveaux stylos, nouvelle vie.
+112|lea|Alors j'ai acheté un bel agenda…
+113|lea|et j'ai recopié la même liste.
+114|mat|Les neuf ?
+115|lea|Les neuf. Avec les mêmes couleurs.
+116|lea|Je voulais repartir de zéro.
+117|mat|Repartir de zéro avec exactement la même liste.
+118|mat|C'est presque de l'art.
+119|lea|J'ai bien ri en retrouvant
+120|lea|les deux carnets côte à côte.
+121|lea|Mais j'ai aussi compris quelque chose.
+122|lea|Je n'ai pas manqué de motivation.
+123|lea|J'ai manqué de choix.
+124|mat|Ça, c'est une belle phrase.
+125|lea|Et toi ?
+126|lea|Tu ne vas pas me dire
+127|lea|que tu n'as rien repoussé cette année.
+128|mat|Moi, j'ai un projet très sérieux.
+129|mat|Le pain.
+130|lea|Le pain ? Tu veux faire ton propre pain ?
+131|mat|Du pain au levain.
+132|mat|Comme à la boulangerie du coin,
+133|mat|avec la croûte qui chante quand on la coupe.
+134|lea|La croûte qui chante…
+135|lea|Tu m'as déjà convaincue.
+136|mat|Alors, au printemps, j'ai regardé une vidéo.
+137|mat|Puis une autre.
+138|mat|Je crois que j'en ai vu une quarantaine.
+139|lea|Quarante vidéos sur le pain ?
+140|mat|Je connais tout.
+141|mat|La farine, l'eau, la température, le temps de repos.
+142|mat|Je peux te faire une conférence.
+143|lea|Et combien de pains tu as faits ?
+144|mat|Zéro.
+145|lea|Zéro ?
+146|mat|Mais j'ai un levain.
+147|mat|Il s'appelle Monsieur Bulle.
+148|mat|Il vit dans mon frigo,
+149|mat|et je le nourris tous les trois jours.
+150|lea|Attends. Tu nourris un levain depuis des mois…
+151|lea|pour ne jamais faire de pain ?
+152|mat|Disons que c'est devenu un animal de compagnie.
+153|lea|Mathieu, c'est le levain dans le frigo.
+154|lea|Tu t'occupes du projet, mais tu ne l'utilises jamais.
+155|mat|Ouh, ça fait mal.
+156|mat|Mais c'est vrai.
+157|mat|Regarder des vidéos, c'était agréable.
+158|mat|J'avais l'impression d'avancer, sans prendre aucun risque.
+159|lea|Parce que tu ne passais jamais à l'acte.
+160|mat|Passer à l'acte… Oui.
+161|mat|Arrêter de préparer, et faire vraiment la chose.
+162|lea|Et qu'est-ce qui a changé ?
+163|mat|Il y a deux semaines,
+164|mat|ma voisine du dessus m'a apporté
+165|mat|un pain qu'elle avait fait elle-même.
+166|mat|Elle avait commencé en septembre.
+167|mat|Avec une seule vidéo.
+168|lea|Une seule ?
+169|mat|Une seule. Et son pain était magnifique.
+170|mat|Là, j'ai eu le déclic.
+171|lea|Le fameux déclic.
+172|mat|Le samedi suivant, j'ai fait mon premier pain.
+173|lea|Et alors ?
+174|mat|Il était plat. Vraiment plat.
+175|mat|On aurait dit une crêpe un peu triste.
+176|lea|Oh non…
+177|mat|Mais avec un morceau de comté,
+178|mat|je te jure, c'était délicieux.
+179|mat|Et surtout,
+180|mat|j'ai appris plus en une heure qu'en quarante vidéos.
+181|lea|Parce que maintenant,
+182|lea|tu sais ce qui est difficile pour toi.
+183|mat|La pâte. Elle colle partout.
+184|mat|Aux mains, au plan de travail, à mon téléphone…
+185|lea|À ton téléphone ?
+186|mat|Je voulais revoir une vidéo.
+187|lea|Évidemment.
+188|lea|Et c'est pareil avec le français, non ?
+189|lea|On peut connaître toutes les règles du passé composé…
+190|mat|…et rester bloqué quand quelqu'un demande :
+191|mat|« Qu'est-ce que tu as fait ce week-end ? »
+192|lea|Voilà. La règle, c'est la vidéo.
+193|lea|La conversation, c'est le pain.
+194|mat|Même s'il est un peu plat.
+195|mat|Mais pourquoi on fait ça ?
+196|mat|Pourquoi on attend toujours le premier janvier,
+197|mat|ou un lundi ?
+198|lea|Je crois qu'une date
+199|lea|nous donne l'impression d'une page blanche.
+200|lea|Le premier janvier, tout est propre.
+201|lea|On n'a encore rien raté.
+202|mat|Alors qu'un mercredi de novembre,
+203|mat|à dix-huit heures, il pleut, on est fatigué…
+204|lea|…et on a déjà raté
+205|lea|plein de choses dans la semaine.
+206|lea|Ça ne ressemble pas au début d'une nouvelle vie.
+207|mat|Et il y a autre chose.
+208|mat|Quand on commence, on peut échouer.
+209|mat|Tant qu'on attend janvier, le projet reste parfait.
+210|lea|Dans notre tête, plus tard, on est toujours prêt.
+211|mat|Plus tard, je fais un pain magnifique.
+212|lea|Plus tard, je parle espagnol avec ma grand-mère…
+213|lea|qui ne parle pas espagnol.
+214|mat|Ha ! Et puis, on se fait des films.
+215|lea|Des films ?
+216|mat|On imagine des choses qui n'existent pas.
+217|mat|« Si je rate mon pain,
+218|mat|ma voisine va penser que je suis nul. »
+219|lea|Alors qu'elle t'a apporté du pain.
+220|lea|Elle a plutôt envie que tu réussisses.
+221|mat|Oui, dit comme ça, mon film n'est pas très réaliste.
+222|lea|Moi, ça m'arrive surtout après une conversation.
+223|lea|Quelqu'un me fait une petite remarque,
+224|lea|et je la ressasse pendant trois jours.
+225|mat|Ressasser ? Développe.
+226|lea|Repenser à la même chose, encore et encore, sans avancer.
+227|lea|Le soir, en faisant la vaisselle,
+228|lea|je prépare la réponse parfaite.
+229|lea|Trois jours trop tard.
+230|mat|Et toute cette énergie,
+231|mat|elle ne va pas dans le projet.
+232|lea|Exactement. On dépense beaucoup d'énergie à penser,
+233|lea|et il en reste très peu pour faire.
+234|lea|Bon, attention.
+235|lea|On ne dit pas que janvier est une mauvaise idée.
+236|lea|Si janvier vous aide, très bien.
+237|mat|Et parfois, attendre, c'est raisonnable.
+238|mat|Un déménagement, un bébé, des examens…
+239|lea|La vraie question, c'est plutôt :
+240|lea|est-ce qu'il existe
+241|lea|une toute petite version que je peux commencer maintenant ?
+242|lea|Juste pour mettre le pied à l'étrier.
+243|mat|Comme à cheval.
+244|mat|Une fois le pied dedans, le reste devient plus facile.
+245|lea|On essaie quelque chose ?
+246|lea|Dans quelques semaines, c'est le repas de Noël en famille.
+247|mat|Le moment où tout le monde
+248|mat|pose des questions sur tes projets.
+249|lea|Exactement. Je suis ta tante Monique.
+250|lea|On en est au fromage.
+251|lea|Et je te dis, devant tout le monde :
+252|lea|« Alors Mathieu, ce fameux pain, ça avance ? »
+253|mat|Je ne réponds pas tout de suite.
+254|mat|Vous, à ma place, qu'est-ce que vous diriez ?
+255|mat|Prenez quelques secondes.
+256|lea|Voilà. Maintenant, la version de Mathieu.
+257|lea|Alors, ce fameux pain, ça avance ?
+258|mat|Ça avance doucement !
+259|mat|Le premier était un peu plat, mais délicieux.
+260|mat|Samedi, j'en refais un.
+261|mat|Si tu veux, je t'en garde un morceau.
+262|lea|Oh, ça, c'est une très bonne réponse.
+263|mat|Pourquoi ?
+264|lea|Tu es honnête, tu fais une petite blague sur toi,
+265|lea|et tu donnes une prochaine étape : samedi.
+266|mat|Et en plus, je fais un cadeau à tante Monique.
+267|mat|Elle ne peut plus rien dire.
+268|lea|Mais tu sais, certaines personnes répondent :
+269|lea|« Le pain ? À ton âge ?
+270|lea|Va donc à la boulangerie. »
+271|mat|Ah, oui. Après ce genre de conversation,
+272|mat|on a moins envie de faire quoi que ce soit.
+273|lea|Et d'autres te demandent juste :
+274|lea|« C'est quoi, la prochaine étape ? »
+275|lea|Et tout à coup, ça paraît possible.
+276|mat|L'enthousiasme, c'est contagieux. Le découragement aussi.
+277|lea|Alors voilà une bonne question à se poser :
+278|lea|après avoir parlé avec cette personne,
+279|lea|j'ai plus envie, ou moins envie ?
+280|mat|Avec toi, j'ai envie de faire du pain.
+281|lea|Et moi, j'ai envie d'en manger.
+282|lea|Tout le monde y gagne.
+283|mat|En français, c'est pareil.
+284|mat|Entourez-vous de gens
+285|mat|qui vous laissent finir votre phrase.
+286|lea|Même quand elle est un peu plate.
+287|mat|Bon. Concrètement, il reste moins de deux mois.
+288|mat|On fait quoi ?
+289|lea|Première idée : une seule chose.
+290|lea|Pas neuf. Une.
+291|mat|Une seule ? Ça me paraît très peu.
+292|lea|Ce n'est pas pour toute la vie.
+293|lea|C'est jusqu'au premier janvier.
+294|lea|Les autres idées restent dans le carnet, bien au chaud.
+295|mat|Comme Monsieur Bulle dans le frigo.
+296|lea|Voilà. Moi,
+297|lea|j'ai choisi d'appeler ma grand-mère tous les dimanches.
+298|lea|Je m'en tiens à ça jusqu'à la fin de l'année.
+299|mat|S'en tenir à une seule chose…
+300|mat|C'est presque reposant.
+301|lea|Très. Je n'ai plus besoin de choisir chaque soir.
+302|mat|Deuxième idée ?
+303|lea|Arrêter de dire « je n'ai pas le temps ».
+304|lea|Le temps libre ne tombe pas du ciel.
+305|lea|On le réserve, comme un rendez-vous chez le médecin.
+306|mat|Un créneau, en fait.
+307|lea|Un créneau, oui : un moment précis dans l'agenda.
+308|lea|Le dimanche,
+309|lea|de dix-huit heures à dix-huit heures trente, c'est mamie.
+310|mat|Alors moi, j'ai essayé.
+311|mat|J'ai décidé de consacrer mon dimanche matin au pain.
+312|mat|À sept heures.
+313|lea|Sept heures ? Toi ?
+314|mat|Le Mathieu du samedi soir trouvait l'idée excellente.
+315|lea|Et le Mathieu du dimanche matin ?
+316|mat|Il a éteint le réveil
+317|mat|et il a envoyé un message d'absence.
+318|lea|Alors on change le créneau.
+319|lea|Samedi après-midi, un pain.
+320|lea|Pas trois. Un.
+321|mat|Samedi après-midi, ça, je peux.
+322|lea|Troisième idée, et c'est peut-être la plus importante :
+323|lea|tenir bon quand ça devient ennuyeux.
+324|mat|Ennuyeux ? Pourtant, au début, c'est excitant.
+325|lea|Au début, oui.
+326|lea|Nouveau carnet, nouvelle farine.
+327|lea|Mais après deux ou trois semaines,
+328|lea|plus personne ne t'applaudit.
+329|lea|C'est là que beaucoup de gens abandonnent.
+330|mat|Un peu comme le pain qui lève.
+331|mat|Pendant des heures,
+332|mat|on a l'impression qu'il ne se passe rien.
+333|lea|Et pourtant, il se passe beaucoup de choses à l'intérieur.
+334|lea|Il faut juste ne pas ouvrir
+335|lea|le four toutes les cinq minutes.
+336|mat|Pour le français,
+337|mat|ça pourrait être vingt minutes à voix haute,
+338|mat|trois fois par semaine, jusqu'à la fin de l'année.
+339|lea|Plutôt que deux heures le premier janvier…
+340|lea|et plus rien le quatre.
+341|mat|Et si on rate un jour ?
+342|lea|On ne repart pas de zéro.
+343|lea|On reprend le lendemain.
+344|lea|Ce n'est pas un examen, c'est une habitude.
+345|lea|À vous maintenant.
+346|lea|Voici une phrase à compléter :
+347|lea|« D'ici 2027, je veux…
+348|lea|Pour ça, je vais… »
+349|mat|Moi : d'ici 2027, je veux faire un vrai pain.
+350|mat|Pour ça, je vais en faire un chaque samedi après-midi.
+351|lea|Et moi : d'ici 2027,
+352|lea|je veux parler plus souvent avec ma grand-mère.
+353|lea|Pour ça,
+354|lea|je vais l'appeler tous les dimanches à dix-huit heures.
+355|mat|Vous avez remarqué ?
+356|mat|Une seule chose, et un créneau précis.
+357|lea|Si vous apprenez le français,
+358|lea|votre phrase peut parler du français.
+359|lea|« D'ici 2027, je veux comprendre un film sans sous-titres.
+360|lea|Pour ça, je vais regarder dix minutes par jour. »
+361|mat|Dix minutes, c'est petit.
+362|mat|Mais dix minutes tous les jours,
+363|mat|ça fait beaucoup de films.
+364|lea|À vous. Dites votre phrase à voix haute.
+365|lea|Prenez quelques secondes.
+366|mat|Pas besoin d'une phrase parfaite.
+367|mat|Une phrase simple, c'est déjà une phrase en français.
+368|lea|Gardez-la bien. À la fin de l'épisode,
+369|lea|on va lui ajouter quelque chose.
+370|mat|Revenons sur quelques expressions.
+371|mat|Écoutez, puis répétez avec nous.
+372|lea|Tout à l'heure,
+373|lea|je vous parlais de mes neuf résolutions
+374|lea|et du grand-père de Mathieu.
+375|lea|L'expression, c'était : courir deux lièvres à la fois.
+376|mat|C'est vouloir faire plusieurs choses en même temps,
+377|mat|et finalement, n'en réussir aucune.
+378|mat|Exemple : il prépare un concours
+379|mat|et il déménage le même mois.
+380|mat|Il court deux lièvres à la fois.
+381|lea|On répète : courir deux lièvres à la fois.
+382|mat|Ensuite, mes quarante vidéos et Monsieur Bulle.
+383|mat|L'expression, c'était : passer à l'acte.
+384|lea|C'est arrêter de préparer ou d'en parler,
+385|lea|et faire vraiment la chose.
+386|lea|Exemple : elle parlait de ce voyage depuis des années,
+387|lea|et cet été, elle est passée à l'acte.
+388|mat|On répète : passer à l'acte.
+389|lea|Quand Mathieu avait peur que sa voisine le trouve nul,
+390|lea|on a dit : se faire des films.
+391|mat|C'est imaginer des choses, souvent négatives,
+392|mat|qui ne sont pas réelles.
+393|mat|Exemple : il ne m'a pas encore répondu,
+394|mat|mais je ne vais pas me faire des films.
+395|mat|Il est sûrement occupé.
+396|lea|On répète : se faire des films.
+397|mat|Pour le pain qui lève lentement,
+398|mat|on a parlé de tenir bon.
+399|lea|C'est continuer malgré la difficulté ou la fatigue,
+400|lea|sans abandonner.
+401|lea|Exemple : la dernière semaine du chantier était dure,
+402|lea|mais toute l'équipe a tenu bon.
+403|mat|On répète : tenir bon.
+404|lea|Et enfin, pour les gens qui nous donnent envie,
+405|lea|ou pas : contagieux.
+406|mat|Une maladie peut être contagieuse, mais un rire aussi.
+407|mat|Exemple : sa bonne humeur est contagieuse,
+408|mat|tout le bureau sourit le lundi matin.
+409|lea|On répète : contagieux, contagieuse.
+410|mat|Et maintenant, dites-le autrement.
+411|mat|Je dis une phrase simple, Léa dit la version naturelle.
+412|lea|Vas-y.
+413|mat|« Je commence tout et je ne finis rien. »
+414|lea|Je m'éparpille.
+415|mat|« Je n'ai pas le temps pour ça. »
+416|lea|Je n'arrive pas à trouver un créneau.
+417|mat|« J'ai compris d'un coup qu'il fallait le faire. »
+418|lea|J'ai eu le déclic.
+419|mat|« Je pense à cette dispute tout le temps. »
+420|lea|Je la ressasse.
+421|mat|Et une phrase très utile en conversation :
+422|mat|« Je n'ai pas compris. »
+423|lea|Pardon, je n'ai pas bien saisi.
+424|lea|Vous pouvez répéter ?
+425|mat|Avec cette phrase, vous restez dans la conversation,
+426|mat|même quand elle va trop vite.
+427|lea|Un petit conseil pour cet épisode :
+428|lea|écoutez-le une fois sans vous arrêter,
+429|lea|puis une deuxième fois avec les sous-titres.
+430|mat|Choisissez un petit échange,
+431|mat|par exemple avec la tante Monique,
+432|mat|et répétez-le avec nous.
+433|lea|Et maintenant, reprenez votre phrase de tout à l'heure,
+434|lea|et ajoutez une raison : « D'ici 2027, je veux…
+435|lea|Pour ça, je vais… parce que… »
+436|mat|Moi : d'ici 2027, je veux faire un vrai pain,
+437|mat|parce que je veux enfin entendre la croûte qui chante.
+438|lea|Écrivez votre phrase dans les commentaires.
+439|lea|On les lit toutes.
+440|mat|Et envoyez cet épisode à quelqu'un
+441|mat|qui a un levain dans le frigo.
+442|mat|Il comprendra.
+443|lea|Si cette conversation vous a aidés,
+444|lea|abonnez-vous à The Cozy French.
+445|lea|Prenez soin de vous et à très bientôt !
+446|mat|Au revoir tout le monde !
+447|mat|Attends… Léa. Le carnet.
+448|lea|Ah oui. La fameuse ligne de mars.
+449|mat|Alors ?
+450|lea|« Acheter un nouveau carnet. »
+451|mat|Non !
+452|lea|Si. Et je l'ai acheté.
+453|lea|En septembre.
+454|mat|Donc c'est la seule résolution que tu as tenue.
+455|lea|Exactement. Cent pour cent de réussite.
+456|mat|Bon. Moi, je vais nourrir Monsieur Bulle.
+457|mat|Samedi, il travaille.

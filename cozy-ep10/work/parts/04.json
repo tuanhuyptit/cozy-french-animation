@@ -1,0 +1,528 @@
+[
+ {
+  "who": "mat",
+  "fr": "C'est presque reposant.",
+  "en": "It's almost restful."
+ },
+ {
+  "who": "lea",
+  "fr": "Très. Je n'ai plus besoin de choisir chaque soir.",
+  "en": "Very. I no longer need to choose every evening.",
+  "boardEnd": true
+ },
+ {
+  "who": "mat",
+  "fr": "Deuxième idée ?",
+  "en": "Second idea?"
+ },
+ {
+  "who": "lea",
+  "fr": "Arrêter de dire « je n'ai pas le temps ».",
+  "en": "Stop saying \"I don't have time\".",
+  "illus": "temps",
+  "label": "le temps"
+ },
+ {
+  "who": "lea",
+  "fr": "Le temps libre ne tombe pas du ciel.",
+  "en": "Free time doesn't fall from the sky."
+ },
+ {
+  "who": "lea",
+  "fr": "On le réserve, comme un rendez-vous chez le médecin.",
+  "en": "You book it, like a doctor's appointment."
+ },
+ {
+  "who": "mat",
+  "fr": "[Un créneau,] en fait.",
+  "en": "A time slot, in fact."
+ },
+ {
+  "who": "lea",
+  "fr": "Un créneau, oui : un moment précis dans l'agenda.",
+  "en": "A slot, yes: a precise moment in the diary."
+ },
+ {
+  "who": "lea",
+  "fr": "Le dimanche,",
+  "en": "On Sunday,"
+ },
+ {
+  "who": "lea",
+  "fr": "de dix-huit heures à dix-huit heures trente, c'est mamie.",
+  "en": "from six to six-thirty p.m., it's Grandma."
+ },
+ {
+  "who": "mat",
+  "fr": "Alors moi, j'ai essayé.",
+  "en": "So I tried it."
+ },
+ {
+  "who": "mat",
+  "fr": "J'ai décidé de consacrer mon dimanche matin au pain.",
+  "en": "I decided to devote my Sunday morning to bread."
+ },
+ {
+  "who": "mat",
+  "fr": "À sept heures.",
+  "en": "At seven o'clock."
+ },
+ {
+  "who": "lea",
+  "fr": "Sept heures ? Toi ?",
+  "en": "Seven o'clock? You?",
+  "emote": "surpris"
+ },
+ {
+  "who": "mat",
+  "fr": "Le Mathieu du samedi soir trouvait l'idée excellente.",
+  "en": "Saturday-night Mathieu thought it was an excellent idea."
+ },
+ {
+  "who": "lea",
+  "fr": "Et le Mathieu du dimanche matin ?",
+  "en": "And Sunday-morning Mathieu?"
+ },
+ {
+  "who": "mat",
+  "fr": "Il a éteint le réveil",
+  "en": "He switched off the alarm",
+  "illus": "sommeil",
+  "label": "le réveil"
+ },
+ {
+  "who": "mat",
+  "fr": "et il a envoyé un message d'absence.",
+  "en": "and sent an out-of-office message.",
+  "emote": "gene",
+  "react": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Alors on change le créneau.",
+  "en": "Then we change the slot."
+ },
+ {
+  "who": "lea",
+  "fr": "Samedi après-midi, un pain.",
+  "en": "Saturday afternoon, one loaf."
+ },
+ {
+  "who": "lea",
+  "fr": "Pas trois. Un.",
+  "en": "Not three. One."
+ },
+ {
+  "who": "mat",
+  "fr": "Samedi après-midi, ça, je peux.",
+  "en": "Saturday afternoon, that I can do."
+ },
+ {
+  "who": "lea",
+  "fr": "Troisième idée, et c'est peut-être la plus importante :",
+  "en": "Third idea, and maybe the most important:"
+ },
+ {
+  "who": "lea",
+  "fr": "[tenir bon] quand ça devient ennuyeux.",
+  "en": "hold on when it gets boring."
+ },
+ {
+  "who": "mat",
+  "fr": "Ennuyeux ? Pourtant, au début, c'est excitant.",
+  "en": "Boring? But at the start, it's exciting."
+ },
+ {
+  "who": "lea",
+  "fr": "Au début, oui.",
+  "en": "At the start, yes."
+ },
+ {
+  "who": "lea",
+  "fr": "Nouveau carnet, nouvelle farine.",
+  "en": "New notebook, new flour."
+ },
+ {
+  "who": "lea",
+  "fr": "Mais après deux ou trois semaines,",
+  "en": "But after two or three weeks,"
+ },
+ {
+  "who": "lea",
+  "fr": "plus personne ne t'applaudit.",
+  "en": "nobody applauds you anymore."
+ },
+ {
+  "who": "lea",
+  "fr": "C'est là que beaucoup de gens abandonnent.",
+  "en": "That's when a lot of people give up.",
+  "emote": "triste"
+ },
+ {
+  "who": "mat",
+  "fr": "Un peu comme le pain qui lève.",
+  "en": "A bit like bread rising.",
+  "illus": "repas",
+  "label": "le pain"
+ },
+ {
+  "who": "mat",
+  "fr": "Pendant des heures,",
+  "en": "For hours,"
+ },
+ {
+  "who": "mat",
+  "fr": "on a l'impression qu'il ne se passe rien.",
+  "en": "you feel like nothing is happening."
+ },
+ {
+  "who": "lea",
+  "fr": "Et pourtant, il se passe beaucoup de choses à l'intérieur.",
+  "en": "And yet, lots of things are happening inside."
+ },
+ {
+  "who": "lea",
+  "fr": "Il faut juste ne pas ouvrir",
+  "en": "You just mustn't open"
+ },
+ {
+  "who": "lea",
+  "fr": "le four toutes les cinq minutes.",
+  "en": "the oven every five minutes."
+ },
+ {
+  "who": "mat",
+  "fr": "Pour le français,",
+  "en": "For French,"
+ },
+ {
+  "who": "mat",
+  "fr": "ça pourrait être vingt minutes à voix haute,",
+  "en": "it could be twenty minutes out loud,"
+ },
+ {
+  "who": "mat",
+  "fr": "trois fois par semaine, jusqu'à la fin de l'année.",
+  "en": "three times a week, until the end of the year."
+ },
+ {
+  "who": "lea",
+  "fr": "Plutôt que deux heures le premier janvier…",
+  "en": "Rather than two hours on the first of January…"
+ },
+ {
+  "who": "lea",
+  "fr": "et plus rien le quatre.",
+  "en": "and nothing by the fourth.",
+  "emote": "rire"
+ },
+ {
+  "who": "mat",
+  "fr": "Et si on rate un jour ?",
+  "en": "And what if you miss a day?"
+ },
+ {
+  "who": "lea",
+  "fr": "On ne repart pas de zéro.",
+  "en": "You don't start from scratch."
+ },
+ {
+  "who": "lea",
+  "fr": "On reprend le lendemain.",
+  "en": "You pick up again the next day."
+ },
+ {
+  "who": "lea",
+  "fr": "Ce n'est pas un examen, c'est une habitude.",
+  "en": "It's not an exam, it's a habit.",
+  "emote": "coeur"
+ },
+ {
+  "who": "lea",
+  "fr": "À vous maintenant.",
+  "en": "Over to you now."
+ },
+ {
+  "who": "lea",
+  "fr": "Voici une phrase à compléter :",
+  "en": "Here's a sentence to complete:"
+ },
+ {
+  "who": "lea",
+  "fr": "« D'ici 2027, je veux…",
+  "en": "\"By 2027, I want…"
+ },
+ {
+  "who": "lea",
+  "fr": "Pour ça, je vais… »",
+  "en": "To do that, I'm going to…\""
+ },
+ {
+  "who": "mat",
+  "fr": "Moi : d'ici 2027, je veux faire un vrai pain.",
+  "en": "Me: by 2027, I want to make a real loaf.",
+  "board": {
+   "mode": "fill",
+   "bg": "liege",
+   "sentence": "Un pain chaque ___ après-midi.",
+   "answer": "samedi",
+   "hint": "un créneau précis",
+   "en": "One loaf every Saturday afternoon.",
+   "reveal": 1
+  }
+ },
+ {
+  "who": "mat",
+  "fr": "Pour ça, je vais en faire un chaque samedi après-midi.",
+  "en": "To do that, I'll make one every Saturday afternoon."
+ },
+ {
+  "who": "lea",
+  "fr": "Et moi : d'ici 2027,",
+  "en": "And me: by 2027,"
+ },
+ {
+  "who": "lea",
+  "fr": "je veux parler plus souvent avec ma grand-mère.",
+  "en": "I want to talk more often with my grandmother."
+ },
+ {
+  "who": "lea",
+  "fr": "Pour ça,",
+  "en": "To do that,"
+ },
+ {
+  "who": "lea",
+  "fr": "je vais l'appeler tous les dimanches à dix-huit heures.",
+  "en": "I'll call her every Sunday at six p.m."
+ },
+ {
+  "who": "mat",
+  "fr": "Vous avez remarqué ?",
+  "en": "Did you notice?"
+ },
+ {
+  "who": "mat",
+  "fr": "Une seule chose, et un créneau précis.",
+  "en": "One single thing, and a precise time slot.",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Si vous apprenez le français,",
+  "en": "If you're learning French,"
+ },
+ {
+  "who": "lea",
+  "fr": "votre phrase peut parler du français.",
+  "en": "your sentence can be about French."
+ },
+ {
+  "who": "lea",
+  "fr": "« D'ici 2027, je veux comprendre un film sans sous-titres.",
+  "en": "\"By 2027, I want to understand a film without subtitles."
+ },
+ {
+  "who": "lea",
+  "fr": "Pour ça, je vais regarder dix minutes par jour. »",
+  "en": "To do that, I'll watch ten minutes a day.\""
+ },
+ {
+  "who": "mat",
+  "fr": "Dix minutes, c'est petit.",
+  "en": "Ten minutes is small."
+ },
+ {
+  "who": "mat",
+  "fr": "Mais dix minutes tous les jours,",
+  "en": "But ten minutes every day"
+ },
+ {
+  "who": "mat",
+  "fr": "ça fait beaucoup de films.",
+  "en": "adds up to a lot of films."
+ },
+ {
+  "who": "lea",
+  "fr": "À vous. Dites votre phrase à voix haute.",
+  "en": "Your turn. Say your sentence out loud."
+ },
+ {
+  "who": "lea",
+  "fr": "Prenez quelques secondes.",
+  "en": "Take a few seconds."
+ },
+ {
+  "who": "mat",
+  "fr": "Pas besoin d'une phrase parfaite.",
+  "en": "No need for a perfect sentence."
+ },
+ {
+  "who": "mat",
+  "fr": "Une phrase simple, c'est déjà une phrase en français.",
+  "en": "A simple sentence is already a sentence in French.",
+  "emote": "coeur"
+ },
+ {
+  "who": "lea",
+  "fr": "Gardez-la bien. À la fin de l'épisode,",
+  "en": "Keep it safe. At the end of the episode,"
+ },
+ {
+  "who": "lea",
+  "fr": "on va lui ajouter quelque chose.",
+  "en": "we'll add something to it."
+ },
+ {
+  "who": "mat",
+  "fr": "Revenons sur quelques expressions.",
+  "en": "Let's go back over a few expressions."
+ },
+ {
+  "who": "mat",
+  "fr": "Écoutez, puis répétez avec nous.",
+  "en": "Listen, then repeat with us."
+ },
+ {
+  "who": "lea",
+  "fr": "Tout à l'heure,",
+  "en": "Earlier,"
+ },
+ {
+  "who": "lea",
+  "fr": "je vous parlais de mes neuf résolutions",
+  "en": "I was telling you about my nine resolutions"
+ },
+ {
+  "who": "lea",
+  "fr": "et du grand-père de Mathieu.",
+  "en": "and Mathieu's grandfather."
+ },
+ {
+  "who": "lea",
+  "fr": "L'expression, c'était : courir deux lièvres à la fois.",
+  "en": "The expression was: courir deux lièvres à la fois."
+ },
+ {
+  "who": "mat",
+  "fr": "C'est vouloir faire plusieurs choses en même temps,",
+  "en": "It means wanting to do several things at once,"
+ },
+ {
+  "who": "mat",
+  "fr": "et finalement, n'en réussir aucune.",
+  "en": "and in the end, succeeding at none."
+ },
+ {
+  "who": "mat",
+  "fr": "Exemple : il prépare un concours",
+  "en": "Example: he's preparing for a competitive exam"
+ },
+ {
+  "who": "mat",
+  "fr": "et il déménage le même mois.",
+  "en": "and moving house the same month."
+ },
+ {
+  "who": "mat",
+  "fr": "Il court deux lièvres à la fois.",
+  "en": "He's chasing two hares at once."
+ },
+ {
+  "who": "lea",
+  "fr": "On répète : courir deux lièvres à la fois.",
+  "en": "Let's repeat: courir deux lièvres à la fois."
+ },
+ {
+  "who": "mat",
+  "fr": "Ensuite, mes quarante vidéos et Monsieur Bulle.",
+  "en": "Next, my forty videos and Monsieur Bulle."
+ },
+ {
+  "who": "mat",
+  "fr": "L'expression, c'était : passer à l'acte.",
+  "en": "The expression was: passer à l'acte."
+ },
+ {
+  "who": "lea",
+  "fr": "C'est arrêter de préparer ou d'en parler,",
+  "en": "It means stopping preparing or talking about it,"
+ },
+ {
+  "who": "lea",
+  "fr": "et faire vraiment la chose.",
+  "en": "and really doing the thing."
+ },
+ {
+  "who": "lea",
+  "fr": "Exemple : elle parlait de ce voyage depuis des années,",
+  "en": "Example: she'd been talking about this trip for years,",
+  "illus": "voyage",
+  "label": "ce voyage"
+ },
+ {
+  "who": "lea",
+  "fr": "et cet été, elle est passée à l'acte.",
+  "en": "and this summer, she finally did it."
+ },
+ {
+  "who": "mat",
+  "fr": "On répète : passer à l'acte.",
+  "en": "Let's repeat: passer à l'acte."
+ },
+ {
+  "who": "lea",
+  "fr": "Quand Mathieu avait peur que sa voisine le trouve nul,",
+  "en": "When Mathieu was afraid his neighbour would think he was useless,"
+ },
+ {
+  "who": "lea",
+  "fr": "on a dit : se faire des films.",
+  "en": "we said: se faire des films."
+ },
+ {
+  "who": "mat",
+  "fr": "C'est imaginer des choses, souvent négatives,",
+  "en": "It means imagining things, often negative,"
+ },
+ {
+  "who": "mat",
+  "fr": "qui ne sont pas réelles.",
+  "en": "that aren't real."
+ },
+ {
+  "who": "mat",
+  "fr": "Exemple : il ne m'a pas encore répondu,",
+  "en": "Example: he hasn't replied to me yet,"
+ },
+ {
+  "who": "mat",
+  "fr": "mais je ne vais pas me faire des films.",
+  "en": "but I'm not going to imagine things."
+ },
+ {
+  "who": "mat",
+  "fr": "Il est sûrement occupé.",
+  "en": "He's surely busy."
+ },
+ {
+  "who": "lea",
+  "fr": "On répète : se faire des films.",
+  "en": "Let's repeat: se faire des films."
+ },
+ {
+  "who": "mat",
+  "fr": "Pour le pain qui lève lentement,",
+  "en": "For the bread that rises slowly,"
+ },
+ {
+  "who": "mat",
+  "fr": "on a parlé de tenir bon.",
+  "en": "we talked about tenir bon."
+ },
+ {
+  "who": "lea",
+  "fr": "C'est continuer malgré la difficulté ou la fatigue,",
+  "en": "It means carrying on despite difficulty or tiredness,"
+ }
+]

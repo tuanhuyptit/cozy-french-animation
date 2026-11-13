@@ -1,0 +1,348 @@
+[
+ {
+  "who": "lea",
+  "fr": "sans abandonner.",
+  "en": "without giving up."
+ },
+ {
+  "who": "lea",
+  "fr": "Exemple : la dernière semaine du chantier était dure,",
+  "en": "Example: the last week on the building site was hard,"
+ },
+ {
+  "who": "lea",
+  "fr": "mais toute l'équipe a tenu bon.",
+  "en": "but the whole team held on."
+ },
+ {
+  "who": "mat",
+  "fr": "On répète : tenir bon.",
+  "en": "Let's repeat: tenir bon."
+ },
+ {
+  "who": "lea",
+  "fr": "Et enfin, pour les gens qui nous donnent envie,",
+  "en": "And finally, for the people who make us want to, or not:",
+  "illus": "sante",
+  "label": "contagieux"
+ },
+ {
+  "who": "lea",
+  "fr": "ou pas : contagieux.",
+  "en": "contagious."
+ },
+ {
+  "who": "mat",
+  "fr": "Une maladie peut être contagieuse, mais un rire aussi.",
+  "en": "An illness can be contagious, but so can a laugh."
+ },
+ {
+  "who": "mat",
+  "fr": "Exemple : sa bonne humeur est contagieuse,",
+  "en": "Example: her good mood is contagious,"
+ },
+ {
+  "who": "mat",
+  "fr": "tout le bureau sourit le lundi matin.",
+  "en": "the whole office smiles on Monday morning.",
+  "emote": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "On répète : contagieux, contagieuse.",
+  "en": "Let's repeat: contagieux, contagieuse."
+ },
+ {
+  "who": "mat",
+  "fr": "Et maintenant, dites-le autrement.",
+  "en": "And now, say it differently."
+ },
+ {
+  "who": "mat",
+  "fr": "Je dis une phrase simple, Léa dit la version naturelle.",
+  "en": "I say a simple sentence, Léa says the natural version."
+ },
+ {
+  "who": "lea",
+  "fr": "Vas-y.",
+  "en": "Go ahead."
+ },
+ {
+  "who": "mat",
+  "fr": "« Je commence tout et je ne finis rien. »",
+  "en": "\"I start everything and finish nothing.\"",
+  "board": {
+   "mode": "compare",
+   "bg": "craie",
+   "title": "Dites-le autrement",
+   "left": {
+    "head": "simple",
+    "items": [
+     {
+      "text": "Je commence tout…",
+      "at": 0
+     },
+     {
+      "text": "Je n'ai pas le temps.",
+      "at": 2
+     },
+     {
+      "text": "J'ai compris d'un coup.",
+      "at": 4
+     },
+     {
+      "text": "J'y pense tout le temps.",
+      "at": 6
+     }
+    ]
+   },
+   "right": {
+    "head": "naturel",
+    "items": [
+     {
+      "text": "Je m'éparpille.",
+      "at": 1
+     },
+     {
+      "text": "Je n'arrive pas à trouver un créneau.",
+      "at": 3
+     },
+     {
+      "text": "J'ai eu le déclic.",
+      "at": 5
+     },
+     {
+      "text": "Je la ressasse.",
+      "at": 7
+     }
+    ]
+   }
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "Je m'éparpille.",
+  "en": "I'm spreading myself too thin."
+ },
+ {
+  "who": "mat",
+  "fr": "« Je n'ai pas le temps pour ça. »",
+  "en": "\"I don't have time for that.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Je n'arrive pas à trouver un créneau.",
+  "en": "I can't manage to find a slot."
+ },
+ {
+  "who": "mat",
+  "fr": "« J'ai compris d'un coup qu'il fallait le faire. »",
+  "en": "\"I suddenly understood I had to do it.\""
+ },
+ {
+  "who": "lea",
+  "fr": "J'ai eu le déclic.",
+  "en": "It clicked for me."
+ },
+ {
+  "who": "mat",
+  "fr": "« Je pense à cette dispute tout le temps. »",
+  "en": "\"I think about that argument all the time.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Je la ressasse.",
+  "en": "I keep going over it.",
+  "boardEnd": true
+ },
+ {
+  "who": "mat",
+  "fr": "Et une phrase très utile en conversation :",
+  "en": "And a very useful sentence in conversation:"
+ },
+ {
+  "who": "mat",
+  "fr": "« Je n'ai pas compris. »",
+  "en": "\"I didn't understand.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Pardon, je n'ai pas bien [saisi.]",
+  "en": "Sorry, I didn't quite catch that."
+ },
+ {
+  "who": "lea",
+  "fr": "Vous pouvez répéter ?",
+  "en": "Could you repeat?"
+ },
+ {
+  "who": "mat",
+  "fr": "Avec cette phrase, vous restez dans la conversation,",
+  "en": "With this sentence, you stay in the conversation,"
+ },
+ {
+  "who": "mat",
+  "fr": "même quand elle va trop vite.",
+  "en": "even when it goes too fast."
+ },
+ {
+  "who": "lea",
+  "fr": "Un petit conseil pour cet épisode :",
+  "en": "A little tip for this episode:"
+ },
+ {
+  "who": "lea",
+  "fr": "écoutez-le une fois sans vous arrêter,",
+  "en": "listen to it once without stopping,"
+ },
+ {
+  "who": "lea",
+  "fr": "puis une deuxième fois avec les sous-titres.",
+  "en": "then a second time with the subtitles."
+ },
+ {
+  "who": "mat",
+  "fr": "Choisissez un petit échange,",
+  "en": "Choose a short exchange,"
+ },
+ {
+  "who": "mat",
+  "fr": "par exemple avec la tante Monique,",
+  "en": "for example with aunt Monique,"
+ },
+ {
+  "who": "mat",
+  "fr": "et répétez-le avec nous.",
+  "en": "and repeat it with us."
+ },
+ {
+  "who": "lea",
+  "fr": "Et maintenant, reprenez votre phrase de tout à l'heure,",
+  "en": "And now, take your sentence from earlier,"
+ },
+ {
+  "who": "lea",
+  "fr": "et ajoutez une raison : « D'ici 2027, je veux…",
+  "en": "and add a reason: \"By 2027, I want…"
+ },
+ {
+  "who": "lea",
+  "fr": "Pour ça, je vais… parce que… »",
+  "en": "To do that, I'm going to… because…\""
+ },
+ {
+  "who": "mat",
+  "fr": "Moi : d'ici 2027, je veux faire un vrai pain,",
+  "en": "Me: by 2027, I want to make a real loaf,"
+ },
+ {
+  "who": "mat",
+  "fr": "parce que je veux enfin entendre la croûte qui chante.",
+  "en": "because I finally want to hear the crust sing.",
+  "emote": "coeur"
+ },
+ {
+  "who": "lea",
+  "fr": "Écrivez votre phrase dans les commentaires.",
+  "en": "Write your sentence in the comments."
+ },
+ {
+  "who": "lea",
+  "fr": "On les lit toutes.",
+  "en": "We read them all."
+ },
+ {
+  "who": "mat",
+  "fr": "Et envoyez cet épisode à quelqu'un",
+  "en": "And send this episode to someone"
+ },
+ {
+  "who": "mat",
+  "fr": "qui a un levain dans le frigo.",
+  "en": "who has a starter in the fridge."
+ },
+ {
+  "who": "mat",
+  "fr": "Il comprendra.",
+  "en": "They'll understand.",
+  "emote": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Si cette conversation vous a aidés,",
+  "en": "If this conversation helped you,"
+ },
+ {
+  "who": "lea",
+  "fr": "abonnez-vous à The Cozy French.",
+  "en": "subscribe to The Cozy French."
+ },
+ {
+  "who": "lea",
+  "fr": "Prenez soin de vous et à très bientôt !",
+  "en": "Take care of yourselves and see you very soon!"
+ },
+ {
+  "who": "mat",
+  "fr": "Au revoir tout le monde !",
+  "en": "Goodbye everyone!"
+ },
+ {
+  "who": "mat",
+  "fr": "Attends… Léa. Le carnet.",
+  "en": "Wait… Léa. The notebook."
+ },
+ {
+  "who": "lea",
+  "fr": "Ah oui. La fameuse ligne de mars.",
+  "en": "Oh yes. The famous line from March."
+ },
+ {
+  "who": "mat",
+  "fr": "Alors ?",
+  "en": "So?"
+ },
+ {
+  "who": "lea",
+  "fr": "« Acheter un nouveau carnet. »",
+  "en": "\"Buy a new notebook.\""
+ },
+ {
+  "who": "mat",
+  "fr": "Non !",
+  "en": "No!",
+  "emote": "surpris"
+ },
+ {
+  "who": "lea",
+  "fr": "Si. Et je l'ai acheté.",
+  "en": "Yes. And I bought it."
+ },
+ {
+  "who": "lea",
+  "fr": "En septembre.",
+  "en": "In September.",
+  "emote": "gene"
+ },
+ {
+  "who": "mat",
+  "fr": "Donc c'est la seule résolution que tu as tenue.",
+  "en": "So that's the only resolution you kept."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Cent pour cent de réussite.",
+  "en": "Exactly. One hundred percent success.",
+  "emote": "rire"
+ },
+ {
+  "who": "mat",
+  "fr": "Bon. Moi, je vais nourrir Monsieur Bulle.",
+  "en": "Right. I'm going to feed Monsieur Bulle."
+ },
+ {
+  "who": "mat",
+  "fr": "Samedi, il travaille.",
+  "en": "On Saturday, he's working."
+ }
+]

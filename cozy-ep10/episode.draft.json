@@ -1,0 +1,2740 @@
+{
+  "scene": "salon",
+  "lea": "cardigan",
+  "mat": "hoodie",
+  "audio": "assets/voice.mp3",
+  "audioEnd": 1190.93,
+  "chunks": [
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Mathieu, j'ai fait une découverte cette semaine,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "dans le tiroir de mon bureau.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "Un billet de 20 euros ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Mieux, mon carnet de bonnes résolutions,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "celui de janvier 2026.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "Oh là là, et alors ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 296,
+      "fr": "Première page, 9 résolutions, très bien écrites,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "avec des couleurs.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "Et les pages suivantes ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Vides, sauf une ligne, écrite en mars.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Une seule ligne ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "Qu'est-ce qu'elle dit ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Je te le dirai à la fin de l'épisode.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 163,
+      "fr": "Non, tu ne peux pas me faire ça !",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Si, ça s'appelle du suspense.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Bonjour tout le monde et bienvenue sur The Cosy French.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Moi, c'est Léa.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "Et moi, c'est Mathieu.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "Je vais passer 20 minutes à me demander ce",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 170,
+      "fr": "qu'il y a dans ce carnet.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Parfait, comme ça, tu vas bien écouter.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "Aujourd'hui, on parle de changer sa vie avant 2027.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "Rien que ça, il reste moins de deux mois.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Justement, tout le monde attend le 1er janvier.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Nous, on se pose une question.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Et si on commençait avant ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "Rassurez-vous, on ne va pas vous demander de vous",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "lever à 5 heures pour crucir 10 km.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Non, le repos, ce n'est pas du temps perdu.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 296,
+      "fr": "On parle plutôt des choses qui comptent pour vous",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "et qu'on repousse toujours.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "Cette conversation est pour les niveaux B1 et B2.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 160,
+      "fr": "À la fin, vous saurez parler de vos projets pour l'année prochaine.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "Expliquez ce qui vous freine et dire ce que vous allez commencer.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Pas besoin de comprendre chaque mot.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 267,
+      "fr": "Suivez la conversation, comme si vous étiez assis avec nous.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "Et si vous reconnaissez des expressions des épisodes précédents,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "c'est voulu.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 113,
+      "fr": "C'est en les entendant une deuxième fois qu'elles restent.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 267,
+      "fr": "Avant de commencer, dites-nous d'où vous écoutez.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "On aime imaginer où vous êtes.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "Et si vous aussi, vous avez un carnet de",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "résolutions qui dort dans un tiroir,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "mettez un petit pouce, on ne juge pas.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "Surtout pas moi.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 151,
+      "fr": "Et gardez cette question en tête.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "Qu'est-ce que vous repoussez depuis le début de l'année ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Bon, le carnet.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Le 1er janvier, j'étais pleine d'énergie.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "J'avais pris de bonnes résolutions.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Neuf.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "Neuf ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 160,
+      "fr": "Pourquoi pas dix ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "La dixième, c'était être moins ambitieuse.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Je l'ai barré.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Ha !",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "Lis-moi la liste.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 276,
+      "fr": "Apprendre l'Espagnol, courir trois fois par semaine,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "lire trente livres, faire de la poterie,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "trier mes photos, appeler ma grand-mère tous les dimanches.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 151,
+      "fr": "Ça, c'est très joli.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Merci.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Manger moins de sucre, apprendre à coudre et me",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "coucher avant 20-23 heures.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "L'ALÉA de janvier avait de grands projets pour l'ALÉA de février.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "Énorme.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Et l'ALÉA de février n'avait rien demandé.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 129,
+      "fr": "Et ça a duré combien de temps ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Une semaine, très bien.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "J'ai couru deux fois, j'ai téléchargé une application d'Espagnol,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "j'ai acheté de la laine.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "Trois débuts en une semaine.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "Impressionnant.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Oui, mais le lundi suivant,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "j'ai voulu tout faire le même soir.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Espagnol, couture, lecture.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "À 22 heures, j'étais sur le canapé,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "avec un livre fermé et une pelote de laine sur les genoux.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 116,
+      "fr": "Tu t'éparpillais.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Je m'éparpillais ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Oui, c'est le mot.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Un peu d'énergie partout et rien qui avance vraiment.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "Et en février ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "En février, j'ai arrêté la course parce qu'il faisait froid.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "En mars, l'Espagnol, parce que j'avais raté trois jours.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Et le petit personnage de l'application pleurait chaque fois",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "que j'ouvrais mon téléphone.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "Tu culpabilisais devant un dessin animé.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "Exactement.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Mon grand-père disait toujours il ne faut pas courir",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "deux lièvres à la fois.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Ton grand-père chassait le lièvre ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 157,
+      "fr": "Non, il chassait surtout la sieste.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "Mais l'idée, c'est qu'en voulant tout attraper,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "on n'attrape rien.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Moi, j'en courais neuf.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "Et tu as attrapé quoi ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Un rhume, en courant sous la pluie.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Mais attends, le meilleur, c'est septembre.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 114,
+      "fr": "La rentrée.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 308,
+      "fr": "La rentrée !",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 267,
+      "fr": "Tu sais, en France, on a deux premiers janviers.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "Le vrai et le deuxième premier janvier.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "La rentrée de septembre.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Voilà, nouvelle agenda, nouveau stylo,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "nouvelle vie.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Alors j'ai acheté un bel agenda et j'ai recopié la même liste.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "Les neufs ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Les neufs.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Avec les mêmes couleurs.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Je voulais repartir de zéro.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 163,
+      "fr": "Repartir de zéro avec exactement la même liste.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "C'est presque de l'art.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "J'ai bien ri en retrouvant les deux carnets côte à côte.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Mais j'ai aussi compris quelque chose.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Je n'ai pas manqué de motivation.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "J'ai manqué de choix.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "Ça, c'est une belle phrase.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "Et toi ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Tu ne vas pas me dire que tu n'as",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "rien repoussé cette année ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "Moi, j'ai un projet très sérieux.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "Le pain.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Le pain ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 296,
+      "fr": "Tu veux faire ton propre pain ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 129,
+      "fr": "Du pain au levain.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 160,
+      "fr": "Comme à la boulangerie du coin,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "avec la croûte qui chante quand on la coupe.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 308,
+      "fr": "La croûte qui chante ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Tu m'as déjà convaincu.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Alors, au printemps, j'ai regardé une vidéo,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 163,
+      "fr": "puis une autre.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "Je crois que j'en ai vu une quarantaine.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 276,
+      "fr": "Quarante vidéos sur le pain ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 151,
+      "fr": "Je connais tout.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 157,
+      "fr": "La farine, l'eau, la température,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "le temps de repos.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "Je peux te faire une conférence.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Et combien de pain tu as fait ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 113,
+      "fr": "Zéro.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 276,
+      "fr": "Zéro ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Mais j'ai un levain.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "Il s'appelle M.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 108,
+      "fr": "Bull.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "Il vit dans mon frigo et je le nourris",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "tous les trois jours.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Attends, tu nourris un levain depuis des mois ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 276,
+      "fr": "Pour ne jamais faire de pain ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "Disons que c'est devenu un animal de compagnie.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Mathieu, c'est le levain dans le frigo.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Tu t'occupes du projet, mais tu ne l'utilises jamais.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "Oh, ça fait mal.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "Mais c'est vrai.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 160,
+      "fr": "Regarder des vidéos, c'était agréable.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "J'avais l'impression d'avancer, sans prendre aucun risque.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Parce que tu ne passais jamais à l'acte.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 163,
+      "fr": "Passer à l'acte, oui.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 151,
+      "fr": "Arrêter de préparer et faire vraiment la chose.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Et qu'est-ce qui a changé ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "Il y a deux semaines,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "ma voisine du dessus m'a apporté un pain qu'elle avait fait elle-même.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "Elle avait commencé en septembre.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "Avec une seule vidéo.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Une seule ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "Une seule.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "Et son pain était magnifique.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "Là, j'ai eu le déclic.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Le fameux déclic.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Le samedi suivant, j'ai fait mon premier pain.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 296,
+      "fr": "Et alors ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "Il était plat.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "Vraiment plat.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "On aurait dit une crêpe un peu triste.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Oh non.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "Mais avec un morceau de comté,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 151,
+      "fr": "je te jure, c'était délicieux.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 170,
+      "fr": "Et surtout, j'ai appris plus en une heure qu'en quarante vidéos.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Parce que maintenant, tu sais ce qui est difficile pour toi.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "La pâte, elle colle partout.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "Aux mains, aux plans de travail,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "à mon téléphone.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "À ton téléphone ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Je voulais revoir une vidéo.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Évidemment.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Et c'est pareil avec le français,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 308,
+      "fr": "non ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "On peut connaître toutes les règles du passé composées.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "Et rester bloqué quand quelqu'un demande « Qu'est-ce que",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 151,
+      "fr": "tu as fait ce week-end ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "» Voilà, la règle, c'est la vidéo.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "La conversation, c'est le pain.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "Même s'il est un peu plat.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "Mais pourquoi on fait ça ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "Pourquoi on attend toujours le 1er janvier ou un lundi ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Je crois qu'une date nous donne l'impression d'une page blanche.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Le 1er janvier, tout est propre.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "On n'a encore rien raté.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Alors qu'un mercredi de novembre,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "à 18 heures, il pleut,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 129,
+      "fr": "on est fatigué.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Et on a déjà raté plein de choses dans la semaine.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Ça ne ressemble pas au début d'une nouvelle vie.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "Et il y a autre chose.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "Quand on commence, on peut échouer.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "Tant qu'on attend janvier, le projet reste parfait.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Dans notre tête, plus tard,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "on est toujours prêt.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "Plus tard, je fais un pain magnifique.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Plus tard, je parle espagnol avec ma grand-mère,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "qui ne parle pas espagnol.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "Et puis, on se fait des films.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Des films ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "On imagine des choses qui n'existent pas.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "Si je rate mon pain,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "ma voisine va penser que je suis nul.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Alors qu'elle t'a apporté du pain,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "elle a plutôt envie que tu réussisses.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Oui, dit comme ça, mon film n'est pas très réaliste.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Moi, ça m'arrive surtout après une conversation.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Quelqu'un me fait une petite remarque et je la",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "ressasse pendant 3 jours.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Ressasser ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "Développe.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 276,
+      "fr": "Repenser à la même chose,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "encore et encore, sans avancer.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Le soir, en faisant la vaisselle,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "je prépare la réponse parfaite,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "3 jours trop tard.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Et toute cette énergie, elle ne va pas dans le projet.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Exactement !",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "On dépense beaucoup d'énergie à penser et il en",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "reste très peu pour faire.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Bon, attention, on ne dit pas que janvier est une mauvaise idée.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Si janvier vous aide, très bien.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "Et parfois, attendre, c'est raisonnable.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 119,
+      "fr": "Un déménagement, un bébé, des examens.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "La vraie question, c'est plutôt est-ce qu'il existe une",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "toute petite version que je peux commencer maintenant ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Juste pour mettre le pied à l'étrier.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "Comme un cheval, une fois le pied dedans,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 111,
+      "fr": "le reste devient plus facile.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "On essaie quelque chose ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Dans quelques semaines, c'est le repas de Noël en famille.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "Le moment où tout le monde pose des questions sur tes projets.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Exactement !",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Je suis à Tante Monique,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "on en est au fromage.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Et je te dis devant tout le monde,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "alors Mathieu, ce fameux pain,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "ça avance ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "Je ne réponds pas tout de suite.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 119,
+      "fr": "Vous, à ma place, qu'est-ce que vous diriez ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Prenez quelques secondes.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Voilà, maintenant la version de Mathieu.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Alors, ce fameux pain, ça avance ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 170,
+      "fr": "Ça avance doucement.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "Le premier était un peu plat mais délicieux.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "Samedi, j'en refais un.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "Si tu veux, je t'en garde un morceau.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Oh, ça, c'est une très bonne réponse.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "Pourquoi ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Tu es honnête, tu fais une petite blague sur",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "toi et tu donnes une prochaine étape,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "samedi.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 157,
+      "fr": "Et en plus, je fais un cadeau à Tante Monique,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "elle ne peut plus rien dire.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Mais tu sais, certaines personnes répondent,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "le pain, à ton âge,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "va donc à la boulangerie ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "Ah oui, après ce genre de conversation,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "on a moins envie de faire quoi que ce soit.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 296,
+      "fr": "Et d'autres te demandent juste,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "c'est quoi la prochaine étape ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Et tout à coup, ça paraît possible.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 163,
+      "fr": "L'enthousiasme, c'est contagieux.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 116,
+      "fr": "Le découragement aussi.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Alors, voilà une bonne question à se poser.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Après avoir parlé avec cette personne,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "j'ai plus envie ou moins envie ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 129,
+      "fr": "Avec toi, j'ai envie de faire du pain.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Et moi, j'ai envie d'en manger,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "tout le monde y gagne.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "En français, c'est pareil, entourez-vous de gens qui vous",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "laissent finir votre phrase.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Même quand elle est un peu plate.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 151,
+      "fr": "Bon, concrètement, il reste moins de deux mois,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 170,
+      "fr": "on fait quoi ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Première idée, une seule chose,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "pas neuf, une.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "Une seule ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 105,
+      "fr": "Ça me paraît très peu.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "Ce n'est pas pour toute la vie,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "c'est jusqu'au 1er janvier.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Les autres idées restent dans le carnet,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "bien au chaud.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "Comme Monsieur Bulle dans le frigo.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Voilà, moi, j'ai choisi d'appeler ma grand-mère tous les dimanches.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Je m'en tiens à ça jusqu'à la fin de l'année.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Sans tenir à une seule chose,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "c'est presque reposant.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Très, je n'ai plus besoin de choisir chaque soir.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "Deuxième idée ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Arrêtez de dire « je n'ai pas le temps ».",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Le temps libre ne tombe pas du ciel.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "On le réserve, comme un rendez-vous chez le médecin.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 119,
+      "fr": "Un créneau, en fait.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Un créneau, oui, un moment précis dans l'agenda.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Le dimanche, de 18h à 18h30,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "c'est mamie.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "Alors moi, j'ai essayé.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "J'ai décidé de consacrer mon dimanche matin au pain,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 101,
+      "fr": "à 7h.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 348,
+      "fr": "7h ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 333,
+      "fr": "Toi ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "Le Mathieu du samedi soir trouvait l'idée excellente.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Et le Mathieu du dimanche matin ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 129,
+      "fr": "Il a éteint le réveil et il a envoyé un message d'absence.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Alors, on change le créneau.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Samedi après-midi, un pain, pas trois,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "un.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Samedi après-midi, ça, je peux.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Troisième idée, et c'est peut-être la plus importante.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Tenir bon quand ça devient ennuyeux.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Ennuyeux ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "Pourtant, au début, c'est excitant.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Au début, oui, nouveau carnet,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "nouvelle farine.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Mais après deux ou trois semaines,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 333,
+      "fr": "plus personne ne t'applaudit.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "C'est là que beaucoup de gens abandonnent.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 151,
+      "fr": "Un peu comme le pain qui lève.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "Pendant des heures, on a l'impression qu'il ne se passe rien.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Et pourtant, il se passe beaucoup de choses à l'intérieur.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Il faut juste ne pas ouvrir le four toutes les cinq minutes.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 129,
+      "fr": "Pour le français, ça pourrait être 20 minutes à voix haute,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 129,
+      "fr": "trois fois par semaine, jusqu'à la fin de l'année.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Plutôt que deux heures le 1er janvier,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "et plus rien le 4.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "Et si on rate un jour ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "On ne repart pas de zéro,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "on reprend le lendemain.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Ce n'est pas un examen,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "c'est une habitude.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "À vous maintenant.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Voici une phrase à compléter.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "D'ici 2027, je veux.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Pour ça, je vais.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "Moi, d'ici 2027, je veux faire un vrai pain.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "Pour ça, je vais en faire un chaque samedi après-midi.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Et moi, d'ici 2027, je veux parler plus souvent avec ma grand-mère.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Pour ça, je vais l'appeler tous les dimanches à 18 heures.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "Vous avez remarqué ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 157,
+      "fr": "Une seule chose et un créneau précis.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Si vous apprenez le français,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "votre phrase peut parler du français.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "D'ici 2027, je veux comprendre un film sans sous-titres.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Pour ça, je vais regarder 10 minutes par jour.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 151,
+      "fr": "10 minutes, c'est petit.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "Mais 10 minutes tous les jours,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 119,
+      "fr": "ça fait beaucoup de films.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "À vous.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Dites votre phrase à voix haute.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Prenez quelques secondes.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "Pas besoin d'une phrase parfaite.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "Une phrase simple, c'est déjà une phrase en français.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Gardez-la bien.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "À la fin de l'épisode,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "on va lui ajouter quelque chose.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 157,
+      "fr": "Revenons sur quelques expressions.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Écoutez, puis répétez avec nous.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Tout à l'heure, je vous parlais de mes 9",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "résolutions et du grand-père de Mathieu.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "L'expression, c'était \"courir deux lièvres à la fois\".",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "C'est vouloir faire plusieurs choses en même temps et",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "finalement n'en réussir aucune.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "Exemple, il prépare un concours et il déménage le même mois.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "Il court deux lièvres à la fois.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "On répète \"courir deux lièvres à la fois\".",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "Ensuite, mes 40 vidéos et Monsieur Bull.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "L'expression, c'était \"passer à l'acte\".",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "C'est arrêter de préparer ou d'en parler et faire vraiment la chose.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Exemple, elle parlait de ce voyage depuis des années et cet été,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "elle est passée à l'acte.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 129,
+      "fr": "On répète \"passer à l'acte\".",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Quand Mathieu avait peur que sa voisine le trouve nul,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "on a dit \"se faire des films\".",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "C'est imaginer des choses, souvent négatives,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "qui ne sont pas réelles.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "Exemple, il ne m'a pas encore répondu mais je",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "ne vais pas me faire des films.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 116,
+      "fr": "Il est sûrement occupé.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "On répète \"se faire des films\".",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "Pour le pain qui lève lentement,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "on a parlé de \"tenir bon\".",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "C'est continuer malgré la difficulté ou la fatigue,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "sans abandonner.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Exemple, la dernière semaine du chantier était dure mais",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 286,
+      "fr": "toute l'équipe a tenu bon.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "On répète \"tenir bon\".",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Et enfin, pour les gens qui nous donnent envie ou pas,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "\"contagieux\".",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Une maladie peut être contagieuse mais un rire aussi.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "Exemple, sa bonne humeur est contagieuse.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "Tout le bureau sourit le non dit matin.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "On répète \"contagieux\", \"contagieuse\".",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "Et maintenant, dites-le autrement.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 111,
+      "fr": "Je dis une phrase simple,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "Léa dit la version naturelle.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "- Vas-y.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "- Je commence tout et je ne finis rien.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "- Je m'éparpille.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "- Je n'ai pas le temps pour ça.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "- Je n'arrive pas à trouver un créneau.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 151,
+      "fr": "- J'ai compris d'un coup qu'il fallait le faire.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "- J'ai eu le déclic.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 118,
+      "fr": "- Je pense à cette dispute tout temps.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "- Je la ressasse.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Et une phrase très utile en conversation,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "\"je n'ai pas compris\".",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Pardon, je n'ai pas bien saisi,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "vous pouvez répéter ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 118,
+      "fr": "Avec cette phrase, vous restez dans la conversation,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 105,
+      "fr": "même quand elle va trop vite.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Un petit conseil pour cet épisode,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "écoutez-le une fois sans vous arrêter,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "puis une deuxième fois avec les sous-titres.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "Choisissez un petit échange, par exemple avec la tante Monique,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "et répétez-le avec nous.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Et maintenant, reprenez votre phrase de tout à l'heure",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 276,
+      "fr": "et ajoutez une raison.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "D'ici 2027, je veux...",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Pour ça, je vais...",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Parce que...",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 119,
+      "fr": "- Moi, d'ici 2027, je veux faire un vrai pain,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 111,
+      "fr": "parce que je veux enfin entendre la croute qui chante.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Écrivez votre phrase dans les commentaires,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "on les lit toutes.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "Et envoyez cet épisode à quelqu'un qui a un",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "levain dans le frigo, il comprendra.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Si cette conversation vous a aidé,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "abonnez-vous à The Cosy French.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Prenez soin de vous et à très bientôt !",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 170,
+      "fr": "- Au revoir tout le monde !",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "Attends, Léa, le carnet !",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "- Ah oui, la fameuse ligne de Mars !",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 100,
+      "fr": "- Alors ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "- Achetez un nouveau carnet.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 114,
+      "fr": "- Non !",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 320,
+      "fr": "- Si, et je l'ai acheté,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "en septembre.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "- Donc c'est la seule résolution que tu as tenue ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 276,
+      "fr": "- Exactement, 100% de réussite !",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 151,
+      "fr": "- Bon, moi, je vais nourrir M.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 100,
+      "fr": "Bulle.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 105,
+      "fr": "Samedi, il travaille.",
+      "en": ""
+    }
+  ],
+  "vocab": []
+}
