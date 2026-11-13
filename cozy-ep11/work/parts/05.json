@@ -1,0 +1,132 @@
+[
+ {
+  "who": "lea",
+  "fr": "je sais encore me servir d'une machine à coudre,",
+  "en": "I still know how to use a sewing machine,"
+ },
+ {
+  "who": "lea",
+  "fr": "mais je suis un peu rouillée.",
+  "en": "but I'm a bit rusty."
+ },
+ {
+  "who": "lea",
+  "fr": "La dernière fois,",
+  "en": "The last time,"
+ },
+ {
+  "who": "lea",
+  "fr": "j'ai mis un bon moment à enfiler le fil.",
+  "en": "it took me ages to thread the needle."
+ },
+ {
+  "who": "mat",
+  "fr": "Avec un peu de pratique, certains gestes reviennent.",
+  "en": "With a bit of practice, some movements come back."
+ },
+ {
+  "who": "mat",
+  "fr": "Et parfois, on demande à quelqu'un de nous les remontrer.",
+  "en": "And sometimes, we ask someone to show us again.",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Ce qui nous donne souvent",
+  "en": "Which often gives us"
+ },
+ {
+  "who": "lea",
+  "fr": "une conversation plus intéressante que prévu.",
+  "en": "a more interesting conversation than expected."
+ },
+ {
+  "who": "lea",
+  "fr": "Merci d'avoir passé ce moment avec nous.",
+  "en": "Thank you for spending this time with us.",
+  "emote": "coeur"
+ },
+ {
+  "who": "lea",
+  "fr": "Si une envie vous est revenue en nous écoutant,",
+  "en": "If a wish came back to you while listening to us,"
+ },
+ {
+  "who": "lea",
+  "fr": "vous pouvez nous raconter",
+  "en": "you can tell us"
+ },
+ {
+  "who": "lea",
+  "fr": "ce qui vous attire dans ce projet.",
+  "en": "what draws you to that project."
+ },
+ {
+  "who": "mat",
+  "fr": "J'aimerais bien savoir ce que vous aimeriez découvrir,",
+  "en": "I'd love to know what you'd like to discover,"
+ },
+ {
+  "who": "mat",
+  "fr": "même si vous ne savez pas encore par où commencer.",
+  "en": "even if you don't know where to start yet."
+ },
+ {
+  "who": "lea",
+  "fr": "Abonnez-vous à The Cozy French",
+  "en": "Subscribe to The Cozy French"
+ },
+ {
+  "who": "lea",
+  "fr": "si vous voulez retrouver nos conversations en français.",
+  "en": "if you want more of our conversations in French."
+ },
+ {
+  "who": "lea",
+  "fr": "On sera heureux de vous retrouver au prochain épisode.",
+  "en": "We'll be happy to see you in the next episode."
+ },
+ {
+  "who": "mat",
+  "fr": "Prenez soin de vous.",
+  "en": "Take care of yourselves."
+ },
+ {
+  "who": "mat",
+  "fr": "Et, Léa, qu'est devenue la clochette ?",
+  "en": "And, Léa, what happened to the little bell?",
+  "emote": "question"
+ },
+ {
+  "who": "lea",
+  "fr": "Je l'ai remise sur ma porte.",
+  "en": "I put it back on my door."
+ },
+ {
+  "who": "lea",
+  "fr": "Elle fait de nouveau son travail.",
+  "en": "It's doing its job again."
+ },
+ {
+  "who": "mat",
+  "fr": "Ah. Et si un jour elle veut [se reconvertir,]",
+  "en": "Ah. And if one day it wants a career change,"
+ },
+ {
+  "who": "mat",
+  "fr": "l'atelier est ouvert le jeudi.",
+  "en": "the workshop is open on Thursdays.",
+  "emote": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Elle va d'abord faire le point.",
+  "en": "It'll take stock first.",
+  "emote": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "À bientôt, tout le monde !",
+  "en": "See you soon, everyone!"
+ }
+]

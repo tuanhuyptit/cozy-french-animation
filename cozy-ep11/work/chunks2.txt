@@ -1,0 +1,425 @@
+0|lea|Bonjour tout le monde et bienvenue sur The Cozy French.
+1|lea|Moi, c'est Léa.
+2|mat|Et moi, c'est Mathieu.
+3|mat|Léa, pourquoi tu as écrit « clochette »
+4|mat|en haut de tes notes ?
+5|lea|Pour me souvenir de ma toute première émission de radio.
+6|mat|Tu avais besoin d'une clochette pour parler ?
+7|lea|J'en avais besoin pour donner
+8|lea|l'impression qu'on entrait dans une boulangerie.
+9|lea|Tu verras, ça a presque marché.
+10|mat|Presque ?
+11|lea|À l'écoute,
+12|lea|on aurait dit que j'avais
+13|lea|enfermé un vélo dans le studio.
+14|mat|Ah, c'est donc pour ça
+15|mat|que tu voulais me parler de mon vélo.
+16|lea|Entre autres.
+17|lea|Aujourd'hui, on parle de ce moment
+18|lea|où on a envie de changer quelque chose
+19|lea|et où on se dit
+20|lea|qu'on aurait dû s'y prendre bien avant.
+21|mat|Reprendre des études, apprendre le français,
+22|mat|ou simplement faire de la place
+23|mat|à une activité qu'on aimerait retrouver.
+24|lea|Si vous nous écoutez dans le tram,
+25|lea|chez vous ou pendant votre pause,
+26|lea|installez-vous comme vous pouvez.
+27|lea|On va prendre notre temps.
+28|mat|Cette conversation est pour les niveaux B1 et B2.
+29|mat|À la fin,
+30|mat|vous saurez parler d'un projet qui vous tient à cœur
+31|mat|et dire ce qui vous fait hésiter.
+32|lea|Si un mot vous échappe, laissez-nous continuer.
+33|lea|Vous pouvez suivre l'histoire même
+34|lea|si vous ne comprenez pas tout.
+35|mat|Dis, tu pensais à un grand changement
+36|mat|quand tu as choisi ce sujet ?
+37|lea|Je pensais à une envie qui revient régulièrement.
+38|lea|Chez moi,
+39|lea|elle revenait chaque fois que j'entendais
+40|lea|une interview à la radio.
+41|mat|Chez moi,
+42|mat|chaque fois que mon vélo faisait un bruit bizarre.
+43|lea|On va y venir.
+44|mat|Et vous,
+45|mat|si une envie vous vient à l'esprit pendant qu'on parle,
+46|mat|gardez-la en tête.
+47|mat|Même si elle vous paraît un peu étrange.
+48|lea|Avec nous, votre envie est en bonne compagnie.
+49|lea|Un jeudi de novembre,
+50|lea|je me suis arrêtée devant la vitrine de la médiathèque.
+51|lea|J'attendais que la pluie se calme avant de rentrer.
+52|mat|Il y a pire comme abri.
+53|lea|Sur la vitre, il y avait une affiche.
+54|lea|La radio associative du quartier cherchait
+55|lea|des bénévoles pour préparer des reportages.
+56|mat|Et tu as poussé la porte ?
+57|lea|J'ai pris l'affiche en photo.
+58|lea|Puis j'ai passé le trajet du retour
+59|lea|à trouver des raisons de laisser tomber.
+60|mat|Tu en as trouvé combien ?
+61|lea|Trois avant mon arrêt.
+62|lea|Je n'avais jamais touché à une table de mixage.
+63|lea|Les autres devaient déjà se connaître.
+64|lea|Et je me sentais rouillée à l'oral.
+65|mat|Rouillée, comme la chaîne de mon vélo ?
+66|lea|Oui. J'avais perdu un peu de pratique.
+67|lea|Au travail, je prépare surtout des textes.
+68|lea|Parler dans un micro avec quelqu'un qui écoute,
+69|lea|ça me semblait loin.
+70|mat|Même quand tu connais ton sujet ?
+71|lea|Surtout quand je le connais.
+72|lea|J'ai envie de tout expliquer,
+73|lea|puis je m'entends parler et je me demande
+74|lea|où est passée ma phrase.
+75|mat|Ça arrive même quand on parle de fromage.
+76|mat|Enfin, à moi.
+77|lea|Le dimanche,
+78|lea|j'en ai parlé à ma grand-mère pendant notre appel.
+79|lea|Elle m'a demandé ce que j'aimerais raconter à la radio.
+80|mat|Tu avais déjà une idée ?
+81|lea|Tout de suite.
+82|lea|La boulangerie ouvre quand la rue est encore vide.
+83|lea|Je voulais demander à la boulangère
+84|lea|qui sont ses premiers clients.
+85|mat|Je pourrais en faire partie.
+86|lea|À six heures et demie ?
+87|mat|Je pourrais en faire partie en pensée.
+88|lea|J'ai fini par envoyer un message à la radio.
+89|lea|Une bénévole m'a proposé de passer un soir
+90|lea|pour voir comment ils préparaient l'émission.
+91|mat|Et le fameux vélo ?
+92|lea|La semaine suivante.
+93|lea|J'étais venue avec la clochette de mon entrée
+94|lea|pour recréer le bruit de la porte de la boulangerie.
+95|mat|Tu avais enregistré la vraie porte ?
+96|lea|Oui, mais un camion passait à ce moment-là.
+97|lea|J'ai voulu sauver la prise avec ma petite clochette.
+98|lea|En studio, elle sonnait comme une sonnette de vélo.
+99|mat|Et elle a fini à l'antenne ?
+100|lea|Garde cette question.
+101|lea|Je te dirai ce qu'on a passé à l'antenne.
+102|mat|Très bien. J'attendrai la fin de l'émission.
+103|lea|Ce premier soir, j'ai surtout posé des questions.
+104|lea|Au moment de mettre le casque,
+105|lea|j'ai enfin osé dire que je ne savais pas
+106|lea|de quel côté parler dans le micro.
+107|mat|Et quelqu'un t'a montré.
+108|lea|En deux secondes.
+109|lea|Puis il m'a demandé si j'étais bien installée.
+110|lea|J'avais préparé toute une explication
+111|lea|sur mon manque d'expérience.
+112|mat|Elle est restée dans ta poche.
+113|lea|Avec mon téléphone, oui.
+114|lea|J'y pense quand quelqu'un hésite
+115|lea|à prendre la parole en français.
+116|lea|Parfois, la première phrase qui compte,
+117|lea|c'est « Vous pouvez répéter ? »
+118|mat|Elle permet à la conversation de continuer.
+119|mat|Et l'autre personne sait quoi faire.
+120|mat|De mon côté,
+121|mat|j'avais envie d'apprendre à entretenir mon vélo.
+122|mat|Je passe devant un atelier associatif
+123|mat|presque tous les jours en rentrant.
+124|lea|Celui dans la cour, près du square ?
+125|mat|Oui. Je regardais les gens derrière la vitre.
+126|mat|Ils prenaient les outils,
+127|mat|ils les rangeaient au bon endroit.
+128|mat|Rien que ça, ça m'impressionnait.
+129|lea|Tu te sentais un peu à côté ?
+130|mat|Je m'imaginais entrer avec mon vélo
+131|mat|qui grince et mes lunettes qui glissent.
+132|mat|Il y avait déjà beaucoup de bruit dans cette scène.
+133|lea|Surtout dans ta tête.
+134|mat|Beaucoup. Un soir,
+135|mat|le Mathieu de vingt-deux heures
+136|mat|a décidé de tout apprendre sur Internet.
+137|mat|Il a regardé quatre vidéos d'affilée.
+138|lea|Il est courageux, celui-là.
+139|mat|Il est surtout très fort pour donner
+140|mat|du travail au Mathieu du lendemain.
+141|mat|Le lendemain,
+142|mat|j'ai mis mes chaussures et je suis parti à pied.
+143|lea|Qu'est-ce qui t'a décidé à passer le seuil ?
+144|mat|Une bénévole a ouvert la porte
+145|mat|pendant que je lisais les horaires.
+146|mat|Elle m'a demandé si je cherchais quelqu'un.
+147|lea|Et tu as répondu quoi ?
+148|mat|« Je crois que je cherche où poser mon vélo. »
+149|mat|Elle m'a montré une place
+150|mat|et m'a dit qu'elle viendrait me voir.
+151|lea|Le premier problème était réglé.
+152|mat|Exactement. Le deuxième,
+153|mat|c'était que j'avais décrit mon vélo
+154|mat|comme « un vélo qui fait du bruit ».
+155|mat|Là, même avec beaucoup de bonne volonté,
+156|mat|elle avait besoin d'un détail.
+157|lea|Tu lui as fait écouter ?
+158|mat|On a déplacé le vélo dans la cour.
+159|mat|Devant elle, silence complet.
+160|mat|J'avais presque envie de lui dire qu'il était timide.
+161|lea|Il a choisi son moment.
+162|mat|Heureusement, elle m'a demandé
+163|mat|dans quelles conditions j'entendais le bruit.
+164|mat|J'ai pu lui montrer
+165|mat|ce que je faisais quand ça arrivait.
+166|lea|Et maintenant, tu as le coup de main ?
+167|mat|Pour tenir le vélo pendant qu'on regardait ensemble, oui.
+168|mat|Pour tout le reste, j'ai encore besoin qu'on me montre.
+169|mat|Ça me va.
+170|lea|Tu t'es donné le droit
+171|lea|de revenir avec une autre question.
+172|mat|J'y suis retourné quinze jours plus tard.
+173|mat|J'ai reconnu la bénévole et j'ai pu dire
+174|mat|à quelqu'un qui arrivait où poser son vélo.
+175|lea|C'est drôle, le premier truc que tu as appris,
+176|lea|tu pouvais déjà le transmettre.
+177|mat|Oui. Quand on apprend le français,
+178|mat|on a parfois l'impression que les gens
+179|mat|qui parlent bien ont toujours été à l'aise.
+180|lea|Et dans un groupe,
+181|lea|il suffit parfois de connaître
+182|lea|une seule phrase pour accueillir quelqu'un.
+183|lea|« Venez, il reste une chaise ici. »
+184|mat|La prochaine fois qu'un groupe vous impressionne,
+185|mat|regardez comment il accueille quelqu'un qui arrive.
+186|mat|Ça vous dira plus de choses
+187|mat|sur lui que le niveau des autres.
+188|lea|Dans nos deux histoires,
+189|lea|les horaires ont fini par nous arranger.
+190|lea|Je pense à une amie,
+191|lea|Samira, pour qui c'était plus compliqué.
+192|mat|Qu'est-ce qu'elle voulait faire ?
+193|lea|Elle voulait reprendre une formation
+194|lea|pour travailler dans une médiathèque.
+195|lea|Pendant plusieurs années,
+196|lea|elle s'était occupée d'un parent le soir,
+197|lea|après son travail.
+198|lea|Quand elle a enfin pu se renseigner,
+199|lea|la formation qu'elle visait avait déménagé.
+200|lea|Avec le trajet,
+201|lea|les cours du soir devenaient impossibles pour elle.
+202|mat|Ça a dû être dur à encaisser.
+203|lea|Oui. Elle avait même du mal
+204|lea|à repasser devant la médiathèque.
+205|lea|Elle avait l'impression d'avoir laissé passer sa chance.
+206|mat|Elle a réussi à en parler avec quelqu'un ?
+207|lea|Une collègue lui a demandé
+208|lea|quel moment de ce métier l'attirait le plus.
+209|lea|Samira a dit qu'elle aimait aider quelqu'un à trouver
+210|lea|un livre qu'il aurait vraiment envie de lire.
+211|lea|Quelques mois plus tard,
+212|lea|la médiathèque a cherché des bénévoles
+213|lea|pour porter des livres à domicile.
+214|lea|Elle a pris une tournée le samedi,
+215|lea|une fois par mois.
+216|mat|Et l'idée de la formation ?
+217|lea|Elle y pense encore.
+218|lea|Cette année,
+219|lea|sa tournée lui donne un contact avec ce milieu
+220|lea|et elle découvre ce qui lui plaît.
+221|lea|Pour le reste, elle a besoin de temps.
+222|mat|Est-ce qu'elle t'a raconté sa première visite ?
+223|lea|Oui. Une dame avait demandé un roman policier.
+224|lea|Samira s'attendait à poser le livre et à repartir.
+225|lea|La dame lui a demandé de s'asseoir.
+226|mat|Elles ont parlé du roman ?
+227|lea|Du dernier qu'elle avait lu.
+228|lea|Elle avait deviné la fin dès le troisième chapitre.
+229|lea|Pour le suivant,
+230|lea|elle voulait une histoire qui lui résiste un peu.
+231|mat|Et Samira a pu choisir le livre d'après avec elle.
+232|lea|Oui. Quand Samira m'en a parlé,
+233|lea|elle se souvenait du titre.
+234|lea|Elle se souvenait aussi que la dame
+235|lea|avait dégagé une chaise avant son arrivée.
+236|mat|Il y a quelque chose
+237|mat|de très concret dans ce samedi.
+238|mat|Quelqu'un attend un livre, elle arrive, ils discutent.
+239|lea|Et le samedi suivant, elle continue sa vie.
+240|lea|Elle garde le droit de changer d'avis
+241|lea|sur ce qu'elle veut faire plus tard.
+242|mat|En français, on peut avoir une contrainte du même genre.
+243|mat|Le seul cours qui correspond à votre niveau
+244|mat|commence quand vous êtes encore au travail.
+245|lea|Une conversation à l'heure du déjeuner peut
+246|lea|vous aider à garder le contact avec la langue.
+247|lea|Et certaines semaines,
+248|lea|vous aurez besoin de garder votre pause pour vous.
+249|mat|Si un projet doit attendre,
+250|mat|qu'est-ce qui vous tient
+251|mat|le plus à cœur dans ce projet ?
+252|mat|La réponse de Samira, elle, a tenu en une phrase.
+253|lea|Et cette phrase lui a donné un endroit où regarder.
+254|mat|Pour reprendre un projet,
+255|mat|j'aime bien commencer par une question
+256|mat|à laquelle quelqu'un peut répondre précisément.
+257|lea|Dans le cas du vélo ?
+258|mat|« À quel moment est-ce qu'on entend le bruit ? »
+259|mat|J'avais déjà cherché « comment réparer un vélo »
+260|mat|et j'avais fini avec quatorze onglets ouverts.
+261|lea|Quatorze ?
+262|mat|Le Mathieu de vingt-deux heures
+263|mat|travaille sur plusieurs dossiers.
+264|mat|Pour une formation,
+265|mat|je demanderais s'il y a une autre date.
+266|mat|Pour le français,
+267|mat|je demanderais à quelqu'un à quel moment
+268|mat|il serait libre pour discuter.
+269|lea|Avec un horaire, ça prend une forme.
+270|lea|Et quand ça coince, on sait sur quoi réfléchir.
+271|lea|Tu te souviens de la personne
+272|lea|qui t'a accueilli à l'atelier ?
+273|lea|Si elle t'avait juste donné la liste des outils,
+274|lea|tu serais revenu ?
+275|mat|Je ne sais pas.
+276|mat|J'avais surtout besoin de voir
+277|mat|où j'allais passer la soirée et avec qui.
+278|lea|On peut demander à visiter la salle avant de s'inscrire.
+279|mat|Oui. Rencontrer la personne qui anime le cours,
+280|mat|ça aide aussi à se faire une idée.
+281|mat|Moi, j'ai attendu longtemps
+282|mat|parce que je pensais devoir choisir tout de suite.
+283|lea|Je trouve aussi que ça aide
+284|lea|de savoir combien de temps on essaie.
+285|lea|À la radio,
+286|lea|je me suis dit
+287|lea|que je passerais deux soirées avec l'équipe.
+288|lea|Après, je ferais le point.
+289|mat|Et tu aurais pu t'arrêter là.
+290|lea|Bien sûr. Quand quelque chose vous tient à cœur,
+291|lea|vous pouvez lui faire une petite place
+292|lea|et voir ce que cette place vous apporte.
+293|mat|Tu as un exemple avec le français ?
+294|lea|Quelqu'un qui aime les films peut suivre
+295|lea|une discussion sur un seul film qu'il connaît déjà.
+296|lea|Il a une histoire à raconter,
+297|lea|même s'il lui manque des mots.
+298|mat|Et il peut sortir de la discussion
+299|mat|en ayant juste repéré le nom d'un autre film.
+300|mat|Ça compte aussi.
+301|lea|Oui. Au début,
+302|lea|je regardais mon reportage avec une seule idée en tête.
+303|lea|Est-ce que ma voix sonnait
+304|lea|comme celle des gens de la radio ?
+305|mat|Et maintenant ?
+306|lea|Je me demande si on entend bien la boulangère.
+307|lea|Elle m'a raconté qu'un monsieur venait parfois
+308|lea|chercher son pain avec les chaussons aux pieds.
+309|mat|Je tiens à préciser que mes chaussons restent chez moi.
+310|lea|Je n'ai donné aucun nom.
+311|mat|Bon, on peut parler de la clochette maintenant ?
+312|lea|Au montage,
+313|lea|j'ai remis l'enregistrement de la vraie porte,
+314|lea|camion compris.
+315|lea|On entend la boulangère dire bonjour juste après.
+316|lea|Ça donne toute sa place à sa voix.
+317|mat|Le camion est donc passé à la radio.
+318|lea|Et il ignorait tout de son premier reportage.
+319|mat|J'aime bien ce détail.
+320|mat|Le bruit que tu voulais effacer,
+321|mat|c'est le début de l'histoire telle qu'elle s'est passée.
+322|lea|Pour vous qui écoutez,
+323|lea|qu'est-ce que vous pourriez laisser un peu imparfait
+324|lea|pour que votre projet avance à votre rythme ?
+325|mat|Il y a un truc qu'on n'a pas encore dit.
+326|mat|Tu peux te lancer
+327|mat|et avoir quand même envie de laisser tomber
+328|mat|au bout de deux semaines.
+329|lea|Ça t'est arrivé avec l'atelier ?
+330|mat|J'ai raté trois ouvertures de suite.
+331|mat|Une fois, j'avais du travail.
+332|mat|Une autre, j'avais promis de voir ma sœur.
+333|mat|La troisième fois, je suis rentré avec du comté.
+334|lea|Le comté avait besoin de compagnie.
+335|mat|Je me suis sacrifié.
+336|mat|Mais la quatrième semaine,
+337|mat|je me suis demandé
+338|mat|si j'allais avoir l'air ridicule
+339|mat|en revenant avec la même question.
+340|lea|Et tu as revu la bénévole ?
+341|mat|Oui. Elle m'a demandé de tenir une lampe
+342|mat|pendant qu'elle cherchait une vis.
+343|mat|Cinq minutes plus tard, on reparlait de mon vélo.
+344|lea|Le temps avait passé pour elle aussi.
+345|lea|Elle avait des vélos à voir, des vis à chercher.
+346|lea|Elle n'était pas là à compter tes absences.
+347|mat|Ça m'a fait du bien.
+348|mat|Quand on s'est éloigné d'une activité,
+349|mat|on oublie que les gens dedans
+350|mat|continuent à avoir des journées ordinaires.
+351|mat|Si vous vous sentez rouillé
+352|mat|en français après une longue pause,
+353|mat|vous pouvez retrouver une voix que vous connaissez déjà.
+354|mat|Moi, je reprendrais un épisode
+355|mat|dont je me rappelle le sujet.
+356|mat|Le plaisir de reconnaître un mot
+357|mat|peut suffire pour aujourd'hui.
+358|lea|Et si vous en reconnaissez plusieurs, profitez-en.
+359|lea|Vous avez le droit de trouver ça agréable.
+360|lea|Mathieu, tu as dit
+361|lea|que tu avais le coup de main pour tenir ton vélo
+362|lea|pendant qu'on regardait la roue.
+363|mat|Avoir le coup de main,
+364|mat|c'est savoir faire un geste
+365|mat|avec aisance parce qu'on a l'habitude.
+366|mat|Au début, je pliais les serviettes de travers.
+367|mat|Maintenant, j'ai le coup de main.
+368|lea|Tu veux venir dîner chez moi samedi ?
+369|mat|Je vois très bien ce que tu fais.
+370|mat|On a aussi parlé d'un projet
+371|mat|qui nous tient à cœur.
+372|mat|Ça veut dire qu'il compte beaucoup pour nous.
+373|mat|Par exemple,
+374|mat|rendre visite à mon ancien professeur me tient à cœur.
+375|mat|Il m'a encouragé quand j'en avais besoin.
+376|lea|Devant l'affiche de la radio,
+377|lea|j'avais déjà trouvé trois raisons
+378|lea|de laisser tomber mon idée de reportage.
+379|mat|Laisser tomber,
+380|mat|c'est arrêter de s'occuper d'une chose
+381|mat|ou abandonner un projet.
+382|mat|J'ai laissé tomber mon inscription au tournoi
+383|mat|quand j'ai vu les horaires.
+384|lea|Tu peux aussi dire « laisse tomber »
+385|lea|quand un ami cherche quelque chose pour toi
+386|lea|et que tu viens de le retrouver.
+387|mat|Souvent avec mes lunettes.
+388|mat|Le plus souvent, elles sont sur ma tête.
+389|lea|Et faire le point,
+390|lea|c'est s'arrêter un moment pour voir où on en est.
+391|lea|Après trois mois dans son nouvel appartement,
+392|lea|Julie a fait le point sur ses dépenses.
+393|mat|Je pensais que tu allais
+394|mat|parler de mes dépenses de fromage.
+395|lea|J'avais promis une émission de vingt minutes.
+396|mat|Très bien. Et le dernier mot, c'est rouillé.
+397|mat|On l'emploie quand on a perdu un peu d'aisance
+398|mat|parce qu'on n'a pas pratiqué depuis longtemps.
+399|lea|Par exemple,
+400|lea|je sais encore me servir d'une machine à coudre,
+401|lea|mais je suis un peu rouillée.
+402|lea|La dernière fois,
+403|lea|j'ai mis un bon moment à enfiler le fil.
+404|mat|Avec un peu de pratique, certains gestes reviennent.
+405|mat|Et parfois, on demande à quelqu'un de nous les remontrer.
+406|lea|Ce qui nous donne souvent
+407|lea|une conversation plus intéressante que prévu.
+408|lea|Merci d'avoir passé ce moment avec nous.
+409|lea|Si une envie vous est revenue en nous écoutant,
+410|lea|vous pouvez nous raconter
+411|lea|ce qui vous attire dans ce projet.
+412|mat|J'aimerais bien savoir ce que vous aimeriez découvrir,
+413|mat|même si vous ne savez pas encore par où commencer.
+414|lea|Abonnez-vous à The Cozy French
+415|lea|si vous voulez retrouver nos conversations en français.
+416|lea|On sera heureux de vous retrouver au prochain épisode.
+417|mat|Prenez soin de vous.
+418|mat|Et, Léa, qu'est devenue la clochette ?
+419|lea|Je l'ai remise sur ma porte.
+420|lea|Elle fait de nouveau son travail.
+421|mat|Ah. Et si un jour elle veut se reconvertir,
+422|mat|l'atelier est ouvert le jeudi.
+423|lea|Elle va d'abord faire le point.
+424|mat|À bientôt, tout le monde !

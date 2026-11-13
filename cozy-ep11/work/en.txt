@@ -1,0 +1,425 @@
+0|Hello everyone and welcome to The Cozy French.|
+1|I'm Léa.|
+2|And I'm Mathieu.|
+3|Léa, why did you write "little bell"|
+4|at the top of your notes?|
+5|To remember my very first radio show.|
+6|You needed a little bell to talk?|e=question
+7|I needed it to give|
+8|the impression we were walking into a bakery.|
+9|You'll see, it almost worked.|
+10|Almost?|e=surpris
+11|When we listened back,|
+12|it sounded like I had|
+13|locked a bicycle in the studio.|e=rire r=rire
+14|Ah, so that's why|
+15|you wanted to talk to me about my bike.|
+16|Among other things.|
+17|Today, we're talking about that moment|
+18|when you want to change something|
+19|and you tell yourself|
+20|you should have gone about it much earlier.|
+21|Going back to school, learning French,|
+22|or simply making room|
+23|for an activity you'd like to get back to.|
+24|If you're listening on the tram,|
+25|at home or during your break,|
+26|get as comfortable as you can.|
+27|We're going to take our time.|
+28|This conversation is for levels B1 and B2.|
+29|By the end,|
+30|you'll be able to talk about a project that matters to you|
+31|and say what makes you hesitate.|
+32|If a word escapes you, let us keep going.|
+33|You can follow the story even|
+34|if you don't understand everything.|
+35|Say, were you thinking of a big change|
+36|when you chose this topic?|
+37|I was thinking of a wish that keeps coming back.|
+38|For me,|
+39|it came back every time I heard|
+40|an interview on the radio.|i=musique:la radio
+41|For me,|
+42|every time my bike made a strange noise.|r=rire
+43|We'll get to that.|
+44|And you,|
+45|if a wish comes to mind while we're talking,|
+46|keep it in mind.|
+47|Even if it seems a bit strange to you.|
+48|With us, your wish is in good company.|e=coeur
+49|One Thursday in November,|
+50|I stopped in front of the library window.|
+51|I was waiting for the rain to ease off before going home.|i=pluie:la pluie
+52|There are worse places to shelter.|e=rire
+53|On the glass, there was a poster.|
+54|The neighbourhood community radio was looking for|
+55|volunteers to prepare reports.|
+56|And you pushed the door open?|
+57|I took a photo of the poster.|
+58|Then I spent the journey home|
+59|finding reasons to give up.|
+60|How many did you find?|e=question
+61|Three before my stop.|
+62|I had never touched a mixing desk.|
+63|The others probably already knew each other.|
+64|And I felt rusty at speaking.|e=gene
+65|Rusty, like my bike chain?|
+66|Yes. I had lost a bit of practice.|
+67|At work, I mostly prepare written texts.|i=travail:le travail
+68|Talking into a microphone with someone listening,|
+69|that felt far away.|
+70|Even when you know your subject?|
+71|Especially when I know it.|
+72|I want to explain everything,|
+73|then I hear myself talking and I wonder|
+74|where my sentence went.|
+75|That happens even when you talk about cheese.|e=rire
+76|Well, to me.|
+77|On Sunday,|
+78|I talked about it with my grandmother during our call.|i=famille:ma grand-mère
+79|She asked me what I'd like to tell on the radio.|
+80|Did you already have an idea?|
+81|Right away.|
+82|The bakery opens when the street is still empty.|
+83|I wanted to ask the baker|
+84|who her first customers are.|
+85|I could be one of them.|
+86|At six thirty?|e=surpris
+87|I could be one of them in spirit.|e=rire
+88|I ended up sending a message to the radio.|B={"mode":"timeline","bg":"craie","title":"La première émission de Léa","items":[{"label":"un soir","text":"visite de la radio","at":1},{"label":"la semaine d'après","text":"la clochette","at":4},{"label":"en studio","text":"une sonnette de vélo !","at":10}]}
+89|A volunteer suggested I come by one evening|
+90|to see how they prepared the show.|
+91|And the famous bike?|
+92|The following week.|
+93|I had come with the little bell from my front door|
+94|to recreate the sound of the bakery door.|
+95|Had you recorded the real door?|
+96|Yes, but a lorry was going past at that moment.|
+97|I tried to save the take with my little bell.|
+98|In the studio, it sounded like a bicycle bell.|e=rire BE
+99|And did it end up on air?|
+100|Hold on to that question.|
+101|I'll tell you what we put on air.|
+102|Very well. I'll wait until the end of the show.|
+103|That first evening, I mostly asked questions.|
+104|When it was time to put on the headphones,|
+105|I finally dared to say that I didn't know|
+106|which side of the microphone to speak into.|e=gene
+107|And someone showed you.|
+108|In two seconds.|
+109|Then he asked me if I was comfortable.|
+110|I had prepared a whole explanation|
+111|about my lack of experience.|
+112|It stayed in your pocket.|e=rire
+113|With my phone, yes.|i=telephone:mon téléphone
+114|I think about it when someone hesitates|
+115|to speak up in French.|
+116|Sometimes, the first sentence that counts|B={"mode":"fill","bg":"carnet","sentence":"Vous pouvez ___ ?","answer":"répéter","hint":"pour demander de redire","en":"Can you repeat that?","reveal":2}
+117|is "Can you repeat that?"|
+118|It lets the conversation carry on.|
+119|And the other person knows what to do.|BE
+120|As for me,|
+121|I wanted to learn how to look after my bike.|
+122|I walk past a community workshop|
+123|almost every day on my way home.|
+124|The one in the courtyard, near the little park?|
+125|Yes. I used to watch the people behind the window.|
+126|They'd take the tools,|
+127|they'd put them back in the right place.|
+128|Just that impressed me.|
+129|Did you feel a bit out of place?|
+130|I imagined walking in with my bike|
+131|that squeaks and my glasses that slip.|e=gene
+132|There was already a lot of noise in that scene.|
+133|Mostly in your head.|
+134|A lot. One evening,|
+135|10 p.m. Mathieu|
+136|decided to learn everything on the internet.|
+137|He watched four videos in a row.|
+138|He's brave, that one.|e=rire
+139|Mostly he's very good at giving|
+140|work to next-day Mathieu.|
+141|The next day,|
+142|I put on my shoes and set off on foot.|
+143|What made you decide to step through the door?|
+144|A volunteer opened the door|
+145|while I was reading the opening hours.|
+146|She asked me if I was looking for someone.|
+147|And what did you answer?|
+148|"I think I'm looking for where to put my bike."|
+149|She showed me a spot|
+150|and said she would come and see me.|
+151|The first problem was solved.|
+152|Exactly. The second one|
+153|was that I had described my bike|
+154|as "a bike that makes a noise".|
+155|Even with a lot of goodwill,|
+156|she needed a detail.|
+157|Did you let her listen to it?|
+158|We moved the bike into the courtyard.|
+159|In front of her, complete silence.|
+160|I almost wanted to tell her it was shy.|e=rire
+161|It chose its moment.|
+162|Luckily, she asked me|
+163|in what conditions I heard the noise.|
+164|I was able to show her|
+165|what I was doing when it happened.|
+166|And now, have you got the knack?|
+167|For holding the bike while we looked at it together, yes.|
+168|For everything else, I still need someone to show me.|
+169|I'm fine with that.|
+170|You gave yourself the right|
+171|to come back with another question.|e=coeur
+172|I went back two weeks later.|
+173|I recognised the volunteer and I was able to tell|
+174|someone who was arriving where to put their bike.|
+175|It's funny, the first thing you learned,|
+176|you could already pass on.|
+177|Yes. When you learn French,|
+178|you sometimes get the impression that people|
+179|who speak well have always been at ease.|
+180|And in a group,|B={"mode":"order","bg":"liege","sentence":"Venez, il reste une chaise ici.","en":"Come, there's a chair free here.","reveal":3}
+181|sometimes all it takes is knowing|
+182|a single sentence to welcome someone.|
+183|"Come, there's a chair free here."|
+184|Next time a group impresses you,|
+185|watch how it welcomes someone who arrives.|BE
+186|That will tell you more|
+187|about it than everyone else's level.|
+188|In both our stories,|
+189|the timetables ended up working for us.|
+190|I'm thinking of a friend,|
+191|Samira, for whom it was more complicated.|
+192|What did she want to do?|
+193|She wanted to go back to a training course|i=etudes:une formation
+194|to work in a library.|
+195|For several years,|
+196|she had looked after a parent in the evenings,|
+197|after work.|
+198|When she was finally able to look into it,|
+199|the course she had in mind had moved.|
+200|With the commute,|
+201|the evening classes became impossible for her.|
+202|That must have been hard to take.|e=triste
+203|Yes. She even found it hard|
+204|to walk past the library again.|
+205|She felt she had let her chance slip by.|e=triste
+206|Did she manage to talk about it with someone?|
+207|A colleague asked her|
+208|which moment of the job attracted her most.|
+209|Samira said she loved helping someone find|
+210|a book they would really want to read.|
+211|A few months later,|
+212|the library looked for volunteers|
+213|to take books to people's homes.|
+214|She took on a round on Saturdays,|
+215|once a month.|
+216|And the idea of the training course?|B={"mode":"compare","bg":"craie","title":"Le projet de Samira","left":{"head":"avant","sub":"une formation","items":["des cours du soir","trop loin avec le trajet"]},"right":{"head":"aujourd'hui","sub":"une tournée","items":["le samedi, une fois par mois","un contact avec ce milieu"]}}
+217|She still thinks about it.|
+218|This year,|
+219|her round gives her a link with that world|
+220|and she's discovering what she enjoys.|
+221|As for the rest, she needs time.|BE
+222|Did she tell you about her first visit?|
+223|Yes. A lady had asked for a detective novel.|
+224|Samira expected to drop off the book and leave.|i=lecture:le livre
+225|The lady asked her to sit down.|e=coeur
+226|Did they talk about the novel?|
+227|About the last one she had read.|
+228|She had guessed the ending from the third chapter.|
+229|For the next one,|
+230|she wanted a story that would challenge her a bit.|
+231|And Samira was able to choose the next book with her.|
+232|Yes. When Samira told me about it,|
+233|she remembered the title.|
+234|She also remembered that the lady|
+235|had cleared a chair before she arrived.|e=coeur
+236|There's something|
+237|very concrete about that Saturday.|
+238|Someone is waiting for a book, she arrives, they chat.|
+239|And the following Saturday, she gets on with her life.|
+240|She keeps the right to change her mind|
+241|about what she wants to do later.|
+242|In French, you can have the same kind of constraint.|
+243|The only class that matches your level|
+244|starts while you're still at work.|
+245|A conversation at lunchtime can|i=repas:le déjeuner
+246|help you stay in touch with the language.|
+247|And some weeks,|
+248|you'll need to keep your break for yourself.|
+249|If a project has to wait,|
+250|what matters to you|
+251|most in that project?|
+252|Samira's answer fitted in one sentence.|
+253|And that sentence gave her a place to look.|
+254|To get back into a project,|B={"mode":"steps","bg":"carnet","title":"Pour reprendre un projet","items":[{"text":"Poser une question précise","at":1},{"text":"« À quel moment… ? »","at":4},{"text":"Une formation ? Demander une autre date","at":10},{"text":"Le français ? Trouver un moment pour discuter","at":12}]}
+255|I like to start with a question|
+256|that someone can answer precisely.|
+257|In the case of the bike?|
+258|"When exactly do you hear the noise?"|
+259|I had already searched "how to fix a bike"|
+260|and ended up with fourteen tabs open.|
+261|Fourteen?|e=surpris
+262|10 p.m. Mathieu|
+263|works on several files at once.|
+264|For a training course,|
+265|I'd ask if there's another date.|
+266|For French,|
+267|I'd ask someone at what time|
+268|they'd be free to chat.|BE
+269|With a timetable, it takes shape.|
+270|And when things get stuck, you know what to think about.|
+271|Do you remember the person|
+272|who welcomed you at the workshop?|
+273|If she had just given you the list of tools,|
+274|would you have come back?|
+275|I don't know.|
+276|Above all, I needed to see|
+277|where I'd spend the evening and with whom.|
+278|You can ask to visit the room before signing up.|
+279|Yes. Meeting the person who runs the class|
+280|also helps you get an idea.|
+281|Personally, I waited a long time|
+282|because I thought I had to choose right away.|
+283|I also find it helps|
+284|to know how long you're going to try.|
+285|At the radio,|
+286|I told myself|
+287|that I'd spend two evenings with the team.|
+288|Then I'd take stock.|
+289|And you could have stopped there.|
+290|Of course. When something matters to you,|
+291|you can make a little room for it|
+292|and see what that room brings you.|e=coeur
+293|Do you have an example with French?|
+294|Someone who loves films can follow|
+295|a discussion about a single film they already know.|
+296|They have a story to tell,|
+297|even if they're missing some words.|
+298|And they can come out of the discussion|
+299|having just picked up the name of another film.|
+300|That counts too.|
+301|Yes. At the beginning,|
+302|I listened to my report with only one idea in mind.|
+303|Did my voice sound|
+304|like the voices of radio people?|
+305|And now?|
+306|I wonder if you can hear the baker clearly.|
+307|She told me that a gentleman sometimes came|
+308|to get his bread wearing his slippers.|e=rire
+309|I'd like to point out that my slippers stay at home.|e=gene
+310|I didn't give any names.|
+311|Right, can we talk about the little bell now?|B={"mode":"truefalse","bg":"liege","q":"La clochette est passée à la radio.","answer":false,"reveal":2,"explain":"C'est la vraie porte… camion compris !"}
+312|In the edit,|
+313|I put back the recording of the real door,|
+314|lorry included.|
+315|You hear the baker say hello right after.|
+316|It gives her voice its full place.|
+317|So the lorry made it onto the radio.|BE
+318|And it knew nothing about its first report.|
+319|I like that detail.|
+320|The noise you wanted to erase|
+321|is the beginning of the story as it really happened.|e=idee
+322|For those of you listening,|
+323|what could you leave a little imperfect|
+324|so your project moves forward at your own pace?|
+325|There's something we haven't said yet.|
+326|You can take the plunge|
+327|and still feel like giving up|
+328|after two weeks.|
+329|Did that happen to you with the workshop?|e=question
+330|I missed three opening sessions in a row.|
+331|Once, I had work.|B={"mode":"steps","bg":"craie","title":"Trois ouvertures ratées","items":[{"text":"1 : du travail","at":0},{"text":"2 : voir ma sœur","at":1},{"text":"3 : du comté !","at":2},{"text":"4e semaine : je reviens ?","at":5}]}
+332|Another time, I had promised to see my sister.|
+333|The third time, I went home with some Comté.|e=rire
+334|The Comté needed some company.|e=rire
+335|I sacrificed myself.|
+336|But the fourth week,|
+337|I wondered|
+338|if I was going to look ridiculous|e=gene
+339|coming back with the same question.|BE
+340|And did you see the volunteer again?|
+341|Yes. She asked me to hold a lamp|
+342|while she was looking for a screw.|
+343|Five minutes later, we were talking about my bike again.|
+344|Time had passed for her too.|i=temps:le temps
+345|She had bikes to look at, screws to find.|
+346|She wasn't there counting your absences.|
+347|That did me good.|e=coeur
+348|When you've drifted away from an activity,|
+349|you forget that the people in it|
+350|keep having ordinary days.|
+351|If you feel rusty|
+352|in French after a long break,|
+353|you can go back to a voice you already know.|
+354|Personally, I'd replay an episode|
+355|whose topic I remember.|
+356|The pleasure of recognising a word|
+357|can be enough for today.|
+358|And if you recognise several, enjoy it.|
+359|You're allowed to find that pleasant.|e=coeur
+360|Mathieu, you said|B={"mode":"idiom","bg":"liege","expr":"avoir le coup de main","literal":"to have the blow of hand","meaning":"to have the knack","ipa":"/a.vwaʁ lə ku də mɛ̃/","ex":"Après deux semaines, il a eu le coup de main.","exEn":"After two weeks, he got the knack of it.","meaningAt":3}
+361|that you had the knack of holding your bike|
+362|while we were looking at the wheel.|
+363|To have the knack|
+364|is to know how to do something with ease|
+365|because you're used to it.|
+366|At first, I folded napkins crooked.|
+367|Now, I've got the knack.|
+368|Do you want to come to dinner at my place on Saturday?|e=rire
+369|I can see exactly what you're doing.|BE
+370|We also talked about a project|B={"mode":"word","tag":"expression","word":"tenir à cœur","ipa":"/tə.niʁ a kœʁ/","mean":"to matter a lot to someone","note":"= compter beaucoup pour quelqu'un","ex":"Ce voyage me tient vraiment à cœur.","exEn":"This trip really matters to me."}
+371|that matters to us.|
+372|It means it counts a lot for us.|
+373|For example,|
+374|visiting my former teacher matters to me.|
+375|He encouraged me when I needed it.|BE
+376|In front of the radio poster,|B={"mode":"compare","title":"laisser tomber","left":{"head":"laisser tomber","sub":"= abandonner","items":[{"text":"mon idée de reportage","at":2},{"text":"mon inscription au tournoi","at":6}]},"right":{"head":"Laisse tomber !","sub":"= ce n'est plus la peine","items":[{"text":"un ami cherche pour toi","at":9},{"text":"… et tu as retrouvé tes lunettes","at":11}]}}
+377|I had already found three reasons|
+378|to give up on my report idea.|
+379|To give up|
+380|means to stop dealing with something|
+381|or to abandon a project.|
+382|I dropped my entry for the tournament|
+383|when I saw the times.|
+384|You can also say "forget it"|
+385|when a friend is looking for something for you|
+386|and you've just found it.|
+387|Often with my glasses.|
+388|Most of the time, they're on my head.|e=rire BE
+389|And to take stock|B={"mode":"word","tag":"expression","word":"faire le point","ipa":"/fɛʁ lə pwɛ̃/","mean":"to take stock, to review where you stand","note":"= s'arrêter pour voir où on en est","icon":"argent","ex":"On fait le point vendredi sur le projet ?","exEn":"Shall we review the project on Friday?"}
+390|is to stop for a moment to see where you are.|
+391|After three months in her new flat,|
+392|Julie took stock of her spending.|
+393|I thought you were going to|
+394|talk about my cheese spending.|e=rire
+395|I promised a twenty-minute show.|BE
+396|Very well. And the last word is "rusty".|B={"mode":"fill","bg":"carnet","sentence":"Je sais coudre, mais je suis un peu ___.","answer":"rouillée","hint":"= j'ai perdu un peu d'aisance","en":"I can sew, but I'm a bit rusty.","reveal":5}
+397|We use it when we've lost a bit of ease|
+398|because we haven't practised for a long time.|
+399|For example,|
+400|I still know how to use a sewing machine,|
+401|but I'm a bit rusty.|
+402|The last time,|
+403|it took me ages to thread the needle.|
+404|With a bit of practice, some movements come back.|
+405|And sometimes, we ask someone to show us again.|BE
+406|Which often gives us|
+407|a more interesting conversation than expected.|
+408|Thank you for spending this time with us.|e=coeur
+409|If a wish came back to you while listening to us,|
+410|you can tell us|
+411|what draws you to that project.|
+412|I'd love to know what you'd like to discover,|
+413|even if you don't know where to start yet.|
+414|Subscribe to The Cozy French|
+415|if you want more of our conversations in French.|
+416|We'll be happy to see you in the next episode.|
+417|Take care of yourselves.|
+418|And, Léa, what happened to the little bell?|e=question
+419|I put it back on my door.|
+420|It's doing its job again.|
+421|Ah. And if one day it wants a career change,|
+422|the workshop is open on Thursdays.|e=rire
+423|It'll take stock first.|e=rire
+424|See you soon, everyone!|

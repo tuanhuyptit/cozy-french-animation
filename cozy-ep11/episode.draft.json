@@ -1,0 +1,2254 @@
+{
+  "scene": "salon",
+  "lea": "cardigan",
+  "mat": "hoodie",
+  "audio": "assets/voice.mp3",
+  "audioEnd": 1078.73,
+  "chunks": [
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Bonjour tout le monde et bienvenue sur The Cozy French !",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Moi, c'est Léa.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Et moi, c'est Mathieu.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "Léa, pourquoi tu as écrit \"clochette\" en haut de tes notes ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Pour me souvenir de ma toute première émission de radio.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "Tu avais besoin d'une \"clochette\" pour parler ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "J'en avais besoin pour donner l'impression qu'on entrait dans une boulangerie.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Tu verras, ça a presque marché.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Presque ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "À l'écoute, on aurait dit que j'avais enfermé un",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "vélo dans le studio.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Ah !",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "C'est donc pour ça que tu voulais me parler de mon vélo.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Entre autres, aujourd'hui, on parle de ce moment où",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "on a envie de changer quelque chose et où",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "se dit qu'on aurait dû s'y prendre bien avant.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "Reprendre des études, apprendre le français ou simplement faire",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "de la place à une activité qu'on aimerait retrouver.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Si vous nous écoutez dans le tram,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "chez vous ou pendant votre pause,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "installez-vous comme vous pouvez.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "On va prendre notre temps.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "Cette conversation est pour les niveaux B1 et B2.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "À la fin, vous saurez parler d'un projet qui",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "vous tient à cœur et dire ce qui vous fait hésiter.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Si un mot vous échappe,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "laissez-nous continuer.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Vous pouvez suivre l'histoire même si vous ne comprenez pas tout.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "Dis, tu pensais à un grand changement quand tu",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "as choisi ce sujet ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Je pensais à une envie qui revient régulièrement.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Chez moi, elle revenait chaque fois que j'entendais une",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "interview à la radio.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "Chez moi, chaque fois que mon vélo faisait un bruit bizarre.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "On va y venir.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Et vous ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Si une envie vous vient à l'esprit pendant qu'on parle,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "gardez-la en tête, même si elle vous paraît un peu étrange.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Avec nous, votre envie est en bonne compagnie.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Un jeudi de novembre, je me suis arrêtée devant",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "la vitrine de la médiathèque.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "J'attendais que la pluie se calme avant de rentrer.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 114,
+      "fr": "Il y a pire comme abri.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Sur la vitre, il y avait une affiche.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "La radio associative du quartier cherchait des bénévoles pour préparer des reportages.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 119,
+      "fr": "Et tu as poussé la porte ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "J'ai pris l'affiche en photo.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Puis j'ai passé le trajet du retour à trouver",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "des raisons de laisser tomber.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Tu en as trouvé combien ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Trois avant mon arrêt.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Je n'avais jamais touché à une table de mixage.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Les autres devaient déjà se connaître.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Et je me sentais rouillée à l'oral.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 129,
+      "fr": "Rouillée comme la chaîne de mon vélo ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Oui, j'avais perdu un peu de pratique.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Au travail, je prépare surtout des textes.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Parler dans un micro avec quelqu'un qui écoute,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "ça me semblait loin.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "Même quand tu connais ton sujet ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Surtout quand je le connais.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "J'ai envie de tout expliquer.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Puis je m'entends parler et je me demande où",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "est passée ma phrase.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "Ça arrive, même quand on parle de fromage.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 107,
+      "fr": "Enfin, à moi.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Le dimanche, j'en ai parlé à ma grand-mère pendant notre appel.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Elle m'a demandé ce que j'aimerais raconter à la radio.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "Tu avais déjà une idée ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 381,
+      "fr": "Tout de suite.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "La boulangerie ouvre quand la rue est encore vide.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Je voulais demander à la boulangère qui sont ses premiers clients.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "Je pourrais en faire partie.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "À 6h30 ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 119,
+      "fr": "Je pourrais en faire partie en pensée.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "J'ai fini par envoyer un message à la radio.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Une bénévole m'a proposé de passer un soir pour",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 308,
+      "fr": "voir comment il préparait l'émission.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "Et le fameux vélo ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "La semaine suivante.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "J'étais venue avec la clochette de mon entrée pour",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "recréer le bruit de la porte de la boulangerie.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 129,
+      "fr": "Tu avais enregistré la vraie porte ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Oui, mais un camion passait à ce moment-là.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "J'ai voulu sauver la prise avec ma petite clochette.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "En studio, elle sonnait comme une sonnette de vélo.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "Et elle a fini à l'antenne ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Garde cette question.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Je te dirai ce qu'on a passé à l'antenne.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Très bien.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "J'attendrai la fin de l'émission.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Ce premier soir, j'ai surtout posé des questions.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Au moment de mettre le casque,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "j'ai enfin osé dire que je ne savais pas",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "de quel côté parler dans le micro.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "Et quelqu'un t'a montré ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "En deux secondes.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Puis il m'a demandé si j'étais bien installée.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "J'avais préparé toute une explication sur mon manque d'expérience.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "Elle est restée dans ta poche ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Avec mon téléphone, oui.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "J'y pense quand quelqu'un hésite à prendre la parole en français.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Parfois, la première phrase qui compte,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "c'est « Vous pouvez répéter ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "».",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 157,
+      "fr": "Elle permet à la conversation de continuer.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Et l'autre personne sait quoi faire.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "De mon côté, j'avais envie d'apprendre à entretenir mon vélo.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "Je passe devant un atelier associatif presque tous les jours en rentrant.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 296,
+      "fr": "Celui dans la cour, près du squar ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "Oui.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 110,
+      "fr": "Je regardais les gens derrière la vitre.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "Ils prenaient les outils.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "Ils les rangeaient au bon endroit.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "Rien que ça, ça m'impressionnait.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Tu te sentais un peu à côté ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Je m'imaginais entrer avec mon vélo qui grince et",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "mes lunettes qui glissent.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "Il y avait déjà beaucoup de bruit dans cette scène.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Surtout dans ta tête ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "Beaucoup.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "Un soir, le Mathieu de 22 heures a décidé",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "de tout apprendre sur Internet.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 151,
+      "fr": "Il a regardé quatre vidéos d'affilé.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Il est courageux, celui-là.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "Il est surtout très fort pour donner du travail",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 103,
+      "fr": "au Mathieu du lendemain.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "Le lendemain, j'ai mis mes chaussures et je suis parti à pied.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Qu'est-ce qui t'a décidé à passer le seuil ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 116,
+      "fr": "Une bénévole a ouvert la porte pendant que je lisais les horaires.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 116,
+      "fr": "Elle m'a demandé si je cherchais quelqu'un.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Et tu as répondu quoi ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 157,
+      "fr": "Je crois que je cherche où poser mon vélo.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "Elle m'a montré une place et m'a dit qu'elle viendrait me voir.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Le premier problème était réglé.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 104,
+      "fr": "Exactement.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 157,
+      "fr": "Le deuxième, c'était que j'avais décrit mon vélo comme",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 119,
+      "fr": "un vélo qui fait du bruit.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 163,
+      "fr": "Là, même avec beaucoup de bonne volonté,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 114,
+      "fr": "elle avait besoin d'un détail.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Tu lui as fait écouter ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "On a déplacé le vélo dans la cour.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "Devant elle, silence complet.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "J'avais presque envie de lui dire qu'il était timide.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Il a choisi son moment.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "Heureusement, elle m'a demandé dans quelles conditions j'entendais le bruit.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 116,
+      "fr": "J'ai pu lui montrer ce que je faisais quand ça arrivait.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Et maintenant, tu as le coup de main ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "Pour tenir le vélo pendant qu'on regardait ensemble,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "oui.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "Pour tout le reste, j'ai encore besoin qu'on me montre.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "Ça me va.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Tu t'es donné le droit de revenir avec une autre question.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 157,
+      "fr": "J'y suis retourné quinze jours plus tard.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "J'ai reconnu la bénévole et j'ai pu dire à",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 119,
+      "fr": "quelqu'un qui arrivait où poser son vélo.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "C'est drôle, le premier truc que tu as appris,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "tu pouvais déjà le transmettre.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Oui.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "Quand on apprend le français,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "on a parfois l'impression que les gens qui parlent",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 116,
+      "fr": "bien ont toujours été à l'aise.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Et dans un groupe, il suffit parfois de connaître",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "une seule phrase pour accueillir quelqu'un.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Venez, il reste une chaise ici.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 129,
+      "fr": "La prochaine fois qu'un groupe vous impressionne,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "regardez comment il accueille quelqu'un qui arrive.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 105,
+      "fr": "Ça vous dira plus de choses sur lui que",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 111,
+      "fr": "le niveau des autres.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Dans nos deux histoires, les horaires ont fini par nous arranger.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Je pense à une amie,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Samira, pour qui c'était plus compliqué.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 110,
+      "fr": "Qu'est-ce qu'elle voulait faire ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Elle voulait reprendre une formation pour travailler dans une médiathèque.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Pendant plusieurs années, elle s'était occupée d'un parent le soir,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "après son travail.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Quand elle a enfin pu se renseigner,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "la formation qu'elle visait avait déménagé.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Avec le trajet, les cours du soir devenaient impossibles pour elle.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 108,
+      "fr": "Ça a dû être dur à encaisser.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Oui, elle avait même du mal à repasser devant la médiathèque.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Elle avait l'impression d'avoir laissé passer sa chance.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "Elle a réussi à en parler avec quelqu'un ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Une collègue lui a demandé quel moment de ce",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "métier l'attirait le plus.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Samira a dit qu'elle aimait aider quelqu'un à trouver",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "un livre qu'il aurait vraiment envie de lire.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Quelques mois plus tard, la médiathèque a cherché des",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "bénévoles pour porter des livres à domicile.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Elle a pris une tournée le samedi,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "une fois par mois.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "Et l'idée de la formation ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Elle y pense encore.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Cette année, sa tournée lui donne un contact avec",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "ce milieu et elle découvre ce qui lui plaît.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Pour le reste, elle a besoin de temps.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 151,
+      "fr": "Est-ce qu'elle t'a raconté sa première visite ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Oui, une dame avait demandé un roman policier.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Samira s'attendait à poser le livre et à repartir.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "La dame lui a demandé de s'asseoir.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 163,
+      "fr": "Elles ont parlé du roman ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Du dernier qu'elle avait lu.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Elle avait deviné la fin dès le troisième chapitre.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Pour le suivant, elle voulait une histoire qui lui résiste un peu.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "Et Samira a pu choisir le livre d'après avec elle ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Oui, quand Samira m'en a parlé,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "elle se souvenait du titre.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "Elle se souvenait aussi que la dame avait dégagé",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "une chaise avant son arrivée.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 160,
+      "fr": "Il y a quelque chose de très concret dans ce samedi.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 170,
+      "fr": "Quelqu'un attend un livre, elle arrive,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "ils discutent.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Et le samedi suivant, elle continue sa vie.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Elle garde le droit de changer d'avis sur ce",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "qu'elle veut faire plus tard.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "En français, on peut avoir une contrainte du même genre.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 157,
+      "fr": "Le seul cours qui correspond à votre niveau commence",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "quand vous êtes encore au travail.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Une conversation à l'heure du déjeuner peut vous aider",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "à garder le contact avec la langue.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Et certaines semaines, vous aurez besoin de garder votre pause pour vous.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 163,
+      "fr": "Si un projet doit attendre,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "qu'est-ce qui vous tient le plus à cœur dans ce projet ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 129,
+      "fr": "La réponse de Samira, elle,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 111,
+      "fr": "a tenu en une phrase.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Et cette phrase lui a donné un endroit où regarder.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 170,
+      "fr": "Pour reprendre un projet, j'aime bien commencer par une",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "question à laquelle quelqu'un peut répondre précisément.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Dans le cas du vélo ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "À quel moment est-ce qu'on entend le bruit ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "J'avais déjà cherché comment réparer un vélo et j'avais",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "fini avec 14 onglets ouverts.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "14 ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 151,
+      "fr": "Le Mathieu de 22 heures travaille sur plusieurs dossiers.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "Pour une formation, je demanderai s'il y a une autre date.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 160,
+      "fr": "Pour le français, je demanderai à quelqu'un à quel",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "moment il serait libre pour discuter.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Avec un horaire, ça prend une forme.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Et quand ça coince, on sait sur quoi réfléchir.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Tu te souviens de la personne qui t'a accueilli à l'atelier ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Si elle t'avait juste donné la liste des outils,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "tu serais revenu ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "Je ne sais pas.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 157,
+      "fr": "J'avais surtout besoin de voir où j'allais passer la",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 114,
+      "fr": "soirée et avec qui.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "On peut demander à visiter la salle avant de s'inscrire.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "Oui, rencontrer la personne qui anime le cours,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 119,
+      "fr": "ça aide aussi à se faire une idée.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "Moi, j'ai attendu longtemps parce que je pensais devoir",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "choisir tout de suite.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Je trouve aussi que ça aide de savoir combien",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "de temps on essaie.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "À la radio, je me suis dit que je",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "passerais deux soirées avec l'équipe.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Après, je ferais le point.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 118,
+      "fr": "Et tu aurais pu t'arrêter là ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Bien sûr !",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Quand quelque chose vous tient à cœur,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "vous pouvez lui faire une petite place et voir",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "ce que cette place vous apporte.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 129,
+      "fr": "Tu as un exemple avec le français ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Quelqu'un qui aime les films peut suivre une discussion",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "sur un seul film qu'il connaît déjà.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Il a une histoire à raconter,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 276,
+      "fr": "même s'il lui manque des mots.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "Et il peut sortir de la discussion en ayant",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "juste repéré le nom d'un autre film.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 113,
+      "fr": "Ça compte aussi.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Oui, au début, je regardais mon reportage avec une",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "seule idée en tête.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Est-ce que ma voix sonnait comme celle des gens",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 296,
+      "fr": "de la radio ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 160,
+      "fr": "Et maintenant ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Je me demande si on entend bien la boulangère.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Elle m'a raconté qu'un monsieur venait parfois chercher son",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "pain avec les chaussons au pied.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "Je tiens à préciser que mes chaussons restent chez moi.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Je n'ai donné aucun nom.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 129,
+      "fr": "Bon, on peut parler de la clochette maintenant ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Au montage, j'ai remis l'enregistrement de la vraie porte,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 400,
+      "fr": "camion compris.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "On entend la boulangère dire bonjour juste après.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Ça donne toute sa place à sa voix.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "Le camion est donc passé à la radio.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Et il ignorait tout de son premier reportage.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "J'aime bien ce détail.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "Le bruit que tu voulais effacer,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 157,
+      "fr": "c'est le début de l'histoire telle qu'elle s'est passée.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Pour vous qui écoutez, qu'est-ce que vous pourriez laisser",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "un peu imparfait pour que votre projet avance à votre rythme ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "Il y a un truc qu'on n'a pas encore dit.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Tu peux te lancer et avoir quand même envie",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "de laisser tomber au bout de deux semaines.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Ça t'est arrivé avec l'atelier ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "J'ai raté trois ouvertures de suite.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "Une fois, j'avais du travail.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "Une autre, j'avais promis de voir ma sœur.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "La troisième fois, je suis rentré avec du comté.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Le comté avait besoin de compagnie.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "Je me suis sacrifié.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "Mais la quatrième semaine, je me suis demandé si",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "j'allais avoir l'air ridicule en revenant avec la même question.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Et tu as revu la bénévole ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 170,
+      "fr": "Oui, elle m'a demandé de tenir une lampe pendant",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 105,
+      "fr": "qu'elle cherchait une vis.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 119,
+      "fr": "Cinq minutes plus tard, on reparlait de mon vélo.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Le temps avait passé pour elle aussi.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Elle avait des vélos à voir,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "des vis à chercher.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Elle n'était pas là à compter tes absences.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 108,
+      "fr": "Ça m'a fait du bien.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 163,
+      "fr": "Quand on s'est éloigné d'une activité,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "on oublie que les gens dedans continuent à avoir des journées ordinaires.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 157,
+      "fr": "Si vous vous sentez rouillé en français après une longue pause,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "vous pouvez retrouver une voix que vous connaissez déjà.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Moi, je reprendrai un épisode dont je me rappelle le sujet.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "Le plaisir de reconnaître un mot peut suffire pour aujourd'hui.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Et si vous en reconnaissez plusieurs,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "profitez-en.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Vous avez le droit de trouver ça agréable.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "Mathieu, tu as dit que tu avais le coup",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "de main pour tenir ton vélo pendant qu'on regardait la roue.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 151,
+      "fr": "Avoir le coup de main,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "c'est savoir faire un geste avec aisance parce qu'on a l'habitude.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "Au début, je pliais les serviettes de travers.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "Maintenant, j'ai le coup de main.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Tu veux venir dîner chez moi samedi ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "Je vois très bien ce que tu fais.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "On a aussi parlé d'un projet qui nous tient à cœur.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 111,
+      "fr": "Ça veut dire qu'il compte beaucoup pour nous.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "Par exemple, rendre visite à mon ancien professeur me tient à cœur.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "Il m'a encouragé quand j'en avais besoin.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Devant l'affiche de la radio,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "j'avais déjà trouvé trois raisons de laisser tomber mon idée de reportage.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "Laisser tomber, c'est arrêter de s'occuper d'une chose ou abandonner un projet.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "J'ai laissé tomber mon inscription au tournoi quand j'ai vu les horaires.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 276,
+      "fr": "Tu peux aussi dire « laisse tomber ».",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Quand un ami cherche quelque chose pour toi et",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "que tu viens de le retrouver.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "Souvent avec mes lunettes, le plus souvent,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "elles sont sur ma tête.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Et faire le point, c'est s'arrêter un moment pour",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "voir où on en est.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Après trois mois dans son nouvel appartement,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Julie a fait le point sur ses dépenses.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Je pensais que tu allais parler de mes dépenses de fromage.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "J'avais promis une émission de 20 minutes.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "Très bien !",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "Et le dernier mot, c'est rouiller.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 157,
+      "fr": "On l'emploie quand on a perdu un peu d'aisance",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "parce qu'on n'a pas pratiqué depuis longtemps.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Par exemple, je sais encore me servir d'une machine à coudre,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "mais je suis un peu rouillée.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "La dernière fois, j'ai mis un bon moment à enfiler le fil.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "Avec un peu de pratique,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "certains gestes reviennent.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "Et parfois, on demande à quelqu'un de nous les remontrer.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Ce qui nous donne souvent une conversation plus intéressante que prévue.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Merci d'avoir passé ce moment avec nous.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Si une envie vous est revenue en nous écoutant,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "vous pouvez nous raconter ce qui vous attire dans ce projet.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "J'aimerais bien savoir ce que vous aimeriez découvrir,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 157,
+      "fr": "même si vous ne savez pas encore par où commencer.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "Abonnez-vous à The Cozy French si vous voulez retrouver",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "nos conversations en français.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "On sera heureux de vous retrouver au prochain épisode.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "Prenez soin de vous.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 151,
+      "fr": "Et Léa, qu'est devenue la clochette ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Je l'ai remise sur ma porte.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Elle fait de nouveau son travail.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "Ah, et si un jour elle veut se reconvertir,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "l'atelier est ouvert le jeudi.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Elle va d'abord faire le point.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "À bientôt tout le monde !",
+      "en": ""
+    }
+  ],
+  "vocab": []
+}

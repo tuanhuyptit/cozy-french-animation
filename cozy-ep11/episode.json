@@ -1,0 +1,2501 @@
+{
+  "scene": "quai",
+  "lea": "jean",
+  "mat": "hoodie",
+  "decor": [
+    "livres",
+    "boule"
+  ],
+  "audio": "assets/voice.mp3",
+  "audioEnd": 1078.73,
+  "chunks": [
+    {
+      "who": "lea",
+      "fr": "Bonjour tout le monde et bienvenue sur The Cozy French.",
+      "en": "Hello everyone and welcome to The Cozy French."
+    },
+    {
+      "who": "lea",
+      "fr": "Moi, c'est Léa.",
+      "en": "I'm Léa."
+    },
+    {
+      "who": "mat",
+      "fr": "Et moi, c'est Mathieu.",
+      "en": "And I'm Mathieu."
+    },
+    {
+      "who": "mat",
+      "fr": "Léa, pourquoi tu as écrit « clochette »",
+      "en": "Léa, why did you write \"little bell\""
+    },
+    {
+      "who": "mat",
+      "fr": "en haut de tes notes ?",
+      "en": "at the top of your notes?"
+    },
+    {
+      "who": "lea",
+      "fr": "Pour me souvenir de ma toute première émission de radio.",
+      "en": "To remember my very first radio show."
+    },
+    {
+      "who": "mat",
+      "fr": "Tu avais besoin d'une clochette pour parler ?",
+      "en": "You needed a little bell to talk?",
+      "emote": "question"
+    },
+    {
+      "who": "lea",
+      "fr": "J'en avais besoin pour donner",
+      "en": "I needed it to give"
+    },
+    {
+      "who": "lea",
+      "fr": "l'impression qu'on entrait dans une boulangerie.",
+      "en": "the impression we were walking into a bakery."
+    },
+    {
+      "who": "lea",
+      "fr": "Tu verras, ça a presque marché.",
+      "en": "You'll see, it almost worked."
+    },
+    {
+      "who": "mat",
+      "fr": "Presque ?",
+      "en": "Almost?",
+      "emote": "surpris"
+    },
+    {
+      "who": "lea",
+      "fr": "À l'écoute,",
+      "en": "When we listened back,"
+    },
+    {
+      "who": "lea",
+      "fr": "on aurait dit que j'avais",
+      "en": "it sounded like I had"
+    },
+    {
+      "who": "lea",
+      "fr": "enfermé un vélo dans le studio.",
+      "en": "locked a bicycle in the studio.",
+      "emote": "rire",
+      "react": "rire"
+    },
+    {
+      "who": "mat",
+      "fr": "Ah, c'est donc pour ça",
+      "en": "Ah, so that's why"
+    },
+    {
+      "who": "mat",
+      "fr": "que tu voulais me parler de mon vélo.",
+      "en": "you wanted to talk to me about my bike."
+    },
+    {
+      "who": "lea",
+      "fr": "Entre autres.",
+      "en": "Among other things."
+    },
+    {
+      "who": "lea",
+      "fr": "Aujourd'hui, on parle de ce moment",
+      "en": "Today, we're talking about that moment"
+    },
+    {
+      "who": "lea",
+      "fr": "où on a envie de changer quelque chose",
+      "en": "when you want to change something"
+    },
+    {
+      "who": "lea",
+      "fr": "et où on se dit",
+      "en": "and you tell yourself"
+    },
+    {
+      "who": "lea",
+      "fr": "qu'on aurait dû [s'y prendre] bien avant.",
+      "en": "you should have gone about it much earlier."
+    },
+    {
+      "who": "mat",
+      "fr": "Reprendre des études, apprendre le français,",
+      "en": "Going back to school, learning French,"
+    },
+    {
+      "who": "mat",
+      "fr": "ou simplement faire de la place",
+      "en": "or simply making room"
+    },
+    {
+      "who": "mat",
+      "fr": "à une activité qu'on aimerait retrouver.",
+      "en": "for an activity you'd like to get back to."
+    },
+    {
+      "who": "lea",
+      "fr": "Si vous nous écoutez dans le tram,",
+      "en": "If you're listening on the tram,"
+    },
+    {
+      "who": "lea",
+      "fr": "chez vous ou pendant votre pause,",
+      "en": "at home or during your break,"
+    },
+    {
+      "who": "lea",
+      "fr": "installez-vous comme vous pouvez.",
+      "en": "get as comfortable as you can."
+    },
+    {
+      "who": "lea",
+      "fr": "On va prendre notre temps.",
+      "en": "We're going to take our time."
+    },
+    {
+      "who": "mat",
+      "fr": "Cette conversation est pour les niveaux B1 et B2.",
+      "en": "This conversation is for levels B1 and B2."
+    },
+    {
+      "who": "mat",
+      "fr": "À la fin,",
+      "en": "By the end,"
+    },
+    {
+      "who": "mat",
+      "fr": "vous saurez parler d'un projet qui vous [tient à cœur]",
+      "en": "you'll be able to talk about a project that matters to you"
+    },
+    {
+      "who": "mat",
+      "fr": "et dire ce qui vous fait hésiter.",
+      "en": "and say what makes you hesitate."
+    },
+    {
+      "who": "lea",
+      "fr": "Si un mot vous échappe, laissez-nous continuer.",
+      "en": "If a word escapes you, let us keep going."
+    },
+    {
+      "who": "lea",
+      "fr": "Vous pouvez suivre l'histoire même",
+      "en": "You can follow the story even"
+    },
+    {
+      "who": "lea",
+      "fr": "si vous ne comprenez pas tout.",
+      "en": "if you don't understand everything."
+    },
+    {
+      "who": "mat",
+      "fr": "Dis, tu pensais à un grand changement",
+      "en": "Say, were you thinking of a big change"
+    },
+    {
+      "who": "mat",
+      "fr": "quand tu as choisi ce sujet ?",
+      "en": "when you chose this topic?"
+    },
+    {
+      "who": "lea",
+      "fr": "Je pensais à une envie qui revient régulièrement.",
+      "en": "I was thinking of a wish that keeps coming back."
+    },
+    {
+      "who": "lea",
+      "fr": "Chez moi,",
+      "en": "For me,"
+    },
+    {
+      "who": "lea",
+      "fr": "elle revenait chaque fois que j'entendais",
+      "en": "it came back every time I heard"
+    },
+    {
+      "who": "lea",
+      "fr": "une interview à la radio.",
+      "en": "an interview on the radio.",
+      "illus": "musique",
+      "label": "la radio"
+    },
+    {
+      "who": "mat",
+      "fr": "Chez moi,",
+      "en": "For me,"
+    },
+    {
+      "who": "mat",
+      "fr": "chaque fois que mon vélo faisait un bruit bizarre.",
+      "en": "every time my bike made a strange noise.",
+      "react": "rire"
+    },
+    {
+      "who": "lea",
+      "fr": "On va y venir.",
+      "en": "We'll get to that."
+    },
+    {
+      "who": "mat",
+      "fr": "Et vous,",
+      "en": "And you,"
+    },
+    {
+      "who": "mat",
+      "fr": "si une envie vous vient à l'esprit pendant qu'on parle,",
+      "en": "if a wish comes to mind while we're talking,"
+    },
+    {
+      "who": "mat",
+      "fr": "gardez-la en tête.",
+      "en": "keep it in mind."
+    },
+    {
+      "who": "mat",
+      "fr": "Même si elle vous paraît un peu étrange.",
+      "en": "Even if it seems a bit strange to you."
+    },
+    {
+      "who": "lea",
+      "fr": "Avec nous, votre envie est en bonne compagnie.",
+      "en": "With us, your wish is in good company.",
+      "emote": "coeur"
+    },
+    {
+      "who": "lea",
+      "fr": "Un jeudi de novembre,",
+      "en": "One Thursday in November,"
+    },
+    {
+      "who": "lea",
+      "fr": "je me suis arrêtée devant la vitrine de la médiathèque.",
+      "en": "I stopped in front of the library window."
+    },
+    {
+      "who": "lea",
+      "fr": "J'attendais que la pluie se calme avant de rentrer.",
+      "en": "I was waiting for the rain to ease off before going home.",
+      "illus": "pluie",
+      "label": "la pluie"
+    },
+    {
+      "who": "mat",
+      "fr": "Il y a pire comme abri.",
+      "en": "There are worse places to shelter.",
+      "emote": "rire"
+    },
+    {
+      "who": "lea",
+      "fr": "Sur la vitre, il y avait une affiche.",
+      "en": "On the glass, there was a poster."
+    },
+    {
+      "who": "lea",
+      "fr": "La radio associative du quartier cherchait",
+      "en": "The neighbourhood community radio was looking for"
+    },
+    {
+      "who": "lea",
+      "fr": "des bénévoles pour préparer des reportages.",
+      "en": "volunteers to prepare reports."
+    },
+    {
+      "who": "mat",
+      "fr": "Et tu as poussé la porte ?",
+      "en": "And you pushed the door open?"
+    },
+    {
+      "who": "lea",
+      "fr": "J'ai pris l'affiche en photo.",
+      "en": "I took a photo of the poster."
+    },
+    {
+      "who": "lea",
+      "fr": "Puis j'ai passé le trajet du retour",
+      "en": "Then I spent the journey home"
+    },
+    {
+      "who": "lea",
+      "fr": "à trouver des raisons de [laisser tomber.]",
+      "en": "finding reasons to give up."
+    },
+    {
+      "who": "mat",
+      "fr": "Tu en as trouvé combien ?",
+      "en": "How many did you find?",
+      "emote": "question"
+    },
+    {
+      "who": "lea",
+      "fr": "Trois avant mon arrêt.",
+      "en": "Three before my stop."
+    },
+    {
+      "who": "lea",
+      "fr": "Je n'avais jamais touché à une table de mixage.",
+      "en": "I had never touched a mixing desk."
+    },
+    {
+      "who": "lea",
+      "fr": "Les autres devaient déjà se connaître.",
+      "en": "The others probably already knew each other."
+    },
+    {
+      "who": "lea",
+      "fr": "Et je me sentais [rouillée] à l'oral.",
+      "en": "And I felt rusty at speaking.",
+      "emote": "gene"
+    },
+    {
+      "who": "mat",
+      "fr": "Rouillée, comme la chaîne de mon vélo ?",
+      "en": "Rusty, like my bike chain?"
+    },
+    {
+      "who": "lea",
+      "fr": "Oui. J'avais perdu un peu de pratique.",
+      "en": "Yes. I had lost a bit of practice."
+    },
+    {
+      "who": "lea",
+      "fr": "Au travail, je prépare surtout des textes.",
+      "en": "At work, I mostly prepare written texts.",
+      "illus": "travail",
+      "label": "le travail"
+    },
+    {
+      "who": "lea",
+      "fr": "Parler dans un micro avec quelqu'un qui écoute,",
+      "en": "Talking into a microphone with someone listening,"
+    },
+    {
+      "who": "lea",
+      "fr": "ça me semblait loin.",
+      "en": "that felt far away."
+    },
+    {
+      "who": "mat",
+      "fr": "Même quand tu connais ton sujet ?",
+      "en": "Even when you know your subject?"
+    },
+    {
+      "who": "lea",
+      "fr": "Surtout quand je le connais.",
+      "en": "Especially when I know it."
+    },
+    {
+      "who": "lea",
+      "fr": "J'ai envie de tout expliquer,",
+      "en": "I want to explain everything,"
+    },
+    {
+      "who": "lea",
+      "fr": "puis je m'entends parler et je me demande",
+      "en": "then I hear myself talking and I wonder"
+    },
+    {
+      "who": "lea",
+      "fr": "où est passée ma phrase.",
+      "en": "where my sentence went."
+    },
+    {
+      "who": "mat",
+      "fr": "Ça arrive même quand on parle de fromage.",
+      "en": "That happens even when you talk about cheese.",
+      "emote": "rire"
+    },
+    {
+      "who": "mat",
+      "fr": "Enfin, à moi.",
+      "en": "Well, to me."
+    },
+    {
+      "who": "lea",
+      "fr": "Le dimanche,",
+      "en": "On Sunday,"
+    },
+    {
+      "who": "lea",
+      "fr": "j'en ai parlé à ma grand-mère pendant notre appel.",
+      "en": "I talked about it with my grandmother during our call.",
+      "illus": "famille",
+      "label": "ma grand-mère"
+    },
+    {
+      "who": "lea",
+      "fr": "Elle m'a demandé ce que j'aimerais raconter à la radio.",
+      "en": "She asked me what I'd like to tell on the radio."
+    },
+    {
+      "who": "mat",
+      "fr": "Tu avais déjà une idée ?",
+      "en": "Did you already have an idea?"
+    },
+    {
+      "who": "lea",
+      "fr": "Tout de suite.",
+      "en": "Right away."
+    },
+    {
+      "who": "lea",
+      "fr": "La boulangerie ouvre quand la rue est encore vide.",
+      "en": "The bakery opens when the street is still empty."
+    },
+    {
+      "who": "lea",
+      "fr": "Je voulais demander à la boulangère",
+      "en": "I wanted to ask the baker"
+    },
+    {
+      "who": "lea",
+      "fr": "qui sont ses premiers clients.",
+      "en": "who her first customers are."
+    },
+    {
+      "who": "mat",
+      "fr": "Je pourrais en faire partie.",
+      "en": "I could be one of them."
+    },
+    {
+      "who": "lea",
+      "fr": "À six heures et demie ?",
+      "en": "At six thirty?",
+      "emote": "surpris"
+    },
+    {
+      "who": "mat",
+      "fr": "Je pourrais en faire partie en pensée.",
+      "en": "I could be one of them in spirit.",
+      "emote": "rire"
+    },
+    {
+      "who": "lea",
+      "fr": "J'ai fini par envoyer un message à la radio.",
+      "en": "I ended up sending a message to the radio.",
+      "board": {
+        "mode": "timeline",
+        "bg": "craie",
+        "title": "La première émission de Léa",
+        "items": [
+          {
+            "label": "un soir",
+            "text": "visite de la radio",
+            "at": 1
+          },
+          {
+            "label": "la semaine d'après",
+            "text": "la clochette",
+            "at": 4
+          },
+          {
+            "label": "en studio",
+            "text": "une sonnette de vélo !",
+            "at": 10
+          }
+        ]
+      }
+    },
+    {
+      "who": "lea",
+      "fr": "Une bénévole m'a proposé de passer un soir",
+      "en": "A volunteer suggested I come by one evening"
+    },
+    {
+      "who": "lea",
+      "fr": "pour voir comment ils préparaient l'émission.",
+      "en": "to see how they prepared the show."
+    },
+    {
+      "who": "mat",
+      "fr": "Et le fameux vélo ?",
+      "en": "And the famous bike?"
+    },
+    {
+      "who": "lea",
+      "fr": "La semaine suivante.",
+      "en": "The following week."
+    },
+    {
+      "who": "lea",
+      "fr": "J'étais venue avec la clochette de mon entrée",
+      "en": "I had come with the little bell from my front door"
+    },
+    {
+      "who": "lea",
+      "fr": "pour recréer le bruit de la porte de la boulangerie.",
+      "en": "to recreate the sound of the bakery door."
+    },
+    {
+      "who": "mat",
+      "fr": "Tu avais enregistré la vraie porte ?",
+      "en": "Had you recorded the real door?"
+    },
+    {
+      "who": "lea",
+      "fr": "Oui, mais un camion passait à ce moment-là.",
+      "en": "Yes, but a lorry was going past at that moment."
+    },
+    {
+      "who": "lea",
+      "fr": "J'ai voulu sauver la prise avec ma petite clochette.",
+      "en": "I tried to save the take with my little bell."
+    },
+    {
+      "who": "lea",
+      "fr": "En studio, elle sonnait comme une sonnette de vélo.",
+      "en": "In the studio, it sounded like a bicycle bell.",
+      "emote": "rire",
+      "boardEnd": true
+    },
+    {
+      "who": "mat",
+      "fr": "Et elle a fini à l'antenne ?",
+      "en": "And did it end up on air?"
+    },
+    {
+      "who": "lea",
+      "fr": "Garde cette question.",
+      "en": "Hold on to that question."
+    },
+    {
+      "who": "lea",
+      "fr": "Je te dirai ce qu'on a passé à l'antenne.",
+      "en": "I'll tell you what we put on air."
+    },
+    {
+      "who": "mat",
+      "fr": "Très bien. J'attendrai la fin de l'émission.",
+      "en": "Very well. I'll wait until the end of the show."
+    },
+    {
+      "who": "lea",
+      "fr": "Ce premier soir, j'ai surtout posé des questions.",
+      "en": "That first evening, I mostly asked questions."
+    },
+    {
+      "who": "lea",
+      "fr": "Au moment de mettre le casque,",
+      "en": "When it was time to put on the headphones,"
+    },
+    {
+      "who": "lea",
+      "fr": "j'ai enfin osé dire que je ne savais pas",
+      "en": "I finally dared to say that I didn't know"
+    },
+    {
+      "who": "lea",
+      "fr": "de quel côté parler dans le micro.",
+      "en": "which side of the microphone to speak into.",
+      "emote": "gene"
+    },
+    {
+      "who": "mat",
+      "fr": "Et quelqu'un t'a montré.",
+      "en": "And someone showed you."
+    },
+    {
+      "who": "lea",
+      "fr": "En deux secondes.",
+      "en": "In two seconds."
+    },
+    {
+      "who": "lea",
+      "fr": "Puis il m'a demandé si j'étais bien installée.",
+      "en": "Then he asked me if I was comfortable."
+    },
+    {
+      "who": "lea",
+      "fr": "J'avais préparé toute une explication",
+      "en": "I had prepared a whole explanation"
+    },
+    {
+      "who": "lea",
+      "fr": "sur mon manque d'expérience.",
+      "en": "about my lack of experience."
+    },
+    {
+      "who": "mat",
+      "fr": "Elle est restée dans ta poche.",
+      "en": "It stayed in your pocket.",
+      "emote": "rire"
+    },
+    {
+      "who": "lea",
+      "fr": "Avec mon téléphone, oui.",
+      "en": "With my phone, yes.",
+      "illus": "telephone",
+      "label": "mon téléphone"
+    },
+    {
+      "who": "lea",
+      "fr": "J'y pense quand quelqu'un hésite",
+      "en": "I think about it when someone hesitates"
+    },
+    {
+      "who": "lea",
+      "fr": "à prendre la parole en français.",
+      "en": "to speak up in French."
+    },
+    {
+      "who": "lea",
+      "fr": "Parfois, la première phrase qui compte,",
+      "en": "Sometimes, the first sentence that counts",
+      "board": {
+        "mode": "fill",
+        "bg": "carnet",
+        "sentence": "Vous pouvez ___ ?",
+        "answer": "répéter",
+        "hint": "pour demander de redire",
+        "en": "Can you repeat that?",
+        "reveal": 2
+      }
+    },
+    {
+      "who": "lea",
+      "fr": "c'est « Vous pouvez répéter ? »",
+      "en": "is \"Can you repeat that?\""
+    },
+    {
+      "who": "mat",
+      "fr": "Elle permet à la conversation de continuer.",
+      "en": "It lets the conversation carry on."
+    },
+    {
+      "who": "mat",
+      "fr": "Et l'autre personne sait quoi faire.",
+      "en": "And the other person knows what to do.",
+      "boardEnd": true
+    },
+    {
+      "who": "mat",
+      "fr": "De mon côté,",
+      "en": "As for me,"
+    },
+    {
+      "who": "mat",
+      "fr": "j'avais envie d'apprendre à entretenir mon vélo.",
+      "en": "I wanted to learn how to look after my bike."
+    },
+    {
+      "who": "mat",
+      "fr": "Je passe devant un atelier associatif",
+      "en": "I walk past a community workshop"
+    },
+    {
+      "who": "mat",
+      "fr": "presque tous les jours en rentrant.",
+      "en": "almost every day on my way home."
+    },
+    {
+      "who": "lea",
+      "fr": "Celui dans la cour, près du square ?",
+      "en": "The one in the courtyard, near the little park?"
+    },
+    {
+      "who": "mat",
+      "fr": "Oui. Je regardais les gens derrière la vitre.",
+      "en": "Yes. I used to watch the people behind the window."
+    },
+    {
+      "who": "mat",
+      "fr": "Ils prenaient les outils,",
+      "en": "They'd take the tools,"
+    },
+    {
+      "who": "mat",
+      "fr": "ils les rangeaient au bon endroit.",
+      "en": "they'd put them back in the right place."
+    },
+    {
+      "who": "mat",
+      "fr": "Rien que ça, ça m'impressionnait.",
+      "en": "Just that impressed me."
+    },
+    {
+      "who": "lea",
+      "fr": "Tu te sentais un peu à côté ?",
+      "en": "Did you feel a bit out of place?"
+    },
+    {
+      "who": "mat",
+      "fr": "Je m'imaginais entrer avec mon vélo",
+      "en": "I imagined walking in with my bike"
+    },
+    {
+      "who": "mat",
+      "fr": "qui grince et mes lunettes qui glissent.",
+      "en": "that squeaks and my glasses that slip.",
+      "emote": "gene"
+    },
+    {
+      "who": "mat",
+      "fr": "Il y avait déjà beaucoup de bruit dans cette scène.",
+      "en": "There was already a lot of noise in that scene."
+    },
+    {
+      "who": "lea",
+      "fr": "Surtout dans ta tête.",
+      "en": "Mostly in your head."
+    },
+    {
+      "who": "mat",
+      "fr": "Beaucoup. Un soir,",
+      "en": "A lot. One evening,"
+    },
+    {
+      "who": "mat",
+      "fr": "le Mathieu de vingt-deux heures",
+      "en": "10 p.m. Mathieu"
+    },
+    {
+      "who": "mat",
+      "fr": "a décidé de tout apprendre sur Internet.",
+      "en": "decided to learn everything on the internet."
+    },
+    {
+      "who": "mat",
+      "fr": "Il a regardé quatre vidéos [d'affilée.]",
+      "en": "He watched four videos in a row."
+    },
+    {
+      "who": "lea",
+      "fr": "Il est courageux, celui-là.",
+      "en": "He's brave, that one.",
+      "emote": "rire"
+    },
+    {
+      "who": "mat",
+      "fr": "Il est surtout très fort pour donner",
+      "en": "Mostly he's very good at giving"
+    },
+    {
+      "who": "mat",
+      "fr": "du travail au Mathieu du lendemain.",
+      "en": "work to next-day Mathieu."
+    },
+    {
+      "who": "mat",
+      "fr": "Le lendemain,",
+      "en": "The next day,"
+    },
+    {
+      "who": "mat",
+      "fr": "j'ai mis mes chaussures et je suis parti à pied.",
+      "en": "I put on my shoes and set off on foot."
+    },
+    {
+      "who": "lea",
+      "fr": "Qu'est-ce qui t'a décidé à [passer le seuil ?]",
+      "en": "What made you decide to step through the door?"
+    },
+    {
+      "who": "mat",
+      "fr": "Une bénévole a ouvert la porte",
+      "en": "A volunteer opened the door"
+    },
+    {
+      "who": "mat",
+      "fr": "pendant que je lisais les horaires.",
+      "en": "while I was reading the opening hours."
+    },
+    {
+      "who": "mat",
+      "fr": "Elle m'a demandé si je cherchais quelqu'un.",
+      "en": "She asked me if I was looking for someone."
+    },
+    {
+      "who": "lea",
+      "fr": "Et tu as répondu quoi ?",
+      "en": "And what did you answer?"
+    },
+    {
+      "who": "mat",
+      "fr": "« Je crois que je cherche où poser mon vélo. »",
+      "en": "\"I think I'm looking for where to put my bike.\""
+    },
+    {
+      "who": "mat",
+      "fr": "Elle m'a montré une place",
+      "en": "She showed me a spot"
+    },
+    {
+      "who": "mat",
+      "fr": "et m'a dit qu'elle viendrait me voir.",
+      "en": "and said she would come and see me."
+    },
+    {
+      "who": "lea",
+      "fr": "Le premier problème était réglé.",
+      "en": "The first problem was solved."
+    },
+    {
+      "who": "mat",
+      "fr": "Exactement. Le deuxième,",
+      "en": "Exactly. The second one"
+    },
+    {
+      "who": "mat",
+      "fr": "c'était que j'avais décrit mon vélo",
+      "en": "was that I had described my bike"
+    },
+    {
+      "who": "mat",
+      "fr": "comme « un vélo qui fait du bruit ».",
+      "en": "as \"a bike that makes a noise\"."
+    },
+    {
+      "who": "mat",
+      "fr": "Là, même avec beaucoup de bonne volonté,",
+      "en": "Even with a lot of goodwill,"
+    },
+    {
+      "who": "mat",
+      "fr": "elle avait besoin d'un détail.",
+      "en": "she needed a detail."
+    },
+    {
+      "who": "lea",
+      "fr": "Tu lui as fait écouter ?",
+      "en": "Did you let her listen to it?"
+    },
+    {
+      "who": "mat",
+      "fr": "On a déplacé le vélo dans la cour.",
+      "en": "We moved the bike into the courtyard."
+    },
+    {
+      "who": "mat",
+      "fr": "Devant elle, silence complet.",
+      "en": "In front of her, complete silence."
+    },
+    {
+      "who": "mat",
+      "fr": "J'avais presque envie de lui dire qu'il était timide.",
+      "en": "I almost wanted to tell her it was shy.",
+      "emote": "rire"
+    },
+    {
+      "who": "lea",
+      "fr": "Il a choisi son moment.",
+      "en": "It chose its moment."
+    },
+    {
+      "who": "mat",
+      "fr": "Heureusement, elle m'a demandé",
+      "en": "Luckily, she asked me"
+    },
+    {
+      "who": "mat",
+      "fr": "dans quelles conditions j'entendais le bruit.",
+      "en": "in what conditions I heard the noise."
+    },
+    {
+      "who": "mat",
+      "fr": "J'ai pu lui montrer",
+      "en": "I was able to show her"
+    },
+    {
+      "who": "mat",
+      "fr": "ce que je faisais quand ça arrivait.",
+      "en": "what I was doing when it happened."
+    },
+    {
+      "who": "lea",
+      "fr": "Et maintenant, tu [as le coup de main ?]",
+      "en": "And now, have you got the knack?"
+    },
+    {
+      "who": "mat",
+      "fr": "Pour tenir le vélo pendant qu'on regardait ensemble, oui.",
+      "en": "For holding the bike while we looked at it together, yes."
+    },
+    {
+      "who": "mat",
+      "fr": "Pour tout le reste, j'ai encore besoin qu'on me montre.",
+      "en": "For everything else, I still need someone to show me."
+    },
+    {
+      "who": "mat",
+      "fr": "Ça me va.",
+      "en": "I'm fine with that."
+    },
+    {
+      "who": "lea",
+      "fr": "Tu t'es donné le droit",
+      "en": "You gave yourself the right"
+    },
+    {
+      "who": "lea",
+      "fr": "de revenir avec une autre question.",
+      "en": "to come back with another question.",
+      "emote": "coeur"
+    },
+    {
+      "who": "mat",
+      "fr": "J'y suis retourné quinze jours plus tard.",
+      "en": "I went back two weeks later."
+    },
+    {
+      "who": "mat",
+      "fr": "J'ai reconnu la bénévole et j'ai pu dire",
+      "en": "I recognised the volunteer and I was able to tell"
+    },
+    {
+      "who": "mat",
+      "fr": "à quelqu'un qui arrivait où poser son vélo.",
+      "en": "someone who was arriving where to put their bike."
+    },
+    {
+      "who": "lea",
+      "fr": "C'est drôle, le premier truc que tu as appris,",
+      "en": "It's funny, the first thing you learned,"
+    },
+    {
+      "who": "lea",
+      "fr": "tu pouvais déjà le transmettre.",
+      "en": "you could already pass on."
+    },
+    {
+      "who": "mat",
+      "fr": "Oui. Quand on apprend le français,",
+      "en": "Yes. When you learn French,"
+    },
+    {
+      "who": "mat",
+      "fr": "on a parfois l'impression que les gens",
+      "en": "you sometimes get the impression that people"
+    },
+    {
+      "who": "mat",
+      "fr": "qui parlent bien ont toujours été à l'aise.",
+      "en": "who speak well have always been at ease."
+    },
+    {
+      "who": "lea",
+      "fr": "Et dans un groupe,",
+      "en": "And in a group,",
+      "board": {
+        "mode": "order",
+        "bg": "liege",
+        "sentence": "Venez, il reste une chaise ici.",
+        "en": "Come, there's a chair free here.",
+        "reveal": 3
+      }
+    },
+    {
+      "who": "lea",
+      "fr": "il suffit parfois de connaître",
+      "en": "sometimes all it takes is knowing"
+    },
+    {
+      "who": "lea",
+      "fr": "une seule phrase pour accueillir quelqu'un.",
+      "en": "a single sentence to welcome someone."
+    },
+    {
+      "who": "lea",
+      "fr": "« Venez, il reste une chaise ici. »",
+      "en": "\"Come, there's a chair free here.\""
+    },
+    {
+      "who": "mat",
+      "fr": "La prochaine fois qu'un groupe vous impressionne,",
+      "en": "Next time a group impresses you,"
+    },
+    {
+      "who": "mat",
+      "fr": "regardez comment il accueille quelqu'un qui arrive.",
+      "en": "watch how it welcomes someone who arrives.",
+      "boardEnd": true
+    },
+    {
+      "who": "mat",
+      "fr": "Ça vous dira plus de choses",
+      "en": "That will tell you more"
+    },
+    {
+      "who": "mat",
+      "fr": "sur lui que le niveau des autres.",
+      "en": "about it than everyone else's level."
+    },
+    {
+      "who": "lea",
+      "fr": "Dans nos deux histoires,",
+      "en": "In both our stories,"
+    },
+    {
+      "who": "lea",
+      "fr": "les horaires ont fini par nous arranger.",
+      "en": "the timetables ended up working for us."
+    },
+    {
+      "who": "lea",
+      "fr": "Je pense à une amie,",
+      "en": "I'm thinking of a friend,"
+    },
+    {
+      "who": "lea",
+      "fr": "Samira, pour qui c'était plus compliqué.",
+      "en": "Samira, for whom it was more complicated."
+    },
+    {
+      "who": "mat",
+      "fr": "Qu'est-ce qu'elle voulait faire ?",
+      "en": "What did she want to do?"
+    },
+    {
+      "who": "lea",
+      "fr": "Elle voulait reprendre une formation",
+      "en": "She wanted to go back to a training course",
+      "illus": "etudes",
+      "label": "une formation"
+    },
+    {
+      "who": "lea",
+      "fr": "pour travailler dans une médiathèque.",
+      "en": "to work in a library."
+    },
+    {
+      "who": "lea",
+      "fr": "Pendant plusieurs années,",
+      "en": "For several years,"
+    },
+    {
+      "who": "lea",
+      "fr": "elle s'était occupée d'un parent le soir,",
+      "en": "she had looked after a parent in the evenings,"
+    },
+    {
+      "who": "lea",
+      "fr": "après son travail.",
+      "en": "after work."
+    },
+    {
+      "who": "lea",
+      "fr": "Quand elle a enfin pu se renseigner,",
+      "en": "When she was finally able to look into it,"
+    },
+    {
+      "who": "lea",
+      "fr": "la formation qu'elle visait avait déménagé.",
+      "en": "the course she had in mind had moved."
+    },
+    {
+      "who": "lea",
+      "fr": "Avec le trajet,",
+      "en": "With the commute,"
+    },
+    {
+      "who": "lea",
+      "fr": "les cours du soir devenaient impossibles pour elle.",
+      "en": "the evening classes became impossible for her."
+    },
+    {
+      "who": "mat",
+      "fr": "Ça a dû être [dur à encaisser.]",
+      "en": "That must have been hard to take.",
+      "emote": "triste"
+    },
+    {
+      "who": "lea",
+      "fr": "Oui. Elle avait même du mal",
+      "en": "Yes. She even found it hard"
+    },
+    {
+      "who": "lea",
+      "fr": "à repasser devant la médiathèque.",
+      "en": "to walk past the library again."
+    },
+    {
+      "who": "lea",
+      "fr": "Elle avait l'impression d'avoir [laissé passer sa chance.]",
+      "en": "She felt she had let her chance slip by.",
+      "emote": "triste"
+    },
+    {
+      "who": "mat",
+      "fr": "Elle a réussi à en parler avec quelqu'un ?",
+      "en": "Did she manage to talk about it with someone?"
+    },
+    {
+      "who": "lea",
+      "fr": "Une collègue lui a demandé",
+      "en": "A colleague asked her"
+    },
+    {
+      "who": "lea",
+      "fr": "quel moment de ce métier l'attirait le plus.",
+      "en": "which moment of the job attracted her most."
+    },
+    {
+      "who": "lea",
+      "fr": "Samira a dit qu'elle aimait aider quelqu'un à trouver",
+      "en": "Samira said she loved helping someone find"
+    },
+    {
+      "who": "lea",
+      "fr": "un livre qu'il aurait vraiment envie de lire.",
+      "en": "a book they would really want to read."
+    },
+    {
+      "who": "lea",
+      "fr": "Quelques mois plus tard,",
+      "en": "A few months later,"
+    },
+    {
+      "who": "lea",
+      "fr": "la médiathèque a cherché des bénévoles",
+      "en": "the library looked for volunteers"
+    },
+    {
+      "who": "lea",
+      "fr": "pour porter des livres [à domicile.]",
+      "en": "to take books to people's homes."
+    },
+    {
+      "who": "lea",
+      "fr": "Elle a pris une tournée le samedi,",
+      "en": "She took on a round on Saturdays,"
+    },
+    {
+      "who": "lea",
+      "fr": "une fois par mois.",
+      "en": "once a month."
+    },
+    {
+      "who": "mat",
+      "fr": "Et l'idée de la formation ?",
+      "en": "And the idea of the training course?",
+      "board": {
+        "mode": "compare",
+        "bg": "craie",
+        "title": "Le projet de Samira",
+        "left": {
+          "head": "avant",
+          "sub": "une formation",
+          "items": [
+            "des cours du soir",
+            "trop loin avec le trajet"
+          ]
+        },
+        "right": {
+          "head": "aujourd'hui",
+          "sub": "une tournée",
+          "items": [
+            "le samedi, une fois par mois",
+            "un contact avec ce milieu"
+          ]
+        }
+      }
+    },
+    {
+      "who": "lea",
+      "fr": "Elle y pense encore.",
+      "en": "She still thinks about it."
+    },
+    {
+      "who": "lea",
+      "fr": "Cette année,",
+      "en": "This year,"
+    },
+    {
+      "who": "lea",
+      "fr": "sa tournée lui donne un contact avec ce milieu",
+      "en": "her round gives her a link with that world"
+    },
+    {
+      "who": "lea",
+      "fr": "et elle découvre ce qui lui plaît.",
+      "en": "and she's discovering what she enjoys."
+    },
+    {
+      "who": "lea",
+      "fr": "Pour le reste, elle a besoin de temps.",
+      "en": "As for the rest, she needs time.",
+      "boardEnd": true
+    },
+    {
+      "who": "mat",
+      "fr": "Est-ce qu'elle t'a raconté sa première visite ?",
+      "en": "Did she tell you about her first visit?"
+    },
+    {
+      "who": "lea",
+      "fr": "Oui. Une dame avait demandé un roman policier.",
+      "en": "Yes. A lady had asked for a detective novel."
+    },
+    {
+      "who": "lea",
+      "fr": "Samira s'attendait à poser le livre et à repartir.",
+      "en": "Samira expected to drop off the book and leave.",
+      "illus": "lecture",
+      "label": "le livre"
+    },
+    {
+      "who": "lea",
+      "fr": "La dame lui a demandé de s'asseoir.",
+      "en": "The lady asked her to sit down.",
+      "emote": "coeur"
+    },
+    {
+      "who": "mat",
+      "fr": "Elles ont parlé du roman ?",
+      "en": "Did they talk about the novel?"
+    },
+    {
+      "who": "lea",
+      "fr": "Du dernier qu'elle avait lu.",
+      "en": "About the last one she had read."
+    },
+    {
+      "who": "lea",
+      "fr": "Elle avait deviné la fin dès le troisième chapitre.",
+      "en": "She had guessed the ending from the third chapter."
+    },
+    {
+      "who": "lea",
+      "fr": "Pour le suivant,",
+      "en": "For the next one,"
+    },
+    {
+      "who": "lea",
+      "fr": "elle voulait une histoire qui lui résiste un peu.",
+      "en": "she wanted a story that would challenge her a bit."
+    },
+    {
+      "who": "mat",
+      "fr": "Et Samira a pu choisir le livre d'après avec elle.",
+      "en": "And Samira was able to choose the next book with her."
+    },
+    {
+      "who": "lea",
+      "fr": "Oui. Quand Samira m'en a parlé,",
+      "en": "Yes. When Samira told me about it,"
+    },
+    {
+      "who": "lea",
+      "fr": "elle se souvenait du titre.",
+      "en": "she remembered the title."
+    },
+    {
+      "who": "lea",
+      "fr": "Elle se souvenait aussi que la dame",
+      "en": "She also remembered that the lady"
+    },
+    {
+      "who": "lea",
+      "fr": "avait dégagé une chaise avant son arrivée.",
+      "en": "had cleared a chair before she arrived.",
+      "emote": "coeur"
+    },
+    {
+      "who": "mat",
+      "fr": "Il y a quelque chose",
+      "en": "There's something"
+    },
+    {
+      "who": "mat",
+      "fr": "de très concret dans ce samedi.",
+      "en": "very concrete about that Saturday."
+    },
+    {
+      "who": "mat",
+      "fr": "Quelqu'un attend un livre, elle arrive, ils discutent.",
+      "en": "Someone is waiting for a book, she arrives, they chat."
+    },
+    {
+      "who": "lea",
+      "fr": "Et le samedi suivant, elle continue sa vie.",
+      "en": "And the following Saturday, she gets on with her life."
+    },
+    {
+      "who": "lea",
+      "fr": "Elle garde le droit de changer d'avis",
+      "en": "She keeps the right to change her mind"
+    },
+    {
+      "who": "lea",
+      "fr": "sur ce qu'elle veut faire plus tard.",
+      "en": "about what she wants to do later."
+    },
+    {
+      "who": "mat",
+      "fr": "En français, on peut avoir une contrainte du même genre.",
+      "en": "In French, you can have the same kind of constraint."
+    },
+    {
+      "who": "mat",
+      "fr": "Le seul cours qui correspond à votre niveau",
+      "en": "The only class that matches your level"
+    },
+    {
+      "who": "mat",
+      "fr": "commence quand vous êtes encore au travail.",
+      "en": "starts while you're still at work."
+    },
+    {
+      "who": "lea",
+      "fr": "Une conversation à l'heure du déjeuner peut",
+      "en": "A conversation at lunchtime can",
+      "illus": "repas",
+      "label": "le déjeuner"
+    },
+    {
+      "who": "lea",
+      "fr": "vous aider à garder le contact avec la langue.",
+      "en": "help you stay in touch with the language."
+    },
+    {
+      "who": "lea",
+      "fr": "Et certaines semaines,",
+      "en": "And some weeks,"
+    },
+    {
+      "who": "lea",
+      "fr": "vous aurez besoin de garder votre pause pour vous.",
+      "en": "you'll need to keep your break for yourself."
+    },
+    {
+      "who": "mat",
+      "fr": "Si un projet doit attendre,",
+      "en": "If a project has to wait,"
+    },
+    {
+      "who": "mat",
+      "fr": "qu'est-ce qui vous tient",
+      "en": "what matters to you"
+    },
+    {
+      "who": "mat",
+      "fr": "le plus à cœur dans ce projet ?",
+      "en": "most in that project?"
+    },
+    {
+      "who": "mat",
+      "fr": "La réponse de Samira, elle, a tenu en une phrase.",
+      "en": "Samira's answer fitted in one sentence."
+    },
+    {
+      "who": "lea",
+      "fr": "Et cette phrase lui a donné un endroit où regarder.",
+      "en": "And that sentence gave her a place to look."
+    },
+    {
+      "who": "mat",
+      "fr": "Pour reprendre un projet,",
+      "en": "To get back into a project,",
+      "board": {
+        "mode": "steps",
+        "bg": "carnet",
+        "title": "Pour reprendre un projet",
+        "items": [
+          {
+            "text": "Poser une question précise",
+            "at": 1
+          },
+          {
+            "text": "« À quel moment… ? »",
+            "at": 4
+          },
+          {
+            "text": "Une formation ? Demander une autre date",
+            "at": 10
+          },
+          {
+            "text": "Le français ? Trouver un moment pour discuter",
+            "at": 12
+          }
+        ]
+      }
+    },
+    {
+      "who": "mat",
+      "fr": "j'aime bien commencer par une question",
+      "en": "I like to start with a question"
+    },
+    {
+      "who": "mat",
+      "fr": "à laquelle quelqu'un peut répondre précisément.",
+      "en": "that someone can answer precisely."
+    },
+    {
+      "who": "lea",
+      "fr": "Dans le cas du vélo ?",
+      "en": "In the case of the bike?"
+    },
+    {
+      "who": "mat",
+      "fr": "« À quel moment est-ce qu'on entend le bruit ? »",
+      "en": "\"When exactly do you hear the noise?\""
+    },
+    {
+      "who": "mat",
+      "fr": "J'avais déjà cherché « comment réparer un vélo »",
+      "en": "I had already searched \"how to fix a bike\""
+    },
+    {
+      "who": "mat",
+      "fr": "et j'avais fini avec quatorze onglets ouverts.",
+      "en": "and ended up with fourteen tabs open."
+    },
+    {
+      "who": "lea",
+      "fr": "Quatorze ?",
+      "en": "Fourteen?",
+      "emote": "surpris"
+    },
+    {
+      "who": "mat",
+      "fr": "Le Mathieu de vingt-deux heures",
+      "en": "10 p.m. Mathieu"
+    },
+    {
+      "who": "mat",
+      "fr": "travaille sur plusieurs dossiers.",
+      "en": "works on several files at once."
+    },
+    {
+      "who": "mat",
+      "fr": "Pour une formation,",
+      "en": "For a training course,"
+    },
+    {
+      "who": "mat",
+      "fr": "je demanderais s'il y a une autre date.",
+      "en": "I'd ask if there's another date."
+    },
+    {
+      "who": "mat",
+      "fr": "Pour le français,",
+      "en": "For French,"
+    },
+    {
+      "who": "mat",
+      "fr": "je demanderais à quelqu'un à quel moment",
+      "en": "I'd ask someone at what time"
+    },
+    {
+      "who": "mat",
+      "fr": "il serait libre pour discuter.",
+      "en": "they'd be free to chat.",
+      "boardEnd": true
+    },
+    {
+      "who": "lea",
+      "fr": "Avec un horaire, ça prend une forme.",
+      "en": "With a timetable, it takes shape."
+    },
+    {
+      "who": "lea",
+      "fr": "Et quand [ça coince,] on sait sur quoi réfléchir.",
+      "en": "And when things get stuck, you know what to think about."
+    },
+    {
+      "who": "lea",
+      "fr": "Tu te souviens de la personne",
+      "en": "Do you remember the person"
+    },
+    {
+      "who": "lea",
+      "fr": "qui t'a accueilli à l'atelier ?",
+      "en": "who welcomed you at the workshop?"
+    },
+    {
+      "who": "lea",
+      "fr": "Si elle t'avait juste donné la liste des outils,",
+      "en": "If she had just given you the list of tools,"
+    },
+    {
+      "who": "lea",
+      "fr": "tu serais revenu ?",
+      "en": "would you have come back?"
+    },
+    {
+      "who": "mat",
+      "fr": "Je ne sais pas.",
+      "en": "I don't know."
+    },
+    {
+      "who": "mat",
+      "fr": "J'avais surtout besoin de voir",
+      "en": "Above all, I needed to see"
+    },
+    {
+      "who": "mat",
+      "fr": "où j'allais passer la soirée et avec qui.",
+      "en": "where I'd spend the evening and with whom."
+    },
+    {
+      "who": "lea",
+      "fr": "On peut demander à visiter la salle avant de s'inscrire.",
+      "en": "You can ask to visit the room before signing up."
+    },
+    {
+      "who": "mat",
+      "fr": "Oui. Rencontrer la personne qui anime le cours,",
+      "en": "Yes. Meeting the person who runs the class"
+    },
+    {
+      "who": "mat",
+      "fr": "ça aide aussi à se faire une idée.",
+      "en": "also helps you get an idea."
+    },
+    {
+      "who": "mat",
+      "fr": "Moi, j'ai attendu longtemps",
+      "en": "Personally, I waited a long time"
+    },
+    {
+      "who": "mat",
+      "fr": "parce que je pensais devoir choisir tout de suite.",
+      "en": "because I thought I had to choose right away."
+    },
+    {
+      "who": "lea",
+      "fr": "Je trouve aussi que ça aide",
+      "en": "I also find it helps"
+    },
+    {
+      "who": "lea",
+      "fr": "de savoir combien de temps on essaie.",
+      "en": "to know how long you're going to try."
+    },
+    {
+      "who": "lea",
+      "fr": "À la radio,",
+      "en": "At the radio,"
+    },
+    {
+      "who": "lea",
+      "fr": "je me suis dit",
+      "en": "I told myself"
+    },
+    {
+      "who": "lea",
+      "fr": "que je passerais deux soirées avec l'équipe.",
+      "en": "that I'd spend two evenings with the team."
+    },
+    {
+      "who": "lea",
+      "fr": "Après, je [ferais le point.]",
+      "en": "Then I'd take stock."
+    },
+    {
+      "who": "mat",
+      "fr": "Et tu aurais pu t'arrêter là.",
+      "en": "And you could have stopped there."
+    },
+    {
+      "who": "lea",
+      "fr": "Bien sûr. Quand quelque chose vous tient à cœur,",
+      "en": "Of course. When something matters to you,"
+    },
+    {
+      "who": "lea",
+      "fr": "vous pouvez lui faire une petite place",
+      "en": "you can make a little room for it"
+    },
+    {
+      "who": "lea",
+      "fr": "et voir ce que cette place vous apporte.",
+      "en": "and see what that room brings you.",
+      "emote": "coeur"
+    },
+    {
+      "who": "mat",
+      "fr": "Tu as un exemple avec le français ?",
+      "en": "Do you have an example with French?"
+    },
+    {
+      "who": "lea",
+      "fr": "Quelqu'un qui aime les films peut suivre",
+      "en": "Someone who loves films can follow"
+    },
+    {
+      "who": "lea",
+      "fr": "une discussion sur un seul film qu'il connaît déjà.",
+      "en": "a discussion about a single film they already know."
+    },
+    {
+      "who": "lea",
+      "fr": "Il a une histoire à raconter,",
+      "en": "They have a story to tell,"
+    },
+    {
+      "who": "lea",
+      "fr": "même s'il lui manque des mots.",
+      "en": "even if they're missing some words."
+    },
+    {
+      "who": "mat",
+      "fr": "Et il peut sortir de la discussion",
+      "en": "And they can come out of the discussion"
+    },
+    {
+      "who": "mat",
+      "fr": "en ayant juste repéré le nom d'un autre film.",
+      "en": "having just picked up the name of another film."
+    },
+    {
+      "who": "mat",
+      "fr": "Ça compte aussi.",
+      "en": "That counts too."
+    },
+    {
+      "who": "lea",
+      "fr": "Oui. Au début,",
+      "en": "Yes. At the beginning,"
+    },
+    {
+      "who": "lea",
+      "fr": "je regardais mon reportage avec une seule idée en tête.",
+      "en": "I listened to my report with only one idea in mind."
+    },
+    {
+      "who": "lea",
+      "fr": "Est-ce que ma voix sonnait",
+      "en": "Did my voice sound"
+    },
+    {
+      "who": "lea",
+      "fr": "comme celle des gens de la radio ?",
+      "en": "like the voices of radio people?"
+    },
+    {
+      "who": "mat",
+      "fr": "Et maintenant ?",
+      "en": "And now?"
+    },
+    {
+      "who": "lea",
+      "fr": "Je me demande si on entend bien la boulangère.",
+      "en": "I wonder if you can hear the baker clearly."
+    },
+    {
+      "who": "lea",
+      "fr": "Elle m'a raconté qu'un monsieur venait parfois",
+      "en": "She told me that a gentleman sometimes came"
+    },
+    {
+      "who": "lea",
+      "fr": "chercher son pain avec les chaussons aux pieds.",
+      "en": "to get his bread wearing his slippers.",
+      "emote": "rire"
+    },
+    {
+      "who": "mat",
+      "fr": "Je tiens à préciser que mes chaussons restent chez moi.",
+      "en": "I'd like to point out that my slippers stay at home.",
+      "emote": "gene"
+    },
+    {
+      "who": "lea",
+      "fr": "Je n'ai donné aucun nom.",
+      "en": "I didn't give any names."
+    },
+    {
+      "who": "mat",
+      "fr": "Bon, on peut parler de la clochette maintenant ?",
+      "en": "Right, can we talk about the little bell now?",
+      "board": {
+        "mode": "truefalse",
+        "bg": "liege",
+        "q": "La clochette est passée à la radio.",
+        "answer": false,
+        "reveal": 2,
+        "explain": "C'est la vraie porte… camion compris !"
+      }
+    },
+    {
+      "who": "lea",
+      "fr": "Au montage,",
+      "en": "In the edit,"
+    },
+    {
+      "who": "lea",
+      "fr": "j'ai remis l'enregistrement de la vraie porte,",
+      "en": "I put back the recording of the real door,"
+    },
+    {
+      "who": "lea",
+      "fr": "camion compris.",
+      "en": "lorry included."
+    },
+    {
+      "who": "lea",
+      "fr": "On entend la boulangère dire bonjour juste après.",
+      "en": "You hear the baker say hello right after."
+    },
+    {
+      "who": "lea",
+      "fr": "Ça donne toute sa place à sa voix.",
+      "en": "It gives her voice its full place."
+    },
+    {
+      "who": "mat",
+      "fr": "Le camion est donc passé à la radio.",
+      "en": "So the lorry made it onto the radio.",
+      "boardEnd": true
+    },
+    {
+      "who": "lea",
+      "fr": "Et il ignorait tout de son premier reportage.",
+      "en": "And it knew nothing about its first report."
+    },
+    {
+      "who": "mat",
+      "fr": "J'aime bien ce détail.",
+      "en": "I like that detail."
+    },
+    {
+      "who": "mat",
+      "fr": "Le bruit que tu voulais effacer,",
+      "en": "The noise you wanted to erase"
+    },
+    {
+      "who": "mat",
+      "fr": "c'est le début de l'histoire telle qu'elle s'est passée.",
+      "en": "is the beginning of the story as it really happened.",
+      "emote": "idee"
+    },
+    {
+      "who": "lea",
+      "fr": "Pour vous qui écoutez,",
+      "en": "For those of you listening,"
+    },
+    {
+      "who": "lea",
+      "fr": "qu'est-ce que vous pourriez laisser un peu imparfait",
+      "en": "what could you leave a little imperfect"
+    },
+    {
+      "who": "lea",
+      "fr": "pour que votre projet avance à votre rythme ?",
+      "en": "so your project moves forward at your own pace?"
+    },
+    {
+      "who": "mat",
+      "fr": "Il y a un truc qu'on n'a pas encore dit.",
+      "en": "There's something we haven't said yet."
+    },
+    {
+      "who": "mat",
+      "fr": "Tu peux te lancer",
+      "en": "You can take the plunge"
+    },
+    {
+      "who": "mat",
+      "fr": "et avoir quand même envie de laisser tomber",
+      "en": "and still feel like giving up"
+    },
+    {
+      "who": "mat",
+      "fr": "au bout de deux semaines.",
+      "en": "after two weeks."
+    },
+    {
+      "who": "lea",
+      "fr": "Ça t'est arrivé avec l'atelier ?",
+      "en": "Did that happen to you with the workshop?",
+      "emote": "question"
+    },
+    {
+      "who": "mat",
+      "fr": "J'ai raté trois ouvertures de suite.",
+      "en": "I missed three opening sessions in a row."
+    },
+    {
+      "who": "mat",
+      "fr": "Une fois, j'avais du travail.",
+      "en": "Once, I had work.",
+      "board": {
+        "mode": "steps",
+        "bg": "craie",
+        "title": "Trois ouvertures ratées",
+        "items": [
+          {
+            "text": "1 : du travail",
+            "at": 0
+          },
+          {
+            "text": "2 : voir ma sœur",
+            "at": 1
+          },
+          {
+            "text": "3 : du comté !",
+            "at": 2
+          },
+          {
+            "text": "4e semaine : je reviens ?",
+            "at": 5
+          }
+        ]
+      }
+    },
+    {
+      "who": "mat",
+      "fr": "Une autre, j'avais promis de voir ma sœur.",
+      "en": "Another time, I had promised to see my sister."
+    },
+    {
+      "who": "mat",
+      "fr": "La troisième fois, je suis rentré avec du comté.",
+      "en": "The third time, I went home with some Comté.",
+      "emote": "rire"
+    },
+    {
+      "who": "lea",
+      "fr": "Le comté avait besoin de compagnie.",
+      "en": "The Comté needed some company.",
+      "emote": "rire"
+    },
+    {
+      "who": "mat",
+      "fr": "Je me suis sacrifié.",
+      "en": "I sacrificed myself."
+    },
+    {
+      "who": "mat",
+      "fr": "Mais la quatrième semaine,",
+      "en": "But the fourth week,"
+    },
+    {
+      "who": "mat",
+      "fr": "je me suis demandé",
+      "en": "I wondered"
+    },
+    {
+      "who": "mat",
+      "fr": "si j'allais avoir l'air ridicule",
+      "en": "if I was going to look ridiculous",
+      "emote": "gene"
+    },
+    {
+      "who": "mat",
+      "fr": "en revenant avec la même question.",
+      "en": "coming back with the same question.",
+      "boardEnd": true
+    },
+    {
+      "who": "lea",
+      "fr": "Et tu as revu la bénévole ?",
+      "en": "And did you see the volunteer again?"
+    },
+    {
+      "who": "mat",
+      "fr": "Oui. Elle m'a demandé de tenir une lampe",
+      "en": "Yes. She asked me to hold a lamp"
+    },
+    {
+      "who": "mat",
+      "fr": "pendant qu'elle cherchait une vis.",
+      "en": "while she was looking for a screw."
+    },
+    {
+      "who": "mat",
+      "fr": "Cinq minutes plus tard, on reparlait de mon vélo.",
+      "en": "Five minutes later, we were talking about my bike again."
+    },
+    {
+      "who": "lea",
+      "fr": "Le temps avait passé pour elle aussi.",
+      "en": "Time had passed for her too.",
+      "illus": "temps",
+      "label": "le temps"
+    },
+    {
+      "who": "lea",
+      "fr": "Elle avait des vélos à voir, des vis à chercher.",
+      "en": "She had bikes to look at, screws to find."
+    },
+    {
+      "who": "lea",
+      "fr": "Elle n'était pas là à compter tes absences.",
+      "en": "She wasn't there counting your absences."
+    },
+    {
+      "who": "mat",
+      "fr": "Ça m'a fait du bien.",
+      "en": "That did me good.",
+      "emote": "coeur"
+    },
+    {
+      "who": "mat",
+      "fr": "Quand on s'est éloigné d'une activité,",
+      "en": "When you've drifted away from an activity,"
+    },
+    {
+      "who": "mat",
+      "fr": "on oublie que les gens dedans",
+      "en": "you forget that the people in it"
+    },
+    {
+      "who": "mat",
+      "fr": "continuent à avoir des journées ordinaires.",
+      "en": "keep having ordinary days."
+    },
+    {
+      "who": "mat",
+      "fr": "Si vous vous sentez rouillé",
+      "en": "If you feel rusty"
+    },
+    {
+      "who": "mat",
+      "fr": "en français après une longue pause,",
+      "en": "in French after a long break,"
+    },
+    {
+      "who": "mat",
+      "fr": "vous pouvez retrouver une voix que vous connaissez déjà.",
+      "en": "you can go back to a voice you already know."
+    },
+    {
+      "who": "mat",
+      "fr": "Moi, je reprendrais un épisode",
+      "en": "Personally, I'd replay an episode"
+    },
+    {
+      "who": "mat",
+      "fr": "dont je me rappelle le sujet.",
+      "en": "whose topic I remember."
+    },
+    {
+      "who": "mat",
+      "fr": "Le plaisir de reconnaître un mot",
+      "en": "The pleasure of recognising a word"
+    },
+    {
+      "who": "mat",
+      "fr": "peut suffire pour aujourd'hui.",
+      "en": "can be enough for today."
+    },
+    {
+      "who": "lea",
+      "fr": "Et si vous en reconnaissez plusieurs, profitez-en.",
+      "en": "And if you recognise several, enjoy it."
+    },
+    {
+      "who": "lea",
+      "fr": "Vous avez le droit de trouver ça agréable.",
+      "en": "You're allowed to find that pleasant.",
+      "emote": "coeur"
+    },
+    {
+      "who": "lea",
+      "fr": "Mathieu, tu as dit",
+      "en": "Mathieu, you said",
+      "board": {
+        "mode": "idiom",
+        "bg": "liege",
+        "expr": "avoir le coup de main",
+        "literal": "to have the blow of hand",
+        "meaning": "to have the knack",
+        "ipa": "/a.vwaʁ lə ku də mɛ̃/",
+        "ex": "Après deux semaines, il a eu le coup de main.",
+        "exEn": "After two weeks, he got the knack of it.",
+        "meaningAt": 3
+      }
+    },
+    {
+      "who": "lea",
+      "fr": "que tu avais le coup de main pour tenir ton vélo",
+      "en": "that you had the knack of holding your bike"
+    },
+    {
+      "who": "lea",
+      "fr": "pendant qu'on regardait la roue.",
+      "en": "while we were looking at the wheel."
+    },
+    {
+      "who": "mat",
+      "fr": "Avoir le coup de main,",
+      "en": "To have the knack"
+    },
+    {
+      "who": "mat",
+      "fr": "c'est savoir faire un geste",
+      "en": "is to know how to do something with ease"
+    },
+    {
+      "who": "mat",
+      "fr": "avec aisance parce qu'on a l'habitude.",
+      "en": "because you're used to it."
+    },
+    {
+      "who": "mat",
+      "fr": "Au début, je pliais les serviettes de travers.",
+      "en": "At first, I folded napkins crooked."
+    },
+    {
+      "who": "mat",
+      "fr": "Maintenant, j'ai le coup de main.",
+      "en": "Now, I've got the knack."
+    },
+    {
+      "who": "lea",
+      "fr": "Tu veux venir dîner chez moi samedi ?",
+      "en": "Do you want to come to dinner at my place on Saturday?",
+      "emote": "rire"
+    },
+    {
+      "who": "mat",
+      "fr": "Je vois très bien ce que tu fais.",
+      "en": "I can see exactly what you're doing.",
+      "boardEnd": true
+    },
+    {
+      "who": "mat",
+      "fr": "On a aussi parlé d'un projet",
+      "en": "We also talked about a project",
+      "board": {
+        "mode": "word",
+        "tag": "expression",
+        "word": "tenir à cœur",
+        "ipa": "/tə.niʁ a kœʁ/",
+        "mean": "to matter a lot to someone",
+        "note": "= compter beaucoup pour quelqu'un",
+        "ex": "Ce voyage me tient vraiment à cœur.",
+        "exEn": "This trip really matters to me."
+      }
+    },
+    {
+      "who": "mat",
+      "fr": "qui nous tient à cœur.",
+      "en": "that matters to us."
+    },
+    {
+      "who": "mat",
+      "fr": "Ça veut dire qu'il compte beaucoup pour nous.",
+      "en": "It means it counts a lot for us."
+    },
+    {
+      "who": "mat",
+      "fr": "Par exemple,",
+      "en": "For example,"
+    },
+    {
+      "who": "mat",
+      "fr": "rendre visite à mon ancien professeur me tient à cœur.",
+      "en": "visiting my former teacher matters to me."
+    },
+    {
+      "who": "mat",
+      "fr": "Il m'a encouragé quand j'en avais besoin.",
+      "en": "He encouraged me when I needed it.",
+      "boardEnd": true
+    },
+    {
+      "who": "lea",
+      "fr": "Devant l'affiche de la radio,",
+      "en": "In front of the radio poster,",
+      "board": {
+        "mode": "compare",
+        "title": "laisser tomber",
+        "left": {
+          "head": "laisser tomber",
+          "sub": "= abandonner",
+          "items": [
+            {
+              "text": "mon idée de reportage",
+              "at": 2
+            },
+            {
+              "text": "mon inscription au tournoi",
+              "at": 6
+            }
+          ]
+        },
+        "right": {
+          "head": "Laisse tomber !",
+          "sub": "= ce n'est plus la peine",
+          "items": [
+            {
+              "text": "un ami cherche pour toi",
+              "at": 9
+            },
+            {
+              "text": "… et tu as retrouvé tes lunettes",
+              "at": 11
+            }
+          ]
+        }
+      }
+    },
+    {
+      "who": "lea",
+      "fr": "j'avais déjà trouvé trois raisons",
+      "en": "I had already found three reasons"
+    },
+    {
+      "who": "lea",
+      "fr": "de laisser tomber mon idée de reportage.",
+      "en": "to give up on my report idea."
+    },
+    {
+      "who": "mat",
+      "fr": "Laisser tomber,",
+      "en": "To give up"
+    },
+    {
+      "who": "mat",
+      "fr": "c'est arrêter de s'occuper d'une chose",
+      "en": "means to stop dealing with something"
+    },
+    {
+      "who": "mat",
+      "fr": "ou abandonner un projet.",
+      "en": "or to abandon a project."
+    },
+    {
+      "who": "mat",
+      "fr": "J'ai laissé tomber mon inscription au tournoi",
+      "en": "I dropped my entry for the tournament"
+    },
+    {
+      "who": "mat",
+      "fr": "quand j'ai vu les horaires.",
+      "en": "when I saw the times."
+    },
+    {
+      "who": "lea",
+      "fr": "Tu peux aussi dire « laisse tomber »",
+      "en": "You can also say \"forget it\""
+    },
+    {
+      "who": "lea",
+      "fr": "quand un ami cherche quelque chose pour toi",
+      "en": "when a friend is looking for something for you"
+    },
+    {
+      "who": "lea",
+      "fr": "et que tu viens de le retrouver.",
+      "en": "and you've just found it."
+    },
+    {
+      "who": "mat",
+      "fr": "Souvent avec mes lunettes.",
+      "en": "Often with my glasses."
+    },
+    {
+      "who": "mat",
+      "fr": "Le plus souvent, elles sont sur ma tête.",
+      "en": "Most of the time, they're on my head.",
+      "emote": "rire",
+      "boardEnd": true
+    },
+    {
+      "who": "lea",
+      "fr": "Et faire le point,",
+      "en": "And to take stock",
+      "board": {
+        "mode": "word",
+        "tag": "expression",
+        "word": "faire le point",
+        "ipa": "/fɛʁ lə pwɛ̃/",
+        "mean": "to take stock, to review where you stand",
+        "note": "= s'arrêter pour voir où on en est",
+        "icon": "argent",
+        "ex": "On fait le point vendredi sur le projet ?",
+        "exEn": "Shall we review the project on Friday?"
+      }
+    },
+    {
+      "who": "lea",
+      "fr": "c'est s'arrêter un moment pour voir où on en est.",
+      "en": "is to stop for a moment to see where you are."
+    },
+    {
+      "who": "lea",
+      "fr": "Après trois mois dans son nouvel appartement,",
+      "en": "After three months in her new flat,"
+    },
+    {
+      "who": "lea",
+      "fr": "Julie a fait le point sur ses dépenses.",
+      "en": "Julie took stock of her spending."
+    },
+    {
+      "who": "mat",
+      "fr": "Je pensais que tu allais",
+      "en": "I thought you were going to"
+    },
+    {
+      "who": "mat",
+      "fr": "parler de mes dépenses de fromage.",
+      "en": "talk about my cheese spending.",
+      "emote": "rire"
+    },
+    {
+      "who": "lea",
+      "fr": "J'avais promis une émission de vingt minutes.",
+      "en": "I promised a twenty-minute show.",
+      "boardEnd": true
+    },
+    {
+      "who": "mat",
+      "fr": "Très bien. Et le dernier mot, c'est rouillé.",
+      "en": "Very well. And the last word is \"rusty\".",
+      "board": {
+        "mode": "fill",
+        "bg": "carnet",
+        "sentence": "Je sais coudre, mais je suis un peu ___.",
+        "answer": "rouillée",
+        "hint": "= j'ai perdu un peu d'aisance",
+        "en": "I can sew, but I'm a bit rusty.",
+        "reveal": 5
+      }
+    },
+    {
+      "who": "mat",
+      "fr": "On l'emploie quand on a perdu un peu d'aisance",
+      "en": "We use it when we've lost a bit of ease"
+    },
+    {
+      "who": "mat",
+      "fr": "parce qu'on n'a pas pratiqué depuis longtemps.",
+      "en": "because we haven't practised for a long time."
+    },
+    {
+      "who": "lea",
+      "fr": "Par exemple,",
+      "en": "For example,"
+    },
+    {
+      "who": "lea",
+      "fr": "je sais encore me servir d'une machine à coudre,",
+      "en": "I still know how to use a sewing machine,"
+    },
+    {
+      "who": "lea",
+      "fr": "mais je suis un peu rouillée.",
+      "en": "but I'm a bit rusty."
+    },
+    {
+      "who": "lea",
+      "fr": "La dernière fois,",
+      "en": "The last time,"
+    },
+    {
+      "who": "lea",
+      "fr": "j'ai mis un bon moment à enfiler le fil.",
+      "en": "it took me ages to thread the needle."
+    },
+    {
+      "who": "mat",
+      "fr": "Avec un peu de pratique, certains gestes reviennent.",
+      "en": "With a bit of practice, some movements come back."
+    },
+    {
+      "who": "mat",
+      "fr": "Et parfois, on demande à quelqu'un de nous les remontrer.",
+      "en": "And sometimes, we ask someone to show us again.",
+      "boardEnd": true
+    },
+    {
+      "who": "lea",
+      "fr": "Ce qui nous donne souvent",
+      "en": "Which often gives us"
+    },
+    {
+      "who": "lea",
+      "fr": "une conversation plus intéressante que prévu.",
+      "en": "a more interesting conversation than expected."
+    },
+    {
+      "who": "lea",
+      "fr": "Merci d'avoir passé ce moment avec nous.",
+      "en": "Thank you for spending this time with us.",
+      "emote": "coeur"
+    },
+    {
+      "who": "lea",
+      "fr": "Si une envie vous est revenue en nous écoutant,",
+      "en": "If a wish came back to you while listening to us,"
+    },
+    {
+      "who": "lea",
+      "fr": "vous pouvez nous raconter",
+      "en": "you can tell us"
+    },
+    {
+      "who": "lea",
+      "fr": "ce qui vous attire dans ce projet.",
+      "en": "what draws you to that project."
+    },
+    {
+      "who": "mat",
+      "fr": "J'aimerais bien savoir ce que vous aimeriez découvrir,",
+      "en": "I'd love to know what you'd like to discover,"
+    },
+    {
+      "who": "mat",
+      "fr": "même si vous ne savez pas encore par où commencer.",
+      "en": "even if you don't know where to start yet."
+    },
+    {
+      "who": "lea",
+      "fr": "Abonnez-vous à The Cozy French",
+      "en": "Subscribe to The Cozy French"
+    },
+    {
+      "who": "lea",
+      "fr": "si vous voulez retrouver nos conversations en français.",
+      "en": "if you want more of our conversations in French."
+    },
+    {
+      "who": "lea",
+      "fr": "On sera heureux de vous retrouver au prochain épisode.",
+      "en": "We'll be happy to see you in the next episode."
+    },
+    {
+      "who": "mat",
+      "fr": "Prenez soin de vous.",
+      "en": "Take care of yourselves."
+    },
+    {
+      "who": "mat",
+      "fr": "Et, Léa, qu'est devenue la clochette ?",
+      "en": "And, Léa, what happened to the little bell?",
+      "emote": "question"
+    },
+    {
+      "who": "lea",
+      "fr": "Je l'ai remise sur ma porte.",
+      "en": "I put it back on my door."
+    },
+    {
+      "who": "lea",
+      "fr": "Elle fait de nouveau son travail.",
+      "en": "It's doing its job again."
+    },
+    {
+      "who": "mat",
+      "fr": "Ah. Et si un jour elle veut [se reconvertir,]",
+      "en": "Ah. And if one day it wants a career change,"
+    },
+    {
+      "who": "mat",
+      "fr": "l'atelier est ouvert le jeudi.",
+      "en": "the workshop is open on Thursdays.",
+      "emote": "rire"
+    },
+    {
+      "who": "lea",
+      "fr": "Elle va d'abord faire le point.",
+      "en": "It'll take stock first.",
+      "emote": "rire"
+    },
+    {
+      "who": "lea",
+      "fr": "À bientôt, tout le monde !",
+      "en": "See you soon, everyone!"
+    }
+  ],
+  "vocab": [
+    {
+      "tag": "expression",
+      "word": "s'y prendre",
+      "ipa": "/si pʁɑ̃dʁ/",
+      "mean": "to go about it, to handle it",
+      "ex": "Je m'y suis pris trop tard pour avoir des billets.",
+      "exEn": "I went about it too late to get tickets."
+    },
+    {
+      "tag": "expression",
+      "word": "tenir à cœur",
+      "ipa": "/tə.niʁ a kœʁ/",
+      "mean": "to matter a lot to someone",
+      "ex": "Ce voyage me tient vraiment à cœur.",
+      "exEn": "This trip really matters to me."
+    },
+    {
+      "tag": "expression",
+      "word": "laisser tomber",
+      "ipa": "/le.se tɔ̃.be/",
+      "mean": "to give up, to drop",
+      "ex": "Il a laissé tomber le piano après deux mois.",
+      "exEn": "He gave up the piano after two months."
+    },
+    {
+      "tag": "adjectif",
+      "word": "rouillé, rouillée",
+      "ipa": "/ʁu.je/",
+      "mean": "rusty, out of practice",
+      "ex": "Mon anglais est un peu rouillé.",
+      "exEn": "My English is a bit rusty."
+    },
+    {
+      "tag": "adverbe",
+      "word": "d'affilée",
+      "ipa": "/da.fi.le/",
+      "mean": "in a row, back to back",
+      "ex": "Elle a dormi dix heures d'affilée.",
+      "exEn": "She slept ten hours straight."
+    },
+    {
+      "tag": "expression",
+      "word": "passer le seuil",
+      "ipa": "/pa.se lə sœj/",
+      "mean": "to step through the door, to cross the threshold",
+      "ex": "Dès qu'on passe le seuil, ça sent le café.",
+      "exEn": "As soon as you step inside, it smells of coffee."
+    },
+    {
+      "tag": "expression",
+      "word": "avoir le coup de main",
+      "ipa": "/a.vwaʁ lə ku də mɛ̃/",
+      "mean": "to have the knack",
+      "ex": "Pour faire des crêpes, il faut avoir le coup de main.",
+      "exEn": "To make crêpes, you need to have the knack."
+    },
+    {
+      "tag": "expression",
+      "word": "dur à encaisser",
+      "ipa": "/dyʁ a ɑ̃.ke.se/",
+      "mean": "hard to take, hard to accept",
+      "ex": "Ce refus a été dur à encaisser.",
+      "exEn": "That rejection was hard to take."
+    },
+    {
+      "tag": "expression",
+      "word": "laisser passer sa chance",
+      "ipa": "/le.se pa.se sa ʃɑ̃s/",
+      "mean": "to let your chance slip by",
+      "ex": "Postule, ne laisse pas passer ta chance !",
+      "exEn": "Apply, don't let your chance slip by!"
+    },
+    {
+      "tag": "expression",
+      "word": "à domicile",
+      "ipa": "/a dɔ.mi.sil/",
+      "mean": "at home, to people's homes",
+      "ex": "Le médecin vient à domicile le mardi.",
+      "exEn": "The doctor makes home visits on Tuesdays."
+    },
+    {
+      "tag": "expression",
+      "word": "ça coince",
+      "ipa": "/sa kwɛ̃s/",
+      "mean": "there's a snag, things get stuck",
+      "ex": "Le projet avance, mais ça coince au niveau du budget.",
+      "exEn": "The project is moving, but there's a snag with the budget."
+    },
+    {
+      "tag": "expression",
+      "word": "faire le point",
+      "ipa": "/fɛʁ lə pwɛ̃/",
+      "mean": "to take stock, to review where you stand",
+      "ex": "On fait le point vendredi sur le projet ?",
+      "exEn": "Shall we review the project on Friday?"
+    },
+    {
+      "tag": "verbe",
+      "word": "se reconvertir",
+      "ipa": "/sə ʁə.kɔ̃.vɛʁ.tiʁ/",
+      "mean": "to change careers, to retrain",
+      "ex": "À quarante ans, il s'est reconverti dans la cuisine.",
+      "exEn": "At forty, he retrained as a cook."
+    }
+  ]
+}

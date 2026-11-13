@@ -1,0 +1,15 @@
+[
+ {"tag":"expression","word":"s'y prendre","ipa":"/si pʁɑ̃dʁ/","mean":"to go about it, to handle it","ex":"Je m'y suis pris trop tard pour avoir des billets.","exEn":"I went about it too late to get tickets."},
+ {"tag":"expression","word":"tenir à cœur","ipa":"/tə.niʁ a kœʁ/","mean":"to matter a lot to someone","ex":"Ce voyage me tient vraiment à cœur.","exEn":"This trip really matters to me."},
+ {"tag":"expression","word":"laisser tomber","ipa":"/le.se tɔ̃.be/","mean":"to give up, to drop","ex":"Il a laissé tomber le piano après deux mois.","exEn":"He gave up the piano after two months."},
+ {"tag":"adjectif","word":"rouillé, rouillée","ipa":"/ʁu.je/","mean":"rusty, out of practice","ex":"Mon anglais est un peu rouillé.","exEn":"My English is a bit rusty."},
+ {"tag":"adverbe","word":"d'affilée","ipa":"/da.fi.le/","mean":"in a row, back to back","ex":"Elle a dormi dix heures d'affilée.","exEn":"She slept ten hours straight."},
+ {"tag":"expression","word":"passer le seuil","ipa":"/pa.se lə sœj/","mean":"to step through the door, to cross the threshold","ex":"Dès qu'on passe le seuil, ça sent le café.","exEn":"As soon as you step inside, it smells of coffee."},
+ {"tag":"expression","word":"avoir le coup de main","ipa":"/a.vwaʁ lə ku də mɛ̃/","mean":"to have the knack","ex":"Pour faire des crêpes, il faut avoir le coup de main.","exEn":"To make crêpes, you need to have the knack."},
+ {"tag":"expression","word":"dur à encaisser","ipa":"/dyʁ a ɑ̃.ke.se/","mean":"hard to take, hard to accept","ex":"Ce refus a été dur à encaisser.","exEn":"That rejection was hard to take."},
+ {"tag":"expression","word":"laisser passer sa chance","ipa":"/le.se pa.se sa ʃɑ̃s/","mean":"to let your chance slip by","ex":"Postule, ne laisse pas passer ta chance !","exEn":"Apply, don't let your chance slip by!"},
+ {"tag":"expression","word":"à domicile","ipa":"/a dɔ.mi.sil/","mean":"at home, to people's homes","ex":"Le médecin vient à domicile le mardi.","exEn":"The doctor makes home visits on Tuesdays."},
+ {"tag":"expression","word":"ça coince","ipa":"/sa kwɛ̃s/","mean":"there's a snag, things get stuck","ex":"Le projet avance, mais ça coince au niveau du budget.","exEn":"The project is moving, but there's a snag with the budget."},
+ {"tag":"expression","word":"faire le point","ipa":"/fɛʁ lə pwɛ̃/","mean":"to take stock, to review where you stand","ex":"On fait le point vendredi sur le projet ?","exEn":"Shall we review the project on Friday?"},
+ {"tag":"verbe","word":"se reconvertir","ipa":"/sə ʁə.kɔ̃.vɛʁ.tiʁ/","mean":"to change careers, to retrain","ex":"À quarante ans, il s'est reconverti dans la cuisine.","exEn":"At forty, he retrained as a cook."}
+]
