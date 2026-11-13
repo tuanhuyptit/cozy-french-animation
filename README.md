@@ -12,6 +12,8 @@ Animated podcast template for learning French (B1–B2): word-synced karaoke sub
 | `cozy-ep01/tools/vocab-help.mjs` | Gợi ý từ vựng theo cấp độ CEFR (FLELex) và tra IPA (WikiPron). |
 | `tools/new-episode.mjs` | Tạo thư mục tập mới `cozy-epNN/` từ mẫu `cozy-ep01`, bốc ngẫu nhiên chế độ/bối cảnh/trang phục và chép lời voice. |
 | `tools/pick-setup.mjs` | Bốc ngẫu nhiên chế độ (ngồi / đi dạo), bối cảnh, trang phục cho một tập — không trùng tập gần đây, không trùng tông. `--write` ghi `work/setup.json`. |
+| `tools/board-preview.mjs` | Xem trước mọi kiểu bảng giải thích không cần tập thật: dựng một tập giả trong `board-preview/` (không commit) bằng chính `build.mjs`, in mốc giây từng bảng; `--snapshot` chụp mỗi bảng, `--preview` mở Studio. Kèm `board-preview/sfx-samples.mp3` để nghe bộ hiệu ứng âm thanh. |
+| `cozy-ep01/tools/sfx.mjs` | Hiệu ứng âm thanh tự tổng hợp (pop, giấy, bảng phấn, đóng dấu, ding/buzz…), build trộn thành `assets/sfx.mp3` đặt dưới giọng nói. Tắt bằng `"sfx": false`, chỉnh `"sfxVolume"` (mặc định 0.35). |
 | `cozy-ep01/tools/staging.mjs` | Phần riêng của từng chế độ (ngồi / đi dạo) dùng bởi `build.mjs`. |
 | `voices/` | Đoạn giọng mẫu Léa & Mathieu (13–15 s, FLAC) để nhân bản giọng trong VoiceStudio. |
 | `tools/youtube-seo.mjs` | Xuất mốc chương, khối từ vựng và phụ đề `.srt` (Pháp + Anh) cho YouTube; dùng để viết `cozy-epNN/youtube-seo.md` (tiêu đề, mô tả, tags). |

@@ -8,6 +8,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import vm from 'node:vm';
 import { STAGING } from './staging.mjs';
+import { renderSfx } from './sfx.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const ART  = path.resolve(ROOT, '../demo-animation-style.html');
@@ -951,7 +952,7 @@ const talk = `<template>
     // SVG pivots are set once here and never passed again (re-passing svgOrigin makes GSAP shift x/y to compensate → drift)
     tl.set(['#talk-lea .sway','#talk-mat .sway'],{svgOrigin:'180 431'},0);
     tl.set(['#talk-lea .gest','#talk-mat .gest'],{svgOrigin:'257 286'},0);
-    Object.keys(ELB).forEach(p=>tl.set(['#talk-lea .g-'+p+' .fore','#talk-mat .g-'+p+' .fore'],{svgOrigin:ELB[p].join(' ')},0));
+    Object.keys(ELB).forEach(p=>{ const e=q('#talk-lea .g-'+p+' .fore,#talk-mat .g-'+p+' .fore'); if(e.length) tl.set(e,{svgOrigin:ELB[p].join(' ')},0); });   // walk-only poses are absent when sitting
     tl.set(['#talk-lea .cupTilt','#talk-mat .cupTilt'],{svgOrigin:'234 384'},0);
     TURNS.forEach(t=>{
       const c='#talk-'+t.who, n='#name-'+t.who;
@@ -1030,9 +1031,9 @@ const talk = `<template>
         tl.to(el,{opacity:0,duration:.3},last?b+.45:ss.segs[j+1].s-.35);
         if(sg.mode==='word'){
           tl.fromTo(el+' .bpaper',{y:-70,rotation:-7},{y:0,rotation:-1.5,duration:.55,ease:'back.out(1.7)',immediateRender:false},t0);
-          tl.fromTo(el+' .bpola',{scale:.6,opacity:0,rotation:10},{scale:1,opacity:1,rotation:3,duration:.5,ease:'back.out(2)',immediateRender:false},t0+.6);
-          tl.fromTo(el+' .bnote',{scale:.6,opacity:0,rotation:-12},{scale:1,opacity:1,rotation:-3,duration:.5,ease:'back.out(2)',immediateRender:false},t0+1.1);
-          tl.fromTo(el+' .bex',{opacity:0,y:12},{opacity:1,y:0,duration:.4,immediateRender:false},t0+1.6);
+          if(q(el+' .bpola').length) tl.fromTo(el+' .bpola',{scale:.6,opacity:0,rotation:10},{scale:1,opacity:1,rotation:3,duration:.5,ease:'back.out(2)',immediateRender:false},t0+.6);
+          if(q(el+' .bnote').length) tl.fromTo(el+' .bnote',{scale:.6,opacity:0,rotation:-12},{scale:1,opacity:1,rotation:-3,duration:.5,ease:'back.out(2)',immediateRender:false},t0+1.1);
+          if(q(el+' .bex').length) tl.fromTo(el+' .bex',{opacity:0,y:12},{opacity:1,y:0,duration:.4,immediateRender:false},t0+1.6);
         } else if(sg.mode==='sketch'){
           tl.fromTo(el+' .btitle',{y:-50,opacity:0},{y:0,opacity:1,duration:.45,ease:'back.out(1.7)',immediateRender:false},t0);
           sg.lines.forEach((ls,i)=>{
@@ -1067,6 +1068,36 @@ const talk = `<template>
 fs.writeFileSync(path.join(ROOT, 'compositions/talk.html'), talk);
 
 /* ---------- index.html ---------- */
+/* ---------- sound effects (tools/sfx.mjs) ----------
+   One mixed track under the voice: boards (background in/out + each reveal), vocab cards, illustration bubbles, recap.
+   episode.json "sfx": false turns it off, "sfxVolume" (default 0.35) sets the level. */
+const SFX_ON = EP.sfx !== false, sfxEv = [];
+if (SFX_ON) {
+  const FX_SND = { pop: 'pop', drop: 'tap', slide: 'swish', slideL: 'swish', stamp: 'stamp', draw: 'scribble', strike: 'scribble', rise: 'rise', pulse: 'tick' };
+  const GOOD = { quiz: ['tick'], fill: ['a'], mistake: ['rx'], falsefriend: ['mx'], match: [] }, BAD = { mistake: ['wx'], falsefriend: ['lx'] };
+  const BG_SND = { liege: 'paper', craie: 'thud', carnet: 'whoosh' };
+  sessions.forEach(ss => {
+    sfxEv.push({ t: ss.s - 0.3, k: BG_SND[ss.bg] }, { t: ss.e - 0.1, k: 'whoosh' });
+    ss.segs.forEach(sg => {
+      const t0 = sg.t0;
+      if (sg.mode === 'word') sfxEv.push({ t: t0, k: 'tap' }, { t: t0 + 0.6, k: 'pop' }, { t: t0 + 1.1, k: 'pop' });
+      else if (sg.mode === 'sketch') { sfxEv.push({ t: t0, k: 'tap' }); sg.lines.forEach(l => sfxEv.push({ t: Math.max(l.s, t0 + 0.3), k: 'pop' })); }
+      else sg.rv.forEach(([id, t, fx]) => {
+        if (sg.mode === 'truefalse' && id === 's') return sfxEv.push({ t, k: 'stamp' }, { t: t + 0.05, k: sg.answer ? 'ding' : 'buzz' });
+        if (sg.mode === 'match' && /^oL/.test(id)) return sfxEv.push({ t, k: 'ding' });
+        if ((GOOD[sg.mode] || []).includes(id)) return sfxEv.push({ t, k: 'ding' });
+        if ((BAD[sg.mode] || []).includes(id)) return sfxEv.push({ t, k: 'buzz' });
+        if (FX_SND[fx]) sfxEv.push({ t, k: FX_SND[fx] });
+      });
+    });
+  });
+  cards.forEach(c => { if (!c.hidden) sfxEv.push({ t: c.s, k: 'card' }); });
+  bubs.forEach(b => sfxEv.push({ t: b.t, k: 'pop' }));
+  sfxEv.push({ t: RECAP + 0.2, k: 'chime' });
+  cards.forEach((c, i) => sfxEv.push({ t: RECAP + 0.7 + i * Math.min(0.35, (RECAP_D - 2) / Math.max(1, cards.length)), k: 'tick' }));
+}
+const sfxN = SFX_ON ? renderSfx(sfxEv, TOTAL, path.join(ROOT, 'assets/sfx.wav'), path.join(ROOT, 'assets/sfx.mp3'), 1) : 0;
+
 const index = `<!doctype html>
 <html lang="fr">
   <head>
@@ -1084,7 +1115,8 @@ const index = `<!doctype html>
       <div id="talk" data-composition-id="talk" data-composition-src="compositions/talk.html"
            data-start="0" data-duration="${TOTAL}" data-track-index="1" data-track-kind="graphics"
            data-width="1920" data-height="1080"></div>
-      <audio id="voice" src="${EP.audio}" data-start="0" data-duration="${f(EP.audioEnd)}" data-track-index="2" data-volume="1" data-fade-out="0.3"></audio>
+      <audio id="voice" src="${EP.audio}" data-start="0" data-duration="${f(EP.audioEnd)}" data-track-index="2" data-volume="1" data-fade-out="0.3"></audio>${SFX_ON ? `
+      <audio id="sfx" src="assets/sfx.mp3" data-start="0" data-duration="${TOTAL}" data-track-index="5" data-volume="${EP.sfxVolume ?? 0.35}"></audio>` : ''}
     </div>
     <script>
       window.__timelines = window.__timelines || {};
@@ -1094,4 +1126,4 @@ const index = `<!doctype html>
 </html>
 `;
 fs.writeFileSync(path.join(ROOT, 'index.html'), index);
-console.log(`built (${WALK ? 'walk' : 'sit'}): ${gests.length} gestures (${POSES.map(p => p + ' ' + gests.filter(g => g.pose === p).length).join(', ')}), ${nods.length} nods, ${sips.length} sips, ${chunks.length} subtitle chunks, ${words.length} words, ${cards.length} cards, ${emotes.length} emotes, ${bubs.length} illustrations, ${turns.length} turns, total ${TOTAL}s`);
+console.log(`built (${WALK ? 'walk' : 'sit'}): ${gests.length} gestures (${POSES.map(p => p + ' ' + gests.filter(g => g.pose === p).length).join(', ')}), ${nods.length} nods, ${sips.length} sips, ${chunks.length} subtitle chunks, ${words.length} words, ${cards.length} cards, ${emotes.length} emotes, ${bubs.length} illustrations, ${turns.length} turns, ${sfxN} sounds, total ${TOTAL}s`);

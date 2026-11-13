@@ -14,7 +14,7 @@ Claude: đọc file này trước khi sửa gì trong repo.
 - **Chất liệu**: viền rung kiểu vẽ tay + hạt bút chì (SVG filter `#pencil`) + lớp grain giấy phủ toàn cảnh, để gần với nét minh hoạ cũ của kênh.
 - **Bảng màu**: kem `#f6eddc`, mực `#3a2e28`, cam đất `#b8552a`/`#d9774b`, vàng bơ `#f3c96b`, xanh sage `#8fae8b`.
 - **Font**: Nunito (phụ đề, thẻ), Playfair Display (tiêu đề từ, logo). Bản demo trình duyệt dùng Fraunces, bản video dùng Playfair Display vì HyperFrames có sẵn.
-- 15 bối cảnh: `cafe`, `salon`, `parc`, `cuisine`, `biblio`, `terrasse`, `chalet` (tuyết + lò sưởi), `boulangerie`, `train` (phong cảnh trôi ngoài cửa sổ), `quai` (sông Seine buổi tối), `marche` (chợ Provence), `plage` (bờ biển), `atelier` (xưởng vẽ áp mái), `lavande` (đồng oải hương hoàng hôn), `bureau` (văn phòng). 10 trang phục mỗi người (xem README). Chọn trang phục khác tông với bối cảnh (vd. tránh bếp xanh + đồ xanh).
+- Bối cảnh, trang phục, đồ trên bàn, kiểu bảng: danh sách đầy đủ ở README (hiện 26 cảnh ngồi + 11 cảnh đi dạo, 16 trang phục mỗi người). Chọn trang phục khác tông với bối cảnh (vd. tránh bếp xanh + đồ xanh) — luật nằm trong `tools/pick-setup.mjs`.
 
 ## Highlight từ vựng
 - Phụ đề karaoke: chữ xám nâu → sáng dần đúng lúc được đọc; từ khoá đổi màu cam đất + gạch chân vàng chạy.
@@ -85,7 +85,12 @@ Tự động: skill `skills/cozy-french-episode` (người dùng chỉ gửi voi
 - 16 trang phục mỗi người: Léa + `vichy` (váy vichy đỏ, hoa văn `#gingham`) · `fleurs` (blouse hoa nhí, hoa văn mới `#fleurette`) · `camel` (cổ lọ camel + dây chuyền); Mathieu + `rouille` (len cổ khoá kéo gỉ sắt) · `canard` (sơ mi lanh xanh cổ vịt) · `jacquard` (len Fair Isle). Có chân/giày khi đi dạo; luật tránh trùng tông trong `pick-setup.mjs`.
 - Bảng giải thích thêm 5 kiểu: `gender` (le/la hai cột), `falsefriend` (faux ami gạch ✗ → nghĩa thật ✓), `pronounce` (âm tiết + IPA + chữ câm "muet" + nảy theo nhịp), `register` (bậc thang familier/courant/soutenu), `match` (nối cặp Pháp–Anh). Hiệu ứng mới `slideL`, `pulse`.
 
+## Xem trước bảng, hiệu ứng âm thanh (2026-11-13)
+- `node tools/board-preview.mjs [--snapshot|--preview]`: tập giả trong `board-preview/` (gitignore) với đủ 19 kiểu bảng, dựng bằng `cozy-ep01/tools/build.mjs` thật → sửa bảng xong chạy lại là thấy. Bảng nằm trong build.mjs (không có trong demo).
+- **Không nhạc nền** (chủ kênh bỏ). Có **hiệu ứng âm thanh**: `cozy-ep01/tools/sfx.mjs` tự tổng hợp 14 tiếng (không file mẫu, không bản quyền), build gom mốc thời gian (bảng vào/ra theo nền, từng chi tiết hiện ra theo hiệu ứng, đúng = ding, sai = buzz, thẻ từ, bong bóng, màn ôn) → `assets/sfx.mp3` (cần ffmpeg), `<audio id="sfx">` volume 0.35. Âm cùng loại cách < 70 ms gộp lại, tối đa 3 tiếng trong 120 ms.
+- `check` không còn cảnh báo console: chỉ đặt svgOrigin cho cử chỉ có thật (cử chỉ đi dạo vắng khi ngồi), bảng `word` không có polaroid/note thì bỏ qua.
+
 ## Trạng thái (2026-11-06)
 - 2026-11-06: thêm 4 bối cảnh (chalet, boulangerie, train, quai), `new-episode.mjs`, `assemble.mjs`, skill `cozy-french-episode`; build cảnh báo khi 2 từ vựng < 3 s. Sau đó: model turbo, `vocab-help.mjs` (IPA + cấp độ CEFR), biểu cảm (8) + bong bóng minh hoạ (24).
 - Xong: demo trình duyệt (10 bối cảnh, 10 trang phục), video thử 34 s đầu của voice `4f.mp3` (`cozy-ep01-test-30s.mp4`), script transcribe + build.
-- Chưa làm: nhạc nền / hiệu ứng âm thanh; tự động chia đoạn + dịch + chọn từ vựng cho tập 20 phút (nên để Claude làm từ `episode.draft.json`); intro/outro kênh; thumbnail.
+- Chưa làm (nhạc nền: chủ kênh không muốn, 2026-11-13): tự động chia đoạn + dịch + chọn từ vựng cho tập 20 phút (nên để Claude làm từ `episode.draft.json`); intro/outro kênh; thumbnail.

@@ -97,11 +97,33 @@ node tools/new-episode.mjs "<đường dẫn voice>"          # chạy ở gốc
   - Mục (`items`, dòng `rows` thêm phần tử thứ 3) tự rải đều theo thời lượng bảng; muốn hiện đúng lúc được nói thì viết `{ "text": "…", "at": n }` (n = đoạn thứ n của bảng). Nội dung trên bảng bằng tiếng Pháp, lấy từ lời thoại.
 - Hai đoạn bảng cách nhau < 1,5 s dùng chung một lần chuyển cảnh (vd. `word` rồi `sketch` ngay sau; dùng nền của đoạn đầu).
 - Khoảng 6–10 lần mỗi tập 20 phút, mỗi lần 10–40 s; trộn nhiều kiểu (không chỉ `word`). Không đặt bong bóng minh hoạ trong lúc có bảng (build báo lỗi).
+- **Chọn kiểu theo lời thoại** (đừng mặc định `word`) — nghe hai người đang làm gì:
+  | Lời thoại có… | Kiểu |
+  |---|---|
+  | một cách nói / từ được giải thích kỹ | `word` |
+  | thành ngữ có hình ảnh (« poser un lapin », « avoir le cafard ») | `idiom` |
+  | từ giống tiếng Anh nhưng nghĩa khác (librairie, actuellement, éventuellement, sensible…) | `falsefriend` |
+  | cùng nghĩa nhưng khác mức trang trọng (bouffer / manger / se restaurer, bagnole / voiture / automobile) | `register` |
+  | hai thứ hay nhầm (tu / vous, savoir / connaître, an / année) | `compare` |
+  | nhiều từ cùng một chủ đề (đồ trong bếp, cảm xúc) | `mindmap` — hoặc `gender` nếu hai người bàn le / la |
+  | sắc thái mạnh yếu (content → ravi, froid → glacial) | `scale` |
+  | từ khó đọc, chữ câm, nối âm (beaucoup, oignon, les amis) | `pronounce` |
+  | một quy trình, công thức, lời khuyên theo bước | `steps` |
+  | kể chuyện theo thời gian, một ngày | `timeline` |
+  | động từ được chia hoặc hai người sửa nhau về chia động từ | `conjug` |
+  | một lỗi người học hay mắc | `mistake` |
+  | « vous savez ce que ça veut dire ? », câu hỏi cho người nghe | `quiz` · `truefalse` · `fill` · `order` |
+  | ôn lại 3–5 từ vừa học (thường gần cuối tập) | `match` |
+  | hai người đóng vai một tình huống | `sketch` |
+- Mỗi tập: ít nhất 4 kiểu khác nhau, không dùng cùng một kiểu quá 3 lần, không để hai bảng liền nhau cùng kiểu. Nền (`bg`) cũng xoay vòng.
+- Xem thử mọi kiểu bảng (không cần tập thật): `node tools/board-preview.mjs --snapshot` ở gốc repo (in mốc giây từng bảng; `--modes a,b`, `--bg craie`, `--preview` mở Studio).
 
 **Hành động** (tự động theo lời thoại, không cần đánh dấu): vẫy tay `wave` (bonjour, salut, au revoir, à bientôt…), đếm ngón tay `count` (d'abord, premièrement, deux choses…), nhún vai `shrug` (je sais pas, bof, ça dépend, peut-être…), gãi đầu `scratch` (euh, hmm, comment dire, bonne question…); gật đầu khi câu mở bằng *oui / exactement / voilà / d'accord…*, người nghe thỉnh thoảng gật đầu. Ép bằng `"act": "<kiểu>"` trong đoạn (`wave|shrug|count|scratch|beat|palm|up|point|think`), `"act": "nod"` = người nghe gật đầu, `"act": "none"` = tắt hành động tự động ở đoạn đó.
 Khi **đi dạo** có thêm 10 cử chỉ tay (cũng tự chọn theo lời thoại, ép được bằng `"act"`): `explain` ngửa tay giải thích · `regarde` chỉ phía trước (regarde, là-bas, tiens) · `coeur` tay lên ngực (j'adore, merci, franchement) · `pouce` giơ ngón cái (génial, super, parfait) · `bof` lắc bàn tay · `pince` chụm ngón nhấn mạnh (exactement, justement) · `rire` che miệng cười · `menton` vuốt cằm (je me demande, bonne question; câu hỏi) · `poche` đút tay túi (người nghe, tự động) · `grand` dang hai tay (énorme, incroyable).
 - Trong `work/src*.txt` (nếu viết dạng dòng `who|fr|en|extra`): thêm `B={json}` ở cuối phần extra để mở, `BE` để đóng; `work/convert.mjs` đổi thành `parts/*.json`.
 - Snapshot ít nhất một lần cho mỗi kiểu bảng/nền đã dùng để chắc chữ không tràn khung.
+
+**Hiệu ứng âm thanh**: build tự tạo `assets/sfx.mp3` (tools/sfx.mjs, âm thanh tự tổng hợp — không có nhạc nền) và đặt dưới giọng nói: bảng hiện/đóng (giấy · bảng phấn rơi · sổ trượt), từng chi tiết hiện ra (pop, sột soạt, đóng dấu, gạch bút), đáp án đúng « ding » / sai « buzz », thẻ từ vựng, bong bóng minh hoạ, màn ôn tập. Không cần làm gì thêm. Tắt: `"sfx": false` trong `episode.json`; to/nhỏ: `"sfxVolume": 0.35` (mặc định). Nghe cả bộ: `board-preview/sfx-samples.mp3` sau khi chạy `tools/board-preview.mjs`.
 
 **Chế độ + bối cảnh + trang phục + đồ trên bàn** → `work/setup.json` `{ "scene": "…", "lea": "…", "mat": "…", "decor": ["…", "…"] }` — **chọn ngẫu nhiên**, `new-episode.mjs` đã tự chạy:
 ```bash

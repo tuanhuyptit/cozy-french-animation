@@ -7,3 +7,4 @@ ep-work/
 **/.thumbnails/
 **/.waveform-cache/
 **/package-lock.json
+board-preview/
