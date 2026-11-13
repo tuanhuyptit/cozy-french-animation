@@ -73,6 +73,9 @@
   <pattern id="cord" width="12" height="12" patternUnits="userSpaceOnUse"><rect width="12" height="12" fill="#b9864f"/><rect width="5" height="12" fill="#a8763f"/></pattern>
   <pattern id="tartan" width="60" height="60" patternUnits="userSpaceOnUse"><rect width="60" height="60" fill="#2f5a45"/><rect x="18" width="24" height="60" fill="#1f2f4a" opacity=".55"/><rect y="18" width="60" height="24" fill="#1f2f4a" opacity=".55"/><path d="M30 0v60M0 30h60" stroke="#c8443a" stroke-width="3"/><path d="M6 0v60M0 6h60" stroke="#f3c96b" stroke-width="1.5" opacity=".7"/></pattern>
   <pattern id="raye" width="18" height="18" patternUnits="userSpaceOnUse"><rect width="18" height="18" fill="#f3f6fa"/><rect width="6" height="18" fill="#6f93c4"/></pattern>
+  <pattern id="fleurette" width="48" height="48" patternUnits="userSpaceOnUse"><rect width="48" height="48" fill="#f6eedd"/><ellipse cx="20" cy="17" rx="4" ry="2" fill="#8fae8b" transform="rotate(30 20 17)"/><ellipse cx="42" cy="40" rx="4" ry="2" fill="#8fae8b" transform="rotate(-30 42 40)"/>
+    <g fill="#d9574a"><circle cx="10" cy="7" r="3"/><circle cx="13.5" cy="10.5" r="3"/><circle cx="10" cy="14" r="3"/><circle cx="6.5" cy="10.5" r="3"/></g><circle cx="10" cy="10.5" r="2" fill="#f3c96b"/>
+    <g fill="#5d7fa0"><circle cx="34" cy="29" r="3"/><circle cx="37.5" cy="32.5" r="3"/><circle cx="34" cy="36" r="3"/><circle cx="30.5" cy="32.5" r="3"/></g><circle cx="34" cy="32.5" r="2" fill="#f3c96b"/></pattern>
 </defs></svg>
 
 <div id="fit"><div id="stage">
@@ -114,10 +117,10 @@
    CẤU HÌNH TỪNG TẬP — chỉ cần đổi dòng này
    scene: cafe | salon | parc | cuisine | biblio | terrasse | chalet | boulangerie | train | quai
           marche | plage | atelier | lavande | bureau
-          bistrot | verriere | peniche | toits | cinema | fleuriste | musee | disquaire
+          bistrot | verriere | peniche | toits | cinema | fleuriste | musee | disquaire | fromagerie | guinguette | laverie
           đi dạo: promenade | ruelle | automne | corniche | village | jardin | canal | noel | vignoble | pluie | port
-   lea:   pull | mariniere | trench | chemise | cardigan | pois | jean | lilas | foulard | doudoune | rose | tartan | torsade
-   mat:   denim | hoodie | colroule | blazer | pull | carreaux | velours | polo | gilet | tablier | raye | chale | bomber
+   lea:   pull | mariniere | trench | chemise | cardigan | pois | jean | lilas | foulard | doudoune | rose | tartan | torsade | vichy | fleurs | camel
+   mat:   denim | hoodie | colroule | blazer | pull | carreaux | velours | polo | gilet | tablier | raye | chale | bomber | rouille | canard | jacquard
    decor: đồ trên bàn (cảnh ngồi), cách nhau dấu phẩy, tối đa 3: drapeau | macarons | boule | bougie | croissants | fleurs | livres | theiere
    ============================================================ */
 const EPISODE = { scene:'cafe', lea:'pull', mat:'denim', decor:'drapeau,macarons' };
@@ -215,6 +218,20 @@ const OUT_LEA={
                      <path d="M${x} 250 ${range(7,()=>'q9 13 0 26')}" stroke="#7fa3be" stroke-width="4" fill="none"/>`).join('')}
                      <ellipse cx="182" cy="236" rx="36" ry="12" fill="#86abc6"/><path d="M152 238 q30 14 60 0" stroke="#7fa3be" stroke-width="3" fill="none"/>
                      <path d="M80 408 h206 l4 23 h-214Z" fill="#86abc6"/>`},
+  vichy:    {label:'Robe vichy rouge', top:'url(#gingham)', shade:'#a83a30', shadeOp:.22, arm:'url(#gingham)', arm2:'url(#gingham)',
+             detail:`<path d="M146 234 L150 272 H214 L218 234 C200 244 164 244 146 234Z" fill="#e2a988"/>
+                     <path d="M146 234 L150 274 H214 L218 234" stroke="#fbf6ec" stroke-width="8" fill="none" stroke-linejoin="round" stroke-dasharray="10 3"/>
+                     <path d="M84 370 C150 380 220 380 280 370 L282 386 C220 396 150 396 82 386Z" fill="#c8443a"/>
+                     <path d="M182 378 l-26 -14 v28Z M182 378 l26 -14 v28Z" fill="#b23a31"/><circle cx="182" cy="378" r="8" fill="#c8443a"/>`},
+  fleurs:   {label:'Blouse à fleurs liberty', top:'url(#fleurette)', shade:'#7a6a4a', shadeOp:.18, arm:'url(#fleurette)', arm2:'url(#fleurette)',
+             detail:`<path d="M160 232 L182 274 L204 232Z" fill="#e2a988"/>
+                     <path d="M156 230 L182 278 L208 230" stroke="#e9dcc3" stroke-width="7" fill="none" stroke-linejoin="round"/>
+                     ${[300,340,380].map(y=>`<circle cx="182" cy="${y}" r="5" fill="#fbf6ec" stroke="#cdbb9a" stroke-width="1.5"/>`).join('')}
+                     <path d="M80 404 h206 l4 27 h-214Z" fill="#5d7fa0"/>`},
+  camel:    {label:'Col roulé camel + collier', top:'#c69c6d', shade:'#ad845a', arm:'#bf9566', arm2:'#ad845a',
+             detail:`<rect x="154" y="196" width="56" height="52" rx="16" fill="#d0a777"/>
+                     <path d="M166 204v38 M176 202v42 M188 202v42 M198 204v38" stroke="#b88d5e" stroke-width="3"/>
+                     <path d="M154 250 Q182 312 210 250" stroke="#e0b44c" stroke-width="3" fill="none"/><path d="M182 280 l9 12 l-9 12 l-9 -12Z" fill="#e0b44c"/>`+knit('#ad845a')},
 };
 const OUT_MAT={
   denim:    {label:'Sơ mi denim', top:'#6f97b8', shade:'#5a82a3', arm:'#6890b1', arm2:'#5a82a3',
@@ -276,6 +293,21 @@ const OUT_MAT={
                      <path d="M146 228 C160 248 204 248 218 228" stroke="#4e5232" stroke-width="12" fill="none" stroke-linecap="round"/>
                      <path d="M74 410 h216 l2 21 h-220Z" fill="#4e5232"/>${range(18,i=>`<path d="M${80+i*12} 412 v18" stroke="#3f4228" stroke-width="2"/>`)}
                      <path d="M118 300 h30 l-2 26 h-26Z" fill="#5b603a"/>`},
+  rouille:  {label:'Pull camionneur rouille', top:'#b8603a', shade:'#9e4f2e', arm:'#b05a36', arm2:'#9e4f2e',
+             detail:knit('#9e4f2e')+`<path d="M170 210 L182 262 L194 210Z" fill="#f4ead6"/>
+                     <path d="M146 226 L152 200 H212 L218 226 C200 240 164 240 146 226Z" fill="#a8542f"/><path d="M152 206 H212" stroke="#8f4527" stroke-width="3"/>
+                     <path d="M174 204 L182 256 L190 204" stroke="#c9ccd0" stroke-width="4" fill="none"/><rect x="178" y="252" width="9" height="20" rx="3" fill="#c9ccd0"/>`},
+  canard:   {label:'Chemise lin bleu canard', top:'#2f6f73', shade:'#255a5e', arm:'#2c6a6e', arm2:'#255a5e',
+             detail:`<path d="M160 232 L182 292 L204 232Z" fill="#f4ead6"/>
+                     <path d="M156 230 L176 284 L146 262Z M208 230 L188 284 L218 262Z" fill="#3a8086" stroke="#1f4a4d" stroke-width="2"/>
+                     <path d="M184 292 V431" stroke="#255a5e" stroke-width="4"/>${[320,360,400].map(y=>`<circle cx="190" cy="${y}" r="4" fill="#e9e4da"/>`).join('')}
+                     <path d="M120 300 q20 40 6 90 M240 300 q-18 50 -4 100" stroke="#3a8086" stroke-width="3" fill="none" opacity=".6"/>`},
+  jacquard: {label:'Pull jacquard Fair Isle', top:'#efe6d3', shade:'#d9cdb5', arm:'#e9dfca', arm2:'#d9cdb5',
+             detail:`<path d="M110 262 C130 244 160 240 182 240 C206 240 236 244 254 262 L262 304 C236 296 206 294 182 294 C158 294 128 296 102 304Z" fill="#2d3e66"/>
+                     ${range(9,i=>`<path d="M${118+i*17} 272 l7 8 l-7 8 l-7 -8Z" fill="${i%2?'#c8443a':'#f3c96b'}"/>`)}
+                     <path d="M108 296 ${range(9,()=>'l9 -6 l9 6')}" stroke="#efe6d3" stroke-width="3" fill="none"/>
+                     <ellipse cx="182" cy="236" rx="34" ry="11" fill="#2d3e66"/><path d="M152 238 q30 14 60 0" stroke="#c8443a" stroke-width="3" fill="none"/>
+                     <path d="M78 408 h210 l4 23 h-218Z" fill="#d9cdb5"/>${range(18,i=>`<path d="M${84+i*12} 410 v20" stroke="#c9bca0" stroke-width="2"/>`)}`},
 };
 
 /* ============================================================
@@ -566,13 +598,13 @@ const ARM_SIP=(c,w)=>`<path class="armSip" opacity="0" d="M118 285 C92 340 102 3
    Cả hai cùng quay sang phải (Mathieu không lật người, chỉ lật đầu để nhìn lại Léa).
    ============================================================ */
 const WALK_LEGS={
-  lea:{pull:'#5b7398',mariniere:'#2f3a52',trench:'#3a3434',chemise:'#d9cbb0',cardigan:'#4f6f99',pois:'skirt',jean:'#3a3434',lilas:'#5b7398',foulard:'#33476b',doudoune:'#3a3434'},
-  mat:{denim:'#c9b28e',hoodie:'#3a3f48',colroule:'#8a6a4c',blazer:'#d9cbb0',pull:'#5b5048',carreaux:'#4f6f99',velours:'#3a3f48',polo:'#5b7398',gilet:'#33476b',tablier:'#3a3f48'}};
+  lea:{pull:'#5b7398',mariniere:'#2f3a52',trench:'#3a3434',chemise:'#d9cbb0',cardigan:'#4f6f99',pois:'skirt',jean:'#3a3434',lilas:'#5b7398',foulard:'#33476b',doudoune:'#3a3434',vichy:'skirt',fleurs:'#4f6f99',camel:'#3a3434'},
+  mat:{denim:'#c9b28e',hoodie:'#3a3f48',colroule:'#8a6a4c',blazer:'#d9cbb0',pull:'#5b5048',carreaux:'#4f6f99',velours:'#3a3f48',polo:'#5b7398',gilet:'#33476b',tablier:'#3a3f48',rouille:'#3a3f48',canard:'#d9cbb0',jacquard:'#5b5048'}};
 /* giày theo bộ đồ: ballerine (giày búp bê) · bottine (bốt cổ thấp) · basket (giày thể thao) · derby (giày da buộc dây).
    Vẽ hướng sang phải, cổ chân ở (x,582), mặt đất y≈606. */
 const WALK_SHOES={
-  lea:{pull:'basket',mariniere:'ballerine',trench:'bottine',chemise:'ballerine',cardigan:'ballerine',pois:'ballerine',jean:'basket',lilas:'basket',foulard:'ballerine',doudoune:'bottine'},
-  mat:{denim:'basket',hoodie:'basket',colroule:'derby',blazer:'derby',pull:'derby',carreaux:'basket',velours:'derby',polo:'basket',gilet:'derby',tablier:'basket'}};
+  lea:{pull:'basket',mariniere:'ballerine',trench:'bottine',chemise:'ballerine',cardigan:'ballerine',pois:'ballerine',jean:'basket',lilas:'basket',foulard:'ballerine',doudoune:'bottine',vichy:'ballerine',fleurs:'ballerine',camel:'bottine'},
+  mat:{denim:'basket',hoodie:'basket',colroule:'derby',blazer:'derby',pull:'derby',carreaux:'basket',velours:'derby',polo:'basket',gilet:'derby',tablier:'basket',rouille:'derby',canard:'basket',jacquard:'derby'}};
 const SHOE={
   ballerine:(x,who)=>`<path d="M${x-25} 580 C${x-28} 596 ${x-22} 606 ${x-10} 606 L${x+44} 606 C${x+58} 606 ${x+60} 592 ${x+46} 588 C${x+32} 584 ${x+20} 586 ${x+18} 580Z" fill="#a8423a"/>
     <path d="M${x-12} 590 C${x+4} 596 ${x+22} 594 ${x+30} 588" stroke="#7a2e28" stroke-width="3" fill="none" stroke-linecap="round"/><circle cx="${x+34}" cy="590" r="4" fill="#7a2e28"/>
@@ -1573,6 +1605,99 @@ const SCENES={
   ${range(12,()=>`<circle class="mote" cx="${rnd(460,1460)}" cy="${rnd(200,540)}" r="${rnd(2,3.5)}" fill="#fff1c4" opacity="0"/>`)}
   <rect y="760" width="1920" height="320" fill="#efe1c4"/>${range(24,i=>range(4,j=>(i+j)%2?`<rect x="${i*80}" y="${760+j*80}" width="80" height="80" fill="#b98d6a"/>`:''))}
   ${TABLE('#a8724e','#8c5c3d')}</svg>`;},
+  anim(tl){ sitAmb(tl); }},
+
+ /* ---------------- 3 cảnh ngồi mới (fromagerie, guinguette, laverie) ---------------- */
+ fromagerie:{label:'35. Fromagerie', html:()=>{
+   // cheese wheel seen from the front (rind + lighter top), wedge with holes, hanging saucisson
+   const CH=[['#f3d27a','#d9a441'],['#f6e7b0','#e0c47a'],['#efd9a0','#c98a3a'],['#fbf3dc','#d9cbb0'],['#f2c66b','#b8552a']];
+   const wheel=(x,y,w,h,k)=>{const [c,r]=CH[k%CH.length];return `<rect x="${x}" y="${y-h}" width="${w}" height="${h}" rx="${h*.4}" fill="${r}"/><ellipse cx="${x+w/2}" cy="${y-h+h*.24}" rx="${w/2-5}" ry="${h*.2}" fill="${c}"/>`;};
+   const wedge=(x,y)=>`<path d="M${x} ${y} L${x+92} ${y} L${x+92} ${y-52}Z" fill="#f6dc7a" stroke="#d9b24a" stroke-width="3"/>${[[58,-12,6],[76,-27,5],[82,-9,4]].map(([dx,dy,r])=>`<circle cx="${x+dx}" cy="${y+dy}" r="${r}" fill="#d9b24a"/>`).join('')}`;
+   const shelf=(x0,x1,y)=>{let s='',x=x0+12,i=0;while(x<x1-100){const w=rnd(76,112),h=rnd(36,60);const wd=Math.random()<.22;s+=wd?wedge(x,y):wheel(x,y,w,h,i++);x+=(wd?92:w)+rnd(12,26);}
+     return s+`<rect x="${x0}" y="${y}" width="${x1-x0}" height="14" rx="3" fill="#8a5a3c"/><rect x="${x0}" y="${y+14}" width="${x1-x0}" height="5" fill="#00000022"/>`;};
+   const sauc=(x,len)=>`<path d="M${x} 40 v30" stroke="#d9c8a8" stroke-width="3"/><rect x="${x-13}" y="68" width="26" height="${len}" rx="13" fill="#8a3a32"/>
+     ${range(6,()=>`<circle cx="${x+rnd(-8,8)}" cy="${rnd(80,58+len)}" r="${rnd(1.5,3)}" fill="#f3e6d6" opacity=".8"/>`)}<path d="M${x-13} 84 h26 M${x-13} ${68+len*.6} h26" stroke="#d9c8a8" stroke-width="2"/>`;
+   const pendant=x=>`<path d="M${x} 40 v70" stroke="#3a2e28" stroke-width="4"/><circle class="glow" cx="${x}" cy="160" r="170" fill="url(#lg)" opacity=".55"/><path d="M${x-50} 150 Q${x} 86 ${x+50} 150Z" fill="#2f5446"/><ellipse cx="${x}" cy="150" rx="50" ry="8" fill="#24443a"/><circle cx="${x}" cy="156" r="10" fill="#ffe9b8"/>`;
+   const price=[['Comté 24 mois','32 €'],['Brie de Meaux','24 €'],['Roquefort','29 €'],['Chèvre frais','3 € pièce']];
+   return `<svg class="bg" viewBox="0 0 1920 1080"><defs>${lampGrad}
+   <pattern id="ftile" width="56" height="40" patternUnits="userSpaceOnUse"><rect width="56" height="40" fill="#f2f6f4"/><path d="M0 1h56 M0 21h56 M1 0v20 M29 20v20" stroke="#a9c3cc" stroke-width="2.5"/></pattern></defs>
+  <rect width="1920" height="1080" fill="#f1e2c4"/>
+  <rect y="420" width="1920" height="140" fill="url(#ftile)"/><rect y="414" width="1920" height="8" fill="#5d7fa0"/>
+  <rect width="1920" height="40" fill="#6e4630"/>${range(8,i=>`<rect x="${i*250+40}" y="0" width="30" height="46" fill="#5e3a28"/>`)}
+  ${shelf(40,620,220)}${shelf(40,620,400)}${shelf(1300,1880,220)}${shelf(1300,1880,400)}
+  ${[650,690,1230,1270].map((x,i)=>sauc(x,[110,86,96,120][i])).join('')}
+  ${pendant(560)}${pendant(1360)}
+  <rect x="720" y="120" width="480" height="300" rx="10" fill="#8a5a3c"/><rect x="736" y="136" width="448" height="268" rx="4" fill="#2f4a3e"/>
+  <text x="960" y="196" text-anchor="middle" font-family="Playfair Display, Fraunces, serif" font-style="italic" font-weight="700" font-size="44" fill="#f4f1e8">Fromages du jour</text>
+  <path d="M800 214 q160 -14 320 0" stroke="#f3c96b" stroke-width="3" fill="none"/>
+  ${price.map(([n,p],i)=>`<text x="772" y="${262+i*42}" font-family="Nunito" font-weight="700" font-size="27" fill="#e9efe6">${n}</text><text x="1150" y="${262+i*42}" text-anchor="end" font-family="Nunito" font-weight="800" font-size="27" fill="#f6d77a">${p}</text>`).join('')}
+  ${range(14,()=>`<circle class="mote" cx="${rnd(420,1500)}" cy="${rnd(180,520)}" r="${rnd(2,3.5)}" fill="#fff1c4" opacity="0"/>`)}
+  <rect y="560" width="1920" height="200" fill="#8a5a3c"/><rect y="560" width="1920" height="86" fill="#cfe3ea" opacity=".75"/>
+  ${range(22,i=>wheel(i*88+rnd(0,20),640,rnd(56,72),rnd(26,40),i))}
+  <rect y="560" width="1920" height="86" fill="#ffffff" opacity=".18"/><rect y="554" width="1920" height="10" fill="#c9ccd0"/><rect y="644" width="1920" height="8" fill="#6e4630"/>
+  ${range(24,i=>`<path d="M${i*80+40} 660 v100" stroke="#7a4e36" stroke-width="4"/>`)}
+  <rect y="760" width="1920" height="320" fill="#e6b48a"/>${range(24,i=>range(4,j=>(i+j)%2?`<rect x="${i*80}" y="${760+j*80}" width="80" height="80" fill="#c9784f"/>`:''))}
+  ${TABLE('#c99a6b','#a87a50')}</svg>`;},
+  anim(tl){ sitAmb(tl); }},
+
+ guinguette:{label:'36. Guinguette au bord de l’eau', html:()=>{
+   // string of bulbs hanging between two points (catenary-ish)
+   const swag=(x0,y0,x1,y1,sag,n)=>`<path d="M${x0} ${y0} Q${(x0+x1)/2} ${(y0+y1)/2+sag*2} ${x1} ${y1}" stroke="#2f2a33" stroke-width="3" fill="none"/>`+range(n,k=>{const t=(k+.5)/n,x=(1-t)*(1-t)*x0+2*t*(1-t)*(x0+x1)/2+t*t*x1,y=(1-t)*(1-t)*y0+2*t*(1-t)*((y0+y1)/2+sag*2)+t*t*y1;
+     return `<circle class="bulbg" cx="${x}" cy="${y+16}" r="24" fill="#ffe6a3" opacity=".25"/><circle cx="${x}" cy="${y+16}" r="8" fill="${['#ffe6a3','#f3a37a','#ffe6a3','#a8d0a0'][k%4]}"/>`;});
+   const poplar=(x,h,c)=>`<path d="M${x} 470 C${x-30} ${470-h*.4} ${x-20} ${470-h*.8} ${x} ${470-h} C${x+20} ${470-h*.8} ${x+30} ${470-h*.4} ${x} 470Z" fill="${c}"/>`;
+   return `<svg class="bg" viewBox="0 0 1920 1080"><defs>${lampGrad}${gradV('ggsky','#3d4a7a','#f2a77a')}${gradV('ggriv','#7a6f9a','#e9a37a')}
+   <radialGradient id="ggsun"><stop offset="0" stop-color="#ffd9a0" stop-opacity=".9"/><stop offset="1" stop-color="#ffd9a0" stop-opacity="0"/></radialGradient></defs>
+  <rect width="1920" height="480" fill="url(#ggsky)"/>${stars(26,0,1920,10,190)}
+  <circle class="glow" cx="1420" cy="470" r="320" fill="url(#ggsun)" opacity=".6"/><circle cx="1420" cy="466" r="46" fill="#ffd28a"/>
+  <path d="M0 470 ${range(13,i=>`Q${i*160+80} ${rnd(400,440)} ${i*160+160} 470`)} V490 H0Z" fill="#5a4a6e"/>
+  ${[60,140,210,700,760,1090,1700,1780,1860].map((x,i)=>poplar(x,rnd(130,200),i%2?'#4a3d5e':'#55466a')).join('')}
+  <path d="M960 470 h-140 l20 -20 h240 l20 20Z" fill="#4a3d5e"/><rect x="890" y="420" width="140" height="32" fill="#55466a"/><path d="M880 420 l80 -40 l80 40Z" fill="#4a3d5e"/>
+  <rect y="480" width="1920" height="130" fill="url(#ggriv)"/>
+  ${range(18,()=>`<ellipse class="ripple" cx="${rnd(40,1880)}" cy="${rnd(500,596)}" rx="${rnd(30,70)}" ry="3" fill="#ffe2c4" opacity=".6"/>`)}
+  <path d="M1360 492 h120 M1380 512 h80 M1395 532 h50" stroke="#ffd28a" stroke-width="5" stroke-linecap="round" opacity=".7"/>
+  <g class="boat"><path d="M1560 584 h170 l-26 26 h-118Z" fill="#c8443a"/><path d="M1560 584 h170" stroke="#f7f3ea" stroke-width="5"/><path d="M1650 584 v-40" stroke="#3a2e28" stroke-width="4"/><circle class="glow" cx="1650" cy="538" r="34" fill="url(#lg)" opacity=".6"/><rect x="1642" y="528" width="16" height="20" rx="4" fill="#ffe6a3"/></g>
+  <rect y="606" width="1920" height="154" fill="#9a6a44"/>${range(8,i=>`<path d="M0 ${620+i*18} H1920" stroke="#7d5232" stroke-width="3"/>`)}
+  <rect y="600" width="1920" height="10" fill="#7d5232"/>${range(25,i=>`<rect x="${i*80}" y="560" width="10" height="46" fill="#f4efe6"/>`)}<rect y="566" width="1920" height="8" fill="#f4efe6"/>
+  <rect x="90" y="40" width="24" height="720" fill="#6e4630"/><rect x="1806" y="40" width="24" height="720" fill="#6e4630"/><rect x="60" y="30" width="1800" height="22" rx="6" fill="#7d5232"/>
+  ${swag(102,52,960,52,70,12)}${swag(960,52,1818,52,70,12)}${swag(102,52,1818,52,150,20)}
+  ${range(14,i=>`<path class="flag" d="M${560+i*58} 52 l46 0 l-23 36Z" fill="${['#c8443a','#f7f3ea','#35529a'][i%3]}"/>`)}
+  ${range(16,()=>`<circle class="firefly" cx="${rnd(60,1860)}" cy="${rnd(420,600)}" r="${rnd(3,5)}" fill="#fff3a8"/>`)}
+  <rect y="760" width="1920" height="320" fill="#b88a5e"/>${range(10,i=>`<path d="M0 ${790+i*32} H1920" stroke="#9a6a44" stroke-width="4"/>`)}
+  ${TABLE('url(#gingham)','#c9b49a')}</svg>`;},
+  anim(tl){ sitAmb(tl);
+   document.querySelectorAll('#scene .firefly').forEach(f=>{tl.fromTo(f,{x:0,y:0},{x:rnd(-60,60),y:rnd(-50,30),duration:rnd(2.5,4),yoyo:true,repeat:rep(2.5),ease:'sine.inOut'},rnd(0,2));
+    tl.fromTo(f,{opacity:.1},{opacity:1,duration:rnd(.5,1),yoyo:true,repeat:rep(.5),ease:'sine.inOut'},rnd(0,2));});
+  }},
+
+ laverie:{label:'37. Laverie automatique', html:()=>{
+   const CL=['#c8443a','#f3c96b','#5d7fa0','#e98aa0','#8fae8b','#f7f3ea','#2d3e66','#d9774b'];
+   // front-loading machine: body, control strip with dial + lights, porthole with laundry tumbling (.spin) or empty with door ajar
+   const machine=(x,y,w,run)=>{const cx=x+w/2,cy=y+150,r=58;
+     const clothes=run?`<g class="spin"><circle cx="${cx}" cy="${cy}" r="${r-8}" fill="#3f5a6a"/>${range(5,i=>{const a=i*72*Math.PI/180;return `<ellipse cx="${cx+Math.cos(a)*24}" cy="${cy+Math.sin(a)*24}" rx="${rnd(16,24)}" ry="${rnd(10,15)}" fill="${pick(CL)}" transform="rotate(${i*72} ${cx+Math.cos(a)*24} ${cy+Math.sin(a)*24})"/>`;})}
+       ${range(5,()=>`<circle cx="${cx+rnd(-34,34)}" cy="${cy+rnd(-34,34)}" r="${rnd(3,7)}" fill="#ffffff" opacity=".7"/>`)}</g>`
+       :`<circle cx="${cx}" cy="${cy}" r="${r-8}" fill="#cfdfe4"/><ellipse cx="${cx}" cy="${cy+20}" rx="${r-20}" ry="12" fill="#b9cbd2"/>`;
+     return `<rect x="${x}" y="${y}" width="${w}" height="250" rx="12" fill="#f4f2ec"/><rect x="${x}" y="${y}" width="${w}" height="54" rx="12" fill="#e2ded4"/>
+       <circle cx="${x+30}" cy="${y+27}" r="13" fill="#c9ccd0" stroke="#9aa3a8" stroke-width="3"/><rect x="${x+56}" y="${y+18}" width="${w-120}" height="18" rx="4" fill="#3a4a3e"/><text x="${x+62}" y="${y+33}" font-family="Nunito" font-weight="800" font-size="15" fill="#9fe0a6">${run?pick(['0:12','0:27','0:41','0:05']):'4,50 €'}</text>
+       <circle cx="${x+w-36}" cy="${y+27}" r="6" fill="${run?'#8fd18a':'#e8483a'}"/>
+       <circle cx="${cx}" cy="${cy}" r="${r+10}" fill="#c9ccd0"/><circle cx="${cx}" cy="${cy}" r="${r}" fill="#9aa3a8"/>${clothes}
+       <path d="M${cx-r+16} ${cy-22} A${r-14} ${r-14} 0 0 1 ${cx-14} ${cy-r+16}" stroke="#ffffff" stroke-width="7" stroke-linecap="round" fill="none" opacity=".55"/>
+       <rect x="${x+12}" y="${y+238}" width="${w-24}" height="12" fill="#d9d4c9"/>`;};
+   const dryer=(x,y,w)=>`<rect x="${x}" y="${y}" width="${w}" height="190" rx="10" fill="#e9e4da"/><circle cx="${x+w/2}" cy="${y+100}" r="62" fill="#c9ccd0"/><circle cx="${x+w/2}" cy="${y+100}" r="52" fill="#d8e6ea"/>
+     <path d="M${x+w/2-40} ${y+100} h80" stroke="#b9cbd2" stroke-width="4"/><rect x="${x+20}" y="${y+16}" width="${w-40}" height="14" rx="4" fill="#3a4a3e"/>`;
+   return `<svg class="bg" viewBox="0 0 1920 1080"><defs>${lampGrad}</defs>
+  <rect width="1920" height="1080" fill="#a8d5c4"/><rect y="0" width="1920" height="70" fill="#f7f3ea"/>${range(32,i=>`<rect x="${i*60}" y="70" width="30" height="16" fill="#e8483a" opacity=".85"/>`)}
+  <rect y="86" width="1920" height="10" fill="#7fb8a4"/>
+  ${dryer(50,120,180)}${dryer(250,120,180)}${dryer(450,120,180)}${dryer(1290,120,180)}${dryer(1490,120,180)}${dryer(1690,120,180)}
+  <rect x="690" y="120" width="540" height="140" rx="20" fill="#2d3e46"/>
+  <text class="glow" x="960" y="214" text-anchor="middle" font-family="Nunito" font-weight="900" font-size="88" letter-spacing="10" fill="none" stroke="#7fe0f0" stroke-width="16" opacity=".5">LAVERIE</text>
+  <text x="960" y="214" text-anchor="middle" font-family="Nunito" font-weight="900" font-size="88" letter-spacing="10" fill="#e9fbff" stroke="#7fe0f0" stroke-width="3">LAVERIE</text>
+  <text x="960" y="250" text-anchor="middle" font-family="Nunito" font-weight="800" font-size="22" letter-spacing="5" fill="#f6d77a">OUVERT 7J/7 · 7H–22H</text>
+  <circle cx="960" cy="330" r="44" fill="#f7f3ea" stroke="#3a2e28" stroke-width="6"/>${range(12,i=>{const a=i*30*Math.PI/180;return `<circle cx="${960+Math.sin(a)*34}" cy="${330-Math.cos(a)*34}" r="2.5" fill="#3a2e28"/>`;})}
+  <line class="clockhand" x1="960" y1="330" x2="960" y2="306" stroke="#3a2e28" stroke-width="7" stroke-linecap="round"/><line class="clockhand" x1="960" y1="330" x2="960" y2="296" stroke="#c8443a" stroke-width="4" stroke-linecap="round"/><circle cx="960" cy="330" r="6" fill="#3a2e28"/>
+  ${[0,1,2,3,4,5,6,7,8].map(i=>machine(30+i*210,390,190,[1,0,1,1,0,1,1,0,1][i])).join('')}
+  ${range(18,()=>`<circle class="mote" cx="${rnd(60,1860)}" cy="${rnd(420,600)}" r="${rnd(4,9)}" fill="#ffffff55" stroke="#ffffff" stroke-width="2" opacity="0"/>`)}
+  <rect y="640" width="1920" height="440" fill="#f4efe6"/>${range(48,i=>range(11,j=>(i+j)%2?`<rect x="${i*40}" y="${640+j*40}" width="40" height="40" fill="#b5dccd"/>`:''))}
+  ${TABLE('#f2c66b','#d9a441')}</svg>`;},
   anim(tl){ sitAmb(tl); }},
 
  /* ---------------- 5 cảnh đi bộ mới ---------------- */

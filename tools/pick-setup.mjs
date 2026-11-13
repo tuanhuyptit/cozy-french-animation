@@ -31,16 +31,17 @@ const LEA = keys(block('const OUT_LEA={', '\n};')), MAT = keys(block('const OUT_
 
 // clashes: outfit → scenes it must not be drawn in ("only" = the only scenes allowed)
 const AVOID = {
-  lea: { chemise: ['cuisine', 'parc', 'boulangerie', 'biblio', 'jardin', 'verriere', 'canal', 'vignoble', 'musee'], cardigan: ['chalet', 'terrasse', 'automne', 'peniche', 'disquaire'],
-         lilas: ['lavande', 'quai', 'terrasse', 'promenade', 'toits'], pull: ['disquaire'], foulard: ['bureau', 'plage', 'corniche'],
-         doudoune: { only: ['chalet', 'village', 'noel'] }, rose: ['fleuriste', 'cinema'], tartan: ['cuisine', 'parc', 'jardin', 'verriere', 'canal', 'vignoble', 'fleuriste', 'musee'],
-         torsade: ['plage', 'corniche', 'port'] },
-  mat: { pull: ['cuisine', 'parc', 'boulangerie', 'biblio', 'jardin', 'verriere', 'canal', 'vignoble', 'musee'], colroule: ['quai', 'salon', 'biblio', 'promenade', 'village', 'noel', 'pluie', 'toits', 'cinema'],
-         blazer: ['quai', 'salon', 'biblio', 'promenade', 'village', 'noel', 'pluie', 'toits'], velours: ['marche', 'atelier', 'automne', 'peniche', 'bistrot', 'disquaire'],
-         polo: ['marche', 'atelier', 'automne', 'disquaire'], gilet: ['bureau', 'plage', 'corniche', 'pluie'], carreaux: ['bistrot', 'cinema'], tablier: { only: ['cuisine', 'boulangerie'] },
-         raye: ['plage', 'corniche', 'port'], chale: ['bistrot', 'cinema', 'peniche'], bomber: ['parc', 'jardin', 'verriere', 'canal', 'vignoble', 'fleuriste', 'musee'] },
+  lea: { chemise: ['cuisine', 'parc', 'boulangerie', 'biblio', 'jardin', 'verriere', 'canal', 'vignoble', 'musee', 'laverie'], cardigan: ['chalet', 'terrasse', 'automne', 'peniche', 'disquaire'],
+         lilas: ['lavande', 'quai', 'terrasse', 'promenade', 'toits', 'guinguette'], pull: ['disquaire', 'fromagerie', 'laverie'], foulard: ['bureau', 'plage', 'corniche'],
+         doudoune: { only: ['chalet', 'village', 'noel'] }, rose: ['fleuriste', 'cinema'], vichy: ['guinguette', 'bistrot', 'cinema', 'fromagerie'], fleurs: ['fleuriste', 'lavande', 'jardin'], camel: ['fromagerie', 'marche', 'atelier', 'boulangerie', 'automne'], tartan: ['cuisine', 'parc', 'jardin', 'verriere', 'canal', 'vignoble', 'fleuriste', 'musee'],
+         torsade: ['plage', 'corniche', 'port', 'laverie'] },
+  mat: { pull: ['cuisine', 'parc', 'boulangerie', 'biblio', 'jardin', 'verriere', 'canal', 'vignoble', 'musee', 'laverie'], colroule: ['quai', 'salon', 'biblio', 'promenade', 'village', 'noel', 'pluie', 'toits', 'cinema', 'guinguette'],
+         blazer: ['quai', 'salon', 'biblio', 'promenade', 'village', 'noel', 'pluie', 'toits', 'guinguette'], velours: ['marche', 'atelier', 'automne', 'peniche', 'bistrot', 'disquaire', 'fromagerie'],
+         polo: ['marche', 'atelier', 'automne', 'disquaire', 'fromagerie', 'laverie'], gilet: ['bureau', 'plage', 'corniche', 'pluie', 'laverie'], carreaux: ['bistrot', 'cinema'], tablier: { only: ['cuisine', 'boulangerie'] },
+         raye: ['plage', 'corniche', 'port'], chale: ['bistrot', 'cinema', 'peniche'], bomber: ['parc', 'jardin', 'verriere', 'canal', 'vignoble', 'fleuriste', 'musee'],
+         rouille: ['chalet', 'terrasse', 'automne', 'peniche', 'disquaire', 'fromagerie'], canard: ['laverie', 'musee', 'verriere'], jacquard: ['bureau', 'plage', 'corniche'] },
 };
-const PAIR_AVOID = [['jean', 'denim'], ['pull', 'polo'], ['chemise', 'pull'], ['cardigan', 'velours'], ['torsade', 'raye'], ['torsade', 'denim'], ['tartan', 'bomber'], ['tartan', 'pull'], ['rose', 'chale'], ['doudoune', 'chale'], ['chemise', 'bomber']];   // [lea, mat]
+const PAIR_AVOID = [['jean', 'denim'], ['pull', 'polo'], ['chemise', 'pull'], ['cardigan', 'velours'], ['torsade', 'raye'], ['torsade', 'denim'], ['tartan', 'bomber'], ['tartan', 'pull'], ['rose', 'chale'], ['doudoune', 'chale'], ['chemise', 'bomber'], ['cardigan', 'rouille'], ['camel', 'velours'], ['camel', 'rouille'], ['fleurs', 'jacquard'], ['vichy', 'carreaux'], ['vichy', 'chale'], ['chemise', 'canard']];   // [lea, mat]
 const okFor = (who, o, scene) => { const r = AVOID[who][o]; return !r || (Array.isArray(r) ? !r.includes(scene) : r.only.includes(scene)); };
 
 // previous episodes (by number, before this one)

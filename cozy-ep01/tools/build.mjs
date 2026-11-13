@@ -133,9 +133,14 @@ bubs.forEach((b, i) => {
 //   scale     = nuance scale from weak to strong (content → heureux → ravi): { title?, low?, high?, items:[…] } (2–6)
 //   idiom     = « expression imagée »: word-for-word vs real meaning, an arrow between: { expr, literal, meaning, icon?, tag?, ex?, exEn?, meaningAt?: chunk offset }
 //   order     = « Remets dans l'ordre ! »: shuffled word tiles, then the sentence builds word by word: { title?, sentence (3–9 words), en?, reveal? }
+//   gender      = « Masculin ou féminin ? »: nouns drop into a le / la column: { title?, items:["le problème", "la plage", { "text": "l'eau", "g": "f" }, …] } (2–10, ≤ 5 per side; g from le/un/la/une, else "g")
+//   falsefriend = « Faux ami ! »: the English look-alike gets struck out, the real meaning comes in: { word, looks, means, fr?, ex?, exEn?, meaningAt?: chunk offset }
+//   pronounce   = syllables one by one, IPA, silent letters fade + « muet », then the syllables pulse in rhythm: { word?, parts:["beau","cou(p)"], ipa, en?, tip?, title? } — "(…)" = silent letters
+//   register    = staircase familier → courant → soutenu: { title?, items:[fam, courant, soutenu] (exactly 3), en?, subs?:[3 small captions] }
+//   match       = « Relie les paires ! »: French left, English right (shuffled), lines draw at the reveal: { title?, pairs:[["la boulangerie","the bakery"], …] (2–5), reveal? }
 // Item = "text" (appears automatically, evenly spread over the segment) or { "text": "…", "at": n } (appears with the n-th chunk of the segment, 0 = first).
 // segments less than 1.5 s apart share one board session (characters stay in the corners; the session keeps the first segment's bg).
-const BOARD_BG = ['liege', 'craie', 'carnet'], BOARD_MODES = ['word', 'sketch', 'compare', 'steps', 'conjug', 'mindmap', 'quiz', 'timeline', 'truefalse', 'fill', 'mistake', 'scale', 'idiom', 'order'];
+const BOARD_BG = ['liege', 'craie', 'carnet'], BOARD_MODES = ['word', 'sketch', 'compare', 'steps', 'conjug', 'mindmap', 'quiz', 'timeline', 'truefalse', 'fill', 'mistake', 'scale', 'idiom', 'order', 'gender', 'falsefriend', 'pronounce', 'register', 'match'];
 const segs = []; let curSeg = null;
 chunks.forEach((c, i) => {
   if (c.board) { if (curSeg) throw new Error(`chunk ${i}: board opens before chunk ${curSeg.a}'s board is closed`); curSeg = { ...c.board, a: i }; }
@@ -191,6 +196,38 @@ segs.forEach(sg => {
     do { p = sg.words.map((_, i) => i); for (let i = p.length - 1; i > 0; i--) { const j = Math.floor(r() * (i + 1)); [p[i], p[j]] = [p[j], p[i]]; } }
     while (p.filter((v, i) => v === i).length > p.length / 3);
     sg.perm = p;   // tile j shows word perm[j]
+  }
+  else if (sg.mode === 'gender') {
+    need('items', x => Array.isArray(x) && x.length >= 2 && x.length <= 10, '2–10 items');
+    sg.items = sg.items.map((it, i) => {
+      const text = itemText(it).trim(), art = (text.match(/^(l'|l’|les|le|une|un|la|des)(?=[\s'’]|$)\s*|^(l'|l’)/i) || [''])[0];
+      const o = it && typeof it === 'object' ? it : {}, g = o.g || ({ le: 'm', un: 'm', la: 'f', une: 'f' })[art.trim().toLowerCase()];
+      if (g !== 'm' && g !== 'f') throw new Error(`${where}: gender item ${i} "${text}" needs "g": "m" or "f" (article ${art.trim() || 'missing'})`);
+      return { text, art: art.trim(), noun: text.slice(art.length), g, ...(o.at !== undefined && { at: o.at }) };
+    });
+    for (const g of ['m', 'f']) if (sg.items.filter(it => it.g === g).length > 5) throw new Error(`${where}: gender board fits at most 5 ${g === 'm' ? 'masculine' : 'feminine'} nouns`);
+  }
+  else if (sg.mode === 'falsefriend') {
+    need('word', Boolean, 'word (the French word)'); need('looks', Boolean, 'looks (the English look-alike)'); need('means', Boolean, 'means (what it really means)');
+    if (sg.meaningAt !== undefined) chunkT(sg.meaningAt);
+  }
+  else if (sg.mode === 'pronounce') {
+    need('parts', x => Array.isArray(x) && x.length >= 1 && x.length <= 6 && x.every(v => typeof v === 'string' && v), 'parts: syllables ["beau","cou(p)"] (1–6)');
+    need('ipa', Boolean, 'ipa');
+    sg.word = sg.word || sg.parts.join('').replace(/[()]/g, '');
+  }
+  else if (sg.mode === 'register') {
+    need('items', x => Array.isArray(x) && x.length === 3, 'items: exactly 3 (familier, courant, soutenu)');
+    if (sg.subs !== undefined) need('subs', x => Array.isArray(x) && x.length === 3, 'subs: 3 captions');
+  }
+  else if (sg.mode === 'match') {
+    need('pairs', x => Array.isArray(x) && x.length >= 2 && x.length <= 5 && x.every(r => Array.isArray(r) && r.length === 2), 'pairs: [["fr","en"], …] (2–5)');
+    // English column shuffled, seeded by the pairs; no pair may stay on its own row
+    const n = sg.pairs.length, r = mulberry32([...JSON.stringify(sg.pairs)].reduce((h, ch) => Math.imul(h ^ ch.charCodeAt(0), 16777619), 2166136261) >>> 0);
+    let p;
+    do { p = sg.pairs.map((_, i) => i); for (let i = n - 1; i > 0; i--) { const j = Math.floor(r() * (i + 1)); [p[i], p[j]] = [p[j], p[i]]; } }
+    while (p.some((v, i) => v === i));
+    sg.perm = p;   // right row j shows the English of pair perm[j]
   }
   // answer time for quiz-like modes: chunk "reveal" (offset in the segment) or the last chunk, never before the question had time to be read
   sg.revealAt = (minR, what) => {
@@ -266,6 +303,35 @@ sessions.forEach(ss => ss.segs.forEach((sg, j) => {
     const R = sg.revealAt(t0 + 0.6 + n * 0.12 + 1.5, 'order answer'), step = Math.min(0.45, Math.max(0.22, (sg.e - 1 - R) / n));
     sg.words.forEach((w, i) => { const j = sg.perm.indexOf(i); rv.push(['s' + j, R + i * step, 'dim'], ['a' + i, R + i * step, 'drop']); });
     if (sg.en) rv.push(['e', R + n * step + 0.3, 'fade']);
+  } else if (sg.mode === 'gender') {
+    rv.push(['t', t0, 'drop'], ['M', t0 + 0.4, 'pop'], ['F', t0 + 0.6, 'pop']);
+    sg.times(sg.items, t0 + 1.3, end).forEach((t, i) => rv.push(['i' + i, t, sg.items[i].g === 'm' ? 'slideL' : 'slide']));
+  } else if (sg.mode === 'falsefriend') {
+    rv.push(['h', t0, 'drop'], ['l', t0 + 0.7, 'pop']);
+    const Mt = sg.meaningAt !== undefined ? Math.max(t0 + 2.4, sg.times([{ at: sg.meaningAt }])[0]) : Math.max(t0 + 2.4, (t0 + end) / 2);
+    rv.push(['k', Mt - 0.7, 'strike'], ['lx', Mt - 0.7, 'stamp'], ['m', Mt, 'pop'], ['mx', Mt + 0.3, 'stamp']);
+    if (sg.fr) rv.push(['f', Mt + 0.9, 'fade']);
+    if (sg.ex) rv.push(['x', Mt + 1.3, 'rise']);
+  } else if (sg.mode === 'pronounce') {
+    const n = sg.parts.length, R = t0 + 0.6 + n * 0.45 + 0.3;
+    rv.push(['t', t0, 'drop']);
+    sg.parts.forEach((p, i) => rv.push(['p' + i, t0 + 0.6 + i * 0.45, 'rise']));
+    rv.push(['ipa', R, 'pop']);
+    if (sg.en) rv.push(['e', R + 0.3, 'fade']);
+    sg.parts.forEach((p, i) => { if (/\(/.test(p)) rv.push(['m' + i, R + 0.7, 'dim'], ['u' + i, R + 0.8, 'pop']); });
+    const B = Math.min(R + 1.6, sg.e - 1 - n * 0.5);
+    sg.parts.forEach((p, i) => rv.push(['p' + i, Math.max(R + 0.9, B) + i * 0.5, 'pulse']));
+    if (sg.tip) rv.push(['n', Math.max(R + 0.9, B) + n * 0.5 + 0.2, 'pop']);
+  } else if (sg.mode === 'register') {
+    rv.push(['t', t0, 'drop']);
+    if (sg.en) rv.push(['e', t0 + 0.4, 'fade']);
+    sg.times(sg.items, t0 + 0.9, end).forEach((t, i) => rv.push(['s' + i, t, 'rise'], ['w' + i, t + 0.25, 'pop']));
+  } else if (sg.mode === 'match') {
+    const n = sg.pairs.length;
+    rv.push(['t', t0, 'drop']);
+    for (let i = 0; i < n; i++) rv.push(['L' + i, t0 + 0.5 + i * 0.15, 'slide'], ['R' + i, t0 + 0.6 + i * 0.15, 'slideL']);
+    const R = sg.revealAt(t0 + 0.6 + n * 0.15 + 1.8, 'match answer'), step = Math.min(0.6, Math.max(0.3, (sg.e - 1 - R) / n));
+    for (let i = 0; i < n; i++) { const j = sg.perm.indexOf(i), t = R + i * step; rv.push(['l' + i, t, 'draw'], ['oL' + i, t + 0.3, 'fade'], ['oR' + j, t + 0.3, 'fade']); }
   }
 }));
 cards.forEach(c => { c.hidden = sessions.some(ss => c.s >= ss.s - 0.3 && c.s <= ss.e + 0.3); });
@@ -420,6 +486,46 @@ Object.assign(MODE_HTML, {
         <div class="bortiles">${sg.perm.map((w, j) => `<div class="bort pc rv" id="bs${k}_s${j}" style="transform:rotate(${TILT[j % TILT.length]}deg)">${esc(sg.words[w])}</div>`).join('')}</div>
         <div class="borrow pc rv" id="bs${k}_row"><div class="borws">${sg.words.map((w, i) => `<span class="borslot"><b class="rv" id="bs${k}_a${i}">${esc(w)}</b></span>`).join('')}</div>
           ${sg.en ? `<div class="borren rv" id="bs${k}_e">${esc(sg.en)}</div>` : ''}</div>`,
+  gender: (sg, k) => {
+    const col = (g, head, sub) => { const its = sg.items.map((it, i) => [it, i]).filter(([it]) => it.g === g);
+      return `<div class="bgcol ${g}"><div class="bgh pc rv" id="bs${k}_${g === 'm' ? 'M' : 'F'}"><i class="pin"></i><div class="bgk">${head}</div><div class="bgs">${sub}</div></div>
+          ${its.map(([it, i]) => `<div class="bgi pc rv" id="bs${k}_i${i}">${it.art ? `<em>${esc(it.art)}</em>${/['’]$/.test(it.art) ? '' : ' '}` : ''}${esc(it.noun)}</div>`).join('')}</div>`; };
+    return `
+        ${titleHTML(sg, k, 'Masculin ou féminin ?')}
+        ${col('m', 'Masculin', 'le · un')}${col('f', 'Féminin', 'la · une')}`;
+  },
+  falsefriend: (sg, k) => `
+        <div class="bidh pc rv" id="bs${k}_h"><i class="pin"></i><span class="tag bfft">faux ami !</span><div class="bidx">${esc(sg.word)}</div></div>
+        <div class="bffc l pc rv" id="bs${k}_l"><i class="pin y"></i><div class="bidk">On croit…</div><div class="bffw"><span>${esc(sg.looks)}<i class="bstrike rv" id="bs${k}_k"></i></span></div>
+          <i class="bmkx bffx no rv" id="bs${k}_lx">✗</i>${sg.fr ? `<div class="bfffr rv" id="bs${k}_f">“${esc(sg.looks)}” = <b>${esc(sg.fr)}</b></div>` : ''}</div>
+        <div class="bffc m pc rv" id="bs${k}_m"><i class="pin"></i><div class="bidk">En vrai</div><div class="bffw">${esc(sg.means)}</div><i class="bmkx bffx ok rv" id="bs${k}_mx">✓</i></div>
+        ${sg.ex ? `<div class="bidex pc rv" id="bs${k}_x">${esc(sg.ex)}${sg.exEn ? `<i>${esc(sg.exEn)}</i>` : ''}</div>` : ''}`,
+  pronounce: (sg, k) => {
+    const syl = (p, i) => esc(p).replace(/\(([^)]*)\)/g, `<s class="bpm" id="bs${k}_m${i}">$1</s>`);
+    const fs = Math.max(60, Math.min(110, Math.floor(1100 / Math.max(4, sg.parts.join('').length * 0.62 + sg.parts.length))));
+    return `
+        ${titleHTML(sg, k, 'Comment ça se prononce ?')}
+        <div class="bpw">${sg.parts.map((p, i) => `${i ? '<b class="bpdot">·</b>' : ''}<div class="bpcell"><div class="bps pc rv" id="bs${k}_p${i}" style="font-size:${fs}px">${syl(p, i)}</div>${/\(/.test(p) ? `<span class="bpmu rv" id="bs${k}_u${i}">muet</span>` : ''}</div>`).join('')}</div>
+        <div class="bpipa pc rv" id="bs${k}_ipa">${esc(sg.ipa)}${sg.en ? `<i class="rv" id="bs${k}_e">${esc(sg.en)}</i>` : ''}</div>
+        ${sg.tip ? `<div class="bnote pc bpn rv" id="bs${k}_n"><i class="pin"></i>${esc(sg.tip)}</div>` : ''}`;
+  },
+  register: (sg, k) => {
+    const LAB = ['Familier', 'Courant', 'Soutenu'], SUB = sg.subs || ['entre amis', 'tous les jours', 'à l’écrit, au travail'];
+    return `
+        ${titleHTML(sg, k, 'Familier, courant ou soutenu ?')}
+        ${sg.en ? `<div class="brgen rv" id="bs${k}_e">= ${esc(sg.en)}</div>` : ''}
+        ${sg.items.map((it, i) => `<div class="brgs r${i} rv" id="bs${k}_s${i}"><b>${LAB[i]}</b><span>${esc(SUB[i])}</span></div>
+        <div class="brgw r${i} pc rv" id="bs${k}_w${i}">${esc(itemText(it))}</div>`).join('')}`;
+  },
+  match: (sg, k) => {
+    const n = sg.pairs.length, Y0 = n > 4 ? 200 : 230, DY = n > 4 ? 112 : 124, y = i => Y0 + i * DY + 44;
+    return `
+        ${titleHTML(sg, k, 'Relie les paires !')}
+        <svg class="bmml" viewBox="0 0 1920 1080" width="1920" height="1080">${sg.pairs.map((_, i) => { const j = sg.perm.indexOf(i);
+          return `<path class="rv bmatl" id="bs${k}_l${i}" d="M884 ${y(i)} C960 ${y(i)} 960 ${y(j)} 1036 ${y(j)}" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/>`; }).join('')}</svg>
+        ${sg.pairs.map(([fr], i) => `<div class="bmat L pc rv" id="bs${k}_L${i}" style="top:${Y0 + i * DY}px"><i class="okl rv" id="bs${k}_oL${i}"></i><span>${esc(fr)}</span><b></b></div>`).join('')}
+        ${sg.perm.map((pi, j) => `<div class="bmat R pc rv" id="bs${k}_R${j}" style="top:${Y0 + j * DY}px"><i class="okl rv" id="bs${k}_oR${j}"></i><b></b><span>${esc(sg.pairs[pi][1])}</span></div>`).join('')}`;
+  },
 });
 const boardHTML = segs.map((sg, k) => `
       <div class="bseg th-${(sessions.find(ss => ss.segs.includes(sg)) || sg).bg} m-${sg.mode}" id="bseg${k}">${MODE_HTML[sg.mode](sg, k)}
@@ -678,6 +784,59 @@ const talk = `<template>
     .borws{display:flex;flex-wrap:wrap;justify-content:center;gap:14px 20px}
     .borslot{display:inline-block;min-width:60px;padding:4px 10px 2px;border-bottom:6px dashed var(--mut);font:800 54px Nunito;color:var(--acc);white-space:nowrap}
     .borslot b{display:inline-block}
+    /* gender */
+    .bgcol{position:absolute;top:200px;width:500px;display:flex;flex-direction:column;align-items:center;gap:16px}
+    .bgcol.m{left:400px} .bgcol.f{left:1020px}
+    .bgh{width:100%;box-sizing:border-box;padding:18px 20px 14px;text-align:center;border-radius:18px;border-top:12px solid var(--acc2)}
+    .bgcol.f .bgh{border-top-color:var(--acc)}
+    .bgk{font:700 54px/1.05 'Playfair Display',serif;color:var(--acc2)} .bgcol.f .bgk{color:var(--acc)}
+    .bgs{font:800 28px Nunito;color:var(--mut);letter-spacing:.08em;margin-top:4px}
+    .bgi{padding:10px 30px;border-radius:40px;font:800 40px Nunito;color:var(--ink);white-space:nowrap}
+    .bgi em{font-style:normal;color:var(--acc2)} .bgcol.f .bgi em{color:var(--acc)}
+    .bgcol.m .bgi{border:4px solid var(--acc2)} .bgcol.f .bgi{border:4px solid var(--acc)}
+    /* false friend */
+    .bfft{background:var(--bad)!important;color:#fffaf0!important}
+    .bffc{position:absolute;top:300px;width:470px;min-height:250px;padding:34px 34px 30px;text-align:center;box-sizing:border-box;border-radius:14px}
+    .bffc.l{left:390px;transform:rotate(-2.5deg)} .bffc.m{left:1060px;transform:rotate(2deg)}
+    .th-liege .bffc.m,.th-carnet .bffc.m{box-shadow:var(--sh),0 0 0 6px var(--ok)}
+    .bffc.m .bidk{color:var(--okc)}
+    .bffw{font:800 52px/1.2 Nunito;color:var(--ink);margin-top:14px}
+    .bffc.l .bffw{color:var(--mut)} .bffw span{position:relative;display:inline-block}
+    .bffx{position:absolute;right:-26px;top:-26px}
+    .bffx.no{background:var(--bad)} .bffx.ok{background:var(--okc)}
+    .bfffr{font:700 32px Nunito;color:var(--mut);margin-top:22px;padding-top:16px;border-top:3px dashed var(--line)}
+    .bfffr b{color:var(--acc2)}
+    /* pronounce */
+    .bpw{position:absolute;left:50%;top:230px;transform:translateX(-50%);display:flex;align-items:flex-start;gap:14px;white-space:nowrap}
+    .bpcell{display:flex;flex-direction:column;align-items:center;gap:14px}
+    .bps{padding:14px 34px 18px;border-radius:20px;font-family:'Playfair Display',serif;font-weight:700;color:var(--acc);line-height:1.1}
+    .bps s{text-decoration:none;display:inline-block}
+    .bpdot{font:800 80px/1.4 Nunito;color:var(--mut)}
+    .bpmu{font:800 24px Nunito;letter-spacing:.1em;text-transform:uppercase;color:var(--paper);background:var(--mut);padding:4px 14px;border-radius:14px}
+    .th-craie .bpmu{color:#2f4a3e;background:var(--mut)}
+    .bpipa{position:absolute;left:50%;top:470px;transform:translateX(-50%) rotate(-1deg);padding:18px 50px 20px;border-radius:18px;text-align:center;font:600 64px 'Noto Sans',Nunito,sans-serif;color:var(--acc2);white-space:nowrap}
+    .bpipa i{display:block;font:700 32px Nunito;font-style:normal;color:var(--mut);margin-top:4px}
+    .bpn{left:50%;top:650px;width:auto;max-width:1000px;min-height:0;transform:translateX(-50%) rotate(-1.5deg);font-size:32px;padding:30px 36px 24px}
+    /* register */
+    .brgen{position:absolute;left:50%;top:196px;transform:translateX(-50%);font:800 36px Nunito;color:var(--mut)}
+    .brgs{position:absolute;width:340px;bottom:300px;box-sizing:border-box;padding:22px 16px 0;text-align:center;border-radius:14px 14px 0 0;background:var(--paper);border:5px solid var(--bc);border-bottom:none;box-shadow:var(--sh)}
+    .brgs b{display:block;font:800 30px Nunito;letter-spacing:.1em;text-transform:uppercase;color:var(--ink)}
+    .brgs span{display:block;font:700 26px Nunito;color:var(--mut);margin-top:6px}
+    .brgs::before{content:"";position:absolute;left:-5px;right:-5px;top:-5px;height:14px;border-radius:14px 14px 0 0}
+    .brgs.r0{left:420px;height:130px} .brgs.r1{left:790px;height:220px} .brgs.r2{left:1160px;height:310px}
+    .brgs.r0::before{background:var(--acc2)} .brgs.r1::before{background:var(--okc)} .brgs.r2::before{background:var(--acc)}
+    .brgw{position:absolute;width:340px;box-sizing:border-box;padding:16px 10px;text-align:center;border-radius:18px;font:700 48px/1.15 'Playfair Display',serif;color:var(--ink)}
+    .brgw.r0{left:420px;top:530px;color:var(--acc2)} .brgw.r1{left:790px;top:440px;color:var(--okc)} .brgw.r2{left:1160px;top:350px;color:var(--acc)}
+    /* match */
+    .bmatl{stroke:var(--acc);stroke-width:7;fill:none;stroke-linecap:round}
+    .th-liege .bmatl{stroke:#fffaf0}
+    .bmat{position:absolute;width:440px;height:88px;box-sizing:border-box;display:flex;align-items:center;padding:0 34px;border-radius:18px;font:800 38px Nunito;color:var(--ink)}
+    .bmat.L{left:444px;justify-content:flex-end;text-align:right} .bmat.R{left:1036px}
+    .bmat span{position:relative;z-index:1;white-space:nowrap}
+    .bmat.R span{color:var(--acc2)}
+    .bmat b{position:absolute;z-index:1;top:50%;width:22px;height:22px;margin-top:-11px;border-radius:50%;background:var(--acc);border:4px solid var(--bc);box-sizing:border-box}
+    .bmat.L b{right:-11px} .bmat.R b{left:-11px}
+    .bmat .okl{border-radius:18px}
     .borren{font:600 34px Nunito;color:var(--mut);margin-top:18px;white-space:nowrap}
     .bqx{left:50%;top:610px;width:auto;max-width:1100px;min-height:0;transform:translateX(-50%) rotate(-1.5deg);font-size:32px;padding:30px 36px 24px}
     #talk-badge{position:absolute;right:40px;top:34px;width:132px;height:132px;filter:drop-shadow(0 4px 8px #0004)}
@@ -852,6 +1011,8 @@ const talk = `<template>
       dim:(e,t)=>tl.fromTo(e,{opacity:1},{opacity:.42,duration:.35,immediateRender:false},t),
       rise:(e,t)=>tl.fromTo(e,{opacity:0,y:36},{opacity:1,y:0,duration:.42,ease:'back.out(1.8)',immediateRender:false},t),
       strike:(e,t)=>tl.fromTo(e,{opacity:1,scaleX:0},{scaleX:1,duration:.4,ease:'power2.out',immediateRender:false},t),
+      slideL:(e,t)=>tl.fromTo(e,{opacity:0,x:46},{opacity:1,x:0,duration:.42,ease:'power2.out',immediateRender:false},t),
+      pulse:(e,t)=>tl.fromTo(e,{scale:1},{scale:1.14,duration:.18,yoyo:true,repeat:1,ease:'sine.inOut',immediateRender:false},t),
     };
     SESS.forEach(ss=>{
       const a=ss.s-.3, b=ss.e-.1, bg='#bbg-'+ss.bg, I=BG_IN[ss.bg];

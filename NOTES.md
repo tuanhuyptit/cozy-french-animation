@@ -80,6 +80,11 @@ Tự động: skill `skills/cozy-french-episode` (người dùng chỉ gửi voi
 - **Đồ trang trí trên bàn** (`DECOR` trong demo, dùng chung mọi cảnh ngồi): `drapeau` cờ Pháp nhỏ bay (`.fanion`, 4 khung sóng) · `macarons` · `boule` boule à neige tháp Eiffel (`.gflake`) · `bougie` nến cắm chai rượu bọc rơm (`.cflame` + quầng sáng riêng) · `croissants` · `fleurs` bình tulip (`.tige` đung đưa) · `livres` chồng sách + kính tròn · `theiere` ấm trà chấm bi (`.vapeur` hơi nước). Đặt giữa hai nhân vật: ô trái x 770, ô phải x 1130, ô giữa x 960 — cảnh có `busy:true` (`biblio` đèn, `bureau` laptop, `cinema` bỏng ngô) chỉ có 2 ô. `episode.json` `"decor": [...]`; `pick-setup.mjs` tự bốc 2 món (không trùng cặp tập trước), `--decor a,b` / `--decor none`.
 - Bảng giải thích thêm 2 kiểu: `idiom` (expression imagée: mot à mot → en vrai, mũi tên vẽ ra) và `order` (Remets dans l'ordre : chữ xáo trộn rồi câu ghép dần từng chữ).
 
+## Cảnh, trang phục, bảng mới (2026-11-13)
+- 26 cảnh ngồi (+ `fromagerie` tiệm phô mai, bảng phấn "Fromages du jour", tủ kính · `guinguette` quán ven sông hoàng hôn, dây đèn, cờ đuôi nheo, thuyền đèn lồng `.boat`, đom đóm `.firefly`, bàn khăn `url(#gingham)` · `laverie` tiệm giặt, máy giặt quay đồ `.spin`, neon, đồng hồ `.clockhand`, bọt `.mote`). Chỉ dùng class chuyển động có sẵn.
+- 16 trang phục mỗi người: Léa + `vichy` (váy vichy đỏ, hoa văn `#gingham`) · `fleurs` (blouse hoa nhí, hoa văn mới `#fleurette`) · `camel` (cổ lọ camel + dây chuyền); Mathieu + `rouille` (len cổ khoá kéo gỉ sắt) · `canard` (sơ mi lanh xanh cổ vịt) · `jacquard` (len Fair Isle). Có chân/giày khi đi dạo; luật tránh trùng tông trong `pick-setup.mjs`.
+- Bảng giải thích thêm 5 kiểu: `gender` (le/la hai cột), `falsefriend` (faux ami gạch ✗ → nghĩa thật ✓), `pronounce` (âm tiết + IPA + chữ câm "muet" + nảy theo nhịp), `register` (bậc thang familier/courant/soutenu), `match` (nối cặp Pháp–Anh). Hiệu ứng mới `slideL`, `pulse`.
+
 ## Trạng thái (2026-11-06)
 - 2026-11-06: thêm 4 bối cảnh (chalet, boulangerie, train, quai), `new-episode.mjs`, `assemble.mjs`, skill `cozy-french-episode`; build cảnh báo khi 2 từ vựng < 3 s. Sau đó: model turbo, `vocab-help.mjs` (IPA + cấp độ CEFR), biểu cảm (8) + bong bóng minh hoạ (24).
 - Xong: demo trình duyệt (10 bối cảnh, 10 trang phục), video thử 34 s đầu của voice `4f.mp3` (`cozy-ep01-test-30s.mp4`), script transcribe + build.
