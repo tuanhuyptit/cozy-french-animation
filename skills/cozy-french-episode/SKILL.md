@@ -1,6 +1,6 @@
 ---
 name: cozy-french-episode
-description: Biến một file voice podcast của kênh The Cozy French (Léa & Mathieu nói tiếng Pháp) thành video hoạt hình hoàn chỉnh — transcribe, chia phụ đề, dịch tiếng Anh, chọn từ vựng B1–B2, chọn bối cảnh + trang phục, build HyperFrames và render MP4. Dùng khi người dùng gửi/chỉ đường dẫn một file voice (mp3, m4a, wav) cho The Cozy French, hoặc nói "làm tập mới", "làm video từ voice này", "tập Cozy French mới". Không dùng để sửa hình nhân vật/bối cảnh (sửa trực tiếp demo-animation-style.html).
+description: Biến một file voice podcast của kênh The Cozy French (Léa & Mathieu nói tiếng Pháp) thành video hoạt hình hoàn chỉnh — transcribe, chia phụ đề, dịch tiếng Anh, chọn từ vựng B1–B2, chọn bối cảnh + trang phục, build HyperFrames và render MP4. Dùng khi người dùng gửi/chỉ đường dẫn một file voice (mp3, m4a, wav) cho The Cozy French, hoặc nói "làm tập mới", "làm video từ voice này", "tập Cozy French mới". Không dùng để sửa hình nhân vật/bối cảnh (sửa trực tiếp demo-animation-style.html). Không dùng cho kênh Cozy French Radio (chỉ có Léa nói một mình) — cái đó là cozy-radio-episode.
 ---
 
 # The Cozy French — từ voice ra video
