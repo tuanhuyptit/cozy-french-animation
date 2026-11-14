@@ -62,6 +62,7 @@ ln -s "$PWD/skills/cozy-french-episode" ~/.claude/skills/cozy-french-episode
 ln -s "$PWD/skills/cozy-french-voice" ~/.claude/skills/cozy-french-voice
 ln -s "$PWD/skills/cozy-french-script" ~/.claude/skills/cozy-french-script
 ln -s "$PWD/skills/cozy-radio-episode" ~/.claude/skills/cozy-radio-episode   # kênh Cozy French Radio (chỉ Léa), xem radio/README.md
+ln -s "$PWD/skills/cozy-radio-thumbnail" ~/.claude/skills/cozy-radio-thumbnail   # thumbnail Cozy French Radio (badge cam)
 ```
 
 Gửi script đối thủ (vd. "viết kịch bản từ ~/Downloads/script.txt, topic: night routine") → Claude lên kế hoạch Pháp hoá, chờ duyệt rồi viết kịch bản Léa & Mathieu ~20 phút (`cozy-french-script`, hướng dẫn chi tiết trong `skills/cozy-french-script/README.md`).

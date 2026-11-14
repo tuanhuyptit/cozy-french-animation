@@ -1,6 +1,6 @@
 ---
 name: cozy-french-thumbnail
-description: Create a YouTube thumbnail for The Cozy French (slow French podcast, B1-B2) from just a topic. Use whenever the user sends a topic, episode title or idea and wants a thumbnail, "thumb", or "ảnh bìa" for The Cozy French. Writes the French headline, picks the mood colour and scene, generates a 16:9 flat-vector image with the "Slow French Podcast" badge, and gives the YouTube title.
+description: Create a YouTube thumbnail for The Cozy French (slow French podcast, B1-B2) from just a topic. Use whenever the user sends a topic, episode title or idea and wants a thumbnail, "thumb", or "ảnh bìa" for The Cozy French. Writes the French headline, picks the mood colour and scene, generates a 16:9 flat-vector image with the "Slow French Podcast" badge, and gives the YouTube title. Not for the sister channel Cozy French Radio (Léa alone, orange badge) — use cozy-radio-thumbnail.
 ---
 
 # The Cozy French — Thumbnail

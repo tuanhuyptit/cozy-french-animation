@@ -10,6 +10,7 @@ Kênh chị em của The Cozy French: **chỉ có Léa**, nói về phát triể
 | `tools/build-demo.mjs` | Dựng `radio-demo.html` từ `scenes.mjs` và hình Léa trong demo kênh chính. Chạy: `node radio/tools/build-demo.mjs` |
 | `epNN/` | Thư mục từng tập Radio (riêng, không dùng chung số tập với `cozy-epNN/`). |
 | `../skills/cozy-radio-episode/` | Skill riêng của Radio. Cài: `ln -s "$PWD/skills/cozy-radio-episode" ~/.claude/skills/cozy-radio-episode` (chạy ở gốc repo). |
+| `../skills/cozy-radio-thumbnail/` | Skill thumbnail riêng của Radio (badge cam "Cozy French Radio", layout disque/studio). |
 | `radio-demo.html` | Thư viện cảnh để xem thử (file sinh ra, không sửa tay). Mở qua web server cục bộ vì file lớn: `python3 -m http.server -d radio 8766` rồi vào `http://localhost:8766/radio-demo.html`. Có ô chọn trang phục Léa. |
 
 ## Cảnh
