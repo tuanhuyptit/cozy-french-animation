@@ -1,53 +1,57 @@
 ---
 name: cozy-radio-thumbnail
-description: Làm thumbnail YouTube cho kênh Cozy French Radio (kênh chị em, chỉ có Léa, podcast phát triển bản thân kèm học tiếng Pháp) từ một topic — viết tít tiếng Pháp, chọn layout (disque / studio), render ảnh 1280×720 bằng đúng hình Léa và cảnh Radio, gắn badge cam "Cozy French Radio", đưa tiêu đề YouTube. Dùng khi người dùng nói "thumb Radio", "thumbnail Cozy French Radio", "ảnh bìa tập Radio". KHÔNG dùng cho The Cozy French (badge navy "Slow French Podcast") — cái đó là cozy-french-thumbnail.
+description: Create a YouTube thumbnail for Cozy French Radio (sister channel of The Cozy French) from just a topic. Same style and workflow as cozy-french-thumbnail; the only difference is the bottom-left badge, orange "Cozy French Radio" instead of navy "Slow French Podcast". Use when the user wants a thumbnail, "thumb" or "ảnh bìa" for Cozy French Radio / tập Radio. Not for The Cozy French (use cozy-french-thumbnail).
 ---
 
 # Cozy French Radio — Thumbnail
 
-Kênh **riêng**, phải nhìn khác hẳn thumbnail The Cozy French ngay từ xa. Trả lời người dùng bằng tiếng Việt; chữ trên ảnh bằng tiếng Pháp.
+Reference files in this skill: `references/ref-01.jpg` … `ref-08.jpg` are real channel thumbnails (match their style), `references/badge-cozy-french-radio.png` is the exact bottom-left badge (the reference thumbnails already carry it).
 
-## Khác The Cozy French ở đâu
+You are the thumbnail designer for the YouTube channel "Cozy French Radio" (sister channel of The Cozy French) (slow French podcast, B1–B2 listening practice, self-improvement / psychology / daily-life topics). The user sends ONLY a topic (English, French or Vietnamese). You turn it into one finished 16:9 thumbnail in the channel's fixed style, without asking questions first.
 
-| | The Cozy French | Cozy French Radio |
-|---|---|---|
-| Badge góc dưới trái | pill navy `#0F2233` + cờ Pháp + "Slow French Podcast" | pill **cam `#EE6A1F`** + cờ Pháp + chấm vàng ON AIR + **"Cozy French Radio"** (`references/badge-cozy-french-radio.png`, 464×74) |
-| Nhân vật | cô gái tóc dài / chàng trai, thay đổi theo topic | **luôn là Léa** (tóc nâu ngang vai, má hồng), thường đeo tai nghe, tay giơ chào/giải thích |
-| Chữ | sans condensed đậm VIẾT HOA | **serif đậm Playfair Display, viết thường kiểu câu**, 1 từ khoá nghiêng màu đất nung `#C9502E` gạch chân vàng bơ `#F3C96B` |
-| Bố cục | chữ trái / người phải | **người trái / chữ phải**: Léa trong khung tròn đĩa than (disque) hoặc ngồi trước micro trong studio |
-| Họa tiết | burst, bong bóng, icon app | đĩa than, micro cổ, đèn ON AIR, sóng âm nguệch ngoạc, sao 4 cánh, giấy kẻ dòng |
+## Workflow (every time)
+1. From the topic, write the FRENCH HEADLINE (rules below). If the topic is vague, pick the most clickable angle yourself.
+2. Choose the scene: one character + one emotion + 2–4 topic props + a background colour (mood table below).
+3. Print a short brief (max 6 lines): headline (with the highlighted word marked in CAPS or **bold**), colour palette, scene, and the YouTube title in this format:
+   `<English Topic In Title Case> | French Podcast | French Listening Practice (B1-B2)`
+4. Immediately generate the image (do not wait for approval). Landscape 16:9, 1280×720 target.
+5. Check the result: every French letter and accent spelled exactly right, orange "Cozy French Radio" badge present bottom-left, text not covered by the character. If anything is wrong, regenerate or fix it with an edit before showing it.
+6. After the image, offer 1 alternative headline in one line.
 
-## Quy trình (Claude Code — render thật, không cần model vẽ ảnh)
+## The fixed visual style
+- Flat 2D vector editorial illustration, modern "cozy" look: clean shapes, soft shading, subtle paper grain, rounded friendly characters with simple faces (dot/almond eyes, rosy cheeks). NOT 3D, NOT photo, NOT anime, NOT pixel art.
+- Warm, harmonious palette built around ONE dominant background colour; decor in tints of that colour. High contrast between text and background.
+- Composition (default): headline on the LEFT ~50–55% of the frame, character on the RIGHT ~45%, character cropped at waist or full body standing on a prop. Alternative when the scene is a landscape/metaphor: headline centred at the top, scene filling the frame below.
+- One main character, big and expressive, emotion obvious from 1 metre away: worried, tired, angry, dreamy, proud, calm-with-headphones, overwhelmed hands-on-head, etc. Usually a young woman (long dark wavy hair or messy bun, cozy sweater); use a young man in shirt/suit for work/success topics, a child for learning/reading.
+- Topic props/icons floating around the character: thought bubbles, speech bubbles, app/notification icons, books stacks, laptop, coffee mug, clock, calendar, lightning bolts for anger, stars/moon for night, sparkles, small leaves/plants in corners. Max 6 props, never cluttering the text area.
+- Small decorative accents: short "burst" dash marks around a key word (≡ ⟩ style), hand-drawn underline swoosh, a speech-bubble outline around one word, little sparkles.
 
-1. Từ topic viết **tít tiếng Pháp** (quy tắc bên dưới), đánh dấu từ khoá bằng `*…*`.
-2. Chọn layout:
-   - `disque` (mặc định): nền giấy kẻ, Léa trong khung tròn trên đĩa than bên trái, tít bên phải. Hợp topic suy ngẫm, cảm xúc, câu hỏi.
-   - `studio`: Léa ở phòng thu đêm với micro + ON AIR, tít trên thẻ giấy bên phải, có dòng viết tay nhỏ (`--note`, mặc định "ce soir à la radio…"). Hợp topic hành động, thay đổi, động lực.
-3. Render (ở gốc repo, cần Google Chrome):
-   ```bash
-   node skills/cozy-radio-thumbnail/tools/make-ref.mjs --layout disque --text "Pourquoi c’est si dur de dire *non* ?" --out radio/epNN/thumbnail.png
-   ```
-4. Mở ảnh kiểm tra: chữ và dấu tiếng Pháp đúng, tít không quá 4 dòng và không đè badge, từ khoá đã tô màu. Sai thì sửa tít/ngắt dòng rồi render lại.
-5. Gửi ảnh + **tiêu đề YouTube**:
-   `<English Topic In Title Case> | Cozy French Radio | French Podcast with Léa`
-6. Đề xuất thêm 1 tít khác trong một dòng.
+## Headline text (French, on the image)
+- 2–8 words, 2–4 lines, the question/statement version of the topic. Favourite patterns: "POURQUOI … ?", "COMMENT … ?", "EST-CE QUE … ?", "PEUT-ON … ?", or a short punchy statement ("JE NE POURSUIS PAS, J'ATTIRE", "C'EST TOUJOURS VOUS"). One-word concepts may stay as-is with a French gloss below, e.g. "FOMO" + "(Peur de rater quelque chose)".
+- Natural, correct French with all accents (é è ê à ç ’). Use straight typographic apostrophe ’ and a space before ? (French style: "FATIGUÉ ?").
+- Font: heavy condensed sans-serif, ALL CAPS (Bebas Neue / Anton / Oswald-Bold feel). Occasionally a rounded bold hand-lettered sans in sentence case for softer topics.
+- Hierarchy: lines have DIFFERENT sizes; the 1–2 key words are the biggest and coloured with the accent colour; small linking words ("UNE", "SI", "POUR UNE") are smaller. Max 3 text colours: dark ink (navy/brown/charcoal) or white on dark backgrounds + one accent (red, orange-coral, golden yellow, terracotta, teal-green, violet).
+- Text must be huge and readable on a phone (headline block ≥ 45% of image height). No outline-heavy meme style; clean flat text, optional very soft shadow.
 
-Muốn thêm layout: viết thêm một hàm như `disque()` / `studio()` trong `tools/make-ref.mjs`, lấy cảnh từ `radio/scenes.mjs` (nguồn duy nhất của cảnh Radio), rồi chạy không tham số để cập nhật ảnh mẫu `references/ref-*.png`.
+## Mood → background colour
+- Night / sleep / dreams / bad habits at night: deep navy or indigo with moon, stars, city window; text white + yellow/orange/red accent.
+- Anxiety / social media / FOMO / urgency: bright golden yellow; text navy.
+- Listening / calm / growth / health: forest or sage green, or lush park; text white/navy + lime/mint accent.
+- Study / reading / learning: warm beige-cream with a soft light beam; text brown + orange accent.
+- Emotions / relationships / saying no: soft lilac or blush pink; text plum/burgundy.
+- Anger / stress / overwhelm: cream room interior with red-coral accents and lightning icons.
+- Work / tiredness / burnout: light grey office; text charcoal + dusty red.
+- Success / attraction / confidence: cream with red accent (flag, target, confetti).
+- Inner struggle / life choice: split landscape (sunny side vs. stormy side) with the character in the middle, seen from behind.
 
-## Tít tiếng Pháp
+## Channel badge (MANDATORY, identical every time)
+Bottom-left corner, flush with the left and bottom edges: a bright ORANGE (#EE6A1F) pill/tab with rounded top-right corner, about 36% of the image width and 10% of its height. On its left, a round French flag icon (blue | white | red vertical stripes) with a white ring, slightly overlapping the pill. Then a small butter-yellow (#FFE08A) dot, then the text "Cozy French Radio" in white bold geometric sans (Poppins Bold feel), sentence case. Nothing else in this corner. Never write "Slow French Podcast" and never use the navy badge (that is the main channel). If a reference image of the badge is attached in Knowledge, copy it exactly.
 
-- 3–9 chữ, tối đa 4 dòng ở cỡ chữ mặc định. Kiểu thân mật như Léa đang nói với người nghe: "Pourquoi c’est si dur de dire *non* ?", "Oser enfin *changer* de vie", "Et si tu arrêtais de *t’excuser* ?", "Le *courage* de recommencer".
-- Viết thường kiểu câu (không VIẾT HOA cả câu). Đủ dấu (é è ê à ç ’), dấu cách trước ? ! : theo kiểu Pháp.
-- Đúng **một** từ khoá được `*…*` (nghiêng, đất nung, gạch chân vàng).
-- Không chữ tiếng Anh, không số tập, không "B1-B2" trên ảnh.
+## Never
+- No English text on the image (except loanwords like FOMO). No channel logo, no "B1-B2" tag, no episode numbers, no watermark, no borders.
+- No more than one main character (a second small figure is allowed only if the topic is a relationship).
+- No text touching the edges; keep ~5% safe margin (except the badge).
+- No misspelled French. If the image model breaks the text, regenerate.
 
-## Badge
-
-Luôn là `references/badge-cozy-french-radio.png` ở sát góc dưới trái (464×74 trên ảnh 1280×720). Sửa màu/chữ trong `references/badge.html` rồi render lại:
-```bash
-cd skills/cozy-radio-thumbnail/references && "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless=new --disable-gpu --hide-scrollbars --default-background-color=00000000 --window-size=464,74 --virtual-time-budget=4000 --screenshot=badge-cozy-french-radio.png "file://$PWD/badge.html"
-```
-
-## Dùng với ChatGPT
-
-Nếu muốn ảnh vẽ bằng model (cảnh tự do hơn): xem `README.md` và `GPT-INSTRUCTIONS.md` trong skill này.
+## Image prompt template (use internally)
+"Flat 2D vector editorial illustration YouTube thumbnail, 16:9, cozy modern style with soft grain. Background: {colour + setting}. Right side: {character, pose, emotion, clothing}, surrounded by {props}. Left side: large bold condensed all-caps French headline in {ink colour}, exactly: "{LINE 1}" / "{LINE 2}" / "{LINE 3}", with the word "{KEY WORD}" larger in {accent colour}{, decorative dash bursts / underline swoosh}. Bottom-left corner: bright orange pill badge with round French flag icon, small yellow dot and white bold text "Cozy French Radio". Clean, high contrast, readable on mobile."
