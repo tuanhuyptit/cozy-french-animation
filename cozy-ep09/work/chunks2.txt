@@ -1,0 +1,396 @@
+0|lea|Bonjour tout le monde et bienvenue sur The Cozy French !
+1|lea|Moi, c'est Léa.
+2|mat|Et moi, c'est Mathieu.
+3|mat|Nous sommes heureux de vous retrouver,
+4|mat|ou de vous accueillir pour la première fois.
+5|lea|Aujourd'hui, nous allons parler d'une personne
+6|lea|que vous connaissez déjà assez bien : vous-même.
+7|mat|J'ai préparé ma présentation.
+8|mat|Mon prénom, mon activité et mon fromage préféré.
+9|lea|Le fromage fait partie des informations indispensables ?
+10|mat|Pour éviter les malentendus lors d'un dîner, absolument.
+11|lea|Nous allons peut-être commencer par quelques informations
+12|lea|qui intéressent aussi les personnes sans plateau de fromages.
+13|lea|Cette conversation est pour les niveaux B1 et B2.
+14|lea|Nous allons parler lentement
+15|lea|et expliquer des expressions du quotidien.
+16|mat|À la fin, vous saurez vous présenter,
+17|mat|parler de vos goûts
+18|mat|et décrire quelques aspects de votre personnalité.
+19|lea|Vous pourrez aussi poser une question
+20|lea|pour continuer la conversation.
+21|mat|Pas besoin de raconter toute votre histoire.
+22|mat|Quelques phrases peuvent donner
+23|mat|envie de vous connaître davantage.
+24|lea|Vous entendrez des exemples pour parler de votre origine,
+25|lea|de votre activité et de vos projets.
+26|mat|Et si vous cherchez vos mots,
+27|mat|vous pouvez prendre votre temps.
+28|mat|C'est une conversation,
+29|mat|personne ne va lancer un chronomètre.
+30|lea|Si vous ne comprenez pas tout, continuez à écouter.
+31|lea|Les situations vont vous aider.
+32|mat|Puis vous pourrez choisir
+33|mat|les phrases qui vous ressemblent.
+34|mat|Vous pouvez même laisser la rubrique fromage de côté.
+35|lea|Pour commencer,
+36|lea|pensez à une chose que vous aimez faire
+37|lea|et dont vous pourriez parler simplement.
+38|mat|Jardiner, regarder des matchs,
+39|mat|réparer des vélos
+40|mat|ou préparer un plat que vous connaissez bien.
+41|lea|Quel détail aimeriez-vous partager avec une personne
+42|lea|qui vous rencontre pour la première fois ?
+43|mat|Gardez votre idée pour notre exercice.
+44|mat|Et dites-nous d'où vous écoutez cet épisode :
+45|mat|nous aimons découvrir qui se trouve de l'autre côté.
+46|lea|Samedi, je suis allée à la bibliothèque du quartier
+47|lea|pour rencontrer les nouveaux bénévoles.
+48|lea|Nous étions autour d'une table, près des fenêtres.
+49|mat|Tu connaissais déjà quelqu'un ?
+50|lea|Une seule personne.
+51|lea|L'animatrice nous a proposé de nous présenter.
+52|lea|Une participante a commencé par dire
+53|lea|qu'elle était originaire de Rennes.
+54|mat|Être originaire d'un endroit,
+55|mat|c'est venir de cet endroit, avoir ses origines là-bas.
+56|lea|Oui. Par exemple, mon voisin est originaire de Grenoble,
+57|lea|mais il vit ici depuis plusieurs années.
+58|mat|Et la participante venait d'arriver dans le quartier ?
+59|lea|Elle s'y était installée quelques mois auparavant.
+60|lea|S'installer quelque part, c'est venir y vivre,
+61|lea|y établir sa vie.
+62|mat|Autre exemple : après ses études,
+63|mat|ma cousine s'est installée près de la mer.
+64|lea|Ensuite, c'était mon tour.
+65|lea|J'ai dit mon prénom
+66|lea|et que je travaillais dans la communication.
+67|lea|Puis je me suis arrêtée.
+68|mat|Tu avais terminé ta présentation très efficacement.
+69|lea|Un peu trop efficacement.
+70|lea|J'avais l'impression de remplir
+71|lea|deux cases sur un formulaire.
+72|mat|L'animatrice t'a posé une autre question ?
+73|lea|Oui. Elle m'a demandé
+74|lea|ce qui m'avait donné envie de venir.
+75|lea|J'ai parlé un peu de mon parcours.
+76|mat|Un parcours,
+77|mat|c'est l'ensemble des étapes
+78|mat|qu'une personne a traversées dans sa vie,
+79|mat|ses études ou son travail.
+80|lea|Exactement. Par exemple,
+81|lea|son parcours professionnel l'a menée
+82|lea|de la restauration à l'organisation d'événements.
+83|mat|Et toi, tu as raconté quelles étapes ?
+84|lea|J'ai expliqué que j'avais participé
+85|lea|à quelques projets de quartier.
+86|lea|Puis j'ai ajouté que j'aimais
+87|lea|lire dans des endroits calmes.
+88|mat|Un détail plus personnel.
+89|lea|Oui. La participante de Rennes a souri.
+90|lea|Elle m'a demandé
+91|lea|si j'avais déjà essayé le petit jardin derrière la bibliothèque.
+92|mat|Voilà une bonne réponse à ta présentation.
+93|lea|Sa question m'a mise à l'aise.
+94|lea|Mettre quelqu'un à l'aise,
+95|lea|c'est l'aider à se sentir détendu et bien accueilli.
+96|mat|Par exemple,
+97|mat|notre professeur nous a mis à l'aise
+98|mat|en nous laissant poser nos questions avant le début du cours.
+99|lea|Nous avons continué à discuter
+100|lea|pendant que les autres allaient chercher les livres pour l'atelier.
+101|mat|Tu avais donc donné juste assez d'informations
+102|mat|pour ouvrir une porte.
+103|lea|Oui. Elle n'avait pas besoin de connaître tout mon parcours
+104|lea|pour trouver quelque chose à me demander.
+105|mat|Moi, c'était pendant un covoiturage
+106|mat|pour rejoindre des amis.
+107|mat|La personne assise à côté de moi
+108|mat|m'a demandé ce que j'aimais faire.
+109|lea|Tu as commencé par ton fromage préféré ?
+110|mat|J'ai résisté quelques secondes.
+111|mat|Puis j'ai dit
+112|mat|que j'avais un faible pour les recettes avec du fromage.
+113|lea|Avoir un faible pour quelque chose,
+114|lea|c'est l'apprécier particulièrement,
+115|lea|avoir une préférence pour cette chose.
+116|mat|Par exemple,
+117|mat|ma sœur a un faible pour les vieux films d'aventure.
+118|lea|Et la conversation est restée sur le fromage ?
+119|mat|Non. J'ai ajouté
+120|mat|que j'apprenais à préparer des plats au four.
+121|mat|Mon premier essai avait surtout
+122|mat|demandé de nettoyer le four.
+123|lea|Un début plein de possibilités.
+124|mat|Depuis, j'ai pris goût à la cuisine.
+125|mat|Prendre goût à une activité,
+126|mat|c'est commencer à l'apprécier de plus en plus.
+127|lea|Par exemple,
+128|lea|j'ai pris goût aux promenades en forêt
+129|lea|après plusieurs sorties avec une amie.
+130|mat|La personne à côté de moi m'a parlé
+131|mat|d'un plat qu'elle préparait avec sa fille.
+132|mat|Nous avons comparé nos habitudes.
+133|lea|Tu as appris des choses sur elle aussi.
+134|mat|Oui. Elle aimait choisir les épices,
+135|mat|tandis que sa fille s'occupait de la présentation.
+136|mat|Puis elle m'a demandé comment je trouvais mes recettes.
+137|lea|Tu as pu parler d'autre chose que de ton travail.
+138|mat|Exactement. Et elle se passionnait
+139|mat|pour les plantes aromatiques.
+140|mat|Elle connaissait plusieurs façons
+141|mat|de les utiliser en cuisine.
+142|lea|Se passionner pour un sujet,
+143|lea|c'est s'y intéresser avec beaucoup d'enthousiasme.
+144|mat|Autre exemple :
+145|mat|mon frère se passionne
+146|mat|pour l'histoire des chemins de fer
+147|mat|et visite souvent des musées.
+148|lea|Tu n'étais pas obligé de connaître toutes ces plantes
+149|lea|pour participer à la conversation.
+150|mat|Non. J'ai demandé lesquelles elle cultivait chez elle.
+151|mat|Elle m'a même expliqué pourquoi
+152|mat|mon basilic avait mauvaise mine.
+153|lea|Tu es parti avec une nouvelle recette ?
+154|mat|Et une question importante
+155|mat|pour mes prochaines présentations :
+156|mat|est-ce que vous savez sauver un basilic ?
+157|lea|Ce qui me plaît dans ton histoire,
+158|lea|c'est que vous avez parlé de choses ordinaires
+159|lea|avec de vrais détails.
+160|mat|Oui, mais je ne suis pas toujours aussi bavard.
+161|mat|Quand je rencontre beaucoup de personnes,
+162|mat|je suis plutôt réservé.
+163|lea|Être plutôt réservé,
+164|lea|c'est ne pas montrer immédiatement
+165|lea|toutes ses pensées ou tous ses sentiments.
+166|lea|On reste un peu discret.
+167|mat|Par exemple,
+168|mat|elle est plutôt réservée avec les nouveaux collègues,
+169|mat|mais très drôle avec ses amis.
+170|lea|Et tu peux choisir ce que tu souhaites partager.
+171|lea|Personne n'a besoin de raconter
+172|lea|ses difficultés personnelles pour se présenter.
+173|mat|Parfois, je commence avec une petite information,
+174|mat|puis je sors de ma coquille
+175|mat|quand la conversation devient plus familière.
+176|lea|Sortir de sa coquille,
+177|lea|c'est devenir moins réservé
+178|lea|et oser davantage parler ou participer.
+179|mat|Par exemple, au fil des répétitions,
+180|mat|le nouveau membre de la chorale
+181|mat|est sorti de sa coquille.
+182|lea|Cela peut prendre du temps.
+183|lea|Une première conversation ne montre
+184|lea|qu'une partie de la personne.
+185|mat|Et dans une autre langue,
+186|mat|je peux savoir exactement ce que je veux dire
+187|mat|sans trouver mes mots.
+188|lea|Trouver ses mots,
+189|lea|c'est réussir à formuler son idée
+190|lea|avec les mots qui conviennent.
+191|mat|Par exemple,
+192|mat|pour expliquer pourquoi ce cadeau m'avait touché,
+193|mat|j'ai eu besoin d'un moment pour trouver mes mots.
+194|lea|Vous pouvez dire :
+195|lea|« Attendez, je cherche comment l'expliquer. »
+196|lea|Ou utiliser un exemple à la place du mot précis.
+197|mat|Je peux parler d'un plat que j'aime
+198|mat|sans connaître le nom de chaque ustensile.
+199|lea|Oui. Et une question de l'autre personne
+200|lea|peut t'aider à préciser ton idée.
+201|mat|C'est rassurant de penser
+202|mat|que je peux montrer ma personnalité avec des phrases simples.
+203|lea|Essayons une scène.
+204|lea|Nous arrivons à une rencontre dans un club de quartier.
+205|lea|Nous ne nous connaissons pas encore.
+206|mat|Vous allez pouvoir répondre à ma question avant Léa.
+207|mat|Bonjour, moi, c'est Mathieu.
+208|mat|Vous venez pour la première fois ?
+209|lea|À vous !
+210|lea|Présentez-vous en une ou deux phrases,
+211|lea|puis posez une question.
+212|lea|Prenez quelques secondes.
+213|mat|Vous pouvez commencer par : « Bonjour, je m'appelle…
+214|mat|Et vous, vous… ? »
+215|lea|Bonjour, je m'appelle Léa.
+216|lea|Oui, c'est ma première visite.
+217|lea|Et vous, vous connaissez déjà le club ?
+218|mat|Je suis venu une fois.
+219|mat|J'aime bien ces rencontres
+220|mat|pour faire connaissance avec les gens du quartier.
+221|lea|Faire connaissance,
+222|lea|c'est commencer à découvrir une personne,
+223|lea|en échangeant avec elle.
+224|mat|Par exemple,
+225|mat|nous avons fait connaissance
+226|mat|pendant la préparation du repas des voisins.
+227|lea|Vous habitez près d'ici ?
+228|mat|Oui, à dix minutes à pied.
+229|mat|Et vous ?
+230|lea|Moi aussi, assez près.
+231|lea|Je travaille dans la communication
+232|lea|et, pendant mon temps libre,
+233|lea|j'aime lire ou visiter des expositions.
+234|mat|Nous avons un point commun : j'aime aussi les expositions,
+235|mat|surtout quand je peux prendre mon temps.
+236|lea|Un point commun,
+237|lea|c'est quelque chose que plusieurs personnes partagent :
+238|lea|un goût, une expérience ou une caractéristique.
+239|mat|Par exemple, nous avons un point commun :
+240|mat|nous avons tous les deux grandi près de la montagne.
+241|lea|Vous avez vu une exposition intéressante récemment ?
+242|mat|Oui, une exposition de photos du quartier.
+243|mat|Je peux vous montrer l'adresse.
+244|lea|Avec plaisir, merci !
+245|mat|Voilà. Tu as partagé quelques informations
+246|mat|et posé une question liée à ma réponse.
+247|lea|Nous pouvons maintenant continuer
+248|lea|sans réciter une présentation préparée du début à la fin.
+249|mat|Si je veux préparer quelques phrases avant une rencontre,
+250|mat|qu'est-ce que je garde ?
+251|lea|Tu peux choisir quatre petits éléments :
+252|lea|ton prénom, ton activité,
+253|lea|un goût personnel et un détail
+254|lea|sur lequel on peut te poser une question.
+255|mat|Pour l'activité, je peux dire :
+256|mat|« Je travaille dans… »
+257|mat|Puis préciser une chose que je fais.
+258|lea|Oui. Ou : « Je suis étudiant »,
+259|lea|« Je cherche un emploi », « Je suis à la retraite ».
+260|lea|Chacun choisit ce qui décrit sa situation.
+261|mat|Et pour les goûts, je peux donner un exemple.
+262|mat|« J'aime cuisiner.
+263|mat|En ce moment, j'essaie de réussir une pâte à tarte. »
+264|lea|Exactement. Tu peux aussi parler
+265|lea|de quelque chose auquel tu tiens.
+266|mat|Tenir à quelque chose,
+267|mat|c'est lui accorder de l'importance ou y être attaché.
+268|lea|Par exemple,
+269|lea|je tiens à nos repas du dimanche
+270|lea|parce qu'ils nous permettent de nous retrouver.
+271|mat|Je pourrais dire que je tiens
+272|mat|à garder du temps pour voir mes amis.
+273|mat|Cela explique un peu ma manière de vivre.
+274|lea|Et si tu veux parler de l'avenir,
+275|lea|tu peux partager un projet, même modeste.
+276|mat|J'ai pour projet de suivre un atelier de cuisine.
+277|mat|Avoir pour projet de faire quelque chose,
+278|mat|c'est prévoir ou souhaiter le réaliser.
+279|lea|Par exemple,
+280|lea|nous avons pour projet
+281|lea|de visiter cette région au printemps.
+282|mat|Je peux aussi dire :
+283|mat|« Pour l'instant, je réfléchis encore. »
+284|mat|Je n'ai pas besoin d'avoir déjà tout organisé.
+285|lea|Ensuite, adapte tes phrases à la situation.
+286|lea|Au club de lecture,
+287|lea|tu parleras peut-être d'abord des livres.
+288|lea|Pour une mission, de ton expérience.
+289|mat|Et je peux laisser une question à l'autre personne :
+290|mat|« Et vous,
+291|mat|qu'est-ce qui vous plaît dans cette activité ? »
+292|lea|Oui, puis écouter sa réponse
+293|lea|avant de revenir à ton histoire.
+294|mat|Donc, je prépare quelques points de départ,
+295|mat|mais je garde de la place
+296|mat|pour la personne en face de moi.
+297|lea|C'est une bonne façon d'essayer.
+298|lea|Ta présentation peut évoluer au fil de l'échange.
+299|lea|Maintenant, voici un modèle : « Je m'appelle…
+300|lea|En ce moment, je…
+301|lea|Pendant mon temps libre, j'aime…
+302|lea|Et vous ? »
+303|mat|Je m'appelle Mathieu.
+304|mat|En ce moment,
+305|mat|je prépare des projets avec des associations.
+306|mat|Pendant mon temps libre,
+307|mat|j'aime cuisiner et partager un repas.
+308|lea|Tu peux ajouter ton petit détail :
+309|lea|« J'apprends à faire une pâte à tarte. »
+310|mat|Oui. Et vous, vous aimez cuisiner ?
+311|mat|Voilà, j'ai rendu la parole.
+312|lea|Moi, c'est Léa.
+313|lea|Je travaille dans la communication.
+314|lea|J'aime lire dans des endroits calmes
+315|lea|et je cherche toujours un nouveau coin agréable.
+316|mat|À vous. Dites trois ou quatre phrases à voix haute.
+317|mat|Vous pouvez remplacer nos exemples
+318|mat|par vos propres activités.
+319|lea|Si vous préférez, commencez par votre ville,
+320|lea|vos études, votre famille ou un projet.
+321|lea|Partagez seulement ce qui vous convient.
+322|mat|Puis ajoutez une question courte.
+323|mat|Vous n'avez pas besoin de porter
+324|mat|toute la conversation sur vos épaules.
+325|lea|Prenez quelques secondes et essayez
+326|lea|une nouvelle version avec un autre détail.
+327|mat|Revenons sur cinq expressions.
+328|mat|Écoutez, puis répétez avec nous.
+329|lea|D'abord, mettre à l'aise.
+330|lea|À la bibliothèque,
+331|lea|une question chaleureuse m'a aidée à me détendre.
+332|mat|C'est aider une personne à se sentir bien accueillie.
+333|mat|Nouvel exemple :
+334|mat|son sourire nous a mis à l'aise dès notre arrivée.
+335|lea|On répète : mettre à l'aise.
+336|lea|Vous pouvez dire : « Cette personne me met à l'aise. »
+337|mat|Deuxième expression : sortir de sa coquille.
+338|mat|Je parle parfois davantage
+339|mat|quand je connais un peu les autres.
+340|lea|C'est devenir moins réservé et participer plus facilement.
+341|lea|Exemple : pendant le séjour,
+342|lea|il est sorti de sa coquille
+343|lea|et a proposé plusieurs activités.
+344|mat|On répète : sortir de sa coquille.
+345|mat|Cela peut se faire progressivement, au fil des rencontres.
+346|lea|Troisième expression : trouver ses mots.
+347|lea|On cherche comment exprimer
+348|lea|ce qu'on pense ou ce qu'on ressent.
+349|mat|Exemple : devant cette belle surprise,
+350|mat|elle a mis quelques secondes à trouver ses mots.
+351|lea|On répète : trouver ses mots.
+352|lea|Vous pouvez demander un moment : « Je cherche mes mots. »
+353|mat|Quatrième expression : prendre goût à.
+354|mat|J'ai commencé à apprécier la cuisine
+355|mat|en essayant plusieurs plats.
+356|lea|C'est développer du plaisir pour quelque chose.
+357|lea|Exemple : depuis qu'elle accompagne son frère,
+358|lea|elle a pris goût au jardinage.
+359|mat|On répète : prendre goût à.
+360|mat|Vous pouvez raconter comment un de vos loisirs a commencé.
+361|lea|Enfin, avoir un faible pour.
+362|lea|Tu apprécies particulièrement
+363|lea|les recettes avec du fromage.
+364|mat|C'est avoir une préférence marquée.
+365|mat|Exemple : j'ai un faible pour les petites librairies
+366|mat|où l'on peut discuter avec les vendeurs.
+367|lea|On répète : avoir un faible pour.
+368|lea|Choisissez maintenant une expression
+369|lea|et faites une phrase qui parle de vous.
+370|mat|Un souvenir, une habitude ou un goût suffit.
+371|mat|C'est déjà une petite partie de votre histoire.
+372|lea|Pour votre commentaire,
+373|lea|présentez-vous en trois ou quatre phrases.
+374|lea|Ajoutez un petit détail qui vous ressemble.
+375|mat|Vous pouvez parler d'un loisir,
+376|mat|d'un projet ou d'une chose
+377|mat|que vous appréciez dans votre quotidien.
+378|lea|Si cette conversation vous a aidés,
+379|lea|abonnez-vous à The Cozy French
+380|lea|pour continuer à pratiquer avec nous.
+381|mat|Vous pouvez aussi reprendre notre rencontre
+382|mat|au club et changer les réponses.
+383|mat|Écoutez, répétez, puis essayez avec vos propres mots.
+384|lea|Merci d'avoir partagé ce moment.
+385|lea|Prenez soin de vous et à très bientôt !
+386|mat|Au revoir tout le monde !
+387|mat|Je crois que ma présentation est prête.
+388|lea|Il reste ta rubrique préférée.
+389|lea|Alors, Mathieu,
+390|lea|quel fromage est-ce que tu aimes particulièrement ?
+391|mat|Le comté.
+392|mat|Tu veux la réponse courte
+393|mat|ou l'histoire de mon dernier passage chez le fromager ?
+394|lea|Commençons par une petite question.
+395|lea|Qu'est-ce qu'il t'a conseillé ?

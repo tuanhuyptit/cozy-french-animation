@@ -1,0 +1,396 @@
+0|Hello everyone and welcome to The Cozy French!|
+1|I'm Léa.|
+2|And I'm Mathieu.|
+3|We're happy to see you again,|
+4|or to welcome you for the first time.|
+5|Today, we're going to talk about someone|
+6|you already know pretty well: yourself.|
+7|I've prepared my introduction.|e=idee
+8|My first name, what I do, and my favourite cheese.|i=repas:mon fromage préféré
+9|Is cheese part of the essential information?|e=surpris
+10|To avoid misunderstandings at a dinner, absolutely.|r=rire
+11|Maybe we'll start with some information|
+12|that also interests people without a cheese platter.|
+13|This conversation is for B1 and B2 levels.|
+14|We'll speak slowly|
+15|and explain everyday expressions.|
+16|By the end, you'll know how to introduce yourself,|
+17|talk about your tastes|
+18|and describe a few aspects of your personality.|
+19|You'll also be able to ask a question|
+20|to keep the conversation going.|
+21|No need to tell your whole life story.|
+22|A few sentences can make|
+23|people want to get to know you better.|
+24|You'll hear examples to talk about where you're from,|
+25|what you do and your plans.|
+26|And if you're searching for your words,|
+27|you can take your time.|
+28|It's a conversation,|
+29|nobody's going to start a stopwatch.|e=rire
+30|If you don't understand everything, keep listening.|
+31|The situations will help you.|
+32|Then you'll be able to choose|
+33|the sentences that sound like you.|
+34|You can even leave out the cheese section.|
+35|To start,|
+36|think of something you like doing|
+37|and could talk about simply.|
+38|Gardening, watching matches,|i=nature:jardiner
+39|repairing bikes|
+40|or cooking a dish you know well.|
+41|What detail would you like to share with someone|
+42|who's meeting you for the first time?|e=question
+43|Keep your idea for our exercise.|
+44|And tell us where you're listening to this episode from:|
+45|we love finding out who's on the other side.|e=coeur
+46|On Saturday, I went to the neighbourhood library|i=lecture:la bibliothèque
+47|to meet the new volunteers.|
+48|We were around a table, near the windows.|
+49|Did you already know anyone?|e=question
+50|Just one person.|
+51|The organiser suggested we introduce ourselves.|
+52|One participant started by saying|
+53|that she was originally from Rennes.|
+54|To be originally from a place|B={"mode":"word","note":"= venir de cet endroit, avoir ses origines là-bas","icon":"voyage"}
+55|means to come from that place, to have your roots there.|
+56|Yes. For example, my neighbour is originally from Grenoble,|
+57|but he's been living here for several years.|BE
+58|And had the participant just arrived in the neighbourhood?|
+59|She had moved there a few months earlier.|
+60|To settle somewhere means to come and live there,|
+61|to build your life there.|
+62|Another example: after her studies,|
+63|my cousin settled near the sea.|
+64|Then it was my turn.|
+65|I said my first name|
+66|and that I worked in communications.|i=travail:la communication
+67|Then I stopped.|
+68|You'd finished your introduction very efficiently.|
+69|A bit too efficiently.|e=gene
+70|I felt like I was filling in|
+71|two boxes on a form.|r=rire
+72|Did the organiser ask you another question?|
+73|Yes. She asked me|
+74|what had made me want to come.|
+75|I talked a bit about my background.|
+76|A background, a path,|B={"mode":"word","bg":"carnet","note":"= l'ensemble des étapes d'une vie, des études ou du travail","icon":"etudes"}
+77|is all the stages|
+78|a person has gone through in their life,|
+79|their studies or their work.|
+80|Exactly. For example,|
+81|her professional path took her|
+82|from the restaurant business to organising events.|BE
+83|And you, which stages did you talk about?|
+84|I explained that I'd taken part|
+85|in a few neighbourhood projects.|
+86|Then I added that I liked|
+87|reading in quiet places.|
+88|A more personal detail.|
+89|Yes. The participant from Rennes smiled.|
+90|She asked me|
+91|if I'd already tried the little garden behind the library.|
+92|Now that's a good reply to your introduction.|
+93|Her question put me at ease.|e=coeur
+94|To put someone at ease|B={"mode":"word","note":"= l'aider à se sentir détendu et bien accueilli","icon":"amis"}
+95|means helping them feel relaxed and welcome.|
+96|For example,|
+97|our teacher put us at ease|
+98|by letting us ask our questions before the class started.|BE
+99|We kept chatting|
+100|while the others went to get the books for the workshop.|
+101|So you'd given just enough information|
+102|to open a door.|e=idee
+103|Yes. She didn't need to know my whole background|
+104|to find something to ask me.|
+105|For me, it was during a carpool|i=voiture:un covoiturage
+106|to join some friends.|
+107|The person sitting next to me|
+108|asked me what I liked doing.|
+109|Did you start with your favourite cheese?|e=question
+110|I resisted for a few seconds.|e=rire
+111|Then I said|
+112|that I have a soft spot for recipes with cheese.|
+113|To have a soft spot for something|B={"mode":"idiom","bg":"craie","expr":"avoir un faible pour","literal":"to have a weak for","meaning":"to have a soft spot for; to really like","ex":"J'ai un faible pour les croissants aux amandes.","exEn":"I have a soft spot for almond croissants.","meaningAt":1}
+114|means appreciating it especially,|
+115|having a preference for that thing.|
+116|For example,|
+117|my sister has a soft spot for old adventure films.|BE
+118|And did the conversation stay on cheese?|
+119|No. I added|
+120|that I was learning to make oven-baked dishes.|i=repas:des plats au four
+121|My first attempt mostly|
+122|required cleaning the oven.|e=gene
+123|A beginning full of possibilities.|e=rire
+124|Since then, I've developed a taste for cooking.|
+125|To develop a taste for an activity|B={"mode":"word","bg":"carnet","note":"= commencer à l'apprécier de plus en plus","icon":"nature"}
+126|means starting to enjoy it more and more.|
+127|For example,|
+128|I've come to love walks in the forest|
+129|after several outings with a friend.|BE
+130|The person next to me told me|
+131|about a dish she made with her daughter.|i=famille:sa fille
+132|We compared our habits.|
+133|You learned things about her too.|
+134|Yes. She liked choosing the spices,|
+135|while her daughter took care of the presentation.|
+136|Then she asked me how I found my recipes.|
+137|You got to talk about something other than your work.|
+138|Exactly. And she was passionate|
+139|about aromatic herbs.|
+140|She knew several ways|
+141|to use them in cooking.|
+142|To be passionate about a subject|
+143|means being interested in it with a lot of enthusiasm.|
+144|Another example:|
+145|my brother is passionate|
+146|about the history of railways|i=voyage:les chemins de fer
+147|and often visits museums.|
+148|You didn't have to know all those plants|
+149|to take part in the conversation.|
+150|No. I asked which ones she grew at home.|
+151|She even explained why|
+152|my basil was looking unwell.|e=triste
+153|Did you leave with a new recipe?|
+154|And an important question|
+155|for my next introductions:|
+156|do you know how to save a basil plant?|e=question r=rire
+157|What I like about your story|
+158|is that you talked about ordinary things|
+159|with real details.|
+160|Yes, but I'm not always so chatty.|
+161|When I meet a lot of people,|
+162|I'm rather reserved.|e=gene
+163|Being rather reserved|
+164|means not immediately showing|
+165|all your thoughts or all your feelings.|
+166|You stay a little discreet.|
+167|For example,|
+168|she's rather reserved with new colleagues,|i=travail:les nouveaux collègues
+169|but very funny with her friends.|
+170|And you can choose what you want to share.|
+171|Nobody needs to talk about|
+172|their personal difficulties to introduce themselves.|
+173|Sometimes, I start with a small piece of information,|
+174|then I come out of my shell|
+175|when the conversation gets more familiar.|
+176|To come out of your shell|B={"mode":"idiom","expr":"sortir de sa coquille","literal":"to exit from one's shell","meaning":"to open up; to become less shy","ex":"Au bout d'une semaine, la nouvelle stagiaire est sortie de sa coquille.","exEn":"After a week, the new intern came out of her shell.","meaningAt":1}
+177|means becoming less reserved|
+178|and daring to speak or take part more.|
+179|For example, over the rehearsals,|
+180|the new member of the choir|
+181|came out of his shell.|BE
+182|That can take time.|
+183|A first conversation only shows|
+184|part of the person.|
+185|And in another language,|
+186|I can know exactly what I want to say|
+187|without finding the words.|e=gene
+188|To find your words|B={"mode":"truefalse","bg":"carnet","q":"« Trouver ses mots », c'est retrouver un objet perdu.","answer":false,"reveal":1,"explain":"= réussir à formuler son idée avec les bons mots."}
+189|means managing to put your idea|
+190|into the right words.|
+191|For example,|
+192|to explain why that gift had touched me,|e=coeur
+193|I needed a moment to find my words.|BE
+194|You can say:|
+195|"Wait, I'm looking for how to explain it."|
+196|Or use an example instead of the precise word.|
+197|I can talk about a dish I love|
+198|without knowing the name of every utensil.|
+199|Yes. And a question from the other person|
+200|can help you clarify your idea.|
+201|It's reassuring to think|e=coeur
+202|that I can show my personality with simple sentences.|
+203|Let's try a scene.|
+204|We arrive at a meeting in a neighbourhood club.|i=amis:un club de quartier
+205|We don't know each other yet.|
+206|You'll get to answer my question before Léa.|
+207|Hello, I'm Mathieu.|
+208|Is this your first time here?|
+209|Your turn!|
+210|Introduce yourself in one or two sentences,|
+211|then ask a question.|
+212|Take a few seconds.|
+213|You can start with: "Hello, my name is…|
+214|And you, do you…?"|
+215|Hello, my name is Léa.|B={"mode":"sketch","title":"En situation : au club de quartier"}
+216|Yes, it's my first visit.|
+217|And you, do you already know the club?|
+218|I've come once.|
+219|I really like these meetings|
+220|to get to know people from the neighbourhood.|BE
+221|To get to know someone|
+222|means starting to discover a person|
+223|by talking with them.|
+224|For example,|
+225|we got to know each other|
+226|while preparing the neighbours' meal.|
+227|Do you live near here?|B={"mode":"sketch","bg":"craie","title":"En situation : la suite"}
+228|Yes, ten minutes on foot.|
+229|And you?|
+230|Me too, pretty close.|
+231|I work in communications|
+232|and, in my free time,|
+233|I like reading or visiting exhibitions.|BE
+234|We have something in common: I like exhibitions too,|e=idee
+235|especially when I can take my time.|
+236|Something in common|
+237|is something that several people share:|
+238|a taste, an experience or a characteristic.|
+239|For example, we have something in common:|
+240|we both grew up near the mountains.|i=nature:la montagne
+241|Have you seen an interesting exhibition recently?|
+242|Yes, an exhibition of photos of the neighbourhood.|
+243|I can show you the address.|
+244|With pleasure, thank you!|e=coeur
+245|There you go. You shared some information|
+246|and asked a question linked to my answer.|
+247|We can now continue|
+248|without reciting a prepared introduction from start to finish.|
+249|If I want to prepare a few sentences before a meeting,|
+250|what should I keep?|e=question
+251|You can choose four small elements:|B={"mode":"mindmap","word":"se présenter","items":[{"text":"ton prénom","at":1},{"text":"ton activité","at":1},{"text":"un goût personnel","at":2},{"text":"un détail → une question","at":3}]}
+252|your first name, what you do,|
+253|a personal taste and a detail|
+254|someone can ask you a question about.|
+255|For what you do, I can say:|
+256|"I work in…"|
+257|Then specify one thing I do.|BE
+258|Yes. Or: "I'm a student",|
+259|"I'm looking for a job", "I'm retired".|i=etudes:Je suis étudiant
+260|Everyone chooses what describes their situation.|
+261|And for tastes, I can give an example.|
+262|"I like cooking.|
+263|At the moment, I'm trying to get a pastry crust right."|
+264|Exactly. You can also talk|
+265|about something that matters to you.|
+266|To care about something|
+267|means giving it importance or being attached to it.|
+268|For example,|
+269|I care about our Sunday meals|i=repas:nos repas du dimanche
+270|because they let us get together.|e=coeur
+271|I could say that I care about|
+272|keeping time to see my friends.|
+273|That explains a bit about my way of life.|
+274|And if you want to talk about the future,|
+275|you can share a plan, even a modest one.|
+276|I'm planning to take a cooking workshop.|
+277|To plan to do something|
+278|means intending or wishing to make it happen.|
+279|For example,|
+280|we're planning|
+281|to visit this region in the spring.|
+282|I can also say:|
+283|"For now, I'm still thinking about it."|e=question
+284|I don't need to have everything organised already.|
+285|Then, adapt your sentences to the situation.|
+286|At the book club,|i=lecture:le club de lecture
+287|you'll maybe talk about books first.|
+288|For a volunteer role, about your experience.|
+289|And I can leave a question to the other person:|
+290|"And you,|
+291|what do you like about this activity?"|
+292|Yes, then listen to their answer|
+293|before coming back to your story.|
+294|So, I prepare a few starting points,|
+295|but I leave room|
+296|for the person in front of me.|e=idee
+297|That's a good way to try.|
+298|Your introduction can evolve as the conversation goes on.|
+299|Now, here's a template: "My name is…|B={"mode":"steps","bg":"carnet","title":"Le modèle","items":[{"text":"Je m'appelle…","at":0},{"text":"En ce moment, je…","at":1},{"text":"Pendant mon temps libre, j'aime…","at":2},{"text":"Et vous ?","at":3}]}
+300|At the moment, I…|
+301|In my free time, I like…|
+302|And you?"|
+303|My name is Mathieu.|
+304|At the moment,|
+305|I'm preparing projects with associations.|
+306|In my free time,|
+307|I like cooking and sharing a meal.|BE
+308|You can add your little detail:|
+309|"I'm learning to make a pastry crust."|
+310|Yes. And you, do you like cooking?|
+311|There, I've handed over the floor.|e=rire
+312|I'm Léa.|
+313|I work in communications.|
+314|I like reading in quiet places|i=lecture:lire
+315|and I'm always looking for a nice new spot.|
+316|Your turn. Say three or four sentences out loud.|
+317|You can replace our examples|
+318|with your own activities.|
+319|If you prefer, start with your city,|
+320|your studies, your family or a plan.|
+321|Share only what you're comfortable with.|e=coeur
+322|Then add a short question.|
+323|You don't need to carry|
+324|the whole conversation on your shoulders.|
+325|Take a few seconds and try|
+326|a new version with another detail.|
+327|Let's go back over five expressions.|
+328|Listen, then repeat with us.|
+329|First, to put at ease.|
+330|At the library,|
+331|a warm question helped me relax.|
+332|It's helping someone feel welcome.|
+333|New example:|
+334|her smile put us at ease as soon as we arrived.|
+335|Let's repeat: to put at ease.|
+336|You can say: "This person puts me at ease."|
+337|Second expression: to come out of your shell.|
+338|I sometimes talk more|
+339|when I know the others a little.|
+340|It's becoming less reserved and taking part more easily.|
+341|Example: during the trip,|
+342|he came out of his shell|
+343|and suggested several activities.|
+344|Let's repeat: to come out of your shell.|
+345|It can happen gradually, over the meetings.|
+346|Third expression: to find your words.|
+347|You're searching for how to express|
+348|what you think or what you feel.|
+349|Example: faced with this lovely surprise,|e=surpris
+350|she took a few seconds to find her words.|
+351|Let's repeat: to find your words.|
+352|You can ask for a moment: "I'm looking for my words."|
+353|Fourth expression: to develop a taste for.|
+354|I started to enjoy cooking|
+355|by trying several dishes.|
+356|It's developing pleasure in something.|
+357|Example: since she started going with her brother,|
+358|she's developed a taste for gardening.|
+359|Let's repeat: to develop a taste for.|
+360|You can tell how one of your hobbies began.|
+361|Finally, to have a soft spot for.|B={"mode":"quiz","bg":"craie","q":"« Avoir un faible pour », c'est…","options":["ne pas aimer quelque chose","apprécier particulièrement","être très fatigué"],"answer":1,"reveal":3,"explain":"= avoir une préférence marquée"}
+362|You particularly enjoy|
+363|recipes with cheese.|
+364|It's having a strong preference.|
+365|Example: I have a soft spot for small bookshops|
+366|where you can chat with the booksellers.|BE
+367|Let's repeat: to have a soft spot for.|
+368|Now choose an expression|
+369|and make a sentence about yourself.|
+370|A memory, a habit or a taste is enough.|
+371|That's already a small part of your story.|e=coeur
+372|For your comment,|
+373|introduce yourself in three or four sentences.|
+374|Add a small detail that's like you.|
+375|You can talk about a hobby,|
+376|a plan or something|
+377|you enjoy in your daily life.|
+378|If this conversation helped you,|
+379|subscribe to The Cozy French|
+380|to keep practising with us.|
+381|You can also replay our meeting|
+382|at the club and change the answers.|
+383|Listen, repeat, then try in your own words.|
+384|Thank you for sharing this moment.|
+385|Take care and see you very soon!|e=coeur
+386|Goodbye everyone!|
+387|I think my introduction is ready.|e=idee
+388|There's still your favourite section.|
+389|So, Mathieu,|
+390|which cheese do you particularly like?|e=question
+391|Comté.|e=coeur
+392|Do you want the short answer|
+393|or the story of my last visit to the cheesemonger?|r=rire
+394|Let's start with a small question.|
+395|What did he recommend?|
