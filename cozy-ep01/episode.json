@@ -12,21 +12,36 @@
     },
     {
       "who": "mat",
-      "fr": "Et je ne sais pas si cette conversation changera grand chose,",
-      "en": "And I don't know if this conversation will change much,",
+      "fr": "Et je ne sais pas si cette conversation",
+      "en": "And I don't know if this conversation",
       "emote": "question",
       "illus": "stress"
     },
     {
       "who": "mat",
-      "fr": "mais au moins, je vais pouvoir expliquer la situation.",
-      "en": "but at least I'll be able to explain the situation."
+      "fr": "changera grand chose,",
+      "en": "will change much,"
+    },
+    {
+      "who": "mat",
+      "fr": "mais au moins, je vais pouvoir",
+      "en": "but at least I'll be able"
+    },
+    {
+      "who": "mat",
+      "fr": "expliquer la situation.",
+      "en": "to explain the situation."
     },
     {
       "who": "lea",
-      "fr": "C'est déjà différent de continuer à tout [garder pour toi.]",
-      "en": "That's already different from keeping it all to yourself.",
+      "fr": "C'est déjà différent de continuer",
+      "en": "That's already different from",
       "emote": "coeur"
+    },
+    {
+      "who": "lea",
+      "fr": "à tout [garder pour toi.]",
+      "en": "keeping it all to yourself."
     },
     {
       "who": "mat",

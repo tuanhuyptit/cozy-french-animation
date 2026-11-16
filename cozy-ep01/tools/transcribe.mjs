@@ -87,7 +87,9 @@ words.forEach((w, i) => {
   const gap = next && next.s - w.e > 0.6;
   // long line: cut now unless punctuation comes within the next 3 words (avoid orphans like "adapté.")
   const punctSoon = words.slice(i + 1, i + 4).some(x => /[.!?…,;:]$/.test(x.t));
-  const tooLong = (cur.length >= 9 && !punctSoon) || cur.length >= 13;
+  // the subtitle box holds one line of ≤ 50 French chars (build.mjs SUB_FR): cut before the next word would overflow it
+  const chars = cur.map(x => x.t).join(' ').length, overflow = next && chars + 1 + next.t.length > 50;
+  const tooLong = (cur.length >= 9 && !punctSoon) || cur.length >= 13 || overflow;
   if (!next || endSentence || softBreak || gap || tooLong) { chunks.push(cur); cur = []; }
 });
 const median = a => { const v = a.filter(Boolean).sort((x, y) => x - y); return v.length ? v[v.length >> 1] : 0; };

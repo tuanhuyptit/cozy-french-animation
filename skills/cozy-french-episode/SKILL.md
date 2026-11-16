@@ -34,10 +34,10 @@ node tools/new-episode.mjs "<đường dẫn voice>"          # chạy ở gốc
 
 **Chia đoạn phụ đề.** Được gộp/tách lại đoạn tuỳ ý, nhưng:
 - Chữ trong `fr` phải là **đúng các chữ của `assets/words.json`, đúng thứ tự, không thêm/bớt** (dấu câu dính vào chữ giữ nguyên). Mỗi chữ thuộc đúng một đoạn.
-- Mỗi đoạn ≤ ~10 chữ, một dòng; ngắt ở dấu câu; không để chữ lẻ loi ở đầu/cuối. Không gộp hai người nói vào một đoạn.
+- Mỗi đoạn **≤ 50 ký tự tiếng Pháp** (tính cả dấu cách, dấu câu; nhắm 30–50 để các dòng dài gần bằng nhau), một dòng; ngắt ở dấu câu; không để chữ lẻ loi ở đầu/cuối. Không gộp hai người nói vào một đoạn. Hộp phụ đề rộng cố định, cỡ chữ cố định 44px cho cả Pháp lẫn Anh — không có co chữ, nên `build.mjs` báo lỗi và liệt kê mọi đoạn vượt giới hạn.
 - Whisper nghe sai một chữ → sửa `t` của chữ đó trong `assets/words.json` **và** trong `fr`.
 
-**Dịch `en`.** Tiếng Anh tự nhiên, sát nghĩa, ngắn gọn (người học B1–B2 đọc kịp).
+**Dịch `en`.** Tiếng Anh tự nhiên, sát nghĩa, ngắn gọn (người học B1–B2 đọc kịp), **≤ 56 ký tự** để vừa một dòng; dài hơn thì rút gọn câu dịch hoặc tách đoạn.
 
 **Từ vựng.** Bọc cụm từ trong `fr` bằng `[ ]` (vd. `[garder pour toi.]`, ngoặc mở ở chữ đầu, đóng ở chữ cuối).
 - Bắt đầu từ danh sách gợi ý theo cấp độ CEFR (FLELex), trong `cozy-epNN/`:

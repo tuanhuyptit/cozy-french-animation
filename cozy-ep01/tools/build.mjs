@@ -67,6 +67,14 @@ const chunks = EP.chunks.map((c, ci) => {
   }
   return { ...c, toks, s: toks[0].s, e: toks[toks.length - 1].e };
 });
+// subtitle length limit: one line each, same font size everywhere
+const SUB_FR = 50, SUB_EN = 56, tooLong = [];
+chunks.forEach((c, i) => {
+  const fr = c.toks.map(t => t.t).join(' ');
+  if (fr.length > SUB_FR) tooLong.push(`  chunk ${i} fr ${fr.length}/${SUB_FR}: ${fr}`);
+  if (c.en.length > SUB_EN) tooLong.push(`  chunk ${i} en ${c.en.length}/${SUB_EN}: ${c.en}`);
+});
+if (tooLong.length) throw new Error(`${tooLong.length} subtitle line(s) too long — split the chunk or shorten the English:\n${tooLong.join('\n')}`);
 chunks.forEach((c, i) => {
   const next = chunks[i + 1];
   c.show = Math.max(0, c.s - 0.12);
@@ -358,11 +366,11 @@ const f = n => (+n).toFixed(3);
 
 /* ---------- talk.html ---------- */
 const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;');
-// long lines: shrink the French line so it stays on one line (box fits ~48 chars at 50px)
-const subFit = c => { const n = c.toks.map(t => t.t).join(' ').length; return n > 48 ? ` style="font-size:${Math.max(40, Math.floor(50 * 48 / n))}px"` : ''; };
+// subtitle box: fixed width, fixed font size (44px) for French and English, speaker tag on the top-left edge.
+// Every chunk must fit one line: French ≤ SUB_FR chars, English ≤ SUB_EN chars (checked when aligning chunks).
 const subsHTML = chunks.map((c, i) => `
     <div id="sub${i}" class="clip subWrap" data-start="${f(c.show)}" data-duration="${f(c.hide - c.show)}" data-track-index="3">
-      <div class="subBox"><div class="subFr"${subFit(c)}>${c.toks.map(t => `<span class="w${t.v ? ' vocab' : ''}" id="${t.id}">${t.v ? '<i class="ul"></i>' : ''}<b class="tx">${esc(t.t)}</b></span>`).join(' ')}</div><div class="subEn">${esc(c.en)}</div></div>
+      <div class="subBox"><div class="subWho ${c.who}">${c.who === 'lea' ? 'Léa' : 'Mathieu'}</div><div class="subFr">${c.toks.map(t => `<span class="w${t.v ? ' vocab' : ''}" id="${t.id}">${t.v ? '<i class="ul"></i>' : ''}<b class="tx">${esc(t.t)}</b></span>`).join(' ')}</div><div class="subEn">${esc(c.en)}</div></div>
     </div>`).join('');
 const cardsHTML = () => cards.map((c, i) => c.hidden ? '' : `
     <div id="card${i}" class="clip cardWrap" data-start="${f(c.s)}" data-duration="${f(c.d + (WALK && !c.fade ? 0.6 : 0))}" data-track-index="4">
@@ -638,12 +646,14 @@ const talk = `<template>
     #talk-grain{position:absolute;inset:0;pointer-events:none;opacity:.22;mix-blend-mode:multiply;
       background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='320' height='320'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .3  0 0 0 0 .22  0 0 0 0 .15  0 0 0 .9 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
     .subWrap{position:absolute;left:0;right:0;bottom:64px;display:flex;justify-content:center}
-    .subBox{max-width:1400px;background:#fffaf0f2;border-radius:28px;padding:22px 44px;box-shadow:0 10px 0 #00000014;text-align:center}
-    .subFr{font:800 50px/1.25 Nunito;color:#a89684}
+    .subBox{--fs:44px;position:relative;box-sizing:border-box;width:1500px;background:#fffdf7;border:5px solid #3a2e28;border-radius:26px;padding:30px 46px 22px;box-shadow:0 9px 0 #3a2e28;text-align:center}
+    .subWho{position:absolute;left:30px;top:-25px;font:800 26px/1 Nunito;color:#3a2e28;background:#f3c96b;border:4px solid #3a2e28;border-radius:30px;padding:6px 20px}
+    .subWho.mat{background:#bcd6ea}
+    .subFr{font:800 var(--fs)/1.3 Nunito;color:#b3a698}
     .subFr .w{display:inline-block;position:relative}
-    .subFr .ul{position:absolute;left:0;right:0;bottom:4px;height:12px;background:#f3c96b;border-radius:6px;transform-origin:left center}
+    .subFr .ul{position:absolute;left:0;right:0;bottom:4px;height:10px;background:#d9774b55;border-radius:6px;transform-origin:left center}
     .subFr .tx{position:relative;font-weight:inherit}
-    .subEn{font:600 30px Nunito;color:#7a6a5c;margin-top:8px}
+    .subEn{font:800 var(--fs)/1.3 Nunito;color:#5d7fa0;margin-top:10px;padding-top:10px;border-top:3px dashed #e6dccd}
     .cardWrap{position:absolute;left:690px;top:64px;width:540px}
     .bubWrap{position:absolute;left:640px;top:56px;width:640px;height:420px}
     .card{background:#fffaf0;border-radius:30px;padding:28px 34px;box-shadow:0 14px 0 #0000001a;border:4px solid #3a2e28}
