@@ -7,10 +7,14 @@ Kênh chị em của The Cozy French: **chỉ có Léa**, nói về phát triể
 | Đường dẫn | Là gì |
 |---|---|
 | `scenes.mjs` | **Nguồn duy nhất** của các cảnh Radio: vẽ nền (`bg`), tiền cảnh (`fg`), vị trí Léa, kiểu phụ đề, logo. Thêm hoặc sửa cảnh ở đây. |
+| `tools/build.mjs` | Dựng video HyperFrames của một tập: `node radio/tools/build.mjs radio/epNN` (Léa một mình, một cảnh cả tập, phụ đề karaoke, thẻ từ, màn ôn tập, nhạc nền, sfx). Quy trình đầy đủ: skill `cozy-radio-episode`. |
+| `tools/pick-setup.mjs` | Bốc ngẫu nhiên cảnh + trang phục của tập (không trùng 2 tập trước, tránh trùng tông): `node radio/tools/pick-setup.mjs radio/epNN --write` |
+| `tools/align-script.mjs`, `tools/chunk.mjs`, `tools/assemble.mjs` | Chạy trong `radio/epNN/`: sửa lời whisper theo script · chia phụ đề · ghép `episode.json` |
 | `tools/build-demo.mjs` | Dựng `radio-demo.html` từ `scenes.mjs` và hình Léa trong demo kênh chính. Chạy: `node radio/tools/build-demo.mjs` |
 | `epNN/` | Thư mục từng tập Radio (riêng, không dùng chung số tập với `cozy-epNN/`). |
 | `../skills/cozy-radio-episode/` | Skill riêng của Radio. Cài: `ln -s "$PWD/skills/cozy-radio-episode" ~/.claude/skills/cozy-radio-episode` (chạy ở gốc repo). |
-| `../skills/cozy-radio-thumbnail/` | Skill thumbnail riêng của Radio (badge cam "Cozy French Radio", layout disque/studio). |
+| `../skills/cozy-radio-thumbnail/` | Skill thumbnail riêng của Radio: giống hệt thumbnail The Cozy French, chỉ khác badge cam "Cozy French Radio". |
+| `assets/music/` | Nhạc nền "Meditation Impromptu 03" (Kevin MacLeod, CC BY 4.0) + `CREDIT.txt` — khối ghi công **bắt buộc** ở cuối mô tả mọi video Radio. Nhạc để nhỏ: −15 dB dưới mức gốc (≈ −38 LUFS). |
 | `radio-demo.html` | Thư viện cảnh để xem thử (file sinh ra, không sửa tay). Mở qua web server cục bộ vì file lớn: `python3 -m http.server -d radio 8766` rồi vào `http://localhost:8766/radio-demo.html`. Có ô chọn trang phục Léa. |
 
 ## Cảnh
@@ -51,6 +55,12 @@ Léa dùng chung bộ cử chỉ của kênh chính (`gestTL` trong khối GEST-
 2. Chuyển động: đặt class (`.rain`, `.flame`, `.scroll`…) và viết keyframes trong `SCENE_CSS`. Đây mới là CSS cho bản xem thử; khi dựng video bằng HyperFrames, mỗi class sẽ được viết lại thành tween GSAP seek được (không `repeat:-1`, không `Math.random`; hình đã dùng seed cố định).
 3. `node radio/tools/build-demo.mjs`, mở demo kiểm tra: Léa không bị bàn/micro che mặt, phụ đề không đè vật quan trọng.
 
+## Tập đã làm
+
+| Tập | Chủ đề | Cảnh | Léa |
+|---|---|---|---|
+| ep01 | Rien ne change si rien ne change | `lettre` (chủ kênh chọn) | `camel` |
+
 ## Chưa làm
 
-- Build video thật (HyperFrames) cho Radio: cần bản `build.mjs` một người nói, đổi cảnh theo phần, chuyển động GSAP thay cho CSS ở trên.
+- Bảng giải thích, bong bóng minh hoạ, biểu cảm cho Radio (kênh chính có, Radio chưa).

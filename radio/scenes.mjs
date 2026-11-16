@@ -40,6 +40,18 @@ const MIC_DESK = (x, y) => `<path d="M${x} ${y} L${x} ${y - 52}" stroke="#2a2220
 const TEA = (x, y, c = '#8fae8b') => `<rect x="${x}" y="${y}" width="70" height="72" rx="14" fill="${c}"/><path d="M${x + 70} ${y + 16} q30 4 0 34" stroke="${c}" stroke-width="10" fill="none"/>`;
 const STEAM = (x, y) => `<g class="steam2" stroke="#fffaf0" stroke-width="5" fill="none" stroke-linecap="round" opacity=".7"><path d="M${x} ${y} q-12 -20 0 -40 q12 -20 0 -40"/><path d="M${x + 28} ${y} q-12 -20 0 -40 q12 -20 0 -40"/></g>`;
 
+// Episode context passed to bg(c) / fg(c) / html(c) by the video build (the demo passes nothing → defaults below).
+//   parts   — names of the episode's parts (progress bars, dial, métro line); part = index of the current one
+//   edition — newspaper issue line (journal) · mot = { word, ipa, mean, head } (polaroid) · note = { head, word, sub } (carnet)
+//   letter  = { head, sign } (lettre)
+const DEF_PARTS = ['Le thème', 'Le mot du jour', 'Le courrier', 'La question'];
+const ctx = (c, part) => ({ parts: DEF_PARTS, part, edition: 'ÉDITION DU SOIR · N° 01',
+  mot: { head: 'Le mot du jour', word: 'oser', ipa: '/o.ze/ · verbe · to dare' },
+  note: { head: 'Le mot du jour', word: 'oser', sub: '/o.ze/ · to dare' },
+  letter: { head: 'Chère Léa,', sign: '— Marco, Italie' }, ...(c || {}) });
+const spread = (n, x0, x1) => Array.from({ length: n }, (_, i) => n === 1 ? (x0 + x1) / 2 : x0 + i * (x1 - x0) / (n - 1));
+const escT = t => String(t).replace(/&/g, '&amp;').replace(/</g, '&lt;');
+
 export const SCENES = {
 
 /* ---------------- studio : radio booth at night ---------------- */
@@ -261,16 +273,17 @@ carnet: {
  <circle cx="600" cy="500" r="262" fill="#f3c96b" filter="url(#pencil)"/>
  <g clip-path="url(#cn-disc)"><rect x="340" y="240" width="520" height="520" fill="#f6c98a"/><circle cx="480" cy="360" r="70" fill="#f9e0b0"/></g>`;
   },
-  fg() {
+  fg(c) {
+    const C = ctx(c, 0), X = spread(C.parts.length, 260, 1660), fs = C.parts.length > 4 ? 22 : 26;
     const g = mk(5);
     const bars = range(48, i => `<rect class="bar" x="${i * 18}" y="0" width="10" height="120" rx="5" style="animation-delay:-${(g.r() * 1.2).toFixed(2)}s;animation-duration:${g.R(.5, 1.1).toFixed(2)}s"/>`);
     return `<circle cx="600" cy="500" r="250" fill="none" stroke="#3a2e28" stroke-width="10" filter="url(#pencil)"/>
  <g transform="translate(990 640)" fill="#d9774b">${bars}</g>
  <g font-family="Nunito" font-weight="800" font-size="26" fill="#3a2e28">
-  <path d="M260 960 H1660" stroke="#d4c7b4" stroke-width="10" stroke-linecap="round"/><path class="prog" d="M260 960 H760" stroke="#d9774b" stroke-width="10" stroke-linecap="round"/>
-  ${[['Le thème', 260], ['Le mot du jour', 727], ['Le courrier', 1193], ['La question', 1660]].map(([t, x], i) => `<circle cx="${x}" cy="960" r="18" fill="${i < 1 ? '#d9774b' : '#f6eddc'}" stroke="#3a2e28" stroke-width="5"/><text x="${x}" y="1020" text-anchor="middle" opacity="${i < 2 ? 1 : .5}">${t}</text>`).join('')}</g>`;
+  <path d="M260 960 H1660" stroke="#d4c7b4" stroke-width="10" stroke-linecap="round"/><path class="prog" d="M260 960 H${X[C.part] + (X[1] - X[0]) / 2}" stroke="#d9774b" stroke-width="10" stroke-linecap="round"/>
+  ${C.parts.map((t, i) => `<circle cx="${X[i]}" cy="960" r="18" fill="${i <= C.part ? '#d9774b' : '#f6eddc'}" stroke="#3a2e28" stroke-width="5"/><text x="${X[i]}" y="1020" text-anchor="middle" font-size="${fs}" opacity="${i <= C.part + 1 ? 1 : .5}">${escT(t)}</text>`).join('')}</g>`;
   },
-  html: () => `<div class="note"><span>Le mot du jour</span><b>oser</b><i>/o.ze/ · to dare</i></div>`,
+  html: c => { const N = ctx(c).note; return N ? `<div class="note"><span>${escT(N.head)}</span><b>${escT(N.word)}</b><i>${escT(N.sub || '')}</i></div>` : ''; },
 },
 
 /* ---------------- tsf : vintage radio set, the dial is the progress bar ---------------- */
@@ -292,7 +305,8 @@ tsf: {
   <path d="M302 600 V407 A238 156 0 0 1 778 407 V600 Z" fill="url(#ts-glow)"/>
  </g>`;
   },
-  fg() {
+  fg(c) {
+    const C = ctx(c, 1), X = spread(C.parts.length, 330, 1630), fs = C.parts.length > 4 ? 21 : 24;
     return `<g filter="url(#pencil)">
   <path d="M302 600 V407 A238 156 0 0 1 778 407 V600 Z" fill="none" stroke="#3a2e28" stroke-width="10"/>
   <g class="grille" style="transform-origin:540px 700px"><rect x="300" y="630" width="480" height="140" rx="24" fill="url(#ts-cloth)"/>
@@ -306,8 +320,8 @@ tsf: {
   <rect x="200" y="905" width="1520" height="110" rx="26" fill="#3a2e28"/><rect x="216" y="921" width="1488" height="78" rx="18" fill="#f6e2b8"/>
   ${range(75, i => `<path d="M${240 + i * 19.6} 935 v${i % 5 ? 12 : 22}" stroke="#8a5e42" stroke-width="3"/>`)}
   ${['88', '92', '96', '100', '104', '108'].map((t, i) => `<text x="${250 + i * 284}" y="985" font-size="20" text-anchor="middle" fill="#8a5e42">${t}</text>`).join('')}
-  ${[['Le thème', 330], ['Le mot du jour', 770], ['Le courrier', 1210], ['La question', 1630]].map(([t, x], i) => `<text x="${x}" y="1052" font-size="24" text-anchor="middle" opacity="${i < 2 ? 1 : .5}" fill="${i === 1 ? '#b8552a' : '#3a2e28'}">${t}</text>`).join('')}
-  <g class="tune"><path d="M770 915 V1005" stroke="#d9574a" stroke-width="7" stroke-linecap="round"/><circle cx="770" cy="915" r="8" fill="#d9574a"/></g>
+  ${C.parts.map((t, i) => `<text x="${X[i]}" y="1052" font-size="${fs}" text-anchor="middle" opacity="${i <= C.part ? 1 : .5}" fill="${i === C.part ? '#b8552a' : '#3a2e28'}">${escT(t)}</text>`).join('')}
+  <g class="tune"><path d="M${X[C.part]} 915 V1005" stroke="#d9574a" stroke-width="7" stroke-linecap="round"/><circle cx="${X[C.part]}" cy="915" r="8" fill="#d9574a"/></g>
  </g>`;
   },
 },
@@ -329,7 +343,8 @@ polaroid: {
   ${roofsLite(260, 740, 800)}
  </g>`;
   },
-  fg() {
+  fg(c) {
+    const C = ctx(c, 1), n = C.parts.length;
     return `<g filter="url(#pencil)">
   <rect x="260" y="200" width="540" height="540" fill="none" stroke="#3a2e28" stroke-width="4"/>
   <rect x="440" y="140" width="190" height="56" fill="#f3c96bcc" transform="rotate(-6 535 168)"/>
@@ -338,16 +353,17 @@ polaroid: {
  </g>
  <g class="twinkle" fill="#d9774b">${[[1640, 210, 1], [1760, 330, .7], [1560, 400, .55]].map(([x, y, k], i) => `<path style="animation-delay:-${i * .7}s" d="M${x} ${y - 28 * k} L${x + 8 * k} ${y - 8 * k} L${x + 28 * k} ${y} L${x + 8 * k} ${y + 8 * k} L${x} ${y + 28 * k} L${x - 8 * k} ${y + 8 * k} L${x - 28 * k} ${y} L${x - 8 * k} ${y - 8 * k}Z"/>`).join('')}</g>
  <path class="squig" d="${range(1, () => { let d = 'M960 900'; for (let i = 0; i < 24; i++) d += ` q18 ${i % 2 ? 40 : -40} 36 0`; return d; })}" stroke="#d9774b" stroke-width="8" fill="none" stroke-linecap="round"/>
- <g font-family="Nunito" font-weight="800" font-size="20">${['Le thème', 'Le mot du jour', 'Le courrier', 'La question'].map((t, i) => `<rect x="${1010 + i * 210}" y="40" width="196" height="46" rx="23" fill="${i === 1 ? '#3a2e28' : '#fffdf7'}" stroke="#3a2e28" stroke-width="3"/><text x="${1108 + i * 210}" y="70" text-anchor="middle" fill="${i === 1 ? '#f3c96b' : '#8a7a6c'}">${t}</text>`).join('')}</g>`;
+ <g font-family="Nunito" font-weight="800" font-size="20">${n <= 4 ? C.parts.map((t, i) => `<rect x="${1010 + i * 210}" y="40" width="196" height="46" rx="23" fill="${i === C.part ? '#3a2e28' : '#fffdf7'}" stroke="#3a2e28" stroke-width="3"/><text x="${1108 + i * 210}" y="70" text-anchor="middle" fill="${i === C.part ? '#f3c96b' : '#8a7a6c'}">${escT(t)}</text>`).join('')
+   : `${C.parts.map((t, i) => `<circle cx="${1040 + i * 34}" cy="63" r="11" fill="${i <= C.part ? '#3a2e28' : '#fffdf7'}" stroke="#3a2e28" stroke-width="3"/>`).join('')}<rect x="${1040 + n * 34}" y="40" width="${Math.max(220, 24 + 11 * String(C.parts[C.part]).length)}" height="46" rx="23" fill="#3a2e28"/><text x="${1052 + n * 34}" y="70" fill="#f3c96b">${escT(C.parts[C.part])}</text>`}</g>`;
   },
-  html: () => `<div class="mot"><span>Le mot du jour</span><b>oser</b><i>/o.ze/ · verbe · to dare</i></div>`,
+  html: c => { const M = ctx(c).mot, L = String(M.word).length; return `<div class="mot${L > 26 ? ' phrase2' : L > 12 ? ' phrase' : ''}"><span>${escT(M.head)}</span><b>${escT(M.word)}</b><i>${escT(M.ipa || '')}</i></div>`; },
 },
 
 /* ---------------- lettre : listeners' mail, Léa on a postage stamp ---------------- */
 lettre: {
   label: 'Le courrier', kind: 'interlude', phones: false, outfit: 'foulard', brand: 'flat', sub: 'kin', tag: 'Le courrier des auditeurs',
   lea: { x: 226, y: 180, s: 1.2, clip: "path('M53 8 H337 V342 H53 Z')" },
-  kin: { x: 940, y: 290, w: 800, cls: 'hand' },
+  kin: { x: 1000, y: 290, w: 760, cls: 'hand' },
   gest: ['up', 'count', 'think', 'beat', 'scratch'],
   bg() {
     const scal = (x0, y0, x1, y1, r) => range(Math.round((x1 - x0) / (r * 2.4)) + 1, i => `<circle cx="${x0 + i * (x1 - x0) / Math.round((x1 - x0) / (r * 2.4))}" cy="${y0}" r="${r}" fill="#e7cfa8"/><circle cx="${x0 + i * (x1 - x0) / Math.round((x1 - x0) / (r * 2.4))}" cy="${y1}" r="${r}" fill="#e7cfa8"/>`)
@@ -382,7 +398,7 @@ lettre: {
  </g>
  <text x="460" y="860" text-anchor="middle" font-family="Caveat" font-size="50" font-weight="600" fill="#8a5e42">pour Léa ♡</text>`;
   },
-  html: () => `<div class="letterhead">Chère Léa,</div><div class="sign">— Marco, Italie</div>`,
+  html: c => { const L = ctx(c).letter; return `<div class="letterhead">${escT(L.head)}</div><div class="sign">${escT(L.sign)}</div>`; },
 },
 /* ---------------- metro : Paris métro station, the line map is the progress bar ---------------- */
 metro: {
@@ -402,14 +418,15 @@ metro: {
   <rect x="960" y="210" width="860" height="420" rx="30" fill="#1f4e8c"/><rect x="980" y="230" width="820" height="380" rx="20" fill="none" stroke="#fffaf0" stroke-width="6"/>
  </g>`;
   },
-  fg() {
-    const st = [['Le thème', 300], ['Le mot du jour', 760], ['Le courrier', 1220], ['La question', 1680]];
+  fg(c) {
+    const C = ctx(c, 1), X = spread(C.parts.length, 300, 1680), st = C.parts.map((t, i) => [escT(t), X[i]]), fs = C.parts.length > 4 ? 22 : 26;
+    const from = C.part ? X[C.part - 1] : X[0];
     return `<circle cx="560" cy="470" r="230" fill="none" stroke="#3a2e28" stroke-width="6" filter="url(#pencil)"/>
  <g font-family="Nunito" font-weight="800" fill="#3a2e28">
   <circle cx="190" cy="960" r="40" fill="#d9774b" stroke="#3a2e28" stroke-width="5"/><text x="190" y="975" text-anchor="middle" font-size="40" fill="#fffaf0">L</text>
   <path d="M260 960 H1700" stroke="#d9774b" stroke-width="22" stroke-linecap="round"/>
-  ${st.map(([t, x], i) => `<circle cx="${x}" cy="960" r="${i === 1 ? 22 : 16}" fill="${i === 1 ? '#3a2e28' : '#fffaf0'}" stroke="#3a2e28" stroke-width="6"/><text x="${x}" y="915" text-anchor="middle" font-size="26" opacity="${i <= 1 ? 1 : .5}">${t}</text>`).join('')}
-  <g class="rame"><rect x="296" y="992" width="96" height="40" rx="18" fill="#2f5d50"/><rect x="310" y="1000" width="22" height="16" rx="4" fill="#fffaf0"/><rect x="340" y="1000" width="22" height="16" rx="4" fill="#fffaf0"/><rect x="370" y="1000" width="14" height="16" rx="4" fill="#f3c96b"/></g>
+  ${st.map(([t, x], i) => `<circle cx="${x}" cy="960" r="${i === C.part ? 22 : 16}" fill="${i === C.part ? '#3a2e28' : '#fffaf0'}" stroke="#3a2e28" stroke-width="6"/><text x="${x}" y="915" text-anchor="middle" font-size="${fs}" opacity="${i <= C.part ? 1 : .5}">${t}</text>`).join('')}
+  <g transform="translate(${from - 300} 0)"><g class="rame" data-dx="${X[C.part] - from}" style="--dx:${X[C.part] - from}px"><rect x="296" y="992" width="96" height="40" rx="18" fill="#2f5d50"/><rect x="310" y="1000" width="22" height="16" rx="4" fill="#fffaf0"/><rect x="340" y="1000" width="22" height="16" rx="4" fill="#fffaf0"/><rect x="370" y="1000" width="14" height="16" rx="4" fill="#f3c96b"/></g></g>
  </g>`;
   },
 },
@@ -419,14 +436,15 @@ journal: {
   label: 'À la une', kind: 'interlude', phones: true, outfit: 'chemise', brand: 'flat', sub: 'kin', tag: 'Le thème',
   lea: { x: 198, y: 190, s: 1.6, clip: "path('M1 -6 H389 V394 H1 Z')" },
   kin: { x: 930, y: 290, w: 880 },
-  bg() {
+  bg(c) {
+    const C = ctx(c);
     return `<defs><pattern id="jn-dot" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="6" cy="6" r="2.4" fill="#3a2e28"/></pattern></defs>
  <rect width="1920" height="1080" fill="#f1ebdd"/>
  ${range(90, i => `<path d="M${(i * 211) % 1920} ${(i * 97) % 1080} l14 2" stroke="#e2d8c4" stroke-width="3" stroke-linecap="round"/>`)}
  <g filter="url(#pencil)">
   <text x="1375" y="150" text-anchor="middle" font-family="Playfair Display" font-weight="700" font-size="82" fill="#3a2e28">Le Petit Journal de Léa</text>
   <path d="M930 178 H1820 M930 190 H1820" stroke="#3a2e28" stroke-width="4"/>
-  <text x="930" y="226" font-family="Nunito" font-weight="800" font-size="22" fill="#8a7a6c" letter-spacing="2">ÉDITION DU SOIR · N° 01</text>
+  <text x="930" y="226" font-family="Nunito" font-weight="800" font-size="22" fill="#8a7a6c" letter-spacing="2">${escT(C.edition)}</text>
   <text x="1820" y="226" text-anchor="end" font-family="Nunito" font-weight="800" font-size="22" fill="#8a7a6c" letter-spacing="2">COZY FRENCH RADIO</text>
   <rect x="206" y="190" width="620" height="640" fill="#00000012" transform="translate(10 12)"/>
   <rect x="200" y="180" width="620" height="640" fill="#e9d8bc"/><circle cx="660" cy="300" r="80" fill="#f3e3c8"/>
@@ -487,6 +505,6 @@ export const SCENE_CSS = `
 .stampmark{animation:stamp 5s ease-in-out infinite} @keyframes stamp{50%{transform:rotate(-4deg)}}
 
 .bulb{animation:bulb 2.4s ease-in-out infinite} @keyframes bulb{50%{fill:#f7c46b}}
-.rame{animation:rame 7s ease-in-out infinite} @keyframes rame{0%,15%{transform:translateX(0)}60%,100%{transform:translateX(410px)}}
+.rame{animation:rame 7s ease-in-out infinite} @keyframes rame{0%,15%{transform:translateX(0)}60%,100%{transform:translateX(var(--dx,410px))}}
 .press circle+circle{transform-box:fill-box;transform-origin:center;animation:press 1.6s ease-out infinite} @keyframes press{from{transform:scale(.4);opacity:1}to{transform:scale(1.6);opacity:0}}
 `;

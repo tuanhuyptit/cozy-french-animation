@@ -38,7 +38,7 @@ const srtT = t => { const ms = Math.round(t * 1000); const p = (n, l = 2) => Str
 const name = { lea: 'Léa', mat: 'Mathieu' };
 
 // outline
-const outline = chunks.map(c => `${mmss(c.s).padStart(7)} ${c.board ? '◆' : ' '}${/\[/.test(c.fr) ? '★' : ' '} ${name[c.who].padEnd(7)} ${c.fr.replace(/[\[\]]/g, '')}   | ${c.en}`);
+const outline = chunks.map(c => `${mmss(c.s).padStart(7)} ${c.board ? '◆' : ' '}${/\[/.test(c.fr) ? '★' : ' '} ${(name[c.who] || 'Léa').padEnd(7)} ${c.fr.replace(/[\[\]]/g, '')}   | ${c.en}`);
 fs.writeFileSync(path.join(OUT, 'outline.txt'), outline.join('\n') + '\n');
 
 // vocab block
@@ -47,7 +47,7 @@ fs.writeFileSync(path.join(OUT, 'vocab.md'), vocab.join('\n') + '\n');
 
 // captions (speaker name only when the speaker changes, as YouTube recommends for multi-speaker videos)
 const srt = key => chunks.map((c, i) => {
-  const who = i && chunks[i - 1].who === c.who ? '' : `${name[c.who]}: `;
+  const who = !c.who || (i && chunks[i - 1].who === c.who) ? '' : `${name[c.who]}: `;
   return `${i + 1}\n${srtT(c.s)} --> ${srtT(c.end)}\n${who}${(key === 'fr' ? c.fr : c.en).replace(/[\[\]]/g, '')}\n`;
 }).join('\n');
 fs.writeFileSync(path.join(OUT, 'captions.fr.srt'), srt('fr'));

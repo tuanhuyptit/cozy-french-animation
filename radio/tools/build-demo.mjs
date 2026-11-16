@@ -121,8 +121,8 @@ ${SCENE_CSS}
 .kin.hand .fr{font:600 76px/1.08 Caveat;color:#c9b8a4} .kin.hand .w.vocab::after{bottom:10px}
 .kin.light .fr{color:#9c8676} .kin.light .w.on{color:#fffaf0} .kin.light .en{color:#e6d3bd}
 .mot{position:absolute;left:960px;top:150px;color:var(--ink)} .mot span{display:inline-block;font:800 20px Nunito;letter-spacing:.12em;text-transform:uppercase;background:var(--ink);color:var(--butter);padding:6px 16px;border-radius:20px}
-.mot b{display:block;font:700 150px/1 'Playfair Display';color:#b8552a;margin-top:18px} .mot i{display:block;font:700 30px Nunito;font-style:normal;color:var(--muted);margin-top:10px}
-.letterhead{position:absolute;left:940px;top:170px;font:600 58px Caveat;color:#8a5e42} .sign{position:absolute;left:1430px;top:790px;font:600 46px Caveat;color:#8a5e42}
+.mot b{display:block;font:700 150px/1 'Playfair Display';color:#b8552a;margin-top:18px} .mot.phrase b{font-size:96px;max-width:900px} .mot.phrase2 b{font-size:70px;line-height:1.1;max-width:900px} .mot i{display:block;font:700 30px Nunito;font-style:normal;color:var(--muted);margin-top:10px}
+.letterhead{position:absolute;left:1000px;top:170px;font:600 58px Caveat;color:#8a5e42} .sign{position:absolute;left:1430px;top:790px;font:600 46px Caveat;color:#8a5e42}
 .note{position:absolute;right:90px;top:60px;width:330px;background:var(--butter);padding:22px 28px;transform:rotate(3deg);box-shadow:0 10px 0 #0000001c;color:var(--ink)}
 .note span{font:800 18px Nunito;letter-spacing:.1em;text-transform:uppercase} .note b{display:block;font:700 56px 'Playfair Display';color:#b8552a} .note i{font-style:normal;font-weight:700;font-size:22px}
 </style></head><body>
