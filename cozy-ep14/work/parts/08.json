@@ -1,0 +1,530 @@
+[
+ {
+  "who": "mat",
+  "fr": "mais que je peux réellement suivre.",
+  "en": "but that I can actually follow."
+ },
+ {
+  "who": "lea",
+  "fr": "Et je pense que c'est une bonne approche.",
+  "en": "And I think that's a good approach."
+ },
+ {
+  "who": "lea",
+  "fr": "Une habitude réaliste est souvent plus facile",
+  "en": "A realistic habit is often easier"
+ },
+ {
+  "who": "lea",
+  "fr": "à conserver.",
+  "en": "to keep."
+ },
+ {
+  "who": "mat",
+  "fr": "Même si elle n'est pas très impressionnante.",
+  "en": "Even if it's not very impressive."
+ },
+ {
+  "who": "lea",
+  "fr": "Surtout si elle n'est pas impressionnante !",
+  "en": "Especially if it's not impressive!"
+ },
+ {
+  "who": "mat",
+  "fr": "Alors, si je comprends bien,",
+  "en": "So, if I understand correctly,"
+ },
+ {
+  "who": "mat",
+  "fr": "une bonne routine du matin,",
+  "en": "a good morning routine"
+ },
+ {
+  "who": "mat",
+  "fr": "ce n'est pas une liste de dix règles.",
+  "en": "isn't a list of ten rules."
+ },
+ {
+  "who": "lea",
+  "fr": "Non. C'est plutôt",
+  "en": "No. It's more like"
+ },
+ {
+  "who": "lea",
+  "fr": "une petite collection d'habitudes",
+  "en": "a small collection of habits"
+ },
+ {
+  "who": "lea",
+  "fr": "qui nous aident à nous sentir mieux.",
+  "en": "that help us feel better."
+ },
+ {
+  "who": "mat",
+  "fr": "Et qui peuvent changer selon les périodes",
+  "en": "And that can change depending on the periods"
+ },
+ {
+  "who": "mat",
+  "fr": "de notre vie.",
+  "en": "of our life."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Il y a des périodes",
+  "en": "Exactly. There are periods"
+ },
+ {
+  "who": "lea",
+  "fr": "où l'on a beaucoup de temps.",
+  "en": "when we have lots of time."
+ },
+ {
+  "who": "lea",
+  "fr": "D'autres où l'on en a très peu.",
+  "en": "Others when we have very little."
+ },
+ {
+  "who": "mat",
+  "fr": "Et parfois, ce qui nous faisait du bien",
+  "en": "And sometimes, what did us good"
+ },
+ {
+  "who": "mat",
+  "fr": "il y a deux ans ne correspond plus du tout",
+  "en": "two years ago doesn't match at all"
+ },
+ {
+  "who": "mat",
+  "fr": "à nos besoins aujourd'hui.",
+  "en": "what we need today."
+ },
+ {
+  "who": "lea",
+  "fr": "C'est vrai.",
+  "en": "That's true."
+ },
+ {
+  "who": "lea",
+  "fr": "Il faut donc apprendre à s'écouter",
+  "en": "So we have to learn to listen to ourselves"
+ },
+ {
+  "who": "lea",
+  "fr": "et à ajuster ses habitudes.",
+  "en": "and adjust our habits."
+ },
+ {
+  "who": "mat",
+  "fr": "Tu sais, je crois",
+  "en": "You know, I think"
+ },
+ {
+  "who": "mat",
+  "fr": "que je viens de comprendre quelque chose.",
+  "en": "I've just understood something.",
+  "emote": "idee"
+ },
+ {
+  "who": "mat",
+  "fr": "Je pensais qu'une bonne routine était une routine",
+  "en": "I thought a good routine was a routine"
+ },
+ {
+  "who": "mat",
+  "fr": "qu'on suivait parfaitement.",
+  "en": "you followed perfectly."
+ },
+ {
+  "who": "lea",
+  "fr": "Et maintenant ?",
+  "en": "And now?",
+  "emote": "question"
+ },
+ {
+  "who": "mat",
+  "fr": "Maintenant, je pense qu'une bonne routine,",
+  "en": "Now, I think a good routine"
+ },
+ {
+  "who": "mat",
+  "fr": "c'est une routine",
+  "en": "is a routine"
+ },
+ {
+  "who": "mat",
+  "fr": "à laquelle on a envie de revenir.",
+  "en": "you want to come back to."
+ },
+ {
+  "who": "lea",
+  "fr": "J'aime énormément cette définition.",
+  "en": "I absolutely love that definition."
+ },
+ {
+  "who": "mat",
+  "fr": "Merci. Je vais peut-être l'écrire quelque part.",
+  "en": "Thanks. Maybe I'll write it down somewhere."
+ },
+ {
+  "who": "lea",
+  "fr": "Pourquoi pas sur ton réveil ?",
+  "en": "Why not on your alarm clock?"
+ },
+ {
+  "who": "mat",
+  "fr": "Non, surtout pas.",
+  "en": "No, definitely not."
+ },
+ {
+  "who": "mat",
+  "fr": "Je préfère garder de bonnes relations avec lui.",
+  "en": "I'd rather stay on good terms with it."
+ },
+ {
+  "who": "lea",
+  "fr": "Alors, Mathieu, imaginons demain matin.",
+  "en": "So, Mathieu, let's imagine tomorrow morning."
+ },
+ {
+  "who": "lea",
+  "fr": "Tu te réveilles, tu as un peu de temps,",
+  "en": "You wake up, you have a bit of time,"
+ },
+ {
+  "who": "lea",
+  "fr": "et tu veux commencer",
+  "en": "and you want to start"
+ },
+ {
+  "who": "lea",
+  "fr": "ta journée plus agréablement.",
+  "en": "your day more pleasantly."
+ },
+ {
+  "who": "lea",
+  "fr": "Qu'est-ce que tu fais ?",
+  "en": "What do you do?",
+  "emote": "question"
+ },
+ {
+  "who": "mat",
+  "fr": "D'abord, je résiste à l'envie",
+  "en": "First, I resist the urge",
+  "board": {
+   "mode": "steps",
+   "title": "Demain matin",
+   "bg": "carnet",
+   "items": [
+    {
+     "text": "pas de téléphone tout de suite",
+     "at": 1
+    },
+    {
+     "text": "rideaux + un verre d'eau",
+     "at": 3
+    },
+    {
+     "text": "un café… sans rien faire d'autre",
+     "at": 9
+    },
+    {
+     "text": "une petite promenade",
+     "at": 12
+    }
+   ]
+  }
+ },
+ {
+  "who": "mat",
+  "fr": "de regarder immédiatement mon téléphone.",
+  "en": "to look at my phone straight away."
+ },
+ {
+  "who": "lea",
+  "fr": "Très bien. Ensuite ?",
+  "en": "Very good. Then?"
+ },
+ {
+  "who": "mat",
+  "fr": "J'ouvre les rideaux, je bois un verre d'eau,",
+  "en": "I open the curtains, I drink a glass of water,"
+ },
+ {
+  "who": "mat",
+  "fr": "et je prends quelques instants",
+  "en": "and I take a few moments"
+ },
+ {
+  "who": "mat",
+  "fr": "pour me réveiller tranquillement.",
+  "en": "to wake up calmly."
+ },
+ {
+  "who": "lea",
+  "fr": "Et après ?",
+  "en": "And then?"
+ },
+ {
+  "who": "mat",
+  "fr": "Je prépare mon café, évidemment.",
+  "en": "I make my coffee, obviously."
+ },
+ {
+  "who": "lea",
+  "fr": "Évidemment !",
+  "en": "Obviously!"
+ },
+ {
+  "who": "mat",
+  "fr": "Mais cette fois, je prends le temps de le boire",
+  "en": "But this time, I take the time to drink it"
+ },
+ {
+  "who": "mat",
+  "fr": "sans faire trois autres choses en même temps.",
+  "en": "without doing three other things at once."
+ },
+ {
+  "who": "lea",
+  "fr": "Très bonne idée.",
+  "en": "Very good idea."
+ },
+ {
+  "who": "mat",
+  "fr": "Et si j'ai le temps,",
+  "en": "And if I have time,"
+ },
+ {
+  "who": "mat",
+  "fr": "je fais une petite promenade.",
+  "en": "I go for a little walk."
+ },
+ {
+  "who": "mat",
+  "fr": "Sinon, je peux simplement écouter une chanson",
+  "en": "Otherwise, I can simply listen to a song"
+ },
+ {
+  "who": "mat",
+  "fr": "que j'aime avant de commencer à travailler.",
+  "en": "I love before I start working.",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Tu vois, rien de compliqué.",
+  "en": "You see, nothing complicated."
+ },
+ {
+  "who": "mat",
+  "fr": "Oui. Et surtout,",
+  "en": "Yes. And above all,"
+ },
+ {
+  "who": "mat",
+  "fr": "je n'ai pas besoin",
+  "en": "I don't need"
+ },
+ {
+  "who": "mat",
+  "fr": "de me sentir coupable si demain",
+  "en": "to feel guilty if tomorrow"
+ },
+ {
+  "who": "mat",
+  "fr": "ne se passe pas exactement comme prévu.",
+  "en": "doesn't go exactly as planned."
+ },
+ {
+  "who": "lea",
+  "fr": "Voilà. Parce que le but n'est pas d'avoir",
+  "en": "That's it. Because the goal isn't to have"
+ },
+ {
+  "who": "lea",
+  "fr": "des matinées parfaites.",
+  "en": "perfect mornings."
+ },
+ {
+  "who": "mat",
+  "fr": "Le but est de rendre",
+  "en": "The goal is to make"
+ },
+ {
+  "who": "mat",
+  "fr": "nos matinées un peu plus agréables,",
+  "en": "our mornings a little more pleasant,"
+ },
+ {
+  "who": "mat",
+  "fr": "petit à petit.",
+  "en": "little by little."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Et peut-être",
+  "en": "Exactly. And maybe"
+ },
+ {
+  "who": "lea",
+  "fr": "qu'une routine plus douce",
+  "en": "a gentler routine"
+ },
+ {
+  "who": "lea",
+  "fr": "peut aussi changer la manière",
+  "en": "can also change the way"
+ },
+ {
+  "who": "lea",
+  "fr": "dont on aborde le reste de la journée.",
+  "en": "we approach the rest of the day."
+ },
+ {
+  "who": "mat",
+  "fr": "Pas parce qu'elle nous rend invincibles.",
+  "en": "Not because it makes us invincible.",
+  "emote": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Non, bien sûr.",
+  "en": "No, of course not."
+ },
+ {
+  "who": "mat",
+  "fr": "Mais parce qu'elle nous donne parfois",
+  "en": "But because it sometimes gives us"
+ },
+ {
+  "who": "mat",
+  "fr": "un peu plus d'espace pour respirer,",
+  "en": "a little more space to breathe,"
+ },
+ {
+  "who": "mat",
+  "fr": "réfléchir et choisir comment avancer.",
+  "en": "think and choose how to move forward."
+ },
+ {
+  "who": "lea",
+  "fr": "C'est très joliment dit, Mathieu.",
+  "en": "That's very beautifully put, Mathieu.",
+  "emote": "coeur"
+ },
+ {
+  "who": "mat",
+  "fr": "Merci. Je crois",
+  "en": "Thanks. I think"
+ },
+ {
+  "who": "mat",
+  "fr": "que mon café commence à [faire effet.]",
+  "en": "my coffee is starting to kick in."
+ },
+ {
+  "who": "lea",
+  "fr": "Ah, je comprends mieux !",
+  "en": "Ah, now I understand!"
+ },
+ {
+  "who": "mat",
+  "fr": "Bon, Léa, nous avons utilisé",
+  "en": "Okay, Léa, we've used"
+ },
+ {
+  "who": "mat",
+  "fr": "plusieurs expressions intéressantes aujourd'hui.",
+  "en": "several interesting expressions today."
+ },
+ {
+  "who": "mat",
+  "fr": "Je pense que c'est le bon moment",
+  "en": "I think it's the right time"
+ },
+ {
+  "who": "mat",
+  "fr": "pour les regarder de plus près.",
+  "en": "to take a closer look at them."
+ },
+ {
+  "who": "lea",
+  "fr": "Excellente idée.",
+  "en": "Great idea."
+ },
+ {
+  "who": "lea",
+  "fr": "Commençons par une expression très utile :",
+  "en": "Let's start with a very useful expression:"
+ },
+ {
+  "who": "lea",
+  "fr": "« prendre son temps ».",
+  "en": "\"prendre son temps\" (to take your time)."
+ },
+ {
+  "who": "mat",
+  "fr": "Prendre son temps signifie",
+  "en": "Taking your time means",
+  "board": {
+   "mode": "truefalse",
+   "q": "Prendre son temps = être paresseux.",
+   "answer": false,
+   "reveal": 9,
+   "explain": "On fait les choses tranquillement, sans se presser.",
+   "bg": "liege"
+  }
+ },
+ {
+  "who": "mat",
+  "fr": "faire quelque chose tranquillement,",
+  "en": "doing something calmly,"
+ },
+ {
+  "who": "mat",
+  "fr": "sans se presser.",
+  "en": "without rushing."
+ },
+ {
+  "who": "lea",
+  "fr": "Par exemple : « Le dimanche matin,",
+  "en": "For example: \"On Sunday mornings,"
+ },
+ {
+  "who": "lea",
+  "fr": "j'aime prendre mon temps",
+  "en": "I like to take my time"
+ },
+ {
+  "who": "lea",
+  "fr": "pour préparer le petit-déjeuner. »",
+  "en": "to make breakfast.\""
+ },
+ {
+  "who": "mat",
+  "fr": "Ou : « Ne te dépêche pas, prends ton temps. »",
+  "en": "Or: \"Don't rush, take your time.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Et attention,",
+  "en": "Exactly. And careful,"
+ },
+ {
+  "who": "lea",
+  "fr": "prendre son temps",
+  "en": "taking your time"
+ },
+ {
+  "who": "lea",
+  "fr": "ne signifie pas forcément être lent",
+  "en": "doesn't necessarily mean being slow",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "ou paresseux.",
+  "en": "or lazy."
+ }
+]

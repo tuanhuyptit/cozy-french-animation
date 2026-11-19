@@ -1,0 +1,130 @@
+[
+ {
+  "tag": "expression",
+  "word": "être du matin / du soir",
+  "ipa": "/ɛtʁ dy ma.tɛ̃ / dy swaʁ/",
+  "mean": "to be a morning / an evening person",
+  "ex": "Ma sœur est du soir : elle travaille mieux après 22 heures.",
+  "exEn": "My sister is an evening person: she works better after 10 pm."
+ },
+ {
+  "tag": "verbe",
+  "word": "rassurer",
+  "ipa": "/ʁa.sy.ʁe/",
+  "mean": "to reassure",
+  "ex": "Le médecin m'a rassuré : ce n'est rien de grave.",
+  "exEn": "The doctor reassured me: it's nothing serious."
+ },
+ {
+  "tag": "expression",
+  "word": "se rendre compte (de)",
+  "ipa": "/sə ʁɑ̃dʁ kɔ̃t/",
+  "mean": "to realise",
+  "ex": "Je me suis rendu compte que j'avais oublié mes clés.",
+  "exEn": "I realised I had forgotten my keys."
+ },
+ {
+  "tag": "expression",
+  "word": "courir après le temps",
+  "ipa": "/ku.ʁiʁ a.pʁɛ lə tɑ̃/",
+  "mean": "to always be short of time, racing the clock",
+  "ex": "Avec deux enfants, elle court toujours après le temps.",
+  "exEn": "With two kids, she's always racing against the clock."
+ },
+ {
+  "tag": "expression",
+  "word": "dans la précipitation",
+  "ipa": "/dɑ̃ la pʁe.si.pi.ta.sjɔ̃/",
+  "mean": "in a rush, hastily",
+  "ex": "J'ai fait ma valise dans la précipitation.",
+  "exEn": "I packed my suitcase in a rush."
+ },
+ {
+  "tag": "nom féminin",
+  "word": "la veille",
+  "ipa": "/la vɛj/",
+  "mean": "the day / evening before",
+  "ex": "La veille de l'examen, je me couche tôt.",
+  "exEn": "The night before the exam, I go to bed early."
+ },
+ {
+  "tag": "expression",
+  "word": "être attaché à",
+  "ipa": "/ɛtʁ a.ta.ʃe a/",
+  "mean": "to be attached to, fond of",
+  "ex": "Je suis très attachée à cette vieille tasse.",
+  "exEn": "I'm very attached to this old mug."
+ },
+ {
+  "tag": "nom masculin",
+  "word": "un emploi du temps",
+  "ipa": "/œ̃.n‿ɑ̃.plwa dy tɑ̃/",
+  "mean": "a schedule, timetable",
+  "ex": "Cette semaine, mon emploi du temps est très chargé.",
+  "exEn": "This week, my schedule is really busy."
+ },
+ {
+  "tag": "verbe",
+  "word": "savourer",
+  "ipa": "/sa.vu.ʁe/",
+  "mean": "to savour, to enjoy slowly",
+  "ex": "Elle savoure chaque bouchée de son gâteau.",
+  "exEn": "She savours every bite of her cake."
+ },
+ {
+  "tag": "expression",
+  "word": "avoir le luxe de",
+  "ipa": "/a.vwaʁ lə lyks də/",
+  "mean": "to have the luxury of",
+  "ex": "Je n'ai pas le luxe de dormir jusqu'à midi.",
+  "exEn": "I don't have the luxury of sleeping until noon."
+ },
+ {
+  "tag": "expression",
+  "word": "ce n'est pas un drame",
+  "ipa": "/sə nɛ pa.z‿œ̃ dʁam/",
+  "mean": "it's not the end of the world",
+  "ex": "Tu as raté le train ? Ce n'est pas un drame.",
+  "exEn": "You missed the train? It's not the end of the world."
+ },
+ {
+  "tag": "verbe",
+  "word": "s'enchaîner",
+  "ipa": "/sɑ̃.ʃɛ.ne/",
+  "mean": "to follow one after another",
+  "ex": "Les réunions se sont enchaînées toute la journée.",
+  "exEn": "The meetings followed one after another all day."
+ },
+ {
+  "tag": "expression",
+  "word": "mettre dans une bonne dynamique",
+  "ipa": "/mɛtʁ dɑ̃.z‿yn bɔn di.na.mik/",
+  "mean": "to get someone into a good momentum",
+  "ex": "Le sport me met dans une bonne dynamique.",
+  "exEn": "Sport gets me into a good momentum."
+ },
+ {
+  "tag": "verbe",
+  "word": "manquer de",
+  "ipa": "/mɑ̃.ke də/",
+  "mean": "to lack, to be short of",
+  "ex": "En hiver, on manque souvent de lumière.",
+  "exEn": "In winter, we often lack light."
+ },
+ {
+  "tag": "nom féminin",
+  "word": "une prise de conscience",
+  "ipa": "/yn pʁiz də kɔ̃.sjɑ̃s/",
+  "mean": "a realisation, an awakening",
+  "ex": "Ce voyage a été une vraie prise de conscience pour moi.",
+  "exEn": "That trip was a real eye-opener for me."
+ },
+ {
+  "tag": "expression",
+  "word": "faire effet",
+  "ipa": "/fɛʁ e.fɛ/",
+  "mean": "to take effect, to kick in",
+  "ex": "Le médicament commence à faire effet.",
+  "exEn": "The medicine is starting to kick in."
+ }
+]

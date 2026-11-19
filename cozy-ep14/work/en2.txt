@@ -1,0 +1,268 @@
+sometimes the birds,|
+and the light changes gently.|
+It's true that morning light|
+has something special about it.|
+Yes. And when we can enjoy|
+natural light,|
+it can help our body|
+recognise the start of the day.|
+In fact, for a little while now,|
+I've been trying to go out for a walk|
+for a few minutes in the morning|
+when my schedule allows it.|
+Oh, that's new!|e=surpris
+You hadn't told me.|
+Yes. There's a little park|
+near my place.|
+Nothing extraordinary, but I like to stop by|
+before I start working.|
+And what do you do during your walk?|e=question
+Not much.|
+I walk, I look at the trees,|i=nature:les arbres
+I sometimes pass the same people.|
+There's even a man|
+who walks a tiny dog|
+with absolutely incredible energy.|e=rire
+The man or the dog?|e=rire r=rire
+Both, actually!|
+But mostly the dog. It runs|
+as if it had a very important mission.|e=rire
+Maybe it has|
+a morning routine too!|e=rire r=rire
+A much sportier routine|
+than mine, apparently.|
+And how do you feel after that walk?|
+Usually, a bit more awake.|
+And above all, I feel|
+like I've started my day for myself,|
+not only for my work.|e=coeur
+That's an interesting distinction.|e=idee
+Because sometimes our mornings become|
+nothing but preparation for our obligations.|
+Yes. We get up to go to work,|
+to drive the kids to school,|
+to get tasks done... And we forget|
+that the morning is part of our life too.|
+Exactly. It's not just|
+a compulsory step|
+before the important things.|
+The morning is already an important moment.|
+And we can give it a little gentleness,|
+even when we have little time.|e=coeur
+You've just given me an idea.|e=idee
+Maybe I could stop|
+checking my messages|
+during breakfast.|
+Ah! Now we're getting to an interesting topic:|
+the phone.|i=telephone:le téléphone
+I knew it would come back|
+into the conversation.|e=rire
+But careful, I'm not going to say|
+that you should never|
+use your phone in the morning.|
+For lots of people, it's necessary.|
+Yes. You might need|
+to check the transport times,|
+read an important message|
+or contact your family.|
+Absolutely.|
+But there's a difference|
+between using your phone|
+for a specific reason|
+and checking it automatically|
+without even thinking about it.|
+That's exactly what used to happen to me.|e=gene
+I'd pick up my phone to check the time,|
+and ten minutes later,|
+I was watching a video|
+that had absolutely nothing|
+to do with my day.|
+Like what?|e=question
+A video about how|
+to build a wooden cabin in a forest.|e=gene
+Mathieu! Are you planning to build a cabin?|e=surpris r=rire
+No, but now|
+I almost know how to do it.|e=rire r=rire
+That's the danger of little distractions!|e=rire
+Yes. And the strangest thing|
+is that after watching all those videos,|
+I didn't even feel|
+like I'd made good use of my time.|e=triste
+Because your attention had already gone off|
+in several directions.|
+Exactly. So, I started|
+trying something simple:|
+waiting until I'd finished breakfast|
+before looking at social media.|
+And does it work?|e=question
+Not every day.|
+But often enough|
+for me to notice the difference.|
+That's already very good.|
+A habit doesn't have to be perfect|
+to be useful.|
+You know what I rediscovered thanks to that?|
+The taste of my coffee.|
+Really?|e=surpris
+Yes! Before, I drank my coffee|
+while looking at my screen.|
+Now, sometimes,|
+I sit by the window|
+and I really take the time to savour it.|e=coeur
+That's a really lovely expression,|B={"mode":"word","note":"= profiter lentement d'un goût ou d'un moment","icon":"cafe","bg":"craie"}
+"take the time to savour".|
+Yes. Savouring isn't only about eating|
+or drinking something.|
+You can also savour a moment,|
+a victory or a pleasant experience.|
+For example, "After a long week,|
+I savoured my quiet Sunday."|
+Or "This morning,|
+I took the time|
+to savour my coffee without rushing."|BE
+Exactly. And you know,|
+I think it's these little moments|
+that can make everyday life more pleasant.|e=coeur
+But Léa, let's imagine someone|
+who really doesn't have much time in the morning.|e=question
+Someone who has to get their kids ready,|
+take public transport,|
+or start work very early.|
+That's an excellent question.|
+Because not everyone has the luxury|
+of spending a quiet hour at home.|
+Exactly. Sometimes, five minutes|
+of silence already seem impossible.|e=triste
+In that case, I think we need to fit|
+small pleasant moments|
+into what we already do.|
+For example?|
+Listening to a song you love|i=musique:une chanson
+while you make breakfast.|
+Breathing calmly|
+while you wait for the water to heat up.|
+Or taking a few seconds to look outside|
+before leaving the house.|
+So it's not necessarily about|
+adding new activities.|e=idee
+No. Sometimes it's simply about|
+living the things we already do differently.|
+I really like that idea.|
+Because a routine that takes too much effort|
+risks becoming one more obligation.|
+Exactly. And if our routine|
+stresses us out even more,|
+it's no longer really doing its job.|
+Speaking of stress,|
+there's something I do often:|
+as soon as I wake up,|
+I start thinking|
+about all my tasks for the day.|e=fatigue
+Ah yes.|
+The famous mental list that starts|
+before we're even out of bed.|e=rire
+Exactly. I think about an appointment,|
+then about a document to finish,|
+then about a message I haven't answered...|e=gene
+And within a few seconds,|
+you feel|
+like your day is already too full.|
+That's it. And yet, I haven't started anything.|
+So maybe, instead|
+of immediately thinking|
+about everything you have to do,|
+you could start|
+with a simpler question.|
+Which one?|e=question
+"What do I need today?"|B={"mode":"compare","title":"Deux questions le matin","bg":"carnet","left":{"head":"J'ai besoin de…","sub":"ton état","items":[{"text":"ton énergie","at":5},{"text":"tes besoins","at":5}]},"right":{"head":"Je dois…","sub":"tes obligations","items":[{"text":"un rendez-vous","at":6},{"text":"un document","at":6}]}}
+Hmm... That's not the same thing|e=idee
+as "What do I have to do today?"|
+Exactly. The first question|
+is about your state,|
+your energy, your needs.|
+The second one is about your obligations.|
+And both are important.|
+Of course.|
+But sometimes we completely forget the first.|BE
+So, if I feel tired,|
+I could tell myself:|
+today, I need to take it easy.|
+Yes. Or if you have an important day:|
+today, I need|
+to stay focused on what matters.|
+And if I know|
+I'm going to meet a difficult person?|e=gene
+Maybe: today, I need patience.|e=rire
+A lot of patience, in some cases!|e=rire r=rire
+Maybe! But you see,|
+this little reflection can help us|
+choose a direction for the day.|
+Not a perfect plan.|
+Just an intention.|e=idee
+Exactly.|
+And I really like the word "intention".|
+An intention is something|
+you want to do, or a way|B={"mode":"fill","sentence":"Cette semaine, j'ai ___ de mieux organiser mon temps.","answer":"l'intention","hint":"avoir l'intention de + infinitif","en":"This week, I intend to organise my time better.","reveal":6,"bg":"liege"}
+you want to act.|
+For example: "Today,|
+my intention is to take things|
+more calmly."|
+Very good. Or:|
+"This week, I intend|
+to organise my time better."|BE
+But I have a question.|
+What if we don't stick to our intention?|e=question
+Well, it's not the end of the world.|
+Even if I wanted to stay calm|
+and I got annoyed before noon?|e=gene
+Even then.|
+You can acknowledge what happened|
+and try to do things differently afterwards.|
+So we don't need|
+to give up on the whole day|
+after one difficult moment.|
+Exactly. Because a complicated morning|
+doesn't necessarily mean a bad day.|
+That reminds me of last Tuesday.|
+I'd decided|
+to start my day calmly.|
+And then, one thing led to another.|e=triste
+What happened?|e=question
+First, I spilled my coffee.|e=gene
+Then, I couldn't find my keys.|
+And when I finally went out,|
+it started to rain.|i=pluie:la pluie
+Oh dear! What a morning!|e=surpris
+Yes. And straight away I told myself:|
+that's it, my whole day is ruined.|e=triste
+"My day is ruined" —|B={"mode":"register","title":"Ma journée est…","items":["fichue","gâchée","compromise"],"en":"ruined","bg":"craie"}
+it's a very informal expression.|
+It means you think|
+the day is completely spoilt.|BE
+Exactly. But in reality,|
+it was only quarter past eight.|e=rire
+So you still had plenty of time|
+to live better moments.|
+Yes. And in the end,|
+the afternoon went really well.|
+I finished an important project,|
+and I even met up with a friend for lunch.|i=amis:un ami
+You see!|e=idee
+Your bad morning hadn't decided|
+the rest of your day.|
+True. But in the moment,|
+I found it hard to step back.|
+That's another interesting expression:|B={"mode":"idiom","expr":"prendre du recul","literal":"to take some backing-up","meaning":"to step back and look at things calmly","ex":"Avant de répondre, je prends du recul.","exEn":"Before answering, I step back.","meaningAt":2,"bg":"carnet"}
+"prendre du recul" (to step back).|
+It means looking at a situation|
+with a bit of distance,|
+without letting yourself be completely|
+carried away by your emotions.|
+For example: "When I'm stressed,|
+I try to step back before reacting."|
+Exactly. And sometimes, you just need to remember|
+that a bad hour|
+isn't a bad day.|BE
+I like that idea.|
+You can always find|
+a bit of calm again later.|

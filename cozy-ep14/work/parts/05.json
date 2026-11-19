@@ -1,0 +1,557 @@
+[
+ {
+  "who": "lea",
+  "fr": "C'est une excellente question.",
+  "en": "That's an excellent question."
+ },
+ {
+  "who": "lea",
+  "fr": "Parce que toutes les personnes n'ont pas [le luxe]",
+  "en": "Because not everyone has the luxury"
+ },
+ {
+  "who": "lea",
+  "fr": "de passer une heure tranquille chez elles.",
+  "en": "of spending a quiet hour at home."
+ },
+ {
+  "who": "mat",
+  "fr": "Exactement. Parfois, cinq minutes",
+  "en": "Exactly. Sometimes, five minutes"
+ },
+ {
+  "who": "mat",
+  "fr": "de silence semblent déjà impossibles.",
+  "en": "of silence already seem impossible."
+ },
+ {
+  "who": "lea",
+  "fr": "Dans ce cas, je pense qu'il faut intégrer",
+  "en": "In that case, I think we need to fit"
+ },
+ {
+  "who": "lea",
+  "fr": "de petits moments agréables",
+  "en": "small pleasant moments"
+ },
+ {
+  "who": "lea",
+  "fr": "dans ce qu'on fait déjà.",
+  "en": "into what we already do."
+ },
+ {
+  "who": "mat",
+  "fr": "Par exemple ?",
+  "en": "For example?"
+ },
+ {
+  "who": "lea",
+  "fr": "Écouter une chanson qu'on aime",
+  "en": "Listening to a song you love",
+  "illus": "musique",
+  "label": "une chanson"
+ },
+ {
+  "who": "lea",
+  "fr": "pendant qu'on prépare le petit-déjeuner.",
+  "en": "while you make breakfast."
+ },
+ {
+  "who": "lea",
+  "fr": "Respirer tranquillement",
+  "en": "Breathing calmly"
+ },
+ {
+  "who": "lea",
+  "fr": "pendant qu'on attend que l'eau chauffe.",
+  "en": "while you wait for the water to heat up."
+ },
+ {
+  "who": "lea",
+  "fr": "Ou prendre quelques secondes pour regarder dehors",
+  "en": "Or taking a few seconds to look outside"
+ },
+ {
+  "who": "lea",
+  "fr": "avant de quitter la maison.",
+  "en": "before leaving the house."
+ },
+ {
+  "who": "mat",
+  "fr": "Donc il ne s'agit pas forcément",
+  "en": "So it's not necessarily about"
+ },
+ {
+  "who": "mat",
+  "fr": "d'ajouter de nouvelles activités.",
+  "en": "adding new activities.",
+  "emote": "idee"
+ },
+ {
+  "who": "lea",
+  "fr": "Non. Il s'agit parfois simplement",
+  "en": "No. Sometimes it's simply about"
+ },
+ {
+  "who": "lea",
+  "fr": "de vivre autrement les activités qu'on fait déjà.",
+  "en": "living the things we already do differently."
+ },
+ {
+  "who": "mat",
+  "fr": "J'aime beaucoup cette idée.",
+  "en": "I really like that idea."
+ },
+ {
+  "who": "mat",
+  "fr": "Parce qu'une routine qui demande trop d'efforts",
+  "en": "Because a routine that takes too much effort"
+ },
+ {
+  "who": "mat",
+  "fr": "risque de devenir une obligation supplémentaire.",
+  "en": "risks becoming one more obligation."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Et si notre routine",
+  "en": "Exactly. And if our routine"
+ },
+ {
+  "who": "lea",
+  "fr": "nous stresse davantage,",
+  "en": "stresses us out even more,"
+ },
+ {
+  "who": "lea",
+  "fr": "elle ne remplit plus vraiment son rôle.",
+  "en": "it's no longer really doing its job."
+ },
+ {
+  "who": "mat",
+  "fr": "En parlant de stress,",
+  "en": "Speaking of stress,"
+ },
+ {
+  "who": "mat",
+  "fr": "il y a quelque chose que je fais souvent :",
+  "en": "there's something I do often:"
+ },
+ {
+  "who": "mat",
+  "fr": "dès que je me réveille,",
+  "en": "as soon as I wake up,"
+ },
+ {
+  "who": "mat",
+  "fr": "je commence à penser",
+  "en": "I start thinking"
+ },
+ {
+  "who": "mat",
+  "fr": "à toutes mes tâches de la journée.",
+  "en": "about all my tasks for the day.",
+  "emote": "fatigue"
+ },
+ {
+  "who": "lea",
+  "fr": "Ah oui.",
+  "en": "Ah yes."
+ },
+ {
+  "who": "lea",
+  "fr": "La fameuse liste mentale qui commence",
+  "en": "The famous mental list that starts"
+ },
+ {
+  "who": "lea",
+  "fr": "avant même qu'on soit sorti du lit.",
+  "en": "before we're even out of bed.",
+  "emote": "rire"
+ },
+ {
+  "who": "mat",
+  "fr": "Exactement. Je pense à un rendez-vous,",
+  "en": "Exactly. I think about an appointment,"
+ },
+ {
+  "who": "mat",
+  "fr": "puis à un document à terminer,",
+  "en": "then about a document to finish,"
+ },
+ {
+  "who": "mat",
+  "fr": "puis à un message auquel je n'ai pas répondu...",
+  "en": "then about a message I haven't answered..."
+ },
+ {
+  "who": "lea",
+  "fr": "Et en quelques secondes,",
+  "en": "And within a few seconds,"
+ },
+ {
+  "who": "lea",
+  "fr": "tu as l'impression",
+  "en": "you feel"
+ },
+ {
+  "who": "lea",
+  "fr": "que ta journée est déjà trop remplie.",
+  "en": "like your day is already too full."
+ },
+ {
+  "who": "mat",
+  "fr": "C'est ça. Pourtant, je n'ai encore rien commencé.",
+  "en": "That's it. And yet, I haven't started anything."
+ },
+ {
+  "who": "lea",
+  "fr": "Alors peut-être qu'au lieu",
+  "en": "So maybe, instead"
+ },
+ {
+  "who": "lea",
+  "fr": "de penser immédiatement",
+  "en": "of immediately thinking"
+ },
+ {
+  "who": "lea",
+  "fr": "à tout ce que tu dois faire,",
+  "en": "about everything you have to do,"
+ },
+ {
+  "who": "lea",
+  "fr": "tu pourrais commencer",
+  "en": "you could start"
+ },
+ {
+  "who": "lea",
+  "fr": "par une question plus simple.",
+  "en": "with a simpler question."
+ },
+ {
+  "who": "mat",
+  "fr": "Laquelle ?",
+  "en": "Which one?",
+  "emote": "question"
+ },
+ {
+  "who": "lea",
+  "fr": "« De quoi ai-je besoin aujourd'hui ? »",
+  "en": "\"What do I need today?\"",
+  "board": {
+   "mode": "compare",
+   "title": "Deux questions le matin",
+   "bg": "carnet",
+   "left": {
+    "head": "J'ai besoin de…",
+    "sub": "ton état",
+    "items": [
+     {
+      "text": "ton énergie",
+      "at": 5
+     },
+     {
+      "text": "tes besoins",
+      "at": 5
+     }
+    ]
+   },
+   "right": {
+    "head": "Je dois…",
+    "sub": "tes obligations",
+    "items": [
+     {
+      "text": "un rendez-vous",
+      "at": 6
+     },
+     {
+      "text": "un document",
+      "at": 6
+     }
+    ]
+   }
+  }
+ },
+ {
+  "who": "mat",
+  "fr": "Hmm... Ce n'est pas la même chose",
+  "en": "Hmm... That's not the same thing"
+ },
+ {
+  "who": "mat",
+  "fr": "que « Qu'est-ce que je dois faire aujourd'hui ? »",
+  "en": "as \"What do I have to do today?\""
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. La première question",
+  "en": "Exactly. The first question"
+ },
+ {
+  "who": "lea",
+  "fr": "concerne ton état,",
+  "en": "is about your state,"
+ },
+ {
+  "who": "lea",
+  "fr": "ton énergie, tes besoins.",
+  "en": "your energy, your needs."
+ },
+ {
+  "who": "lea",
+  "fr": "La deuxième concerne tes obligations.",
+  "en": "The second one is about your obligations."
+ },
+ {
+  "who": "mat",
+  "fr": "Et les deux sont importantes.",
+  "en": "And both are important."
+ },
+ {
+  "who": "lea",
+  "fr": "Bien sûr.",
+  "en": "Of course."
+ },
+ {
+  "who": "lea",
+  "fr": "Mais parfois, on oublie complètement la première.",
+  "en": "But sometimes we completely forget the first.",
+  "boardEnd": true
+ },
+ {
+  "who": "mat",
+  "fr": "Alors, si je me sens fatigué,",
+  "en": "So, if I feel tired,"
+ },
+ {
+  "who": "mat",
+  "fr": "je pourrais me dire :",
+  "en": "I could tell myself:"
+ },
+ {
+  "who": "mat",
+  "fr": "aujourd'hui, j'ai besoin d'y aller doucement.",
+  "en": "today, I need to take it easy."
+ },
+ {
+  "who": "lea",
+  "fr": "Oui. Ou si tu as une journée importante :",
+  "en": "Yes. Or if you have an important day:"
+ },
+ {
+  "who": "lea",
+  "fr": "aujourd'hui, j'ai besoin",
+  "en": "today, I need"
+ },
+ {
+  "who": "lea",
+  "fr": "de rester concentré sur l'essentiel.",
+  "en": "to stay focused on what matters."
+ },
+ {
+  "who": "mat",
+  "fr": "Et si je sais",
+  "en": "And if I know"
+ },
+ {
+  "who": "mat",
+  "fr": "que je vais rencontrer une personne difficile ?",
+  "en": "I'm going to meet a difficult person?",
+  "emote": "gene"
+ },
+ {
+  "who": "lea",
+  "fr": "Peut-être : aujourd'hui, j'ai besoin de patience.",
+  "en": "Maybe: today, I need patience.",
+  "emote": "rire"
+ },
+ {
+  "who": "mat",
+  "fr": "Beaucoup de patience, dans certains cas !",
+  "en": "A lot of patience, in some cases!"
+ },
+ {
+  "who": "lea",
+  "fr": "Peut-être ! Mais tu vois,",
+  "en": "Maybe! But you see,"
+ },
+ {
+  "who": "lea",
+  "fr": "cette petite réflexion peut nous aider",
+  "en": "this little reflection can help us"
+ },
+ {
+  "who": "lea",
+  "fr": "à choisir une direction pour la journée.",
+  "en": "choose a direction for the day."
+ },
+ {
+  "who": "mat",
+  "fr": "Pas un programme parfait.",
+  "en": "Not a perfect plan."
+ },
+ {
+  "who": "mat",
+  "fr": "Juste une intention.",
+  "en": "Just an intention."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement.",
+  "en": "Exactly."
+ },
+ {
+  "who": "lea",
+  "fr": "Et j'aime beaucoup le mot « intention ».",
+  "en": "And I really like the word \"intention\"."
+ },
+ {
+  "who": "lea",
+  "fr": "Une intention, c'est quelque chose",
+  "en": "An intention is something"
+ },
+ {
+  "who": "lea",
+  "fr": "qu'on souhaite faire ou une manière",
+  "en": "you want to do, or a way",
+  "board": {
+   "mode": "fill",
+   "sentence": "J'ai ___ de mieux organiser mon temps.",
+   "answer": "l'intention",
+   "hint": "avoir l'intention de + infinitif",
+   "en": "I intend to organise my time better.",
+   "reveal": 6,
+   "bg": "liege"
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "dont on souhaite agir.",
+  "en": "you want to act."
+ },
+ {
+  "who": "mat",
+  "fr": "Par exemple : « Aujourd'hui,",
+  "en": "For example: \"Today,"
+ },
+ {
+  "who": "mat",
+  "fr": "mon intention est de prendre les choses",
+  "en": "my intention is to take things"
+ },
+ {
+  "who": "mat",
+  "fr": "avec plus de calme. »",
+  "en": "more calmly.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Très bien. Ou :",
+  "en": "Very good. Or:"
+ },
+ {
+  "who": "lea",
+  "fr": "« Cette semaine, j'ai l'intention",
+  "en": "\"This week, I intend"
+ },
+ {
+  "who": "lea",
+  "fr": "de mieux organiser mon temps. »",
+  "en": "to organise my time better.\"",
+  "boardEnd": true
+ },
+ {
+  "who": "mat",
+  "fr": "Mais j'ai une question.",
+  "en": "But I have a question."
+ },
+ {
+  "who": "mat",
+  "fr": "Et si on ne respecte pas notre intention ?",
+  "en": "What if we don't stick to our intention?",
+  "emote": "question"
+ },
+ {
+  "who": "lea",
+  "fr": "Eh bien, [ce n'est pas un drame.]",
+  "en": "Well, it's not the end of the world."
+ },
+ {
+  "who": "mat",
+  "fr": "Même si je voulais rester calme",
+  "en": "Even if I wanted to stay calm"
+ },
+ {
+  "who": "mat",
+  "fr": "et que je me suis énervé avant midi ?",
+  "en": "and I got annoyed before noon?"
+ },
+ {
+  "who": "lea",
+  "fr": "Même dans ce cas.",
+  "en": "Even then."
+ },
+ {
+  "who": "lea",
+  "fr": "On peut reconnaître ce qui s'est passé",
+  "en": "You can acknowledge what happened"
+ },
+ {
+  "who": "lea",
+  "fr": "et essayer de faire autrement ensuite.",
+  "en": "and try to do things differently afterwards."
+ },
+ {
+  "who": "mat",
+  "fr": "Donc on n'a pas besoin",
+  "en": "So we don't need"
+ },
+ {
+  "who": "mat",
+  "fr": "d'abandonner toute la journée",
+  "en": "to give up on the whole day"
+ },
+ {
+  "who": "mat",
+  "fr": "après un moment difficile.",
+  "en": "after one difficult moment."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Parce qu'une matinée compliquée",
+  "en": "Exactly. Because a complicated morning"
+ },
+ {
+  "who": "lea",
+  "fr": "ne signifie pas forcément une mauvaise journée.",
+  "en": "doesn't necessarily mean a bad day."
+ },
+ {
+  "who": "mat",
+  "fr": "Ça me rappelle mardi dernier.",
+  "en": "That reminds me of last Tuesday."
+ },
+ {
+  "who": "mat",
+  "fr": "J'avais décidé",
+  "en": "I'd decided"
+ },
+ {
+  "who": "mat",
+  "fr": "de commencer ma journée tranquillement.",
+  "en": "to start my day calmly."
+ },
+ {
+  "who": "mat",
+  "fr": "Et puis, tout [s'est enchaîné.]",
+  "en": "And then, one thing led to another.",
+  "emote": "triste"
+ },
+ {
+  "who": "lea",
+  "fr": "Qu'est-ce qui s'est passé ?",
+  "en": "What happened?",
+  "emote": "question"
+ }
+]

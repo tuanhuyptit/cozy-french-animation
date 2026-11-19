@@ -1,0 +1,4516 @@
+{
+  "scene": "salon",
+  "lea": "cardigan",
+  "mat": "hoodie",
+  "audio": "assets/voice.mp3",
+  "audioEnd": 1800.17,
+  "chunks": [
+    {
+      "who": "lea",
+      "hz": 296,
+      "fr": "Bonjour à toutes et à tous et bienvenue dans The",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Cozy French.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Je suis Léa et je suis tellement heureuse de",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "vous retrouver pour un nouveau moment ensemble.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "J'espère que vous allez bien,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "où que vous soyez dans le monde.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "Et moi, c'est Mathieu.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Bonjour chers amis.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "Peut-être que vous nous écoutez en préparant votre",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 116,
+      "fr": "café, en allant au travail,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 157,
+      "fr": "en faisant une petite promenade,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 151,
+      "fr": "ou même encore sous votre couverture.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "Dans tous les cas, installez-vous confortablement.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 129,
+      "fr": "Nous sommes ravis de vous retrouver.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Avant de commencer, dites-nous dans les",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "commentaires de quel pays vous nous écoutez.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Et surtout dites-nous, vous êtes plutôt du matin",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "ou du soir ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "Ah Léa, voilà une question dangereuse !",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 160,
+      "fr": "Parce que je crois que tu connais déjà ma réponse.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Attends, laisse-moi deviner.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Tu es du matin, mais seulement après ton deuxième",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "café ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Exactement !",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "Avant mon café, je suis physiquement présent,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "mais je ne garantis pas que mon cerveau fonctionne",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "correctement.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Pauvre Mathieu.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Mais justement, aujourd'hui, nous allons parler",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 296,
+      "fr": "d'un sujet qui pourrait t'intéresser.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "Ah oui ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 170,
+      "fr": "Comment survivre avant 8 heures du matin ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 267,
+      "fr": "Pas exactement.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Aujourd'hui, nous allons parler de notre routine",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "matinale.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Et surtout de ces petites habitudes qui peuvent",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "nous aider à commencer la journée avec plus de",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "calme, d'énergie et de bonne humeur.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "Ah, une routine du matin pour une vie plus",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 100,
+      "fr": "heureuse.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 113,
+      "fr": "J'aime bien cette idée.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 114,
+      "fr": "Mais rassure-moi Léa, tu ne vas pas me demander",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 116,
+      "fr": "de me réveiller à 5 heures,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 129,
+      "fr": "de courir 10 km et de prendre une douche glacée ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Absolument pas.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Parce que pour moi, une bonne routine du matin",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "ne doit pas être une compétition.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Elle doit simplement nous aider à nous sentir",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "mieux.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "Ouf, je préfère ça.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "Parce que parfois, sur Internet,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "on a l'impression que pour réussir sa journée,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "il faut avoir accompli 12 choses avant même le",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 108,
+      "fr": "petit-déjeuner.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "C'est vrai, mais aujourd'hui, on va prendre une",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "autre direction.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Nous allons parler de choses simples,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "réalistes et agréables.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Des habitudes que chacun peut adapter à sa propre",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "vie.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "Et comme toujours dans The Cosy French,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "nous allons apprendre de nouvelles expressions",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "françaises en discutant naturellement.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 107,
+      "fr": "Alors si vous apprenez le français,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "écoutez tranquillement.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 119,
+      "fr": "Vous n'avez pas besoin de comprendre chaque mot",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "immédiatement.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Exactement.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Laissez les phrases venir naturellement.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Et si vous aimez apprendre le français avec nous,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "pensez à vous abonner à The Cosy French.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Cela nous fait énormément plaisir de vous",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "retrouver à chaque épisode.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "Bon, Léa, j'ai une question pour commencer.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 151,
+      "fr": "À quoi ressemble ton matin idéal ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Mon matin idéal ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Je me réveille doucement, sans bruit,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "avec un peu de lumière qui entre par la fenêtre.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Je prends le temps de m'étirer,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "je prépare mon thé et je profite de quelques",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "minutes de silence.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "Attends, tu viens de décrire une publicité pour",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "une maison à la campagne.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Peut-être, mais je n'ai pas dit que tous mes",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "matins ressemblaient à ça.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 118,
+      "fr": "Ah, voilà qui me rassure.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "En réalité, certains matins, je me réveille en",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "retard.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Je cherche mes lunettes pendant cinq minutes et je",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "renverse un peu de thé sur la table.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 108,
+      "fr": "Ah, voilà une vraie personne.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "Je commençais à m'inquiéter.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Et toi Mathieu, comment commencent tes journées ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "Eh bien, pendant longtemps, mes matinées",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "commençaient toujours de la même façon.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 104,
+      "fr": "Mon réveil sonnait, je l'arrêtais,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "puis je regardais mon téléphone.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 107,
+      "fr": "Je lisais les messages, les nouvelles,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 118,
+      "fr": "quelques notifications et sans m'en rendre compte,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 116,
+      "fr": "20 minutes avaient disparu.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "20 minutes ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 348,
+      "fr": "Tous les matins ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "Parfois 30, mais je préfère ne pas en parler.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Et après ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "Après, je me dépêchais, je prenais ma douche",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 118,
+      "fr": "rapidement, je préparais mon petit déjeuner à",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "toute vitesse et je quittais la maison avec cette",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "impression désagréable d'être déjà en retard sur",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 103,
+      "fr": "ma journée.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Même quand tu n'étais pas réellement en retard ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "Exactement, c'était étrange.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 110,
+      "fr": "Il était à peine 8 heures et j'avais déjà",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "l'impression de courir après le temps.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Je pense que beaucoup de personnes connaissent",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "cette sensation.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "On ouvre les yeux et immédiatement,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "notre esprit commence à penser à tout ce qu'il",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 348,
+      "fr": "faut faire.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 116,
+      "fr": "Répondre aux messages, préparer le déjeuner,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 118,
+      "fr": "aller travailler, payer une facture,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 116,
+      "fr": "terminer un projet.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Et parfois, nous oublions une chose très simple,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "prendre quelques instants pour nous-mêmes.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "C'est vrai, mais comment changer ça sans",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "transformer notre matinée en une liste",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 119,
+      "fr": "interminable de nouvelles obligations ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Justement, je crois qu'il faut commencer très",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "petit.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Pas besoin de changer toute sa vie en une seule",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 160,
+      "fr": "journée.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Très petit, ça me plaît !",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "Nous parlons de combien de temps ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Peut-être 3 minutes, peut-être 5.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "L'important, ce n'est pas la durée,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "c'est la manière dont on commence.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "Donc 5 minutes peuvent vraiment faire une",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 170,
+      "fr": "différence ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Elles ne vont pas résoudre tous nos problèmes bien",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "sûr, mais elles peuvent nous aider à commencer la",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 276,
+      "fr": "journée un peu plus consciemment.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "Tu sais, j'ai remarqué quelque chose.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "Quand je commence ma journée dans la",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 151,
+      "fr": "précipitation, j'ai tendance à garder ce rythme",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 118,
+      "fr": "pendant plusieurs heures.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Exactement, et inversement, quand on prend",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "quelques instants pour se réveiller",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 267,
+      "fr": "tranquillement, on peut parfois se sentir plus",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "disponible pour la suite.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "Alors, première question importante, que fait-on",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 119,
+      "fr": "pendant ces 5 minutes ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Eh bien, on peut simplement s'asseoir au bord du",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "lit, ouvrir les rideaux, regarder le ciel ou boire",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "un verre d'eau.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 267,
+      "fr": "Rien de plus ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Rien de plus.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Il n'est pas nécessaire de faire quelque chose",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "d'impressionnant.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "J'aime beaucoup.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "Parce que parfois, les conseils de développement",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 129,
+      "fr": "personnel me donnent l'impression que je dois",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "devenir une nouvelle personne avant 8 heures du",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "matin.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Mais tu n'as pas besoin de devenir une nouvelle",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "personne.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Tu as simplement besoin de trouver une manière",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "plus agréable d'être toi-même.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 119,
+      "fr": "C'est une jolie façon de le dire.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Et puis, chaque personne a son propre rythme.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Certaines personnes aiment se lever très tôt.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "D'autres ont besoin d'un peu plus de temps.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Et c'est parfaitement normal.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 118,
+      "fr": "D'ailleurs, parlons du réveil.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "Parce que je crois que ma relation avec mon",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "réveil n'est pas très saine.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Ah bon ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Qu'est-ce qu'il t'a fait ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 157,
+      "fr": "Il sonne beaucoup trop tôt.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Mathieu, c'est toi qui choisis l'heure.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Oui, mais le Mathieu du soir est beaucoup plus",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 119,
+      "fr": "optimiste que le Mathieu du matin.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Ah ça, je comprends très bien.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "Le soir, je me dis \"Demain,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "je vais me lever à 6 heures et demie.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "Je vais préparer un bon petit déjeuner,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "lire quelques pages, faire un peu de sport\".",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Et le lendemain ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "Le lendemain, je négocie avec mon réveil comme si",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "nous étions dans une réunion diplomatique.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 296,
+      "fr": "Encore 5 minutes ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 113,
+      "fr": "Exactement.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "Et puis encore 5 minutes.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Et encore 5 minutes.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 286,
+      "fr": "Tu sais, cette expression est très courante en",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "français.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Encore 5 petites minutes.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "C'est probablement une des phrases les plus",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "prononcées le matin.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "Et une des moins respectées aussi.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Mais plus sérieusement, je pense qu'il est",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "important de ne pas se fixer des objectifs",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "irréalistes.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Si on est très fatigué,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "se forcer à se lever beaucoup plus tôt n'est",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "pas forcément une bonne solution.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "Oui, parfois la meilleure routine du matin",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 129,
+      "fr": "commence la veille en allant se coucher à une",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "heure raisonnable.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Tout à fait, le sommeil est essentiel.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Et une routine agréable ne peut pas toujours",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "compenser des nuits trop courtes.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "Tu sais ce qui m'a aidé récemment ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "J'ai commencé à préparer quelques affaires le",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "soir.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Comme quoi ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 129,
+      "fr": "Mes vêtements, mon sac, mes clés,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "des petites choses.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "Avant, je perdais souvent du temps à chercher ce",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 114,
+      "fr": "dont j'avais besoin.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Et maintenant ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Maintenant, mes matinées sont un peu moins",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 110,
+      "fr": "chaotiques.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "Bon, je cherche toujours mes lunettes de temps en",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 105,
+      "fr": "temps.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "Mais c'est déjà un progrès.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "C'est exactement ça.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "On n'a pas besoin de transformer toute sa vie.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Parfois, il suffit de supprimer une petite source",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 157,
+      "fr": "de stress.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "Et chaque petite amélioration rend le matin un peu",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 116,
+      "fr": "plus léger.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "À propos de légèreté, j'aimerais parler d'une",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "habitude que j'adore.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Ouvrir la fenêtre le matin.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 129,
+      "fr": "Même en hiver ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Même en hiver.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Bon, pas pendant une heure évidemment.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Mais quelques instants pour sentir l'air frais.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "Moi, en hiver, je préfère admirer l'air frais",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 113,
+      "fr": "depuis l'intérieur.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Tu es vraiment difficile.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 160,
+      "fr": "Je suis simplement très attaché à ma couverture.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Mais tu sais, j'aime beaucoup ce moment où la",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "maison commence à se réveiller.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "On entend quelques bruits dans la rue,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "les oiseaux parfois, et la lumière change",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 170,
+      "fr": "doucement.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "C'est vrai que la lumière du matin a quelque chose",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 104,
+      "fr": "de particulier.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Oui.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Et quand on peut profiter de la lumière naturelle,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "cela peut aider notre organisme à reconnaître le",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "début de la journée.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "D'ailleurs, depuis quelques temps, j'essaie de",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "sortir marcher quelques minutes le matin quand mon",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "emploi du temps le permet.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Ah, c'est nouveau ça !",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Tu ne m'avais pas raconté ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "Oui, il y a un petit parc près de chez moi.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "Rien d'extraordinaire, mais j'aime y passer avant",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 116,
+      "fr": "de commencer à travailler.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Et qu'est-ce que tu fais pendant ta promenade ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "Pas grand chose.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "Je marche, je regarde les arbres,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "je croise parfois les mêmes personnes.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "Il y a même un monsieur qui promène un",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "chien minuscule avec une énergie absolument",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 107,
+      "fr": "incroyable.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Le monsieur ou le chien ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 129,
+      "fr": "Les deux en fait, mais surtout le chien.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Il court comme s'il avait une mission très",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 99,
+      "fr": "importante.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Peut-être qu'il a lui aussi une routine matinale ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Une routine beaucoup plus sportive que la mienne,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "apparemment.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Et comment tu te sens après cette promenade ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "Généralement, un peu plus réveillé.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Et surtout, j'ai l'impression d'avoir commencé ma",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "journée pour moi, pas uniquement pour mon travail.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "C'est intéressant, cette distinction.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Parce que parfois, nos matinées deviennent",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "uniquement une préparation à nos obligations.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 129,
+      "fr": "Oui, on se lève pour aller travailler,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "pour conduire les enfants à l'école,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "pour accomplir des tâches et on oublie que le",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "matin fait aussi partie de notre vie.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Exactement.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Ce n'est pas simplement un passage obligatoire",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "avant les choses importantes.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 119,
+      "fr": "Le matin est déjà un moment important.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Et on peut lui donner un peu de douceur,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "même quand on a peu de temps.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 129,
+      "fr": "Tu viens de me donner une idée.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "Peut-être que je pourrai arrêter de regarder mes",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "messages pendant mon petit déjeuner.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 267,
+      "fr": "Ah !",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Nous arrivons à un sujet intéressant,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "le téléphone.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "Je savais qu'il allait revenir dans la",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 114,
+      "fr": "conversation.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Mais attention, je ne vais pas dire qu'il ne",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "faut jamais utiliser son téléphone le matin.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Pour beaucoup de personnes, c'est nécessaire.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "Oui, on peut avoir besoin de vérifier les horaires",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "des transports, de lire un message important ou de",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "contacter sa famille.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Tout à fait.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Mais il y a une différence entre utiliser son",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "téléphone pour une raison précise et le consulter",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "automatiquement sans même y réfléchir.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "C'est exactement ce qui m'arrivait.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 119,
+      "fr": "Je prenais mon téléphone pour regarder l'heure.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "Et dix minutes plus tard,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 129,
+      "fr": "je regardais une vidéo qui n'avait absolument rien",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "à voir avec ma journée.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Par exemple ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "Une vidéo sur la façon de construire une cabane",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 119,
+      "fr": "en bois dans une forêt.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Mathieu, tu comptes construire une cabane ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "Non, mais maintenant je sais presque comment",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 400,
+      "fr": "faire.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Voilà le danger des petites distractions.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 129,
+      "fr": "Oui, et le plus étrange,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "c'est qu'après avoir regardé toutes ces vidéos,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "je n'avais même pas l'impression d'avoir profité",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 105,
+      "fr": "de mon temps.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Parce que ton attention était déjà partie dans",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "plusieurs directions.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 105,
+      "fr": "Exactement.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 160,
+      "fr": "Alors, j'ai commencé à essayer quelque chose de",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "simple, attendre d'avoir terminé mon petit",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "déjeuner avant de regarder les réseaux sociaux.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Et ça fonctionne ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "Pas tous les jours, mais assez souvent pour que",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "je remarque la différence.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "C'est déjà très bien.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Une habitude ne doit pas être parfaite pour être",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "utile.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "Tu sais ce que j'ai redécouvert grâce à ça ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "Le goût de mon café.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 348,
+      "fr": "Ah bon ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Oui !",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "Avant, je buvais mon café en regardant mon écran.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "Maintenant, parfois, je m'assois près de la",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "fenêtre et je prends vraiment le temps de le",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 99,
+      "fr": "savourer.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "C'est une très jolie expression.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Prendre le temps de savourer.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 151,
+      "fr": "Oui, savourer, ce n'est pas seulement manger ou",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "boire quelque chose.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "On peut aussi savourer à un moment,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "une victoire ou une expérience agréable.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Par exemple, après une longue semaine,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "j'ai savouré mon dimanche tranquille.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "Ou ce matin, j'ai pris le temps de savourer",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "mon café sans me dépêcher.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Exactement, et tu sais, je pense que ce sont",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "ces petits moments qui peuvent rendre le quotidien",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "plus agréable.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Mais Léa, imaginons quelqu'un qui n'a vraiment pas",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "beaucoup de temps le matin.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "Quelqu'un qui doit préparer ses enfants,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 129,
+      "fr": "prendre les transports ou commencer à travailler",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "très tôt.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "C'est une excellente question.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Parce que toutes les personnes n'ont pas le luxe",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "de passer une heure tranquille chez elles.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 104,
+      "fr": "Exactement.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "Parfois, cinq minutes de silence semblent déjà",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "impossibles.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Dans ce cas, je pense qu'il faut intégrer de",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "petits moments agréables dans ce qu'on fait déjà.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "Par exemple ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Écouter une chanson qu'on aime pendant qu'on",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "prépare le petit déjeuner, respirer tranquillement",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "pendant qu'on attend que l'eau chauffe ou prendre",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "quelques secondes pour regarder dehors avant de",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "quitter la maison.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "Donc il ne s'agit pas forcément d'ajouter de",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "nouvelles activités ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Non.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 267,
+      "fr": "Il s'agit parfois simplement de vivre autrement",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "les activités qu'on fait déjà.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "J'aime beaucoup cette idée.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "Parce qu'une routine qui demande trop d'efforts",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "risque de devenir une obligation supplémentaire.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Exactement.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Et si notre routine nous stresse davantage,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "elle ne remplit plus vraiment son rôle.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "En parlant de stress, il y a quelque chose",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "que je fais souvent.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Dès que je me réveille,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "je commence à penser à toutes mes tâches de la",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 101,
+      "fr": "journée.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Ah oui, la fameuse liste mentale qui commence",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "avant même qu'on soit sorti du lit.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 111,
+      "fr": "Exactement.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 116,
+      "fr": "Je pense à un rendez-vous,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "puis à un document à terminer,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 157,
+      "fr": "puis à un message auquel je n'ai pas répondu.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Et en quelques secondes, tu as l'impression que ta",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "journée est déjà trop remplie.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "C'est ça.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "Pourtant, je n'ai encore rien commencé.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Alors, peut-être qu'au lieu de penser",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 267,
+      "fr": "immédiatement à tout ce que tu dois faire,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "tu pourrais commencer par une question plus",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "simple.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "Laquelle ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "De quoi ai-je besoin aujourd'hui ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "Hum, ce n'est pas la même chose que \"Qu'est-ce",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "que je dois faire aujourd'hui ?\" Exactement.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "La première question concerne ton état,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "ton énergie, tes besoins.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "La deuxième concerne tes obligations.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "Et les deux sont importantes.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Bien sûr, mais parfois, on oublie complètement la",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "première.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 170,
+      "fr": "Alors, si je me sens fatigué,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "je pourrais me dire \"Aujourd'hui,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 111,
+      "fr": "j'ai besoin d'y aller doucement\".",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Oui, ou si tu as une journée importante,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "\"Aujourd'hui, j'ai besoin de rester concentré sur",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "l'essentiel\".",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "Et si je sais que je vais rencontrer une personne",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 103,
+      "fr": "difficile ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Peut-être \"Aujourd'hui, j'ai besoin de patience\".",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Beaucoup de patience dans certains cas.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Peut-être.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 267,
+      "fr": "Mais tu vois, cette petite réflexion peut nous",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "aider à choisir une direction pour la journée.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "Pas un programme parfait, juste une intention.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Exactement.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Et j'aime beaucoup le mot \"intention\".",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Une intention, c'est quelque chose qu'on souhaite",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "faire ou une manière dont on souhaite agir.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Par exemple, \"Aujourd'hui, mon intention est de",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "prendre les choses avec plus de calme\".",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Très bien.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Ou \"Cette semaine, j'ai l'intention de mieux",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "organiser mon temps\".",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "Mais j'ai une question, et si on ne respecte",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 114,
+      "fr": "pas notre intention ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Eh bien, ce n'est pas un drame.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Même si je voulais rester calme et que je",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "me suis énervé avant midi ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Même dans ce cas.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "On peut reconnaître ce qui s'est passé et essayer",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "de faire autrement ensuite.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Donc on n'a pas besoin d'abandonner toute la",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 116,
+      "fr": "journée après un moment difficile.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "Exactement.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 267,
+      "fr": "Parce qu'une matinée compliquée ne signifie pas",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "forcément une mauvaise journée.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "Ça me rappelle mardi dernier.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "J'avais décidé de commencer ma journée",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 88,
+      "fr": "tranquillement.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "Et puis, tout s'est enchaîné.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Qu'est-ce qui s'est passé ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "D'abord, j'ai renversé mon café.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "Ensuite, je n'ai pas trouvé mes clés.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "Et quand je suis enfin sorti,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "il s'est mis à pleuvoir.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Oh là là, quelle matinée !",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 119,
+      "fr": "Oui.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "Et immédiatement, je me suis dit,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "ça y est, toute ma journée est fichue.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "« Ma journée est fichue »,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "c'est une expression très familière.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Cela signifie qu'on pense que la journée est",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "complètement gâchée.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 119,
+      "fr": "Exactement.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 157,
+      "fr": "Mais en réalité, il était seulement 8h15.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 276,
+      "fr": "Donc il te restait encore beaucoup de temps pour",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "vivre de meilleurs moments.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Oui.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 157,
+      "fr": "Et finalement, l'après-midi s'est très bien passé.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "J'ai terminé un projet important.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "Et j'ai même retrouvé un ami pour déjeuner.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Tu vois, ta mauvaise matinée n'avait pas décidé du",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "reste de ta journée.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 111,
+      "fr": "C'est vrai.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Mais sur le moment, j'avais du mal à prendre du",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 95,
+      "fr": "recul.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Voilà une autre expression intéressante.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Prendre du recul.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "Cela signifie regarder une situation avec un peu",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "de distance, sans se laisser complètement emporter",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "par ses émotions.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "Par exemple, quand je suis stressé,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 111,
+      "fr": "j'essaie de prendre du recul avant de réagir.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "Exactement.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "Et parfois, il suffit de se rappeler qu'une",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "mauvaise heure n'est pas une mauvaise journée.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 151,
+      "fr": "J'aime cette idée.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 118,
+      "fr": "On peut toujours retrouver un peu de calme plus",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 89,
+      "fr": "tard.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Oui, à midi, dans l'après-midi ou même le soir.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "On n'est pas obligé d'attendre le lendemain pour",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "recommencer à se sentir mieux.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Tu sais, cela me fait penser à une autre",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "habitude que j'aimerais adopter.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "Faire une seule petite chose dès le matin et la",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 151,
+      "fr": "terminer complètement.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Ah oui ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Comme quoi ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "Par exemple, ranger ma tasse après le petit",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "déjeuner, préparer mon sac ou remettre quelque",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "chose à sa place.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "C'est une bonne idée parce qu'une petite tâche",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "terminée peut donner une sensation de",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "satisfaction.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "Oui.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "J'ai remarqué que quand je termine une chose",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "simple, je me sens parfois plus prêt à commencer",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 113,
+      "fr": "la suivante.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "En français, on pourrait dire « ça me met",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "dans une bonne dynamique ».",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 116,
+      "fr": "Une bonne dynamique.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "J'aime bien cette expression.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Elle signifie qu'on entre dans un mouvement",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "positif, un rythme qui nous aide à avancer.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "Par exemple, commencer la journée par une petite",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "promenade me met dans une bonne dynamique.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Ou quand mon bureau est bien rangé,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "je me sens dans une meilleure dynamique pour",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "travailler.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "Mais attention !",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "Je ne veux pas que les gens pensent qu'ils",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "doivent nettoyer toutes leurs maisons avant de",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "partir.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Non, bien sûr.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Une seule petite action peut suffire.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "C'est rassurant.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 157,
+      "fr": "Parce que si je commence à ranger mon appartement,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "je risque de découvrir 15 autres choses à faire.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Et là, ta routine du matin devient une journée",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "entière de ménage.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 114,
+      "fr": "Exactement.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "Ce n'était pas le programme.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "Tu sais Mathieu, j'aimerais parler de quelque",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "chose d'un peu différent.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Pour moi, une matinée agréable,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "ce n'est pas seulement une question",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "d'organisation.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 267,
+      "fr": "Ah oui ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "Qu'est-ce que tu veux dire ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Je pense qu'il est important de garder une petite",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "place pour le plaisir.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "Ça, c'est un sujet que j'approuve totalement.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Je ne parle pas nécessairement de grandes choses.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Par exemple, écouter sa musique préférée,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "préparer un petit déjeuner qu'on aime,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "ou lire quelques pages d'un livre.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "Ou manger un croissant encore chaud.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Bien sûr, je savais que tu allais parler de",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "nourriture.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "Un bon croissant peut améliorer énormément de",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 100,
+      "fr": "choses.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 286,
+      "fr": "Tu sais, quand j'étais petite,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "ma mère mettait souvent de la musique dans la",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "cuisine le dimanche matin.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 119,
+      "fr": "Ah, c'est un joli souvenir.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Oui, elle préparait le petit déjeuner,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "la lumière entrait dans la pièce,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "et parfois, nous chantions ensemble.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Pas toujours très juste d'ailleurs.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 116,
+      "fr": "Mais ce n'était pas important.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Exactement.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Ce qui comptait, c'était cette atmosphère.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "On avait l'impression que la journée commençait",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "avec un peu de joie.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "Tu vois, je crois que les souvenirs les plus",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "chaleureux ne viennent pas toujours de choses",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 119,
+      "fr": "extraordinaires.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 267,
+      "fr": "Oui, souvent, ce sont de petits détails qu'on",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "finit par associer au bonheur.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "L'odeur du pain grillé, le bruit de la pluie,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "une chanson qu'on aime.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "Ou simplement quelques minutes passées avec",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "quelqu'un qu'on aime.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 151,
+      "fr": "Cela me rappelle les matins chez mes",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "grands-parents.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "Mon grand-père se levait toujours avant tout le",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 100,
+      "fr": "monde.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Qu'est-ce qu'il faisait ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "Il préparait du café, puis il s'asseyait près de",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "la fenêtre avec son journal.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 157,
+      "fr": "Il avait toujours l'air tranquille,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "même quand il avait beaucoup de choses à faire.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Il avait peut-être trouvé son propre rythme.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 111,
+      "fr": "Oui.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "Et quand je lui demandais pourquoi il ne se",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "dépêchait pas, il me répondait « La journée sera",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "assez longue, inutile de commencer en courant ».",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "J'adore cette phrase.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "Moi aussi.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "Je ne l'ai pas toujours comprise quand j'étais",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "plus jeune, mais aujourd'hui, elle me parle",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 108,
+      "fr": "beaucoup.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Parce qu'on vit parfois comme si chaque minute",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "devait être remplie.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 100,
+      "fr": "Exactement.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "Même pendant nos moments de repos,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "on se demande parfois si on pourrait faire quelque",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "chose de plus utile.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Alors qu'on a aussi le droit de profiter d'un",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "moment simplement parce qu'il est agréable.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "Sans avoir besoin de le transformer en objectif.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Tout à fait.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Et cela peut commencer dès le matin.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 157,
+      "fr": "Mais je voudrais revenir sur une chose importante.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 151,
+      "fr": "On parle beaucoup de bonnes habitudes,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "mais parfois, on est simplement épuisé.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Oui, et c'est important de le reconnaître.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "Par exemple, si quelqu'un travaille très tard,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "s'occupe d'un bébé pendant la nuit,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "ou traverse une période difficile,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "une routine parfaite ne va pas résoudre tous ses",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 96,
+      "fr": "problèmes.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Absolument.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Il ne faut pas transformer la fatigue en manque de",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "volonté.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "Parce que parfois, on a besoin de repos,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "pas d'une nouvelle liste de choses à faire.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Et une bonne routine doit être adaptée à notre",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "réalité, pas à une vie idéale qu'on voit sur les",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "réseaux sociaux.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 114,
+      "fr": "C'est très important.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "Parce que j'ai déjà essayé de copier la routine",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "d'une personne sur internet.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Ah oui ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Raconte-moi.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 157,
+      "fr": "Il se levait à 5 heures,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "faisait du sport, lisait 30 pages,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 131,
+      "fr": "écrivait dans un carnet, et préparait un petit",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 129,
+      "fr": "déjeuner magnifique.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Et toi ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "Le premier jour, j'étais très motivé.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 113,
+      "fr": "Le deuxième, un peu moins.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "Le troisième, j'ai éteint mon réveil et je me suis",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 119,
+      "fr": "rendormi.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "Oh Mathieu !",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "Et pendant quelques temps, j'ai pensé que je",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "manquais de discipline.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Alors qu'en réalité, cette routine ne",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "correspondait peut-être tout simplement pas à ton",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "rythme.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 95,
+      "fr": "Exactement.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 143,
+      "fr": "Je voulais adopter la vie d'une autre personne,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "au lieu de comprendre ce qui me convenait.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "C'est une belle prise de conscience.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 111,
+      "fr": "Oui.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "Aujourd'hui, je préfère avoir une routine beaucoup",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 113,
+      "fr": "plus simple, mais que je peux réellement suivre.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Et je pense que c'est une bonne approche.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Une habitude réaliste est souvent plus facile à",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "conserver.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "Même si elle n'est pas très impressionnante.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Surtout si elle n'est pas impressionnante.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 170,
+      "fr": "Alors si je comprends bien,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "une bonne routine du matin,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "ce n'est pas une liste de 10 règles.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Non.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "C'est plutôt une petite collection d'habitudes qui",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "nous aident à nous sentir mieux.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "Et qui peuvent changer selon les périodes de notre",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "vie.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Exactement.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Il y a des périodes où l'on a beaucoup de temps,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "d'autres où l'on en a très peu.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "Et parfois, ce qui nous faisait du bien il",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "y a deux ans ne correspond plus du tout",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 116,
+      "fr": "à nos besoins aujourd'hui.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "C'est vrai.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Il faut donc apprendre à s'écouter et à ajuster",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "ses habitudes.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 136,
+      "fr": "Tu sais, je crois que je viens de comprendre",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "quelque chose.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 145,
+      "fr": "Je pensais qu'une bonne routine était une routine",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "qu'on suivait parfaitement.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Et maintenant ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "Maintenant, je pense qu'une bonne routine,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "c'est une routine à laquelle on a envie de",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 96,
+      "fr": "revenir.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "J'aime énormément cette définition.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Merci, je vais peut-être l'écrire quelque part.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Pourquoi pas sur ton réveil ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 138,
+      "fr": "Non, surtout pas.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "Je préfère garder de bonnes relations avec lui.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "Alors Mathieu, imaginons demain matin.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Tu te réveilles, tu as un peu de temps",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "et tu veux commencer ta journée plus agréablement.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Qu'est-ce que tu fais ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "D'abord, je résiste à l'envie de regarder",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 110,
+      "fr": "immédiatement mon téléphone.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 333,
+      "fr": "Très bien.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "Ensuite ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 118,
+      "fr": "J'ouvre les rideaux, je bois un verre d'eau et",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "je prends quelques instants pour me réveiller",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 96,
+      "fr": "tranquillement.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Et après ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 105,
+      "fr": "Je prépare mon café, évidemment.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Évidemment.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "Mais cette fois, je prends le temps de le",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "boire sans faire trois autres choses en même",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 93,
+      "fr": "temps.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Très bonne idée.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 110,
+      "fr": "Et si j'ai le temps,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 125,
+      "fr": "je fais une petite promenade.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 121,
+      "fr": "Sinon, je peux simplement écouter une chanson que",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 108,
+      "fr": "j'aime avant de commencer à travailler.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Tu vois, rien de compliqué.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "Oui.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 151,
+      "fr": "Et surtout, je n'ai pas besoin de me sentir",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 123,
+      "fr": "coupable si demain ne se passe pas exactement",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "comme prévu.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Voilà.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Parce que le but n'est pas d'avoir des matinées",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 400,
+      "fr": "parfaites.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 157,
+      "fr": "Le but est de rendre nos matinées un peu plus",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 103,
+      "fr": "agréables, petit à petit.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Exactement.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Et peut-être qu'une routine plus douce peut aussi",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "changer la manière dont on aborde le reste de la",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "journée.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 119,
+      "fr": "Pas parce qu'elle nous rend invincible ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Non, bien sûr.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "Mais parce qu'elle nous donne parfois un peu plus",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 101,
+      "fr": "d'espace pour respirer, réfléchir et choisir",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "comment avancer.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "C'est très joliment dit, Mathieu.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 163,
+      "fr": "Merci.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 133,
+      "fr": "Je crois que mon café commence à faire effet.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Ah, je comprends mieux.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 163,
+      "fr": "Bon, Léa, nous avons utilisé plusieurs expressions",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 107,
+      "fr": "intéressantes aujourd'hui.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 127,
+      "fr": "Je pense que c'est le bon moment pour les",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 111,
+      "fr": "regarder de plus près.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 267,
+      "fr": "Excellent idée.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Commençons par une expression très utile.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Prendre son temps.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 151,
+      "fr": "Prendre son temps signifie faire quelque chose",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "tranquillement sans se presser.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Par exemple, le dimanche matin,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "j'aime prendre mon temps pour préparer le petit",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "déjeuner.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "Ou, ne te dépêche pas,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 140,
+      "fr": "prends ton temps.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Exactement.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Et attention, prendre son temps ne signifie pas",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "forcément être lent ou paresseux.",
+      "en": ""
+    }
+  ],
+  "vocab": []
+}

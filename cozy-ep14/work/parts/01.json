@@ -1,0 +1,514 @@
+[
+ {
+  "who": "lea",
+  "fr": "Bonjour à toutes et à tous,",
+  "en": "Hello everyone,",
+  "emote": "coeur"
+ },
+ {
+  "who": "lea",
+  "fr": "et bienvenue dans The Cozy French !",
+  "en": "and welcome to The Cozy French!"
+ },
+ {
+  "who": "lea",
+  "fr": "Je suis Léa,",
+  "en": "I'm Léa,"
+ },
+ {
+  "who": "lea",
+  "fr": "et je suis tellement heureuse de vous retrouver",
+  "en": "and I'm so happy to be back with you"
+ },
+ {
+  "who": "lea",
+  "fr": "pour un nouveau moment ensemble.",
+  "en": "for a new moment together."
+ },
+ {
+  "who": "lea",
+  "fr": "J'espère que vous allez bien,",
+  "en": "I hope you're doing well,"
+ },
+ {
+  "who": "lea",
+  "fr": "où que vous soyez dans le monde.",
+  "en": "wherever you are in the world."
+ },
+ {
+  "who": "mat",
+  "fr": "Et moi, c'est Mathieu !",
+  "en": "And I'm Mathieu!"
+ },
+ {
+  "who": "mat",
+  "fr": "Bonjour, chers amis !",
+  "en": "Hello, dear friends!"
+ },
+ {
+  "who": "mat",
+  "fr": "Peut-être que vous nous écoutez",
+  "en": "Maybe you're listening to us"
+ },
+ {
+  "who": "mat",
+  "fr": "en préparant votre café,",
+  "en": "while making your coffee,",
+  "illus": "cafe",
+  "label": "votre café"
+ },
+ {
+  "who": "mat",
+  "fr": "en allant au travail,",
+  "en": "on your way to work,"
+ },
+ {
+  "who": "mat",
+  "fr": "en faisant une petite promenade,",
+  "en": "while taking a little walk,"
+ },
+ {
+  "who": "mat",
+  "fr": "ou même encore sous votre couverture.",
+  "en": "or even still under your blanket."
+ },
+ {
+  "who": "mat",
+  "fr": "Dans tous les cas,",
+  "en": "Either way,"
+ },
+ {
+  "who": "mat",
+  "fr": "installez-vous confortablement.",
+  "en": "make yourselves comfortable."
+ },
+ {
+  "who": "mat",
+  "fr": "Nous sommes ravis de vous retrouver.",
+  "en": "We're delighted to be back with you."
+ },
+ {
+  "who": "lea",
+  "fr": "Avant de commencer,",
+  "en": "Before we start,"
+ },
+ {
+  "who": "lea",
+  "fr": "dites-nous dans les commentaires",
+  "en": "tell us in the comments"
+ },
+ {
+  "who": "lea",
+  "fr": "de quel pays vous nous écoutez.",
+  "en": "which country you're listening from."
+ },
+ {
+  "who": "lea",
+  "fr": "Et surtout, dites-nous :",
+  "en": "And above all, tell us:"
+ },
+ {
+  "who": "lea",
+  "fr": "vous êtes plutôt [du matin ou du soir ?]",
+  "en": "are you more of a morning or an evening person?",
+  "emote": "question"
+ },
+ {
+  "who": "mat",
+  "fr": "Ah, Léa, voilà une question dangereuse.",
+  "en": "Ah, Léa, that's a dangerous question.",
+  "emote": "gene"
+ },
+ {
+  "who": "mat",
+  "fr": "Parce que je crois",
+  "en": "Because I think"
+ },
+ {
+  "who": "mat",
+  "fr": "que tu connais déjà ma réponse.",
+  "en": "you already know my answer."
+ },
+ {
+  "who": "lea",
+  "fr": "Attends, laisse-moi deviner.",
+  "en": "Wait, let me guess."
+ },
+ {
+  "who": "lea",
+  "fr": "Tu es du matin...",
+  "en": "You're a morning person..."
+ },
+ {
+  "who": "lea",
+  "fr": "mais seulement après ton deuxième café ?",
+  "en": "but only after your second coffee?"
+ },
+ {
+  "who": "mat",
+  "fr": "Exactement ! Avant mon café,",
+  "en": "Exactly! Before my coffee,"
+ },
+ {
+  "who": "mat",
+  "fr": "je suis physiquement présent,",
+  "en": "I'm physically present,"
+ },
+ {
+  "who": "mat",
+  "fr": "mais je ne garantis pas que mon cerveau",
+  "en": "but I can't guarantee that my brain"
+ },
+ {
+  "who": "mat",
+  "fr": "fonctionne correctement.",
+  "en": "is working properly."
+ },
+ {
+  "who": "lea",
+  "fr": "Pauvre Mathieu ! Mais justement, aujourd'hui,",
+  "en": "Poor Mathieu! But actually, today,"
+ },
+ {
+  "who": "lea",
+  "fr": "nous allons parler",
+  "en": "we're going to talk"
+ },
+ {
+  "who": "lea",
+  "fr": "d'un sujet qui pourrait t'intéresser.",
+  "en": "about a topic that might interest you."
+ },
+ {
+  "who": "mat",
+  "fr": "Ah oui ?",
+  "en": "Oh really?"
+ },
+ {
+  "who": "mat",
+  "fr": "Comment survivre avant huit heures du matin ?",
+  "en": "How to survive before eight in the morning?",
+  "emote": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Pas exactement !",
+  "en": "Not exactly!",
+  "emote": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Aujourd'hui, nous allons parler",
+  "en": "Today, we're going to talk"
+ },
+ {
+  "who": "lea",
+  "fr": "de notre routine matinale,",
+  "en": "about our morning routine,"
+ },
+ {
+  "who": "lea",
+  "fr": "et surtout de ces petites habitudes",
+  "en": "and above all about those little habits"
+ },
+ {
+  "who": "lea",
+  "fr": "qui peuvent nous aider",
+  "en": "that can help us"
+ },
+ {
+  "who": "lea",
+  "fr": "à commencer la journée avec plus de calme,",
+  "en": "start the day with more calm,"
+ },
+ {
+  "who": "lea",
+  "fr": "d'énergie et de bonne humeur.",
+  "en": "energy and good mood."
+ },
+ {
+  "who": "mat",
+  "fr": "Ah, une routine du matin",
+  "en": "Ah, a morning routine"
+ },
+ {
+  "who": "mat",
+  "fr": "pour une vie plus heureuse.",
+  "en": "for a happier life."
+ },
+ {
+  "who": "mat",
+  "fr": "J'aime bien cette idée.",
+  "en": "I like that idea."
+ },
+ {
+  "who": "mat",
+  "fr": "Mais [rassure-moi,] Léa,",
+  "en": "But reassure me, Léa,"
+ },
+ {
+  "who": "mat",
+  "fr": "tu ne vas pas me demander",
+  "en": "you're not going to ask me"
+ },
+ {
+  "who": "mat",
+  "fr": "de me réveiller à cinq heures,",
+  "en": "to wake up at five o'clock,"
+ },
+ {
+  "who": "mat",
+  "fr": "de courir dix kilomètres",
+  "en": "run ten kilometres"
+ },
+ {
+  "who": "mat",
+  "fr": "et de prendre une douche glacée ?",
+  "en": "and take an ice-cold shower?"
+ },
+ {
+  "who": "lea",
+  "fr": "Absolument pas ! Parce que pour moi,",
+  "en": "Absolutely not! Because for me,"
+ },
+ {
+  "who": "lea",
+  "fr": "une bonne routine du matin",
+  "en": "a good morning routine"
+ },
+ {
+  "who": "lea",
+  "fr": "ne doit pas être une compétition.",
+  "en": "shouldn't be a competition."
+ },
+ {
+  "who": "lea",
+  "fr": "Elle doit simplement nous aider",
+  "en": "It should simply help us"
+ },
+ {
+  "who": "lea",
+  "fr": "à nous sentir mieux.",
+  "en": "feel better."
+ },
+ {
+  "who": "mat",
+  "fr": "Ouf ! Je préfère ça.",
+  "en": "Phew! I prefer that."
+ },
+ {
+  "who": "mat",
+  "fr": "Parce que parfois, sur Internet,",
+  "en": "Because sometimes, on the internet,"
+ },
+ {
+  "who": "mat",
+  "fr": "on a l'impression que pour réussir sa journée,",
+  "en": "you get the feeling that to have a successful day,"
+ },
+ {
+  "who": "mat",
+  "fr": "il faut avoir accompli douze choses",
+  "en": "you need to have done twelve things"
+ },
+ {
+  "who": "mat",
+  "fr": "avant même le petit-déjeuner.",
+  "en": "before breakfast even starts."
+ },
+ {
+  "who": "lea",
+  "fr": "C'est vrai.",
+  "en": "That's true."
+ },
+ {
+  "who": "lea",
+  "fr": "Mais aujourd'hui,",
+  "en": "But today,"
+ },
+ {
+  "who": "lea",
+  "fr": "on va prendre une autre direction.",
+  "en": "we're going to take a different direction."
+ },
+ {
+  "who": "lea",
+  "fr": "Nous allons parler de choses simples,",
+  "en": "We're going to talk about simple,"
+ },
+ {
+  "who": "lea",
+  "fr": "réalistes et agréables.",
+  "en": "realistic and pleasant things."
+ },
+ {
+  "who": "lea",
+  "fr": "Des habitudes que chacun peut adapter",
+  "en": "Habits that everyone can adapt"
+ },
+ {
+  "who": "lea",
+  "fr": "à sa propre vie.",
+  "en": "to their own life."
+ },
+ {
+  "who": "mat",
+  "fr": "Et comme toujours dans The Cozy French,",
+  "en": "And as always on The Cozy French,"
+ },
+ {
+  "who": "mat",
+  "fr": "nous allons apprendre",
+  "en": "we're going to learn"
+ },
+ {
+  "who": "mat",
+  "fr": "de nouvelles expressions françaises",
+  "en": "new French expressions"
+ },
+ {
+  "who": "mat",
+  "fr": "en discutant naturellement.",
+  "en": "while chatting naturally."
+ },
+ {
+  "who": "mat",
+  "fr": "Alors, si vous apprenez le français,",
+  "en": "So, if you're learning French,"
+ },
+ {
+  "who": "mat",
+  "fr": "écoutez tranquillement.",
+  "en": "just listen calmly."
+ },
+ {
+  "who": "mat",
+  "fr": "Vous n'avez pas besoin",
+  "en": "You don't need"
+ },
+ {
+  "who": "mat",
+  "fr": "de comprendre chaque mot immédiatement.",
+  "en": "to understand every word right away."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement.",
+  "en": "Exactly."
+ },
+ {
+  "who": "lea",
+  "fr": "Laissez les phrases venir naturellement.",
+  "en": "Let the sentences come naturally."
+ },
+ {
+  "who": "lea",
+  "fr": "Et si vous aimez apprendre le français avec nous,",
+  "en": "And if you enjoy learning French with us,"
+ },
+ {
+  "who": "lea",
+  "fr": "pensez à vous abonner à The Cozy French.",
+  "en": "remember to subscribe to The Cozy French."
+ },
+ {
+  "who": "lea",
+  "fr": "Cela nous fait énormément plaisir",
+  "en": "It makes us so happy"
+ },
+ {
+  "who": "lea",
+  "fr": "de vous retrouver à chaque épisode.",
+  "en": "to see you again in every episode.",
+  "emote": "coeur"
+ },
+ {
+  "who": "mat",
+  "fr": "Bon, Léa, j'ai une question pour commencer.",
+  "en": "Okay, Léa, I have a question to start with."
+ },
+ {
+  "who": "mat",
+  "fr": "À quoi ressemble ton matin idéal ?",
+  "en": "What does your ideal morning look like?"
+ },
+ {
+  "who": "lea",
+  "fr": "Mon matin idéal ? Hmm...",
+  "en": "My ideal morning? Hmm..."
+ },
+ {
+  "who": "lea",
+  "fr": "Je me réveille doucement, sans bruit,",
+  "en": "I wake up gently, without noise,"
+ },
+ {
+  "who": "lea",
+  "fr": "avec un peu de lumière qui entre par la fenêtre.",
+  "en": "with a little light coming through the window.",
+  "illus": "soleil",
+  "label": "la lumière"
+ },
+ {
+  "who": "lea",
+  "fr": "Je prends le temps de m'étirer,",
+  "en": "I take time to stretch,"
+ },
+ {
+  "who": "lea",
+  "fr": "je prépare mon thé,",
+  "en": "I make my tea,"
+ },
+ {
+  "who": "lea",
+  "fr": "et je profite de quelques minutes de silence.",
+  "en": "and I enjoy a few minutes of silence."
+ },
+ {
+  "who": "mat",
+  "fr": "Attends... Tu viens de décrire une publicité",
+  "en": "Wait... You just described an advert"
+ },
+ {
+  "who": "mat",
+  "fr": "pour une maison à la campagne.",
+  "en": "for a house in the countryside.",
+  "emote": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Peut-être ! Mais je n'ai pas dit",
+  "en": "Maybe! But I didn't say"
+ },
+ {
+  "who": "lea",
+  "fr": "que tous mes matins ressemblaient à ça.",
+  "en": "that all my mornings looked like that."
+ },
+ {
+  "who": "mat",
+  "fr": "Ah ! Voilà qui me rassure.",
+  "en": "Ah! That's reassuring."
+ },
+ {
+  "who": "lea",
+  "fr": "En réalité, certains matins,",
+  "en": "In reality, some mornings,"
+ },
+ {
+  "who": "lea",
+  "fr": "je me réveille en retard,",
+  "en": "I wake up late,",
+  "emote": "gene"
+ },
+ {
+  "who": "lea",
+  "fr": "je cherche mes lunettes pendant cinq minutes,",
+  "en": "I look for my glasses for five minutes,"
+ },
+ {
+  "who": "lea",
+  "fr": "et je renverse un peu de thé sur la table.",
+  "en": "and I spill a bit of tea on the table."
+ }
+]

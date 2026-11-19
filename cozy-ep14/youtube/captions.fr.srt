@@ -1,0 +1,3191 @@
+1
+00:00:00,120 --> 00:00:01,750
+Léa: Bonjour à toutes et à tous,
+
+2
+00:00:01,750 --> 00:00:04,240
+et bienvenue dans The Cozy French !
+
+3
+00:00:04,240 --> 00:00:05,510
+Je suis Léa,
+
+4
+00:00:05,510 --> 00:00:07,840
+et je suis tellement heureuse de vous retrouver
+
+5
+00:00:07,840 --> 00:00:09,400
+pour un nouveau moment ensemble.
+
+6
+00:00:09,400 --> 00:00:11,130
+J'espère que vous allez bien,
+
+7
+00:00:11,130 --> 00:00:12,920
+où que vous soyez dans le monde.
+
+8
+00:00:12,920 --> 00:00:14,400
+Mathieu: Et moi, c'est Mathieu !
+
+9
+00:00:14,400 --> 00:00:15,960
+Bonjour, chers amis !
+
+10
+00:00:15,960 --> 00:00:17,750
+Peut-être que vous nous écoutez
+
+11
+00:00:17,750 --> 00:00:19,160
+en préparant votre café,
+
+12
+00:00:19,160 --> 00:00:20,440
+en allant au travail,
+
+13
+00:00:20,440 --> 00:00:22,360
+en faisant une petite promenade,
+
+14
+00:00:22,360 --> 00:00:25,080
+ou même encore sous votre couverture.
+
+15
+00:00:25,080 --> 00:00:26,320
+Dans tous les cas,
+
+16
+00:00:26,320 --> 00:00:28,390
+installez-vous confortablement.
+
+17
+00:00:28,440 --> 00:00:30,760
+Nous sommes ravis de vous retrouver.
+
+18
+00:00:30,760 --> 00:00:32,480
+Léa: Avant de commencer,
+
+19
+00:00:32,480 --> 00:00:33,960
+dites-nous dans les commentaires
+
+20
+00:00:33,960 --> 00:00:36,240
+de quel pays vous nous écoutez.
+
+21
+00:00:36,240 --> 00:00:38,000
+Et surtout, dites-nous :
+
+22
+00:00:38,000 --> 00:00:41,350
+vous êtes plutôt du matin ou du soir ?
+
+23
+00:00:41,400 --> 00:00:45,240
+Mathieu: Ah, Léa, voilà une question dangereuse.
+
+24
+00:00:45,280 --> 00:00:47,030
+Parce que je crois
+
+25
+00:00:47,030 --> 00:00:49,600
+que tu connais déjà ma réponse.
+
+26
+00:00:49,600 --> 00:00:52,040
+Léa: Attends, laisse-moi deviner.
+
+27
+00:00:52,040 --> 00:00:54,270
+Tu es du matin...
+
+28
+00:00:54,270 --> 00:00:57,070
+mais seulement après ton deuxième café ?
+
+29
+00:00:57,120 --> 00:01:00,540
+Mathieu: Exactement ! Avant mon café,
+
+30
+00:01:00,540 --> 00:01:02,640
+je suis physiquement présent,
+
+31
+00:01:02,640 --> 00:01:05,200
+mais je ne garantis pas que mon cerveau
+
+32
+00:01:05,200 --> 00:01:07,240
+fonctionne correctement.
+
+33
+00:01:07,240 --> 00:01:10,800
+Léa: Pauvre Mathieu ! Mais justement, aujourd'hui,
+
+34
+00:01:10,800 --> 00:01:11,790
+nous allons parler
+
+35
+00:01:11,790 --> 00:01:14,000
+d'un sujet qui pourrait t'intéresser.
+
+36
+00:01:14,000 --> 00:01:14,720
+Mathieu: Ah oui ?
+
+37
+00:01:14,770 --> 00:01:17,470
+Comment survivre avant huit heures du matin ?
+
+38
+00:01:17,520 --> 00:01:18,640
+Léa: Pas exactement !
+
+39
+00:01:18,640 --> 00:01:20,670
+Aujourd'hui, nous allons parler
+
+40
+00:01:20,670 --> 00:01:22,300
+de notre routine matinale,
+
+41
+00:01:22,350 --> 00:01:24,660
+et surtout de ces petites habitudes
+
+42
+00:01:24,660 --> 00:01:26,190
+qui peuvent nous aider
+
+43
+00:01:26,190 --> 00:01:29,190
+à commencer la journée avec plus de calme,
+
+44
+00:01:29,190 --> 00:01:31,520
+d'énergie et de bonne humeur.
+
+45
+00:01:31,520 --> 00:01:33,410
+Mathieu: Ah, une routine du matin
+
+46
+00:01:33,410 --> 00:01:35,720
+pour une vie plus heureuse.
+
+47
+00:01:35,720 --> 00:01:37,040
+J'aime bien cette idée.
+
+48
+00:01:37,040 --> 00:01:38,790
+Mais rassure-moi, Léa,
+
+49
+00:01:38,790 --> 00:01:40,240
+tu ne vas pas me demander
+
+50
+00:01:40,240 --> 00:01:42,080
+de me réveiller à cinq heures,
+
+51
+00:01:42,080 --> 00:01:43,830
+de courir dix kilomètres
+
+52
+00:01:43,830 --> 00:01:46,670
+et de prendre une douche glacée ?
+
+53
+00:01:46,720 --> 00:01:49,510
+Léa: Absolument pas ! Parce que pour moi,
+
+54
+00:01:49,510 --> 00:01:50,980
+une bonne routine du matin
+
+55
+00:01:50,980 --> 00:01:53,200
+ne doit pas être une compétition.
+
+56
+00:01:53,200 --> 00:01:55,090
+Elle doit simplement nous aider
+
+57
+00:01:55,090 --> 00:01:56,440
+à nous sentir mieux.
+
+58
+00:01:56,440 --> 00:01:58,920
+Mathieu: Ouf ! Je préfère ça.
+
+59
+00:01:58,920 --> 00:02:01,440
+Parce que parfois, sur Internet,
+
+60
+00:02:01,440 --> 00:02:04,760
+on a l'impression que pour réussir sa journée,
+
+61
+00:02:04,760 --> 00:02:07,350
+il faut avoir accompli douze choses
+
+62
+00:02:07,350 --> 00:02:09,760
+avant même le petit-déjeuner.
+
+63
+00:02:09,760 --> 00:02:10,700
+Léa: C'est vrai.
+
+64
+00:02:10,700 --> 00:02:11,920
+Mais aujourd'hui,
+
+65
+00:02:11,920 --> 00:02:14,550
+on va prendre une autre direction.
+
+66
+00:02:14,600 --> 00:02:17,220
+Nous allons parler de choses simples,
+
+67
+00:02:17,220 --> 00:02:19,200
+réalistes et agréables.
+
+68
+00:02:19,200 --> 00:02:21,930
+Des habitudes que chacun peut adapter
+
+69
+00:02:21,930 --> 00:02:23,120
+à sa propre vie.
+
+70
+00:02:23,120 --> 00:02:25,680
+Mathieu: Et comme toujours dans The Cozy French,
+
+71
+00:02:25,680 --> 00:02:26,950
+nous allons apprendre
+
+72
+00:02:26,950 --> 00:02:28,920
+de nouvelles expressions françaises
+
+73
+00:02:28,920 --> 00:02:30,840
+en discutant naturellement.
+
+74
+00:02:30,840 --> 00:02:33,000
+Alors, si vous apprenez le français,
+
+75
+00:02:33,000 --> 00:02:34,840
+écoutez tranquillement.
+
+76
+00:02:34,840 --> 00:02:36,250
+Vous n'avez pas besoin
+
+77
+00:02:36,250 --> 00:02:39,080
+de comprendre chaque mot immédiatement.
+
+78
+00:02:39,080 --> 00:02:40,160
+Léa: Exactement.
+
+79
+00:02:40,160 --> 00:02:43,500
+Laissez les phrases venir naturellement.
+
+80
+00:02:43,550 --> 00:02:46,440
+Et si vous aimez apprendre le français avec nous,
+
+81
+00:02:46,440 --> 00:02:49,520
+pensez à vous abonner à The Cozy French.
+
+82
+00:02:49,520 --> 00:02:51,760
+Cela nous fait énormément plaisir
+
+83
+00:02:51,760 --> 00:02:54,280
+de vous retrouver à chaque épisode.
+
+84
+00:02:54,280 --> 00:02:57,000
+Mathieu: Bon, Léa, j'ai une question pour commencer.
+
+85
+00:02:57,000 --> 00:03:00,190
+À quoi ressemble ton matin idéal ?
+
+86
+00:03:00,240 --> 00:03:02,800
+Léa: Mon matin idéal ? Hmm...
+
+87
+00:03:02,800 --> 00:03:05,480
+Je me réveille doucement, sans bruit,
+
+88
+00:03:05,480 --> 00:03:08,600
+avec un peu de lumière qui entre par la fenêtre.
+
+89
+00:03:08,600 --> 00:03:10,480
+Je prends le temps de m'étirer,
+
+90
+00:03:10,480 --> 00:03:12,100
+je prépare mon thé,
+
+91
+00:03:12,150 --> 00:03:15,360
+et je profite de quelques minutes de silence.
+
+92
+00:03:15,360 --> 00:03:19,320
+Mathieu: Attends... Tu viens de décrire une publicité
+
+93
+00:03:19,320 --> 00:03:21,960
+pour une maison à la campagne.
+
+94
+00:03:21,960 --> 00:03:24,080
+Léa: Peut-être ! Mais je n'ai pas dit
+
+95
+00:03:24,080 --> 00:03:26,280
+que tous mes matins ressemblaient à ça.
+
+96
+00:03:26,280 --> 00:03:28,800
+Mathieu: Ah ! Voilà qui me rassure.
+
+97
+00:03:28,800 --> 00:03:31,240
+Léa: En réalité, certains matins,
+
+98
+00:03:31,240 --> 00:03:32,760
+je me réveille en retard,
+
+99
+00:03:32,760 --> 00:03:35,280
+je cherche mes lunettes pendant cinq minutes,
+
+100
+00:03:35,280 --> 00:03:38,000
+et je renverse un peu de thé sur la table.
+
+101
+00:03:38,000 --> 00:03:40,780
+Mathieu: Ah, voilà une vraie personne !
+
+102
+00:03:40,830 --> 00:03:42,760
+Je commençais à m'inquiéter.
+
+103
+00:03:42,760 --> 00:03:43,840
+Léa: Et toi, Mathieu ?
+
+104
+00:03:43,840 --> 00:03:45,510
+Comment commencent tes journées ?
+
+105
+00:03:45,560 --> 00:03:47,660
+Mathieu: Eh bien, pendant longtemps,
+
+106
+00:03:47,660 --> 00:03:49,550
+mes matinées commençaient toujours
+
+107
+00:03:49,550 --> 00:03:50,960
+de la même façon.
+
+108
+00:03:50,960 --> 00:03:53,970
+Mon réveil sonnait, je l'arrêtais,
+
+109
+00:03:53,970 --> 00:03:56,040
+puis je regardais mon téléphone.
+
+110
+00:03:56,040 --> 00:03:57,840
+Je lisais les messages,
+
+111
+00:03:57,840 --> 00:04:01,040
+les nouvelles, quelques notifications...
+
+112
+00:04:01,040 --> 00:04:03,040
+Et sans m'en rendre compte,
+
+113
+00:04:03,040 --> 00:04:05,480
+vingt minutes avaient disparu.
+
+114
+00:04:05,480 --> 00:04:07,910
+Léa: Vingt minutes ? Tous les matins ?
+
+115
+00:04:07,960 --> 00:04:11,960
+Mathieu: Parfois trente. Mais je préfère ne pas en parler.
+
+116
+00:04:11,960 --> 00:04:12,910
+Léa: Et après ?
+
+117
+00:04:12,960 --> 00:04:14,880
+Mathieu: Après, je me dépêchais.
+
+118
+00:04:14,880 --> 00:04:17,080
+Je prenais ma douche rapidement,
+
+119
+00:04:17,080 --> 00:04:20,600
+je préparais mon petit-déjeuner à toute vitesse,
+
+120
+00:04:20,600 --> 00:04:22,350
+et je quittais la maison
+
+121
+00:04:22,350 --> 00:04:24,840
+avec cette impression désagréable
+
+122
+00:04:24,840 --> 00:04:28,240
+d'être déjà en retard sur ma journée.
+
+123
+00:04:28,240 --> 00:04:31,030
+Léa: Même quand tu n'étais pas réellement en retard ?
+
+124
+00:04:31,080 --> 00:04:33,660
+Mathieu: Exactement ! C'était étrange.
+
+125
+00:04:33,710 --> 00:04:35,430
+Il était à peine huit heures,
+
+126
+00:04:35,430 --> 00:04:37,490
+et j'avais déjà l'impression
+
+127
+00:04:37,490 --> 00:04:39,520
+de courir après le temps.
+
+128
+00:04:39,520 --> 00:04:41,470
+Léa: Je pense que beaucoup de personnes
+
+129
+00:04:41,470 --> 00:04:43,400
+connaissent cette sensation.
+
+130
+00:04:43,400 --> 00:04:46,540
+On ouvre les yeux, et immédiatement,
+
+131
+00:04:46,540 --> 00:04:48,400
+notre esprit commence à penser
+
+132
+00:04:48,400 --> 00:04:50,520
+à tout ce qu'il faut faire.
+
+133
+00:04:50,520 --> 00:04:54,080
+Mathieu: Répondre aux messages, préparer le déjeuner,
+
+134
+00:04:54,080 --> 00:04:57,040
+aller travailler, payer une facture,
+
+135
+00:04:57,040 --> 00:04:58,760
+terminer un projet...
+
+136
+00:04:58,760 --> 00:05:02,270
+Léa: Et parfois, nous oublions une chose très simple :
+
+137
+00:05:02,320 --> 00:05:04,720
+prendre quelques instants pour nous-mêmes.
+
+138
+00:05:04,720 --> 00:05:05,660
+Mathieu: C'est vrai.
+
+139
+00:05:05,660 --> 00:05:07,460
+Mais comment changer ça
+
+140
+00:05:07,460 --> 00:05:09,880
+sans transformer notre matinée
+
+141
+00:05:09,880 --> 00:05:11,660
+en une liste interminable
+
+142
+00:05:11,660 --> 00:05:13,710
+de nouvelles obligations ?
+
+143
+00:05:13,760 --> 00:05:15,050
+Léa: Justement, je crois
+
+144
+00:05:15,050 --> 00:05:17,280
+qu'il faut commencer très petit.
+
+145
+00:05:17,280 --> 00:05:19,550
+Pas besoin de changer toute sa vie
+
+146
+00:05:19,550 --> 00:05:21,240
+en une seule journée.
+
+147
+00:05:21,240 --> 00:05:23,550
+Mathieu: Très petit, ça me plaît.
+
+148
+00:05:23,600 --> 00:05:26,150
+Nous parlons de combien de temps ?
+
+149
+00:05:26,200 --> 00:05:30,170
+Léa: Peut-être trois minutes. Peut-être cinq.
+
+150
+00:05:30,220 --> 00:05:32,320
+L'important, ce n'est pas la durée.
+
+151
+00:05:32,320 --> 00:05:35,320
+C'est la manière dont on commence.
+
+152
+00:05:35,320 --> 00:05:36,660
+Mathieu: Donc, cinq minutes
+
+153
+00:05:36,660 --> 00:05:40,110
+peuvent vraiment faire une différence ?
+
+154
+00:05:40,160 --> 00:05:43,050
+Léa: Elles ne vont pas résoudre tous nos problèmes,
+
+155
+00:05:43,050 --> 00:05:43,640
+bien sûr.
+
+156
+00:05:43,640 --> 00:05:45,580
+Mais elles peuvent nous aider
+
+157
+00:05:45,580 --> 00:05:48,960
+à commencer la journée un peu plus consciemment.
+
+158
+00:05:48,960 --> 00:05:52,240
+Mathieu: Tu sais, j'ai remarqué quelque chose.
+
+159
+00:05:52,240 --> 00:05:53,990
+Quand je commence ma journée
+
+160
+00:05:53,990 --> 00:05:55,280
+dans la précipitation,
+
+161
+00:05:55,280 --> 00:05:57,450
+j'ai tendance à garder ce rythme
+
+162
+00:05:57,450 --> 00:05:59,630
+pendant plusieurs heures.
+
+163
+00:05:59,680 --> 00:06:01,960
+Léa: Exactement. Et inversement,
+
+164
+00:06:01,960 --> 00:06:03,770
+quand on prend quelques instants
+
+165
+00:06:03,770 --> 00:06:05,680
+pour se réveiller tranquillement,
+
+166
+00:06:05,680 --> 00:06:08,490
+on peut parfois se sentir plus disponible
+
+167
+00:06:08,490 --> 00:06:09,640
+pour la suite.
+
+168
+00:06:09,640 --> 00:06:12,760
+Mathieu: Alors, première question importante :
+
+169
+00:06:12,760 --> 00:06:15,510
+que fait-on pendant ces cinq minutes ?
+
+170
+00:06:15,560 --> 00:06:17,940
+Léa: Eh bien, on peut simplement s'asseoir
+
+171
+00:06:17,940 --> 00:06:18,960
+au bord du lit,
+
+172
+00:06:18,960 --> 00:06:22,000
+ouvrir les rideaux, regarder le ciel,
+
+173
+00:06:22,000 --> 00:06:23,760
+ou boire un verre d'eau.
+
+174
+00:06:23,760 --> 00:06:25,430
+Mathieu: Rien de plus ?
+
+175
+00:06:25,480 --> 00:06:27,060
+Léa: Rien de plus.
+
+176
+00:06:27,110 --> 00:06:28,270
+Il n'est pas nécessaire
+
+177
+00:06:28,270 --> 00:06:30,680
+de faire quelque chose d'impressionnant.
+
+178
+00:06:30,680 --> 00:06:32,080
+Mathieu: J'aime beaucoup.
+
+179
+00:06:32,080 --> 00:06:33,440
+Parce que parfois,
+
+180
+00:06:33,440 --> 00:06:35,640
+les conseils de développement personnel
+
+181
+00:06:35,640 --> 00:06:36,880
+me donnent l'impression
+
+182
+00:06:36,880 --> 00:06:40,110
+que je dois devenir une nouvelle personne
+
+183
+00:06:40,110 --> 00:06:41,600
+avant huit heures du matin.
+
+184
+00:06:41,600 --> 00:06:42,970
+Léa: Mais tu n'as pas besoin
+
+185
+00:06:42,970 --> 00:06:45,320
+de devenir une nouvelle personne.
+
+186
+00:06:45,320 --> 00:06:46,590
+Tu as simplement besoin
+
+187
+00:06:46,590 --> 00:06:49,000
+de trouver une manière plus agréable
+
+188
+00:06:49,000 --> 00:06:50,600
+d'être toi-même.
+
+189
+00:06:50,600 --> 00:06:53,080
+Mathieu: C'est une jolie façon de le dire.
+
+190
+00:06:53,080 --> 00:06:56,630
+Léa: Et puis, chaque personne a son propre rythme.
+
+191
+00:06:56,680 --> 00:06:59,440
+Certaines personnes aiment se lever très tôt.
+
+192
+00:06:59,440 --> 00:07:02,280
+D'autres ont besoin d'un peu plus de temps.
+
+193
+00:07:02,280 --> 00:07:04,680
+Et c'est parfaitement normal.
+
+194
+00:07:04,680 --> 00:07:07,120
+Mathieu: D'ailleurs, parlons du réveil.
+
+195
+00:07:07,120 --> 00:07:09,120
+Parce que je crois que ma relation
+
+196
+00:07:09,120 --> 00:07:11,920
+avec mon réveil n'est pas très saine.
+
+197
+00:07:11,920 --> 00:07:14,310
+Léa: Ah bon ? Qu'est-ce qu'il t'a fait ?
+
+198
+00:07:14,360 --> 00:07:16,720
+Mathieu: Il sonne beaucoup trop tôt.
+
+199
+00:07:16,720 --> 00:07:19,760
+Léa: Mathieu, c'est toi qui choisis l'heure !
+
+200
+00:07:19,760 --> 00:07:22,500
+Mathieu: Oui, mais le Mathieu du soir
+
+201
+00:07:22,500 --> 00:07:24,250
+est beaucoup plus optimiste
+
+202
+00:07:24,250 --> 00:07:25,990
+que le Mathieu du matin.
+
+203
+00:07:26,040 --> 00:07:28,680
+Léa: Ah, ça, je comprends très bien !
+
+204
+00:07:28,680 --> 00:07:30,560
+Mathieu: Le soir, je me dis :
+
+205
+00:07:30,560 --> 00:07:34,040
+demain, je vais me lever à six heures et demie.
+
+206
+00:07:34,040 --> 00:07:36,880
+Je vais préparer un bon petit-déjeuner,
+
+207
+00:07:36,880 --> 00:07:40,280
+lire quelques pages, faire un peu de sport...
+
+208
+00:07:40,280 --> 00:07:41,710
+Léa: Et le lendemain ?
+
+209
+00:07:41,760 --> 00:07:44,960
+Mathieu: Le lendemain, je négocie avec mon réveil
+
+210
+00:07:44,960 --> 00:07:46,250
+comme si nous étions
+
+211
+00:07:46,250 --> 00:07:48,480
+dans une réunion diplomatique.
+
+212
+00:07:48,480 --> 00:07:50,710
+Léa: Encore cinq minutes ?
+
+213
+00:07:50,760 --> 00:07:54,830
+Mathieu: Exactement. Et puis encore cinq minutes.
+
+214
+00:07:54,880 --> 00:07:56,760
+Et encore cinq minutes.
+
+215
+00:07:56,760 --> 00:07:57,320
+Léa: Tu sais,
+
+216
+00:07:57,320 --> 00:08:00,280
+cette expression est très courante en français :
+
+217
+00:08:00,280 --> 00:08:02,880
+« Encore cinq petites minutes. »
+
+218
+00:08:02,880 --> 00:08:04,980
+C'est probablement une des phrases
+
+219
+00:08:04,980 --> 00:08:06,920
+les plus prononcées le matin.
+
+220
+00:08:06,920 --> 00:08:10,160
+Mathieu: Et une des moins respectées aussi !
+
+221
+00:08:10,160 --> 00:08:12,040
+Léa: Mais plus sérieusement,
+
+222
+00:08:12,040 --> 00:08:13,480
+je pense qu'il est important
+
+223
+00:08:13,480 --> 00:08:17,280
+de ne pas se fixer des objectifs irréalistes.
+
+224
+00:08:17,280 --> 00:08:19,030
+Si on est très fatigué,
+
+225
+00:08:19,030 --> 00:08:21,410
+se forcer à se lever beaucoup plus tôt
+
+226
+00:08:21,410 --> 00:08:23,950
+n'est pas forcément une bonne solution.
+
+227
+00:08:24,000 --> 00:08:27,300
+Mathieu: Oui. Parfois, la meilleure routine du matin
+
+228
+00:08:27,300 --> 00:08:28,840
+commence la veille,
+
+229
+00:08:28,840 --> 00:08:32,240
+en allant se coucher à une heure raisonnable.
+
+230
+00:08:32,240 --> 00:08:33,190
+Léa: Tout à fait.
+
+231
+00:08:33,190 --> 00:08:35,320
+Le sommeil est essentiel.
+
+232
+00:08:35,320 --> 00:08:37,070
+Et une routine agréable
+
+233
+00:08:37,070 --> 00:08:39,000
+ne peut pas toujours compenser
+
+234
+00:08:39,000 --> 00:08:40,800
+des nuits trop courtes.
+
+235
+00:08:40,800 --> 00:08:43,230
+Mathieu: Tu sais ce qui m'a aidé récemment ?
+
+236
+00:08:43,280 --> 00:08:44,380
+J'ai commencé
+
+237
+00:08:44,380 --> 00:08:47,560
+à préparer quelques affaires le soir.
+
+238
+00:08:47,560 --> 00:08:48,710
+Léa: Comme quoi ?
+
+239
+00:08:48,760 --> 00:08:52,040
+Mathieu: Mes vêtements, mon sac, mes clés...
+
+240
+00:08:52,040 --> 00:08:53,790
+Des petites choses.
+
+241
+00:08:53,840 --> 00:08:55,950
+Avant, je perdais souvent du temps
+
+242
+00:08:55,950 --> 00:08:58,320
+à chercher ce dont j'avais besoin.
+
+243
+00:08:58,320 --> 00:08:59,550
+Léa: Et maintenant ?
+
+244
+00:08:59,600 --> 00:09:01,490
+Mathieu: Maintenant, mes matinées
+
+245
+00:09:01,490 --> 00:09:03,760
+sont un peu moins chaotiques.
+
+246
+00:09:03,760 --> 00:09:05,990
+Bon, je cherche toujours mes lunettes
+
+247
+00:09:05,990 --> 00:09:07,240
+de temps en temps,
+
+248
+00:09:07,240 --> 00:09:09,640
+mais c'est déjà un progrès.
+
+249
+00:09:09,640 --> 00:09:11,480
+Léa: C'est exactement ça.
+
+250
+00:09:11,480 --> 00:09:14,320
+On n'a pas besoin de transformer toute sa vie.
+
+251
+00:09:14,320 --> 00:09:15,770
+Parfois, il suffit
+
+252
+00:09:15,770 --> 00:09:19,000
+de supprimer une petite source de stress.
+
+253
+00:09:19,000 --> 00:09:21,140
+Mathieu: Et chaque petite amélioration
+
+254
+00:09:21,140 --> 00:09:23,560
+rend le matin un peu plus léger.
+
+255
+00:09:23,610 --> 00:09:25,400
+Léa: À propos de légèreté,
+
+256
+00:09:25,400 --> 00:09:28,240
+j'aimerais parler d'une habitude que j'adore :
+
+257
+00:09:28,240 --> 00:09:30,560
+ouvrir la fenêtre le matin.
+
+258
+00:09:30,560 --> 00:09:32,030
+Mathieu: Même en hiver ?
+
+259
+00:09:32,080 --> 00:09:33,680
+Léa: Même en hiver !
+
+260
+00:09:33,680 --> 00:09:36,240
+Bon, pas pendant une heure évidemment.
+
+261
+00:09:36,240 --> 00:09:39,440
+Mais quelques instants pour sentir l'air frais.
+
+262
+00:09:39,440 --> 00:09:41,190
+Mathieu: Moi, en hiver,
+
+263
+00:09:41,190 --> 00:09:43,930
+je préfère admirer l'air frais
+
+264
+00:09:43,930 --> 00:09:45,560
+depuis l'intérieur.
+
+265
+00:09:45,560 --> 00:09:48,160
+Léa: Tu es vraiment difficile !
+
+266
+00:09:48,160 --> 00:09:53,150
+Mathieu: Je suis simplement très attaché à ma couverture.
+
+267
+00:09:53,200 --> 00:09:54,360
+Léa: Mais tu sais,
+
+268
+00:09:54,360 --> 00:09:56,080
+j'aime beaucoup ce moment
+
+269
+00:09:56,080 --> 00:09:59,080
+où la maison commence à se réveiller.
+
+270
+00:09:59,080 --> 00:10:01,820
+On entend quelques bruits dans la rue,
+
+271
+00:10:01,820 --> 00:10:03,800
+les oiseaux parfois,
+
+272
+00:10:03,800 --> 00:10:06,480
+et la lumière change doucement.
+
+273
+00:10:06,480 --> 00:10:08,290
+Mathieu: C'est vrai que la lumière
+
+274
+00:10:08,290 --> 00:10:11,520
+du matin a quelque chose de particulier.
+
+275
+00:10:11,520 --> 00:10:13,990
+Léa: Oui. Et quand on peut profiter
+
+276
+00:10:13,990 --> 00:10:15,640
+de la lumière naturelle,
+
+277
+00:10:15,640 --> 00:10:17,880
+cela peut aider notre organisme
+
+278
+00:10:17,880 --> 00:10:20,510
+à reconnaître le début de la journée.
+
+279
+00:10:20,560 --> 00:10:23,290
+Mathieu: D'ailleurs, depuis quelque temps,
+
+280
+00:10:23,290 --> 00:10:24,470
+j'essaie de sortir marcher
+
+281
+00:10:24,470 --> 00:10:26,160
+quelques minutes le matin
+
+282
+00:10:26,160 --> 00:10:28,240
+quand mon emploi du temps le permet.
+
+283
+00:10:28,240 --> 00:10:30,350
+Léa: Ah, c'est nouveau, ça !
+
+284
+00:10:30,400 --> 00:10:32,190
+Tu ne m'avais pas raconté.
+
+285
+00:10:32,240 --> 00:10:34,730
+Mathieu: Oui. Il y a un petit parc
+
+286
+00:10:34,730 --> 00:10:36,280
+près de chez moi.
+
+287
+00:10:36,280 --> 00:10:39,920
+Rien d'extraordinaire, mais j'aime y passer
+
+288
+00:10:39,920 --> 00:10:41,920
+avant de commencer à travailler.
+
+289
+00:10:41,920 --> 00:10:44,590
+Léa: Et qu'est-ce que tu fais pendant ta promenade ?
+
+290
+00:10:44,640 --> 00:10:46,120
+Mathieu: Pas grand-chose.
+
+291
+00:10:46,120 --> 00:10:49,260
+Je marche, je regarde les arbres,
+
+292
+00:10:49,310 --> 00:10:52,040
+je croise parfois les mêmes personnes.
+
+293
+00:10:52,040 --> 00:10:53,790
+Il y a même un monsieur
+
+294
+00:10:53,790 --> 00:10:56,560
+qui promène un chien minuscule
+
+295
+00:10:56,560 --> 00:10:59,960
+avec une énergie absolument incroyable.
+
+296
+00:10:59,960 --> 00:11:02,550
+Léa: Le monsieur ou le chien ?
+
+297
+00:11:02,600 --> 00:11:04,350
+Mathieu: Les deux, en fait !
+
+298
+00:11:04,350 --> 00:11:06,850
+Mais surtout le chien. Il court
+
+299
+00:11:06,850 --> 00:11:10,240
+comme s'il avait une mission très importante.
+
+300
+00:11:10,240 --> 00:11:12,640
+Léa: Peut-être qu'il a lui aussi
+
+301
+00:11:12,640 --> 00:11:14,990
+une routine matinale !
+
+302
+00:11:15,040 --> 00:11:17,250
+Mathieu: Une routine beaucoup plus sportive
+
+303
+00:11:17,250 --> 00:11:19,400
+que la mienne, apparemment.
+
+304
+00:11:19,400 --> 00:11:22,510
+Léa: Et comment tu te sens après cette promenade ?
+
+305
+00:11:22,560 --> 00:11:25,280
+Mathieu: Généralement, un peu plus réveillé.
+
+306
+00:11:25,280 --> 00:11:27,400
+Et surtout, j'ai l'impression
+
+307
+00:11:27,400 --> 00:11:30,000
+d'avoir commencé ma journée pour moi,
+
+308
+00:11:30,000 --> 00:11:32,320
+pas uniquement pour mon travail.
+
+309
+00:11:32,320 --> 00:11:34,960
+Léa: C'est intéressant, cette distinction.
+
+310
+00:11:34,960 --> 00:11:37,440
+Parce que parfois, nos matinées deviennent
+
+311
+00:11:37,440 --> 00:11:41,070
+uniquement une préparation à nos obligations.
+
+312
+00:11:41,120 --> 00:11:43,930
+Mathieu: Oui. On se lève pour aller travailler,
+
+313
+00:11:43,930 --> 00:11:46,800
+pour conduire les enfants à l'école,
+
+314
+00:11:46,800 --> 00:11:50,400
+pour accomplir des tâches... Et on oublie
+
+315
+00:11:50,400 --> 00:11:53,760
+que le matin fait aussi partie de notre vie.
+
+316
+00:11:53,760 --> 00:11:56,800
+Léa: Exactement. Ce n'est pas simplement
+
+317
+00:11:56,800 --> 00:11:58,420
+un passage obligatoire
+
+318
+00:11:58,420 --> 00:12:00,480
+avant les choses importantes.
+
+319
+00:12:00,480 --> 00:12:03,880
+Mathieu: Le matin est déjà un moment important.
+
+320
+00:12:03,880 --> 00:12:06,760
+Léa: Et on peut lui donner un peu de douceur,
+
+321
+00:12:06,760 --> 00:12:09,060
+même quand on a peu de temps.
+
+322
+00:12:09,110 --> 00:12:11,440
+Mathieu: Tu viens de me donner une idée.
+
+323
+00:12:11,440 --> 00:12:13,400
+Peut-être que je pourrais arrêter
+
+324
+00:12:13,400 --> 00:12:15,040
+de regarder mes messages
+
+325
+00:12:15,040 --> 00:12:16,760
+pendant mon petit-déjeuner.
+
+326
+00:12:16,760 --> 00:12:20,680
+Léa: Ah ! Nous arrivons à un sujet intéressant :
+
+327
+00:12:20,680 --> 00:12:22,320
+le téléphone.
+
+328
+00:12:22,320 --> 00:12:24,920
+Mathieu: Je savais qu'il allait revenir
+
+329
+00:12:24,920 --> 00:12:27,040
+dans la conversation.
+
+330
+00:12:27,040 --> 00:12:29,480
+Léa: Mais attention, je ne vais pas dire
+
+331
+00:12:29,480 --> 00:12:30,930
+qu'il ne faut jamais
+
+332
+00:12:30,930 --> 00:12:33,560
+utiliser son téléphone le matin.
+
+333
+00:12:33,560 --> 00:12:36,710
+Pour beaucoup de personnes, c'est nécessaire.
+
+334
+00:12:36,760 --> 00:12:38,400
+Mathieu: Oui. On peut avoir besoin
+
+335
+00:12:38,400 --> 00:12:41,320
+de vérifier les horaires des transports,
+
+336
+00:12:41,320 --> 00:12:43,340
+de lire un message important
+
+337
+00:12:43,340 --> 00:12:45,480
+ou de contacter sa famille.
+
+338
+00:12:45,480 --> 00:12:46,560
+Léa: Tout à fait.
+
+339
+00:12:46,560 --> 00:12:48,380
+Mais il y a une différence
+
+340
+00:12:48,380 --> 00:12:51,040
+entre utiliser son téléphone
+
+341
+00:12:51,040 --> 00:12:52,640
+pour une raison précise
+
+342
+00:12:52,640 --> 00:12:55,220
+et le consulter automatiquement
+
+343
+00:12:55,220 --> 00:12:57,240
+sans même y réfléchir.
+
+344
+00:12:57,240 --> 00:13:00,640
+Mathieu: C'est exactement ce qui m'arrivait.
+
+345
+00:13:00,640 --> 00:13:03,860
+Je prenais mon téléphone pour regarder l'heure,
+
+346
+00:13:03,910 --> 00:13:05,550
+et dix minutes plus tard,
+
+347
+00:13:05,550 --> 00:13:07,080
+je regardais une vidéo
+
+348
+00:13:07,080 --> 00:13:08,930
+qui n'avait absolument rien
+
+349
+00:13:08,930 --> 00:13:10,720
+à voir avec ma journée.
+
+350
+00:13:10,720 --> 00:13:12,110
+Léa: Par exemple ?
+
+351
+00:13:12,160 --> 00:13:13,910
+Mathieu: Une vidéo sur la façon
+
+352
+00:13:13,910 --> 00:13:17,640
+de construire une cabane en bois dans une forêt.
+
+353
+00:13:17,640 --> 00:13:21,150
+Léa: Mathieu ! Tu comptes construire une cabane ?
+
+354
+00:13:21,200 --> 00:13:22,950
+Mathieu: Non, mais maintenant
+
+355
+00:13:22,950 --> 00:13:25,240
+je sais presque comment faire.
+
+356
+00:13:25,240 --> 00:13:28,430
+Léa: Voilà le danger des petites distractions !
+
+357
+00:13:28,480 --> 00:13:30,250
+Mathieu: Oui. Et le plus étrange,
+
+358
+00:13:30,250 --> 00:13:33,840
+c'est qu'après avoir regardé toutes ces vidéos,
+
+359
+00:13:33,840 --> 00:13:35,630
+je n'avais même pas l'impression
+
+360
+00:13:35,630 --> 00:13:37,440
+d'avoir profité de mon temps.
+
+361
+00:13:37,440 --> 00:13:39,950
+Léa: Parce que ton attention était déjà partie
+
+362
+00:13:39,950 --> 00:13:41,880
+dans plusieurs directions.
+
+363
+00:13:41,880 --> 00:13:45,070
+Mathieu: Exactement. Alors, j'ai commencé
+
+364
+00:13:45,070 --> 00:13:47,640
+à essayer quelque chose de simple :
+
+365
+00:13:47,640 --> 00:13:50,840
+attendre d'avoir terminé mon petit-déjeuner
+
+366
+00:13:50,840 --> 00:13:53,600
+avant de regarder les réseaux sociaux.
+
+367
+00:13:53,600 --> 00:13:55,270
+Léa: Et ça fonctionne ?
+
+368
+00:13:55,320 --> 00:13:56,560
+Mathieu: Pas tous les jours.
+
+369
+00:13:56,560 --> 00:13:57,940
+Mais assez souvent
+
+370
+00:13:57,940 --> 00:14:00,520
+pour que je remarque la différence.
+
+371
+00:14:00,520 --> 00:14:02,240
+Léa: C'est déjà très bien.
+
+372
+00:14:02,240 --> 00:14:04,980
+Une habitude ne doit pas être parfaite
+
+373
+00:14:04,980 --> 00:14:06,320
+pour être utile.
+
+374
+00:14:06,320 --> 00:14:09,270
+Mathieu: Tu sais ce que j'ai redécouvert grâce à ça ?
+
+375
+00:14:09,320 --> 00:14:11,200
+Le goût de mon café.
+
+376
+00:14:11,200 --> 00:14:12,430
+Léa: Ah bon ?
+
+377
+00:14:12,480 --> 00:14:14,930
+Mathieu: Oui ! Avant, je buvais mon café
+
+378
+00:14:14,930 --> 00:14:16,640
+en regardant mon écran.
+
+379
+00:14:16,640 --> 00:14:18,370
+Maintenant, parfois,
+
+380
+00:14:18,370 --> 00:14:19,880
+je m'assois près de la fenêtre
+
+381
+00:14:19,880 --> 00:14:23,140
+et je prends vraiment le temps de le savourer.
+
+382
+00:14:23,190 --> 00:14:25,240
+Léa: C'est une très jolie expression,
+
+383
+00:14:25,240 --> 00:14:27,920
+« prendre le temps de savourer ».
+
+384
+00:14:27,920 --> 00:14:31,240
+Mathieu: Oui. Savourer, ce n'est pas seulement manger
+
+385
+00:14:31,240 --> 00:14:32,840
+ou boire quelque chose.
+
+386
+00:14:32,840 --> 00:14:35,580
+On peut aussi savourer un moment,
+
+387
+00:14:35,580 --> 00:14:39,480
+une victoire ou une expérience agréable.
+
+388
+00:14:39,480 --> 00:14:42,290
+Léa: Par exemple, « Après une longue semaine,
+
+389
+00:14:42,290 --> 00:14:45,240
+j'ai savouré mon dimanche tranquille. »
+
+390
+00:14:45,240 --> 00:14:46,190
+Mathieu: Ou « Ce matin,
+
+391
+00:14:46,190 --> 00:14:47,480
+j'ai pris le temps
+
+392
+00:14:47,480 --> 00:14:50,630
+de savourer mon café sans me dépêcher. »
+
+393
+00:14:50,680 --> 00:14:52,310
+Léa: Exactement. Et tu sais,
+
+394
+00:14:52,310 --> 00:14:54,550
+je pense que ce sont ces petits moments
+
+395
+00:14:54,550 --> 00:14:57,880
+qui peuvent rendre le quotidien plus agréable.
+
+396
+00:14:57,880 --> 00:14:59,800
+Mathieu: Mais Léa, imaginons quelqu'un
+
+397
+00:14:59,800 --> 00:15:02,880
+qui n'a vraiment pas beaucoup de temps le matin.
+
+398
+00:15:02,880 --> 00:15:05,360
+Quelqu'un qui doit préparer ses enfants,
+
+399
+00:15:05,360 --> 00:15:07,110
+prendre les transports,
+
+400
+00:15:07,110 --> 00:15:09,440
+ou commencer à travailler très tôt.
+
+401
+00:15:09,440 --> 00:15:11,520
+Léa: C'est une excellente question.
+
+402
+00:15:11,520 --> 00:15:14,260
+Parce que toutes les personnes n'ont pas le luxe
+
+403
+00:15:14,260 --> 00:15:16,840
+de passer une heure tranquille chez elles.
+
+404
+00:15:16,840 --> 00:15:20,110
+Mathieu: Exactement. Parfois, cinq minutes
+
+405
+00:15:20,110 --> 00:15:23,120
+de silence semblent déjà impossibles.
+
+406
+00:15:23,120 --> 00:15:25,610
+Léa: Dans ce cas, je pense qu'il faut intégrer
+
+407
+00:15:25,610 --> 00:15:27,610
+de petits moments agréables
+
+408
+00:15:27,610 --> 00:15:29,000
+dans ce qu'on fait déjà.
+
+409
+00:15:29,000 --> 00:15:30,280
+Mathieu: Par exemple ?
+
+410
+00:15:30,280 --> 00:15:32,030
+Léa: Écouter une chanson qu'on aime
+
+411
+00:15:32,030 --> 00:15:34,120
+pendant qu'on prépare le petit-déjeuner.
+
+412
+00:15:34,120 --> 00:15:35,870
+Respirer tranquillement
+
+413
+00:15:35,870 --> 00:15:37,840
+pendant qu'on attend que l'eau chauffe.
+
+414
+00:15:37,840 --> 00:15:40,890
+Ou prendre quelques secondes pour regarder dehors
+
+415
+00:15:40,890 --> 00:15:42,760
+avant de quitter la maison.
+
+416
+00:15:42,760 --> 00:15:44,700
+Mathieu: Donc il ne s'agit pas forcément
+
+417
+00:15:44,700 --> 00:15:47,230
+d'ajouter de nouvelles activités.
+
+418
+00:15:47,280 --> 00:15:50,090
+Léa: Non. Il s'agit parfois simplement
+
+419
+00:15:50,090 --> 00:15:53,200
+de vivre autrement les activités qu'on fait déjà.
+
+420
+00:15:53,200 --> 00:15:55,040
+Mathieu: J'aime beaucoup cette idée.
+
+421
+00:15:55,040 --> 00:15:58,040
+Parce qu'une routine qui demande trop d'efforts
+
+422
+00:15:58,040 --> 00:16:01,760
+risque de devenir une obligation supplémentaire.
+
+423
+00:16:01,760 --> 00:16:04,320
+Léa: Exactement. Et si notre routine
+
+424
+00:16:04,320 --> 00:16:05,960
+nous stresse davantage,
+
+425
+00:16:05,960 --> 00:16:08,440
+elle ne remplit plus vraiment son rôle.
+
+426
+00:16:08,440 --> 00:16:09,950
+Mathieu: En parlant de stress,
+
+427
+00:16:09,950 --> 00:16:12,300
+il y a quelque chose que je fais souvent :
+
+428
+00:16:12,350 --> 00:16:13,770
+dès que je me réveille,
+
+429
+00:16:13,770 --> 00:16:15,090
+je commence à penser
+
+430
+00:16:15,090 --> 00:16:17,480
+à toutes mes tâches de la journée.
+
+431
+00:16:17,480 --> 00:16:18,040
+Léa: Ah oui.
+
+432
+00:16:18,040 --> 00:16:20,700
+La fameuse liste mentale qui commence
+
+433
+00:16:20,700 --> 00:16:23,360
+avant même qu'on soit sorti du lit.
+
+434
+00:16:23,360 --> 00:16:26,320
+Mathieu: Exactement. Je pense à un rendez-vous,
+
+435
+00:16:26,320 --> 00:16:28,640
+puis à un document à terminer,
+
+436
+00:16:28,640 --> 00:16:32,240
+puis à un message auquel je n'ai pas répondu...
+
+437
+00:16:32,240 --> 00:16:33,850
+Léa: Et en quelques secondes,
+
+438
+00:16:33,850 --> 00:16:34,980
+tu as l'impression
+
+439
+00:16:34,980 --> 00:16:37,200
+que ta journée est déjà trop remplie.
+
+440
+00:16:37,200 --> 00:16:41,350
+Mathieu: C'est ça. Pourtant, je n'ai encore rien commencé.
+
+441
+00:16:41,400 --> 00:16:43,030
+Léa: Alors peut-être qu'au lieu
+
+442
+00:16:43,030 --> 00:16:44,480
+de penser immédiatement
+
+443
+00:16:44,480 --> 00:16:46,280
+à tout ce que tu dois faire,
+
+444
+00:16:46,280 --> 00:16:47,610
+tu pourrais commencer
+
+445
+00:16:47,610 --> 00:16:49,520
+par une question plus simple.
+
+446
+00:16:49,520 --> 00:16:50,590
+Mathieu: Laquelle ?
+
+447
+00:16:50,640 --> 00:16:52,950
+Léa: « De quoi ai-je besoin aujourd'hui ? »
+
+448
+00:16:53,000 --> 00:16:55,390
+Mathieu: Hmm... Ce n'est pas la même chose
+
+449
+00:16:55,390 --> 00:16:57,870
+que « Qu'est-ce que je dois faire aujourd'hui ? »
+
+450
+00:16:57,920 --> 00:17:00,650
+Léa: Exactement. La première question
+
+451
+00:17:00,650 --> 00:17:02,050
+concerne ton état,
+
+452
+00:17:02,050 --> 00:17:04,320
+ton énergie, tes besoins.
+
+453
+00:17:04,320 --> 00:17:07,240
+La deuxième concerne tes obligations.
+
+454
+00:17:07,240 --> 00:17:09,390
+Mathieu: Et les deux sont importantes.
+
+455
+00:17:09,440 --> 00:17:10,090
+Léa: Bien sûr.
+
+456
+00:17:10,090 --> 00:17:13,880
+Mais parfois, on oublie complètement la première.
+
+457
+00:17:13,880 --> 00:17:16,120
+Mathieu: Alors, si je me sens fatigué,
+
+458
+00:17:16,120 --> 00:17:17,720
+je pourrais me dire :
+
+459
+00:17:17,720 --> 00:17:20,760
+aujourd'hui, j'ai besoin d'y aller doucement.
+
+460
+00:17:20,760 --> 00:17:24,050
+Léa: Oui. Ou si tu as une journée importante :
+
+461
+00:17:24,050 --> 00:17:25,520
+aujourd'hui, j'ai besoin
+
+462
+00:17:25,520 --> 00:17:28,120
+de rester concentré sur l'essentiel.
+
+463
+00:17:28,120 --> 00:17:28,890
+Mathieu: Et si je sais
+
+464
+00:17:28,890 --> 00:17:32,150
+que je vais rencontrer une personne difficile ?
+
+465
+00:17:32,200 --> 00:17:36,200
+Léa: Peut-être : aujourd'hui, j'ai besoin de patience.
+
+466
+00:17:36,200 --> 00:17:38,980
+Mathieu: Beaucoup de patience, dans certains cas !
+
+467
+00:17:39,030 --> 00:17:41,190
+Léa: Peut-être ! Mais tu vois,
+
+468
+00:17:41,190 --> 00:17:43,510
+cette petite réflexion peut nous aider
+
+469
+00:17:43,510 --> 00:17:45,880
+à choisir une direction pour la journée.
+
+470
+00:17:45,880 --> 00:17:47,820
+Mathieu: Pas un programme parfait.
+
+471
+00:17:47,820 --> 00:17:49,560
+Juste une intention.
+
+472
+00:17:49,560 --> 00:17:50,920
+Léa: Exactement.
+
+473
+00:17:50,920 --> 00:17:53,720
+Et j'aime beaucoup le mot « intention ».
+
+474
+00:17:53,720 --> 00:17:55,690
+Une intention, c'est quelque chose
+
+475
+00:17:55,690 --> 00:17:58,120
+qu'on souhaite faire ou une manière
+
+476
+00:17:58,120 --> 00:17:59,480
+dont on souhaite agir.
+
+477
+00:17:59,480 --> 00:18:01,700
+Mathieu: Par exemple : « Aujourd'hui,
+
+478
+00:18:01,700 --> 00:18:04,150
+mon intention est de prendre les choses
+
+479
+00:18:04,150 --> 00:18:05,700
+avec plus de calme. »
+
+480
+00:18:05,750 --> 00:18:06,610
+Léa: Très bien. Ou :
+
+481
+00:18:06,610 --> 00:18:08,840
+« Cette semaine, j'ai l'intention
+
+482
+00:18:08,840 --> 00:18:11,000
+de mieux organiser mon temps. »
+
+483
+00:18:11,000 --> 00:18:12,750
+Mathieu: Mais j'ai une question.
+
+484
+00:18:12,750 --> 00:18:15,590
+Et si on ne respecte pas notre intention ?
+
+485
+00:18:15,640 --> 00:18:17,960
+Léa: Eh bien, ce n'est pas un drame.
+
+486
+00:18:17,960 --> 00:18:19,850
+Mathieu: Même si je voulais rester calme
+
+487
+00:18:19,850 --> 00:18:22,150
+et que je me suis énervé avant midi ?
+
+488
+00:18:22,200 --> 00:18:24,280
+Léa: Même dans ce cas.
+
+489
+00:18:24,280 --> 00:18:27,050
+On peut reconnaître ce qui s'est passé
+
+490
+00:18:27,050 --> 00:18:30,200
+et essayer de faire autrement ensuite.
+
+491
+00:18:30,200 --> 00:18:31,480
+Mathieu: Donc on n'a pas besoin
+
+492
+00:18:31,480 --> 00:18:33,340
+d'abandonner toute la journée
+
+493
+00:18:33,340 --> 00:18:35,310
+après un moment difficile.
+
+494
+00:18:35,360 --> 00:18:38,680
+Léa: Exactement. Parce qu'une matinée compliquée
+
+495
+00:18:38,680 --> 00:18:41,640
+ne signifie pas forcément une mauvaise journée.
+
+496
+00:18:41,640 --> 00:18:44,440
+Mathieu: Ça me rappelle mardi dernier.
+
+497
+00:18:44,440 --> 00:18:45,410
+J'avais décidé
+
+498
+00:18:45,410 --> 00:18:48,040
+de commencer ma journée tranquillement.
+
+499
+00:18:48,040 --> 00:18:50,120
+Et puis, tout s'est enchaîné.
+
+500
+00:18:50,120 --> 00:18:51,430
+Léa: Qu'est-ce qui s'est passé ?
+
+501
+00:18:51,480 --> 00:18:54,600
+Mathieu: D'abord, j'ai renversé mon café.
+
+502
+00:18:54,600 --> 00:18:57,640
+Ensuite, je n'ai pas trouvé mes clés.
+
+503
+00:18:57,640 --> 00:18:59,960
+Et quand je suis enfin sorti,
+
+504
+00:18:59,960 --> 00:19:01,880
+il s'est mis à pleuvoir.
+
+505
+00:19:01,880 --> 00:19:04,670
+Léa: Oh là là ! Quelle matinée !
+
+506
+00:19:04,720 --> 00:19:08,910
+Mathieu: Oui. Et immédiatement, je me suis dit :
+
+507
+00:19:08,910 --> 00:19:11,870
+ça y est, toute ma journée est fichue.
+
+508
+00:19:11,920 --> 00:19:13,990
+Léa: « Ma journée est fichue »,
+
+509
+00:19:14,040 --> 00:19:16,520
+c'est une expression très familière.
+
+510
+00:19:16,520 --> 00:19:17,950
+Cela signifie qu'on pense
+
+511
+00:19:17,950 --> 00:19:20,360
+que la journée est complètement gâchée.
+
+512
+00:19:20,360 --> 00:19:23,800
+Mathieu: Exactement. Mais en réalité,
+
+513
+00:19:23,800 --> 00:19:26,120
+il était seulement huit heures et quart.
+
+514
+00:19:26,120 --> 00:19:28,520
+Léa: Donc il te restait encore beaucoup de temps
+
+515
+00:19:28,520 --> 00:19:30,440
+pour vivre de meilleurs moments.
+
+516
+00:19:30,440 --> 00:19:32,900
+Mathieu: Oui. Et finalement,
+
+517
+00:19:32,900 --> 00:19:35,640
+l'après-midi s'est très bien passé.
+
+518
+00:19:35,640 --> 00:19:37,800
+J'ai terminé un projet important,
+
+519
+00:19:37,800 --> 00:19:40,840
+et j'ai même retrouvé un ami pour déjeuner.
+
+520
+00:19:40,840 --> 00:19:41,510
+Léa: Tu vois !
+
+521
+00:19:41,510 --> 00:19:44,260
+Ta mauvaise matinée n'avait pas décidé
+
+522
+00:19:44,260 --> 00:19:46,120
+du reste de ta journée.
+
+523
+00:19:46,120 --> 00:19:49,400
+Mathieu: C'est vrai. Mais sur le moment,
+
+524
+00:19:49,400 --> 00:19:51,800
+j'avais du mal à prendre du recul.
+
+525
+00:19:51,800 --> 00:19:54,840
+Léa: Voilà une autre expression intéressante :
+
+526
+00:19:54,840 --> 00:19:56,910
+« prendre du recul ».
+
+527
+00:19:56,960 --> 00:19:59,720
+Cela signifie regarder une situation
+
+528
+00:19:59,720 --> 00:20:01,640
+avec un peu de distance,
+
+529
+00:20:01,640 --> 00:20:03,390
+sans se laisser complètement
+
+530
+00:20:03,390 --> 00:20:05,000
+emporter par ses émotions.
+
+531
+00:20:05,000 --> 00:20:08,040
+Mathieu: Par exemple : « Quand je suis stressé,
+
+532
+00:20:08,040 --> 00:20:11,320
+j'essaie de prendre du recul avant de réagir. »
+
+533
+00:20:11,320 --> 00:20:14,770
+Léa: Exactement. Et parfois, il suffit de se rappeler
+
+534
+00:20:14,770 --> 00:20:16,040
+qu'une mauvaise heure
+
+535
+00:20:16,040 --> 00:20:18,120
+n'est pas une mauvaise journée.
+
+536
+00:20:18,120 --> 00:20:19,960
+Mathieu: J'aime cette idée.
+
+537
+00:20:19,960 --> 00:20:21,710
+On peut toujours retrouver
+
+538
+00:20:21,710 --> 00:20:23,470
+un peu de calme plus tard.
+
+539
+00:20:23,520 --> 00:20:28,200
+Léa: Oui. À midi, dans l'après-midi, ou même le soir.
+
+540
+00:20:28,200 --> 00:20:30,360
+On n'est pas obligé d'attendre le lendemain
+
+541
+00:20:30,360 --> 00:20:32,600
+pour recommencer à se sentir mieux.
+
+542
+00:20:32,600 --> 00:20:34,850
+Mathieu: Tu sais, cela me fait penser
+
+543
+00:20:34,850 --> 00:20:37,960
+à une autre habitude que j'aimerais adopter :
+
+544
+00:20:37,960 --> 00:20:41,240
+faire une seule petite chose dès le matin,
+
+545
+00:20:41,240 --> 00:20:43,240
+et la terminer complètement.
+
+546
+00:20:43,240 --> 00:20:45,030
+Léa: Ah oui ? Comme quoi ?
+
+547
+00:20:45,080 --> 00:20:46,110
+Mathieu: Par exemple,
+
+548
+00:20:46,110 --> 00:20:49,230
+ranger ma tasse après le petit-déjeuner,
+
+549
+00:20:49,280 --> 00:20:50,520
+préparer mon sac,
+
+550
+00:20:50,520 --> 00:20:53,800
+ou remettre quelque chose à sa place.
+
+551
+00:20:53,800 --> 00:20:55,550
+Léa: C'est une bonne idée.
+
+552
+00:20:55,550 --> 00:20:57,160
+Parce qu'une petite tâche terminée
+
+553
+00:20:57,160 --> 00:20:59,960
+peut donner une sensation de satisfaction.
+
+554
+00:20:59,960 --> 00:21:02,140
+Mathieu: Oui. J'ai remarqué
+
+555
+00:21:02,140 --> 00:21:04,920
+que quand je termine une chose simple,
+
+556
+00:21:04,920 --> 00:21:06,670
+je me sens parfois plus prêt
+
+557
+00:21:06,670 --> 00:21:08,440
+à commencer la suivante.
+
+558
+00:21:08,440 --> 00:21:10,700
+Léa: En français, on pourrait dire :
+
+559
+00:21:10,750 --> 00:21:13,190
+« Ça me met dans une bonne dynamique. »
+
+560
+00:21:13,240 --> 00:21:15,560
+Mathieu: Une bonne dynamique.
+
+561
+00:21:15,560 --> 00:21:17,550
+J'aime bien cette expression.
+
+562
+00:21:17,600 --> 00:21:19,230
+Léa: Elle signifie qu'on entre
+
+563
+00:21:19,230 --> 00:21:21,080
+dans un mouvement positif,
+
+564
+00:21:21,080 --> 00:21:23,720
+un rythme qui nous aide à avancer.
+
+565
+00:21:23,720 --> 00:21:25,000
+Mathieu: Par exemple :
+
+566
+00:21:25,000 --> 00:21:26,200
+« Commencer la journée
+
+567
+00:21:26,200 --> 00:21:28,210
+par une petite promenade me met
+
+568
+00:21:28,210 --> 00:21:30,040
+dans une bonne dynamique. »
+
+569
+00:21:30,040 --> 00:21:33,240
+Léa: Ou : « Quand mon bureau est bien rangé, je me sens
+
+570
+00:21:33,240 --> 00:21:35,800
+dans une meilleure dynamique pour travailler. »
+
+571
+00:21:35,800 --> 00:21:37,350
+Mathieu: Mais attention,
+
+572
+00:21:37,400 --> 00:21:38,960
+je ne veux pas que les gens pensent
+
+573
+00:21:38,960 --> 00:21:41,230
+qu'ils doivent nettoyer toute leur maison
+
+574
+00:21:41,230 --> 00:21:42,520
+avant de partir !
+
+575
+00:21:42,520 --> 00:21:44,360
+Léa: Non, bien sûr !
+
+576
+00:21:44,360 --> 00:21:47,140
+Une seule petite action peut suffire.
+
+577
+00:21:47,190 --> 00:21:48,760
+Mathieu: C'est rassurant.
+
+578
+00:21:48,760 --> 00:21:50,480
+Parce que si je commence
+
+579
+00:21:50,480 --> 00:21:52,960
+à ranger mon appartement, je risque
+
+580
+00:21:52,960 --> 00:21:55,880
+de découvrir quinze autres choses à faire.
+
+581
+00:21:55,880 --> 00:21:57,760
+Léa: Et là, ta routine du matin
+
+582
+00:21:57,760 --> 00:22:00,840
+devient une journée entière de ménage !
+
+583
+00:22:00,840 --> 00:22:04,360
+Mathieu: Exactement. Ce n'était pas le programme.
+
+584
+00:22:04,360 --> 00:22:05,790
+Léa: Tu sais, Mathieu,
+
+585
+00:22:05,790 --> 00:22:07,750
+j'aimerais parler de quelque chose
+
+586
+00:22:07,750 --> 00:22:09,000
+d'un peu différent.
+
+587
+00:22:09,000 --> 00:22:11,480
+Pour moi, une matinée agréable,
+
+588
+00:22:11,480 --> 00:22:12,600
+ce n'est pas seulement
+
+589
+00:22:12,600 --> 00:22:14,280
+une question d'organisation.
+
+590
+00:22:14,280 --> 00:22:17,060
+Mathieu: Ah oui ? Qu'est-ce que tu veux dire ?
+
+591
+00:22:17,110 --> 00:22:18,750
+Léa: Je pense qu'il est important
+
+592
+00:22:18,750 --> 00:22:21,400
+de garder une petite place pour le plaisir.
+
+593
+00:22:21,400 --> 00:22:24,840
+Mathieu: Ça, c'est un sujet que j'approuve totalement.
+
+594
+00:22:24,840 --> 00:22:27,800
+Léa: Je ne parle pas nécessairement de grandes choses.
+
+595
+00:22:27,800 --> 00:22:30,840
+Par exemple, écouter sa musique préférée,
+
+596
+00:22:30,840 --> 00:22:33,320
+préparer un petit-déjeuner qu'on aime,
+
+597
+00:22:33,320 --> 00:22:35,560
+ou lire quelques pages d'un livre.
+
+598
+00:22:35,560 --> 00:22:38,440
+Mathieu: Ou manger un croissant encore chaud.
+
+599
+00:22:38,440 --> 00:22:39,210
+Léa: Bien sûr !
+
+600
+00:22:39,210 --> 00:22:42,360
+Je savais que tu allais parler de nourriture.
+
+601
+00:22:42,360 --> 00:22:44,670
+Mathieu: Un bon croissant peut améliorer
+
+602
+00:22:44,670 --> 00:22:46,580
+énormément de choses.
+
+603
+00:22:46,630 --> 00:22:48,440
+Léa: Tu sais, quand j'étais petite,
+
+604
+00:22:48,440 --> 00:22:50,350
+ma mère mettait souvent de la musique
+
+605
+00:22:50,350 --> 00:22:53,000
+dans la cuisine le dimanche matin.
+
+606
+00:22:53,000 --> 00:22:55,480
+Mathieu: Ah, c'est un joli souvenir.
+
+607
+00:22:55,480 --> 00:22:58,360
+Léa: Oui. Elle préparait le petit-déjeuner,
+
+608
+00:22:58,360 --> 00:23:00,680
+la lumière entrait dans la pièce,
+
+609
+00:23:00,680 --> 00:23:03,800
+et parfois, nous chantions ensemble.
+
+610
+00:23:03,800 --> 00:23:06,200
+Pas toujours très juste, d'ailleurs.
+
+611
+00:23:06,200 --> 00:23:08,200
+Mathieu: Mais ce n'était pas important.
+
+612
+00:23:08,200 --> 00:23:10,490
+Léa: Exactement. Ce qui comptait,
+
+613
+00:23:10,490 --> 00:23:12,420
+c'était cette atmosphère.
+
+614
+00:23:12,470 --> 00:23:15,360
+On avait l'impression que la journée commençait
+
+615
+00:23:15,360 --> 00:23:16,760
+avec un peu de joie.
+
+616
+00:23:16,760 --> 00:23:18,030
+Mathieu: Tu vois, je crois
+
+617
+00:23:18,030 --> 00:23:19,800
+que les souvenirs les plus chaleureux
+
+618
+00:23:19,800 --> 00:23:21,160
+ne viennent pas toujours
+
+619
+00:23:21,160 --> 00:23:23,160
+de choses extraordinaires.
+
+620
+00:23:23,160 --> 00:23:25,900
+Léa: Oui. Souvent, ce sont de petits détails
+
+621
+00:23:25,900 --> 00:23:28,520
+qu'on finit par associer au bonheur.
+
+622
+00:23:28,520 --> 00:23:30,360
+Mathieu: L'odeur du pain grillé,
+
+623
+00:23:30,360 --> 00:23:33,880
+le bruit de la pluie, une chanson qu'on aime...
+
+624
+00:23:33,880 --> 00:23:36,290
+Léa: Ou simplement quelques minutes passées
+
+625
+00:23:36,290 --> 00:23:38,120
+avec quelqu'un qu'on aime.
+
+626
+00:23:38,120 --> 00:23:39,060
+Mathieu: Cela me rappelle
+
+627
+00:23:39,060 --> 00:23:41,310
+les matins chez mes grands-parents.
+
+628
+00:23:41,360 --> 00:23:43,280
+Mon grand-père se levait toujours
+
+629
+00:23:43,280 --> 00:23:44,680
+avant tout le monde.
+
+630
+00:23:44,680 --> 00:23:46,070
+Léa: Qu'est-ce qu'il faisait ?
+
+631
+00:23:46,120 --> 00:23:47,870
+Mathieu: Il préparait du café,
+
+632
+00:23:47,870 --> 00:23:50,570
+puis il s'asseyait près de la fenêtre
+
+633
+00:23:50,570 --> 00:23:51,720
+avec son journal.
+
+634
+00:23:51,720 --> 00:23:53,470
+Il avait toujours l'air tranquille,
+
+635
+00:23:53,470 --> 00:23:56,200
+même quand il avait beaucoup de choses à faire.
+
+636
+00:23:56,200 --> 00:23:59,160
+Léa: Il avait peut-être trouvé son propre rythme.
+
+637
+00:23:59,160 --> 00:24:01,790
+Mathieu: Oui. Et quand je lui demandais
+
+638
+00:24:01,790 --> 00:24:03,720
+pourquoi il ne se dépêchait pas,
+
+639
+00:24:03,720 --> 00:24:05,150
+il me répondait :
+
+640
+00:24:05,200 --> 00:24:07,130
+« La journée sera assez longue,
+
+641
+00:24:07,130 --> 00:24:09,620
+inutile de commencer en courant. »
+
+642
+00:24:09,670 --> 00:24:12,280
+Léa: J'adore cette phrase.
+
+643
+00:24:12,280 --> 00:24:13,560
+Mathieu: Moi aussi.
+
+644
+00:24:13,560 --> 00:24:15,310
+Je ne l'ai pas toujours comprise
+
+645
+00:24:15,310 --> 00:24:16,590
+quand j'étais plus jeune,
+
+646
+00:24:16,590 --> 00:24:19,320
+mais aujourd'hui, elle me parle beaucoup.
+
+647
+00:24:19,320 --> 00:24:21,070
+Léa: Parce qu'on vit parfois
+
+648
+00:24:21,070 --> 00:24:23,640
+comme si chaque minute devait être remplie.
+
+649
+00:24:23,640 --> 00:24:27,320
+Mathieu: Exactement. Même pendant nos moments de repos,
+
+650
+00:24:27,320 --> 00:24:28,440
+on se demande parfois
+
+651
+00:24:28,440 --> 00:24:29,880
+si on pourrait faire quelque chose
+
+652
+00:24:29,880 --> 00:24:31,480
+de plus utile.
+
+653
+00:24:31,480 --> 00:24:33,840
+Léa: Alors qu'on a aussi le droit de profiter
+
+654
+00:24:33,840 --> 00:24:37,230
+d'un moment simplement parce qu'il est agréable.
+
+655
+00:24:37,280 --> 00:24:40,840
+Mathieu: Sans avoir besoin de le transformer en objectif.
+
+656
+00:24:40,840 --> 00:24:41,960
+Léa: Tout à fait.
+
+657
+00:24:41,960 --> 00:24:44,680
+Et cela peut commencer dès le matin.
+
+658
+00:24:44,680 --> 00:24:46,430
+Mathieu: Mais je voudrais revenir
+
+659
+00:24:46,430 --> 00:24:48,120
+sur une chose importante.
+
+660
+00:24:48,120 --> 00:24:50,860
+On parle beaucoup de bonnes habitudes,
+
+661
+00:24:50,860 --> 00:24:54,280
+mais parfois, on est simplement épuisé.
+
+662
+00:24:54,280 --> 00:24:57,240
+Léa: Oui. Et c'est important de le reconnaître.
+
+663
+00:24:57,240 --> 00:25:00,440
+Mathieu: Par exemple, si quelqu'un travaille très tard,
+
+664
+00:25:00,440 --> 00:25:02,740
+s'occupe d'un bébé pendant la nuit
+
+665
+00:25:02,790 --> 00:25:04,990
+ou traverse une période difficile,
+
+666
+00:25:04,990 --> 00:25:06,320
+une routine parfaite
+
+667
+00:25:06,320 --> 00:25:08,920
+ne va pas résoudre tous ses problèmes.
+
+668
+00:25:08,920 --> 00:25:12,430
+Léa: Absolument. Il ne faut pas transformer la fatigue
+
+669
+00:25:12,430 --> 00:25:14,040
+en manque de volonté.
+
+670
+00:25:14,040 --> 00:25:16,780
+Mathieu: Parce que parfois, on a besoin de repos,
+
+671
+00:25:16,780 --> 00:25:19,560
+pas d'une nouvelle liste de choses à faire.
+
+672
+00:25:19,560 --> 00:25:22,300
+Léa: Et une bonne routine doit être adaptée
+
+673
+00:25:22,300 --> 00:25:23,720
+à notre réalité.
+
+674
+00:25:23,720 --> 00:25:25,160
+Pas à une vie idéale
+
+675
+00:25:25,160 --> 00:25:27,160
+qu'on voit sur les réseaux sociaux.
+
+676
+00:25:27,160 --> 00:25:29,070
+Mathieu: C'est très important.
+
+677
+00:25:29,120 --> 00:25:30,400
+Parce que j'ai déjà essayé
+
+678
+00:25:30,400 --> 00:25:33,320
+de copier la routine d'une personne sur Internet.
+
+679
+00:25:33,320 --> 00:25:35,320
+Léa: Ah oui ? Raconte-moi.
+
+680
+00:25:35,320 --> 00:25:38,230
+Mathieu: Il se levait à cinq heures, faisait du sport,
+
+681
+00:25:38,230 --> 00:25:41,480
+lisait trente pages, écrivait dans un carnet,
+
+682
+00:25:41,480 --> 00:25:44,840
+et préparait un petit-déjeuner magnifique.
+
+683
+00:25:44,840 --> 00:25:45,830
+Léa: Et toi ?
+
+684
+00:25:45,880 --> 00:25:49,000
+Mathieu: Le premier jour, j'étais très motivé.
+
+685
+00:25:49,000 --> 00:25:51,240
+Le deuxième, un peu moins.
+
+686
+00:25:51,240 --> 00:25:53,720
+Le troisième, j'ai éteint mon réveil
+
+687
+00:25:53,720 --> 00:25:55,480
+et je me suis rendormi.
+
+688
+00:25:55,480 --> 00:25:57,140
+Léa: Oh, Mathieu !
+
+689
+00:25:57,190 --> 00:25:58,840
+Mathieu: Et pendant quelque temps,
+
+690
+00:25:58,840 --> 00:26:01,640
+j'ai pensé que je manquais de discipline.
+
+691
+00:26:01,640 --> 00:26:02,990
+Léa: Alors qu'en réalité,
+
+692
+00:26:02,990 --> 00:26:05,560
+cette routine ne correspondait peut-être
+
+693
+00:26:05,560 --> 00:26:07,800
+tout simplement pas à ton rythme.
+
+694
+00:26:07,800 --> 00:26:10,830
+Mathieu: Exactement. Je voulais adopter la vie
+
+695
+00:26:10,830 --> 00:26:12,410
+d'une autre personne,
+
+696
+00:26:12,410 --> 00:26:14,920
+au lieu de comprendre ce qui me convenait.
+
+697
+00:26:14,920 --> 00:26:17,240
+Léa: C'est une belle prise de conscience.
+
+698
+00:26:17,240 --> 00:26:18,910
+Mathieu: Oui. Aujourd'hui,
+
+699
+00:26:18,910 --> 00:26:20,360
+je préfère avoir une routine
+
+700
+00:26:20,360 --> 00:26:21,720
+beaucoup plus simple,
+
+701
+00:26:21,720 --> 00:26:24,440
+mais que je peux réellement suivre.
+
+702
+00:26:24,440 --> 00:26:27,070
+Léa: Et je pense que c'est une bonne approche.
+
+703
+00:26:27,120 --> 00:26:30,200
+Une habitude réaliste est souvent plus facile
+
+704
+00:26:30,200 --> 00:26:31,080
+à conserver.
+
+705
+00:26:31,080 --> 00:26:33,400
+Mathieu: Même si elle n'est pas très impressionnante.
+
+706
+00:26:33,400 --> 00:26:36,760
+Léa: Surtout si elle n'est pas impressionnante !
+
+707
+00:26:36,760 --> 00:26:38,510
+Mathieu: Alors, si je comprends bien,
+
+708
+00:26:38,510 --> 00:26:40,360
+une bonne routine du matin,
+
+709
+00:26:40,360 --> 00:26:43,000
+ce n'est pas une liste de dix règles.
+
+710
+00:26:43,000 --> 00:26:44,740
+Léa: Non. C'est plutôt
+
+711
+00:26:44,740 --> 00:26:47,400
+une petite collection d'habitudes
+
+712
+00:26:47,400 --> 00:26:49,880
+qui nous aident à nous sentir mieux.
+
+713
+00:26:49,880 --> 00:26:52,350
+Mathieu: Et qui peuvent changer selon les périodes
+
+714
+00:26:52,350 --> 00:26:53,320
+de notre vie.
+
+715
+00:26:53,320 --> 00:26:55,840
+Léa: Exactement. Il y a des périodes
+
+716
+00:26:55,840 --> 00:26:57,640
+où l'on a beaucoup de temps.
+
+717
+00:26:57,640 --> 00:27:00,200
+D'autres où l'on en a très peu.
+
+718
+00:27:00,200 --> 00:27:02,730
+Mathieu: Et parfois, ce qui nous faisait du bien
+
+719
+00:27:02,730 --> 00:27:05,670
+il y a deux ans ne correspond plus du tout
+
+720
+00:27:05,670 --> 00:27:07,560
+à nos besoins aujourd'hui.
+
+721
+00:27:07,560 --> 00:27:08,680
+Léa: C'est vrai.
+
+722
+00:27:08,680 --> 00:27:11,150
+Il faut donc apprendre à s'écouter
+
+723
+00:27:11,150 --> 00:27:13,400
+et à ajuster ses habitudes.
+
+724
+00:27:13,400 --> 00:27:14,670
+Mathieu: Tu sais, je crois
+
+725
+00:27:14,670 --> 00:27:17,400
+que je viens de comprendre quelque chose.
+
+726
+00:27:17,400 --> 00:27:20,360
+Je pensais qu'une bonne routine était une routine
+
+727
+00:27:20,360 --> 00:27:22,360
+qu'on suivait parfaitement.
+
+728
+00:27:22,360 --> 00:27:23,630
+Léa: Et maintenant ?
+
+729
+00:27:23,680 --> 00:27:26,440
+Mathieu: Maintenant, je pense qu'une bonne routine,
+
+730
+00:27:26,440 --> 00:27:27,840
+c'est une routine
+
+731
+00:27:27,840 --> 00:27:30,680
+à laquelle on a envie de revenir.
+
+732
+00:27:30,680 --> 00:27:33,640
+Léa: J'aime énormément cette définition.
+
+733
+00:27:33,640 --> 00:27:36,760
+Mathieu: Merci. Je vais peut-être l'écrire quelque part.
+
+734
+00:27:36,760 --> 00:27:38,550
+Léa: Pourquoi pas sur ton réveil ?
+
+735
+00:27:38,600 --> 00:27:40,760
+Mathieu: Non, surtout pas.
+
+736
+00:27:40,760 --> 00:27:43,640
+Je préfère garder de bonnes relations avec lui.
+
+737
+00:27:43,640 --> 00:27:46,840
+Léa: Alors, Mathieu, imaginons demain matin.
+
+738
+00:27:46,840 --> 00:27:49,720
+Tu te réveilles, tu as un peu de temps,
+
+739
+00:27:49,720 --> 00:27:50,830
+et tu veux commencer
+
+740
+00:27:50,830 --> 00:27:53,300
+ta journée plus agréablement.
+
+741
+00:27:53,350 --> 00:27:54,630
+Qu'est-ce que tu fais ?
+
+742
+00:27:54,680 --> 00:27:56,760
+Mathieu: D'abord, je résiste à l'envie
+
+743
+00:27:56,760 --> 00:27:59,880
+de regarder immédiatement mon téléphone.
+
+744
+00:27:59,880 --> 00:28:01,830
+Léa: Très bien. Ensuite ?
+
+745
+00:28:01,880 --> 00:28:05,080
+Mathieu: J'ouvre les rideaux, je bois un verre d'eau,
+
+746
+00:28:05,080 --> 00:28:06,730
+et je prends quelques instants
+
+747
+00:28:06,730 --> 00:28:08,840
+pour me réveiller tranquillement.
+
+748
+00:28:08,840 --> 00:28:09,830
+Léa: Et après ?
+
+749
+00:28:09,880 --> 00:28:12,760
+Mathieu: Je prépare mon café, évidemment.
+
+750
+00:28:12,760 --> 00:28:14,040
+Léa: Évidemment !
+
+751
+00:28:14,040 --> 00:28:17,180
+Mathieu: Mais cette fois, je prends le temps de le boire
+
+752
+00:28:17,180 --> 00:28:20,440
+sans faire trois autres choses en même temps.
+
+753
+00:28:20,440 --> 00:28:21,780
+Léa: Très bonne idée.
+
+754
+00:28:21,830 --> 00:28:23,090
+Mathieu: Et si j'ai le temps,
+
+755
+00:28:23,090 --> 00:28:25,160
+je fais une petite promenade.
+
+756
+00:28:25,160 --> 00:28:27,970
+Sinon, je peux simplement écouter une chanson
+
+757
+00:28:27,970 --> 00:28:30,840
+que j'aime avant de commencer à travailler.
+
+758
+00:28:30,840 --> 00:28:33,240
+Léa: Tu vois, rien de compliqué.
+
+759
+00:28:33,240 --> 00:28:34,990
+Mathieu: Oui. Et surtout,
+
+760
+00:28:34,990 --> 00:28:35,980
+je n'ai pas besoin
+
+761
+00:28:35,980 --> 00:28:37,800
+de me sentir coupable si demain
+
+762
+00:28:37,800 --> 00:28:40,840
+ne se passe pas exactement comme prévu.
+
+763
+00:28:40,840 --> 00:28:43,910
+Léa: Voilà. Parce que le but n'est pas d'avoir
+
+764
+00:28:43,910 --> 00:28:45,720
+des matinées parfaites.
+
+765
+00:28:45,720 --> 00:28:47,070
+Mathieu: Le but est de rendre
+
+766
+00:28:47,070 --> 00:28:49,700
+nos matinées un peu plus agréables,
+
+767
+00:28:49,700 --> 00:28:51,070
+petit à petit.
+
+768
+00:28:51,120 --> 00:28:53,140
+Léa: Exactement. Et peut-être
+
+769
+00:28:53,140 --> 00:28:54,920
+qu'une routine plus douce
+
+770
+00:28:54,920 --> 00:28:56,600
+peut aussi changer la manière
+
+771
+00:28:56,600 --> 00:28:59,400
+dont on aborde le reste de la journée.
+
+772
+00:28:59,400 --> 00:29:01,750
+Mathieu: Pas parce qu'elle nous rend invincibles.
+
+773
+00:29:01,800 --> 00:29:03,400
+Léa: Non, bien sûr.
+
+774
+00:29:03,400 --> 00:29:05,840
+Mathieu: Mais parce qu'elle nous donne parfois
+
+775
+00:29:05,840 --> 00:29:08,280
+un peu plus d'espace pour respirer,
+
+776
+00:29:08,280 --> 00:29:12,040
+réfléchir et choisir comment avancer.
+
+777
+00:29:12,040 --> 00:29:14,280
+Léa: C'est très joliment dit, Mathieu.
+
+778
+00:29:14,280 --> 00:29:16,030
+Mathieu: Merci. Je crois
+
+779
+00:29:16,030 --> 00:29:18,760
+que mon café commence à faire effet.
+
+780
+00:29:18,760 --> 00:29:20,590
+Léa: Ah, je comprends mieux !
+
+781
+00:29:20,640 --> 00:29:22,340
+Mathieu: Bon, Léa, nous avons utilisé
+
+782
+00:29:22,340 --> 00:29:25,640
+plusieurs expressions intéressantes aujourd'hui.
+
+783
+00:29:25,640 --> 00:29:27,390
+Je pense que c'est le bon moment
+
+784
+00:29:27,390 --> 00:29:29,400
+pour les regarder de plus près.
+
+785
+00:29:29,400 --> 00:29:30,920
+Léa: Excellente idée.
+
+786
+00:29:30,920 --> 00:29:33,880
+Commençons par une expression très utile :
+
+787
+00:29:33,880 --> 00:29:35,400
+« prendre son temps ».
+
+788
+00:29:35,400 --> 00:29:37,470
+Mathieu: Prendre son temps signifie
+
+789
+00:29:37,470 --> 00:29:40,260
+faire quelque chose tranquillement,
+
+790
+00:29:40,260 --> 00:29:41,800
+sans se presser.
+
+791
+00:29:41,800 --> 00:29:44,510
+Léa: Par exemple : « Le dimanche matin,
+
+792
+00:29:44,510 --> 00:29:46,290
+j'aime prendre mon temps
+
+793
+00:29:46,290 --> 00:29:48,340
+pour préparer le petit-déjeuner. »
+
+794
+00:29:48,390 --> 00:29:51,640
+Mathieu: Ou : « Ne te dépêche pas, prends ton temps. »
+
+795
+00:29:51,640 --> 00:29:54,200
+Léa: Exactement. Et attention,
+
+796
+00:29:54,200 --> 00:29:55,480
+prendre son temps
+
+797
+00:29:55,480 --> 00:29:58,330
+ne signifie pas forcément être lent
+
+798
+00:29:58,330 --> 00:30:00,720
+ou paresseux.

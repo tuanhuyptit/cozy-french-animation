@@ -1,0 +1,522 @@
+[
+ {
+  "who": "lea",
+  "fr": "une routine matinale !",
+  "en": "a morning routine too!"
+ },
+ {
+  "who": "mat",
+  "fr": "Une routine beaucoup plus sportive",
+  "en": "A much sportier routine"
+ },
+ {
+  "who": "mat",
+  "fr": "que la mienne, apparemment.",
+  "en": "than mine, apparently."
+ },
+ {
+  "who": "lea",
+  "fr": "Et comment tu te sens après cette promenade ?",
+  "en": "And how do you feel after that walk?"
+ },
+ {
+  "who": "mat",
+  "fr": "Généralement, un peu plus réveillé.",
+  "en": "Usually, a bit more awake."
+ },
+ {
+  "who": "mat",
+  "fr": "Et surtout, j'ai l'impression",
+  "en": "And above all, I feel"
+ },
+ {
+  "who": "mat",
+  "fr": "d'avoir commencé ma journée pour moi,",
+  "en": "like I've started my day for myself,"
+ },
+ {
+  "who": "mat",
+  "fr": "pas uniquement pour mon travail.",
+  "en": "not only for my work.",
+  "emote": "coeur"
+ },
+ {
+  "who": "lea",
+  "fr": "C'est intéressant, cette distinction.",
+  "en": "That's an interesting distinction.",
+  "emote": "idee"
+ },
+ {
+  "who": "lea",
+  "fr": "Parce que parfois, nos matinées deviennent",
+  "en": "Because sometimes our mornings become"
+ },
+ {
+  "who": "lea",
+  "fr": "uniquement une préparation à nos obligations.",
+  "en": "nothing but preparation for our obligations."
+ },
+ {
+  "who": "mat",
+  "fr": "Oui. On se lève pour aller travailler,",
+  "en": "Yes. We get up to go to work,"
+ },
+ {
+  "who": "mat",
+  "fr": "pour conduire les enfants à l'école,",
+  "en": "to drive the kids to school,"
+ },
+ {
+  "who": "mat",
+  "fr": "pour accomplir des tâches... Et on oublie",
+  "en": "to get tasks done... And we forget"
+ },
+ {
+  "who": "mat",
+  "fr": "que le matin fait aussi partie de notre vie.",
+  "en": "that the morning is part of our life too."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Ce n'est pas simplement",
+  "en": "Exactly. It's not just"
+ },
+ {
+  "who": "lea",
+  "fr": "un passage obligatoire",
+  "en": "a compulsory step"
+ },
+ {
+  "who": "lea",
+  "fr": "avant les choses importantes.",
+  "en": "before the important things."
+ },
+ {
+  "who": "mat",
+  "fr": "Le matin est déjà un moment important.",
+  "en": "The morning is already an important moment."
+ },
+ {
+  "who": "lea",
+  "fr": "Et on peut lui donner un peu de douceur,",
+  "en": "And we can give it a little gentleness,"
+ },
+ {
+  "who": "lea",
+  "fr": "même quand on a peu de temps.",
+  "en": "even when we have little time.",
+  "emote": "coeur"
+ },
+ {
+  "who": "mat",
+  "fr": "Tu viens de me donner une idée.",
+  "en": "You've just given me an idea.",
+  "emote": "idee"
+ },
+ {
+  "who": "mat",
+  "fr": "Peut-être que je pourrais arrêter",
+  "en": "Maybe I could stop"
+ },
+ {
+  "who": "mat",
+  "fr": "de regarder mes messages",
+  "en": "checking my messages"
+ },
+ {
+  "who": "mat",
+  "fr": "pendant mon petit-déjeuner.",
+  "en": "during breakfast."
+ },
+ {
+  "who": "lea",
+  "fr": "Ah ! Nous arrivons à un sujet intéressant :",
+  "en": "Ah! Now we're getting to an interesting topic:"
+ },
+ {
+  "who": "lea",
+  "fr": "le téléphone.",
+  "en": "the phone.",
+  "illus": "telephone",
+  "label": "le téléphone"
+ },
+ {
+  "who": "mat",
+  "fr": "Je savais qu'il allait revenir",
+  "en": "I knew it would come back"
+ },
+ {
+  "who": "mat",
+  "fr": "dans la conversation.",
+  "en": "into the conversation."
+ },
+ {
+  "who": "lea",
+  "fr": "Mais attention, je ne vais pas dire",
+  "en": "But careful, I'm not going to say"
+ },
+ {
+  "who": "lea",
+  "fr": "qu'il ne faut jamais",
+  "en": "that you should never"
+ },
+ {
+  "who": "lea",
+  "fr": "utiliser son téléphone le matin.",
+  "en": "use your phone in the morning."
+ },
+ {
+  "who": "lea",
+  "fr": "Pour beaucoup de personnes, c'est nécessaire.",
+  "en": "For lots of people, it's necessary."
+ },
+ {
+  "who": "mat",
+  "fr": "Oui. On peut avoir besoin",
+  "en": "Yes. You might need"
+ },
+ {
+  "who": "mat",
+  "fr": "de vérifier les horaires des transports,",
+  "en": "to check the transport times,"
+ },
+ {
+  "who": "mat",
+  "fr": "de lire un message important",
+  "en": "read an important message"
+ },
+ {
+  "who": "mat",
+  "fr": "ou de contacter sa famille.",
+  "en": "or contact your family."
+ },
+ {
+  "who": "lea",
+  "fr": "Tout à fait.",
+  "en": "Absolutely."
+ },
+ {
+  "who": "lea",
+  "fr": "Mais il y a une différence",
+  "en": "But there's a difference"
+ },
+ {
+  "who": "lea",
+  "fr": "entre utiliser son téléphone",
+  "en": "between using your phone"
+ },
+ {
+  "who": "lea",
+  "fr": "pour une raison précise",
+  "en": "for a specific reason"
+ },
+ {
+  "who": "lea",
+  "fr": "et le consulter automatiquement",
+  "en": "and checking it automatically"
+ },
+ {
+  "who": "lea",
+  "fr": "sans même y réfléchir.",
+  "en": "without even thinking about it."
+ },
+ {
+  "who": "mat",
+  "fr": "C'est exactement ce qui m'arrivait.",
+  "en": "That's exactly what used to happen to me.",
+  "emote": "gene"
+ },
+ {
+  "who": "mat",
+  "fr": "Je prenais mon téléphone pour regarder l'heure,",
+  "en": "I'd pick up my phone to check the time,"
+ },
+ {
+  "who": "mat",
+  "fr": "et dix minutes plus tard,",
+  "en": "and ten minutes later,"
+ },
+ {
+  "who": "mat",
+  "fr": "je regardais une vidéo",
+  "en": "I was watching a video"
+ },
+ {
+  "who": "mat",
+  "fr": "qui n'avait absolument rien",
+  "en": "that had absolutely nothing"
+ },
+ {
+  "who": "mat",
+  "fr": "à voir avec ma journée.",
+  "en": "to do with my day."
+ },
+ {
+  "who": "lea",
+  "fr": "Par exemple ?",
+  "en": "Like what?",
+  "emote": "question"
+ },
+ {
+  "who": "mat",
+  "fr": "Une vidéo sur la façon",
+  "en": "A video about how"
+ },
+ {
+  "who": "mat",
+  "fr": "de construire une cabane en bois dans une forêt.",
+  "en": "to build a wooden cabin in a forest."
+ },
+ {
+  "who": "lea",
+  "fr": "Mathieu ! Tu comptes construire une cabane ?",
+  "en": "Mathieu! Are you planning to build a cabin?"
+ },
+ {
+  "who": "mat",
+  "fr": "Non, mais maintenant",
+  "en": "No, but now"
+ },
+ {
+  "who": "mat",
+  "fr": "je sais presque comment faire.",
+  "en": "I almost know how to do it."
+ },
+ {
+  "who": "lea",
+  "fr": "Voilà le danger des petites distractions !",
+  "en": "That's the danger of little distractions!"
+ },
+ {
+  "who": "mat",
+  "fr": "Oui. Et le plus étrange,",
+  "en": "Yes. And the strangest thing"
+ },
+ {
+  "who": "mat",
+  "fr": "c'est qu'après avoir regardé toutes ces vidéos,",
+  "en": "is that after watching all those videos,"
+ },
+ {
+  "who": "mat",
+  "fr": "je n'avais même pas l'impression",
+  "en": "I didn't even feel"
+ },
+ {
+  "who": "mat",
+  "fr": "d'avoir profité de mon temps.",
+  "en": "like I'd made good use of my time.",
+  "emote": "triste"
+ },
+ {
+  "who": "lea",
+  "fr": "Parce que ton attention était déjà partie",
+  "en": "Because your attention had already gone off"
+ },
+ {
+  "who": "lea",
+  "fr": "dans plusieurs directions.",
+  "en": "in several directions."
+ },
+ {
+  "who": "mat",
+  "fr": "Exactement. Alors, j'ai commencé",
+  "en": "Exactly. So, I started"
+ },
+ {
+  "who": "mat",
+  "fr": "à essayer quelque chose de simple :",
+  "en": "trying something simple:"
+ },
+ {
+  "who": "mat",
+  "fr": "attendre d'avoir terminé mon petit-déjeuner",
+  "en": "waiting until I'd finished breakfast"
+ },
+ {
+  "who": "mat",
+  "fr": "avant de regarder les réseaux sociaux.",
+  "en": "before looking at social media."
+ },
+ {
+  "who": "lea",
+  "fr": "Et ça fonctionne ?",
+  "en": "And does it work?",
+  "emote": "question"
+ },
+ {
+  "who": "mat",
+  "fr": "Pas tous les jours.",
+  "en": "Not every day."
+ },
+ {
+  "who": "mat",
+  "fr": "Mais assez souvent",
+  "en": "But often enough"
+ },
+ {
+  "who": "mat",
+  "fr": "pour que je remarque la différence.",
+  "en": "for me to notice the difference."
+ },
+ {
+  "who": "lea",
+  "fr": "C'est déjà très bien.",
+  "en": "That's already very good."
+ },
+ {
+  "who": "lea",
+  "fr": "Une habitude ne doit pas être parfaite",
+  "en": "A habit doesn't have to be perfect"
+ },
+ {
+  "who": "lea",
+  "fr": "pour être utile.",
+  "en": "to be useful."
+ },
+ {
+  "who": "mat",
+  "fr": "Tu sais ce que j'ai redécouvert grâce à ça ?",
+  "en": "You know what I rediscovered thanks to that?"
+ },
+ {
+  "who": "mat",
+  "fr": "Le goût de mon café.",
+  "en": "The taste of my coffee."
+ },
+ {
+  "who": "lea",
+  "fr": "Ah bon ?",
+  "en": "Really?"
+ },
+ {
+  "who": "mat",
+  "fr": "Oui ! Avant, je buvais mon café",
+  "en": "Yes! Before, I drank my coffee"
+ },
+ {
+  "who": "mat",
+  "fr": "en regardant mon écran.",
+  "en": "while looking at my screen."
+ },
+ {
+  "who": "mat",
+  "fr": "Maintenant, parfois,",
+  "en": "Now, sometimes,"
+ },
+ {
+  "who": "mat",
+  "fr": "je m'assois près de la fenêtre",
+  "en": "I sit by the window"
+ },
+ {
+  "who": "mat",
+  "fr": "et je prends vraiment le temps de le savourer.",
+  "en": "and I really take the time to savour it.",
+  "emote": "coeur"
+ },
+ {
+  "who": "lea",
+  "fr": "C'est une très jolie expression,",
+  "en": "That's a really lovely expression,",
+  "board": {
+   "mode": "word",
+   "note": "= profiter lentement d'un goût ou d'un moment",
+   "icon": "cafe",
+   "bg": "craie"
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "« prendre le temps de [savourer ».]",
+  "en": "\"take the time to savour\"."
+ },
+ {
+  "who": "mat",
+  "fr": "Oui. Savourer, ce n'est pas seulement manger",
+  "en": "Yes. Savouring isn't only about eating"
+ },
+ {
+  "who": "mat",
+  "fr": "ou boire quelque chose.",
+  "en": "or drinking something."
+ },
+ {
+  "who": "mat",
+  "fr": "On peut aussi savourer un moment,",
+  "en": "You can also savour a moment,"
+ },
+ {
+  "who": "mat",
+  "fr": "une victoire ou une expérience agréable.",
+  "en": "a victory or a pleasant experience."
+ },
+ {
+  "who": "lea",
+  "fr": "Par exemple, « Après une longue semaine,",
+  "en": "For example, \"After a long week,"
+ },
+ {
+  "who": "lea",
+  "fr": "j'ai savouré mon dimanche tranquille. »",
+  "en": "I savoured my quiet Sunday.\""
+ },
+ {
+  "who": "mat",
+  "fr": "Ou « Ce matin,",
+  "en": "Or \"This morning,"
+ },
+ {
+  "who": "mat",
+  "fr": "j'ai pris le temps",
+  "en": "I took the time"
+ },
+ {
+  "who": "mat",
+  "fr": "de savourer mon café sans me dépêcher. »",
+  "en": "to savour my coffee without rushing.\"",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Et tu sais,",
+  "en": "Exactly. And you know,"
+ },
+ {
+  "who": "lea",
+  "fr": "je pense que ce sont ces petits moments",
+  "en": "I think it's these little moments"
+ },
+ {
+  "who": "lea",
+  "fr": "qui peuvent rendre le quotidien plus agréable.",
+  "en": "that can make everyday life more pleasant.",
+  "emote": "coeur"
+ },
+ {
+  "who": "mat",
+  "fr": "Mais Léa, imaginons quelqu'un",
+  "en": "But Léa, let's imagine someone"
+ },
+ {
+  "who": "mat",
+  "fr": "qui n'a vraiment pas beaucoup de temps le matin.",
+  "en": "who really doesn't have much time in the morning.",
+  "emote": "question"
+ },
+ {
+  "who": "mat",
+  "fr": "Quelqu'un qui doit préparer ses enfants,",
+  "en": "Someone who has to get their kids ready,"
+ },
+ {
+  "who": "mat",
+  "fr": "prendre les transports,",
+  "en": "take public transport,"
+ },
+ {
+  "who": "mat",
+  "fr": "ou commencer à travailler très tôt.",
+  "en": "or start work very early."
+ }
+]
