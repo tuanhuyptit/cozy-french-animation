@@ -1,0 +1,2257 @@
+{
+ "title": "L’Alchimiste",
+ "audio": "assets/voice.mp3",
+ "audioEnd": 1303.24,
+ "chunks": [
+  {
+   "fr": "Bonjour et bienvenue dans Cozy French Books.",
+   "en": "Hello and welcome to Cozy French Books."
+  },
+  {
+   "fr": "Je suis Léa.",
+   "en": "I'm Léa."
+  },
+  {
+   "fr": "Ici, on ouvre de beaux livres et on prend",
+   "en": "Here, we open beautiful books and take"
+  },
+  {
+   "fr": "le temps de voir ce qu'ils peuvent",
+   "en": "the time to see what they can"
+  },
+  {
+   "fr": "nous apprendre sur notre propre vie.",
+   "en": "teach us about our own lives."
+  },
+  {
+   "fr": "Aujourd'hui, je voudrais te parler",
+   "en": "Today, I'd like to tell you"
+  },
+  {
+   "fr": "de L'Alchimiste, de Paulo Coelho.",
+   "en": "about The Alchemist, by Paulo Coelho."
+  },
+  {
+   "fr": "Et il y a une question que j'aimerais",
+   "en": "And there's a question I'd like"
+  },
+  {
+   "fr": "suivre avec toi tout au long de cet épisode.",
+   "en": "to follow with you all through this episode."
+  },
+  {
+   "fr": "D'où vient la vraie motivation ?",
+   "en": "Where does real motivation come from?"
+  },
+  {
+   "fr": "Quand on a vingt ans, on se demande",
+   "en": "When you're twenty, you sometimes wonder"
+  },
+  {
+   "fr": "parfois ce qu'on veut faire de sa vie.",
+   "en": "what you want to do with your life."
+  },
+  {
+   "fr": "Quelques années plus tard, la question change.",
+   "en": "A few years later, the question changes."
+  },
+  {
+   "fr": "Depuis le temps que j'en parle, qu'est-ce",
+   "en": "I've talked about it for so long… what"
+  },
+  {
+   "fr": "que j'ai vraiment fait pour m'en approcher ?",
+   "en": "have I really done to get closer to it?"
+  },
+  {
+   "fr": "Et puis il y a un jour où l'on se rend",
+   "en": "And then one day you realise"
+  },
+  {
+   "fr": "compte que ce rêve est toujours là.",
+   "en": "that this dream is still there."
+  },
+  {
+   "fr": "Il a traversé les années avec nous.",
+   "en": "It has travelled through the years with us."
+  },
+  {
+   "fr": "Alors on se demande si ça vaut",
+   "en": "So you wonder if it's still"
+  },
+  {
+   "fr": "encore la peine de commencer.",
+   "en": "worth starting."
+  },
+  {
+   "fr": "Si tu as déjà eu cette pensée, reste avec moi.",
+   "en": "If you've ever had this thought, stay with me."
+  },
+  {
+   "fr": "Tu vas peut-être reconnaître une partie",
+   "en": "You might recognise a part"
+  },
+  {
+   "fr": "de toi dans l'histoire que ce livre raconte.",
+   "en": "of yourself in the story this book tells."
+  },
+  {
+   "fr": "Le point de départ est simple.",
+   "en": "The starting point is simple."
+  },
+  {
+   "fr": "Un jeune berger espagnol, Santiago,",
+   "en": "A young Spanish shepherd, Santiago,"
+  },
+  {
+   "fr": "rêve d'un trésor près des pyramides d'Égypte.",
+   "en": "dreams of a treasure near the pyramids of Egypt."
+  },
+  {
+   "fr": "Pour aller le chercher, il doit quitter la vie",
+   "en": "To go and find it, he has to leave the life"
+  },
+  {
+   "fr": "qu'il connaît et [se séparer de] ses moutons.",
+   "en": "he knows and part with his sheep."
+  },
+  {
+   "fr": "Tout cela ressemble à un conte d'aventure.",
+   "en": "It all sounds like an adventure tale."
+  },
+  {
+   "fr": "Mais ce qui m'a donné envie de t'en parler,",
+   "en": "But what made me want to tell you about it"
+  },
+  {
+   "fr": "c'est la manière dont Coelho montre les moments",
+   "en": "is the way Coelho shows the moments"
+  },
+  {
+   "fr": "où Santiago pourrait très bien faire autre chose.",
+   "en": "when Santiago could easily do something else."
+  },
+  {
+   "fr": "Il pourrait garder ce qu'il a,",
+   "en": "He could keep what he has,"
+  },
+  {
+   "fr": "rentrer après une mauvaise expérience ou rester",
+   "en": "go home after a bad experience, or stay"
+  },
+  {
+   "fr": "dans un endroit où il est enfin heureux.",
+   "en": "somewhere he's finally happy."
+  },
+  {
+   "fr": "Chacun de ces choix se comprend.",
+   "en": "Each of these choices makes sense."
+  },
+  {
+   "fr": "C'est pour ça qu'on peut se reconnaître",
+   "en": "That's why we can recognise ourselves"
+  },
+  {
+   "fr": "dans ce garçon, même si on n'a jamais eu",
+   "en": "in this boy, even if we've never"
+  },
+  {
+   "fr": "envie de chercher de l'or dans le désert.",
+   "en": "wanted to look for gold in the desert."
+  },
+  {
+   "fr": "Avant L'Alchimiste, Coelho avait déjà écrit",
+   "en": "Before The Alchemist, Coelho had already written"
+  },
+  {
+   "fr": "sur son pèlerinage à Saint-Jacques-de-Compostelle.",
+   "en": "about his pilgrimage to Santiago de Compostela."
+  },
+  {
+   "fr": "Un [pèlerinage,] c'est un voyage que l'on fait",
+   "en": "A pilgrimage is a journey you make"
+  },
+  {
+   "fr": "pour une raison religieuse ou spirituelle.",
+   "en": "for a religious or spiritual reason."
+  },
+  {
+   "fr": "On retrouve dans ce roman l'idée d'un",
+   "en": "In this novel we find the idea of a"
+  },
+  {
+   "fr": "voyage qui change la personne qui le fait.",
+   "en": "journey that changes the person who makes it."
+  },
+  {
+   "fr": "Un chemin peut être long.",
+   "en": "A road can be long."
+  },
+  {
+   "fr": "Mais quand tu sais ce que tu cherches, tu peux",
+   "en": "But when you know what you're looking for,"
+  },
+  {
+   "fr": "comprendre pourquoi tu fais le pas suivant.",
+   "en": "you can understand why you take the next step."
+  },
+  {
+   "fr": "Et c'est là que le premier choix",
+   "en": "And that's where Santiago's first choice"
+  },
+  {
+   "fr": "de Santiago devient intéressant.",
+   "en": "becomes interesting."
+  },
+  {
+   "fr": "À force de compter ce qu'on risque de perdre,",
+   "en": "When you keep counting what you could lose,"
+  },
+  {
+   "fr": "on peut finir par oublier",
+   "en": "you can end up forgetting"
+  },
+  {
+   "fr": "ce qu'on voulait au départ.",
+   "en": "what you wanted in the first place."
+  },
+  {
+   "fr": "Regarde le choix que la famille",
+   "en": "Look at the choice Santiago's family"
+  },
+  {
+   "fr": "de Santiago avait fait pour lui.",
+   "en": "had made for him."
+  },
+  {
+   "fr": "Ses parents auraient aimé qu'il devienne prêtre.",
+   "en": "His parents wanted him to become a priest."
+  },
+  {
+   "fr": "Pour eux, c'était une vie stable.",
+   "en": "For them, it was a stable life."
+  },
+  {
+   "fr": "Ils y avaient mis beaucoup",
+   "en": "They had put a lot of"
+  },
+  {
+   "fr": "d'espoir et Santiago le savait.",
+   "en": "hope into it, and Santiago knew it."
+  },
+  {
+   "fr": "Lui, depuis longtemps, voulait voyager.",
+   "en": "He, for a long time, had wanted to travel."
+  },
+  {
+   "fr": "À un moment, il a donc dû regarder son père",
+   "en": "So at some point, he had to look at his father"
+  },
+  {
+   "fr": "et lui dire qu'il voulait une autre vie.",
+   "en": "and tell him he wanted a different life."
+  },
+  {
+   "fr": "Tu peux entendre la difficulté de cette",
+   "en": "You can feel how hard that"
+  },
+  {
+   "fr": "conversation sans connaître la suite du livre.",
+   "en": "conversation is without knowing the rest."
+  },
+  {
+   "fr": "Comment dire ce que tu veux à quelqu'un qui a",
+   "en": "How do you say what you want to someone who"
+  },
+  {
+   "fr": "passé des années à vouloir le meilleur pour toi ?",
+   "en": "spent years wanting the best for you?"
+  },
+  {
+   "fr": "Son père finit par lui donner trois pièces",
+   "en": "His father ends up giving him three gold"
+  },
+  {
+   "fr": "d'or pour qu'il puisse acheter des moutons.",
+   "en": "coins so he can buy some sheep."
+  },
+  {
+   "fr": "C'est un petit geste dans le roman,",
+   "en": "It's a small gesture in the novel,"
+  },
+  {
+   "fr": "et j'aime ce qu'il dit du père.",
+   "en": "and I like what it says about the father."
+  },
+  {
+   "fr": "Lui aussi avait eu envie de [voir du pays.]",
+   "en": "He too had wanted to see the world."
+  },
+  {
+   "fr": "En donnant ces pièces à son fils,",
+   "en": "By giving these coins to his son,"
+  },
+  {
+   "fr": "il lui donne la possibilité d'essayer une vie",
+   "en": "he gives him the chance to try a life"
+  },
+  {
+   "fr": "qu'il avait lui-même imaginée un jour.",
+   "en": "he had once imagined for himself."
+  },
+  {
+   "fr": "Le livre revient à cette",
+   "en": "The book comes back to this"
+  },
+  {
+   "fr": "idée avec d'autres personnes.",
+   "en": "idea with other people."
+  },
+  {
+   "fr": "Le vendeur de pop-corn a envie de voyager.",
+   "en": "The popcorn seller wants to travel."
+  },
+  {
+   "fr": "Le marchand de cristal pense à La Mecque.",
+   "en": "The crystal merchant thinks about Mecca."
+  },
+  {
+   "fr": "Même près des pyramides, on entendra un homme",
+   "en": "Even near the pyramids, we'll hear a man"
+  },
+  {
+   "fr": "parler d'un trésor qu'il a vu en rêve.",
+   "en": "talk about a treasure he saw in a dream."
+  },
+  {
+   "fr": "Les rêves sont partout dans cette histoire.",
+   "en": "Dreams are everywhere in this story."
+  },
+  {
+   "fr": "Ce qui change, c'est la place que chaque",
+   "en": "What changes is the place each"
+  },
+  {
+   "fr": "personne leur donne dans sa journée.",
+   "en": "person gives them in their day."
+  },
+  {
+   "fr": "Santiago devient berger",
+   "en": "Santiago becomes a shepherd"
+  },
+  {
+   "fr": "et passe de village en village.",
+   "en": "and goes from village to village."
+  },
+  {
+   "fr": "Il finit même par aimer assez cette",
+   "en": "He even comes to like this"
+  },
+  {
+   "fr": "vie pour hésiter à la quitter.",
+   "en": "life enough to hesitate to leave it."
+  },
+  {
+   "fr": "C'est important, parce qu'on pourrait",
+   "en": "That matters, because you might"
+  },
+  {
+   "fr": "croire qu'une personne qui a déjà osé",
+   "en": "think that someone who has dared once"
+  },
+  {
+   "fr": "une fois saura toujours recommencer.",
+   "en": "will always know how to do it again."
+  },
+  {
+   "fr": "Seulement, la première fois,",
+   "en": "But the first time,"
+  },
+  {
+   "fr": "il voulait une vie qu'il n'avait jamais eue.",
+   "en": "he wanted a life he had never had."
+  },
+  {
+   "fr": "Cette fois, il risque de perdre",
+   "en": "This time, he risks losing"
+  },
+  {
+   "fr": "une vie qu'il a construite lui-même.",
+   "en": "a life he built himself."
+  },
+  {
+   "fr": "Ses moutons représentent du travail,",
+   "en": "His sheep mean work,"
+  },
+  {
+   "fr": "de l'argent et une forme de liberté.",
+   "en": "money and a kind of freedom."
+  },
+  {
+   "fr": "Le trésor, lui,",
+   "en": "The treasure, though,"
+  },
+  {
+   "fr": "existe seulement dans un rêve qui revient.",
+   "en": "only exists in a dream that keeps coming back."
+  },
+  {
+   "fr": "On comprend qu'il ait besoin",
+   "en": "We understand that he needs"
+  },
+  {
+   "fr": "de temps pour décider.",
+   "en": "time to decide."
+  },
+  {
+   "fr": "Le roi de Salem,",
+   "en": "The King of Salem,"
+  },
+  {
+   "fr": "un vieil homme que Santiago rencontre,",
+   "en": "an old man Santiago meets,"
+  },
+  {
+   "fr": "l'invite à prendre ce rêve au sérieux.",
+   "en": "invites him to take this dream seriously."
+  },
+  {
+   "fr": "Il lui parle de sa légende personnelle.",
+   "en": "He talks to him about his Personal Legend."
+  },
+  {
+   "fr": "Dans le langage du livre, c'est le chemin",
+   "en": "In the book's language, it's the path"
+  },
+  {
+   "fr": "que l'on sent qu'on a vraiment envie de suivre.",
+   "en": "you feel you truly want to follow."
+  },
+  {
+   "fr": "Santiago peut alors revenir à une question",
+   "en": "Santiago can then go back to a question"
+  },
+  {
+   "fr": "qui existait déjà avant les pyramides.",
+   "en": "that existed before the pyramids."
+  },
+  {
+   "fr": "Pourquoi est-ce qu'il était devenu berger ?",
+   "en": "Why did he become a shepherd?"
+  },
+  {
+   "fr": "Pour gagner sa vie, bien sûr,",
+   "en": "To earn a living, of course,"
+  },
+  {
+   "fr": "et aussi pour voir le monde.",
+   "en": "and also to see the world."
+  },
+  {
+   "fr": "La recherche du trésor lui donne",
+   "en": "The search for the treasure gives him"
+  },
+  {
+   "fr": "une nouvelle façon de faire ce qui lui",
+   "en": "a new way to do what has mattered"
+  },
+  {
+   "fr": "[tient à cœur] depuis longtemps.",
+   "en": "to him for a long time."
+  },
+  {
+   "fr": "Quand quelque chose te tient à cœur,",
+   "en": "When something tient à cœur, it means"
+  },
+  {
+   "fr": "ça veut dire que ça compte beaucoup pour toi,",
+   "en": "it matters a lot to you,"
+  },
+  {
+   "fr": "même quand tu as du mal à expliquer pourquoi.",
+   "en": "even when it's hard to explain why."
+  },
+  {
+   "fr": "Et toi, quand tu regardes une décision importante,",
+   "en": "And you, when you look at a big decision,"
+  },
+  {
+   "fr": "qu'est-ce qui arrive en premier dans ta tête ?",
+   "en": "what comes to mind first?"
+  },
+  {
+   "fr": "Les choses que tu connais.",
+   "en": "The things you know."
+  },
+  {
+   "fr": "Ce que tu as à perdre a déjà une forme.",
+   "en": "What you could lose already has a shape."
+  },
+  {
+   "fr": "Tu sais combien de temps",
+   "en": "You know how long"
+  },
+  {
+   "fr": "tu as mis à gagner ton argent.",
+   "en": "it took you to earn your money."
+  },
+  {
+   "fr": "Tu sais ce qu'un changement",
+   "en": "You know what a change"
+  },
+  {
+   "fr": "demanderait à ta famille.",
+   "en": "would ask of your family."
+  },
+  {
+   "fr": "Par contre, ce que tu pourrais apprendre",
+   "en": "But what you could learn"
+  },
+  {
+   "fr": "ou découvrir en essayant est encore loin.",
+   "en": "or discover by trying still feels far away."
+  },
+  {
+   "fr": "Il est facile de passer toutes",
+   "en": "It's easy to spend all"
+  },
+  {
+   "fr": "ses soirées à recompter les mêmes risques.",
+   "en": "your evenings counting the same risks again."
+  },
+  {
+   "fr": "À la fin,",
+   "en": "In the end,"
+  },
+  {
+   "fr": "on sait très bien ce qu'on pourrait perdre.",
+   "en": "you know very well what you could lose."
+  },
+  {
+   "fr": "On a parfois oublié de se demander",
+   "en": "Sometimes we forget to ask ourselves"
+  },
+  {
+   "fr": "ce qu'on pourrait encore devenir.",
+   "en": "what we could still become."
+  },
+  {
+   "fr": "Dans le livre, Santiago finit par [se lancer.]",
+   "en": "In the book, Santiago finally takes the plunge."
+  },
+  {
+   "fr": "Il se sépare de son troupeau et prend la route.",
+   "en": "He parts with his flock and takes the road."
+  },
+  {
+   "fr": "Se lancer, c'est décider de faire le premier",
+   "en": "Se lancer means deciding to take the first"
+  },
+  {
+   "fr": "pas dans quelque chose de nouveau.",
+   "en": "step into something new."
+  },
+  {
+   "fr": "Ce premier pas vaut la peine qu'on s'y arrête.",
+   "en": "That first step is worth pausing on."
+  },
+  {
+   "fr": "On peut avoir très peur de regretter",
+   "en": "You can be very afraid of regretting"
+  },
+  {
+   "fr": "une décision prise trop vite.",
+   "en": "a decision made too quickly."
+  },
+  {
+   "fr": "On peut aussi se demander si, dans quelques",
+   "en": "You can also wonder if, in a few"
+  },
+  {
+   "fr": "années, on regrettera de n'avoir jamais essayé.",
+   "en": "years, you'll regret never having tried."
+  },
+  {
+   "fr": "Les deux questions méritent d'être posées.",
+   "en": "Both questions deserve to be asked."
+  },
+  {
+   "fr": "Beaucoup de gens se laissent",
+   "en": "Many people give themselves"
+  },
+  {
+   "fr": "des années pour répondre à la première,",
+   "en": "years to answer the first one,"
+  },
+  {
+   "fr": "puis découvrent la seconde un peu tard,",
+   "en": "then find the second one a bit late,"
+  },
+  {
+   "fr": "au détour d'une conversation ou en retrouvant",
+   "en": "in a passing conversation, or finding"
+  },
+  {
+   "fr": "le nom du projet sur une vieille feuille.",
+   "en": "a project's name on an old sheet of paper."
+  },
+  {
+   "fr": "Quand une envie que tu avais mise de côté revient,",
+   "en": "When a wish you had put aside comes back,"
+  },
+  {
+   "fr": "profite du moment pour faire",
+   "en": "use the moment to do"
+  },
+  {
+   "fr": "quelque chose de concret.",
+   "en": "something concrete."
+  },
+  {
+   "fr": "Tu n'as peut-être besoin que de chercher",
+   "en": "Maybe all you need is to look up"
+  },
+  {
+   "fr": "un renseignement, d'appeler quelqu'un",
+   "en": "some information, call someone"
+  },
+  {
+   "fr": "ou de savoir quand tu pourrais essayer.",
+   "en": "or find out when you could give it a try."
+  },
+  {
+   "fr": "Une petite action suffit pour sortir",
+   "en": "One small action is enough to get out"
+  },
+  {
+   "fr": "d'une question à laquelle tu réponds",
+   "en": "of a question you always answer"
+  },
+  {
+   "fr": "toujours de la même façon.",
+   "en": "the same way."
+  },
+  {
+   "fr": "Elle peut aussi te montrer que ton idée",
+   "en": "It can also show you that your idea"
+  },
+  {
+   "fr": "ne te plaît plus autant que tu le croyais.",
+   "en": "doesn't appeal to you as much as you thought."
+  },
+  {
+   "fr": "Tu l'auras appris en t'en approchant.",
+   "en": "You'll have learned that by getting closer."
+  },
+  {
+   "fr": "Si tu as envie de continuer,",
+   "en": "If you want to keep going,"
+  },
+  {
+   "fr": "tu sauras déjà par où passer.",
+   "en": "you'll already know which way to go."
+  },
+  {
+   "fr": "La deuxième idée du livre apparaît",
+   "en": "The book's second idea appears"
+  },
+  {
+   "fr": "quand tout semble donner raison à ceux",
+   "en": "when everything seems to prove right those"
+  },
+  {
+   "fr": "qui t'avaient dit de rester tranquille.",
+   "en": "who told you to stay put."
+  },
+  {
+   "fr": "Tu as eu le courage de partir,",
+   "en": "You had the courage to leave,"
+  },
+  {
+   "fr": "et quelque chose arrive qui te fait",
+   "en": "and something happens that makes you"
+  },
+  {
+   "fr": "penser que tu as fait une erreur.",
+   "en": "think you made a mistake."
+  },
+  {
+   "fr": "C'est ce qui se passe à Tanger.",
+   "en": "That's what happens in Tangier."
+  },
+  {
+   "fr": "Santiago ne parle pas encore arabe et il est",
+   "en": "Santiago doesn't speak Arabic yet, and he's"
+  },
+  {
+   "fr": "[soulagé] de rencontrer un homme qui parle espagnol.",
+   "en": "relieved to meet a man who speaks Spanish."
+  },
+  {
+   "fr": "Il lui fait confiance.",
+   "en": "He trusts him."
+  },
+  {
+   "fr": "L'homme disparaît avec son argent.",
+   "en": "The man disappears with his money."
+  },
+  {
+   "fr": "Peu de temps avant,",
+   "en": "Shortly before,"
+  },
+  {
+   "fr": "Santiago avait des moutons et un métier.",
+   "en": "Santiago had sheep and a trade."
+  },
+  {
+   "fr": "Maintenant, il ne sait plus comment il va",
+   "en": "Now he doesn't know how he'll"
+  },
+  {
+   "fr": "manger ni comment il pourrait rentrer.",
+   "en": "eat, or how he could get home."
+  },
+  {
+   "fr": "Dans un moment pareil,",
+   "en": "In a moment like that,"
+  },
+  {
+   "fr": "la première chose qui disparaît, parfois,",
+   "en": "the first thing that disappears, sometimes,"
+  },
+  {
+   "fr": "c'est l'image qu'on avait de soi.",
+   "en": "is the image you had of yourself."
+  },
+  {
+   "fr": "Santiago se voyait comme quelqu'un",
+   "en": "Santiago saw himself as someone"
+  },
+  {
+   "fr": "qui avait pris une décision courageuse.",
+   "en": "who had made a brave decision."
+  },
+  {
+   "fr": "Après le vol, il pourrait se voir comme quelqu'un",
+   "en": "After the theft, he could see himself as someone"
+  },
+  {
+   "fr": "qui a [eu tort] de faire confiance à un inconnu.",
+   "en": "who was wrong to trust a stranger."
+  },
+  {
+   "fr": "On connaît cette façon d'aller",
+   "en": "We know this way of jumping"
+  },
+  {
+   "fr": "très vite d'une chose à l'autre.",
+   "en": "very fast from one thing to another."
+  },
+  {
+   "fr": "Un projet se passe mal, et en quelques",
+   "en": "A project goes badly, and within a few"
+  },
+  {
+   "fr": "heures on en fait une idée sur toute sa vie.",
+   "en": "hours we turn it into a story about our life."
+  },
+  {
+   "fr": "Je ne suis jamais capable d'aller au bout.",
+   "en": "I'm never able to see things through."
+  },
+  {
+   "fr": "J'aurais dû rester où j'étais.",
+   "en": "I should have stayed where I was."
+  },
+  {
+   "fr": "Quand on pense comme ça, on a du mal à imaginer",
+   "en": "When we think like that, it's hard to imagine"
+  },
+  {
+   "fr": "ce qu'on pourrait encore faire le lendemain.",
+   "en": "what we could still do the next day."
+  },
+  {
+   "fr": "Santiago repense au roi de Salem.",
+   "en": "Santiago thinks back to the King of Salem."
+  },
+  {
+   "fr": "Coelho présente l'idée que lorsqu'on sait",
+   "en": "Coelho puts forward the idea that when you know"
+  },
+  {
+   "fr": "ce qu'on veut, le monde peut nous offrir",
+   "en": "what you want, the world can offer you"
+  },
+  {
+   "fr": "de l'aide sous des formes qu'on n'attendait pas.",
+   "en": "help in ways you didn't expect."
+  },
+  {
+   "fr": "Tu peux trouver cette idée trop optimiste.",
+   "en": "You may find this idea too optimistic."
+  },
+  {
+   "fr": "Ce qui me parle,",
+   "en": "What speaks to me"
+  },
+  {
+   "fr": "c'est ce que Santiago arrive à faire avec elle.",
+   "en": "is what Santiago manages to do with it."
+  },
+  {
+   "fr": "Il se remet à regarder autour de lui.",
+   "en": "He starts looking around him again."
+  },
+  {
+   "fr": "À cet instant, il a toujours faim",
+   "en": "At that moment, he's still hungry"
+  },
+  {
+   "fr": "et il ne sait pas où est son argent.",
+   "en": "and he doesn't know where his money is."
+  },
+  {
+   "fr": "Il peut encore remarquer quelque chose",
+   "en": "He can still notice something"
+  },
+  {
+   "fr": "et proposer son aide à quelqu'un.",
+   "en": "and offer someone his help."
+  },
+  {
+   "fr": "Ça paraît peu.",
+   "en": "It doesn't seem like much."
+  },
+  {
+   "fr": "Dans un moment où l'on croit ne plus avoir",
+   "en": "When you think you have no"
+  },
+  {
+   "fr": "le choix, c'est déjà beaucoup.",
+   "en": "choice left, it's already a lot."
+  },
+  {
+   "fr": "Devant la boutique du marchand,",
+   "en": "In front of the merchant's shop,"
+  },
+  {
+   "fr": "Santiago voit que le cristal est",
+   "en": "Santiago sees that the crystal is"
+  },
+  {
+   "fr": "sale et que peu de gens s'arrêtent.",
+   "en": "dirty and that few people stop."
+  },
+  {
+   "fr": "Il propose de nettoyer",
+   "en": "He offers to clean"
+  },
+  {
+   "fr": "les objets [en échange d'un] repas.",
+   "en": "the pieces in exchange for a meal."
+  },
+  {
+   "fr": "Deux clients arrivent et achètent du cristal.",
+   "en": "Two customers come in and buy some crystal."
+  },
+  {
+   "fr": "Le marchand finit par offrir du travail au garçon.",
+   "en": "The merchant ends up giving the boy a job."
+  },
+  {
+   "fr": "Le geste de départ me plaît par sa simplicité.",
+   "en": "I love how simple that first gesture is."
+  },
+  {
+   "fr": "Santiago a besoin de manger et le marchand",
+   "en": "Santiago needs to eat, and the merchant"
+  },
+  {
+   "fr": "a besoin que sa boutique attire des gens.",
+   "en": "needs his shop to bring people in."
+  },
+  {
+   "fr": "En remarquant le problème de l'autre, Santiago",
+   "en": "By noticing the other man's problem, Santiago"
+  },
+  {
+   "fr": "trouve quelque chose qu'il peut faire pour lui.",
+   "en": "finds something he can do for him."
+  },
+  {
+   "fr": "Le chemin reprend avec une proposition qu'il",
+   "en": "The journey starts again with an offer"
+  },
+  {
+   "fr": "pouvait mettre en pratique le jour même.",
+   "en": "he could put into practice that same day."
+  },
+  {
+   "fr": "C'est facile de parler de détermination",
+   "en": "It's easy to talk about determination"
+  },
+  {
+   "fr": "en pensant au moment où l'on réussit.",
+   "en": "while picturing the moment you succeed."
+  },
+  {
+   "fr": "Dans le livre,",
+   "en": "In the book,"
+  },
+  {
+   "fr": "il faut aussi penser à tous les jours où Santiago",
+   "en": "you also have to think of all the days Santiago"
+  },
+  {
+   "fr": "retourne travailler dans la même boutique.",
+   "en": "goes back to work in the same shop."
+  },
+  {
+   "fr": "Il sait que la route jusqu'en",
+   "en": "He knows the road to"
+  },
+  {
+   "fr": "Égypte est encore longue.",
+   "en": "Egypt is still long."
+  },
+  {
+   "fr": "Quelques jours de travail",
+   "en": "A few days of work"
+  },
+  {
+   "fr": "ne suffiront pas à payer le voyage.",
+   "en": "won't be enough to pay for the journey."
+  },
+  {
+   "fr": "Il doit rester pendant des mois,",
+   "en": "He has to stay for months,"
+  },
+  {
+   "fr": "apprendre à servir les clients,",
+   "en": "learn to serve customers,"
+  },
+  {
+   "fr": "essayer des idées pour vendre davantage",
+   "en": "try out ideas to sell more"
+  },
+  {
+   "fr": "et [mettre de l'argent de côté.]",
+   "en": "and put money aside."
+  },
+  {
+   "fr": "Mettre de l'argent de côté,",
+   "en": "Putting money aside"
+  },
+  {
+   "fr": "c'est garder une partie de ce que tu gagnes",
+   "en": "means keeping part of what you earn"
+  },
+  {
+   "fr": "pour pouvoir l'utiliser plus tard.",
+   "en": "so you can use it later."
+  },
+  {
+   "fr": "Tu fais ce geste plusieurs fois",
+   "en": "You make this gesture many times"
+  },
+  {
+   "fr": "avant que son résultat soit visible.",
+   "en": "before its result can be seen."
+  },
+  {
+   "fr": "Santiago propose entre autres de servir",
+   "en": "Among other things, Santiago suggests serving"
+  },
+  {
+   "fr": "du thé dans des verres en cristal.",
+   "en": "tea in crystal glasses."
+  },
+  {
+   "fr": "Il a remarqué que les gens arrivent fatigués",
+   "en": "He noticed that people arrive tired"
+  },
+  {
+   "fr": "après la montée et qu'ils ont envie de boire.",
+   "en": "after the climb, and want something to drink."
+  },
+  {
+   "fr": "Un détail que beaucoup de passants pouvaient",
+   "en": "A detail many passers-by could have"
+  },
+  {
+   "fr": "voir devient une idée parce qu'il s'y attarde.",
+   "en": "seen becomes an idea because he lingers on it."
+  },
+  {
+   "fr": "Il finit aussi par apprendre l'arabe.",
+   "en": "He also ends up learning Arabic."
+  },
+  {
+   "fr": "À son arrivée, il avait besoin",
+   "en": "When he arrived, he needed"
+  },
+  {
+   "fr": "de trouver quelqu'un qui parle sa langue.",
+   "en": "to find someone who spoke his language."
+  },
+  {
+   "fr": "À la fin de son temps dans la boutique,",
+   "en": "By the end of his time in the shop,"
+  },
+  {
+   "fr": "il a appris à parler avec les gens",
+   "en": "he has learned to talk with the people"
+  },
+  {
+   "fr": "qui entrent chaque jour.",
+   "en": "who come in every day."
+  },
+  {
+   "fr": "Si on mesure seulement le nombre",
+   "en": "If you only measure the number"
+  },
+  {
+   "fr": "de kilomètres qu'il lui reste à faire,",
+   "en": "of kilometres he still has to go,"
+  },
+  {
+   "fr": "on dirait qu'il n'a pas avancé.",
+   "en": "it looks like he hasn't moved forward."
+  },
+  {
+   "fr": "Il suffit de repenser à sa première journée",
+   "en": "Just think back to his first day"
+  },
+  {
+   "fr": "à Tanger pour voir tout ce qui a changé.",
+   "en": "in Tangier to see all that has changed."
+  },
+  {
+   "fr": "Quand tu traverses une période de ce genre,",
+   "en": "When you go through a time like that,"
+  },
+  {
+   "fr": "essaie de te poser une question assez",
+   "en": "try asking yourself a question simple"
+  },
+  {
+   "fr": "simple pour qu'elle ait une réponse.",
+   "en": "enough to have an answer."
+  },
+  {
+   "fr": "Qu'est-ce que je sais faire maintenant",
+   "en": "What can I do now"
+  },
+  {
+   "fr": "qui me posait problème il y a quelques mois ?",
+   "en": "that was a problem for me a few months ago?"
+  },
+  {
+   "fr": "Il se peut que tu n'aies encore rien",
+   "en": "You may have nothing to show yet"
+  },
+  {
+   "fr": "à montrer aux gens qui te demandent",
+   "en": "to the people who ask you"
+  },
+  {
+   "fr": "quand tu auras terminé ton projet.",
+   "en": "when you'll finish your project."
+  },
+  {
+   "fr": "Tu peux quand même savoir",
+   "en": "You can still know"
+  },
+  {
+   "fr": "que tu te débrouilles un peu mieux.",
+   "en": "that you're getting by a little better."
+  },
+  {
+   "fr": "[Se débrouiller,] c'est trouver",
+   "en": "Se débrouiller means finding"
+  },
+  {
+   "fr": "une façon de faire avec ce qu'on a.",
+   "en": "a way to manage with what you have."
+  },
+  {
+   "fr": "On tâtonne, on essaie quelque chose,",
+   "en": "You feel your way, you try something,"
+  },
+  {
+   "fr": "on demande un coup de main si on en a besoin.",
+   "en": "you ask for a hand if you need one."
+  },
+  {
+   "fr": "Ce sont des gestes qui peuvent te servir",
+   "en": "These are habits that can help you"
+  },
+  {
+   "fr": "bien après la période où tu les as appris.",
+   "en": "long after the time you learned them."
+  },
+  {
+   "fr": "Ça ne rend pas le vol moins dur pour Santiago.",
+   "en": "That doesn't make the theft any easier for him."
+  },
+  {
+   "fr": "Et ça n'oblige personne à être",
+   "en": "And it doesn't force anyone to be"
+  },
+  {
+   "fr": "heureux d'une mauvaise expérience.",
+   "en": "happy about a bad experience."
+  },
+  {
+   "fr": "Mais dans cette partie,",
+   "en": "But in this part,"
+  },
+  {
+   "fr": "Coelho montre qu'un problème qui semble",
+   "en": "Coelho shows that a problem that seems"
+  },
+  {
+   "fr": "arrêter toute une vie peut aussi nous obliger",
+   "en": "to stop a whole life can also make us"
+  },
+  {
+   "fr": "à regarder la prochaine journée de plus près.",
+   "en": "look at the next day more closely."
+  },
+  {
+   "fr": "Le garçon voulait trouver un trésor.",
+   "en": "The boy wanted to find a treasure."
+  },
+  {
+   "fr": "Après le vol,",
+   "en": "After the theft,"
+  },
+  {
+   "fr": "il peut commencer par nettoyer du cristal.",
+   "en": "he can start by cleaning crystal."
+  },
+  {
+   "fr": "L'écart entre les deux est immense.",
+   "en": "The gap between the two is huge."
+  },
+  {
+   "fr": "Et c'est précisément pour ça que cette",
+   "en": "And that's exactly why this"
+  },
+  {
+   "fr": "scène me reste en tête quand je pense",
+   "en": "scene stays with me when I think"
+  },
+  {
+   "fr": "à ce qu'on peut faire après un échec.",
+   "en": "about what we can do after a failure."
+  },
+  {
+   "fr": "Il y a une troisième décision qui me semble",
+   "en": "There's a third decision that seems"
+  },
+  {
+   "fr": "plus difficile à prendre que les deux premières.",
+   "en": "harder to make to me than the first two."
+  },
+  {
+   "fr": "Que fais-tu quand tu pourrais avancer,",
+   "en": "What do you do when you could move on,"
+  },
+  {
+   "fr": "mais que tu te sens enfin bien là où tu es ?",
+   "en": "but you finally feel good where you are?"
+  },
+  {
+   "fr": "Après son temps chez le marchand,",
+   "en": "After his time with the merchant,"
+  },
+  {
+   "fr": "Santiago a de l'argent.",
+   "en": "Santiago has money."
+  },
+  {
+   "fr": "Il connaît le travail et il a",
+   "en": "He knows the work and he has"
+  },
+  {
+   "fr": "prouvé qu'il pouvait en vivre.",
+   "en": "proved he can make a living from it."
+  },
+  {
+   "fr": "Il pourrait continuer dans le commerce.",
+   "en": "He could stay in business."
+  },
+  {
+   "fr": "Il pourrait aussi revenir",
+   "en": "He could also go back"
+  },
+  {
+   "fr": "en Espagne et acheter un troupeau.",
+   "en": "to Spain and buy a flock."
+  },
+  {
+   "fr": "Au moment où il s'apprête à faire un choix,",
+   "en": "Just as he's about to make a choice,"
+  },
+  {
+   "fr": "il retrouve les deux pierres que lui",
+   "en": "he finds the two stones"
+  },
+  {
+   "fr": "avait données le roi de Salem.",
+   "en": "the King of Salem gave him."
+  },
+  {
+   "fr": "Ce petit rappel lui fait penser",
+   "en": "This small reminder makes him think"
+  },
+  {
+   "fr": "à ce qu'il cherchait avant",
+   "en": "of what he was looking for"
+  },
+  {
+   "fr": "que la boutique devienne son quotidien.",
+   "en": "before the shop became his daily life."
+  },
+  {
+   "fr": "Et il choisit de reprendre la route.",
+   "en": "And he chooses to take the road again."
+  },
+  {
+   "fr": "On parle souvent de laisser derrière soi",
+   "en": "We often talk about leaving behind"
+  },
+  {
+   "fr": "une situation qui nous fait souffrir.",
+   "en": "a situation that makes us suffer."
+  },
+  {
+   "fr": "Ce passage est intéressant parce que Santiago",
+   "en": "This passage is interesting because Santiago"
+  },
+  {
+   "fr": "quitte quelque chose qui lui a fait du bien.",
+   "en": "leaves something that did him good."
+  },
+  {
+   "fr": "Il est [reconnaissant] au marchand.",
+   "en": "He is grateful to the merchant."
+  },
+  {
+   "fr": "Il sait aussi que, s'il reste encore un peu,",
+   "en": "He also knows that if he stays a little longer,"
+  },
+  {
+   "fr": "il trouvera de nouvelles raisons de rester.",
+   "en": "he'll find new reasons to stay."
+  },
+  {
+   "fr": "À un moment, il doit décider à quoi",
+   "en": "At some point, he has to decide what"
+  },
+  {
+   "fr": "il veut donner la place qu'il a gagnée.",
+   "en": "he wants to give the space he has earned."
+  },
+  {
+   "fr": "L'argent qu'il a mis de côté peut lui",
+   "en": "The money he has saved can"
+  },
+  {
+   "fr": "rendre sa vie d'avant, ou lui permettre",
+   "en": "give him back his old life, or let him"
+  },
+  {
+   "fr": "d'aller au bout d'une idée ancienne.",
+   "en": "follow an old idea all the way."
+  },
+  {
+   "fr": "Il ne peut le dépenser qu'une fois.",
+   "en": "He can only spend it once."
+  },
+  {
+   "fr": "Le marchand, lui, pense depuis",
+   "en": "The merchant, for his part, has long"
+  },
+  {
+   "fr": "longtemps à son pèlerinage à La Mecque.",
+   "en": "thought about his pilgrimage to Mecca."
+  },
+  {
+   "fr": "Il garde ce voyage en tête parce",
+   "en": "He keeps this journey in mind because"
+  },
+  {
+   "fr": "que l'idée l'aide à passer ses journées.",
+   "en": "the idea helps him get through his days."
+  },
+  {
+   "fr": "Il a peur de ce qu'il ressentira",
+   "en": "He's afraid of what he'll feel"
+  },
+  {
+   "fr": "quand le voyage aura eu lieu.",
+   "en": "once the journey has happened."
+  },
+  {
+   "fr": "Ce détail me touche parce qu'il montre",
+   "en": "This detail touches me because it shows"
+  },
+  {
+   "fr": "une autre raison de garder un rêve à distance.",
+   "en": "another reason to keep a dream at a distance."
+  },
+  {
+   "fr": "Pendant qu'on attend, il est à nous.",
+   "en": "While we wait, it belongs to us."
+  },
+  {
+   "fr": "On peut y revenir les jours difficiles",
+   "en": "We can come back to it on hard days"
+  },
+  {
+   "fr": "et l'imaginer comme on veut.",
+   "en": "and imagine it however we like."
+  },
+  {
+   "fr": "Le jour où l'on essaie,",
+   "en": "The day we try,"
+  },
+  {
+   "fr": "on accepte que les choses prennent",
+   "en": "we accept that things may take"
+  },
+  {
+   "fr": "une forme à laquelle on n'avait pas pensé.",
+   "en": "a shape we hadn't thought of."
+  },
+  {
+   "fr": "On accepte aussi d'avoir à trouver",
+   "en": "We also accept having to find"
+  },
+  {
+   "fr": "une autre raison de se lever le lendemain.",
+   "en": "another reason to get up the next day."
+  },
+  {
+   "fr": "Santiago rencontre Fatima dans une oasis,",
+   "en": "Santiago meets Fatima in an oasis,"
+  },
+  {
+   "fr": "un endroit où il y a de l'eau au milieu du désert.",
+   "en": "a place with water in the middle of the desert."
+  },
+  {
+   "fr": "Il l'aime et se demande s'il",
+   "en": "He loves her and wonders if he"
+  },
+  {
+   "fr": "doit rester auprès d'elle.",
+   "en": "should stay with her."
+  },
+  {
+   "fr": "Voilà une raison de s'arrêter bien",
+   "en": "That's a reason to stop that's very"
+  },
+  {
+   "fr": "différente de l'argent ou du travail.",
+   "en": "different from money or work."
+  },
+  {
+   "fr": "Avec Fatima, il peut imaginer",
+   "en": "With Fatima, he can imagine"
+  },
+  {
+   "fr": "un avenir qui lui plaît.",
+   "en": "a future he likes."
+  },
+  {
+   "fr": "Elle comprend pourtant pourquoi il veut aller",
+   "en": "Yet she understands why he wants to go"
+  },
+  {
+   "fr": "jusqu'aux pyramides et l'encourage à continuer.",
+   "en": "to the pyramids, and urges him to go on."
+  },
+  {
+   "fr": "L'alchimiste l'amène aussi à se demander",
+   "en": "The alchemist also makes him wonder"
+  },
+  {
+   "fr": "ce qui pourrait arriver s'il restait alors",
+   "en": "what could happen if he stayed"
+  },
+  {
+   "fr": "que l'envie de partir était toujours là.",
+   "en": "while the urge to leave was still there."
+  },
+  {
+   "fr": "Le temps passerait.",
+   "en": "Time would pass."
+  },
+  {
+   "fr": "Santiago penserait peut-être",
+   "en": "Santiago might think more and more"
+  },
+  {
+   "fr": "de plus en plus à ce qu'il n'a jamais été voir.",
+   "en": "about what he never went to see."
+  },
+  {
+   "fr": "Et Fatima vivrait, elle aussi,",
+   "en": "And Fatima would also live"
+  },
+  {
+   "fr": "avec quelqu'un qui se demande encore",
+   "en": "with someone still wondering"
+  },
+  {
+   "fr": "s'il a pris la bonne décision.",
+   "en": "if he made the right decision."
+  },
+  {
+   "fr": "J'aime la question que cette",
+   "en": "I love the question this"
+  },
+  {
+   "fr": "scène pose au lecteur.",
+   "en": "scene asks the reader."
+  },
+  {
+   "fr": "Tu peux aimer quelqu'un et garder",
+   "en": "You can love someone and keep"
+  },
+  {
+   "fr": "quelque chose que tu tiens à faire.",
+   "en": "something you really want to do."
+  },
+  {
+   "fr": "Tu peux avoir peur de partir",
+   "en": "You can be afraid of leaving"
+  },
+  {
+   "fr": "et avoir peur de rester.",
+   "en": "and afraid of staying."
+  },
+  {
+   "fr": "Quand tu dis ces deux phrases,",
+   "en": "When you say these two sentences,"
+  },
+  {
+   "fr": "tu changes un mot à la fin.",
+   "en": "you change one word at the end."
+  },
+  {
+   "fr": "Quand tu les ressens,",
+   "en": "When you feel them,"
+  },
+  {
+   "fr": "tu peux passer des mois entre les deux.",
+   "en": "you can spend months between the two."
+  },
+  {
+   "fr": "Santiago ose dire ce qu'il veut",
+   "en": "Santiago dares to say what he wants"
+  },
+  {
+   "fr": "et il écoute ce que Fatima lui répond.",
+   "en": "and he listens to what Fatima answers."
+  },
+  {
+   "fr": "Ça rend son départ plus difficile.",
+   "en": "It makes leaving harder."
+  },
+  {
+   "fr": "Ça lui donne aussi le droit de prendre",
+   "en": "It also gives him the right to take"
+  },
+  {
+   "fr": "au sérieux les deux choses qui comptent pour lui.",
+   "en": "both things that matter to him seriously."
+  },
+  {
+   "fr": "Le mot que je garde de cette",
+   "en": "The word I keep from this"
+  },
+  {
+   "fr": "partie, c'est [renoncer.]",
+   "en": "part is renoncer."
+  },
+  {
+   "fr": "Renoncer à quelque chose, c'est décider de laisser",
+   "en": "To give something up is to let go"
+  },
+  {
+   "fr": "une possibilité que tu aurais pu garder.",
+   "en": "of a possibility you could have kept."
+  },
+  {
+   "fr": "Ça peut être une heure de repos à laquelle",
+   "en": "It can be an hour of rest"
+  },
+  {
+   "fr": "tu tiens, une façon de gagner de l'argent",
+   "en": "you value, a way of earning money"
+  },
+  {
+   "fr": "qui te rassure, ou une idée que tu gardais parce",
+   "en": "that reassures you, or an idea you kept"
+  },
+  {
+   "fr": "qu'elle te rendait heureux quand tu y pensais.",
+   "en": "because thinking of it made you happy."
+  },
+  {
+   "fr": "Santiago peut aimer ce qu'il",
+   "en": "Santiago can love what he's"
+  },
+  {
+   "fr": "quitte et décider de continuer.",
+   "en": "leaving and decide to keep going."
+  },
+  {
+   "fr": "C'est une des raisons pour lesquelles cette",
+   "en": "That's one reason why this"
+  },
+  {
+   "fr": "partie me semble plus proche de la vie",
+   "en": "part feels closer to real life to me"
+  },
+  {
+   "fr": "que les grandes phrases sur le destin.",
+   "en": "than grand sentences about destiny."
+  },
+  {
+   "fr": "Il y a une question que tu peux te poser",
+   "en": "There's a question you can ask yourself"
+  },
+  {
+   "fr": "si tu te sens entre deux chemins.",
+   "en": "if you feel caught between two paths."
+  },
+  {
+   "fr": "Si je reste ici encore un an,",
+   "en": "If I stay here one more year,"
+  },
+  {
+   "fr": "à quoi vais-je être content d'avoir dit oui ?",
+   "en": "what will I be glad I said yes to?"
+  },
+  {
+   "fr": "Et qu'est-ce que je vais",
+   "en": "And what will I still"
+  },
+  {
+   "fr": "encore avoir envie d'essayer ?",
+   "en": "want to try?"
+  },
+  {
+   "fr": "Tu as le droit d'aimer",
+   "en": "You have the right to truly"
+  },
+  {
+   "fr": "sincèrement la vie que tu as déjà.",
+   "en": "love the life you already have."
+  },
+  {
+   "fr": "Dans ce cas, regarde cette réponse en face.",
+   "en": "In that case, look that answer in the face."
+  },
+  {
+   "fr": "Si l'autre envie revient, dis-toi au moins",
+   "en": "If the other wish comes back, at least tell"
+  },
+  {
+   "fr": "ce à quoi tu devrais faire de la place.",
+   "en": "yourself what you'd need to make room for."
+  },
+  {
+   "fr": "Souvent, l'idée de tout quitter prend",
+   "en": "Often, the idea of leaving everything takes"
+  },
+  {
+   "fr": "tellement de place qu'on oublie d'examiner",
+   "en": "up so much space that we forget to look at"
+  },
+  {
+   "fr": "ce qu'on pourrait changer en premier.",
+   "en": "what we could change first."
+  },
+  {
+   "fr": "Santiago quitte la boutique.",
+   "en": "Santiago leaves the shop."
+  },
+  {
+   "fr": "Pour toi, le choix peut commencer",
+   "en": "For you, the choice can start"
+  },
+  {
+   "fr": "par quelque chose de beaucoup plus petit.",
+   "en": "with something much smaller."
+  },
+  {
+   "fr": "Et voilà qu'on revient",
+   "en": "And here we are, back"
+  },
+  {
+   "fr": "à la question de la motivation.",
+   "en": "to the question of motivation."
+  },
+  {
+   "fr": "L'enthousiasme peut venir d'une rencontre,",
+   "en": "Enthusiasm can come from a meeting,"
+  },
+  {
+   "fr": "d'une idée ou d'un mot qui nous fait du bien.",
+   "en": "an idea, or a word that does us good."
+  },
+  {
+   "fr": "Il suffit parfois pour partir.",
+   "en": "Sometimes it's enough to set off."
+  },
+  {
+   "fr": "Ce qui aide Santiago",
+   "en": "What helps Santiago"
+  },
+  {
+   "fr": "à continuer vient de plus loin.",
+   "en": "keep going comes from deeper down."
+  },
+  {
+   "fr": "À plusieurs reprises,",
+   "en": "Several times,"
+  },
+  {
+   "fr": "il a la possibilité de rentrer ou de rester",
+   "en": "he has the chance to go home or to stay"
+  },
+  {
+   "fr": "dans un endroit où il pourrait vivre heureux.",
+   "en": "somewhere he could live happily."
+  },
+  {
+   "fr": "Et à plusieurs reprises,",
+   "en": "And several times,"
+  },
+  {
+   "fr": "quand il est seul avec la décision, il revient",
+   "en": "when he's alone with the decision, he comes back"
+  },
+  {
+   "fr": "à cette envie de voir le monde et de découvrir",
+   "en": "to this wish to see the world and discover"
+  },
+  {
+   "fr": "ce qui l'attend s'il va au bout de son choix.",
+   "en": "what awaits him if he follows his choice through."
+  },
+  {
+   "fr": "Personne ne peut lui dire",
+   "en": "No one can tell him"
+  },
+  {
+   "fr": "exactement ce qu'il va trouver.",
+   "en": "exactly what he'll find."
+  },
+  {
+   "fr": "Il sait pourquoi il veut aller voir.",
+   "en": "He knows why he wants to go and see."
+  },
+  {
+   "fr": "Dans le désert, des guerriers",
+   "en": "In the desert, warriors"
+  },
+  {
+   "fr": "le font prisonnier avec l'alchimiste.",
+   "en": "take him prisoner with the alchemist."
+  },
+  {
+   "fr": "Ils lui laissent trois jours",
+   "en": "They give him three days"
+  },
+  {
+   "fr": "pour accomplir une chose impossible.",
+   "en": "to do something impossible:"
+  },
+  {
+   "fr": "Se transformer en vent.",
+   "en": "turn himself into the wind."
+  },
+  {
+   "fr": "Dans cette scène, Coelho fait parler le garçon",
+   "en": "In this scene, Coelho has the boy speak"
+  },
+  {
+   "fr": "avec le désert, le vent et le soleil.",
+   "en": "with the desert, the wind and the sun."
+  },
+  {
+   "fr": "Santiago réussit l'épreuve.",
+   "en": "Santiago passes the test."
+  },
+  {
+   "fr": "On est pleinement dans un conte, et c'est",
+   "en": "We're fully in a fairy tale, and that's"
+  },
+  {
+   "fr": "justement ce qui donne à cette scène sa force.",
+   "en": "exactly what gives this scene its strength."
+  },
+  {
+   "fr": "Le garçon doit affronter une peur",
+   "en": "The boy has to face a fear"
+  },
+  {
+   "fr": "qu'il ne sait pas résoudre à l'avance.",
+   "en": "he can't solve in advance."
+  },
+  {
+   "fr": "Il s'appuie sur ce qu'il a appris en observant",
+   "en": "He relies on what he learned by watching"
+  },
+  {
+   "fr": "le désert et en écoutant son guide.",
+   "en": "the desert and listening to his guide."
+  },
+  {
+   "fr": "Toute cette attention qu'il a portée",
+   "en": "All the attention he paid"
+  },
+  {
+   "fr": "au chemin lui sert au moment où il a",
+   "en": "to the road helps him just when"
+  },
+  {
+   "fr": "le plus envie de [céder] à la peur.",
+   "en": "he most wants to give in to fear."
+  },
+  {
+   "fr": "Quand il arrive enfin aux pyramides,",
+   "en": "When he finally reaches the pyramids,"
+  },
+  {
+   "fr": "le livre lui réserve une autre surprise.",
+   "en": "the book has another surprise for him."
+  },
+  {
+   "fr": "Des hommes l'attaquent alors qu'il creuse.",
+   "en": "Some men attack him while he's digging."
+  },
+  {
+   "fr": "L'un d'eux lui parle d'un rêve qu'il a fait.",
+   "en": "One of them tells him about a dream he had."
+  },
+  {
+   "fr": "Il a vu un trésor en Espagne,",
+   "en": "He saw a treasure in Spain,"
+  },
+  {
+   "fr": "dans une vieille église, près d'un arbre.",
+   "en": "in an old church, near a tree."
+  },
+  {
+   "fr": "Lui n'a jamais voulu prendre",
+   "en": "He never wanted to take"
+  },
+  {
+   "fr": "la route pour le chercher.",
+   "en": "the road to look for it."
+  },
+  {
+   "fr": "Mais Santiago reconnaît l'endroit.",
+   "en": "But Santiago recognises the place."
+  },
+  {
+   "fr": "C'est là où il dormait avec ses moutons,",
+   "en": "It's where he used to sleep with his sheep,"
+  },
+  {
+   "fr": "avant de partir.",
+   "en": "before he left."
+  },
+  {
+   "fr": "Il rentre en Espagne,",
+   "en": "He goes back to Spain,"
+  },
+  {
+   "fr": "creuse au bon endroit et trouve le trésor.",
+   "en": "digs in the right spot and finds the treasure."
+  },
+  {
+   "fr": "C'est une drôle de manière de finir une aventure.",
+   "en": "It's a funny way to end an adventure."
+  },
+  {
+   "fr": "Santiago traverse la mer,",
+   "en": "Santiago crosses the sea,"
+  },
+  {
+   "fr": "passe des mois à travailler et traverse le désert.",
+   "en": "spends months working and crosses the desert."
+  },
+  {
+   "fr": "Puis il doit revenir exactement là où il était.",
+   "en": "Then he has to go back exactly where he was."
+  },
+  {
+   "fr": "Aurait-il gagné du temps",
+   "en": "Would he have saved time"
+  },
+  {
+   "fr": "en creusant tout de suite ?",
+   "en": "by digging right away?"
+  },
+  {
+   "fr": "Seulement, à qui aurait-il demandé où creuser ?",
+   "en": "But who would he have asked where to dig?"
+  },
+  {
+   "fr": "Le rêve qui lui apprend le bon endroit",
+   "en": "The dream that shows him the right spot"
+  },
+  {
+   "fr": "lui est raconté près des pyramides.",
+   "en": "is told to him near the pyramids."
+  },
+  {
+   "fr": "Il fallait que quelqu'un, loin de chez lui,",
+   "en": "Someone far from home had to"
+  },
+  {
+   "fr": "lui parle d'un lieu qu'il connaissait déjà.",
+   "en": "tell him about a place he already knew."
+  },
+  {
+   "fr": "Je trouve que cette fin dit beaucoup",
+   "en": "I think this ending says a lot"
+  },
+  {
+   "fr": "sur les choses qu'on découvre en essayant.",
+   "en": "about the things we discover by trying."
+  },
+  {
+   "fr": "Avant le départ,",
+   "en": "Before setting off,"
+  },
+  {
+   "fr": "on ne sait pas toujours quelle information",
+   "en": "we don't always know what information"
+  },
+  {
+   "fr": "nous manque ni qui pourra nous la donner.",
+   "en": "we're missing, or who can give it to us."
+  },
+  {
+   "fr": "Et si Santiago était rentré sans or ?",
+   "en": "And what if Santiago had come home without gold?"
+  },
+  {
+   "fr": "Pose-toi vraiment la question une seconde.",
+   "en": "Really ask yourself that for a second."
+  },
+  {
+   "fr": "Il aurait encore rencontré Fatima.",
+   "en": "He would still have met Fatima."
+  },
+  {
+   "fr": "Il aurait appris à gagner sa vie",
+   "en": "He would have learned to earn a living"
+  },
+  {
+   "fr": "à Tanger et à parler dans une langue",
+   "en": "in Tangier and to speak a language"
+  },
+  {
+   "fr": "qu'il ne comprenait pas au début.",
+   "en": "he didn't understand at first."
+  },
+  {
+   "fr": "Il aurait repensé à son père, au roi de Salem",
+   "en": "He'd have thought of his father, the King of Salem"
+  },
+  {
+   "fr": "et au marchand avec qui il a travaillé.",
+   "en": "and the merchant he worked with."
+  },
+  {
+   "fr": "Il aurait aussi su qu'il pouvait prendre",
+   "en": "He'd also have known he could make"
+  },
+  {
+   "fr": "une nouvelle décision après un échec.",
+   "en": "a new decision after a failure."
+  },
+  {
+   "fr": "C'est beaucoup pour quelqu'un",
+   "en": "That's a lot for someone"
+  },
+  {
+   "fr": "qui s'est réveillé un jour avec un rêve",
+   "en": "who woke up one day with a dream"
+  },
+  {
+   "fr": "et qui ne savait pas quoi en faire.",
+   "en": "and didn't know what to do with it."
+  },
+  {
+   "fr": "L'or rend la fin heureuse.",
+   "en": "The gold makes the ending happy."
+  },
+  {
+   "fr": "Les rencontres et les [épreuves]",
+   "en": "The people he met and the trials"
+  },
+  {
+   "fr": "donnent au retour sa valeur.",
+   "en": "give the return its value."
+  },
+  {
+   "fr": "Ce qui me touche dans ce livre,",
+   "en": "What touches me in this book"
+  },
+  {
+   "fr": "c'est que la raison de continuer",
+   "en": "is that the reason to keep going"
+  },
+  {
+   "fr": "peut rester très simple.",
+   "en": "can stay very simple."
+  },
+  {
+   "fr": "Je veux savoir ce que je vais découvrir.",
+   "en": "I want to know what I'll discover."
+  },
+  {
+   "fr": "Je veux voir ce que je peux",
+   "en": "I want to see what I can"
+  },
+  {
+   "fr": "faire avec ce que j'ai appris.",
+   "en": "do with what I've learned."
+  },
+  {
+   "fr": "Je veux aller assez loin",
+   "en": "I want to go far enough"
+  },
+  {
+   "fr": "pour pouvoir répondre par moi-même.",
+   "en": "to be able to answer for myself."
+  },
+  {
+   "fr": "Tant qu'une de ces phrases veut encore dire",
+   "en": "As long as one of these sentences still"
+  },
+  {
+   "fr": "quelque chose pour toi, elle peut t'aider",
+   "en": "means something to you, it can help you"
+  },
+  {
+   "fr": "à traverser des jours où tu as moins d'énergie.",
+   "en": "get through days when you have less energy."
+  },
+  {
+   "fr": "Et si tu trouves une autre raison en chemin,",
+   "en": "And if you find another reason along the way,"
+  },
+  {
+   "fr": "prends-la au sérieux aussi.",
+   "en": "take it seriously too."
+  },
+  {
+   "fr": "Santiago part chercher une chose.",
+   "en": "Santiago sets off to look for one thing."
+  },
+  {
+   "fr": "À la fin, il a plusieurs raisons",
+   "en": "In the end, he has several reasons"
+  },
+  {
+   "fr": "d'être heureux d'être parti.",
+   "en": "to be glad he left."
+  },
+  {
+   "fr": "Je recommanderais L'Alchimiste",
+   "en": "I'd recommend The Alchemist"
+  },
+  {
+   "fr": "à quelqu'un qui se pose depuis",
+   "en": "to someone who has been asking"
+  },
+  {
+   "fr": "longtemps la même question sur sa vie.",
+   "en": "the same question about their life for years."
+  },
+  {
+   "fr": "C'est un conte simple à suivre",
+   "en": "It's a tale that's easy to follow,"
+  },
+  {
+   "fr": "et parfois très sûr de ses réponses.",
+   "en": "and sometimes very sure of its answers."
+  },
+  {
+   "fr": "Pour ma part, j'aime surtout",
+   "en": "For my part, I mostly love"
+  },
+  {
+   "fr": "les moments où les personnages hésitent.",
+   "en": "the moments when the characters hesitate."
+  },
+  {
+   "fr": "Le père ouvre sa main pour donner ses pièces d'or.",
+   "en": "The father opens his hand to give his gold coins."
+  },
+  {
+   "fr": "Le marchand parle d'un voyage qu'il aime attendre.",
+   "en": "The merchant talks about a trip he loves to await."
+  },
+  {
+   "fr": "Fatima écoute quelqu'un qu'elle",
+   "en": "Fatima listens to someone she"
+  },
+  {
+   "fr": "voudrait garder près d'elle.",
+   "en": "would like to keep close to her."
+  },
+  {
+   "fr": "Dans ces moments-là, on connaît un peu mieux",
+   "en": "In those moments, we get to know a little better"
+  },
+  {
+   "fr": "les personnes qui choisissent et on peut",
+   "en": "the people who choose, and we can"
+  },
+  {
+   "fr": "se demander ce qu'on aurait fait à leur place.",
+   "en": "wonder what we would have done in their place."
+  },
+  {
+   "fr": "Ce sont des pages auxquelles on peut",
+   "en": "These are pages you can"
+  },
+  {
+   "fr": "revenir quand notre propre réponse a changé.",
+   "en": "come back to when your own answer has changed."
+  },
+  {
+   "fr": "Si tu as un rêve que tu gardes depuis longtemps,",
+   "en": "If you have a dream you've kept for a long time,"
+  },
+  {
+   "fr": "donne-toi une minute pour le nommer.",
+   "en": "give yourself a minute to name it."
+  },
+  {
+   "fr": "Tu peux commencer avec les mots les plus simples.",
+   "en": "You can start with the simplest words."
+  },
+  {
+   "fr": "J'ai toujours eu envie de…",
+   "en": "I've always wanted to…"
+  },
+  {
+   "fr": "Puis demande-toi quel premier",
+   "en": "Then ask yourself what first"
+  },
+  {
+   "fr": "pas aurait du sens aujourd'hui.",
+   "en": "step would make sense today."
+  },
+  {
+   "fr": "La réponse peut tenir dans une heure,",
+   "en": "The answer might fit into an hour,"
+  },
+  {
+   "fr": "une date ou un nom à retrouver.",
+   "en": "a date, or a name to look up."
+  },
+  {
+   "fr": "Elle peut aussi te rappeler pourquoi",
+   "en": "It may also remind you why"
+  },
+  {
+   "fr": "tu avais envie d'essayer la première fois.",
+   "en": "you wanted to try the first time."
+  },
+  {
+   "fr": "Et si tu attends depuis des années,",
+   "en": "And if you've been waiting for years,"
+  },
+  {
+   "fr": "tu as encore le droit de te poser la question",
+   "en": "you still have the right to ask the question"
+  },
+  {
+   "fr": "avec la personne que tu es aujourd'hui.",
+   "en": "with the person you are today."
+  },
+  {
+   "fr": "Merci d'avoir écouté Cozy French Books.",
+   "en": "Thank you for listening to Cozy French Books."
+  },
+  {
+   "fr": "Si cette lecture t'a fait penser à un rêve",
+   "en": "If this reading made you think of a dream"
+  },
+  {
+   "fr": "ou à un choix que tu as dû faire,",
+   "en": "or of a choice you had to make,"
+  },
+  {
+   "fr": "raconte-le-moi en commentaire.",
+   "en": "tell me about it in the comments."
+  },
+  {
+   "fr": "Tu peux écrire une seule phrase en français.",
+   "en": "You can write a single sentence in French."
+  },
+  {
+   "fr": "J'ai toujours eu envie de…, ou bien,",
+   "en": "I've always wanted to…, or maybe,"
+  },
+  {
+   "fr": "un jour, j'ai décidé de me lancer.",
+   "en": "one day, I decided to take the plunge."
+  },
+  {
+   "fr": "Si cet épisode t'a parlé,",
+   "en": "If this episode spoke to you,"
+  },
+  {
+   "fr": "tu peux le partager avec quelqu'un",
+   "en": "you can share it with someone"
+  },
+  {
+   "fr": "que le livre pourrait toucher et t'abonner",
+   "en": "the book might touch, and subscribe"
+  },
+  {
+   "fr": "pour qu'on en ouvre un autre ensemble.",
+   "en": "so we can open another one together."
+  },
+  {
+   "fr": "Je suis Léa.",
+   "en": "I'm Léa."
+  },
+  {
+   "fr": "Prends soin de toi, et à très bientôt.",
+   "en": "Take care of yourself, and see you very soon."
+  }
+ ],
+ "vocab": [
+  {
+   "tag": "verbe pronominal",
+   "word": "se séparer de",
+   "ipa": "/sə se.pa.ʁe də/",
+   "mean": "to part with, to let go of",
+   "ex": "J’ai du mal à me séparer de mes vieux livres.",
+   "exEn": "I find it hard to part with my old books."
+  },
+  {
+   "tag": "nom masculin",
+   "word": "un pèlerinage",
+   "ipa": "/œ̃ pɛl.ʁi.naʒ/",
+   "mean": "a pilgrimage",
+   "ex": "Ma grand-mère a fait un pèlerinage à Lourdes.",
+   "exEn": "My grandmother went on a pilgrimage to Lourdes."
+  },
+  {
+   "tag": "expression",
+   "word": "voir du pays",
+   "ipa": "/vwaʁ dy pe.i/",
+   "mean": "to see the world, to travel",
+   "ex": "Après ses études, elle est partie voir du pays.",
+   "exEn": "After her studies, she went off to see the world."
+  },
+  {
+   "tag": "expression",
+   "word": "tenir à cœur",
+   "ipa": "/tə.niʁ a kœʁ/",
+   "mean": "to matter a lot to someone",
+   "ex": "Ce projet me tient vraiment à cœur.",
+   "exEn": "This project really matters to me."
+  },
+  {
+   "tag": "verbe pronominal",
+   "word": "se lancer",
+   "ipa": "/sə lɑ̃.se/",
+   "mean": "to take the plunge, to go for it",
+   "ex": "Il a enfin osé se lancer dans la cuisine.",
+   "exEn": "He finally dared to have a go at cooking."
+  },
+  {
+   "tag": "adjectif",
+   "word": "soulagé(e)",
+   "ipa": "/su.la.ʒe/",
+   "mean": "relieved",
+   "ex": "J’étais soulagée de retrouver mes clés.",
+   "exEn": "I was relieved to find my keys."
+  },
+  {
+   "tag": "expression",
+   "word": "avoir tort",
+   "ipa": "/a.vwaʁ tɔʁ/",
+   "mean": "to be wrong",
+   "ex": "Tu avais raison, et moi, j’avais tort.",
+   "exEn": "You were right, and I was wrong."
+  },
+  {
+   "tag": "expression",
+   "word": "en échange de",
+   "ipa": "/ɑ̃.n‿e.ʃɑ̃ʒ də/",
+   "mean": "in exchange for",
+   "ex": "Je t’aide à déménager en échange d’une pizza.",
+   "exEn": "I’ll help you move in exchange for a pizza."
+  },
+  {
+   "tag": "expression",
+   "word": "mettre de côté",
+   "ipa": "/mɛtʁ də ko.te/",
+   "mean": "to put aside, to save",
+   "ex": "Je mets un peu d’argent de côté chaque mois.",
+   "exEn": "I put a little money aside every month."
+  },
+  {
+   "tag": "verbe pronominal",
+   "word": "se débrouiller",
+   "ipa": "/sə de.bʁu.je/",
+   "mean": "to manage, to get by",
+   "ex": "Je me débrouille bien en espagnol maintenant.",
+   "exEn": "I get by well in Spanish now."
+  },
+  {
+   "tag": "expression",
+   "word": "être reconnaissant(e)",
+   "ipa": "/ɛtʁ ʁə.kɔ.nɛ.sɑ̃/",
+   "mean": "to be grateful",
+   "ex": "Je te suis très reconnaissante pour ton aide.",
+   "exEn": "I’m very grateful for your help."
+  },
+  {
+   "tag": "verbe",
+   "word": "renoncer à",
+   "ipa": "/ʁə.nɔ̃.se a/",
+   "mean": "to give up",
+   "ex": "Elle a renoncé à son voyage pour rester avec sa sœur.",
+   "exEn": "She gave up her trip to stay with her sister."
+  },
+  {
+   "tag": "verbe",
+   "word": "céder à",
+   "ipa": "/se.de a/",
+   "mean": "to give in to",
+   "ex": "Ne cède pas à la panique, on a encore le temps.",
+   "exEn": "Don’t give in to panic, we still have time."
+  },
+  {
+   "tag": "nom féminin",
+   "word": "une épreuve",
+   "ipa": "/y.n‿e.pʁœv/",
+   "mean": "a trial, an ordeal",
+   "ex": "Cette année difficile a été une vraie épreuve.",
+   "exEn": "This hard year was a real ordeal."
+  }
+ ]
+}
