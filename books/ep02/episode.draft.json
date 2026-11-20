@@ -1,0 +1,3226 @@
+{
+  "scene": "salon",
+  "lea": "cardigan",
+  "mat": "hoodie",
+  "audio": "assets/voice.mp3",
+  "audioEnd": 1272.69,
+  "chunks": [
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "- Devant toi, il y a une pièce de",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "monnaie sur le sol.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "- Au-dessus de toi, il y a la lune.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "- Où vas-tu regarder ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "- Si tu te promènes le soir,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "tu lèveras peut-être les yeux.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "- Si tu as juste assez d'argent pour manger,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "tu ramasseras peut-être la pièce.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "- Et si, pendant des années,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "tu as regardé par terre parce qu'on t'a appris",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "que c'était la seule chose sérieuse à faire,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "est-ce que tu te souviens encore de ce que",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "tu cherchais là-haut ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Cette question me fait penser à Walden,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "le livre dans lequel Henry David Toro raconte sa",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "vie dans une petite cabane près d'un étang.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 267,
+      "fr": "Le même récit peut provoquer deux réactions très",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "différentes.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Quelqu'un écoute et dit que vivre seul au bord",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 170,
+      "fr": "de l'eau serait un rêve.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Enfin du temps pour lire,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "marcher et entendre ses propres pensées.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Quelqu'un d'autre pose une question très simple.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Si je fais ça, qui s'occupera des gens qui",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "comptent sur moi ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "L'un regarde le temps que cette décision pourrait",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "lui rendre.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "L'autre pense à ceux avec qui il partage déjà ce",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "temps.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "On leur a raconté la même histoire.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Ils ont entendu deux questions différentes.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Bonjour et bienvenue dans Cozy French Books,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "je suis Léa.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Ici, on découvre des livres ensemble et on",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "pratique le français à son rythme.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Au fil de l'histoire, tu entendras des mots et",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "des expressions que tu pourras reprendre au",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "quotidien.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Si tu aimes apprendre le français de cette façon,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "abonne-toi pour retrouver les prochains épisodes.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Aujourd'hui, on parle de The Moon and Sixpence,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "un roman de William Somerset Mogam que l'on trouve",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "en français sous le titre L'Envoûté.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Le titre anglais réunit la lune et une pièce de",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "sixpence, une petite pièce de monnaie.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Pour notre lecture, la lune,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "ce sera l'idéal qu'on veut atteindre.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "La pièce, ce sera ce qui nous permet de vivre,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "de payer les choses dont on a besoin et",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "de tenir nos engagements.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "J'aimerais qu'on parte de cette idée.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Ta façon de voir la vie change ce que tu poursuis,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "ce que tu mets en premier et la manière",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "dont tu traites les autres.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Ce que j'aime dans ce roman,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "c'est qu'il nous donne plusieurs personnes à",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "regarder.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Tourne-toi vers l'homme qui lève les yeux vers la",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "lune et tu verras une histoire de liberté.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Tourne-toi vers les gens qui doivent s'occuper de",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "ce qu'il laisse derrière lui et tu verras le",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "prix de cette liberté.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Entre les deux, il y a aussi quelqu'un qui choisit",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "d'aider.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "C'est à partir de ces trois regards que le roman",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 160,
+      "fr": "m'intéresse.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "La façon dont tu vois la réussite décide souvent",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "de la vie que tu essaies de construire.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Charles Strickland, le personnage principal,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "pourrait servir d'exemple dans une conversation",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 160,
+      "fr": "sur la réussite.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Il travaille à Londres dans la finance.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Il gagne de quoi faire vivre sa famille.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Il a une femme, deux enfants et une vie",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "qui semble bien en place.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Si tu demandais à ses proches ce qu'ils devraient",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "faire dans les dix prochaines années,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "beaucoup diraient sans doute qu'il devrait",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "continuer comme ça.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Pourquoi changer une vie dans laquelle tant de",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "choses vont bien ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Un jour, alors qu'il a une quarantaine d'années,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "il laisse une courte lettre à sa femme et part à",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "Paris.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Les gens qui le connaissent cherchent aussitôt une",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 170,
+      "fr": "explication.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Quand un homme laisse sa famille et part seul",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "dans une autre ville, on s'attend à ce qu'il",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "soit parti pour quelqu'un.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 170,
+      "fr": "Le narrateur, qui va le voir à Paris,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "trouve un homme qui vit avec très peu d'argent et",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 151,
+      "fr": "veut peindre.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Il y a quelque chose de presque comique dans",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "le décalage entre l'explication que tout le monde",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "attend et celle que Strickland finit par donner.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "On lui demande, en somme,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "où est la femme ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Lui pense déjà à sa peinture.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Regarde maintenant les deux reproches qu'on",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "pourrait lui faire au sujet de ce choix.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Le premier, c'est qu'il abandonne une vie",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "confortable pour vivre avec très peu.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Le deuxième, c'est qu'il commence tard et qu'il",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "n'a aucune garantie de devenir un bon peintre.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Les deux remarques sont raisonnables.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Si tu lui donnais un conseil de carrière,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "tu lui demanderais combien de temps il peut vivre",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "comme ça.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Tu lui conseillerais probablement de garder son",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "travail et de peindre à côté pour voir ce que ça",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "donne.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "Pour quelqu'un qui veut surtout protéger une vie",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "déjà construite, le départ de Strickland est",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "difficile à comprendre.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Lui regarde la situation à partir d'une autre",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "question.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Est-ce qu'il peut encore mener sa vie sans faire",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "de place à la peinture ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Mogam lui fait prendre une image très simple.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Lorsqu'une personne tombe à l'eau,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "elle essaie de rester à la surface avec les moyens",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "qu'elle a.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "La question de savoir si elle nage bien viendra",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "après.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Pour Strickland, la peinture a quelque chose de",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "cette urgence.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Il sent qu'il doit commencer,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "bien avant de savoir s'il a le talent nécessaire.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Cette image ne dit pas encore ce qu'il doit à sa",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 163,
+      "fr": "famille.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Elle explique pourquoi les arguments sur son âge",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "et ses chances de succès ne suffisent pas à le",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "faire rentrer.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Alors, je te pose la question à toi.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Quelles conditions crois-tu devoir remplir avant",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "de faire une chose qui compte ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Il faut que je sois plus jeune.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Il faut que je sois déjà bon.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Il faut que quelqu'un me dise que j'ai raison",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "d'essayer.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Tu peux passer beaucoup de temps à attendre ce",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "dernier signe.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Et il y a des choses sur lesquelles les",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "autres pourront te donner un avis très précis.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Ils pourront te parler du coût,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "du temps ou des difficultés.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "La place que cette envie occupe dans ta vie,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "c'est surtout toi qui peux la connaître.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 276,
+      "fr": "Il y a un détail qui rend Strickland plus",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "difficile à comprendre.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Il semble peu intéressé par les signes de réussite",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "qu'on attache à un artiste.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Il vit avec le minimum et fait passer son",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "travail avant son confort.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "S'il gagne un peu, il peut recommencer à peindre.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Il est prêt à passer longtemps dans une pièce avec",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "ses couleurs, alors que les gens qui lui donnaient",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "une bonne place dans la société le trouvent",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "désormais ridicule.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Dans la logique qui était celle de son entourage,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "il a tout perdu.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Si tu regardes ce à quoi il voulait donner ses",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "journées, tu vois pourquoi il pense avoir gagné",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "quelque chose.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Ça nous ramène aux deux objets du titre.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "La lune est facile à regarder quand tu as",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "déjà de quoi manger.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Et une petite pièce peut prendre une grande place",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "dans ta vie, quand il en manque une pour payer le",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "dîner.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "J'ai envie de garder cette réalité en tête,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 267,
+      "fr": "parce que le roman devient plus intéressant quand",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "les deux objets comptent.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Tu peux tenir à un salaire parce qu'il te",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "permet de prendre soin de quelqu'un.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Tu peux aussi sentir que tu as passé si",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "longtemps à chercher un revenu plus sûr ou une",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "place plus respectée que tu as oublié à quoi",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "cette sécurité devait te servir.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Les deux désirs peuvent exister chez la même",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "personne le même jour.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "Quand tu dis qu'une décision est folle,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "pose-toi une autre question.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "Qu'est-ce que je suis en train de mesurer ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Si je mesure le revenu,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "je comprends mal le choix de Strickland.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Si je mesure le temps qu'il peut passer à peindre,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "je comprends beaucoup mieux pourquoi il l'a fait.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Dès que j'ajoute la situation de sa femme et de",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "ses enfants, la question change encore.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "On peut comprendre l'urgence de peindre et se",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "demander ce qu'un homme aurait pu faire pour que",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "sa famille ait elle aussi la possibilité de",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 170,
+      "fr": "décider.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Et peut-être qu'il y a déjà une petite réponse",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "pour toi ici.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Tu peux commencer à prendre au sérieux ce qui",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "t'attire et réfléchir aussi à la façon de lui",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 170,
+      "fr": "faire une place.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Si une chose te tient à cœur,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "c'est qu'elle compte beaucoup pour toi.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Pour le savoir, regarde ce que tu as encore",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "envie de faire quand personne ne t'en félicite.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Est-ce que tu voudrais passer une partie de ta",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "journée à apprendre la chose elle-même ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Est-ce que tu y reviendrais le lendemain,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "même si tu en parlais peu autour de toi ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "C'est peut-être là que tu peux voir à quelle",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "lune tu penses vraiment.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Notre regard décide aussi de ce qu'on met en",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "premier quand la vie nous oblige à choisir.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Pour le voir, j'aimerais qu'on revienne à Londres",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "auprès de la personne qui reçoit la lettre.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "La femme de Strickland pensait connaître l'homme",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "avec qui elle vivait depuis des années.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Elle découvre qu'il a fait seul une grande partie",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "du chemin dans sa tête.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Elle doit expliquer son départ,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "faire vivre ses enfants et décider comment elle va",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "gagner de l'argent.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Tout cela commence le jour où son mari lui laisse",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "quelques lignes.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "Une réaction possible serait de dire qu'elle tient",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "trop à ce que les gens pensent d'elle.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Elle est sensible à sa place dans la société",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "et à ce qui se dit autour d'elle.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Elle a honte d'être laissée de cette façon.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Mais si on s'arrête là,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "on passe à côté de l'effort qu'elle fait.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "La position qu'elle avait lui donnait un cadre.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Elle savait comment recevoir les gens et comment",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "organiser la maison.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Quand tout change, elle doit faire quelque chose",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "que son mari n'a pas pensé à faire pour elle.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Elle doit se demander comment rendre la semaine",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "suivante possible.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Elle apprend à taper à la machine et développe",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "un travail de dactylographie.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Ce mot paraît compliqué.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Il s'agit de taper des lettres ou d'autres textes",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "à la machine pour gagner sa vie.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Elle change aussi sa façon de vivre pour réduire",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 267,
+      "fr": "ses dépenses.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Il faut apprendre, chercher du travail,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "faire des comptes.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Rien ne change en une soirée.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Pourtant, à force de travailler,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "elle arrive à reprendre la main.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Reprendre la main ici veut dire retrouver la",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "possibilité de décider dans une situation qui",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "t'avait échappé.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Regarde les deux personnes à ce moment de",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "l'histoire.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Lui donne à la peinture les meilleures heures de",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "sa journée.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Elle donne les siennes au travail qui lui permet",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "de faire vivre sa famille et de retrouver une",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 170,
+      "fr": "place qui compte pour elle.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Tu peux croire que l'un rêve plus grand que",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "l'autre.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Tu peux aussi regarder ce que chacun essaie de",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "construire et de quoi cette construction dépend.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Quand le roman parle de la femme de Strickland,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "je vois quelqu'un qui met sa fierté dans la",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "possibilité de se tenir debout sans avoir à",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "attendre le retour de son mari.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Pour elle, c'est un projet qui mérite un effort",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 163,
+      "fr": "quotidien.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "J'aime que les deux trajectoires posent la même",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "question de deux côtés.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Qu'est-ce que tu fais quand ce qui compte pour",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "toi demande du temps et que ce temps est",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "déjà pris par autre chose ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "On pense souvent qu'on peut répondre en disant ce",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "qu'on croit important.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Dans la vie, on voit la réponse à des moments plus",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "ordinaires.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Regarde les deux heures qui te restent une fois",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "que les choses urgentes sont faites.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "À qui ou à quoi peux-tu les donner ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Si tu les donnes aujourd'hui à quelqu'un,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "à quoi devras-tu dire d'attendre jusqu'à demain ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "C'est dans ces moments qu'une priorité prend une",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "forme réelle.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Les responsabilités peuvent aussi s'imposer à",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 163,
+      "fr": "nous.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "La femme de Strickland doit trouver du travail",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "dans des conditions qu'elle n'a pas choisies.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Ce qu'elle choisit, c'est la façon dont elle",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "répond à cette nouvelle situation,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "avec les possibilités qu'elle a.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Quand quelqu'un dit qu'il préfère garder un revenu",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "sûr, on peut lui demander ce que ce revenu",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "lui permet de protéger.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "On entendra peut-être parler d'enfants,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "de parents, ou simplement du besoin de retrouver",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "un peu de tranquillité.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Il faut connaître cette réponse pour comprendre sa",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 160,
+      "fr": "décision.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Pense aussi à ce que la lettre change pour les",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "deux époux.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Quand Charles décide de partir,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "il pense à tout le temps qu'il veut consacrer à la",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 163,
+      "fr": "peinture.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Sa femme, elle, découvre dans la même journée une",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "montagne de choses qui lui laissent à régler.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Ce qui ressemble à un grand geste de liberté pour",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "lui, devient une série de tâches pour elle.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "On peut respecter le désir de quelqu'un et parler",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "des conséquences très concrètes de sa décision.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Ça peut commencer par des questions que le roman",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "laisse à ses lecteurs.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Qui va s'occuper des enfants ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Combien de temps faut-il pour que chacun retrouve",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "un revenu ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Quelle décision aurait dû être prise ensemble ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Il y a des gens qui lèvent les yeux",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "parce qu'ils ont besoin d'un but.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Il y a des gens qui ramassent la pièce",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "parce que leur façon d'aimer passe par des choses",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "dont ils prennent soin chaque jour.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Et parfois, tu feras les deux dans la même",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "semaine.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "La question que je garde de cette partie du",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "livre est très simple.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Est-ce que je sais pourquoi je donne mon temps",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "à cette chose aujourd'hui ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Si tu sais à quoi elle sert dans ta vie,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "tu pourras expliquer ton choix sans demander à",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "tout le monde de faire le même.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Et tu pourras regarder le choix des autres avec",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "un peu plus de curiosité.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Le regard que tu portes sur la vie décide",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "enfin de la manière dont tu traites les autres.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Et c'est ici que j'aimerais te parler de Dirk",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 163,
+      "fr": "Streuve.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "C'est un peintre hollandais qui vit à Paris.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Il n'a pas, aux yeux du narrateur,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "un grand talent pour peindre.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Pourtant, quand il regarde un tableau,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 267,
+      "fr": "il voit des choses que des peintres plus sur",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "deux ne remarquent pas.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "Il reconnaît très tôt la force du travail de",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 160,
+      "fr": "Strickland.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Les autres peuvent se moquer de l'homme ou de ses",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 170,
+      "fr": "toiles.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Dirk, lui, a assez confiance dans ce qu'il voit",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "pour rester près de lui.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Un peintre peut passer sa vie à apprendre à",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "faire de beaux tableaux et avoir du mal à",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "reconnaître la beauté dans le travail de quelqu'un",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 160,
+      "fr": "d'autre.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Dirk voit cette beauté alors que personne ne peut",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "encore lui dire qu'il a raison.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Il voit aussi un homme malade qui a besoin d'aide.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Quand Strickland tombe gravement malade,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Dirk veut l'accueillir chez lui et le soigner.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Blanche, sa femme, s'y oppose.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Il insiste.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Dans sa manière de voir,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 267,
+      "fr": "laisser quelqu'un dans cet état est plus difficile",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "que lui ouvrir la porte.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "Ce choix lui coûte cher.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Lorsque Strickland va mieux, Blanche quitte Dirk",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "pour lui.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Dirk souffre, puis finit par leur laisser",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "l'atelier où il travaillait.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 286,
+      "fr": "Ce qui me frappe, c'est ce qu'il espère encore",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "alors que lui-même vient de perdre sa place.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Il voudrait que Blanche soit heureuse.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Pendant ce temps, Strickland pense surtout à",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 160,
+      "fr": "peindre.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "L'un accepte de perdre quelque chose pour donner à",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "une autre personne ce qu'elle demande.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "L'autre accepte très vite que les gens s'éloignent",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "dès qu'il ne veut plus de leur présence.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Pour Blanche, vivre auprès de Strickland a un sens",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "que lui-même ne partage pas.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Elle semble prête à payer le prix du jugement",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "des autres pour être avec l'homme qu'elle désire.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Elle attend de cet amour une présence,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "une vie que l'on partage.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Chez Strickland, le travail reprend toute la place",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "et la relation se termine.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "Blanche meurt peu après.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Cette partie du livre est douloureuse.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Et quand j'entends dire que les deux n'avaient",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "simplement pas les mêmes priorités,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "j'ai envie de poser une autre question.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Quand tu sais que quelqu'un attend de toi une",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "chose que tu ne veux pas lui donner,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "à quel moment le lui dis-tu ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Les gens peuvent vouloir des vies différentes et",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "se parler assez tôt pour que chacun puisse choisir",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "avec les mêmes informations.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Il reste une chose difficile à comprendre chez",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "Dirk.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Même après la mort de Blanche,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "il peut encore voir le talent de Strickland.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Il va jusqu'à lui proposer de venir avec lui en",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "Hollande.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "Strickland refuse.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Le lecteur peut regarder ce geste et penser que",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "Dirk devrait se protéger.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "Ou il peut se demander comment cet homme arrive",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "à garder une telle générosité après ce qu'il a",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "vécu.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Les deux réactions ont du sens.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Si on se met à la place de Dirk,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "il faut tenir ensemble la peine qu'il ressent et",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "l'admiration qu'il n'a jamais perdue.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Ce qui me touche chez lui,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "c'est qu'il donne souvent sans attendre que",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "l'autre lui rende quelque chose.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Pourtant, si un ami agissait comme lui,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "je lui demanderais s'il a encore la possibilité de",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "dire non.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Il y a un monde entre offrir une chambre",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "pour quelques jours et laisser quelqu'un décider à",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "ta place de ce qui se passe chez toi.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Dans les deux cas, tu peux avoir envie d'aider.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Dans les deux cas, tu peux aussi écouter la",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "personne qui vit avec toi et demander quel effet",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 170,
+      "fr": "ce choix aura sur elle.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "C'est une façon de prendre soin des autres qui",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "ne se voient pas toujours parce qu'elles",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "commencent parfois par une conversation difficile.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Je trouve également que Dirk oblige à repenser ce",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "qu'on admire.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Quand un peintre est reconnu,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "on retient son nom.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "On parle de la force qui lui a fallu",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "pour continuer et des années pendant lesquelles",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "personne ne comprenait ce qu'il faisait.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Qui se souvient de la personne qui a reconnu",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "ses tableaux la première ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Qui se souvient de celle qui lui a donné",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "un lit quand il était malade ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Le roman donne une grande place au désir de",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 160,
+      "fr": "Strickland.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Moi, il me reste aussi l'image de Dirk qui ouvre",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 400,
+      "fr": "sa porte.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Une vie peut avoir beaucoup de valeur à cause",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "des gestes qui ont permis à quelqu'un d'autre de",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "continuer.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "Il y a un mot courant en français qui",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "me vient quand je pense à ce personnage.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "\"Rendre service\".",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "C'est faire quelque chose pour aider quelqu'un.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "On peut rendre service en prêtant de l'argent,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "en offrant un endroit où dormir ou en prenant",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "simplement le temps de regarder le travail de",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "quelqu'un avec attention.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Dirk fait tout cela avec le sentiment que ses",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "gestes comptent.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "Strickland paraît souvent prendre ce qu'on lui",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "offre comme si le reste allait de soi.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Regarde les deux hommes à partir de ce mot",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "et demande-toi lequel des deux tu voudrais avoir",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "près de toi un jour où tu as besoin d'aide.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "La réponse te dira peut-être autre chose que le",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "nom de celui dont tu voudrais voir les tableaux.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Et c'est aussi là que je trouve la formule du",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "début intéressante.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Ta manière de voir le monde change ce que",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "tu remarques chez les gens.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "Si tout ce qui compte pour toi est de finir ton",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "travail, tu risques de regarder une personne",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "seulement au moment où elle t'aide ou te gêne.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Si tu attaches de l'importance à ce que les autres",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "vivent, tu vas peut-être entendre la question",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "qu'il n'ose pas poser.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Ce regard se voit dans des actions précises.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Est-ce que tu préviens quelqu'un quand tes projets",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "changent ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Est-ce que tu écoutes sa réponse jusqu'au bout ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Si tu l'aides, est-ce que tu lui demandes ce",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "qui lui serait vraiment utile ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "C'est là que tes idées sur la vie commencent",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "à changer la vie de quelqu'un d'autre.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "Comment vivre alors avec le moins de regrets",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 170,
+      "fr": "possibles ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "En refermant le livre, je reviens à la personne",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "qui voyait une promesse de liberté dans la cabane",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "de taureau, puis à celle qui se demandait qui",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "prendrait soin de ses proches.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "L'une pose une question qu'on peut éviter pendant",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 170,
+      "fr": "des années.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "Quelle vie ai-je vraiment envie de vivre ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "L'autre pose une question qu'on peut oublier au",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "moment où l'on trouve enfin une réponse.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "Qui aura besoin de savoir ce que je veux faire ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Je crois qu'on peut se donner le temps de répondre",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 170,
+      "fr": "aux deux.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Tu n'as pas à vivre pour recevoir l'accord de",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "tous les gens qui t'entourent.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Certains te demanderont de garder un travail que",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "tu aimerais quitter.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "D'autres te diront que tu manques de courage parce",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "que tu choisis de rester.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Toi, tu connais des détails qu'ils ne voient pas.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Prends le temps de nommer ce qui te tient à cœur,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "puis regarde ce que ce choix demande à toi",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "et aux personnes qui comptent sur toi.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "La liberté peut commencer dans cette conversation.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Tu as le droit d'y dire ce que tu veux.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Les autres ont le droit de te dire ce",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "que ça change pour eux.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Si tu repenses à la Lune et à la",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Pièce après cet épisode, demande-toi ce que",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "chacune représente aujourd'hui pour toi.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "La Lune pourrait être quelque chose que tu vas",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "apprendre depuis longtemps.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "La Pièce pourrait être le moyen de protéger ce",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "qui rend déjà ta vie bonne.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Pour quelqu'un d'autre, les réponses seront",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "différentes, et les tiennes peuvent changer dans",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "dix ans.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "C'est une des raisons pour lesquelles je",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "recommanderai ce roman.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Il donne des mots à une question que tu",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "peux te poser à plusieurs moments d'une vie,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "en sachant que tu n'y répondras peut-être jamais",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "deux fois de la même manière.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "Si tu veux poursuivre la conversation,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "laisse-moi une phrase en français.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Tu peux commencer par \"En ce moment,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "ma Lune sait\" ou par \"Ce que je veux protéger",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "sait\".",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Et si tu as pensé à quelqu'un en écoutant,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "tu peux partager cet épisode avec elle et lui",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "poser la même question.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Abonne-toi à Cozy French Books si tu veux lire",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "un autre livre avec moi.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Merci d'avoir passé ce moment ici,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "je suis Déa, à très bientôt !",
+      "en": ""
+    }
+  ],
+  "vocab": []
+}

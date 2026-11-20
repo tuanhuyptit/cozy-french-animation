@@ -52,6 +52,18 @@ Khung một tập (giữ nhịp đổi cảnh ~20–60 s):
 - `VOCAB`: ~1 từ / 1,5 phút (tập 20 phút ≈ 12–15), B1–B2, cách nhau ≥ 15 s, `phrase` = đúng các chữ trong đoạn đó, câu ví dụ **mới** + dịch. IPA: `cd cozy-ep01 && node tools/vocab-help.mjs ipa "…"` hoặc tự viết.
 - Thẻ từ hiện góc trên phải; tag/bong bóng/note trong trang tranh tránh vùng đó (x > 1300, y 150–550) lúc có thẻ.
 
+### Ảnh thật — `PHOTOS` trong plan.mjs (mỗi tập nên có ~1 ảnh / phút)
+
+Tìm ảnh **được phép dùng thương mại**: Wikimedia Commons (public domain/CC0/CC BY: chân dung tác giả, trang tên sách cũ, tranh cổ điển, ảnh lịch sử Library of Congress, NASA), Flickr CC qua Openverse API. Không lấy ảnh Google/Bing không rõ giấy phép; tránh CC BY-SA/ND. API Commons giới hạn tốc độ → nghỉ 5–12 s giữa các lần gọi, User-Agent chung chung.
+```bash
+mkdir -p books/epNN/assets/photos/src            # bản gốc ở src/, bản dùng ở assets/photos/
+npx --yes hyperframes@0.9.16 remove-background src/x.jpg -o x.png      # tách nền đồ vật, chân dung
+ffmpeg -i x.png -vf "scale='min(700,iw)':-1" x.png ; ảnh in: jpg ≤ 1000 px, -q:v 4
+```
+- `.png` = sticker viền trắng (đồ vật, người); `.jpg` = ảnh in dán băng keo (phong cảnh, tranh, trang sách). Xem ảnh đã tách trên nền hồng trước khi dùng — tách hỏng thì dùng bản `.jpg`.
+- `{ c, until?, src, x, y, w?, rot?, cap?, sub? }`: tránh thẻ từ (góc trên phải lúc đang hiện), phụ đề (y > 760), nhãn kênh góc trên trái của `nook` (y ≥ 165), bản đồ góc trên trái của `page`.
+- Ghi từng ảnh vào `assets/photos/CREDITS.md`; ảnh CC BY → dòng "Photo credits" trong mô tả YouTube (trước khối nhạc).
+
 ## 4. Trang tranh — `books/epNN/art.mjs`
 
 ```js
@@ -112,6 +124,7 @@ Kiểm cả hai file bằng `ffprobe` (thời lượng, 2560×1440, có audio).
 node tools/youtube-seo.mjs books/epNN     # ở gốc repo → books/epNN/youtube/{outline.txt, vocab.md, captions.fr.srt, captions.en.srt}
 ```
 Viết `books/epNN/youtube-seo.md` theo mẫu `books/ep01/youtube-seo.md`: 3 tiêu đề ≤ 100 ký tự (tên sách + tác giả + "Slow French" + B1–B2), mô tả (câu mở về câu hỏi của tập, tóm tắt hành trình, ✔ lợi ích, chương = mốc đổi cảnh/chương, 📚 từ vựng, câu bình luận mẫu từ cuối tập, link đăng ký `@TheCozyFrench`, một dòng nguồn sách "personal review… illustrations are original", 3 hashtag), tags ≤ 500 ký tự.
+Nếu tập có ảnh CC BY: chép khối "Photo credits" trong `assets/photos/CREDITS.md` vào mô tả, **ngay trước** khối nhạc.
 **Mô tả phải kết thúc bằng khối ghi công nhạc**, chép nguyên văn `books/assets/music/CREDIT.txt`:
 ```
 "Meditation Impromptu 03" by Kevin MacLeod is licensed under Creative Commons Attribution 4.0. https://creativecommons.org/licenses/by/4.0/

@@ -1,0 +1,2672 @@
+[
+ {
+  "i": 0,
+  "s": 0.1,
+  "fr": "Devant toi, il y a une pièce"
+ },
+ {
+  "i": 1,
+  "s": 2.32,
+  "fr": "de monnaie sur le sol."
+ },
+ {
+  "i": 2,
+  "s": 5.28,
+  "fr": "Au-dessus de toi, il y a la lune."
+ },
+ {
+  "i": 3,
+  "s": 8.86,
+  "fr": "Où vas-tu regarder ?"
+ },
+ {
+  "i": 4,
+  "s": 11.36,
+  "fr": "Si tu te promènes le soir,"
+ },
+ {
+  "i": 5,
+  "s": 12.92,
+  "fr": "tu lèveras peut-être les yeux."
+ },
+ {
+  "i": 6,
+  "s": 15.24,
+  "fr": "Si tu as juste assez d'argent pour manger,"
+ },
+ {
+  "i": 7,
+  "s": 17.5,
+  "fr": "tu ramasseras peut-être la pièce."
+ },
+ {
+  "i": 8,
+  "s": 20.2,
+  "fr": "Et si, pendant des années, tu as regardé par terre"
+ },
+ {
+  "i": 9,
+  "s": 23.32,
+  "fr": "parce qu'on t'a appris que c'était la seule"
+ },
+ {
+  "i": 10,
+  "s": 25.87,
+  "fr": "chose sérieuse à faire, est-ce que tu te souviens"
+ },
+ {
+  "i": 11,
+  "s": 29.04,
+  "fr": "encore de ce que tu cherchais là-haut ?"
+ },
+ {
+  "i": 12,
+  "s": 31.82,
+  "fr": "Cette question me fait penser à Walden,"
+ },
+ {
+  "i": 13,
+  "s": 34.08,
+  "fr": "le livre dans lequel Henry David Thoreau raconte"
+ },
+ {
+  "i": 14,
+  "s": 37.04,
+  "fr": "sa vie dans une petite cabane près d'un étang."
+ },
+ {
+  "i": 15,
+  "s": 40.16,
+  "fr": "Le même récit peut provoquer"
+ },
+ {
+  "i": 16,
+  "s": 42,
+  "fr": "deux réactions très différentes."
+ },
+ {
+  "i": 17,
+  "s": 44.46,
+  "fr": "Quelqu'un écoute et dit que vivre"
+ },
+ {
+  "i": 18,
+  "s": 46.79,
+  "fr": "seul au bord de l'eau serait un rêve."
+ },
+ {
+  "i": 19,
+  "s": 49.3,
+  "fr": "Enfin du temps pour lire,"
+ },
+ {
+  "i": 20,
+  "s": 51.29,
+  "fr": "marcher et entendre ses propres pensées."
+ },
+ {
+  "i": 21,
+  "s": 54.74,
+  "fr": "Quelqu'un d'autre pose une question très simple."
+ },
+ {
+  "i": 22,
+  "s": 57.68,
+  "fr": "Si je fais ça,"
+ },
+ {
+  "i": 23,
+  "s": 59.19,
+  "fr": "qui s'occupera des gens qui comptent sur moi ?"
+ },
+ {
+  "i": 24,
+  "s": 62.1,
+  "fr": "L'un regarde le temps que cette"
+ },
+ {
+  "i": 25,
+  "s": 63.84,
+  "fr": "décision pourrait lui rendre."
+ },
+ {
+  "i": 26,
+  "s": 65.82,
+  "fr": "L'autre pense à ceux"
+ },
+ {
+  "i": 27,
+  "s": 67.46,
+  "fr": "avec qui il partage déjà ce temps."
+ },
+ {
+  "i": 28,
+  "s": 70.46,
+  "fr": "On leur a raconté la même histoire."
+ },
+ {
+  "i": 29,
+  "s": 72.82,
+  "fr": "Ils ont entendu deux questions différentes."
+ },
+ {
+  "i": 30,
+  "s": 76.02,
+  "fr": "Bonjour et bienvenue dans Cozy French Books."
+ },
+ {
+  "i": 31,
+  "s": 78.42,
+  "fr": "Je suis Léa."
+ },
+ {
+  "i": 32,
+  "s": 79.64,
+  "fr": "Ici, on découvre des livres ensemble"
+ },
+ {
+  "i": 33,
+  "s": 81.97,
+  "fr": "et on pratique le français à son rythme."
+ },
+ {
+  "i": 34,
+  "s": 84.78,
+  "fr": "Au fil de l'histoire,"
+ },
+ {
+  "i": 35,
+  "s": 86.22,
+  "fr": "tu entendras des mots et des expressions"
+ },
+ {
+  "i": 36,
+  "s": 88.17,
+  "fr": "que tu pourras reprendre au quotidien."
+ },
+ {
+  "i": 37,
+  "s": 90.74,
+  "fr": "Si tu aimes apprendre le français de cette façon,"
+ },
+ {
+  "i": 38,
+  "s": 93.36,
+  "fr": "abonne-toi pour retrouver les prochains épisodes."
+ },
+ {
+  "i": 39,
+  "s": 96.24,
+  "fr": "Aujourd'hui, on parle de The Moon and Sixpence,"
+ },
+ {
+  "i": 40,
+  "s": 99.86,
+  "fr": "un roman de William Somerset Maugham que l'on"
+ },
+ {
+  "i": 41,
+  "s": 103.3,
+  "fr": "trouve en français sous le titre L'Envoûté."
+ },
+ {
+  "i": 42,
+  "s": 106.6,
+  "fr": "Le titre anglais réunit la lune et une pièce"
+ },
+ {
+  "i": 43,
+  "s": 109.92,
+  "fr": "de sixpence, une petite pièce de monnaie."
+ },
+ {
+  "i": 44,
+  "s": 113.34,
+  "fr": "Pour notre lecture, la lune,"
+ },
+ {
+  "i": 45,
+  "s": 115.47,
+  "fr": "ce sera l'idéal qu'on veut atteindre."
+ },
+ {
+  "i": 46,
+  "s": 118.2,
+  "fr": "La pièce, ce sera ce qui nous permet de vivre,"
+ },
+ {
+  "i": 47,
+  "s": 121.47,
+  "fr": "de payer les choses dont on a"
+ },
+ {
+  "i": 48,
+  "s": 123.66,
+  "fr": "besoin et de tenir nos engagements."
+ },
+ {
+  "i": 49,
+  "s": 126.06,
+  "fr": "J'aimerais qu'on parte de cette idée."
+ },
+ {
+  "i": 50,
+  "s": 128.1,
+  "fr": "Ta façon de voir la vie change ce que tu poursuis,"
+ },
+ {
+  "i": 51,
+  "s": 131.42,
+  "fr": "ce que tu mets en premier et la manière"
+ },
+ {
+  "i": 52,
+  "s": 133.82,
+  "fr": "dont tu traites les autres."
+ },
+ {
+  "i": 53,
+  "s": 135.9,
+  "fr": "Ce que j'aime dans ce roman, c'est qu'il"
+ },
+ {
+  "i": 54,
+  "s": 137.87,
+  "fr": "nous donne plusieurs personnes à regarder."
+ },
+ {
+  "i": 55,
+  "s": 140.42,
+  "fr": "Tourne-toi vers l'homme qui lève les yeux vers"
+ },
+ {
+  "i": 56,
+  "s": 142.86,
+  "fr": "la lune et tu verras une histoire de liberté."
+ },
+ {
+  "i": 57,
+  "s": 146.14,
+  "fr": "Tourne-toi vers les gens qui doivent"
+ },
+ {
+  "i": 58,
+  "s": 148.13,
+  "fr": "s'occuper de ce qu'il laisse derrière lui"
+ },
+ {
+  "i": 59,
+  "s": 150.46,
+  "fr": "et tu verras le prix de cette liberté."
+ },
+ {
+  "i": 60,
+  "s": 153.38,
+  "fr": "Entre les deux,"
+ },
+ {
+  "i": 61,
+  "s": 154.43,
+  "fr": "il y a aussi quelqu'un qui choisit d'aider."
+ },
+ {
+  "i": 62,
+  "s": 157.34,
+  "fr": "C'est à partir de ces trois"
+ },
+ {
+  "i": 63,
+  "s": 158.94,
+  "fr": "regards que le roman m'intéresse."
+ },
+ {
+  "i": 64,
+  "s": 161.44,
+  "fr": "La façon dont tu vois la réussite décide"
+ },
+ {
+  "i": 65,
+  "s": 163.94,
+  "fr": "souvent de la vie que tu essaies de construire."
+ },
+ {
+  "i": 66,
+  "s": 167.26,
+  "fr": "Charles Strickland, le personnage principal,"
+ },
+ {
+  "i": 67,
+  "s": 170.07,
+  "fr": "pourrait servir d'exemple"
+ },
+ {
+  "i": 68,
+  "s": 171.77,
+  "fr": "dans une conversation sur la réussite."
+ },
+ {
+  "i": 69,
+  "s": 174.42,
+  "fr": "Il travaille à Londres dans la finance."
+ },
+ {
+  "i": 70,
+  "s": 177.22,
+  "fr": "Il gagne de quoi faire vivre sa famille."
+ },
+ {
+  "i": 71,
+  "s": 180.06,
+  "fr": "Il a une femme,"
+ },
+ {
+  "i": 72,
+  "s": 181.57,
+  "fr": "deux enfants et une vie qui semble bien en place."
+ },
+ {
+  "i": 73,
+  "s": 185.06,
+  "fr": "Si tu demandais à ses proches ce qu'il"
+ },
+ {
+  "i": 74,
+  "s": 186.93,
+  "fr": "devrait faire dans les dix prochaines années,"
+ },
+ {
+  "i": 75,
+  "s": 189.52,
+  "fr": "beaucoup diraient sans doute"
+ },
+ {
+  "i": 76,
+  "s": 190.96,
+  "fr": "qu'il devrait continuer comme ça."
+ },
+ {
+  "i": 77,
+  "s": 192.98,
+  "fr": "Pourquoi changer une vie dans laquelle"
+ },
+ {
+  "i": 78,
+  "s": 195.24,
+  "fr": "tant de choses vont bien ?"
+ },
+ {
+  "i": 79,
+  "s": 196.86,
+  "fr": "Un jour, alors qu'il a une quarantaine d'années,"
+ },
+ {
+  "i": 80,
+  "s": 199.58,
+  "fr": "il laisse une courte lettre"
+ },
+ {
+  "i": 81,
+  "s": 201.56,
+  "fr": "à sa femme et part à Paris."
+ },
+ {
+  "i": 82,
+  "s": 203.58,
+  "fr": "Les gens qui le connaissent"
+ },
+ {
+  "i": 83,
+  "s": 205.13,
+  "fr": "cherchent aussitôt une explication."
+ },
+ {
+  "i": 84,
+  "s": 207.5,
+  "fr": "Quand un homme laisse sa famille"
+ },
+ {
+  "i": 85,
+  "s": 209.35,
+  "fr": "et part seul dans une autre ville,"
+ },
+ {
+  "i": 86,
+  "s": 211.42,
+  "fr": "on s'attend à ce qu'il soit parti pour quelqu'un."
+ },
+ {
+  "i": 87,
+  "s": 214.56,
+  "fr": "Le narrateur, qui va le voir à Paris,"
+ },
+ {
+  "i": 88,
+  "s": 216.76,
+  "fr": "trouve un homme qui vit avec très peu"
+ },
+ {
+  "i": 89,
+  "s": 218.96,
+  "fr": "d'argent et veut peindre."
+ },
+ {
+  "i": 90,
+  "s": 220.86,
+  "fr": "Il y a quelque chose de presque comique"
+ },
+ {
+  "i": 91,
+  "s": 222.98,
+  "fr": "dans le décalage entre l'explication"
+ },
+ {
+  "i": 92,
+  "s": 225.06,
+  "fr": "que tout le monde attend et celle"
+ },
+ {
+  "i": 93,
+  "s": 226.98,
+  "fr": "que Strickland finit par donner."
+ },
+ {
+  "i": 94,
+  "s": 229.34,
+  "fr": "On lui demande, en somme, où est la femme."
+ },
+ {
+  "i": 95,
+  "s": 232.74,
+  "fr": "Lui pense déjà à sa peinture."
+ },
+ {
+  "i": 96,
+  "s": 235.74,
+  "fr": "Regarde maintenant les deux reproches qu'on"
+ },
+ {
+  "i": 97,
+  "s": 238.41,
+  "fr": "pourrait lui faire au sujet de ce choix."
+ },
+ {
+  "i": 98,
+  "s": 241.08,
+  "fr": "Le premier, c'est qu'il abandonne une vie"
+ },
+ {
+  "i": 99,
+  "s": 243.67,
+  "fr": "confortable pour vivre avec très peu."
+ },
+ {
+  "i": 100,
+  "s": 246.42,
+  "fr": "Le deuxième, c'est qu'il commence tard et qu'il"
+ },
+ {
+  "i": 101,
+  "s": 249.6,
+  "fr": "n'a aucune garantie de devenir un bon peintre."
+ },
+ {
+  "i": 102,
+  "s": 253.06,
+  "fr": "Les deux remarques sont raisonnables."
+ },
+ {
+  "i": 103,
+  "s": 255.46,
+  "fr": "Si tu lui donnais un conseil de carrière,"
+ },
+ {
+  "i": 104,
+  "s": 257.9,
+  "fr": "tu lui demanderais combien"
+ },
+ {
+  "i": 105,
+  "s": 259.65,
+  "fr": "de temps il peut vivre comme ça."
+ },
+ {
+  "i": 106,
+  "s": 261.86,
+  "fr": "Tu lui conseillerais probablement"
+ },
+ {
+  "i": 107,
+  "s": 263.93,
+  "fr": "de garder son travail et de peindre"
+ },
+ {
+  "i": 108,
+  "s": 266.02,
+  "fr": "à côté pour voir ce que ça donne."
+ },
+ {
+  "i": 109,
+  "s": 268.44,
+  "fr": "Pour quelqu'un qui veut surtout protéger"
+ },
+ {
+  "i": 110,
+  "s": 270.66,
+  "fr": "une vie déjà construite, le départ"
+ },
+ {
+  "i": 111,
+  "s": 272.79,
+  "fr": "de Strickland est difficile à comprendre."
+ },
+ {
+  "i": 112,
+  "s": 275.94,
+  "fr": "Lui regarde la situation"
+ },
+ {
+  "i": 113,
+  "s": 277.64,
+  "fr": "à partir d'une autre question."
+ },
+ {
+  "i": 114,
+  "s": 279.94,
+  "fr": "Est-ce qu'il peut encore mener sa vie"
+ },
+ {
+  "i": 115,
+  "s": 282.12,
+  "fr": "sans faire de place à la peinture ?"
+ },
+ {
+  "i": 116,
+  "s": 284.34,
+  "fr": "Maugham lui fait prendre une image très simple."
+ },
+ {
+  "i": 117,
+  "s": 287.54,
+  "fr": "Lorsqu'une personne tombe à l'eau, elle essaie"
+ },
+ {
+  "i": 118,
+  "s": 290.29,
+  "fr": "de rester à la surface avec les moyens qu'elle a."
+ },
+ {
+  "i": 119,
+  "s": 293.54,
+  "fr": "La question de savoir si"
+ },
+ {
+  "i": 120,
+  "s": 295.24,
+  "fr": "elle nage bien viendra après."
+ },
+ {
+  "i": 121,
+  "s": 297.68,
+  "fr": "Pour Strickland, la peinture a"
+ },
+ {
+  "i": 122,
+  "s": 299.53,
+  "fr": "quelque chose de cette urgence."
+ },
+ {
+  "i": 123,
+  "s": 301.74,
+  "fr": "Il sent qu'il doit commencer,"
+ },
+ {
+  "i": 124,
+  "s": 303.73,
+  "fr": "bien avant de savoir s'il a le talent nécessaire."
+ },
+ {
+  "i": 125,
+  "s": 307.34,
+  "fr": "Cette image ne dit pas encore"
+ },
+ {
+  "i": 126,
+  "s": 309.2,
+  "fr": "ce qu'il doit à sa famille."
+ },
+ {
+  "i": 127,
+  "s": 311.14,
+  "fr": "Elle explique pourquoi les arguments"
+ },
+ {
+  "i": 128,
+  "s": 313.3,
+  "fr": "sur son âge et ses chances de succès"
+ },
+ {
+  "i": 129,
+  "s": 315.54,
+  "fr": "ne suffisent pas à le faire rentrer."
+ },
+ {
+  "i": 130,
+  "s": 317.74,
+  "fr": "Alors je te pose la question à toi."
+ },
+ {
+  "i": 131,
+  "s": 321.14,
+  "fr": "Quelle condition crois-tu devoir remplir"
+ },
+ {
+  "i": 132,
+  "s": 324.12,
+  "fr": "avant de faire une chose qui compte ?"
+ },
+ {
+  "i": 133,
+  "s": 326.88,
+  "fr": "Il faut que je sois plus jeune."
+ },
+ {
+  "i": 134,
+  "s": 328.74,
+  "fr": "Il faut que je sois déjà bon."
+ },
+ {
+  "i": 135,
+  "s": 330.74,
+  "fr": "Il faut que quelqu'un me dise"
+ },
+ {
+  "i": 136,
+  "s": 332.73,
+  "fr": "que j'ai raison d'essayer."
+ },
+ {
+  "i": 137,
+  "s": 334.74,
+  "fr": "Tu peux passer beaucoup de temps"
+ },
+ {
+  "i": 138,
+  "s": 336.87,
+  "fr": "à attendre ce dernier signe."
+ },
+ {
+  "i": 139,
+  "s": 338.74,
+  "fr": "Et il y a des choses sur lesquelles les autres"
+ },
+ {
+  "i": 140,
+  "s": 341.21,
+  "fr": "pourront te donner un avis très précis."
+ },
+ {
+  "i": 141,
+  "s": 343.74,
+  "fr": "Ils pourront te parler du coût,"
+ },
+ {
+  "i": 142,
+  "s": 345.81,
+  "fr": "du temps ou des difficultés."
+ },
+ {
+  "i": 143,
+  "s": 347.74,
+  "fr": "La place que cette envie occupe dans ta vie,"
+ },
+ {
+  "i": 144,
+  "s": 350.74,
+  "fr": "c'est surtout toi qui peux la connaître."
+ },
+ {
+  "i": 145,
+  "s": 353.86,
+  "fr": "Il y a un détail qui rend Strickland"
+ },
+ {
+  "i": 146,
+  "s": 355.54,
+  "fr": "plus difficile à comprendre."
+ },
+ {
+  "i": 147,
+  "s": 357.34,
+  "fr": "Il semble peu intéressé par les signes"
+ },
+ {
+  "i": 148,
+  "s": 359.59,
+  "fr": "de réussite qu'on attache à un artiste."
+ },
+ {
+  "i": 149,
+  "s": 362.14,
+  "fr": "Il vit avec le minimum et fait"
+ },
+ {
+  "i": 150,
+  "s": 364.13,
+  "fr": "passer son travail avant son confort."
+ },
+ {
+  "i": 151,
+  "s": 366.94,
+  "fr": "S'il gagne un peu, il peut recommencer à peindre."
+ },
+ {
+  "i": 152,
+  "s": 370.14,
+  "fr": "Il est prêt à passer longtemps dans une pièce"
+ },
+ {
+  "i": 153,
+  "s": 372.63,
+  "fr": "avec ses couleurs, alors que les gens"
+ },
+ {
+  "i": 154,
+  "s": 374.58,
+  "fr": "qui lui donnaient une bonne place"
+ },
+ {
+  "i": 155,
+  "s": 376.15,
+  "fr": "dans la société le trouvent désormais ridicule."
+ },
+ {
+  "i": 156,
+  "s": 379.68,
+  "fr": "Dans la logique qui était celle de son entourage,"
+ },
+ {
+  "i": 157,
+  "s": 382.72,
+  "fr": "il a tout perdu."
+ },
+ {
+  "i": 158,
+  "s": 383.94,
+  "fr": "Si tu regardes ce à quoi il voulait"
+ },
+ {
+  "i": 159,
+  "s": 385.76,
+  "fr": "donner ses journées, tu vois pourquoi"
+ },
+ {
+  "i": 160,
+  "s": 387.96,
+  "fr": "il pense avoir gagné quelque chose."
+ },
+ {
+  "i": 161,
+  "s": 390.34,
+  "fr": "Ça nous ramène aux deux objets du titre."
+ },
+ {
+  "i": 162,
+  "s": 393.14,
+  "fr": "La lune est facile à regarder"
+ },
+ {
+  "i": 163,
+  "s": 394.96,
+  "fr": "quand tu as déjà de quoi manger."
+ },
+ {
+  "i": 164,
+  "s": 396.94,
+  "fr": "Et une petite pièce peut prendre"
+ },
+ {
+  "i": 165,
+  "s": 398.74,
+  "fr": "une grande place dans ta vie quand"
+ },
+ {
+  "i": 166,
+  "s": 400.77,
+  "fr": "il en manque une pour payer le dîner."
+ },
+ {
+  "i": 167,
+  "s": 403.54,
+  "fr": "J'ai envie de garder cette réalité en tête,"
+ },
+ {
+  "i": 168,
+  "s": 406.08,
+  "fr": "parce que le roman devient plus intéressant"
+ },
+ {
+  "i": 169,
+  "s": 408.46,
+  "fr": "quand les deux objets comptent."
+ },
+ {
+  "i": 170,
+  "s": 410.54,
+  "fr": "Tu peux tenir à un salaire parce qu'il"
+ },
+ {
+  "i": 171,
+  "s": 412.99,
+  "fr": "te permet de prendre soin de quelqu'un."
+ },
+ {
+  "i": 172,
+  "s": 415.34,
+  "fr": "Tu peux aussi sentir que tu as passé si"
+ },
+ {
+  "i": 173,
+  "s": 417.33,
+  "fr": "longtemps à chercher un revenu plus sûr"
+ },
+ {
+  "i": 174,
+  "s": 419.94,
+  "fr": "ou une place plus respectée que tu as oublié"
+ },
+ {
+  "i": 175,
+  "s": 423.34,
+  "fr": "à quoi cette sécurité devait te servir."
+ },
+ {
+  "i": 176,
+  "s": 426.74,
+  "fr": "Les deux désirs peuvent exister"
+ },
+ {
+  "i": 177,
+  "s": 429,
+  "fr": "chez la même personne, le même jour."
+ },
+ {
+  "i": 178,
+  "s": 431.68,
+  "fr": "Quand tu dis qu'une décision est folle,"
+ },
+ {
+  "i": 179,
+  "s": 434.05,
+  "fr": "pose-toi une autre question."
+ },
+ {
+  "i": 180,
+  "s": 435.94,
+  "fr": "Qu'est-ce que je suis en train de mesurer ?"
+ },
+ {
+  "i": 181,
+  "s": 438.54,
+  "fr": "Si je mesure le revenu,"
+ },
+ {
+  "i": 182,
+  "s": 440.14,
+  "fr": "je comprends mal le choix de Strickland."
+ },
+ {
+  "i": 183,
+  "s": 442.74,
+  "fr": "Si je mesure le temps qu'il peut passer à peindre,"
+ },
+ {
+  "i": 184,
+  "s": 445.34,
+  "fr": "je comprends beaucoup mieux pourquoi il l'a fait."
+ },
+ {
+  "i": 185,
+  "s": 448.54,
+  "fr": "Dès que j'ajoute la situation de sa femme"
+ },
+ {
+  "i": 186,
+  "s": 450.93,
+  "fr": "et de ses enfants, la question change encore."
+ },
+ {
+  "i": 187,
+  "s": 454.54,
+  "fr": "On peut comprendre l'urgence de peindre"
+ },
+ {
+  "i": 188,
+  "s": 457.08,
+  "fr": "et se demander ce qu'un homme aurait"
+ },
+ {
+  "i": 189,
+  "s": 459.04,
+  "fr": "pu faire pour que sa famille ait,"
+ },
+ {
+  "i": 190,
+  "s": 460.86,
+  "fr": "elle aussi, la possibilité de décider."
+ },
+ {
+  "i": 191,
+  "s": 463.94,
+  "fr": "Et peut-être qu'il y a déjà"
+ },
+ {
+  "i": 192,
+  "s": 465.51,
+  "fr": "une petite réponse pour toi ici."
+ },
+ {
+  "i": 193,
+  "s": 467.74,
+  "fr": "Tu peux commencer à prendre au sérieux"
+ },
+ {
+  "i": 194,
+  "s": 470.12,
+  "fr": "ce qui t'attire et réfléchir aussi"
+ },
+ {
+  "i": 195,
+  "s": 472.7,
+  "fr": "à la façon de lui faire une place."
+ },
+ {
+  "i": 196,
+  "s": 475.34,
+  "fr": "Si une chose te tient à cœur,"
+ },
+ {
+  "i": 197,
+  "s": 477.33,
+  "fr": "c'est qu'elle compte beaucoup pour toi."
+ },
+ {
+  "i": 198,
+  "s": 479.94,
+  "fr": "Pour le savoir, regarde ce que tu as encore"
+ },
+ {
+  "i": 199,
+  "s": 482.99,
+  "fr": "envie de faire quand personne ne t'en félicite."
+ },
+ {
+  "i": 200,
+  "s": 486.68,
+  "fr": "Est-ce que tu voudrais passer une partie"
+ },
+ {
+  "i": 201,
+  "s": 488.61,
+  "fr": "de ta journée à apprendre la chose elle-même ?"
+ },
+ {
+  "i": 202,
+  "s": 492.14,
+  "fr": "Est-ce que tu y reviendrais le lendemain,"
+ },
+ {
+  "i": 203,
+  "s": 494.51,
+  "fr": "même si tu en parlais peu autour de toi ?"
+ },
+ {
+  "i": 204,
+  "s": 497.54,
+  "fr": "C'est peut-être là que tu peux voir"
+ },
+ {
+  "i": 205,
+  "s": 499.61,
+  "fr": "à quelle lune tu penses vraiment."
+ },
+ {
+  "i": 206,
+  "s": 501.74,
+  "fr": "Notre regard décide aussi de ce qu'on met"
+ },
+ {
+  "i": 207,
+  "s": 504.21,
+  "fr": "en premier quand la vie nous oblige à choisir."
+ },
+ {
+  "i": 208,
+  "s": 507.54,
+  "fr": "Pour le voir, j'aimerais qu'on revienne à Londres,"
+ },
+ {
+  "i": 209,
+  "s": 510.43,
+  "fr": "auprès de la personne qui reçoit la lettre."
+ },
+ {
+  "i": 210,
+  "s": 513.48,
+  "fr": "La femme de Strickland pensait connaître"
+ },
+ {
+  "i": 211,
+  "s": 515.79,
+  "fr": "l'homme avec qui elle vivait depuis des années."
+ },
+ {
+  "i": 212,
+  "s": 518.74,
+  "fr": "Elle découvre qu'il a fait seul"
+ },
+ {
+  "i": 213,
+  "s": 520.82,
+  "fr": "une grande partie du chemin dans sa tête."
+ },
+ {
+  "i": 214,
+  "s": 523.74,
+  "fr": "Elle doit expliquer son départ,"
+ },
+ {
+  "i": 215,
+  "s": 525.73,
+  "fr": "faire vivre ses enfants et décider"
+ },
+ {
+  "i": 216,
+  "s": 528.14,
+  "fr": "comment elle va gagner de l'argent."
+ },
+ {
+  "i": 217,
+  "s": 530.54,
+  "fr": "Tout cela commence le jour où"
+ },
+ {
+  "i": 218,
+  "s": 532.63,
+  "fr": "son mari lui laisse quelques lignes."
+ },
+ {
+  "i": 219,
+  "s": 535.54,
+  "fr": "Une réaction possible serait de dire qu'elle"
+ },
+ {
+  "i": 220,
+  "s": 538,
+  "fr": "tient trop à ce que les gens pensent d'elle."
+ },
+ {
+  "i": 221,
+  "s": 540.68,
+  "fr": "Elle est sensible à sa place dans la société"
+ },
+ {
+  "i": 222,
+  "s": 543.19,
+  "fr": "et à ce qui se dit autour d'elle."
+ },
+ {
+  "i": 223,
+  "s": 545.34,
+  "fr": "Elle a honte d'être laissée de cette façon."
+ },
+ {
+  "i": 224,
+  "s": 548.34,
+  "fr": "Mais si on s'arrête là,"
+ },
+ {
+  "i": 225,
+  "s": 549.85,
+  "fr": "on passe à côté de l'effort qu'elle fait."
+ },
+ {
+  "i": 226,
+  "s": 552.54,
+  "fr": "La position qu'elle avait lui donnait un cadre."
+ },
+ {
+  "i": 227,
+  "s": 555.94,
+  "fr": "Elle savait comment recevoir les gens"
+ },
+ {
+  "i": 228,
+  "s": 558.32,
+  "fr": "et comment organiser la maison."
+ },
+ {
+  "i": 229,
+  "s": 560.54,
+  "fr": "Quand tout change, elle doit faire quelque chose"
+ },
+ {
+  "i": 230,
+  "s": 563.42,
+  "fr": "que son mari n'a pas pensé à faire pour elle."
+ },
+ {
+  "i": 231,
+  "s": 566.28,
+  "fr": "Elle doit se demander comment"
+ },
+ {
+  "i": 232,
+  "s": 568.13,
+  "fr": "rendre la semaine suivante possible."
+ },
+ {
+  "i": 233,
+  "s": 570.74,
+  "fr": "Elle apprend à taper à la machine"
+ },
+ {
+  "i": 234,
+  "s": 572.74,
+  "fr": "et développe un travail de dactylographie."
+ },
+ {
+  "i": 235,
+  "s": 575.74,
+  "fr": "Ce mot paraît compliqué."
+ },
+ {
+  "i": 236,
+  "s": 577.74,
+  "fr": "Il s'agit de taper des lettres ou d'autres"
+ },
+ {
+  "i": 237,
+  "s": 580.33,
+  "fr": "textes à la machine pour gagner sa vie."
+ },
+ {
+  "i": 238,
+  "s": 582.94,
+  "fr": "Elle change aussi sa façon"
+ },
+ {
+  "i": 239,
+  "s": 584.62,
+  "fr": "de vivre pour réduire ses dépenses."
+ },
+ {
+  "i": 240,
+  "s": 587.14,
+  "fr": "Il faut apprendre,"
+ },
+ {
+  "i": 241,
+  "s": 588.65,
+  "fr": "chercher du travail, faire des comptes."
+ },
+ {
+  "i": 242,
+  "s": 591.54,
+  "fr": "Rien ne change en une soirée."
+ },
+ {
+  "i": 243,
+  "s": 594.08,
+  "fr": "Pourtant, à force de travailler,"
+ },
+ {
+  "i": 244,
+  "s": 596.26,
+  "fr": "elle arrive à reprendre la main."
+ },
+ {
+  "i": 245,
+  "s": 598.54,
+  "fr": "Reprendre la main, ici,"
+ },
+ {
+  "i": 246,
+  "s": 600.8,
+  "fr": "veut dire retrouver la possibilité de décider"
+ },
+ {
+  "i": 247,
+  "s": 604.34,
+  "fr": "dans une situation qui t'avait échappé."
+ },
+ {
+  "i": 248,
+  "s": 606.94,
+  "fr": "Regarde les deux personnes"
+ },
+ {
+  "i": 249,
+  "s": 608.55,
+  "fr": "à ce moment de l'histoire."
+ },
+ {
+  "i": 250,
+  "s": 610.24,
+  "fr": "Lui donne à la peinture"
+ },
+ {
+  "i": 251,
+  "s": 611.75,
+  "fr": "les meilleures heures de sa journée."
+ },
+ {
+  "i": 252,
+  "s": 614.34,
+  "fr": "Elle donne les siennes au travail"
+ },
+ {
+  "i": 253,
+  "s": 616.59,
+  "fr": "qui lui permet de faire vivre sa famille"
+ },
+ {
+  "i": 254,
+  "s": 618.94,
+  "fr": "et de retrouver une place qui compte pour elle."
+ },
+ {
+  "i": 255,
+  "s": 622.07,
+  "fr": "Tu peux croire que l'un"
+ },
+ {
+  "i": 256,
+  "s": 623.17,
+  "fr": "rêve plus grand que l'autre."
+ },
+ {
+  "i": 257,
+  "s": 624.94,
+  "fr": "Tu peux aussi regarder"
+ },
+ {
+  "i": 258,
+  "s": 626.41,
+  "fr": "ce que chacun essaie de construire,"
+ },
+ {
+  "i": 259,
+  "s": 628.34,
+  "fr": "et de quoi cette construction dépend."
+ },
+ {
+  "i": 260,
+  "s": 630.74,
+  "fr": "Quand le roman parle de la femme de Strickland,"
+ },
+ {
+  "i": 261,
+  "s": 633.34,
+  "fr": "je vois quelqu'un qui met sa fierté"
+ },
+ {
+  "i": 262,
+  "s": 634.94,
+  "fr": "dans la possibilité de se tenir debout sans"
+ },
+ {
+  "i": 263,
+  "s": 637.65,
+  "fr": "avoir à attendre le retour de son mari."
+ },
+ {
+  "i": 264,
+  "s": 640.34,
+  "fr": "Pour elle, c'est un projet"
+ },
+ {
+  "i": 265,
+  "s": 641.87,
+  "fr": "qui mérite un effort quotidien."
+ },
+ {
+  "i": 266,
+  "s": 643.94,
+  "fr": "J'aime que les deux trajectoires"
+ },
+ {
+  "i": 267,
+  "s": 645.93,
+  "fr": "posent la même question de deux côtés."
+ },
+ {
+  "i": 268,
+  "s": 648.48,
+  "fr": "Qu'est-ce que tu fais quand ce qui compte"
+ },
+ {
+  "i": 269,
+  "s": 650.87,
+  "fr": "pour toi demande du temps et que ce temps"
+ },
+ {
+  "i": 270,
+  "s": 653.74,
+  "fr": "est déjà pris par autre chose ?"
+ },
+ {
+  "i": 271,
+  "s": 655.74,
+  "fr": "On pense souvent qu'on peut répondre"
+ },
+ {
+  "i": 272,
+  "s": 657.34,
+  "fr": "en disant ce qu'on croit important."
+ },
+ {
+  "i": 273,
+  "s": 659.54,
+  "fr": "Dans la vie,"
+ },
+ {
+  "i": 274,
+  "s": 660.31,
+  "fr": "on voit la réponse à des moments plus ordinaires."
+ },
+ {
+  "i": 275,
+  "s": 663.34,
+  "fr": "Regarde les deux heures qui te restent"
+ },
+ {
+  "i": 276,
+  "s": 665.44,
+  "fr": "une fois que les choses urgentes sont faites."
+ },
+ {
+  "i": 277,
+  "s": 668.14,
+  "fr": "À qui ou à quoi peux-tu les donner ?"
+ },
+ {
+  "i": 278,
+  "s": 671.04,
+  "fr": "Si tu les donnes aujourd'hui à quelqu'un,"
+ },
+ {
+  "i": 279,
+  "s": 673.14,
+  "fr": "à quoi devras-tu dire d'attendre jusqu'à demain ?"
+ },
+ {
+  "i": 280,
+  "s": 676.3,
+  "fr": "C'est dans ces moments qu'une"
+ },
+ {
+  "i": 281,
+  "s": 677.88,
+  "fr": "priorité prend une forme réelle."
+ },
+ {
+  "i": 282,
+  "s": 679.94,
+  "fr": "Les responsabilités peuvent"
+ },
+ {
+  "i": 283,
+  "s": 681.45,
+  "fr": "aussi s'imposer à nous."
+ },
+ {
+  "i": 284,
+  "s": 682.74,
+  "fr": "La femme de Strickland doit trouver du travail"
+ },
+ {
+  "i": 285,
+  "s": 685.14,
+  "fr": "dans des conditions qu'elle n'a pas choisies."
+ },
+ {
+  "i": 286,
+  "s": 687.34,
+  "fr": "Ce qu'elle choisit, c'est la façon dont"
+ },
+ {
+  "i": 287,
+  "s": 689.6,
+  "fr": "elle répond à cette nouvelle situation,"
+ },
+ {
+  "i": 288,
+  "s": 692.04,
+  "fr": "avec les possibilités qu'elle a."
+ },
+ {
+  "i": 289,
+  "s": 694.04,
+  "fr": "Quand quelqu'un dit qu'il préfère garder"
+ },
+ {
+  "i": 290,
+  "s": 696.29,
+  "fr": "un revenu sûr, on peut lui demander"
+ },
+ {
+  "i": 291,
+  "s": 698.29,
+  "fr": "ce que ce revenu lui permet de protéger."
+ },
+ {
+  "i": 292,
+  "s": 700.74,
+  "fr": "On entendra peut-être parler d'enfants,"
+ },
+ {
+  "i": 293,
+  "s": 702.84,
+  "fr": "de parents ou simplement du besoin"
+ },
+ {
+  "i": 294,
+  "s": 705.3,
+  "fr": "de retrouver un peu de tranquillité."
+ },
+ {
+  "i": 295,
+  "s": 707.44,
+  "fr": "Il faut connaître cette réponse"
+ },
+ {
+  "i": 296,
+  "s": 709.43,
+  "fr": "pour comprendre sa décision."
+ },
+ {
+  "i": 297,
+  "s": 711.44,
+  "fr": "Pense aussi à ce que la lettre"
+ },
+ {
+  "i": 298,
+  "s": 713.01,
+  "fr": "change pour les deux époux."
+ },
+ {
+  "i": 299,
+  "s": 714.74,
+  "fr": "Quand Charles décide de partir, il pense à tout"
+ },
+ {
+  "i": 300,
+  "s": 717.44,
+  "fr": "le temps qu'il veut consacrer à la peinture."
+ },
+ {
+  "i": 301,
+  "s": 720.14,
+  "fr": "Sa femme, elle, découvre dans la même journée"
+ },
+ {
+  "i": 302,
+  "s": 723.54,
+  "fr": "une montagne de choses qu'il lui laisse à régler."
+ },
+ {
+  "i": 303,
+  "s": 726.54,
+  "fr": "Ce qui ressemble à un grand geste de liberté"
+ },
+ {
+  "i": 304,
+  "s": 729.31,
+  "fr": "pour lui devient une série de tâches pour elle."
+ },
+ {
+  "i": 305,
+  "s": 732.56,
+  "fr": "On peut respecter le désir de quelqu'un et parler"
+ },
+ {
+  "i": 306,
+  "s": 735.06,
+  "fr": "des conséquences très concrètes de sa décision."
+ },
+ {
+  "i": 307,
+  "s": 737.94,
+  "fr": "Ça peut commencer par des questions"
+ },
+ {
+  "i": 308,
+  "s": 739.54,
+  "fr": "que le roman laisse à ses lecteurs."
+ },
+ {
+  "i": 309,
+  "s": 742.14,
+  "fr": "Qui va s'occuper des enfants ?"
+ },
+ {
+  "i": 310,
+  "s": 744.24,
+  "fr": "Combien de temps faut-il"
+ },
+ {
+  "i": 311,
+  "s": 745.75,
+  "fr": "pour que chacun retrouve un revenu ?"
+ },
+ {
+  "i": 312,
+  "s": 747.64,
+  "fr": "Quelles décisions auraient"
+ },
+ {
+  "i": 313,
+  "s": 749.12,
+  "fr": "dû être prises ensemble ?"
+ },
+ {
+  "i": 314,
+  "s": 750.54,
+  "fr": "Il y a des gens qui lèvent les yeux"
+ },
+ {
+  "i": 315,
+  "s": 752.05,
+  "fr": "parce qu'ils ont besoin d'un but."
+ },
+ {
+  "i": 316,
+  "s": 754.04,
+  "fr": "Il y a des gens qui ramassent la pièce parce"
+ },
+ {
+  "i": 317,
+  "s": 756.45,
+  "fr": "que leur façon d'aimer passe par des choses"
+ },
+ {
+  "i": 318,
+  "s": 758.54,
+  "fr": "dont ils prennent soin chaque jour."
+ },
+ {
+  "i": 319,
+  "s": 760.98,
+  "fr": "Et parfois, tu feras les deux"
+ },
+ {
+  "i": 320,
+  "s": 763.01,
+  "fr": "dans la même semaine."
+ },
+ {
+  "i": 321,
+  "s": 764.84,
+  "fr": "La question que je garde de cette"
+ },
+ {
+  "i": 322,
+  "s": 766.74,
+  "fr": "partie du livre est très simple."
+ },
+ {
+  "i": 323,
+  "s": 768.64,
+  "fr": "Est-ce que je sais pourquoi je donne"
+ },
+ {
+  "i": 324,
+  "s": 770.44,
+  "fr": "mon temps à cette chose aujourd'hui ?"
+ },
+ {
+  "i": 325,
+  "s": 772.64,
+  "fr": "Si tu sais à quoi elle sert dans ta vie,"
+ },
+ {
+  "i": 326,
+  "s": 774.84,
+  "fr": "tu pourras expliquer ton choix sans"
+ },
+ {
+  "i": 327,
+  "s": 776.83,
+  "fr": "demander à tout le monde de faire le même."
+ },
+ {
+  "i": 328,
+  "s": 779.34,
+  "fr": "Et tu pourras regarder le choix"
+ },
+ {
+  "i": 329,
+  "s": 780.94,
+  "fr": "des autres avec un peu plus de curiosité."
+ },
+ {
+  "i": 330,
+  "s": 784.14,
+  "fr": "Le regard que tu portes sur la vie décide"
+ },
+ {
+  "i": 331,
+  "s": 786.97,
+  "fr": "enfin de la manière dont tu traites les autres."
+ },
+ {
+  "i": 332,
+  "s": 790.28,
+  "fr": "Et c'est ici que j'aimerais"
+ },
+ {
+  "i": 333,
+  "s": 791.76,
+  "fr": "te parler de Dirk Stroeve."
+ },
+ {
+  "i": 334,
+  "s": 793.34,
+  "fr": "C'est un peintre hollandais qui vit à Paris."
+ },
+ {
+  "i": 335,
+  "s": 796.14,
+  "fr": "Il n'a pas, aux yeux du narrateur,"
+ },
+ {
+  "i": 336,
+  "s": 798.39,
+  "fr": "un grand talent pour peindre."
+ },
+ {
+  "i": 337,
+  "s": 800.34,
+  "fr": "Pourtant, quand il regarde un tableau,"
+ },
+ {
+  "i": 338,
+  "s": 802.74,
+  "fr": "il voit des choses que des peintres"
+ },
+ {
+  "i": 339,
+  "s": 804.73,
+  "fr": "plus sûrs d'eux ne remarquent pas."
+ },
+ {
+  "i": 340,
+  "s": 806.64,
+  "fr": "Il reconnaît très tôt la force"
+ },
+ {
+  "i": 341,
+  "s": 808.63,
+  "fr": "du travail de Strickland."
+ },
+ {
+  "i": 342,
+  "s": 810.54,
+  "fr": "Les autres peuvent se moquer"
+ },
+ {
+  "i": 343,
+  "s": 812.09,
+  "fr": "de l'homme ou de ses toiles."
+ },
+ {
+  "i": 344,
+  "s": 813.74,
+  "fr": "Dirk, lui, a assez confiance dans ce qu'il"
+ },
+ {
+  "i": 345,
+  "s": 817.02,
+  "fr": "voit pour rester près de lui."
+ },
+ {
+  "i": 346,
+  "s": 819.07,
+  "fr": "Un peintre peut passer sa vie à apprendre à faire"
+ },
+ {
+  "i": 347,
+  "s": 821.51,
+  "fr": "de beaux tableaux et avoir du mal à reconnaître"
+ },
+ {
+  "i": 348,
+  "s": 824.05,
+  "fr": "la beauté dans le travail de quelqu'un d'autre."
+ },
+ {
+  "i": 349,
+  "s": 826.74,
+  "fr": "Dirk voit cette beauté alors que personne"
+ },
+ {
+  "i": 350,
+  "s": 829.47,
+  "fr": "ne peut encore lui dire qu'il a raison."
+ },
+ {
+  "i": 351,
+  "s": 831.74,
+  "fr": "Il voit aussi un homme malade qui a besoin d'aide."
+ },
+ {
+  "i": 352,
+  "s": 834.74,
+  "fr": "Quand Strickland tombe gravement malade,"
+ },
+ {
+  "i": 353,
+  "s": 837.14,
+  "fr": "Dirk veut l'accueillir chez lui et le soigner."
+ },
+ {
+  "i": 354,
+  "s": 840.04,
+  "fr": "Blanche, sa femme, s'y oppose."
+ },
+ {
+  "i": 355,
+  "s": 842.54,
+  "fr": "Il insiste."
+ },
+ {
+  "i": 356,
+  "s": 844.08,
+  "fr": "Dans sa manière de voir,"
+ },
+ {
+  "i": 357,
+  "s": 845.51,
+  "fr": "laisser quelqu'un dans cet état est"
+ },
+ {
+  "i": 358,
+  "s": 847.73,
+  "fr": "plus difficile que lui ouvrir la porte."
+ },
+ {
+  "i": 359,
+  "s": 850.44,
+  "fr": "Ce choix lui coûte cher."
+ },
+ {
+  "i": 360,
+  "s": 852.54,
+  "fr": "Lorsque Strickland va mieux,"
+ },
+ {
+  "i": 361,
+  "s": 854.53,
+  "fr": "Blanche quitte Dirk pour lui."
+ },
+ {
+  "i": 362,
+  "s": 856.64,
+  "fr": "Dirk souffre, puis finit par leur"
+ },
+ {
+  "i": 363,
+  "s": 858.96,
+  "fr": "laisser l'atelier où il travaillait."
+ },
+ {
+  "i": 364,
+  "s": 861.14,
+  "fr": "Ce qui me frappe, c'est ce qu'il espère encore"
+ },
+ {
+  "i": 365,
+  "s": 863.95,
+  "fr": "alors que lui-même vient de perdre sa place."
+ },
+ {
+  "i": 366,
+  "s": 867.04,
+  "fr": "Il voudrait que Blanche soit heureuse."
+ },
+ {
+  "i": 367,
+  "s": 869.44,
+  "fr": "Pendant ce temps,"
+ },
+ {
+  "i": 368,
+  "s": 870.89,
+  "fr": "Strickland pense surtout à peindre."
+ },
+ {
+  "i": 369,
+  "s": 873.32,
+  "fr": "L'un accepte de perdre quelque chose pour donner"
+ },
+ {
+  "i": 370,
+  "s": 876.42,
+  "fr": "à une autre personne ce qu'elle demande."
+ },
+ {
+  "i": 371,
+  "s": 878.94,
+  "fr": "L'autre accepte très vite que les gens s'éloignent"
+ },
+ {
+  "i": 372,
+  "s": 881.77,
+  "fr": "dès qu'il ne veut plus de leur présence."
+ },
+ {
+  "i": 373,
+  "s": 883.94,
+  "fr": "Pour Blanche, vivre auprès de Strickland"
+ },
+ {
+  "i": 374,
+  "s": 887.24,
+  "fr": "a un sens que lui-même ne partage pas."
+ },
+ {
+  "i": 375,
+  "s": 890.14,
+  "fr": "Elle semble prête à payer le prix du jugement"
+ },
+ {
+  "i": 376,
+  "s": 892.63,
+  "fr": "des autres pour être avec l'homme qu'elle désire."
+ },
+ {
+  "i": 377,
+  "s": 895.74,
+  "fr": "Elle attend de cet amour une présence,"
+ },
+ {
+  "i": 378,
+  "s": 898.06,
+  "fr": "une vie que l'on partage."
+ },
+ {
+  "i": 379,
+  "s": 900.18,
+  "fr": "Chez Strickland, le travail reprend"
+ },
+ {
+  "i": 380,
+  "s": 902.49,
+  "fr": "toute la place et la relation se termine."
+ },
+ {
+  "i": 381,
+  "s": 905.34,
+  "fr": "Blanche meurt peu après."
+ },
+ {
+  "i": 382,
+  "s": 907.84,
+  "fr": "Cette partie du livre est douloureuse."
+ },
+ {
+  "i": 383,
+  "s": 910.94,
+  "fr": "Et quand j'entends dire que les deux"
+ },
+ {
+  "i": 384,
+  "s": 912.74,
+  "fr": "n'avaient simplement pas les mêmes priorités,"
+ },
+ {
+  "i": 385,
+  "s": 915.14,
+  "fr": "j'ai envie de poser une autre question."
+ },
+ {
+  "i": 386,
+  "s": 918.84,
+  "fr": "Quand tu sais que quelqu'un attend de toi"
+ },
+ {
+  "i": 387,
+  "s": 920.92,
+  "fr": "une chose que tu ne veux pas lui donner,"
+ },
+ {
+  "i": 388,
+  "s": 922.94,
+  "fr": "à quel moment le lui dis-tu ?"
+ },
+ {
+  "i": 389,
+  "s": 926.38,
+  "fr": "Les gens peuvent vouloir des vies différentes"
+ },
+ {
+  "i": 390,
+  "s": 928.97,
+  "fr": "et se parler assez tôt pour que chacun"
+ },
+ {
+  "i": 391,
+  "s": 930.54,
+  "fr": "puisse choisir avec les mêmes informations."
+ },
+ {
+  "i": 392,
+  "s": 933.54,
+  "fr": "Il reste une chose difficile"
+ },
+ {
+  "i": 393,
+  "s": 935.17,
+  "fr": "à comprendre chez Dirk."
+ },
+ {
+  "i": 394,
+  "s": 936.74,
+  "fr": "Même après la mort de Blanche,"
+ },
+ {
+  "i": 395,
+  "s": 938.73,
+  "fr": "il peut encore voir le talent de Strickland."
+ },
+ {
+  "i": 396,
+  "s": 942.04,
+  "fr": "Il va jusqu'à lui proposer"
+ },
+ {
+  "i": 397,
+  "s": 943.58,
+  "fr": "de venir avec lui en Hollande."
+ },
+ {
+  "i": 398,
+  "s": 945.54,
+  "fr": "Strickland refuse."
+ },
+ {
+  "i": 399,
+  "s": 947.34,
+  "fr": "Le lecteur peut regarder ce geste"
+ },
+ {
+  "i": 400,
+  "s": 949.49,
+  "fr": "et penser que Dirk devrait se protéger."
+ },
+ {
+  "i": 401,
+  "s": 952.18,
+  "fr": "Ou il peut se demander comment cet"
+ },
+ {
+  "i": 402,
+  "s": 954.12,
+  "fr": "homme arrive à garder une telle"
+ },
+ {
+  "i": 403,
+  "s": 956.03,
+  "fr": "générosité après ce qu'il a vécu."
+ },
+ {
+  "i": 404,
+  "s": 958.84,
+  "fr": "Les deux réactions ont du sens."
+ },
+ {
+  "i": 405,
+  "s": 961.34,
+  "fr": "Si on se met à la place de Dirk,"
+ },
+ {
+  "i": 406,
+  "s": 963.24,
+  "fr": "il faut tenir ensemble la peine qu'il ressent"
+ },
+ {
+  "i": 407,
+  "s": 966.34,
+  "fr": "et l'admiration qu'il n'a jamais perdue."
+ },
+ {
+  "i": 408,
+  "s": 969.14,
+  "fr": "Ce qui me touche chez lui,"
+ },
+ {
+  "i": 409,
+  "s": 970.84,
+  "fr": "c'est qu'il donne souvent sans attendre"
+ },
+ {
+  "i": 410,
+  "s": 973.11,
+  "fr": "que l'autre lui rende quelque chose."
+ },
+ {
+  "i": 411,
+  "s": 975.44,
+  "fr": "Pourtant, si un ami agissait comme lui,"
+ },
+ {
+  "i": 412,
+  "s": 978.26,
+  "fr": "je lui demanderais s'il a encore"
+ },
+ {
+  "i": 413,
+  "s": 980.05,
+  "fr": "la possibilité de dire non."
+ },
+ {
+  "i": 414,
+  "s": 981.98,
+  "fr": "Il y a un monde entre offrir une chambre"
+ },
+ {
+  "i": 415,
+  "s": 984.2,
+  "fr": "pour quelques jours et laisser quelqu'un"
+ },
+ {
+  "i": 416,
+  "s": 986.45,
+  "fr": "décider à ta place de ce qui se passe chez toi."
+ },
+ {
+  "i": 417,
+  "s": 989.94,
+  "fr": "Dans les deux cas, tu peux avoir envie d'aider."
+ },
+ {
+  "i": 418,
+  "s": 993.24,
+  "fr": "Dans les deux cas,"
+ },
+ {
+  "i": 419,
+  "s": 994.68,
+  "fr": "tu peux aussi écouter la personne qui vit avec toi"
+ },
+ {
+  "i": 420,
+  "s": 997.85,
+  "fr": "et demander quel effet ce choix aura sur elle."
+ },
+ {
+  "i": 421,
+  "s": 1001.54,
+  "fr": "C'est une façon de prendre soin des autres"
+ },
+ {
+  "i": 422,
+  "s": 1003.86,
+  "fr": "qui ne se voit pas toujours, parce qu'elle"
+ },
+ {
+  "i": 423,
+  "s": 1006.45,
+  "fr": "commence parfois par une conversation difficile."
+ },
+ {
+  "i": 424,
+  "s": 1009.98,
+  "fr": "Je trouve également que Dirk"
+ },
+ {
+  "i": 425,
+  "s": 1011.55,
+  "fr": "oblige à repenser ce qu'on admire."
+ },
+ {
+  "i": 426,
+  "s": 1013.84,
+  "fr": "Quand un peintre est reconnu, on retient son nom."
+ },
+ {
+  "i": 427,
+  "s": 1016.94,
+  "fr": "On parle de la force qu'il lui a fallu"
+ },
+ {
+  "i": 428,
+  "s": 1018.93,
+  "fr": "pour continuer et des années pendant lesquelles"
+ },
+ {
+  "i": 429,
+  "s": 1021.54,
+  "fr": "personne ne comprenait ce qu'il faisait."
+ },
+ {
+  "i": 430,
+  "s": 1023.74,
+  "fr": "Qui se souvient de la personne qui a"
+ },
+ {
+  "i": 431,
+  "s": 1025.64,
+  "fr": "reconnu ses tableaux la première ?"
+ },
+ {
+  "i": 432,
+  "s": 1027.74,
+  "fr": "Qui se souvient de celle qui lui a"
+ },
+ {
+  "i": 433,
+  "s": 1029.81,
+  "fr": "donné un lit quand il était malade ?"
+ },
+ {
+  "i": 434,
+  "s": 1032.24,
+  "fr": "Le roman donne une grande"
+ },
+ {
+  "i": 435,
+  "s": 1033.75,
+  "fr": "place au désir de Strickland."
+ },
+ {
+  "i": 436,
+  "s": 1035.78,
+  "fr": "Moi, il me reste aussi l'image"
+ },
+ {
+  "i": 437,
+  "s": 1037.96,
+  "fr": "de Dirk qui ouvre sa porte."
+ },
+ {
+  "i": 438,
+  "s": 1040.14,
+  "fr": "Une vie peut avoir beaucoup de valeur"
+ },
+ {
+  "i": 439,
+  "s": 1042.21,
+  "fr": "à cause des gestes qui ont permis"
+ },
+ {
+  "i": 440,
+  "s": 1043.95,
+  "fr": "à quelqu'un d'autre de continuer."
+ },
+ {
+  "i": 441,
+  "s": 1046.14,
+  "fr": "Il y a un mot courant en français"
+ },
+ {
+  "i": 442,
+  "s": 1048.13,
+  "fr": "qui me vient quand je pense à ce personnage."
+ },
+ {
+  "i": 443,
+  "s": 1050.94,
+  "fr": "Rendre service."
+ },
+ {
+  "i": 444,
+  "s": 1052.64,
+  "fr": "C'est faire quelque chose pour aider quelqu'un."
+ },
+ {
+  "i": 445,
+  "s": 1055.24,
+  "fr": "On peut rendre service en prêtant de l'argent,"
+ },
+ {
+  "i": 446,
+  "s": 1057.84,
+  "fr": "en offrant un endroit où dormir"
+ },
+ {
+  "i": 447,
+  "s": 1059.85,
+  "fr": "ou en prenant simplement le temps de regarder"
+ },
+ {
+  "i": 448,
+  "s": 1062.29,
+  "fr": "le travail de quelqu'un avec attention."
+ },
+ {
+  "i": 449,
+  "s": 1065.11,
+  "fr": "Dirk fait tout cela avec le sentiment"
+ },
+ {
+  "i": 450,
+  "s": 1067.36,
+  "fr": "que ces gestes comptent."
+ },
+ {
+  "i": 451,
+  "s": 1069.14,
+  "fr": "Strickland paraît souvent prendre ce qu'on"
+ },
+ {
+  "i": 452,
+  "s": 1071.73,
+  "fr": "lui offre comme si le reste allait de soi."
+ },
+ {
+  "i": 453,
+  "s": 1074.34,
+  "fr": "Regarde les deux hommes à partir de ce mot"
+ },
+ {
+  "i": 454,
+  "s": 1076.84,
+  "fr": "et demande-toi lequel des deux tu voudrais avoir"
+ },
+ {
+  "i": 455,
+  "s": 1079.92,
+  "fr": "près de toi un jour où tu as besoin d'aide."
+ },
+ {
+  "i": 456,
+  "s": 1082.74,
+  "fr": "La réponse te dira peut-être autre"
+ },
+ {
+  "i": 457,
+  "s": 1084.81,
+  "fr": "chose que le nom de celui dont"
+ },
+ {
+  "i": 458,
+  "s": 1086.46,
+  "fr": "tu voudrais voir les tableaux."
+ },
+ {
+  "i": 459,
+  "s": 1088.34,
+  "fr": "Et c'est aussi là que je trouve"
+ },
+ {
+  "i": 460,
+  "s": 1090.11,
+  "fr": "la formule du début intéressante."
+ },
+ {
+  "i": 461,
+  "s": 1092.58,
+  "fr": "Ta manière de voir le monde change"
+ },
+ {
+  "i": 462,
+  "s": 1094.86,
+  "fr": "ce que tu remarques chez les gens."
+ },
+ {
+  "i": 463,
+  "s": 1097.54,
+  "fr": "Si tout ce qui compte pour toi est de finir ton"
+ },
+ {
+  "i": 464,
+  "s": 1100.35,
+  "fr": "travail, tu risques de regarder une personne"
+ },
+ {
+  "i": 465,
+  "s": 1103.39,
+  "fr": "seulement au moment où elle t'aide ou te gêne."
+ },
+ {
+  "i": 466,
+  "s": 1106.44,
+  "fr": "Si tu attaches de l'importance"
+ },
+ {
+  "i": 467,
+  "s": 1108.14,
+  "fr": "à ce que les autres vivent, tu vas peut-être"
+ },
+ {
+  "i": 468,
+  "s": 1110.68,
+  "fr": "entendre la question qu'ils n'osent pas poser."
+ },
+ {
+  "i": 469,
+  "s": 1113.44,
+  "fr": "Ce regard se voit dans des actions précises."
+ },
+ {
+  "i": 470,
+  "s": 1116.44,
+  "fr": "Est-ce que tu préviens quelqu'un"
+ },
+ {
+  "i": 471,
+  "s": 1118.12,
+  "fr": "quand tes projets changent ?"
+ },
+ {
+  "i": 472,
+  "s": 1119.88,
+  "fr": "Est-ce que tu écoutes sa réponse jusqu'au bout ?"
+ },
+ {
+  "i": 473,
+  "s": 1122.94,
+  "fr": "Si tu l'aides, est-ce que tu lui demandes"
+ },
+ {
+  "i": 474,
+  "s": 1125.57,
+  "fr": "ce qui lui serait vraiment utile ?"
+ },
+ {
+  "i": 475,
+  "s": 1127.94,
+  "fr": "C'est là que tes idées sur la vie commencent"
+ },
+ {
+  "i": 476,
+  "s": 1130.33,
+  "fr": "à changer la vie de quelqu'un d'autre."
+ },
+ {
+  "i": 477,
+  "s": 1132.74,
+  "fr": "Comment vivre, alors,"
+ },
+ {
+  "i": 478,
+  "s": 1134.25,
+  "fr": "avec le moins de regrets possible ?"
+ },
+ {
+  "i": 479,
+  "s": 1136.74,
+  "fr": "En refermant le livre, je reviens à la personne"
+ },
+ {
+  "i": 480,
+  "s": 1139.52,
+  "fr": "qui voyait une promesse de liberté dans la cabane"
+ },
+ {
+  "i": 481,
+  "s": 1142.35,
+  "fr": "de Thoreau, puis à celle qui se demandait"
+ },
+ {
+  "i": 482,
+  "s": 1144.93,
+  "fr": "qui prendrait soin de ses proches."
+ },
+ {
+  "i": 483,
+  "s": 1147.5,
+  "fr": "L'une pose une question qu'on"
+ },
+ {
+  "i": 484,
+  "s": 1149.09,
+  "fr": "peut éviter pendant des années."
+ },
+ {
+  "i": 485,
+  "s": 1150.94,
+  "fr": "Quelle vie ai-je vraiment envie de vivre ?"
+ },
+ {
+  "i": 486,
+  "s": 1154.54,
+  "fr": "L'autre pose une question qu'on peut oublier"
+ },
+ {
+  "i": 487,
+  "s": 1157.64,
+  "fr": "au moment où l'on trouve enfin une réponse."
+ },
+ {
+  "i": 488,
+  "s": 1160.74,
+  "fr": "Qui aura besoin de savoir ce que je veux faire ?"
+ },
+ {
+  "i": 489,
+  "s": 1164.54,
+  "fr": "Je crois qu'on peut se donner"
+ },
+ {
+  "i": 490,
+  "s": 1166.05,
+  "fr": "le temps de répondre aux deux."
+ },
+ {
+  "i": 491,
+  "s": 1167.74,
+  "fr": "Tu n'as pas à vivre pour recevoir"
+ },
+ {
+  "i": 492,
+  "s": 1170.06,
+  "fr": "l'accord de tous les gens qui t'entourent."
+ },
+ {
+  "i": 493,
+  "s": 1173.58,
+  "fr": "Certains te demanderont de garder"
+ },
+ {
+  "i": 494,
+  "s": 1175.51,
+  "fr": "un travail que tu aimerais quitter."
+ },
+ {
+  "i": 495,
+  "s": 1177.74,
+  "fr": "D'autres te diront que tu manques"
+ },
+ {
+  "i": 496,
+  "s": 1179.73,
+  "fr": "de courage parce que tu choisis de rester."
+ },
+ {
+  "i": 497,
+  "s": 1182.74,
+  "fr": "Toi, tu connais des détails qu'ils ne voient pas."
+ },
+ {
+  "i": 498,
+  "s": 1186.94,
+  "fr": "Prends le temps de nommer ce qui te tient à cœur,"
+ },
+ {
+  "i": 499,
+  "s": 1189.94,
+  "fr": "puis regarde ce que ce choix demande à toi"
+ },
+ {
+  "i": 500,
+  "s": 1193.14,
+  "fr": "et aux personnes qui comptent sur toi."
+ },
+ {
+  "i": 501,
+  "s": 1195.74,
+  "fr": "La liberté peut commencer dans cette conversation."
+ },
+ {
+  "i": 502,
+  "s": 1198.94,
+  "fr": "Tu as le droit d'y dire ce que tu veux."
+ },
+ {
+  "i": 503,
+  "s": 1201.58,
+  "fr": "Les autres ont le droit de te dire"
+ },
+ {
+  "i": 504,
+  "s": 1203.88,
+  "fr": "ce que ça change pour eux."
+ },
+ {
+  "i": 505,
+  "s": 1206.04,
+  "fr": "Si tu repenses à la lune et à la pièce après"
+ },
+ {
+  "i": 506,
+  "s": 1208.62,
+  "fr": "cet épisode, demande-toi ce que chacune"
+ },
+ {
+  "i": 507,
+  "s": 1211.35,
+  "fr": "représente aujourd'hui pour toi."
+ },
+ {
+  "i": 508,
+  "s": 1213.74,
+  "fr": "La lune pourrait être quelque chose"
+ },
+ {
+  "i": 509,
+  "s": 1215.73,
+  "fr": "que tu veux apprendre depuis longtemps."
+ },
+ {
+  "i": 510,
+  "s": 1218.04,
+  "fr": "La pièce pourrait être le moyen"
+ },
+ {
+  "i": 511,
+  "s": 1220.38,
+  "fr": "de protéger ce qui rend déjà ta vie bonne."
+ },
+ {
+  "i": 512,
+  "s": 1223.64,
+  "fr": "Pour quelqu'un d'autre,"
+ },
+ {
+  "i": 513,
+  "s": 1224.74,
+  "fr": "les réponses seront différentes."
+ },
+ {
+  "i": 514,
+  "s": 1226.84,
+  "fr": "Et les tiennes peuvent changer dans dix ans."
+ },
+ {
+  "i": 515,
+  "s": 1230.19,
+  "fr": "C'est une des raisons pour lesquelles"
+ },
+ {
+  "i": 516,
+  "s": 1231.83,
+  "fr": "je recommanderais ce roman."
+ },
+ {
+  "i": 517,
+  "s": 1233.24,
+  "fr": "Il donne des mots à une question que tu peux"
+ },
+ {
+  "i": 518,
+  "s": 1235.49,
+  "fr": "te poser à plusieurs moments d'une vie,"
+ },
+ {
+  "i": 519,
+  "s": 1237.74,
+  "fr": "en sachant que tu n'y répondras peut-être"
+ },
+ {
+  "i": 520,
+  "s": 1240.55,
+  "fr": "jamais deux fois de la même manière."
+ },
+ {
+  "i": 521,
+  "s": 1243.24,
+  "fr": "Si tu veux poursuivre la conversation,"
+ },
+ {
+  "i": 522,
+  "s": 1245.5,
+  "fr": "laisse-moi une phrase en français."
+ },
+ {
+  "i": 523,
+  "s": 1247.64,
+  "fr": "Tu peux commencer par"
+ },
+ {
+  "i": 524,
+  "s": 1249.34,
+  "fr": "« En ce moment, ma lune, c'est… »"
+ },
+ {
+  "i": 525,
+  "s": 1252.34,
+  "fr": "ou par « Ce que je veux protéger, c'est… »."
+ },
+ {
+  "i": 526,
+  "s": 1256.57,
+  "fr": "Et si tu as pensé à quelqu'un en écoutant,"
+ },
+ {
+  "i": 527,
+  "s": 1258.69,
+  "fr": "tu peux partager cet épisode avec elle"
+ },
+ {
+  "i": 528,
+  "s": 1260.84,
+  "fr": "et lui poser la même question."
+ },
+ {
+  "i": 529,
+  "s": 1263.24,
+  "fr": "Abonne-toi à Cozy French Books si"
+ },
+ {
+  "i": 530,
+  "s": 1265.37,
+  "fr": "tu veux lire un autre livre avec moi."
+ },
+ {
+  "i": 531,
+  "s": 1267.94,
+  "fr": "Merci d'avoir passé ce moment ici."
+ },
+ {
+  "i": 532,
+  "s": 1270.26,
+  "fr": "Je suis Léa."
+ },
+ {
+  "i": 533,
+  "s": 1271.55,
+  "fr": "À très bientôt."
+ }
+]

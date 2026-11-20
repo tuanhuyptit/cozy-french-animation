@@ -20,7 +20,7 @@ const BOOKS = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const ROOT = path.resolve(BOOKS, '..');
 const EPDIR = path.resolve(process.argv[2] || '.');
 const EPNAME = path.basename(EPDIR);
-const { BOOK, SEGS: PLAN, VOCAB } = await import(pathToFileURL(path.join(EPDIR, 'plan.mjs')));
+const { BOOK, SEGS: PLAN, VOCAB, PHOTOS = [] } = await import(pathToFileURL(path.join(EPDIR, 'plan.mjs')));
 const { PAGES } = await import(pathToFileURL(path.join(EPDIR, 'art.mjs')));
 const W = JSON.parse(fs.readFileSync(path.join(EPDIR, 'assets/words.json'), 'utf8'));
 const CH = JSON.parse(fs.readFileSync(path.join(EPDIR, 'work/chunks.json'), 'utf8'));
@@ -85,7 +85,7 @@ const tc = (g, x, def) => x === undefined ? def : typeof x === 'number' && !Arra
 
 /* ---------- HTML pieces ---------- */
 const f = n => (+n).toFixed(3), esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;');
-const coverSVG = (w, h, id) => ART.COVER({ title: BOOK.title, author: BOOK.author }, w, h, id);
+const coverSVG = (w, h, id) => ART.COVER({ title: BOOK.title, author: BOOK.author, art: BOOK.cover }, w, h, id);
 const pupHTML = (p, j) => `<div class="pup pup-${p.name || 'x' + j}" style="left:${p.x - 150}px;top:${p.y - 300}px;transform:scale(${p.s || 1})"><svg viewBox="-150 -300 300 300" width="300" height="300" overflow="visible"${p.flip ? ' style="transform:scaleX(-1)"' : ''}>${p.svg}</svg></div>`;
 let js = [];            // timeline code, one string per line
 const sfx = [];         // { t, k }
@@ -130,13 +130,13 @@ function ficheHTML(g) {
   return `<svg viewBox="0 0 1920 1080" class="full"><rect width="1920" height="1080" fill="#5b7398"/><g filter="url(#pencil)">${ART.range(8, i => `<path d="M0 ${i * 150 + 40} C600 ${i * 150 + 20} 1300 ${i * 150 + 70} 1920 ${i * 150 + 30}" stroke="#506a8c" stroke-width="6" fill="none"/>`)}
     <rect x="150" y="70" width="1620" height="740" rx="20" fill="#fbf4e6"/></g></svg>
     <div class="fcover">${coverSVG(380, 540, 'cvf')}</div>
-    <div class="fhead">Fiche de lecture</div><div class="ftitle">${esc(BOOK.title)} <small>${esc(BOOK.author)} · ${BOOK.year}</small></div>
+    <div class="fhead">Fiche de lecture</div><div class="ftitle${BOOK.title.length > 16 ? ' long' : ''}">${esc(BOOK.title)} <small>${esc(BOOK.author)} · ${BOOK.year}</small></div>
     <div class="frows">${g.rows.map((r, j) => `<div class="frow" id="s${g.k}r${j}"><b>${esc(r.label)}</b><span>${esc(r.text)}</span></div>`).join('')}
     <div class="frow cups" id="s${g.k}cups"><b>Note de Léa</b><span>${ART.range(5, i => `<svg viewBox="-32 -32 64 64" width="52" height="52" class="cup${i < g.rating ? ' on' : ''}">${ICON.tea}</svg>`)}</span></div></div>`;
 }
 function shelfHTML() {
   return `<svg viewBox="0 0 1920 1080" class="full">${ART.SHELF()}</svg><div class="shDim"></div>
-    <div class="spine"><svg viewBox="0 0 70 300" width="70" height="300"><g filter="url(#pencil)"><rect width="70" height="300" rx="5" fill="#e2733f"/><circle cx="35" cy="44" r="16" fill="#fff1cf"/></g><text x="44" y="90" transform="rotate(90 44 90)" font-family="Playfair Display" font-weight="700" font-size="24" fill="#fffaf0">${esc(BOOK.title)}</text></svg></div>
+    <div class="spine"><svg viewBox="0 0 70 300" width="70" height="300"><g filter="url(#pencil)"><rect width="70" height="300" rx="5" fill="#e2733f"/><circle cx="35" cy="44" r="16" fill="#fff1cf"/></g><text x="44" y="90" transform="rotate(90 44 90)" font-family="Playfair Display" font-weight="700" font-size="${Math.min(24, Math.floor(210 / (BOOK.title.length * .52)))}" fill="#fffaf0">${esc(BOOK.title)}</text></svg></div>
     <div class="opCover">${coverSVG(380, 540, 'cvo')}</div>
     <div class="opTitle"><div class="o1">Cozy French</div><div class="o2">Books</div><div class="o3">Lire en français, grandir un peu</div><div class="o4">Épisode ${BOOK.ep} · ${esc(BOOK.title)}</div></div>`;
 }
@@ -225,6 +225,8 @@ segs.forEach((g, i) => {
     J(`loop('${P} .rock',{rotation:-2,svgOrigin:'0 -40'},{rotation:2,ease:'sine.inOut',yoyo:true},1.6,${f(S)},${f(g.end)}); loop('${P} .lamp',{rotation:-3,transformOrigin:'50% 0%'},{rotation:3,ease:'sine.inOut',yoyo:true},2.2,${f(S)},${f(g.end)});`);
     J(`loop('${P} .twk',{opacity:.3},{opacity:1,ease:'sine.inOut',yoyo:true},1.3,${f(S)},${f(g.end)}); loop('${P} .flag',{scaleX:1,transformOrigin:'0% 50%'},{scaleX:.7,ease:'sine.inOut',yoyo:true},.6,${f(S)},${f(g.end)});`);
     J(`loop('${P} .birds',{x:0,y:0},{x:-40,y:8,ease:'sine.inOut',yoyo:true},3,${f(S)},${f(g.end)}); loop('${P} .cloud',{x:0},{x:50,ease:'sine.inOut',yoyo:true},10,${f(S)},${f(g.end)});`);
+    J(`loop('${P} .smoke',{y:0,opacity:.8},{y:-40,opacity:.2,ease:'sine.inOut',yoyo:true},2.4,${f(S)},${f(g.end)}); loop('${P} .fire',{scaleY:1,transformOrigin:'50% 100%'},{scaleY:1.12,ease:'sine.inOut',yoyo:true},.5,${f(S)},${f(g.end)});`);
+    J(`loop('${P} .lampGlowP',{opacity:.14},{opacity:.24,ease:'sine.inOut',yoyo:true},1.9,${f(S)},${f(g.end)}); loop('${P} .moonG',{opacity:.08},{opacity:.18,ease:'sine.inOut',yoyo:true},3,${f(S)},${f(g.end)});`);
     J(`st('${P} .dawn,${P} .L-dawn',{opacity:0},${f(S)}); st('${P} .chest,${P} .hole,${P} .tea,${P} .jar,${P} .stones,${P} .client1,${P} .jc,${P} .sparks',{opacity:0},${f(S)});`);
     (g.beats || []).forEach((b, j) => {
       const id = `#s${g.k}b${j}`, t = tc(g, b.c, S + .5), u = b.until !== undefined ? tc(g, b.until) : E - .2;
@@ -268,6 +270,17 @@ words.forEach(w => { const g = segAt(w.s), len = Math.min(w.e - w.s, .08 * w.t.l
   if (g.kind === 'nook' || g.kind === 'carnet') for (let k = 0; k < flaps; k++) J(`ft('#seg${g.k} .mouth',{scaleY:1},{scaleY:${(2.4 + lr() * 1.8).toFixed(2)},transformOrigin:'50% 0%',duration:${fd.toFixed(3)},yoyo:true,repeat:1,ease:'sine.inOut'},${f(w.s + k * fd * 2)});`);
   J(`tl.to('#${w.id}',{color:'${w.v ? '#b8552a' : '#3a2e28'}',duration:.1},${f(w.s)});${w.v ? `tl.to('#${w.id} .ul',{scaleX:1,duration:.35,ease:'power2.out'},${f(w.s)});` : ''}`); });
 chunks.forEach((c, i) => J(`ft('#sub${i} .subBox',{y:26,opacity:0},{y:0,opacity:1,duration:.25,ease:'back.out(2)'},${f(c.show)});`));
+/* real photos (plan.mjs PHOTOS): a print taped on the page, or a cut-out sticker (transparent PNG) — files in epNN/assets/photos/ */
+const photos = PHOTOS.map((p, i) => { const s = +(T(p.c) - .1).toFixed(3), e = p.until !== undefined ? (typeof p.until === 'number' && p.until < 0 ? segAt(s).e + p.until : T(p.until)) : segAt(s).e - .2;
+  const file = path.join(EPDIR, 'assets/photos', p.src); if (!fs.existsSync(file)) throw new Error(`photo ${p.src} not found in assets/photos/`);
+  const [iw, ih] = execFileSync('ffprobe', ['-v', 'error', '-select_streams', 'v:0', '-show_entries', 'stream=width,height', '-of', 'csv=p=0', file]).toString().trim().split(',').map(Number);
+  return { ...p, i, s, d: +Math.max(1.2, e - s).toFixed(3), iw, ih, rot: p.rot ?? [-4, 3, -2, 4, -3, 2][i % 6], kind: p.kind || (p.src.endsWith('.png') ? 'cut' : 'print') }; });
+photos.forEach(p => { const id = `#ph${p.i} .ph`;
+  J(`ft('${id}',{opacity:0,y:50,scale:.82,rotation:${p.rot - 7}},{opacity:1,y:0,scale:1,rotation:${p.rot},duration:.55,ease:'back.out(1.6)'},${f(p.s)});`);
+  J(`ft('${id} .phImg',{scale:1},{scale:${p.kind === 'print' ? 1.06 : 1.03},duration:${f(p.d)},ease:'none'},${f(p.s)});`);
+  if (p.cap) J(`ft('${id} .phCap',{opacity:0,y:12},{opacity:1,y:0,duration:.4,ease:'power2.out'},${f(p.s + .45)});`);
+  J(`tl.to('${id}',{opacity:0,y:-24,duration:.35,ease:'power2.in'},${f(p.s + p.d - .4)});`);
+  sfx.push({ t: p.s, k: p.kind === 'print' ? 'paper' : 'pop' }); });
 cards.forEach((c, i) => { J(`ft('#card${i} .card',{y:-80,opacity:0,rotation:3},{y:0,opacity:1,rotation:-1.5,duration:.5,ease:'back.out(1.7)'},${f(c.s)}); ft('#card${i} .ex',{opacity:0,y:10},{opacity:1,y:0,duration:.4},${f(c.s + .5)}); tl.to('#card${i} .card',{y:-50,opacity:0,duration:.3,ease:'power2.in'},${f(c.s + c.d - .35)});`); sfx.push({ t: c.s, k: 'card' }); });
 J(`ft('#recap',{opacity:0},{opacity:1,duration:.5},${RECAP}); ft('#recap-title',{y:30,opacity:0},{y:0,opacity:1,duration:.6,ease:'back.out(2)'},${RECAP + .2});`);
 J(`q('#recap .it').forEach((it,i)=>ft(it,{y:30,opacity:0},{y:0,opacity:1,duration:.4,ease:'back.out(2)'},${RECAP + .7}+i*.25)); ft('#recap-sig',{opacity:0},{opacity:1,duration:.6},${(TOTAL - 1.8).toFixed(2)});`);
@@ -276,6 +289,12 @@ sfx.push({ t: RECAP + .2, k: 'chime' }); cards.forEach((c, i) => sfx.push({ t: R
 /* ---------- composition ---------- */
 const wordsHTML = c => c.toks.map(t => `<span class="w${t.v ? ' vocab' : ''}" id="${t.id}">${t.v ? '<i class="ul"></i>' : ''}<b class="tx">${esc(t.t)}</b></span>`).join(' ');
 const subsHTML = chunks.map((c, i) => `<div id="sub${i}" class="clip subWrap" data-start="${f(c.show)}" data-duration="${f(c.hide - c.show)}" data-track-index="3"><div class="subBox"><div class="subWho">Léa</div><div class="subFr">${wordsHTML(c)}</div><div class="subEn">${esc(c.en)}</div></div></div>`).join('\n');
+const PHSRC = BOOK.photoBase ?? 'assets/photos/';
+const photosHTML = photos.map(p => { const w = p.w || (p.kind === 'print' ? 420 : 380), h = Math.round(w * p.ih / p.iw), pad = Math.round(Math.max(p.iw, p.ih) * .018);
+  const img = p.kind === 'print'
+    ? `<div class="phFrame" style="width:${w}px;height:${h}px"><img class="phImg" src="${PHSRC}${p.src}" style="width:${w}px;height:${h}px" alt=""></div><div class="tape"></div>`
+    : `<svg class="phImg" viewBox="${-pad} ${-pad} ${p.iw + 2 * pad} ${p.ih + 2 * pad}" width="${w}" height="${Math.round(w * (p.ih + 2 * pad) / (p.iw + 2 * pad))}" overflow="visible"><defs><filter id="stk${p.i}" x="-8%" y="-8%" width="116%" height="120%"><feMorphology in="SourceAlpha" operator="dilate" radius="${pad}" result="d"/><feFlood flood-color="#fffaf0"/><feComposite in2="d" operator="in" result="w"/><feDropShadow in="w" dx="0" dy="${pad}" stdDeviation="${pad}" flood-color="#3a2418" flood-opacity=".35" result="ws"/><feMerge><feMergeNode in="ws"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><image href="${PHSRC}${p.src}" width="${p.iw}" height="${p.ih}" filter="url(#stk${p.i})"/></svg>`;
+  return `<div id="ph${p.i}" class="clip phWrap" data-start="${f(p.s)}" data-duration="${f(p.d)}" data-track-index="7"><div class="ph ${p.kind}" style="left:${p.x}px;top:${p.y}px">${img}${p.cap ? `<div class="phCap">${esc(p.cap)}${p.sub ? `<small>${esc(p.sub)}</small>` : ''}</div>` : ''}</div></div>`; }).join('\n');
 const cardsHTML = cards.map((c, i) => `<div id="card${i}" class="clip cardWrap" data-start="${f(c.s)}" data-duration="${f(c.d)}" data-track-index="4"><div class="card"><div class="rib"></div><span class="tag">${esc(c.tag)}</span><div class="word">${esc(c.word)}</div><div class="ipa">${esc(c.ipa)}</div><div class="mean">${esc(c.mean)}</div><div class="ex">${esc(c.ex)}<i>${esc(c.exEn)}</i></div></div></div>`).join('\n');
 const CAVEAT = 'data:font/woff2;base64,' + fs.readFileSync(path.join(ROOT, 'radio/assets/fonts/caveat-600-latin.woff2')).toString('base64');
 const LOGO = 'data:image/png;base64,' + fs.readFileSync(path.join(ROOT, 'brand/logo.png')).toString('base64');
@@ -340,7 +359,7 @@ const comp = `<template>
     .chI{position:absolute;left:885px;top:500px;opacity:0}
     .fcover{position:absolute;left:250px;top:150px;transform:rotate(-3deg);border-radius:10px;box-shadow:0 18px 30px #0005}
     .fhead{position:absolute;left:760px;top:120px;font:900 22px Nunito;letter-spacing:.2em;text-transform:uppercase;color:#d9774b}
-    .ftitle{position:absolute;left:760px;top:150px;font:700 68px 'Playfair Display',serif} .ftitle small{font:700 30px Nunito;color:#8a7a6c;margin-left:12px}
+    .ftitle{position:absolute;left:760px;top:150px;font:700 68px 'Playfair Display',serif} .ftitle small{font:700 30px Nunito;color:#8a7a6c;margin-left:12px} .ftitle.long{font-size:56px;top:132px} .ftitle.long small{display:block;margin:4px 0 0} .ftitle.long ~ .frows{top:300px}
     .frows{position:absolute;left:760px;top:260px;width:920px;display:flex;flex-direction:column;gap:14px}
     .frow{display:flex;gap:22px;align-items:baseline;border-bottom:3px dashed #e6dccd;padding-bottom:12px;opacity:0} .frow b{flex:none;width:250px;font:900 22px Nunito;letter-spacing:.1em;text-transform:uppercase;color:#8a7a6c}
     .frow span{font:700 32px/1.25 Nunito} .frow.cups span{display:flex;gap:10px}
@@ -354,6 +373,14 @@ const comp = `<template>
     .subFr .w{display:inline-block;position:relative} .subFr .tx{position:relative;font-weight:inherit}
     .subFr .ul{position:absolute;left:0;right:0;bottom:4px;height:10px;background:#d9774b55;border-radius:6px;transform-origin:left center;transform:scaleX(0)}
     .subEn{font:800 var(--fs)/1.3 Nunito;color:#5d7fa0;margin-top:10px;padding-top:10px;border-top:3px dashed #e6dccd;white-space:nowrap}
+    /* real photos */
+    .phWrap{position:absolute;inset:0;pointer-events:none} .ph{position:absolute;opacity:0;transform-origin:50% 60%}
+    .ph.print{background:#fffaf0;padding:14px 14px 16px;border-radius:4px;box-shadow:0 16px 30px #0000004d}
+    .ph.print .phFrame{overflow:hidden;background:#d9c7a4} .ph.print .phImg{display:block;object-fit:cover;transform-origin:50% 50%}
+    .ph.print .tape{position:absolute;left:50%;top:-18px;width:130px;height:36px;margin-left:-65px;background:#f3c96bc8;transform:rotate(-3deg)}
+    .ph.cut .phImg{display:block;transform-origin:50% 80%}
+    .phCap{font:600 40px/1 Caveat;color:#3a2e28;text-align:center;margin-top:10px} .phCap small{display:block;font:800 16px Nunito;letter-spacing:.08em;text-transform:uppercase;color:#8a7a6c;margin-top:4px}
+    .ph.cut .phCap{display:table;margin:6px auto 0;background:#fffaf0;padding:8px 18px 10px;border-radius:10px;box-shadow:0 6px 0 #0000001a;white-space:nowrap}
     /* vocab cards (bookmark) */
     .cardWrap{position:absolute;left:1330px;top:170px;width:520px}
     .card{position:relative;background:#fffaf0;border-radius:8px 8px 28px 28px;padding:30px 32px 24px;box-shadow:0 14px 0 #0000002a;border:4px solid #3a2e28}
@@ -374,6 +401,7 @@ const comp = `<template>
     <img class="logo" src="${LOGO}" alt="">
     <div class="grain"></div>
     ${subsHTML}
+    ${photosHTML}
     ${cardsHTML}
     <div id="recap" class="clip" data-start="${f(RECAP)}" data-duration="${f(RECAP_D)}" data-track-index="6">
       <h2 id="recap-title">Aujourd'hui, on a appris…</h2>

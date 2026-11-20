@@ -10,7 +10,9 @@ export { range, mk };
 
 /* ---------------- puppets ---------------- */
 export function PERSON(o = {}) {
-  const { robe = '#8a5e42', trim = '#5a3a28', skin = '#e8b591', hair = '#3a2620', beard = null, head = 'none', headC = '#f3e6cf', old = false, prop = '' } = o;
+  // suit: jacket (robe colour) + trousers (legs colour) + tie (tie colour) instead of a robe · glasses: round spectacles
+  const { robe = '#8a5e42', trim = '#5a3a28', skin = '#e8b591', hair = '#3a2620', beard = null, head = 'none', headC = '#f3e6cf', old = false, prop = '', suit = false, legs = '#3a3a48', tie = '#8a3f3f', glasses = false } = o;
+  const curls = (y0 = -238) => range(4, i => `<circle cx="${-24 + i * 13}" cy="${y0 + (i % 2) * 4}" r="8" fill="${hair}"/>`);
   const hw = {
     none: `<path d="M-30 -214 C-34 -252 22 -262 32 -230 C22 -240 4 -242 -8 -236 C-14 -228 -22 -224 -30 -214Z" fill="${hair}"/>${range(4, i => `<circle cx="${-24 + i * 13}" cy="${-242 + (i % 2) * 4}" r="9" fill="${hair}"/>`)}`,
     turban: `<path d="M-34 -222 C-38 -266 34 -268 34 -226 C24 -236 -24 -236 -34 -222Z" fill="${headC}"/><path d="M-30 -238 C-10 -252 14 -252 32 -236" stroke="${trim}" stroke-width="4" fill="none" opacity=".5"/>`,
@@ -18,16 +20,27 @@ export function PERSON(o = {}) {
     crown: `<path d="M-30 -214 C-34 -250 30 -256 32 -222" fill="#f6f0e4"/><path d="M-22 -244 l8 -20 l8 14 l8 -18 l8 18 l8 -14 l6 20Z" fill="#e8b35c" stroke="#b07a26" stroke-width="2"/>`,
     hood: `<path d="M-38 -170 C-48 -230 -28 -266 4 -266 C40 -266 48 -226 38 -180 C30 -210 22 -228 2 -232 C-18 -230 -28 -206 -38 -170Z" fill="${headC}"/>`,
     fez: `${range(4, i => `<circle cx="${-24 + i * 13}" cy="${-238 + (i % 2) * 4}" r="8" fill="${hair}"/>`)}<path d="M-20 -238 L-16 -266 H16 L20 -238Z" fill="${headC}"/>`,
+    bowler: `${curls(-232)}<path d="M-28 -236 C-30 -276 30 -276 28 -236Z" fill="${headC}"/><ellipse cx="2" cy="-236" rx="44" ry="7" fill="${headC}"/>`,
+    bun: `<path d="M-32 -206 C-40 -252 18 -266 34 -230 C22 -242 2 -244 -10 -238 C-18 -230 -26 -222 -32 -206Z" fill="${hair}"/><circle cx="-26" cy="-246" r="17" fill="${hair}"/>`,
+    beret: `${curls(-234)}<ellipse cx="-2" cy="-244" rx="38" ry="13" fill="${headC}" transform="rotate(-8 -2 -244)"/><path d="M2 -256 v-8" stroke="${headC}" stroke-width="5" stroke-linecap="round"/>`,
   }[head];
+  const body = suit
+    ? `<path d="M-30 -80 H30 L28 0 H4 L0 -60 L-4 0 H-28Z" fill="${legs}"/>
+ <ellipse cx="-16" cy="-2" rx="16" ry="7" fill="#2a2220"/><ellipse cx="18" cy="-2" rx="16" ry="7" fill="#2a2220"/>
+ <path d="M-42 -172 C-50 -130 -50 -90 -46 -66 H46 C50 -90 50 -130 42 -172 C30 -190 -30 -190 -42 -172Z" fill="${robe}"/>
+ <path d="M-12 -186 L0 -150 L12 -186Z" fill="#fbf4e6"/><path d="M-3 -176 L3 -176 L6 -132 L0 -124 L-6 -132Z" fill="${tie}"/>
+ <path d="M-14 -186 L-2 -140 L-20 -150Z M14 -186 L2 -140 L20 -150Z" fill="${trim}" opacity=".55"/><circle cx="0" cy="-100" r="3.5" fill="${trim}"/><circle cx="0" cy="-82" r="3.5" fill="${trim}"/>`
+    : `<path d="M-44 -170 C-52 -120 -56 -40 -52 0 H52 C56 -40 52 -120 44 -170 C30 -190 -30 -190 -44 -170Z" fill="${robe}"/>
+ <path d="M-52 0 H52 L50 -14 H-50Z" fill="${trim}" opacity=".7"/><path d="M0 -186 V-6" stroke="${trim}" stroke-width="5" opacity=".45"/>`;
   return `<g class="pBody">
- <path d="M-44 -170 C-52 -120 -56 -40 -52 0 H52 C56 -40 52 -120 44 -170 C30 -190 -30 -190 -44 -170Z" fill="${robe}"/>
- <path d="M-52 0 H52 L50 -14 H-50Z" fill="${trim}" opacity=".7"/><path d="M0 -186 V-6" stroke="${trim}" stroke-width="5" opacity=".45"/>
+ ${body}
  <rect x="-10" y="-202" width="20" height="20" rx="6" fill="${skin}" filter="brightness(.92)"/>
  <g class="pHead">
   <circle cx="0" cy="-214" r="31" fill="${skin}"/>
   ${hw}
   <ellipse cx="13" cy="-216" rx="3.5" ry="${old ? 3 : 5}" fill="#2a1e18"/>
   ${old ? `<path d="M6 -226 q8 -4 16 0" stroke="${beard || '#cfc6b8'}" stroke-width="4" fill="none" stroke-linecap="round"/>` : ''}
+  ${glasses ? `<circle cx="14" cy="-216" r="11" fill="#fffaf044" stroke="#3a2e28" stroke-width="3"/><path d="M3 -218 H-18" stroke="#3a2e28" stroke-width="3"/>` : ''}
   ${beard ? `<path d="M-14 -200 C-12 -168 6 -150 18 -156 C30 -164 32 -186 28 -204 C20 -194 4 -194 -14 -200Z" fill="${beard}"/>` : `<path d="M9 -199 q8 5 15 -1" stroke="#8a3a2c" stroke-width="3" fill="none" stroke-linecap="round"/><circle cx="21" cy="-204" r="6" fill="#e8907e" opacity=".45"/>`}
  </g>
  <g class="pArm"><path d="M26 -172 C42 -150 46 -128 44 -110" stroke="${robe}" stroke-width="18" fill="none" stroke-linecap="round" filter="brightness(.9)"/><circle cx="44" cy="-106" r="10" fill="${skin}"/>${prop}</g>
@@ -59,6 +72,13 @@ export const ICON = {
   phone: `<rect x="-14" y="-26" width="28" height="52" rx="7" fill="#3a2e28"/><rect x="-10" y="-20" width="20" height="36" rx="3" fill="#cfe4ec"/>`,
   calendar: `<rect x="-24" y="-20" width="48" height="44" rx="6" fill="#fffaf0" stroke="#8a7a6c" stroke-width="3"/><rect x="-24" y="-20" width="48" height="12" rx="4" fill="#e8907e"/><path d="M-12 4 h6 M2 4 h6 M-12 14 h6" stroke="#8a7a6c" stroke-width="4"/>`,
   search: `<circle cx="-4" cy="-4" r="16" fill="#cfe4ec" stroke="#3a2e28" stroke-width="5"/><path d="M8 8 L22 22" stroke="#3a2e28" stroke-width="7" stroke-linecap="round"/>`,
+  moon: `<circle r="24" fill="#f6eddc"/><circle cx="-8" cy="-6" r="5" fill="#e3d6bf"/><circle cx="9" cy="8" r="4" fill="#e3d6bf"/><circle cx="6" cy="-12" r="2.5" fill="#e3d6bf"/>`,
+  sixpence: `<circle r="22" fill="#d6d6d0" stroke="#9a9a92" stroke-width="4"/><text x="0" y="9" text-anchor="middle" font-family="Playfair Display" font-weight="700" font-size="24" fill="#7a7a72">6d</text>`,
+  palette: `<path d="M-28 4 C-34 -22 -6 -32 14 -26 C34 -20 34 0 20 4 C10 6 12 16 4 22 C-10 30 -24 22 -28 4Z" fill="#e8d3a6" stroke="#a8803f" stroke-width="3"/>${[[-14, -12, '#c9502e'], [2, -18, '#f3c96b'], [16, -10, '#5b7398'], [-16, 6, '#5f8f5a']].map(([x, y, c]) => `<circle cx="${x}" cy="${y}" r="6" fill="${c}"/>`).join('')}<path d="M10 30 L34 -2" stroke="#7a5038" stroke-width="5" stroke-linecap="round"/><path d="M34 -2 l4 -8" stroke="#c9502e" stroke-width="6" stroke-linecap="round"/>`,
+  letter: `<rect x="-28" y="-18" width="56" height="38" rx="4" fill="#fffaf0" stroke="#a8906c" stroke-width="3"/><path d="M-28 -16 L0 6 L28 -16" stroke="#a8906c" stroke-width="3" fill="none"/><circle cx="0" cy="8" r="6" fill="#c9502e"/>`,
+  typewriter: `<path d="M-24 -10 L-18 -30 H18 L24 -10Z" fill="#fffaf0" stroke="#a8906c" stroke-width="2"/><rect x="-32" y="-12" width="64" height="30" rx="6" fill="#3a3a48"/><rect x="-36" y="-16" width="72" height="8" rx="4" fill="#5a5a68"/>${range(3, r => range(6 - r, k => `<circle cx="${-20 + k * 8 + r * 4}" cy="${-2 + r * 7}" r="2.6" fill="#e9dcc4"/>`)).toString()}`,
+  cabin: `<path d="M-30 24 V-4 L0 -26 L30 -4 V24Z" fill="#a8703f"/><path d="M-34 -2 L0 -30 L34 -2" stroke="#6b4530" stroke-width="6" fill="none" stroke-linecap="round"/><rect x="-8" y="4" width="14" height="20" fill="#5a3a28"/><rect x="12" y="0" width="10" height="10" fill="#f3c96b"/><path d="M-36 26 H36" stroke="#7fa05c" stroke-width="5"/>`,
+  easel: `<path d="M-18 30 L-4 -28 M18 30 L4 -28 M0 -28 V30" stroke="#8a5e42" stroke-width="5" stroke-linecap="round"/><rect x="-22" y="-24" width="44" height="34" fill="#fffaf0" stroke="#a8906c" stroke-width="2"/><path d="M-16 4 C-8 -14 4 -2 16 -16" stroke="#5f8f5a" stroke-width="6" fill="none" stroke-linecap="round"/><circle cx="10" cy="-14" r="5" fill="#e2733f"/>`,
   lantern: `<path d="M0 -30 V-22" stroke="#5a3a28" stroke-width="3"/><path d="M-14 -22 H14 L18 14 H-18Z" fill="#f3c96b" stroke="#b07a26" stroke-width="3"/><rect x="-10" y="14" width="20" height="8" fill="#b07a26"/>`,
 };
 export const icon = (n, s = 1, x = 0, y = 0) => `<g transform="translate(${x} ${y}) scale(${s})">${ICON[n] || ''}</g>`;

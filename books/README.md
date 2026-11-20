@@ -7,7 +7,7 @@ Khung dùng lại cho mọi tập. Mỗi tập chỉ cần: voice + script, `pla
 | Đường dẫn | Là gì | Dùng lại? |
 |---|---|---|
 | `art.mjs` | Góc đọc sách (`NOOK_BG/FG`), kệ sách mở đầu, sổ tay, bìa sách tự vẽ (`COVER`) | dùng chung |
-| `scenes.mjs` | Thư viện **nơi chốn** dùng chung (bảng ở đầu file): campagne, chemin, interieur, placeMer, mer, marche, boutique, oasis, desertNuit, pyramides | dùng chung |
+| `scenes.mjs` | Thư viện **nơi chốn** dùng chung (bảng ở đầu file): campagne, chemin, interieur, placeMer, mer, marche, boutique, oasis, desertNuit, pyramides, rueNuit, salon, bureau, atelier, etang | dùng chung |
 | `kit.mjs` | Bộ vẽ: nhân vật giấy `PERSON({robe, head:'turban'/'scarf'/'crown'/'hood'/'fez', beard, old…})`, icon (`ICON`), bong bóng, trời/đồi/biển/đồi cát/cọ/nhà, bản đồ hành trình `MAP(stops)` | dùng chung |
 | `tools/chunk.mjs` | Chia phụ đề ≤ 50 ký tự, chia đều từng câu, không chữ mồ côi | dùng chung |
 | `tools/build.mjs` | Dựng project HyperFrames của một tập | dùng chung |
@@ -43,11 +43,20 @@ Mốc (`c`) = số đoạn phụ đề trong `work/chunks.txt`, hoặc `[đoạn
   - `chap`: thẻ chương `{ n, title, sub, icon }`
   - `fiche`: phiếu đọc sách `{ rows: [{ c, label, text }], rating, ratingAt }`
 - `VOCAB`: `{ c, phrase (đúng chữ trong đoạn), tag, word, ipa, mean, ex, exEn }`, ~1 từ/1,5 phút, cách nhau ≥ 15 s
+- `PHOTOS` (tuỳ chọn): ảnh thật đè lên mọi loại cảnh `{ c, until?, src, x, y, w?, rot?, cap?, sub? }`. `src` trong `epNN/assets/photos/`: `.png` (đã tách nền) = sticker viền trắng, `.jpg` = ảnh in dán băng keo + chú thích. Tránh góc trên phải khi đang có thẻ từ, tránh y > 760 (phụ đề), tránh nhãn kênh góc trên trái trong `nook`.
+- `BOOK.cover`: kiểu bìa tự vẽ (`'moon'` = trời đêm + trăng + đồng xu; bỏ trống = hoàng hôn sa mạc ep01)
 
 ## Trang tranh (epNN/art.mjs)
 
 `{ w, ground, layers: [{ cls: sky|far|mid|near|fore, k, lift?, svg }], pups: [{ name, svg, x, y, s?, flip?, hidden? }], props }`.
 Chân nhân vật đặt ở y ≤ 800 (khung phụ đề che phần dưới). Đồ vật ẩn lúc đầu đặt class `chest`, `hole`, `tea`, `jar`, `jc`, `stones`, `sparks` (hoặc dùng `hide` ở beat đầu).
+
+## Ảnh thật
+
+- Chỉ dùng ảnh **public domain / CC0 / CC BY** (Wikimedia Commons, NASA, Library of Congress, Flickr CC qua Openverse). Không lấy ảnh Google/Bing không rõ giấy phép (dễ bị claim trên YouTube). Tránh CC BY-SA / ND.
+- Tải bản gốc vào `epNN/assets/photos/src/`, tách nền: `npx --yes hyperframes@0.9.16 remove-background src/x.jpg -o x.png`, thu nhỏ (≤ 700 px PNG, ≤ 1000 px JPG) bằng ffmpeg.
+- Ghi từng ảnh vào `epNN/assets/photos/CREDITS.md`; ảnh CC BY bắt buộc có dòng "Photo credits" trong mô tả YouTube (trước khối nhạc).
+- Hợp: chân dung tác giả, trang tên sách cũ, đồ vật trong truyện (đồng xu, máy chữ…), nơi chốn có thật, tranh cổ điển. Mỗi ảnh 2–5 s, ~1 ảnh / phút.
 
 ## Phong cách đã chốt
 
@@ -65,5 +74,6 @@ Chân nhân vật đặt ở y ≤ 800 (khung phụ đề che phần dưới). �
 | Tập | Sách | Nơi chốn dùng | Thêm mới vào thư viện |
 |---|---|---|---|
 | ep01 | L'Alchimiste — Paulo Coelho | cả 10 nơi chốn hiện có | toàn bộ khung: scenes, kit (PERSON, ICON, PROP, BOAT, MAP), sfx + âm nền |
+| ep02 | The Moon and Sixpence — W. Somerset Maugham | rueNuit, salon, bureau, atelier, etang | 5 nơi chốn trên; PERSON `suit`/`glasses`, mũ `bowler`/`bun`/`beret`; ICON moon, sixpence, palette, letter, typewriter, cabin, easel; bìa `cover:'moon'`; **ảnh thật `PHOTOS`** (sticker + ảnh in) |
 
 Quy trình đầy đủ (kể cả cách thêm hình mới để dùng lại): skill `skills/cozy-books-episode/SKILL.md`.

@@ -5,7 +5,7 @@
 // A backdrop = { w, ground, amb, layers: [{ cls: sky|far|mid|near|fore|<overlay>, k, lift?, svg }] }
 //   k = drift speed of the slow camera move · lift = px the layer is raised (feet must stay above y ≈ 800)
 //   amb = ambience bed in tools/sfx.mjs (rain · birds · sea · market · wind · night · shop)
-// Classes the build animates if present: .cloud .birds .wave .tuft .shHead .lamp .flag .twk .wnd .sand .spark
+// Classes the build animates if present: .cloud .birds .wave .tuft .shHead .lamp .flag .twk .wnd .sand .spark .smoke .fire .lampGlowP .moonG
 //
 // id            place                                         used in
 // campagne      countryside, ruined chapel + big tree, flock  ep01 (Andalousie; {flock:false, dusk:true} = trésor)
@@ -18,8 +18,13 @@
 // oasis         palms, pool, well, tents, desert sunset       ep01
 // desertNuit    desert at night, camp, wind swirls, dawn      ep01 (le vent) — beat `wind`, overlay .L-dawn
 // pyramides     pyramids under the moon                       ep01
+// rueNuit       city street at night, terraced houses, gas lamps, big moon   ep02 (Londres; {moon:false})
+// salon         bourgeois living room, fireplace, mirror, window, armchair   ep02 (la maison Strickland)
+// bureau        office / work room, ledgers shelf, clock, arched windows      ep02 (la finance, la dactylographie)
+// atelier       painter's attic studio, skylight on Paris roofs, easel        ep02 (Paris; {bed:true} = chez Dirk)
+// etang         pond in the woods, wooden cabin with smoking chimney          ep02 (Walden)
 import { PAGE_ALCHIMISTE_1, PAGE_ALCHIMISTE_2 } from './art.mjs';
-import { skyDef, sun, dunes, sea, palm, houses, stars, range, mk, icon } from './kit.mjs';
+import { skyDef, sun, hills, dunes, sea, palm, houses, stars, tufts, range, mk, icon } from './kit.mjs';
 
 const cut = s => `<g filter="url(#pencil)">${s}</g>`;
 
@@ -158,6 +163,100 @@ export const SCENES = {
         <path d="M1480 650 L1700 380 L1920 650Z" fill="#bf965f"/><path d="M1700 380 L1740 650 L1920 650Z" fill="#9c7648"/><path d="M640 650 L800 460 L960 650Z" fill="#b48c58"/>`) },
         { cls: 'mid', k: .7, svg: cut(dunes(2200, 730, '#b8925e', 6)) },
         { cls: 'near', k: 1, svg: cut(`<rect x="0" y="780" width="2200" height="300" fill="#c9a06a"/><path class="pile" d="M560 790 C580 740 680 740 700 790Z" fill="#a8804f"/>`) },
+      ],
+    };
+  },
+  rueNuit({ moon = true } = {}) {
+    const g = mk(33);
+    const terrace = (x0, n, y, cols) => range(n, i => { const x = x0 + i * 230, h = 300 + (i % 3) * 30, c = cols[i % cols.length];
+      return `<rect x="${x}" y="${y - h}" width="220" height="${h}" fill="${c}"/><rect x="${x}" y="${y - h - 16}" width="220" height="16" fill="#5a3a30"/>
+      <rect x="${x + 150}" y="${y - h - 70}" width="34" height="58" fill="#6b4a40"/>${range(3, k => `<rect x="${x + 152 + k * 11}" y="${y - h - 84}" width="8" height="16" fill="#c9693f"/>`)}
+      ${range(2, r => range(2, k => `<rect x="${x + 30 + k * 100}" y="${y - h + 40 + r * 110}" width="60" height="80" fill="${g.r() < .55 ? '#f3c96b' : '#3f4c6b'}"/><path d="M${x + 60 + k * 100} ${y - h + 40 + r * 110} v80 M${x + 30 + k * 100} ${y - h + 80 + r * 110} h60" stroke="#5a3a30" stroke-width="4"/>`))}
+      <rect x="${x + 80}" y="${y - 96}" width="60" height="96" rx="30" fill="#2f3a55"/><rect x="${x + 70}" y="${y - 10}" width="80" height="10" fill="#8a8278"/>`; });
+    return {
+      w: 2200, ground: '#6b6a7a', amb: 'night',
+      layers: [
+        { cls: 'sky', k: .1, svg: `<defs>${skyDef('rn-sky', '#1f2744', '#34405f', '#5a6080')}</defs><rect width="2200" height="1080" fill="url(#rn-sky)"/>${stars(2200, 420, 60, 3)}
+        ${moon ? `<circle class="moonG" cx="1480" cy="210" r="150" fill="#f6eddc" opacity=".12"/><circle cx="1480" cy="210" r="92" fill="#f6eddc"/><circle cx="1450" cy="190" r="16" fill="#e3d6bf"/><circle cx="1510" cy="240" r="12" fill="#e3d6bf"/><circle cx="1500" cy="170" r="8" fill="#e3d6bf"/>` : ''}
+        <g fill="#4a5578" opacity=".7" filter="url(#pencil)"><path class="cloud" d="M300 260 c20 -40 80 -40 100 -8 c30 -24 80 -6 80 26 c30 0 40 40 8 46 H300 c-34 -8 -34 -56 0 -64Z"/></g>` },
+        { cls: 'far', k: .4, svg: cut(range(14, i => { const x = i * 170 - 40, h = 140 + (i * 53) % 90; return `<rect x="${x}" y="${560 - h}" width="160" height="${h + 40}" fill="#2f3854"/><rect x="${x + 110}" y="${560 - h - 40}" width="24" height="40" fill="#2f3854"/>${i % 2 ? `<rect x="${x + 30}" y="${600 - h}" width="22" height="28" fill="#c9a24a" opacity=".7"/>` : ''}`; })) },
+        { cls: 'mid', k: .7, svg: cut(terrace(-20, 10, 770, ['#8a5a48', '#9c6a52', '#7a4e40'])) },
+        { cls: 'near', k: 1, svg: cut(`<rect x="0" y="770" width="2200" height="310" fill="#6b6a7a"/>${range(30, i => `<path d="M${i * 80} 790 h56 M${i * 80 + 40} 830 h56" stroke="#5a5968" stroke-width="5" stroke-linecap="round"/>`)}
+        ${[560, 1700].map(x => `<path d="M${x} 790 V420" stroke="#2a2a38" stroke-width="12"/><path d="M${x - 30} 790 h60" stroke="#2a2a38" stroke-width="14"/><path d="M${x - 28} 420 L${x - 20} 360 H${x + 20} L${x + 28} 420Z" fill="#f3c96b" stroke="#2a2a38" stroke-width="6"/><path d="M${x - 34} 360 L${x} 336 L${x + 34} 360Z" fill="#2a2a38"/>`).join('')}`)
+        + [560, 1700].map(x => `<circle class="lampGlowP" cx="${x}" cy="392" r="90" fill="#f3c96b" opacity=".18"/>`).join('') },
+      ],
+    };
+  },
+  salon() {
+    return {
+      w: 2100, ground: '#7a5038', amb: 'shop',
+      layers: [
+        { cls: 'sky', k: .1, svg: `<rect width="2100" height="1080" fill="#e3cfae"/>${cut(`${range(22, i => `<rect x="${i * 100}" y="0" width="44" height="560" fill="#d8c09a" opacity=".6"/>`)}<rect x="0" y="560" width="2100" height="22" fill="#8a5e42"/><rect x="0" y="582" width="2100" height="200" fill="#b98a62"/>${range(12, i => `<rect x="${30 + i * 180}" y="610" width="140" height="140" rx="6" fill="none" stroke="#a5764e" stroke-width="5"/>`)}`)}` },
+        { cls: 'far', k: .4, svg: cut(`<defs>${skyDef('sl-sky', '#8a98ae', '#c9cdd2')}</defs>
+        <rect x="1220" y="180" width="420" height="400" fill="url(#sl-sky)"/>${range(6, i => `<rect x="${1230 + i * 70}" y="${430 - (i % 3) * 30}" width="60" height="${150 + (i % 3) * 30}" fill="#7a7a88"/><rect x="${1270 + i * 70}" y="${400 - (i % 3) * 30}" width="12" height="30" fill="#7a7a88"/>`)}
+        <rect x="1220" y="180" width="420" height="400" fill="none" stroke="#fbf4e6" stroke-width="18"/><path d="M1430 180 V580 M1220 380 H1640" stroke="#fbf4e6" stroke-width="10"/>
+        <path d="M1170 150 h70 c-10 160 -10 300 20 450 h-90Z M1620 150 h70 v450 h-90 c30 -150 30 -290 20 -450Z" fill="#8a3f3f"/><rect x="1150" y="140" width="560" height="20" rx="8" fill="#6b4a36"/>
+        <rect x="280" y="420" width="420" height="360" fill="#e9dcc4"/><rect x="250" y="400" width="480" height="34" rx="6" fill="#fbf4e6"/><rect x="360" y="530" width="260" height="250" rx="120" fill="#3a2e28"/>
+        <path class="fire" d="M420 770 C410 700 450 690 460 640 C480 690 520 700 500 770Z M480 770 C480 720 520 710 530 680 C550 720 560 740 540 770Z" fill="#e2733f"/><path d="M450 770 C450 730 470 720 476 700 C490 730 500 750 490 770Z" fill="#f3c96b"/>
+        <rect x="370" y="180" width="240" height="200" rx="100" fill="#c9cdd2" stroke="#c9a24a" stroke-width="14"/><path d="M420 240 l40 -30 M440 280 l70 -60" stroke="#fffaf0" stroke-width="6" opacity=".6"/>
+        <rect x="300" y="350" width="40" height="50" rx="6" fill="#c9a24a"/><circle cx="320" cy="368" r="12" fill="#fffaf0"/><path d="M640 400 V340 M652 400 V330" stroke="#fffaf0" stroke-width="10"/><path d="M640 334 c-6 -10 6 -14 0 -22 M652 324 c-6 -10 6 -14 0 -22" stroke="#f3c96b" stroke-width="5" fill="none"/>`) },
+        { cls: 'mid', k: .7, svg: cut(`<rect x="0" y="770" width="2100" height="310" fill="#7a5038"/>${range(14, i => `<path d="M${i * 160} 770 L${i * 160 - 90} 1080" stroke="#6b4530" stroke-width="5"/>`)}<ellipse cx="1050" cy="880" rx="640" ry="90" fill="#8a3f3f"/><ellipse cx="1050" cy="880" rx="560" ry="70" fill="none" stroke="#c9a24a" stroke-width="6"/>`) },
+        { cls: 'near', k: 1, svg: cut(`<ellipse cx="1000" cy="610" rx="180" ry="26" fill="#6b4a36"/><path d="M1000 630 V770 M940 790 L1000 760 L1060 790" stroke="#5a3a28" stroke-width="18" fill="none" stroke-linecap="round"/>
+        <path d="M1060 600 V520" stroke="#c9a24a" stroke-width="8"/><path d="M1020 520 L1036 460 H1084 L1100 520Z" fill="#f3c96b" stroke="#c9a24a" stroke-width="5"/>
+        <path d="M1560 790 V620 C1560 520 1620 480 1720 480 C1820 480 1880 520 1880 620 V790Z" fill="#5b7398"/><rect x="1540" y="640" width="360" height="90" rx="30" fill="#6f87ab"/><path d="M1570 790 v16 M1870 790 v16" stroke="#3a2e28" stroke-width="12"/>`) },
+      ],
+    };
+  },
+  bureau() {
+    return {
+      w: 2100, ground: '#8a6a50', amb: 'shop',
+      layers: [
+        { cls: 'sky', k: .1, svg: `<rect width="2100" height="1080" fill="#e6dfcc"/>${cut(`<rect x="0" y="600" width="2100" height="180" fill="#9c7a5a"/><rect x="0" y="590" width="2100" height="16" fill="#6b4a36"/>`)}` },
+        { cls: 'far', k: .4, svg: cut(`<defs>${skyDef('bu-sky', '#a3b2c2', '#dfe2e0')}</defs>${[1100, 1560].map(x => `<rect x="${x}" y="150" width="300" height="420" rx="150" fill="url(#bu-sky)"/>${range(4, i => `<rect x="${x + 10 + i * 70}" y="${380 + (i % 2) * 40}" width="58" height="200" fill="#8a8e9c"/>`)}<path d="M${x + 150} 160 V570 M${x} 360 H${x + 300}" stroke="#fbf4e6" stroke-width="10"/><rect x="${x}" y="150" width="300" height="420" rx="150" fill="none" stroke="#fbf4e6" stroke-width="16"/>`).join('')}
+        <rect x="160" y="190" width="700" height="400" fill="#8a5e42"/>${range(3, r => `<rect x="175" y="${300 + r * 110}" width="670" height="12" fill="#6b4a36"/>${range(15, k => `<rect x="${185 + k * 44}" y="${222 + r * 110}" width="34" height="78" fill="${['#5b7398', '#8a3f3f', '#5f7f45', '#c9a24a'][(k + r) % 4]}"/>`)}`)}
+        <circle cx="980" cy="260" r="54" fill="#fffaf0" stroke="#6b4a36" stroke-width="8"/><path d="M980 230 V260 L1004 272" stroke="#3a2e28" stroke-width="5" fill="none" stroke-linecap="round"/>`) },
+        { cls: 'mid', k: .7, svg: cut(`<rect x="0" y="770" width="2100" height="310" fill="#8a6a50"/>${range(12, i => `<path d="M${i * 190} 770 V1080" stroke="#7a5a42" stroke-width="5"/>`)}`) },
+        { cls: 'near', k: 1, svg: cut(`<rect x="480" y="600" width="720" height="26" rx="6" fill="#6b4a36"/><rect x="500" y="626" width="200" height="160" fill="#7a5038"/><path d="M1170 626 V790" stroke="#5a3a28" stroke-width="20"/>
+        <rect x="560" y="570" width="140" height="30" fill="#fffaf0"/><rect x="570" y="556" width="140" height="16" fill="#f3e6cf"/><path d="M760 600 V520" stroke="#3a6a4a" stroke-width="8"/><path d="M720 530 Q760 490 800 530Z" fill="#3a6a4a"/>`) },
+      ],
+    };
+  },
+  atelier({ bed = false } = {}) {
+    const g = mk(44);
+    return {
+      w: 2200, ground: '#a8805a', amb: 'shop',
+      layers: [
+        { cls: 'sky', k: .1, svg: `<rect width="2200" height="1080" fill="#e8d9bf"/>${cut(`<path d="M0 0 H2200 V110 L0 260Z" fill="#c9b08a"/>${range(6, i => `<path d="M${i * 400} ${260 - i * 27} L${i * 400 + 60} 0" stroke="#8a5e42" stroke-width="22"/>`)}`)}` },
+        { cls: 'far', k: .4, svg: cut(`<defs>${skyDef('at-sky', '#8fbad6', '#d6e6ec')}</defs><path d="M1100 200 L1720 120 V520 H1100Z" fill="url(#at-sky)"/>
+        ${range(8, i => { const x = 1110 + i * 78, h = 90 + (i % 3) * 40; return `<rect x="${x}" y="${520 - h}" width="70" height="${h}" fill="#e9dcc4"/><path d="M${x - 4} ${520 - h} l39 -26 l39 26Z" fill="#7a8a9c"/><rect x="${x + 44}" y="${494 - h}" width="12" height="22" fill="#c9693f"/><rect x="${x + 14}" y="${540 - h}" width="12" height="18" fill="#5b7398" opacity=".7"/>`; })}
+        <path d="M1100 200 L1720 120 V520 H1100Z" fill="none" stroke="#6b4a36" stroke-width="18"/><path d="M1410 160 V520 M1100 360 L1720 320" stroke="#6b4a36" stroke-width="9"/>
+        ${[[180, 260, 200, 150, '#5f8f5a', '#e2733f'], [440, 300, 150, 190, '#c9502e', '#f3c96b'], [180, 450, 160, 120, '#5b7398', '#e8907e']].map(([x, y, w, h, a, b]) => `<rect x="${x}" y="${y}" width="${w}" height="${h}" fill="#fffaf0" stroke="#8a5e42" stroke-width="10"/><path d="M${x + 14} ${y + h - 20} C${x + w * .3} ${y + h * .3} ${x + w * .6} ${y + h * .8} ${x + w - 14} ${y + 20}" stroke="${a}" stroke-width="18" fill="none" stroke-linecap="round"/><circle cx="${x + w * .7}" cy="${y + h * .35}" r="${Math.min(w, h) * .14}" fill="${b}"/>`).join('')}
+        <rect x="660" y="430" width="300" height="14" fill="#8a5e42"/>${range(6, i => `<rect x="${672 + i * 48}" y="${388 + (i % 2) * 8}" width="30" height="${42 - (i % 2) * 8}" rx="5" fill="${['#c9502e', '#f3c96b', '#5b7398', '#5f8f5a', '#e8907e', '#7a5a8c'][i]}"/>`)}`) },
+        { cls: 'mid', k: .7, svg: cut(`<rect x="0" y="770" width="2200" height="310" fill="#a8805a"/>${range(14, i => `<path d="M${i * 170} 770 L${i * 170 - 80} 1080" stroke="#97704c" stroke-width="5"/>`)}${range(18, () => `<circle cx="${g.R(100, 2100).toFixed(0)}" cy="${g.R(800, 1060).toFixed(0)}" r="${g.R(4, 10).toFixed(0)}" fill="${g.pick(['#c9502e', '#f3c96b', '#5b7398', '#5f8f5a'])}" opacity=".55"/>`)}`) },
+        { cls: 'near', k: 1, svg: cut(`<path d="M600 790 L700 340 M820 790 L720 340 M710 360 V790" stroke="#7a5038" stroke-width="14" stroke-linecap="round"/><rect x="590" y="580" width="250" height="16" fill="#7a5038"/>
+        <g class="canvas"><rect x="580" y="350" width="270" height="230" fill="#fffaf0" stroke="#a8906c" stroke-width="6"/><path d="M600 540 C660 420 740 520 830 400" stroke="#5f8f5a" stroke-width="22" fill="none" stroke-linecap="round"/><circle cx="780" cy="420" r="30" fill="#e2733f"/><path d="M610 560 h220" stroke="#c9693f" stroke-width="18"/></g>
+        ${range(4, i => `<rect x="${1840 + i * 18}" y="${540 + i * 8}" width="200" height="250" fill="${['#fffaf0', '#e9dcc4', '#d8c7a6', '#fbf4e6'][i]}" stroke="#8a5e42" stroke-width="6" transform="rotate(${-6 + i * 3} ${1940 + i * 18} 790)"/>`)}
+        ${bed ? `<rect x="1150" y="640" width="560" height="90" rx="14" fill="#8fa3b8"/><path d="M1160 720 C1300 650 1500 660 1700 690 V740 H1160Z" fill="#c9693f"/><rect x="1150" y="610" width="130" height="50" rx="20" fill="#fbf4e6"/><path d="M1140 790 V560 M1720 790 V620 M1140 740 H1720" stroke="#3a3a48" stroke-width="12" stroke-linecap="round"/>`
+        : `<rect x="1300" y="660" width="120" height="16" rx="6" fill="#7a5038"/><path d="M1310 676 L1300 790 M1410 676 L1420 790" stroke="#5a3a28" stroke-width="12"/><rect x="1500" y="540" width="80" height="250" rx="10" fill="#3a3a48"/><path d="M1540 540 V300" stroke="#3a3a48" stroke-width="16"/>`}`) },
+      ],
+    };
+  },
+  etang() {
+    return {
+      w: 2200, ground: '#7aa463', amb: 'birds',
+      layers: [
+        { cls: 'sky', k: .1, svg: `<defs>${skyDef('et-sky', '#a9cfe0', '#e2efe6', '#f4f0dc')}</defs><rect width="2200" height="1080" fill="url(#et-sky)"/>${sun(1650, 220, 64)}
+        <g fill="#fffaf0" opacity=".9" filter="url(#pencil)"><path class="cloud" d="M420 200 c20 -50 90 -50 110 -10 c30 -30 90 -10 90 30 c40 0 50 50 10 60 H420 c-40 -10 -40 -70 0 -80Z"/></g>
+        <g class="birds" fill="none" stroke="#5a6a5a" stroke-width="4" stroke-linecap="round"><path d="M900 240 q12 -12 24 0 q12 -12 24 0"/><path d="M980 200 q9 -9 18 0 q9 -9 18 0"/></g>` },
+        { cls: 'far', k: .4, svg: cut(`${hills(2200, 540, 30, '#9cbf8a', 17)}${range(26, i => { const x = i * 88 - 20, h = 130 + (i * 37) % 80; return `<path d="M${x} 600 L${x + 40} ${600 - h} L${x + 80} 600Z" fill="${i % 2 ? '#5f8f5a' : '#4f7f4a'}"/>`; })}`) },
+        { cls: 'mid', k: .7, svg: cut(`<rect x="0" y="640" width="2200" height="440" fill="#8fb47a"/><ellipse cx="760" cy="720" rx="620" ry="70" fill="#7fb0c4"/>${range(8, i => `<path class="wave" d="M${300 + i * 110} ${700 + (i % 3) * 18} q20 -8 40 0 q20 8 40 0" stroke="#a8cad8" stroke-width="5" fill="none" stroke-linecap="round"/>`)}
+        ${range(9, i => `<path d="M${150 + i * 26} 760 q-6 -50 4 -90" stroke="#5f7f45" stroke-width="6" fill="none" stroke-linecap="round"/>`)}`) },
+        { cls: 'near', k: 1, svg: cut(`<rect x="0" y="770" width="2200" height="310" fill="#7aa463"/>
+        <g transform="translate(1500 0)"><rect x="-170" y="560" width="340" height="230" fill="#a8703f"/>${range(6, i => `<path d="M-170 ${590 + i * 36} H170" stroke="#8a5e42" stroke-width="5"/>`)}<path d="M-200 570 L0 430 L200 570Z" fill="#6b4530"/><rect x="80" y="420" width="40" height="110" fill="#8a7a6c"/>
+        <path class="smoke" d="M100 410 c-20 -30 20 -50 0 -80 c-20 -30 20 -50 0 -80" stroke="#e9e4da" stroke-width="12" fill="none" stroke-linecap="round" opacity=".8"/>
+        <rect x="-30" y="680" width="60" height="110" fill="#5a3a28"/><rect x="-140" y="620" width="70" height="60" fill="#f3e6cf" stroke="#6b4530" stroke-width="6"/><rect x="70" y="620" width="70" height="60" fill="#f3e6cf" stroke="#6b4530" stroke-width="6"/></g>
+        <path d="M900 1080 C1000 950 1300 860 1500 790" stroke="#d9c49a" stroke-width="60" fill="none"/>
+        <g transform="translate(2050 790)"><path d="M0 0 V-260" stroke="#7a5038" stroke-width="30"/><circle cx="0" cy="-300" r="110" fill="#5f8f5a"/><circle cx="-70" cy="-240" r="70" fill="#6f9f62"/></g>`) + tufts(2200, 30, 9) },
       ],
     };
   },

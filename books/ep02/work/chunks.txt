@@ -1,0 +1,534 @@
+0	0:00	Devant toi, il y a une pièce
+1	0:02	de monnaie sur le sol.
+2	0:05	Au-dessus de toi, il y a la lune.
+3	0:08	Où vas-tu regarder ?
+4	0:11	Si tu te promènes le soir,
+5	0:12	tu lèveras peut-être les yeux.
+6	0:15	Si tu as juste assez d'argent pour manger,
+7	0:17	tu ramasseras peut-être la pièce.
+8	0:20	Et si, pendant des années, tu as regardé par terre
+9	0:23	parce qu'on t'a appris que c'était la seule
+10	0:25	chose sérieuse à faire, est-ce que tu te souviens
+11	0:29	encore de ce que tu cherchais là-haut ?
+12	0:31	Cette question me fait penser à Walden,
+13	0:34	le livre dans lequel Henry David Thoreau raconte
+14	0:37	sa vie dans une petite cabane près d'un étang.
+15	0:40	Le même récit peut provoquer
+16	0:42	deux réactions très différentes.
+17	0:44	Quelqu'un écoute et dit que vivre
+18	0:46	seul au bord de l'eau serait un rêve.
+19	0:49	Enfin du temps pour lire,
+20	0:51	marcher et entendre ses propres pensées.
+21	0:54	Quelqu'un d'autre pose une question très simple.
+22	0:57	Si je fais ça,
+23	0:59	qui s'occupera des gens qui comptent sur moi ?
+24	1:02	L'un regarde le temps que cette
+25	1:03	décision pourrait lui rendre.
+26	1:05	L'autre pense à ceux
+27	1:07	avec qui il partage déjà ce temps.
+28	1:10	On leur a raconté la même histoire.
+29	1:12	Ils ont entendu deux questions différentes.
+30	1:16	Bonjour et bienvenue dans Cozy French Books.
+31	1:18	Je suis Léa.
+32	1:19	Ici, on découvre des livres ensemble
+33	1:21	et on pratique le français à son rythme.
+34	1:24	Au fil de l'histoire,
+35	1:26	tu entendras des mots et des expressions
+36	1:28	que tu pourras reprendre au quotidien.
+37	1:30	Si tu aimes apprendre le français de cette façon,
+38	1:33	abonne-toi pour retrouver les prochains épisodes.
+39	1:36	Aujourd'hui, on parle de The Moon and Sixpence,
+40	1:39	un roman de William Somerset Maugham que l'on
+41	1:43	trouve en français sous le titre L'Envoûté.
+42	1:46	Le titre anglais réunit la lune et une pièce
+43	1:49	de sixpence, une petite pièce de monnaie.
+44	1:53	Pour notre lecture, la lune,
+45	1:55	ce sera l'idéal qu'on veut atteindre.
+46	1:58	La pièce, ce sera ce qui nous permet de vivre,
+47	2:01	de payer les choses dont on a
+48	2:03	besoin et de tenir nos engagements.
+49	2:06	J'aimerais qu'on parte de cette idée.
+50	2:08	Ta façon de voir la vie change ce que tu poursuis,
+51	2:11	ce que tu mets en premier et la manière
+52	2:13	dont tu traites les autres.
+53	2:15	Ce que j'aime dans ce roman, c'est qu'il
+54	2:17	nous donne plusieurs personnes à regarder.
+55	2:20	Tourne-toi vers l'homme qui lève les yeux vers
+56	2:22	la lune et tu verras une histoire de liberté.
+57	2:26	Tourne-toi vers les gens qui doivent
+58	2:28	s'occuper de ce qu'il laisse derrière lui
+59	2:30	et tu verras le prix de cette liberté.
+60	2:33	Entre les deux,
+61	2:34	il y a aussi quelqu'un qui choisit d'aider.
+62	2:37	C'est à partir de ces trois
+63	2:38	regards que le roman m'intéresse.
+64	2:41	La façon dont tu vois la réussite décide
+65	2:43	souvent de la vie que tu essaies de construire.
+66	2:47	Charles Strickland, le personnage principal,
+67	2:50	pourrait servir d'exemple
+68	2:51	dans une conversation sur la réussite.
+69	2:54	Il travaille à Londres dans la finance.
+70	2:57	Il gagne de quoi faire vivre sa famille.
+71	3:00	Il a une femme,
+72	3:01	deux enfants et une vie qui semble bien en place.
+73	3:05	Si tu demandais à ses proches ce qu'il
+74	3:06	devrait faire dans les dix prochaines années,
+75	3:09	beaucoup diraient sans doute
+76	3:10	qu'il devrait continuer comme ça.
+77	3:12	Pourquoi changer une vie dans laquelle
+78	3:15	tant de choses vont bien ?
+79	3:16	Un jour, alors qu'il a une quarantaine d'années,
+80	3:19	il laisse une courte lettre
+81	3:21	à sa femme et part à Paris.
+82	3:23	Les gens qui le connaissent
+83	3:25	cherchent aussitôt une explication.
+84	3:27	Quand un homme laisse sa famille
+85	3:29	et part seul dans une autre ville,
+86	3:31	on s'attend à ce qu'il soit parti pour quelqu'un.
+87	3:34	Le narrateur, qui va le voir à Paris,
+88	3:36	trouve un homme qui vit avec très peu
+89	3:38	d'argent et veut peindre.
+90	3:40	Il y a quelque chose de presque comique
+91	3:42	dans le décalage entre l'explication
+92	3:45	que tout le monde attend et celle
+93	3:46	que Strickland finit par donner.
+94	3:49	On lui demande, en somme, où est la femme.
+95	3:52	Lui pense déjà à sa peinture.
+96	3:55	Regarde maintenant les deux reproches qu'on
+97	3:58	pourrait lui faire au sujet de ce choix.
+98	4:01	Le premier, c'est qu'il abandonne une vie
+99	4:03	confortable pour vivre avec très peu.
+100	4:06	Le deuxième, c'est qu'il commence tard et qu'il
+101	4:09	n'a aucune garantie de devenir un bon peintre.
+102	4:13	Les deux remarques sont raisonnables.
+103	4:15	Si tu lui donnais un conseil de carrière,
+104	4:17	tu lui demanderais combien
+105	4:19	de temps il peut vivre comme ça.
+106	4:21	Tu lui conseillerais probablement
+107	4:23	de garder son travail et de peindre
+108	4:26	à côté pour voir ce que ça donne.
+109	4:28	Pour quelqu'un qui veut surtout protéger
+110	4:30	une vie déjà construite, le départ
+111	4:32	de Strickland est difficile à comprendre.
+112	4:35	Lui regarde la situation
+113	4:37	à partir d'une autre question.
+114	4:39	Est-ce qu'il peut encore mener sa vie
+115	4:42	sans faire de place à la peinture ?
+116	4:44	Maugham lui fait prendre une image très simple.
+117	4:47	Lorsqu'une personne tombe à l'eau, elle essaie
+118	4:50	de rester à la surface avec les moyens qu'elle a.
+119	4:53	La question de savoir si
+120	4:55	elle nage bien viendra après.
+121	4:57	Pour Strickland, la peinture a
+122	4:59	quelque chose de cette urgence.
+123	5:01	Il sent qu'il doit commencer,
+124	5:03	bien avant de savoir s'il a le talent nécessaire.
+125	5:07	Cette image ne dit pas encore
+126	5:09	ce qu'il doit à sa famille.
+127	5:11	Elle explique pourquoi les arguments
+128	5:13	sur son âge et ses chances de succès
+129	5:15	ne suffisent pas à le faire rentrer.
+130	5:17	Alors je te pose la question à toi.
+131	5:21	Quelle condition crois-tu devoir remplir
+132	5:24	avant de faire une chose qui compte ?
+133	5:26	Il faut que je sois plus jeune.
+134	5:28	Il faut que je sois déjà bon.
+135	5:30	Il faut que quelqu'un me dise
+136	5:32	que j'ai raison d'essayer.
+137	5:34	Tu peux passer beaucoup de temps
+138	5:36	à attendre ce dernier signe.
+139	5:38	Et il y a des choses sur lesquelles les autres
+140	5:41	pourront te donner un avis très précis.
+141	5:43	Ils pourront te parler du coût,
+142	5:45	du temps ou des difficultés.
+143	5:47	La place que cette envie occupe dans ta vie,
+144	5:50	c'est surtout toi qui peux la connaître.
+145	5:53	Il y a un détail qui rend Strickland
+146	5:55	plus difficile à comprendre.
+147	5:57	Il semble peu intéressé par les signes
+148	5:59	de réussite qu'on attache à un artiste.
+149	6:02	Il vit avec le minimum et fait
+150	6:04	passer son travail avant son confort.
+151	6:06	S'il gagne un peu, il peut recommencer à peindre.
+152	6:10	Il est prêt à passer longtemps dans une pièce
+153	6:12	avec ses couleurs, alors que les gens
+154	6:14	qui lui donnaient une bonne place
+155	6:16	dans la société le trouvent désormais ridicule.
+156	6:19	Dans la logique qui était celle de son entourage,
+157	6:22	il a tout perdu.
+158	6:23	Si tu regardes ce à quoi il voulait
+159	6:25	donner ses journées, tu vois pourquoi
+160	6:27	il pense avoir gagné quelque chose.
+161	6:30	Ça nous ramène aux deux objets du titre.
+162	6:33	La lune est facile à regarder
+163	6:34	quand tu as déjà de quoi manger.
+164	6:36	Et une petite pièce peut prendre
+165	6:38	une grande place dans ta vie quand
+166	6:40	il en manque une pour payer le dîner.
+167	6:43	J'ai envie de garder cette réalité en tête,
+168	6:46	parce que le roman devient plus intéressant
+169	6:48	quand les deux objets comptent.
+170	6:50	Tu peux tenir à un salaire parce qu'il
+171	6:52	te permet de prendre soin de quelqu'un.
+172	6:55	Tu peux aussi sentir que tu as passé si
+173	6:57	longtemps à chercher un revenu plus sûr
+174	6:59	ou une place plus respectée que tu as oublié
+175	7:03	à quoi cette sécurité devait te servir.
+176	7:06	Les deux désirs peuvent exister
+177	7:09	chez la même personne, le même jour.
+178	7:11	Quand tu dis qu'une décision est folle,
+179	7:14	pose-toi une autre question.
+180	7:15	Qu'est-ce que je suis en train de mesurer ?
+181	7:18	Si je mesure le revenu,
+182	7:20	je comprends mal le choix de Strickland.
+183	7:22	Si je mesure le temps qu'il peut passer à peindre,
+184	7:25	je comprends beaucoup mieux pourquoi il l'a fait.
+185	7:28	Dès que j'ajoute la situation de sa femme
+186	7:30	et de ses enfants, la question change encore.
+187	7:34	On peut comprendre l'urgence de peindre
+188	7:37	et se demander ce qu'un homme aurait
+189	7:39	pu faire pour que sa famille ait,
+190	7:40	elle aussi, la possibilité de décider.
+191	7:43	Et peut-être qu'il y a déjà
+192	7:45	une petite réponse pour toi ici.
+193	7:47	Tu peux commencer à prendre au sérieux
+194	7:50	ce qui t'attire et réfléchir aussi
+195	7:52	à la façon de lui faire une place.
+196	7:55	Si une chose te tient à cœur,
+197	7:57	c'est qu'elle compte beaucoup pour toi.
+198	7:59	Pour le savoir, regarde ce que tu as encore
+199	8:02	envie de faire quand personne ne t'en félicite.
+200	8:06	Est-ce que tu voudrais passer une partie
+201	8:08	de ta journée à apprendre la chose elle-même ?
+202	8:12	Est-ce que tu y reviendrais le lendemain,
+203	8:14	même si tu en parlais peu autour de toi ?
+204	8:17	C'est peut-être là que tu peux voir
+205	8:19	à quelle lune tu penses vraiment.
+206	8:21	Notre regard décide aussi de ce qu'on met
+207	8:24	en premier quand la vie nous oblige à choisir.
+208	8:27	Pour le voir, j'aimerais qu'on revienne à Londres,
+209	8:30	auprès de la personne qui reçoit la lettre.
+210	8:33	La femme de Strickland pensait connaître
+211	8:35	l'homme avec qui elle vivait depuis des années.
+212	8:38	Elle découvre qu'il a fait seul
+213	8:40	une grande partie du chemin dans sa tête.
+214	8:43	Elle doit expliquer son départ,
+215	8:45	faire vivre ses enfants et décider
+216	8:48	comment elle va gagner de l'argent.
+217	8:50	Tout cela commence le jour où
+218	8:52	son mari lui laisse quelques lignes.
+219	8:55	Une réaction possible serait de dire qu'elle
+220	8:58	tient trop à ce que les gens pensent d'elle.
+221	9:00	Elle est sensible à sa place dans la société
+222	9:03	et à ce qui se dit autour d'elle.
+223	9:05	Elle a honte d'être laissée de cette façon.
+224	9:08	Mais si on s'arrête là,
+225	9:09	on passe à côté de l'effort qu'elle fait.
+226	9:12	La position qu'elle avait lui donnait un cadre.
+227	9:15	Elle savait comment recevoir les gens
+228	9:18	et comment organiser la maison.
+229	9:20	Quand tout change, elle doit faire quelque chose
+230	9:23	que son mari n'a pas pensé à faire pour elle.
+231	9:26	Elle doit se demander comment
+232	9:28	rendre la semaine suivante possible.
+233	9:30	Elle apprend à taper à la machine
+234	9:32	et développe un travail de dactylographie.
+235	9:35	Ce mot paraît compliqué.
+236	9:37	Il s'agit de taper des lettres ou d'autres
+237	9:40	textes à la machine pour gagner sa vie.
+238	9:42	Elle change aussi sa façon
+239	9:44	de vivre pour réduire ses dépenses.
+240	9:47	Il faut apprendre,
+241	9:48	chercher du travail, faire des comptes.
+242	9:51	Rien ne change en une soirée.
+243	9:54	Pourtant, à force de travailler,
+244	9:56	elle arrive à reprendre la main.
+245	9:58	Reprendre la main, ici,
+246	10:00	veut dire retrouver la possibilité de décider
+247	10:04	dans une situation qui t'avait échappé.
+248	10:06	Regarde les deux personnes
+249	10:08	à ce moment de l'histoire.
+250	10:10	Lui donne à la peinture
+251	10:11	les meilleures heures de sa journée.
+252	10:14	Elle donne les siennes au travail
+253	10:16	qui lui permet de faire vivre sa famille
+254	10:18	et de retrouver une place qui compte pour elle.
+255	10:22	Tu peux croire que l'un
+256	10:23	rêve plus grand que l'autre.
+257	10:24	Tu peux aussi regarder
+258	10:26	ce que chacun essaie de construire,
+259	10:28	et de quoi cette construction dépend.
+260	10:30	Quand le roman parle de la femme de Strickland,
+261	10:33	je vois quelqu'un qui met sa fierté
+262	10:34	dans la possibilité de se tenir debout sans
+263	10:37	avoir à attendre le retour de son mari.
+264	10:40	Pour elle, c'est un projet
+265	10:41	qui mérite un effort quotidien.
+266	10:43	J'aime que les deux trajectoires
+267	10:45	posent la même question de deux côtés.
+268	10:48	Qu'est-ce que tu fais quand ce qui compte
+269	10:50	pour toi demande du temps et que ce temps
+270	10:53	est déjà pris par autre chose ?
+271	10:55	On pense souvent qu'on peut répondre
+272	10:57	en disant ce qu'on croit important.
+273	10:59	Dans la vie,
+274	11:00	on voit la réponse à des moments plus ordinaires.
+275	11:03	Regarde les deux heures qui te restent
+276	11:05	une fois que les choses urgentes sont faites.
+277	11:08	À qui ou à quoi peux-tu les donner ?
+278	11:11	Si tu les donnes aujourd'hui à quelqu'un,
+279	11:13	à quoi devras-tu dire d'attendre jusqu'à demain ?
+280	11:16	C'est dans ces moments qu'une
+281	11:17	priorité prend une forme réelle.
+282	11:19	Les responsabilités peuvent
+283	11:21	aussi s'imposer à nous.
+284	11:22	La femme de Strickland doit trouver du travail
+285	11:25	dans des conditions qu'elle n'a pas choisies.
+286	11:27	Ce qu'elle choisit, c'est la façon dont
+287	11:29	elle répond à cette nouvelle situation,
+288	11:32	avec les possibilités qu'elle a.
+289	11:34	Quand quelqu'un dit qu'il préfère garder
+290	11:36	un revenu sûr, on peut lui demander
+291	11:38	ce que ce revenu lui permet de protéger.
+292	11:40	On entendra peut-être parler d'enfants,
+293	11:42	de parents ou simplement du besoin
+294	11:45	de retrouver un peu de tranquillité.
+295	11:47	Il faut connaître cette réponse
+296	11:49	pour comprendre sa décision.
+297	11:51	Pense aussi à ce que la lettre
+298	11:53	change pour les deux époux.
+299	11:54	Quand Charles décide de partir, il pense à tout
+300	11:57	le temps qu'il veut consacrer à la peinture.
+301	12:00	Sa femme, elle, découvre dans la même journée
+302	12:03	une montagne de choses qu'il lui laisse à régler.
+303	12:06	Ce qui ressemble à un grand geste de liberté
+304	12:09	pour lui devient une série de tâches pour elle.
+305	12:12	On peut respecter le désir de quelqu'un et parler
+306	12:15	des conséquences très concrètes de sa décision.
+307	12:17	Ça peut commencer par des questions
+308	12:19	que le roman laisse à ses lecteurs.
+309	12:22	Qui va s'occuper des enfants ?
+310	12:24	Combien de temps faut-il
+311	12:25	pour que chacun retrouve un revenu ?
+312	12:27	Quelles décisions auraient
+313	12:29	dû être prises ensemble ?
+314	12:30	Il y a des gens qui lèvent les yeux
+315	12:32	parce qu'ils ont besoin d'un but.
+316	12:34	Il y a des gens qui ramassent la pièce parce
+317	12:36	que leur façon d'aimer passe par des choses
+318	12:38	dont ils prennent soin chaque jour.
+319	12:40	Et parfois, tu feras les deux
+320	12:43	dans la même semaine.
+321	12:44	La question que je garde de cette
+322	12:46	partie du livre est très simple.
+323	12:48	Est-ce que je sais pourquoi je donne
+324	12:50	mon temps à cette chose aujourd'hui ?
+325	12:52	Si tu sais à quoi elle sert dans ta vie,
+326	12:54	tu pourras expliquer ton choix sans
+327	12:56	demander à tout le monde de faire le même.
+328	12:59	Et tu pourras regarder le choix
+329	13:00	des autres avec un peu plus de curiosité.
+330	13:04	Le regard que tu portes sur la vie décide
+331	13:06	enfin de la manière dont tu traites les autres.
+332	13:10	Et c'est ici que j'aimerais
+333	13:11	te parler de Dirk Stroeve.
+334	13:13	C'est un peintre hollandais qui vit à Paris.
+335	13:16	Il n'a pas, aux yeux du narrateur,
+336	13:18	un grand talent pour peindre.
+337	13:20	Pourtant, quand il regarde un tableau,
+338	13:22	il voit des choses que des peintres
+339	13:24	plus sûrs d'eux ne remarquent pas.
+340	13:26	Il reconnaît très tôt la force
+341	13:28	du travail de Strickland.
+342	13:30	Les autres peuvent se moquer
+343	13:32	de l'homme ou de ses toiles.
+344	13:33	Dirk, lui, a assez confiance dans ce qu'il
+345	13:37	voit pour rester près de lui.
+346	13:39	Un peintre peut passer sa vie à apprendre à faire
+347	13:41	de beaux tableaux et avoir du mal à reconnaître
+348	13:44	la beauté dans le travail de quelqu'un d'autre.
+349	13:46	Dirk voit cette beauté alors que personne
+350	13:49	ne peut encore lui dire qu'il a raison.
+351	13:51	Il voit aussi un homme malade qui a besoin d'aide.
+352	13:54	Quand Strickland tombe gravement malade,
+353	13:57	Dirk veut l'accueillir chez lui et le soigner.
+354	14:00	Blanche, sa femme, s'y oppose.
+355	14:02	Il insiste.
+356	14:04	Dans sa manière de voir,
+357	14:05	laisser quelqu'un dans cet état est
+358	14:07	plus difficile que lui ouvrir la porte.
+359	14:10	Ce choix lui coûte cher.
+360	14:12	Lorsque Strickland va mieux,
+361	14:14	Blanche quitte Dirk pour lui.
+362	14:16	Dirk souffre, puis finit par leur
+363	14:18	laisser l'atelier où il travaillait.
+364	14:21	Ce qui me frappe, c'est ce qu'il espère encore
+365	14:23	alors que lui-même vient de perdre sa place.
+366	14:27	Il voudrait que Blanche soit heureuse.
+367	14:29	Pendant ce temps,
+368	14:30	Strickland pense surtout à peindre.
+369	14:33	L'un accepte de perdre quelque chose pour donner
+370	14:36	à une autre personne ce qu'elle demande.
+371	14:38	L'autre accepte très vite que les gens s'éloignent
+372	14:41	dès qu'il ne veut plus de leur présence.
+373	14:43	Pour Blanche, vivre auprès de Strickland
+374	14:47	a un sens que lui-même ne partage pas.
+375	14:50	Elle semble prête à payer le prix du jugement
+376	14:52	des autres pour être avec l'homme qu'elle désire.
+377	14:55	Elle attend de cet amour une présence,
+378	14:58	une vie que l'on partage.
+379	15:00	Chez Strickland, le travail reprend
+380	15:02	toute la place et la relation se termine.
+381	15:05	Blanche meurt peu après.
+382	15:07	Cette partie du livre est douloureuse.
+383	15:10	Et quand j'entends dire que les deux
+384	15:12	n'avaient simplement pas les mêmes priorités,
+385	15:15	j'ai envie de poser une autre question.
+386	15:18	Quand tu sais que quelqu'un attend de toi
+387	15:20	une chose que tu ne veux pas lui donner,
+388	15:22	à quel moment le lui dis-tu ?
+389	15:26	Les gens peuvent vouloir des vies différentes
+390	15:28	et se parler assez tôt pour que chacun
+391	15:30	puisse choisir avec les mêmes informations.
+392	15:33	Il reste une chose difficile
+393	15:35	à comprendre chez Dirk.
+394	15:36	Même après la mort de Blanche,
+395	15:38	il peut encore voir le talent de Strickland.
+396	15:42	Il va jusqu'à lui proposer
+397	15:43	de venir avec lui en Hollande.
+398	15:45	Strickland refuse.
+399	15:47	Le lecteur peut regarder ce geste
+400	15:49	et penser que Dirk devrait se protéger.
+401	15:52	Ou il peut se demander comment cet
+402	15:54	homme arrive à garder une telle
+403	15:56	générosité après ce qu'il a vécu.
+404	15:58	Les deux réactions ont du sens.
+405	16:01	Si on se met à la place de Dirk,
+406	16:03	il faut tenir ensemble la peine qu'il ressent
+407	16:06	et l'admiration qu'il n'a jamais perdue.
+408	16:09	Ce qui me touche chez lui,
+409	16:10	c'est qu'il donne souvent sans attendre
+410	16:13	que l'autre lui rende quelque chose.
+411	16:15	Pourtant, si un ami agissait comme lui,
+412	16:18	je lui demanderais s'il a encore
+413	16:20	la possibilité de dire non.
+414	16:21	Il y a un monde entre offrir une chambre
+415	16:24	pour quelques jours et laisser quelqu'un
+416	16:26	décider à ta place de ce qui se passe chez toi.
+417	16:29	Dans les deux cas, tu peux avoir envie d'aider.
+418	16:33	Dans les deux cas,
+419	16:34	tu peux aussi écouter la personne qui vit avec toi
+420	16:37	et demander quel effet ce choix aura sur elle.
+421	16:41	C'est une façon de prendre soin des autres
+422	16:43	qui ne se voit pas toujours, parce qu'elle
+423	16:46	commence parfois par une conversation difficile.
+424	16:49	Je trouve également que Dirk
+425	16:51	oblige à repenser ce qu'on admire.
+426	16:53	Quand un peintre est reconnu, on retient son nom.
+427	16:56	On parle de la force qu'il lui a fallu
+428	16:58	pour continuer et des années pendant lesquelles
+429	17:01	personne ne comprenait ce qu'il faisait.
+430	17:03	Qui se souvient de la personne qui a
+431	17:05	reconnu ses tableaux la première ?
+432	17:07	Qui se souvient de celle qui lui a
+433	17:09	donné un lit quand il était malade ?
+434	17:12	Le roman donne une grande
+435	17:13	place au désir de Strickland.
+436	17:15	Moi, il me reste aussi l'image
+437	17:17	de Dirk qui ouvre sa porte.
+438	17:20	Une vie peut avoir beaucoup de valeur
+439	17:22	à cause des gestes qui ont permis
+440	17:23	à quelqu'un d'autre de continuer.
+441	17:26	Il y a un mot courant en français
+442	17:28	qui me vient quand je pense à ce personnage.
+443	17:30	Rendre service.
+444	17:32	C'est faire quelque chose pour aider quelqu'un.
+445	17:35	On peut rendre service en prêtant de l'argent,
+446	17:37	en offrant un endroit où dormir
+447	17:39	ou en prenant simplement le temps de regarder
+448	17:42	le travail de quelqu'un avec attention.
+449	17:45	Dirk fait tout cela avec le sentiment
+450	17:47	que ces gestes comptent.
+451	17:49	Strickland paraît souvent prendre ce qu'on
+452	17:51	lui offre comme si le reste allait de soi.
+453	17:54	Regarde les deux hommes à partir de ce mot
+454	17:56	et demande-toi lequel des deux tu voudrais avoir
+455	17:59	près de toi un jour où tu as besoin d'aide.
+456	18:02	La réponse te dira peut-être autre
+457	18:04	chose que le nom de celui dont
+458	18:06	tu voudrais voir les tableaux.
+459	18:08	Et c'est aussi là que je trouve
+460	18:10	la formule du début intéressante.
+461	18:12	Ta manière de voir le monde change
+462	18:14	ce que tu remarques chez les gens.
+463	18:17	Si tout ce qui compte pour toi est de finir ton
+464	18:20	travail, tu risques de regarder une personne
+465	18:23	seulement au moment où elle t'aide ou te gêne.
+466	18:26	Si tu attaches de l'importance
+467	18:28	à ce que les autres vivent, tu vas peut-être
+468	18:30	entendre la question qu'ils n'osent pas poser.
+469	18:33	Ce regard se voit dans des actions précises.
+470	18:36	Est-ce que tu préviens quelqu'un
+471	18:38	quand tes projets changent ?
+472	18:39	Est-ce que tu écoutes sa réponse jusqu'au bout ?
+473	18:42	Si tu l'aides, est-ce que tu lui demandes
+474	18:45	ce qui lui serait vraiment utile ?
+475	18:47	C'est là que tes idées sur la vie commencent
+476	18:50	à changer la vie de quelqu'un d'autre.
+477	18:52	Comment vivre, alors,
+478	18:54	avec le moins de regrets possible ?
+479	18:56	En refermant le livre, je reviens à la personne
+480	18:59	qui voyait une promesse de liberté dans la cabane
+481	19:02	de Thoreau, puis à celle qui se demandait
+482	19:04	qui prendrait soin de ses proches.
+483	19:07	L'une pose une question qu'on
+484	19:09	peut éviter pendant des années.
+485	19:10	Quelle vie ai-je vraiment envie de vivre ?
+486	19:14	L'autre pose une question qu'on peut oublier
+487	19:17	au moment où l'on trouve enfin une réponse.
+488	19:20	Qui aura besoin de savoir ce que je veux faire ?
+489	19:24	Je crois qu'on peut se donner
+490	19:26	le temps de répondre aux deux.
+491	19:27	Tu n'as pas à vivre pour recevoir
+492	19:30	l'accord de tous les gens qui t'entourent.
+493	19:33	Certains te demanderont de garder
+494	19:35	un travail que tu aimerais quitter.
+495	19:37	D'autres te diront que tu manques
+496	19:39	de courage parce que tu choisis de rester.
+497	19:42	Toi, tu connais des détails qu'ils ne voient pas.
+498	19:46	Prends le temps de nommer ce qui te tient à cœur,
+499	19:49	puis regarde ce que ce choix demande à toi
+500	19:53	et aux personnes qui comptent sur toi.
+501	19:55	La liberté peut commencer dans cette conversation.
+502	19:58	Tu as le droit d'y dire ce que tu veux.
+503	20:01	Les autres ont le droit de te dire
+504	20:03	ce que ça change pour eux.
+505	20:06	Si tu repenses à la lune et à la pièce après
+506	20:08	cet épisode, demande-toi ce que chacune
+507	20:11	représente aujourd'hui pour toi.
+508	20:13	La lune pourrait être quelque chose
+509	20:15	que tu veux apprendre depuis longtemps.
+510	20:18	La pièce pourrait être le moyen
+511	20:20	de protéger ce qui rend déjà ta vie bonne.
+512	20:23	Pour quelqu'un d'autre,
+513	20:24	les réponses seront différentes.
+514	20:26	Et les tiennes peuvent changer dans dix ans.
+515	20:30	C'est une des raisons pour lesquelles
+516	20:31	je recommanderais ce roman.
+517	20:33	Il donne des mots à une question que tu peux
+518	20:35	te poser à plusieurs moments d'une vie,
+519	20:37	en sachant que tu n'y répondras peut-être
+520	20:40	jamais deux fois de la même manière.
+521	20:43	Si tu veux poursuivre la conversation,
+522	20:45	laisse-moi une phrase en français.
+523	20:47	Tu peux commencer par
+524	20:49	« En ce moment, ma lune, c'est… »
+525	20:52	ou par « Ce que je veux protéger, c'est… ».
+526	20:56	Et si tu as pensé à quelqu'un en écoutant,
+527	20:58	tu peux partager cet épisode avec elle
+528	21:00	et lui poser la même question.
+529	21:03	Abonne-toi à Cozy French Books si
+530	21:05	tu veux lire un autre livre avec moi.
+531	21:07	Merci d'avoir passé ce moment ici.
+532	21:10	Je suis Léa.
+533	21:11	À très bientôt.

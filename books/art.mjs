@@ -33,7 +33,10 @@ function shelfRow(g, x0, x1, yb, hMin, hMax, special) {
 }
 
 /* ---------------- the channel's own cover design (sun, dunes, tiny caravan) ---------------- */
+// b.art picks the painting: default = desert sunset (ep01) · 'moon' = night sky, full moon, a coin on the ground (ep02)
+// long titles wrap onto two lines automatically
 export function COVER(b, w = 380, h = 540, id = 'cv') {
+  if (b.art === 'moon') return COVER_MOON(b, w, h, id);
   return `<svg viewBox="0 0 380 540" width="${w}" height="${h}" style="display:block">
  <defs><linearGradient id="${id}-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e2733f"/><stop offset=".55" stop-color="#f2a65e"/><stop offset="1" stop-color="#f8d394"/></linearGradient></defs>
  <g filter="url(#pencil)">
@@ -49,6 +52,31 @@ export function COVER(b, w = 380, h = 540, id = 'cv') {
  <text x="40" y="96" font-family="Playfair Display" font-weight="700" font-size="52" fill="#fffaf0">${b.title}</text>
  <rect x="42" y="118" width="80" height="5" rx="2" fill="#fffaf0" opacity=".8"/>
  <text x="42" y="156" font-family="Nunito" font-weight="800" font-size="20" letter-spacing="3" fill="#fff1dc">${b.author.toUpperCase()}</text>
+</svg>`;
+}
+
+function coverTitle(t) {
+  const words = t.split(' '); if (t.length <= 13) return [t];
+  let best = [t, ''], diff = 1e9;
+  for (let i = 1; i < words.length; i++) { const a = words.slice(0, i).join(' '), z = words.slice(i).join(' '), d = Math.abs(a.length - z.length); if (d < diff) { diff = d; best = [a, z]; } }
+  return best;
+}
+function COVER_MOON(b, w, h, id) {
+  const g = mk(8), L = coverTitle(b.title), fs = Math.min(52, Math.floor(600 / Math.max(...L.map(x => x.length))));
+  return `<svg viewBox="0 0 380 540" width="${w}" height="${h}" style="display:block">
+ <defs><linearGradient id="${id}-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1f2744"/><stop offset=".6" stop-color="#3b4a6e"/><stop offset="1" stop-color="#6a6f8e"/></linearGradient></defs>
+ <g filter="url(#pencil)">
+  <rect width="380" height="540" rx="10" fill="url(#${id}-sky)"/>
+  ${range(26, () => `<circle cx="${g.R(30, 370).toFixed(0)}" cy="${g.R(190, 380).toFixed(0)}" r="${g.R(1.2, 2.8).toFixed(1)}" fill="#fff6dc" opacity="${g.R(.5, 1).toFixed(2)}"/>`)}
+  <circle cx="250" cy="290" r="104" fill="#f6eddc" opacity=".14"/><circle cx="250" cy="290" r="70" fill="#f6eddc"/><circle cx="228" cy="272" r="12" fill="#e3d6bf"/><circle cx="272" cy="310" r="9" fill="#e3d6bf"/>
+  <path d="M0 430 C90 410 200 420 380 404 V540 H0Z" fill="#3a3a48"/><path d="M0 470 C120 456 260 470 380 452 V540 H0Z" fill="#2a2a38"/>
+  <path d="M70 404 V318 L96 296 L122 318 V404Z" fill="#2f3854"/><rect x="88" y="350" width="16" height="20" fill="#f3c96b"/>
+  <circle cx="190" cy="488" r="15" fill="#d6d6d0" stroke="#9a9a92" stroke-width="4"/><circle cx="190" cy="488" r="34" fill="#f6eddc" opacity=".12"/>
+  <rect x="0" y="0" width="22" height="540" fill="#000" opacity=".12"/>
+ </g>
+ ${L.map((x, i) => `<text x="40" y="${86 + i * (fs + 8)}" font-family="Playfair Display" font-weight="700" font-size="${fs}" fill="#fffaf0">${x}</text>`).join('')}
+ <rect x="42" y="${86 + (L.length - 1) * (fs + 8) + 22}" width="80" height="5" rx="2" fill="#f3c96b" opacity=".9"/>
+ <text x="42" y="${86 + (L.length - 1) * (fs + 8) + 58}" font-family="Nunito" font-weight="800" font-size="18" letter-spacing="3" fill="#e9dcc4">${b.author.toUpperCase()}</text>
 </svg>`;
 }
 

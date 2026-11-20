@@ -1,0 +1,534 @@
+   0:00    Léa     Devant toi, il y a une pièce   | In front of you, there's a coin
+   0:02    Léa     de monnaie sur le sol.   | lying on the ground.
+   0:05    Léa     Au-dessus de toi, il y a la lune.   | Above you, there's the moon.
+   0:08    Léa     Où vas-tu regarder ?   | Where will you look?
+   0:11    Léa     Si tu te promènes le soir,   | If you're out for an evening walk,
+   0:12    Léa     tu lèveras peut-être les yeux.   | you might look up.
+   0:15    Léa     Si tu as juste assez d'argent pour manger,   | If you have just enough money for food,
+   0:17  ★ Léa     tu ramasseras peut-être la pièce.   | you might pick up the coin.
+   0:20    Léa     Et si, pendant des années, tu as regardé par terre   | And if, for years, you've looked at the ground
+   0:23    Léa     parce qu'on t'a appris que c'était la seule   | because you were taught that it was the only
+   0:25    Léa     chose sérieuse à faire, est-ce que tu te souviens   | serious thing to do, do you still remember
+   0:29    Léa     encore de ce que tu cherchais là-haut ?   | what you were looking for up there?
+   0:31    Léa     Cette question me fait penser à Walden,   | This question makes me think of Walden,
+   0:34    Léa     le livre dans lequel Henry David Thoreau raconte   | the book in which Henry David Thoreau describes
+   0:37    Léa     sa vie dans une petite cabane près d'un étang.   | his life in a small cabin near a pond.
+   0:40    Léa     Le même récit peut provoquer   | The same story can provoke
+   0:42    Léa     deux réactions très différentes.   | two very different reactions.
+   0:44    Léa     Quelqu'un écoute et dit que vivre   | Someone listens and says that living
+   0:46    Léa     seul au bord de l'eau serait un rêve.   | alone by the water would be a dream.
+   0:49    Léa     Enfin du temps pour lire,   | Time at last to read,
+   0:51    Léa     marcher et entendre ses propres pensées.   | to walk and to hear your own thoughts.
+   0:54    Léa     Quelqu'un d'autre pose une question très simple.   | Someone else asks a very simple question.
+   0:57    Léa     Si je fais ça,   | If I do that,
+   0:59    Léa     qui s'occupera des gens qui comptent sur moi ?   | who will look after the people who rely on me?
+   1:02    Léa     L'un regarde le temps que cette   | One looks at the time that this
+   1:03    Léa     décision pourrait lui rendre.   | decision could give back to them.
+   1:05    Léa     L'autre pense à ceux   | The other thinks of the people
+   1:07    Léa     avec qui il partage déjà ce temps.   | they already share that time with.
+   1:10    Léa     On leur a raconté la même histoire.   | They were told the same story.
+   1:12    Léa     Ils ont entendu deux questions différentes.   | They heard two different questions.
+   1:16    Léa     Bonjour et bienvenue dans Cozy French Books.   | Hello and welcome to Cozy French Books.
+   1:18    Léa     Je suis Léa.   | I'm Léa.
+   1:19    Léa     Ici, on découvre des livres ensemble   | Here, we discover books together
+   1:21    Léa     et on pratique le français à son rythme.   | and practise French at our own pace.
+   1:24    Léa     Au fil de l'histoire,   | Along the story,
+   1:26    Léa     tu entendras des mots et des expressions   | you'll hear words and expressions
+   1:28    Léa     que tu pourras reprendre au quotidien.   | that you can use in everyday life.
+   1:30    Léa     Si tu aimes apprendre le français de cette façon,   | If you like learning French this way,
+   1:33    Léa     abonne-toi pour retrouver les prochains épisodes.   | subscribe so you don't miss the next episodes.
+   1:36    Léa     Aujourd'hui, on parle de The Moon and Sixpence,   | Today, we're talking about The Moon and Sixpence,
+   1:39    Léa     un roman de William Somerset Maugham que l'on   | a novel by William Somerset Maugham, known
+   1:43    Léa     trouve en français sous le titre L'Envoûté.   | in French under the title L'Envoûté.
+   1:46    Léa     Le titre anglais réunit la lune et une pièce   | The English title brings together the moon
+   1:49    Léa     de sixpence, une petite pièce de monnaie.   | and a sixpence, a small coin.
+   1:53    Léa     Pour notre lecture, la lune,   | For our reading, the moon
+   1:55    Léa     ce sera l'idéal qu'on veut atteindre.   | will be the ideal we want to reach.
+   1:58    Léa     La pièce, ce sera ce qui nous permet de vivre,   | The coin will be what allows us to live,
+   2:01    Léa     de payer les choses dont on a   | to pay for the things we
+   2:03  ★ Léa     besoin et de tenir nos engagements.   | need and to keep our commitments.
+   2:06    Léa     J'aimerais qu'on parte de cette idée.   | I'd like us to start from this idea.
+   2:08    Léa     Ta façon de voir la vie change ce que tu poursuis,   | How you see life changes what you pursue,
+   2:11    Léa     ce que tu mets en premier et la manière   | what you put first and the way
+   2:13    Léa     dont tu traites les autres.   | you treat other people.
+   2:15    Léa     Ce que j'aime dans ce roman, c'est qu'il   | What I love about this novel is that it
+   2:17    Léa     nous donne plusieurs personnes à regarder.   | gives us several people to look at.
+   2:20    Léa     Tourne-toi vers l'homme qui lève les yeux vers   | Turn towards the man who looks up at
+   2:22    Léa     la lune et tu verras une histoire de liberté.   | the moon and you'll see a story of freedom.
+   2:26    Léa     Tourne-toi vers les gens qui doivent   | Turn towards the people who have to
+   2:28    Léa     s'occuper de ce qu'il laisse derrière lui   | deal with what he leaves behind
+   2:30    Léa     et tu verras le prix de cette liberté.   | and you'll see the price of that freedom.
+   2:33    Léa     Entre les deux,   | In between,
+   2:34    Léa     il y a aussi quelqu'un qui choisit d'aider.   | there's also someone who chooses to help.
+   2:37    Léa     C'est à partir de ces trois   | It's through these three
+   2:38    Léa     regards que le roman m'intéresse.   | perspectives that the novel interests me.
+   2:41    Léa     La façon dont tu vois la réussite décide   | The way you see success often decides
+   2:43    Léa     souvent de la vie que tu essaies de construire.   | the life you try to build.
+   2:47    Léa     Charles Strickland, le personnage principal,   | Charles Strickland, the main character,
+   2:50    Léa     pourrait servir d'exemple   | could serve as an example
+   2:51    Léa     dans une conversation sur la réussite.   | in a conversation about success.
+   2:54    Léa     Il travaille à Londres dans la finance.   | He works in London, in finance.
+   2:57    Léa     Il gagne de quoi faire vivre sa famille.   | He earns enough to support his family.
+   3:00    Léa     Il a une femme,   | He has a wife,
+   3:01    Léa     deux enfants et une vie qui semble bien en place.   | two children and a life that seems well settled.
+   3:05    Léa     Si tu demandais à ses proches ce qu'il   | If you asked his loved ones what he
+   3:06    Léa     devrait faire dans les dix prochaines années,   | should do over the next ten years,
+   3:09    Léa     beaucoup diraient sans doute   | many would no doubt say
+   3:10    Léa     qu'il devrait continuer comme ça.   | that he should carry on like this.
+   3:12    Léa     Pourquoi changer une vie dans laquelle   | Why change a life in which
+   3:15    Léa     tant de choses vont bien ?   | so many things are going well?
+   3:16  ★ Léa     Un jour, alors qu'il a une quarantaine d'années,   | One day, when he's about forty,
+   3:19    Léa     il laisse une courte lettre   | he leaves a short letter
+   3:21    Léa     à sa femme et part à Paris.   | for his wife and goes to Paris.
+   3:23    Léa     Les gens qui le connaissent   | The people who know him
+   3:25    Léa     cherchent aussitôt une explication.   | immediately look for an explanation.
+   3:27    Léa     Quand un homme laisse sa famille   | When a man leaves his family
+   3:29    Léa     et part seul dans une autre ville,   | and goes alone to another city,
+   3:31    Léa     on s'attend à ce qu'il soit parti pour quelqu'un.   | people expect he's left for someone.
+   3:34    Léa     Le narrateur, qui va le voir à Paris,   | The narrator, who goes to see him in Paris,
+   3:36    Léa     trouve un homme qui vit avec très peu   | finds a man living on very little
+   3:38    Léa     d'argent et veut peindre.   | money who wants to paint.
+   3:40    Léa     Il y a quelque chose de presque comique   | There's something almost comical
+   3:42  ★ Léa     dans le décalage entre l'explication   | in the gap between the explanation
+   3:45    Léa     que tout le monde attend et celle   | everyone expects and the one
+   3:46    Léa     que Strickland finit par donner.   | Strickland ends up giving.
+   3:49    Léa     On lui demande, en somme, où est la femme.   | In short, they ask him where the woman is.
+   3:52    Léa     Lui pense déjà à sa peinture.   | He's already thinking about his painting.
+   3:55    Léa     Regarde maintenant les deux reproches qu'on   | Now look at the two criticisms one
+   3:58    Léa     pourrait lui faire au sujet de ce choix.   | could make of him about this choice.
+   4:01    Léa     Le premier, c'est qu'il abandonne une vie   | The first is that he gives up a comfortable
+   4:03    Léa     confortable pour vivre avec très peu.   | life to live on very little.
+   4:06    Léa     Le deuxième, c'est qu'il commence tard et qu'il   | The second is that he starts late and has
+   4:09    Léa     n'a aucune garantie de devenir un bon peintre.   | no guarantee of becoming a good painter.
+   4:13    Léa     Les deux remarques sont raisonnables.   | Both remarks are reasonable.
+   4:15    Léa     Si tu lui donnais un conseil de carrière,   | If you gave him career advice,
+   4:17    Léa     tu lui demanderais combien   | you'd ask him how long
+   4:19    Léa     de temps il peut vivre comme ça.   | he can live like that.
+   4:21    Léa     Tu lui conseillerais probablement   | You'd probably advise him
+   4:23    Léa     de garder son travail et de peindre   | to keep his job and to paint
+   4:26  ★ Léa     à côté pour voir ce que ça donne.   | on the side to see how it goes.
+   4:28    Léa     Pour quelqu'un qui veut surtout protéger   | For someone who mainly wants to protect
+   4:30    Léa     une vie déjà construite, le départ   | a life already built, Strickland's
+   4:32    Léa     de Strickland est difficile à comprendre.   | departure is hard to understand.
+   4:35    Léa     Lui regarde la situation   | He looks at the situation
+   4:37    Léa     à partir d'une autre question.   | from another question.
+   4:39    Léa     Est-ce qu'il peut encore mener sa vie   | Can he still live his life
+   4:42    Léa     sans faire de place à la peinture ?   | without making room for painting?
+   4:44    Léa     Maugham lui fait prendre une image très simple.   | Maugham gives him a very simple image.
+   4:47    Léa     Lorsqu'une personne tombe à l'eau, elle essaie   | When a person falls into the water, they try
+   4:50    Léa     de rester à la surface avec les moyens qu'elle a.   | to stay afloat with whatever means they have.
+   4:53    Léa     La question de savoir si   | The question of whether
+   4:55    Léa     elle nage bien viendra après.   | they swim well comes later.
+   4:57    Léa     Pour Strickland, la peinture a   | For Strickland, painting has
+   4:59    Léa     quelque chose de cette urgence.   | something of that urgency.
+   5:01    Léa     Il sent qu'il doit commencer,   | He feels he has to start,
+   5:03    Léa     bien avant de savoir s'il a le talent nécessaire.   | long before knowing if he has the talent.
+   5:07    Léa     Cette image ne dit pas encore   | This image doesn't yet say
+   5:09    Léa     ce qu'il doit à sa famille.   | what he owes his family.
+   5:11    Léa     Elle explique pourquoi les arguments   | It explains why the arguments
+   5:13    Léa     sur son âge et ses chances de succès   | about his age and his chances of success
+   5:15    Léa     ne suffisent pas à le faire rentrer.   | aren't enough to make him come home.
+   5:17    Léa     Alors je te pose la question à toi.   | So I'm asking you the question.
+   5:21    Léa     Quelle condition crois-tu devoir remplir   | What condition do you think you must meet
+   5:24    Léa     avant de faire une chose qui compte ?   | before doing something that matters?
+   5:26    Léa     Il faut que je sois plus jeune.   | I have to be younger.
+   5:28    Léa     Il faut que je sois déjà bon.   | I have to be good already.
+   5:30    Léa     Il faut que quelqu'un me dise   | Someone has to tell me
+   5:32    Léa     que j'ai raison d'essayer.   | I'm right to try.
+   5:34    Léa     Tu peux passer beaucoup de temps   | You can spend a lot of time
+   5:36    Léa     à attendre ce dernier signe.   | waiting for that final sign.
+   5:38    Léa     Et il y a des choses sur lesquelles les autres   | And there are things on which others
+   5:41    Léa     pourront te donner un avis très précis.   | can give you a very precise opinion.
+   5:43    Léa     Ils pourront te parler du coût,   | They can talk to you about the cost,
+   5:45    Léa     du temps ou des difficultés.   | the time or the difficulties.
+   5:47    Léa     La place que cette envie occupe dans ta vie,   | The place this desire holds in your life,
+   5:50    Léa     c'est surtout toi qui peux la connaître.   | that's mostly something only you can know.
+   5:53    Léa     Il y a un détail qui rend Strickland   | There's a detail that makes Strickland
+   5:55    Léa     plus difficile à comprendre.   | harder to understand.
+   5:57    Léa     Il semble peu intéressé par les signes   | He seems uninterested in the signs
+   5:59    Léa     de réussite qu'on attache à un artiste.   | of success we attach to an artist.
+   6:02    Léa     Il vit avec le minimum et fait   | He lives on the bare minimum and puts
+   6:04    Léa     passer son travail avant son confort.   | his work before his comfort.
+   6:06    Léa     S'il gagne un peu, il peut recommencer à peindre.   | If he earns a little, he can paint again.
+   6:10    Léa     Il est prêt à passer longtemps dans une pièce   | He's ready to spend a long time in a room
+   6:12    Léa     avec ses couleurs, alors que les gens   | with his colours, while the people
+   6:14    Léa     qui lui donnaient une bonne place   | who once gave him a good place
+   6:16  ★ Léa     dans la société le trouvent désormais ridicule.   | in society now find him ridiculous.
+   6:19    Léa     Dans la logique qui était celle de son entourage,   | By the logic of those around him,
+   6:22    Léa     il a tout perdu.   | he has lost everything.
+   6:23    Léa     Si tu regardes ce à quoi il voulait   | If you look at what he wanted
+   6:25    Léa     donner ses journées, tu vois pourquoi   | to give his days to, you see why
+   6:27    Léa     il pense avoir gagné quelque chose.   | he thinks he's gained something.
+   6:30    Léa     Ça nous ramène aux deux objets du titre.   | That brings us back to the two objects of the title.
+   6:33    Léa     La lune est facile à regarder   | The moon is easy to look at
+   6:34  ★ Léa     quand tu as déjà de quoi manger.   | when you already have enough to eat.
+   6:36    Léa     Et une petite pièce peut prendre   | And a small coin can take up
+   6:38    Léa     une grande place dans ta vie quand   | a big place in your life when
+   6:40    Léa     il en manque une pour payer le dîner.   | you're one short to pay for dinner.
+   6:43    Léa     J'ai envie de garder cette réalité en tête,   | I want to keep this reality in mind,
+   6:46    Léa     parce que le roman devient plus intéressant   | because the novel gets more interesting
+   6:48    Léa     quand les deux objets comptent.   | when both objects matter.
+   6:50    Léa     Tu peux tenir à un salaire parce qu'il   | You can value a salary because it
+   6:52    Léa     te permet de prendre soin de quelqu'un.   | lets you take care of someone.
+   6:55    Léa     Tu peux aussi sentir que tu as passé si   | You can also feel that you've spent so
+   6:57    Léa     longtemps à chercher un revenu plus sûr   | long looking for a safer income
+   6:59    Léa     ou une place plus respectée que tu as oublié   | or a more respected position that you forgot
+   7:03    Léa     à quoi cette sécurité devait te servir.   | what that security was meant to be for.
+   7:06    Léa     Les deux désirs peuvent exister   | Both desires can exist
+   7:09    Léa     chez la même personne, le même jour.   | in the same person, on the same day.
+   7:11    Léa     Quand tu dis qu'une décision est folle,   | When you say a decision is crazy,
+   7:14    Léa     pose-toi une autre question.   | ask yourself another question.
+   7:15    Léa     Qu'est-ce que je suis en train de mesurer ?   | What am I actually measuring?
+   7:18    Léa     Si je mesure le revenu,   | If I measure income,
+   7:20    Léa     je comprends mal le choix de Strickland.   | I hardly understand Strickland's choice.
+   7:22    Léa     Si je mesure le temps qu'il peut passer à peindre,   | If I measure the time he can spend painting,
+   7:25    Léa     je comprends beaucoup mieux pourquoi il l'a fait.   | I understand much better why he did it.
+   7:28    Léa     Dès que j'ajoute la situation de sa femme   | As soon as I add the situation of his wife
+   7:30    Léa     et de ses enfants, la question change encore.   | and children, the question changes again.
+   7:34    Léa     On peut comprendre l'urgence de peindre   | You can understand the urgency to paint
+   7:37    Léa     et se demander ce qu'un homme aurait   | and wonder what a man could
+   7:39    Léa     pu faire pour que sa famille ait,   | have done so that his family,
+   7:40    Léa     elle aussi, la possibilité de décider.   | too, had the chance to decide.
+   7:43    Léa     Et peut-être qu'il y a déjà   | And maybe there's already
+   7:45    Léa     une petite réponse pour toi ici.   | a small answer for you here.
+   7:47  ★ Léa     Tu peux commencer à prendre au sérieux   | You can start taking seriously
+   7:50    Léa     ce qui t'attire et réfléchir aussi   | what draws you and also think about
+   7:52    Léa     à la façon de lui faire une place.   | how to make room for it.
+   7:55    Léa     Si une chose te tient à cœur,   | If something "te tient à cœur",
+   7:57    Léa     c'est qu'elle compte beaucoup pour toi.   | it means it matters a lot to you.
+   7:59    Léa     Pour le savoir, regarde ce que tu as encore   | To find out, look at what you still
+   8:02    Léa     envie de faire quand personne ne t'en félicite.   | want to do when nobody praises you for it.
+   8:06    Léa     Est-ce que tu voudrais passer une partie   | Would you like to spend part
+   8:08    Léa     de ta journée à apprendre la chose elle-même ?   | of your day learning the thing itself?
+   8:12    Léa     Est-ce que tu y reviendrais le lendemain,   | Would you come back to it the next day,
+   8:14    Léa     même si tu en parlais peu autour de toi ?   | even if you hardly talked about it to anyone?
+   8:17    Léa     C'est peut-être là que tu peux voir   | That might be where you can see
+   8:19    Léa     à quelle lune tu penses vraiment.   | which moon you're really thinking of.
+   8:21    Léa     Notre regard décide aussi de ce qu'on met   | Our outlook also decides what we put
+   8:24    Léa     en premier quand la vie nous oblige à choisir.   | first when life forces us to choose.
+   8:27    Léa     Pour le voir, j'aimerais qu'on revienne à Londres,   | To see it, let's go back to London,
+   8:30    Léa     auprès de la personne qui reçoit la lettre.   | to the person who receives the letter.
+   8:33    Léa     La femme de Strickland pensait connaître   | Strickland's wife thought she knew
+   8:35    Léa     l'homme avec qui elle vivait depuis des années.   | the man she'd been living with for years.
+   8:38    Léa     Elle découvre qu'il a fait seul   | She discovers he'd travelled alone
+   8:40    Léa     une grande partie du chemin dans sa tête.   | much of the way in his head.
+   8:43    Léa     Elle doit expliquer son départ,   | She has to explain his departure,
+   8:45    Léa     faire vivre ses enfants et décider   | support her children and decide
+   8:48    Léa     comment elle va gagner de l'argent.   | how she's going to earn money.
+   8:50    Léa     Tout cela commence le jour où   | All of this begins on the day
+   8:52    Léa     son mari lui laisse quelques lignes.   | her husband leaves her a few lines.
+   8:55    Léa     Une réaction possible serait de dire qu'elle   | One possible reaction would be to say she
+   8:58    Léa     tient trop à ce que les gens pensent d'elle.   | cares too much about what people think of her.
+   9:00    Léa     Elle est sensible à sa place dans la société   | She's sensitive to her place in society
+   9:03    Léa     et à ce qui se dit autour d'elle.   | and to what is said around her.
+   9:05  ★ Léa     Elle a honte d'être laissée de cette façon.   | She's ashamed to be left in this way.
+   9:08    Léa     Mais si on s'arrête là,   | But if we stop there,
+   9:09    Léa     on passe à côté de l'effort qu'elle fait.   | we miss the effort she's making.
+   9:12    Léa     La position qu'elle avait lui donnait un cadre.   | The position she had gave her a framework.
+   9:15    Léa     Elle savait comment recevoir les gens   | She knew how to entertain guests
+   9:18    Léa     et comment organiser la maison.   | and how to run the house.
+   9:20    Léa     Quand tout change, elle doit faire quelque chose   | When everything changes, she has to do something
+   9:23    Léa     que son mari n'a pas pensé à faire pour elle.   | her husband didn't think to do for her.
+   9:26    Léa     Elle doit se demander comment   | She has to ask herself how
+   9:28    Léa     rendre la semaine suivante possible.   | to make the following week possible.
+   9:30    Léa     Elle apprend à taper à la machine   | She learns to type
+   9:32    Léa     et développe un travail de dactylographie.   | and builds a typing business.
+   9:35    Léa     Ce mot paraît compliqué.   | This word seems complicated.
+   9:37    Léa     Il s'agit de taper des lettres ou d'autres   | It means typing letters or other
+   9:40    Léa     textes à la machine pour gagner sa vie.   | texts on a machine to earn a living.
+   9:42    Léa     Elle change aussi sa façon   | She also changes her way
+   9:44    Léa     de vivre pour réduire ses dépenses.   | of living to cut her expenses.
+   9:47    Léa     Il faut apprendre,   | She has to learn,
+   9:48    Léa     chercher du travail, faire des comptes.   | look for work, keep the accounts.
+   9:51    Léa     Rien ne change en une soirée.   | Nothing changes in a single evening.
+   9:54    Léa     Pourtant, à force de travailler,   | Yet, by dint of hard work,
+   9:56  ★ Léa     elle arrive à reprendre la main.   | she manages to "reprendre la main".
+   9:58    Léa     Reprendre la main, ici,   | "Reprendre la main", here,
+  10:00    Léa     veut dire retrouver la possibilité de décider   | means getting back the ability to decide
+  10:04    Léa     dans une situation qui t'avait échappé.   | in a situation that had slipped away from you.
+  10:06    Léa     Regarde les deux personnes   | Look at the two people
+  10:08    Léa     à ce moment de l'histoire.   | at this point in the story.
+  10:10    Léa     Lui donne à la peinture   | He gives to painting
+  10:11    Léa     les meilleures heures de sa journée.   | the best hours of his day.
+  10:14    Léa     Elle donne les siennes au travail   | She gives hers to the work
+  10:16    Léa     qui lui permet de faire vivre sa famille   | that lets her support her family
+  10:18    Léa     et de retrouver une place qui compte pour elle.   | and regain a place that matters to her.
+  10:22    Léa     Tu peux croire que l'un   | You might think that one
+  10:23    Léa     rêve plus grand que l'autre.   | dreams bigger than the other.
+  10:24    Léa     Tu peux aussi regarder   | You can also look at
+  10:26    Léa     ce que chacun essaie de construire,   | what each one is trying to build,
+  10:28    Léa     et de quoi cette construction dépend.   | and what that construction depends on.
+  10:30    Léa     Quand le roman parle de la femme de Strickland,   | When the novel talks about Strickland's wife,
+  10:33    Léa     je vois quelqu'un qui met sa fierté   | I see someone who takes pride
+  10:34    Léa     dans la possibilité de se tenir debout sans   | in being able to stand on her own without
+  10:37    Léa     avoir à attendre le retour de son mari.   | having to wait for her husband to return.
+  10:40    Léa     Pour elle, c'est un projet   | For her, it's a project
+  10:41    Léa     qui mérite un effort quotidien.   | worth a daily effort.
+  10:43    Léa     J'aime que les deux trajectoires   | I like that the two paths
+  10:45    Léa     posent la même question de deux côtés.   | ask the same question from two sides.
+  10:48    Léa     Qu'est-ce que tu fais quand ce qui compte   | What do you do when what matters
+  10:50    Léa     pour toi demande du temps et que ce temps   | to you takes time, and that time
+  10:53    Léa     est déjà pris par autre chose ?   | is already taken up by something else?
+  10:55    Léa     On pense souvent qu'on peut répondre   | We often think we can answer
+  10:57    Léa     en disant ce qu'on croit important.   | by saying what we think is important.
+  10:59    Léa     Dans la vie,   | In real life,
+  11:00    Léa     on voit la réponse à des moments plus ordinaires.   | we see the answer in more ordinary moments.
+  11:03    Léa     Regarde les deux heures qui te restent   | Look at the two hours you have left
+  11:05    Léa     une fois que les choses urgentes sont faites.   | once the urgent things are done.
+  11:08    Léa     À qui ou à quoi peux-tu les donner ?   | Who or what can you give them to?
+  11:11    Léa     Si tu les donnes aujourd'hui à quelqu'un,   | If you give them to someone today,
+  11:13    Léa     à quoi devras-tu dire d'attendre jusqu'à demain ?   | what will have to wait until tomorrow?
+  11:16    Léa     C'est dans ces moments qu'une   | It's in these moments that a
+  11:17    Léa     priorité prend une forme réelle.   | priority takes on a real shape.
+  11:19    Léa     Les responsabilités peuvent   | Responsibilities can
+  11:21    Léa     aussi s'imposer à nous.   | also be forced upon us.
+  11:22    Léa     La femme de Strickland doit trouver du travail   | Strickland's wife has to find work
+  11:25    Léa     dans des conditions qu'elle n'a pas choisies.   | in conditions she didn't choose.
+  11:27    Léa     Ce qu'elle choisit, c'est la façon dont   | What she does choose is the way
+  11:29    Léa     elle répond à cette nouvelle situation,   | she responds to this new situation,
+  11:32    Léa     avec les possibilités qu'elle a.   | with the options she has.
+  11:34    Léa     Quand quelqu'un dit qu'il préfère garder   | When someone says they prefer to keep
+  11:36    Léa     un revenu sûr, on peut lui demander   | a steady income, you can ask them
+  11:38    Léa     ce que ce revenu lui permet de protéger.   | what that income allows them to protect.
+  11:40    Léa     On entendra peut-être parler d'enfants,   | You may hear about children,
+  11:42    Léa     de parents ou simplement du besoin   | parents or simply the need
+  11:45    Léa     de retrouver un peu de tranquillité.   | to find a little peace again.
+  11:47    Léa     Il faut connaître cette réponse   | You need to know that answer
+  11:49    Léa     pour comprendre sa décision.   | to understand their decision.
+  11:51    Léa     Pense aussi à ce que la lettre   | Think also about what the letter
+  11:53    Léa     change pour les deux époux.   | changes for the husband and wife.
+  11:54    Léa     Quand Charles décide de partir, il pense à tout   | When Charles decides to leave, he thinks of all
+  11:57    Léa     le temps qu'il veut consacrer à la peinture.   | the time he wants to devote to painting.
+  12:00    Léa     Sa femme, elle, découvre dans la même journée   | His wife, on the same day, discovers
+  12:03  ★ Léa     une montagne de choses qu'il lui laisse à régler.   | a mountain of things he leaves her to sort out.
+  12:06    Léa     Ce qui ressemble à un grand geste de liberté   | What looks like a grand gesture of freedom
+  12:09    Léa     pour lui devient une série de tâches pour elle.   | for him becomes a series of chores for her.
+  12:12    Léa     On peut respecter le désir de quelqu'un et parler   | You can respect someone's desire and talk
+  12:15    Léa     des conséquences très concrètes de sa décision.   | about the very concrete effects of their decision.
+  12:17    Léa     Ça peut commencer par des questions   | That can start with the questions
+  12:19    Léa     que le roman laisse à ses lecteurs.   | the novel leaves to its readers.
+  12:22    Léa     Qui va s'occuper des enfants ?   | Who will look after the children?
+  12:24    Léa     Combien de temps faut-il   | How long does it take
+  12:25    Léa     pour que chacun retrouve un revenu ?   | for each of them to find an income again?
+  12:27    Léa     Quelles décisions auraient   | Which decisions should
+  12:29    Léa     dû être prises ensemble ?   | have been made together?
+  12:30    Léa     Il y a des gens qui lèvent les yeux   | There are people who look up
+  12:32    Léa     parce qu'ils ont besoin d'un but.   | because they need a purpose.
+  12:34    Léa     Il y a des gens qui ramassent la pièce parce   | There are people who pick up the coin because
+  12:36    Léa     que leur façon d'aimer passe par des choses   | their way of loving goes through the things
+  12:38    Léa     dont ils prennent soin chaque jour.   | they take care of every day.
+  12:40    Léa     Et parfois, tu feras les deux   | And sometimes, you'll do both
+  12:43    Léa     dans la même semaine.   | in the same week.
+  12:44    Léa     La question que je garde de cette   | The question I keep from this
+  12:46    Léa     partie du livre est très simple.   | part of the book is very simple.
+  12:48    Léa     Est-ce que je sais pourquoi je donne   | Do I know why I'm giving
+  12:50    Léa     mon temps à cette chose aujourd'hui ?   | my time to this thing today?
+  12:52    Léa     Si tu sais à quoi elle sert dans ta vie,   | If you know what it's for in your life,
+  12:54    Léa     tu pourras expliquer ton choix sans   | you'll be able to explain your choice without
+  12:56    Léa     demander à tout le monde de faire le même.   | asking everyone else to make the same one.
+  12:59    Léa     Et tu pourras regarder le choix   | And you'll be able to look at other people's
+  13:00    Léa     des autres avec un peu plus de curiosité.   | choices with a little more curiosity.
+  13:04    Léa     Le regard que tu portes sur la vie décide   | The way you look at life finally decides
+  13:06    Léa     enfin de la manière dont tu traites les autres.   | how you treat other people.
+  13:10    Léa     Et c'est ici que j'aimerais   | And this is where I'd like
+  13:11    Léa     te parler de Dirk Stroeve.   | to tell you about Dirk Stroeve.
+  13:13    Léa     C'est un peintre hollandais qui vit à Paris.   | He's a Dutch painter who lives in Paris.
+  13:16    Léa     Il n'a pas, aux yeux du narrateur,   | In the narrator's eyes, he doesn't have
+  13:18    Léa     un grand talent pour peindre.   | a great talent for painting.
+  13:20    Léa     Pourtant, quand il regarde un tableau,   | And yet, when he looks at a painting,
+  13:22    Léa     il voit des choses que des peintres   | he sees things that more self-assured
+  13:24  ★ Léa     plus sûrs d'eux ne remarquent pas.   | painters don't notice.
+  13:26    Léa     Il reconnaît très tôt la force   | Very early on, he recognises the power
+  13:28    Léa     du travail de Strickland.   | of Strickland's work.
+  13:30    Léa     Les autres peuvent se moquer   | Others may make fun
+  13:32    Léa     de l'homme ou de ses toiles.   | of the man or of his canvases.
+  13:33    Léa     Dirk, lui, a assez confiance dans ce qu'il   | Dirk trusts what he sees
+  13:37    Léa     voit pour rester près de lui.   | enough to stay close to him.
+  13:39    Léa     Un peintre peut passer sa vie à apprendre à faire   | A painter can spend his life learning to make
+  13:41    Léa     de beaux tableaux et avoir du mal à reconnaître   | beautiful paintings and struggle to recognise
+  13:44    Léa     la beauté dans le travail de quelqu'un d'autre.   | beauty in someone else's work.
+  13:46    Léa     Dirk voit cette beauté alors que personne   | Dirk sees that beauty while no one
+  13:49    Léa     ne peut encore lui dire qu'il a raison.   | can yet tell him that he's right.
+  13:51    Léa     Il voit aussi un homme malade qui a besoin d'aide.   | He also sees a sick man who needs help.
+  13:54    Léa     Quand Strickland tombe gravement malade,   | When Strickland falls seriously ill,
+  13:57    Léa     Dirk veut l'accueillir chez lui et le soigner.   | Dirk wants to take him in and nurse him.
+  14:00  ★ Léa     Blanche, sa femme, s'y oppose.   | Blanche, his wife, is against it.
+  14:02    Léa     Il insiste.   | He insists.
+  14:04    Léa     Dans sa manière de voir,   | The way he sees it,
+  14:05    Léa     laisser quelqu'un dans cet état est   | leaving someone in that state is
+  14:07    Léa     plus difficile que lui ouvrir la porte.   | harder than opening the door to him.
+  14:10    Léa     Ce choix lui coûte cher.   | This choice costs him dearly.
+  14:12    Léa     Lorsque Strickland va mieux,   | When Strickland gets better,
+  14:14    Léa     Blanche quitte Dirk pour lui.   | Blanche leaves Dirk for him.
+  14:16    Léa     Dirk souffre, puis finit par leur   | Dirk suffers, then ends up leaving them
+  14:18    Léa     laisser l'atelier où il travaillait.   | the studio where he used to work.
+  14:21    Léa     Ce qui me frappe, c'est ce qu'il espère encore   | What strikes me is what he still hopes for
+  14:23    Léa     alors que lui-même vient de perdre sa place.   | while he himself has just lost his place.
+  14:27    Léa     Il voudrait que Blanche soit heureuse.   | He wants Blanche to be happy.
+  14:29    Léa     Pendant ce temps,   | Meanwhile,
+  14:30    Léa     Strickland pense surtout à peindre.   | Strickland mostly thinks about painting.
+  14:33    Léa     L'un accepte de perdre quelque chose pour donner   | One agrees to lose something to give
+  14:36    Léa     à une autre personne ce qu'elle demande.   | another person what she asks for.
+  14:38    Léa     L'autre accepte très vite que les gens s'éloignent   | The other is quick to accept people drifting away
+  14:41    Léa     dès qu'il ne veut plus de leur présence.   | as soon as he no longer wants them around.
+  14:43    Léa     Pour Blanche, vivre auprès de Strickland   | For Blanche, living with Strickland
+  14:47    Léa     a un sens que lui-même ne partage pas.   | has a meaning he doesn't share.
+  14:50    Léa     Elle semble prête à payer le prix du jugement   | She seems ready to pay the price of others'
+  14:52    Léa     des autres pour être avec l'homme qu'elle désire.   | judgement to be with the man she desires.
+  14:55    Léa     Elle attend de cet amour une présence,   | She expects this love to bring presence,
+  14:58    Léa     une vie que l'on partage.   | a life that is shared.
+  15:00    Léa     Chez Strickland, le travail reprend   | For Strickland, work takes up all
+  15:02    Léa     toute la place et la relation se termine.   | the space again and the relationship ends.
+  15:05    Léa     Blanche meurt peu après.   | Blanche dies shortly after.
+  15:07    Léa     Cette partie du livre est douloureuse.   | This part of the book is painful.
+  15:10    Léa     Et quand j'entends dire que les deux   | And when I hear people say the two of them
+  15:12    Léa     n'avaient simplement pas les mêmes priorités,   | simply didn't have the same priorities,
+  15:15    Léa     j'ai envie de poser une autre question.   | I want to ask another question.
+  15:18    Léa     Quand tu sais que quelqu'un attend de toi   | When you know someone expects from you
+  15:20    Léa     une chose que tu ne veux pas lui donner,   | something you don't want to give them,
+  15:22    Léa     à quel moment le lui dis-tu ?   | when do you tell them?
+  15:26    Léa     Les gens peuvent vouloir des vies différentes   | People can want different lives
+  15:28    Léa     et se parler assez tôt pour que chacun   | and talk early enough so that each one
+  15:30    Léa     puisse choisir avec les mêmes informations.   | can choose with the same information.
+  15:33    Léa     Il reste une chose difficile   | There's still one thing that's hard
+  15:35    Léa     à comprendre chez Dirk.   | to understand about Dirk.
+  15:36    Léa     Même après la mort de Blanche,   | Even after Blanche's death,
+  15:38    Léa     il peut encore voir le talent de Strickland.   | he can still see Strickland's talent.
+  15:42    Léa     Il va jusqu'à lui proposer   | He even goes as far as offering
+  15:43    Léa     de venir avec lui en Hollande.   | to take him with him to Holland.
+  15:45    Léa     Strickland refuse.   | Strickland refuses.
+  15:47    Léa     Le lecteur peut regarder ce geste   | The reader may look at this gesture
+  15:49    Léa     et penser que Dirk devrait se protéger.   | and think Dirk should protect himself.
+  15:52    Léa     Ou il peut se demander comment cet   | Or they may wonder how this
+  15:54    Léa     homme arrive à garder une telle   | man manages to keep such
+  15:56    Léa     générosité après ce qu'il a vécu.   | generosity after what he's been through.
+  15:58    Léa     Les deux réactions ont du sens.   | Both reactions make sense.
+  16:01    Léa     Si on se met à la place de Dirk,   | If you put yourself in Dirk's place,
+  16:03    Léa     il faut tenir ensemble la peine qu'il ressent   | you have to hold together the pain he feels
+  16:06    Léa     et l'admiration qu'il n'a jamais perdue.   | and the admiration he never lost.
+  16:09    Léa     Ce qui me touche chez lui,   | What moves me about him
+  16:10    Léa     c'est qu'il donne souvent sans attendre   | is that he often gives without expecting
+  16:13    Léa     que l'autre lui rende quelque chose.   | the other to give anything back.
+  16:15    Léa     Pourtant, si un ami agissait comme lui,   | And yet, if a friend acted like him,
+  16:18    Léa     je lui demanderais s'il a encore   | I'd ask him if he can still
+  16:20    Léa     la possibilité de dire non.   | say no.
+  16:21    Léa     Il y a un monde entre offrir une chambre   | There's a world between offering a room
+  16:24    Léa     pour quelques jours et laisser quelqu'un   | for a few days and letting someone
+  16:26    Léa     décider à ta place de ce qui se passe chez toi.   | decide for you what happens in your home.
+  16:29    Léa     Dans les deux cas, tu peux avoir envie d'aider.   | In both cases, you may want to help.
+  16:33    Léa     Dans les deux cas,   | In both cases,
+  16:34    Léa     tu peux aussi écouter la personne qui vit avec toi   | you can also listen to the person you live with
+  16:37    Léa     et demander quel effet ce choix aura sur elle.   | and ask what effect this choice will have on her.
+  16:41    Léa     C'est une façon de prendre soin des autres   | It's a way of caring for others
+  16:43    Léa     qui ne se voit pas toujours, parce qu'elle   | that isn't always seen, because it
+  16:46    Léa     commence parfois par une conversation difficile.   | sometimes starts with a difficult conversation.
+  16:49    Léa     Je trouve également que Dirk   | I also find that Dirk
+  16:51    Léa     oblige à repenser ce qu'on admire.   | makes us rethink what we admire.
+  16:53    Léa     Quand un peintre est reconnu, on retient son nom.   | When a painter is recognised, we remember his name.
+  16:56    Léa     On parle de la force qu'il lui a fallu   | We talk about the strength it took him
+  16:58    Léa     pour continuer et des années pendant lesquelles   | to keep going and the years during which
+  17:01    Léa     personne ne comprenait ce qu'il faisait.   | nobody understood what he was doing.
+  17:03    Léa     Qui se souvient de la personne qui a   | Who remembers the person who
+  17:05    Léa     reconnu ses tableaux la première ?   | first recognised his paintings?
+  17:07    Léa     Qui se souvient de celle qui lui a   | Who remembers the one who
+  17:09    Léa     donné un lit quand il était malade ?   | gave him a bed when he was ill?
+  17:12    Léa     Le roman donne une grande   | The novel gives a big
+  17:13    Léa     place au désir de Strickland.   | place to Strickland's desire.
+  17:15    Léa     Moi, il me reste aussi l'image   | For me, what also stays is the image
+  17:17    Léa     de Dirk qui ouvre sa porte.   | of Dirk opening his door.
+  17:20    Léa     Une vie peut avoir beaucoup de valeur   | A life can have a lot of value
+  17:22    Léa     à cause des gestes qui ont permis   | because of the gestures that allowed
+  17:23    Léa     à quelqu'un d'autre de continuer.   | someone else to keep going.
+  17:26    Léa     Il y a un mot courant en français   | There's a common French expression
+  17:28    Léa     qui me vient quand je pense à ce personnage.   | that comes to me when I think of this character.
+  17:30  ★ Léa     Rendre service.   | "Rendre service".
+  17:32    Léa     C'est faire quelque chose pour aider quelqu'un.   | It means doing something to help someone.
+  17:35    Léa     On peut rendre service en prêtant de l'argent,   | You can help out by lending money,
+  17:37    Léa     en offrant un endroit où dormir   | by offering a place to sleep
+  17:39    Léa     ou en prenant simplement le temps de regarder   | or simply by taking the time to look at
+  17:42    Léa     le travail de quelqu'un avec attention.   | someone's work with attention.
+  17:45    Léa     Dirk fait tout cela avec le sentiment   | Dirk does all of this feeling
+  17:47    Léa     que ces gestes comptent.   | that these gestures matter.
+  17:49    Léa     Strickland paraît souvent prendre ce qu'on   | Strickland often seems to take what people
+  17:51  ★ Léa     lui offre comme si le reste allait de soi.   | offer him as if the rest went without saying.
+  17:54    Léa     Regarde les deux hommes à partir de ce mot   | Look at the two men through this word
+  17:56    Léa     et demande-toi lequel des deux tu voudrais avoir   | and ask yourself which of the two you'd want
+  17:59    Léa     près de toi un jour où tu as besoin d'aide.   | by your side on a day when you need help.
+  18:02    Léa     La réponse te dira peut-être autre   | The answer might tell you something
+  18:04    Léa     chose que le nom de celui dont   | other than the name of the one whose
+  18:06    Léa     tu voudrais voir les tableaux.   | paintings you'd like to see.
+  18:08    Léa     Et c'est aussi là que je trouve   | And that's also where I find
+  18:10    Léa     la formule du début intéressante.   | the opening phrase interesting.
+  18:12    Léa     Ta manière de voir le monde change   | How you see the world changes
+  18:14    Léa     ce que tu remarques chez les gens.   | what you notice in people.
+  18:17    Léa     Si tout ce qui compte pour toi est de finir ton   | If all that matters to you is finishing your
+  18:20    Léa     travail, tu risques de regarder une personne   | work, you risk looking at a person
+  18:23    Léa     seulement au moment où elle t'aide ou te gêne.   | only when they help you or get in your way.
+  18:26    Léa     Si tu attaches de l'importance   | If you care
+  18:28    Léa     à ce que les autres vivent, tu vas peut-être   | about what others go through, you might
+  18:30    Léa     entendre la question qu'ils n'osent pas poser.   | hear the question they don't dare to ask.
+  18:33    Léa     Ce regard se voit dans des actions précises.   | This outlook shows in specific actions.
+  18:36    Léa     Est-ce que tu préviens quelqu'un   | Do you let someone know
+  18:38    Léa     quand tes projets changent ?   | when your plans change?
+  18:39    Léa     Est-ce que tu écoutes sa réponse jusqu'au bout ?   | Do you listen to their answer to the end?
+  18:42    Léa     Si tu l'aides, est-ce que tu lui demandes   | If you help them, do you ask them
+  18:45    Léa     ce qui lui serait vraiment utile ?   | what would really be useful to them?
+  18:47    Léa     C'est là que tes idées sur la vie commencent   | That's where your ideas about life start
+  18:50    Léa     à changer la vie de quelqu'un d'autre.   | to change someone else's life.
+  18:52    Léa     Comment vivre, alors,   | So how can we live
+  18:54    Léa     avec le moins de regrets possible ?   | with as few regrets as possible?
+  18:56    Léa     En refermant le livre, je reviens à la personne   | Closing the book, I go back to the person
+  18:59    Léa     qui voyait une promesse de liberté dans la cabane   | who saw a promise of freedom in Thoreau's
+  19:02    Léa     de Thoreau, puis à celle qui se demandait   | cabin, then to the one who wondered
+  19:04    Léa     qui prendrait soin de ses proches.   | who would look after their loved ones.
+  19:07    Léa     L'une pose une question qu'on   | One asks a question you
+  19:09    Léa     peut éviter pendant des années.   | can avoid for years.
+  19:10    Léa     Quelle vie ai-je vraiment envie de vivre ?   | What life do I really want to live?
+  19:14    Léa     L'autre pose une question qu'on peut oublier   | The other asks a question you can forget
+  19:17    Léa     au moment où l'on trouve enfin une réponse.   | at the moment you finally find an answer.
+  19:20    Léa     Qui aura besoin de savoir ce que je veux faire ?   | Who will need to know what I want to do?
+  19:24    Léa     Je crois qu'on peut se donner   | I think we can give ourselves
+  19:26    Léa     le temps de répondre aux deux.   | time to answer both.
+  19:27    Léa     Tu n'as pas à vivre pour recevoir   | You don't have to live to get
+  19:30    Léa     l'accord de tous les gens qui t'entourent.   | the approval of everyone around you.
+  19:33    Léa     Certains te demanderont de garder   | Some will ask you to keep
+  19:35    Léa     un travail que tu aimerais quitter.   | a job you'd like to leave.
+  19:37  ★ Léa     D'autres te diront que tu manques   | Others will tell you that you lack
+  19:39    Léa     de courage parce que tu choisis de rester.   | courage because you choose to stay.
+  19:42    Léa     Toi, tu connais des détails qu'ils ne voient pas.   | You know details that they don't see.
+  19:46    Léa     Prends le temps de nommer ce qui te tient à cœur,   | Take the time to name what matters to you,
+  19:49    Léa     puis regarde ce que ce choix demande à toi   | then look at what this choice asks of you
+  19:53    Léa     et aux personnes qui comptent sur toi.   | and of the people who rely on you.
+  19:55    Léa     La liberté peut commencer dans cette conversation.   | Freedom can begin in that conversation.
+  19:58    Léa     Tu as le droit d'y dire ce que tu veux.   | You have the right to say what you want.
+  20:01    Léa     Les autres ont le droit de te dire   | Others have the right to tell you
+  20:03    Léa     ce que ça change pour eux.   | what it changes for them.
+  20:06    Léa     Si tu repenses à la lune et à la pièce après   | If you think back to the moon and the coin after
+  20:08    Léa     cet épisode, demande-toi ce que chacune   | this episode, ask yourself what each one
+  20:11    Léa     représente aujourd'hui pour toi.   | represents for you today.
+  20:13    Léa     La lune pourrait être quelque chose   | The moon could be something
+  20:15    Léa     que tu veux apprendre depuis longtemps.   | you've wanted to learn for a long time.
+  20:18    Léa     La pièce pourrait être le moyen   | The coin could be the way
+  20:20    Léa     de protéger ce qui rend déjà ta vie bonne.   | to protect what already makes your life good.
+  20:23    Léa     Pour quelqu'un d'autre,   | For someone else,
+  20:24    Léa     les réponses seront différentes.   | the answers will be different.
+  20:26    Léa     Et les tiennes peuvent changer dans dix ans.   | And yours may change in ten years.
+  20:30    Léa     C'est une des raisons pour lesquelles   | That's one of the reasons why
+  20:31    Léa     je recommanderais ce roman.   | I'd recommend this novel.
+  20:33    Léa     Il donne des mots à une question que tu peux   | It gives words to a question you can
+  20:35    Léa     te poser à plusieurs moments d'une vie,   | ask yourself at many moments in a life,
+  20:37    Léa     en sachant que tu n'y répondras peut-être   | knowing you may never answer it
+  20:40    Léa     jamais deux fois de la même manière.   | the same way twice.
+  20:43    Léa     Si tu veux poursuivre la conversation,   | If you want to continue the conversation,
+  20:45    Léa     laisse-moi une phrase en français.   | leave me a sentence in French.
+  20:47    Léa     Tu peux commencer par   | You can start with
+  20:49    Léa     « En ce moment, ma lune, c'est… »   | "Right now, my moon is…"
+  20:52    Léa     ou par « Ce que je veux protéger, c'est… ».   | or with "What I want to protect is…".
+  20:56    Léa     Et si tu as pensé à quelqu'un en écoutant,   | And if you thought of someone while listening,
+  20:58    Léa     tu peux partager cet épisode avec elle   | you can share this episode with them
+  21:00    Léa     et lui poser la même question.   | and ask them the same question.
+  21:03    Léa     Abonne-toi à Cozy French Books si   | Subscribe to Cozy French Books if
+  21:05    Léa     tu veux lire un autre livre avec moi.   | you want to read another book with me.
+  21:07    Léa     Merci d'avoir passé ce moment ici.   | Thank you for spending this time here.
+  21:10    Léa     Je suis Léa.   | I'm Léa.
+  21:11    Léa     À très bientôt.   | See you very soon.
