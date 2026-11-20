@@ -1,0 +1,589 @@
+[
+ {
+  "who": "mat",
+  "fr": "Est-ce qu'on pourrait en revoir quelques-unes ?",
+  "en": "Could we review a few of them?"
+ },
+ {
+  "who": "lea",
+  "fr": "Avec plaisir.",
+  "en": "With pleasure."
+ },
+ {
+  "who": "lea",
+  "fr": "Commençons par [« prendre un nouveau départ ».]",
+  "en": "Let's start with \"prendre un nouveau départ\".",
+  "board": {
+   "mode": "word",
+   "bg": "liege",
+   "note": "= commencer une nouvelle étape",
+   "icon": "voyage"
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "Cela signifie commencer une nouvelle étape,",
+  "en": "It means starting a new chapter,"
+ },
+ {
+  "who": "lea",
+  "fr": "par exemple",
+  "en": "for example"
+ },
+ {
+  "who": "lea",
+  "fr": "après un changement professionnel ou personnel.",
+  "en": "after a professional or personal change."
+ },
+ {
+  "who": "mat",
+  "fr": "Comme dans cette phrase :",
+  "en": "As in this sentence:"
+ },
+ {
+  "who": "mat",
+  "fr": "« Après plusieurs années dans le même domaine,",
+  "en": "\"After several years in the same field,"
+ },
+ {
+  "who": "mat",
+  "fr": "elle a décidé de prendre un nouveau départ. »",
+  "en": "she decided to make a fresh start.\"",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Très bien. Deuxième expression :",
+  "en": "Very good. Second expression:"
+ },
+ {
+  "who": "lea",
+  "fr": "« ne plus se sentir à sa place ».",
+  "en": "\"ne plus se sentir à sa place\"."
+ },
+ {
+  "who": "lea",
+  "fr": "Elle décrit le sentiment qu'un environnement",
+  "en": "It describes the feeling that a setting"
+ },
+ {
+  "who": "lea",
+  "fr": "ne nous correspond plus vraiment.",
+  "en": "no longer really suits us."
+ },
+ {
+  "who": "mat",
+  "fr": "« J'ai beaucoup appris dans cette entreprise,",
+  "en": "\"I learned a lot at this company,"
+ },
+ {
+  "who": "mat",
+  "fr": "mais je ne m'y sens plus vraiment à ma place. »",
+  "en": "but I don't really feel I belong there anymore.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Troisième expression :",
+  "en": "Exactly. Third expression:"
+ },
+ {
+  "who": "lea",
+  "fr": "« remettre en question ».",
+  "en": "\"remettre en question\"."
+ },
+ {
+  "who": "lea",
+  "fr": "Cela signifie réfléchir à nouveau à une idée",
+  "en": "It means rethinking an idea"
+ },
+ {
+  "who": "lea",
+  "fr": "ou à une habitude",
+  "en": "or a habit"
+ },
+ {
+  "who": "lea",
+  "fr": "qu'on acceptait auparavant sans y penser.",
+  "en": "we used to accept without thinking."
+ },
+ {
+  "who": "mat",
+  "fr": "« Cette expérience m'a amené",
+  "en": "\"This experience led me"
+ },
+ {
+  "who": "mat",
+  "fr": "à remettre en question",
+  "en": "to question"
+ },
+ {
+  "who": "mat",
+  "fr": "certaines de mes priorités. »",
+  "en": "some of my priorities.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Quatrième expression : « se lancer ».",
+  "en": "Fourth expression: \"se lancer\"."
+ },
+ {
+  "who": "lea",
+  "fr": "Cela signifie commencer une activité",
+  "en": "It means starting an activity"
+ },
+ {
+  "who": "lea",
+  "fr": "ou un projet, parfois malgré ses hésitations.",
+  "en": "or a project, sometimes despite hesitations."
+ },
+ {
+  "who": "mat",
+  "fr": "« J'aimerais apprendre à chanter,",
+  "en": "\"I'd love to learn to sing,"
+ },
+ {
+  "who": "mat",
+  "fr": "mais j'hésite encore à me lancer. »",
+  "en": "but I'm still hesitant to take the plunge.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Cinquième expression : « changer de cap ».",
+  "en": "Fifth expression: \"changer de cap\".",
+  "board": {
+   "mode": "idiom",
+   "bg": "craie",
+   "expr": "changer de cap",
+   "literal": "to change heading",
+   "meaning": "to change direction in life or work",
+   "icon": "voyage",
+   "ex": "À quarante ans, elle a changé de cap.",
+   "exEn": "At forty, she changed course.",
+   "meaningAt": 1
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "Cela signifie modifier la direction",
+  "en": "It means changing the direction"
+ },
+ {
+  "who": "lea",
+  "fr": "que l'on suit,",
+  "en": "you're following,"
+ },
+ {
+  "who": "lea",
+  "fr": "souvent dans sa carrière ou dans ses projets.",
+  "en": "often in your career or your projects."
+ },
+ {
+  "who": "mat",
+  "fr": "« J'ai décidé de changer de cap",
+  "en": "\"I decided to change course"
+ },
+ {
+  "who": "mat",
+  "fr": "et d'explorer un nouveau métier. »",
+  "en": "and explore a new profession.\"",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Sixième expression : « prendre du recul ».",
+  "en": "Sixth expression: \"prendre du recul\"."
+ },
+ {
+  "who": "lea",
+  "fr": "Cela signifie regarder une situation",
+  "en": "It means looking at a situation"
+ },
+ {
+  "who": "lea",
+  "fr": "avec un peu de distance",
+  "en": "with a bit of distance"
+ },
+ {
+  "who": "lea",
+  "fr": "avant de réagir ou de prendre une décision.",
+  "en": "before reacting or making a decision."
+ },
+ {
+  "who": "mat",
+  "fr": "« J'étais très déçu,",
+  "en": "\"I was very disappointed,"
+ },
+ {
+  "who": "mat",
+  "fr": "alors j'ai préféré prendre du recul",
+  "en": "so I preferred to step back"
+ },
+ {
+  "who": "mat",
+  "fr": "avant de décider de la suite. »",
+  "en": "before deciding what to do next.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Et une dernière expression :",
+  "en": "And one last expression:"
+ },
+ {
+  "who": "lea",
+  "fr": "« faire le premier pas ».",
+  "en": "\"faire le premier pas\"."
+ },
+ {
+  "who": "lea",
+  "fr": "Elle signifie entreprendre",
+  "en": "It means taking"
+ },
+ {
+  "who": "lea",
+  "fr": "la première action vers un objectif.",
+  "en": "the first action towards a goal."
+ },
+ {
+  "who": "mat",
+  "fr": "« J'ai longtemps parlé de ce projet.",
+  "en": "\"I've talked about this project for a long time."
+ },
+ {
+  "who": "mat",
+  "fr": "Aujourd'hui, je suis enfin prêt",
+  "en": "Today, I'm finally ready"
+ },
+ {
+  "who": "mat",
+  "fr": "à faire le premier pas. »",
+  "en": "to take the first step.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Voilà des expressions très utiles.",
+  "en": "Those are very useful expressions."
+ },
+ {
+  "who": "lea",
+  "fr": "Et maintenant, si nous rendions",
+  "en": "And now, what if we made"
+ },
+ {
+  "who": "lea",
+  "fr": "quelques phrases plus naturelles à l'oral ?",
+  "en": "a few sentences sound more natural?"
+ },
+ {
+  "who": "mat",
+  "fr": "Bonne idée ! Première phrase :",
+  "en": "Good idea! First sentence:",
+  "board": {
+   "mode": "compare",
+   "bg": "carnet",
+   "title": "Plus naturel à l'oral",
+   "left": {
+    "head": "On dit…",
+    "sub": "simple",
+    "items": [
+     {
+      "text": "Je veux changer ma vie.",
+      "at": 1
+     },
+     {
+      "text": "Je n'aime plus mon travail.",
+      "at": 8
+     },
+     {
+      "text": "J'ai peur de commencer.",
+      "at": 12
+     }
+    ]
+   },
+   "right": {
+    "head": "Plus naturel",
+    "sub": "nuancé",
+    "items": [
+     {
+      "text": "J'ai besoin de changement.",
+      "at": 3
+     },
+     {
+      "text": "Je ne me sens plus à ma place.",
+      "at": 10
+     },
+     {
+      "text": "J'hésite encore à me lancer.",
+      "at": 14
+     }
+    ]
+   }
+  },
+  "emote": "idee"
+ },
+ {
+  "who": "mat",
+  "fr": "« Je veux changer ma vie. »",
+  "en": "\"I want to change my life.\""
+ },
+ {
+  "who": "mat",
+  "fr": "On peut dire :",
+  "en": "You can say:"
+ },
+ {
+  "who": "mat",
+  "fr": "« Je sens que j'ai besoin de changement. »",
+  "en": "\"I feel I need a change.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Ou : « J'aimerais donner",
+  "en": "Or: \"I'd like to give"
+ },
+ {
+  "who": "lea",
+  "fr": "une nouvelle direction à mon quotidien. »",
+  "en": "a new direction to my daily life.\""
+ },
+ {
+  "who": "lea",
+  "fr": "C'est une manière moins spectaculaire",
+  "en": "It's a less dramatic way"
+ },
+ {
+  "who": "lea",
+  "fr": "de présenter son envie.",
+  "en": "of presenting your wish."
+ },
+ {
+  "who": "mat",
+  "fr": "Deuxième phrase : « Je n'aime plus mon travail. »",
+  "en": "Second sentence: \"I don't like my job anymore.\""
+ },
+ {
+  "who": "mat",
+  "fr": "On peut dire :",
+  "en": "You can say:"
+ },
+ {
+  "who": "mat",
+  "fr": "« Je ne me sens plus vraiment",
+  "en": "\"I don't really feel"
+ },
+ {
+  "who": "mat",
+  "fr": "à ma place dans ce travail. »",
+  "en": "I belong in this job anymore.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Troisième phrase : « J'ai peur de commencer. »",
+  "en": "Third sentence: \"I'm scared to start.\""
+ },
+ {
+  "who": "lea",
+  "fr": "On peut dire :",
+  "en": "You can say:"
+ },
+ {
+  "who": "lea",
+  "fr": "« J'hésite encore à me lancer. » Ou :",
+  "en": "\"I'm still hesitant to take the plunge.\" Or:"
+ },
+ {
+  "who": "lea",
+  "fr": "« J'appréhende un peu le premier pas. »",
+  "en": "\"I'm a little nervous about the first step.\"",
+  "boardEnd": true
+ },
+ {
+  "who": "mat",
+  "fr": "[« Appréhender »] signifie ressentir",
+  "en": "\"Appréhender\" means feeling"
+ },
+ {
+  "who": "mat",
+  "fr": "de l'inquiétude avant une situation.",
+  "en": "worry before a situation."
+ },
+ {
+  "who": "mat",
+  "fr": "Par exemple : « J'appréhende",
+  "en": "For example: \"I'm dreading"
+ },
+ {
+  "who": "mat",
+  "fr": "mon premier entretien en français. »",
+  "en": "my first job interview in French.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Quatrième phrase : « J'ai changé d'avis. »",
+  "en": "Fourth sentence: \"I've changed my mind.\"",
+  "board": {
+   "mode": "match",
+   "bg": "liege",
+   "title": "Relie les paires !",
+   "pairs": [
+    [
+     "un nouveau départ",
+     "a fresh start"
+    ],
+    [
+     "changer de cap",
+     "to change course"
+    ],
+    [
+     "se renseigner",
+     "to look into"
+    ],
+    [
+     "appréhender",
+     "to dread"
+    ]
+   ]
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "On peut dire :",
+  "en": "You can say:"
+ },
+ {
+  "who": "lea",
+  "fr": "« Avec le temps, mes priorités ont évolué. »",
+  "en": "\"Over time, my priorities have changed.\""
+ },
+ {
+  "who": "mat",
+  "fr": "Ou : « Ce que je voulais",
+  "en": "Or: \"What I wanted"
+ },
+ {
+  "who": "mat",
+  "fr": "autrefois ne me correspond plus aujourd'hui. »",
+  "en": "in the past no longer suits me today.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Cinquième phrase : « Je ne sais pas quoi faire. »",
+  "en": "Fifth sentence: \"I don't know what to do.\""
+ },
+ {
+  "who": "lea",
+  "fr": "On peut dire :",
+  "en": "You can say:"
+ },
+ {
+  "who": "lea",
+  "fr": "« J'ai besoin de prendre du recul",
+  "en": "\"I need to step back"
+ },
+ {
+  "who": "lea",
+  "fr": "avant de décider. »",
+  "en": "before deciding.\""
+ },
+ {
+  "who": "mat",
+  "fr": "Et la dernière :",
+  "en": "And the last one:"
+ },
+ {
+  "who": "mat",
+  "fr": "« Je vais essayer quelque chose de nouveau. »",
+  "en": "\"I'm going to try something new.\""
+ },
+ {
+  "who": "mat",
+  "fr": "On peut dire :",
+  "en": "You can say:"
+ },
+ {
+  "who": "mat",
+  "fr": "« J'ai envie d'explorer",
+  "en": "\"I feel like exploring"
+ },
+ {
+  "who": "mat",
+  "fr": "de nouvelles possibilités. »",
+  "en": "new possibilities.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Toutes ces expressions",
+  "en": "Exactly. All these expressions"
+ },
+ {
+  "who": "lea",
+  "fr": "nous permettent de parler",
+  "en": "let us talk"
+ },
+ {
+  "who": "lea",
+  "fr": "de nos choix avec plus de précision et de nuance.",
+  "en": "about our choices with more precision and nuance.",
+  "boardEnd": true
+ },
+ {
+  "who": "mat",
+  "fr": "Tu sais, Léa, après cette conversation,",
+  "en": "You know, Léa, after this conversation,"
+ },
+ {
+  "who": "mat",
+  "fr": "je pense que j'ai compris quelque chose.",
+  "en": "I think I've understood something.",
+  "emote": "idee"
+ },
+ {
+  "who": "mat",
+  "fr": "Changer de vie ne signifie pas forcément",
+  "en": "Changing your life doesn't necessarily mean"
+ },
+ {
+  "who": "mat",
+  "fr": "jeter tout ce qu'on a construit.",
+  "en": "throwing away everything you've built."
+ },
+ {
+  "who": "lea",
+  "fr": "Non. On peut garder ce qui nous fait du bien,",
+  "en": "No. We can keep what does us good,"
+ },
+ {
+  "who": "lea",
+  "fr": "modifier ce qui ne nous convient plus",
+  "en": "change what no longer suits us"
+ },
+ {
+  "who": "lea",
+  "fr": "et essayer de nouvelles choses, progressivement.",
+  "en": "and try new things, gradually."
+ },
+ {
+  "who": "mat",
+  "fr": "Et on a le droit",
+  "en": "And we're allowed"
+ },
+ {
+  "who": "mat",
+  "fr": "de ne pas connaître toute la suite.",
+  "en": "not to know everything that comes next."
+ },
+ {
+  "who": "mat",
+  "fr": "Parfois, une petite expérience suffit",
+  "en": "Sometimes a small experiment is enough"
+ },
+ {
+  "who": "mat",
+  "fr": "pour découvrir une possibilité intéressante.",
+  "en": "to discover an interesting possibility."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Nous n'avons pas besoin",
+  "en": "Exactly. We don't need"
+ }
+]

@@ -1,0 +1,9 @@
+{
+  "scene": "cafe",
+  "lea": "rose",
+  "mat": "rouille",
+  "decor": [
+    "livres",
+    "bougie"
+  ]
+}

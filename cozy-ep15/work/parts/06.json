@@ -1,0 +1,255 @@
+[
+ {
+  "who": "lea",
+  "fr": "d'une réponse définitive à chaque question.",
+  "en": "a final answer to every question."
+ },
+ {
+  "who": "lea",
+  "fr": "Nous pouvons apprendre en avançant.",
+  "en": "We can learn as we go."
+ },
+ {
+  "who": "mat",
+  "fr": "Alors, pour cette semaine,",
+  "en": "So, this week,"
+ },
+ {
+  "who": "mat",
+  "fr": "je vais ressortir mon appareil photo.",
+  "en": "I'm going to take my camera out again."
+ },
+ {
+  "who": "mat",
+  "fr": "Une promenade samedi matin,",
+  "en": "A walk on Saturday morning,"
+ },
+ {
+  "who": "mat",
+  "fr": "sans objectif particulier.",
+  "en": "with no particular goal."
+ },
+ {
+  "who": "lea",
+  "fr": "C'est une excellente idée !",
+  "en": "That's an excellent idea!",
+  "emote": "coeur"
+ },
+ {
+  "who": "lea",
+  "fr": "Et moi, je vais garder",
+  "en": "And I'm going to keep"
+ },
+ {
+  "who": "lea",
+  "fr": "une soirée sans rendez-vous",
+  "en": "an evening free of plans"
+ },
+ {
+  "who": "lea",
+  "fr": "pour lire ou cuisiner tranquillement.",
+  "en": "to read or cook in peace.",
+  "illus": "lecture",
+  "label": "lire"
+ },
+ {
+  "who": "mat",
+  "fr": "Une soirée sans programme ?",
+  "en": "An evening with no plans?"
+ },
+ {
+  "who": "mat",
+  "fr": "Est-ce que je peux venir ?",
+  "en": "Can I come?",
+  "emote": "question"
+ },
+ {
+  "who": "lea",
+  "fr": "Mathieu, si je t'invite,",
+  "en": "Mathieu, if I invite you,"
+ },
+ {
+  "who": "lea",
+  "fr": "ce ne sera plus une soirée sans programme !",
+  "en": "it won't be an evening with no plans anymore!"
+ },
+ {
+  "who": "mat",
+  "fr": "Très juste. Je vais respecter ton nouveau projet.",
+  "en": "Fair point. I'll respect your new project."
+ },
+ {
+  "who": "lea",
+  "fr": "Et vous, chers amis,",
+  "en": "And you, dear friends,"
+ },
+ {
+  "who": "lea",
+  "fr": "quelle petite chose aimeriez-vous changer",
+  "en": "what little thing would you like to change"
+ },
+ {
+  "who": "lea",
+  "fr": "dans votre vie ?",
+  "en": "in your life?"
+ },
+ {
+  "who": "lea",
+  "fr": "Peut-être reprendre une activité,",
+  "en": "Maybe getting back to an activity,"
+ },
+ {
+  "who": "lea",
+  "fr": "apprendre quelque chose",
+  "en": "learning something"
+ },
+ {
+  "who": "lea",
+  "fr": "ou simplement trouver plus de temps pour vous.",
+  "en": "or simply finding more time for yourself.",
+  "illus": "temps",
+  "label": "du temps pour vous"
+ },
+ {
+  "who": "mat",
+  "fr": "Dans les commentaires, vous pouvez écrire :",
+  "en": "In the comments, you can write:"
+ },
+ {
+  "who": "mat",
+  "fr": "« Cette année, j'aimerais changer... » Ou :",
+  "en": "\"This year, I'd like to change...\" Or:"
+ },
+ {
+  "who": "mat",
+  "fr": "« J'ai envie de me lancer dans... »",
+  "en": "\"I want to get started with...\""
+ },
+ {
+  "who": "mat",
+  "fr": "Une seule phrase suffit",
+  "en": "A single sentence is enough"
+ },
+ {
+  "who": "mat",
+  "fr": "pour pratiquer votre français.",
+  "en": "to practise your French."
+ },
+ {
+  "who": "lea",
+  "fr": "Ne vous inquiétez pas si vous faites",
+  "en": "Don't worry if you make"
+ },
+ {
+  "who": "lea",
+  "fr": "quelques erreurs.",
+  "en": "a few mistakes."
+ },
+ {
+  "who": "lea",
+  "fr": "Nous sommes ici pour apprendre ensemble.",
+  "en": "We're here to learn together."
+ },
+ {
+  "who": "lea",
+  "fr": "Et si cet épisode vous a plu,",
+  "en": "And if you enjoyed this episode,"
+ },
+ {
+  "who": "lea",
+  "fr": "pensez à laisser un petit pouce en l'air",
+  "en": "remember to leave a little thumbs-up"
+ },
+ {
+  "who": "lea",
+  "fr": "et à vous abonner à The Cozy French.",
+  "en": "and subscribe to The Cozy French."
+ },
+ {
+  "who": "mat",
+  "fr": "Merci d'avoir partagé ce moment avec nous.",
+  "en": "Thank you for sharing this moment with us.",
+  "emote": "coeur"
+ },
+ {
+  "who": "mat",
+  "fr": "Prenez soin de vous,",
+  "en": "Take care of yourselves,"
+ },
+ {
+  "who": "mat",
+  "fr": "et rappelez-vous qu'un changement n'a pas besoin",
+  "en": "and remember that a change doesn't need"
+ },
+ {
+  "who": "mat",
+  "fr": "d'impressionner les autres pour être important.",
+  "en": "to impress others to be important."
+ },
+ {
+  "who": "lea",
+  "fr": "Parfois, il suffit",
+  "en": "Sometimes it's enough"
+ },
+ {
+  "who": "lea",
+  "fr": "de reconnaître ce qui nous manque,",
+  "en": "to recognise what we're missing,"
+ },
+ {
+  "who": "lea",
+  "fr": "puis de lui donner une petite place",
+  "en": "then give it a little place"
+ },
+ {
+  "who": "lea",
+  "fr": "dans notre quotidien.",
+  "en": "in our daily life."
+ },
+ {
+  "who": "lea",
+  "fr": "Avancez à votre rythme,",
+  "en": "Go at your own pace,"
+ },
+ {
+  "who": "lea",
+  "fr": "avec curiosité et bienveillance.",
+  "en": "with curiosity and kindness."
+ },
+ {
+  "who": "mat",
+  "fr": "C'était Mathieu...",
+  "en": "This was Mathieu..."
+ },
+ {
+  "who": "lea",
+  "fr": "Et Léa, de The Cozy French !",
+  "en": "And Léa, from The Cozy French!"
+ },
+ {
+  "who": "mat",
+  "fr": "Nous vous retrouvons très bientôt",
+  "en": "See you very soon"
+ },
+ {
+  "who": "mat",
+  "fr": "pour une nouvelle conversation en français.",
+  "en": "for a new conversation in French."
+ },
+ {
+  "who": "lea",
+  "fr": "À très bientôt, chers amis.",
+  "en": "See you very soon, dear friends.",
+  "emote": "coeur"
+ },
+ {
+  "who": "lea",
+  "fr": "Et prenez soin de vous !",
+  "en": "And take care of yourselves!"
+ },
+ {
+  "who": "mat",
+  "fr": "À bientôt !",
+  "en": "See you soon!"
+ }
+]
