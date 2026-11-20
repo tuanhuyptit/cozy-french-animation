@@ -1,0 +1,3616 @@
+{
+  "scene": "salon",
+  "lea": "cardigan",
+  "mat": "hoodie",
+  "audio": "assets/voice.mp3",
+  "audioEnd": 1469.09,
+  "chunks": [
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Tu peux avoir beaucoup d'argent et vivre dans la",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "peur de tout perdre.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Et tu peux avoir peu d'argent mais garder une",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "grande confiance en ton avenir.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "Étrange non ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Bonjour et bienvenue dans Cozy French Radio,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 170,
+      "fr": "c'est Lia.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Je suis vraiment heureuse de te retrouver",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "aujourd'hui pour partager un nouveau moment",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 160,
+      "fr": "ensemble.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Dis-moi, comment vas-tu ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Est-ce que ta journée a été calme ou est-ce",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "que tu as beaucoup de choses à penser en ce moment",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Peut-être que tu es dans les transports après une",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "longue journée de travail.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Peut-être que tu prépares ton dîner.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Ou peut-être que tu as enfin trouvé quelques",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 157,
+      "fr": "minutes pour toi.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Ce matin en préparant mon café,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "j'ai retrouvé une petite pièce de monnaie au fond",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "de ma poche.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Je l'ai posée sur la table et une question",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "m'est venue à l'esprit.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Pourquoi l'argent nous fait-il parfois ressentir",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 163,
+      "fr": "autant de choses ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "De la joie, de la sécurité,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "mais aussi de la peur,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "de la jalousie ou de l'inquiétude.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "C'est intéressant parce que l'argent est",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "simplement un outil.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Pourtant, la manière dont nous pensons à cet outil",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "peut influencer une grande partie de notre vie.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Aujourd'hui, nous allons parler de deux",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "expressions que tu as peut-être déjà entendues.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "La mentalité riche et la mentalité pauvre.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "En français, le mot mentalité désigne notre",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "manière habituelle de penser et de voir les",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "choses.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 267,
+      "fr": "Et pendant cette conversation, tu vas pouvoir",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "pratiquer ton français avec des exemples simples,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "des situations quotidiennes et quelques questions",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "pour mieux comprendre tes propres pensées.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Mais avant de commencer, j'aimerais préciser une",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "chose importante.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Avoir une mentalité riche ne signifie pas",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "automatiquement avoir beaucoup d'argent.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Et avoir peu d'argent ne veut absolument pas dire",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "avoir une mauvaise mentalité.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Nos situations financières dépendent de nombreux",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "éléments.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "Notre famille, notre santé, notre travail,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "les possibilités que nous avons rencontrées et",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "parfois simplement la chance.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Alors aujourd'hui, nous n'allons pas juger les",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "personnes riches ou pauvres.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Nous allons plutôt explorer deux façons de penser.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Une mentalité qui reste enfermée dans la peur et",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "une mentalité qui cherche des possibilités même",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 154,
+      "fr": "petites.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 267,
+      "fr": "Imagine maintenant deux personnes.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "La première s'appelle Thomas.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Thomas gagne très bien sa vie.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Il possède une belle maison,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "une voiture récente et plusieurs objets coûteux.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "De l'extérieur, sa vie semble parfaite.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Mais chaque soir, il regarde son compte bancaire",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "avec inquiétude.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Il se compare constamment aux autres.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Quand un collègue achète une voiture plus chère,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Thomas se sent moins important.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Quand un ami obtient une promotion,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "il a l'impression de perdre sa place.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Il possède beaucoup de choses,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "mais il n'a jamais le sentiment d'en avoir assez.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 267,
+      "fr": "Maintenant imagine Sophie.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Sophie a un salaire plus modeste.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Elle doit faire attention à ses dépenses et elle",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 267,
+      "fr": "ne peut pas acheter tout ce qu'elle souhaite.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Parfois, elle s'inquiète pour l'avenir.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Mais elle essaie de construire une vie qui",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "correspond à ses besoins.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Elle apprend de nouvelles choses quand elle en a",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "la possibilité.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Elle apprécie les moments simples avec ses",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "proches.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Et elle ne mesure pas toute sa valeur à ce qu'elle",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 170,
+      "fr": "possède.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Alors dis-moi, qui se sent vraiment riche ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Thomas possède davantage d'argent, mais Sophie",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "semble avoir davantage de tranquillité.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Bien sûr, cela ne signifie pas que l'argent n'est",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "pas important.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "Avoir suffisamment d'argent pour se loger,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "manger, se soigner et vivre sans inquiétude",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "constante peut faire une immense différence.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Mais voici une idée à garder en tête.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "L'argent peut améliorer tes conditions de vie.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "Il ne décide pas, à lui seul,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "de la manière dont tu regardes ta vie.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 276,
+      "fr": "Et peut-être que la première forme de richesse",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "commence avec cette question.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Est-ce que je cherche à construire une vie qui",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "me convient ou simplement une vie qui impressionne",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "les autres ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Il y a deux questions qui peuvent changer notre",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "manière de réagir à une difficulté.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "La première est \"Pourquoi cela m'arrive-t-il ?\" La",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "deuxième est \"Qu'est-ce que je peux faire",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 276,
+      "fr": "maintenant ?\" Ces deux questions peuvent",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "apparaître dans la même situation,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "mais elles ne nous conduisent pas toujours dans la",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 163,
+      "fr": "même direction.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Imagine deux collègues qui travaillent dans un",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "petit magasin.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Un lundi matin, le responsable annonce une",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "mauvaise nouvelle.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Le magasin vend moins de produits qu'avant.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "L'entreprise doit réduire certaines dépenses et",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "les horaires de travail pourraient changer.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Les deux collègues sont inquiets,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "c'est normal.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Ils ont besoin de leur salaire pour payer leur",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 163,
+      "fr": "facture.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "La première personne, Marc, rentre chez lui avec",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 170,
+      "fr": "beaucoup de colère.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "Il se dit \"C'est toujours pareil,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "rien ne fonctionne jamais pour moi,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "je n'ai vraiment pas de chance\".",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Pendant plusieurs jours, il pense uniquement au",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "pire.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Il imagine perdre son travail,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "il imagine ne plus pouvoir payer son loyer.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Et plus il pense à ses possibilités,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "plus il se sent impuissant.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "La deuxième personne, Claire, ressent exactement",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "la même inquiétude.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Elle aussi a peur, elle aussi pense à ses",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "factures.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Mais après quelques jours, elle décide de regarder",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "ce qu'elle peut faire.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Elle parle avec son responsable pour mieux",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "comprendre la situation.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Elle met à jour son CV,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "elle cherche des informations sur des formations",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "gratuites et elle commence à réfléchir à d'autres",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "possibilités professionnelles.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Claire ne sait pas si tout ira bien,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "elle n'a aucune garantie.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Mais elle essaie de retrouver une petite partie de",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "son pouvoir d'action.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Tu vois la différence ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Ce n'est pas que Claire est plus courageuse ou",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "meilleure que Marc.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Ils ne réagissent simplement pas de la même façon",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "à ce moment précis.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Et il est important de comprendre que nous pouvons",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "tous ressembler à Marc certains jours.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Quand nous sommes épuisés, inquiets ou découragés,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "il devient difficile d'imaginer des solutions.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Alors il ne faut pas se juger trop rapidement.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Mais il existe une idée intéressante.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Nous ne pouvons pas toujours choisir ce qui nous",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "arrive.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Nous pouvons parfois choisir le prochain petit",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "geste que nous allons faire.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Et ce geste peut être très simple.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Poser une question, demander de l'aide,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "chercher une information ou prendre quelques",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "minutes pour réfléchir avant de prendre une",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 163,
+      "fr": "décision.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 296,
+      "fr": "Parfois nous pensons qu'une mentalité riche",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 267,
+      "fr": "consiste à prendre de grands risques,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "à investir beaucoup d'argent, à commencer une",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "entreprise, à ne jamais avoir peur de l'échec.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Mais cette image est trop simple.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Certaines personnes ne peuvent pas prendre de",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "risques financiers importants.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Quand tu dois payer ton loyer,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "nourrir ta famille ou rembourser une dette,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "la prudence peut être nécessaire.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Et être prudent n'est pas une faiblesse.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "La véritable question n'est donc pas « Est-ce que",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "je suis prêt à tout risquer ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "» mais plutôt « Quelles possibilités réalistes",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "existent dans ma situation ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "» Peut-être que tu ne peux pas changer de travail",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "immédiatement, mais tu peux te renseigner.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Peut-être que tu ne peux pas payer une formation",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "coûteuse, mais tu peux trouver des ressources",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "gratuites.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Peut-être que tu ne peux pas économiser ce",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "mois-ci, mais tu peux essayer de mieux comprendre",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "tes dépenses sans te culpabiliser.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Le changement commence parfois avec une nouvelle",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "information, et cette information peut ouvrir une",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "possibilité.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "Tu sais, nous avons tendance à imaginer deux",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "catégories de personnes, celles qui réussissent et",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "celles qui échouent.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Mais la vie est beaucoup plus complexe.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Nous traversons tous des périodes différentes.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Parfois nous avançons, parfois nous devons",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "simplement tenir bon.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Et parfois, le meilleur progrès consiste à",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "reconnaître que nous avons besoin de soutien.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Alors, si tu traverses une difficulté financière",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "ou professionnelle, rappelle-toi ceci.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Ta situation actuelle ne définit pas toute ta",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "valeur.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Tu n'es pas ton salaire,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "tu n'es pas ton compte bancaire,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "et tu n'es pas une mauvaise personne parce que",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "tu rencontres des difficultés.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Tu es un être humain qui essaie de construire",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "sa vie avec les moyens dont il dispose.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Et parfois, poser une nouvelle question est déjà",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "une manière de commencer à avancer.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Parfois, nous achetons des choses dont nous",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "n'avons pas vraiment besoin pour impressionner des",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "personnes dont nous ne connaissons même pas",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "l'opinion.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "Cela peut sembler drôle, mais réfléchis un",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "instant.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Combien de fois avons-nous désiré quelque chose",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "simplement parce que quelqu'un d'autre le",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 157,
+      "fr": "possédait ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Un nouveau téléphone, une montre,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "une voiture, des vêtements d'une marque connue ou",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "même des vacances dans un endroit populaire.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Imagine une jeune femme qui s'appelle Julie.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Julie travaille dans un bureau.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Elle gagne suffisamment pour payer ses dépenses",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "habituelles, mais elle doit faire attention à son",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "budget.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Un jour, plusieurs collègues arrivent avec de",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "nouveaux téléphones.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "Ils parlent des appareils photos,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "des écrans et des nouvelles fonctions.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Julie écoute la conversation.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Son téléphone fonctionne encore très bien.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Elle peut appeler, envoyer des messages et prendre",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 163,
+      "fr": "des photos.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Mais soudain, elle commence à le trouver vieux.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Elle regarde les téléphones de ses collègues et",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "pense « peut-être que je devrais en acheter un",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "nouveau ».",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Le soir, elle cherche les prix sur Internet.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Le modèle qui lui plaît coûte très cher.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Elle pourrait l'acheter en plusieurs paiements,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "mais cela réduirait l'argent disponible pour",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "d'autres besoins.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Alors, elle hésite.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Et une question lui vient à l'esprit.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Est-ce que je veux vraiment ce téléphone ou est-ce",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "que je veux simplement avoir le même que les",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "autres ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Cette question change quelque chose.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Julie comprend que son envie n'est pas seulement",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "liée à l'objet.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Elle aimerait aussi se sentir acceptée.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Elle aimerait ne pas avoir l'impression d'être",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "différente.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Et tu sais, ce désir est très humain.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Nous voulons tous appartenir à un groupe.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Nous aimons être appréciés.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Nous aimons parfois montrer que notre vie avance.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Il n'y a rien de honteux à cela.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 276,
+      "fr": "Mais le problème commence quand nous utilisons",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "notre argent pour acheter une image de nous-mêmes",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "qui ne correspond pas à nos véritables besoins.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Parce que cette image demande souvent de nouveaux",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "achats.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Après le téléphone, il y aura peut-être une",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 348,
+      "fr": "montre.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Après la montre, une voiture.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Après la voiture, quelque chose d'autre.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Et nous pouvons passer beaucoup de temps à courir",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "après une impression de réussite qui disparaît",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "rapidement.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "Voici le paradoxe.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Plus nous essayons de prouver que nous sommes",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "riches, plus nous risquons parfois de perdre notre",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "liberté financière.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Bien sûr, acheter de belles choses n'est pas",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "mauvais.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Si tu aimes un objet,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "si tu peux te le permettre et s'il te fait",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "plaisir, tu as parfaitement le droit de l'acheter.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Le problème n'est pas le plaisir,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "c'est la pression.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Cette petite voix qui dit \"Si je n'ai pas cela,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "je vaux moins que les autres.\" Mais ta valeur",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "ne dépend pas de ton téléphone.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Elle ne dépend pas de ta voiture.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Elle ne dépend pas non plus du prix de tes",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 160,
+      "fr": "vêtements.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Imagine maintenant une autre scène.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Deux amis se retrouvent dans un café.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "L'un raconte qu'il vient d'acheter une voiture",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "très chère.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "L'autre explique qu'il a décidé de garder son",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "ancienne voiture pour économiser en vue d'un",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "projet personnel.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Aucun de ces choix n'est automatiquement meilleur.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Tout dépend de leur situation,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "de leurs besoins et de leurs priorités.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Mais le deuxième ami semble très tranquille avec",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "sa décision.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Il ne cherche pas à convaincre les autres.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "Il sait pourquoi il fait ce choix.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Et cette tranquillité est précieuse.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Parce que la liberté financière ne signifie pas",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "forcément devenir millionnaire.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Elle peut aussi signifier avoir suffisamment de",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "marge pour faire certains choix sans être",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "constamment sous pression.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Pouvoir refuser une dépense inutile.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Pouvoir faire face à un imprévu quand nos moyens",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "le permettent.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Ou pouvoir choisir quelque chose qui nous rend",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "heureux même si cela n'impressionne personne.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Alors, la prochaine fois que tu auras envie",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "d'acheter quelque chose, tu peux te poser une",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "question toute simple.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Si personne ne voyait cet objet,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "est-ce que je voudrais toujours l'acheter ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Si la réponse est oui,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 163,
+      "fr": "très bien.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Mais si la réponse est non,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "peut-être que tu viens de découvrir quelque chose",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "d'intéressant sur ton désir.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Et parfois, comprendre ce que nous voulons",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "vraiment nous apporte plus de liberté que posséder",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "un nouvel objet.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Une grande différence dans notre vie peut parfois",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "commencer avec une habitude tellement petite que",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "personne ne la remarque.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Imagine un homme qui s'appelle Nicolas.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Nicolas travaille dans un restaurant.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Il aime son travail, mais il aimerait un jour",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "obtenir un poste avec davantage de responsabilité.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Il sait qu'il doit améliorer certaines",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "compétences, mais il n'a pas beaucoup de temps.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Le matin, il part tôt.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Le soir, il rentre fatigué.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Et quand il pense à une formation complète,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "cela lui semble impossible.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Alors, un jour, il décide de commencer autrement.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Chaque matin, pendant son trajet,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "il écoute 10 minutes d'anglais.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "Pas une heure.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 267,
+      "fr": "Pas un programme compliqué.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Simplement 10 minutes.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Au début, il comprend très peu.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Certains mots sont difficiles.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Certaines phrases sont trop rapides.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Mais il continue quand il le peut.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Après quelques semaines, il reconnaît davantage",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "d'expressions.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Après plusieurs mois, il commence à utiliser",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "quelques phrases avec les clients étrangers.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Et un jour, son responsable remarque ses progrès.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Il lui propose de participer davantage à l'accueil",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "des clients internationaux.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Ce n'est pas une transformation magique.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Nicolas n'est pas devenu bilingue en quelques",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "semaines, mais il a développé une compétence utile",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "grâce à une petite habitude.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Et cette compétence lui donne de nouvelles",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "possibilités.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "J'aime beaucoup cette histoire parce qu'elle nous",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 170,
+      "fr": "rappelle une chose.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Nous surestimons parfois ce que nous pouvons",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "accomplir en une journée.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Et nous sous-estimons ce que nous pouvons",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "construire avec de petits efforts répétés.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Cela peut aussi s'appliquer à notre relation avec",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "l'argent.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Imagine une personne qui décide de noter ses",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "dépenses pendant un mois.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Pas pour se critiquer, pas pour arrêter tous les",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "petits plaisirs, simplement pour comprendre.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Elle découvre qu'elle dépense régulièrement de",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "l'argent pour certaines choses qu'elle utilise",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "très peu.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Alors, elle décide de modifier une habitude.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Elle annule un abonnement inutile ou elle prépare",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "parfois son déjeuner à la maison.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Et si sa situation le permet,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "elle met un petit montant de côté.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Ce n'est peut-être pas beaucoup,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "mais elle commence à mieux comprendre où va son",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 163,
+      "fr": "argent.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Et cette connaissance lui apporte un peu plus de",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "confiance.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 258,
+      "fr": "Bien sûr, il faut rester réaliste.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Certaines personnes ont des revenus si limités",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "qu'elles ne peuvent presque rien économiser.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Dans ce cas, le problème n'est pas simplement une",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "mauvaise habitude.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Il peut être lié au coût de la vie,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "au niveau des salaires ou à des responsabilités",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "importantes.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Et personne ne devrait avoir honte de ne pas",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "pouvoir mettre de l'argent de côté.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Mais même quand nos possibilités sont limitées,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "apprendre à mieux comprendre notre situation peut",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "nous aider à prendre certaines décisions.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "C'est cela, une mentalité tournée vers l'avenir.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Pas penser que tout est possible immédiatement,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "mais chercher ce qui peut être amélioré à notre",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "rythme.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Tu sais, il y a une différence entre dire",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "\"je dois devenir riche rapidement\" et dire \"je",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "veux construire une situation un peu plus stable",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "avec le temps\".",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "La première phrase peut créer beaucoup de",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 160,
+      "fr": "pression.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "La deuxième peut nous aider à avancer avec plus de",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "patience.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Et la patience est importante parce que les",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "résultats ne sont pas toujours visibles",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "immédiatement.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Quand tu apprends une langue,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "tu ne remarques pas forcément tes progrès chaque",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "jour.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Quand tu développes une compétence,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "tu ne reçois pas toujours une récompense",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "immédiate.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Et quand tu essaies de mieux gérer ton budget,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "il faut parfois du temps avant de ressentir une",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "différence.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Mais cela ne signifie pas que tes efforts sont",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "inutiles.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Parfois, ils construisent simplement quelque chose",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "que tu ne vois pas encore,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "comme une plante qui développe ses racines avant",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "de grandir.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Alors ne te demande pas seulement \"Qu'est-ce que",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "je peux obtenir aujourd'hui ?\" Demande-toi aussi",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "\"Quelle habitude pourrait rendre ma vie un peu",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "plus facile dans 6 mois ?\" La réponse n'a",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "pas besoin d'être impressionnante.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Elle doit simplement être adaptée à ta vie.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Parce qu'une petite habitude réaliste vaut souvent",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "mieux qu'un grand projet que tu ne peux pas",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "maintenir.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Et si le secret d'une vie riche n'était pas",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "de posséder toujours plus, mais de savoir ce qui",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "est suffisant pour toi ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "C'est une question simple.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Pourtant, elle peut changer notre relation à",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "l'argent.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "Imagine un homme qui s'appelle Antoine.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Pendant longtemps, Antoine a pensé que le bonheur",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "arriverait quand il aurait un meilleur salaire.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Alors il a travaillé.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Il a obtenu une promotion.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "Son salaire a augmenté.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Pendant quelques semaines, il était très heureux.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Mais rapidement, il a commencé à penser à autre",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "chose.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "Un appartement plus grand.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Une voiture plus récente.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Des vacances plus coûteuses.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Alors il s'est fixé de nouveaux objectifs.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "Et quand il les a atteints,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 229,
+      "fr": "d'autres envies sont apparues.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Un soir, il rentre chez lui après une longue",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 160,
+      "fr": "journée.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "Il s'assoit dans son salon.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Autour de lui, il y a beaucoup de beaux objets.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Mais il se sent fatigué.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 222,
+      "fr": "Il réalise qu'il passe presque tout son temps à",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "travailler pour payer une vie dont il profite très",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "peu.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Et pour la première fois,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "il se pose une question différente.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "De combien ai-je vraiment besoin pour vivre bien ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Ce n'est pas une question facile.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Parce que nous n'avons pas tous les mêmes besoins.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Une personne avec des enfants n'a pas les mêmes",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 163,
+      "fr": "responsabilités qu'une personne qui vit seule.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Une personne qui doit aider sa famille peut avoir",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "besoin de davantage de sécurité financière.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "Et une personne qui traverse des problèmes de",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "santé peut avoir des dépenses importantes.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "Alors il n'existe pas un montant magique qui",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "représente la richesse pour tout le monde.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "Mais nous pouvons essayer de définir ce que",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 170,
+      "fr": "signifie \"assez\" dans notre propre vie.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 170,
+      "fr": "Assez pour vivre dans un endroit sûr.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Assez pour manger correctement.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "Assez pour prendre soin de sa santé.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Assez pour faire face à certaines difficultés.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Et si possible, assez pour profiter de quelques",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 157,
+      "fr": "plaisirs simples.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "Bien sûr, vouloir gagner plus d'argent n'est pas",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "mauvais.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 170,
+      "fr": "L'argent peut apporter des possibilités",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "importantes.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "Il peut nous aider à soutenir notre famille,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "découvrir le monde ou préparer notre avenir.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Mais il y a une différence entre vouloir améliorer",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "sa vie et croire que notre vie n'aura de",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "valeur qu'après avoir atteint un certain niveau de",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "richesse.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 170,
+      "fr": "Tu peux avoir de l'ambition sans passer chaque",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "journée à te sentir insuffisant.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "Tu peux vouloir davantage sans mépriser ce que tu",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 160,
+      "fr": "possèdes déjà.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 163,
+      "fr": "Et tu peux t'être fier de tes progrès sans",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "te comparer constamment aux autres.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Je voudrais te raconter une dernière petite scène.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "Une femme âgée est assise dans son jardin.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "Elle boit un thé et regarde les fleurs.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 170,
+      "fr": "Son petit-fils lui demande \"Mamie,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "si tu pouvais avoir beaucoup plus d'argent,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "qu'est-ce que tu achèterais ?\" Elle réfléchit un",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "moment, puis elle répond \"Peut-être un jardin un",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 170,
+      "fr": "peu plus grand ?\" Son petit-fils sourit.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "Et après, elle regarde les fleurs devant elle.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "\"Après, je crois que je reviendrai ici pour boire",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "mon thé.\" Cette réponse est amusante,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "mais elle contient une vérité.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "Parfois, nous imaginons que nous devons posséder",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "beaucoup plus pour vivre des moments que nous",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "pouvons déjà apprécier aujourd'hui.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "Bien sûr, cela ne signifie pas que les difficultés",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "financières disparaissent avec une bonne attitude.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "Quand quelqu'un manque d'argent pour ses besoins",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "essentiels, il a besoin de solutions concrètes,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 163,
+      "fr": "pas seulement de pensées positives.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "Mais lorsque nous avons un peu de stabilité,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 216,
+      "fr": "nous pouvons aussi apprendre à reconnaître ce qui",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 163,
+      "fr": "nous apporte réellement de la satisfaction.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 186,
+      "fr": "Et peut-être que la mentalité riche,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "au sens le plus profond,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "commence ici, avec la capacité de distinguer ce",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "qui améliore véritablement notre vie de ce qui",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "nous donne seulement l'impression d'être plus",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "important.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "Parce que la richesse ne se mesure pas uniquement",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "avec des chiffres.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "Elle peut aussi se reconnaître dans le temps que",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 163,
+      "fr": "nous avons pour les personnes que nous aimons,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 170,
+      "fr": "dans notre capacité à faire certains choix,",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "dans notre tranquillité et dans le sentiment de",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "vivre une vie qui correspond à nos valeurs.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "Alors aujourd'hui, je ne vais pas te demander si",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 163,
+      "fr": "tu veux devenir riche.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Je voudrais plutôt te poser une autre question.",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 174,
+      "fr": "Si tu avais suffisamment d'argent pour vivre sans",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "inquiétude, à quoi aimerais-tu consacrer tes",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "journées ?",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 170,
+      "fr": "Ta réponse pourrait apprendre quelque chose de",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 163,
+      "fr": "très important, non seulement sur ton rapport à",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "l'argent, mais aussi sur la vie que tu souhaites",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 148,
+      "fr": "vraiment construire.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Avant de nous quitter, j'aimerais que tu gardes",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "une dernière pensée.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "Tu n'as pas besoin d'avoir beaucoup d'argent pour",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "mériter le respect.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Tu n'as pas besoin d'impressionner les autres pour",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "avoir de la valeur.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 195,
+      "fr": "Et tu n'as pas besoin de transformer chaque minute",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "de ta vie en une occasion de gagner davantage.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "L'argent est important, il nous aide à vivre,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "à nous protéger et à construire certains projets.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "Mais il n'est pas la seule mesure d'une belle vie.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Peut-être qu'aujourd'hui, ta situation financière",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "n'est pas celle que tu souhaites.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Peut-être que tu travailles beaucoup.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "Peut-être que tu essaies simplement de trouver un",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "peu plus de stabilité.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 178,
+      "fr": "Alors avance à ton rythme.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Apprends ce que tu peux.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Demande de l'aide quand tu en as besoin.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "Et rappelle-toi que tes difficultés ne définissent",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 160,
+      "fr": "pas ta valeur.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "Tu peux vouloir améliorer ta situation tout en",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "respectant la personne que tu es aujourd'hui.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Merci d'avoir passé ce moment avec moi.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 235,
+      "fr": "J'espère que cette conversation t'a aidé à",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "pratiquer ton français et à réfléchir un peu",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "différemment à l'argent, à la réussite et au",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "bonheur.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 242,
+      "fr": "Avant de partir, j'aimerais te poser une question.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "Pour toi, qu'est-ce que cela signifie vraiment",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 0,
+      "fr": "être riche ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "Est-ce avoir beaucoup d'argent, du temps libre,",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 190,
+      "fr": "de la sécurité ou autre chose ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 250,
+      "fr": "As-tu déjà vécu une expérience qui a changé ta",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 211,
+      "fr": "manière de penser à l'argent ?",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "Raconte-moi dans les commentaires, je serais très",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 167,
+      "fr": "heureuse de te lire.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 182,
+      "fr": "Prends bien soin de toi mon ami.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 205,
+      "fr": "On se retrouve très bientôt dans Cozy French",
+      "en": ""
+    },
+    {
+      "who": "mat",
+      "hz": 160,
+      "fr": "Radio.",
+      "en": ""
+    },
+    {
+      "who": "lea",
+      "hz": 200,
+      "fr": "À bientôt !",
+      "en": ""
+    }
+  ],
+  "vocab": []
+}

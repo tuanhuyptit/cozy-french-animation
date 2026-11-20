@@ -148,13 +148,22 @@ const segHTML = segs.map(g => { const S = g.S, c = ctxOf(g), L = S.lea;
 // subtitles: a card at the bottom in host scenes (box | dark), big kinetic text in interludes (kin)
 const ON = { box: ['#3a2e28', '#b8552a'], dark: ['#fffaf0', '#f3c96b'], kin: ['#3a2e28', '#b8552a'], light: ['#fffaf0', '#f3c96b'], hand: ['#5a3d2c', '#b8552a'] };
 chunks.forEach(c => { const S = c.seg.S; c.kind = S.sub === 'kin' ? (S.kin?.cls === 'light' ? 'light' : S.kin?.cls === 'hand' ? 'hand' : 'kin') : S.sub; c.on = ON[c.kind]; });
-const subFit = c => { const n = c.toks.map(t => t.t).join(' ').length; return n > 46 ? ` style="font-size:${Math.max(38, Math.floor(50 * 46 / n))}px"` : ''; };
+// French line size for the box/dark subtitle. Nunito 800 ≈ 0.52 em per character (spaces included).
+// The dark box is narrower (1200 px vs 1400 px), so it shrinks earlier; a line still too wide at the
+// minimum size widens its box instead of spilling past the edge.
+const SUB_MAX = { box: 1400, dark: 1200 }, SUB_PAD = 88, SUB_EM = 0.52;
+const subSize = c => { const n = c.toks.map(t => t.t).join(' ').length, inner = SUB_MAX[c.kind] - SUB_PAD;
+  let px = n > 46 ? Math.max(38, Math.floor(50 * 46 / n)) : 50;
+  px = Math.min(px, Math.max(36, Math.floor(inner / (SUB_EM * n))));
+  return { n, px, need: Math.ceil(SUB_EM * n * px) + SUB_PAD + 16 }; };
+const subFit = c => { const { px } = subSize(c); return px < 50 ? ` style="font-size:${px}px"` : ''; };
+const boxFit = c => { const { need } = subSize(c); return need > SUB_MAX[c.kind] ? ` style="max-width:${Math.min(1840, need)}px"` : ''; };
 const kinFit = c => { const n = c.toks.map(t => t.t).join(' ').length; return n > 60 ? ` style="font-size:${Math.max(48, Math.floor((c.kind === 'hand' ? 76 : 66) * 60 / n))}px"` : ''; };
 const wordsHTML = c => c.toks.map(t => `<span class="w${t.v ? ' vocab' : ''}" id="${t.id}">${t.v ? '<i class="ul"></i>' : ''}<b class="tx">${esc(t.t)}</b></span>`).join(' ');
 const subsHTML = chunks.map((c, i) => { const K = c.seg.S.kin || { x: 990, y: 250, w: 820 };
   return c.kind === 'box' || c.kind === 'dark' ? `
     <div id="sub${i}" class="clip subWrap ${c.kind}" data-start="${f(c.show)}" data-duration="${f(c.hide - c.show)}" data-track-index="3">
-      <div class="subBox"><div class="subFr"${subFit(c)}>${wordsHTML(c)}</div><div class="subEn">${esc(c.en)}</div></div></div>` : `
+      <div class="subBox"${boxFit(c)}><div class="subFr"${subFit(c)}>${wordsHTML(c)}</div><div class="subEn">${esc(c.en)}</div></div></div>` : `
     <div id="sub${i}" class="clip kinWrap ${c.kind}" data-start="${f(c.show)}" data-duration="${f(c.hide - c.show)}" data-track-index="3" style="left:${K.x}px;top:${K.y}px;width:${K.w}px">
       <div class="subBox"><div class="kinFr"${kinFit(c)}>${wordsHTML(c)}</div><div class="kinEn">${esc(c.en)}</div></div></div>`; }).join('');
 const cardsHTML = cards.map((c, i) => `

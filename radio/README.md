@@ -60,6 +60,9 @@ Léa dùng chung bộ cử chỉ của kênh chính (`gestTL` trong khối GEST-
 | Tập | Chủ đề | Cảnh | Léa |
 |---|---|---|---|
 | ep01 | Rien ne change si rien ne change | `lettre` (chủ kênh chọn) | `camel` |
+| ep02 | Être positif, chaque jour | `studio` | `rose` |
+| ep03 | Investis en toi-même | `train` | `pois` |
+| ep04 | Mentalité riche, mentalité pauvre | `grenier` | `lilas` |
 
 ## Chưa làm
 

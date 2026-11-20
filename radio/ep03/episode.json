@@ -1,0 +1,2060 @@
+{
+ "title": "Investis en toi-même",
+ "scene": "train",
+ "lea": "pois",
+ "edition": "ÉDITION DU MATIN · N° 03",
+ "parts": [
+  "Ton meilleur investissement",
+  "Ton temps",
+  "Apprendre",
+  "Prendre soin de soi",
+  "Être fier de toi",
+  "Un cadeau à ton avenir"
+ ],
+ "audio": "assets/voice.mp3",
+ "audioEnd": 1326.68,
+ "chunks": [
+  {
+   "fr": "Tu peux perdre de l'argent,",
+   "en": "You can lose money,"
+  },
+  {
+   "fr": "changer de travail, recommencer à zéro…",
+   "en": "change jobs, start over from scratch…"
+  },
+  {
+   "fr": "mais il y a une chose que personne ne",
+   "en": "but there's one thing no one"
+  },
+  {
+   "fr": "peut t'enlever : la personne que tu es devenue.",
+   "en": "can take from you: the person you've become."
+  },
+  {
+   "fr": "Bonjour, mon ami.",
+   "en": "Hello, my friend."
+  },
+  {
+   "fr": "Bienvenue dans Cozy French Radio.",
+   "en": "Welcome to Cozy French Radio."
+  },
+  {
+   "fr": "C'est Lia, et je suis vraiment heureuse de passer",
+   "en": "It's Lia, and I'm really happy to spend"
+  },
+  {
+   "fr": "ce petit moment avec toi.",
+   "en": "this little moment with you."
+  },
+  {
+   "fr": "Dis-moi, comment te sens-tu aujourd'hui ?",
+   "en": "Tell me, how are you feeling today?"
+  },
+  {
+   "fr": "Est-ce que tu as eu une journée agréable ?",
+   "en": "Did you have a nice day?"
+  },
+  {
+   "fr": "Ou est-ce que tu as passé beaucoup de temps",
+   "en": "Or did you spend a lot of time"
+  },
+  {
+   "fr": "à t'occuper des autres,",
+   "en": "taking care of others,"
+  },
+  {
+   "fr": "de ton travail, de tes responsabilités…",
+   "en": "your work, your responsibilities…"
+  },
+  {
+   "fr": "sans vraiment penser à toi ?",
+   "en": "without really thinking about yourself?"
+  },
+  {
+   "fr": "Peut-être que tu écoutes cet épisode en rentrant chez toi.",
+   "en": "Maybe you're listening to this on your way home."
+  },
+  {
+   "fr": "Peut-être que tu prépares ton dîner.",
+   "en": "Maybe you're making dinner."
+  },
+  {
+   "fr": "Ou peut-être que tu es simplement assis quelque part,",
+   "en": "Or maybe you're just sitting somewhere,"
+  },
+  {
+   "fr": "avec quelques minutes de calme devant toi.",
+   "en": "with a few quiet minutes ahead of you."
+  },
+  {
+   "fr": "Ce matin, j'ai retrouvé un vieux carnet dans un [tiroir.]",
+   "en": "This morning, I found an old notebook in a drawer."
+  },
+  {
+   "fr": "À l'intérieur, il y avait quelques idées que j'avais",
+   "en": "Inside, there were a few ideas I had"
+  },
+  {
+   "fr": "écrites il y a longtemps.",
+   "en": "written down a long time ago."
+  },
+  {
+   "fr": "Certaines étaient devenues réalité.",
+   "en": "Some had come true."
+  },
+  {
+   "fr": "D'autres étaient restées de simples projets.",
+   "en": "Others had stayed simple plans."
+  },
+  {
+   "fr": "Et en regardant ces pages,",
+   "en": "And looking at those pages,"
+  },
+  {
+   "fr": "j'ai pensé à une chose.",
+   "en": "I thought of something."
+  },
+  {
+   "fr": "Nous passons beaucoup de temps à construire notre vie.",
+   "en": "We spend a lot of time building our life."
+  },
+  {
+   "fr": "Mais combien de temps passons-nous à nous construire nous-mêmes ?",
+   "en": "But how much time do we spend building ourselves?"
+  },
+  {
+   "fr": "C'est une question que j'aimerais explorer avec toi aujourd'hui.",
+   "en": "That's a question I'd like to explore with you today."
+  },
+  {
+   "fr": "Nous allons parler d'une idée très simple :",
+   "en": "We're going to talk about a very simple idea:"
+  },
+  {
+   "fr": "investir en soi-même.",
+   "en": "investing in yourself."
+  },
+  {
+   "fr": "Et pendant que tu m'écoutes,",
+   "en": "And while you listen to me,"
+  },
+  {
+   "fr": "tu peux aussi pratiquer ton français tranquillement.",
+   "en": "you can also practise your French calmly."
+  },
+  {
+   "fr": "Tu vas entendre des mots du quotidien,",
+   "en": "You'll hear everyday words,"
+  },
+  {
+   "fr": "des expressions utiles et des questions que tu peux",
+   "en": "useful expressions and questions you can"
+  },
+  {
+   "fr": "te poser dans ta propre vie.",
+   "en": "ask yourself in your own life."
+  },
+  {
+   "fr": "Tu n'as pas besoin de tout comprendre parfaitement.",
+   "en": "You don't need to understand everything perfectly."
+  },
+  {
+   "fr": "Écoute simplement, comme dans une conversation entre deux amis.",
+   "en": "Just listen, like a conversation between two friends."
+  },
+  {
+   "fr": "Maintenant, imagine une personne qui travaille beaucoup.",
+   "en": "Now, imagine someone who works a lot."
+  },
+  {
+   "fr": "Chaque matin, elle se réveille tôt.",
+   "en": "Every morning, she wakes up early."
+  },
+  {
+   "fr": "Elle prépare son café,",
+   "en": "She makes her coffee,"
+  },
+  {
+   "fr": "prend les transports et passe la journée au bureau.",
+   "en": "takes public transport and spends the day at the office."
+  },
+  {
+   "fr": "Elle fait attention à ses dépenses.",
+   "en": "She's careful with her spending."
+  },
+  {
+   "fr": "Elle [économise] pour acheter une nouvelle voiture,",
+   "en": "She saves up to buy a new car,"
+  },
+  {
+   "fr": "un appartement ou simplement pour avoir un peu plus de sécurité.",
+   "en": "a flat, or just to feel a bit more secure."
+  },
+  {
+   "fr": "Et c'est une bonne chose.",
+   "en": "And that's a good thing."
+  },
+  {
+   "fr": "Mais un soir, elle rentre chez elle, fatiguée.",
+   "en": "But one evening, she comes home, tired."
+  },
+  {
+   "fr": "Elle voit un livre qu'elle a acheté plusieurs mois auparavant.",
+   "en": "She sees a book she bought several months earlier."
+  },
+  {
+   "fr": "Elle voulait apprendre quelque chose de nouveau.",
+   "en": "She wanted to learn something new."
+  },
+  {
+   "fr": "Peut-être une langue étrangère.",
+   "en": "Maybe a foreign language."
+  },
+  {
+   "fr": "Peut-être une compétence pour son travail.",
+   "en": "Maybe a skill for her job."
+  },
+  {
+   "fr": "Mais chaque fois qu'elle regarde ce livre,",
+   "en": "But every time she looks at that book,"
+  },
+  {
+   "fr": "elle se dit : « Je n'ai pas le temps. »",
+   "en": "she tells herself: \"I don't have time.\""
+  },
+  {
+   "fr": "Alors elle prend son téléphone.",
+   "en": "So she picks up her phone."
+  },
+  {
+   "fr": "Elle regarde quelques vidéos.",
+   "en": "She watches a few videos."
+  },
+  {
+   "fr": "Une heure passe.",
+   "en": "An hour goes by."
+  },
+  {
+   "fr": "Puis deux.",
+   "en": "Then two."
+  },
+  {
+   "fr": "Et le livre reste fermé.",
+   "en": "And the book stays closed."
+  },
+  {
+   "fr": "Tu connais peut-être cette situation.",
+   "en": "Maybe you know this situation."
+  },
+  {
+   "fr": "Nous trouvons du temps pour beaucoup de choses,",
+   "en": "We find time for lots of things,"
+  },
+  {
+   "fr": "mais nous avons parfois [du mal à] en trouver pour nous-mêmes.",
+   "en": "but we sometimes struggle to find any for ourselves."
+  },
+  {
+   "fr": "Et voici ce qui est intéressant.",
+   "en": "And here's what's interesting."
+  },
+  {
+   "fr": "Nous pensons souvent qu'investir signifie dépenser de l'argent pour",
+   "en": "We often think investing means spending money to"
+  },
+  {
+   "fr": "gagner davantage plus tard.",
+   "en": "earn more later."
+  },
+  {
+   "fr": "Mais investir en soi,",
+   "en": "But investing in yourself"
+  },
+  {
+   "fr": "ce n'est pas seulement une question d'argent.",
+   "en": "isn't only about money."
+  },
+  {
+   "fr": "C'est aussi choisir ce qui peut nous aider à grandir.",
+   "en": "It's also choosing what can help us grow."
+  },
+  {
+   "fr": "Apprendre quelque chose.",
+   "en": "Learning something."
+  },
+  {
+   "fr": "Prendre soin de notre santé.",
+   "en": "Taking care of our health."
+  },
+  {
+   "fr": "Développer notre confiance.",
+   "en": "Building our confidence."
+  },
+  {
+   "fr": "Ou simplement mieux comprendre ce qui est important pour nous.",
+   "en": "Or simply understanding better what matters to us."
+  },
+  {
+   "fr": "Parce qu'à la fin,",
+   "en": "Because in the end,"
+  },
+  {
+   "fr": "les objets que nous achetons peuvent devenir vieux.",
+   "en": "the things we buy can get old."
+  },
+  {
+   "fr": "Notre situation peut changer.",
+   "en": "Our situation can change."
+  },
+  {
+   "fr": "Mais les choses que nous apprenons,",
+   "en": "But the things we learn,"
+  },
+  {
+   "fr": "les expériences que nous vivons et les qualités que",
+   "en": "the experiences we live and the qualities"
+  },
+  {
+   "fr": "nous développons peuvent continuer à nous accompagner.",
+   "en": "we develop can stay with us."
+  },
+  {
+   "fr": "Tu n'as pas besoin d'être riche pour investir en toi.",
+   "en": "You don't need to be rich to invest in yourself."
+  },
+  {
+   "fr": "Tu n'as pas besoin d'avoir une vie parfaite.",
+   "en": "You don't need a perfect life."
+  },
+  {
+   "fr": "Tu peux commencer avec dix minutes,",
+   "en": "You can start with ten minutes,"
+  },
+  {
+   "fr": "un petit effort ou une simple décision.",
+   "en": "a small effort or a simple decision."
+  },
+  {
+   "fr": "Et peut-être que le meilleur investissement n'est pas celui",
+   "en": "And maybe the best investment isn't the one"
+  },
+  {
+   "fr": "qui change immédiatement ce que tu possèdes.",
+   "en": "that instantly changes what you own."
+  },
+  {
+   "fr": "C'est celui qui change doucement ce que tu deviens.",
+   "en": "It's the one that gently changes who you become."
+  },
+  {
+   "fr": "Imagine que chaque matin,",
+   "en": "Imagine that every morning,"
+  },
+  {
+   "fr": "quelqu'un te donne une petite boîte.",
+   "en": "someone gives you a little box."
+  },
+  {
+   "fr": "Dans cette boîte, il y a vingt-quatre pièces.",
+   "en": "In this box, there are twenty-four coins."
+  },
+  {
+   "fr": "Chaque pièce représente une heure de ta journée.",
+   "en": "Each coin stands for one hour of your day."
+  },
+  {
+   "fr": "Tu peux utiliser ces pièces comme tu veux.",
+   "en": "You can use these coins however you like."
+  },
+  {
+   "fr": "Pour travailler.",
+   "en": "To work."
+  },
+  {
+   "fr": "Pour dormir.",
+   "en": "To sleep."
+  },
+  {
+   "fr": "Pour manger.",
+   "en": "To eat."
+  },
+  {
+   "fr": "Pour parler avec quelqu'un que tu aimes.",
+   "en": "To talk with someone you love."
+  },
+  {
+   "fr": "Pour apprendre.",
+   "en": "To learn."
+  },
+  {
+   "fr": "Ou simplement pour ne rien faire.",
+   "en": "Or simply to do nothing."
+  },
+  {
+   "fr": "Mais il existe une règle.",
+   "en": "But there's one rule."
+  },
+  {
+   "fr": "À la fin de la journée,",
+   "en": "At the end of the day,"
+  },
+  {
+   "fr": "toutes les pièces disparaissent.",
+   "en": "all the coins disappear."
+  },
+  {
+   "fr": "Tu ne peux pas les garder pour demain.",
+   "en": "You can't keep them for tomorrow."
+  },
+  {
+   "fr": "Tu ne peux pas les récupérer.",
+   "en": "You can't get them back."
+  },
+  {
+   "fr": "Et le lendemain matin,",
+   "en": "And the next morning,"
+  },
+  {
+   "fr": "tu reçois une nouvelle boîte.",
+   "en": "you get a new box."
+  },
+  {
+   "fr": "C'est un peu comme notre temps,",
+   "en": "It's a bit like our time,"
+  },
+  {
+   "fr": "tu ne trouves pas ?",
+   "en": "don't you think?"
+  },
+  {
+   "fr": "Nous recevons tous vingt-quatre heures par jour.",
+   "en": "We all get twenty-four hours a day."
+  },
+  {
+   "fr": "Bien sûr, nous n'avons pas tous les mêmes responsabilités",
+   "en": "Of course, we don't all have the same responsibilities"
+  },
+  {
+   "fr": "ni la même liberté pour les utiliser.",
+   "en": "or the same freedom to use them."
+  },
+  {
+   "fr": "Certaines personnes doivent travailler très longtemps.",
+   "en": "Some people have to work very long hours."
+  },
+  {
+   "fr": "D'autres prennent soin de leurs enfants,",
+   "en": "Others take care of their children,"
+  },
+  {
+   "fr": "de leurs parents ou de quelqu'un qui a besoin d'aide.",
+   "en": "their parents or someone who needs help."
+  },
+  {
+   "fr": "Et parfois, après toutes ces obligations,",
+   "en": "And sometimes, after all those obligations,"
+  },
+  {
+   "fr": "il reste très peu de temps pour soi.",
+   "en": "there's very little time left for yourself."
+  },
+  {
+   "fr": "Alors je ne vais pas te dire qu'il suffit",
+   "en": "So I won't tell you that all you need"
+  },
+  {
+   "fr": "de mieux organiser ta journée pour résoudre tous tes problèmes.",
+   "en": "is to organise your day better to solve all your problems."
+  },
+  {
+   "fr": "La vie est plus compliquée que cela.",
+   "en": "Life is more complicated than that."
+  },
+  {
+   "fr": "Mais il y a une question intéressante.",
+   "en": "But there's an interesting question."
+  },
+  {
+   "fr": "Que faisons-nous du temps que nous pouvons vraiment choisir ?",
+   "en": "What do we do with the time we can truly choose?"
+  },
+  {
+   "fr": "Imagine une personne qui rentre chez elle après le travail.",
+   "en": "Imagine someone coming home after work."
+  },
+  {
+   "fr": "Elle est fatiguée.",
+   "en": "She's tired."
+  },
+  {
+   "fr": "Elle s'assoit sur son canapé et ouvre son téléphone.",
+   "en": "She sits down on her sofa and opens her phone."
+  },
+  {
+   "fr": "Elle veut simplement [se détendre] cinq minutes.",
+   "en": "She just wants to relax for five minutes."
+  },
+  {
+   "fr": "Mais une vidéo devient dix vidéos.",
+   "en": "But one video becomes ten videos."
+  },
+  {
+   "fr": "Dix vidéos deviennent une heure.",
+   "en": "Ten videos become an hour."
+  },
+  {
+   "fr": "Et quand elle regarde l'horloge,",
+   "en": "And when she looks at the clock,"
+  },
+  {
+   "fr": "elle se sent frustrée.",
+   "en": "she feels frustrated."
+  },
+  {
+   "fr": "Elle voulait lire.",
+   "en": "She wanted to read."
+  },
+  {
+   "fr": "Elle voulait appeler un ami.",
+   "en": "She wanted to call a friend."
+  },
+  {
+   "fr": "Elle voulait pratiquer son français.",
+   "en": "She wanted to practise her French."
+  },
+  {
+   "fr": "Mais maintenant, elle est trop fatiguée.",
+   "en": "But now, she's too tired."
+  },
+  {
+   "fr": "Le problème n'est pas d'avoir regardé des vidéos.",
+   "en": "The problem isn't having watched videos."
+  },
+  {
+   "fr": "Nous avons tous besoin de nous divertir.",
+   "en": "We all need some entertainment."
+  },
+  {
+   "fr": "Le problème, c'est quand une habitude prend notre temps",
+   "en": "The problem is when a habit takes our time"
+  },
+  {
+   "fr": "sans que nous l'ayons vraiment choisi.",
+   "en": "without us really choosing it."
+  },
+  {
+   "fr": "Tu vois la différence ?",
+   "en": "Do you see the difference?"
+  },
+  {
+   "fr": "Se reposer pendant une heure parce que tu en",
+   "en": "Resting for an hour because you"
+  },
+  {
+   "fr": "as besoin, c'est une décision.",
+   "en": "need it is a decision."
+  },
+  {
+   "fr": "Passer une heure à faire quelque chose qui ne",
+   "en": "Spending an hour doing something that"
+  },
+  {
+   "fr": "te plaît même plus,",
+   "en": "you don't even enjoy anymore,"
+  },
+  {
+   "fr": "simplement par habitude, c'est autre chose.",
+   "en": "just out of habit, is something else."
+  },
+  {
+   "fr": "Et cette différence est importante.",
+   "en": "And that difference matters."
+  },
+  {
+   "fr": "Nous faisons souvent attention à notre argent.",
+   "en": "We often pay attention to our money."
+  },
+  {
+   "fr": "Avant d'acheter un objet,",
+   "en": "Before buying something,"
+  },
+  {
+   "fr": "nous nous demandons : « Est-ce que j'en ai vraiment besoin ? »",
+   "en": "we ask ourselves: \"Do I really need it?\""
+  },
+  {
+   "fr": "Mais nous ne posons pas toujours cette question à",
+   "en": "But we don't always ask that question"
+  },
+  {
+   "fr": "propos de notre temps.",
+   "en": "about our time."
+  },
+  {
+   "fr": "« Est-ce que cette activité m'apporte quelque chose ? »",
+   "en": "\"Does this activity give me anything?\""
+  },
+  {
+   "fr": "« Est-ce que je l'ai choisie ? »",
+   "en": "\"Did I choose it?\""
+  },
+  {
+   "fr": "« Est-ce que j'ai envie de continuer ? »",
+   "en": "\"Do I want to keep going?\""
+  },
+  {
+   "fr": "Ces questions ne sont pas là pour te faire culpabiliser.",
+   "en": "These questions aren't here to make you feel guilty."
+  },
+  {
+   "fr": "Au contraire.",
+   "en": "Quite the opposite."
+  },
+  {
+   "fr": "Elles peuvent t'aider à retrouver un peu de liberté.",
+   "en": "They can help you get back a bit of freedom."
+  },
+  {
+   "fr": "Et voici un paradoxe que j'aimerais partager avec toi.",
+   "en": "And here's a paradox I'd like to share with you."
+  },
+  {
+   "fr": "Pour mieux utiliser ton temps,",
+   "en": "To use your time better,"
+  },
+  {
+   "fr": "tu n'as pas toujours besoin d'en faire plus.",
+   "en": "you don't always need to do more."
+  },
+  {
+   "fr": "Parfois, tu as besoin d'en faire moins,",
+   "en": "Sometimes, you need to do less,"
+  },
+  {
+   "fr": "mais de choisir davantage.",
+   "en": "but choose more."
+  },
+  {
+   "fr": "Tu peux décider de [consacrer] quinze minutes à quelque",
+   "en": "You can decide to spend fifteen minutes on"
+  },
+  {
+   "fr": "chose qui compte pour toi.",
+   "en": "something that matters to you."
+  },
+  {
+   "fr": "Lire quelques pages.",
+   "en": "Reading a few pages."
+  },
+  {
+   "fr": "Écrire dans un carnet.",
+   "en": "Writing in a notebook."
+  },
+  {
+   "fr": "Faire une promenade.",
+   "en": "Going for a walk."
+  },
+  {
+   "fr": "Ou écouter du français,",
+   "en": "Or listening to French,"
+  },
+  {
+   "fr": "comme tu le fais maintenant.",
+   "en": "like you're doing now."
+  },
+  {
+   "fr": "Quinze minutes ne semblent pas énormes.",
+   "en": "Fifteen minutes doesn't seem like much."
+  },
+  {
+   "fr": "Mais ce sont quinze minutes que tu as choisies pour toi.",
+   "en": "But it's fifteen minutes you chose for yourself."
+  },
+  {
+   "fr": "Et cela peut changer la manière dont tu regardes ta journée.",
+   "en": "And it can change the way you see your day."
+  },
+  {
+   "fr": "Parce que ton temps n'est pas seulement quelque chose",
+   "en": "Because your time isn't just something"
+  },
+  {
+   "fr": "que tu dépenses.",
+   "en": "that you spend."
+  },
+  {
+   "fr": "C'est aussi une partie de ta vie que tu construis.",
+   "en": "It's also a part of your life that you build."
+  },
+  {
+   "fr": "Alors, ce soir, peut-être que tu peux te poser",
+   "en": "So, tonight, maybe you can ask yourself"
+  },
+  {
+   "fr": "une petite question.",
+   "en": "a little question."
+  },
+  {
+   "fr": "« Aujourd'hui, qu'est-ce qui [méritait] vraiment mon temps ? »",
+   "en": "\"Today, what truly deserved my time?\""
+  },
+  {
+   "fr": "Il n'y a pas de bonne ou de mauvaise réponse.",
+   "en": "There's no right or wrong answer."
+  },
+  {
+   "fr": "Seulement une occasion de mieux comprendre ce qui compte pour toi.",
+   "en": "Just a chance to better understand what matters to you."
+  },
+  {
+   "fr": "Il existe des portes que nous ne pouvons pas voir…",
+   "en": "There are doors we can't see…"
+  },
+  {
+   "fr": "avant d'avoir appris quelque chose de nouveau.",
+   "en": "until we've learned something new."
+  },
+  {
+   "fr": "C'est une idée que je trouve fascinante.",
+   "en": "It's an idea I find fascinating."
+  },
+  {
+   "fr": "Parce que lorsque nous apprenons,",
+   "en": "Because when we learn,"
+  },
+  {
+   "fr": "nous ne savons pas toujours où cet apprentissage va nous conduire.",
+   "en": "we don't always know where that learning will lead us."
+  },
+  {
+   "fr": "Imagine une jeune femme qui travaille dans une petite entreprise.",
+   "en": "Imagine a young woman who works at a small company."
+  },
+  {
+   "fr": "Elle fait son travail sérieusement.",
+   "en": "She does her job seriously."
+  },
+  {
+   "fr": "Elle est gentille avec ses collègues.",
+   "en": "She's kind to her colleagues."
+  },
+  {
+   "fr": "Mais elle aimerait découvrir d'autres possibilités.",
+   "en": "But she'd like to discover other possibilities."
+  },
+  {
+   "fr": "Un jour, elle décide d'apprendre le français.",
+   "en": "One day, she decides to learn French."
+  },
+  {
+   "fr": "Pas pour obtenir immédiatement un nouveau travail.",
+   "en": "Not to get a new job right away."
+  },
+  {
+   "fr": "Pas parce que quelqu'un lui demande de le faire.",
+   "en": "Not because someone asks her to."
+  },
+  {
+   "fr": "Simplement parce qu'elle aime cette langue.",
+   "en": "Simply because she loves the language."
+  },
+  {
+   "fr": "Au début, c'est difficile.",
+   "en": "At first, it's hard."
+  },
+  {
+   "fr": "Elle oublie les mots.",
+   "en": "She forgets words."
+  },
+  {
+   "fr": "Elle [confond] les verbes.",
+   "en": "She mixes up verbs."
+  },
+  {
+   "fr": "Elle écoute une conversation et ne comprend presque rien.",
+   "en": "She listens to a conversation and understands almost nothing."
+  },
+  {
+   "fr": "Parfois, elle pense : « Je suis trop vieille pour apprendre. »",
+   "en": "Sometimes she thinks: \"I'm too old to learn.\""
+  },
+  {
+   "fr": "D'autres fois : « Je n'ai pas assez de talent. »",
+   "en": "Other times: \"I'm not talented enough.\""
+  },
+  {
+   "fr": "Mais elle continue.",
+   "en": "But she keeps going."
+  },
+  {
+   "fr": "Dix minutes certains jours.",
+   "en": "Ten minutes on some days."
+  },
+  {
+   "fr": "Vingt minutes quand elle a plus de temps.",
+   "en": "Twenty minutes when she has more time."
+  },
+  {
+   "fr": "Elle écoute des podcasts,",
+   "en": "She listens to podcasts,"
+  },
+  {
+   "fr": "répète des phrases et note quelques expressions dans un carnet.",
+   "en": "repeats sentences and writes a few expressions in a notebook."
+  },
+  {
+   "fr": "Après plusieurs mois, elle commence à comprendre davantage.",
+   "en": "After several months, she starts to understand more."
+  },
+  {
+   "fr": "Un jour, au travail,",
+   "en": "One day, at work,"
+  },
+  {
+   "fr": "une collègue lui demande :",
+   "en": "a colleague asks her:"
+  },
+  {
+   "fr": "« Tu parles français ? »",
+   "en": "\"Do you speak French?\""
+  },
+  {
+   "fr": "Elle répond [timidement :] « Un petit peu. »",
+   "en": "She answers shyly: \"A little bit.\""
+  },
+  {
+   "fr": "Sa collègue lui explique qu'un client francophone cherche quelqu'un",
+   "en": "Her colleague explains that a French-speaking client is looking for someone"
+  },
+  {
+   "fr": "pour l'aider à communiquer.",
+   "en": "to help them communicate."
+  },
+  {
+   "fr": "Elle hésite.",
+   "en": "She hesitates."
+  },
+  {
+   "fr": "Elle n'est pas parfaitement bilingue.",
+   "en": "She isn't perfectly bilingual."
+  },
+  {
+   "fr": "Mais elle accepte d'essayer avec l'aide de son équipe.",
+   "en": "But she agrees to try, with her team's help."
+  },
+  {
+   "fr": "Et cette petite expérience lui donne envie de continuer à apprendre.",
+   "en": "And this small experience makes her want to keep learning."
+  },
+  {
+   "fr": "Peut-être qu'elle découvrira plus tard de nouvelles possibilités professionnelles.",
+   "en": "Maybe later she'll discover new career opportunities."
+  },
+  {
+   "fr": "Peut-être que non.",
+   "en": "Maybe not."
+  },
+  {
+   "fr": "Mais quelque chose a déjà changé.",
+   "en": "But something has already changed."
+  },
+  {
+   "fr": "Elle a découvert une capacité qu'elle ne connaissait pas.",
+   "en": "She has discovered an ability she didn't know she had."
+  },
+  {
+   "fr": "Et cette découverte lui donne confiance.",
+   "en": "And that discovery gives her confidence."
+  },
+  {
+   "fr": "C'est cela que j'appelle une porte invisible.",
+   "en": "That's what I call an invisible door."
+  },
+  {
+   "fr": "Avant d'apprendre, elle ne savait même pas que cette possibilité existait.",
+   "en": "Before learning, she didn't even know this possibility existed."
+  },
+  {
+   "fr": "Et tu sais, cela n'arrive pas seulement avec les langues étrangères.",
+   "en": "And you know, this doesn't only happen with foreign languages."
+  },
+  {
+   "fr": "Apprendre à cuisiner peut changer ta relation avec la nourriture.",
+   "en": "Learning to cook can change your relationship with food."
+  },
+  {
+   "fr": "Apprendre à mieux communiquer peut transformer une relation.",
+   "en": "Learning to communicate better can transform a relationship."
+  },
+  {
+   "fr": "Apprendre à gérer un budget peut t'apporter davantage de tranquillité.",
+   "en": "Learning to manage a budget can bring you more peace of mind."
+  },
+  {
+   "fr": "Et apprendre à comprendre tes émotions peut changer la",
+   "en": "And learning to understand your emotions can change the"
+  },
+  {
+   "fr": "manière dont tu réagis dans les moments difficiles.",
+   "en": "way you react in difficult moments."
+  },
+  {
+   "fr": "Chaque nouvelle compétence peut agrandir un peu ton monde.",
+   "en": "Every new skill can make your world a little bigger."
+  },
+  {
+   "fr": "Mais il y a quelque chose que j'aimerais préciser.",
+   "en": "But there's something I'd like to point out."
+  },
+  {
+   "fr": "Tu n'as pas besoin de transformer chaque apprentissage en réussite professionnelle.",
+   "en": "You don't have to turn every bit of learning into career success."
+  },
+  {
+   "fr": "Tu as aussi le droit d'apprendre simplement pour le plaisir.",
+   "en": "You also have the right to learn just for fun."
+  },
+  {
+   "fr": "Tu peux apprendre à dessiner parce que cela te détend.",
+   "en": "You can learn to draw because it relaxes you."
+  },
+  {
+   "fr": "Tu peux découvrir la musique parce qu'elle te rend heureux.",
+   "en": "You can discover music because it makes you happy."
+  },
+  {
+   "fr": "Tu peux étudier une langue parce que tu aimes",
+   "en": "You can study a language because you love"
+  },
+  {
+   "fr": "entendre ses sons.",
+   "en": "hearing its sounds."
+  },
+  {
+   "fr": "Tout ne doit pas devenir un moyen de gagner de l'argent.",
+   "en": "Not everything has to become a way to make money."
+  },
+  {
+   "fr": "Parfois, apprendre est déjà une belle [récompense.]",
+   "en": "Sometimes, learning is already a lovely reward."
+  },
+  {
+   "fr": "Et il y a une autre vérité importante.",
+   "en": "And there's another important truth."
+  },
+  {
+   "fr": "Quand nous sommes débutants,",
+   "en": "When we're beginners,"
+  },
+  {
+   "fr": "nous devons accepter de ne pas tout savoir.",
+   "en": "we have to accept not knowing everything."
+  },
+  {
+   "fr": "C'est parfois inconfortable.",
+   "en": "It's sometimes uncomfortable."
+  },
+  {
+   "fr": "Nous aimerions parler parfaitement.",
+   "en": "We'd like to speak perfectly."
+  },
+  {
+   "fr": "Comprendre immédiatement.",
+   "en": "Understand right away."
+  },
+  {
+   "fr": "Réussir dès le premier essai.",
+   "en": "Succeed on the very first try."
+  },
+  {
+   "fr": "Mais apprendre signifie aussi faire des erreurs.",
+   "en": "But learning also means making mistakes."
+  },
+  {
+   "fr": "Et les erreurs ne sont pas nécessairement la preuve",
+   "en": "And mistakes aren't necessarily proof"
+  },
+  {
+   "fr": "que nous sommes mauvais.",
+   "en": "that we're bad at it."
+  },
+  {
+   "fr": "Elles montrent souvent que nous essayons quelque chose de nouveau.",
+   "en": "They often show that we're trying something new."
+  },
+  {
+   "fr": "Pense à ton français.",
+   "en": "Think about your French."
+  },
+  {
+   "fr": "Il y a peut-être quelques mois,",
+   "en": "Maybe a few months ago,"
+  },
+  {
+   "fr": "certaines phrases te semblaient impossibles.",
+   "en": "some sentences seemed impossible to you."
+  },
+  {
+   "fr": "Aujourd'hui, tu les comprends plus facilement.",
+   "en": "Today, you understand them more easily."
+  },
+  {
+   "fr": "Ce progrès est peut-être discret.",
+   "en": "This progress may be quiet."
+  },
+  {
+   "fr": "Mais il est réel.",
+   "en": "But it's real."
+  },
+  {
+   "fr": "Alors, ne mesure pas seulement ce que tu ne",
+   "en": "So don't only measure what you"
+  },
+  {
+   "fr": "sais pas encore.",
+   "en": "don't know yet."
+  },
+  {
+   "fr": "Regarde aussi ce que tu es capable de faire maintenant.",
+   "en": "Look also at what you're able to do now."
+  },
+  {
+   "fr": "Parce que parfois, nous avançons tellement doucement que nous",
+   "en": "Because sometimes we move forward so slowly that we"
+  },
+  {
+   "fr": "oublions de remarquer le [chemin déjà parcouru.]",
+   "en": "forget to notice how far we've already come."
+  },
+  {
+   "fr": "Et une compétence que tu développes aujourd'hui peut devenir,",
+   "en": "And a skill you develop today can become,"
+  },
+  {
+   "fr": "demain, une possibilité que tu n'avais jamais imaginée.",
+   "en": "tomorrow, a possibility you never imagined."
+  },
+  {
+   "fr": "Nous avons parfois une idée étrange de la réussite.",
+   "en": "We sometimes have a strange idea of success."
+  },
+  {
+   "fr": "Nous pensons que pour avancer,",
+   "en": "We think that to move forward,"
+  },
+  {
+   "fr": "il faut toujours être occupé.",
+   "en": "we always have to be busy."
+  },
+  {
+   "fr": "Travailler davantage.",
+   "en": "Working more."
+  },
+  {
+   "fr": "Dormir moins.",
+   "en": "Sleeping less."
+  },
+  {
+   "fr": "Faire plus d'efforts.",
+   "en": "Making more effort."
+  },
+  {
+   "fr": "Remplir chaque minute.",
+   "en": "Filling every minute."
+  },
+  {
+   "fr": "Mais si tu continues à avancer sans jamais te",
+   "en": "But if you keep going without ever"
+  },
+  {
+   "fr": "reposer, que se passe-t-il ?",
+   "en": "resting, what happens?"
+  },
+  {
+   "fr": "À un moment, ton corps et ton esprit commencent",
+   "en": "At some point, your body and your mind start"
+  },
+  {
+   "fr": "à demander une pause.",
+   "en": "asking for a break."
+  },
+  {
+   "fr": "Imagine une personne qui a beaucoup de responsabilités.",
+   "en": "Imagine someone with a lot of responsibilities."
+  },
+  {
+   "fr": "Elle se lève tôt,",
+   "en": "She gets up early,"
+  },
+  {
+   "fr": "travaille toute la journée et s'occupe de sa famille le soir.",
+   "en": "works all day and looks after her family in the evening."
+  },
+  {
+   "fr": "Quand quelqu'un lui demande comment elle va,",
+   "en": "When someone asks how she's doing,"
+  },
+  {
+   "fr": "elle répond : « Ça va,",
+   "en": "she answers: \"I'm fine,"
+  },
+  {
+   "fr": "je suis juste un peu fatiguée. »",
+   "en": "just a little tired.\""
+  },
+  {
+   "fr": "Mais cette fatigue dure depuis plusieurs semaines.",
+   "en": "But this tiredness has lasted for several weeks."
+  },
+  {
+   "fr": "Elle dort mal.",
+   "en": "She sleeps badly."
+  },
+  {
+   "fr": "Elle mange rapidement.",
+   "en": "She eats quickly."
+  },
+  {
+   "fr": "Elle n'a presque jamais un moment tranquille.",
+   "en": "She almost never has a quiet moment."
+  },
+  {
+   "fr": "Pourtant, elle continue à se dire :",
+   "en": "And yet, she keeps telling herself:"
+  },
+  {
+   "fr": "« Je me reposerai quand j'aurai terminé tout ce que",
+   "en": "\"I'll rest when I've finished everything"
+  },
+  {
+   "fr": "je dois faire. »",
+   "en": "I have to do.\""
+  },
+  {
+   "fr": "Le problème, c'est que sa liste ne se termine jamais.",
+   "en": "The problem is, her list never ends."
+  },
+  {
+   "fr": "Il y a toujours quelque chose à faire.",
+   "en": "There's always something to do."
+  },
+  {
+   "fr": "Un message à envoyer.",
+   "en": "A message to send."
+  },
+  {
+   "fr": "Une tâche à finir.",
+   "en": "A task to finish."
+  },
+  {
+   "fr": "Un problème à résoudre.",
+   "en": "A problem to solve."
+  },
+  {
+   "fr": "Alors le repos devient une récompense qu'elle n'arrive jamais à obtenir.",
+   "en": "So rest becomes a reward she never manages to get."
+  },
+  {
+   "fr": "Tu connais peut-être ce sentiment.",
+   "en": "Maybe you know this feeling."
+  },
+  {
+   "fr": "Parfois, nous nous comportons comme si prendre soin de",
+   "en": "Sometimes we act as if taking care of"
+  },
+  {
+   "fr": "nous était une perte de temps.",
+   "en": "ourselves were a waste of time."
+  },
+  {
+   "fr": "Comme si dormir suffisamment était moins important que travailler.",
+   "en": "As if sleeping enough mattered less than working."
+  },
+  {
+   "fr": "Comme si une promenade était inutile parce qu'elle ne produit rien.",
+   "en": "As if a walk were useless because it produces nothing."
+  },
+  {
+   "fr": "Comme si dire non à une demande était une preuve d'égoïsme.",
+   "en": "As if saying no to a request were proof of selfishness."
+  },
+  {
+   "fr": "Mais réfléchissons un instant.",
+   "en": "But let's think for a moment."
+  },
+  {
+   "fr": "Si ton téléphone n'a presque plus de batterie, que fais-tu ?",
+   "en": "If your phone is almost out of battery, what do you do?"
+  },
+  {
+   "fr": "Tu le [branches.]",
+   "en": "You plug it in."
+  },
+  {
+   "fr": "Tu ne lui demandes pas de fonctionner encore plus vite.",
+   "en": "You don't ask it to work even faster."
+  },
+  {
+   "fr": "Tu comprends qu'il a besoin d'énergie.",
+   "en": "You understand that it needs energy."
+  },
+  {
+   "fr": "Alors pourquoi avons-nous parfois du mal à accepter la",
+   "en": "So why do we sometimes struggle to accept the"
+  },
+  {
+   "fr": "même chose pour nous-mêmes ?",
+   "en": "same thing for ourselves?"
+  },
+  {
+   "fr": "Bien sûr, nous ne sommes pas des machines.",
+   "en": "Of course, we're not machines."
+  },
+  {
+   "fr": "Et nos besoins sont beaucoup plus complexes.",
+   "en": "And our needs are much more complex."
+  },
+  {
+   "fr": "Mais cette comparaison nous rappelle une chose simple.",
+   "en": "But this comparison reminds us of something simple."
+  },
+  {
+   "fr": "Nous ne pouvons pas donner constamment de notre énergie",
+   "en": "We can't keep giving our energy"
+  },
+  {
+   "fr": "sans prendre aussi le temps de la retrouver.",
+   "en": "without also taking time to get it back."
+  },
+  {
+   "fr": "Prendre soin de toi n'est pas une pause dans ta vie.",
+   "en": "Taking care of yourself isn't a pause in your life."
+  },
+  {
+   "fr": "C'est une partie de ta vie.",
+   "en": "It's a part of your life."
+  },
+  {
+   "fr": "Tu n'as pas besoin de mériter le repos en",
+   "en": "You don't need to earn rest by"
+  },
+  {
+   "fr": "devenant complètement épuisé.",
+   "en": "becoming completely exhausted."
+  },
+  {
+   "fr": "Tu peux te reposer simplement parce que tu es humain.",
+   "en": "You can rest simply because you're human."
+  },
+  {
+   "fr": "Et investir en toi ne signifie pas seulement développer",
+   "en": "And investing in yourself doesn't only mean developing"
+  },
+  {
+   "fr": "de nouvelles compétences.",
+   "en": "new skills."
+  },
+  {
+   "fr": "Cela signifie aussi protéger ta santé,",
+   "en": "It also means protecting your health,"
+  },
+  {
+   "fr": "ton sommeil et ton équilibre.",
+   "en": "your sleep and your balance."
+  },
+  {
+   "fr": "Parfois, le meilleur choix pour ton avenir est d'aller",
+   "en": "Sometimes, the best choice for your future is to go"
+  },
+  {
+   "fr": "dormir un peu plus tôt.",
+   "en": "to bed a little earlier."
+  },
+  {
+   "fr": "Parfois, c'est de préparer un repas simple et agréable.",
+   "en": "Sometimes, it's making a simple, pleasant meal."
+  },
+  {
+   "fr": "Parfois, c'est de marcher quelques minutes dehors.",
+   "en": "Sometimes, it's walking outside for a few minutes."
+  },
+  {
+   "fr": "Et parfois, c'est de dire :",
+   "en": "And sometimes, it's saying:"
+  },
+  {
+   "fr": "« Aujourd'hui, je ne peux pas faire davantage. »",
+   "en": "\"Today, I can't do any more.\""
+  },
+  {
+   "fr": "Cette phrase peut être difficile à prononcer.",
+   "en": "That sentence can be hard to say."
+  },
+  {
+   "fr": "Surtout si tu as l'habitude de dire oui à",
+   "en": "Especially if you're used to saying yes to"
+  },
+  {
+   "fr": "tout le monde.",
+   "en": "everyone."
+  },
+  {
+   "fr": "Mais avoir des limites ne signifie pas que tu",
+   "en": "But having limits doesn't mean that you're"
+  },
+  {
+   "fr": "es une mauvaise personne.",
+   "en": "a bad person."
+  },
+  {
+   "fr": "Tu peux aimer les autres et prendre soin de toi.",
+   "en": "You can love others and take care of yourself."
+  },
+  {
+   "fr": "Tu peux être généreux et reconnaître que tu as",
+   "en": "You can be generous and admit that you"
+  },
+  {
+   "fr": "besoin de repos.",
+   "en": "need rest."
+  },
+  {
+   "fr": "Tu peux avoir de grandes ambitions sans sacrifier chaque",
+   "en": "You can have big ambitions without sacrificing every"
+  },
+  {
+   "fr": "moment de calme.",
+   "en": "quiet moment."
+  },
+  {
+   "fr": "Et peut-être que c'est l'un des investissements les plus importants.",
+   "en": "And maybe that's one of the most important investments."
+  },
+  {
+   "fr": "Apprendre à construire une vie dans laquelle tu peux avancer…",
+   "en": "Learning to build a life where you can move forward…"
+  },
+  {
+   "fr": "sans te perdre en chemin.",
+   "en": "without losing yourself along the way."
+  },
+  {
+   "fr": "Je voudrais que tu te poses une question.",
+   "en": "I'd like you to ask yourself a question."
+  },
+  {
+   "fr": "« Si je traitais mon corps et mon esprit comme",
+   "en": "\"If I treated my body and my mind like"
+  },
+  {
+   "fr": "quelque chose de précieux,",
+   "en": "something precious,"
+  },
+  {
+   "fr": "qu'est-ce que je ferais différemment aujourd'hui ? »",
+   "en": "what would I do differently today?\""
+  },
+  {
+   "fr": "Peut-être que la réponse sera simple.",
+   "en": "Maybe the answer will be simple."
+  },
+  {
+   "fr": "Boire un verre d'eau.",
+   "en": "Drinking a glass of water."
+  },
+  {
+   "fr": "Fermer ton ordinateur.",
+   "en": "Closing your computer."
+  },
+  {
+   "fr": "Sortir [prendre l'air.]",
+   "en": "Going out for some fresh air."
+  },
+  {
+   "fr": "Ou accepter que, pour aujourd'hui,",
+   "en": "Or accepting that, for today,"
+  },
+  {
+   "fr": "tu en as déjà fait assez.",
+   "en": "you've already done enough."
+  },
+  {
+   "fr": "Imagine que tu puisses rencontrer la personne que tu",
+   "en": "Imagine you could meet the person you'll"
+  },
+  {
+   "fr": "seras dans cinq ans.",
+   "en": "be in five years."
+  },
+  {
+   "fr": "Pas dans un rêve extraordinaire.",
+   "en": "Not in some extraordinary dream."
+  },
+  {
+   "fr": "Juste dans un petit café tranquille.",
+   "en": "Just in a quiet little café."
+  },
+  {
+   "fr": "Tu arrives, tu ouvres la porte et tu vois",
+   "en": "You arrive, open the door and see"
+  },
+  {
+   "fr": "cette personne assise près de la fenêtre.",
+   "en": "that person sitting by the window."
+  },
+  {
+   "fr": "C'est toi.",
+   "en": "It's you."
+  },
+  {
+   "fr": "Un peu plus âgé.",
+   "en": "A little older."
+  },
+  {
+   "fr": "Avec quelques expériences supplémentaires.",
+   "en": "With a few more experiences."
+  },
+  {
+   "fr": "Peut-être quelques nouvelles habitudes.",
+   "en": "Maybe a few new habits."
+  },
+  {
+   "fr": "Peut-être une manière différente de regarder la vie.",
+   "en": "Maybe a different way of looking at life."
+  },
+  {
+   "fr": "Tu t'assois en face de cette personne.",
+   "en": "You sit down across from that person."
+  },
+  {
+   "fr": "Et tu lui poses une question.",
+   "en": "And you ask them a question."
+  },
+  {
+   "fr": "« Est-ce que tu es heureux de ce que nous avons construit ? »",
+   "en": "\"Are you happy with what we've built?\""
+  },
+  {
+   "fr": "Imagine maintenant qu'elle te réponde : « Oui.",
+   "en": "Now imagine they answer: \"Yes."
+  },
+  {
+   "fr": "Pas parce que tout est parfait.",
+   "en": "Not because everything is perfect."
+  },
+  {
+   "fr": "Mais parce que nous avons appris à mieux prendre",
+   "en": "But because we've learned to take better"
+  },
+  {
+   "fr": "soin de nous. »",
+   "en": "care of ourselves.\""
+  },
+  {
+   "fr": "Je trouve cette image intéressante.",
+   "en": "I find that image interesting."
+  },
+  {
+   "fr": "Parce que lorsque nous parlons d'investir en soi,",
+   "en": "Because when we talk about investing in ourselves,"
+  },
+  {
+   "fr": "nous pensons souvent à devenir quelqu'un d'extraordinaire.",
+   "en": "we often think about becoming someone extraordinary."
+  },
+  {
+   "fr": "Plus riche.",
+   "en": "Richer."
+  },
+  {
+   "fr": "Plus intelligent.",
+   "en": "Smarter."
+  },
+  {
+   "fr": "Plus impressionnant.",
+   "en": "More impressive."
+  },
+  {
+   "fr": "Plus admiré.",
+   "en": "More admired."
+  },
+  {
+   "fr": "Mais est-ce vraiment cela, l'objectif ?",
+   "en": "But is that really the goal?"
+  },
+  {
+   "fr": "Est-ce que nous voulons simplement être impressionnants aux yeux des autres ?",
+   "en": "Do we just want to look impressive to other people?"
+  },
+  {
+   "fr": "Ou voulons-nous construire une vie dans laquelle nous nous sentons bien ?",
+   "en": "Or do we want to build a life where we feel good?"
+  },
+  {
+   "fr": "Ce n'est pas toujours la même chose.",
+   "en": "It's not always the same thing."
+  },
+  {
+   "fr": "Imagine deux personnes.",
+   "en": "Imagine two people."
+  },
+  {
+   "fr": "La première travaille [sans arrêt.]",
+   "en": "The first one works non-stop."
+  },
+  {
+   "fr": "Elle veut réussir rapidement.",
+   "en": "She wants to succeed quickly."
+  },
+  {
+   "fr": "Elle compare constamment ses progrès à ceux des autres.",
+   "en": "She constantly compares her progress with other people's."
+  },
+  {
+   "fr": "Chaque fois qu'elle atteint un objectif,",
+   "en": "Every time she reaches a goal,"
+  },
+  {
+   "fr": "elle en choisit immédiatement un nouveau.",
+   "en": "she immediately picks a new one."
+  },
+  {
+   "fr": "Elle ne prend presque jamais le temps d'apprécier ce",
+   "en": "She almost never takes the time to appreciate what"
+  },
+  {
+   "fr": "qu'elle a accompli.",
+   "en": "she has achieved."
+  },
+  {
+   "fr": "La deuxième personne a aussi des rêves.",
+   "en": "The second person has dreams too."
+  },
+  {
+   "fr": "Elle travaille, elle apprend et elle fait des efforts.",
+   "en": "She works, she learns and she makes an effort."
+  },
+  {
+   "fr": "Mais elle prend également le temps de voir ses progrès.",
+   "en": "But she also takes the time to see her progress."
+  },
+  {
+   "fr": "Elle accepte que certaines journées soient moins productives.",
+   "en": "She accepts that some days are less productive."
+  },
+  {
+   "fr": "Elle essaie de construire des relations sincères.",
+   "en": "She tries to build sincere relationships."
+  },
+  {
+   "fr": "Et elle comprend que sa valeur ne dépend pas",
+   "en": "And she understands that her worth doesn't depend"
+  },
+  {
+   "fr": "uniquement de ses résultats.",
+   "en": "only on her results."
+  },
+  {
+   "fr": "Laquelle de ces deux personnes a vraiment investi en elle-même ?",
+   "en": "Which of these two people has truly invested in herself?"
+  },
+  {
+   "fr": "Peut-être les deux, d'une certaine manière.",
+   "en": "Maybe both, in a way."
+  },
+  {
+   "fr": "Mais la deuxième a compris quelque chose d'essentiel.",
+   "en": "But the second one understood something essential."
+  },
+  {
+   "fr": "La personne que nous devenons est aussi importante que",
+   "en": "The person we become is just as important as"
+  },
+  {
+   "fr": "les choses que nous obtenons.",
+   "en": "the things we get."
+  },
+  {
+   "fr": "Parce que tu peux atteindre un grand objectif et",
+   "en": "Because you can reach a big goal and"
+  },
+  {
+   "fr": "te sentir toujours vide.",
+   "en": "still feel empty."
+  },
+  {
+   "fr": "Tu peux gagner davantage d'argent et [manquer] encore de tranquillité.",
+   "en": "You can earn more money and still lack peace of mind."
+  },
+  {
+   "fr": "Tu peux recevoir beaucoup de compliments et continuer à",
+   "en": "You can get lots of compliments and keep"
+  },
+  {
+   "fr": "douter de toi.",
+   "en": "doubting yourself."
+  },
+  {
+   "fr": "Les réussites extérieures peuvent être importantes.",
+   "en": "Outward success can be important."
+  },
+  {
+   "fr": "Mais elles ne remplacent pas la relation que tu",
+   "en": "But it doesn't replace the relationship you"
+  },
+  {
+   "fr": "construis avec toi-même.",
+   "en": "build with yourself."
+  },
+  {
+   "fr": "Alors, quand tu penses à ton avenir,",
+   "en": "So, when you think about your future,"
+  },
+  {
+   "fr": "essaie de ne pas regarder uniquement ce que tu veux posséder.",
+   "en": "try not to look only at what you want to own."
+  },
+  {
+   "fr": "Demande-toi aussi : « Comment est-ce que je veux me sentir ? »",
+   "en": "Also ask yourself: \"How do I want to feel?\""
+  },
+  {
+   "fr": "« Quelles qualités est-ce que je veux développer ? »",
+   "en": "\"What qualities do I want to develop?\""
+  },
+  {
+   "fr": "« Quelle sorte de personne est-ce que je veux être",
+   "en": "\"What kind of person do I want to be"
+  },
+  {
+   "fr": "avec ceux que j'aime ? »",
+   "en": "with the people I love?\""
+  },
+  {
+   "fr": "Peut-être que tu veux devenir plus patient.",
+   "en": "Maybe you want to become more patient."
+  },
+  {
+   "fr": "Plus curieux.",
+   "en": "More curious."
+  },
+  {
+   "fr": "Plus calme face aux difficultés.",
+   "en": "Calmer when things get hard."
+  },
+  {
+   "fr": "Ou simplement apprendre à te faire davantage confiance.",
+   "en": "Or simply learn to trust yourself more."
+  },
+  {
+   "fr": "Et tu sais quoi ?",
+   "en": "And you know what?"
+  },
+  {
+   "fr": "Tu n'as pas besoin d'attendre cinq ans pour commencer.",
+   "en": "You don't need to wait five years to start."
+  },
+  {
+   "fr": "Tu peux faire un petit choix aujourd'hui.",
+   "en": "You can make a small choice today."
+  },
+  {
+   "fr": "Un choix qui ressemble à la personne que tu aimerais devenir.",
+   "en": "A choice that looks like the person you'd like to become."
+  },
+  {
+   "fr": "Si tu veux être plus curieux,",
+   "en": "If you want to be more curious,"
+  },
+  {
+   "fr": "apprends quelque chose.",
+   "en": "learn something."
+  },
+  {
+   "fr": "Si tu veux être plus présent,",
+   "en": "If you want to be more present,"
+  },
+  {
+   "fr": "écoute vraiment quelqu'un.",
+   "en": "really listen to someone."
+  },
+  {
+   "fr": "Si tu veux être plus calme,",
+   "en": "If you want to be calmer,"
+  },
+  {
+   "fr": "prends quelques instants avant de réagir.",
+   "en": "take a moment before reacting."
+  },
+  {
+   "fr": "Et si tu veux être plus courageux,",
+   "en": "And if you want to be braver,"
+  },
+  {
+   "fr": "essaie une chose que tu repousses depuis longtemps,",
+   "en": "try something you've been putting off for a long time,"
+  },
+  {
+   "fr": "à ton rythme et sans prendre de risque inutile.",
+   "en": "at your own pace and without taking needless risks."
+  },
+  {
+   "fr": "Ce sont de petits gestes.",
+   "en": "These are small gestures."
+  },
+  {
+   "fr": "Mais ils racontent quelque chose sur la direction que tu choisis.",
+   "en": "But they say something about the direction you're choosing."
+  },
+  {
+   "fr": "Et voici une pensée que j'aimerais que tu gardes.",
+   "en": "And here's a thought I'd like you to keep."
+  },
+  {
+   "fr": "Tu n'as pas besoin de devenir parfait pour être",
+   "en": "You don't need to become perfect to be"
+  },
+  {
+   "fr": "fier de toi.",
+   "en": "proud of yourself."
+  },
+  {
+   "fr": "Tu peux être fier de la manière dont tu",
+   "en": "You can be proud of the way you"
+  },
+  {
+   "fr": "continues à apprendre.",
+   "en": "keep on learning."
+  },
+  {
+   "fr": "Tu peux être fier d'avoir recommencé après une période difficile.",
+   "en": "You can be proud of starting again after a hard time."
+  },
+  {
+   "fr": "Fier d'avoir demandé de l'aide.",
+   "en": "Proud of having asked for help."
+  },
+  {
+   "fr": "Fier d'avoir essayé quelque chose de nouveau.",
+   "en": "Proud of having tried something new."
+  },
+  {
+   "fr": "Fier d'avoir compris qu'une ancienne habitude ne te faisait",
+   "en": "Proud of realising that an old habit wasn't doing"
+  },
+  {
+   "fr": "plus de bien.",
+   "en": "you any good anymore."
+  },
+  {
+   "fr": "Ton avenir ne se construit pas seulement avec de grandes décisions.",
+   "en": "Your future isn't built only on big decisions."
+  },
+  {
+   "fr": "Il se construit aussi dans ces moments ordinaires où",
+   "en": "It's also built in those ordinary moments when"
+  },
+  {
+   "fr": "tu choisis de te respecter un peu davantage.",
+   "en": "you choose to respect yourself a little more."
+  },
+  {
+   "fr": "Et un jour, peut-être,",
+   "en": "And one day, maybe,"
+  },
+  {
+   "fr": "tu regarderas en arrière avec [tendresse.]",
+   "en": "you'll look back with tenderness."
+  },
+  {
+   "fr": "Tu ne verras pas une personne qui a tout réussi.",
+   "en": "You won't see someone who succeeded at everything."
+  },
+  {
+   "fr": "Tu verras une personne qui a continué à grandir.",
+   "en": "You'll see someone who kept on growing."
+  },
+  {
+   "fr": "Et cela mérite déjà beaucoup de respect.",
+   "en": "And that already deserves a lot of respect."
+  },
+  {
+   "fr": "Avant de nous quitter,",
+   "en": "Before we say goodbye,"
+  },
+  {
+   "fr": "j'aimerais revenir à une idée très simple.",
+   "en": "I'd like to come back to a very simple idea."
+  },
+  {
+   "fr": "Investir en toi-même ne signifie pas que tu dois",
+   "en": "Investing in yourself doesn't mean you have to"
+  },
+  {
+   "fr": "devenir quelqu'un d'autre.",
+   "en": "become someone else."
+  },
+  {
+   "fr": "Tu n'es pas un problème à résoudre.",
+   "en": "You're not a problem to be solved."
+  },
+  {
+   "fr": "Tu es une personne qui continue à découvrir la",
+   "en": "You're a person who keeps discovering"
+  },
+  {
+   "fr": "vie, à apprendre et à évoluer.",
+   "en": "life, learning and growing."
+  },
+  {
+   "fr": "Et cette personne mérite du temps,",
+   "en": "And that person deserves time,"
+  },
+  {
+   "fr": "de l'attention et de la gentillesse.",
+   "en": "attention and kindness."
+  },
+  {
+   "fr": "Peut-être qu'aujourd'hui, tu n'as pas beaucoup d'énergie.",
+   "en": "Maybe today you don't have much energy."
+  },
+  {
+   "fr": "Peut-être que tes projets avancent plus lentement que prévu.",
+   "en": "Maybe your plans are moving more slowly than expected."
+  },
+  {
+   "fr": "Ou peut-être que tu ne sais pas encore exactement",
+   "en": "Or maybe you don't know exactly yet"
+  },
+  {
+   "fr": "ce que tu veux faire.",
+   "en": "what you want to do."
+  },
+  {
+   "fr": "Ce n'est pas grave.",
+   "en": "That's okay."
+  },
+  {
+   "fr": "Tu n'as pas besoin d'avoir toutes les réponses.",
+   "en": "You don't need to have all the answers."
+  },
+  {
+   "fr": "Tu peux commencer par une petite chose qui a",
+   "en": "You can start with one small thing that"
+  },
+  {
+   "fr": "du sens pour toi.",
+   "en": "means something to you."
+  },
+  {
+   "fr": "Quelques minutes de français.",
+   "en": "A few minutes of French."
+  },
+  {
+   "fr": "Une conversation sincère.",
+   "en": "A sincere conversation."
+  },
+  {
+   "fr": "Un moment de repos.",
+   "en": "A moment of rest."
+  },
+  {
+   "fr": "Une nouvelle habitude.",
+   "en": "A new habit."
+  },
+  {
+   "fr": "Ou simplement la décision de te parler avec un",
+   "en": "Or simply deciding to speak to yourself with a"
+  },
+  {
+   "fr": "peu plus de douceur.",
+   "en": "little more gentleness."
+  },
+  {
+   "fr": "Ce sont des gestes simples.",
+   "en": "These are simple gestures."
+  },
+  {
+   "fr": "Mais parfois, ce sont ces gestes qui changent progressivement",
+   "en": "But sometimes, it's these gestures that gradually change"
+  },
+  {
+   "fr": "notre manière de vivre.",
+   "en": "the way we live."
+  },
+  {
+   "fr": "Merci d'avoir partagé ce moment avec moi.",
+   "en": "Thank you for sharing this moment with me."
+  },
+  {
+   "fr": "J'espère que cette conversation t'a apporté quelques nouvelles expressions",
+   "en": "I hope this conversation gave you a few new French"
+  },
+  {
+   "fr": "françaises, un peu de calme et peut-être une idée",
+   "en": "expressions, a little calm and maybe an idea"
+  },
+  {
+   "fr": "à garder avec toi.",
+   "en": "to keep with you."
+  },
+  {
+   "fr": "Avant de partir, j'aimerais te poser une question.",
+   "en": "Before you go, I'd like to ask you a question."
+  },
+  {
+   "fr": "Quelle est la meilleure chose que tu aies faite",
+   "en": "What's the best thing you've ever done"
+  },
+  {
+   "fr": "pour investir en toi-même ?",
+   "en": "to invest in yourself?"
+  },
+  {
+   "fr": "Et quelle petite chose aimerais-tu commencer aujourd'hui ?",
+   "en": "And what small thing would you like to start today?"
+  },
+  {
+   "fr": "Raconte-moi ton expérience dans les commentaires.",
+   "en": "Tell me about your experience in the comments."
+  },
+  {
+   "fr": "Je serais très heureuse de te lire.",
+   "en": "I'd be really happy to read you."
+  },
+  {
+   "fr": "Prends bien soin de toi, mon ami.",
+   "en": "Take good care of yourself, my friend."
+  },
+  {
+   "fr": "On se retrouve très bientôt dans Cozy French Radio.",
+   "en": "See you very soon on Cozy French Radio."
+  },
+  {
+   "fr": "À bientôt.",
+   "en": "See you soon."
+  }
+ ],
+ "vocab": [
+  {
+   "tag": "nom masculin",
+   "word": "un tiroir",
+   "ipa": "/œ̃ ti.ʁwaʁ/",
+   "mean": "a drawer",
+   "ex": "Mes clés sont dans le tiroir de la cuisine.",
+   "exEn": "My keys are in the kitchen drawer."
+  },
+  {
+   "tag": "verbe",
+   "word": "économiser",
+   "ipa": "/e.kɔ.nɔ.mi.ze/",
+   "mean": "to save (money)",
+   "ex": "J'économise un peu chaque mois pour partir en Italie.",
+   "exEn": "I save a little every month to go to Italy."
+  },
+  {
+   "tag": "expression",
+   "word": "avoir du mal à",
+   "ipa": "/a.vwaʁ dy mal a/",
+   "mean": "to struggle to, to have trouble",
+   "ex": "J'ai du mal à me lever quand il fait froid.",
+   "exEn": "I struggle to get up when it's cold."
+  },
+  {
+   "tag": "verbe",
+   "word": "se détendre",
+   "ipa": "/sə de.tɑ̃dʁ/",
+   "mean": "to relax",
+   "ex": "Le dimanche, j'aime me détendre au parc avec un livre.",
+   "exEn": "On Sundays, I like to relax in the park with a book."
+  },
+  {
+   "tag": "verbe",
+   "word": "consacrer (du temps) à",
+   "ipa": "/kɔ̃.sa.kʁe/",
+   "mean": "to devote (time) to",
+   "ex": "Elle consacre une heure par jour à la guitare.",
+   "exEn": "She devotes an hour a day to the guitar."
+  },
+  {
+   "tag": "verbe",
+   "word": "mériter",
+   "ipa": "/me.ʁi.te/",
+   "mean": "to deserve",
+   "ex": "Tu as bien travaillé, tu mérites des vacances.",
+   "exEn": "You worked hard, you deserve a holiday."
+  },
+  {
+   "tag": "verbe",
+   "word": "confondre",
+   "ipa": "/kɔ̃.fɔ̃dʁ/",
+   "mean": "to mix up, to confuse",
+   "ex": "Je confonds toujours les prénoms des jumeaux.",
+   "exEn": "I always mix up the twins' names."
+  },
+  {
+   "tag": "adverbe",
+   "word": "timidement",
+   "ipa": "/ti.mid.mɑ̃/",
+   "mean": "shyly",
+   "ex": "L'enfant a dit bonjour timidement à la maîtresse.",
+   "exEn": "The child shyly said hello to the teacher."
+  },
+  {
+   "tag": "nom féminin",
+   "word": "une récompense",
+   "ipa": "/yn ʁe.kɔ̃.pɑ̃s/",
+   "mean": "a reward",
+   "ex": "Après le ménage, un chocolat chaud, c'est ma récompense.",
+   "exEn": "After the cleaning, a hot chocolate is my reward."
+  },
+  {
+   "tag": "expression",
+   "word": "le chemin parcouru",
+   "ipa": "/lə ʃə.mɛ̃ paʁ.ku.ʁy/",
+   "mean": "how far you've come",
+   "ex": "Regarde le chemin parcouru depuis ton premier cours !",
+   "exEn": "Look how far you've come since your first lesson!"
+  },
+  {
+   "tag": "verbe",
+   "word": "brancher",
+   "ipa": "/bʁɑ̃.ʃe/",
+   "mean": "to plug in",
+   "ex": "N'oublie pas de brancher ton ordinateur avant la réunion.",
+   "exEn": "Don't forget to plug in your laptop before the meeting."
+  },
+  {
+   "tag": "expression",
+   "word": "prendre l'air",
+   "ipa": "/pʁɑ̃.dʁə lɛʁ/",
+   "mean": "to get some fresh air",
+   "ex": "On sort prendre l'air après le déjeuner ?",
+   "exEn": "Shall we go out for some fresh air after lunch?"
+  },
+  {
+   "tag": "expression",
+   "word": "sans arrêt",
+   "ipa": "/sɑ̃.z‿a.ʁɛ/",
+   "mean": "non-stop, constantly",
+   "ex": "Mon téléphone sonne sans arrêt aujourd'hui.",
+   "exEn": "My phone has been ringing non-stop today."
+  },
+  {
+   "tag": "verbe",
+   "word": "manquer de",
+   "ipa": "/mɑ̃.ke də/",
+   "mean": "to lack, to be short of",
+   "ex": "En hiver, on manque souvent de lumière.",
+   "exEn": "In winter, we often lack daylight."
+  },
+  {
+   "tag": "nom féminin",
+   "word": "la tendresse",
+   "ipa": "/la tɑ̃.dʁɛs/",
+   "mean": "tenderness, affection",
+   "ex": "Ma grand-mère me regardait toujours avec tendresse.",
+   "exEn": "My grandmother always looked at me with tenderness."
+  }
+ ]
+}

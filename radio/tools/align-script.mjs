@@ -15,7 +15,7 @@ for (const w of JSON.parse(fs.readFileSync('work/words.whisper.json', 'utf8'))) 
 }
 for (let i = W.length - 2; i >= 0; i--) if (W[i].open) { W[i + 1].t = '«\u00a0' + W[i + 1].t; W[i + 1].s = W[i].s; W.splice(i, 1); }
 const lines = fs.readFileSync('work/script.txt', 'utf8').split('\n')
-  .filter(l => !/^(Section \d|Conclusion —|\[Word count|End of script|Cozy French Radio \|)/.test(l.trim()) && l.trim())
+  .filter(l => !/^#*\s*(Section \d|Conclusion —|\[Word count|End of script|Cozy French Radio \|)/.test(l.trim()) && l.trim())
   .slice(1); // title line
 // script tokens: French spacing kept with a no-break space (« Ça va, merci. », vas-tu ?)
 const S = [];

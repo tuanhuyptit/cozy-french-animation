@@ -1,0 +1,1988 @@
+{
+ "title": "Être positif, chaque jour",
+ "scene": "studio",
+ "lea": "rose",
+ "edition": "ÉDITION DU SOIR · N° 02",
+ "parts": [
+  "Sourire toujours ?",
+  "Tes pensées",
+  "L'ordinaire",
+  "Ton énergie",
+  "Les mauvais jours",
+  "Un peu de lumière"
+ ],
+ "audio": "assets/voice.mp3",
+ "audioEnd": 1238.6,
+ "chunks": [
+  {
+   "fr": "Tu n'as pas besoin d'être heureux chaque jour pour",
+   "en": "You don't need to be happy every day for"
+  },
+  {
+   "fr": "avoir une vie heureuse.",
+   "en": "a happy life."
+  },
+  {
+   "fr": "C'est peut-être une idée étrange,",
+   "en": "Maybe it's a strange idea,"
+  },
+  {
+   "fr": "mais j'aimerais que tu y réfléchisses un instant.",
+   "en": "but I'd like you to think about it for a moment."
+  },
+  {
+   "fr": "Bonjour, mon ami.",
+   "en": "Hello, my friend."
+  },
+  {
+   "fr": "Bienvenue dans Cozy French Radio.",
+   "en": "Welcome to Cozy French Radio."
+  },
+  {
+   "fr": "C'est Lia, et je suis très contente de passer",
+   "en": "It's Lia, and I'm really happy to spend"
+  },
+  {
+   "fr": "ce moment avec toi.",
+   "en": "this moment with you."
+  },
+  {
+   "fr": "Comment te sens-tu aujourd'hui ?",
+   "en": "How do you feel today?"
+  },
+  {
+   "fr": "Est-ce que ta journée a bien commencé ?",
+   "en": "Did your day start well?"
+  },
+  {
+   "fr": "Ou est-ce que tu as déjà beaucoup de choses",
+   "en": "Or do you already have a lot of things"
+  },
+  {
+   "fr": "dans la tête ?",
+   "en": "on your mind?"
+  },
+  {
+   "fr": "Peut-être que tu es fatigué.",
+   "en": "Maybe you're tired."
+  },
+  {
+   "fr": "Peut-être que quelque chose te préoccupe.",
+   "en": "Maybe something is worrying you."
+  },
+  {
+   "fr": "Ou peut-être que tout va bien,",
+   "en": "Or maybe everything is fine,"
+  },
+  {
+   "fr": "mais tu ne sais pas vraiment pourquoi tu te",
+   "en": "but you don't really know why you"
+  },
+  {
+   "fr": "sens un peu triste.",
+   "en": "feel a little sad."
+  },
+  {
+   "fr": "Tu sais, parfois, nous n'avons même pas de raison",
+   "en": "You know, sometimes we don't even have a clear reason"
+  },
+  {
+   "fr": "précise pour être [de mauvaise humeur.]",
+   "en": "to be in a bad mood."
+  },
+  {
+   "fr": "Et ce n'est pas grave.",
+   "en": "And that's okay."
+  },
+  {
+   "fr": "Tout à l'heure, en préparant cet épisode,",
+   "en": "Earlier, while preparing this episode,"
+  },
+  {
+   "fr": "j'ai ouvert ma fenêtre.",
+   "en": "I opened my window."
+  },
+  {
+   "fr": "Le ciel était gris.",
+   "en": "The sky was grey."
+  },
+  {
+   "fr": "Il n'y avait pas beaucoup de lumière,",
+   "en": "There wasn't much light,"
+  },
+  {
+   "fr": "mais j'ai entendu un oiseau chanter quelque part dans la rue.",
+   "en": "but I heard a bird singing somewhere in the street."
+  },
+  {
+   "fr": "J'ai souri.",
+   "en": "I smiled."
+  },
+  {
+   "fr": "Pas parce que cette journée était parfaite.",
+   "en": "Not because this day was perfect."
+  },
+  {
+   "fr": "Simplement parce que, pendant quelques secondes,",
+   "en": "Just because, for a few seconds,"
+  },
+  {
+   "fr": "j'ai remarqué quelque chose d'agréable.",
+   "en": "I noticed something pleasant."
+  },
+  {
+   "fr": "Et cela m'a rappelé une chose importante.",
+   "en": "And it reminded me of something important."
+  },
+  {
+   "fr": "Une journée n'a pas besoin d'être parfaite pour contenir",
+   "en": "A day doesn't need to be perfect to hold"
+  },
+  {
+   "fr": "un beau moment.",
+   "en": "a beautiful moment."
+  },
+  {
+   "fr": "Aujourd'hui, nous allons parler de la pensée positive,",
+   "en": "Today, we're going to talk about positive thinking,"
+  },
+  {
+   "fr": "et surtout de la manière de rester positif dans",
+   "en": "and above all about how to stay positive in"
+  },
+  {
+   "fr": "notre vie quotidienne.",
+   "en": "our everyday life."
+  },
+  {
+   "fr": "Et pendant cette conversation,",
+   "en": "And during this conversation,"
+  },
+  {
+   "fr": "tu pourras aussi pratiquer ton français doucement,",
+   "en": "you can also practise your French gently,"
+  },
+  {
+   "fr": "avec des phrases simples et des situations familières.",
+   "en": "with simple sentences and familiar situations."
+  },
+  {
+   "fr": "Tu n'as pas besoin de comprendre chaque mot.",
+   "en": "You don't need to understand every word."
+  },
+  {
+   "fr": "Écoute tranquillement, comme si nous étions assis ensemble autour d'un café.",
+   "en": "Just listen calmly, as if we were sitting together over a coffee."
+  },
+  {
+   "fr": "Maintenant, imagine cette situation.",
+   "en": "Now, imagine this situation."
+  },
+  {
+   "fr": "Une personne se réveille un lundi matin.",
+   "en": "Someone wakes up on a Monday morning."
+  },
+  {
+   "fr": "Son réveil n'a pas sonné.",
+   "en": "Their alarm didn't go off."
+  },
+  {
+   "fr": "Elle est en retard.",
+   "en": "They're late."
+  },
+  {
+   "fr": "En préparant son café,",
+   "en": "While making coffee,"
+  },
+  {
+   "fr": "elle [renverse] un peu de lait sur la table.",
+   "en": "they spill a little milk on the table."
+  },
+  {
+   "fr": "Puis, en sortant, elle découvre qu'il pleut.",
+   "en": "Then, on the way out, they find out it's raining."
+  },
+  {
+   "fr": "Elle regarde le ciel et pense :",
+   "en": "They look at the sky and think:"
+  },
+  {
+   "fr": "« Quelle journée horrible ! »",
+   "en": "\"What a horrible day!\""
+  },
+  {
+   "fr": "Pourtant, il n'est que huit heures du matin.",
+   "en": "And yet, it's only eight in the morning."
+  },
+  {
+   "fr": "La journée vient à peine de commencer.",
+   "en": "The day has barely started."
+  },
+  {
+   "fr": "Mais dans sa tête,",
+   "en": "But in their head,"
+  },
+  {
+   "fr": "tout est déjà décidé.",
+   "en": "everything is already decided."
+  },
+  {
+   "fr": "Ce sera une mauvaise journée.",
+   "en": "It's going to be a bad day."
+  },
+  {
+   "fr": "Tu as déjà vécu quelque chose comme ça ?",
+   "en": "Have you ever lived something like that?"
+  },
+  {
+   "fr": "Un petit problème arrive,",
+   "en": "One small problem happens,"
+  },
+  {
+   "fr": "puis un autre, et soudain,",
+   "en": "then another, and suddenly,"
+  },
+  {
+   "fr": "nous avons l'impression que tout va mal.",
+   "en": "we feel like everything is going wrong."
+  },
+  {
+   "fr": "C'est très humain.",
+   "en": "It's very human."
+  },
+  {
+   "fr": "Notre esprit remarque facilement ce qui ne fonctionne pas.",
+   "en": "Our mind easily notices what isn't working."
+  },
+  {
+   "fr": "Mais voici ce que nous oublions parfois.",
+   "en": "But here's what we sometimes forget."
+  },
+  {
+   "fr": "Un mauvais moment ne signifie pas une mauvaise journée.",
+   "en": "A bad moment doesn't mean a bad day."
+  },
+  {
+   "fr": "Et une mauvaise journée ne signifie pas une mauvaise vie.",
+   "en": "And a bad day doesn't mean a bad life."
+  },
+  {
+   "fr": "Être positif, ce n'est pas regarder la pluie et",
+   "en": "Being positive isn't looking at the rain and"
+  },
+  {
+   "fr": "prétendre qu'il fait beau.",
+   "en": "pretending the weather is nice."
+  },
+  {
+   "fr": "C'est reconnaître qu'il pleut,",
+   "en": "It's admitting that it's raining,"
+  },
+  {
+   "fr": "prendre un parapluie et continuer sa journée.",
+   "en": "taking an umbrella and getting on with your day."
+  },
+  {
+   "fr": "Tu vois la différence ?",
+   "en": "Do you see the difference?"
+  },
+  {
+   "fr": "La pensée positive n'est pas une obligation de sourire.",
+   "en": "Positive thinking isn't an obligation to smile."
+  },
+  {
+   "fr": "C'est une manière de regarder les difficultés sans oublier les possibilités.",
+   "en": "It's a way of looking at difficulties without forgetting the possibilities."
+  },
+  {
+   "fr": "Tu peux être triste et garder de l'espoir.",
+   "en": "You can be sad and still have hope."
+  },
+  {
+   "fr": "Tu peux être fatigué et apprécier un petit moment de calme.",
+   "en": "You can be tired and enjoy a small moment of calm."
+  },
+  {
+   "fr": "Tu peux avoir des problèmes et reconnaître qu'il existe",
+   "en": "You can have problems and admit that there are"
+  },
+  {
+   "fr": "encore de bonnes choses autour de toi.",
+   "en": "still good things around you."
+  },
+  {
+   "fr": "Alors, si aujourd'hui tu ne te sens pas particulièrement",
+   "en": "So, if today you don't feel particularly"
+  },
+  {
+   "fr": "heureux, ne te juge pas.",
+   "en": "happy, don't judge yourself."
+  },
+  {
+   "fr": "Tu n'as pas [échoué.]",
+   "en": "You haven't failed."
+  },
+  {
+   "fr": "Tu es simplement humain.",
+   "en": "You're simply human."
+  },
+  {
+   "fr": "Et parfois, la première étape pour devenir plus positif,",
+   "en": "And sometimes, the first step to becoming more positive"
+  },
+  {
+   "fr": "c'est d'arrêter de se demander pourquoi nous ne sommes",
+   "en": "is to stop asking ourselves why we aren't"
+  },
+  {
+   "fr": "pas heureux tout le temps.",
+   "en": "happy all the time."
+  },
+  {
+   "fr": "Il y a une petite voix dans notre tête",
+   "en": "There's a little voice in our head"
+  },
+  {
+   "fr": "qui parle presque toute la journée.",
+   "en": "that talks almost all day long."
+  },
+  {
+   "fr": "Parfois, elle nous encourage.",
+   "en": "Sometimes, it encourages us."
+  },
+  {
+   "fr": "Mais parfois, elle raconte des histoires qui nous font souffrir.",
+   "en": "But sometimes, it tells stories that make us suffer."
+  },
+  {
+   "fr": "Et le plus étrange,",
+   "en": "And the strangest thing"
+  },
+  {
+   "fr": "c'est que nous croyons souvent tout ce qu'elle dit.",
+   "en": "is that we often believe everything it says."
+  },
+  {
+   "fr": "Imagine une scène très simple.",
+   "en": "Imagine a very simple scene."
+  },
+  {
+   "fr": "Tu envoies un message à un ami.",
+   "en": "You send a message to a friend."
+  },
+  {
+   "fr": "« Salut !",
+   "en": "\"Hi!"
+  },
+  {
+   "fr": "Comment vas-tu ?",
+   "en": "How are you?"
+  },
+  {
+   "fr": "Tu es libre ce week-end ? »",
+   "en": "Are you free this weekend?\""
+  },
+  {
+   "fr": "Tu attends une réponse.",
+   "en": "You wait for an answer."
+  },
+  {
+   "fr": "Une heure passe.",
+   "en": "An hour goes by."
+  },
+  {
+   "fr": "Puis deux heures.",
+   "en": "Then two hours."
+  },
+  {
+   "fr": "Ton téléphone reste silencieux.",
+   "en": "Your phone stays silent."
+  },
+  {
+   "fr": "Au début, tu ne [t'inquiètes] pas.",
+   "en": "At first, you don't worry."
+  },
+  {
+   "fr": "Mais progressivement, ton esprit commence à inventer des explications.",
+   "en": "But little by little, your mind starts inventing explanations."
+  },
+  {
+   "fr": "« Peut-être qu'il ne veut plus me parler. »",
+   "en": "\"Maybe he doesn't want to talk to me anymore.\""
+  },
+  {
+   "fr": "« Est-ce que j'ai dit quelque chose de mal ? »",
+   "en": "\"Did I say something wrong?\""
+  },
+  {
+   "fr": "« Il est sûrement fâché contre moi. »",
+   "en": "\"He must be angry with me.\""
+  },
+  {
+   "fr": "Et maintenant, tu te sens triste.",
+   "en": "And now, you feel sad."
+  },
+  {
+   "fr": "Peut-être même un peu rejeté.",
+   "en": "Maybe even a little rejected."
+  },
+  {
+   "fr": "Pourtant, que sais-tu vraiment ?",
+   "en": "And yet, what do you really know?"
+  },
+  {
+   "fr": "Tu sais seulement que ton ami n'a pas encore répondu.",
+   "en": "You only know your friend hasn't replied yet."
+  },
+  {
+   "fr": "C'est tout.",
+   "en": "That's all."
+  },
+  {
+   "fr": "Il travaille peut-être.",
+   "en": "Maybe he's working."
+  },
+  {
+   "fr": "Il dort.",
+   "en": "He's sleeping."
+  },
+  {
+   "fr": "Il a oublié son téléphone.",
+   "en": "He forgot his phone."
+  },
+  {
+   "fr": "Ou il traverse lui-même une journée difficile.",
+   "en": "Or he's going through a hard day himself."
+  },
+  {
+   "fr": "Mais ton esprit a choisi une explication négative.",
+   "en": "But your mind chose a negative explanation."
+  },
+  {
+   "fr": "Et ton émotion a suivi cette explication.",
+   "en": "And your emotion followed that explanation."
+  },
+  {
+   "fr": "C'est fascinant, tu ne trouves pas ?",
+   "en": "Fascinating, don't you think?"
+  },
+  {
+   "fr": "Parfois, nous ne souffrons pas seulement à cause de",
+   "en": "Sometimes, we don't suffer only because of"
+  },
+  {
+   "fr": "ce qui arrive.",
+   "en": "what happens."
+  },
+  {
+   "fr": "Nous souffrons aussi à cause de ce que nous",
+   "en": "We also suffer because of what we"
+  },
+  {
+   "fr": "imaginons à propos de ce qui arrive.",
+   "en": "imagine about what happens."
+  },
+  {
+   "fr": "Bien sûr, certaines inquiétudes sont réelles.",
+   "en": "Of course, some worries are real."
+  },
+  {
+   "fr": "Et parfois, notre intuition nous indique qu'un problème mérite notre attention.",
+   "en": "And sometimes, our intuition tells us a problem deserves our attention."
+  },
+  {
+   "fr": "Mais une pensée n'est pas automatiquement un fait.",
+   "en": "But a thought isn't automatically a fact."
+  },
+  {
+   "fr": "Voici une phrase simple que tu peux utiliser :",
+   "en": "Here's a simple sentence you can use:"
+  },
+  {
+   "fr": "« Je pense cela, mais je ne sais pas si c'est vrai. »",
+   "en": "\"I think this, but I don't know if it's true.\""
+  },
+  {
+   "fr": "Elle semble petite, cette phrase.",
+   "en": "It seems small, this sentence."
+  },
+  {
+   "fr": "Mais elle peut créer beaucoup d'espace dans notre esprit.",
+   "en": "But it can create a lot of space in our mind."
+  },
+  {
+   "fr": "Prenons un autre exemple.",
+   "en": "Let's take another example."
+  },
+  {
+   "fr": "Tu fais une erreur au travail.",
+   "en": "You make a mistake at work."
+  },
+  {
+   "fr": "Tu oublies un détail important.",
+   "en": "You forget an important detail."
+  },
+  {
+   "fr": "Et immédiatement, tu penses :",
+   "en": "And right away, you think:"
+  },
+  {
+   "fr": "« Je suis vraiment nul.",
+   "en": "\"I'm really useless."
+  },
+  {
+   "fr": "Je fais toujours des erreurs. »",
+   "en": "I always make mistakes.\""
+  },
+  {
+   "fr": "Toujours ?",
+   "en": "Always?"
+  },
+  {
+   "fr": "Vraiment toujours ?",
+   "en": "Really always?"
+  },
+  {
+   "fr": "Probablement pas.",
+   "en": "Probably not."
+  },
+  {
+   "fr": "Tu as peut-être réussi beaucoup de choses cette semaine.",
+   "en": "Maybe you got a lot of things right this week."
+  },
+  {
+   "fr": "Tu as peut-être aidé un collègue,",
+   "en": "Maybe you helped a colleague,"
+  },
+  {
+   "fr": "terminé un projet ou résolu un problème.",
+   "en": "finished a project or solved a problem."
+  },
+  {
+   "fr": "Mais ton esprit regarde uniquement cette erreur.",
+   "en": "But your mind only looks at this mistake."
+  },
+  {
+   "fr": "Alors, au lieu de dire :",
+   "en": "So, instead of saying:"
+  },
+  {
+   "fr": "« Je suis nul », tu pourrais penser :",
+   "en": "\"I'm useless\", you could think:"
+  },
+  {
+   "fr": "« J'ai fait une erreur.",
+   "en": "\"I made a mistake."
+  },
+  {
+   "fr": "Je peux essayer de la corriger. »",
+   "en": "I can try to fix it.\""
+  },
+  {
+   "fr": "Ce n'est pas une phrase magique.",
+   "en": "It's not a magic sentence."
+  },
+  {
+   "fr": "Elle ne fait pas disparaître le problème.",
+   "en": "It doesn't make the problem disappear."
+  },
+  {
+   "fr": "Mais elle change la manière dont tu te parles.",
+   "en": "But it changes the way you talk to yourself."
+  },
+  {
+   "fr": "Et la manière dont tu te parles est importante.",
+   "en": "And the way you talk to yourself matters."
+  },
+  {
+   "fr": "Imagine que ton meilleur ami fasse une erreur.",
+   "en": "Imagine your best friend makes a mistake."
+  },
+  {
+   "fr": "Est-ce que tu lui dirais :",
+   "en": "Would you tell them:"
+  },
+  {
+   "fr": "« Tu es incapable, tu ne réussiras jamais rien » ?",
+   "en": "\"You're hopeless, you'll never succeed at anything\"?"
+  },
+  {
+   "fr": "Non, probablement pas.",
+   "en": "No, probably not."
+  },
+  {
+   "fr": "Tu essaierais de l'aider.",
+   "en": "You'd try to help them."
+  },
+  {
+   "fr": "Alors pourquoi te parler avec moins de [gentillesse ?]",
+   "en": "So why talk to yourself with less kindness?"
+  },
+  {
+   "fr": "Être positif ne signifie pas remplacer chaque pensée négative",
+   "en": "Being positive doesn't mean replacing every negative thought"
+  },
+  {
+   "fr": "par une phrase merveilleuse.",
+   "en": "with a wonderful sentence."
+  },
+  {
+   "fr": "Il ne s'agit pas de dire :",
+   "en": "It's not about saying:"
+  },
+  {
+   "fr": "« Tout est parfait ! »",
+   "en": "\"Everything is perfect!\""
+  },
+  {
+   "fr": "quand ce n'est pas vrai.",
+   "en": "when it isn't true."
+  },
+  {
+   "fr": "Il s'agit plutôt de chercher une pensée plus juste.",
+   "en": "It's more about looking for a fairer thought."
+  },
+  {
+   "fr": "Une pensée qui reconnaît la difficulté sans te condamner.",
+   "en": "A thought that admits the difficulty without condemning you."
+  },
+  {
+   "fr": "« C'est difficile, mais je peux apprendre. »",
+   "en": "\"It's hard, but I can learn.\""
+  },
+  {
+   "fr": "« Je suis inquiet, mais je n'ai pas encore toutes les informations. »",
+   "en": "\"I'm worried, but I don't have all the information yet.\""
+  },
+  {
+   "fr": "« Aujourd'hui, je n'ai pas réussi,",
+   "en": "\"Today, I didn't succeed,"
+  },
+  {
+   "fr": "mais cela ne définit pas toute ma vie. »",
+   "en": "but that doesn't define my whole life.\""
+  },
+  {
+   "fr": "Tu vois ?",
+   "en": "You see?"
+  },
+  {
+   "fr": "Tu n'es pas obligé de croire toutes les histoires",
+   "en": "You don't have to believe all the stories"
+  },
+  {
+   "fr": "que ton esprit raconte.",
+   "en": "your mind tells."
+  },
+  {
+   "fr": "Parfois, il suffit de lui répondre doucement : « Attends.",
+   "en": "Sometimes, you just need to answer it gently: \"Wait."
+  },
+  {
+   "fr": "Regardons les faits avant de décider. »",
+   "en": "Let's look at the facts before deciding.\""
+  },
+  {
+   "fr": "Et cette petite pause peut changer ton humeur,",
+   "en": "And this little pause can change your mood,"
+  },
+  {
+   "fr": "ta réaction et parfois même toute ta journée.",
+   "en": "your reaction and sometimes even your whole day."
+  },
+  {
+   "fr": "Et si ta vie contenait déjà plus de bonheur",
+   "en": "What if your life already held more happiness"
+  },
+  {
+   "fr": "que tu ne le pensais ?",
+   "en": "than you thought?"
+  },
+  {
+   "fr": "Pas un bonheur spectaculaire.",
+   "en": "Not a spectacular happiness."
+  },
+  {
+   "fr": "Pas quelque chose qui ressemble à une publicité ou",
+   "en": "Not something that looks like an advert or"
+  },
+  {
+   "fr": "à une photo parfaite.",
+   "en": "a perfect photo."
+  },
+  {
+   "fr": "Je parle de ces petits moments qui passent si",
+   "en": "I mean those little moments that go by so"
+  },
+  {
+   "fr": "vite que nous oublions parfois de les remarquer.",
+   "en": "fast that we sometimes forget to notice them."
+  },
+  {
+   "fr": "Imagine une personne qui rentre chez elle après une",
+   "en": "Imagine someone coming home after a"
+  },
+  {
+   "fr": "longue journée de travail.",
+   "en": "long day at work."
+  },
+  {
+   "fr": "Elle est fatiguée.",
+   "en": "She's tired."
+  },
+  {
+   "fr": "Dans le métro, elle regarde les autres passagers.",
+   "en": "On the metro, she looks at the other passengers."
+  },
+  {
+   "fr": "Tout le monde semble occupé.",
+   "en": "Everyone seems busy."
+  },
+  {
+   "fr": "Certains regardent leur téléphone.",
+   "en": "Some are looking at their phones."
+  },
+  {
+   "fr": "D'autres ferment les yeux.",
+   "en": "Others close their eyes."
+  },
+  {
+   "fr": "Elle pense à tout ce qu'elle doit encore faire.",
+   "en": "She thinks about everything she still has to do."
+  },
+  {
+   "fr": "Préparer le dîner.",
+   "en": "Make dinner."
+  },
+  {
+   "fr": "Répondre à quelques messages.",
+   "en": "Answer a few messages."
+  },
+  {
+   "fr": "Ranger son appartement.",
+   "en": "Tidy her flat."
+  },
+  {
+   "fr": "Préparer les affaires du lendemain.",
+   "en": "Get her things ready for the next day."
+  },
+  {
+   "fr": "Dans sa tête, la journée n'est qu'une longue liste de responsabilités.",
+   "en": "In her head, the day is just a long list of responsibilities."
+  },
+  {
+   "fr": "Mais en arrivant chez elle,",
+   "en": "But when she gets home,"
+  },
+  {
+   "fr": "quelque chose se passe.",
+   "en": "something happens."
+  },
+  {
+   "fr": "Elle ouvre la porte.",
+   "en": "She opens the door."
+  },
+  {
+   "fr": "Son chat vient doucement vers elle.",
+   "en": "Her cat comes gently towards her."
+  },
+  {
+   "fr": "Il se frotte contre ses jambes et commence à [ronronner.]",
+   "en": "It rubs against her legs and starts to purr."
+  },
+  {
+   "fr": "Pendant quelques secondes, elle oublie sa fatigue.",
+   "en": "For a few seconds, she forgets how tired she is."
+  },
+  {
+   "fr": "Elle sourit.",
+   "en": "She smiles."
+  },
+  {
+   "fr": "Ce petit moment ne change pas ses responsabilités.",
+   "en": "This little moment doesn't change her responsibilities."
+  },
+  {
+   "fr": "Le dîner doit toujours être préparé.",
+   "en": "Dinner still has to be made."
+  },
+  {
+   "fr": "Les messages attendent encore.",
+   "en": "The messages are still waiting."
+  },
+  {
+   "fr": "Mais quelque chose a changé.",
+   "en": "But something has changed."
+  },
+  {
+   "fr": "Elle vient de ressentir un peu de joie.",
+   "en": "She has just felt a little joy."
+  },
+  {
+   "fr": "Et cette joie était déjà là,",
+   "en": "And that joy was already there,"
+  },
+  {
+   "fr": "dans une scène très ordinaire.",
+   "en": "in a very ordinary scene."
+  },
+  {
+   "fr": "Tu sais, nous avons souvent cette idée que le",
+   "en": "You know, we often have this idea that"
+  },
+  {
+   "fr": "bonheur doit arriver plus tard.",
+   "en": "happiness has to come later."
+  },
+  {
+   "fr": "Quand nous aurons un meilleur travail.",
+   "en": "When we have a better job."
+  },
+  {
+   "fr": "Quand nous gagnerons plus d'argent.",
+   "en": "When we earn more money."
+  },
+  {
+   "fr": "Quand nous aurons terminé nos projets.",
+   "en": "When we've finished our projects."
+  },
+  {
+   "fr": "Quand nous partirons en vacances.",
+   "en": "When we go on holiday."
+  },
+  {
+   "fr": "Quand notre vie sera enfin plus simple.",
+   "en": "When our life is finally simpler."
+  },
+  {
+   "fr": "Mais que se passe-t-il si nous passons toute notre",
+   "en": "But what happens if we spend our whole"
+  },
+  {
+   "fr": "vie à attendre le prochain événement heureux ?",
+   "en": "life waiting for the next happy event?"
+  },
+  {
+   "fr": "Nous risquons de ne jamais vraiment voir ce qui",
+   "en": "We risk never really seeing what's"
+  },
+  {
+   "fr": "se trouve devant nous.",
+   "en": "right in front of us."
+  },
+  {
+   "fr": "Bien sûr, avoir des rêves est une belle chose.",
+   "en": "Of course, having dreams is a beautiful thing."
+  },
+  {
+   "fr": "Vouloir [améliorer] sa situation est normal.",
+   "en": "Wanting to improve your situation is normal."
+  },
+  {
+   "fr": "Mais nous pouvons avancer vers un avenir meilleur tout",
+   "en": "But we can move towards a better future while"
+  },
+  {
+   "fr": "en appréciant certains moments du présent.",
+   "en": "enjoying some moments of the present."
+  },
+  {
+   "fr": "Les deux sont possibles.",
+   "en": "Both are possible."
+  },
+  {
+   "fr": "Tu peux vouloir une autre vie sans détester celle",
+   "en": "You can want another life without hating the one"
+  },
+  {
+   "fr": "que tu as aujourd'hui.",
+   "en": "you have today."
+  },
+  {
+   "fr": "Tu peux avoir de grandes ambitions et aimer les petites choses.",
+   "en": "You can have big ambitions and love the little things."
+  },
+  {
+   "fr": "Peut-être que ton café du matin a exactement le",
+   "en": "Maybe your morning coffee tastes exactly"
+  },
+  {
+   "fr": "goût que tu aimes.",
+   "en": "the way you like it."
+  },
+  {
+   "fr": "Peut-être qu'une chanson te rappelle un beau souvenir.",
+   "en": "Maybe a song reminds you of a lovely memory."
+  },
+  {
+   "fr": "Peut-être que quelqu'un t'a souri dans la rue.",
+   "en": "Maybe someone smiled at you in the street."
+  },
+  {
+   "fr": "Peut-être que tu as réussi à comprendre une phrase",
+   "en": "Maybe you managed to understand a French sentence"
+  },
+  {
+   "fr": "française que tu trouvais difficile la semaine dernière.",
+   "en": "you found difficult last week."
+  },
+  {
+   "fr": "Ce ne sont pas de grands événements.",
+   "en": "These aren't big events."
+  },
+  {
+   "fr": "Mais ce sont de vrais moments.",
+   "en": "But they're real moments."
+  },
+  {
+   "fr": "Et les remarquer ne signifie pas ignorer tes problèmes.",
+   "en": "And noticing them doesn't mean ignoring your problems."
+  },
+  {
+   "fr": "Cela signifie simplement donner aussi une place à ce",
+   "en": "It simply means also making room for"
+  },
+  {
+   "fr": "qui va bien.",
+   "en": "what's going well."
+  },
+  {
+   "fr": "J'aime beaucoup cette idée :",
+   "en": "I really like this idea:"
+  },
+  {
+   "fr": "une journée peut contenir plusieurs émotions en même temps.",
+   "en": "a day can hold several emotions at the same time."
+  },
+  {
+   "fr": "Tu peux être fatigué et reconnaissant.",
+   "en": "You can be tired and grateful."
+  },
+  {
+   "fr": "Tu peux être inquiet et rire avec quelqu'un.",
+   "en": "You can be worried and laugh with someone."
+  },
+  {
+   "fr": "Tu peux avoir une journée difficile et apprécier un bon repas.",
+   "en": "You can have a hard day and enjoy a good meal."
+  },
+  {
+   "fr": "Nous n'avons pas besoin de choisir une seule émotion",
+   "en": "We don't need to choose just one emotion"
+  },
+  {
+   "fr": "pour toute la journée.",
+   "en": "for the whole day."
+  },
+  {
+   "fr": "Alors, voici une petite question.",
+   "en": "So, here's a little question."
+  },
+  {
+   "fr": "Quand as-tu remarqué quelque chose d'agréable pour la dernière fois ?",
+   "en": "When did you last notice something pleasant?"
+  },
+  {
+   "fr": "Pas forcément quelque chose d'extraordinaire.",
+   "en": "Not necessarily something extraordinary."
+  },
+  {
+   "fr": "Juste un moment qui t'a fait du bien.",
+   "en": "Just a moment that did you good."
+  },
+  {
+   "fr": "Peut-être ce matin.",
+   "en": "Maybe this morning."
+  },
+  {
+   "fr": "Peut-être hier.",
+   "en": "Maybe yesterday."
+  },
+  {
+   "fr": "Ou peut-être maintenant, pendant que tu écoutes cette conversation.",
+   "en": "Or maybe now, while you're listening to this conversation."
+  },
+  {
+   "fr": "Tu es peut-être dans une pièce calme.",
+   "en": "Maybe you're in a quiet room."
+  },
+  {
+   "fr": "Tu as peut-être quelques minutes pour toi.",
+   "en": "Maybe you have a few minutes to yourself."
+  },
+  {
+   "fr": "Et pendant ces minutes,",
+   "en": "And during these minutes,"
+  },
+  {
+   "fr": "personne ne te demande de réussir quelque chose.",
+   "en": "nobody is asking you to achieve anything."
+  },
+  {
+   "fr": "Tu peux simplement être là.",
+   "en": "You can simply be here."
+  },
+  {
+   "fr": "Parfois, être positif commence avec cette capacité.",
+   "en": "Sometimes, being positive starts with this ability."
+  },
+  {
+   "fr": "Remarquer ce qui est déjà présent.",
+   "en": "Noticing what's already here."
+  },
+  {
+   "fr": "Pas pour oublier ce qui manque.",
+   "en": "Not to forget what's missing."
+  },
+  {
+   "fr": "Mais pour ne pas laisser ce qui manque cacher",
+   "en": "But so that what's missing doesn't hide"
+  },
+  {
+   "fr": "tout le reste.",
+   "en": "everything else."
+  },
+  {
+   "fr": "Tu peux avoir une journée libre…",
+   "en": "You can have a free day…"
+  },
+  {
+   "fr": "et te sentir complètement [épuisé.]",
+   "en": "and feel completely exhausted."
+  },
+  {
+   "fr": "Cela peut sembler étrange.",
+   "en": "That may seem strange."
+  },
+  {
+   "fr": "Tu n'as pas beaucoup travaillé.",
+   "en": "You didn't work much."
+  },
+  {
+   "fr": "Tu n'as pas fait de sport.",
+   "en": "You didn't do any sport."
+  },
+  {
+   "fr": "Tu n'as même pas quitté ton appartement.",
+   "en": "You didn't even leave your flat."
+  },
+  {
+   "fr": "Et pourtant, le soir,",
+   "en": "And yet, in the evening,"
+  },
+  {
+   "fr": "tu te sens vidé.",
+   "en": "you feel drained."
+  },
+  {
+   "fr": "Pourquoi ?",
+   "en": "Why?"
+  },
+  {
+   "fr": "Parce que toutes les fatigues ne viennent pas de",
+   "en": "Because not all tiredness comes from"
+  },
+  {
+   "fr": "nos activités physiques.",
+   "en": "physical activity."
+  },
+  {
+   "fr": "Certaines viennent de ce que nous regardons,",
+   "en": "Some comes from what we watch,"
+  },
+  {
+   "fr": "de ce que nous écoutons et de ce à",
+   "en": "what we listen to and what"
+  },
+  {
+   "fr": "quoi nous pensons pendant des heures.",
+   "en": "we think about for hours."
+  },
+  {
+   "fr": "Imagine un dimanche matin.",
+   "en": "Imagine a Sunday morning."
+  },
+  {
+   "fr": "Une personne se réveille tranquillement.",
+   "en": "Someone wakes up slowly."
+  },
+  {
+   "fr": "Elle n'a rien d'urgent à faire.",
+   "en": "She has nothing urgent to do."
+  },
+  {
+   "fr": "Elle prend son téléphone pour regarder quelques photos.",
+   "en": "She picks up her phone to look at a few photos."
+  },
+  {
+   "fr": "Au début, c'est agréable.",
+   "en": "At first, it's nice."
+  },
+  {
+   "fr": "Elle voit des amis,",
+   "en": "She sees friends,"
+  },
+  {
+   "fr": "des voyages, de jolies maisons.",
+   "en": "trips, pretty houses."
+  },
+  {
+   "fr": "Puis elle commence à comparer.",
+   "en": "Then she starts comparing."
+  },
+  {
+   "fr": "Une amie vient d'acheter un appartement.",
+   "en": "A friend has just bought a flat."
+  },
+  {
+   "fr": "Un ancien collègue a [obtenu une promotion.]",
+   "en": "A former colleague got a promotion."
+  },
+  {
+   "fr": "Quelqu'un partage des photos de vacances dans un endroit magnifique.",
+   "en": "Someone shares holiday photos from a stunning place."
+  },
+  {
+   "fr": "Et doucement, une pensée apparaît.",
+   "en": "And slowly, a thought appears."
+  },
+  {
+   "fr": "« Tout le monde avance, sauf moi. »",
+   "en": "\"Everyone is moving forward, except me.\""
+  },
+  {
+   "fr": "Quelques minutes plus tôt,",
+   "en": "A few minutes earlier,"
+  },
+  {
+   "fr": "cette personne se sentait plutôt bien.",
+   "en": "she was feeling pretty good."
+  },
+  {
+   "fr": "Maintenant, elle a l'impression que sa vie n'est pas assez intéressante.",
+   "en": "Now, she feels her life isn't interesting enough."
+  },
+  {
+   "fr": "Mais sa vie a-t-elle vraiment changé pendant ces vingt minutes ?",
+   "en": "But has her life really changed in those twenty minutes?"
+  },
+  {
+   "fr": "Non.",
+   "en": "No."
+  },
+  {
+   "fr": "Ce qui a changé,",
+   "en": "What has changed"
+  },
+  {
+   "fr": "c'est le regard qu'elle porte sur elle-même.",
+   "en": "is the way she looks at herself."
+  },
+  {
+   "fr": "Tu reconnais peut-être ce sentiment.",
+   "en": "Maybe you recognise this feeling."
+  },
+  {
+   "fr": "Nous comparons parfois notre journée ordinaire aux moments les",
+   "en": "We sometimes compare our ordinary day to the"
+  },
+  {
+   "fr": "plus beaux de la vie des autres.",
+   "en": "most beautiful moments of other people's lives."
+  },
+  {
+   "fr": "Nous voyons leur réussite,",
+   "en": "We see their success,"
+  },
+  {
+   "fr": "mais rarement leurs doutes.",
+   "en": "but rarely their doubts."
+  },
+  {
+   "fr": "Nous voyons leur sourire,",
+   "en": "We see their smile,"
+  },
+  {
+   "fr": "mais pas toujours leurs difficultés.",
+   "en": "but not always their struggles."
+  },
+  {
+   "fr": "Et nous oublions quelque chose de très simple.",
+   "en": "And we forget something very simple."
+  },
+  {
+   "fr": "Nous ne connaissons jamais toute l'histoire.",
+   "en": "We never know the whole story."
+  },
+  {
+   "fr": "Cela ne veut pas dire que les réseaux sociaux sont mauvais.",
+   "en": "That doesn't mean social media is bad."
+  },
+  {
+   "fr": "Ils peuvent nous apprendre beaucoup de choses,",
+   "en": "It can teach us a lot of things,"
+  },
+  {
+   "fr": "nous inspirer et nous rapprocher des autres.",
+   "en": "inspire us and bring us closer to others."
+  },
+  {
+   "fr": "Mais il est utile de remarquer comment nous nous",
+   "en": "But it's useful to notice how we"
+  },
+  {
+   "fr": "sentons après les avoir utilisés.",
+   "en": "feel after using it."
+  },
+  {
+   "fr": "Est-ce que cette activité me donne de l'énergie ?",
+   "en": "Does this activity give me energy?"
+  },
+  {
+   "fr": "Ou est-ce qu'elle me laisse avec une impression de manque ?",
+   "en": "Or does it leave me with a feeling of lack?"
+  },
+  {
+   "fr": "Cette question peut aussi s'appliquer à certaines conversations.",
+   "en": "This question can also apply to some conversations."
+  },
+  {
+   "fr": "Tu connais peut-être une personne qui critique constamment tout.",
+   "en": "Maybe you know someone who constantly criticises everything."
+  },
+  {
+   "fr": "Le temps est mauvais.",
+   "en": "The weather is bad."
+  },
+  {
+   "fr": "Le travail est horrible.",
+   "en": "Work is horrible."
+  },
+  {
+   "fr": "Les gens sont [insupportables.]",
+   "en": "People are unbearable."
+  },
+  {
+   "fr": "Rien ne va jamais.",
+   "en": "Nothing ever goes right."
+  },
+  {
+   "fr": "Bien sûr, chacun a le droit de parler de ses problèmes.",
+   "en": "Of course, everyone has the right to talk about their problems."
+  },
+  {
+   "fr": "Et écouter quelqu'un qui souffre est une belle preuve d'amitié.",
+   "en": "And listening to someone who's hurting is a beautiful proof of friendship."
+  },
+  {
+   "fr": "Mais il existe une différence entre soutenir une personne",
+   "en": "But there's a difference between supporting someone"
+  },
+  {
+   "fr": "et porter toutes ses émotions à sa place.",
+   "en": "and carrying all their emotions for them."
+  },
+  {
+   "fr": "Tu peux écouter avec gentillesse sans être obligé de",
+   "en": "You can listen kindly without having to"
+  },
+  {
+   "fr": "résoudre chaque difficulté.",
+   "en": "solve every difficulty."
+  },
+  {
+   "fr": "Tu peux comprendre quelqu'un sans partager automatiquement toutes ses pensées négatives.",
+   "en": "You can understand someone without automatically sharing all their negative thoughts."
+  },
+  {
+   "fr": "Et tu peux parfois dire :",
+   "en": "And sometimes you can say:"
+  },
+  {
+   "fr": "« Je suis un peu fatigué aujourd'hui.",
+   "en": "\"I'm a bit tired today."
+  },
+  {
+   "fr": "Est-ce qu'on peut en parler demain ? »",
+   "en": "Can we talk about it tomorrow?\""
+  },
+  {
+   "fr": "Ce n'est pas être [égoïste.]",
+   "en": "That's not being selfish."
+  },
+  {
+   "fr": "C'est reconnaître tes propres limites.",
+   "en": "It's recognising your own limits."
+  },
+  {
+   "fr": "Être positif ne demande pas de rester entouré uniquement",
+   "en": "Being positive doesn't require surrounding yourself only"
+  },
+  {
+   "fr": "de personnes heureuses.",
+   "en": "with happy people."
+  },
+  {
+   "fr": "Cela demande plutôt de faire attention à ce qui",
+   "en": "It's more about paying attention to what"
+  },
+  {
+   "fr": "nourrit ton esprit.",
+   "en": "feeds your mind."
+  },
+  {
+   "fr": "Comme ton corps a besoin de repos et de",
+   "en": "Just as your body needs rest and"
+  },
+  {
+   "fr": "nourriture, ton esprit a besoin de moments où il",
+   "en": "food, your mind needs moments when it"
+  },
+  {
+   "fr": "n'est pas constamment sollicité.",
+   "en": "isn't constantly being asked for something."
+  },
+  {
+   "fr": "Peut-être qu'une promenade sans téléphone te ferait du bien.",
+   "en": "Maybe a walk without your phone would do you good."
+  },
+  {
+   "fr": "Peut-être qu'une conversation simple avec un ami pourrait te détendre.",
+   "en": "Maybe a simple chat with a friend could help you relax."
+  },
+  {
+   "fr": "Ou peut-être que tu as simplement besoin de quelques",
+   "en": "Or maybe you just need a few"
+  },
+  {
+   "fr": "minutes de silence.",
+   "en": "minutes of silence."
+  },
+  {
+   "fr": "Nous parlons beaucoup de bien organiser notre temps.",
+   "en": "We talk a lot about organising our time well."
+  },
+  {
+   "fr": "Mais nous oublions parfois de protéger notre attention.",
+   "en": "But we sometimes forget to protect our attention."
+  },
+  {
+   "fr": "Pourtant, notre attention est précieuse.",
+   "en": "And yet, our attention is precious."
+  },
+  {
+   "fr": "Car ce que nous regardons chaque jour influence doucement",
+   "en": "Because what we look at every day gently shapes"
+  },
+  {
+   "fr": "la manière dont nous voyons notre vie.",
+   "en": "the way we see our life."
+  },
+  {
+   "fr": "Et parfois, retrouver un peu de positivité ne demande",
+   "en": "And sometimes, finding a bit of positivity again doesn't"
+  },
+  {
+   "fr": "pas d'ajouter quelque chose.",
+   "en": "require adding something."
+  },
+  {
+   "fr": "Cela demande simplement de faire un peu de place.",
+   "en": "It simply requires making a little room."
+  },
+  {
+   "fr": "Il y aura des jours où tu feras tout correctement…",
+   "en": "There will be days when you do everything right…"
+  },
+  {
+   "fr": "et où les choses ne se passeront pas comme prévu.",
+   "en": "and things still don't go as planned."
+  },
+  {
+   "fr": "Tu te lèveras à l'heure.",
+   "en": "You'll get up on time."
+  },
+  {
+   "fr": "Tu prépareras ta journée.",
+   "en": "You'll plan your day."
+  },
+  {
+   "fr": "Tu essaieras de rester calme.",
+   "en": "You'll try to stay calm."
+  },
+  {
+   "fr": "Et malgré tout, un problème arrivera.",
+   "en": "And despite everything, a problem will come up."
+  },
+  {
+   "fr": "Peut-être un rendez-vous annulé.",
+   "en": "Maybe a cancelled appointment."
+  },
+  {
+   "fr": "Une mauvaise nouvelle.",
+   "en": "Some bad news."
+  },
+  {
+   "fr": "Une remarque désagréable.",
+   "en": "An unpleasant remark."
+  },
+  {
+   "fr": "Ou simplement cette fatigue qui rend les petites difficultés",
+   "en": "Or just that tiredness that makes small difficulties"
+  },
+  {
+   "fr": "beaucoup plus grandes.",
+   "en": "feel much bigger."
+  },
+  {
+   "fr": "Et dans ces moments-là,",
+   "en": "And in those moments,"
+  },
+  {
+   "fr": "tu pourrais penser : « Mais pourquoi est-ce que ça m'arrive encore ? »",
+   "en": "you might think: \"But why is this happening to me again?\""
+  },
+  {
+   "fr": "Je comprends cette réaction.",
+   "en": "I understand that reaction."
+  },
+  {
+   "fr": "Nous aimerions tous avoir un peu plus de contrôle",
+   "en": "We'd all like to have a little more control"
+  },
+  {
+   "fr": "sur notre vie.",
+   "en": "over our lives."
+  },
+  {
+   "fr": "Nous aimerions savoir que si nous faisons les bons",
+   "en": "We'd like to know that if we make the right"
+  },
+  {
+   "fr": "choix, tout ira bien.",
+   "en": "choices, everything will be fine."
+  },
+  {
+   "fr": "Mais la vie ne fonctionne pas toujours ainsi.",
+   "en": "But life doesn't always work that way."
+  },
+  {
+   "fr": "Imagine quelqu'un qui prépare un petit voyage depuis plusieurs semaines.",
+   "en": "Imagine someone who has been planning a short trip for weeks."
+  },
+  {
+   "fr": "Cette personne a choisi un bel endroit,",
+   "en": "She chose a lovely place,"
+  },
+  {
+   "fr": "réservé une chambre et imaginé de longues promenades au soleil.",
+   "en": "booked a room and pictured long walks in the sun."
+  },
+  {
+   "fr": "Mais le premier jour,",
+   "en": "But on the first day,"
+  },
+  {
+   "fr": "il pleut énormément.",
+   "en": "it pours with rain."
+  },
+  {
+   "fr": "Le ciel est sombre.",
+   "en": "The sky is dark."
+  },
+  {
+   "fr": "Les rues sont presque vides.",
+   "en": "The streets are almost empty."
+  },
+  {
+   "fr": "Et la personne pense :",
+   "en": "And she thinks:"
+  },
+  {
+   "fr": "« Mes vacances sont [gâchées. »]",
+   "en": "\"My holiday is ruined.\""
+  },
+  {
+   "fr": "Elle reste dans sa chambre, déçue.",
+   "en": "She stays in her room, disappointed."
+  },
+  {
+   "fr": "Puis, après un moment,",
+   "en": "Then, after a while,"
+  },
+  {
+   "fr": "elle décide de sortir malgré la pluie.",
+   "en": "she decides to go out despite the rain."
+  },
+  {
+   "fr": "Elle trouve un petit café tranquille.",
+   "en": "She finds a quiet little café."
+  },
+  {
+   "fr": "Elle commande une boisson chaude.",
+   "en": "She orders a hot drink."
+  },
+  {
+   "fr": "Elle s'assoit près d'une fenêtre et regarde les gouttes",
+   "en": "She sits by a window and watches the drops"
+  },
+  {
+   "fr": "d'eau tomber sur les pavés.",
+   "en": "of water fall on the cobblestones."
+  },
+  {
+   "fr": "Ce n'est pas la journée qu'elle avait imaginée.",
+   "en": "It's not the day she had imagined."
+  },
+  {
+   "fr": "Mais elle découvre une forme de calme qu'elle n'attendait pas.",
+   "en": "But she discovers a kind of calm she didn't expect."
+  },
+  {
+   "fr": "Les vacances ne sont pas devenues parfaites.",
+   "en": "The holiday hasn't become perfect."
+  },
+  {
+   "fr": "La pluie est toujours là.",
+   "en": "The rain is still there."
+  },
+  {
+   "fr": "Mais la journée a retrouvé une autre possibilité.",
+   "en": "But the day has found another possibility."
+  },
+  {
+   "fr": "Et parfois, c'est cela, être positif.",
+   "en": "And sometimes, that's what being positive is."
+  },
+  {
+   "fr": "Ce n'est pas réussir à transformer toutes les difficultés en bonheur.",
+   "en": "It's not managing to turn every difficulty into happiness."
+  },
+  {
+   "fr": "Ce n'est pas non plus chercher une leçon dans",
+   "en": "Nor is it looking for a lesson in"
+  },
+  {
+   "fr": "chaque moment douloureux.",
+   "en": "every painful moment."
+  },
+  {
+   "fr": "Certaines choses sont simplement difficiles.",
+   "en": "Some things are simply hard."
+  },
+  {
+   "fr": "Certaines déceptions demandent du temps.",
+   "en": "Some disappointments take time."
+  },
+  {
+   "fr": "Et certaines journées ne contiennent pas de solution immédiate.",
+   "en": "And some days have no immediate solution."
+  },
+  {
+   "fr": "Mais même dans ces moments,",
+   "en": "But even in those moments,"
+  },
+  {
+   "fr": "nous pouvons essayer de ne pas ajouter une douleur",
+   "en": "we can try not to add extra"
+  },
+  {
+   "fr": "supplémentaire en nous critiquant.",
+   "en": "pain by criticising ourselves."
+  },
+  {
+   "fr": "Tu n'as pas besoin de te dire :",
+   "en": "You don't need to tell yourself:"
+  },
+  {
+   "fr": "« Je devrais être plus heureux. »",
+   "en": "\"I should be happier.\""
+  },
+  {
+   "fr": "Tu peux simplement reconnaître :",
+   "en": "You can simply admit:"
+  },
+  {
+   "fr": "« Aujourd'hui, c'est difficile. »",
+   "en": "\"Today is hard.\""
+  },
+  {
+   "fr": "Et parfois, ajouter : « Je vais prendre soin de moi",
+   "en": "And sometimes add: \"I'm going to take care of myself"
+  },
+  {
+   "fr": "du mieux que je peux. »",
+   "en": "as best I can.\""
+  },
+  {
+   "fr": "Tu vois, il existe une différence entre une personne",
+   "en": "You see, there's a difference between a positive"
+  },
+  {
+   "fr": "positive et une personne qui refuse de voir les problèmes.",
+   "en": "person and a person who refuses to see problems."
+  },
+  {
+   "fr": "Une personne positive peut reconnaître la réalité.",
+   "en": "A positive person can accept reality."
+  },
+  {
+   "fr": "Elle peut pleurer.",
+   "en": "She can cry."
+  },
+  {
+   "fr": "Elle peut demander de l'aide.",
+   "en": "She can ask for help."
+  },
+  {
+   "fr": "Elle peut admettre qu'elle ne sait pas quoi faire.",
+   "en": "She can admit she doesn't know what to do."
+  },
+  {
+   "fr": "Mais elle essaie de ne pas transformer un moment",
+   "en": "But she tries not to turn a difficult"
+  },
+  {
+   "fr": "difficile en une conclusion définitive sur toute sa vie.",
+   "en": "moment into a final verdict on her whole life."
+  },
+  {
+   "fr": "Une déception [n'efface] pas toutes tes réussites.",
+   "en": "One disappointment doesn't erase all your successes."
+  },
+  {
+   "fr": "Une erreur n'efface pas toutes tes qualités.",
+   "en": "One mistake doesn't erase all your qualities."
+  },
+  {
+   "fr": "Une mauvaise semaine n'efface pas toutes les bonnes choses",
+   "en": "One bad week doesn't erase all the good things"
+  },
+  {
+   "fr": "que tu as construites.",
+   "en": "you've built."
+  },
+  {
+   "fr": "Et surtout, ton humeur du moment ne définit pas ton avenir.",
+   "en": "And above all, your mood right now doesn't define your future."
+  },
+  {
+   "fr": "J'aimerais que tu imagines quelque chose.",
+   "en": "I'd like you to imagine something."
+  },
+  {
+   "fr": "Tu regardes une photo de toi prise il y",
+   "en": "You're looking at a photo of yourself taken"
+  },
+  {
+   "fr": "a cinq ans.",
+   "en": "five years ago."
+  },
+  {
+   "fr": "Cette personne avait peut-être des inquiétudes que tu ne",
+   "en": "That person may have had worries you"
+  },
+  {
+   "fr": "connais plus aujourd'hui.",
+   "en": "no longer know today."
+  },
+  {
+   "fr": "Elle avait des questions qui ont maintenant trouvé des réponses.",
+   "en": "They had questions that have since found answers."
+  },
+  {
+   "fr": "Elle [traversait] peut-être une période compliquée.",
+   "en": "Maybe they were going through a hard time."
+  },
+  {
+   "fr": "Et pourtant, la vie a continué.",
+   "en": "And yet, life went on."
+  },
+  {
+   "fr": "Tu as appris.",
+   "en": "You learned."
+  },
+  {
+   "fr": "Tu as changé.",
+   "en": "You changed."
+  },
+  {
+   "fr": "Tu as vécu des moments que cette ancienne version",
+   "en": "You've lived moments that this older version"
+  },
+  {
+   "fr": "de toi ne pouvait même pas imaginer.",
+   "en": "of you couldn't even imagine."
+  },
+  {
+   "fr": "Alors pourquoi penser que les difficultés d'aujourd'hui dureront nécessairement toujours ?",
+   "en": "So why think today's difficulties will necessarily last forever?"
+  },
+  {
+   "fr": "Tu ne connais pas encore toute la suite de ton histoire.",
+   "en": "You don't yet know the rest of your story."
+  },
+  {
+   "fr": "Et c'est peut-être une raison suffisante pour garder une",
+   "en": "And maybe that's reason enough to keep a"
+  },
+  {
+   "fr": "petite place à l'espoir.",
+   "en": "little room for hope."
+  },
+  {
+   "fr": "Avant de terminer notre conversation,",
+   "en": "Before we end our conversation,"
+  },
+  {
+   "fr": "j'aimerais te laisser avec une pensée simple.",
+   "en": "I'd like to leave you with a simple thought."
+  },
+  {
+   "fr": "Tu n'as pas besoin de transformer chaque journée en",
+   "en": "You don't need to turn every day into"
+  },
+  {
+   "fr": "une journée extraordinaire.",
+   "en": "an extraordinary day."
+  },
+  {
+   "fr": "Tu n'as pas besoin de sourire quand tu es triste.",
+   "en": "You don't need to smile when you're sad."
+  },
+  {
+   "fr": "Tu n'as pas besoin de trouver immédiatement une solution",
+   "en": "You don't need to find a solution right away"
+  },
+  {
+   "fr": "à tous tes problèmes.",
+   "en": "to all your problems."
+  },
+  {
+   "fr": "Et tu n'as certainement pas besoin de devenir une",
+   "en": "And you certainly don't need to become a"
+  },
+  {
+   "fr": "personne parfaitement positive.",
+   "en": "perfectly positive person."
+  },
+  {
+   "fr": "Tu peux simplement apprendre à être un peu plus",
+   "en": "You can simply learn to be a little"
+  },
+  {
+   "fr": "doux avec toi-même.",
+   "en": "gentler with yourself."
+  },
+  {
+   "fr": "À remarquer un petit moment agréable.",
+   "en": "To notice a small pleasant moment."
+  },
+  {
+   "fr": "À questionner une pensée qui te fait souffrir.",
+   "en": "To question a thought that hurts you."
+  },
+  {
+   "fr": "À protéger ton énergie quand tu en as besoin.",
+   "en": "To protect your energy when you need to."
+  },
+  {
+   "fr": "Et à te rappeler qu'un moment difficile ne raconte",
+   "en": "And to remind yourself that a hard moment doesn't"
+  },
+  {
+   "fr": "pas toute ton histoire.",
+   "en": "tell your whole story."
+  },
+  {
+   "fr": "Peut-être que demain sera une très belle journée.",
+   "en": "Maybe tomorrow will be a really beautiful day."
+  },
+  {
+   "fr": "Peut-être qu'elle sera simplement ordinaire.",
+   "en": "Maybe it'll just be ordinary."
+  },
+  {
+   "fr": "Et peut-être qu'elle sera un peu compliquée.",
+   "en": "And maybe it'll be a bit complicated."
+  },
+  {
+   "fr": "Mais dans chacun de ces cas,",
+   "en": "But in each of these cases,"
+  },
+  {
+   "fr": "tu peux essayer de te laisser une petite place",
+   "en": "you can try to leave yourself a little room"
+  },
+  {
+   "fr": "pour respirer, réfléchir et continuer.",
+   "en": "to breathe, think and carry on."
+  },
+  {
+   "fr": "Merci d'avoir passé ce moment avec moi.",
+   "en": "Thank you for spending this moment with me."
+  },
+  {
+   "fr": "J'espère que ces mots français t'ont accompagné doucement,",
+   "en": "I hope these French words kept you gentle company,"
+  },
+  {
+   "fr": "et que cette conversation t'a donné un peu de calme.",
+   "en": "and that this conversation gave you a little calm."
+  },
+  {
+   "fr": "Avant de partir, j'aimerais te poser une question.",
+   "en": "Before you go, I'd like to ask you a question."
+  },
+  {
+   "fr": "Quelle petite chose t'aide à retrouver le sourire pendant",
+   "en": "What little thing helps you smile again during"
+  },
+  {
+   "fr": "une journée difficile ?",
+   "en": "a hard day?"
+  },
+  {
+   "fr": "Est-ce une chanson, une promenade,",
+   "en": "Is it a song, a walk,"
+  },
+  {
+   "fr": "une personne, ou simplement quelques minutes de silence ?",
+   "en": "a person, or just a few minutes of silence?"
+  },
+  {
+   "fr": "Raconte-moi dans les commentaires.",
+   "en": "Tell me in the comments."
+  },
+  {
+   "fr": "Je serais très heureuse de te lire.",
+   "en": "I'd be really happy to read you."
+  },
+  {
+   "fr": "Prends bien soin de toi, mon ami.",
+   "en": "Take good care of yourself, my friend."
+  },
+  {
+   "fr": "On se retrouve bientôt dans Cozy French Radio.",
+   "en": "See you soon on Cozy French Radio."
+  },
+  {
+   "fr": "À très bientôt.",
+   "en": "See you very soon."
+  }
+ ],
+ "vocab": [
+  {
+   "tag": "expression",
+   "word": "être de mauvaise humeur",
+   "ipa": "/ɛtʁ də mo.vɛz y.mœʁ/",
+   "mean": "to be in a bad mood",
+   "ex": "Le lundi matin, mon frère est toujours de mauvaise humeur.",
+   "exEn": "On Monday mornings, my brother is always in a bad mood."
+  },
+  {
+   "tag": "verbe",
+   "word": "renverser",
+   "ipa": "/ʁɑ̃.vɛʁ.se/",
+   "mean": "to spill, to knock over",
+   "ex": "Attention, tu vas renverser ton verre de vin !",
+   "exEn": "Careful, you're going to spill your glass of wine!"
+  },
+  {
+   "tag": "verbe",
+   "word": "échouer",
+   "ipa": "/e.ʃwe/",
+   "mean": "to fail",
+   "ex": "Il a échoué à son permis, mais il le repasse en mai.",
+   "exEn": "He failed his driving test, but he's retaking it in May."
+  },
+  {
+   "tag": "verbe",
+   "word": "s'inquiéter",
+   "ipa": "/sɛ̃.kje.te/",
+   "mean": "to worry",
+   "ex": "Ne t'inquiète pas, j'arrive dans dix minutes.",
+   "exEn": "Don't worry, I'll be there in ten minutes."
+  },
+  {
+   "tag": "nom féminin",
+   "word": "la gentillesse",
+   "ipa": "/la ʒɑ̃.ti.jɛs/",
+   "mean": "kindness",
+   "ex": "Merci pour ta gentillesse, ça m'a beaucoup aidé.",
+   "exEn": "Thank you for your kindness, it really helped me."
+  },
+  {
+   "tag": "verbe",
+   "word": "ronronner",
+   "ipa": "/ʁɔ̃.ʁɔ.ne/",
+   "mean": "to purr",
+   "ex": "Le chat ronronne sur mes genoux pendant que je lis.",
+   "exEn": "The cat purrs on my lap while I read."
+  },
+  {
+   "tag": "verbe",
+   "word": "améliorer",
+   "ipa": "/a.me.ljɔ.ʁe/",
+   "mean": "to improve",
+   "ex": "Je regarde des séries pour améliorer mon accent.",
+   "exEn": "I watch TV series to improve my accent."
+  },
+  {
+   "tag": "adjectif",
+   "word": "épuisé, épuisée",
+   "ipa": "/e.pɥi.ze/",
+   "mean": "exhausted",
+   "ex": "Après la randonnée, nous étions épuisés.",
+   "exEn": "After the hike, we were exhausted."
+  },
+  {
+   "tag": "expression",
+   "word": "obtenir une promotion",
+   "ipa": "/ɔp.tə.niʁ y.n‿pʁɔ.mɔ.sjɔ̃/",
+   "mean": "to get a promotion",
+   "ex": "Elle a obtenu une promotion après trois ans dans l'entreprise.",
+   "exEn": "She got a promotion after three years at the company."
+  },
+  {
+   "tag": "adjectif",
+   "word": "insupportable",
+   "ipa": "/ɛ̃.sy.pɔʁ.tabl/",
+   "mean": "unbearable",
+   "ex": "Le bruit des travaux est insupportable ce matin.",
+   "exEn": "The noise from the roadworks is unbearable this morning."
+  },
+  {
+   "tag": "adjectif",
+   "word": "égoïste",
+   "ipa": "/e.ɡo.ist/",
+   "mean": "selfish",
+   "ex": "Il a mangé tout le gâteau, c'est un peu égoïste !",
+   "exEn": "He ate the whole cake, that's a bit selfish!"
+  },
+  {
+   "tag": "verbe",
+   "word": "gâcher",
+   "ipa": "/ɡa.ʃe/",
+   "mean": "to ruin, to spoil",
+   "ex": "La dispute a gâché la soirée.",
+   "exEn": "The argument ruined the evening."
+  },
+  {
+   "tag": "verbe",
+   "word": "effacer",
+   "ipa": "/e.fa.se/",
+   "mean": "to erase, to wipe out",
+   "ex": "J'ai effacé la photo par erreur.",
+   "exEn": "I deleted the photo by mistake."
+  },
+  {
+   "tag": "verbe",
+   "word": "traverser une période difficile",
+   "ipa": "/tʁa.vɛʁ.se y.n pe.ʁjɔd di.fi.sil/",
+   "mean": "to go through a hard time",
+   "ex": "Mon amie traverse une période difficile, je l'appelle souvent.",
+   "exEn": "My friend is going through a hard time, so I call her often."
+  }
+ ]
+}
