@@ -147,9 +147,18 @@ bubs.forEach((b, i) => {
 //   pronounce   = syllables one by one, IPA, silent letters fade + « muet », then the syllables pulse in rhythm: { word?, parts:["beau","cou(p)"], ipa, en?, tip?, title? } — "(…)" = silent letters
 //   register    = staircase familier → courant → soutenu: { title?, items:[fam, courant, soutenu] (exactly 3), en?, subs?:[3 small captions] }
 //   match       = « Relie les paires ! »: French left, English right (shuffled), lines draw at the reveal: { title?, pairs:[["la boulangerie","the bakery"], …] (2–5), reveal? }
+//   formula     = sentence pattern as coloured blocks joined by « + », then an example drops under each block:
+//                 { title?, parts:["sujet","ne","verbe","pas"] (2–6), ex?: ["Je","ne","mange","pas"] (same length) | "Je ne mange pas.", en?, note?, exAt?: chunk offset }
+//   transform   = « avant → après »: one sentence becomes another (tense, negation, tu → vous…), *stars* mark what changes:
+//                 { title?, from, to, label?, fromTag?, toTag?, en?, changeAt?: chunk offset }
+//   family      = « Famille de mots »: a root word on top, a tree draws down to 2–5 related words:
+//                 { word, tag?, root?: "heur" (highlighted in every word), items:[["nom","le bonheur","happiness"?], …] or { tag, text, en?, at? }, note? }
+//   dodont      = « À faire / À éviter »: ✓ column and ✗ column, items alternate: { title?, do:[…] (1–4), dont:[…] (1–4), doHead?, dontHead? }
+//   fact        = « Le saviez-vous ? » culture postcard: message on the left, stamp + postmark + illustration on the right:
+//                 { title?, text, number?: "400", numberLabel?: "fromages", icon?, stamp?: "FRANCE", en?, textAt?: chunk offset }
 // Item = "text" (appears automatically, evenly spread over the segment) or { "text": "…", "at": n } (appears with the n-th chunk of the segment, 0 = first).
 // segments less than 1.5 s apart share one board session (characters stay in the corners; the session keeps the first segment's bg).
-const BOARD_BG = ['liege', 'craie', 'carnet'], BOARD_MODES = ['word', 'sketch', 'compare', 'steps', 'conjug', 'mindmap', 'quiz', 'timeline', 'truefalse', 'fill', 'mistake', 'scale', 'idiom', 'order', 'gender', 'falsefriend', 'pronounce', 'register', 'match'];
+const BOARD_BG = ['liege', 'craie', 'carnet'], BOARD_MODES = ['word', 'sketch', 'compare', 'steps', 'conjug', 'mindmap', 'quiz', 'timeline', 'truefalse', 'fill', 'mistake', 'scale', 'idiom', 'order', 'gender', 'falsefriend', 'pronounce', 'register', 'match', 'formula', 'transform', 'family', 'dodont', 'fact'];
 const segs = []; let curSeg = null;
 chunks.forEach((c, i) => {
   if (c.board) { if (curSeg) throw new Error(`chunk ${i}: board opens before chunk ${curSeg.a}'s board is closed`); curSeg = { ...c.board, a: i }; }
@@ -238,6 +247,26 @@ segs.forEach(sg => {
     while (p.some((v, i) => v === i));
     sg.perm = p;   // right row j shows the English of pair perm[j]
   }
+  else if (sg.mode === 'formula') {
+    need('parts', x => Array.isArray(x) && x.length >= 2 && x.length <= 6, 'parts: 2–6 blocks ["sujet","verbe",…]');
+    if (Array.isArray(sg.ex) && sg.ex.length !== sg.parts.length) throw new Error(`${where}: formula ex must have one word per part (${sg.parts.length})`);
+    if (sg.exAt !== undefined) chunkT(sg.exAt);
+  }
+  else if (sg.mode === 'transform') { need('from', Boolean, 'from (the sentence before)'); need('to', Boolean, 'to (the sentence after)'); if (sg.changeAt !== undefined) chunkT(sg.changeAt); }
+  else if (sg.mode === 'family') {
+    need('word', Boolean, 'word (the root word)');
+    need('items', x => Array.isArray(x) && x.length >= 2 && x.length <= 5, 'items: 2–5 [["nom","le bonheur"], …]');
+    sg.items = sg.items.map((it, i) => {
+      const o = Array.isArray(it) ? { tag: it[0], text: it[1], en: it[2] } : it;
+      if (!o || !o.text) throw new Error(`${where}: family item ${i} needs a word (["tag","word"] or { tag, text })`);
+      return o;
+    });
+  }
+  else if (sg.mode === 'dodont') {
+    need('do', x => Array.isArray(x) && x.length >= 1 && x.length <= 4, 'do: 1–4 items');
+    need('dont', x => Array.isArray(x) && x.length >= 1 && x.length <= 4, 'dont: 1–4 items');
+  }
+  else if (sg.mode === 'fact') { need('text', Boolean, 'text (the fact)'); if (sg.icon === undefined) sg.icon = ''; if (sg.textAt !== undefined) chunkT(sg.textAt); }
   // answer time for quiz-like modes: chunk "reveal" (offset in the segment) or the last chunk, never before the question had time to be read
   sg.revealAt = (minR, what) => {
     const R = sg.reveal !== undefined ? Math.max(minR, sg.times([{ at: sg.reveal }])[0]) : Math.max(minR, chunks[sg.b].show + 0.2);
@@ -341,6 +370,42 @@ sessions.forEach(ss => ss.segs.forEach((sg, j) => {
     for (let i = 0; i < n; i++) rv.push(['L' + i, t0 + 0.5 + i * 0.15, 'slide'], ['R' + i, t0 + 0.6 + i * 0.15, 'slideL']);
     const R = sg.revealAt(t0 + 0.6 + n * 0.15 + 1.8, 'match answer'), step = Math.min(0.6, Math.max(0.3, (sg.e - 1 - R) / n));
     for (let i = 0; i < n; i++) { const j = sg.perm.indexOf(i), t = R + i * step; rv.push(['l' + i, t, 'draw'], ['oL' + i, t + 0.3, 'fade'], ['oR' + j, t + 0.3, 'fade']); }
+  } else if (sg.mode === 'formula') {
+    const n = sg.parts.length;
+    rv.push(['t', t0, 'drop']);
+    sg.parts.forEach((p, i) => { if (i) rv.push(['p' + i, t0 + 0.4 + i * 0.4, 'fade']); rv.push(['b' + i, t0 + 0.5 + i * 0.4, 'pop']); });
+    const built = t0 + 0.5 + n * 0.4 + 0.5;
+    const E = sg.exAt !== undefined ? Math.max(built, sg.times([{ at: sg.exAt }])[0]) : Math.max(built, Math.min((t0 + end) / 2, sg.e - 2 - n * 0.3));
+    if (Array.isArray(sg.ex)) sg.ex.forEach((w, i) => rv.push(['e' + i, E + i * 0.3, 'drop']));
+    else if (sg.ex) rv.push(['x', E, 'rise']);
+    const after = E + (Array.isArray(sg.ex) ? n * 0.3 : 0.4) + 0.3;
+    if (sg.en) rv.push(['en', after, 'fade']);
+    if (sg.note) rv.push(['n', after + 0.5, 'pop']);
+  } else if (sg.mode === 'transform') {
+    if (sg.title) rv.push(['t', t0, 'drop']);
+    rv.push(['f', t0 + 0.4, 'pop']);
+    const Mt = sg.changeAt !== undefined ? Math.max(t0 + 2, sg.times([{ at: sg.changeAt }])[0]) : Math.max(t0 + 2, (t0 + end) / 2);
+    rv.push(['ar', Mt - 0.5, 'draw']);
+    if (sg.label) rv.push(['l', Mt - 0.25, 'stamp']);
+    rv.push(['o', Mt, 'rise']);
+    if (sg.en) rv.push(['e', Mt + 0.8, 'fade']);
+  } else if (sg.mode === 'family') {
+    rv.push(['r', t0, 'pop']);
+    sg.times(sg.items, t0 + 0.8, end).forEach((t, i) => rv.push(['l' + i, t, 'draw'], ['c' + i, t + 0.35, 'rise']));
+    if (sg.note) rv.push(['n', Math.max(...sg.times(sg.items, t0 + 0.8, end)) + 1, 'pop']);
+  } else if (sg.mode === 'dodont') {
+    if (sg.title) rv.push(['t', t0, 'drop']);
+    rv.push(['H0', t0 + 0.35, 'pop'], ['H1', t0 + 0.6, 'pop']);
+    const seq = [];
+    for (let i = 0; i < Math.max(sg.do.length, sg.dont.length); i++) { if (sg.do[i] !== undefined) seq.push(['D' + i, sg.do[i]]); if (sg.dont[i] !== undefined) seq.push(['N' + i, sg.dont[i]]); }
+    sg.times(seq.map(x => x[1]), t0 + 1.3, end).forEach((t, i) => rv.push([seq[i][0], t, seq[i][0][0] === 'D' ? 'slide' : 'slideL'], [seq[i][0] + 'x', t + 0.2, 'stamp']));
+  } else if (sg.mode === 'fact') {
+    rv.push(['c', t0, 'drop'], ['s', t0 + 0.5, 'stamp'], ['pm', t0 + 0.8, 'fade']);
+    if (sg.icon) rv.push(['i', t0 + 1.0, 'pop']);
+    const T = sg.textAt !== undefined ? Math.max(t0 + 1.2, sg.times([{ at: sg.textAt }])[0]) : t0 + 1.2;
+    if (sg.number) rv.push(['num', T, 'stamp'], ['num', T + 0.5, 'pulse']);
+    rv.push(['x', T + (sg.number ? 0.8 : 0), 'fade']);
+    if (sg.en) rv.push(['e', T + (sg.number ? 0.8 : 0) + 0.9, 'fade']);
   }
 }));
 cards.forEach(c => { c.hidden = sessions.some(ss => c.s >= ss.s - 0.3 && c.s <= ss.e + 0.3); });
@@ -535,6 +600,54 @@ Object.assign(MODE_HTML, {
         ${sg.pairs.map(([fr], i) => `<div class="bmat L pc rv" id="bs${k}_L${i}" style="top:${Y0 + i * DY}px"><i class="okl rv" id="bs${k}_oL${i}"></i><span>${esc(fr)}</span><b></b></div>`).join('')}
         ${sg.perm.map((pi, j) => `<div class="bmat R pc rv" id="bs${k}_R${j}" style="top:${Y0 + j * DY}px"><i class="okl rv" id="bs${k}_oR${j}"></i><b></b><span>${esc(sg.pairs[pi][1])}</span></div>`).join('')}`;
   },
+  formula: (sg, k) => {
+    const n = sg.parts.length, exA = Array.isArray(sg.ex);
+    return `
+        ${titleHTML(sg, k, 'La structure')}
+        <div class="bfrow${n > 4 ? ' many' : ''}">${sg.parts.map((p, i) => `${i ? `<b class="bfplus rv" id="bs${k}_p${i}">+</b>` : ''}<div class="bfcol c${i % 4}"><div class="bfb rv" id="bs${k}_b${i}">${esc(itemText(p))}</div>${exA ? `<div class="bfe rv" id="bs${k}_e${i}">${esc(sg.ex[i] || '·')}</div>` : ''}</div>`).join('')}</div>
+        ${!exA && sg.ex ? `<div class="bfex pc rv" id="bs${k}_x">${esc(sg.ex)}</div>` : ''}
+        ${sg.en ? `<div class="bfen2${exA ? '' : ' lo'} rv" id="bs${k}_en">${esc(sg.en)}</div>` : ''}
+        ${sg.note ? `<div class="bnote pc bfn rv" id="bs${k}_n"><i class="pin"></i>${esc(sg.note)}</div>` : ''}`;
+  },
+  transform: (sg, k) => {
+    const hl = s => esc(String(s)).replace(/\*([^*]+)\*/g, '<em>$1</em>'), y = sg.title ? 0 : -40;
+    return `
+        ${titleHTML(sg, k)}
+        <div class="btrc a pc rv" id="bs${k}_f" style="top:${200 + y}px"><i class="pin"></i>${sg.fromTag ? `<span class="tag">${esc(sg.fromTag)}</span>` : ''}<div class="btrs">${hl(sg.from)}</div></div>
+        <svg class="bmml" viewBox="0 0 1920 1080" width="1920" height="1080"><path class="rv btra" id="bs${k}_ar" d="M960 ${355 + y} C930 ${395 + y} 990 ${425 + y} 960 ${470 + y} M960 ${470 + y} l-24 -24 M960 ${470 + y} l24 -24" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/></svg>
+        ${sg.label ? `<div class="btrl rv" id="bs${k}_l" style="top:${380 + y}px"><span>${esc(sg.label)}</span></div>` : ''}
+        <div class="btrc b pc rv" id="bs${k}_o" style="top:${500 + y}px"><i class="pin y"></i>${sg.toTag ? `<span class="tag">${esc(sg.toTag)}</span>` : ''}<div class="btrs">${hl(sg.to)}</div>
+          ${sg.en ? `<div class="btren rv" id="bs${k}_e">${esc(sg.en)}</div>` : ''}</div>`;
+  },
+  family: (sg, k) => {
+    const n = sg.items.length, X0 = n > 3 ? 470 : 560, X1 = 1920 - X0, xs = sg.items.map((_, i) => Math.round(X0 + i / (n - 1) * (X1 - X0)));
+    const w = Math.min(380, Math.floor((X1 - X0) / (n - 1)) - 24);
+    const root = s => { const t = esc(s); if (!sg.root) return t; const i = t.toLowerCase().indexOf(sg.root.toLowerCase()); return i < 0 ? t : t.slice(0, i) + `<em>${t.slice(i, i + sg.root.length)}</em>` + t.slice(i + sg.root.length); };
+    return `
+        <div class="bfmr pc rv" id="bs${k}_r"><i class="pin"></i><span class="tag">${esc(sg.tag || 'famille de mots')}</span><div class="bfmw">${root(sg.word)}</div></div>
+        <svg class="bmml" viewBox="0 0 1920 1080" width="1920" height="1080">${xs.map((x, i) => `<path class="rv bfml" id="bs${k}_l${i}" d="M960 300 V350 H${x} V410" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/>`).join('')}</svg>
+        ${sg.items.map((it, i) => `<div class="bfmc pc rv${n > 4 ? ' sm' : ''}" id="bs${k}_c${i}" style="left:${xs[i] - w / 2}px;width:${w}px">${it.tag ? `<div class="bfmt">${esc(it.tag)}</div>` : ''}<div class="bfmx">${root(it.text)}</div>${it.en ? `<div class="bfme">${esc(it.en)}</div>` : ''}</div>`).join('')}
+        ${sg.note ? `<div class="bnote pc bfmn rv" id="bs${k}_n"><i class="pin"></i>${esc(sg.note)}</div>` : ''}`;
+  },
+  dodont: (sg, k) => {
+    const col = (side, head, sym, items, key) => `<div class="bdcol ${side}"><div class="bdh pc rv" id="bs${k}_H${side === 'L' ? 0 : 1}"><i class="pin"></i><b class="bdi">${sym}</b>${esc(head)}</div>
+          ${items.map((it, i) => `<div class="bdit pc rv" id="bs${k}_${key}${i}"><b class="bdi rv" id="bs${k}_${key}${i}x">${sym}</b><span>${esc(itemText(it))}</span></div>`).join('')}</div>`;
+    return `
+        ${titleHTML(sg, k)}
+        ${col('L', sg.doHead || 'À faire', '✓', sg.do, 'D')}${col('R', sg.dontHead || 'À éviter', '✗', sg.dont, 'N')}`;
+  },
+  fact: (sg, k) => `
+        <div class="bpost rv" id="bs${k}_c"><div class="bpostin pc">
+          <div class="bpl"><div class="bpt">${esc(sg.title || 'Le saviez-vous ?')}</div>
+            ${sg.number ? `<div class="bpnum rv" id="bs${k}_num">${esc(String(sg.number))}${sg.numberLabel ? `<small>${esc(sg.numberLabel)}</small>` : ''}</div>` : ''}
+            <div class="bptx rv" id="bs${k}_x">${esc(sg.text)}</div>${sg.en ? `<div class="bpen rv" id="bs${k}_e">${esc(sg.en)}</div>` : ''}</div>
+          <div class="bpr"><div class="bpst rv" id="bs${k}_s"><span><b>✦</b>${esc(sg.stamp || 'FRANCE')}</span></div>
+            <svg class="bppm rv" id="bs${k}_pm" viewBox="0 0 320 140" width="320" height="140"><circle cx="70" cy="70" r="54" fill="none" stroke-width="5"/><circle cx="70" cy="70" r="42" fill="none" stroke-width="2"/>
+              <text x="70" y="66" text-anchor="middle" font-size="20" font-weight="800">PARIS</text><text x="70" y="90" text-anchor="middle" font-size="14" font-weight="800">LA POSTE</text>
+              ${[40, 62, 84, 106].map(y => `<path d="M130 ${y} q20 -10 40 0 t40 0 t40 0 t40 0" fill="none" stroke-width="5"/>`).join('')}</svg>
+            ${sg.icon ? `<div class="bpic rv" id="bs${k}_i"><svg viewBox="0 0 300 200" width="330" height="220"><g filter="url(#pencil)">${sandbox.ILLUS[sg.icon].svg}</g></svg></div>`
+              : `<div class="bpad"><i></i><i></i><i></i></div>`}</div>
+        </div></div>`,
 });
 const boardHTML = segs.map((sg, k) => `
       <div class="bseg th-${(sessions.find(ss => ss.segs.includes(sg)) || sg).bg} m-${sg.mode}" id="bseg${k}">${MODE_HTML[sg.mode](sg, k)}
@@ -848,6 +961,77 @@ const talk = `<template>
     .bmat b{position:absolute;z-index:1;top:50%;width:22px;height:22px;margin-top:-11px;border-radius:50%;background:var(--acc);border:4px solid var(--bc);box-sizing:border-box}
     .bmat.L b{right:-11px} .bmat.R b{left:-11px}
     .bmat .okl{border-radius:18px}
+    /* formula */
+    .bfrow{position:absolute;left:50%;top:230px;transform:translateX(-50%);display:flex;align-items:flex-start;gap:20px;white-space:nowrap}
+    .bfcol{display:flex;flex-direction:column;align-items:center;gap:30px}
+    .bfcol.c0{--fc:var(--acc)} .bfcol.c1{--fc:var(--acc2)} .bfcol.c2{--fc:var(--okc)} .bfcol.c3{--fc:#8a5a7a}
+    .th-craie .bfcol.c3{--fc:#e7b8d9}
+    .bfb{padding:22px 36px;border-radius:18px;font:800 46px Nunito;color:#fffaf0;background:var(--fc);box-shadow:var(--sh)}
+    .th-craie .bfb{background:none;color:var(--fc);border:4px solid var(--fc)}
+    .bfplus{font:800 64px/1 Nunito;color:var(--mut);margin-top:18px}
+    .bfe{font:800 54px Nunito;color:var(--fc);padding:2px 12px;border-bottom:7px solid var(--fc)}
+    .bfrow.many{gap:14px} .bfrow.many .bfb{font-size:36px;padding:18px 24px} .bfrow.many .bfe{font-size:42px} .bfrow.many .bfplus{font-size:50px}
+    .bfex{position:absolute;left:50%;top:430px;transform:translateX(-50%) rotate(-1deg);padding:24px 50px;border-radius:18px;font:800 54px Nunito;color:var(--ink);white-space:nowrap}
+    .bfen2{position:absolute;left:0;right:0;top:470px;text-align:center;font:600 36px Nunito;color:var(--mut)} .bfen2.lo{top:580px}
+    .bfn{left:50%;top:640px;width:auto;max-width:1000px;min-height:0;transform:translateX(-50%) rotate(-1.5deg);font-size:32px;padding:30px 36px 24px}
+    /* transform */
+    .btrc{position:absolute;left:50%;transform:translateX(-50%) rotate(-1deg);width:max-content;max-width:1300px;box-sizing:border-box;padding:26px 54px 28px;border-radius:20px;text-align:center}
+    .btrc.b{transform:translateX(-50%) rotate(1deg)}
+    .th-liege .btrc.b,.th-carnet .btrc.b{box-shadow:var(--sh),0 0 0 6px var(--ok)}
+    .btrs{font:800 56px/1.25 Nunito;color:var(--ink);margin-top:6px;white-space:nowrap}
+    .btrc.a .btrs{color:var(--mut)} .btrc.a em{font-style:normal;color:var(--acc2);border-bottom:6px dashed var(--acc2)}
+    .btrc.b em{font-style:normal;color:var(--acc);border-bottom:7px solid var(--tag)}
+    .btren{font:600 34px Nunito;color:var(--mut);margin-top:12px}
+    .btra{stroke:var(--acc);stroke-width:9;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .th-liege .btra{stroke:#fffaf0}
+    .btrl{position:absolute;left:1010px}
+    .btrl span{display:inline-block;padding:8px 24px;border-radius:30px;background:var(--tag);font:800 30px Nunito;color:var(--ink);letter-spacing:.04em;white-space:nowrap;transform:rotate(-3deg)}
+    .th-craie .btrl span{background:none;border:3px solid var(--acc);color:var(--acc)}
+    /* family */
+    .bfmr{position:absolute;left:50%;top:84px;transform:translateX(-50%) rotate(-1deg);padding:20px 56px 22px;text-align:center;white-space:nowrap;border-radius:18px}
+    .bfmw{font:700 72px/1.1 'Playfair Display',serif;color:var(--acc);margin-top:8px}
+    .bfmw em,.bfmx em{font-style:normal;background:var(--tag);border-radius:6px}
+    .th-craie .bfmw em,.th-craie .bfmx em{background:none;border-bottom:6px solid var(--acc)}
+    .bfml{stroke:var(--ink);stroke-width:6;fill:none;stroke-linecap:round;stroke-linejoin:round;opacity:.85}
+    .th-liege .bfml{stroke:#fffaf0;opacity:1}
+    .bfmc{position:absolute;top:410px;box-sizing:border-box;padding:18px 16px 20px;border-radius:18px;text-align:center}
+    .bfmt{font:800 24px Nunito;letter-spacing:.1em;text-transform:uppercase;color:var(--mut)}
+    .bfmx{font:700 48px/1.15 'Playfair Display',serif;color:var(--acc2);margin-top:6px}
+    .bfme{font:600 28px Nunito;color:var(--mut);margin-top:8px}
+    .bfmc.sm .bfmx{font-size:40px} .bfmc.sm .bfme{font-size:24px}
+    .bfmn{left:50%;top:650px;width:auto;max-width:1000px;min-height:0;transform:translateX(-50%) rotate(-1.5deg);font-size:32px;padding:30px 36px 24px}
+    /* do / don't */
+    .bdcol{position:absolute;top:190px;width:560px;display:flex;flex-direction:column;gap:18px}
+    .bdcol.L{left:360px} .bdcol.R{left:1000px}
+    .bdh{position:relative;display:flex;align-items:center;justify-content:center;gap:20px;padding:22px 30px;border-radius:18px;font:700 54px 'Playfair Display',serif;color:var(--okc)}
+    .bdcol.R .bdh{color:var(--bad)}
+    .bdi{flex:none;width:58px;height:58px;border-radius:50%;background:var(--okc);color:#fffaf0;font:800 36px/58px Nunito;text-align:center}
+    .bdcol.R .bdi{background:var(--bad)}
+    .th-craie .bdcol .bdi{background:none;border:3px solid var(--okc);color:var(--okc);line-height:52px} .th-craie .bdcol.R .bdi{border-color:var(--bad);color:var(--bad)}
+    .bdit{display:flex;align-items:center;gap:22px;padding:16px 26px;border-radius:16px;font:800 36px/1.2 Nunito;color:var(--ink)}
+    .bdit .bdi{width:48px;height:48px;font-size:30px;line-height:48px}
+    .th-craie .bdit .bdi{line-height:42px}
+    .bdcol.L .bdit{border-left:10px solid var(--okc)} .bdcol.R .bdit{border-left:10px solid var(--bad)}
+    /* fact postcard */
+    .bpost{position:absolute;left:50%;top:96px;width:1240px;height:640px;margin-left:-620px;transform:rotate(-1.5deg)}
+    .bpostin{position:absolute;inset:0;display:flex;border-radius:10px;padding:46px 40px 40px 56px;box-sizing:border-box}
+    .th-liege .bpostin{background:#fffaf0}
+    .bpl{flex:1;padding-right:44px;border-right:4px solid var(--line)}
+    .bpt{font:700 56px 'Playfair Display',serif;font-style:italic;color:var(--acc)}
+    .bpnum{font:700 110px/1 'Playfair Display',serif;color:var(--acc2);margin:22px 0 4px;transform-origin:left center}
+    .bpnum small{display:block;font:800 32px Nunito;color:var(--mut);margin-top:6px}
+    .bptx{font:700 38px/1.35 Nunito;color:var(--ink);margin-top:22px}
+    .bpen{font:600 30px/1.3 Nunito;color:var(--mut);margin-top:16px}
+    .bpr{position:relative;width:380px;flex:none}
+    .bpst{position:absolute;right:0;top:0;transform:rotate(4deg)}
+    .bpst>span{display:flex;flex-direction:column;align-items:center;justify-content:center;width:150px;height:180px;box-sizing:border-box;background:var(--acc2);border:10px dotted var(--paper);outline:4px solid var(--acc2);color:#fffaf0;font:800 22px Nunito;letter-spacing:.12em}
+    .bpst b{font-size:64px;line-height:1;margin-bottom:12px;color:var(--tag)}
+    .th-craie .bpst>span{background:none;border-color:var(--acc2);color:var(--acc2)}
+    .bppm{position:absolute;left:-60px;top:110px;stroke:var(--mut);fill:var(--mut);font-family:Nunito;opacity:.7}
+    .bppm.rv{opacity:0}
+    .bpic{position:absolute;left:30px;bottom:10px;padding:16px 16px 40px;background:#fffaf0;box-shadow:var(--sh);transform:rotate(-3deg)}
+    .bpad{position:absolute;left:20px;right:0;bottom:40px;display:flex;flex-direction:column;gap:64px}
+    .bpad i{display:block;border-bottom:4px solid var(--line)}
     .borren{font:600 34px Nunito;color:var(--mut);margin-top:18px;white-space:nowrap}
     .bqx{left:50%;top:610px;width:auto;max-width:1100px;min-height:0;transform:translateX(-50%) rotate(-1.5deg);font-size:32px;padding:30px 36px 24px}
     #talk-badge{position:absolute;right:40px;top:34px;width:132px;height:132px;filter:drop-shadow(0 4px 8px #0004)}

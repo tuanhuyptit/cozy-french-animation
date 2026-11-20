@@ -41,11 +41,16 @@ const SAMPLES = {
   pronounce: { parts: ['beau', 'cou(p)'], ipa: '/bo.ku/', en: 'a lot', tip: 'Le « p » final ne se prononce pas.' },
   register: { items: ['bouffer', 'manger', 'se restaurer'], en: 'to eat' },
   match: { pairs: [['la boulangerie', 'the bakery'], ['la clochette', 'the little bell'], ['une chaise', 'a chair'], ['le quai', 'the platform']] },
+  formula: { title: 'La négation', parts: ['sujet', 'ne', 'verbe', 'pas'], ex: ['Je', 'ne', 'mange', 'pas'], en: 'I am not eating.', note: "À l'oral, on oublie souvent le « ne » !" },
+  transform: { title: 'Au passé composé', from: 'Je *mange* une crêpe.', to: "J'*ai mangé* une crêpe.", fromTag: 'présent', toTag: 'passé composé', label: 'avoir + participe', en: 'I ate a crêpe.' },
+  family: { word: 'heureux', tag: 'adjectif', root: 'heur', items: [['nom', 'le bonheur', 'happiness'], ['adverbe', 'heureusement', 'luckily'], ['contraire', 'malheureux', 'unhappy']], note: 'Même racine : « heur » = la chance' },
+  dodont: { title: 'Bien dormir', do: ['se coucher tôt', 'lire un livre', 'boire une tisane'], dont: ['regarder son téléphone', 'boire du café le soir'] },
+  fact: { text: 'En France, il y a plus de mille fromages différents. Le général de Gaulle en parlait déjà !', number: '1 000', numberLabel: 'fromages différents', icon: 'repas', en: 'In France there are over a thousand different cheeses.' },
 };
 const LINES = [
   ['lea', 'Alors, on regarde ça ensemble ?', 'So, shall we look at this together?'],
   ['mat', 'Oui, avec plaisir, vas-y.', 'Yes, gladly, go ahead.'],
-  ['lea', "C'est une question que nos auditeurs posent souvent.", 'It is a question our listeners often ask.'],
+  ['lea', 'Nos auditeurs posent souvent cette question.', 'It is a question our listeners often ask.'],
   ['mat', 'Et la réponse est plutôt simple.', 'And the answer is rather simple.'],
   ['lea', 'Il suffit de bien regarder le tableau.', 'You just have to look at the board.'],
   ['mat', 'On prend notre temps, sans stress.', 'We take our time, no stress.'],

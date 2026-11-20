@@ -31,15 +31,15 @@ const LEA = keys(block('const OUT_LEA={', '\n};')), MAT = keys(block('const OUT_
 
 // clashes: outfit → scenes it must not be drawn in ("only" = the only scenes allowed)
 const AVOID = {
-  lea: { chemise: ['cuisine', 'parc', 'boulangerie', 'biblio', 'jardin', 'verriere', 'canal', 'vignoble', 'musee', 'laverie'], cardigan: ['chalet', 'terrasse', 'automne', 'peniche', 'disquaire'],
-         lilas: ['lavande', 'quai', 'terrasse', 'promenade', 'toits', 'guinguette'], pull: ['disquaire', 'fromagerie', 'laverie'], foulard: ['bureau', 'plage', 'corniche'],
-         doudoune: { only: ['chalet', 'village', 'noel'] }, rose: ['fleuriste', 'cinema'], vichy: ['guinguette', 'bistrot', 'cinema', 'fromagerie'], fleurs: ['fleuriste', 'lavande', 'jardin'], camel: ['fromagerie', 'marche', 'atelier', 'boulangerie', 'automne'], tartan: ['cuisine', 'parc', 'jardin', 'verriere', 'canal', 'vignoble', 'fleuriste', 'musee'],
+  lea: { jean: ['piscine'], chemise: ['cuisine', 'parc', 'boulangerie', 'biblio', 'jardin', 'verriere', 'canal', 'vignoble', 'musee', 'laverie', 'potager'], cardigan: ['chalet', 'terrasse', 'automne', 'peniche', 'disquaire', 'piscine', 'cave'],
+         lilas: ['lavande', 'quai', 'terrasse', 'promenade', 'toits', 'guinguette'], pull: ['disquaire', 'fromagerie', 'laverie', 'piscine'], foulard: ['bureau', 'plage', 'corniche'],
+         doudoune: { only: ['chalet', 'village', 'noel', 'camping'] }, rose: ['fleuriste', 'cinema'], vichy: ['guinguette', 'bistrot', 'cinema', 'fromagerie', 'creperie'], fleurs: ['fleuriste', 'lavande', 'jardin'], camel: ['fromagerie', 'marche', 'atelier', 'boulangerie', 'automne', 'cave'], tartan: ['cuisine', 'parc', 'jardin', 'verriere', 'canal', 'vignoble', 'fleuriste', 'musee', 'camping', 'potager'],
          torsade: ['plage', 'corniche', 'port', 'laverie'] },
-  mat: { pull: ['cuisine', 'parc', 'boulangerie', 'biblio', 'jardin', 'verriere', 'canal', 'vignoble', 'musee', 'laverie'], colroule: ['quai', 'salon', 'biblio', 'promenade', 'village', 'noel', 'pluie', 'toits', 'cinema', 'guinguette'],
-         blazer: ['quai', 'salon', 'biblio', 'promenade', 'village', 'noel', 'pluie', 'toits', 'guinguette'], velours: ['marche', 'atelier', 'automne', 'peniche', 'bistrot', 'disquaire', 'fromagerie'],
-         polo: ['marche', 'atelier', 'automne', 'disquaire', 'fromagerie', 'laverie'], gilet: ['bureau', 'plage', 'corniche', 'pluie', 'laverie'], carreaux: ['bistrot', 'cinema'], tablier: { only: ['cuisine', 'boulangerie'] },
-         raye: ['plage', 'corniche', 'port'], chale: ['bistrot', 'cinema', 'peniche'], bomber: ['parc', 'jardin', 'verriere', 'canal', 'vignoble', 'fleuriste', 'musee'],
-         rouille: ['chalet', 'terrasse', 'automne', 'peniche', 'disquaire', 'fromagerie'], canard: ['laverie', 'musee', 'verriere'], jacquard: ['bureau', 'plage', 'corniche'] },
+  mat: { pull: ['cuisine', 'parc', 'boulangerie', 'biblio', 'jardin', 'verriere', 'canal', 'vignoble', 'musee', 'laverie', 'potager'], colroule: ['quai', 'salon', 'biblio', 'promenade', 'village', 'noel', 'pluie', 'toits', 'cinema', 'guinguette', 'camping'],
+         blazer: ['quai', 'salon', 'biblio', 'promenade', 'village', 'noel', 'pluie', 'toits', 'guinguette', 'camping'], velours: ['marche', 'atelier', 'automne', 'peniche', 'bistrot', 'disquaire', 'fromagerie', 'cave'],
+         polo: ['marche', 'atelier', 'automne', 'disquaire', 'fromagerie', 'laverie'], gilet: ['bureau', 'plage', 'corniche', 'pluie', 'laverie'], carreaux: ['bistrot', 'cinema', 'creperie'], tablier: { only: ['cuisine', 'boulangerie'] },
+         raye: ['plage', 'corniche', 'port', 'creperie', 'piscine'], chale: ['bistrot', 'cinema', 'peniche'], bomber: ['parc', 'jardin', 'verriere', 'canal', 'vignoble', 'fleuriste', 'musee', 'potager'],
+         rouille: ['chalet', 'terrasse', 'automne', 'peniche', 'disquaire', 'fromagerie', 'cave'], canard: ['laverie', 'musee', 'verriere', 'camping', 'piscine'], jacquard: ['bureau', 'plage', 'corniche'] },
 };
 const PAIR_AVOID = [['jean', 'denim'], ['pull', 'polo'], ['chemise', 'pull'], ['cardigan', 'velours'], ['torsade', 'raye'], ['torsade', 'denim'], ['tartan', 'bomber'], ['tartan', 'pull'], ['rose', 'chale'], ['doudoune', 'chale'], ['chemise', 'bomber'], ['cardigan', 'rouille'], ['camel', 'velours'], ['camel', 'rouille'], ['fleurs', 'jacquard'], ['vichy', 'carreaux'], ['vichy', 'chale'], ['chemise', 'canard']];   // [lea, mat]
 const okFor = (who, o, scene) => { const r = AVOID[who][o]; return !r || (Array.isArray(r) ? !r.includes(scene) : r.only.includes(scene)); };
