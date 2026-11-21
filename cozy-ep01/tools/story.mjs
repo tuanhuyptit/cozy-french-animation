@@ -16,18 +16,56 @@
 // Beats — see BEATS below for the parameters of each.
 import { SCENES as BOOK_SCENES } from '../../books/scenes.mjs';
 import { PERSON, ICON as BICON } from '../../books/kit.mjs';
+import fs from 'node:fs';
+import rough from './rough.esm.js';
+
+// shared drawing data at the repo root (see data/excalidraw/CREDITS.md): Excalidraw library drawings (MIT)
+const DATA = new URL('../../data/', import.meta.url);
+const lazyJSON = f => { let v; return () => v ??= JSON.parse(fs.readFileSync(new URL(f, DATA), 'utf8')); };
+const EXI = lazyJSON('excalidraw/items.json'), EXN = lazyJSON('excalidraw/names.json');
+const RG = rough.generator();
+const CAVEAT = new URL('../../brand/fonts/Caveat-700-latin.woff2', import.meta.url);   // handwriting font (OFL), embedded only when a story writes by hand
 
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const R2 = n => (+n).toFixed(2);
 const P = 'url(#pencil)';
 
-/* ---------------- icons: demo ILLUS name · "b:<books icon>" · any character (♪ ★ ✓ …) ---------------- */
+/* ---------------- icons: demo ILLUS name · "b:<books icon>" · "x:<excalidraw drawing>" · any character (♪ ★ ✓ …) ----------------
+   Every drawing is DRAWN ON when it appears (drawCode): ILLUS / Books icons get an ink outline traced first, then the colours fade in;
+   Excalidraw drawings are already pencil strokes, so their own strokes are traced. */
+const SHAPE = /<(path|circle|ellipse|rect|polygon|polyline|line)\b/g;
+const outlineOf = c => c.replace(/<text[\s\S]*?<\/text>/g, '').replace(/\s(fill|stroke|stroke-width|class|opacity|fill-opacity|stroke-dasharray|stroke-dashoffset|filter)="[^"]*"/g, '')
+  .replace(SHAPE, '<$1 pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"');
+const dashify = c => c.replace(/<path\b([^>]*?)\sfill="(?!none)([^"]*)"/g, '<path$1 fill="$2" class="st-xf" fill-opacity="0"')
+  .replace(/<path\b/g, '<path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"').replace(/<text\b/g, '<text class="st-xt" opacity="0"');
+export const exItem = n => { const id = EXN()[n] || n, it = EXI()[id]; if (!it) throw new Error(`unknown drawing "x:${n}" (have: ${Object.keys(EXN()).join(', ')})`); return it; };
 function iconSVG(ILLUS, n, w = 150) {
   if (!n) return '';
-  if (ILLUS[n]) return `<svg viewBox="0 0 300 200" width="${w}" height="${w * 2 / 3}"><g filter="${P}">${ILLUS[n].svg}</g></svg>`;
-  if (n.startsWith('b:') && BICON[n.slice(2)]) return `<svg viewBox="-40 -40 80 80" width="${w * .6}" height="${w * .6}"><g filter="${P}">${BICON[n.slice(2)]}</g></svg>`;
+  const traced = (vb, ww, hh, c) => `<svg viewBox="${vb}" width="${ww}" height="${hh}"><g filter="${P}"><g class="st-fl" opacity="0">${c}</g><g class="st-ol" fill="none" stroke="#3a2e28" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">${outlineOf(c)}</g></g></svg>`;
+  if (ILLUS[n]) return traced('0 0 300 200', w, w * 2 / 3, ILLUS[n].svg);
+  if (n.startsWith('b:') && BICON[n.slice(2)]) return traced('-40 -40 80 80', w * .6, w * .6, BICON[n.slice(2)]);
+  if (n.startsWith('x:')) { const it = exItem(n.slice(2)), s = Math.min(w / it.w, w * .75 / it.h);
+    return `<svg viewBox="0 0 ${it.w} ${it.h}" width="${(it.w * s).toFixed(0)}" height="${(it.h * s).toFixed(0)}"><g class="st-xd">${dashify(it.svg)}</g></svg>`; }
   return `<span class="st-glyph" style="font-size:${w * .5}px">${esc(n)}</span>`;
 }
+// tween code that draws every traced drawing inside sel (only the parts present, so GSAP never warns about empty targets)
+function drawCode(sel, t, html, dur = .8) {
+  let c = '';
+  if (html.includes('stroke-dashoffset="1"')) c += `tl.fromTo('${sel} [pathLength]',{strokeDashoffset:1},{strokeDashoffset:0,duration:${dur},ease:'power1.inOut',stagger:{amount:.35},immediateRender:false},${R2(t)});`;
+  if (html.includes('st-fl')) c += `tl.to('${sel} .st-fl',{opacity:1,duration:.35,immediateRender:false},${R2(t + dur * .7)});tl.to('${sel} .st-ol',{opacity:0,duration:.4,immediateRender:false},${R2(t + dur + .1)});`;
+  if (html.includes('st-xf')) c += `tl.to('${sel} .st-xf',{fillOpacity:1,duration:.35,immediateRender:false},${R2(t + dur * .6)});`;
+  if (html.includes('st-xt')) c += `tl.to('${sel} .st-xt',{opacity:1,duration:.3,immediateRender:false},${R2(t + dur * .6)});`;
+  return c;
+}
+
+/* ---------------- rough.js: sketchy frames + shapes (deterministic: every call gets its own seed) ---------------- */
+let SEED = 11;
+const rpaths = (shape, extra = '') => RG.toPaths(shape).map(p => `<path d="${p.d.replace(/(\d+\.\d{2})\d+/g, '$1')}" fill="${p.fill || 'none'}" stroke="${p.stroke}" stroke-width="${p.strokeWidth}"${extra}/>`).join('');
+const ro = (o = {}) => ({ seed: SEED++, roughness: 1.3, strokeWidth: 3.5, stroke: '#3a2e28', ...o });
+// frame behind an HTML box of any size: stretched SVG with non-scaling strokes (sketchy outline + paper or hachure fill)
+const rframe = (fill = '#fffaf0', o = {}) => `<svg class="st-rf" viewBox="0 0 400 240" preserveAspectRatio="none">${rpaths(RG.rectangle(8, 8, 384, 224, ro({ fill, fillStyle: o.hachure ? 'hachure' : 'solid', hachureGap: 16, fillWeight: 2.5, ...o })), ' vector-effect="non-scaling-stroke"')}</svg>`;
+// a hand-drawn stroke that draws on (arrow, circle, underline): rough paths with pathLength
+const rdraw = (shape, extra = '') => rpaths(shape, ` pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" stroke-linecap="round"${extra}`);
 
 /* ---------------- places (1920×1080) ---------------- */
 const WINDOW = (x, y, w, h, night = true) => `<g transform="translate(${x} ${y})"><defs><linearGradient id="stw${x}" x1="0" y1="0" x2="0" y2="1">${night ? '<stop offset="0" stop-color="#26304e"/><stop offset="1" stop-color="#4a5a82"/>' : '<stop offset="0" stop-color="#9cc0d8"/><stop offset="1" stop-color="#dcebf0"/>'}</linearGradient></defs>
@@ -136,6 +174,9 @@ const PROPS = {
   papers: () => `<g transform="translate(80 -250) rotate(-8)">${[0, 1, 2].map(i => `<rect x="${-40 + i * 4}" y="${-60 - i * 6}" width="80" height="100" rx="3" fill="#fffaf0" stroke="#c9b48e" stroke-width="3"/>`).join('')}${[0, 1, 2, 3].map(i => `<path d="M-24 ${-60 + i * 16} h56" stroke="#c9b48e" stroke-width="3"/>`).join('')}</g>`,
   laptop: () => `<g transform="translate(82 -236)"><path d="M-60 0 H60 L50 -10 H-50Z" fill="#5a5a68"/><path d="M-46 -10 L-38 -86 H42 L50 -10Z" fill="#3a3a48"/><path d="M-36 -18 L-30 -78 H36 L42 -18Z" fill="#9cc0d8"/></g>`,
 };
+// index of the word to marker-highlight ("mark": word text or index) in a title/text beat, -1 if none
+const markIdx = (words, m) => { if (m === undefined) return -1; if (typeof m === 'number') return m;
+  const nw = x => x.toLowerCase().replace(/[^a-zà-ÿœæç0-9']/g, ''); const i = words.findIndex(w => nw(w).includes(nw(m))); if (i < 0) throw new Error(`mark "${m}" not in "${words.join(' ')}"`); return i; };
 function castSVG(c, ctx, k) {
   const flip = c.flip ? -1 : 1, s = c.s ?? 1.12, x = c.x;
   const id = `st${k}c${c.id}`;
@@ -185,8 +226,16 @@ const CORSE = `M${MX(9.4).toFixed(0)} ${MY(43.0).toFixed(0)} L${MX(9.55).toFixed
 //         bars {title?, items: [{label, v (0–100)}], x?, y?} bars grow · battery {from, to, x, y, d, label?} energy drains / fills
 //         dream {icon | icons: [...], label?, x?, y?} thought bubble · heart {label?, x, y, broken?: true} · burst {icons?: ["♪","♥","★"], on? | x,y}
 //         pile {n, x?, y?, d} papers stack up · sky {d} sun/moon crosses the window (chambre, bureau, cuisine) · hide {ids: [...]}
+// hand-drawn (rough.js, drawn on): arrow {from: [x,y], to: [x,y], bend?, color?} · circle {x, y, rx?, ry?, label?} loop around something
+//         underline {x, y, width} squiggle · write {text, x, y, size?} handwriting (Caveat) letter by letter · draw {icon, x, y, size?, label?} one drawing traced
+//         title/text {mark: "word"} = marker highlight swept behind that word
+// boards: flap {lines: ["PARIS 08:15", …], title?} split-flap departure board · wheel {value: "1 000", label?, size?, d?} rolling digits
+// Icons everywhere: demo ILLUS names · "b:<books icon>" · "x:<drawing>" from data/excalidraw/names.json (emoji faces e-*, 
+//         objects: laptop smartphone clock calendar mail home basket alarm bell pencil letter parcel microphone headphones flag target…) · or a character.
+// Every drawing is traced (drawn on) when it appears; boxes have rough.js sketchy frames and "boil" (re-pose by ~1 px every 0.1 s).
 export const BEATS = ['face', 'hold', 'drop', 'bob', 'work', 'walk', 'droop', 'band', 'enter', 'exit', 'say', 'whisper', 'zzz', 'title', 'text', 'note', 'stamp',
-  'icons', 'list', 'vs', 'map', 'calendar', 'count', 'clock', 'bars', 'battery', 'dream', 'heart', 'burst', 'pile', 'sky', 'hide'];
+  'icons', 'list', 'vs', 'map', 'calendar', 'count', 'clock', 'bars', 'battery', 'dream', 'heart', 'burst', 'pile', 'sky', 'hide',
+  'arrow', 'circle', 'underline', 'write', 'draw', 'flap', 'wheel'];
 
 
 // ctx: { chunks, ILLUS, OUT_LEA, OUT_MAT, lea, mat }
@@ -202,7 +251,7 @@ export function buildStories(list, ctx) {
     const i = ch.toks.findIndex(t => nw(t.t).includes(nw(b.w))); if (i < 0) throw new Error(`${where}: word "${b.w}" not in chunk ${ci}: ${ch.toks.map(t => t.t).join(' ')}`);
     return ch.toks[i].s;
   };
-  let html = '', js = '';
+  let html = '', js = '', usesCaveat = false; const boils = [];
   list.forEach((st, k) => {
     const where0 = `story ${k}`;
     if (!Array.isArray(st.c) || st.c.length !== 2 || !chunks[st.c[0]] || !chunks[st.c[1]] || st.c[1] < st.c[0]) throw new Error(`${where0}: "c" must be [first chunk, last chunk]`);
@@ -217,6 +266,7 @@ export function buildStories(list, ctx) {
     const endOf = b => b.until ? R2(wordT(k, b.until, `${where0} beat ${b.do} until`)) : null;
     const cs = on => { if (!castIds.has(on)) throw new Error(`${where0}: beat needs "on" = a cast id (${[...castIds].join(', ') || 'no cast'})`); return `${R}c${on}`; };
     const castX = on => cast.find(c => c.id === on).x;
+    const armed = (on, what) => { const c = cast.find(c => c.id === on); if (c && !['lea', 'mat'].includes(c.who)) throw new Error(`${where0}: "${what}" needs Léa or Mathieu (cast "${on}" is ${c.who})`); };
     // initial state
     code += `tl.set('${R}',{opacity:0},0);`;
     cast.forEach(c => { const C = `${R}c${c.id}`;
@@ -224,68 +274,74 @@ export function buildStories(list, ctx) {
     });
     (st.beats || []).forEach((b, j) => {
       const where = `${where0} beat ${j} (${b.do})`; if (!BEATS.includes(b.do)) throw new Error(`${where}: unknown beat (have: ${BEATS.join(', ')})`);
-      const t = +at(b), id = `st${k}b${j}`, d = b.d ?? 2, end = endOf(b);
+      const t = +at(b), id = `st${k}b${j}_`, d = b.d ?? 2, end = endOf(b);
       if (b.id) b._el = id;
-      const box = (inner, x, y, cls = '') => { fx += `<div class="st-box ${cls}" style="left:${x}px;top:${y}px"><div id="${id}" class="st-in">${inner}</div></div>`; };
+      const box = (inner, x, y, cls = '') => { fx += `<div class="st-box ${cls}" style="left:${x}px;top:${y}px"><div class="st-bo"><div id="${id}" class="st-in">${inner}</div></div></div>`; return inner; };
       const popIn = (sel = `#${id}`, dt = t) => { code += `tl.fromTo('${sel}',{opacity:0,scale:.3,y:24},{opacity:1,scale:1,y:0,duration:.45,ease:'back.out(2)',immediateRender:false},${R2(dt)});`; };
       const out = (sel = `#${id}`) => { if (end) code += `tl.to('${sel}',{opacity:0,duration:.35,immediateRender:false},${end});`; };
       switch (b.do) {
         case 'face': code += faceCode(cs(b.on), b.face, t); break;
-        case 'hold': { const C = cs(b.on); if (!PROPS[b.prop]) throw new Error(`${where}: prop ${b.prop} (have: ${Object.keys(PROPS).join(', ')})`);
+        case 'hold': { armed(b.on, 'hold'); const C = cs(b.on); if (!PROPS[b.prop]) throw new Error(`${where}: prop ${b.prop} (have: ${Object.keys(PROPS).join(', ')})`);
           code += `tl.set('${C} .aDown',{opacity:0},${t});tl.set('${C} .aUp',{opacity:1},${t});tl.fromTo('${C} .pr-${b.prop}',{opacity:0,y:-200},{opacity:1,y:0,duration:.5,ease:'back.out(1.4)',immediateRender:false},${t});`;
           sfx.push({ t, k: 'thud' }, { t: t + 0.3, k: 'pop' }); break; }
         case 'drop': { const C = cs(b.on); code += `tl.to('${C} .props > g',{opacity:0,duration:.25,immediateRender:false},${t});tl.set('${C} .aDown',{opacity:1},${t + .25});tl.set('${C} .aUp',{opacity:0},${t + .25});`; break; }
         case 'bob': code += `tl.fromTo('${cs(b.on)} .bob',{y:0},{y:-18,duration:.25,yoyo:true,repeat:${Math.max(1, Math.round(d / .25) - 1) | 1},ease:'sine.inOut',immediateRender:false},${t});`; break;
-        case 'work': { const C = cs(b.on); code += `tl.set('${C} .aDown',{opacity:0},${t});tl.set('${C} .aUp',{opacity:1},${t});tl.fromTo('${C} .aUp',{rotation:-8},{rotation:10,duration:.2,yoyo:true,repeat:${Math.max(1, Math.round(d / .2) - 1) | 1},ease:'sine.inOut',immediateRender:false},${t});`; break; }
+        case 'work': { armed(b.on, 'work'); const C = cs(b.on); code += `tl.set('${C} .aDown',{opacity:0},${t});tl.set('${C} .aUp',{opacity:1},${t});tl.fromTo('${C} .aUp',{rotation:-8},{rotation:10,duration:.2,yoyo:true,repeat:${Math.max(1, Math.round(d / .2) - 1) | 1},ease:'sine.inOut',immediateRender:false},${t});`; break; }
         case 'walk': { const C = cs(b.on), dx = (b.to - castX(b.on)) / (cast.find(c => c.id === b.on).s ?? 1.12);
           code += `tl.to('${C} .mv',{x:${R2(dx)},duration:${d},ease:'power1.inOut',immediateRender:false},${t});tl.fromTo('${C} .bob',{y:0},{y:-12,duration:.2,yoyo:true,repeat:${Math.max(1, Math.round(d / .2) - 1) | 1},ease:'sine.inOut',immediateRender:false},${t});`;
           sfx.push(...Array.from({ length: Math.floor(d / .4) }, (_, i) => ({ t: t + i * .4, k: 'tap' }))); break; }
         case 'droop': code += `tl.to('${cs(b.on)} .hd',{rotation:9,duration:.6,immediateRender:false},${t});`; break;
-        case 'band': code += `tl.set('${cs(b.on)} .band',{opacity:1},${t});`; break;
+        case 'band': armed(b.on, 'band'); code += `tl.set('${cs(b.on)} .band',{opacity:1},${t});`; break;
         case 'enter': { const C = cs(b.on); code += `tl.fromTo('${C} .mv',{x:${b.from === 'right' ? 1400 : -1400}},{x:0,duration:${b.d ?? 1.2},ease:'power2.out',immediateRender:false},${t});tl.set('${C} .mv',{x:${b.from === 'right' ? 1400 : -1400}},0);`; sfx.push({ t, k: 'swish' }); break; }
         case 'exit': code += `tl.to('${cs(b.on)} .mv',{x:${b.to === 'left' ? -1400 : 1400},duration:${b.d ?? 1},ease:'power2.in',immediateRender:false},${t});`; sfx.push({ t, k: 'swish' }); break;
         case 'say': case 'whisper': {
           const x = b.x ?? castX(b.on) + (b.do === 'say' ? 230 : 250), y = b.y ?? 170;
           const creature = b.do === 'whisper' ? `<svg class="st-imp" viewBox="-60 -60 120 120" width="110" height="110"><g filter="${P}"><path d="M-40 10 C-50 -30 -20 -50 0 -50 C24 -50 50 -30 40 10 C34 40 -34 40 -40 10Z" fill="#b9a6d6"/><path d="M-26 -42 l-8 -16 l18 8 M26 -42 l8 -16 l-18 8" fill="#9a86c0"/><circle cx="-12" cy="-8" r="5" fill="#3a2e28"/><circle cx="14" cy="-8" r="5" fill="#3a2e28"/><path d="M-12 12 q12 10 24 0" stroke="#3a2e28" stroke-width="4" fill="none" stroke-linecap="round"/></g></svg>` : '';
-          box(`${creature}<div class="st-say ${b.do}">${esc(b.text)}</div>`, x, y);
+          box(`${creature}<div class="st-say ${b.do}">${rframe('#fffaf0', b.do === 'whisper' ? { stroke: '#7a66a0', strokeLineDash: [10, 8] } : {})}${esc(b.text)}</div>`, x, y);
           popIn(); out(); sfx.push({ t, k: b.do === 'say' ? 'pop' : 'rise' });
           if (b.do === 'whisper') code += `tl.fromTo('#${id} .st-imp',{y:0},{y:-10,duration:.5,yoyo:true,repeat:${Math.max(1, Math.round(((end ? +end : OUT) - t) / .5)) | 1},ease:'sine.inOut',immediateRender:false},${t});`;
           break; }
         case 'zzz': { const x = castX(b.on) + 80; [0, 1, 2].forEach(i => { svgFx += `<text class="st-z" id="${id}z${i}" x="${x + i * 50}" y="${380 - i * 50}" font-family="Nunito" font-weight="800" font-size="${40 + i * 12}" fill="#5b7398" opacity="0">z</text>`;
             code += `tl.fromTo('#${id}z${i}',{opacity:0,y:0},{opacity:1,y:-40,duration:.8,repeat:${Math.max(0, Math.round(d / 1.2) - 1)},repeatDelay:.4,immediateRender:false},${R2(t + i * .35)});tl.set('#${id}z${i}',{opacity:0},${R2(t + d + i * .35 + .8)});`; }); break; }
-        case 'title': { const words = String(b.text).split(/\s+/);
-          box(`<div class="st-title">${words.map((w, i) => `<span class="st-w" id="${id}w${i}">${esc(w)}</span>`).join(' ')}</div>
+        case 'title': { const words = String(b.text).split(/\s+/), mk = markIdx(words, b.mark);
+          box(`<div class="st-title">${words.map((w, i) => `<span class="st-w" id="${id}w${i}">${i === mk ? `<i class="st-mk" id="${id}mk"></i>` : ''}${esc(w)}</span>`).join(' ')}</div>
             <svg class="st-ul" viewBox="0 0 600 30" width="600" height="30"><path id="${id}u" d="M10 18 C150 6 300 26 590 10" pathLength="1" stroke="#d9774b" stroke-width="9" fill="none" stroke-linecap="round" stroke-dasharray="1" stroke-dashoffset="1"/></svg>
             ${b.sub ? `<div class="st-sub" id="${id}s">${esc(b.sub)}</div>` : ''}`, b.x ?? 960, b.y ?? 380);
           code += `tl.set('#${id}',{opacity:1},${t});`;
           words.forEach((_, i) => code += `tl.fromTo('#${id}w${i}',{opacity:0,y:40,rotation:-6},{opacity:1,y:0,rotation:0,duration:.4,ease:'back.out(2)',immediateRender:false},${R2(t + i * .16)});`);
           code += `tl.fromTo('#${id}u',{strokeDashoffset:1},{strokeDashoffset:0,duration:.6,ease:'power2.out',immediateRender:false},${R2(t + words.length * .16)});`;
           if (b.sub) code += `tl.fromTo('#${id}s',{opacity:0,y:20},{opacity:1,y:0,duration:.4,immediateRender:false},${R2(t + words.length * .16 + .4)});`;
+          if (mk >= 0) { code += `tl.fromTo('#${id}mk',{scaleX:0},{scaleX:1,duration:.45,ease:'power2.out',immediateRender:false},${R2(t + words.length * .16 + .5)});`; sfx.push({ t: t + words.length * .16 + .5, k: 'scribble' }); }
           out(); sfx.push({ t, k: 'swish' }, { t: t + words.length * .16, k: 'scribble' }); break; }
-        case 'text': { const words = String(b.text).split(/\s+/), step = Math.min(.3, (b.d ?? words.length * .2) / words.length);
-          box(`<div class="st-text" style="font-size:${b.size ?? 64}px;color:${b.color ?? '#3a2e28'}">${words.map((w, i) => `<span class="st-w" id="${id}w${i}">${esc(w)}</span>`).join(' ')}</div>`, b.x ?? 960, b.y ?? 400);
+        case 'text': { const words = String(b.text).split(/\s+/), step = Math.min(.3, (b.d ?? words.length * .2) / words.length), mk = markIdx(words, b.mark);
+          box(`<div class="st-text" style="font-size:${b.size ?? 64}px;color:${b.color ?? '#3a2e28'}">${words.map((w, i) => `<span class="st-w" id="${id}w${i}">${i === mk ? `<i class="st-mk" id="${id}mk"></i>` : ''}${esc(w)}</span>`).join(' ')}</div>`, b.x ?? 960, b.y ?? 400);
+          if (mk >= 0) { code += `tl.fromTo('#${id}mk',{scaleX:0},{scaleX:1,duration:.45,ease:'power2.out',immediateRender:false},${R2(t + words.length * step + .3)});`; sfx.push({ t: t + words.length * step + .3, k: 'scribble' }); }
           code += `tl.set('#${id}',{opacity:1},${t});`;
           words.forEach((_, i) => code += `tl.fromTo('#${id}w${i}',{opacity:0,y:24},{opacity:1,y:0,duration:.3,ease:'power2.out',immediateRender:false},${R2(t + i * step)});`);
           out(); sfx.push({ t, k: 'tap' }); break; }
-        case 'note': box(`<div class="st-note" style="background:${b.color ?? '#f3c96b'};transform:rotate(${b.rot ?? -4}deg)"><i></i>${esc(b.text)}</div>`, b.x ?? 1400, b.y ?? 300); popIn(); out(); sfx.push({ t, k: 'card' }); break;
-        case 'stamp': box(`<div class="st-stamp" style="color:${b.color ?? '#b8552a'};border-color:${b.color ?? '#b8552a'}">${esc(b.text)}</div>`, b.x ?? 960, b.y ?? 420);
+        case 'note': box(`<div class="st-note" style="transform:rotate(${b.rot ?? -4}deg)">${rframe(b.color ?? '#f3c96b', { strokeWidth: 2.5 })}<i></i>${esc(b.text)}</div>`, b.x ?? 1400, b.y ?? 300); popIn(); out(); sfx.push({ t, k: 'card' }); break;
+        case 'stamp': box(`<div class="st-stamp" style="color:${b.color ?? '#b8552a'}">${rframe('rgba(255,250,240,.6)', { stroke: b.color ?? '#b8552a', strokeWidth: 6, roughness: 1.8 })}${esc(b.text)}</div>`, b.x ?? 960, b.y ?? 420);
           code += `tl.fromTo('#${id}',{opacity:0,scale:2.4,rotation:-14},{opacity:1,scale:1,rotation:-7,duration:.28,ease:'power3.in',immediateRender:false},${t});`; out(); sfx.push({ t: t + .25, k: 'stamp' }); break;
         case 'icons': { const n = b.items.length, gap = Math.min(330, 1500 / n), x0 = 960 - gap * (n - 1) / 2;
           b.items.forEach((it, i) => { const ti = it.c !== undefined || it.w !== undefined ? +R2(wordT(k, { c: it.c ?? b.c, w: it.w }, where)) : t + i * .45;
-            fx += `<div class="st-box" style="left:${x0 + i * gap}px;top:${(b.y ?? 380) + (i % 2 ? -30 : 20)}px"><div id="${id}i${i}" class="st-in st-badge">${iconSVG(ILLUS, it.icon, 170)}${it.label ? `<div>${esc(it.label)}</div>` : ''}</div></div>`;
-            popIn(`#${id}i${i}`, ti); sfx.push({ t: ti, k: 'pop' }); if (end) code += `tl.to('#${id}i${i}',{opacity:0,duration:.3,immediateRender:false},${end});`; }); break; }
+            const ih = iconSVG(ILLUS, it.icon, 170);
+            fx += `<div class="st-box" style="left:${x0 + i * gap}px;top:${(b.y ?? 380) + (i % 2 ? -30 : 20)}px"><div class="st-bo"><div id="${id}i${i}" class="st-in st-badge">${rframe()}${ih}${it.label ? `<div>${esc(it.label)}</div>` : ''}</div></div></div>`;
+            popIn(`#${id}i${i}`, ti); code += drawCode(`#${id}i${i}`, ti + .15, ih); sfx.push({ t: ti, k: 'pop' }); if (end) code += `tl.to('#${id}i${i}',{opacity:0,duration:.3,immediateRender:false},${end});`; }); break; }
         case 'list': {
-          fx += `<div class="st-box" style="left:${b.x ?? 960}px;top:${b.y ?? 380}px"><div id="${id}" class="st-in st-list">${b.title ? `<h3>${esc(b.title)}</h3>` : ''}${b.items.map((it, i) => `<div class="st-li" id="${id}l${i}"><svg viewBox="0 0 40 40" width="40" height="40"><rect x="3" y="3" width="34" height="34" rx="6" fill="#fffaf0" stroke="#3a2e28" stroke-width="3"/><path id="${id}k${i}" d="M9 21 l8 8 l15 -18" pathLength="1" stroke="#b8552a" stroke-width="5" fill="none" stroke-linecap="round" stroke-dasharray="1" stroke-dashoffset="1"/></svg>${it.icon ? iconSVG(ILLUS, it.icon, 70) : ''}<span>${esc(it.text)}</span></div>`).join('')}</div></div>`;
+          const lis = b.items.map((it, i) => `<div class="st-li" id="${id}l${i}"><svg viewBox="0 0 40 40" width="44" height="44">${rpaths(RG.rectangle(4, 4, 32, 32, ro({ strokeWidth: 2.5, fill: '#fffaf0', fillStyle: 'solid' })))}<path id="${id}k${i}" d="M9 21 l8 8 l15 -18" stroke="#b8552a" stroke-width="5" fill="none" stroke-linecap="round" stroke-dasharray="1" stroke-dashoffset="1" pathLength="1"/></svg>${it.icon ? `<span class="st-lic">${iconSVG(ILLUS, it.icon, 70)}</span>` : ''}<span>${esc(it.text)}</span></div>`);
+          fx += `<div class="st-box" style="left:${b.x ?? 960}px;top:${b.y ?? 380}px"><div class="st-bo"><div id="${id}" class="st-in st-list">${rframe()}${b.title ? `<h3>${esc(b.title)}</h3>` : ''}${lis.join('')}</div></div></div>`;
           code += `tl.fromTo('#${id}',{opacity:0,y:30},{opacity:1,y:0,duration:.4,immediateRender:false},${t});`;
           b.items.forEach((it, i) => { const ti = it.c !== undefined || it.w !== undefined ? +R2(wordT(k, { c: it.c ?? b.c, w: it.w }, where)) : t + .3 + i * .6;
             code += `tl.fromTo('#${id}l${i}',{opacity:0,x:-40},{opacity:1,x:0,duration:.35,immediateRender:false},${R2(ti)});tl.fromTo('#${id}k${i}',{strokeDashoffset:1},{strokeDashoffset:0,duration:.3,immediateRender:false},${R2(ti + .3)});`;
+            if (it.icon) code += drawCode(`#${id}l${i} .st-lic`, ti, iconSVG(ILLUS, it.icon, 70));
             sfx.push({ t: ti, k: 'tap' }, { t: ti + .3, k: 'tick' }); });
           out(); break; }
-        case 'vs': { const side = (o, cl) => `<div class="st-vs ${cl}">${iconSVG(ILLUS, o.icon, 200)}<div>${esc(o.label || '')}</div></div>`;
+        case 'vs': { const side = (o, cl) => `<div class="st-vs ${cl}">${rframe(cl === 'r' ? '#fbe7d8' : '#fffaf0')}${iconSVG(ILLUS, o.icon, 200)}<div>${esc(o.label || '')}</div></div>`;
           box(`<div class="st-vsrow">${side(b.left, 'l')}<div class="st-vsmid">${esc(b.mid ?? '≠')}</div>${side(b.right, 'r')}</div>`, b.x ?? 960, b.y ?? 400);
           const tr = b.right.c !== undefined || b.right.w !== undefined ? +R2(wordT(k, { c: b.right.c ?? b.c, w: b.right.w }, where)) : t + 1.2;
           code += `tl.set('#${id}',{opacity:1},${t});tl.fromTo('#${id} .l',{opacity:0,x:-120},{opacity:1,x:0,duration:.45,ease:'back.out(1.6)',immediateRender:false},${t});`
             + `tl.fromTo('#${id} .st-vsmid',{opacity:0,scale:3},{opacity:1,scale:1,duration:.3,immediateRender:false},${R2(tr - .3)});tl.fromTo('#${id} .r',{opacity:0,x:120},{opacity:1,x:0,duration:.45,ease:'back.out(1.6)',immediateRender:false},${R2(tr)});`;
+          code += drawCode(`#${id} .l`, t + .1, iconSVG(ILLUS, b.left.icon, 200)) + drawCode(`#${id} .r`, tr + .1, iconSVG(ILLUS, b.right.icon, 200));
           out(); sfx.push({ t, k: 'swish' }, { t: tr - .3, k: 'stamp' }, { t: tr, k: 'swish' }); break; }
         case 'map': { const s = b.s ?? .9, X = b.x ?? 960, Y = b.y ?? 400;
           const pins = b.pins.map(p => { const ll = CITIES[p.city]; if (!ll) throw new Error(`${where}: unknown city "${p.city}" (have: ${Object.keys(CITIES).join(', ')})`); return { ...p, x: MX(ll[0]), y: MY(ll[1]) }; });
@@ -301,7 +357,7 @@ export function buildStories(list, ctx) {
           if (route) code += `tl.fromTo('#${id}r',{strokeDashoffset:1},{strokeDashoffset:0,duration:${R2(Math.max(.6, pt[pt.length - 1] - pt[0]))},ease:'none',immediateRender:false},${R2(pt[0] + .2)});`;
           out(); sfx.push({ t, k: 'paper' }); break; }
         case 'calendar': { const L = b.labels, x = b.x ?? 1600, y = b.y ?? 300, step = Math.min(.8, d / Math.max(1, L.length - 1));
-          box(`<svg viewBox="-100 -110 200 230" width="200" height="230"><g filter="${P}"><circle cx="0" cy="-92" r="8" fill="#6b4a36"/>${L.map((l, i) => `<g id="${id}g${i}"><rect x="-80" y="-80" width="160" height="170" rx="10" fill="#fffaf0" stroke="#c9b48e" stroke-width="3"/><rect x="-80" y="-80" width="160" height="46" rx="10" fill="#d9774b"/><text x="0" y="48" text-anchor="middle" font-family="Nunito" font-weight="800" font-size="${l.length > 4 ? 32 : 50}" fill="#3a2e28">${esc(l)}</text></g>`).reverse().join('')}</g></svg>`, x, y);
+          box(`<svg viewBox="-100 -110 200 230" width="200" height="230"><g filter="${P}"><circle cx="0" cy="-92" r="8" fill="#6b4a36"/>${L.map((l, i) => `<g id="${id}g${i}">${rpaths(RG.rectangle(-80, -80, 160, 170, ro({ fill: '#fffaf0', fillStyle: 'solid', strokeWidth: 3 })))}${rpaths(RG.rectangle(-80, -80, 160, 46, ro({ fill: '#d9774b', fillStyle: 'solid', strokeWidth: 3 })))}<text x="0" y="48" text-anchor="middle" font-family="Nunito" font-weight="800" font-size="${l.length > 4 ? 32 : 50}" fill="#3a2e28">${esc(l)}</text></g>`).reverse().join('')}</g></svg>`, x, y);
           popIn();
           L.slice(0, -1).forEach((_, i) => { const ti = t + .5 + i * step; code += `tl.to('#${id}g${i}',{rotation:${i % 2 ? 24 : -28},y:420,x:${i % 2 ? 70 : -60},opacity:0,duration:${R2(Math.min(.6, step))},ease:'power2.in',transformOrigin:'50% 0%',immediateRender:false},${R2(ti)});`; sfx.push({ t: ti, k: 'paper' }); });
           out(); break; }
@@ -310,25 +366,26 @@ export function buildStories(list, ctx) {
           code += `tl.set('#${id}',{opacity:1},${t});`;
           L.forEach((_, i) => { const ti = t + i * step; code += `tl.set('#${id}n${i}',{opacity:1},${R2(ti)});` + (i < L.length - 1 ? `tl.set('#${id}n${i}',{opacity:0},${R2(ti + step)});` : ''); sfx.push({ t: ti, k: 'tick' }); });
           code += `tl.set('#${id} span',{opacity:0},0);`; out(); break; }
-        case 'clock': box(`<svg viewBox="-110 -110 220 220" width="240" height="240"><g filter="${P}"><circle r="100" fill="#fffaf0" stroke="#3a2e28" stroke-width="8"/>${Array.from({ length: 12 }, (_, i) => `<path d="M0 -84 V-72" stroke="#3a2e28" stroke-width="5" transform="rotate(${i * 30})"/>`).join('')}
+        case 'clock': box(`<svg viewBox="-110 -110 220 220" width="240" height="240"><g filter="${P}">${rpaths(RG.circle(0, 0, 200, ro({ fill: '#fffaf0', fillStyle: 'solid', strokeWidth: 6 })))}${Array.from({ length: 12 }, (_, i) => `<path d="M0 -84 V-72" stroke="#3a2e28" stroke-width="5" transform="rotate(${i * 30})"/>`).join('')}
             <path id="${id}h" d="M0 8 V-50" stroke="#3a2e28" stroke-width="9" stroke-linecap="round"/><path id="${id}m" d="M0 10 V-76" stroke="#b8552a" stroke-width="6" stroke-linecap="round"/><circle r="8" fill="#3a2e28"/></g></svg>`, b.x ?? 1500, b.y ?? 320);
           popIn(); code += `tl.set(['#${id}h','#${id}m'],{svgOrigin:'0 0'},0);tl.fromTo('#${id}m',{rotation:0},{rotation:${360 * (b.turns ?? 6)},duration:${d},ease:'power1.inOut',immediateRender:false},${t});tl.fromTo('#${id}h',{rotation:0},{rotation:${30 * (b.turns ?? 6)},duration:${d},ease:'power1.inOut',immediateRender:false},${t});`;
           out(); sfx.push(...Array.from({ length: Math.floor(d / .5) }, (_, i) => ({ t: t + i * .5, k: 'tick' }))); break;
         case 'bars': {
-          box(`<div class="st-bars">${b.title ? `<h3>${esc(b.title)}</h3>` : ''}<div class="st-barrow">${b.items.map((it, i) => `<div class="st-bar"><div class="st-bv" id="${id}v${i}" style="height:${Math.round(it.v * 3.2)}px;background:${['#d9774b', '#8fae8b', '#5b7398', '#f3c96b', '#e8907e'][i % 5]}"></div><span>${esc(it.label)}</span></div>`).join('')}</div></div>`, b.x ?? 960, b.y ?? 400);
+          box(`<div class="st-bars">${rframe()}${b.title ? `<h3>${esc(b.title)}</h3>` : ''}<div class="st-barrow">${b.items.map((it, i) => `<div class="st-bar"><div class="st-bv" id="${id}v${i}" style="height:${Math.round(it.v * 3.2)}px">${rframe(['#d9774b', '#8fae8b', '#5b7398', '#e2a53f', '#e8907e'][i % 5], { hachure: true })}</div><span>${esc(it.label)}</span></div>`).join('')}</div></div>`, b.x ?? 960, b.y ?? 400);
           popIn(); b.items.forEach((_, i) => { code += `tl.fromTo('#${id}v${i}',{scaleY:0,transformOrigin:'50% 100%'},{scaleY:1,duration:.6,ease:'power2.out',immediateRender:false},${R2(t + .4 + i * .3)});`; sfx.push({ t: t + .4 + i * .3, k: 'rise' }); });
           out(); break; }
         case 'battery': { const from = b.from ?? 100, to = b.to ?? 10;
-          box(`<div class="st-batt"><svg viewBox="0 0 260 130" width="300" height="150"><g filter="${P}"><rect x="6" y="6" width="226" height="118" rx="18" fill="#fffaf0" stroke="#3a2e28" stroke-width="8"/><rect x="234" y="40" width="20" height="50" rx="6" fill="#3a2e28"/>
-            <rect id="${id}f" x="20" y="20" width="198" height="90" rx="10" fill="#8fae8b"/></g></svg>${b.label ? `<div>${esc(b.label)}</div>` : ''}</div>`, b.x ?? 1500, b.y ?? 300);
+          box(`<div class="st-batt"><svg viewBox="0 0 260 130" width="300" height="150"><g filter="${P}">${rpaths(RG.rectangle(6, 6, 226, 118, ro({ fill: '#fffaf0', fillStyle: 'solid', strokeWidth: 6 })))}${rpaths(RG.rectangle(234, 40, 20, 50, ro({ fill: '#3a2e28', fillStyle: 'solid' })))}
+            <g id="${id}f">${rpaths(RG.rectangle(22, 22, 194, 86, ro({ fill: '#6f8e6b', fillStyle: 'hachure', hachureGap: 9, fillWeight: 4, stroke: 'none' })))}</g></g></svg>${b.label ? `<div>${esc(b.label)}</div>` : ''}</div>`, b.x ?? 1500, b.y ?? 300);
           popIn();
-          code += `tl.set('#${id}f',{scaleX:${from / 100},transformOrigin:'0% 50%',fill:'${from > 50 ? '#8fae8b' : '#e2733f'}'},0);tl.to('#${id}f',{scaleX:${Math.max(.04, to / 100)},fill:'${to > 50 ? '#8fae8b' : to > 25 ? '#f3c96b' : '#e2733f'}',duration:${d},ease:'power1.inOut',immediateRender:false},${R2(t + .4)});`;
+          const cl = v => v > 50 ? '#6f8e6b' : v > 25 ? '#e2a53f' : '#d9572b';
+          code += `tl.set('#${id}f',{scaleX:${from / 100},transformOrigin:'0% 50%'},0);tl.set('#${id}f path',{stroke:'${cl(from)}'},0);tl.to('#${id}f',{scaleX:${Math.max(.04, to / 100)},duration:${d},ease:'power1.inOut',immediateRender:false},${R2(t + .4)});tl.to('#${id}f path',{stroke:'${cl(to)}',duration:${d},ease:'power1.inOut',immediateRender:false},${R2(t + .4)});`;
           out(); sfx.push({ t, k: 'pop' }, { t: t + .4 + d, k: to < from ? 'buzz' : 'chime' }); break; }
         case 'dream': { const ics = b.icons || [b.icon];
           box(`<svg class="st-cloudsvg" viewBox="-300 -200 600 380" width="600" height="380"><g filter="${P}">${[[-180, 0, 110], [-60, -70, 130], [90, -60, 130], [200, 10, 110], [60, 70, 120], [-100, 70, 120]].map(([x, y, r]) => `<circle cx="${x}" cy="${y}" r="${r}" fill="#fffaf0" stroke="#c9b48e" stroke-width="4"/>`).join('')}
             ${[[-180, 0, 106], [-60, -70, 126], [90, -60, 126], [200, 10, 106], [60, 70, 116], [-100, 70, 116]].map(([x, y, r]) => `<circle cx="${x}" cy="${y}" r="${r}" fill="#fffaf0"/>`).join('')}</g></svg>
             <div class="st-dreamin">${ics.map(n => iconSVG(ILLUS, n, ics.length > 1 ? 150 : 220)).join('')}</div>${b.label ? `<div class="st-dreamlab">${esc(b.label)}</div>` : ''}`, b.x ?? 1300, b.y ?? 300);
-          code += `tl.fromTo('#${id}',{opacity:0,scale:.3},{opacity:1,scale:1,duration:.6,ease:'back.out(1.5)',immediateRender:false},${t});`;
+          code += `tl.fromTo('#${id}',{opacity:0,scale:.3},{opacity:1,scale:1,duration:.6,ease:'back.out(1.5)',immediateRender:false},${t});` + drawCode(`#${id} .st-dreamin`, t + .4, ics.map(n => iconSVG(ILLUS, n, 150)).join(''));
           out(); sfx.push({ t, k: 'chime' }); break; }
         case 'heart': box(`<svg viewBox="-80 -70 160 140" width="180" height="160"><g filter="${P}"><path d="M0 50 C-70 0 -62 -56 -24 -56 C-8 -56 0 -40 0 -32 C0 -40 8 -56 24 -56 C62 -56 70 0 0 50Z" fill="#e8907e" stroke="#9a4a3a" stroke-width="4"/>
             ${b.broken !== false ? '<path d="M2 -30 L-10 -6 L8 8 L-4 34" stroke="#9a4a3a" stroke-width="5" fill="none"/><rect x="-36" y="-14" width="72" height="22" rx="6" fill="#fff6e0" stroke="#c9a77c" stroke-width="3" transform="rotate(-20)"/>' : ''}</g></svg>${b.label ? `<div class="st-lab">${esc(b.label)}</div>` : ''}`, b.x ?? 1110, b.y ?? 330);
@@ -344,6 +401,48 @@ export function buildStories(list, ctx) {
           if (end) for (let i = 0; i < n; i++) code += `tl.to('#${id}s${i}',{opacity:0,duration:.3,immediateRender:false},${end});`; break; }
         case 'sky': { const n = b.n ?? 3; code += `tl.fromTo('${R} .st-moon',{x:-250,y:190},{x:0,y:0,duration:${R2(Math.max(.6, d / n))},ease:'none',repeat:${n - 1},immediateRender:false},${t});tl.set('${R} .st-moon',{x:0,y:0},${R2(t + d + .05)});`
           + `tl.fromTo('${R} .st-lampglow',{opacity:.15},{opacity:.5,duration:.45,yoyo:true,repeat:${Math.max(1, Math.round(d / .45)) | 1},immediateRender:false},${t});`; break; }
+        // ---- hand-drawn strokes (rough.js, drawn on) ----
+        case 'arrow': { const [x1, y1] = b.from, [x2, y2] = b.to, L = Math.hypot(x2 - x1, y2 - y1), bend = b.bend ?? .18, nx = -(y2 - y1) / L, ny = (x2 - x1) / L;
+          const mx = (x1 + x2) / 2 + nx * L * bend, my = (y1 + y2) / 2 + ny * L * bend, a = Math.atan2(y2 - my, x2 - mx), col = b.color ?? '#b8552a';
+          const head = [[x2 - 36 * Math.cos(a - .45), y2 - 36 * Math.sin(a - .45)], [x2, y2], [x2 - 36 * Math.cos(a + .45), y2 - 36 * Math.sin(a + .45)]];
+          svgFx += `<g id="${id}">${rdraw(RG.curve([[x1, y1], [mx, my], [x2, y2]], ro({ stroke: col, strokeWidth: 6, roughness: 1.1 })))}${rdraw(RG.linearPath(head, ro({ stroke: col, strokeWidth: 6, roughness: .8 })))}</g>`;
+          code += drawCode(`#${id}`, t, 'stroke-dashoffset="1"', b.d ?? .6); out(); sfx.push({ t, k: 'scribble' }); break; }
+        case 'circle': { const col = b.color ?? '#b8552a', rx = b.rx ?? 160, ry = b.ry ?? 90;
+          svgFx += `<g id="${id}">${rdraw(RG.ellipse(b.x, b.y, rx * 2, ry * 2, ro({ stroke: col, strokeWidth: 6, roughness: 1.8 })))}${b.label ? `<text id="${id}t" x="${b.x + rx * .7}" y="${b.y - ry - 14}" font-family="Caveat, cursive" font-weight="700" font-size="54" fill="${col}" opacity="0">${esc(b.label)}</text>` : ''}</g>`;
+          code += drawCode(`#${id}`, t, 'stroke-dashoffset="1"', b.d ?? .7) + (b.label ? `tl.fromTo('#${id}t',{opacity:0,y:10},{opacity:1,y:0,duration:.35,immediateRender:false},${R2(t + .6)});` : '');
+          if (b.label) usesCaveat = true; out(); sfx.push({ t, k: 'scribble' }); break; }
+        case 'underline': { const col = b.color ?? '#d9774b', w = b.width ?? 400, x0 = b.x - w / 2, n = 6;
+          const pts = Array.from({ length: n + 1 }, (_, i) => [x0 + w * i / n, b.y + (i % 2 ? -7 : 7)]);
+          svgFx += `<g id="${id}">${rdraw(RG.curve(pts, ro({ stroke: col, strokeWidth: 7, roughness: .9 })))}</g>`;
+          code += drawCode(`#${id}`, t, 'stroke-dashoffset="1"', b.d ?? .5); out(); sfx.push({ t, k: 'scribble' }); break; }
+        case 'write': { const chars = [...String(b.text)], step = Math.min(.08, (b.d ?? chars.length * .06) / chars.length); usesCaveat = true;
+          box(`<div class="st-write" style="font-size:${b.size ?? 80}px;color:${b.color ?? '#3a2e28'}">${chars.map((ch, i) => `<span id="${id}c${i}">${ch === ' ' ? '&nbsp;' : esc(ch)}</span>`).join('')}</div>`, b.x ?? 960, b.y ?? 400);
+          code += `tl.set('#${id}',{opacity:1},${t});`;
+          chars.forEach((_, i) => code += `tl.fromTo('#${id}c${i}',{opacity:0,y:6,scale:.6},{opacity:1,y:0,scale:1,duration:.12,immediateRender:false},${R2(t + i * step)});`);
+          out(); sfx.push({ t, k: 'scribble' }, ...(chars.length > 12 ? [{ t: t + chars.length * step / 2, k: 'scribble' }] : [])); break; }
+        // a single drawing (Excalidraw "x:…", ILLUS name, "b:…") drawn on anywhere on the page
+        case 'draw': { const h = box(`${iconSVG(ILLUS, b.icon, b.size ?? 260)}${b.label ? `<div class="st-lab">${esc(b.label)}</div>` : ''}`, b.x ?? 960, b.y ?? 400);
+          code += `tl.set('#${id}',{opacity:1},${t});` + drawCode(`#${id}`, t, h, b.d ?? .9) + (b.label ? `tl.fromTo('#${id} .st-lab',{opacity:0,y:12},{opacity:1,y:0,duration:.35,immediateRender:false},${R2(t + .7)});` : '');
+          out(); sfx.push({ t, k: 'scribble' }); break; }
+        // ---- departure board (split-flap): lines of text flip into place letter by letter ----
+        case 'flap': { const lines = b.lines.map(l => String(l).toUpperCase()), W2 = Math.max(...lines.map(l => l.length)), AL = 'ABCDEFGHIJKLMNOPRSTUVZ0123456789';
+          let cells = '', cc = 0, last = t;
+          const rows = lines.map(l => { let r = ''; [...l.padEnd(W2)].forEach((ch, ci) => {
+            const seq = ch === ' ' ? [' '] : [...Array.from({ length: 5 }, (_, q) => AL[(cc * 7 + q * 11 + ci * 3) % AL.length]), ch], cid = `${id}f${cc}`, t0 = t + .3 + cc * .045;
+            r += `<span class="st-fc" id="${cid}">${seq.map((x, q) => `<b class="q${q}">${x === ' ' ? '&nbsp;' : esc(x)}</b>`).join('')}</span>`;
+            if (seq.length > 1) seq.forEach((_, q) => { const tq = t0 + q * .075; if (q) code += `tl.set('#${cid} .q${q - 1}',{opacity:0},${R2(tq)});`; code += `tl.set('#${cid} .q${q}',{opacity:1},${R2(tq)});tl.fromTo('#${cid}',{scaleY:.55},{scaleY:1,duration:.07,immediateRender:false},${R2(tq)});`; last = Math.max(last, tq); });
+            cc++; }); return `<div class="st-fr">${r}</div>`; });
+          box(`<div class="st-flap">${b.title ? `<h4>${esc(b.title)}</h4>` : ''}${rows.join('')}</div>`, b.x ?? 960, b.y ?? 380);
+          code += `tl.set('#${id} .st-fc b',{opacity:0},0);` + lines.map(() => '').join('');
+          code += `Array.from(document.querySelectorAll('#${id} .st-fc')).forEach(c=>{ if(c.children.length===1) tl.set(c.children[0],{opacity:1},0); });`;
+          popIn(); for (let q = t + .3; q < last; q += .15) sfx.push({ t: q, k: 'tick' }); out(); break; }
+        // ---- rolling number (odometer): digits spin into place ----
+        case 'wheel': { const val = String(b.value), dd = b.d ?? 1.8; let di = 0;
+          const cols = [...val].map(ch => /\d/.test(ch) ? `<span class="st-wc"><span class="st-ws" id="${id}d${di++}">${Array.from({ length: 30 }, (_, q) => `<b>${q % 10}</b>`).join('')}</span></span>` : `<span class="st-wx">${ch === ' ' ? '&nbsp;' : esc(ch)}</span>`);
+          box(`<div class="st-wheel" style="font-size:${b.size ?? 140}px">${cols.join('')}</div>${b.label ? `<div class="st-wlab">${esc(b.label)}</div>` : ''}`, b.x ?? 960, b.y ?? 380);
+          popIn(); let n = 0;
+          [...val].forEach(ch => { if (!/\d/.test(ch)) return; const k2 = n++; code += `tl.fromTo('#${id}d${k2}',{yPercent:0},{yPercent:${-(20 + +ch) / 30 * 100},duration:${R2(dd - k2 * .1)},ease:'power3.out',immediateRender:false},${R2(t + .2 + k2 * .1)});`; });
+          sfx.push(...Array.from({ length: Math.floor(dd / .12) }, (_, q) => ({ t: t + .2 + q * .12, k: 'tick' })), { t: t + .2 + dd, k: 'ding' }); out(); break; }
         case 'hide': (b.ids || []).forEach(n => { const tgt = (st.beats || []).find(x => x.id === n); if (!tgt) throw new Error(`${where}: no beat with id "${n}"`); code += `tl.to('[id^="${tgt._el}"]',{opacity:0,duration:.35,immediateRender:false},${t});`; }); break;
       }
     });
@@ -353,6 +452,7 @@ export function buildStories(list, ctx) {
       ${fx}
       <div class="st-frame"></div>${st.tag ? `<div class="st-tag">${st.tag.includes('|') ? `<b>${esc(st.tag.split('|')[0])}</b> · ${esc(st.tag.split('|')[1])}` : esc(st.tag)}</div>` : ''}
     </div>`;
+    boils.push([IN, OUT, k]);
     js += `tl.set('${R}',{opacity:1},${R2(IN)});tl.set('${R}',{opacity:0},${R2(OUT)});`
       + `Array.from(document.querySelectorAll('${R} .st-lay')).forEach(l=>{const kk=+l.dataset.k;if(kk)tl.fromTo(l,{x:0},{x:-60*kk,duration:${R2(OUT - IN)},ease:'none',immediateRender:false},${IN});});`
       + (st.tag ? `tl.fromTo('${R} .st-tag',{y:-120},{y:0,duration:.5,ease:'back.out(1.6)',immediateRender:false},${R2(IN + .2)});` : '') + code;
@@ -363,8 +463,18 @@ export function buildStories(list, ctx) {
     // ---- story cutaways (tools/story.mjs) ----
     (function(){
       ${js}
+      // hand-drawn "boil": every box on the page re-poses by ~1px every 0.1 s (seeded, a pure function of the time → seek-safe)
+      const bels=${JSON.stringify(boils)}.map(([s,e,k])=>[s,e,Array.from(document.querySelectorAll('#st'+k+' .st-bo'))]).filter(x=>x[2].length);
+      if(bels.length){
+        const hh=(n,sd)=>{const x=Math.sin(n*127.1+sd*311.7)*43758.5453;return (x-Math.floor(x))*2-1;};
+        const prev=tl.eventCallback('onUpdate');
+        tl.eventCallback('onUpdate',function(){ if(prev) prev.apply(this,arguments); const t=tl.time(), q=Math.floor(t*10);
+          bels.forEach(([s,e,els])=>{ if(t<s-.2||t>e+.2) return; els.forEach((el,i)=>gsap.set(el,{x:hh(q*3+i*97,7)*1.4,y:hh(q*3+1+i*97,7)*1.4,rotation:hh(q*3+2+i*97,7)*.5})); }); });
+      }
     })();`;
-  const css = `
+  if (html.includes('Caveat')) usesCaveat = true;
+  const css = `${usesCaveat ? `
+    @font-face{font-family:"Caveat";src:url(data:font/woff2;base64,${fs.readFileSync(CAVEAT).toString('base64')}) format("woff2");font-weight:700;font-display:block}` : ''}
     #story{position:absolute;inset:0;pointer-events:none}
     .st-page{position:absolute;inset:0;opacity:0;overflow:hidden;background:#f6eddc}
     .st-frame{position:absolute;inset:18px;border:6px solid #3a2e28;border-radius:22px;box-shadow:inset 0 0 0 10px #f6eddc, inset 0 0 120px rgba(120,80,40,.3)}
@@ -375,31 +485,48 @@ export function buildStories(list, ctx) {
     .st-glyph{font-family:"Nunito";font-weight:800;line-height:1}
     .st-title{font:700 96px "Playfair Display";color:#3a2e28;text-align:center;white-space:nowrap}
     .st-text{font-family:Nunito;font-weight:800;text-align:center;max-width:1500px;line-height:1.2}
-    .st-w{display:inline-block;opacity:0}
+    .st-w{display:inline-block;opacity:0;position:relative}
+    .st-title,.st-text{isolation:isolate}
+    .st-mk{position:absolute;left:-.08em;right:-.08em;bottom:.1em;height:.42em;background:#f3c96b;opacity:.8;z-index:-1;transform-origin:0 50%;transform:scaleX(0);border-radius:.25em .1em .3em .12em}
+    .st-rf{position:absolute;left:-6px;top:-6px;width:calc(100% + 12px);height:calc(100% + 12px);z-index:-1;overflow:visible}
+    .st-lic{display:inline-flex}
+    .st-write{font-family:"Caveat",cursive;font-weight:700;white-space:nowrap;line-height:1.15}
+    .st-write span{display:inline-block;opacity:0}
+    .st-flap{display:flex;flex-direction:column;gap:10px;padding:22px 26px;background:#2f3440;border-radius:18px;box-shadow:6px 8px 0 rgba(58,46,40,.25)}
+    .st-flap h4{margin:0 0 4px;font:800 30px Nunito;color:#f3c96b;letter-spacing:5px}
+    .st-fr{display:flex;gap:6px}
+    .st-fc{position:relative;display:inline-block;width:56px;height:80px;background:#1f232c;border-radius:8px;font:800 58px Nunito;color:#f6eddc}
+    .st-fc b{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-weight:800}
+    .st-fc::after{content:"";position:absolute;left:0;right:0;top:50%;height:2px;background:rgba(0,0,0,.5)}
+    .st-wheel{display:flex;font-family:"Playfair Display";font-weight:700;color:#b8552a;line-height:1.1}
+    .st-wc{display:inline-block;height:1.1em;overflow:hidden}
+    .st-ws{display:flex;flex-direction:column}
+    .st-ws b{display:block;height:1.1em;font-weight:700;text-align:center}
+    .st-wx{display:inline-block;min-width:.28em;text-align:center}
+    .st-wlab{font:800 40px Nunito;color:#3a2e28}
     .st-ul{margin-top:-6px}
     .st-sub{font:700 40px Nunito;color:#5b7398;opacity:0}
-    .st-note{position:relative;padding:30px 34px 26px;max-width:420px;font:800 36px Nunito;color:#3a2e28;box-shadow:4px 6px 0 rgba(58,46,40,.18);text-align:center}
+    .st-note{position:relative;isolation:isolate;padding:30px 34px 26px;max-width:420px;font:800 36px Nunito;color:#3a2e28;text-align:center}
     .st-note i{position:absolute;left:50%;top:-12px;width:24px;height:24px;margin-left:-12px;border-radius:50%;background:#b8552a;border:3px solid #3a2e28}
-    .st-stamp{white-space:nowrap;padding:10px 34px;border:7px solid;border-radius:14px;font:900 64px Nunito;letter-spacing:2px;text-transform:uppercase;background:rgba(255,250,240,.6)}
-    .st-say{max-width:460px;padding:20px 30px;background:#fffaf0;border:4px solid #3a2e28;border-radius:30px;font:800 36px Nunito;color:#3a2e28;text-align:center;position:relative}
-    .st-say.whisper{border-color:#7a66a0;color:#5a4680;font-style:italic;border-style:dashed}
-    .st-badge{background:#fffaf0;border:4px solid #3a2e28;border-radius:26px;padding:14px 18px 12px;box-shadow:5px 6px 0 rgba(58,46,40,.16)}
+    .st-stamp{position:relative;isolation:isolate;white-space:nowrap;padding:14px 38px;font:900 64px Nunito;letter-spacing:2px;text-transform:uppercase}
+    .st-say{max-width:460px;padding:22px 32px;font:800 36px Nunito;color:#3a2e28;text-align:center;position:relative;isolation:isolate}
+    .st-say.whisper{color:#5a4680;font-style:italic}
+    .st-badge{position:relative;isolation:isolate;padding:16px 22px 14px}
     .st-badge div{font:800 34px Nunito;color:#3a2e28}
-    .st-list{align-items:flex-start;background:#fffaf0;border:4px solid #3a2e28;border-radius:22px;padding:24px 40px;gap:14px;box-shadow:6px 8px 0 rgba(58,46,40,.16)}
+    .st-list{position:relative;isolation:isolate;align-items:flex-start;padding:26px 44px;gap:14px}
     .st-list h3{margin:0 0 4px;font:700 50px "Playfair Display";color:#b8552a}
     .st-li{display:flex;align-items:center;gap:18px;font:800 42px Nunito;color:#3a2e28;opacity:0}
     .st-vsrow{display:flex;align-items:center;gap:60px}
-    .st-vs{display:flex;flex-direction:column;align-items:center;background:#fffaf0;border:4px solid #3a2e28;border-radius:26px;padding:20px 30px;font:800 44px Nunito;color:#3a2e28;opacity:0}
-    .st-vs.r{background:#fbe7d8}
+    .st-vs{position:relative;isolation:isolate;display:flex;flex-direction:column;align-items:center;padding:22px 32px;font:800 44px Nunito;color:#3a2e28;opacity:0}
     .st-vsmid{font:900 110px "Playfair Display";color:#b8552a;opacity:0}
     .st-maptitle{font:700 46px "Playfair Display";color:#3a2e28;margin-top:-16px}
     .st-count{position:relative;width:420px;height:200px}
     .st-count span{position:absolute;left:0;right:0;text-align:center;top:30px;font-family:"Playfair Display";font-weight:700;color:#b8552a;opacity:0}
-    .st-bars{background:#fffaf0;border:4px solid #3a2e28;border-radius:22px;padding:24px 40px}
+    .st-bars{position:relative;isolation:isolate;padding:26px 44px}
     .st-bars h3{margin:0 0 10px;font:700 46px "Playfair Display";color:#3a2e28;text-align:center}
     .st-barrow{display:flex;align-items:flex-end;gap:40px;height:360px}
     .st-bar{display:flex;flex-direction:column;align-items:center;gap:8px;font:800 30px Nunito;color:#3a2e28}
-    .st-bv{width:110px;border:4px solid #3a2e28;border-radius:12px 12px 0 0}
+    .st-bv{position:relative;isolation:isolate;width:110px}
     .st-batt{display:flex;flex-direction:column;align-items:center;font:800 36px Nunito;color:#3a2e28}
     .st-dreamin{position:absolute;left:0;right:0;top:110px;display:flex;justify-content:center;gap:10px}
     .st-dreamlab{position:absolute;left:50%;top:-10px;transform:translateX(-50%);padding:8px 26px;background:#8fae8b;border-radius:12px;font:800 32px Nunito;color:#fffaf0;white-space:nowrap}

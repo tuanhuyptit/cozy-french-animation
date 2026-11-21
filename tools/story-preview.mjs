@@ -17,27 +17,32 @@ const args = process.argv.slice(2), flag = k => args.includes('--' + k);
 const PRESETS = {
   intro: { ep: 'cozy-ep17', c: [0, 64], stories: [
     { c: [1, 5], place: 'papier', beats: [
-      { c: 1, w: 'Bienvenue', do: 'title', text: 'The Cozy French', sub: 'votre petit rendez-vous du français', y: 300 },
+      { c: 1, w: 'Bienvenue', do: 'title', text: 'The Cozy French', sub: 'votre petit rendez-vous du français', y: 300, mark: 'Cozy' },
       { c: 4, w: 'conversations', do: 'icons', y: 620, items: [{ icon: 'amis', label: 'conversations', c: 4, w: 'conversations' }, { icon: 'cafe', label: 'chaleureuses', c: 5, w: 'chaleureuses' }] },
     ] },
     { c: [10, 13], place: 'papier', beats: [
-      { c: 10, do: 'icons', y: 380, items: [{ icon: 'famille', label: 'à la maison', c: 10, w: 'Que' }, { icon: 'voiture', label: 'dans les transports', c: 11, w: 'transports' }, { icon: 'cafe', label: 'votre café', c: 12, w: 'café' }] },
-      { c: 13, w: 'installez', do: 'text', text: 'Installez-vous confortablement…', y: 650, size: 58, color: '#b8552a' },
+      { c: 10, w: 'maison', do: 'draw', id: 'd1', icon: 'x:home', x: 480, y: 360, size: 220, label: 'à la maison' },
+      { c: 11, w: 'transports', do: 'draw', id: 'd2', icon: 'voiture', x: 960, y: 360, size: 300, label: 'dans les transports' },
+      { c: 12, w: 'café', do: 'draw', id: 'd3', icon: 'cafe', x: 1440, y: 360, size: 300, label: 'votre café' },
+      { c: 13, w: 'installez', do: 'write', text: 'Installez-vous confortablement…', x: 960, y: 640, size: 84, color: '#b8552a' },
     ] },
     { c: [19, 20], place: 'chambre', cast: [{ id: 'm', who: 'mat', x: 760 }], beats: [
       { c: 19, w: 'lundi', do: 'calendar', labels: ['LUN', 'MAR', 'MER', 'JEU', 'VEN'], d: 2.4, x: 1650, y: 330 },
       { c: 19, w: 'lundi', do: 'face', on: 'm', face: 'star' }, { c: 19, w: 'lundi', do: 'bob', on: 'm', d: 2.6 },
       { c: 19, w: 'discipliné', do: 'stamp', text: 'Discipliné !', x: 1150, y: 260, color: '#6f8e6b' },
+      { c: 20, w: 'vendredi', do: 'circle', x: 1650, y: 335, rx: 120, ry: 110 },
       { c: 20, w: 'vendredi', do: 'face', on: 'm', face: 'tired' }, { c: 20, w: 'vendredi', do: 'droop', on: 'm' }, { c: 20, w: 'vendredi', do: 'zzz', on: 'm', d: 2.5 },
     ] },
     { c: [23, 27], place: 'papier', beats: [
       { c: 23, do: 'list', title: 'Le lundi, je veux…', x: 680, y: 400, items: [
         { text: 'travailler efficacement', icon: 'travail', c: 24, w: 'travailler' }, { text: 'faire du sport', icon: 'sport', c: 24, w: 'sport' },
         { text: 'lire davantage', icon: 'lecture', c: 25, w: 'lire' }, { text: 'prendre soin de moi', icon: 'sante', c: 25, w: 'soin' }] },
-      { c: 26, w: 'jours', do: 'battery', from: 100, to: 6, d: 3.4, x: 1460, y: 380, label: "l'enthousiasme" },
+      { c: 26, w: 'jours', do: 'arrow', from: [1090, 330], to: [1300, 380], bend: -.25 },
+      { c: 26, w: 'jours', do: 'battery', from: 100, to: 6, d: 3.4, x: 1500, y: 380, label: "l'enthousiasme" },
+      { c: 27, w: 'disparaître', do: 'draw', icon: 'x:e-tired', x: 1500, y: 600, size: 140 },
     ] },
     { c: [37, 48], place: 'bureau', cast: [{ id: 'm', who: 'mat', x: 640 }], beats: [
-      { c: 37, w: 'semaines', do: 'calendar', labels: ['Sem. 1', 'Sem. 2'], d: 1, x: 1660, y: 250 },
+      { c: 37, w: 'Depuis', do: 'flap', title: 'À FAIRE', lines: ['RANGER', '2 SEMAINES'], x: 1500, y: 230, until: { c: 39 } },
       { c: 38, w: 'documents', do: 'pile', n: 8, d: 3.2, x: 1380, y: 600 },
       { c: 40, w: 'soir', do: 'sky', d: 3, n: 3 },
       { c: 41, w: 'rentre', do: 'face', on: 'm', face: 'tired' },
@@ -49,7 +54,7 @@ const PRESETS = {
       { c: 48, w: 'créative', do: 'face', on: 'm', face: 'sad' },
     ] },
     { c: [51, 59], place: 'papier', beats: [
-      { c: 51, w: 'discipline', do: 'title', text: 'La discipline mentale', y: 260, id: 't' },
+      { c: 51, w: 'discipline', do: 'title', text: 'La discipline mentale', y: 260, id: 't', mark: 'mentale' },
       { c: 53, w: 'habitudes', do: 'icons', y: 580, id: 'i', items: [{ icon: 'b:calendar', label: 'nos habitudes', c: 53, w: 'habitudes' }, { icon: 'b:search', label: 'notre attention', c: 54, w: 'attention' }, { icon: 'b:question', label: 'nos décisions', c: 54, w: 'décisions' }] },
       { c: 57, w: 'travailler', do: 'hide', ids: ['i'] },
       { c: 57, w: 'travailler', do: 'text', text: 'travailler sans arrêt ?', y: 480, size: 60 },
@@ -78,7 +83,7 @@ const PRESETS = {
       { c: 192, w: 'relation', do: 'heart', label: '« C\'est compliqué »', x: 1180, y: 330, until: { c: 196 } },
       { c: 193, w: 'trois', do: 'icons', y: 300, items: [{ icon: 'Do', label: 'accord 1' }, { icon: 'Sol', label: 'accord 2' }, { icon: 'Ré', label: 'accord 3' }], until: { c: 197 } },
       { c: 196, do: 'calendar', labels: ['Sem. 1', 'Sem. 2', 'Sem. 3', 'Sem. 4'], d: 1.6, x: 1730, y: 320 },
-      { c: 198, w: 'répéter', do: 'work', on: 'm', d: 3.6 }, { c: 198, w: 'répéter', do: 'count', labels: ['×1', '×2', '×5', '×10', '×50', '×99'], d: 3.6, x: 460, y: 300 },
+      { c: 198, w: 'répéter', do: 'work', on: 'm', d: 3.6 }, { c: 198, w: 'répéter', do: 'wheel', value: '×99', label: 'encore et encore', d: 3.2, size: 120, x: 460, y: 300 },
       { c: 198, w: 'mêmes', do: 'face', on: 'm', face: 'tired' }, { c: 198, w: 'mêmes', do: 'band', on: 'm' }, { c: 198, w: 'mêmes', do: 'droop', on: 'm' },
       { c: 200, w: 'moins', do: 'stamp', text: 'En vrai', x: 600, y: 520 },
       { c: 201, w: 'imaginé', do: 'dream', icon: 'musique', label: 'Dans ma tête…', x: 1320, y: 290 },
