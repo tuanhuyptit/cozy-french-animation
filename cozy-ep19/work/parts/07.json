@@ -1,0 +1,544 @@
+[
+ {
+  "who": "lea",
+  "fr": "changer de métier ou de domaine professionnel",
+  "en": "changing job or professional field"
+ },
+ {
+  "who": "lea",
+  "fr": "après avoir déjà travaillé dans un autre secteur.",
+  "en": "after already working in another sector."
+ },
+ {
+  "who": "mat",
+  "fr": "Par exemple :",
+  "en": "For example:"
+ },
+ {
+  "who": "mat",
+  "fr": "« Après dix ans dans la finance, elle a décidé",
+  "en": "\"After ten years in finance, she decided"
+ },
+ {
+  "who": "mat",
+  "fr": "de se reconvertir dans l'enseignement. »",
+  "en": "to retrain as a teacher.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Voilà six expressions très utiles",
+  "en": "There you go, six very useful expressions"
+ },
+ {
+  "who": "lea",
+  "fr": "pour parler du travail et de l'avenir.",
+  "en": "to talk about work and the future."
+ },
+ {
+  "who": "mat",
+  "fr": "Et maintenant, regardons comment rendre",
+  "en": "And now, let's see how to make"
+ },
+ {
+  "who": "mat",
+  "fr": "certaines phrases plus naturelles en français.",
+  "en": "some sentences sound more natural in French."
+ },
+ {
+  "who": "lea",
+  "fr": "Commençons avec : « Je veux être médecin. »",
+  "en": "Let's start with: \"I want to be a doctor.\"",
+  "board": {
+   "mode": "transform",
+   "bg": "craie",
+   "title": "Plus naturel",
+   "from": "Je *veux être* médecin.",
+   "to": "J'*aimerais devenir* médecin.",
+   "fromTag": "direct",
+   "toTag": "naturel",
+   "label": "conditionnel + devenir",
+   "en": "I'd like to become a doctor.",
+   "changeAt": 1
+  }
+ },
+ {
+  "who": "mat",
+  "fr": "On peut dire : « J'aimerais devenir médecin. »",
+  "en": "You can say: \"I'd like to become a doctor.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Ou : « Mon rêve serait d'exercer la médecine. »",
+  "en": "Or: \"My dream would be to practise medicine.\"",
+  "boardEnd": true
+ },
+ {
+  "who": "mat",
+  "fr": "Deuxième phrase :",
+  "en": "Second sentence:"
+ },
+ {
+  "who": "mat",
+  "fr": "« Je ne sais pas quel travail choisir. »",
+  "en": "\"I don't know which job to choose.\""
+ },
+ {
+  "who": "lea",
+  "fr": "On peut dire : « Je cherche encore",
+  "en": "You can say: \"I'm still looking for"
+ },
+ {
+  "who": "lea",
+  "fr": "le métier qui me correspond. »",
+  "en": "the job that suits me.\""
+ },
+ {
+  "who": "mat",
+  "fr": "Ou : « Je suis encore en train de réfléchir",
+  "en": "Or: \"I'm still thinking"
+ },
+ {
+  "who": "mat",
+  "fr": "à mon orientation professionnelle. »",
+  "en": "about my career path.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Troisième phrase :",
+  "en": "Third sentence:"
+ },
+ {
+  "who": "lea",
+  "fr": "« Je veux un travail qui me rend heureux. »",
+  "en": "\"I want a job that makes me happy.\""
+ },
+ {
+  "who": "mat",
+  "fr": "On peut dire : « J'aimerais trouver",
+  "en": "You can say: \"I'd like to find"
+ },
+ {
+  "who": "mat",
+  "fr": "un travail dans lequel je puisse m'épanouir. »",
+  "en": "a job where I can flourish.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Ou : « Je cherche un métier",
+  "en": "Or: \"I'm looking for a job"
+ },
+ {
+  "who": "lea",
+  "fr": "qui ait du sens pour moi. »",
+  "en": "that's meaningful to me.\""
+ },
+ {
+  "who": "mat",
+  "fr": "Quatrième phrase : « Je suis bon avec les gens. »",
+  "en": "Fourth sentence: \"I'm good with people.\""
+ },
+ {
+  "who": "lea",
+  "fr": "On peut dire : « J'ai un bon relationnel. »",
+  "en": "You can say: \"I have good people skills.\""
+ },
+ {
+  "who": "mat",
+  "fr": "Ou : « Le contact humain",
+  "en": "Or: \"Human contact"
+ },
+ {
+  "who": "mat",
+  "fr": "est l'un de mes points forts. »",
+  "en": "is one of my strengths.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Cinquième phrase :",
+  "en": "Fifth sentence:"
+ },
+ {
+  "who": "lea",
+  "fr": "« Je n'ai pas assez d'expérience. »",
+  "en": "\"I don't have enough experience.\""
+ },
+ {
+  "who": "mat",
+  "fr": "On peut dire : « Je manque encore",
+  "en": "You can say: \"I still lack"
+ },
+ {
+  "who": "mat",
+  "fr": "d'expérience dans ce domaine,",
+  "en": "experience in this field,"
+ },
+ {
+  "who": "mat",
+  "fr": "mais je suis prêt à apprendre. »",
+  "en": "but I'm ready to learn.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Ou : « Je souhaite développer mes compétences",
+  "en": "Or: \"I'd like to develop my skills"
+ },
+ {
+  "who": "lea",
+  "fr": "avant de postuler. »",
+  "en": "before applying.\""
+ },
+ {
+  "who": "mat",
+  "fr": "Et notre dernière phrase :",
+  "en": "And our last sentence:"
+ },
+ {
+  "who": "mat",
+  "fr": "« Je veux essayer un autre métier. »",
+  "en": "\"I want to try another job.\""
+ },
+ {
+  "who": "lea",
+  "fr": "On peut dire : « J'aimerais explorer",
+  "en": "You can say: \"I'd like to explore"
+ },
+ {
+  "who": "lea",
+  "fr": "de nouvelles possibilités professionnelles. »",
+  "en": "new career possibilities.\""
+ },
+ {
+  "who": "mat",
+  "fr": "Ou : « J'envisage une reconversion,",
+  "en": "Or: \"I'm considering a career change,"
+ },
+ {
+  "who": "mat",
+  "fr": "mais je préfère me renseigner",
+  "en": "but I'd rather find out more"
+ },
+ {
+  "who": "mat",
+  "fr": "avant de prendre une décision. »",
+  "en": "before making a decision.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Très bien. Ces expressions permettent",
+  "en": "Very good. These expressions let us",
+  "board": {
+   "mode": "match",
+   "bg": "liege",
+   "pairs": [
+    [
+     "gagner sa vie",
+     "to earn a living"
+    ],
+    [
+     "un stage",
+     "an internship"
+    ],
+    [
+     "exigeant",
+     "demanding"
+    ],
+    [
+     "trouver sa voie",
+     "to find your path"
+    ]
+   ],
+   "reveal": 2
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "de parler de nos projets",
+  "en": "talk about our plans"
+ },
+ {
+  "who": "lea",
+  "fr": "de façon plus précise et naturelle.",
+  "en": "in a more precise and natural way."
+ },
+ {
+  "who": "mat",
+  "fr": "Tu sais, Léa, après cette conversation,",
+  "en": "You know, Léa, after this conversation,"
+ },
+ {
+  "who": "mat",
+  "fr": "je regarde mes rêves d'enfant différemment.",
+  "en": "I see my childhood dreams differently.",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Ah oui ? Pourquoi ?",
+  "en": "Oh really? Why?",
+  "emote": "surpris"
+ },
+ {
+  "who": "mat",
+  "fr": "Parce que je pensais avoir abandonné",
+  "en": "Because I thought I'd given up"
+ },
+ {
+  "who": "mat",
+  "fr": "mon rêve d'explorateur.",
+  "en": "my dream of being an explorer."
+ },
+ {
+  "who": "mat",
+  "fr": "Mais finalement, j'aime toujours voyager",
+  "en": "But in the end, I still love travelling"
+ },
+ {
+  "who": "mat",
+  "fr": "et découvrir de nouveaux endroits.",
+  "en": "and discovering new places."
+ },
+ {
+  "who": "lea",
+  "fr": "Et ton rêve de devenir chef cuisinier ?",
+  "en": "And your dream of becoming a chef?"
+ },
+ {
+  "who": "mat",
+  "fr": "Il est toujours là, lui aussi.",
+  "en": "It's still there too."
+ },
+ {
+  "who": "mat",
+  "fr": "Je l'exprime simplement en préparant",
+  "en": "I simply express it by cooking"
+ },
+ {
+  "who": "mat",
+  "fr": "de bons repas pour mes amis.",
+  "en": "good meals for my friends.",
+  "illus": "repas",
+  "label": "de bons repas",
+  "emote": "coeur"
+ },
+ {
+  "who": "lea",
+  "fr": "Voilà ! Tes rêves n'ont pas complètement disparu.",
+  "en": "There you go! Your dreams haven't disappeared."
+ },
+ {
+  "who": "lea",
+  "fr": "Ils ont simplement trouvé",
+  "en": "They've simply found"
+ },
+ {
+  "who": "lea",
+  "fr": "une autre place dans ta vie.",
+  "en": "another place in your life."
+ },
+ {
+  "who": "mat",
+  "fr": "Et je crois que c'est une belle manière",
+  "en": "And I think it's a lovely way"
+ },
+ {
+  "who": "mat",
+  "fr": "de comprendre nos choix.",
+  "en": "to understand our choices."
+ },
+ {
+  "who": "lea",
+  "fr": "Oui. Nos rêves peuvent évoluer avec nous.",
+  "en": "Yes. Our dreams can evolve with us."
+ },
+ {
+  "who": "lea",
+  "fr": "Et parfois, le métier",
+  "en": "And sometimes, the job"
+ },
+ {
+  "who": "lea",
+  "fr": "qui nous correspond aujourd'hui",
+  "en": "that suits us today"
+ },
+ {
+  "who": "lea",
+  "fr": "ne sera pas celui",
+  "en": "won't be the one"
+ },
+ {
+  "who": "lea",
+  "fr": "que nous souhaiterons exercer dans dix ans.",
+  "en": "we'll want to do in ten years."
+ },
+ {
+  "who": "mat",
+  "fr": "Parce que nous continuons à apprendre,",
+  "en": "Because we keep learning,"
+ },
+ {
+  "who": "mat",
+  "fr": "à changer et à découvrir",
+  "en": "changing and discovering"
+ },
+ {
+  "who": "mat",
+  "fr": "de nouvelles possibilités.",
+  "en": "new possibilities."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Alors, chers amis, avant de terminer,",
+  "en": "Exactly. So, dear friends, before we finish,"
+ },
+ {
+  "who": "lea",
+  "fr": "nous aimerions vous poser une question.",
+  "en": "we'd like to ask you a question."
+ },
+ {
+  "who": "mat",
+  "fr": "Quel est le métier de vos rêves ?",
+  "en": "What's your dream job?"
+ },
+ {
+  "who": "mat",
+  "fr": "Ou quel métier aimeriez-vous essayer,",
+  "en": "Or what job would you like to try,"
+ },
+ {
+  "who": "mat",
+  "fr": "même pour une seule journée ?",
+  "en": "even for just one day?"
+ },
+ {
+  "who": "lea",
+  "fr": "Dans les commentaires, complétez cette phrase :",
+  "en": "In the comments, complete this sentence:"
+ },
+ {
+  "who": "lea",
+  "fr": "« Le métier de mes rêves,",
+  "en": "\"My dream job would be...,"
+ },
+ {
+  "who": "lea",
+  "fr": "ce serait..., parce que... »",
+  "en": "because...\""
+ },
+ {
+  "who": "mat",
+  "fr": "Et si vous n'êtes pas encore sûr de votre choix,",
+  "en": "And if you're not sure of your choice yet,"
+ },
+ {
+  "who": "mat",
+  "fr": "vous pouvez dire : « Je suis encore en train",
+  "en": "you can say: \"I'm still"
+ },
+ {
+  "who": "mat",
+  "fr": "de chercher le métier qui me correspond. »",
+  "en": "looking for the job that suits me.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Une ou deux phrases suffisent.",
+  "en": "One or two sentences are enough."
+ },
+ {
+  "who": "lea",
+  "fr": "N'ayez pas peur de faire des erreurs.",
+  "en": "Don't be afraid of making mistakes.",
+  "emote": "coeur"
+ },
+ {
+  "who": "lea",
+  "fr": "L'important, c'est de pratiquer votre français.",
+  "en": "What matters is practising your French."
+ },
+ {
+  "who": "mat",
+  "fr": "Et si cet épisode vous a plu,",
+  "en": "And if you enjoyed this episode,"
+ },
+ {
+  "who": "mat",
+  "fr": "pensez à laisser un petit pouce en l'air,",
+  "en": "remember to leave a little thumbs-up,"
+ },
+ {
+  "who": "mat",
+  "fr": "à vous abonner à The Cozy French",
+  "en": "subscribe to The Cozy French"
+ },
+ {
+  "who": "mat",
+  "fr": "et à partager notre conversation",
+  "en": "and share our conversation"
+ },
+ {
+  "who": "mat",
+  "fr": "avec quelqu'un qui apprend le français.",
+  "en": "with someone who's learning French."
+ },
+ {
+  "who": "lea",
+  "fr": "Merci beaucoup d'avoir passé ce moment avec nous.",
+  "en": "Thank you so much for spending this time with us."
+ },
+ {
+  "who": "lea",
+  "fr": "Nous espérons que cette conversation",
+  "en": "We hope this conversation"
+ },
+ {
+  "who": "lea",
+  "fr": "vous a permis de découvrir",
+  "en": "helped you discover"
+ },
+ {
+  "who": "lea",
+  "fr": "de nouvelles expressions",
+  "en": "new expressions"
+ },
+ {
+  "who": "lea",
+  "fr": "et de réfléchir à vos projets.",
+  "en": "and think about your plans."
+ },
+ {
+  "who": "mat",
+  "fr": "Avant de partir, Léa,",
+  "en": "Before we go, Léa,"
+ },
+ {
+  "who": "mat",
+  "fr": "j'aimerais te poser une dernière question.",
+  "en": "I'd like to ask you one last question."
+ },
+ {
+  "who": "mat",
+  "fr": "Est-ce que tu crois qu'il existe",
+  "en": "Do you think there's"
+ },
+ {
+  "who": "mat",
+  "fr": "un seul métier idéal pour chaque personne ?",
+  "en": "just one ideal job for each person?"
+ },
+ {
+  "who": "lea",
+  "fr": "Non. Je pense que nous pouvons avoir",
+  "en": "No. I think we can have"
+ },
+ {
+  "who": "lea",
+  "fr": "plusieurs métiers qui nous correspondent",
+  "en": "several jobs that suit us"
+ },
+ {
+  "who": "lea",
+  "fr": "à différentes étapes de notre vie.",
+  "en": "at different stages of our life."
+ }
+]

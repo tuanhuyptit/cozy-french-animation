@@ -1,0 +1,537 @@
+[
+ {
+  "who": "mat",
+  "fr": "Alors il a [changé de voie ?]",
+  "en": "So he changed direction?"
+ },
+ {
+  "who": "lea",
+  "fr": "Oui. Aujourd'hui, il travaille",
+  "en": "Yes. Today he works"
+ },
+ {
+  "who": "lea",
+  "fr": "dans la formation professionnelle.",
+  "en": "in professional training."
+ },
+ {
+  "who": "lea",
+  "fr": "Et ses connaissances juridiques",
+  "en": "And his legal knowledge"
+ },
+ {
+  "who": "lea",
+  "fr": "lui sont encore utiles.",
+  "en": "is still useful to him."
+ },
+ {
+  "who": "mat",
+  "fr": "Donc changer de métier",
+  "en": "So changing jobs"
+ },
+ {
+  "who": "mat",
+  "fr": "ne signifie pas que toutes nos études",
+  "en": "doesn't mean all our previous studies"
+ },
+ {
+  "who": "mat",
+  "fr": "précédentes étaient inutiles.",
+  "en": "were useless."
+ },
+ {
+  "who": "lea",
+  "fr": "Absolument.",
+  "en": "Absolutely."
+ },
+ {
+  "who": "lea",
+  "fr": "Nous pouvons utiliser nos compétences",
+  "en": "We can use our skills"
+ },
+ {
+  "who": "lea",
+  "fr": "dans des domaines différents.",
+  "en": "in different fields."
+ },
+ {
+  "who": "mat",
+  "fr": "Mais je pense qu'il faut aussi être réaliste.",
+  "en": "But I think we also have to be realistic."
+ },
+ {
+  "who": "mat",
+  "fr": "On ne peut pas toujours changer",
+  "en": "We can't always change"
+ },
+ {
+  "who": "mat",
+  "fr": "de carrière immédiatement.",
+  "en": "careers right away."
+ },
+ {
+  "who": "lea",
+  "fr": "C'est vrai. Certaines personnes ont",
+  "en": "That's true. Some people have"
+ },
+ {
+  "who": "lea",
+  "fr": "des responsabilités familiales,",
+  "en": "family responsibilities,"
+ },
+ {
+  "who": "lea",
+  "fr": "des obligations financières",
+  "en": "financial obligations"
+ },
+ {
+  "who": "lea",
+  "fr": "ou besoin d'une formation supplémentaire.",
+  "en": "or need extra training."
+ },
+ {
+  "who": "mat",
+  "fr": "Donc il faut parfois",
+  "en": "So sometimes you have to"
+ },
+ {
+  "who": "mat",
+  "fr": "préparer son changement progressivement.",
+  "en": "prepare your change gradually."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement.",
+  "en": "Exactly."
+ },
+ {
+  "who": "lea",
+  "fr": "Écouter ses envies ne signifie pas",
+  "en": "Listening to what you want doesn't mean"
+ },
+ {
+  "who": "lea",
+  "fr": "ignorer les réalités de la vie.",
+  "en": "ignoring the realities of life."
+ },
+ {
+  "who": "mat",
+  "fr": "Ce qui nous amène",
+  "en": "Which brings us"
+ },
+ {
+  "who": "mat",
+  "fr": "à un sujet très important : l'argent !",
+  "en": "to a very important topic: money!",
+  "illus": "argent",
+  "label": "l'argent",
+  "react": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Je savais que tu allais le dire !",
+  "en": "I knew you were going to say that!"
+ },
+ {
+  "who": "mat",
+  "fr": "Mais c'est vrai !",
+  "en": "But it's true!"
+ },
+ {
+  "who": "mat",
+  "fr": "On peut être passionné par un métier,",
+  "en": "You can be passionate about a job,"
+ },
+ {
+  "who": "mat",
+  "fr": "mais il faut aussi payer son logement,",
+  "en": "but you also have to pay for your home,"
+ },
+ {
+  "who": "mat",
+  "fr": "acheter de la nourriture",
+  "en": "buy food"
+ },
+ {
+  "who": "mat",
+  "fr": "et prendre soin de sa famille.",
+  "en": "and take care of your family."
+ },
+ {
+  "who": "lea",
+  "fr": "Absolument.",
+  "en": "Absolutely."
+ },
+ {
+  "who": "lea",
+  "fr": "La stabilité financière est importante,",
+  "en": "Financial stability is important,"
+ },
+ {
+  "who": "lea",
+  "fr": "et nos choix professionnels dépendent aussi",
+  "en": "and our career choices also depend"
+ },
+ {
+  "who": "lea",
+  "fr": "de notre situation.",
+  "en": "on our situation."
+ },
+ {
+  "who": "mat",
+  "fr": "D'ailleurs, Léa,",
+  "en": "By the way, Léa,"
+ },
+ {
+  "who": "mat",
+  "fr": "si l'argent n'était absolument pas un problème,",
+  "en": "if money weren't a problem at all,"
+ },
+ {
+  "who": "mat",
+  "fr": "quel métier aimerais-tu essayer ?",
+  "en": "what job would you like to try?"
+ },
+ {
+  "who": "lea",
+  "fr": "Hmm... Je crois que j'aimerais travailler",
+  "en": "Hmm... I think I'd like to work"
+ },
+ {
+  "who": "lea",
+  "fr": "dans une petite maison d'édition.",
+  "en": "in a small publishing house."
+ },
+ {
+  "who": "mat",
+  "fr": "Ah, ça te correspond bien.",
+  "en": "Ah, that suits you well.",
+  "emote": "coeur"
+ },
+ {
+  "who": "mat",
+  "fr": "Tu adores les livres.",
+  "en": "You love books.",
+  "illus": "lecture",
+  "label": "les livres"
+ },
+ {
+  "who": "lea",
+  "fr": "Oui. J'aimerais découvrir de nouveaux auteurs,",
+  "en": "Yes. I'd like to discover new authors,"
+ },
+ {
+  "who": "lea",
+  "fr": "discuter de leurs histoires",
+  "en": "talk about their stories"
+ },
+ {
+  "who": "lea",
+  "fr": "et participer à la création de beaux ouvrages.",
+  "en": "and help create beautiful books."
+ },
+ {
+  "who": "mat",
+  "fr": "Je t'imagine parfaitement",
+  "en": "I can picture you perfectly"
+ },
+ {
+  "who": "mat",
+  "fr": "dans un bureau rempli de livres,",
+  "en": "in an office full of books,"
+ },
+ {
+  "who": "mat",
+  "fr": "avec une grande fenêtre et une tasse de thé.",
+  "en": "with a big window and a cup of tea."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement ! Et toi ?",
+  "en": "Exactly! And you?"
+ },
+ {
+  "who": "mat",
+  "fr": "Moi, j'aimerais créer une émission",
+  "en": "Me, I'd like to create a show"
+ },
+ {
+  "who": "mat",
+  "fr": "consacrée aux voyages",
+  "en": "about travel",
+  "illus": "voyage",
+  "label": "les voyages"
+ },
+ {
+  "who": "mat",
+  "fr": "et aux traditions culinaires.",
+  "en": "and culinary traditions."
+ },
+ {
+  "who": "lea",
+  "fr": "Encore la nourriture !",
+  "en": "Food again!",
+  "emote": "rire"
+ },
+ {
+  "who": "mat",
+  "fr": "Mais cette fois, c'est sérieux !",
+  "en": "But this time, I'm serious!"
+ },
+ {
+  "who": "mat",
+  "fr": "J'aimerais rencontrer des personnes,",
+  "en": "I'd like to meet people,"
+ },
+ {
+  "who": "mat",
+  "fr": "écouter leurs histoires et découvrir",
+  "en": "listen to their stories and discover"
+ },
+ {
+  "who": "mat",
+  "fr": "comment elles préparent les plats traditionnels.",
+  "en": "how they cook traditional dishes."
+ },
+ {
+  "who": "lea",
+  "fr": "En fait, ce projet rassemble",
+  "en": "In fact, this project brings together"
+ },
+ {
+  "who": "lea",
+  "fr": "plusieurs de tes passions :",
+  "en": "several of your passions:"
+ },
+ {
+  "who": "lea",
+  "fr": "voyager, communiquer",
+  "en": "travelling, communicating"
+ },
+ {
+  "who": "lea",
+  "fr": "et découvrir de nouvelles cultures.",
+  "en": "and discovering new cultures."
+ },
+ {
+  "who": "mat",
+  "fr": "Exactement. Mais dans la réalité,",
+  "en": "Exactly. But in reality,"
+ },
+ {
+  "who": "mat",
+  "fr": "ce genre de travail demande du temps,",
+  "en": "this kind of work takes time,"
+ },
+ {
+  "who": "mat",
+  "fr": "des ressources et beaucoup d'organisation.",
+  "en": "resources and a lot of organisation."
+ },
+ {
+  "who": "lea",
+  "fr": "Voilà pourquoi il faut trouver un équilibre",
+  "en": "That's why you have to find a balance"
+ },
+ {
+  "who": "lea",
+  "fr": "entre ses envies et ses besoins matériels.",
+  "en": "between your wishes and your material needs."
+ },
+ {
+  "who": "mat",
+  "fr": "Et parfois, un travail",
+  "en": "And sometimes, a job"
+ },
+ {
+  "who": "mat",
+  "fr": "qu'on n'adore pas absolument",
+  "en": "you don't absolutely love"
+ },
+ {
+  "who": "mat",
+  "fr": "peut nous apporter des choses précieuses.",
+  "en": "can give us precious things."
+ },
+ {
+  "who": "lea",
+  "fr": "Comme un salaire stable,",
+  "en": "Like a stable salary,"
+ },
+ {
+  "who": "lea",
+  "fr": "des horaires raisonnables",
+  "en": "reasonable hours"
+ },
+ {
+  "who": "lea",
+  "fr": "ou davantage de temps avec sa famille.",
+  "en": "or more time with your family."
+ },
+ {
+  "who": "mat",
+  "fr": "Sans oublier un trajet court",
+  "en": "Not to mention a short commute"
+ },
+ {
+  "who": "mat",
+  "fr": "entre la maison et le travail.",
+  "en": "between home and work."
+ },
+ {
+  "who": "mat",
+  "fr": "Deux heures de transport par jour,",
+  "en": "Two hours of travel a day",
+  "illus": "voiture",
+  "label": "le transport"
+ },
+ {
+  "who": "mat",
+  "fr": "ça peut être épuisant !",
+  "en": "can be exhausting!",
+  "emote": "fatigue"
+ },
+ {
+  "who": "lea",
+  "fr": "C'est vrai. Le mode de vie",
+  "en": "That's true. The lifestyle"
+ },
+ {
+  "who": "lea",
+  "fr": "associé à un emploi",
+  "en": "that comes with a job"
+ },
+ {
+  "who": "lea",
+  "fr": "est aussi important que le métier lui-même.",
+  "en": "is as important as the job itself."
+ },
+ {
+  "who": "mat",
+  "fr": "Tu sais, je connais deux personnes",
+  "en": "You know, I know two people"
+ },
+ {
+  "who": "mat",
+  "fr": "qui ont des idées complètement différentes",
+  "en": "who have completely different ideas"
+ },
+ {
+  "who": "mat",
+  "fr": "de la réussite professionnelle.",
+  "en": "of professional success."
+ },
+ {
+  "who": "lea",
+  "fr": "Ah oui ?",
+  "en": "Oh really?",
+  "emote": "surpris"
+ },
+ {
+  "who": "mat",
+  "fr": "La première adore son travail.",
+  "en": "The first one loves her job.",
+  "board": {
+   "mode": "compare",
+   "bg": "carnet",
+   "title": "Deux idées de la réussite",
+   "left": {
+    "head": "la première",
+    "sub": "les responsabilités",
+    "items": [
+     "de grands projets",
+     "voyager souvent"
+    ]
+   },
+   "right": {
+    "head": "la deuxième",
+    "sub": "l'équilibre",
+    "items": [
+     "des horaires réguliers",
+     "du temps avec ses enfants"
+    ]
+   }
+  }
+ },
+ {
+  "who": "mat",
+  "fr": "Elle gère de grands projets,",
+  "en": "She manages big projects,"
+ },
+ {
+  "who": "mat",
+  "fr": "voyage souvent et aime les responsabilités.",
+  "en": "travels often and loves responsibility."
+ },
+ {
+  "who": "lea",
+  "fr": "Et la deuxième ?",
+  "en": "And the second one?"
+ },
+ {
+  "who": "mat",
+  "fr": "Elle préfère un travail",
+  "en": "She prefers a job"
+ },
+ {
+  "who": "mat",
+  "fr": "avec des horaires réguliers.",
+  "en": "with regular hours."
+ },
+ {
+  "who": "mat",
+  "fr": "Elle termine assez tôt pour passer du temps",
+  "en": "She finishes early enough to spend time"
+ },
+ {
+  "who": "mat",
+  "fr": "avec ses enfants et pratiquer ses loisirs.",
+  "en": "with her children and enjoy her hobbies."
+ },
+ {
+  "who": "lea",
+  "fr": "Et elles sont toutes les deux satisfaites ?",
+  "en": "And are they both satisfied?"
+ },
+ {
+  "who": "mat",
+  "fr": "Oui.",
+  "en": "Yes."
+ },
+ {
+  "who": "mat",
+  "fr": "Elles ont simplement des priorités différentes.",
+  "en": "They simply have different priorities.",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Voilà. Il n'existe pas",
+  "en": "There you go. There isn't"
+ },
+ {
+  "who": "lea",
+  "fr": "une seule définition de la réussite.",
+  "en": "just one definition of success."
+ },
+ {
+  "who": "mat",
+  "fr": "Donc un métier idéal n'est pas nécessairement",
+  "en": "So an ideal job isn't necessarily"
+ },
+ {
+  "who": "mat",
+  "fr": "celui qui impressionne le plus les autres.",
+  "en": "the one that impresses others the most."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. C'est celui",
+  "en": "Exactly. It's the one"
+ },
+ {
+  "who": "lea",
+  "fr": "qui correspond suffisamment bien à nos besoins,",
+  "en": "that fits our needs well enough,"
+ }
+]

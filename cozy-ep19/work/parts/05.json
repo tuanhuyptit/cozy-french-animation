@@ -1,0 +1,514 @@
+[
+ {
+  "who": "mat",
+  "fr": "Et parfois, nous ne remarquons même pas",
+  "en": "And sometimes, we don't even notice"
+ },
+ {
+  "who": "mat",
+  "fr": "nos propres qualités.",
+  "en": "our own qualities."
+ },
+ {
+  "who": "lea",
+  "fr": "Pourquoi ?",
+  "en": "Why?",
+  "emote": "question"
+ },
+ {
+  "who": "mat",
+  "fr": "Parce que certaines choses nous semblent faciles.",
+  "en": "Because some things seem easy to us."
+ },
+ {
+  "who": "mat",
+  "fr": "Nous imaginons que tout le monde",
+  "en": "We imagine that everyone"
+ },
+ {
+  "who": "mat",
+  "fr": "possède les mêmes capacités.",
+  "en": "has the same abilities."
+ },
+ {
+  "who": "lea",
+  "fr": "C'est vrai. Par exemple, quelqu'un",
+  "en": "That's true. For example, someone"
+ },
+ {
+  "who": "lea",
+  "fr": "qui sait expliquer clairement des idées complexes",
+  "en": "who can explain complex ideas clearly"
+ },
+ {
+  "who": "lea",
+  "fr": "peut penser que c'est une compétence ordinaire.",
+  "en": "may think it's an ordinary skill."
+ },
+ {
+  "who": "mat",
+  "fr": "Alors que c'est un véritable point fort.",
+  "en": "Whereas it's a real strength."
+ },
+ {
+  "who": "lea",
+  "fr": "Une bonne manière de découvrir ses qualités",
+  "en": "A good way to discover your qualities"
+ },
+ {
+  "who": "lea",
+  "fr": "consiste à observer",
+  "en": "is to notice"
+ },
+ {
+  "who": "lea",
+  "fr": "ce que les autres nous demandent souvent.",
+  "en": "what others often ask us for."
+ },
+ {
+  "who": "mat",
+  "fr": "Par exemple, si mes amis me demandent toujours",
+  "en": "For example, if my friends always ask me"
+ },
+ {
+  "who": "mat",
+  "fr": "d'organiser les voyages,",
+  "en": "to organise the trips,"
+ },
+ {
+  "who": "mat",
+  "fr": "c'est peut-être parce que je suis bon",
+  "en": "maybe it's because I'm good"
+ },
+ {
+  "who": "mat",
+  "fr": "pour préparer des itinéraires.",
+  "en": "at planning itineraries."
+ },
+ {
+  "who": "lea",
+  "fr": "Et si tes collègues te demandent régulièrement",
+  "en": "And if your colleagues regularly ask you"
+ },
+ {
+  "who": "lea",
+  "fr": "de relire leurs textes,",
+  "en": "to proofread their texts,"
+ },
+ {
+  "who": "lea",
+  "fr": "tu as peut-être [des facilités] en rédaction.",
+  "en": "maybe you have a gift for writing."
+ },
+ {
+  "who": "mat",
+  "fr": "Et si tout le monde me demande",
+  "en": "And if everyone asks me"
+ },
+ {
+  "who": "mat",
+  "fr": "de choisir les restaurants ?",
+  "en": "to choose the restaurants?"
+ },
+ {
+  "who": "lea",
+  "fr": "Alors tu as probablement un talent particulier",
+  "en": "Then you probably have a special talent"
+ },
+ {
+  "who": "lea",
+  "fr": "pour trouver de bonnes adresses !",
+  "en": "for finding good places to eat!",
+  "illus": "repas",
+  "label": "de bonnes adresses",
+  "emote": "rire"
+ },
+ {
+  "who": "mat",
+  "fr": "Enfin une compétence reconnue !",
+  "en": "Finally, a recognised skill!",
+  "emote": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Mais attention, nos points forts",
+  "en": "But be careful, our strengths"
+ },
+ {
+  "who": "lea",
+  "fr": "ne doivent pas forcément devenir notre métier.",
+  "en": "don't necessarily have to become our job."
+ },
+ {
+  "who": "mat",
+  "fr": "Oui. Ils peuvent simplement nous aider",
+  "en": "Yes. They can simply help us"
+ },
+ {
+  "who": "mat",
+  "fr": "à mieux comprendre ce qui nous plaît.",
+  "en": "better understand what we enjoy."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Et parfois, nous découvrons",
+  "en": "Exactly. And sometimes we discover"
+ },
+ {
+  "who": "lea",
+  "fr": "nos talents grâce à des expériences inattendues.",
+  "en": "our talents through unexpected experiences."
+ },
+ {
+  "who": "mat",
+  "fr": "Tu sais, ma cousine ne savait absolument pas",
+  "en": "You know, my cousin had absolutely no idea"
+ },
+ {
+  "who": "mat",
+  "fr": "quel métier choisir après ses études.",
+  "en": "what job to choose after her studies."
+ },
+ {
+  "who": "lea",
+  "fr": "Ah oui ? Quels domaines l'intéressaient ?",
+  "en": "Oh really? What fields interested her?"
+ },
+ {
+  "who": "mat",
+  "fr": "Elle aimait les langues,",
+  "en": "She liked languages,"
+ },
+ {
+  "who": "mat",
+  "fr": "le dessin et la communication,",
+  "en": "drawing and communication,"
+ },
+ {
+  "who": "mat",
+  "fr": "mais elle avait du mal à choisir une direction.",
+  "en": "but she struggled to choose a direction."
+ },
+ {
+  "who": "lea",
+  "fr": "Et comment a-t-elle [trouvé sa voie ?]",
+  "en": "And how did she find her path?"
+ },
+ {
+  "who": "mat",
+  "fr": "Elle a fait un stage dans une petite entreprise.",
+  "en": "She did an internship at a small company."
+ },
+ {
+  "who": "mat",
+  "fr": "Elle devait préparer des présentations",
+  "en": "She had to prepare presentations"
+ },
+ {
+  "who": "mat",
+  "fr": "et expliquer des informations compliquées",
+  "en": "and explain complicated information"
+ },
+ {
+  "who": "mat",
+  "fr": "de manière simple.",
+  "en": "in a simple way."
+ },
+ {
+  "who": "lea",
+  "fr": "Et cela lui a plu ?",
+  "en": "And did she like it?"
+ },
+ {
+  "who": "mat",
+  "fr": "Énormément.",
+  "en": "Enormously."
+ },
+ {
+  "who": "mat",
+  "fr": "Elle s'est rendu compte qu'elle aimait",
+  "en": "She realised she loved"
+ },
+ {
+  "who": "mat",
+  "fr": "transformer des idées complexes",
+  "en": "turning complex ideas"
+ },
+ {
+  "who": "mat",
+  "fr": "en contenus visuels faciles à comprendre.",
+  "en": "into visual content that's easy to understand."
+ },
+ {
+  "who": "lea",
+  "fr": "Ah, c'est une compétence intéressante.",
+  "en": "Ah, that's an interesting skill.",
+  "emote": "idee"
+ },
+ {
+  "who": "mat",
+  "fr": "Aujourd'hui, elle travaille",
+  "en": "Today, she works"
+ },
+ {
+  "who": "mat",
+  "fr": "dans la communication visuelle.",
+  "en": "in visual communication."
+ },
+ {
+  "who": "mat",
+  "fr": "Mais quand elle était adolescente,",
+  "en": "But when she was a teenager,"
+ },
+ {
+  "who": "mat",
+  "fr": "elle ne connaissait même pas vraiment ce métier.",
+  "en": "she didn't even really know this job existed."
+ },
+ {
+  "who": "lea",
+  "fr": "Cela montre qu'on ne peut pas toujours",
+  "en": "That shows you can't always"
+ },
+ {
+  "who": "lea",
+  "fr": "choisir un métier avant de savoir qu'il existe.",
+  "en": "choose a job before knowing it exists."
+ },
+ {
+  "who": "mat",
+  "fr": "Exactement. Et parfois, notre direction",
+  "en": "Exactly. And sometimes our direction"
+ },
+ {
+  "who": "mat",
+  "fr": "apparaît progressivement grâce aux expériences.",
+  "en": "appears gradually through experience."
+ },
+ {
+  "who": "lea",
+  "fr": "Voilà pourquoi il ne faut pas forcément paniquer",
+  "en": "That's why there's no need to panic"
+ },
+ {
+  "who": "lea",
+  "fr": "quand on ne connaît pas encore son métier idéal.",
+  "en": "when you don't know your ideal job yet."
+ },
+ {
+  "who": "mat",
+  "fr": "Pourtant, beaucoup de jeunes",
+  "en": "And yet many young people"
+ },
+ {
+  "who": "mat",
+  "fr": "ressentent une pression énorme",
+  "en": "feel enormous pressure"
+ },
+ {
+  "who": "mat",
+  "fr": "au moment de choisir leurs études.",
+  "en": "when choosing their studies.",
+  "illus": "etudes",
+  "label": "leurs études"
+ },
+ {
+  "who": "lea",
+  "fr": "C'est vrai. On leur demande parfois",
+  "en": "That's true. They're sometimes asked"
+ },
+ {
+  "who": "lea",
+  "fr": "d'imaginer leur carrière",
+  "en": "to imagine their career"
+ },
+ {
+  "who": "lea",
+  "fr": "pour les dix prochaines années",
+  "en": "for the next ten years"
+ },
+ {
+  "who": "lea",
+  "fr": "alors qu'ils commencent seulement",
+  "en": "when they're only just starting"
+ },
+ {
+  "who": "lea",
+  "fr": "à découvrir le monde professionnel.",
+  "en": "to discover the working world."
+ },
+ {
+  "who": "mat",
+  "fr": "Et tout le monde n'avance pas au même rythme.",
+  "en": "And not everyone moves at the same pace."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement.",
+  "en": "Exactly."
+ },
+ {
+  "who": "lea",
+  "fr": "Certaines personnes trouvent leur voie très tôt.",
+  "en": "Some people find their path very early."
+ },
+ {
+  "who": "lea",
+  "fr": "D'autres ont besoin de plusieurs expériences.",
+  "en": "Others need several experiences."
+ },
+ {
+  "who": "mat",
+  "fr": "Et certaines changent de carrière",
+  "en": "And some change careers"
+ },
+ {
+  "who": "mat",
+  "fr": "après dix ou quinze ans de travail.",
+  "en": "after ten or fifteen years of work."
+ },
+ {
+  "who": "lea",
+  "fr": "Absolument.",
+  "en": "Absolutely."
+ },
+ {
+  "who": "lea",
+  "fr": "Nos priorités peuvent évoluer avec le temps.",
+  "en": "Our priorities can change over time."
+ },
+ {
+  "who": "mat",
+  "fr": "À vingt ans, on peut rechercher l'aventure.",
+  "en": "At twenty, you may seek adventure."
+ },
+ {
+  "who": "mat",
+  "fr": "Plus tard, on peut accorder",
+  "en": "Later, you may give"
+ },
+ {
+  "who": "mat",
+  "fr": "davantage d'importance à la stabilité.",
+  "en": "more importance to stability."
+ },
+ {
+  "who": "lea",
+  "fr": "Ou vouloir un travail plus flexible",
+  "en": "Or want a more flexible job"
+ },
+ {
+  "who": "lea",
+  "fr": "pour passer du temps avec sa famille.",
+  "en": "to spend time with your family."
+ },
+ {
+  "who": "mat",
+  "fr": "Et ce n'est pas forcément [un échec]",
+  "en": "And it's not necessarily a failure"
+ },
+ {
+  "who": "mat",
+  "fr": "de changer de direction.",
+  "en": "to change direction."
+ },
+ {
+  "who": "lea",
+  "fr": "Non. Cela peut simplement signifier",
+  "en": "No. It can simply mean"
+ },
+ {
+  "who": "lea",
+  "fr": "qu'on a appris davantage sur soi-même.",
+  "en": "you've learned more about yourself."
+ },
+ {
+  "who": "mat",
+  "fr": "Tu sais, je crois qu'il y a un problème",
+  "en": "You know, I think there's a problem"
+ },
+ {
+  "who": "mat",
+  "fr": "avec l'expression « métier de rêve ».",
+  "en": "with the expression \"dream job\"."
+ },
+ {
+  "who": "lea",
+  "fr": "Lequel ?",
+  "en": "Which one?",
+  "emote": "question"
+ },
+ {
+  "who": "mat",
+  "fr": "Elle donne parfois l'impression qu'il existe",
+  "en": "It sometimes gives the impression"
+ },
+ {
+  "who": "mat",
+  "fr": "une profession parfaite quelque part.",
+  "en": "that a perfect profession exists somewhere."
+ },
+ {
+  "who": "lea",
+  "fr": "Un travail passionnant, bien payé,",
+  "en": "An exciting, well-paid job,"
+ },
+ {
+  "who": "lea",
+  "fr": "avec des collègues extraordinaires",
+  "en": "with amazing colleagues"
+ },
+ {
+  "who": "lea",
+  "fr": "et aucun stress ?",
+  "en": "and no stress?"
+ },
+ {
+  "who": "mat",
+  "fr": "Exactement ! Et bien sûr,",
+  "en": "Exactly! And of course,"
+ },
+ {
+  "who": "mat",
+  "fr": "beaucoup de vacances et du café gratuit !",
+  "en": "lots of holidays and free coffee!",
+  "illus": "cafe",
+  "label": "du café gratuit",
+  "emote": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Mathieu, tu demandes énormément de choses !",
+  "en": "Mathieu, you're asking for an awful lot!"
+ },
+ {
+  "who": "mat",
+  "fr": "Je sais. Mais c'est un rêve, après tout !",
+  "en": "I know. But it's a dream, after all!"
+ },
+ {
+  "who": "lea",
+  "fr": "Plus sérieusement,",
+  "en": "More seriously,"
+ },
+ {
+  "who": "lea",
+  "fr": "je ne pense pas qu'un travail parfait existe.",
+  "en": "I don't think a perfect job exists."
+ },
+ {
+  "who": "mat",
+  "fr": "Moi non plus.",
+  "en": "Me neither."
+ },
+ {
+  "who": "mat",
+  "fr": "Même un métier qu'on adore",
+  "en": "Even a job you love"
+ },
+ {
+  "who": "mat",
+  "fr": "comporte des difficultés.",
+  "en": "has its difficulties."
+ }
+]

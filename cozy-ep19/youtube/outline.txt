@@ -1,0 +1,726 @@
+   0:00    Léa     Bonjour à toutes et à tous !   | Hello everyone!
+   0:01    Léa     Bienvenue dans The Cozy French,   | Welcome to The Cozy French,
+   0:03    Léa     votre petit rendez-vous   | your little get-together
+   0:05    Léa     pour apprendre le français à travers   | to learn French through
+   0:07    Léa     des conversations naturelles et chaleureuses.   | natural, warm conversations.
+   0:11    Léa     Je suis Léa, et je suis très heureuse   | I'm Léa, and I'm very happy
+   0:13    Léa     de vous retrouver aujourd'hui.   | to be with you again today.
+   0:15    Mathieu Et moi, c'est Mathieu !   | And I'm Mathieu!
+   0:16    Mathieu Bonjour, chers amis !   | Hello, dear friends!
+   0:18    Mathieu Que vous soyez à la maison,   | Whether you're at home,
+   0:19    Mathieu dans les transports   | on public transport
+   0:20    Mathieu ou en train de préparer votre café,   | or making your coffee,
+   0:23    Mathieu installez-vous confortablement.   | make yourselves comfortable.
+   0:25    Mathieu Nous sommes ravis de passer ce moment avec vous.   | We're delighted to spend this time with you.
+   0:29    Léa     Mathieu, aujourd'hui, j'aimerais commencer   | Mathieu, today I'd like to start
+   0:31    Léa     avec une question.   | with a question.
+   0:33    Léa     Quand tu étais enfant,   | When you were a child,
+   0:34    Léa     quel métier voulais-tu faire plus tard ?   | what job did you want to do later?
+   0:36    Mathieu Ah !   | Ah!
+   0:37    Mathieu Tu veux vraiment connaître mes rêves d'enfant ?   | You really want to know my childhood dreams?
+   0:40    Léa     Bien sûr ! Pourquoi cette hésitation ?   | Of course! Why the hesitation?
+   0:43  ★ Mathieu Parce que j'ai changé d'avis tellement de fois   | Because I changed my mind so many times
+   0:48    Mathieu que ma famille ne savait plus quoi penser.   | that my family didn't know what to think.
+   0:51    Mathieu À six ans, je voulais devenir pompier.   | At six, I wanted to be a firefighter.
+   0:55    Mathieu À huit ans, explorateur.   | At eight, an explorer.
+   0:56    Mathieu Et à dix ans, chef cuisinier.   | And at ten, a chef.
+   0:59    Léa     Chef cuisinier ? Ça ne m'étonne pas,   | A chef? That doesn't surprise me,
+   1:02    Léa     vu ton amour pour la nourriture !   | given your love of food!
+   1:04    Mathieu Exactement !   | Exactly!
+   1:06    Mathieu Mais je pensais qu'un chef passait surtout   | But I thought a chef mostly spent
+   1:09    Mathieu son temps à goûter de délicieux plats.   | his time tasting delicious dishes.
+   1:13    Léa     Tu avais oublié qu'il fallait   | You forgot that you also
+   1:14    Léa     aussi les préparer !   | had to cook them!
+   1:16    Mathieu Oui. Quand ma mère m'a expliqué   | Yes. When my mum explained
+   1:18    Mathieu qu'il fallait travailler pendant des heures,   | that you had to work for hours,
+   1:21    Mathieu nettoyer et organiser une cuisine,   | clean and organise a kitchen,
+   1:25    Mathieu mon enthousiasme a un peu diminué.   | my enthusiasm dropped a little.
+   1:28    Léa     Et aujourd'hui, tu aimes toujours cuisiner ?   | And today, do you still like cooking?
+   1:31    Mathieu Oui, mais tranquillement chez moi,   | Yes, but calmly at home,
+   1:34    Mathieu sans vingt clients qui attendent leur dîner.   | without twenty customers waiting for dinner.
+   1:38    Mathieu Et toi, Léa ? Quel était ton rêve ?   | What about you, Léa? What was your dream?
+   1:41    Léa     Pendant longtemps,   | For a long time,
+   1:42    Léa     je voulais devenir vétérinaire.   | I wanted to be a vet.
+   1:44    Léa     J'adorais les animaux et je rêvais   | I loved animals and I dreamed
+   1:46    Léa     de soigner tous les chats du quartier.   | of caring for every cat in the neighbourhood.
+   1:49    Mathieu Tous les chats ?   | Every cat?
+   1:51    Mathieu Tes parents devaient être ravis !   | Your parents must have been thrilled!
+   1:54    Léa     Pas vraiment !   | Not really!
+   1:55  ★ Léa     Mais en grandissant, j'ai compris   | But as I grew up, I understood
+   1:57    Léa     que ce métier demandait   | that this job required
+   1:59    Léa     beaucoup de connaissances scientifiques   | a lot of scientific knowledge
+   2:01    Léa     et qu'il fallait parfois   | and that sometimes you had
+   2:03    Léa     vivre des situations difficiles.   | to go through difficult situations.
+   2:05    Mathieu Alors tu as changé d'avis.   | So you changed your mind.
+   2:07    Léa     Oui. Mais j'ai gardé quelque chose de ce rêve :   | Yes. But I kept something from that dream:
+   2:10    Léa     l'envie d'aider et de comprendre les autres.   | the wish to help and understand others.
+   2:14    Mathieu C'est intéressant. Le métier a changé,   | That's interesting. The job changed,
+   2:17    Mathieu mais une partie de ton rêve est restée.   | but part of your dream stayed.
+   2:20    Léa     Exactement.   | Exactly.
+   2:21    Léa     Et c'est justement notre sujet aujourd'hui :   | And that's precisely our topic today:
+   2:24    Léa     « What's Your Dream Job? »,   | "What's Your Dream Job?",
+   2:26    Léa     autrement dit   | in other words,
+   2:27    Léa     « Quel est le métier de tes rêves ? »   | "What is the job of your dreams?"
+   2:29    Mathieu Une question très simple quand on est enfant,   | A very simple question when you're a child,
+   2:32    Mathieu mais beaucoup plus compliquée   | but much more complicated
+   2:34    Mathieu quand on devient adulte.   | when you become an adult.
+   2:36    Léa     Parce qu'il faut penser à nos passions,   | Because you have to think about our passions,
+   2:38    Léa     nos compétences, notre situation financière   | our skills, our financial situation
+   2:42    Léa     et parfois aux attentes de notre famille.   | and sometimes our family's expectations.
+   2:45    Mathieu Sans oublier une question importante :   | Not to mention an important question:
+   2:48    Mathieu est-ce que ce métier   | would we really enjoy this job
+   2:49    Mathieu nous plairait vraiment tous les jours ?   | every single day?
+   2:52    Léa     Aujourd'hui, nous allons parler de tout cela,   | Today, we're going to talk about all that,
+   2:54    Léa     avec des histoires   | with stories
+   2:56    Léa     et des expressions françaises utiles   | and useful French expressions
+   2:58    Léa     pour parler du travail et de l'avenir.   | to talk about work and the future.
+   3:01    Mathieu Et si vous apprenez le français,   | And if you're learning French,
+   3:03    Mathieu écoutez tranquillement.   | just listen calmly.
+   3:05    Mathieu Pas besoin de comprendre chaque mot.   | No need to understand every word.
+   3:08    Mathieu Essayez simplement de suivre notre conversation.   | Just try to follow our conversation.
+   3:12    Léa     Avant de commencer, dites-nous   | Before we start, tell us
+   3:13    Léa     dans les commentaires :   | in the comments:
+   3:15    Léa     quel métier rêviez-vous de faire   | what job did you dream of doing
+   3:17    Léa     quand vous étiez enfant ?   | when you were a child?
+   3:18    Mathieu Et est-ce que votre rêve a changé depuis ?   | And has your dream changed since then?
+   3:22    Mathieu Maintenant, commençons !   | Now, let's begin!
+   3:24    Léa     Bon, Mathieu,   | So, Mathieu,
+   3:25    Léa     pourquoi voulais-tu devenir explorateur ?   | why did you want to be an explorer?
+   3:29    Mathieu Je crois que j'aimais surtout l'aventure.   | I think I mostly loved adventure.
+   3:32    Mathieu Je voulais découvrir de nouveaux endroits,   | I wanted to discover new places,
+   3:35    Mathieu rencontrer des personnes   | meet people
+   3:37    Mathieu et voir des choses extraordinaires.   | and see extraordinary things.
+   3:40    Léa     Donc ce qui te plaisait vraiment,   | So what you really liked
+   3:42    Léa     c'était la découverte.   | was discovery.
+   3:44    Mathieu Exactement.   | Exactly.
+   3:45    Mathieu Je n'avais pas réfléchi aux difficultés du métier.   | I hadn't thought about the job's difficulties.
+   3:49    Léa     Et pourquoi voulais-tu devenir pompier ?   | And why did you want to be a firefighter?
+   3:51    Mathieu Parce que j'admirais les personnes courageuses   | Because I admired brave people
+   3:54    Mathieu qui viennent en aide aux autres.   | who come to help others.
+   3:57 ◆  Léa     Voilà. Derrière tes rêves,   | There you go. Behind your dreams,
+   3:59    Léa     il y avait certaines valeurs :   | there were certain values:
+   4:01    Léa     la curiosité, l'aventure et l'envie d'être utile.   | curiosity, adventure and the wish to be useful.
+   4:06    Mathieu Tu sais, je n'avais jamais regardé   | You know, I'd never looked at
+   4:08    Mathieu mes rêves d'enfant de cette manière.   | my childhood dreams that way.
+   4:10    Léa     Pourtant, ils peuvent nous aider à comprendre   | And yet they can help us understand
+   4:13    Léa     ce qui nous intéresse encore aujourd'hui.   | what still interests us today.
+   4:15    Mathieu Par exemple, quelqu'un qui voulait devenir pilote   | For example, someone who wanted to be a pilot
+   4:19    Mathieu parce qu'il aimait voyager   | because they loved travelling
+   4:21    Mathieu pourrait finalement travailler dans le tourisme.   | could end up working in tourism.
+   4:24    Léa     Exactement. Ou une personne   | Exactly. Or someone
+   4:26    Léa     qui rêvait d'être professeur   | who dreamed of being a teacher
+   4:28    Léa     pourrait découvrir qu'elle aime surtout   | might discover that they mostly love
+   4:31    Léa     expliquer des choses   | explaining things
+   4:32    Léa     et choisir un autre métier dans la formation.   | and choose another job in training.
+   4:35    Mathieu Donc nos rêves peuvent évoluer   | So our dreams can evolve
+   4:37    Mathieu sans complètement disparaître.   | without disappearing completely.
+   4:40    Léa     Oui. Mais il faut aussi accepter   | Yes. But we also have to accept
+   4:43    Léa     qu'une passion ne devienne pas forcément   | that a passion won't necessarily become
+   4:45    Léa     notre profession.   | our profession.
+   4:47    Mathieu Ah, c'est important.   | Ah, that's important.
+   4:49    Mathieu J'adore prendre des photos   | I love taking photos
+   4:51    Mathieu pendant mes promenades,   | during my walks,
+   4:52    Mathieu mais je ne sais pas si j'aimerais devoir   | but I'm not sure I'd like having to
+   4:55    Mathieu photographier des événements tous les week-ends.   | photograph events every weekend.
+   4:58    Léa     Voilà. Aimer une activité librement   | Exactly. Loving an activity freely
+   5:01    Léa     n'est pas toujours la même chose   | isn't always the same thing
+   5:03  ★ Léa     que devoir la pratiquer pour gagner sa vie.   | as having to do it to earn a living.
+   5:06    Mathieu Tu sais, j'ai une amie qui adorait dessiner   | You know, I have a friend who loved drawing
+   5:08    Mathieu quand elle était adolescente.   | when she was a teenager.
+   5:10    Mathieu Elle voulait devenir illustratrice.   | She wanted to be an illustrator.
+   5:13    Léa     Et aujourd'hui ?   | And today?
+   5:14    Mathieu Elle travaille dans l'enseignement,   | She works in teaching,
+   5:16    Mathieu mais elle dessine toujours le soir.   | but she still draws in the evening.
+   5:18    Mathieu Elle crée même de petites cartes pour ses amis.   | She even makes little cards for her friends.
+   5:21    Léa     Et elle est heureuse comme ça ?   | And is she happy like that?
+   5:23    Mathieu Oui. Elle dit que le dessin reste un plaisir   | Yes. She says drawing is still a pleasure
+   5:26    Mathieu parce qu'elle peut le pratiquer sans pression.   | because she can do it without pressure.
+   5:29    Léa     C'est une belle façon de voir les choses.   | That's a lovely way to see things.
+   5:31    Léa     Notre travail n'a pas besoin   | Our work doesn't need
+   5:33    Léa     de représenter toutes nos passions.   | to represent all our passions.
+   5:35    Mathieu Exactement. Et je crois que cela enlève   | Exactly. And I think that removes
+   5:38    Mathieu une partie de la pression   | some of the pressure
+   5:40    Mathieu quand on réfléchit à son avenir.   | when you think about your future.
+   5:42    Léa     Mais il existe un autre facteur   | But there's another factor
+   5:45    Léa     qui influence beaucoup nos choix professionnels.   | that strongly influences our career choices.
+   5:48    Mathieu Je crois que je sais : la famille ?   | I think I know: family?
+   5:51    Léa     Oui.   | Yes.
+   5:51  ★ Léa     Les attentes de nos parents et de nos proches.   | The expectations of our parents and loved ones.
+   5:55    Mathieu Ah, les fameuses discussions   | Ah, the famous discussions
+   5:57    Mathieu pendant les repas de famille !   | during family meals!
+   5:59    Mathieu Quand j'étais adolescent,   | When I was a teenager,
+   6:00    Mathieu tout le monde avait une idée pour mon avenir.   | everyone had an idea for my future.
+   6:03    Léa     Ah bon ? Raconte !   | Really? Tell me!
+   6:05    Mathieu Mon oncle voulait   | My uncle wanted
+   6:06    Mathieu que je travaille dans la finance.   | me to work in finance.
+   6:08    Mathieu Ma tante pensait   | My aunt thought
+   6:09    Mathieu que l'informatique serait parfaite pour moi.   | computing would be perfect for me.
+   6:12    Mathieu Et mon grand-père répétait   | And my grandfather kept saying
+   6:14    Mathieu qu'il fallait choisir un métier stable.   | you had to choose a stable job.
+   6:16    Léa     Ils voulaient probablement   | They probably wanted
+   6:18    Léa     que tu aies un avenir sûr.   | you to have a secure future.
+   6:20    Mathieu Oui, je sais que leurs conseils   | Yes, I know their advice
+   6:22  ★ Mathieu étaient bien intentionnés.   | was well-meant.
+   6:24    Mathieu Mais parfois, j'avais l'impression   | But sometimes I felt
+   6:26    Mathieu que tout le monde savait   | that everyone knew
+   6:27    Mathieu ce que je devais faire, sauf moi.   | what I should do, except me.
+   6:30    Léa     C'est une situation   | It's a situation
+   6:31    Léa     que beaucoup de jeunes connaissent.   | that many young people know.
+   6:34    Léa     Ils essaient de comprendre leurs envies   | They try to understand what they want
+   6:36    Léa     tout en écoutant les conseils de leur famille.   | while listening to their family's advice.
+   6:39    Mathieu Et ce n'est pas toujours facile   | And it's not always easy
+   6:41    Mathieu de faire la différence   | to tell the difference
+   6:42    Mathieu entre ce qu'on veut vraiment   | between what we really want
+   6:44    Mathieu et ce que les autres attendent de nous.   | and what others expect from us.
+   6:47    Léa     Exactement. Les parents pensent souvent   | Exactly. Parents often think
+   6:50    Léa     à la stabilité, au salaire   | about stability, salary
+   6:52    Léa     et aux possibilités d'emploi.   | and job opportunities.
+   6:54    Léa     Ce sont des questions importantes.   | Those are important questions.
+   6:56    Mathieu Mais il faut aussi penser à notre personnalité   | But we also have to think about our personality
+   7:00    Mathieu et à ce qui nous plaît.   | and what we enjoy.
+   7:01    Léa     Oui. Parce que c'est nous qui allons exercer   | Yes. Because we're the ones who'll do
+   7:04    Léa     ce métier tous les jours.   | this job every day.
+   7:06    Mathieu Et un métier prestigieux   | And a prestigious job
+   7:08    Mathieu ne nous rendra pas forcément heureux.   | won't necessarily make us happy.
+   7:10 ◆  Léa     Très juste.   | Very true.
+   7:11  ★ Léa     « Prestigieux » signifie   | "Prestigious" means
+   7:13    Léa     qu'un métier ou une position   | that a job or a position
+   7:15    Léa     est particulièrement respecté par la société.   | is especially respected by society.
+   7:19    Mathieu Par exemple, un métier peut être prestigieux,   | For example, a job can be prestigious
+   7:22    Mathieu mais ne pas correspondre à nos besoins.   | but not match our needs.
+   7:25    Léa     Exactement. Je connais quelqu'un   | Exactly. I know someone
+   7:27    Léa     qui a étudié le droit pendant plusieurs années   | who studied law for several years
+   7:30    Léa     parce que sa famille   | because his family
+   7:31    Léa     trouvait cette carrière idéale.   | thought it was the ideal career.
+   7:33    Mathieu Et il est devenu avocat ?   | And did he become a lawyer?
+   7:35    Léa     Oui, pendant quelque temps.   | Yes, for a while.
+   7:37    Léa     Mais il a découvert qu'il n'aimait pas   | But he discovered he didn't like
+   7:40    Léa     le rythme de travail.   | the pace of work.
+   7:41    Léa     Il s'intéressait davantage à la formation   | He was more interested in training
+   7:44    Léa     et à l'accompagnement des personnes.   | and supporting people.
+   7:46  ★ Mathieu Alors il a changé de voie ?   | So he changed direction?
+   7:48    Léa     Oui. Aujourd'hui, il travaille   | Yes. Today he works
+   7:50    Léa     dans la formation professionnelle.   | in professional training.
+   7:53    Léa     Et ses connaissances juridiques   | And his legal knowledge
+   7:55    Léa     lui sont encore utiles.   | is still useful to him.
+   7:57    Mathieu Donc changer de métier   | So changing jobs
+   7:59    Mathieu ne signifie pas que toutes nos études   | doesn't mean all our previous studies
+   8:01    Mathieu précédentes étaient inutiles.   | were useless.
+   8:03    Léa     Absolument.   | Absolutely.
+   8:04    Léa     Nous pouvons utiliser nos compétences   | We can use our skills
+   8:07    Léa     dans des domaines différents.   | in different fields.
+   8:09    Mathieu Mais je pense qu'il faut aussi être réaliste.   | But I think we also have to be realistic.
+   8:12    Mathieu On ne peut pas toujours changer   | We can't always change
+   8:14    Mathieu de carrière immédiatement.   | careers right away.
+   8:15    Léa     C'est vrai. Certaines personnes ont   | That's true. Some people have
+   8:17    Léa     des responsabilités familiales,   | family responsibilities,
+   8:20    Léa     des obligations financières   | financial obligations
+   8:22    Léa     ou besoin d'une formation supplémentaire.   | or need extra training.
+   8:25    Mathieu Donc il faut parfois   | So sometimes you have to
+   8:26    Mathieu préparer son changement progressivement.   | prepare your change gradually.
+   8:29    Léa     Exactement.   | Exactly.
+   8:30    Léa     Écouter ses envies ne signifie pas   | Listening to what you want doesn't mean
+   8:33    Léa     ignorer les réalités de la vie.   | ignoring the realities of life.
+   8:35    Mathieu Ce qui nous amène   | Which brings us
+   8:36    Mathieu à un sujet très important : l'argent !   | to a very important topic: money!
+   8:40    Léa     Je savais que tu allais le dire !   | I knew you were going to say that!
+   8:42    Mathieu Mais c'est vrai !   | But it's true!
+   8:43    Mathieu On peut être passionné par un métier,   | You can be passionate about a job,
+   8:46    Mathieu mais il faut aussi payer son logement,   | but you also have to pay for your home,
+   8:48    Mathieu acheter de la nourriture   | buy food
+   8:50    Mathieu et prendre soin de sa famille.   | and take care of your family.
+   8:52    Léa     Absolument.   | Absolutely.
+   8:53    Léa     La stabilité financière est importante,   | Financial stability is important,
+   8:56    Léa     et nos choix professionnels dépendent aussi   | and our career choices also depend
+   8:59    Léa     de notre situation.   | on our situation.
+   9:01    Mathieu D'ailleurs, Léa,   | By the way, Léa,
+   9:02    Mathieu si l'argent n'était absolument pas un problème,   | if money weren't a problem at all,
+   9:06    Mathieu quel métier aimerais-tu essayer ?   | what job would you like to try?
+   9:07    Léa     Hmm... Je crois que j'aimerais travailler   | Hmm... I think I'd like to work
+   9:11    Léa     dans une petite maison d'édition.   | in a small publishing house.
+   9:13    Mathieu Ah, ça te correspond bien.   | Ah, that suits you well.
+   9:15    Mathieu Tu adores les livres.   | You love books.
+   9:17    Léa     Oui. J'aimerais découvrir de nouveaux auteurs,   | Yes. I'd like to discover new authors,
+   9:20    Léa     discuter de leurs histoires   | talk about their stories
+   9:22    Léa     et participer à la création de beaux ouvrages.   | and help create beautiful books.
+   9:25    Mathieu Je t'imagine parfaitement   | I can picture you perfectly
+   9:27    Mathieu dans un bureau rempli de livres,   | in an office full of books,
+   9:29    Mathieu avec une grande fenêtre et une tasse de thé.   | with a big window and a cup of tea.
+   9:32    Léa     Exactement ! Et toi ?   | Exactly! And you?
+   9:35    Mathieu Moi, j'aimerais créer une émission   | Me, I'd like to create a show
+   9:38    Mathieu consacrée aux voyages   | about travel
+   9:40    Mathieu et aux traditions culinaires.   | and culinary traditions.
+   9:42    Léa     Encore la nourriture !   | Food again!
+   9:45    Mathieu Mais cette fois, c'est sérieux !   | But this time, I'm serious!
+   9:47    Mathieu J'aimerais rencontrer des personnes,   | I'd like to meet people,
+   9:49    Mathieu écouter leurs histoires et découvrir   | listen to their stories and discover
+   9:52    Mathieu comment elles préparent les plats traditionnels.   | how they cook traditional dishes.
+   9:55    Léa     En fait, ce projet rassemble   | In fact, this project brings together
+   9:57    Léa     plusieurs de tes passions :   | several of your passions:
+   9:59    Léa     voyager, communiquer   | travelling, communicating
+  10:01    Léa     et découvrir de nouvelles cultures.   | and discovering new cultures.
+  10:03    Mathieu Exactement. Mais dans la réalité,   | Exactly. But in reality,
+  10:07    Mathieu ce genre de travail demande du temps,   | this kind of work takes time,
+  10:09    Mathieu des ressources et beaucoup d'organisation.   | resources and a lot of organisation.
+  10:13    Léa     Voilà pourquoi il faut trouver un équilibre   | That's why you have to find a balance
+  10:15    Léa     entre ses envies et ses besoins matériels.   | between your wishes and your material needs.
+  10:18    Mathieu Et parfois, un travail   | And sometimes, a job
+  10:20    Mathieu qu'on n'adore pas absolument   | you don't absolutely love
+  10:22    Mathieu peut nous apporter des choses précieuses.   | can give us precious things.
+  10:25    Léa     Comme un salaire stable,   | Like a stable salary,
+  10:27    Léa     des horaires raisonnables   | reasonable hours
+  10:28    Léa     ou davantage de temps avec sa famille.   | or more time with your family.
+  10:31    Mathieu Sans oublier un trajet court   | Not to mention a short commute
+  10:33    Mathieu entre la maison et le travail.   | between home and work.
+  10:35    Mathieu Deux heures de transport par jour,   | Two hours of travel a day
+  10:38    Mathieu ça peut être épuisant !   | can be exhausting!
+  10:39    Léa     C'est vrai. Le mode de vie   | That's true. The lifestyle
+  10:41    Léa     associé à un emploi   | that comes with a job
+  10:42    Léa     est aussi important que le métier lui-même.   | is as important as the job itself.
+  10:45    Mathieu Tu sais, je connais deux personnes   | You know, I know two people
+  10:48    Mathieu qui ont des idées complètement différentes   | who have completely different ideas
+  10:50    Mathieu de la réussite professionnelle.   | of professional success.
+  10:52    Léa     Ah oui ?   | Oh really?
+  10:53 ◆  Mathieu La première adore son travail.   | The first one loves her job.
+  10:56    Mathieu Elle gère de grands projets,   | She manages big projects,
+  10:58    Mathieu voyage souvent et aime les responsabilités.   | travels often and loves responsibility.
+  11:02    Léa     Et la deuxième ?   | And the second one?
+  11:03    Mathieu Elle préfère un travail   | She prefers a job
+  11:05    Mathieu avec des horaires réguliers.   | with regular hours.
+  11:08    Mathieu Elle termine assez tôt pour passer du temps   | She finishes early enough to spend time
+  11:10    Mathieu avec ses enfants et pratiquer ses loisirs.   | with her children and enjoy her hobbies.
+  11:13    Léa     Et elles sont toutes les deux satisfaites ?   | And are they both satisfied?
+  11:16    Mathieu Oui.   | Yes.
+  11:16    Mathieu Elles ont simplement des priorités différentes.   | They simply have different priorities.
+  11:20    Léa     Voilà. Il n'existe pas   | There you go. There isn't
+  11:22    Léa     une seule définition de la réussite.   | just one definition of success.
+  11:25    Mathieu Donc un métier idéal n'est pas nécessairement   | So an ideal job isn't necessarily
+  11:28    Mathieu celui qui impressionne le plus les autres.   | the one that impresses others the most.
+  11:32    Léa     Exactement. C'est celui   | Exactly. It's the one
+  11:33    Léa     qui correspond suffisamment bien à nos besoins,   | that fits our needs well enough,
+  11:36    Léa     nos valeurs et notre manière de vivre.   | our values and our way of life.
+  11:39    Mathieu Mais parfois,   | But sometimes,
+  11:40    Mathieu un métier semble merveilleux de l'extérieur   | a job looks wonderful from the outside
+  11:43    Mathieu alors que la réalité est très différente.   | while the reality is very different.
+  11:46    Léa     Ah oui. Nous voyons souvent   | Oh yes. We often see
+  11:48    Léa     les aspects les plus agréables d'une profession.   | the most pleasant sides of a profession.
+  11:51    Mathieu Par exemple, travailler dans le tourisme.   | For example, working in tourism.
+  11:54    Mathieu On imagine les hôtels magnifiques,   | We imagine gorgeous hotels,
+  11:57    Mathieu les voyages et les rencontres.   | travel and meeting people.
+  11:59    Léa     Mais on oublie parfois les horaires irréguliers,   | But we sometimes forget the irregular hours,
+  12:02    Léa     les clients difficiles   | difficult customers
+  12:03    Léa     ou les déplacements fatigants.   | or tiring trips.
+  12:05    Mathieu Exactement. Ou le métier de chef cuisinier !   | Exactly. Or being a chef!
+  12:09    Mathieu On voit les beaux plats,   | We see the beautiful dishes,
+  12:11    Mathieu mais rarement les longues heures   | but rarely the long hours
+  12:13    Mathieu debout dans une cuisine.   | standing in a kitchen.
+  12:15    Léa     Voilà pourquoi il est important   | That's why it's important
+  12:17    Léa     de découvrir la réalité d'un métier   | to discover the reality of a job
+  12:19    Léa     avant de prendre une grande décision.   | before making a big decision.
+  12:22 ◆  Mathieu Tu sais, une amie à moi rêvait   | You know, a friend of mine dreamed
+  12:24    Mathieu d'ouvrir une boutique de fleurs.   | of opening a flower shop.
+  12:27    Léa     Oh, c'est charmant !   | Oh, how charming!
+  12:28    Mathieu Oui. Elle imaginait passer ses journées   | Yes. She imagined spending her days
+  12:31    Mathieu entourée de fleurs magnifiques,   | surrounded by gorgeous flowers,
+  12:34    Mathieu à créer des bouquets pour ses clients.   | making bouquets for her customers.
+  12:36    Léa     Et elle a ouvert sa boutique ?   | And did she open her shop?
+  12:38    Mathieu Pas immédiatement.   | Not right away.
+  12:39    Mathieu Elle a d'abord travaillé quelques semaines   | She first worked for a few weeks
+  12:42    Mathieu chez une fleuriste pour découvrir le métier.   | at a florist's to discover the job.
+  12:45    Léa     C'était une très bonne idée.   | That was a very good idea.
+  12:47    Mathieu Oui. Et elle a découvert   | Yes. And she discovered
+  12:48    Mathieu qu'il fallait se lever très tôt,   | that you had to get up very early,
+  12:51    Mathieu porter des cartons, gérer les commandes   | carry boxes, handle orders
+  12:54    Mathieu et travailler parfois pendant de longues journées.   | and sometimes work very long days.
+  12:57  ★ Léa     Donc le métier était plus exigeant   | So the job was more demanding
+  12:59    Léa     qu'elle ne l'imaginait.   | than she imagined.
+  13:00    Mathieu Exactement. Elle aimait toujours les fleurs,   | Exactly. She still loved flowers,
+  13:04    Mathieu mais elle a compris qu'elle préférait   | but she understood she preferred
+  13:06    Mathieu créer des compositions pour des événements   | creating arrangements for events
+  13:09    Mathieu plutôt que gérer une boutique tous les jours.   | rather than running a shop every day.
+  13:12    Léa     C'est un excellent exemple.   | That's an excellent example.
+  13:15    Léa     Parfois, essayer une activité nous aide   | Sometimes, trying an activity helps us
+  13:18    Léa     à mieux comprendre ce que nous voulons réellement.   | better understand what we really want.
+  13:21    Mathieu Oui. Et cela ne signifie pas   | Yes. And that doesn't mean
+  13:24    Mathieu que notre rêve était ridicule.   | our dream was ridiculous.
+  13:26    Mathieu Nous avons simplement appris   | We simply learned
+  13:28    Mathieu quelque chose de nouveau.   | something new.
+  13:30    Léa     Exactement.   | Exactly.
+  13:31    Léa     C'est pourquoi il peut être utile   | That's why it can be useful
+  13:33    Léa     de parler avec des professionnels,   | to talk with professionals,
+  13:36    Léa     de suivre une formation courte   | take a short course
+  13:38  ★ Léa     ou de faire un stage.   | or do an internship.
+  13:39    Mathieu Parce qu'un métier ne se résume pas à son image.   | Because a job isn't just its image.
+  13:43    Léa     Voilà. Il faut aussi imaginer   | Exactly. You also have to imagine
+  13:46    Léa     une journée normale dans cette profession.   | a normal day in that profession.
+  13:49    Mathieu Pas seulement le premier jour,   | Not just the first day,
+  13:50    Mathieu quand tout est nouveau et passionnant.   | when everything is new and exciting.
+  13:53    Léa     Exactement. Imagine un mardi ordinaire,   | Exactly. Imagine an ordinary Tuesday,
+  13:57    Léa     après six mois de travail.   | after six months on the job.
+  13:59    Léa     Est-ce que les tâches quotidiennes   | Do the daily tasks
+  14:01    Léa     t'intéressent encore ?   | still interest you?
+  14:02    Mathieu Ah, cette question est très utile.   | Ah, that question is very useful.
+  14:05    Mathieu Parce que même un métier passionnant   | Because even an exciting job
+  14:08    Mathieu comporte des journées ordinaires.   | has ordinary days.
+  14:11    Léa     Et parfois, des journées difficiles.   | And sometimes, difficult days.
+  14:14    Mathieu Tu sais, cela nous amène   | You know, that brings us
+  14:15    Mathieu à parler de la personnalité.   | to talk about personality.
+  14:17    Léa     Oui. Parce qu'un métier idéal pour une personne   | Yes. Because a job that's ideal for one person
+  14:21    Léa     peut être très difficile pour une autre.   | can be very hard for another.
+  14:24    Mathieu Par exemple, certaines personnes adorent   | For example, some people love
+  14:27    Mathieu parler devant un public.   | speaking in front of an audience.
+  14:28    Léa     Alors que d'autres   | Whereas others
+  14:29    Léa     préfèrent travailler tranquillement,   | prefer to work quietly,
+  14:31    Léa     dans un environnement plus calme.   | in a calmer environment.
+  14:33    Mathieu Moi, j'aime communiquer,   | Me, I like communicating,
+  14:35    Mathieu mais je ne voudrais pas passer   | but I wouldn't want to spend
+  14:37    Mathieu toute ma journée au téléphone.   | my whole day on the phone.
+  14:40    Léa     Et moi, j'aime organiser des idées   | And I like organising ideas
+  14:42    Léa     et expliquer des choses,   | and explaining things,
+  14:44    Léa     mais j'ai aussi besoin   | but I also need
+  14:45    Léa     de moments de concentration.   | moments of concentration.
+  14:47    Mathieu Donc notre personnalité   | So our personality
+  14:49    Mathieu peut nous donner des indications   | can give us clues
+  14:51    Mathieu sur le type de travail qui nous convient.   | about the type of work that suits us.
+  14:54    Léa     Exactement.   | Exactly.
+  14:54    Léa     Certaines personnes aiment la routine.   | Some people like routine.
+  14:57    Léa     D'autres préfèrent la variété.   | Others prefer variety.
+  14:59    Mathieu Et certaines aiment travailler en équipe,   | And some like working in a team,
+  15:02    Mathieu alors que d'autres sont plus efficaces seules.   | while others are more efficient alone.
+  15:05    Léa     Aucune préférence   | No preference
+  15:06    Léa     n'est automatiquement meilleure qu'une autre.   | is automatically better than another.
+  15:09    Mathieu Il faut simplement apprendre   | We simply have to learn
+  15:11    Mathieu à mieux se connaître.   | to know ourselves better.
+  15:12 ◆  Léa     Oui. Et il est également important   | Yes. And it's also important
+  15:15  ★ Léa     d'identifier nos points forts.   | to identify our strengths.
+  15:17    Mathieu « Les points forts », ce sont nos qualités   | "Strengths" are our qualities
+  15:20    Mathieu et nos compétences particulières.   | and our particular skills.
+  15:23    Léa     Exactement. Certaines personnes sont organisées,   | Exactly. Some people are organised,
+  15:26    Léa     d'autres sont créatives   | others are creative
+  15:28    Léa     ou particulièrement patientes.   | or especially patient.
+  15:30    Mathieu Et parfois, nous ne remarquons même pas   | And sometimes, we don't even notice
+  15:33    Mathieu nos propres qualités.   | our own qualities.
+  15:35    Léa     Pourquoi ?   | Why?
+  15:36    Mathieu Parce que certaines choses nous semblent faciles.   | Because some things seem easy to us.
+  15:39    Mathieu Nous imaginons que tout le monde   | We imagine that everyone
+  15:41    Mathieu possède les mêmes capacités.   | has the same abilities.
+  15:43    Léa     C'est vrai. Par exemple, quelqu'un   | That's true. For example, someone
+  15:46    Léa     qui sait expliquer clairement des idées complexes   | who can explain complex ideas clearly
+  15:49    Léa     peut penser que c'est une compétence ordinaire.   | may think it's an ordinary skill.
+  15:51    Mathieu Alors que c'est un véritable point fort.   | Whereas it's a real strength.
+  15:54    Léa     Une bonne manière de découvrir ses qualités   | A good way to discover your qualities
+  15:57    Léa     consiste à observer   | is to notice
+  15:58    Léa     ce que les autres nous demandent souvent.   | what others often ask us for.
+  16:01    Mathieu Par exemple, si mes amis me demandent toujours   | For example, if my friends always ask me
+  16:04    Mathieu d'organiser les voyages,   | to organise the trips,
+  16:06    Mathieu c'est peut-être parce que je suis bon   | maybe it's because I'm good
+  16:08    Mathieu pour préparer des itinéraires.   | at planning itineraries.
+  16:10    Léa     Et si tes collègues te demandent régulièrement   | And if your colleagues regularly ask you
+  16:12    Léa     de relire leurs textes,   | to proofread their texts,
+  16:14  ★ Léa     tu as peut-être des facilités en rédaction.   | maybe you have a gift for writing.
+  16:16    Mathieu Et si tout le monde me demande   | And if everyone asks me
+  16:18    Mathieu de choisir les restaurants ?   | to choose the restaurants?
+  16:20    Léa     Alors tu as probablement un talent particulier   | Then you probably have a special talent
+  16:23    Léa     pour trouver de bonnes adresses !   | for finding good places to eat!
+  16:25    Mathieu Enfin une compétence reconnue !   | Finally, a recognised skill!
+  16:28    Léa     Mais attention, nos points forts   | But be careful, our strengths
+  16:30    Léa     ne doivent pas forcément devenir notre métier.   | don't necessarily have to become our job.
+  16:33    Mathieu Oui. Ils peuvent simplement nous aider   | Yes. They can simply help us
+  16:36    Mathieu à mieux comprendre ce qui nous plaît.   | better understand what we enjoy.
+  16:38    Léa     Exactement. Et parfois, nous découvrons   | Exactly. And sometimes we discover
+  16:42    Léa     nos talents grâce à des expériences inattendues.   | our talents through unexpected experiences.
+  16:45    Mathieu Tu sais, ma cousine ne savait absolument pas   | You know, my cousin had absolutely no idea
+  16:48    Mathieu quel métier choisir après ses études.   | what job to choose after her studies.
+  16:51    Léa     Ah oui ? Quels domaines l'intéressaient ?   | Oh really? What fields interested her?
+  16:54    Mathieu Elle aimait les langues,   | She liked languages,
+  16:55    Mathieu le dessin et la communication,   | drawing and communication,
+  16:58    Mathieu mais elle avait du mal à choisir une direction.   | but she struggled to choose a direction.
+  17:01  ★ Léa     Et comment a-t-elle trouvé sa voie ?   | And how did she find her path?
+  17:04    Mathieu Elle a fait un stage dans une petite entreprise.   | She did an internship at a small company.
+  17:08    Mathieu Elle devait préparer des présentations   | She had to prepare presentations
+  17:10    Mathieu et expliquer des informations compliquées   | and explain complicated information
+  17:13    Mathieu de manière simple.   | in a simple way.
+  17:15    Léa     Et cela lui a plu ?   | And did she like it?
+  17:17    Mathieu Énormément.   | Enormously.
+  17:18    Mathieu Elle s'est rendu compte qu'elle aimait   | She realised she loved
+  17:20    Mathieu transformer des idées complexes   | turning complex ideas
+  17:23    Mathieu en contenus visuels faciles à comprendre.   | into visual content that's easy to understand.
+  17:26    Léa     Ah, c'est une compétence intéressante.   | Ah, that's an interesting skill.
+  17:29    Mathieu Aujourd'hui, elle travaille   | Today, she works
+  17:31    Mathieu dans la communication visuelle.   | in visual communication.
+  17:34    Mathieu Mais quand elle était adolescente,   | But when she was a teenager,
+  17:36    Mathieu elle ne connaissait même pas vraiment ce métier.   | she didn't even really know this job existed.
+  17:39    Léa     Cela montre qu'on ne peut pas toujours   | That shows you can't always
+  17:41    Léa     choisir un métier avant de savoir qu'il existe.   | choose a job before knowing it exists.
+  17:45    Mathieu Exactement. Et parfois, notre direction   | Exactly. And sometimes our direction
+  17:48    Mathieu apparaît progressivement grâce aux expériences.   | appears gradually through experience.
+  17:52    Léa     Voilà pourquoi il ne faut pas forcément paniquer   | That's why there's no need to panic
+  17:55    Léa     quand on ne connaît pas encore son métier idéal.   | when you don't know your ideal job yet.
+  17:58    Mathieu Pourtant, beaucoup de jeunes   | And yet many young people
+  18:00    Mathieu ressentent une pression énorme   | feel enormous pressure
+  18:02    Mathieu au moment de choisir leurs études.   | when choosing their studies.
+  18:05    Léa     C'est vrai. On leur demande parfois   | That's true. They're sometimes asked
+  18:07    Léa     d'imaginer leur carrière   | to imagine their career
+  18:08    Léa     pour les dix prochaines années   | for the next ten years
+  18:10    Léa     alors qu'ils commencent seulement   | when they're only just starting
+  18:12    Léa     à découvrir le monde professionnel.   | to discover the working world.
+  18:15    Mathieu Et tout le monde n'avance pas au même rythme.   | And not everyone moves at the same pace.
+  18:18    Léa     Exactement.   | Exactly.
+  18:19    Léa     Certaines personnes trouvent leur voie très tôt.   | Some people find their path very early.
+  18:22    Léa     D'autres ont besoin de plusieurs expériences.   | Others need several experiences.
+  18:25    Mathieu Et certaines changent de carrière   | And some change careers
+  18:28    Mathieu après dix ou quinze ans de travail.   | after ten or fifteen years of work.
+  18:30    Léa     Absolument.   | Absolutely.
+  18:31    Léa     Nos priorités peuvent évoluer avec le temps.   | Our priorities can change over time.
+  18:35    Mathieu À vingt ans, on peut rechercher l'aventure.   | At twenty, you may seek adventure.
+  18:38    Mathieu Plus tard, on peut accorder   | Later, you may give
+  18:40    Mathieu davantage d'importance à la stabilité.   | more importance to stability.
+  18:43    Léa     Ou vouloir un travail plus flexible   | Or want a more flexible job
+  18:45    Léa     pour passer du temps avec sa famille.   | to spend time with your family.
+  18:47  ★ Mathieu Et ce n'est pas forcément un échec   | And it's not necessarily a failure
+  18:50    Mathieu de changer de direction.   | to change direction.
+  18:52    Léa     Non. Cela peut simplement signifier   | No. It can simply mean
+  18:54    Léa     qu'on a appris davantage sur soi-même.   | you've learned more about yourself.
+  18:57    Mathieu Tu sais, je crois qu'il y a un problème   | You know, I think there's a problem
+  19:00    Mathieu avec l'expression « métier de rêve ».   | with the expression "dream job".
+  19:03    Léa     Lequel ?   | Which one?
+  19:04    Mathieu Elle donne parfois l'impression qu'il existe   | It sometimes gives the impression
+  19:06    Mathieu une profession parfaite quelque part.   | that a perfect profession exists somewhere.
+  19:09    Léa     Un travail passionnant, bien payé,   | An exciting, well-paid job,
+  19:12    Léa     avec des collègues extraordinaires   | with amazing colleagues
+  19:14    Léa     et aucun stress ?   | and no stress?
+  19:15    Mathieu Exactement ! Et bien sûr,   | Exactly! And of course,
+  19:18    Mathieu beaucoup de vacances et du café gratuit !   | lots of holidays and free coffee!
+  19:22    Léa     Mathieu, tu demandes énormément de choses !   | Mathieu, you're asking for an awful lot!
+  19:25    Mathieu Je sais. Mais c'est un rêve, après tout !   | I know. But it's a dream, after all!
+  19:29    Léa     Plus sérieusement,   | More seriously,
+  19:30    Léa     je ne pense pas qu'un travail parfait existe.   | I don't think a perfect job exists.
+  19:33    Mathieu Moi non plus.   | Me neither.
+  19:35    Mathieu Même un métier qu'on adore   | Even a job you love
+  19:37    Mathieu comporte des difficultés.   | has its difficulties.
+  19:39    Léa     Il peut y avoir des délais, des responsabilités,   | There can be deadlines, responsibilities,
+  19:42    Léa     des tâches répétitives   | repetitive tasks
+  19:44    Léa     ou des périodes très chargées.   | or very busy periods.
+  19:46    Mathieu Donc un métier idéal n'est peut-être pas   | So an ideal job may not be
+  19:49    Mathieu un métier sans problèmes.   | a job without problems.
+  19:51    Léa     Exactement.   | Exactly.
+  19:53    Léa     C'est peut-être plutôt un métier   | It's perhaps rather a job
+  19:54    Léa     dont les aspects positifs correspondent   | whose positive sides match
+  19:57    Léa     à ce qui compte pour nous,   | what matters to us,
+  19:59    Léa     et dont les difficultés restent acceptables.   | and whose difficulties stay acceptable.
+  20:02    Mathieu J'aime cette définition.   | I like that definition.
+  20:04    Mathieu Elle est beaucoup plus réaliste.   | It's much more realistic.
+  20:06    Léa     Et elle nous rappelle qu'on n'a pas besoin   | And it reminds us we don't need
+  20:08    Léa     de trouver une profession parfaite   | to find a perfect profession
+  20:10    Léa     pour construire une vie satisfaisante.   | to build a satisfying life.
+  20:12    Mathieu Tu sais, certaines personnes aiment leur travail,   | You know, some people like their job,
+  20:16    Mathieu mais trouvent surtout leur bonheur   | but mostly find happiness
+  20:18    Mathieu dans leurs loisirs   | in their hobbies
+  20:19    Mathieu et leurs relations personnelles.   | and their personal relationships.
+  20:22    Léa     Et c'est parfaitement légitime.   | And that's perfectly legitimate.
+  20:24    Mathieu Donc notre métier n'a pas besoin   | So our job doesn't need
+  20:26    Mathieu de représenter toute notre identité.   | to represent our whole identity.
+  20:30 ◆  Léa     Absolument.   | Absolutely.
+  20:31    Léa     Mais si quelqu'un souhaite changer de carrière,   | But if someone wants to change careers,
+  20:34    Léa     il peut commencer par réfléchir   | they can start by thinking about
+  20:36    Léa     à ce qui lui manque dans son emploi actuel.   | what's missing in their current job.
+  20:39    Mathieu Par exemple, davantage de créativité,   | For example, more creativity,
+  20:42    Mathieu de liberté ou de stabilité.   | freedom or stability.
+  20:45    Léa     Oui. Ensuite, il peut chercher des informations,   | Yes. Then they can look for information,
+  20:48    Léa     discuter avec des professionnels   | talk with professionals
+  20:51    Léa     et découvrir les compétences nécessaires.   | and discover the skills needed.
+  20:53    Mathieu Et préparer son projet progressivement,   | And prepare their project gradually,
+  20:56    Mathieu surtout s'il a des responsabilités financières.   | especially if they have financial responsibilities.
+  20:59    Léa     Exactement.   | Exactly.
+  21:01    Léa     Un changement professionnel   | A career change
+  21:03    Léa     n'a pas besoin d'être immédiat.   | doesn't have to be immediate.
+  21:05    Mathieu Et même si on décide finalement   | And even if you finally decide
+  21:07    Mathieu de rester dans son emploi actuel,   | to stay in your current job,
+  21:10    Mathieu cette réflexion peut nous aider   | this reflection can help us
+  21:12    Mathieu à mieux comprendre nos besoins.   | better understand our needs.
+  21:14    Léa     Tout à fait.   | Absolutely.
+  21:16    Léa     Maintenant, j'aimerais parler   | Now, I'd like to talk about
+  21:17    Léa     de quelques expressions très utiles   | a few very useful expressions
+  21:20    Léa     pour nos auditeurs.   | for our listeners.
+  21:22    Mathieu Excellente idée !   | Great idea!
+  21:23    Mathieu Parce que parler de son travail   | Because talking about your work
+  21:25    Mathieu et de ses projets professionnels   | and your career plans
+  21:28    Mathieu est un sujet fréquent   | is a common topic
+  21:29    Mathieu dans les conversations françaises.   | in French conversations.
+  21:32    Léa     Par exemple, pour demander   | For example, to ask
+  21:33    Léa     le métier de quelqu'un, on peut dire :   | someone's job, you can say:
+  21:37    Léa     « Qu'est-ce que tu fais dans la vie ? »   | "What do you do for a living?"
+  21:39    Mathieu Ou : « Dans quel domaine   | Or: "What field
+  21:40    Mathieu est-ce que tu travailles ? »   | do you work in?"
+  21:42    Léa     Et pour parler de ses ambitions, on peut dire :   | And to talk about your ambitions, you can say:
+  21:46    Léa     « J'aimerais travailler dans le tourisme. »   | "I'd like to work in tourism."
+  21:48    Mathieu Ou : « Mon rêve serait de devenir architecte. »   | Or: "My dream would be to become an architect."
+  21:53    Léa     Exactement.   | Exactly.
+  21:54    Léa     Et si on n'est pas encore sûr de son choix,   | And if you're not sure of your choice yet,
+  21:57    Léa     on peut dire :   | you can say:
+  21:58    Léa     « Je réfléchis encore   | "I'm still thinking about
+  22:00    Léa     à mon orientation professionnelle. »   | my career path."
+  22:02  ★ Mathieu « L'orientation professionnelle »,   | "Career guidance"
+  22:05    Mathieu c'est la recherche d'un métier   | is looking for a job
+  22:07    Mathieu ou d'un domaine qui nous correspond.   | or a field that suits us.
+  22:09    Léa     Très bien. Maintenant, revoyons   | Very good. Now, let's review
+  22:12    Léa     quelques expressions naturelles.   | some natural expressions.
+  22:14 ◆  Mathieu Commençons avec « trouver sa voie ».   | Let's start with "trouver sa voie".
+  22:17    Léa     « Trouver sa voie » signifie découvrir   | "Trouver sa voie" means discovering
+  22:19    Léa     une direction professionnelle ou personnelle   | a professional or personal direction
+  22:23    Léa     qui nous correspond.   | that suits us.
+  22:24    Léa     Par exemple : « Après plusieurs expériences,   | For example: "After several experiences,
+  22:28    Léa     elle a trouvé sa voie dans le design. »   | she found her path in design."
+  22:30    Mathieu Deuxième expression : « changer de voie ».   | Second expression: "changer de voie".
+  22:34    Léa     Cela signifie choisir une nouvelle direction,   | It means choosing a new direction,
+  22:37    Léa     souvent dans ses études ou sa carrière.   | often in your studies or career.
+  22:40    Mathieu Par exemple :   | For example:
+  22:41    Mathieu « Après quelques années dans le commerce,   | "After a few years in sales,
+  22:44    Mathieu il a décidé de changer de voie. »   | he decided to change direction."
+  22:46 ◆  Léa     Troisième expression :   | Third expression:
+  22:48  ★ Léa     « s'épanouir dans son travail ».   | "to flourish in your work".
+  22:50    Mathieu Cela signifie se sentir bien,   | It means feeling good,
+  22:53    Mathieu progresser et trouver de la satisfaction   | growing and finding satisfaction
+  22:56    Mathieu dans son activité professionnelle.   | in your professional activity.
+  22:59    Léa     Par exemple : « Elle s'épanouit dans son travail   | For example: "She flourishes in her job
+  23:02    Léa     parce qu'elle aime aider les autres. »   | because she likes helping others."
+  23:04    Mathieu Quatrième expression :   | Fourth expression:
+  23:07    Mathieu « avoir le sens de quelque chose ».   | "to have a sense of something".
+  23:09    Léa     Elle décrit une capacité   | It describes an ability
+  23:11    Léa     ou une qualité particulière.   | or a particular quality.
+  23:14    Léa     Par exemple : « Il a le sens de l'organisation. »   | For example: "He has a knack for organising."
+  23:17    Mathieu Ou : « Elle a le sens du contact. »   | Or: "She's good with people."
+  23:21    Léa     Cinquième expression : « gagner sa vie ».   | Fifth expression: "gagner sa vie".
+  23:24    Mathieu Cela signifie obtenir l'argent nécessaire   | It means earning the money you need
+  23:28    Mathieu pour vivre grâce à son travail.   | to live through your work.
+  23:31    Léa     Par exemple : « Il aimerait gagner sa vie   | For example: "He'd like to earn a living
+  23:33    Léa     en faisant de la photographie. »   | doing photography."
+  23:36    Mathieu Et notre dernière expression :   | And our last expression:
+  23:38    Mathieu « se reconvertir ».   | "se reconvertir".
+  23:40    Léa     « Se reconvertir » signifie   | "Se reconvertir" means
+  23:42    Léa     changer de métier ou de domaine professionnel   | changing job or professional field
+  23:45    Léa     après avoir déjà travaillé dans un autre secteur.   | after already working in another sector.
+  23:49    Mathieu Par exemple :   | For example:
+  23:50    Mathieu « Après dix ans dans la finance, elle a décidé   | "After ten years in finance, she decided
+  23:53    Mathieu de se reconvertir dans l'enseignement. »   | to retrain as a teacher."
+  23:56    Léa     Voilà six expressions très utiles   | There you go, six very useful expressions
+  23:59    Léa     pour parler du travail et de l'avenir.   | to talk about work and the future.
+  24:02    Mathieu Et maintenant, regardons comment rendre   | And now, let's see how to make
+  24:05    Mathieu certaines phrases plus naturelles en français.   | some sentences sound more natural in French.
+  24:08 ◆  Léa     Commençons avec : « Je veux être médecin. »   | Let's start with: "I want to be a doctor."
+  24:11    Mathieu On peut dire : « J'aimerais devenir médecin. »   | You can say: "I'd like to become a doctor."
+  24:15    Léa     Ou : « Mon rêve serait d'exercer la médecine. »   | Or: "My dream would be to practise medicine."
+  24:19    Mathieu Deuxième phrase :   | Second sentence:
+  24:20    Mathieu « Je ne sais pas quel travail choisir. »   | "I don't know which job to choose."
+  24:23    Léa     On peut dire : « Je cherche encore   | You can say: "I'm still looking for
+  24:25    Léa     le métier qui me correspond. »   | the job that suits me."
+  24:28    Mathieu Ou : « Je suis encore en train de réfléchir   | Or: "I'm still thinking
+  24:31    Mathieu à mon orientation professionnelle. »   | about my career path."
+  24:34    Léa     Troisième phrase :   | Third sentence:
+  24:35    Léa     « Je veux un travail qui me rend heureux. »   | "I want a job that makes me happy."
+  24:38    Mathieu On peut dire : « J'aimerais trouver   | You can say: "I'd like to find
+  24:41    Mathieu un travail dans lequel je puisse m'épanouir. »   | a job where I can flourish."
+  24:44    Léa     Ou : « Je cherche un métier   | Or: "I'm looking for a job
+  24:46    Léa     qui ait du sens pour moi. »   | that's meaningful to me."
+  24:48    Mathieu Quatrième phrase : « Je suis bon avec les gens. »   | Fourth sentence: "I'm good with people."
+  24:52    Léa     On peut dire : « J'ai un bon relationnel. »   | You can say: "I have good people skills."
+  24:55    Mathieu Ou : « Le contact humain   | Or: "Human contact
+  24:57    Mathieu est l'un de mes points forts. »   | is one of my strengths."
+  25:00    Léa     Cinquième phrase :   | Fifth sentence:
+  25:02    Léa     « Je n'ai pas assez d'expérience. »   | "I don't have enough experience."
+  25:04    Mathieu On peut dire : « Je manque encore   | You can say: "I still lack
+  25:06    Mathieu d'expérience dans ce domaine,   | experience in this field,
+  25:09    Mathieu mais je suis prêt à apprendre. »   | but I'm ready to learn."
+  25:11    Léa     Ou : « Je souhaite développer mes compétences   | Or: "I'd like to develop my skills
+  25:15    Léa     avant de postuler. »   | before applying."
+  25:17    Mathieu Et notre dernière phrase :   | And our last sentence:
+  25:20    Mathieu « Je veux essayer un autre métier. »   | "I want to try another job."
+  25:22    Léa     On peut dire : « J'aimerais explorer   | You can say: "I'd like to explore
+  25:24    Léa     de nouvelles possibilités professionnelles. »   | new career possibilities."
+  25:28    Mathieu Ou : « J'envisage une reconversion,   | Or: "I'm considering a career change,
+  25:31    Mathieu mais je préfère me renseigner   | but I'd rather find out more
+  25:33    Mathieu avant de prendre une décision. »   | before making a decision."
+  25:35 ◆  Léa     Très bien. Ces expressions permettent   | Very good. These expressions let us
+  25:38    Léa     de parler de nos projets   | talk about our plans
+  25:40    Léa     de façon plus précise et naturelle.   | in a more precise and natural way.
+  25:43    Mathieu Tu sais, Léa, après cette conversation,   | You know, Léa, after this conversation,
+  25:45    Mathieu je regarde mes rêves d'enfant différemment.   | I see my childhood dreams differently.
+  25:49    Léa     Ah oui ? Pourquoi ?   | Oh really? Why?
+  25:51    Mathieu Parce que je pensais avoir abandonné   | Because I thought I'd given up
+  25:53    Mathieu mon rêve d'explorateur.   | my dream of being an explorer.
+  25:55    Mathieu Mais finalement, j'aime toujours voyager   | But in the end, I still love travelling
+  25:59    Mathieu et découvrir de nouveaux endroits.   | and discovering new places.
+  26:01    Léa     Et ton rêve de devenir chef cuisinier ?   | And your dream of becoming a chef?
+  26:04    Mathieu Il est toujours là, lui aussi.   | It's still there too.
+  26:06    Mathieu Je l'exprime simplement en préparant   | I simply express it by cooking
+  26:09    Mathieu de bons repas pour mes amis.   | good meals for my friends.
+  26:11    Léa     Voilà ! Tes rêves n'ont pas complètement disparu.   | There you go! Your dreams haven't disappeared.
+  26:15    Léa     Ils ont simplement trouvé   | They've simply found
+  26:16    Léa     une autre place dans ta vie.   | another place in your life.
+  26:18    Mathieu Et je crois que c'est une belle manière   | And I think it's a lovely way
+  26:21    Mathieu de comprendre nos choix.   | to understand our choices.
+  26:22    Léa     Oui. Nos rêves peuvent évoluer avec nous.   | Yes. Our dreams can evolve with us.
+  26:26    Léa     Et parfois, le métier   | And sometimes, the job
+  26:27    Léa     qui nous correspond aujourd'hui   | that suits us today
+  26:29    Léa     ne sera pas celui   | won't be the one
+  26:30    Léa     que nous souhaiterons exercer dans dix ans.   | we'll want to do in ten years.
+  26:32    Mathieu Parce que nous continuons à apprendre,   | Because we keep learning,
+  26:35    Mathieu à changer et à découvrir   | changing and discovering
+  26:37    Mathieu de nouvelles possibilités.   | new possibilities.
+  26:39    Léa     Exactement. Alors, chers amis, avant de terminer,   | Exactly. So, dear friends, before we finish,
+  26:44    Léa     nous aimerions vous poser une question.   | we'd like to ask you a question.
+  26:46    Mathieu Quel est le métier de vos rêves ?   | What's your dream job?
+  26:49    Mathieu Ou quel métier aimeriez-vous essayer,   | Or what job would you like to try,
+  26:52    Mathieu même pour une seule journée ?   | even for just one day?
+  26:54    Léa     Dans les commentaires, complétez cette phrase :   | In the comments, complete this sentence:
+  26:57    Léa     « Le métier de mes rêves,   | "My dream job would be...,
+  26:59    Léa     ce serait..., parce que... »   | because..."
+  27:01    Mathieu Et si vous n'êtes pas encore sûr de votre choix,   | And if you're not sure of your choice yet,
+  27:04    Mathieu vous pouvez dire : « Je suis encore en train   | you can say: "I'm still
+  27:07    Mathieu de chercher le métier qui me correspond. »   | looking for the job that suits me."
+  27:11    Léa     Une ou deux phrases suffisent.   | One or two sentences are enough.
+  27:12    Léa     N'ayez pas peur de faire des erreurs.   | Don't be afraid of making mistakes.
+  27:15    Léa     L'important, c'est de pratiquer votre français.   | What matters is practising your French.
+  27:18    Mathieu Et si cet épisode vous a plu,   | And if you enjoyed this episode,
+  27:20    Mathieu pensez à laisser un petit pouce en l'air,   | remember to leave a little thumbs-up,
+  27:23    Mathieu à vous abonner à The Cozy French   | subscribe to The Cozy French
+  27:25    Mathieu et à partager notre conversation   | and share our conversation
+  27:28    Mathieu avec quelqu'un qui apprend le français.   | with someone who's learning French.
+  27:31    Léa     Merci beaucoup d'avoir passé ce moment avec nous.   | Thank you so much for spending this time with us.
+  27:34    Léa     Nous espérons que cette conversation   | We hope this conversation
+  27:36    Léa     vous a permis de découvrir   | helped you discover
+  27:37    Léa     de nouvelles expressions   | new expressions
+  27:39    Léa     et de réfléchir à vos projets.   | and think about your plans.
+  27:41    Mathieu Avant de partir, Léa,   | Before we go, Léa,
+  27:43    Mathieu j'aimerais te poser une dernière question.   | I'd like to ask you one last question.
+  27:46    Mathieu Est-ce que tu crois qu'il existe   | Do you think there's
+  27:49    Mathieu un seul métier idéal pour chaque personne ?   | just one ideal job for each person?
+  27:52    Léa     Non. Je pense que nous pouvons avoir   | No. I think we can have
+  27:55    Léa     plusieurs métiers qui nous correspondent   | several jobs that suit us
+  27:57    Léa     à différentes étapes de notre vie.   | at different stages of our life.
+  28:00    Mathieu Donc il n'est pas nécessaire   | So there's no need
+  28:02    Mathieu de trouver une profession parfaite pour toujours.   | to find a perfect profession forever.
+  28:05    Léa     Exactement. Il faut surtout apprendre   | Exactly. Above all, we have to learn
+  28:08    Léa     à mieux se connaître,   | to know ourselves better,
+  28:09    Léa     explorer les possibilités   | explore the possibilities
+  28:12    Léa     et faire des choix qui ont du sens pour nous.   | and make choices that are meaningful to us.
+  28:14    Mathieu Et si quelqu'un n'a pas encore trouvé sa voie ?   | And if someone hasn't found their path yet?
+  28:18    Léa     Il peut continuer à apprendre,   | They can keep learning,
+  28:20    Léa     poser des questions,   | ask questions,
+  28:21    Léa     essayer de nouvelles choses   | try new things
+  28:23    Léa     et avancer à son rythme.   | and move forward at their own pace.
+  28:25    Mathieu Voilà une belle manière   | What a lovely way
+  28:27    Mathieu de terminer notre conversation.   | to end our conversation.
+  28:29    Léa     Prenez soin de vous, chers amis,   | Take care, dear friends,
+  28:31    Léa     et souvenez-vous que vos rêves peuvent changer.   | and remember that your dreams can change.
+  28:34    Léa     Ce n'est pas forcément un échec,   | It's not necessarily a failure,
+  28:36    Léa     c'est aussi une partie de la vie.   | it's also part of life.
+  28:39    Mathieu C'était Mathieu...   | This was Mathieu...
+  28:40    Léa     Et Léa, de The Cozy French !   | And Léa, from The Cozy French!
+  28:42    Mathieu Nous vous retrouvons très bientôt   | See you very soon
+  28:45    Mathieu pour une nouvelle conversation en français.   | for a new conversation in French.
+  28:47    Léa     Continuez à apprendre,   | Keep learning,
+  28:49    Léa     à découvrir et à croire en vos possibilités.   | discovering and believing in your possibilities.
+  28:53    Léa     À très bientôt !   | See you very soon!
+  28:54    Mathieu À bientôt, chers amis !   | See you soon, dear friends!
+  28:56    Léa     À bientôt !   | See you soon!

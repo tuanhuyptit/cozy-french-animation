@@ -1,0 +1,17 @@
+[
+ {"tag":"expression","word":"changer d'avis","ipa":"/ʃɑ̃.ʒe da.vi/","mean":"to change one's mind","ex":"J'allais prendre le train, mais j'ai changé d'avis.","exEn":"I was going to take the train, but I changed my mind."},
+ {"tag":"expression","word":"en grandissant","ipa":"/ɑ̃ ɡʁɑ̃.di.sɑ̃/","mean":"as one grows up","ex":"En grandissant, il a appris à aimer les légumes.","exEn":"As he grew up, he learned to like vegetables."},
+ {"tag":"expression","word":"gagner sa vie","ipa":"/ɡa.ɲe sa vi/","mean":"to earn a living","ex":"Elle gagne sa vie en donnant des cours de piano.","exEn":"She earns a living giving piano lessons."},
+ {"tag":"nom féminin","word":"une attente","ipa":"/yn a.tɑ̃t/","mean":"an expectation (often plural: les attentes)","ex":"Ce restaurant a dépassé toutes mes attentes.","exEn":"This restaurant exceeded all my expectations."},
+ {"tag":"adjectif","word":"bien intentionné(e)","ipa":"/bjɛ̃ ɛ̃.tɑ̃.sjɔ.ne/","mean":"well-meaning, well-intentioned","ex":"Mon voisin est bien intentionné, mais un peu bavard.","exEn":"My neighbour means well, but he's a bit chatty."},
+ {"tag":"adjectif","word":"prestigieux, prestigieuse","ipa":"/pʁɛs.ti.ʒjø/","mean":"prestigious, highly respected","ex":"Il a étudié dans une université prestigieuse.","exEn":"He studied at a prestigious university."},
+ {"tag":"expression","word":"changer de voie","ipa":"/ʃɑ̃.ʒe də vwa/","mean":"to change direction (in studies or career)","ex":"Après deux ans de médecine, elle a changé de voie.","exEn":"After two years of medicine, she changed direction."},
+ {"tag":"adjectif","word":"exigeant, exigeante","ipa":"/ɛɡ.zi.ʒɑ̃/","mean":"demanding","ex":"Mon professeur de danse est très exigeant.","exEn":"My dance teacher is very demanding."},
+ {"tag":"expression","word":"faire un stage","ipa":"/fɛʁ œ̃ staʒ/","mean":"to do an internship","ex":"Cet été, je vais faire un stage dans un hôtel.","exEn":"This summer, I'm going to do an internship in a hotel."},
+ {"tag":"nom masculin","word":"les points forts","ipa":"/le pwɛ̃ fɔʁ/","mean":"strengths, strong points","ex":"La patience est l'un de ses points forts.","exEn":"Patience is one of her strengths."},
+ {"tag":"expression","word":"avoir des facilités (en)","ipa":"/a.vwaʁ de fa.si.li.te/","mean":"to have a gift, a natural ease (for)","ex":"Mon fils a des facilités en mathématiques.","exEn":"My son has a gift for maths."},
+ {"tag":"expression","word":"trouver sa voie","ipa":"/tʁu.ve sa vwa/","mean":"to find one's path, one's calling","ex":"Il a trouvé sa voie dans la cuisine.","exEn":"He found his calling in cooking."},
+ {"tag":"nom masculin","word":"un échec","ipa":"/œ̃.n‿e.ʃɛk/","mean":"a failure","ex":"Un échec peut aussi être une leçon.","exEn":"A failure can also be a lesson."},
+ {"tag":"nom féminin","word":"l'orientation professionnelle","ipa":"/lɔ.ʁjɑ̃.ta.sjɔ̃ pʁɔ.fɛ.sjɔ.nɛl/","mean":"career guidance, career path","ex":"Le lycée propose des rendez-vous d'orientation professionnelle.","exEn":"The high school offers career guidance meetings."},
+ {"tag":"verbe","word":"s'épanouir (dans son travail)","ipa":"/se.pa.nwiʁ/","mean":"to flourish, to feel fulfilled (at work)","ex":"Depuis qu'il travaille dehors, il s'épanouit.","exEn":"Since he started working outdoors, he's been thriving."}
+]

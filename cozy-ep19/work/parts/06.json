@@ -1,0 +1,569 @@
+[
+ {
+  "who": "lea",
+  "fr": "Il peut y avoir des délais, des responsabilités,",
+  "en": "There can be deadlines, responsibilities,"
+ },
+ {
+  "who": "lea",
+  "fr": "des tâches répétitives",
+  "en": "repetitive tasks"
+ },
+ {
+  "who": "lea",
+  "fr": "ou des périodes très chargées.",
+  "en": "or very busy periods."
+ },
+ {
+  "who": "mat",
+  "fr": "Donc un métier idéal n'est peut-être pas",
+  "en": "So an ideal job may not be"
+ },
+ {
+  "who": "mat",
+  "fr": "un métier sans problèmes.",
+  "en": "a job without problems."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement.",
+  "en": "Exactly."
+ },
+ {
+  "who": "lea",
+  "fr": "C'est peut-être plutôt un métier",
+  "en": "It's perhaps rather a job"
+ },
+ {
+  "who": "lea",
+  "fr": "dont les aspects positifs correspondent",
+  "en": "whose positive sides match"
+ },
+ {
+  "who": "lea",
+  "fr": "à ce qui compte pour nous,",
+  "en": "what matters to us,"
+ },
+ {
+  "who": "lea",
+  "fr": "et dont les difficultés restent acceptables.",
+  "en": "and whose difficulties stay acceptable."
+ },
+ {
+  "who": "mat",
+  "fr": "J'aime cette définition.",
+  "en": "I like that definition.",
+  "emote": "coeur"
+ },
+ {
+  "who": "mat",
+  "fr": "Elle est beaucoup plus réaliste.",
+  "en": "It's much more realistic."
+ },
+ {
+  "who": "lea",
+  "fr": "Et elle nous rappelle qu'on n'a pas besoin",
+  "en": "And it reminds us we don't need"
+ },
+ {
+  "who": "lea",
+  "fr": "de trouver une profession parfaite",
+  "en": "to find a perfect profession"
+ },
+ {
+  "who": "lea",
+  "fr": "pour construire une vie satisfaisante.",
+  "en": "to build a satisfying life."
+ },
+ {
+  "who": "mat",
+  "fr": "Tu sais, certaines personnes aiment leur travail,",
+  "en": "You know, some people like their job,"
+ },
+ {
+  "who": "mat",
+  "fr": "mais trouvent surtout leur bonheur",
+  "en": "but mostly find happiness"
+ },
+ {
+  "who": "mat",
+  "fr": "dans leurs loisirs",
+  "en": "in their hobbies"
+ },
+ {
+  "who": "mat",
+  "fr": "et leurs relations personnelles.",
+  "en": "and their personal relationships."
+ },
+ {
+  "who": "lea",
+  "fr": "Et c'est parfaitement légitime.",
+  "en": "And that's perfectly legitimate.",
+  "emote": "coeur"
+ },
+ {
+  "who": "mat",
+  "fr": "Donc notre métier n'a pas besoin",
+  "en": "So our job doesn't need"
+ },
+ {
+  "who": "mat",
+  "fr": "de représenter toute notre identité.",
+  "en": "to represent our whole identity."
+ },
+ {
+  "who": "lea",
+  "fr": "Absolument.",
+  "en": "Absolutely.",
+  "board": {
+   "mode": "steps",
+   "bg": "craie",
+   "title": "Changer de carrière",
+   "items": [
+    {
+     "text": "réfléchir à ce qui nous manque",
+     "at": 2
+    },
+    {
+     "text": "chercher des informations",
+     "at": 6
+    },
+    {
+     "text": "discuter avec des professionnels",
+     "at": 7
+    },
+    {
+     "text": "préparer son projet progressivement",
+     "at": 9
+    }
+   ]
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "Mais si quelqu'un souhaite changer de carrière,",
+  "en": "But if someone wants to change careers,"
+ },
+ {
+  "who": "lea",
+  "fr": "il peut commencer par réfléchir",
+  "en": "they can start by thinking about"
+ },
+ {
+  "who": "lea",
+  "fr": "à ce qui lui manque dans son emploi actuel.",
+  "en": "what's missing in their current job."
+ },
+ {
+  "who": "mat",
+  "fr": "Par exemple, davantage de créativité,",
+  "en": "For example, more creativity,"
+ },
+ {
+  "who": "mat",
+  "fr": "de liberté ou de stabilité.",
+  "en": "freedom or stability."
+ },
+ {
+  "who": "lea",
+  "fr": "Oui. Ensuite, il peut chercher des informations,",
+  "en": "Yes. Then they can look for information,"
+ },
+ {
+  "who": "lea",
+  "fr": "discuter avec des professionnels",
+  "en": "talk with professionals"
+ },
+ {
+  "who": "lea",
+  "fr": "et découvrir les compétences nécessaires.",
+  "en": "and discover the skills needed."
+ },
+ {
+  "who": "mat",
+  "fr": "Et préparer son projet progressivement,",
+  "en": "And prepare their project gradually,"
+ },
+ {
+  "who": "mat",
+  "fr": "surtout s'il a des responsabilités financières.",
+  "en": "especially if they have financial responsibilities."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement.",
+  "en": "Exactly."
+ },
+ {
+  "who": "lea",
+  "fr": "Un changement professionnel",
+  "en": "A career change"
+ },
+ {
+  "who": "lea",
+  "fr": "n'a pas besoin d'être immédiat.",
+  "en": "doesn't have to be immediate.",
+  "boardEnd": true
+ },
+ {
+  "who": "mat",
+  "fr": "Et même si on décide finalement",
+  "en": "And even if you finally decide"
+ },
+ {
+  "who": "mat",
+  "fr": "de rester dans son emploi actuel,",
+  "en": "to stay in your current job,"
+ },
+ {
+  "who": "mat",
+  "fr": "cette réflexion peut nous aider",
+  "en": "this reflection can help us"
+ },
+ {
+  "who": "mat",
+  "fr": "à mieux comprendre nos besoins.",
+  "en": "better understand our needs."
+ },
+ {
+  "who": "lea",
+  "fr": "Tout à fait.",
+  "en": "Absolutely."
+ },
+ {
+  "who": "lea",
+  "fr": "Maintenant, j'aimerais parler",
+  "en": "Now, I'd like to talk about"
+ },
+ {
+  "who": "lea",
+  "fr": "de quelques expressions très utiles",
+  "en": "a few very useful expressions"
+ },
+ {
+  "who": "lea",
+  "fr": "pour nos auditeurs.",
+  "en": "for our listeners."
+ },
+ {
+  "who": "mat",
+  "fr": "Excellente idée !",
+  "en": "Great idea!",
+  "emote": "idee"
+ },
+ {
+  "who": "mat",
+  "fr": "Parce que parler de son travail",
+  "en": "Because talking about your work"
+ },
+ {
+  "who": "mat",
+  "fr": "et de ses projets professionnels",
+  "en": "and your career plans"
+ },
+ {
+  "who": "mat",
+  "fr": "est un sujet fréquent",
+  "en": "is a common topic"
+ },
+ {
+  "who": "mat",
+  "fr": "dans les conversations françaises.",
+  "en": "in French conversations."
+ },
+ {
+  "who": "lea",
+  "fr": "Par exemple, pour demander",
+  "en": "For example, to ask"
+ },
+ {
+  "who": "lea",
+  "fr": "le métier de quelqu'un, on peut dire :",
+  "en": "someone's job, you can say:"
+ },
+ {
+  "who": "lea",
+  "fr": "« Qu'est-ce que tu fais dans la vie ? »",
+  "en": "\"What do you do for a living?\""
+ },
+ {
+  "who": "mat",
+  "fr": "Ou : « Dans quel domaine",
+  "en": "Or: \"What field"
+ },
+ {
+  "who": "mat",
+  "fr": "est-ce que tu travailles ? »",
+  "en": "do you work in?\""
+ },
+ {
+  "who": "lea",
+  "fr": "Et pour parler de ses ambitions, on peut dire :",
+  "en": "And to talk about your ambitions, you can say:"
+ },
+ {
+  "who": "lea",
+  "fr": "« J'aimerais travailler dans le tourisme. »",
+  "en": "\"I'd like to work in tourism.\""
+ },
+ {
+  "who": "mat",
+  "fr": "Ou : « Mon rêve serait de devenir architecte. »",
+  "en": "Or: \"My dream would be to become an architect.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement.",
+  "en": "Exactly."
+ },
+ {
+  "who": "lea",
+  "fr": "Et si on n'est pas encore sûr de son choix,",
+  "en": "And if you're not sure of your choice yet,"
+ },
+ {
+  "who": "lea",
+  "fr": "on peut dire :",
+  "en": "you can say:"
+ },
+ {
+  "who": "lea",
+  "fr": "« Je réfléchis encore",
+  "en": "\"I'm still thinking about"
+ },
+ {
+  "who": "lea",
+  "fr": "à mon orientation professionnelle. »",
+  "en": "my career path.\""
+ },
+ {
+  "who": "mat",
+  "fr": "[« L'orientation professionnelle »,]",
+  "en": "\"Career guidance\""
+ },
+ {
+  "who": "mat",
+  "fr": "c'est la recherche d'un métier",
+  "en": "is looking for a job"
+ },
+ {
+  "who": "mat",
+  "fr": "ou d'un domaine qui nous correspond.",
+  "en": "or a field that suits us."
+ },
+ {
+  "who": "lea",
+  "fr": "Très bien. Maintenant, revoyons",
+  "en": "Very good. Now, let's review"
+ },
+ {
+  "who": "lea",
+  "fr": "quelques expressions naturelles.",
+  "en": "some natural expressions."
+ },
+ {
+  "who": "mat",
+  "fr": "Commençons avec « trouver sa voie ».",
+  "en": "Let's start with \"trouver sa voie\".",
+  "board": {
+   "mode": "compare",
+   "bg": "liege",
+   "title": "trouver ou changer ?",
+   "left": {
+    "head": "trouver sa voie",
+    "sub": "découvrir sa direction",
+    "items": [
+     {
+      "text": "une direction qui nous correspond",
+      "at": 2
+     },
+     {
+      "text": "« dans le design »",
+      "at": 5
+     }
+    ]
+   },
+   "right": {
+    "head": "changer de voie",
+    "sub": "une nouvelle direction",
+    "items": [
+     {
+      "text": "dans ses études",
+      "at": 8
+     },
+     {
+      "text": "dans sa carrière",
+      "at": 8
+     }
+    ]
+   }
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "« Trouver sa voie » signifie découvrir",
+  "en": "\"Trouver sa voie\" means discovering"
+ },
+ {
+  "who": "lea",
+  "fr": "une direction professionnelle ou personnelle",
+  "en": "a professional or personal direction"
+ },
+ {
+  "who": "lea",
+  "fr": "qui nous correspond.",
+  "en": "that suits us."
+ },
+ {
+  "who": "lea",
+  "fr": "Par exemple : « Après plusieurs expériences,",
+  "en": "For example: \"After several experiences,"
+ },
+ {
+  "who": "lea",
+  "fr": "elle a trouvé sa voie dans le design. »",
+  "en": "she found her path in design.\""
+ },
+ {
+  "who": "mat",
+  "fr": "Deuxième expression : « changer de voie ».",
+  "en": "Second expression: \"changer de voie\"."
+ },
+ {
+  "who": "lea",
+  "fr": "Cela signifie choisir une nouvelle direction,",
+  "en": "It means choosing a new direction,"
+ },
+ {
+  "who": "lea",
+  "fr": "souvent dans ses études ou sa carrière.",
+  "en": "often in your studies or career."
+ },
+ {
+  "who": "mat",
+  "fr": "Par exemple :",
+  "en": "For example:"
+ },
+ {
+  "who": "mat",
+  "fr": "« Après quelques années dans le commerce,",
+  "en": "\"After a few years in sales,"
+ },
+ {
+  "who": "mat",
+  "fr": "il a décidé de changer de voie. »",
+  "en": "he decided to change direction.\"",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Troisième expression :",
+  "en": "Third expression:",
+  "board": {
+   "mode": "word",
+   "bg": "carnet",
+   "note": "= se sentir bien, progresser, trouver de la satisfaction"
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "[« s'épanouir dans son travail ».]",
+  "en": "\"to flourish in your work\"."
+ },
+ {
+  "who": "mat",
+  "fr": "Cela signifie se sentir bien,",
+  "en": "It means feeling good,"
+ },
+ {
+  "who": "mat",
+  "fr": "progresser et trouver de la satisfaction",
+  "en": "growing and finding satisfaction"
+ },
+ {
+  "who": "mat",
+  "fr": "dans son activité professionnelle.",
+  "en": "in your professional activity."
+ },
+ {
+  "who": "lea",
+  "fr": "Par exemple : « Elle s'épanouit dans son travail",
+  "en": "For example: \"She flourishes in her job"
+ },
+ {
+  "who": "lea",
+  "fr": "parce qu'elle aime aider les autres. »",
+  "en": "because she likes helping others.\"",
+  "boardEnd": true
+ },
+ {
+  "who": "mat",
+  "fr": "Quatrième expression :",
+  "en": "Fourth expression:"
+ },
+ {
+  "who": "mat",
+  "fr": "« avoir le sens de quelque chose ».",
+  "en": "\"to have a sense of something\"."
+ },
+ {
+  "who": "lea",
+  "fr": "Elle décrit une capacité",
+  "en": "It describes an ability"
+ },
+ {
+  "who": "lea",
+  "fr": "ou une qualité particulière.",
+  "en": "or a particular quality."
+ },
+ {
+  "who": "lea",
+  "fr": "Par exemple : « Il a le sens de l'organisation. »",
+  "en": "For example: \"He has a knack for organising.\""
+ },
+ {
+  "who": "mat",
+  "fr": "Ou : « Elle a le sens du contact. »",
+  "en": "Or: \"She's good with people.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Cinquième expression : « gagner sa vie ».",
+  "en": "Fifth expression: \"gagner sa vie\"."
+ },
+ {
+  "who": "mat",
+  "fr": "Cela signifie obtenir l'argent nécessaire",
+  "en": "It means earning the money you need"
+ },
+ {
+  "who": "mat",
+  "fr": "pour vivre grâce à son travail.",
+  "en": "to live through your work."
+ },
+ {
+  "who": "lea",
+  "fr": "Par exemple : « Il aimerait gagner sa vie",
+  "en": "For example: \"He'd like to earn a living"
+ },
+ {
+  "who": "lea",
+  "fr": "en faisant de la photographie. »",
+  "en": "doing photography.\""
+ },
+ {
+  "who": "mat",
+  "fr": "Et notre dernière expression :",
+  "en": "And our last expression:"
+ },
+ {
+  "who": "mat",
+  "fr": "« se reconvertir ».",
+  "en": "\"se reconvertir\"."
+ },
+ {
+  "who": "lea",
+  "fr": "« Se reconvertir » signifie",
+  "en": "\"Se reconvertir\" means"
+ }
+]

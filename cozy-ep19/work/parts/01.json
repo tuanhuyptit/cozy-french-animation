@@ -1,0 +1,525 @@
+[
+ {
+  "who": "lea",
+  "fr": "Bonjour à toutes et à tous !",
+  "en": "Hello everyone!"
+ },
+ {
+  "who": "lea",
+  "fr": "Bienvenue dans The Cozy French,",
+  "en": "Welcome to The Cozy French,"
+ },
+ {
+  "who": "lea",
+  "fr": "votre petit rendez-vous",
+  "en": "your little get-together"
+ },
+ {
+  "who": "lea",
+  "fr": "pour apprendre le français à travers",
+  "en": "to learn French through"
+ },
+ {
+  "who": "lea",
+  "fr": "des conversations naturelles et chaleureuses.",
+  "en": "natural, warm conversations."
+ },
+ {
+  "who": "lea",
+  "fr": "Je suis Léa, et je suis très heureuse",
+  "en": "I'm Léa, and I'm very happy",
+  "emote": "coeur"
+ },
+ {
+  "who": "lea",
+  "fr": "de vous retrouver aujourd'hui.",
+  "en": "to be with you again today."
+ },
+ {
+  "who": "mat",
+  "fr": "Et moi, c'est Mathieu !",
+  "en": "And I'm Mathieu!"
+ },
+ {
+  "who": "mat",
+  "fr": "Bonjour, chers amis !",
+  "en": "Hello, dear friends!"
+ },
+ {
+  "who": "mat",
+  "fr": "Que vous soyez à la maison,",
+  "en": "Whether you're at home,"
+ },
+ {
+  "who": "mat",
+  "fr": "dans les transports",
+  "en": "on public transport"
+ },
+ {
+  "who": "mat",
+  "fr": "ou en train de préparer votre café,",
+  "en": "or making your coffee,"
+ },
+ {
+  "who": "mat",
+  "fr": "installez-vous confortablement.",
+  "en": "make yourselves comfortable."
+ },
+ {
+  "who": "mat",
+  "fr": "Nous sommes ravis de passer ce moment avec vous.",
+  "en": "We're delighted to spend this time with you."
+ },
+ {
+  "who": "lea",
+  "fr": "Mathieu, aujourd'hui, j'aimerais commencer",
+  "en": "Mathieu, today I'd like to start"
+ },
+ {
+  "who": "lea",
+  "fr": "avec une question.",
+  "en": "with a question."
+ },
+ {
+  "who": "lea",
+  "fr": "Quand tu étais enfant,",
+  "en": "When you were a child,"
+ },
+ {
+  "who": "lea",
+  "fr": "quel métier voulais-tu faire plus tard ?",
+  "en": "what job did you want to do later?"
+ },
+ {
+  "who": "mat",
+  "fr": "Ah !",
+  "en": "Ah!",
+  "emote": "surpris"
+ },
+ {
+  "who": "mat",
+  "fr": "Tu veux vraiment connaître mes rêves d'enfant ?",
+  "en": "You really want to know my childhood dreams?"
+ },
+ {
+  "who": "lea",
+  "fr": "Bien sûr ! Pourquoi cette hésitation ?",
+  "en": "Of course! Why the hesitation?"
+ },
+ {
+  "who": "mat",
+  "fr": "Parce que j'ai [changé d'avis] tellement de fois",
+  "en": "Because I changed my mind so many times"
+ },
+ {
+  "who": "mat",
+  "fr": "que ma famille ne savait plus quoi penser.",
+  "en": "that my family didn't know what to think."
+ },
+ {
+  "who": "mat",
+  "fr": "À six ans, je voulais devenir pompier.",
+  "en": "At six, I wanted to be a firefighter."
+ },
+ {
+  "who": "mat",
+  "fr": "À huit ans, explorateur.",
+  "en": "At eight, an explorer."
+ },
+ {
+  "who": "mat",
+  "fr": "Et à dix ans, chef cuisinier.",
+  "en": "And at ten, a chef."
+ },
+ {
+  "who": "lea",
+  "fr": "Chef cuisinier ? Ça ne m'étonne pas,",
+  "en": "A chef? That doesn't surprise me,",
+  "emote": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "vu ton amour pour la nourriture !",
+  "en": "given your love of food!",
+  "illus": "repas",
+  "label": "la nourriture"
+ },
+ {
+  "who": "mat",
+  "fr": "Exactement !",
+  "en": "Exactly!"
+ },
+ {
+  "who": "mat",
+  "fr": "Mais je pensais qu'un chef passait surtout",
+  "en": "But I thought a chef mostly spent"
+ },
+ {
+  "who": "mat",
+  "fr": "son temps à goûter de délicieux plats.",
+  "en": "his time tasting delicious dishes."
+ },
+ {
+  "who": "lea",
+  "fr": "Tu avais oublié qu'il fallait",
+  "en": "You forgot that you also"
+ },
+ {
+  "who": "lea",
+  "fr": "aussi les préparer !",
+  "en": "had to cook them!"
+ },
+ {
+  "who": "mat",
+  "fr": "Oui. Quand ma mère m'a expliqué",
+  "en": "Yes. When my mum explained"
+ },
+ {
+  "who": "mat",
+  "fr": "qu'il fallait travailler pendant des heures,",
+  "en": "that you had to work for hours,"
+ },
+ {
+  "who": "mat",
+  "fr": "nettoyer et organiser une cuisine,",
+  "en": "clean and organise a kitchen,"
+ },
+ {
+  "who": "mat",
+  "fr": "mon enthousiasme a un peu diminué.",
+  "en": "my enthusiasm dropped a little.",
+  "emote": "gene"
+ },
+ {
+  "who": "lea",
+  "fr": "Et aujourd'hui, tu aimes toujours cuisiner ?",
+  "en": "And today, do you still like cooking?"
+ },
+ {
+  "who": "mat",
+  "fr": "Oui, mais tranquillement chez moi,",
+  "en": "Yes, but calmly at home,"
+ },
+ {
+  "who": "mat",
+  "fr": "sans vingt clients qui attendent leur dîner.",
+  "en": "without twenty customers waiting for dinner."
+ },
+ {
+  "who": "mat",
+  "fr": "Et toi, Léa ? Quel était ton rêve ?",
+  "en": "What about you, Léa? What was your dream?"
+ },
+ {
+  "who": "lea",
+  "fr": "Pendant longtemps,",
+  "en": "For a long time,"
+ },
+ {
+  "who": "lea",
+  "fr": "je voulais devenir vétérinaire.",
+  "en": "I wanted to be a vet."
+ },
+ {
+  "who": "lea",
+  "fr": "J'adorais les animaux et je rêvais",
+  "en": "I loved animals and I dreamed"
+ },
+ {
+  "who": "lea",
+  "fr": "de soigner tous les chats du quartier.",
+  "en": "of caring for every cat in the neighbourhood.",
+  "emote": "coeur"
+ },
+ {
+  "who": "mat",
+  "fr": "Tous les chats ?",
+  "en": "Every cat?"
+ },
+ {
+  "who": "mat",
+  "fr": "Tes parents devaient être ravis !",
+  "en": "Your parents must have been thrilled!"
+ },
+ {
+  "who": "lea",
+  "fr": "Pas vraiment !",
+  "en": "Not really!"
+ },
+ {
+  "who": "lea",
+  "fr": "Mais [en grandissant,] j'ai compris",
+  "en": "But as I grew up, I understood"
+ },
+ {
+  "who": "lea",
+  "fr": "que ce métier demandait",
+  "en": "that this job required"
+ },
+ {
+  "who": "lea",
+  "fr": "beaucoup de connaissances scientifiques",
+  "en": "a lot of scientific knowledge"
+ },
+ {
+  "who": "lea",
+  "fr": "et qu'il fallait parfois",
+  "en": "and that sometimes you had"
+ },
+ {
+  "who": "lea",
+  "fr": "vivre des situations difficiles.",
+  "en": "to go through difficult situations."
+ },
+ {
+  "who": "mat",
+  "fr": "Alors tu as changé d'avis.",
+  "en": "So you changed your mind."
+ },
+ {
+  "who": "lea",
+  "fr": "Oui. Mais j'ai gardé quelque chose de ce rêve :",
+  "en": "Yes. But I kept something from that dream:"
+ },
+ {
+  "who": "lea",
+  "fr": "l'envie d'aider et de comprendre les autres.",
+  "en": "the wish to help and understand others."
+ },
+ {
+  "who": "mat",
+  "fr": "C'est intéressant. Le métier a changé,",
+  "en": "That's interesting. The job changed,",
+  "emote": "idee"
+ },
+ {
+  "who": "mat",
+  "fr": "mais une partie de ton rêve est restée.",
+  "en": "but part of your dream stayed."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement.",
+  "en": "Exactly."
+ },
+ {
+  "who": "lea",
+  "fr": "Et c'est justement notre sujet aujourd'hui :",
+  "en": "And that's precisely our topic today:"
+ },
+ {
+  "who": "lea",
+  "fr": "« What's Your Dream Job? »,",
+  "en": "\"What's Your Dream Job?\","
+ },
+ {
+  "who": "lea",
+  "fr": "autrement dit",
+  "en": "in other words,"
+ },
+ {
+  "who": "lea",
+  "fr": "« Quel est le métier de tes rêves ? »",
+  "en": "\"What is the job of your dreams?\""
+ },
+ {
+  "who": "mat",
+  "fr": "Une question très simple quand on est enfant,",
+  "en": "A very simple question when you're a child,"
+ },
+ {
+  "who": "mat",
+  "fr": "mais beaucoup plus compliquée",
+  "en": "but much more complicated"
+ },
+ {
+  "who": "mat",
+  "fr": "quand on devient adulte.",
+  "en": "when you become an adult."
+ },
+ {
+  "who": "lea",
+  "fr": "Parce qu'il faut penser à nos passions,",
+  "en": "Because you have to think about our passions,"
+ },
+ {
+  "who": "lea",
+  "fr": "nos compétences, notre situation financière",
+  "en": "our skills, our financial situation"
+ },
+ {
+  "who": "lea",
+  "fr": "et parfois aux attentes de notre famille.",
+  "en": "and sometimes our family's expectations."
+ },
+ {
+  "who": "mat",
+  "fr": "Sans oublier une question importante :",
+  "en": "Not to mention an important question:"
+ },
+ {
+  "who": "mat",
+  "fr": "est-ce que ce métier",
+  "en": "would we really enjoy this job"
+ },
+ {
+  "who": "mat",
+  "fr": "nous plairait vraiment tous les jours ?",
+  "en": "every single day?"
+ },
+ {
+  "who": "lea",
+  "fr": "Aujourd'hui, nous allons parler de tout cela,",
+  "en": "Today, we're going to talk about all that,"
+ },
+ {
+  "who": "lea",
+  "fr": "avec des histoires",
+  "en": "with stories"
+ },
+ {
+  "who": "lea",
+  "fr": "et des expressions françaises utiles",
+  "en": "and useful French expressions"
+ },
+ {
+  "who": "lea",
+  "fr": "pour parler du travail et de l'avenir.",
+  "en": "to talk about work and the future.",
+  "illus": "travail",
+  "label": "le travail"
+ },
+ {
+  "who": "mat",
+  "fr": "Et si vous apprenez le français,",
+  "en": "And if you're learning French,"
+ },
+ {
+  "who": "mat",
+  "fr": "écoutez tranquillement.",
+  "en": "just listen calmly."
+ },
+ {
+  "who": "mat",
+  "fr": "Pas besoin de comprendre chaque mot.",
+  "en": "No need to understand every word."
+ },
+ {
+  "who": "mat",
+  "fr": "Essayez simplement de suivre notre conversation.",
+  "en": "Just try to follow our conversation."
+ },
+ {
+  "who": "lea",
+  "fr": "Avant de commencer, dites-nous",
+  "en": "Before we start, tell us"
+ },
+ {
+  "who": "lea",
+  "fr": "dans les commentaires :",
+  "en": "in the comments:"
+ },
+ {
+  "who": "lea",
+  "fr": "quel métier rêviez-vous de faire",
+  "en": "what job did you dream of doing"
+ },
+ {
+  "who": "lea",
+  "fr": "quand vous étiez enfant ?",
+  "en": "when you were a child?"
+ },
+ {
+  "who": "mat",
+  "fr": "Et est-ce que votre rêve a changé depuis ?",
+  "en": "And has your dream changed since then?"
+ },
+ {
+  "who": "mat",
+  "fr": "Maintenant, commençons !",
+  "en": "Now, let's begin!"
+ },
+ {
+  "who": "lea",
+  "fr": "Bon, Mathieu,",
+  "en": "So, Mathieu,"
+ },
+ {
+  "who": "lea",
+  "fr": "pourquoi voulais-tu devenir explorateur ?",
+  "en": "why did you want to be an explorer?"
+ },
+ {
+  "who": "mat",
+  "fr": "Je crois que j'aimais surtout l'aventure.",
+  "en": "I think I mostly loved adventure.",
+  "illus": "voyage",
+  "label": "l'aventure"
+ },
+ {
+  "who": "mat",
+  "fr": "Je voulais découvrir de nouveaux endroits,",
+  "en": "I wanted to discover new places,"
+ },
+ {
+  "who": "mat",
+  "fr": "rencontrer des personnes",
+  "en": "meet people"
+ },
+ {
+  "who": "mat",
+  "fr": "et voir des choses extraordinaires.",
+  "en": "and see extraordinary things."
+ },
+ {
+  "who": "lea",
+  "fr": "Donc ce qui te plaisait vraiment,",
+  "en": "So what you really liked",
+  "emote": "idee"
+ },
+ {
+  "who": "lea",
+  "fr": "c'était la découverte.",
+  "en": "was discovery."
+ },
+ {
+  "who": "mat",
+  "fr": "Exactement.",
+  "en": "Exactly."
+ },
+ {
+  "who": "mat",
+  "fr": "Je n'avais pas réfléchi aux difficultés du métier.",
+  "en": "I hadn't thought about the job's difficulties."
+ },
+ {
+  "who": "lea",
+  "fr": "Et pourquoi voulais-tu devenir pompier ?",
+  "en": "And why did you want to be a firefighter?"
+ },
+ {
+  "who": "mat",
+  "fr": "Parce que j'admirais les personnes courageuses",
+  "en": "Because I admired brave people"
+ },
+ {
+  "who": "mat",
+  "fr": "qui viennent en aide aux autres.",
+  "en": "who come to help others."
+ },
+ {
+  "who": "lea",
+  "fr": "Voilà. Derrière tes rêves,",
+  "en": "There you go. Behind your dreams,",
+  "board": {
+   "mode": "mindmap",
+   "bg": "craie",
+   "word": "les valeurs",
+   "items": [
+    "la curiosité",
+    "l'aventure",
+    "l'envie d'être utile"
+   ]
+  }
+ }
+]

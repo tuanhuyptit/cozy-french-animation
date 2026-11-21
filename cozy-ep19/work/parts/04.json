@@ -1,0 +1,536 @@
+[
+ {
+  "who": "lea",
+  "fr": "nos valeurs et notre manière de vivre.",
+  "en": "our values and our way of life."
+ },
+ {
+  "who": "mat",
+  "fr": "Mais parfois,",
+  "en": "But sometimes,"
+ },
+ {
+  "who": "mat",
+  "fr": "un métier semble merveilleux de l'extérieur",
+  "en": "a job looks wonderful from the outside"
+ },
+ {
+  "who": "mat",
+  "fr": "alors que la réalité est très différente.",
+  "en": "while the reality is very different."
+ },
+ {
+  "who": "lea",
+  "fr": "Ah oui. Nous voyons souvent",
+  "en": "Oh yes. We often see"
+ },
+ {
+  "who": "lea",
+  "fr": "les aspects les plus agréables d'une profession.",
+  "en": "the most pleasant sides of a profession."
+ },
+ {
+  "who": "mat",
+  "fr": "Par exemple, travailler dans le tourisme.",
+  "en": "For example, working in tourism."
+ },
+ {
+  "who": "mat",
+  "fr": "On imagine les hôtels magnifiques,",
+  "en": "We imagine gorgeous hotels,"
+ },
+ {
+  "who": "mat",
+  "fr": "les voyages et les rencontres.",
+  "en": "travel and meeting people."
+ },
+ {
+  "who": "lea",
+  "fr": "Mais on oublie parfois les horaires irréguliers,",
+  "en": "But we sometimes forget the irregular hours,"
+ },
+ {
+  "who": "lea",
+  "fr": "les clients difficiles",
+  "en": "difficult customers"
+ },
+ {
+  "who": "lea",
+  "fr": "ou les déplacements fatigants.",
+  "en": "or tiring trips."
+ },
+ {
+  "who": "mat",
+  "fr": "Exactement. Ou le métier de chef cuisinier !",
+  "en": "Exactly. Or being a chef!"
+ },
+ {
+  "who": "mat",
+  "fr": "On voit les beaux plats,",
+  "en": "We see the beautiful dishes,"
+ },
+ {
+  "who": "mat",
+  "fr": "mais rarement les longues heures",
+  "en": "but rarely the long hours"
+ },
+ {
+  "who": "mat",
+  "fr": "debout dans une cuisine.",
+  "en": "standing in a kitchen."
+ },
+ {
+  "who": "lea",
+  "fr": "Voilà pourquoi il est important",
+  "en": "That's why it's important"
+ },
+ {
+  "who": "lea",
+  "fr": "de découvrir la réalité d'un métier",
+  "en": "to discover the reality of a job"
+ },
+ {
+  "who": "lea",
+  "fr": "avant de prendre une grande décision.",
+  "en": "before making a big decision."
+ },
+ {
+  "who": "mat",
+  "fr": "Tu sais, une amie à moi rêvait",
+  "en": "You know, a friend of mine dreamed",
+  "board": {
+   "mode": "timeline",
+   "bg": "liege",
+   "title": "Le rêve de son amie",
+   "items": [
+    {
+     "label": "le rêve",
+     "text": "une boutique de fleurs",
+     "at": 1
+    },
+    {
+     "label": "d'abord",
+     "text": "chez une fleuriste",
+     "at": 8
+    },
+    {
+     "label": "la réalité",
+     "text": "se lever très tôt",
+     "at": 12
+    }
+   ]
+  }
+ },
+ {
+  "who": "mat",
+  "fr": "d'ouvrir une boutique de fleurs.",
+  "en": "of opening a flower shop."
+ },
+ {
+  "who": "lea",
+  "fr": "Oh, c'est charmant !",
+  "en": "Oh, how charming!"
+ },
+ {
+  "who": "mat",
+  "fr": "Oui. Elle imaginait passer ses journées",
+  "en": "Yes. She imagined spending her days"
+ },
+ {
+  "who": "mat",
+  "fr": "entourée de fleurs magnifiques,",
+  "en": "surrounded by gorgeous flowers,"
+ },
+ {
+  "who": "mat",
+  "fr": "à créer des bouquets pour ses clients.",
+  "en": "making bouquets for her customers."
+ },
+ {
+  "who": "lea",
+  "fr": "Et elle a ouvert sa boutique ?",
+  "en": "And did she open her shop?"
+ },
+ {
+  "who": "mat",
+  "fr": "Pas immédiatement.",
+  "en": "Not right away."
+ },
+ {
+  "who": "mat",
+  "fr": "Elle a d'abord travaillé quelques semaines",
+  "en": "She first worked for a few weeks"
+ },
+ {
+  "who": "mat",
+  "fr": "chez une fleuriste pour découvrir le métier.",
+  "en": "at a florist's to discover the job."
+ },
+ {
+  "who": "lea",
+  "fr": "C'était une très bonne idée.",
+  "en": "That was a very good idea."
+ },
+ {
+  "who": "mat",
+  "fr": "Oui. Et elle a découvert",
+  "en": "Yes. And she discovered"
+ },
+ {
+  "who": "mat",
+  "fr": "qu'il fallait se lever très tôt,",
+  "en": "that you had to get up very early,"
+ },
+ {
+  "who": "mat",
+  "fr": "porter des cartons, gérer les commandes",
+  "en": "carry boxes, handle orders"
+ },
+ {
+  "who": "mat",
+  "fr": "et travailler parfois pendant de longues journées.",
+  "en": "and sometimes work very long days.",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Donc le métier était plus [exigeant]",
+  "en": "So the job was more demanding",
+  "emote": "idee"
+ },
+ {
+  "who": "lea",
+  "fr": "qu'elle ne l'imaginait.",
+  "en": "than she imagined."
+ },
+ {
+  "who": "mat",
+  "fr": "Exactement. Elle aimait toujours les fleurs,",
+  "en": "Exactly. She still loved flowers,"
+ },
+ {
+  "who": "mat",
+  "fr": "mais elle a compris qu'elle préférait",
+  "en": "but she understood she preferred"
+ },
+ {
+  "who": "mat",
+  "fr": "créer des compositions pour des événements",
+  "en": "creating arrangements for events"
+ },
+ {
+  "who": "mat",
+  "fr": "plutôt que gérer une boutique tous les jours.",
+  "en": "rather than running a shop every day."
+ },
+ {
+  "who": "lea",
+  "fr": "C'est un excellent exemple.",
+  "en": "That's an excellent example."
+ },
+ {
+  "who": "lea",
+  "fr": "Parfois, essayer une activité nous aide",
+  "en": "Sometimes, trying an activity helps us"
+ },
+ {
+  "who": "lea",
+  "fr": "à mieux comprendre ce que nous voulons réellement.",
+  "en": "better understand what we really want."
+ },
+ {
+  "who": "mat",
+  "fr": "Oui. Et cela ne signifie pas",
+  "en": "Yes. And that doesn't mean"
+ },
+ {
+  "who": "mat",
+  "fr": "que notre rêve était ridicule.",
+  "en": "our dream was ridiculous."
+ },
+ {
+  "who": "mat",
+  "fr": "Nous avons simplement appris",
+  "en": "We simply learned"
+ },
+ {
+  "who": "mat",
+  "fr": "quelque chose de nouveau.",
+  "en": "something new."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement.",
+  "en": "Exactly."
+ },
+ {
+  "who": "lea",
+  "fr": "C'est pourquoi il peut être utile",
+  "en": "That's why it can be useful"
+ },
+ {
+  "who": "lea",
+  "fr": "de parler avec des professionnels,",
+  "en": "to talk with professionals,"
+ },
+ {
+  "who": "lea",
+  "fr": "de suivre une formation courte",
+  "en": "take a short course"
+ },
+ {
+  "who": "lea",
+  "fr": "ou de [faire un stage.]",
+  "en": "or do an internship."
+ },
+ {
+  "who": "mat",
+  "fr": "Parce qu'un métier ne se résume pas à son image.",
+  "en": "Because a job isn't just its image.",
+  "emote": "idee"
+ },
+ {
+  "who": "lea",
+  "fr": "Voilà. Il faut aussi imaginer",
+  "en": "Exactly. You also have to imagine"
+ },
+ {
+  "who": "lea",
+  "fr": "une journée normale dans cette profession.",
+  "en": "a normal day in that profession."
+ },
+ {
+  "who": "mat",
+  "fr": "Pas seulement le premier jour,",
+  "en": "Not just the first day,"
+ },
+ {
+  "who": "mat",
+  "fr": "quand tout est nouveau et passionnant.",
+  "en": "when everything is new and exciting."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Imagine un mardi ordinaire,",
+  "en": "Exactly. Imagine an ordinary Tuesday,",
+  "emote": "question"
+ },
+ {
+  "who": "lea",
+  "fr": "après six mois de travail.",
+  "en": "after six months on the job."
+ },
+ {
+  "who": "lea",
+  "fr": "Est-ce que les tâches quotidiennes",
+  "en": "Do the daily tasks"
+ },
+ {
+  "who": "lea",
+  "fr": "t'intéressent encore ?",
+  "en": "still interest you?"
+ },
+ {
+  "who": "mat",
+  "fr": "Ah, cette question est très utile.",
+  "en": "Ah, that question is very useful."
+ },
+ {
+  "who": "mat",
+  "fr": "Parce que même un métier passionnant",
+  "en": "Because even an exciting job"
+ },
+ {
+  "who": "mat",
+  "fr": "comporte des journées ordinaires.",
+  "en": "has ordinary days."
+ },
+ {
+  "who": "lea",
+  "fr": "Et parfois, des journées difficiles.",
+  "en": "And sometimes, difficult days."
+ },
+ {
+  "who": "mat",
+  "fr": "Tu sais, cela nous amène",
+  "en": "You know, that brings us"
+ },
+ {
+  "who": "mat",
+  "fr": "à parler de la personnalité.",
+  "en": "to talk about personality."
+ },
+ {
+  "who": "lea",
+  "fr": "Oui. Parce qu'un métier idéal pour une personne",
+  "en": "Yes. Because a job that's ideal for one person"
+ },
+ {
+  "who": "lea",
+  "fr": "peut être très difficile pour une autre.",
+  "en": "can be very hard for another."
+ },
+ {
+  "who": "mat",
+  "fr": "Par exemple, certaines personnes adorent",
+  "en": "For example, some people love"
+ },
+ {
+  "who": "mat",
+  "fr": "parler devant un public.",
+  "en": "speaking in front of an audience."
+ },
+ {
+  "who": "lea",
+  "fr": "Alors que d'autres",
+  "en": "Whereas others"
+ },
+ {
+  "who": "lea",
+  "fr": "préfèrent travailler tranquillement,",
+  "en": "prefer to work quietly,"
+ },
+ {
+  "who": "lea",
+  "fr": "dans un environnement plus calme.",
+  "en": "in a calmer environment."
+ },
+ {
+  "who": "mat",
+  "fr": "Moi, j'aime communiquer,",
+  "en": "Me, I like communicating,"
+ },
+ {
+  "who": "mat",
+  "fr": "mais je ne voudrais pas passer",
+  "en": "but I wouldn't want to spend"
+ },
+ {
+  "who": "mat",
+  "fr": "toute ma journée au téléphone.",
+  "en": "my whole day on the phone.",
+  "illus": "telephone",
+  "label": "le téléphone"
+ },
+ {
+  "who": "lea",
+  "fr": "Et moi, j'aime organiser des idées",
+  "en": "And I like organising ideas"
+ },
+ {
+  "who": "lea",
+  "fr": "et expliquer des choses,",
+  "en": "and explaining things,"
+ },
+ {
+  "who": "lea",
+  "fr": "mais j'ai aussi besoin",
+  "en": "but I also need"
+ },
+ {
+  "who": "lea",
+  "fr": "de moments de concentration.",
+  "en": "moments of concentration."
+ },
+ {
+  "who": "mat",
+  "fr": "Donc notre personnalité",
+  "en": "So our personality"
+ },
+ {
+  "who": "mat",
+  "fr": "peut nous donner des indications",
+  "en": "can give us clues"
+ },
+ {
+  "who": "mat",
+  "fr": "sur le type de travail qui nous convient.",
+  "en": "about the type of work that suits us."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement.",
+  "en": "Exactly."
+ },
+ {
+  "who": "lea",
+  "fr": "Certaines personnes aiment la routine.",
+  "en": "Some people like routine."
+ },
+ {
+  "who": "lea",
+  "fr": "D'autres préfèrent la variété.",
+  "en": "Others prefer variety."
+ },
+ {
+  "who": "mat",
+  "fr": "Et certaines aiment travailler en équipe,",
+  "en": "And some like working in a team,"
+ },
+ {
+  "who": "mat",
+  "fr": "alors que d'autres sont plus efficaces seules.",
+  "en": "while others are more efficient alone."
+ },
+ {
+  "who": "lea",
+  "fr": "Aucune préférence",
+  "en": "No preference"
+ },
+ {
+  "who": "lea",
+  "fr": "n'est automatiquement meilleure qu'une autre.",
+  "en": "is automatically better than another."
+ },
+ {
+  "who": "mat",
+  "fr": "Il faut simplement apprendre",
+  "en": "We simply have to learn"
+ },
+ {
+  "who": "mat",
+  "fr": "à mieux se connaître.",
+  "en": "to know ourselves better."
+ },
+ {
+  "who": "lea",
+  "fr": "Oui. Et il est également important",
+  "en": "Yes. And it's also important",
+  "board": {
+   "mode": "word",
+   "bg": "carnet",
+   "note": "= nos qualités et nos compétences particulières"
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "d'identifier nos [points forts.]",
+  "en": "to identify our strengths."
+ },
+ {
+  "who": "mat",
+  "fr": "« Les points forts », ce sont nos qualités",
+  "en": "\"Strengths\" are our qualities"
+ },
+ {
+  "who": "mat",
+  "fr": "et nos compétences particulières.",
+  "en": "and our particular skills."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Certaines personnes sont organisées,",
+  "en": "Exactly. Some people are organised,"
+ },
+ {
+  "who": "lea",
+  "fr": "d'autres sont créatives",
+  "en": "others are creative"
+ },
+ {
+  "who": "lea",
+  "fr": "ou particulièrement patientes.",
+  "en": "or especially patient.",
+  "boardEnd": true
+ }
+]

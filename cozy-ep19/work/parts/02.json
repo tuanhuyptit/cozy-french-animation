@@ -1,0 +1,521 @@
+[
+ {
+  "who": "lea",
+  "fr": "il y avait certaines valeurs :",
+  "en": "there were certain values:"
+ },
+ {
+  "who": "lea",
+  "fr": "la curiosité, l'aventure et l'envie d'être utile.",
+  "en": "curiosity, adventure and the wish to be useful."
+ },
+ {
+  "who": "mat",
+  "fr": "Tu sais, je n'avais jamais regardé",
+  "en": "You know, I'd never looked at"
+ },
+ {
+  "who": "mat",
+  "fr": "mes rêves d'enfant de cette manière.",
+  "en": "my childhood dreams that way.",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Pourtant, ils peuvent nous aider à comprendre",
+  "en": "And yet they can help us understand"
+ },
+ {
+  "who": "lea",
+  "fr": "ce qui nous intéresse encore aujourd'hui.",
+  "en": "what still interests us today."
+ },
+ {
+  "who": "mat",
+  "fr": "Par exemple, quelqu'un qui voulait devenir pilote",
+  "en": "For example, someone who wanted to be a pilot"
+ },
+ {
+  "who": "mat",
+  "fr": "parce qu'il aimait voyager",
+  "en": "because they loved travelling"
+ },
+ {
+  "who": "mat",
+  "fr": "pourrait finalement travailler dans le tourisme.",
+  "en": "could end up working in tourism."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Ou une personne",
+  "en": "Exactly. Or someone"
+ },
+ {
+  "who": "lea",
+  "fr": "qui rêvait d'être professeur",
+  "en": "who dreamed of being a teacher"
+ },
+ {
+  "who": "lea",
+  "fr": "pourrait découvrir qu'elle aime surtout",
+  "en": "might discover that they mostly love"
+ },
+ {
+  "who": "lea",
+  "fr": "expliquer des choses",
+  "en": "explaining things"
+ },
+ {
+  "who": "lea",
+  "fr": "et choisir un autre métier dans la formation.",
+  "en": "and choose another job in training."
+ },
+ {
+  "who": "mat",
+  "fr": "Donc nos rêves peuvent évoluer",
+  "en": "So our dreams can evolve"
+ },
+ {
+  "who": "mat",
+  "fr": "sans complètement disparaître.",
+  "en": "without disappearing completely."
+ },
+ {
+  "who": "lea",
+  "fr": "Oui. Mais il faut aussi accepter",
+  "en": "Yes. But we also have to accept"
+ },
+ {
+  "who": "lea",
+  "fr": "qu'une passion ne devienne pas forcément",
+  "en": "that a passion won't necessarily become"
+ },
+ {
+  "who": "lea",
+  "fr": "notre profession.",
+  "en": "our profession."
+ },
+ {
+  "who": "mat",
+  "fr": "Ah, c'est important.",
+  "en": "Ah, that's important.",
+  "emote": "idee"
+ },
+ {
+  "who": "mat",
+  "fr": "J'adore prendre des photos",
+  "en": "I love taking photos"
+ },
+ {
+  "who": "mat",
+  "fr": "pendant mes promenades,",
+  "en": "during my walks,",
+  "illus": "nature",
+  "label": "mes promenades"
+ },
+ {
+  "who": "mat",
+  "fr": "mais je ne sais pas si j'aimerais devoir",
+  "en": "but I'm not sure I'd like having to"
+ },
+ {
+  "who": "mat",
+  "fr": "photographier des événements tous les week-ends.",
+  "en": "photograph events every weekend."
+ },
+ {
+  "who": "lea",
+  "fr": "Voilà. Aimer une activité librement",
+  "en": "Exactly. Loving an activity freely"
+ },
+ {
+  "who": "lea",
+  "fr": "n'est pas toujours la même chose",
+  "en": "isn't always the same thing"
+ },
+ {
+  "who": "lea",
+  "fr": "que devoir la pratiquer pour [gagner sa vie.]",
+  "en": "as having to do it to earn a living."
+ },
+ {
+  "who": "mat",
+  "fr": "Tu sais, j'ai une amie qui adorait dessiner",
+  "en": "You know, I have a friend who loved drawing"
+ },
+ {
+  "who": "mat",
+  "fr": "quand elle était adolescente.",
+  "en": "when she was a teenager."
+ },
+ {
+  "who": "mat",
+  "fr": "Elle voulait devenir illustratrice.",
+  "en": "She wanted to be an illustrator."
+ },
+ {
+  "who": "lea",
+  "fr": "Et aujourd'hui ?",
+  "en": "And today?"
+ },
+ {
+  "who": "mat",
+  "fr": "Elle travaille dans l'enseignement,",
+  "en": "She works in teaching,",
+  "illus": "etudes",
+  "label": "l'enseignement"
+ },
+ {
+  "who": "mat",
+  "fr": "mais elle dessine toujours le soir.",
+  "en": "but she still draws in the evening."
+ },
+ {
+  "who": "mat",
+  "fr": "Elle crée même de petites cartes pour ses amis.",
+  "en": "She even makes little cards for her friends."
+ },
+ {
+  "who": "lea",
+  "fr": "Et elle est heureuse comme ça ?",
+  "en": "And is she happy like that?",
+  "emote": "question"
+ },
+ {
+  "who": "mat",
+  "fr": "Oui. Elle dit que le dessin reste un plaisir",
+  "en": "Yes. She says drawing is still a pleasure"
+ },
+ {
+  "who": "mat",
+  "fr": "parce qu'elle peut le pratiquer sans pression.",
+  "en": "because she can do it without pressure."
+ },
+ {
+  "who": "lea",
+  "fr": "C'est une belle façon de voir les choses.",
+  "en": "That's a lovely way to see things."
+ },
+ {
+  "who": "lea",
+  "fr": "Notre travail n'a pas besoin",
+  "en": "Our work doesn't need"
+ },
+ {
+  "who": "lea",
+  "fr": "de représenter toutes nos passions.",
+  "en": "to represent all our passions."
+ },
+ {
+  "who": "mat",
+  "fr": "Exactement. Et je crois que cela enlève",
+  "en": "Exactly. And I think that removes"
+ },
+ {
+  "who": "mat",
+  "fr": "une partie de la pression",
+  "en": "some of the pressure"
+ },
+ {
+  "who": "mat",
+  "fr": "quand on réfléchit à son avenir.",
+  "en": "when you think about your future."
+ },
+ {
+  "who": "lea",
+  "fr": "Mais il existe un autre facteur",
+  "en": "But there's another factor"
+ },
+ {
+  "who": "lea",
+  "fr": "qui influence beaucoup nos choix professionnels.",
+  "en": "that strongly influences our career choices."
+ },
+ {
+  "who": "mat",
+  "fr": "Je crois que je sais : la famille ?",
+  "en": "I think I know: family?",
+  "emote": "idee"
+ },
+ {
+  "who": "lea",
+  "fr": "Oui.",
+  "en": "Yes."
+ },
+ {
+  "who": "lea",
+  "fr": "[Les attentes] de nos parents et de nos proches.",
+  "en": "The expectations of our parents and loved ones."
+ },
+ {
+  "who": "mat",
+  "fr": "Ah, les fameuses discussions",
+  "en": "Ah, the famous discussions"
+ },
+ {
+  "who": "mat",
+  "fr": "pendant les repas de famille !",
+  "en": "during family meals!"
+ },
+ {
+  "who": "mat",
+  "fr": "Quand j'étais adolescent,",
+  "en": "When I was a teenager,"
+ },
+ {
+  "who": "mat",
+  "fr": "tout le monde avait une idée pour mon avenir.",
+  "en": "everyone had an idea for my future."
+ },
+ {
+  "who": "lea",
+  "fr": "Ah bon ? Raconte !",
+  "en": "Really? Tell me!",
+  "emote": "surpris"
+ },
+ {
+  "who": "mat",
+  "fr": "Mon oncle voulait",
+  "en": "My uncle wanted"
+ },
+ {
+  "who": "mat",
+  "fr": "que je travaille dans la finance.",
+  "en": "me to work in finance.",
+  "illus": "argent",
+  "label": "la finance"
+ },
+ {
+  "who": "mat",
+  "fr": "Ma tante pensait",
+  "en": "My aunt thought"
+ },
+ {
+  "who": "mat",
+  "fr": "que l'informatique serait parfaite pour moi.",
+  "en": "computing would be perfect for me."
+ },
+ {
+  "who": "mat",
+  "fr": "Et mon grand-père répétait",
+  "en": "And my grandfather kept saying"
+ },
+ {
+  "who": "mat",
+  "fr": "qu'il fallait choisir un métier stable.",
+  "en": "you had to choose a stable job."
+ },
+ {
+  "who": "lea",
+  "fr": "Ils voulaient probablement",
+  "en": "They probably wanted"
+ },
+ {
+  "who": "lea",
+  "fr": "que tu aies un avenir sûr.",
+  "en": "you to have a secure future."
+ },
+ {
+  "who": "mat",
+  "fr": "Oui, je sais que leurs conseils",
+  "en": "Yes, I know their advice"
+ },
+ {
+  "who": "mat",
+  "fr": "étaient [bien intentionnés.]",
+  "en": "was well-meant."
+ },
+ {
+  "who": "mat",
+  "fr": "Mais parfois, j'avais l'impression",
+  "en": "But sometimes I felt"
+ },
+ {
+  "who": "mat",
+  "fr": "que tout le monde savait",
+  "en": "that everyone knew"
+ },
+ {
+  "who": "mat",
+  "fr": "ce que je devais faire, sauf moi.",
+  "en": "what I should do, except me.",
+  "emote": "gene"
+ },
+ {
+  "who": "lea",
+  "fr": "C'est une situation",
+  "en": "It's a situation"
+ },
+ {
+  "who": "lea",
+  "fr": "que beaucoup de jeunes connaissent.",
+  "en": "that many young people know."
+ },
+ {
+  "who": "lea",
+  "fr": "Ils essaient de comprendre leurs envies",
+  "en": "They try to understand what they want"
+ },
+ {
+  "who": "lea",
+  "fr": "tout en écoutant les conseils de leur famille.",
+  "en": "while listening to their family's advice."
+ },
+ {
+  "who": "mat",
+  "fr": "Et ce n'est pas toujours facile",
+  "en": "And it's not always easy"
+ },
+ {
+  "who": "mat",
+  "fr": "de faire la différence",
+  "en": "to tell the difference"
+ },
+ {
+  "who": "mat",
+  "fr": "entre ce qu'on veut vraiment",
+  "en": "between what we really want"
+ },
+ {
+  "who": "mat",
+  "fr": "et ce que les autres attendent de nous.",
+  "en": "and what others expect from us."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Les parents pensent souvent",
+  "en": "Exactly. Parents often think"
+ },
+ {
+  "who": "lea",
+  "fr": "à la stabilité, au salaire",
+  "en": "about stability, salary"
+ },
+ {
+  "who": "lea",
+  "fr": "et aux possibilités d'emploi.",
+  "en": "and job opportunities."
+ },
+ {
+  "who": "lea",
+  "fr": "Ce sont des questions importantes.",
+  "en": "Those are important questions."
+ },
+ {
+  "who": "mat",
+  "fr": "Mais il faut aussi penser à notre personnalité",
+  "en": "But we also have to think about our personality"
+ },
+ {
+  "who": "mat",
+  "fr": "et à ce qui nous plaît.",
+  "en": "and what we enjoy."
+ },
+ {
+  "who": "lea",
+  "fr": "Oui. Parce que c'est nous qui allons exercer",
+  "en": "Yes. Because we're the ones who'll do"
+ },
+ {
+  "who": "lea",
+  "fr": "ce métier tous les jours.",
+  "en": "this job every day."
+ },
+ {
+  "who": "mat",
+  "fr": "Et un métier prestigieux",
+  "en": "And a prestigious job"
+ },
+ {
+  "who": "mat",
+  "fr": "ne nous rendra pas forcément heureux.",
+  "en": "won't necessarily make us happy."
+ },
+ {
+  "who": "lea",
+  "fr": "Très juste.",
+  "en": "Very true.",
+  "board": {
+   "mode": "word",
+   "bg": "liege",
+   "note": "= particulièrement respecté par la société"
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "[« Prestigieux »] signifie",
+  "en": "\"Prestigious\" means"
+ },
+ {
+  "who": "lea",
+  "fr": "qu'un métier ou une position",
+  "en": "that a job or a position"
+ },
+ {
+  "who": "lea",
+  "fr": "est particulièrement respecté par la société.",
+  "en": "is especially respected by society."
+ },
+ {
+  "who": "mat",
+  "fr": "Par exemple, un métier peut être prestigieux,",
+  "en": "For example, a job can be prestigious"
+ },
+ {
+  "who": "mat",
+  "fr": "mais ne pas correspondre à nos besoins.",
+  "en": "but not match our needs.",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Je connais quelqu'un",
+  "en": "Exactly. I know someone"
+ },
+ {
+  "who": "lea",
+  "fr": "qui a étudié le droit pendant plusieurs années",
+  "en": "who studied law for several years"
+ },
+ {
+  "who": "lea",
+  "fr": "parce que sa famille",
+  "en": "because his family"
+ },
+ {
+  "who": "lea",
+  "fr": "trouvait cette carrière idéale.",
+  "en": "thought it was the ideal career."
+ },
+ {
+  "who": "mat",
+  "fr": "Et il est devenu avocat ?",
+  "en": "And did he become a lawyer?",
+  "emote": "question"
+ },
+ {
+  "who": "lea",
+  "fr": "Oui, pendant quelque temps.",
+  "en": "Yes, for a while."
+ },
+ {
+  "who": "lea",
+  "fr": "Mais il a découvert qu'il n'aimait pas",
+  "en": "But he discovered he didn't like"
+ },
+ {
+  "who": "lea",
+  "fr": "le rythme de travail.",
+  "en": "the pace of work."
+ },
+ {
+  "who": "lea",
+  "fr": "Il s'intéressait davantage à la formation",
+  "en": "He was more interested in training"
+ },
+ {
+  "who": "lea",
+  "fr": "et à l'accompagnement des personnes.",
+  "en": "and supporting people."
+ }
+]
