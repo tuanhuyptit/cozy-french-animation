@@ -1,0 +1,509 @@
+[
+ {
+  "who": "lea",
+  "fr": "à retrouver ton habitude.",
+  "en": "get your habit back."
+ },
+ {
+  "who": "mat",
+  "fr": "Oui. Rien de spectaculaire.",
+  "en": "Yes. Nothing spectacular."
+ },
+ {
+  "who": "mat",
+  "fr": "Pas de nouveau programme, pas de grande décision.",
+  "en": "No new plan, no big decision."
+ },
+ {
+  "who": "mat",
+  "fr": "J'ai simplement recommencé.",
+  "en": "I simply started again.",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Voilà une belle leçon.",
+  "en": "That's a lovely lesson."
+ },
+ {
+  "who": "lea",
+  "fr": "Nous n'avons pas besoin",
+  "en": "We don't need"
+ },
+ {
+  "who": "lea",
+  "fr": "d'attendre une occasion spéciale",
+  "en": "to wait for a special occasion"
+ },
+ {
+  "who": "lea",
+  "fr": "pour reprendre quelque chose d'important.",
+  "en": "to get back to something important."
+ },
+ {
+  "who": "mat",
+  "fr": "En français, on peut dire",
+  "en": "In French, we can say"
+ },
+ {
+  "who": "mat",
+  "fr": "« reprendre là où on s'était arrêté ».",
+  "en": "\"reprendre là où on s'était arrêté\"."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement.",
+  "en": "Exactly."
+ },
+ {
+  "who": "lea",
+  "fr": "Cette expression signifie recommencer une activité",
+  "en": "This expression means restarting an activity"
+ },
+ {
+  "who": "lea",
+  "fr": "après une interruption,",
+  "en": "after a break,"
+ },
+ {
+  "who": "lea",
+  "fr": "sans nécessairement repartir de zéro.",
+  "en": "without necessarily starting from scratch."
+ },
+ {
+  "who": "mat",
+  "fr": "Par exemple :",
+  "en": "For example:"
+ },
+ {
+  "who": "mat",
+  "fr": "« J'ai arrêté d'étudier le français",
+  "en": "\"I stopped studying French"
+ },
+ {
+  "who": "mat",
+  "fr": "pendant quelques semaines,",
+  "en": "for a few weeks,"
+ },
+ {
+  "who": "mat",
+  "fr": "mais maintenant, je vais",
+  "en": "but now, I'm going to"
+ },
+ {
+  "who": "mat",
+  "fr": "reprendre là où je m'étais arrêté. »",
+  "en": "pick up where I left off.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Et c'est particulièrement important",
+  "en": "And that's especially important"
+ },
+ {
+  "who": "lea",
+  "fr": "pour nos auditeurs.",
+  "en": "for our listeners."
+ },
+ {
+  "who": "lea",
+  "fr": "Peut-être que certains d'entre vous",
+  "en": "Maybe some of you"
+ },
+ {
+  "who": "lea",
+  "fr": "ont interrompu leur apprentissage",
+  "en": "have paused your learning"
+ },
+ {
+  "who": "lea",
+  "fr": "à cause du travail",
+  "en": "because of work"
+ },
+ {
+  "who": "lea",
+  "fr": "ou des responsabilités familiales.",
+  "en": "or family responsibilities.",
+  "illus": "famille",
+  "label": "la famille"
+ },
+ {
+  "who": "mat",
+  "fr": "Mais vous pouvez revenir tranquillement,",
+  "en": "But you can come back calmly,"
+ },
+ {
+  "who": "mat",
+  "fr": "sans [vous reprocher]",
+  "en": "without blaming yourself"
+ },
+ {
+  "who": "mat",
+  "fr": "tout le temps passé sans pratiquer.",
+  "en": "for all the time spent not practising."
+ },
+ {
+  "who": "lea",
+  "fr": "Oui. Vous pouvez revoir certaines choses,",
+  "en": "Yes. You can review some things,"
+ },
+ {
+  "who": "lea",
+  "fr": "retrouver votre rythme",
+  "en": "find your rhythm again"
+ },
+ {
+  "who": "lea",
+  "fr": "et continuer progressivement.",
+  "en": "and keep going step by step."
+ },
+ {
+  "who": "mat",
+  "fr": "Tu sais, je crois",
+  "en": "You know, I think"
+ },
+ {
+  "who": "mat",
+  "fr": "que la vraie discipline se voit aussi",
+  "en": "true discipline also shows"
+ },
+ {
+  "who": "mat",
+  "fr": "dans les moments où personne ne nous regarde.",
+  "en": "in the moments when nobody's watching."
+ },
+ {
+  "who": "lea",
+  "fr": "Comment ça ?",
+  "en": "What do you mean?"
+ },
+ {
+  "who": "mat",
+  "fr": "Si je décide d'étudier dix minutes ce soir,",
+  "en": "If I decide to study ten minutes tonight,"
+ },
+ {
+  "who": "mat",
+  "fr": "personne ne saura forcément si je l'ai fait.",
+  "en": "nobody will necessarily know if I did it."
+ },
+ {
+  "who": "lea",
+  "fr": "C'est vrai. Mais toi, tu le sauras.",
+  "en": "True. But you will know.",
+  "emote": "idee"
+ },
+ {
+  "who": "mat",
+  "fr": "Exactement.",
+  "en": "Exactly."
+ },
+ {
+  "who": "mat",
+  "fr": "Et quand je respecte cette petite promesse,",
+  "en": "And when I keep that little promise,"
+ },
+ {
+  "who": "mat",
+  "fr": "j'ai l'impression de devenir quelqu'un",
+  "en": "I feel like I'm becoming someone"
+ },
+ {
+  "who": "mat",
+  "fr": "[sur qui je peux compter.]",
+  "en": "I can count on."
+ },
+ {
+  "who": "lea",
+  "fr": "J'aime beaucoup cette idée.",
+  "en": "I really like that idea."
+ },
+ {
+  "who": "lea",
+  "fr": "La discipline ne consiste pas seulement",
+  "en": "Discipline isn't only about"
+ },
+ {
+  "who": "lea",
+  "fr": "à atteindre des objectifs visibles.",
+  "en": "reaching visible goals."
+ },
+ {
+  "who": "lea",
+  "fr": "Elle nous aide aussi",
+  "en": "It also helps us"
+ },
+ {
+  "who": "lea",
+  "fr": "à construire une relation plus fiable",
+  "en": "build a more reliable relationship"
+ },
+ {
+  "who": "lea",
+  "fr": "avec nous-mêmes.",
+  "en": "with ourselves."
+ },
+ {
+  "who": "mat",
+  "fr": "Et cela se construit progressivement,",
+  "en": "And that builds up gradually,"
+ },
+ {
+  "who": "mat",
+  "fr": "avec de petites actions répétées.",
+  "en": "with small repeated actions."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Mais il faut aussi accepter",
+  "en": "Exactly. But we also have to accept"
+ },
+ {
+  "who": "lea",
+  "fr": "que nos habitudes évoluent avec notre vie.",
+  "en": "that our habits change with our life."
+ },
+ {
+  "who": "mat",
+  "fr": "Parce que certaines personnes",
+  "en": "Because some people"
+ },
+ {
+  "who": "mat",
+  "fr": "préfèrent étudier le matin, et d'autres le soir.",
+  "en": "prefer studying in the morning, others at night.",
+  "illus": "temps",
+  "label": "le matin"
+ },
+ {
+  "who": "lea",
+  "fr": "Oui. Certaines ont beaucoup de temps libre,",
+  "en": "Yes. Some have a lot of free time,"
+ },
+ {
+  "who": "lea",
+  "fr": "d'autres doivent gérer le travail,",
+  "en": "others have to juggle work,"
+ },
+ {
+  "who": "lea",
+  "fr": "les études ou les enfants.",
+  "en": "studies or children."
+ },
+ {
+  "who": "mat",
+  "fr": "Donc il n'existe pas une seule routine parfaite",
+  "en": "So there's no single perfect routine"
+ },
+ {
+  "who": "mat",
+  "fr": "pour tout le monde.",
+  "en": "for everyone."
+ },
+ {
+  "who": "lea",
+  "fr": "Absolument. Le meilleur programme est celui",
+  "en": "Absolutely. The best plan is the one"
+ },
+ {
+  "who": "lea",
+  "fr": "qui correspond à nos besoins",
+  "en": "that fits our needs"
+ },
+ {
+  "who": "lea",
+  "fr": "et que nous pouvons adapter",
+  "en": "and that we can adapt"
+ },
+ {
+  "who": "lea",
+  "fr": "lorsque nos circonstances changent.",
+  "en": "when our circumstances change."
+ },
+ {
+  "who": "mat",
+  "fr": "Tu sais, Léa,",
+  "en": "You know, Léa,"
+ },
+ {
+  "who": "mat",
+  "fr": "je crois que je comprends enfin quelque chose.",
+  "en": "I think I finally understand something.",
+  "emote": "idee"
+ },
+ {
+  "who": "mat",
+  "fr": "Être discipliné",
+  "en": "Being disciplined"
+ },
+ {
+  "who": "mat",
+  "fr": "ne signifie pas ne jamais avoir envie",
+  "en": "doesn't mean never wanting"
+ },
+ {
+  "who": "mat",
+  "fr": "de procrastiner.",
+  "en": "to procrastinate."
+ },
+ {
+  "who": "lea",
+  "fr": "Non. Cela signifie apprendre",
+  "en": "No. It means learning"
+ },
+ {
+  "who": "lea",
+  "fr": "à reconnaître ses habitudes",
+  "en": "to recognise your habits"
+ },
+ {
+  "who": "lea",
+  "fr": "et à faire des choix plus conscients.",
+  "en": "and to make more conscious choices."
+ },
+ {
+  "who": "mat",
+  "fr": "Et parfois, choisir de commencer doucement.",
+  "en": "And sometimes, choosing to start gently."
+ },
+ {
+  "who": "mat",
+  "fr": "Parfois, choisir de se reposer. Et parfois,",
+  "en": "Sometimes, choosing to rest. And sometimes,"
+ },
+ {
+  "who": "mat",
+  "fr": "simplement reprendre après une interruption.",
+  "en": "simply starting again after a break."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement.",
+  "en": "Exactly."
+ },
+ {
+  "who": "lea",
+  "fr": "Maintenant, je te propose de revoir",
+  "en": "Now, I suggest we review"
+ },
+ {
+  "who": "lea",
+  "fr": "quelques expressions françaises importantes.",
+  "en": "a few important French expressions."
+ },
+ {
+  "who": "mat",
+  "fr": "Excellente idée !",
+  "en": "Great idea!"
+ },
+ {
+  "who": "mat",
+  "fr": "Commençons avec « remettre au lendemain ».",
+  "en": "Let's start with \"remettre au lendemain\"."
+ },
+ {
+  "who": "lea",
+  "fr": "« Remettre au lendemain »",
+  "en": "\"Remettre au lendemain\""
+ },
+ {
+  "who": "lea",
+  "fr": "signifie reporter une tâche à plus tard.",
+  "en": "means putting a task off until later."
+ },
+ {
+  "who": "lea",
+  "fr": "Par exemple :",
+  "en": "For example:"
+ },
+ {
+  "who": "lea",
+  "fr": "« Je remets toujours le rangement",
+  "en": "\"I always put off tidying"
+ },
+ {
+  "who": "lea",
+  "fr": "de mon bureau au lendemain. »",
+  "en": "my desk until tomorrow.\""
+ },
+ {
+  "who": "mat",
+  "fr": "Deuxième expression : [« se trouver des excuses ».]",
+  "en": "Second expression: \"se trouver des excuses\"."
+ },
+ {
+  "who": "lea",
+  "fr": "Cela signifie chercher des raisons",
+  "en": "It means looking for reasons"
+ },
+ {
+  "who": "lea",
+  "fr": "pour éviter de faire quelque chose.",
+  "en": "to avoid doing something."
+ },
+ {
+  "who": "lea",
+  "fr": "Par exemple :",
+  "en": "For example:"
+ },
+ {
+  "who": "lea",
+  "fr": "« Chaque fois que je dois faire du sport,",
+  "en": "\"Every time I have to exercise,"
+ },
+ {
+  "who": "lea",
+  "fr": "je me trouve une excuse pour rester chez moi. »",
+  "en": "I find an excuse to stay at home.\""
+ },
+ {
+  "who": "mat",
+  "fr": "Troisième expression : « s'y mettre ».",
+  "en": "Third expression: \"s'y mettre\"."
+ },
+ {
+  "who": "lea",
+  "fr": "« S'y mettre » signifie commencer une activité.",
+  "en": "\"S'y mettre\" means starting an activity."
+ },
+ {
+  "who": "lea",
+  "fr": "Par exemple :",
+  "en": "For example:"
+ },
+ {
+  "who": "lea",
+  "fr": "« Cela fait longtemps",
+  "en": "\"I've wanted to learn the piano"
+ },
+ {
+  "who": "lea",
+  "fr": "que je veux apprendre le piano.",
+  "en": "for a long time."
+ },
+ {
+  "who": "lea",
+  "fr": "Il faudrait vraiment que je m'y mette. »",
+  "en": "I really should get down to it.\""
+ },
+ {
+  "who": "mat",
+  "fr": "Quatrième expression : [« tenir ses engagements ».]",
+  "en": "Fourth expression: \"tenir ses engagements\"."
+ },
+ {
+  "who": "lea",
+  "fr": "Cela signifie respecter ce qu'on a promis",
+  "en": "It means doing what you promised"
+ },
+ {
+  "who": "lea",
+  "fr": "ou décidé.",
+  "en": "or decided."
+ },
+ {
+  "who": "lea",
+  "fr": "Par exemple :",
+  "en": "For example:"
+ }
+]

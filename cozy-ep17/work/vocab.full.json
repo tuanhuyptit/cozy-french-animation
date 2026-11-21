@@ -1,0 +1,16 @@
+[
+ {"tag":"adjectif","word":"convaincant, convaincante","ipa":"/kɔ̃.vɛ̃.kɑ̃/","mean":"convincing","ex":"Son argument était très convaincant.","exEn":"His argument was very convincing."},
+ {"tag":"adjectif","word":"valable","ipa":"/va.labl/","mean":"valid, acceptable","ex":"Ton ticket n'est plus valable.","exEn":"Your ticket is no longer valid."},
+ {"tag":"expression","word":"se sentir dépassé(e)","ipa":"/sə sɑ̃.tiʁ de.pa.se/","mean":"to feel overwhelmed","ex":"Avec tous ces e-mails, je me sens dépassée.","exEn":"With all these emails, I feel overwhelmed."},
+ {"tag":"expression","word":"franchir la porte","ipa":"/fʁɑ̃.ʃiʁ la pɔʁt/","mean":"to step through the door","ex":"Dès qu'il franchit la porte, le chien aboie.","exEn":"As soon as he steps through the door, the dog barks."},
+ {"tag":"expression","word":"au bout de","ipa":"/o bu də/","mean":"after (a period of time)","ex":"Au bout d'une heure, le bus est enfin arrivé.","exEn":"After an hour, the bus finally arrived."},
+ {"tag":"verbe","word":"gâcher","ipa":"/ɡa.ʃe/","mean":"to ruin, to spoil, to waste","ex":"La pluie a gâché notre pique-nique.","exEn":"The rain ruined our picnic."},
+ {"tag":"expression","word":"à portée de main","ipa":"/a pɔʁ.te də mɛ̃/","mean":"within reach, handy","ex":"Je garde toujours un stylo à portée de main.","exEn":"I always keep a pen within reach."},
+ {"tag":"nom masculin","word":"l'épuisement","ipa":"/le.pɥiz.mɑ̃/","mean":"exhaustion","ex":"Après le marathon, elle était au bord de l'épuisement.","exEn":"After the marathon, she was close to exhaustion."},
+ {"tag":"adjectif","word":"bienveillant, bienveillante","ipa":"/bjɛ̃.ve.jɑ̃/","mean":"kind, caring","ex":"Notre professeur est toujours très bienveillant.","exEn":"Our teacher is always very kind."},
+ {"tag":"verbe","word":"se reprocher (quelque chose)","ipa":"/sə ʁə.pʁɔ.ʃe/","mean":"to blame oneself (for something)","ex":"Il se reproche encore cette dispute.","exEn":"He still blames himself for that argument."},
+ {"tag":"expression","word":"compter sur quelqu'un","ipa":"/kɔ̃.te syʁ kɛl.kœ̃/","mean":"to count on someone","ex":"Tu peux compter sur moi pour samedi.","exEn":"You can count on me for Saturday."},
+ {"tag":"expression","word":"se trouver des excuses","ipa":"/sə tʁu.ve de.z‿ɛks.kyz/","mean":"to make excuses","ex":"Arrête de te trouver des excuses et appelle-la !","exEn":"Stop making excuses and call her!"},
+ {"tag":"expression","word":"tenir ses engagements","ipa":"/tə.niʁ se.z‿ɑ̃.ɡaʒ.mɑ̃/","mean":"to keep one's commitments","ex":"Un bon ami tient ses engagements.","exEn":"A good friend keeps his commitments."},
+ {"tag":"expression","word":"perdre le rythme","ipa":"/pɛʁdʁ lə ʁitm/","mean":"to lose one's rhythm, to fall out of the habit","ex":"Pendant l'été, j'ai perdu le rythme du sport.","exEn":"Over the summer, I fell out of the habit of exercising."}
+]

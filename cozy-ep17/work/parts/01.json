@@ -1,0 +1,509 @@
+[
+ {
+  "who": "lea",
+  "fr": "Bonjour à toutes et à tous !",
+  "en": "Hello everyone!"
+ },
+ {
+  "who": "lea",
+  "fr": "Bienvenue dans The Cozy French,",
+  "en": "Welcome to The Cozy French,"
+ },
+ {
+  "who": "lea",
+  "fr": "votre petit rendez-vous",
+  "en": "your little get-together"
+ },
+ {
+  "who": "lea",
+  "fr": "pour apprendre le français",
+  "en": "to learn French"
+ },
+ {
+  "who": "lea",
+  "fr": "à travers des conversations naturelles",
+  "en": "through natural"
+ },
+ {
+  "who": "lea",
+  "fr": "et chaleureuses.",
+  "en": "and warm conversations."
+ },
+ {
+  "who": "lea",
+  "fr": "Je suis Léa, et je suis très heureuse",
+  "en": "I'm Léa, and I'm very happy",
+  "emote": "coeur"
+ },
+ {
+  "who": "lea",
+  "fr": "de vous retrouver aujourd'hui.",
+  "en": "to be with you again today."
+ },
+ {
+  "who": "mat",
+  "fr": "Et moi, c'est Mathieu !",
+  "en": "And I'm Mathieu!"
+ },
+ {
+  "who": "mat",
+  "fr": "Bonjour, chers amis !",
+  "en": "Hello, dear friends!"
+ },
+ {
+  "who": "mat",
+  "fr": "Que vous soyez à la maison,",
+  "en": "Whether you're at home,"
+ },
+ {
+  "who": "mat",
+  "fr": "dans les transports",
+  "en": "on public transport"
+ },
+ {
+  "who": "mat",
+  "fr": "ou en train de préparer votre café,",
+  "en": "or making your coffee,",
+  "illus": "cafe",
+  "label": "votre café"
+ },
+ {
+  "who": "mat",
+  "fr": "installez-vous confortablement.",
+  "en": "get comfortable."
+ },
+ {
+  "who": "mat",
+  "fr": "Nous sommes ravis de passer ce moment avec vous.",
+  "en": "We're delighted to spend this time with you."
+ },
+ {
+  "who": "lea",
+  "fr": "Mathieu, j'ai une question pour toi.",
+  "en": "Mathieu, I have a question for you."
+ },
+ {
+  "who": "lea",
+  "fr": "Est-ce que tu te considères",
+  "en": "Do you consider yourself"
+ },
+ {
+  "who": "lea",
+  "fr": "comme quelqu'un de discipliné ?",
+  "en": "a disciplined person?"
+ },
+ {
+  "who": "mat",
+  "fr": "Hmm... Ça dépend des jours.",
+  "en": "Hmm... It depends on the day."
+ },
+ {
+  "who": "mat",
+  "fr": "Le lundi, je suis généralement très discipliné.",
+  "en": "On Mondays, I'm usually very disciplined."
+ },
+ {
+  "who": "mat",
+  "fr": "Le vendredi, c'est une autre histoire.",
+  "en": "On Fridays, it's another story.",
+  "emote": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Ah bon ? Pourquoi ?",
+  "en": "Really? Why?"
+ },
+ {
+  "who": "mat",
+  "fr": "Parce que le lundi,",
+  "en": "Because on Mondays,"
+ },
+ {
+  "who": "mat",
+  "fr": "j'ai plein de bonnes intentions.",
+  "en": "I'm full of good intentions."
+ },
+ {
+  "who": "mat",
+  "fr": "Je veux travailler efficacement, faire du sport,",
+  "en": "I want to work efficiently, exercise,",
+  "illus": "sport",
+  "label": "le sport"
+ },
+ {
+  "who": "mat",
+  "fr": "lire davantage et prendre soin de moi.",
+  "en": "read more and take care of myself."
+ },
+ {
+  "who": "mat",
+  "fr": "Mais après quelques jours,",
+  "en": "But after a few days,"
+ },
+ {
+  "who": "mat",
+  "fr": "mon enthousiasme commence à disparaître.",
+  "en": "my enthusiasm starts to fade."
+ },
+ {
+  "who": "lea",
+  "fr": "Je crois que beaucoup de personnes",
+  "en": "I think a lot of people"
+ },
+ {
+  "who": "lea",
+  "fr": "connaissent cette situation.",
+  "en": "know this situation."
+ },
+ {
+  "who": "lea",
+  "fr": "On prépare un beau programme,",
+  "en": "You make a nice plan,"
+ },
+ {
+  "who": "lea",
+  "fr": "puis on a du mal à le suivre.",
+  "en": "then you struggle to stick to it."
+ },
+ {
+  "who": "mat",
+  "fr": "Exactement.",
+  "en": "Exactly."
+ },
+ {
+  "who": "mat",
+  "fr": "Et parfois, mon cerveau trouve",
+  "en": "And sometimes, my brain comes up with"
+ },
+ {
+  "who": "mat",
+  "fr": "des excuses tellement [convaincantes]",
+  "en": "such convincing excuses"
+ },
+ {
+  "who": "mat",
+  "fr": "que je finis par croire qu'il a raison.",
+  "en": "that I end up believing it's right."
+ },
+ {
+  "who": "lea",
+  "fr": "Donne-moi un exemple.",
+  "en": "Give me an example."
+ },
+ {
+  "who": "mat",
+  "fr": "Depuis deux semaines,",
+  "en": "For two weeks now,"
+ },
+ {
+  "who": "mat",
+  "fr": "je dois ranger les documents",
+  "en": "I've had to tidy the papers"
+ },
+ {
+  "who": "mat",
+  "fr": "qui s'accumulent sur mon bureau.",
+  "en": "piling up on my desk."
+ },
+ {
+  "who": "mat",
+  "fr": "Chaque soir, je me dis que je vais m'en occuper.",
+  "en": "Every evening, I tell myself I'll deal with it."
+ },
+ {
+  "who": "mat",
+  "fr": "Mais dès que je rentre chez moi,",
+  "en": "But as soon as I get home,"
+ },
+ {
+  "who": "mat",
+  "fr": "une petite voix me dit :",
+  "en": "a little voice tells me:"
+ },
+ {
+  "who": "mat",
+  "fr": "« Tu as travaillé toute la journée.",
+  "en": "\"You've worked all day."
+ },
+ {
+  "who": "mat",
+  "fr": "Fais ça demain. »",
+  "en": "Do it tomorrow.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Et demain arrive...",
+  "en": "And tomorrow comes..."
+ },
+ {
+  "who": "mat",
+  "fr": "Et cette petite voix revient",
+  "en": "And that little voice comes back"
+ },
+ {
+  "who": "mat",
+  "fr": "avec un nouvel argument !",
+  "en": "with a new argument!"
+ },
+ {
+  "who": "mat",
+  "fr": "Elle est très créative, tu sais.",
+  "en": "It's very creative, you know.",
+  "emote": "rire"
+ },
+ {
+  "who": "lea",
+  "fr": "Voilà une excellente introduction à notre sujet.",
+  "en": "That's a great introduction to our topic."
+ },
+ {
+  "who": "lea",
+  "fr": "Aujourd'hui, nous allons parler",
+  "en": "Today, we're going to talk"
+ },
+ {
+  "who": "lea",
+  "fr": "de la discipline mentale",
+  "en": "about mental discipline"
+ },
+ {
+  "who": "lea",
+  "fr": "et de la manière dont nous pouvons apprendre",
+  "en": "and how we can learn"
+ },
+ {
+  "who": "lea",
+  "fr": "à mieux gérer nos habitudes,",
+  "en": "to better manage our habits,"
+ },
+ {
+  "who": "lea",
+  "fr": "notre attention et nos décisions.",
+  "en": "our attention and our decisions."
+ },
+ {
+  "who": "mat",
+  "fr": "Mais attention, chers amis,",
+  "en": "But careful, dear friends,"
+ },
+ {
+  "who": "mat",
+  "fr": "nous n'allons pas vous dire",
+  "en": "we're not going to tell you"
+ },
+ {
+  "who": "mat",
+  "fr": "de travailler sans arrêt",
+  "en": "to work non-stop"
+ },
+ {
+  "who": "mat",
+  "fr": "ou de devenir des machines !",
+  "en": "or to become machines!"
+ },
+ {
+  "who": "lea",
+  "fr": "Absolument pas.",
+  "en": "Absolutely not."
+ },
+ {
+  "who": "lea",
+  "fr": "Être discipliné ne signifie pas se punir.",
+  "en": "Being disciplined doesn't mean punishing yourself."
+ },
+ {
+  "who": "lea",
+  "fr": "Cela signifie plutôt apprendre",
+  "en": "It means learning instead"
+ },
+ {
+  "who": "lea",
+  "fr": "à faire ce qui compte pour nous,",
+  "en": "to do what matters to us,"
+ },
+ {
+  "who": "lea",
+  "fr": "même lorsque notre humeur change.",
+  "en": "even when our mood changes."
+ },
+ {
+  "who": "mat",
+  "fr": "Et aussi apprendre à reconnaître",
+  "en": "And also learning to recognise"
+ },
+ {
+  "who": "mat",
+  "fr": "quand on a réellement besoin de repos.",
+  "en": "when we really need rest."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement.",
+  "en": "Exactly."
+ },
+ {
+  "who": "lea",
+  "fr": "Comme toujours, nous allons découvrir",
+  "en": "As always, we'll discover"
+ },
+ {
+  "who": "lea",
+  "fr": "des expressions françaises utiles",
+  "en": "useful French expressions"
+ },
+ {
+  "who": "lea",
+  "fr": "et partager quelques histoires du quotidien.",
+  "en": "and share a few everyday stories."
+ },
+ {
+  "who": "mat",
+  "fr": "Avant de commencer,",
+  "en": "Before we start,"
+ },
+ {
+  "who": "mat",
+  "fr": "dites-nous dans les commentaires :",
+  "en": "tell us in the comments:"
+ },
+ {
+  "who": "mat",
+  "fr": "quelle est une chose",
+  "en": "what's one thing"
+ },
+ {
+  "who": "mat",
+  "fr": "que vous remettez souvent au lendemain ?",
+  "en": "you often put off until tomorrow?"
+ },
+ {
+  "who": "mat",
+  "fr": "Une petite phrase en français suffit.",
+  "en": "A short sentence in French is enough."
+ },
+ {
+  "who": "lea",
+  "fr": "Et si vous aimez apprendre avec nous,",
+  "en": "And if you enjoy learning with us,"
+ },
+ {
+  "who": "lea",
+  "fr": "pensez à vous abonner à The Cozy French.",
+  "en": "remember to subscribe to The Cozy French."
+ },
+ {
+  "who": "lea",
+  "fr": "Maintenant, commençons !",
+  "en": "Now, let's begin!"
+ },
+ {
+  "who": "mat",
+  "fr": "Bon, Léa,",
+  "en": "So, Léa,"
+ },
+ {
+  "who": "mat",
+  "fr": "pourquoi est-ce que notre esprit préfère",
+  "en": "why does our mind prefer"
+ },
+ {
+  "who": "mat",
+  "fr": "souvent faire autre chose",
+  "en": "to often do something else"
+ },
+ {
+  "who": "mat",
+  "fr": "que ce que nous avons prévu ?",
+  "en": "than what we had planned?"
+ },
+ {
+  "who": "lea",
+  "fr": "Parce que certaines activités",
+  "en": "Because some activities"
+ },
+ {
+  "who": "lea",
+  "fr": "nous apportent un plaisir immédiat,",
+  "en": "give us instant pleasure,"
+ },
+ {
+  "who": "lea",
+  "fr": "alors que d'autres demandent des efforts",
+  "en": "while others require effort"
+ },
+ {
+  "who": "lea",
+  "fr": "avant de nous apporter un résultat.",
+  "en": "before they give us a result."
+ },
+ {
+  "who": "mat",
+  "fr": "Comme regarder une vidéo",
+  "en": "Like watching a video"
+ },
+ {
+  "who": "mat",
+  "fr": "plutôt que ranger mes documents ?",
+  "en": "instead of tidying my papers?"
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement.",
+  "en": "Exactly."
+ },
+ {
+  "who": "lea",
+  "fr": "Regarder une vidéo est facile et agréable.",
+  "en": "Watching a video is easy and pleasant."
+ },
+ {
+  "who": "lea",
+  "fr": "Ranger tes papiers demande de commencer une tâche",
+  "en": "Tidying your papers means starting a task"
+ },
+ {
+  "who": "lea",
+  "fr": "que tu trouves probablement ennuyeuse.",
+  "en": "you probably find boring."
+ },
+ {
+  "who": "mat",
+  "fr": "C'est vrai.",
+  "en": "That's true."
+ },
+ {
+  "who": "mat",
+  "fr": "Et mes excuses me semblent toujours raisonnables.",
+  "en": "And my excuses always seem reasonable."
+ },
+ {
+  "who": "mat",
+  "fr": "Je me dis que je suis fatigué,",
+  "en": "I tell myself I'm tired,"
+ },
+ {
+  "who": "mat",
+  "fr": "que ce n'est pas urgent",
+  "en": "that it's not urgent"
+ },
+ {
+  "who": "mat",
+  "fr": "ou que je serai plus efficace pendant le week-end.",
+  "en": "or that I'll be more efficient at the weekend."
+ },
+ {
+  "who": "lea",
+  "fr": "Parfois, ces raisons sont [valables.]",
+  "en": "Sometimes, those reasons are valid."
+ },
+ {
+  "who": "lea",
+  "fr": "Mais parfois, elles servent simplement",
+  "en": "But sometimes, they simply serve"
+ },
+ {
+  "who": "lea",
+  "fr": "à éviter une activité désagréable.",
+  "en": "to avoid an unpleasant activity."
+ }
+]
