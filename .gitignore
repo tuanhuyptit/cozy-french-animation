@@ -8,3 +8,5 @@ ep-work/
 **/.waveform-cache/
 **/package-lock.json
 board-preview/
+cam-preview/
+story-preview/

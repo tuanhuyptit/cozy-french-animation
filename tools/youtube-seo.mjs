@@ -20,6 +20,9 @@ const W = JSON.parse(fs.readFileSync(path.join(DIR, 'assets/words.json'), 'utf8'
 const OUT = path.join(DIR, 'youtube');
 fs.mkdirSync(OUT, { recursive: true });
 
+// the channel intro shifts the talk: read where tools/build.mjs placed it in index.html (0 for episodes built before the intro)
+const IDX = path.join(DIR, 'index.html');
+const OFF = fs.existsSync(IDX) ? +((fs.readFileSync(IDX, 'utf8').match(/id="talk"[^>]*?data-start="([\d.]+)"/s) || [])[1] || 0) : 0;
 // align chunks to word timestamps (same rule as tools/build.mjs)
 const norm = s => s.toLowerCase().replace(/[^a-zà-ÿœæç']/g, '');
 let wi = 0;
@@ -29,7 +32,7 @@ const chunks = EP.chunks.map((c, ci) => {
     if (!w || norm(w.t) !== norm(t)) throw new Error(`chunk ${ci}: "${t}" vs transcript "${w && w.t}"`);
     return w;
   });
-  return { ...c, s: toks[0].s, e: toks[toks.length - 1].e };
+  return { ...c, s: toks[0].s + OFF, e: toks[toks.length - 1].e + OFF };
 });
 chunks.forEach((c, i) => { const n = chunks[i + 1]; c.end = n ? Math.min(c.e + 1.2, Math.max(n.s - 0.05, c.e)) : c.e + 1; });
 
@@ -53,4 +56,4 @@ const srt = key => chunks.map((c, i) => {
 fs.writeFileSync(path.join(OUT, 'captions.fr.srt'), srt('fr'));
 fs.writeFileSync(path.join(OUT, 'captions.en.srt'), srt('en'));
 
-console.log(`${ep}: ${chunks.length} chunks, ${EP.vocab?.length || 0} vocab, audio ${mmss(EP.audioEnd)} → ${path.relative(process.cwd(), OUT)}/`);
+console.log(`${ep}: ${chunks.length} chunks${OFF ? ` (times +${OFF}s for the intro)` : ''}, ${EP.vocab?.length || 0} vocab, audio ${mmss(EP.audioEnd)} → ${path.relative(process.cwd(), OUT)}/`);

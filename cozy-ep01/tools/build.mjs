@@ -8,7 +8,9 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import vm from 'node:vm';
 import { STAGING } from './staging.mjs';
+import { OUTRO_CSS, OUTRO_HTML, outroRuntime } from './bookends.mjs';
 import { renderSfx } from './sfx.mjs';
+import { buildStories } from './story.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const ART  = path.resolve(ROOT, '../demo-animation-style.html');
@@ -31,7 +33,7 @@ vm.runInContext(`
   const pick=a=>a[Math.floor(Math.random()*a.length)];
   const rep=d=>Math.ceil(TOTAL/d)+1;
   ${src.slice(a, b)}
-  this.leaSVG=leaSVG; this.matSVG=matSVG; this.SCENES=SCENES; this.EMO_TYPES=EMO_TYPES; this.ILLUS=ILLUS; this.bubbleSVG=bubbleSVG; this.GEST_ELBOW=GEST_ELBOW; this.WALK_GEST_KEYS=WALK_GEST_KEYS; this.DECOR=DECOR; this.withDecor=withDecor;`, sandbox);
+  this.leaSVG=leaSVG; this.matSVG=matSVG; this.SCENES=SCENES; this.EMO_TYPES=EMO_TYPES; this.ILLUS=ILLUS; this.bubbleSVG=bubbleSVG; this.GEST_ELBOW=GEST_ELBOW; this.WALK_GEST_KEYS=WALK_GEST_KEYS; this.DECOR=DECOR; this.withDecor=withDecor; this.OUT_LEA=OUT_LEA; this.OUT_MAT=OUT_MAT;`, sandbox);
 // fabric patterns (stripes, gingham, pois, check, cord…) live in the demo's hidden <defs>
 const PATTERNS = (src.slice(src.indexOf('<svg width="0" height="0"'), src.indexOf('</defs></svg>')).match(/<pattern[\s\S]*?<\/pattern>/g) || []).join('\n      ');
 // emote runtime (EMO_FACE, EMO_ANIM, emoteTL) is copied verbatim into the video script
@@ -412,6 +414,15 @@ cards.forEach(c => { c.hidden = sessions.some(ss => c.s >= ss.s - 0.3 && c.s <= 
 bubs.forEach(b => { const ss = sessions.find(ss => b.t < ss.e + 0.6 && b.t + BUB_D > ss.s - 0.4); if (ss) throw new Error(`chunk ${b.ci}: illustration "${b.type}" overlaps the board at ${ss.s.toFixed(1)}–${ss.e.toFixed(1)}s — move or drop it`); });
 if (sessions.length && sessions[sessions.length - 1].e + 0.8 > RECAP_AT) throw new Error('board runs into the recap');
 
+/* ---------- story cutaways (episode.json "stories", see tools/story.mjs) ---------- */
+const STORY = buildStories(EP.stories, { chunks, ILLUS: sandbox.ILLUS, OUT_LEA: sandbox.OUT_LEA, OUT_MAT: sandbox.OUT_MAT, lea: EP.lea, mat: EP.mat
+  });
+STORY.wins.forEach(w => {
+  const ss = sessions.find(ss => w.s < ss.e + 0.8 && w.e > ss.s - 0.8); if (ss) throw new Error(`story ${w.k} overlaps the board at ${ss.s.toFixed(1)}–${ss.e.toFixed(1)}s`);
+  const b = bubs.find(b => b.t < w.e && b.t + BUB_D > w.s); if (b) throw new Error(`chunk ${b.ci}: illustration "${b.type}" falls inside story ${w.k} — drop it (the story shows it)`);
+  if (w.e > RECAP_AT - 0.3) throw new Error(`story ${w.k} runs into the recap`);
+});
+
 // listener sips coffee now and then (every ~35–70 s each, while the other talks ≥ 4.5 s, not on the board, not during an emote)
 const sips = [], sR = mulberry32(33);
 if (STAGE.sips) ['lea', 'mat'].forEach(who => {
@@ -426,7 +437,11 @@ if (STAGE.sips) ['lea', 'mat'].forEach(who => {
 });
 
 const END = Math.max(EP.audioEnd, chunks[chunks.length - 1].hide);
-const RECAP = RECAP_AT, RECAP_D = cards.length > 8 ? 7 : 5, TOTAL = +(RECAP + RECAP_D).toFixed(2);
+const RECAP = RECAP_AT, RECAP_D = cards.length > 8 ? 7 : 5;
+// channel outro (end screen after the recap, tools/bookends.mjs); episode.json "outro": false turns it off. No intro (owner's call).
+const OUTRO_ON = EP.outro !== false;
+const OUTRO = +(RECAP + RECAP_D).toFixed(2), OUTRO_D = OUTRO_ON ? 20 : 0;
+const TOTAL = +(OUTRO + OUTRO_D).toFixed(2);
 const f = n => (+n).toFixed(3);
 
 /* ---------- talk.html ---------- */
@@ -744,7 +759,7 @@ chunks.forEach((c, i) => {
 nods.sort((x, y) => x.t - y.t);
 
 // staging-specific timing (walk: head turns, listener hand in pocket, camera pans + which side cards/bubbles drop on)
-const STAGE_DATA = STAGE.plan({ chunks, turns, gests, cards, bubs, sessions, emotes, EMO_D, BUB_D, mulberry32 });
+const STAGE_DATA = STAGE.plan({ chunks, turns, gests, cards, bubs, sessions: [...sessions, ...STORY.wins], emotes, EMO_D, BUB_D, RECAP, mulberry32, camera: EP.camera });
 
 const NAMES = `<div id="names"><div id="name-lea" class="nameTag">Léa</div><div id="name-mat" class="nameTag">Mathieu</div></div>`;
 const talk = `<template>
@@ -1036,7 +1051,7 @@ const talk = `<template>
     .bqx{left:50%;top:610px;width:auto;max-width:1100px;min-height:0;transform:translateX(-50%) rotate(-1.5deg);font-size:32px;padding:30px 36px 24px}
     #talk-badge{position:absolute;right:40px;top:34px;width:132px;height:132px;filter:drop-shadow(0 4px 8px #0004)}
     .cntBox{position:relative;width:18px;height:36px} .cnt{position:absolute;left:0;top:0}
-    #recap{position:absolute;inset:0;background:#f6eddc;display:flex;flex-direction:column;align-items:center;justify-content:center}
+    #recap{position:absolute;inset:0;opacity:0;background:#f6eddc;display:flex;flex-direction:column;align-items:center;justify-content:center}
     #recap h2{font:700 72px 'Playfair Display',serif;color:#3a2e28;margin:0 0 40px;opacity:0}
     #recap .grid{display:grid;grid-template-columns:repeat(2,640px);gap:28px}
     #recap .it{background:#fffaf0;border:4px solid #3a2e28;border-radius:24px;padding:22px 30px;font:800 36px Nunito;color:#d9774b;opacity:0}
@@ -1044,7 +1059,7 @@ const talk = `<template>
     #recap.many h2{font-size:60px;margin-bottom:30px}
     #recap.many .grid{grid-template-columns:repeat(3,540px);gap:20px}
     #recap.many .it{padding:14px 24px;font-size:30px;border-radius:20px}
-    #recap.many .it small{font-size:22px}
+    #recap.many .it small{font-size:22px}${OUTRO_ON ? OUTRO_CSS : ''}${STORY.css}
   </style>
   <div id="talk" data-composition-id="talk" data-width="1920" data-height="1080">
     <svg width="0" height="0" style="position:absolute"><defs>
@@ -1067,17 +1082,17 @@ const talk = `<template>
     </defs></svg>
     <div id="talk-world" data-layout-ignore>
       <div id="talk-scene">${sceneSVG}</div>
-      <div id="board" data-layout-ignore>${boardBG}${boardHTML}</div>
+      <div id="board" data-layout-ignore>${boardBG}${boardHTML}</div>${OUTRO_ON ? OUTRO_HTML(LOGO) : ''}
       <div id="talk-pair" data-layout-ignore><div class="charBox" id="talk-lea">${leaSVG}</div>
-      <div class="charBox" id="talk-mat">${matSVG}</div>${WALK ? NAMES : ''}</div>
+      <div class="charBox" id="talk-mat">${matSVG}</div>${WALK ? NAMES : ''}</div>${WALK ? '' : NAMES}
     </div>
+    ${STORY.html}
     <div id="talk-grain" data-layout-ignore></div>
-    ${WALK ? '' : NAMES}
     <img id="talk-badge" src="${LOGO}" alt="The Cozy French">
     ${cardsHTML()}
     ${bubsHTML()}
     ${subsHTML}
-    <div id="recap" class="clip${cards.length > 8 ? ' many' : ''}" data-start="${f(RECAP)}" data-duration="${f(RECAP_D)}" data-track-index="6">
+    <div id="recap" class="clip${cards.length > 8 ? ' many' : ''}" data-start="${f(RECAP)}" data-duration="${f(RECAP_D + (OUTRO_ON ? 0.6 : 0))}" data-track-index="6">
       <h2 id="recap-title">Aujourd'hui, on a appris…</h2>
       <div class="grid">${cards.map((c, i) => `<div class="it" id="recap-it${i}">${esc(c.word)}<small>${esc(c.mean)}</small></div>`).join('')}</div>
     </div>
@@ -1138,7 +1153,7 @@ const talk = `<template>
       for(let b=1.5+i;b<TOTAL;b+=3.3+i*.7) tl.fromTo(c+' .eye',{scaleY:1},{scaleY:.1,transformOrigin:'50% 50%',duration:.07,yoyo:true,repeat:1,immediateRender:false},b);
       q(c+' .steam').forEach((s,j)=>tl.fromTo(s,{y:0,opacity:0},{y:-40,opacity:.8,duration:2.2,repeat:rep(2.2),ease:'sine.out'},i*.7+j*1.1));
     });
-    tl.fromTo('#talk-world',{scale:1},{scale:1.05,duration:RECAP,ease:'none'},0);
+    ${STAGE_DATA.cam ? '' : "tl.fromTo('#talk-world',{scale:1},{scale:1.05,duration:RECAP,ease:'none'},0);"}
 
     // ---- who is speaking ----
     tl.set(['#talk-lea .head','#talk-mat .head'],{rotation:0,transformOrigin:'50% 95%'},0);
@@ -1163,7 +1178,7 @@ const talk = `<template>
     GESTS.forEach(g=>gestTL(tl,'#talk-'+g.who,{p:g.p,t:g.t,d:g.d,b:g.b}));
     NODS.forEach(n=>nodTL(tl,'#talk-'+n.who,n.t));
     ${WALK ? `// ---- walking (WALK-RUNTIME from the demo + tools/staging.mjs) ----
-    ${WALK_RUNTIME}${STAGE.runtime(STAGE_DATA, f)}` : ''}
+    ${WALK_RUNTIME}${STAGE.runtime(STAGE_DATA, f)}` : STAGE.runtime(STAGE_DATA, f)}
     // ---- listener sips coffee now and then (sipTL from the demo's SIP-RUNTIME) ----
     ${SIP_RUNTIME}
     SIPS.forEach(sp=>sipTL(tl,'#talk-'+sp.who,sp.t));
@@ -1252,7 +1267,9 @@ const talk = `<template>
     tl.fromTo('#recap',{opacity:0},{opacity:1,duration:.5},RECAP);
     tl.fromTo('#recap-title',{y:30,opacity:0},{y:0,opacity:1,duration:.6,ease:'back.out(2)'},RECAP+.2);
     q('#recap .it').forEach((it,i)=>tl.fromTo(it,{y:30,opacity:0},{y:0,opacity:1,duration:.4,ease:'back.out(2)'},RECAP+.7+i*Math.min(.35,${(RECAP_D - 2) / Math.max(1, cards.length)})));
+    ${OUTRO_ON ? outroRuntime({ OUT: OUTRO, RECAP: f(RECAP), D: OUTRO_D, walk: WALK }) : ''}
 
+    ${STORY.js}
     window.__timelines=window.__timelines||{};
     window.__timelines["talk"]=tl;
   })();
@@ -1270,6 +1287,7 @@ if (SFX_ON) {
   const FX_SND = { pop: 'pop', drop: 'tap', slide: 'swish', slideL: 'swish', stamp: 'stamp', draw: 'scribble', strike: 'scribble', rise: 'rise', pulse: 'tick' };
   const GOOD = { quiz: ['tick'], fill: ['a'], mistake: ['rx'], falsefriend: ['mx'], match: [] }, BAD = { mistake: ['wx'], falsefriend: ['lx'] };
   const BG_SND = { liege: 'paper', craie: 'thud', carnet: 'whoosh' };
+  sfxEv.push(...STORY.sfx);
   sessions.forEach(ss => {
     sfxEv.push({ t: ss.s - 0.3, k: BG_SND[ss.bg] }, { t: ss.e - 0.1, k: 'whoosh' });
     ss.segs.forEach(sg => {
@@ -1290,6 +1308,7 @@ if (SFX_ON) {
   sfxEv.push({ t: RECAP + 0.2, k: 'chime' });
   cards.forEach((c, i) => sfxEv.push({ t: RECAP + 0.7 + i * Math.min(0.35, (RECAP_D - 2) / Math.max(1, cards.length)), k: 'tick' }));
 }
+if (SFX_ON && OUTRO_ON) sfxEv.push({ t: OUTRO + 0.1, k: 'swish' }, { t: OUTRO + 0.45, k: 'chime' }, { t: OUTRO + 0.9, k: 'card' }, { t: OUTRO + 1.15, k: 'card' }, { t: OUTRO + 1.6, k: 'stamp' }, { t: OUTRO + 2.0, k: 'pop' });
 const sfxN = SFX_ON ? renderSfx(sfxEv, TOTAL, path.join(ROOT, 'assets/sfx.wav'), path.join(ROOT, 'assets/sfx.mp3'), 1) : 0;
 
 const index = `<!doctype html>
@@ -1320,4 +1339,5 @@ const index = `<!doctype html>
 </html>
 `;
 fs.writeFileSync(path.join(ROOT, 'index.html'), index);
+
 console.log(`built (${WALK ? 'walk' : 'sit'}): ${gests.length} gestures (${POSES.map(p => p + ' ' + gests.filter(g => g.pose === p).length).join(', ')}), ${nods.length} nods, ${sips.length} sips, ${chunks.length} subtitle chunks, ${words.length} words, ${cards.length} cards, ${emotes.length} emotes, ${bubs.length} illustrations, ${turns.length} turns, ${sfxN} sounds, total ${TOTAL}s`);

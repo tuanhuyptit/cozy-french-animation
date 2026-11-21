@@ -29,8 +29,79 @@ export const STAGING = {
       return p;
     },
     autoActs: {},
-    plan: () => ({}),
-    runtime: () => '',
+    // camera: the whole world (#talk-world = scene + board + characters + name tags) is moved like a camera.
+    // Shots: W wide · M two-shot (×1.16) · lean towards the speaker (×1.42) · close on the speaker (×1.9, head + shoulders). Changes only on a subtitle start,
+    // close/lean shots start on a speaker change and pull out when the other person answers.
+    // Always wide: first 5 s, explanation boards, recap. No close/lean while a vocab card / bubble / listener emote is up.
+    // Every hold drifts slowly (+2.5 % zoom) so the frame is never frozen. episode.json "camera": false → old slow push.
+    plan({ chunks, turns, cards, bubs, sessions, emotes, EMO_D, BUB_D, RECAP, mulberry32, camera }) {
+      if (camera === false) return {};
+      const W = 1920, H = 1080, MOVE = 1.1;
+      const pose = (s, fx, fy, sx, sy) => ({ s, x: Math.min(0, Math.max(W - s * W, sx - s * fx)), y: Math.min(0, Math.max(H - s * H, sy - s * fy)) });
+      const SHOT = {
+        W: { s: 1, x: 0, y: 0 },
+        M: pose(1.16, 960, 470, 960, 500),
+        leanlea: pose(1.42, 640, 400, 860, 460), leanmat: pose(1.42, 1270, 400, 1060, 460),
+        closelea: pose(1.9, 497, 335, 800, 330), closemat: pose(1.9, 1388, 335, 1120, 330),   // head + shoulders, face on the thirds line
+      };
+      const drift = p => { const s2 = p.s * 1.025, cx = (W / 2 - p.x) / p.s, cy = (H * 0.45 - p.y) / p.s;
+        return { s: s2, x: Math.min(0, Math.max(W - s2 * W, W / 2 - s2 * cx)), y: Math.min(0, Math.max(H - s2 * H, H * 0.45 - s2 * cy)) }; };
+      const R = mulberry32(31);
+      // forced-wide windows → free intervals between them
+      const wide = [[0, 5], ...sessions.map(ss => [ss.s - 0.5 - MOVE, ss.e + 0.8]), [RECAP - 0.6 - MOVE, 1e9]].sort((a, b) => a[0] - b[0]);
+      const busy = [...cards.filter(c => !c.hidden).map(c => [c.s - 1.2, c.s + c.d + 0.3, null]),
+        ...bubs.map(b => [b.t - 1.2, b.t + BUB_D + 0.3, null]), ...emotes.map(e => [e.t - 0.6, e.t + EMO_D, e.who])];
+      const closeOK = (a, b, who) => !busy.some(([s, e, w]) => s < b && e > a && (w === null || w !== who));
+      const starts = chunks.map(c => c.s);
+      const shots = [];                               // { t: move start, k: shot }
+      let free = 0;
+      wide.forEach(([ws, we]) => {
+        const A = free, B = ws; free = Math.max(free, we);
+        if (B - A < 12) return;
+        // 1) close / lean shots first: a speaker change opening a turn of ≥ 7 s, cut short before a card/bubble/listener emote
+        const closes = []; let lastEnd = A + 4;
+        turns.forEach(t => {
+          if (t.s < lastEnd + 10 || t.s > B - 8) return;
+          let end = Math.min(t.e, t.s + 18, B - 2);
+          const hit = busy.filter(([s, e, w]) => s < end + MOVE && e > t.s - 0.2 && (w === null || w !== t.who)).map(x => x[0]);
+          if (hit.length) end = Math.min(end, Math.min(...hit) - MOVE);
+          if (end - t.s < 7 || R() > 0.7) return;
+          const nextStart = starts.find(p => p >= end - 0.05 && p <= B) ?? end;   // pull out on the next subtitle (usually the answer)
+          closes.push({ s: t.s, e: Math.min(nextStart, B - 2), k: (R() < 0.75 ? 'close' : 'lean') + t.who }); lastEnd = nextStart;
+        });
+        // 2) fill everything else with wide ↔ two-shot, changing on a subtitle start every 10–22 s
+        let lastTwo = 'W';
+        const fill = (a, b, first) => {
+          let cur = first, curT = a, hold = 10 + R() * 12;
+          if (first !== 'W' || a > A) shots.push({ t: a - 0.15, k: first });
+          for (const p of starts) {
+            if (p < a + 6 || p > b - 6 || p - curT < hold) continue;
+            cur = cur === 'W' ? 'M' : 'W'; shots.push({ t: p - 0.15, k: cur }); curT = p; hold = 10 + R() * 12;
+          }
+          lastTwo = cur;
+        };
+        let pos = A, first = 'W';
+        closes.forEach(c => { if (c.s - pos > 0.5) fill(pos, c.s, first); shots.push({ t: c.s - 0.15, k: c.k }); pos = c.e; first = lastTwo === 'W' ? 'M' : 'W'; });
+        if (B - pos > 7) fill(pos, B, first); else if (closes.length || first !== 'W') shots.push({ t: Math.min(pos, B) - 0.15, k: 'W' });
+        if (shots.length && shots[shots.length - 1].k !== 'W') shots.push({ t: B, k: 'W' });
+      });
+      // keyframes: a move (MOVE s, power2.inOut) then a slow drift until the next move
+      const keys = []; let from = SHOT.W, t0 = 0;
+      const all = [{ t: 0, k: 'W' }, ...shots];
+      all.forEach((sh, i) => {
+        const to = SHOT[sh.k], nextT = i + 1 < all.length ? all[i + 1].t : RECAP;   // last drift stops when the recap covers the frame
+        const mv = i ? Math.min(MOVE, nextT - sh.t) : 0;
+        if (mv) keys.push({ t: sh.t, d: mv, a: from, b: to, e: 'power2.inOut' });
+        const dr = drift(to), dd = nextT - sh.t - mv;
+        if (dd > 0.2) { keys.push({ t: sh.t + mv, d: dd, a: to, b: dr, e: 'sine.inOut' }); from = dr; } else from = to;
+      });
+      return { cam: keys, camShots: shots };
+    },
+    runtime: (d, f) => !d.cam ? '' : `
+    // ---- camera (tools/staging.mjs sit.plan) ----
+    const CAM=${JSON.stringify(d.cam.map(k => [+f(k.t), +f(k.d), +k.a.s.toFixed(4), +k.a.x.toFixed(1), +k.a.y.toFixed(1), +k.b.s.toFixed(4), +k.b.x.toFixed(1), +k.b.y.toFixed(1), k.e]))};
+    tl.set('#talk-world',{transformOrigin:'0 0',x:0,y:0,scale:1},0);
+    CAM.forEach(([t,d,s0,x0,y0,s1,x1,y1,e])=>tl.fromTo('#talk-world',{scale:s0,x:x0,y:y0},{scale:s1,x:x1,y:y1,duration:d,ease:e,immediateRender:false},t));`,
   },
 
   walk: {

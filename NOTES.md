@@ -9,7 +9,7 @@ Claude: đọc file này trước khi sửa gì trong repo.
 - Trước đây: ảnh minh hoạ tĩnh (nét bút chì màu, áo len vàng, quần jeans) + phụ đề cứng. Chuyển sang animation có highlight từ vựng.
 
 ## Phong cách đã chốt
-- **Kiểu A — nhân vật cozy cố định**: 2 nhân vật ngồi bên bàn, chớp mắt, thở, mấp máy miệng theo từng chữ, nghiêng đầu khi nói. Không làm hoạt hình kể chuyện đầy đủ (quá tốn công cho lịch đăng mỗi ngày).
+- **Kiểu A — nhân vật cozy cố định**: 2 nhân vật ngồi bên bàn, chớp mắt, thở, mấp máy miệng theo từng chữ, nghiêng đầu khi nói. Từ 2026-11-21 xen thêm **cảnh kể chuyện bằng hoạt hình** (stories, xem cuối file) — ngắn, dùng lại thư viện, không phải hoạt hình đầy đủ.
 - **Nhân vật**: **Léa** (nữ, tóc nâu ngang vai) và **Mathieu** (nam, tóc xoăn, kính tròn). Không còn tên Hugo.
 - **Chất liệu**: viền rung kiểu vẽ tay + hạt bút chì (SVG filter `#pencil`) + lớp grain giấy phủ toàn cảnh, để gần với nét minh hoạ cũ của kênh.
 - **Bảng màu**: kem `#f6eddc`, mực `#3a2e28`, cam đất `#b8552a`/`#d9774b`, vàng bơ `#f3c96b`, xanh sage `#8fae8b`.
@@ -99,3 +99,23 @@ Tự động: skill `skills/cozy-french-episode` (người dùng chỉ gửi voi
 - 2026-11-06: thêm 4 bối cảnh (chalet, boulangerie, train, quai), `new-episode.mjs`, `assemble.mjs`, skill `cozy-french-episode`; build cảnh báo khi 2 từ vựng < 3 s. Sau đó: model turbo, `vocab-help.mjs` (IPA + cấp độ CEFR), biểu cảm (8) + bong bóng minh hoạ (24).
 - Xong: demo trình duyệt (10 bối cảnh, 10 trang phục), video thử 34 s đầu của voice `4f.mp3` (`cozy-ep01-test-30s.mp4`), script transcribe + build.
 - Chưa làm (nhạc nền: chủ kênh không muốn, 2026-11-13): tự động chia đoạn + dịch + chọn từ vựng cho tập 20 phút (nên để Claude làm từ `episode.draft.json`); intro/outro kênh; thumbnail.
+
+## Camera khi ngồi (2026-11-21)
+- Cảnh ngồi có camera tự động: cả `#talk-world` (bối cảnh + bảng + nhân vật + bảng tên) dịch/zoom như máy quay. Lịch nằm ở `sit.plan` trong `cozy-ep01/tools/staging.mjs`, thay cho cú zoom 1 → 1,05 cũ.
+- Khung: `W` rộng · `M` hai người (×1,16) · `lean` nghiêng về người nói (×1,42) · `close` cận sát đầu + vai người nói (×1,9; 75 % cận, 25 % nghiêng). Cận/nghiêng bắt đầu đúng lúc đổi người nói (lượt ≥ 7 s, tối đa 18 s), rút ra ở phụ đề kế tiếp; phần còn lại đổi W ↔ M mỗi 10–22 s, luôn đúng đầu một đoạn phụ đề. Mỗi khung trôi zoom chậm thêm 2,5 %.
+- Luôn rộng: 5 s đầu, bảng giải thích, màn ôn. Không cận khi có thẻ từ, bong bóng hay biểu cảm của người nghe (để không che mặt / không bỏ lỡ phản ứng). Seed cố định → build lại y hệt.
+- Tắt: `"camera": false` trong `episode.json`.
+
+## Outro kênh (2026-11-21)
+- `cozy-ep01/tools/bookends.mjs`. **Không có intro** — đã thử (logo xoay vào 3,6 s), chủ kênh bỏ; video vào thẳng cảnh.
+- **Outro** 20 s sau màn ôn, nằm trong talk.html (lớp `#outro` trong `#talk-world`, dưới nhân vật): « Merci d'avoir écouté ! », 2 ô video 620×349 (trái x300, phải x1000, y312) cho phần tử video của Màn hình kết thúc YouTube, logo 210 px giữa dưới cho nút Đăng ký, nhân vật thu về góc (như bảng) và vẫy tay 3 lượt (đi dạo: giơ ngón cái). Màn ôn mờ đi lộ outro. Camera dừng trôi ở mốc màn ôn.
+- `tools/youtube-seo.mjs` cộng `data-start` của `#talk` trong `index.html` vào outline + SRT (hiện luôn 0; để sẵn nếu sau này có intro).
+- Tắt: `"outro": false` trong `episode.json`.
+
+## Cảnh kể chuyện bằng hoạt hình — "stories" (2026-11-21)
+- Chủ kênh muốn video thu hút hơn: ngoài cảnh ngồi nói, **diễn điều họ đang nói bằng chuyển động**. Không nhất thiết có nhân vật — chữ, icon, danh sách, bản đồ mini, lịch… miễn là chuyển động.
+- **2 phút đầu phải dày** (~5–6 cảnh trong 0–120 s, để giữ người xem), sau đó thưa dần (~1 cảnh mỗi giai thoại).
+- Bộ máy: `cozy-ep01/tools/story.mjs` (build.mjs gọi `buildStories`). Cắt thẳng bàn → cảnh → bàn, **không hiệu ứng chuyển cảnh** (đã thử mây suy nghĩ, chủ kênh bỏ). Lớp `#story` nằm ngoài `#talk-world` (camera không kéo theo), dưới phụ đề / thẻ từ / logo. Camera tự rộng trong cảnh (cửa sổ cảnh được đưa vào `sessions` khi gọi `STAGE.plan`). Âm thanh vào chung `sfx.mp3`.
+- Dữ liệu: `episode.json` `"stories"` (assemble lấy từ `work/stories.json`). Nơi chốn riêng (`papier carte chambre bureau cuisine rue`) + mọi nơi của Books (`books:<tên>`, import `../../books/scenes.mjs` → thư mục tập phải nằm ở gốc repo). Nhân vật đứng: đầu chép từ demo, màu áo lấy `OUT_LEA/OUT_MAT` của bộ đồ tập (sandbox build export thêm hai biến này).
+- Xem thử: `node tools/story-preview.mjs intro|guitar|map` (cắt một đoạn tập 17, build thật vào `story-preview/`, git-ignored). `intro` = chuẩn mật độ 2 phút đầu.
+- Luật: không trùng bảng, không có bong bóng `illus` trong cảnh, không chạm màn ôn, hai cảnh không chồng nhau. Không dùng `clip-path`/CSS filter cho phần tử động (khung đen khi render). `svgOrigin` chỉ đặt một lần ở t=0.

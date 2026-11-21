@@ -133,7 +133,29 @@ Khi **đi dạo** có thêm 10 cử chỉ tay (cũng tự chọn theo lời tho�
 - Trong `work/src*.txt` (nếu viết dạng dòng `who|fr|en|extra`): thêm `B={json}` ở cuối phần extra để mở, `BE` để đóng; `work/convert.mjs` đổi thành `parts/*.json`.
 - Snapshot ít nhất một lần cho mỗi kiểu bảng/nền đã dùng để chắc chữ không tràn khung.
 
+**Cảnh kể chuyện bằng hoạt hình — "stories"** (từ 2026-11-21, chủ kênh yêu cầu): video cắt thẳng từ bàn ngồi sang một trang toàn màn hình, điều họ đang nói được **diễn ra bằng chuyển động** (chữ chạy, icon, danh sách, bản đồ Pháp mini, lịch, pin, đồng hồ, biểu đồ… và chỉ khi cần thì có Léa/Mathieu đứng diễn), rồi cắt thẳng về bàn. **Không có hiệu ứng chuyển cảnh** (chủ kênh bỏ mây chuyển cảnh, 2026-11-21) — cắt ngay vào/ra. Phụ đề, thẻ từ, logo vẫn nằm trên. Không bắt buộc có nhân vật: chữ hay bản đồ chuyển động cũng được, miễn là có chuyển động.
+- **Mật độ — quan trọng**: **2 phút đầu phải dày** để giữ người xem: khoảng 5–6 cảnh trong 0–120 s, phủ ~50–60 % thời gian (lời chào/giới thiệu kênh, "dù bạn ở nhà, trên tàu…", câu hỏi mở đầu, giai thoại đầu tiên, câu giới thiệu chủ đề). Giữa hai cảnh để bàn hiện ít nhất một câu ngắn (phản ứng « Ah bon ? »). Sau phút 2 thưa dần: ~1 cảnh cho mỗi giai thoại ("quand j'étais…", "un jour…", "une amie…", "imagine que…"), khoảng 1 cảnh / 2–4 phút.
+- Viết vào `work/stories.json` (assemble chép sang `episode.json` `"stories"`), số đoạn là số trong `episode.json`:
+  ```json
+  [{ "c": [19, 20], "place": "chambre", "tag": "Souvenir|Mathieu, étudiant",
+     "cast": [{ "id": "m", "who": "mat", "x": 760 }],
+     "beats": [ { "c": 19, "w": "lundi", "do": "face", "on": "m", "face": "star" },
+                { "c": 20, "w": "vendredi", "do": "zzz", "on": "m", "d": 2.5 } ] }]
+  ```
+  `c` = đoạn đầu–cuối (cắt vào ngay trước đoạn đầu, cắt ra ngay sau đoạn cuối). Vì cắt thẳng, beat đầu tiên nên rơi vào chữ đầu tiên của đoạn đầu để trang không trống. Mỗi beat bắt đầu đúng chữ `w` trong đoạn `c`; `d` = số giây, `until: {c, w}` = biến mất lúc đó (mặc định ở tới hết cảnh), `id` + beat `hide` để giấu bớt.
+- Nơi chốn `place`: `papier` (trang giấy trơn — hợp với chữ, icon, danh sách) · `carte` (bàn bản đồ, dùng với `map`) · `chambre` · `bureau` (bàn làm việc, `pile` chồng giấy lên bàn) · `cuisine` · `rue` · hoặc mọi nơi của Books `books:salon|rueNuit|atelier|campagne|marche|mer|…`.
+- Beat chuyển động (không cần nhân vật): `title` (tiêu đề to, từng chữ bật + gạch chân vẽ) · `text` (chữ hiện từng từ) · `note` (giấy note ghim) · `stamp` (con dấu đập xuống) · `icons` (hàng huy hiệu icon: tên ILLUS `cafe sport travail lecture sante voyage famille amis…`, `b:<icon Books>` như `b:calendar b:search b:question b:heart`, hoặc một ký tự) · `list` (danh sách tick từng dòng) · `vs` (hai bên ≠) · `map` (bản đồ Pháp, ghim rơi đúng chữ, đường đi vẽ dần; thành phố trong `CITIES` của story.mjs) · `calendar` (lịch rụng trang) · `count` (số nhảy ×1 → ×99) · `clock` (kim quay) · `bars` (cột lớn dần) · `battery` (pin cạn/đầy) · `dream` (bong bóng tưởng tượng) · `heart` · `burst` (nốt nhạc/tim/sao bung ra) · `sky` (trăng qua cửa sổ = nhiều đêm) · `pile`.
+  Beat nhân vật (khi diễn giai thoại): `cast` `who: lea|mat` (đầu giống hệt lúc ngồi, mặc bộ đồ của tập; `outfit: "#màu"` cho hồi ức) hoặc `person` (con rối giấy Books, `o` = tuỳ chọn PERSON). `face` (normal star happy tired flat wow sad) · `hold` (guitar book phone cup papers laptop) · `drop` · `bob` · `work` · `walk` · `enter`/`exit` · `droop` · `band` · `say` (bong bóng thoại) · `whisper` ("petite voix" — con vật tím nhỏ thì thầm) · `zzz`.
+- Chữ trên cảnh: chỉ lấy từ lời thoại (hoặc tóm tắt rất ngắn bằng tiếng Pháp), không bịa câu mới. Đặt mọi thứ ở y < 760 (phụ đề phía dưới), tránh góc trên phải (logo, thẻ từ).
+- Không được trùng bảng giải thích, không có bong bóng `illus` bên trong cảnh (build báo lỗi → xoá `illus` ở đoạn đó), không chạm màn ôn. Hai cảnh không được chồng nhau. Camera tự về khung rộng khi có cảnh.
+- Xem thử nhanh trên một đoạn thật, không cần build cả tập: `node tools/story-preview.mjs intro|guitar|map --snapshot|--preview` (gốc repo; mẫu ở đầu file — 2 phút đầu tập 17 là chuẩn mật độ). Snapshot mỗi cảnh ít nhất một lần để chắc không tràn/đè chữ.
+- Hình mới dùng lại được (nơi chốn, đồ cầm tay, beat mới) thêm vào `cozy-ep01/tools/story.mjs` để tập sau dùng tiếp.
+
 **Hiệu ứng âm thanh**: build tự tạo `assets/sfx.mp3` (tools/sfx.mjs, âm thanh tự tổng hợp — không có nhạc nền) và đặt dưới giọng nói: bảng hiện/đóng (giấy · bảng phấn rơi · sổ trượt), từng chi tiết hiện ra (pop, sột soạt, đóng dấu, gạch bút), đáp án đúng « ding » / sai « buzz », thẻ từ vựng, bong bóng minh hoạ, màn ôn tập. Không cần làm gì thêm. Tắt: `"sfx": false` trong `episode.json`; to/nhỏ: `"sfxVolume": 0.35` (mặc định). Nghe cả bộ: `board-preview/sfx-samples.mp3` sau khi chạy `tools/board-preview.mjs`.
+
+**Camera (cảnh ngồi)**: build tự lên lịch máy quay — khung rộng ↔ hai người, cận sát đầu + vai người nói khi đổi lượt (lượt ≥ 7 s), luôn rộng khi có bảng / màn ôn, không cận khi có thẻ từ, bong bóng hay biểu cảm người nghe (tools/staging.mjs `sit.plan`). Không cần làm gì thêm. Tắt: `"camera": false` trong `episode.json`.
+
+**Outro kênh**: build tự thêm outro 20 s sau màn ôn (« Merci d'avoir écouté ! », 2 ô video + logo đúng chỗ đặt phần tử Màn hình kết thúc của YouTube: 2 video trái/phải, nút Đăng ký trên logo; hai nhân vật vẫy tay ở góc). Mã ở `tools/bookends.mjs`. Không có intro (chủ kênh bỏ). Tắt outro: `"outro": false` trong `episode.json`.
 
 **Chế độ + bối cảnh + trang phục + đồ trên bàn** → `work/setup.json` `{ "scene": "…", "lea": "…", "mat": "…", "decor": ["…", "…"] }` — **chọn ngẫu nhiên**, `new-episode.mjs` đã tự chạy:
 ```bash
