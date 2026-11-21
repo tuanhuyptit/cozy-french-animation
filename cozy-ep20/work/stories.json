@@ -1,0 +1,820 @@
+[
+ {
+  "c": [
+   1,
+   4
+  ],
+  "place": "papier",
+  "beats": [
+   {
+    "c": 1,
+    "w": "Bienvenue",
+    "do": "title",
+    "text": "The Cozy French",
+    "sub": "notre petit coin chaleureux",
+    "y": 300,
+    "mark": "Cozy"
+   },
+   {
+    "c": 4,
+    "w": "conversations",
+    "do": "icons",
+    "y": 620,
+    "items": [
+     {
+      "icon": "amis",
+      "label": "des conversations"
+     },
+     {
+      "icon": "cafe",
+      "label": "de tous les jours"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "c": [
+   8,
+   10
+  ],
+  "place": "papier",
+  "beats": [
+   {
+    "c": 8,
+    "w": "bus",
+    "do": "draw",
+    "icon": "voiture",
+    "x": 480,
+    "y": 380,
+    "size": 300,
+    "label": "dans le bus"
+   },
+   {
+    "c": 9,
+    "w": "maison",
+    "do": "draw",
+    "icon": "x:home",
+    "x": 960,
+    "y": 380,
+    "size": 220,
+    "label": "à la maison"
+   },
+   {
+    "c": 9,
+    "w": "promenade",
+    "do": "draw",
+    "icon": "nature",
+    "x": 1440,
+    "y": 380,
+    "size": 300,
+    "label": "en promenade"
+   },
+   {
+    "c": 10,
+    "w": "faites",
+    "do": "write",
+    "text": "Faites comme chez vous…",
+    "x": 960,
+    "y": 660,
+    "size": 84,
+    "color": "#b8552a"
+   }
+  ]
+ },
+ {
+  "c": [
+   17,
+   19
+  ],
+  "place": "papier",
+  "beats": [
+   {
+    "c": 17,
+    "do": "list",
+    "title": "Ce matin…",
+    "x": 400,
+    "y": 400,
+    "items": [
+     {
+      "text": "café renversé",
+      "icon": "cafe",
+      "c": 17,
+      "w": "renversé"
+     },
+     {
+      "text": "tram raté",
+      "icon": "voiture",
+      "c": 18,
+      "w": "raté"
+     },
+     {
+      "text": "parapluie oublié",
+      "icon": "pluie",
+      "c": 18,
+      "w": "oublié"
+     }
+    ]
+   },
+   {
+    "c": 19,
+    "w": "magnifique",
+    "do": "stamp",
+    "text": "Magnifique !",
+    "x": 1450,
+    "y": 380,
+    "color": "#b8552a"
+   },
+   {
+    "c": 19,
+    "w": "magnifique",
+    "do": "draw",
+    "icon": "x:e-cry",
+    "x": 1450,
+    "y": 620,
+    "size": 150
+   }
+  ]
+ },
+ {
+  "c": [
+   22,
+   27
+  ],
+  "place": "rue",
+  "cast": [
+   {
+    "id": "m",
+    "who": "mat",
+    "x": 1250
+   }
+  ],
+  "beats": [
+   {
+    "c": 22,
+    "w": "raté",
+    "do": "face",
+    "on": "m",
+    "face": "flat"
+   },
+   {
+    "c": 23,
+    "w": "boulangerie",
+    "do": "circle",
+    "x": 240,
+    "y": 460,
+    "rx": 230,
+    "ry": 70
+   },
+   {
+    "c": 24,
+    "w": "offert",
+    "do": "face",
+    "on": "m",
+    "face": "happy"
+   },
+   {
+    "c": 24,
+    "w": "biscuit",
+    "do": "say",
+    "on": "m",
+    "text": "Un petit biscuit !",
+    "until": {
+     "c": 26
+    }
+   },
+   {
+    "c": 26,
+    "w": "voisin",
+    "do": "face",
+    "on": "m",
+    "face": "star"
+   },
+   {
+    "c": 26,
+    "w": "voisin",
+    "do": "burst",
+    "on": "m",
+    "icons": [
+     "♥",
+     "★",
+     "♥"
+    ]
+   }
+  ]
+ },
+ {
+  "c": [
+   37,
+   46
+  ],
+  "place": "papier",
+  "beats": [
+   {
+    "c": 37,
+    "w": "Power",
+    "do": "title",
+    "text": "The Power of Positivity",
+    "sub": "le pouvoir de la pensée positive",
+    "y": 240,
+    "id": "t",
+    "mark": "Positivity"
+   },
+   {
+    "c": 40,
+    "w": "sourire",
+    "do": "text",
+    "text": "sourire quand le tram part sans nous ?",
+    "y": 500,
+    "size": 56,
+    "id": "q"
+   },
+   {
+    "c": 42,
+    "w": "Pas",
+    "do": "stamp",
+    "text": "Pas du tout !",
+    "x": 960,
+    "y": 690,
+    "id": "s"
+   },
+   {
+    "c": 43,
+    "w": "attitude",
+    "do": "hide",
+    "ids": [
+     "q",
+     "s"
+    ]
+   },
+   {
+    "c": 44,
+    "w": "reconnaître",
+    "do": "icons",
+    "y": 560,
+    "items": [
+     {
+      "icon": "b:search",
+      "label": "les difficultés",
+      "c": 44,
+      "w": "difficultés"
+     },
+     {
+      "icon": "b:heart",
+      "label": "ce qui peut aider",
+      "c": 45,
+      "w": "aider"
+     },
+     {
+      "icon": "soleil",
+      "label": "l'espoir",
+      "c": 46,
+      "w": "espoir"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "c": [
+   48,
+   50
+  ],
+  "place": "papier",
+  "beats": [
+   {
+    "c": 48,
+    "w": "positif",
+    "do": "draw",
+    "icon": "x:e-joy",
+    "x": 380,
+    "y": 380,
+    "size": 200,
+    "label": "joyeux tout le temps ?"
+   },
+   {
+    "c": 49,
+    "w": "temps",
+    "do": "battery",
+    "from": 100,
+    "to": 5,
+    "d": 2.6,
+    "x": 1500,
+    "y": 280,
+    "label": "mon énergie"
+   },
+   {
+    "c": 50,
+    "w": "lundi",
+    "do": "calendar",
+    "labels": [
+     "LUNDI"
+    ],
+    "d": 0.6,
+    "x": 1700,
+    "y": 560
+   },
+   {
+    "c": 50,
+    "w": "forfait",
+    "do": "stamp",
+    "text": "Forfait !",
+    "x": 400,
+    "y": 640,
+    "color": "#9a4a3a"
+   }
+  ]
+ },
+ {
+  "c": [
+   52,
+   59
+  ],
+  "place": "papier",
+  "beats": [
+   {
+    "c": 52,
+    "do": "list",
+    "title": "Aujourd'hui…",
+    "x": 760,
+    "y": 380,
+    "items": [
+     {
+      "text": "nos pensées",
+      "icon": "b:question",
+      "c": 52,
+      "w": "pensées"
+     },
+     {
+      "text": "nos petits moments heureux",
+      "icon": "b:heart",
+      "c": 53,
+      "w": "heureux"
+     },
+     {
+      "text": "nos objectifs",
+      "icon": "x:target",
+      "c": 54,
+      "w": "objectifs"
+     },
+     {
+      "text": "les périodes moins faciles",
+      "icon": "pluie",
+      "c": 55,
+      "w": "périodes"
+     }
+    ]
+   },
+   {
+    "c": 56,
+    "w": "histoires",
+    "do": "note",
+    "text": "des histoires, des plaisanteries…",
+    "x": 1450,
+    "y": 300
+   },
+   {
+    "c": 59,
+    "w": "expressions",
+    "do": "stamp",
+    "text": "expressions utiles",
+    "x": 1450,
+    "y": 600,
+    "color": "#6f8e6b"
+   }
+  ]
+ },
+ {
+  "c": [
+   146,
+   153
+  ],
+  "place": "chambre",
+  "cast": [
+   {
+    "id": "m",
+    "who": "mat",
+    "x": 320
+   }
+  ],
+  "beats": [
+   {
+    "c": 146,
+    "w": "téléphone",
+    "do": "hold",
+    "on": "m",
+    "prop": "phone"
+   },
+   {
+    "c": 149,
+    "w": "messages",
+    "do": "icons",
+    "y": 260,
+    "items": [
+     {
+      "icon": "x:mail",
+      "label": "les messages",
+      "c": 149,
+      "w": "messages"
+     },
+     {
+      "icon": "x:letter",
+      "label": "les nouvelles",
+      "c": 149,
+      "w": "nouvelles"
+     },
+     {
+      "icon": "b:heart",
+      "label": "des vies parfaites",
+      "c": 151,
+      "w": "parfaites"
+     }
+    ]
+   },
+   {
+    "c": 152,
+    "w": "minutes",
+    "do": "battery",
+    "from": 80,
+    "to": 8,
+    "d": 2.2,
+    "x": 1000,
+    "y": 540,
+    "label": "mon énergie"
+   },
+   {
+    "c": 153,
+    "w": "fatigué",
+    "do": "face",
+    "on": "m",
+    "face": "tired"
+   },
+   {
+    "c": 153,
+    "w": "fatigué",
+    "do": "droop",
+    "on": "m"
+   }
+  ]
+ },
+ {
+  "c": [
+   205,
+   209
+  ],
+  "place": "chambre",
+  "cast": [
+   {
+    "id": "l",
+    "who": "lea",
+    "x": 640
+   }
+  ],
+  "beats": [
+   {
+    "c": 205,
+    "w": "soir",
+    "do": "sky",
+    "d": 2.5,
+    "n": 2
+   },
+   {
+    "c": 205,
+    "w": "tête",
+    "do": "face",
+    "on": "l",
+    "face": "flat"
+   },
+   {
+    "c": 207,
+    "w": "oublié",
+    "do": "dream",
+    "icons": [
+     "travail",
+     "b:question"
+    ],
+    "label": "J'ai oublié quelque chose ?",
+    "x": 1150,
+    "y": 280
+   },
+   {
+    "c": 208,
+    "w": "mécontent",
+    "do": "face",
+    "on": "l",
+    "face": "sad"
+   },
+   {
+    "c": 209,
+    "w": "erreur",
+    "do": "stamp",
+    "text": "Une erreur ?",
+    "x": 1300,
+    "y": 560,
+    "color": "#9a4a3a"
+   }
+  ]
+ },
+ {
+  "c": [
+   295,
+   304
+  ],
+  "place": "papier",
+  "beats": [
+   {
+    "c": 295,
+    "w": "dessiner",
+    "do": "draw",
+    "icon": "x:pencil",
+    "x": 420,
+    "y": 380,
+    "size": 200,
+    "label": "apprendre à dessiner"
+   },
+   {
+    "c": 296,
+    "w": "incroyables",
+    "do": "icons",
+    "y": 300,
+    "items": [
+     {
+      "icon": "★",
+      "label": "incroyable"
+     },
+     {
+      "icon": "★",
+      "label": "parfait"
+     }
+    ]
+   },
+   {
+    "c": 299,
+    "w": "arrêter",
+    "do": "draw",
+    "icon": "x:e-sad",
+    "x": 1500,
+    "y": 380,
+    "size": 160
+   },
+   {
+    "c": 303,
+    "w": "chien",
+    "do": "write",
+    "text": "mon premier chien…",
+    "x": 520,
+    "y": 560,
+    "size": 76,
+    "color": "#3a2e28"
+   },
+   {
+    "c": 304,
+    "w": "pomme",
+    "do": "stamp",
+    "text": "une pomme de terre ?",
+    "x": 1350,
+    "y": 640,
+    "color": "#b8552a"
+   }
+  ]
+ },
+ {
+  "c": [
+   353,
+   355
+  ],
+  "place": "papier",
+  "beats": [
+   {
+    "c": 353,
+    "w": "Dimanche",
+    "do": "vs",
+    "left": {
+     "icon": "b:calendar",
+     "label": "Dimanche soir : une nouvelle vie !"
+    },
+    "right": {
+     "icon": "x:alarm",
+     "label": "Lundi matin : négocier avec le réveil",
+     "c": 355,
+     "w": "Lundi"
+    },
+    "y": 420
+   }
+  ]
+ },
+ {
+  "c": [
+   437,
+   441
+  ],
+  "place": "papier",
+  "beats": [
+   {
+    "c": 437,
+    "w": "exposition",
+    "do": "title",
+    "text": "Petite exposition de photos",
+    "y": 260,
+    "mark": "photos"
+   },
+   {
+    "c": 439,
+    "do": "list",
+    "x": 760,
+    "y": 520,
+    "items": [
+     {
+      "text": "un lieu",
+      "icon": "x:home",
+      "c": 439,
+      "w": "lieu"
+     },
+     {
+      "text": "une sélection",
+      "icon": "b:search",
+      "c": 440,
+      "w": "sélection"
+     }
+    ]
+   },
+   {
+    "c": 441,
+    "w": "annulé",
+    "do": "stamp",
+    "text": "ANNULÉ",
+    "x": 1350,
+    "y": 520,
+    "color": "#9a4a3a"
+   }
+  ]
+ },
+ {
+  "c": [
+   463,
+   467
+  ],
+  "place": "rue",
+  "cast": [
+   {
+    "id": "m",
+    "who": "mat",
+    "x": 300,
+    "face": "flat"
+   }
+  ],
+  "beats": [
+   {
+    "c": 463,
+    "w": "marché",
+    "do": "walk",
+    "on": "m",
+    "to": 900,
+    "d": 3
+   },
+   {
+    "c": 465,
+    "w": "lumière",
+    "do": "face",
+    "on": "m",
+    "face": "wow"
+   },
+   {
+    "c": 465,
+    "w": "lumière",
+    "do": "draw",
+    "icon": "soleil",
+    "x": 1500,
+    "y": 260,
+    "size": 260
+   },
+   {
+    "c": 467,
+    "w": "repris",
+    "do": "face",
+    "on": "m",
+    "face": "happy"
+   },
+   {
+    "c": 467,
+    "w": "appareil",
+    "do": "burst",
+    "on": "m"
+   }
+  ]
+ },
+ {
+  "c": [
+   523,
+   525
+  ],
+  "place": "cuisine",
+  "beats": [
+   {
+    "c": 524,
+    "w": "gâteau",
+    "do": "draw",
+    "icon": "repas",
+    "x": 420,
+    "y": 360,
+    "size": 300,
+    "label": "un gâteau tout seul"
+   },
+   {
+    "c": 525,
+    "w": "sel",
+    "do": "vs",
+    "left": {
+     "icon": "S",
+     "label": "le sel"
+    },
+    "right": {
+     "icon": "S",
+     "label": "le sucre",
+     "c": 525,
+     "w": "sucre"
+    },
+    "mid": "?",
+    "x": 1540,
+    "y": 420
+   }
+  ]
+ },
+ {
+  "c": [
+   562,
+   564
+  ],
+  "place": "papier",
+  "beats": [
+   {
+    "c": 562,
+    "do": "list",
+    "title": "Une chose qui s'est bien passée",
+    "x": 960,
+    "y": 380,
+    "items": [
+     {
+      "text": "une bonne conversation",
+      "icon": "amis",
+      "c": 562,
+      "w": "conversation"
+     },
+     {
+      "text": "un repas que j'ai aimé",
+      "icon": "repas",
+      "c": 563,
+      "w": "repas"
+     },
+     {
+      "text": "une tâche enfin terminée",
+      "icon": "x:yes",
+      "c": 564,
+      "w": "tâche"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "c": [
+   750,
+   751
+  ],
+  "place": "papier",
+  "beats": [
+   {
+    "c": 750,
+    "w": "tasse",
+    "do": "draw",
+    "icon": "cafe",
+    "x": 620,
+    "y": 400,
+    "size": 320,
+    "label": "une tasse de café"
+   },
+   {
+    "c": 750,
+    "w": "humeur",
+    "do": "arrow",
+    "from": [
+     820,
+     400
+    ],
+    "to": [
+     1180,
+     400
+    ],
+    "bend": -0.2
+   },
+   {
+    "c": 751,
+    "w": "douze",
+    "do": "clock",
+    "d": 2,
+    "x": 1400,
+    "y": 400
+   }
+  ]
+ }
+]

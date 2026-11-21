@@ -1,0 +1,792 @@
+   0:00    Léa     Bonjour à toutes et à tous !   | Hello everyone!
+   0:01    Léa     Bienvenue dans The Cozy French,   | Welcome to The Cozy French,
+   0:04    Léa     notre petit coin chaleureux   | our cozy little corner
+   0:06    Léa     pour apprendre le français   | to learn French
+   0:07    Léa     grâce à des conversations de tous les jours.   | through everyday conversations.
+   0:10    Léa     Je suis Léa, et je suis ravie de vous retrouver.   | I'm Léa, and I'm delighted to see you again.
+   0:14    Mathieu Et moi, c'est Mathieu !   | And I'm Mathieu!
+   0:15    Mathieu Bonjour, chers amis !   | Hello, dear friends!
+   0:17    Mathieu Que vous soyez dans le bus,   | Whether you're on the bus,
+   0:18    Mathieu à la maison ou en promenade,   | at home or out for a walk,
+   0:20    Mathieu faites comme chez vous.   | make yourselves at home.
+   0:22    Mathieu Aujourd'hui, j'espère que vous avez gardé   | Today, I hope you've kept
+   0:24    Mathieu une petite place   | a little room
+   0:25    Mathieu pour une conversation qui fait du bien.   | for a conversation that feels good.
+   0:28    Léa     Mathieu, tu as l'air particulièrement content.   | Mathieu, you look especially happy.
+   0:31    Léa     Une bonne nouvelle ?   | Good news?
+   0:33    Mathieu Pas exactement.   | Not exactly.
+   0:34  ★ Mathieu Ce matin, j'ai renversé mon café sur ma chemise,   | This morning, I spilled coffee on my shirt,
+   0:38    Mathieu j'ai raté mon tram et j'ai oublié mon parapluie.   | missed my tram and forgot my umbrella.
+   0:42    Mathieu Une matinée absolument magnifique !   | An absolutely wonderful morning!
+   0:45    Léa     Attends... Tu viens de décrire trois problèmes.   | Wait... You just described three problems.
+   0:48    Léa     Pourquoi souris-tu ?   | Why are you smiling?
+   0:50    Mathieu Parce qu'après avoir raté le tram,   | Because after missing the tram,
+   0:52    Mathieu je suis entré dans une boulangerie.   | I went into a bakery.
+   0:54    Mathieu La boulangère m'a offert un petit biscuit   | The baker gave me a little cookie
+   0:57    Mathieu avec mon café.   | with my coffee.
+   0:58    Mathieu Et puis, j'ai croisé un voisin   | And then I ran into a neighbor
+   1:00    Mathieu que je n'avais pas vu depuis longtemps.   | I hadn't seen in a long time.
+   1:02    Léa     Donc ta matinée n'a pas commencé comme prévu,   | So your morning didn't start as planned,
+   1:05    Léa     mais elle t'a réservé   | but it had
+   1:07    Léa     quelques surprises agréables.   | a few nice surprises in store for you.
+   1:09    Mathieu Voilà. Je ne vais pas prétendre   | That's it. I won't pretend
+   1:11    Mathieu que j'étais ravi de ma chemise tachée.   | I was thrilled about my stained shirt.
+   1:14    Mathieu Mais j'ai décidé de ne pas laisser   | But I decided not to let
+   1:16    Mathieu cet accident gâcher toute la journée.   | that accident ruin the whole day.
+   1:19    Léa     Tu sais, c'est une excellente introduction   | You know, that's a great introduction
+   1:22    Léa     à notre sujet :   | to our topic:
+   1:23    Léa     « The Power of Positivity »,   | "The Power of Positivity",
+   1:25    Léa     le pouvoir de la pensée positive.   | the power of positive thinking.
+   1:28    Mathieu Ah ! Donc aujourd'hui,   | Ah! So today,
+   1:30    Mathieu on va apprendre à sourire   | we're going to learn to smile
+   1:32    Mathieu quand le tram part sans nous ?   | when the tram leaves without us?
+   1:33    Léa     Pas du tout !   | Not at all!
+   1:34    Léa     Nous allons parler d'une attitude plus réaliste :   | We'll talk about a more realistic attitude:
+   1:37    Léa     reconnaître les difficultés,   | recognizing difficulties,
+   1:39    Léa     sans oublier ce qui peut encore nous aider,   | without forgetting what can still help us,
+   1:42    Léa     nous surprendre ou nous donner de l'espoir.   | surprise us or give us hope.
+   1:45    Mathieu J'aime cette définition.   | I like that definition.
+   1:47    Mathieu Parce que si être positif   | Because if being positive
+   1:50    Mathieu signifie être joyeux tout le temps,   | means being cheerful all the time,
+   1:52  ★ Mathieu je déclare forfait dès le lundi matin.   | I give up on Monday morning.
+   1:54    Léa     Et personne ne te demande cela.   | And nobody's asking you to.
+   1:57    Léa     Nous allons discuter de nos pensées,   | We'll discuss our thoughts,
+   1:59    Léa     de nos petits moments heureux,   | our little happy moments,
+   2:01    Léa     de nos objectifs et de la manière   | our goals and the way
+   2:03    Léa     de traverser les périodes moins faciles.   | to get through harder times.
+   2:06    Mathieu Avec nos histoires habituelles,   | With our usual stories,
+   2:08    Mathieu quelques plaisanteries et du français accessible.   | a few jokes and accessible French.
+   2:12    Mathieu Vers la fin, nous reviendrons aussi   | Near the end, we'll also come back
+   2:14    Mathieu sur plusieurs expressions utiles.   | to several useful expressions.
+   2:16    Léa     Avant de commencer,   | Before we start,
+   2:18    Léa     dites-nous dans les commentaires :   | tell us in the comments:
+   2:20    Léa     quelle petite chose   | what little thing
+   2:21    Léa     vous a fait sourire récemment ?   | made you smile recently?
+   2:23    Léa     Une phrase simple en français suffit.   | One simple sentence in French is enough.
+   2:26    Mathieu Et si vous aimez ces conversations,   | And if you like these conversations,
+   2:28    Mathieu pensez à vous abonner à The Cozy French.   | remember to subscribe to The Cozy French.
+   2:31    Mathieu Allez, Léa, je suis prêt.   | Come on, Léa, I'm ready.
+   2:34    Mathieu Enfin, presque.   | Well, almost.
+   2:35    Mathieu Il me reste un morceau de biscuit.   | I still have a piece of cookie left.
+   2:38    Léa     Mathieu ! Termine ton biscuit   | Mathieu! Finish your cookie
+   2:40    Léa     et raconte-moi quelque chose.   | and tell me something.
+   2:43    Léa     Quand ton café s'est renversé,   | When your coffee spilled,
+   2:45    Léa     quelle a été ta première pensée ?   | what was your first thought?
+   2:47    Mathieu « Évidemment ! Ça commence mal,   | "Of course! It's starting badly,
+   2:49    Mathieu donc toute la journée sera mauvaise. »   | so the whole day will be bad."
+   2:52    Mathieu C'était automatique.   | It was automatic.
+   2:54    Léa     Et c'est intéressant,   | And that's interesting,
+   2:55    Léa     parce qu'un événement désagréable   | because one unpleasant event
+   2:57    Léa     peut parfois devenir, dans notre tête,   | can sometimes become, in our heads,
+   3:00    Léa     une conclusion sur tout le reste.   | a conclusion about everything else.
+   3:02    Mathieu Exactement. Je n'avais encore vécu   | Exactly. I'd only lived
+   3:05    Mathieu que quinze minutes de ma journée,   | fifteen minutes of my day,
+   3:07    Mathieu mais mon esprit avait déjà décidé de la suite.   | but my mind had already decided the rest.
+   3:10    Léa     Cela m'arrive aussi.   | That happens to me too.
+   3:12    Léa     Quand une chose se passe mal,   | When one thing goes wrong,
+   3:14    Léa     je remarque plus facilement   | I notice more easily
+   3:16    Léa     les autres petits problèmes.   | the other little problems.
+   3:18    Léa     Comme si mon attention cherchait   | As if my attention were looking for
+   3:19    Léa     des preuves que j'ai raison de m'inquiéter.   | proof that I'm right to worry.
+   3:22    Mathieu Alors comment fais-tu   | So how do you
+   3:23    Mathieu pour ne pas tomber dans ce piège ?   | avoid falling into that trap?
+   3:25    Léa     J'essaie de décrire la situation avec précision.   | I try to describe the situation precisely.
+   3:29    Léa     Au lieu de dire « Tout va mal »,   | Instead of saying "Everything's going wrong",
+   3:31    Léa     je dis « Ce matin, j'ai eu un contretemps. »   | I say "This morning, I had a setback."
+   3:35 ◆  Mathieu « Un contretemps » ?   | "A setback"?
+   3:36    Mathieu C'est un mot que j'aime bien.   | That's a word I really like.
+   3:38  ★ Léa     Un contretemps, c'est un événement imprévu   | A setback is an unexpected event
+   3:41    Léa     qui perturbe nos projets.   | that disrupts our plans.
+   3:43    Léa     Par exemple : « J'ai eu un contretemps   | For example: "Something came up
+   3:46    Léa     et je serai un peu en retard. »   | and I'll be a bit late."
+   3:47    Mathieu C'est beaucoup moins dramatique   | That's much less dramatic
+   3:50    Mathieu que « Ma vie est une catastrophe   | than "My life is a disaster
+   3:52    Mathieu parce que j'ai raté le tram ».   | because I missed the tram."
+   3:54    Léa     Exactement.   | Exactly.
+   3:55    Léa     Les mots qu'on choisit   | The words we choose
+   3:56    Léa     ne suppriment pas le problème,   | don't get rid of the problem,
+   3:58    Léa     mais ils peuvent nous aider   | but they can help us
+   4:00    Léa     à le regarder plus justement.   | look at it more fairly.
+   4:02    Mathieu Tu sais, j'ai un ami   | You know, I have a friend
+   4:03    Mathieu qui a une expression amusante.   | who has a funny expression.
+   4:06    Mathieu Quand une journée commence mal, il dit :   | When a day starts badly, he says:
+   4:09    Mathieu « Bon, ce n'est pas le scénario   | "Well, this isn't the script
+   4:10    Mathieu que j'avais commandé. »   | I ordered."
+   4:12    Léa     J'adore ! Il reconnaît   | I love it! He admits
+   4:14    Léa     que quelque chose ne va pas,   | that something's wrong,
+   4:15    Léa     sans en faire une tragédie.   | without turning it into a tragedy.
+   4:17    Mathieu Oui. Et parfois,   | Yes. And sometimes,
+   4:19    Mathieu cela suffit pour respirer   | that's enough to breathe
+   4:21    Mathieu et chercher une solution.   | and look for a solution.
+   4:24    Mathieu Une chemise tachée, ça se change.   | A stained shirt can be changed.
+   4:26    Mathieu Un tram raté, il y en aura un autre.   | A missed tram? There'll be another one.
+   4:29    Léa     Bien sûr, ce raisonnement   | Of course, this reasoning
+   4:31    Léa     ne fonctionne pas aussi simplement   | doesn't work so simply
+   4:33    Léa     pour les grandes difficultés.   | for big difficulties.
+   4:35    Léa     Une perte, une maladie   | A loss, an illness
+   4:37    Léa     ou une situation financière compliquée   | or a difficult financial situation
+   4:40    Léa     demandent autre chose   | call for something other
+   4:41    Léa     qu'une petite phrase amusante.   | than a funny little phrase.
+   4:43    Mathieu C'est important de le dire.   | It's important to say that.
+   4:45    Mathieu On peut être positif   | You can be positive
+   4:47    Mathieu sans minimiser ce que quelqu'un traverse.   | without minimizing what someone's going through.
+   4:50    Léa     Exactement.   | Exactly.
+   4:51  ★ Léa     Et pour les petites contrariétés quotidiennes,   | And for small everyday annoyances,
+   4:54    Léa     changer légèrement de perspective   | slightly changing perspective
+   4:56    Léa     peut déjà faire une différence.   | can already make a difference.
+   4:59    Mathieu Comme regarder la fenêtre   | Like looking at the window
+   5:00    Mathieu au lieu de regarder seulement la tache de café ?   | instead of only looking at the coffee stain?
+   5:03    Léa     À condition de nettoyer la tache, quand même !   | As long as you clean the stain, though!
+   5:06    Mathieu Tu as raison.   | You're right.
+   5:07    Mathieu La pensée positive   | Positive thinking
+   5:09    Mathieu ne fait pas disparaître le café.   | doesn't make the coffee disappear.
+   5:12    Léa     Non, mais elle peut t'aider à ne pas donner   | No, but it can help you not give
+   5:15    Léa     à cet incident toute ton énergie.   | that incident all your energy.
+   5:17    Léa     Et justement, que fais-tu quand tu te réveilles   | And speaking of which, what do you do when you wake up
+   5:20    Léa     avec beaucoup de pensées négatives ?   | with lots of negative thoughts?
+   5:23    Mathieu En général, je prends mon téléphone.   | Usually, I pick up my phone.
+   5:25    Mathieu Très mauvaise idée, je sais.   | Very bad idea, I know.
+   5:28    Léa     Pourquoi ?   | Why?
+   5:29    Mathieu Je regarde les messages, puis les nouvelles,   | I check messages, then the news,
+   5:32    Mathieu puis des photos de personnes   | then photos of people
+   5:34    Mathieu qui semblent avoir des vies absolument parfaites.   | who seem to have absolutely perfect lives.
+   5:37    Mathieu Dix minutes plus tard,   | Ten minutes later,
+   5:39    Mathieu je me sens encore plus fatigué.   | I feel even more tired.
+   5:41    Léa     Tu as l'impression de commencer ta journée   | It's like starting your day
+   5:43    Léa     en laissant les autres choisir   | by letting others choose
+   5:45    Léa     ce qui occupera ton esprit.   | what will fill your mind.
+   5:47    Mathieu Exactement.   | Exactly.
+   5:49    Mathieu Alors j'ai essayé quelque chose de nouveau :   | So I tried something new:
+   5:52    Mathieu les dix premières minutes du matin,   | for the first ten minutes of the morning,
+   5:54    Mathieu je laisse mon téléphone de côté.   | I leave my phone aside.
+   5:56    Léa     Et tu fais quoi à la place ?   | And what do you do instead?
+   5:59    Mathieu J'ouvre la fenêtre,   | I open the window,
+   6:00    Mathieu je prépare mon petit-déjeuner,   | I make my breakfast,
+   6:03    Mathieu et je choisis une musique agréable.   | and I choose some nice music.
+   6:05    Mathieu Pas un programme héroïque.   | Not a heroic program.
+   6:08    Mathieu Juste un début de journée plus doux.   | Just a gentler start to the day.
+   6:11    Léa     Est-ce que cela change ton humeur ?   | Does it change your mood?
+   6:14    Mathieu Pas à chaque fois.   | Not every time.
+   6:15    Mathieu Certains matins, je suis encore préoccupé.   | Some mornings, I'm still worried.
+   6:18    Mathieu Mais au moins,   | But at least,
+   6:18    Mathieu je ne commence pas en ajoutant vingt informations   | I don't start by adding twenty pieces of news
+   6:21    Mathieu à une tête déjà bien remplie.   | to an already very full head.
+   6:24    Léa     C'est une approche intéressante.   | That's an interesting approach.
+   6:26    Léa     Être positif,   | Being positive
+   6:27    Léa     ce n'est pas contrôler toutes ses émotions.   | isn't controlling all your emotions.
+   6:30    Léa     C'est parfois choisir   | Sometimes it's choosing
+   6:32    Léa     ce à quoi on donne de l'attention.   | what you give your attention to.
+   6:34    Mathieu Et parfois, le choix le plus positif,   | And sometimes, the most positive choice
+   6:37    Mathieu c'est peut-être de prendre un vrai petit-déjeuner   | might be eating a real breakfast
+   6:40    Mathieu au lieu de répondre immédiatement   | instead of immediately answering
+   6:43    Mathieu à trois courriels.   | three emails.
+   6:44    Léa     Tout à fait.   | Absolutely.
+   6:45    Léa     Mais je voudrais ajouter une nuance :   | But I'd like to add a nuance:
+   6:48    Léa     on n'a pas besoin de transformer chaque matin   | you don't need to turn every morning
+   6:51    Léa     en routine parfaite pour aller bien.   | into a perfect routine to feel okay.
+   6:53    Mathieu Heureusement.   | Thank goodness.
+   6:54    Mathieu Moi, dès qu'une routine   | As soon as a routine
+   6:56    Mathieu comporte plus de quatre étapes,   | has more than four steps,
+   6:58  ★ Mathieu j'ai besoin d'un mode d'emploi !   | I need an instruction manual!
+   7:00    Léa     Alors gardons les choses simples.   | Then let's keep things simple.
+   7:02    Léa     Parfois, cinq minutes de calme suffisent.   | Sometimes, five calm minutes are enough.
+   7:06    Léa     Et parfois, on n'a même pas ces cinq minutes.   | And sometimes, we don't even have those five minutes.
+   7:09    Léa     Ce n'est pas un échec.   | That's not a failure.
+   7:11    Mathieu D'ailleurs, en parlant de pensées négatives,   | By the way, speaking of negative thoughts,
+   7:14    Mathieu tu m'as raconté récemment   | you told me recently
+   7:15    Mathieu que tu avais eu une période assez stressante.   | you'd had a pretty stressful period.
+   7:19    Léa     Oui. Il y a quelques mois,   | Yes. A few months ago,
+   7:20    Léa     je travaillais sur un projet   | I was working on a project
+   7:22    Léa     que je trouvais important.   | that I found important.
+   7:24    Léa     J'avais beaucoup de responsabilités   | I had a lot of responsibilities
+   7:27    Léa     et l'impression de ne jamais en faire assez.   | and felt I was never doing enough.
+   7:30    Mathieu Tu rentrais chez toi   | You'd go home
+   7:31    Mathieu et tu continuais à penser au travail ?   | and keep thinking about work?
+   7:34    Léa     Exactement.   | Exactly.
+   7:35    Léa     Le soir, je repassais dans ma tête   | In the evening, I'd replay in my head
+   7:38    Léa     les conversations de la journée.   | the day's conversations.
+   7:40    Léa     Je me demandais si j'avais oublié quelque chose,   | I wondered if I'd forgotten something,
+   7:43    Léa     si un collègue était mécontent,   | if a colleague was unhappy,
+   7:45    Léa     si j'allais faire une erreur.   | if I was going to make a mistake.
+   7:47    Mathieu Ah, le cerveau qui organise une réunion   | Ah, the brain holding a meeting
+   7:50    Mathieu alors que tout le monde a quitté le bureau.   | when everyone has left the office.
+   7:53    Léa     C'est ça.   | That's it.
+   7:54    Léa     Un soir, j'ai pris une feuille de papier   | One evening, I took a sheet of paper
+   7:56    Léa     et j'ai tracé deux colonnes.   | and drew two columns.
+   7:59    Mathieu Une feuille de papier ?   | A sheet of paper?
+   8:00    Mathieu Pas une nouvelle application ?   | Not a new app?
+   8:02    Léa     Non, Mathieu.   | No, Mathieu.
+   8:03    Léa     Parfois, le papier fonctionne très bien !   | Sometimes, paper works very well!
+   8:07    Mathieu D'accord, je t'écoute. Qu'as-tu écrit ?   | Okay, I'm listening. What did you write?
+   8:10 ◆  Léa     Dans la première colonne,   | In the first column,
+   8:12    Léa     j'ai noté ce sur quoi je pouvais agir.   | I wrote down what I could act on.
+   8:15    Léa     Dans la deuxième, ce qui ne dépendait pas de moi.   | In the second, what didn't depend on me.
+   8:19    Mathieu Par exemple ?   | For example?
+   8:20    Léa     Je pouvais préparer ma réunion,   | I could prepare my meeting,
+   8:22    Léa     demander des précisions et respecter mes délais.   | ask for details and meet my deadlines.
+   8:26    Léa     En revanche, je ne pouvais pas deviner   | On the other hand, I couldn't guess
+   8:28    Léa     ce que chacun pensait   | what everyone was thinking
+   8:30    Léa     ni empêcher tous les imprévus.   | or prevent every surprise.
+   8:32    Mathieu Et voir cette différence sur le papier   | And seeing that difference on paper
+   8:35    Mathieu t'a aidée ?   | helped you?
+   8:36    Léa     Oui. Cela n'a pas supprimé mes inquiétudes,   | Yes. It didn't erase my worries,
+   8:39    Léa     mais j'ai compris   | but I understood
+   8:40    Léa     que je dépensais beaucoup d'énergie   | that I was spending a lot of energy
+   8:42    Léa     sur des questions sans réponse.   | on questions with no answer.
+   8:45    Mathieu Donc tu as déplacé ton attention   | So you shifted your attention
+   8:47    Mathieu vers les actions possibles.   | toward possible actions.
+   8:49    Léa     Exactement. Le lendemain,   | Exactly. The next day,
+   8:52    Léa     j'ai posé une question   | I asked a question
+   8:53    Léa     que j'évitais depuis plusieurs jours.   | I'd been avoiding for several days.
+   8:56    Léa     La réponse a clarifié le problème   | The answer cleared up the problem
+   8:58    Léa     en quelques minutes.   | in a few minutes.
+   9:00    Mathieu Ah ! Parfois, on passe trois soirées   | Ah! Sometimes we spend three evenings
+   9:03    Mathieu à imaginer une conversation   | imagining a conversation
+   9:05    Mathieu qui ne dure que cinq minutes dans la réalité.   | that only lasts five minutes in reality.
+   9:08    Léa     Oui.   | Yes.
+   9:08    Léa     Et parfois la réponse est difficile, bien sûr.   | And sometimes the answer is hard, of course.
+   9:12    Léa     Mais au moins,   | But at least,
+   9:13    Léa     nous avons des informations sur lesquelles agir.   | we have information we can act on.
+   9:17    Mathieu Tu sais, quand je suis inquiet,   | You know, when I'm worried,
+   9:19    Mathieu je confonds souvent réfléchir et agir.   | I often confuse thinking and acting.
+   9:22    Mathieu Je me dis : « Je dois encore y penser »,   | I tell myself: "I still need to think about it",
+   9:25    Mathieu alors que je répète les mêmes scénarios.   | when I'm just replaying the same scenarios.
+   9:28    Léa     Dans ce cas, tu peux te demander :   | In that case, you can ask yourself:
+   9:30    Léa     « Qu'est-ce que je peux faire   | "What can I do
+   9:32    Léa     concrètement aujourd'hui ? »   | concretely today?"
+   9:34    Léa     S'il n'y a pas d'action possible,   | If there's no possible action,
+   9:36    Léa     tu peux essayer de faire une pause.   | you can try to take a break.
+   9:39    Mathieu « Faire une pause »,   | "Take a break",
+   9:40    Mathieu pas « oublier que le problème existe ».   | not "forget the problem exists".
+   9:43    Léa     Exactement. Nous pouvons être responsables   | Exactly. We can be responsible
+   9:46    Léa     sans passer toute la nuit à nous inquiéter.   | without spending all night worrying.
+   9:49    Mathieu J'aime cette idée d'une attitude positive   | I like this idea of a positive attitude
+   9:52    Mathieu qui reste les pieds sur terre.   | that keeps its feet on the ground.
+   9:54 ◆  Léa     Les pieds sur terre, oui.   | Feet on the ground, yes.
+   9:56    Léa     Cela signifie être réaliste,   | It means being realistic,
+   9:59    Léa     ne pas se laisser emporter   | not getting carried away
+  10:00    Léa     par des idées trop éloignées de la réalité.   | by ideas too far from reality.
+  10:03    Mathieu Par exemple : « J'espère obtenir ce poste,   | For example: "I hope to get this job,
+  10:06  ★ Mathieu mais je garde les pieds sur terre   | but I keep my feet on the ground
+  10:08    Mathieu et je prépare aussi d'autres possibilités. »   | and I'm preparing other options too."
+  10:12    Léa     Très bien !   | Very good!
+  10:13    Léa     Et cela nous conduit à un autre sujet :   | And that brings us to another topic:
+  10:15    Léa     nos objectifs.   | our goals.
+  10:17    Léa     Est-ce qu'il t'arrive de te comparer aux autres ?   | Do you ever compare yourself to others?
+  10:20    Mathieu Jamais ! Enfin...   | Never! Well...
+  10:21    Mathieu seulement chaque fois   | only every time
+  10:23    Mathieu que j'ouvre certains réseaux sociaux.   | I open certain social networks.
+  10:26    Léa     Donc assez souvent.   | So, quite often.
+  10:28    Mathieu Oui.   | Yes.
+  10:28    Mathieu Je vois des gens de mon âge   | I see people my age
+  10:30    Mathieu qui changent de carrière,   | who change careers,
+  10:32    Mathieu courent des marathons ou parlent cinq langues.   | run marathons or speak five languages.
+  10:39    Mathieu Et soudain, j'ai l'impression   | And suddenly, I feel
+  10:39    Mathieu d'être en retard dans ma propre vie.   | like I'm behind in my own life.
+  10:40    Léa     Pourtant, tu ne connais pas toujours   | Yet you don't always know
+  10:42    Léa     leur situation   | their situation
+  10:43    Léa     ni le chemin qu'ils ont parcouru.   | or the path they've traveled.
+  10:45    Mathieu C'est vrai.   | That's true.
+  10:47    Mathieu Je vois une photo d'une réussite,   | I see a photo of a success,
+  10:49    Mathieu pas les années de travail   | not the years of work
+  10:50    Mathieu ni les journées compliquées.   | or the hard days.
+  10:52    Léa     Et cette comparaison peut nous empêcher   | And that comparison can keep us
+  10:54    Léa     de reconnaître nos propres progrès.   | from recognizing our own progress.
+  10:57    Mathieu Il y a quelques années,   | A few years ago,
+  10:57    Mathieu j'ai voulu apprendre à dessiner.   | I wanted to learn to draw.
+  10:59    Mathieu Je regardais des artistes incroyables   | I watched incredible artists
+  11:02    Mathieu sur Internet.   | on the Internet.
+  11:03    Mathieu Après dix minutes avec mon crayon,   | After ten minutes with my pencil,
+  11:06    Mathieu j'avais envie de tout arrêter.   | I felt like quitting everything.
+  11:08    Léa     Tu comparais ton premier dessin   | You compared your first drawing
+  11:10    Léa     à leur travail professionnel ?   | to their professional work?
+  11:12    Mathieu Exactement. Très mauvaise comparaison.   | Exactly. A very bad comparison.
+  11:15    Mathieu Mon premier chien ressemblait   | My first dog looked
+  11:17    Mathieu à une pomme de terre avec quatre pattes.   | like a potato with four legs.
+  11:19    Léa     Je suis sûre qu'il avait du charme.   | I'm sure it had charm.
+  11:22    Mathieu Tu es trop gentille !   | You're too kind!
+  11:23    Mathieu Mais un jour, j'ai retrouvé un dessin   | But one day, I found a drawing
+  11:26    Mathieu que j'avais fait plusieurs semaines auparavant.   | I'd made several weeks before.
+  11:29    Mathieu Et j'ai remarqué   | And I noticed
+  11:30    Mathieu que mes traits étaient devenus plus précis.   | my lines had become more precise.
+  11:33    Léa     Tu t'es comparé à ton ancien niveau,   | You compared yourself to your old level,
+  11:35    Léa     au lieu de te comparer à quelqu'un d'autre.   | instead of comparing yourself to someone else.
+  11:38    Mathieu Oui.   | Yes.
+  11:39    Mathieu Et tout de suite, j'ai eu envie de continuer.   | And right away, I wanted to keep going.
+  11:42    Léa     C'est une autre forme de pensée positive :   | That's another form of positive thinking:
+  11:45    Léa     reconnaître les petits progrès   | recognizing small progress
+  11:47    Léa     sans prétendre   | without pretending
+  11:48    Léa     qu'on a déjà atteint son objectif.   | you've already reached your goal.
+  11:50 ◆  Mathieu Donc je peux dire :   | So I can say:
+  11:51    Mathieu « Je ne dessine pas encore comme je le voudrais,   | "I don't draw the way I'd like to yet,
+  11:54    Mathieu mais je progresse. »   | but I'm improving."
+  11:56    Léa     Exactement. Le mot « encore » est très utile.   | Exactly. The word "yet" is very useful.
+  12:00    Léa     Il laisse une place à l'apprentissage.   | It leaves room for learning.
+  12:03    Mathieu « Je ne comprends pas encore   | "I don't understand yet
+  12:05    Mathieu toutes les conversations en français. »   | every conversation in French."
+  12:07    Mathieu C'est beaucoup plus encourageant   | That's much more encouraging
+  12:10    Mathieu que « Je suis nul en français ».   | than "I'm hopeless at French."
+  12:12    Léa     Absolument.   | Absolutely.
+  12:13    Léa     Et nos auditeurs peuvent l'utiliser   | And our listeners can use it
+  12:15    Léa     dans leur apprentissage.   | in their learning.
+  12:16    Léa     Ils n'ont pas besoin de comprendre chaque phrase   | They don't need to understand every sentence
+  12:19    Léa     pour constater des progrès.   | to notice progress.
+  12:21    Mathieu Peut-être qu'il y a trois mois,   | Maybe three months ago,
+  12:23    Mathieu ils avaient besoin de sous-titres tout le temps,   | they needed subtitles all the time,
+  12:26    Mathieu et qu'aujourd'hui ils comprennent une histoire   | and today they understand a story
+  12:29    Mathieu sans tout traduire.   | without translating everything.
+  12:30    Léa     Ou qu'ils osent poser une question en français,   | Or they dare to ask a question in French,
+  12:33    Léa     même avec quelques hésitations.   | even with a few hesitations.
+  12:35    Mathieu Tu sais, parfois, une petite victoire   | You know, sometimes, a small victory
+  12:38    Mathieu peut vraiment changer une journée.   | can really change a day.
+  12:40    Léa     Oui.   | Yes.
+  12:40    Léa     Et on peut essayer de la remarquer   | And we can try to notice it
+  12:43    Léa     au lieu de penser uniquement   | instead of only thinking
+  12:45    Léa     à ce qui reste à faire.   | about what's left to do.
+  12:47    Mathieu Mais comment rester positif   | But how do you stay positive
+  12:49    Mathieu quand on se sent complètement bloqué dans sa vie ?   | when you feel completely stuck in life?
+  12:53    Léa     C'est une vraie question.   | That's a real question.
+  12:55    Léa     On peut commencer par éviter   | You can start by avoiding
+  12:57    Léa     de vouloir tout changer immédiatement.   | wanting to change everything at once.
+  13:00    Léa     Une petite direction peut être plus utile   | A small direction can be more useful
+  13:03    Léa     qu'un programme gigantesque.   | than a gigantic plan.
+  13:05    Mathieu Je connais les programmes gigantesques.   | I know all about gigantic plans.
+  13:08    Mathieu Dimanche soir, je suis capable   | On Sunday night, I can
+  13:10    Mathieu d'organiser une nouvelle vie entière.   | organize a whole new life.
+  13:13    Mathieu Lundi matin, je négocie avec mon réveil.   | On Monday morning, I negotiate with my alarm.
+  13:17    Léa     Alors il faudrait préparer un programme   | Then you should make a plan
+  13:20    Léa     qui correspond au Mathieu du lundi,   | that suits Monday's Mathieu,
+  13:22    Léa     pas seulement à celui du dimanche !   | not just Sunday's!
+  13:24 ◆  Mathieu Excellente remarque.   | Excellent point.
+  13:26    Mathieu Par exemple, si je souhaite être plus actif,   | For example, if I want to be more active,
+  13:29    Mathieu je peux commencer   | I can start
+  13:31    Mathieu par deux courtes promenades par semaine.   | with two short walks a week.
+  13:34    Léa     Oui. Et si tu veux améliorer ton français,   | Yes. And if you want to improve your French,
+  13:37    Léa     tu peux choisir un moment régulier   | you can choose a regular time
+  13:39    Léa     pour écouter une conversation.   | to listen to a conversation.
+  13:41    Mathieu Pas nécessairement deux heures par jour.   | Not necessarily two hours a day.
+  13:43    Léa     Exactement.   | Exactly.
+  13:44    Léa     Les petits objectifs réalistes   | Small, realistic goals
+  13:46    Léa     peuvent donner une direction   | can give you a direction
+  13:49    Léa     sans ajouter trop de pression.   | without adding too much pressure.
+  13:51    Mathieu Une amie m'a raconté quelque chose   | A friend told me something
+  13:53    Mathieu qui me revient souvent.   | that often comes back to me.
+  13:55    Mathieu Elle avait envie de changer de métier,   | She wanted to change careers,
+  13:57    Mathieu mais elle se disait que c'était trop tard.   | but she told herself it was too late.
+  14:00    Léa     Quel âge avait-elle ?   | How old was she?
+  14:04    Mathieu Trente-huit ans.   | Thirty-eight.
+  14:05    Mathieu Elle travaillait dans la vente   | She worked in sales
+  14:06    Mathieu et s'intéressait depuis longtemps   | and had long been interested
+  14:07    Mathieu à la décoration intérieure.   | in interior design.
+  14:08    Léa     Et qu'est-ce qui la bloquait ?   | And what was holding her back?
+  14:10    Mathieu Elle imaginait qu'il fallait abandonner   | She thought she had to quit
+  14:12    Mathieu son emploi immédiatement,   | her job right away,
+  14:14    Mathieu reprendre plusieurs années d'études   | go back to studying for several years
+  14:16    Mathieu et réussir du premier coup.   | and succeed on the first try.
+  14:18    Mathieu Cela lui semblait impossible.   | That seemed impossible to her.
+  14:21    Léa     Elle voyait tout le chemin   | She was seeing the whole road
+  14:23    Léa     à parcourir en une seule fois.   | ahead all at once.
+  14:25    Mathieu Exactement.   | Exactly.
+  14:26 ◆  Mathieu Puis elle a rencontré une personne   | Then she met someone
+  14:28    Mathieu qui travaillait dans ce domaine   | who worked in that field
+  14:30    Mathieu et lui a posé des questions.   | and asked them some questions.
+  14:32    Mathieu Ensuite, elle a suivi un cours du soir.   | Next, she took an evening class.
+  14:35    Léa     Une première étape   | A first step
+  14:36    Léa     qui ne bouleversait pas toute sa vie.   | that didn't turn her whole life upside down.
+  14:39    Mathieu Oui. Après quelques mois,   | Yes. After a few months,
+  14:41    Mathieu elle a commencé à aider des amis   | she started helping friends
+  14:43    Mathieu à aménager leurs appartements.   | to decorate their apartments.
+  14:46    Mathieu Aujourd'hui, elle explore sérieusement   | Today, she's seriously exploring
+  14:49    Mathieu une reconversion,   | a career change,
+  14:50    Mathieu mais elle avance prudemment.   | but she's moving forward carefully.
+  14:52    Léa     Et elle ne sait pas encore exactement   | And she doesn't know exactly yet
+  14:54    Léa     où ce projet la mènera.   | where this project will take her.
+  14:56    Mathieu Non. Pourtant, elle se sent moins bloquée,   | No. Still, she feels less stuck,
+  14:59    Mathieu parce qu'elle fait quelque chose de concret.   | because she's doing something concrete.
+  15:02    Léa     J'aime beaucoup cet exemple.   | I really like that example.
+  15:04    Léa     L'optimisme ne consiste pas toujours   | Optimism isn't always about
+  15:07    Léa     à être sûr de réussir.   | being sure you'll succeed.
+  15:09    Léa     Parfois, c'est accepter   | Sometimes, it's agreeing
+  15:10    Léa     de chercher une possibilité.   | to look for a possibility.
+  15:12    Mathieu « Je ne sais pas si ça marchera,   | "I don't know if it'll work,
+  15:14    Mathieu mais je peux me renseigner. »   | but I can look into it."
+  15:16    Mathieu C'est une phrase positive et réaliste.   | That's a positive and realistic sentence.
+  15:19    Léa     Exactement. Et cela nous aide   | Exactly. And it helps us
+  15:22    Léa     à éviter deux extrêmes :   | avoid two extremes:
+  15:24    Léa     croire que tout ira parfaitement,   | believing everything will go perfectly,
+  15:26    Léa     ou penser que rien ne peut s'améliorer.   | or thinking nothing can get better.
+  15:29    Mathieu Entre les deux, il y a la curiosité,   | In between, there's curiosity,
+  15:32    Mathieu les essais et les ajustements.   | trial and error, and adjustments.
+  15:35    Léa     Oui.   | Yes.
+  15:35    Léa     Mais il faut parler d'une autre situation,   | But we need to talk about another situation,
+  15:39    Léa     plus délicate.   | a more delicate one.
+  15:40    Léa     Que fait-on   | What do we do
+  15:41    Léa     quand on traverse une véritable déception ?   | when we go through a real disappointment?
+  15:44    Mathieu Là, les jolies phrases ne suffisent pas toujours.   | Then, pretty phrases aren't always enough.
+  15:48    Léa     C'est vrai.   | That's true.
+  15:49    Léa     Et je ne voudrais surtout pas   | And I really wouldn't want
+  15:51    Léa     donner l'impression qu'il faut sourire   | to give the impression we must smile
+  15:53    Léa     après chaque mauvaise nouvelle.   | after every piece of bad news.
+  15:55    Mathieu Moi non plus.   | Me neither.
+  15:56    Mathieu J'ai connu une période   | I went through a time
+  15:58    Mathieu où un projet personnel   | when a personal project
+  15:59    Mathieu sur lequel j'avais beaucoup travaillé   | I'd worked very hard on
+  16:02  ★ Mathieu n'a pas abouti.   | didn't come to anything.
+  16:03    Léa     Tu avais consacré beaucoup de temps   | Had you put a lot of time
+  16:05    Léa     à ce projet ?   | into that project?
+  16:06    Mathieu Presque un an.   | Almost a year.
+  16:08    Mathieu J'espérais organiser une petite exposition   | I was hoping to organize a small exhibition
+  16:11    Mathieu de photos avec des amis.   | of photos with friends.
+  16:12    Mathieu Nous avions trouvé un lieu,   | We'd found a venue,
+  16:14    Mathieu préparé une sélection,   | prepared a selection,
+  16:16    Mathieu mais l'événement a finalement été annulé.   | but the event was cancelled in the end.
+  16:19    Léa     Tu as dû être très déçu.   | You must have been very disappointed.
+  16:21    Mathieu Oui. Et même en colère.   | Yes. And even angry.
+  16:24    Mathieu Pendant plusieurs semaines,   | For several weeks,
+  16:26    Mathieu je n'avais plus envie   | I no longer felt like
+  16:27    Mathieu de sortir mon appareil photo.   | taking out my camera.
+  16:29    Léa     C'est compréhensible.   | That's understandable.
+  16:31    Léa     Tu avais perdu quelque chose   | You'd lost something
+  16:32    Léa     d'important pour toi.   | that mattered to you.
+  16:34    Mathieu Exactement.   | Exactly.
+  16:35    Mathieu Un ami m'a appelé et m'a proposé une promenade.   | A friend called and suggested a walk.
+  16:38  ★ Mathieu Je lui ai dit : « Je ne suis pas d'humeur   | I told him: "I'm not in the mood
+  16:41    Mathieu à faire de belles photos. »   | to take nice photos."
+  16:43    Léa     Et qu'est-ce qu'il a répondu ?   | And what did he say?
+  16:45    Mathieu « Alors, ne prends pas de photos.   | "Then don't take any photos.
+  16:47    Mathieu Viens simplement marcher. »   | Just come for a walk."
+  16:49    Mathieu C'était tout.   | That was all.
+  16:50    Léa     C'est une réponse très douce.   | That's a very gentle answer.
+  16:52    Léa     Il ne t'a pas demandé   | He didn't ask you
+  16:53    Léa     de transformer ta déception   | to turn your disappointment
+  16:55    Léa     en grande leçon immédiatement.   | into a big lesson right away.
+  16:58    Mathieu Oui.   | Yes.
+  16:59    Mathieu Nous avons marché, parlé de tout et de rien.   | We walked, talked about this and that.
+  17:02    Mathieu Après un moment, je me suis surpris   | After a while, I caught myself
+  17:05    Mathieu à remarquer la lumière sur les arbres.   | noticing the light on the trees.
+  17:07    Mathieu Quelques jours plus tard,   | A few days later,
+  17:09    Mathieu j'ai repris mon appareil.   | I picked up my camera again.
+  17:11    Léa     Donc ton ami   | So your friend
+  17:12    Léa     ne t'a pas obligé à être positif.   | didn't force you to be positive.
+  17:14    Léa     Il t'a simplement accompagné.   | He just kept you company.
+  17:17    Mathieu Exactement.   | Exactly.
+  17:18    Mathieu Et cela m'a aidé à comprendre   | And it helped me understand
+  17:20    Mathieu qu'une déception peut être réelle   | that a disappointment can be real
+  17:22    Mathieu sans résumer tout notre avenir.   | without summing up our whole future.
+  17:25    Léa     Je trouve cela essentiel.   | I find that essential.
+  17:27    Léa     Être positif   | Being positive
+  17:28    Léa     ne veut pas dire nier la tristesse.   | doesn't mean denying sadness.
+  17:31    Léa     On peut être triste aujourd'hui   | You can be sad today
+  17:33    Léa     et garder la possibilité   | and still keep the possibility
+  17:35    Léa     de vivre autre chose demain.   | of living something else tomorrow.
+  17:37    Mathieu Et on peut aussi demander de l'aide   | And we can also ask for help
+  17:39    Mathieu si une situation devient trop lourde.   | if a situation becomes too heavy.
+  17:42    Mathieu Nous n'avons pas besoin de tout porter seuls.   | We don't have to carry everything alone.
+  17:45    Léa     Absolument.   | Absolutely.
+  17:46    Léa     Le soutien d'un proche,   | The support of a loved one,
+  17:48    Léa     et parfois celui d'un professionnel,   | and sometimes that of a professional,
+  17:50    Léa     peut être précieux quand la souffrance dure   | can be precious when suffering lasts
+  17:53    Léa     ou devient difficile à gérer.   | or becomes hard to manage.
+  17:55 ◆  Mathieu Tu sais, j'aime bien l'expression   | You know, I like the expression
+  17:58    Mathieu « retrouver peu à peu son élan ».   | "gradually getting your momentum back".
+  18:00  ★ Léa     Oui. « Retrouver son élan »,   | Yes. "Retrouver son élan"
+  18:03    Léa     c'est recommencer à avoir l'énergie   | means having the energy again
+  18:05    Léa     ou l'envie d'avancer   | or the desire to move forward
+  18:07    Léa     après une période difficile.   | after a difficult period.
+  18:09    Mathieu Par exemple : « Après cette déception,   | For example: "After this disappointment,
+  18:12    Mathieu il lui a fallu du temps   | it took him time
+  18:13    Mathieu pour retrouver son élan. »   | to get his momentum back."
+  18:15    Léa     Très bien.   | Very good.
+  18:16    Léa     Et ce temps est différent pour chacun.   | And that time is different for everyone.
+  18:18    Léa     Nous n'avons pas à nous imposer   | We don't have to set ourselves
+  18:20    Léa     une date pour aller mieux.   | a date to feel better.
+  18:22    Mathieu Tu sais, on a parlé de nos pensées,   | You know, we've talked about our thoughts,
+  18:25    Mathieu de nos objectifs et des périodes difficiles.   | our goals and difficult times.
+  18:28    Mathieu Mais je crois qu'il manque quelque chose.   | But I think something's missing.
+  18:30    Léa     Quoi donc ?   | What's that?
+  18:32    Mathieu Les autres !   | Other people!
+  18:33    Mathieu Parce qu'une conversation   | Because a conversation
+  18:34    Mathieu avec une personne bienveillante   | with a kind person
+  18:36    Mathieu peut parfois changer complètement   | can sometimes completely change
+  18:38    Mathieu notre journée.   | our day.
+  18:39    Léa     Je suis d'accord.   | I agree.
+  18:40    Léa     Les relations humaines   | Human relationships
+  18:42    Léa     ont une place importante dans notre bien-être.   | play a big part in our well-being.
+  18:45    Mathieu La semaine dernière,   | Last week,
+  18:46    Mathieu j'étais un peu découragé.   | I was a bit discouraged.
+  18:48    Mathieu J'ai appelé ma sœur   | I called my sister
+  18:49    Mathieu pour lui raconter mes problèmes,   | to tell her about my problems,
+  18:51    Mathieu et elle m'a écouté   | and she listened to me
+  18:52    Mathieu sans chercher à tout résoudre.   | without trying to fix everything.
+  18:55    Léa     Parfois, être écouté   | Sometimes, being listened to
+  18:57    Léa     fait déjà énormément de bien.   | already does a world of good.
+  18:59    Mathieu Oui. Puis elle m'a raconté   | Yes. Then she told me
+  19:01    Mathieu que son fils avait voulu   | that her son had wanted
+  19:03    Mathieu préparer un gâteau tout seul.   | to make a cake all by himself.
+  19:05  ★ Mathieu Il avait confondu le sel et le sucre.   | He'd mixed up the salt and the sugar.
+  19:08    Léa     Oh non !   | Oh no!
+  19:09    Léa     Le résultat devait être... surprenant.   | The result must have been... surprising.
+  19:13    Mathieu Très surprenant.   | Very surprising.
+  19:14    Mathieu Personne n'a demandé une deuxième part.   | Nobody asked for a second slice.
+  19:17    Léa     Pauvre petit !   | Poor little thing!
+  19:19    Mathieu Mais nous avons ri ensemble,   | But we laughed together,
+  19:21    Mathieu et je me suis senti un peu plus léger.   | and I felt a bit lighter.
+  19:23    Mathieu Mes problèmes étaient toujours là,   | My problems were still there,
+  19:26    Mathieu mais ils n'occupaient plus toute la conversation.   | but they no longer filled the whole conversation.
+  19:29    Léa     C'est un bel exemple.   | That's a lovely example.
+  19:31    Léa     Nous pouvons reconnaître   | We can acknowledge
+  19:33    Léa     ce qui nous inquiète   | what worries us
+  19:34    Léa     tout en laissant une place à des moments de joie.   | while leaving room for moments of joy.
+  19:37    Mathieu Et parfois, nous pouvons aussi apporter   | And sometimes, we can also bring
+  19:39    Mathieu un peu de cette joie aux autres.   | a little of that joy to others.
+  19:41    Léa     Comment ?   | How?
+  19:43    Mathieu Un message gentil, un compliment sincère,   | A kind message, a sincere compliment,
+  19:46    Mathieu ou simplement demander à quelqu'un   | or simply asking someone
+  19:49    Mathieu comment il va   | how they're doing
+  19:50    Mathieu et écouter vraiment la réponse.   | and really listening to the answer.
+  19:53    Léa     Oui. Mais cela ne veut pas dire   | Yes. But that doesn't mean
+  19:55    Léa     que nous sommes responsables   | we're responsible
+  19:56    Léa     du bonheur de tout le monde.   | for everyone's happiness.
+  19:58    Mathieu Bien sûr.   | Of course.
+  19:59    Mathieu Nous pouvons être attentionnés   | We can be thoughtful
+  20:01    Mathieu tout en respectant notre énergie et nos limites.   | while respecting our energy and our limits.
+  20:05    Léa     Exactement.   | Exactly.
+  20:06    Léa     Et parfois, un petit geste nous rappelle aussi   | And sometimes, a small gesture also reminds us
+  20:09    Léa     qu'il existe encore des choses agréables   | that there are still nice things
+  20:12    Léa     dans une journée compliquée.   | in a complicated day.
+  20:14    Mathieu Tu sais, j'ai commencé   | You know, I've started
+  20:16    Mathieu une petite habitude le soir.   | a little habit in the evening.
+  20:18    Mathieu Je note une chose   | I write down one thing
+  20:19    Mathieu qui s'est bien passée pendant la journée.   | that went well during the day.
+  20:22    Léa     Une seule ?   | Just one?
+  20:23    Mathieu Oui.   | Yes.
+  20:24    Mathieu Ça peut être une bonne conversation,   | It can be a good conversation,
+  20:27    Mathieu un repas que j'ai aimé   | a meal I enjoyed
+  20:29    Mathieu ou une tâche enfin terminée.   | or a task finally finished.
+  20:31    Léa     Et tu fais ça tous les jours ?   | And you do that every day?
+  20:33    Mathieu Pas toujours.   | Not always.
+  20:34    Mathieu Je n'en fais pas une obligation.   | I don't make it an obligation.
+  20:36    Mathieu Mais quand j'y pense,   | But when I think of it,
+  20:38    Mathieu cela m'aide à regarder ma journée   | it helps me look at my day
+  20:41    Mathieu avec un peu plus de nuance.   | with a bit more nuance.
+  20:43    Léa     J'aime cette approche.   | I like that approach.
+  20:45    Léa     La gratitude ne doit pas devenir   | Gratitude shouldn't become
+  20:47    Léa     un moyen de se reprocher d'être triste.   | a way to blame yourself for being sad.
+  20:49    Mathieu Exactement.   | Exactly.
+  20:51    Mathieu Certains jours, ma seule phrase est :   | Some days, my only sentence is:
+  20:54    Mathieu « J'ai enfin pu me reposer. »   | "I finally got to rest."
+  20:56    Mathieu Et c'est déjà suffisant.   | And that's already enough.
+  20:58    Léa     Tu sais, cela me fait penser à quelqu'un   | You know, that reminds me of someone
+  21:00    Léa     qui m'a dit un jour :   | who once told me:
+  21:02    Léa     « Une mauvaise journée   | "A bad day
+  21:03    Léa     peut contenir un bon moment. »   | can contain a good moment."
+  21:05    Mathieu J'aime beaucoup.   | I really like that.
+  21:07    Mathieu Et l'inverse est vrai aussi :   | And the opposite is true too:
+  21:09    Mathieu une bonne journée   | a good day
+  21:10    Mathieu peut contenir un moment difficile.   | can contain a difficult moment.
+  21:13    Léa     Oui.   | Yes.
+  21:13    Léa     Nous n'avons pas besoin de classer chaque journée   | We don't need to label every day
+  21:17    Léa     comme entièrement réussie   | as a complete success
+  21:18    Léa     ou complètement ratée.   | or a total failure.
+  21:20    Mathieu C'est rassurant.   | That's reassuring.
+  21:21    Mathieu Parce que les journées mélangées,   | Because mixed days,
+  21:23    Mathieu avec de bonnes et de moins bonnes choses,   | with good and not-so-good things,
+  21:26    Mathieu sont probablement les plus fréquentes.   | are probably the most common.
+  21:29    Léa     Tout à fait.   | Absolutely.
+  21:31    Léa     Et apprendre à voir ces différentes nuances,   | And learning to see those different shades
+  21:33    Léa     c'est déjà une manière de développer   | is already a way to develop
+  21:35    Léa     une attitude plus équilibrée.   | a more balanced attitude.
+  21:37    Mathieu Alors, est-ce qu'on pourrait dire   | So, could we say
+  21:39    Mathieu que la pensée positive consiste   | that positive thinking means
+  21:41    Mathieu à chercher de la lumière   | looking for light
+  21:43  ★ Mathieu sans faire semblant que l'ombre n'existe pas ?   | without pretending the shadow doesn't exist?
+  21:46    Léa     C'est une belle image.   | That's a beautiful image.
+  21:48    Léa     Et je crois que nos auditeurs vont la retenir.   | And I think our listeners will remember it.
+  21:51    Mathieu Merci !   | Thank you!
+  21:52    Mathieu Je vais peut-être la noter   | Maybe I'll write it down
+  21:53    Mathieu dans mon carnet de citations.   | in my notebook of quotes.
+  21:55    Léa     Celui qui contient déjà   | The one that already holds
+  21:56    Léa     tes recettes de cuisine ?   | your cooking recipes?
+  21:58    Mathieu Oui.   | Yes.
+  21:59    Mathieu Chez moi, la philosophie   | At my place, philosophy
+  22:00    Mathieu et le gratin de pommes de terre   | and potato gratin
+  22:03    Mathieu vivent en parfaite harmonie.   | live in perfect harmony.
+  22:05    Léa     Cela ne m'étonne absolument pas !   | That doesn't surprise me at all!
+  22:08    Mathieu Bon, Léa, nous avons utilisé   | Well, Léa, we've used
+  22:10    Mathieu beaucoup de belles expressions aujourd'hui.   | lots of lovely expressions today.
+  22:13    Mathieu On les revoit ?   | Shall we review them?
+  22:14 ◆  Léa     Avec plaisir. Commençons par   | With pleasure. Let's start with
+  22:18    Léa     « voir le bon côté des choses ».   | "voir le bon côté des choses".
+  22:21    Mathieu Cette expression signifie   | This expression means
+  22:23    Mathieu remarquer ce qui reste positif   | noticing what's still positive
+  22:25    Mathieu dans une situation.   | in a situation.
+  22:27    Mathieu Par exemple : « J'ai raté mon train,   | For example: "I missed my train,
+  22:30  ★ Mathieu mais j'essaie de voir le bon côté des choses :   | but I try to look on the bright side:
+  22:33    Mathieu j'ai du temps pour lire. »   | I have time to read."
+  22:34    Léa     Attention, cela ne signifie pas   | Careful, it doesn't mean
+  22:36    Léa     qu'il faut trouver quelque chose de positif   | you have to find something positive
+  22:39    Léa     dans chaque situation douloureuse.   | in every painful situation.
+  22:41    Léa     C'est surtout une expression utile   | It's mainly a useful expression
+  22:43    Léa     pour les petits contretemps.   | for small setbacks.
+  22:45    Mathieu Deuxième expression :   | Second expression:
+  22:47    Mathieu « prendre du recul ».   | "prendre du recul".
+  22:49    Léa     Cela signifie regarder une situation   | It means looking at a situation
+  22:50    Léa     avec plus de distance et de calme.   | with more distance and calm.
+  22:55    Léa     Par exemple : « Après une mauvaise journée,   | For example: "After a bad day,
+  22:58    Léa     j'ai besoin de prendre du recul   | I need to step back
+  23:00    Léa     avant de prendre une décision. »   | before making a decision."
+  23:02    Mathieu Troisième expression :   | Third expression:
+  23:04    Mathieu « garder les pieds sur terre ».   | "garder les pieds sur terre".
+  23:06    Léa     Cela signifie rester réaliste.   | It means staying realistic.
+  23:09    Léa     Par exemple :   | For example:
+  23:10    Léa     « Je suis enthousiaste pour ce projet,   | "I'm excited about this project,
+  23:13    Léa     mais je garde les pieds sur terre. »   | but I keep my feet on the ground."
+  23:15    Mathieu Quatrième expression :   | Fourth expression:
+  23:17    Mathieu « avoir tendance à ».   | "avoir tendance à".
+  23:19    Léa     Cela signifie   | It means
+  23:19    Léa     faire quelque chose assez souvent.   | doing something quite often.
+  23:23    Léa     Par exemple :   | For example:
+  23:24    Léa     « Quand je suis fatiguée,   | "When I'm tired,
+  23:25    Léa     j'ai tendance à imaginer le pire. »   | I tend to imagine the worst."
+  23:27 ◆  Mathieu Cinquième expression :   | Fifth expression:
+  23:29    Mathieu « reprendre confiance ».   | "reprendre confiance".
+  23:31    Léa     C'est retrouver progressivement   | It's gradually getting back
+  23:33    Léa     la confiance qu'on avait perdue.   | the confidence you had lost.
+  23:36    Léa     Par exemple :   | For example:
+  23:37    Léa     « Après plusieurs petites réussites,   | "After several small successes,
+  23:39  ★ Léa     elle a commencé à reprendre confiance. »   | she began to regain confidence."
+  23:42    Mathieu Et notre dernière expression :   | And our last expression:
+  23:44    Mathieu « retrouver son élan ».   | "retrouver son élan".
+  23:46    Léa     Elle signifie   | It means
+  23:46    Léa     retrouver l'énergie de continuer.   | finding the energy to keep going again.
+  23:50    Léa     Par exemple :   | For example:
+  23:51    Léa     « Après une période difficile,   | "After a difficult period,
+  23:53    Léa     il a retrouvé son élan   | he got his momentum back
+  23:55    Léa     grâce à un nouveau projet. »   | thanks to a new project."
+  23:57    Mathieu Voilà six expressions très utiles   | There you go, six very useful expressions
+  23:59    Mathieu pour parler de nos émotions   | to talk about our emotions
+  24:00    Mathieu et de notre manière de voir la vie.   | and our way of seeing life.
+  24:02    Léa     Maintenant, regardons comment   | Now, let's see how
+  24:02    Léa     remplacer certaines phrases très générales   | to replace some very general sentences
+  24:05    Léa     par des formulations plus naturelles.   | with more natural wording.
+  24:10 ◆  Mathieu Première phrase :   | First sentence:
+  24:12    Mathieu « Tout va mal. »   | "Everything's going wrong."
+  24:14    Léa     On peut dire :   | You can say:
+  24:14    Léa     « Je traverse une journée compliquée. »   | "I'm having a complicated day."
+  24:15    Léa     Ou : « Plusieurs choses   | Or: "Several things
+  24:17    Léa     ne se passent pas comme prévu aujourd'hui. »   | aren't going as planned today."
+  24:21    Mathieu C'est plus précis,   | It's more precise,
+  24:23    Mathieu et ça ne transforme pas   | and it doesn't turn
+  24:25    Mathieu une mauvaise matinée en mauvaise vie.   | a bad morning into a bad life.
+  24:29    Léa     Deuxième phrase :   | Second sentence:
+  24:31    Léa     « Je suis nul. »   | "I'm hopeless."
+  24:32    Mathieu On peut dire :   | You can say:
+  24:33    Mathieu « Je manque encore de pratique. »   | "I still lack practice."
+  24:36    Mathieu Ou : « Je n'ai pas réussi cette fois,   | Or: "I didn't succeed this time,
+  24:38    Mathieu mais je peux apprendre. »   | but I can learn."
+  24:40    Léa     Troisième phrase :   | Third sentence:
+  24:42    Léa     « Je pense toujours au pire. »   | "I always think the worst."
+  24:46    Mathieu On peut dire :   | You can say:
+  24:46    Mathieu « J'ai tendance à anticiper les problèmes. »   | "I tend to anticipate problems."
+  24:47    Mathieu Ou : « Je me fais parfois   | Or: "I sometimes worry
+  24:50    Mathieu trop de souci pour l'avenir. »   | too much about the future."
+  24:53    Léa     Quatrième phrase :   | Fourth sentence:
+  24:55    Léa     « Je veux être heureux. »   | "I want to be happy."
+  24:58    Mathieu On peut dire :   | You can say:
+  24:59    Mathieu « J'aimerais apprécier davantage   | "I'd like to appreciate more
+  25:01    Mathieu les petits moments du quotidien. »   | the little everyday moments."
+  25:04    Léa     Ou : « Je cherche un meilleur équilibre   | Or: "I'm looking for a better balance
+  25:07    Léa     dans ma vie. »   | in my life."
+  25:08    Mathieu Cinquième phrase :   | Fifth sentence:
+  25:10    Mathieu « Je ne peux rien changer. »   | "I can't change anything."
+  25:12    Léa     On peut dire :   | You can say:
+  25:12    Léa     « Je ne peux pas tout contrôler,   | "I can't control everything,
+  25:13    Léa     mais je peux agir sur certaines choses. »   | but I can act on some things."
+  25:17    Mathieu Et dernière phrase :   | And the last sentence:
+  25:20    Mathieu « J'ai peur d'essayer. »   | "I'm afraid to try."
+  25:23    Léa     On peut dire :   | You can say:
+  25:24    Léa     « Je ne suis pas encore très sûr de moi,   | "I'm not very confident yet,
+  25:26    Léa     mais j'aimerais faire un premier pas. »   | but I'd like to take a first step."
+  25:29    Mathieu Tu sais, j'aime beaucoup ces alternatives.   | You know, I really like these alternatives.
+  25:32    Mathieu Elles sont plus honnêtes   | They're more honest
+  25:34    Mathieu que de prétendre que tout va bien.   | than pretending everything's fine.
+  25:36    Léa     Exactement.   | Exactly.
+  25:37    Léa     Et elles peuvent servir aussi   | And they can also help
+  25:38    Léa     quand on apprend le français.   | when you're learning French.
+  25:40    Léa     Au lieu de dire   | Instead of saying
+  25:41    Léa     « Je ne parlerai jamais bien »,   | "I'll never speak well",
+  25:44    Léa     on peut dire « J'avance à mon rythme,   | you can say "I'm going at my own pace,
+  25:47    Léa     et je comprends déjà davantage qu'avant ».   | and I already understand more than before."
+  25:50    Mathieu Les petites phrases comptent.   | Little sentences matter.
+  25:51    Mathieu Surtout celles qu'on se répète souvent.   | Especially the ones we repeat to ourselves.
+  25:54    Léa     Oui. Mais rappelons-le :   | Yes. But let's remember:
+  25:54    Léa     personne ne contrôle ses pensées   | nobody controls their thoughts
+  25:56    Léa     en permanence.   | all the time.
+  25:58    Léa     Ce n'est pas un exercice   | It's not an exercise
+  26:00    Léa     où il faut obtenir une note parfaite.   | where you have to get a perfect grade.
+  26:04    Mathieu Heureusement,   | Thank goodness,
+  26:05    Mathieu parce que mon cerveau aurait déjà demandé   | because my brain would already have asked
+  26:08    Mathieu une deuxième chance à l'examen !   | for a second chance at the exam!
+  26:10    Léa     Mathieu, si tu devais retenir   | Mathieu, if you had to remember
+  26:10    Léa     une seule chose de notre conversation,   | just one thing from our conversation,
+  26:14    Léa     ce serait quoi ?   | what would it be?
+  26:15    Mathieu Que je peux avoir une journée imparfaite   | That I can have an imperfect day
+  26:19    Mathieu sans décider qu'elle est entièrement mauvaise.   | without deciding it's completely bad.
+  26:23    Mathieu Et que parfois,   | And that sometimes,
+  26:24    Mathieu une petite action change plus de choses   | one small action changes more
+  26:27    Mathieu qu'une heure à m'inquiéter.   | than an hour of worrying.
+  26:29    Léa     Moi, je retiendrais   | Me, I'd remember
+  26:30    Léa     qu'on peut chercher de l'espoir   | that we can look for hope
+  26:33    Léa     tout en reconnaissant la douleur,   | while acknowledging pain,
+  26:35    Léa     la fatigue ou la déception.   | tiredness or disappointment.
+  26:37    Mathieu Donc être positif,   | So being positive
+  26:37  ★ Mathieu ce n'est pas sourire coûte que coûte.   | isn't smiling no matter what.
+  26:42    Léa     Non.   | No.
+  26:42    Léa     C'est parfois se dire :   | Sometimes it's telling yourself:
+  26:44    Léa     « C'est difficile en ce moment,   | "It's hard right now,
+  26:46    Léa     mais je vais voir   | but I'll see
+  26:48    Léa     ce qui peut m'aider à avancer. »   | what can help me move forward."
+  26:50    Mathieu Et pour ma prochaine matinée catastrophique,   | And for my next disastrous morning,
+  26:53    Mathieu je vais essayer de ne pas laisser   | I'll try not to let
+  26:55    Mathieu une tasse de café décider de mon humeur   | a cup of coffee decide my mood
+  26:58    Mathieu pour douze heures.   | for twelve hours.
+  27:00    Léa     Voilà un excellent objectif !   | That's an excellent goal!
+  27:02    Léa     Mais peut-être devrais-tu aussi   | But maybe you should also
+  27:04  ★ Léa     acheter une chemise de rechange.   | buy a spare shirt.
+  27:07    Mathieu Quelle sagesse, Léa.   | Such wisdom, Léa.
+  27:09    Mathieu La pensée positive rencontre enfin   | Positive thinking finally meets
+  27:12    Mathieu l'organisation pratique.   | practical organization.
+  27:14    Léa     Les deux peuvent très bien fonctionner ensemble !   | The two can work very well together!
+  27:17    Mathieu Alors, chers amis, à votre tour.   | So, dear friends, it's your turn.
+  27:20    Mathieu Quelle petite habitude positive   | What little positive habit
+  27:22    Mathieu aimeriez-vous essayer cette semaine ?   | would you like to try this week?
+  27:25    Léa     Dans les commentaires, vous pouvez écrire :   | In the comments, you can write:
+  27:28    Léa     « Cette semaine, j'aimerais   | "This week, I'd like
+  27:30    Léa     prendre l'habitude de... »   | to get into the habit of..."
+  27:32    Mathieu Ou : « Aujourd'hui,   | Or: "Today,
+  27:34    Mathieu une chose qui m'a fait du bien, c'est... »   | one thing that did me good was..."
+  27:37    Mathieu Une ou deux phrases suffisent.   | One or two sentences are enough.
+  27:40    Mathieu N'ayez pas peur des erreurs.   | Don't be afraid of mistakes.
+  27:42    Léa     Et si cette conversation vous a plu,   | And if you enjoyed this conversation,
+  27:45    Léa     pensez à l'aimer,   | remember to like it,
+  27:46    Léa     à vous abonner à The Cozy French   | to subscribe to The Cozy French
+  27:48    Léa     et à la partager   | and to share it
+  27:49    Léa     avec une personne qui apprend le français.   | with someone who's learning French.
+  27:52    Mathieu Merci d'avoir passé ce moment avec nous.   | Thank you for spending this time with us.
+  27:54    Mathieu Que vous traversiez une période agréable   | Whether you're going through a good time
+  27:57    Mathieu ou plus compliquée,   | or a harder one,
+  27:59    Mathieu nous espérons que vous avez découvert   | we hope you've discovered
+  28:02    Mathieu quelques expressions utiles   | a few useful expressions
+  28:04    Mathieu et une idée à garder pour vous.   | and an idea to keep for yourself.
+  28:06    Léa     Prenez soin de vous,   | Take care of yourselves,
+  28:07    Léa     avancez à votre rythme et souvenez-vous :   | go at your own pace and remember:
+  28:10    Léa     vous n'avez pas besoin   | you don't need
+  28:12    Léa     d'être heureux à chaque instant   | to be happy every moment
+  28:14    Léa     pour apprécier les bonnes choses   | to enjoy the good things
+  28:16    Léa     quand elles se présentent.   | when they come along.
+  28:17    Mathieu C'était Mathieu...   | This was Mathieu...
+  28:18    Léa     Et Léa, de The Cozy French !   | And Léa, from The Cozy French!
+  28:21    Mathieu On se retrouve très bientôt   | See you very soon
+  28:22    Mathieu pour une nouvelle conversation en français.   | for a new conversation in French.
+  28:25    Léa     À très bientôt, chers amis !   | See you very soon, dear friends!
+  28:27    Mathieu À bientôt !   | See you soon!

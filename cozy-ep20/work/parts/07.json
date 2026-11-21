@@ -1,0 +1,553 @@
+[
+ {
+  "who": "mat",
+  "fr": "à chercher de la lumière",
+  "en": "looking for light"
+ },
+ {
+  "who": "mat",
+  "fr": "sans [faire semblant] que l'ombre n'existe pas ?",
+  "en": "without pretending the shadow doesn't exist?"
+ },
+ {
+  "who": "lea",
+  "fr": "C'est une belle image.",
+  "en": "That's a beautiful image.",
+  "emote": "coeur"
+ },
+ {
+  "who": "lea",
+  "fr": "Et je crois que nos auditeurs vont la retenir.",
+  "en": "And I think our listeners will remember it."
+ },
+ {
+  "who": "mat",
+  "fr": "Merci !",
+  "en": "Thank you!"
+ },
+ {
+  "who": "mat",
+  "fr": "Je vais peut-être la noter",
+  "en": "Maybe I'll write it down"
+ },
+ {
+  "who": "mat",
+  "fr": "dans mon carnet de citations.",
+  "en": "in my notebook of quotes."
+ },
+ {
+  "who": "lea",
+  "fr": "Celui qui contient déjà",
+  "en": "The one that already holds"
+ },
+ {
+  "who": "lea",
+  "fr": "tes recettes de cuisine ?",
+  "en": "your cooking recipes?"
+ },
+ {
+  "who": "mat",
+  "fr": "Oui.",
+  "en": "Yes."
+ },
+ {
+  "who": "mat",
+  "fr": "Chez moi, la philosophie",
+  "en": "At my place, philosophy"
+ },
+ {
+  "who": "mat",
+  "fr": "et le gratin de pommes de terre",
+  "en": "and potato gratin",
+  "illus": "repas",
+  "label": "le gratin"
+ },
+ {
+  "who": "mat",
+  "fr": "vivent en parfaite harmonie.",
+  "en": "live in perfect harmony."
+ },
+ {
+  "who": "lea",
+  "fr": "Cela ne m'étonne absolument pas !",
+  "en": "That doesn't surprise me at all!"
+ },
+ {
+  "who": "mat",
+  "fr": "Bon, Léa, nous avons utilisé",
+  "en": "Well, Léa, we've used"
+ },
+ {
+  "who": "mat",
+  "fr": "beaucoup de belles expressions aujourd'hui.",
+  "en": "lots of lovely expressions today."
+ },
+ {
+  "who": "mat",
+  "fr": "On les revoit ?",
+  "en": "Shall we review them?"
+ },
+ {
+  "who": "lea",
+  "fr": "Avec plaisir. Commençons par",
+  "en": "With pleasure. Let's start with",
+  "board": {
+   "mode": "word",
+   "bg": "craie",
+   "note": "= remarquer ce qui reste positif dans une situation",
+   "icon": "soleil"
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "« voir le bon côté des choses ».",
+  "en": "\"voir le bon côté des choses\"."
+ },
+ {
+  "who": "mat",
+  "fr": "Cette expression signifie",
+  "en": "This expression means"
+ },
+ {
+  "who": "mat",
+  "fr": "remarquer ce qui reste positif",
+  "en": "noticing what's still positive"
+ },
+ {
+  "who": "mat",
+  "fr": "dans une situation.",
+  "en": "in a situation."
+ },
+ {
+  "who": "mat",
+  "fr": "Par exemple : « J'ai raté mon train,",
+  "en": "For example: \"I missed my train,"
+ },
+ {
+  "who": "mat",
+  "fr": "mais j'essaie de [voir le bon côté des choses :]",
+  "en": "but I try to look on the bright side:"
+ },
+ {
+  "who": "mat",
+  "fr": "j'ai du temps pour lire. »",
+  "en": "I have time to read.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Attention, cela ne signifie pas",
+  "en": "Careful, it doesn't mean"
+ },
+ {
+  "who": "lea",
+  "fr": "qu'il faut trouver quelque chose de positif",
+  "en": "you have to find something positive"
+ },
+ {
+  "who": "lea",
+  "fr": "dans chaque situation douloureuse.",
+  "en": "in every painful situation."
+ },
+ {
+  "who": "lea",
+  "fr": "C'est surtout une expression utile",
+  "en": "It's mainly a useful expression"
+ },
+ {
+  "who": "lea",
+  "fr": "pour les petits contretemps.",
+  "en": "for small setbacks.",
+  "boardEnd": true
+ },
+ {
+  "who": "mat",
+  "fr": "Deuxième expression :",
+  "en": "Second expression:"
+ },
+ {
+  "who": "mat",
+  "fr": "« prendre du recul ».",
+  "en": "\"prendre du recul\"."
+ },
+ {
+  "who": "lea",
+  "fr": "Cela signifie regarder une situation",
+  "en": "It means looking at a situation"
+ },
+ {
+  "who": "lea",
+  "fr": "avec plus de distance et de calme.",
+  "en": "with more distance and calm."
+ },
+ {
+  "who": "lea",
+  "fr": "Par exemple : « Après une mauvaise journée,",
+  "en": "For example: \"After a bad day,"
+ },
+ {
+  "who": "lea",
+  "fr": "j'ai besoin de prendre du recul",
+  "en": "I need to step back"
+ },
+ {
+  "who": "lea",
+  "fr": "avant de prendre une décision. »",
+  "en": "before making a decision.\""
+ },
+ {
+  "who": "mat",
+  "fr": "Troisième expression :",
+  "en": "Third expression:"
+ },
+ {
+  "who": "mat",
+  "fr": "« garder les pieds sur terre ».",
+  "en": "\"garder les pieds sur terre\"."
+ },
+ {
+  "who": "lea",
+  "fr": "Cela signifie rester réaliste.",
+  "en": "It means staying realistic."
+ },
+ {
+  "who": "lea",
+  "fr": "Par exemple :",
+  "en": "For example:"
+ },
+ {
+  "who": "lea",
+  "fr": "« Je suis enthousiaste pour ce projet,",
+  "en": "\"I'm excited about this project,"
+ },
+ {
+  "who": "lea",
+  "fr": "mais je garde les pieds sur terre. »",
+  "en": "but I keep my feet on the ground.\""
+ },
+ {
+  "who": "mat",
+  "fr": "Quatrième expression :",
+  "en": "Fourth expression:"
+ },
+ {
+  "who": "mat",
+  "fr": "« avoir tendance à ».",
+  "en": "\"avoir tendance à\"."
+ },
+ {
+  "who": "lea",
+  "fr": "Cela signifie",
+  "en": "It means"
+ },
+ {
+  "who": "lea",
+  "fr": "faire quelque chose assez souvent.",
+  "en": "doing something quite often."
+ },
+ {
+  "who": "lea",
+  "fr": "Par exemple :",
+  "en": "For example:"
+ },
+ {
+  "who": "lea",
+  "fr": "« Quand je suis fatiguée,",
+  "en": "\"When I'm tired,"
+ },
+ {
+  "who": "lea",
+  "fr": "j'ai tendance à imaginer le pire. »",
+  "en": "I tend to imagine the worst.\""
+ },
+ {
+  "who": "mat",
+  "fr": "Cinquième expression :",
+  "en": "Fifth expression:",
+  "board": {
+   "mode": "match",
+   "bg": "carnet",
+   "title": "Relie les expressions !",
+   "pairs": [
+    [
+     "le bon côté",
+     "the bright side"
+    ],
+    [
+     "prendre du recul",
+     "to step back"
+    ],
+    [
+     "les pieds sur terre",
+     "to stay realistic"
+    ],
+    [
+     "reprendre confiance",
+     "to regain confidence"
+    ],
+    [
+     "retrouver son élan",
+     "get energy back"
+    ]
+   ]
+  }
+ },
+ {
+  "who": "mat",
+  "fr": "« reprendre confiance ».",
+  "en": "\"reprendre confiance\"."
+ },
+ {
+  "who": "lea",
+  "fr": "C'est retrouver progressivement",
+  "en": "It's gradually getting back"
+ },
+ {
+  "who": "lea",
+  "fr": "la confiance qu'on avait perdue.",
+  "en": "the confidence you had lost."
+ },
+ {
+  "who": "lea",
+  "fr": "Par exemple :",
+  "en": "For example:"
+ },
+ {
+  "who": "lea",
+  "fr": "« Après plusieurs petites réussites,",
+  "en": "\"After several small successes,"
+ },
+ {
+  "who": "lea",
+  "fr": "elle a commencé à [reprendre confiance. »]",
+  "en": "she began to regain confidence.\""
+ },
+ {
+  "who": "mat",
+  "fr": "Et notre dernière expression :",
+  "en": "And our last expression:"
+ },
+ {
+  "who": "mat",
+  "fr": "« retrouver son élan ».",
+  "en": "\"retrouver son élan\"."
+ },
+ {
+  "who": "lea",
+  "fr": "Elle signifie",
+  "en": "It means"
+ },
+ {
+  "who": "lea",
+  "fr": "retrouver l'énergie de continuer.",
+  "en": "finding the energy to keep going again."
+ },
+ {
+  "who": "lea",
+  "fr": "Par exemple :",
+  "en": "For example:"
+ },
+ {
+  "who": "lea",
+  "fr": "« Après une période difficile,",
+  "en": "\"After a difficult period,"
+ },
+ {
+  "who": "lea",
+  "fr": "il a retrouvé son élan",
+  "en": "he got his momentum back"
+ },
+ {
+  "who": "lea",
+  "fr": "grâce à un nouveau projet. »",
+  "en": "thanks to a new project.\""
+ },
+ {
+  "who": "mat",
+  "fr": "Voilà six expressions très utiles",
+  "en": "There you go, six very useful expressions"
+ },
+ {
+  "who": "mat",
+  "fr": "pour parler de nos émotions",
+  "en": "to talk about our emotions"
+ },
+ {
+  "who": "mat",
+  "fr": "et de notre manière de voir la vie.",
+  "en": "and our way of seeing life.",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Maintenant, regardons comment",
+  "en": "Now, let's see how"
+ },
+ {
+  "who": "lea",
+  "fr": "remplacer certaines phrases très générales",
+  "en": "to replace some very general sentences"
+ },
+ {
+  "who": "lea",
+  "fr": "par des formulations plus naturelles.",
+  "en": "with more natural wording."
+ },
+ {
+  "who": "mat",
+  "fr": "Première phrase :",
+  "en": "First sentence:",
+  "board": {
+   "mode": "transform",
+   "bg": "liege",
+   "title": "Plus précis, plus naturel",
+   "from": "*Tout va mal.*",
+   "to": "Je traverse *une journée compliquée*.",
+   "fromTag": "trop général",
+   "toTag": "plus juste",
+   "label": "préciser",
+   "en": "I'm having a complicated day.",
+   "changeAt": 3
+  }
+ },
+ {
+  "who": "mat",
+  "fr": "« Tout va mal. »",
+  "en": "\"Everything's going wrong.\""
+ },
+ {
+  "who": "lea",
+  "fr": "On peut dire :",
+  "en": "You can say:"
+ },
+ {
+  "who": "lea",
+  "fr": "« Je traverse une journée compliquée. »",
+  "en": "\"I'm having a complicated day.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Ou : « Plusieurs choses",
+  "en": "Or: \"Several things"
+ },
+ {
+  "who": "lea",
+  "fr": "ne se passent pas comme prévu aujourd'hui. »",
+  "en": "aren't going as planned today.\""
+ },
+ {
+  "who": "mat",
+  "fr": "C'est plus précis,",
+  "en": "It's more precise,"
+ },
+ {
+  "who": "mat",
+  "fr": "et ça ne transforme pas",
+  "en": "and it doesn't turn"
+ },
+ {
+  "who": "mat",
+  "fr": "une mauvaise matinée en mauvaise vie.",
+  "en": "a bad morning into a bad life.",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Deuxième phrase :",
+  "en": "Second sentence:"
+ },
+ {
+  "who": "lea",
+  "fr": "« Je suis nul. »",
+  "en": "\"I'm hopeless.\""
+ },
+ {
+  "who": "mat",
+  "fr": "On peut dire :",
+  "en": "You can say:"
+ },
+ {
+  "who": "mat",
+  "fr": "« Je manque encore de pratique. »",
+  "en": "\"I still lack practice.\""
+ },
+ {
+  "who": "mat",
+  "fr": "Ou : « Je n'ai pas réussi cette fois,",
+  "en": "Or: \"I didn't succeed this time,"
+ },
+ {
+  "who": "mat",
+  "fr": "mais je peux apprendre. »",
+  "en": "but I can learn.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Troisième phrase :",
+  "en": "Third sentence:"
+ },
+ {
+  "who": "lea",
+  "fr": "« Je pense toujours au pire. »",
+  "en": "\"I always think the worst.\""
+ },
+ {
+  "who": "mat",
+  "fr": "On peut dire :",
+  "en": "You can say:"
+ },
+ {
+  "who": "mat",
+  "fr": "« J'ai tendance à anticiper les problèmes. »",
+  "en": "\"I tend to anticipate problems.\""
+ },
+ {
+  "who": "mat",
+  "fr": "Ou : « Je me fais parfois",
+  "en": "Or: \"I sometimes worry"
+ },
+ {
+  "who": "mat",
+  "fr": "trop de souci pour l'avenir. »",
+  "en": "too much about the future.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Quatrième phrase :",
+  "en": "Fourth sentence:"
+ },
+ {
+  "who": "lea",
+  "fr": "« Je veux être heureux. »",
+  "en": "\"I want to be happy.\""
+ },
+ {
+  "who": "mat",
+  "fr": "On peut dire :",
+  "en": "You can say:"
+ },
+ {
+  "who": "mat",
+  "fr": "« J'aimerais apprécier davantage",
+  "en": "\"I'd like to appreciate more"
+ },
+ {
+  "who": "mat",
+  "fr": "les petits moments du quotidien. »",
+  "en": "the little everyday moments.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Ou : « Je cherche un meilleur équilibre",
+  "en": "Or: \"I'm looking for a better balance"
+ },
+ {
+  "who": "lea",
+  "fr": "dans ma vie. »",
+  "en": "in my life.\""
+ },
+ {
+  "who": "mat",
+  "fr": "Cinquième phrase :",
+  "en": "Fifth sentence:"
+ }
+]

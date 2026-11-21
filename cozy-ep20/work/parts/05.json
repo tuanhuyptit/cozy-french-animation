@@ -1,0 +1,520 @@
+[
+ {
+  "who": "mat",
+  "fr": "mais elle avance prudemment.",
+  "en": "but she's moving forward carefully.",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Et elle ne sait pas encore exactement",
+  "en": "And she doesn't know exactly yet"
+ },
+ {
+  "who": "lea",
+  "fr": "où ce projet la mènera.",
+  "en": "where this project will take her."
+ },
+ {
+  "who": "mat",
+  "fr": "Non. Pourtant, elle se sent moins bloquée,",
+  "en": "No. Still, she feels less stuck,"
+ },
+ {
+  "who": "mat",
+  "fr": "parce qu'elle fait quelque chose de concret.",
+  "en": "because she's doing something concrete."
+ },
+ {
+  "who": "lea",
+  "fr": "J'aime beaucoup cet exemple.",
+  "en": "I really like that example.",
+  "emote": "coeur"
+ },
+ {
+  "who": "lea",
+  "fr": "L'optimisme ne consiste pas toujours",
+  "en": "Optimism isn't always about"
+ },
+ {
+  "who": "lea",
+  "fr": "à être sûr de réussir.",
+  "en": "being sure you'll succeed."
+ },
+ {
+  "who": "lea",
+  "fr": "Parfois, c'est accepter",
+  "en": "Sometimes, it's agreeing"
+ },
+ {
+  "who": "lea",
+  "fr": "de chercher une possibilité.",
+  "en": "to look for a possibility."
+ },
+ {
+  "who": "mat",
+  "fr": "« Je ne sais pas si ça marchera,",
+  "en": "\"I don't know if it'll work,"
+ },
+ {
+  "who": "mat",
+  "fr": "mais je peux me renseigner. »",
+  "en": "but I can look into it.\""
+ },
+ {
+  "who": "mat",
+  "fr": "C'est une phrase positive et réaliste.",
+  "en": "That's a positive and realistic sentence."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Et cela nous aide",
+  "en": "Exactly. And it helps us"
+ },
+ {
+  "who": "lea",
+  "fr": "à éviter deux extrêmes :",
+  "en": "avoid two extremes:"
+ },
+ {
+  "who": "lea",
+  "fr": "croire que tout ira parfaitement,",
+  "en": "believing everything will go perfectly,"
+ },
+ {
+  "who": "lea",
+  "fr": "ou penser que rien ne peut s'améliorer.",
+  "en": "or thinking nothing can get better."
+ },
+ {
+  "who": "mat",
+  "fr": "Entre les deux, il y a la curiosité,",
+  "en": "In between, there's curiosity,"
+ },
+ {
+  "who": "mat",
+  "fr": "les essais et les ajustements.",
+  "en": "trial and error, and adjustments."
+ },
+ {
+  "who": "lea",
+  "fr": "Oui.",
+  "en": "Yes."
+ },
+ {
+  "who": "lea",
+  "fr": "Mais il faut parler d'une autre situation,",
+  "en": "But we need to talk about another situation,"
+ },
+ {
+  "who": "lea",
+  "fr": "plus délicate.",
+  "en": "a more delicate one."
+ },
+ {
+  "who": "lea",
+  "fr": "Que fait-on",
+  "en": "What do we do"
+ },
+ {
+  "who": "lea",
+  "fr": "quand on traverse une véritable déception ?",
+  "en": "when we go through a real disappointment?"
+ },
+ {
+  "who": "mat",
+  "fr": "Là, les jolies phrases ne suffisent pas toujours.",
+  "en": "Then, pretty phrases aren't always enough."
+ },
+ {
+  "who": "lea",
+  "fr": "C'est vrai.",
+  "en": "That's true."
+ },
+ {
+  "who": "lea",
+  "fr": "Et je ne voudrais surtout pas",
+  "en": "And I really wouldn't want"
+ },
+ {
+  "who": "lea",
+  "fr": "donner l'impression qu'il faut sourire",
+  "en": "to give the impression we must smile"
+ },
+ {
+  "who": "lea",
+  "fr": "après chaque mauvaise nouvelle.",
+  "en": "after every piece of bad news."
+ },
+ {
+  "who": "mat",
+  "fr": "Moi non plus.",
+  "en": "Me neither."
+ },
+ {
+  "who": "mat",
+  "fr": "J'ai connu une période",
+  "en": "I went through a time"
+ },
+ {
+  "who": "mat",
+  "fr": "où un projet personnel",
+  "en": "when a personal project"
+ },
+ {
+  "who": "mat",
+  "fr": "sur lequel j'avais beaucoup travaillé",
+  "en": "I'd worked very hard on"
+ },
+ {
+  "who": "mat",
+  "fr": "n'a pas [abouti.]",
+  "en": "didn't come to anything."
+ },
+ {
+  "who": "lea",
+  "fr": "Tu avais consacré beaucoup de temps",
+  "en": "Had you put a lot of time"
+ },
+ {
+  "who": "lea",
+  "fr": "à ce projet ?",
+  "en": "into that project?"
+ },
+ {
+  "who": "mat",
+  "fr": "Presque un an.",
+  "en": "Almost a year."
+ },
+ {
+  "who": "mat",
+  "fr": "J'espérais organiser une petite exposition",
+  "en": "I was hoping to organize a small exhibition"
+ },
+ {
+  "who": "mat",
+  "fr": "de photos avec des amis.",
+  "en": "of photos with friends."
+ },
+ {
+  "who": "mat",
+  "fr": "Nous avions trouvé un lieu,",
+  "en": "We'd found a venue,"
+ },
+ {
+  "who": "mat",
+  "fr": "préparé une sélection,",
+  "en": "prepared a selection,"
+ },
+ {
+  "who": "mat",
+  "fr": "mais l'événement a finalement été annulé.",
+  "en": "but the event was cancelled in the end."
+ },
+ {
+  "who": "lea",
+  "fr": "Tu as dû être très déçu.",
+  "en": "You must have been very disappointed.",
+  "emote": "triste"
+ },
+ {
+  "who": "mat",
+  "fr": "Oui. Et même en colère.",
+  "en": "Yes. And even angry."
+ },
+ {
+  "who": "mat",
+  "fr": "Pendant plusieurs semaines,",
+  "en": "For several weeks,"
+ },
+ {
+  "who": "mat",
+  "fr": "je n'avais plus envie",
+  "en": "I no longer felt like"
+ },
+ {
+  "who": "mat",
+  "fr": "de sortir mon appareil photo.",
+  "en": "taking out my camera."
+ },
+ {
+  "who": "lea",
+  "fr": "C'est compréhensible.",
+  "en": "That's understandable."
+ },
+ {
+  "who": "lea",
+  "fr": "Tu avais perdu quelque chose",
+  "en": "You'd lost something"
+ },
+ {
+  "who": "lea",
+  "fr": "d'important pour toi.",
+  "en": "that mattered to you."
+ },
+ {
+  "who": "mat",
+  "fr": "Exactement.",
+  "en": "Exactly."
+ },
+ {
+  "who": "mat",
+  "fr": "Un ami m'a appelé et m'a proposé une promenade.",
+  "en": "A friend called and suggested a walk.",
+  "illus": "amis",
+  "label": "un ami"
+ },
+ {
+  "who": "mat",
+  "fr": "Je lui ai dit : « Je ne [suis pas d'humeur]",
+  "en": "I told him: \"I'm not in the mood"
+ },
+ {
+  "who": "mat",
+  "fr": "à faire de belles photos. »",
+  "en": "to take nice photos.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Et qu'est-ce qu'il a répondu ?",
+  "en": "And what did he say?"
+ },
+ {
+  "who": "mat",
+  "fr": "« Alors, ne prends pas de photos.",
+  "en": "\"Then don't take any photos."
+ },
+ {
+  "who": "mat",
+  "fr": "Viens simplement marcher. »",
+  "en": "Just come for a walk.\""
+ },
+ {
+  "who": "mat",
+  "fr": "C'était tout.",
+  "en": "That was all."
+ },
+ {
+  "who": "lea",
+  "fr": "C'est une réponse très douce.",
+  "en": "That's a very gentle answer.",
+  "emote": "coeur"
+ },
+ {
+  "who": "lea",
+  "fr": "Il ne t'a pas demandé",
+  "en": "He didn't ask you"
+ },
+ {
+  "who": "lea",
+  "fr": "de transformer ta déception",
+  "en": "to turn your disappointment"
+ },
+ {
+  "who": "lea",
+  "fr": "en grande leçon immédiatement.",
+  "en": "into a big lesson right away."
+ },
+ {
+  "who": "mat",
+  "fr": "Oui.",
+  "en": "Yes."
+ },
+ {
+  "who": "mat",
+  "fr": "Nous avons marché, parlé de tout et de rien.",
+  "en": "We walked, talked about this and that."
+ },
+ {
+  "who": "mat",
+  "fr": "Après un moment, je me suis surpris",
+  "en": "After a while, I caught myself"
+ },
+ {
+  "who": "mat",
+  "fr": "à remarquer la lumière sur les arbres.",
+  "en": "noticing the light on the trees."
+ },
+ {
+  "who": "mat",
+  "fr": "Quelques jours plus tard,",
+  "en": "A few days later,"
+ },
+ {
+  "who": "mat",
+  "fr": "j'ai repris mon appareil.",
+  "en": "I picked up my camera again."
+ },
+ {
+  "who": "lea",
+  "fr": "Donc ton ami",
+  "en": "So your friend"
+ },
+ {
+  "who": "lea",
+  "fr": "ne t'a pas obligé à être positif.",
+  "en": "didn't force you to be positive."
+ },
+ {
+  "who": "lea",
+  "fr": "Il t'a simplement accompagné.",
+  "en": "He just kept you company."
+ },
+ {
+  "who": "mat",
+  "fr": "Exactement.",
+  "en": "Exactly."
+ },
+ {
+  "who": "mat",
+  "fr": "Et cela m'a aidé à comprendre",
+  "en": "And it helped me understand"
+ },
+ {
+  "who": "mat",
+  "fr": "qu'une déception peut être réelle",
+  "en": "that a disappointment can be real"
+ },
+ {
+  "who": "mat",
+  "fr": "sans résumer tout notre avenir.",
+  "en": "without summing up our whole future."
+ },
+ {
+  "who": "lea",
+  "fr": "Je trouve cela essentiel.",
+  "en": "I find that essential."
+ },
+ {
+  "who": "lea",
+  "fr": "Être positif",
+  "en": "Being positive"
+ },
+ {
+  "who": "lea",
+  "fr": "ne veut pas dire nier la tristesse.",
+  "en": "doesn't mean denying sadness."
+ },
+ {
+  "who": "lea",
+  "fr": "On peut être triste aujourd'hui",
+  "en": "You can be sad today"
+ },
+ {
+  "who": "lea",
+  "fr": "et garder la possibilité",
+  "en": "and still keep the possibility"
+ },
+ {
+  "who": "lea",
+  "fr": "de vivre autre chose demain.",
+  "en": "of living something else tomorrow."
+ },
+ {
+  "who": "mat",
+  "fr": "Et on peut aussi demander de l'aide",
+  "en": "And we can also ask for help"
+ },
+ {
+  "who": "mat",
+  "fr": "si une situation devient trop lourde.",
+  "en": "if a situation becomes too heavy."
+ },
+ {
+  "who": "mat",
+  "fr": "Nous n'avons pas besoin de tout porter seuls.",
+  "en": "We don't have to carry everything alone."
+ },
+ {
+  "who": "lea",
+  "fr": "Absolument.",
+  "en": "Absolutely."
+ },
+ {
+  "who": "lea",
+  "fr": "Le soutien d'un proche,",
+  "en": "The support of a loved one,"
+ },
+ {
+  "who": "lea",
+  "fr": "et parfois celui d'un professionnel,",
+  "en": "and sometimes that of a professional,"
+ },
+ {
+  "who": "lea",
+  "fr": "peut être précieux quand la souffrance dure",
+  "en": "can be precious when suffering lasts"
+ },
+ {
+  "who": "lea",
+  "fr": "ou devient difficile à gérer.",
+  "en": "or becomes hard to manage."
+ },
+ {
+  "who": "mat",
+  "fr": "Tu sais, j'aime bien l'expression",
+  "en": "You know, I like the expression",
+  "board": {
+   "mode": "idiom",
+   "bg": "liege",
+   "expr": "retrouver son élan",
+   "literal": "to find your run-up again",
+   "meaning": "to get your energy back",
+   "icon": "soleil",
+   "ex": "Après les vacances, j'ai retrouvé mon élan.",
+   "exEn": "After the holidays, I got my energy back.",
+   "meaningAt": 3
+  }
+ },
+ {
+  "who": "mat",
+  "fr": "« retrouver peu à peu son élan ».",
+  "en": "\"gradually getting your momentum back\"."
+ },
+ {
+  "who": "lea",
+  "fr": "Oui. [« Retrouver son élan »,]",
+  "en": "Yes. \"Retrouver son élan\""
+ },
+ {
+  "who": "lea",
+  "fr": "c'est recommencer à avoir l'énergie",
+  "en": "means having the energy again"
+ },
+ {
+  "who": "lea",
+  "fr": "ou l'envie d'avancer",
+  "en": "or the desire to move forward"
+ },
+ {
+  "who": "lea",
+  "fr": "après une période difficile.",
+  "en": "after a difficult period."
+ },
+ {
+  "who": "mat",
+  "fr": "Par exemple : « Après cette déception,",
+  "en": "For example: \"After this disappointment,"
+ },
+ {
+  "who": "mat",
+  "fr": "il lui a fallu du temps",
+  "en": "it took him time"
+ },
+ {
+  "who": "mat",
+  "fr": "pour retrouver son élan. »",
+  "en": "to get his momentum back.\"",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Très bien.",
+  "en": "Very good."
+ },
+ {
+  "who": "lea",
+  "fr": "Et ce temps est différent pour chacun.",
+  "en": "And that time is different for everyone."
+ }
+]

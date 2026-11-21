@@ -1,0 +1,5143 @@
+{
+  "scene": "boulangerie",
+  "lea": "mariniere",
+  "mat": "jacquard",
+  "decor": [
+    "fleurs",
+    "livres"
+  ],
+  "audio": "assets/voice.mp3",
+  "audioEnd": 1708.95,
+  "chunks": [
+    {
+      "who": "lea",
+      "fr": "Bonjour à toutes et à tous !",
+      "en": "Hello everyone!"
+    },
+    {
+      "who": "lea",
+      "fr": "Bienvenue dans The Cozy French,",
+      "en": "Welcome to The Cozy French,"
+    },
+    {
+      "who": "lea",
+      "fr": "notre petit coin chaleureux",
+      "en": "our cozy little corner"
+    },
+    {
+      "who": "lea",
+      "fr": "pour apprendre le français",
+      "en": "to learn French"
+    },
+    {
+      "who": "lea",
+      "fr": "grâce à des conversations de tous les jours.",
+      "en": "through everyday conversations."
+    },
+    {
+      "who": "lea",
+      "fr": "Je suis Léa, et je suis ravie de vous retrouver.",
+      "en": "I'm Léa, and I'm delighted to see you again."
+    },
+    {
+      "who": "mat",
+      "fr": "Et moi, c'est Mathieu !",
+      "en": "And I'm Mathieu!"
+    },
+    {
+      "who": "mat",
+      "fr": "Bonjour, chers amis !",
+      "en": "Hello, dear friends!"
+    },
+    {
+      "who": "mat",
+      "fr": "Que vous soyez dans le bus,",
+      "en": "Whether you're on the bus,"
+    },
+    {
+      "who": "mat",
+      "fr": "à la maison ou en promenade,",
+      "en": "at home or out for a walk,"
+    },
+    {
+      "who": "mat",
+      "fr": "faites comme chez vous.",
+      "en": "make yourselves at home."
+    },
+    {
+      "who": "mat",
+      "fr": "Aujourd'hui, j'espère que vous avez gardé",
+      "en": "Today, I hope you've kept"
+    },
+    {
+      "who": "mat",
+      "fr": "une petite place",
+      "en": "a little room"
+    },
+    {
+      "who": "mat",
+      "fr": "pour une conversation qui fait du bien.",
+      "en": "for a conversation that feels good."
+    },
+    {
+      "who": "lea",
+      "fr": "Mathieu, tu as l'air particulièrement content.",
+      "en": "Mathieu, you look especially happy."
+    },
+    {
+      "who": "lea",
+      "fr": "Une bonne nouvelle ?",
+      "en": "Good news?"
+    },
+    {
+      "who": "mat",
+      "fr": "Pas exactement.",
+      "en": "Not exactly."
+    },
+    {
+      "who": "mat",
+      "fr": "Ce matin, j'ai [renversé] mon café sur ma chemise,",
+      "en": "This morning, I spilled coffee on my shirt,"
+    },
+    {
+      "who": "mat",
+      "fr": "j'ai raté mon tram et j'ai oublié mon parapluie.",
+      "en": "missed my tram and forgot my umbrella."
+    },
+    {
+      "who": "mat",
+      "fr": "Une matinée absolument magnifique !",
+      "en": "An absolutely wonderful morning!"
+    },
+    {
+      "who": "lea",
+      "fr": "Attends... Tu viens de décrire trois problèmes.",
+      "en": "Wait... You just described three problems.",
+      "emote": "surpris"
+    },
+    {
+      "who": "lea",
+      "fr": "Pourquoi souris-tu ?",
+      "en": "Why are you smiling?"
+    },
+    {
+      "who": "mat",
+      "fr": "Parce qu'après avoir raté le tram,",
+      "en": "Because after missing the tram,"
+    },
+    {
+      "who": "mat",
+      "fr": "je suis entré dans une boulangerie.",
+      "en": "I went into a bakery."
+    },
+    {
+      "who": "mat",
+      "fr": "La boulangère m'a offert un petit biscuit",
+      "en": "The baker gave me a little cookie"
+    },
+    {
+      "who": "mat",
+      "fr": "avec mon café.",
+      "en": "with my coffee."
+    },
+    {
+      "who": "mat",
+      "fr": "Et puis, j'ai croisé un voisin",
+      "en": "And then I ran into a neighbor"
+    },
+    {
+      "who": "mat",
+      "fr": "que je n'avais pas vu depuis longtemps.",
+      "en": "I hadn't seen in a long time."
+    },
+    {
+      "who": "lea",
+      "fr": "Donc ta matinée n'a pas commencé comme prévu,",
+      "en": "So your morning didn't start as planned,"
+    },
+    {
+      "who": "lea",
+      "fr": "mais elle t'a réservé",
+      "en": "but it had"
+    },
+    {
+      "who": "lea",
+      "fr": "quelques surprises agréables.",
+      "en": "a few nice surprises in store for you."
+    },
+    {
+      "who": "mat",
+      "fr": "Voilà. Je ne vais pas prétendre",
+      "en": "That's it. I won't pretend"
+    },
+    {
+      "who": "mat",
+      "fr": "que j'étais ravi de ma chemise tachée.",
+      "en": "I was thrilled about my stained shirt."
+    },
+    {
+      "who": "mat",
+      "fr": "Mais j'ai décidé de ne pas laisser",
+      "en": "But I decided not to let"
+    },
+    {
+      "who": "mat",
+      "fr": "cet accident gâcher toute la journée.",
+      "en": "that accident ruin the whole day."
+    },
+    {
+      "who": "lea",
+      "fr": "Tu sais, c'est une excellente introduction",
+      "en": "You know, that's a great introduction"
+    },
+    {
+      "who": "lea",
+      "fr": "à notre sujet :",
+      "en": "to our topic:"
+    },
+    {
+      "who": "lea",
+      "fr": "« The Power of Positivity »,",
+      "en": "\"The Power of Positivity\","
+    },
+    {
+      "who": "lea",
+      "fr": "le pouvoir de la pensée positive.",
+      "en": "the power of positive thinking."
+    },
+    {
+      "who": "mat",
+      "fr": "Ah ! Donc aujourd'hui,",
+      "en": "Ah! So today,"
+    },
+    {
+      "who": "mat",
+      "fr": "on va apprendre à sourire",
+      "en": "we're going to learn to smile"
+    },
+    {
+      "who": "mat",
+      "fr": "quand le tram part sans nous ?",
+      "en": "when the tram leaves without us?"
+    },
+    {
+      "who": "lea",
+      "fr": "Pas du tout !",
+      "en": "Not at all!"
+    },
+    {
+      "who": "lea",
+      "fr": "Nous allons parler d'une attitude plus réaliste :",
+      "en": "We'll talk about a more realistic attitude:"
+    },
+    {
+      "who": "lea",
+      "fr": "reconnaître les difficultés,",
+      "en": "recognizing difficulties,"
+    },
+    {
+      "who": "lea",
+      "fr": "sans oublier ce qui peut encore nous aider,",
+      "en": "without forgetting what can still help us,"
+    },
+    {
+      "who": "lea",
+      "fr": "nous surprendre ou nous donner de l'espoir.",
+      "en": "surprise us or give us hope."
+    },
+    {
+      "who": "mat",
+      "fr": "J'aime cette définition.",
+      "en": "I like that definition."
+    },
+    {
+      "who": "mat",
+      "fr": "Parce que si être positif",
+      "en": "Because if being positive"
+    },
+    {
+      "who": "mat",
+      "fr": "signifie être joyeux tout le temps,",
+      "en": "means being cheerful all the time,"
+    },
+    {
+      "who": "mat",
+      "fr": "je [déclare forfait] dès le lundi matin.",
+      "en": "I give up on Monday morning."
+    },
+    {
+      "who": "lea",
+      "fr": "Et personne ne te demande cela.",
+      "en": "And nobody's asking you to."
+    },
+    {
+      "who": "lea",
+      "fr": "Nous allons discuter de nos pensées,",
+      "en": "We'll discuss our thoughts,"
+    },
+    {
+      "who": "lea",
+      "fr": "de nos petits moments heureux,",
+      "en": "our little happy moments,"
+    },
+    {
+      "who": "lea",
+      "fr": "de nos objectifs et de la manière",
+      "en": "our goals and the way"
+    },
+    {
+      "who": "lea",
+      "fr": "de traverser les périodes moins faciles.",
+      "en": "to get through harder times."
+    },
+    {
+      "who": "mat",
+      "fr": "Avec nos histoires habituelles,",
+      "en": "With our usual stories,"
+    },
+    {
+      "who": "mat",
+      "fr": "quelques plaisanteries et du français accessible.",
+      "en": "a few jokes and accessible French."
+    },
+    {
+      "who": "mat",
+      "fr": "Vers la fin, nous reviendrons aussi",
+      "en": "Near the end, we'll also come back"
+    },
+    {
+      "who": "mat",
+      "fr": "sur plusieurs expressions utiles.",
+      "en": "to several useful expressions."
+    },
+    {
+      "who": "lea",
+      "fr": "Avant de commencer,",
+      "en": "Before we start,"
+    },
+    {
+      "who": "lea",
+      "fr": "dites-nous dans les commentaires :",
+      "en": "tell us in the comments:"
+    },
+    {
+      "who": "lea",
+      "fr": "quelle petite chose",
+      "en": "what little thing"
+    },
+    {
+      "who": "lea",
+      "fr": "vous a fait sourire récemment ?",
+      "en": "made you smile recently?"
+    },
+    {
+      "who": "lea",
+      "fr": "Une phrase simple en français suffit.",
+      "en": "One simple sentence in French is enough."
+    },
+    {
+      "who": "mat",
+      "fr": "Et si vous aimez ces conversations,",
+      "en": "And if you like these conversations,"
+    },
+    {
+      "who": "mat",
+      "fr": "pensez à vous abonner à The Cozy French.",
+      "en": "remember to subscribe to The Cozy French."
+    },
+    {
+      "who": "mat",
+      "fr": "Allez, Léa, je suis prêt.",
+      "en": "Come on, Léa, I'm ready."
+    },
+    {
+      "who": "mat",
+      "fr": "Enfin, presque.",
+      "en": "Well, almost."
+    },
+    {
+      "who": "mat",
+      "fr": "Il me reste un morceau de biscuit.",
+      "en": "I still have a piece of cookie left.",
+      "emote": "gene"
+    },
+    {
+      "who": "lea",
+      "fr": "Mathieu ! Termine ton biscuit",
+      "en": "Mathieu! Finish your cookie",
+      "emote": "rire"
+    },
+    {
+      "who": "lea",
+      "fr": "et raconte-moi quelque chose.",
+      "en": "and tell me something."
+    },
+    {
+      "who": "lea",
+      "fr": "Quand ton café s'est renversé,",
+      "en": "When your coffee spilled,"
+    },
+    {
+      "who": "lea",
+      "fr": "quelle a été ta première pensée ?",
+      "en": "what was your first thought?"
+    },
+    {
+      "who": "mat",
+      "fr": "« Évidemment ! Ça commence mal,",
+      "en": "\"Of course! It's starting badly,"
+    },
+    {
+      "who": "mat",
+      "fr": "donc toute la journée sera mauvaise. »",
+      "en": "so the whole day will be bad.\""
+    },
+    {
+      "who": "mat",
+      "fr": "C'était automatique.",
+      "en": "It was automatic."
+    },
+    {
+      "who": "lea",
+      "fr": "Et c'est intéressant,",
+      "en": "And that's interesting,"
+    },
+    {
+      "who": "lea",
+      "fr": "parce qu'un événement désagréable",
+      "en": "because one unpleasant event"
+    },
+    {
+      "who": "lea",
+      "fr": "peut parfois devenir, dans notre tête,",
+      "en": "can sometimes become, in our heads,"
+    },
+    {
+      "who": "lea",
+      "fr": "une conclusion sur tout le reste.",
+      "en": "a conclusion about everything else."
+    },
+    {
+      "who": "mat",
+      "fr": "Exactement. Je n'avais encore vécu",
+      "en": "Exactly. I'd only lived"
+    },
+    {
+      "who": "mat",
+      "fr": "que quinze minutes de ma journée,",
+      "en": "fifteen minutes of my day,"
+    },
+    {
+      "who": "mat",
+      "fr": "mais mon esprit avait déjà décidé de la suite.",
+      "en": "but my mind had already decided the rest."
+    },
+    {
+      "who": "lea",
+      "fr": "Cela m'arrive aussi.",
+      "en": "That happens to me too."
+    },
+    {
+      "who": "lea",
+      "fr": "Quand une chose se passe mal,",
+      "en": "When one thing goes wrong,"
+    },
+    {
+      "who": "lea",
+      "fr": "je remarque plus facilement",
+      "en": "I notice more easily"
+    },
+    {
+      "who": "lea",
+      "fr": "les autres petits problèmes.",
+      "en": "the other little problems."
+    },
+    {
+      "who": "lea",
+      "fr": "Comme si mon attention cherchait",
+      "en": "As if my attention were looking for"
+    },
+    {
+      "who": "lea",
+      "fr": "des preuves que j'ai raison de m'inquiéter.",
+      "en": "proof that I'm right to worry.",
+      "emote": "gene"
+    },
+    {
+      "who": "mat",
+      "fr": "Alors comment fais-tu",
+      "en": "So how do you"
+    },
+    {
+      "who": "mat",
+      "fr": "pour ne pas tomber dans ce piège ?",
+      "en": "avoid falling into that trap?"
+    },
+    {
+      "who": "lea",
+      "fr": "J'essaie de décrire la situation avec précision.",
+      "en": "I try to describe the situation precisely."
+    },
+    {
+      "who": "lea",
+      "fr": "Au lieu de dire « Tout va mal »,",
+      "en": "Instead of saying \"Everything's going wrong\","
+    },
+    {
+      "who": "lea",
+      "fr": "je dis « Ce matin, j'ai eu un contretemps. »",
+      "en": "I say \"This morning, I had a setback.\""
+    },
+    {
+      "who": "mat",
+      "fr": "« Un contretemps » ?",
+      "en": "\"A setback\"?",
+      "board": {
+        "mode": "word",
+        "bg": "liege",
+        "note": "= un événement imprévu qui perturbe nos projets",
+        "icon": "temps"
+      }
+    },
+    {
+      "who": "mat",
+      "fr": "C'est un mot que j'aime bien.",
+      "en": "That's a word I really like."
+    },
+    {
+      "who": "lea",
+      "fr": "[Un contretemps,] c'est un événement imprévu",
+      "en": "A setback is an unexpected event"
+    },
+    {
+      "who": "lea",
+      "fr": "qui perturbe nos projets.",
+      "en": "that disrupts our plans."
+    },
+    {
+      "who": "lea",
+      "fr": "Par exemple : « J'ai eu un contretemps",
+      "en": "For example: \"Something came up"
+    },
+    {
+      "who": "lea",
+      "fr": "et je serai un peu en retard. »",
+      "en": "and I'll be a bit late.\""
+    },
+    {
+      "who": "mat",
+      "fr": "C'est beaucoup moins dramatique",
+      "en": "That's much less dramatic"
+    },
+    {
+      "who": "mat",
+      "fr": "que « Ma vie est une catastrophe",
+      "en": "than \"My life is a disaster"
+    },
+    {
+      "who": "mat",
+      "fr": "parce que j'ai raté le tram ».",
+      "en": "because I missed the tram.\"",
+      "boardEnd": true
+    },
+    {
+      "who": "lea",
+      "fr": "Exactement.",
+      "en": "Exactly."
+    },
+    {
+      "who": "lea",
+      "fr": "Les mots qu'on choisit",
+      "en": "The words we choose"
+    },
+    {
+      "who": "lea",
+      "fr": "ne suppriment pas le problème,",
+      "en": "don't get rid of the problem,"
+    },
+    {
+      "who": "lea",
+      "fr": "mais ils peuvent nous aider",
+      "en": "but they can help us"
+    },
+    {
+      "who": "lea",
+      "fr": "à le regarder plus justement.",
+      "en": "look at it more fairly."
+    },
+    {
+      "who": "mat",
+      "fr": "Tu sais, j'ai un ami",
+      "en": "You know, I have a friend"
+    },
+    {
+      "who": "mat",
+      "fr": "qui a une expression amusante.",
+      "en": "who has a funny expression."
+    },
+    {
+      "who": "mat",
+      "fr": "Quand une journée commence mal, il dit :",
+      "en": "When a day starts badly, he says:"
+    },
+    {
+      "who": "mat",
+      "fr": "« Bon, ce n'est pas le scénario",
+      "en": "\"Well, this isn't the script"
+    },
+    {
+      "who": "mat",
+      "fr": "que j'avais commandé. »",
+      "en": "I ordered.\""
+    },
+    {
+      "who": "lea",
+      "fr": "J'adore ! Il reconnaît",
+      "en": "I love it! He admits",
+      "emote": "rire"
+    },
+    {
+      "who": "lea",
+      "fr": "que quelque chose ne va pas,",
+      "en": "that something's wrong,"
+    },
+    {
+      "who": "lea",
+      "fr": "sans en faire une tragédie.",
+      "en": "without turning it into a tragedy."
+    },
+    {
+      "who": "mat",
+      "fr": "Oui. Et parfois,",
+      "en": "Yes. And sometimes,"
+    },
+    {
+      "who": "mat",
+      "fr": "cela suffit pour respirer",
+      "en": "that's enough to breathe"
+    },
+    {
+      "who": "mat",
+      "fr": "et chercher une solution.",
+      "en": "and look for a solution."
+    },
+    {
+      "who": "mat",
+      "fr": "Une chemise tachée, ça se change.",
+      "en": "A stained shirt can be changed."
+    },
+    {
+      "who": "mat",
+      "fr": "Un tram raté, il y en aura un autre.",
+      "en": "A missed tram? There'll be another one."
+    },
+    {
+      "who": "lea",
+      "fr": "Bien sûr, ce raisonnement",
+      "en": "Of course, this reasoning"
+    },
+    {
+      "who": "lea",
+      "fr": "ne fonctionne pas aussi simplement",
+      "en": "doesn't work so simply"
+    },
+    {
+      "who": "lea",
+      "fr": "pour les grandes difficultés.",
+      "en": "for big difficulties."
+    },
+    {
+      "who": "lea",
+      "fr": "Une perte, une maladie",
+      "en": "A loss, an illness",
+      "illus": "sante",
+      "label": "une maladie"
+    },
+    {
+      "who": "lea",
+      "fr": "ou une situation financière compliquée",
+      "en": "or a difficult financial situation"
+    },
+    {
+      "who": "lea",
+      "fr": "demandent autre chose",
+      "en": "call for something other"
+    },
+    {
+      "who": "lea",
+      "fr": "qu'une petite phrase amusante.",
+      "en": "than a funny little phrase."
+    },
+    {
+      "who": "mat",
+      "fr": "C'est important de le dire.",
+      "en": "It's important to say that."
+    },
+    {
+      "who": "mat",
+      "fr": "On peut être positif",
+      "en": "You can be positive"
+    },
+    {
+      "who": "mat",
+      "fr": "sans minimiser ce que quelqu'un traverse.",
+      "en": "without minimizing what someone's going through."
+    },
+    {
+      "who": "lea",
+      "fr": "Exactement.",
+      "en": "Exactly."
+    },
+    {
+      "who": "lea",
+      "fr": "Et pour les petites [contrariétés] quotidiennes,",
+      "en": "And for small everyday annoyances,"
+    },
+    {
+      "who": "lea",
+      "fr": "changer légèrement de perspective",
+      "en": "slightly changing perspective"
+    },
+    {
+      "who": "lea",
+      "fr": "peut déjà faire une différence.",
+      "en": "can already make a difference."
+    },
+    {
+      "who": "mat",
+      "fr": "Comme regarder la fenêtre",
+      "en": "Like looking at the window"
+    },
+    {
+      "who": "mat",
+      "fr": "au lieu de regarder seulement la tache de café ?",
+      "en": "instead of only looking at the coffee stain?"
+    },
+    {
+      "who": "lea",
+      "fr": "À condition de nettoyer la tache, quand même !",
+      "en": "As long as you clean the stain, though!",
+      "emote": "rire"
+    },
+    {
+      "who": "mat",
+      "fr": "Tu as raison.",
+      "en": "You're right."
+    },
+    {
+      "who": "mat",
+      "fr": "La pensée positive",
+      "en": "Positive thinking"
+    },
+    {
+      "who": "mat",
+      "fr": "ne fait pas disparaître le café.",
+      "en": "doesn't make the coffee disappear."
+    },
+    {
+      "who": "lea",
+      "fr": "Non, mais elle peut t'aider à ne pas donner",
+      "en": "No, but it can help you not give"
+    },
+    {
+      "who": "lea",
+      "fr": "à cet incident toute ton énergie.",
+      "en": "that incident all your energy."
+    },
+    {
+      "who": "lea",
+      "fr": "Et justement, que fais-tu quand tu te réveilles",
+      "en": "And speaking of which, what do you do when you wake up"
+    },
+    {
+      "who": "lea",
+      "fr": "avec beaucoup de pensées négatives ?",
+      "en": "with lots of negative thoughts?"
+    },
+    {
+      "who": "mat",
+      "fr": "En général, je prends mon téléphone.",
+      "en": "Usually, I pick up my phone."
+    },
+    {
+      "who": "mat",
+      "fr": "Très mauvaise idée, je sais.",
+      "en": "Very bad idea, I know."
+    },
+    {
+      "who": "lea",
+      "fr": "Pourquoi ?",
+      "en": "Why?"
+    },
+    {
+      "who": "mat",
+      "fr": "Je regarde les messages, puis les nouvelles,",
+      "en": "I check messages, then the news,"
+    },
+    {
+      "who": "mat",
+      "fr": "puis des photos de personnes",
+      "en": "then photos of people"
+    },
+    {
+      "who": "mat",
+      "fr": "qui semblent avoir des vies absolument parfaites.",
+      "en": "who seem to have absolutely perfect lives."
+    },
+    {
+      "who": "mat",
+      "fr": "Dix minutes plus tard,",
+      "en": "Ten minutes later,"
+    },
+    {
+      "who": "mat",
+      "fr": "je me sens encore plus fatigué.",
+      "en": "I feel even more tired."
+    },
+    {
+      "who": "lea",
+      "fr": "Tu as l'impression de commencer ta journée",
+      "en": "It's like starting your day"
+    },
+    {
+      "who": "lea",
+      "fr": "en laissant les autres choisir",
+      "en": "by letting others choose"
+    },
+    {
+      "who": "lea",
+      "fr": "ce qui occupera ton esprit.",
+      "en": "what will fill your mind."
+    },
+    {
+      "who": "mat",
+      "fr": "Exactement.",
+      "en": "Exactly."
+    },
+    {
+      "who": "mat",
+      "fr": "Alors j'ai essayé quelque chose de nouveau :",
+      "en": "So I tried something new:"
+    },
+    {
+      "who": "mat",
+      "fr": "les dix premières minutes du matin,",
+      "en": "for the first ten minutes of the morning,"
+    },
+    {
+      "who": "mat",
+      "fr": "je laisse mon téléphone de côté.",
+      "en": "I leave my phone aside."
+    },
+    {
+      "who": "lea",
+      "fr": "Et tu fais quoi à la place ?",
+      "en": "And what do you do instead?"
+    },
+    {
+      "who": "mat",
+      "fr": "J'ouvre la fenêtre,",
+      "en": "I open the window,"
+    },
+    {
+      "who": "mat",
+      "fr": "je prépare mon petit-déjeuner,",
+      "en": "I make my breakfast,"
+    },
+    {
+      "who": "mat",
+      "fr": "et je choisis une musique agréable.",
+      "en": "and I choose some nice music.",
+      "illus": "musique",
+      "label": "une musique"
+    },
+    {
+      "who": "mat",
+      "fr": "Pas un programme héroïque.",
+      "en": "Not a heroic program."
+    },
+    {
+      "who": "mat",
+      "fr": "Juste un début de journée plus doux.",
+      "en": "Just a gentler start to the day."
+    },
+    {
+      "who": "lea",
+      "fr": "Est-ce que cela change ton humeur ?",
+      "en": "Does it change your mood?",
+      "emote": "question"
+    },
+    {
+      "who": "mat",
+      "fr": "Pas à chaque fois.",
+      "en": "Not every time."
+    },
+    {
+      "who": "mat",
+      "fr": "Certains matins, je suis encore préoccupé.",
+      "en": "Some mornings, I'm still worried."
+    },
+    {
+      "who": "mat",
+      "fr": "Mais au moins,",
+      "en": "But at least,"
+    },
+    {
+      "who": "mat",
+      "fr": "je ne commence pas en ajoutant vingt informations",
+      "en": "I don't start by adding twenty pieces of news"
+    },
+    {
+      "who": "mat",
+      "fr": "à une tête déjà bien remplie.",
+      "en": "to an already very full head."
+    },
+    {
+      "who": "lea",
+      "fr": "C'est une approche intéressante.",
+      "en": "That's an interesting approach."
+    },
+    {
+      "who": "lea",
+      "fr": "Être positif,",
+      "en": "Being positive"
+    },
+    {
+      "who": "lea",
+      "fr": "ce n'est pas contrôler toutes ses émotions.",
+      "en": "isn't controlling all your emotions."
+    },
+    {
+      "who": "lea",
+      "fr": "C'est parfois choisir",
+      "en": "Sometimes it's choosing"
+    },
+    {
+      "who": "lea",
+      "fr": "ce à quoi on donne de l'attention.",
+      "en": "what you give your attention to."
+    },
+    {
+      "who": "mat",
+      "fr": "Et parfois, le choix le plus positif,",
+      "en": "And sometimes, the most positive choice"
+    },
+    {
+      "who": "mat",
+      "fr": "c'est peut-être de prendre un vrai petit-déjeuner",
+      "en": "might be eating a real breakfast"
+    },
+    {
+      "who": "mat",
+      "fr": "au lieu de répondre immédiatement",
+      "en": "instead of immediately answering"
+    },
+    {
+      "who": "mat",
+      "fr": "à trois courriels.",
+      "en": "three emails."
+    },
+    {
+      "who": "lea",
+      "fr": "Tout à fait.",
+      "en": "Absolutely."
+    },
+    {
+      "who": "lea",
+      "fr": "Mais je voudrais ajouter une nuance :",
+      "en": "But I'd like to add a nuance:"
+    },
+    {
+      "who": "lea",
+      "fr": "on n'a pas besoin de transformer chaque matin",
+      "en": "you don't need to turn every morning"
+    },
+    {
+      "who": "lea",
+      "fr": "en routine parfaite pour aller bien.",
+      "en": "into a perfect routine to feel okay."
+    },
+    {
+      "who": "mat",
+      "fr": "Heureusement.",
+      "en": "Thank goodness."
+    },
+    {
+      "who": "mat",
+      "fr": "Moi, dès qu'une routine",
+      "en": "As soon as a routine"
+    },
+    {
+      "who": "mat",
+      "fr": "comporte plus de quatre étapes,",
+      "en": "has more than four steps,"
+    },
+    {
+      "who": "mat",
+      "fr": "j'ai besoin d'un [mode d'emploi !]",
+      "en": "I need an instruction manual!",
+      "emote": "rire"
+    },
+    {
+      "who": "lea",
+      "fr": "Alors gardons les choses simples.",
+      "en": "Then let's keep things simple."
+    },
+    {
+      "who": "lea",
+      "fr": "Parfois, cinq minutes de calme suffisent.",
+      "en": "Sometimes, five calm minutes are enough."
+    },
+    {
+      "who": "lea",
+      "fr": "Et parfois, on n'a même pas ces cinq minutes.",
+      "en": "And sometimes, we don't even have those five minutes."
+    },
+    {
+      "who": "lea",
+      "fr": "Ce n'est pas un échec.",
+      "en": "That's not a failure."
+    },
+    {
+      "who": "mat",
+      "fr": "D'ailleurs, en parlant de pensées négatives,",
+      "en": "By the way, speaking of negative thoughts,"
+    },
+    {
+      "who": "mat",
+      "fr": "tu m'as raconté récemment",
+      "en": "you told me recently"
+    },
+    {
+      "who": "mat",
+      "fr": "que tu avais eu une période assez stressante.",
+      "en": "you'd had a pretty stressful period."
+    },
+    {
+      "who": "lea",
+      "fr": "Oui. Il y a quelques mois,",
+      "en": "Yes. A few months ago,"
+    },
+    {
+      "who": "lea",
+      "fr": "je travaillais sur un projet",
+      "en": "I was working on a project",
+      "illus": "travail",
+      "label": "un projet"
+    },
+    {
+      "who": "lea",
+      "fr": "que je trouvais important.",
+      "en": "that I found important."
+    },
+    {
+      "who": "lea",
+      "fr": "J'avais beaucoup de responsabilités",
+      "en": "I had a lot of responsibilities"
+    },
+    {
+      "who": "lea",
+      "fr": "et l'impression de ne jamais en faire assez.",
+      "en": "and felt I was never doing enough.",
+      "emote": "fatigue"
+    },
+    {
+      "who": "mat",
+      "fr": "Tu rentrais chez toi",
+      "en": "You'd go home"
+    },
+    {
+      "who": "mat",
+      "fr": "et tu continuais à penser au travail ?",
+      "en": "and keep thinking about work?"
+    },
+    {
+      "who": "lea",
+      "fr": "Exactement.",
+      "en": "Exactly."
+    },
+    {
+      "who": "lea",
+      "fr": "Le soir, je repassais dans ma tête",
+      "en": "In the evening, I'd replay in my head"
+    },
+    {
+      "who": "lea",
+      "fr": "les conversations de la journée.",
+      "en": "the day's conversations."
+    },
+    {
+      "who": "lea",
+      "fr": "Je me demandais si j'avais oublié quelque chose,",
+      "en": "I wondered if I'd forgotten something,"
+    },
+    {
+      "who": "lea",
+      "fr": "si un collègue était mécontent,",
+      "en": "if a colleague was unhappy,"
+    },
+    {
+      "who": "lea",
+      "fr": "si j'allais faire une erreur.",
+      "en": "if I was going to make a mistake."
+    },
+    {
+      "who": "mat",
+      "fr": "Ah, le cerveau qui organise une réunion",
+      "en": "Ah, the brain holding a meeting"
+    },
+    {
+      "who": "mat",
+      "fr": "alors que tout le monde a quitté le bureau.",
+      "en": "when everyone has left the office."
+    },
+    {
+      "who": "lea",
+      "fr": "C'est ça.",
+      "en": "That's it."
+    },
+    {
+      "who": "lea",
+      "fr": "Un soir, j'ai pris une feuille de papier",
+      "en": "One evening, I took a sheet of paper"
+    },
+    {
+      "who": "lea",
+      "fr": "et j'ai tracé deux colonnes.",
+      "en": "and drew two columns."
+    },
+    {
+      "who": "mat",
+      "fr": "Une feuille de papier ?",
+      "en": "A sheet of paper?"
+    },
+    {
+      "who": "mat",
+      "fr": "Pas une nouvelle application ?",
+      "en": "Not a new app?",
+      "emote": "surpris"
+    },
+    {
+      "who": "lea",
+      "fr": "Non, Mathieu.",
+      "en": "No, Mathieu."
+    },
+    {
+      "who": "lea",
+      "fr": "Parfois, le papier fonctionne très bien !",
+      "en": "Sometimes, paper works very well!"
+    },
+    {
+      "who": "mat",
+      "fr": "D'accord, je t'écoute. Qu'as-tu écrit ?",
+      "en": "Okay, I'm listening. What did you write?"
+    },
+    {
+      "who": "lea",
+      "fr": "Dans la première colonne,",
+      "en": "In the first column,",
+      "board": {
+        "mode": "compare",
+        "bg": "craie",
+        "title": "Mes deux colonnes",
+        "left": {
+          "head": "Je peux agir",
+          "sub": "ça dépend de moi",
+          "items": [
+            {
+              "text": "préparer ma réunion",
+              "at": 4
+            },
+            {
+              "text": "demander des précisions",
+              "at": 5
+            },
+            {
+              "text": "respecter mes délais",
+              "at": 5
+            }
+          ]
+        },
+        "right": {
+          "head": "Je ne peux pas",
+          "sub": "ça ne dépend pas de moi",
+          "items": [
+            {
+              "text": "deviner ce que chacun pense",
+              "at": 6
+            },
+            {
+              "text": "empêcher les imprévus",
+              "at": 8
+            }
+          ]
+        }
+      }
+    },
+    {
+      "who": "lea",
+      "fr": "j'ai noté ce sur quoi je pouvais agir.",
+      "en": "I wrote down what I could act on."
+    },
+    {
+      "who": "lea",
+      "fr": "Dans la deuxième, ce qui ne dépendait pas de moi.",
+      "en": "In the second, what didn't depend on me."
+    },
+    {
+      "who": "mat",
+      "fr": "Par exemple ?",
+      "en": "For example?"
+    },
+    {
+      "who": "lea",
+      "fr": "Je pouvais préparer ma réunion,",
+      "en": "I could prepare my meeting,"
+    },
+    {
+      "who": "lea",
+      "fr": "demander des précisions et respecter mes délais.",
+      "en": "ask for details and meet my deadlines."
+    },
+    {
+      "who": "lea",
+      "fr": "En revanche, je ne pouvais pas deviner",
+      "en": "On the other hand, I couldn't guess"
+    },
+    {
+      "who": "lea",
+      "fr": "ce que chacun pensait",
+      "en": "what everyone was thinking"
+    },
+    {
+      "who": "lea",
+      "fr": "ni empêcher tous les imprévus.",
+      "en": "or prevent every surprise.",
+      "boardEnd": true
+    },
+    {
+      "who": "mat",
+      "fr": "Et voir cette différence sur le papier",
+      "en": "And seeing that difference on paper"
+    },
+    {
+      "who": "mat",
+      "fr": "t'a aidée ?",
+      "en": "helped you?"
+    },
+    {
+      "who": "lea",
+      "fr": "Oui. Cela n'a pas supprimé mes inquiétudes,",
+      "en": "Yes. It didn't erase my worries,"
+    },
+    {
+      "who": "lea",
+      "fr": "mais j'ai compris",
+      "en": "but I understood"
+    },
+    {
+      "who": "lea",
+      "fr": "que je dépensais beaucoup d'énergie",
+      "en": "that I was spending a lot of energy"
+    },
+    {
+      "who": "lea",
+      "fr": "sur des questions sans réponse.",
+      "en": "on questions with no answer."
+    },
+    {
+      "who": "mat",
+      "fr": "Donc tu as déplacé ton attention",
+      "en": "So you shifted your attention"
+    },
+    {
+      "who": "mat",
+      "fr": "vers les actions possibles.",
+      "en": "toward possible actions."
+    },
+    {
+      "who": "lea",
+      "fr": "Exactement. Le lendemain,",
+      "en": "Exactly. The next day,"
+    },
+    {
+      "who": "lea",
+      "fr": "j'ai posé une question",
+      "en": "I asked a question"
+    },
+    {
+      "who": "lea",
+      "fr": "que j'évitais depuis plusieurs jours.",
+      "en": "I'd been avoiding for several days."
+    },
+    {
+      "who": "lea",
+      "fr": "La réponse a clarifié le problème",
+      "en": "The answer cleared up the problem"
+    },
+    {
+      "who": "lea",
+      "fr": "en quelques minutes.",
+      "en": "in a few minutes."
+    },
+    {
+      "who": "mat",
+      "fr": "Ah ! Parfois, on passe trois soirées",
+      "en": "Ah! Sometimes we spend three evenings"
+    },
+    {
+      "who": "mat",
+      "fr": "à imaginer une conversation",
+      "en": "imagining a conversation"
+    },
+    {
+      "who": "mat",
+      "fr": "qui ne dure que cinq minutes dans la réalité.",
+      "en": "that only lasts five minutes in reality.",
+      "emote": "idee"
+    },
+    {
+      "who": "lea",
+      "fr": "Oui.",
+      "en": "Yes."
+    },
+    {
+      "who": "lea",
+      "fr": "Et parfois la réponse est difficile, bien sûr.",
+      "en": "And sometimes the answer is hard, of course."
+    },
+    {
+      "who": "lea",
+      "fr": "Mais au moins,",
+      "en": "But at least,"
+    },
+    {
+      "who": "lea",
+      "fr": "nous avons des informations sur lesquelles agir.",
+      "en": "we have information we can act on."
+    },
+    {
+      "who": "mat",
+      "fr": "Tu sais, quand je suis inquiet,",
+      "en": "You know, when I'm worried,"
+    },
+    {
+      "who": "mat",
+      "fr": "je confonds souvent réfléchir et agir.",
+      "en": "I often confuse thinking and acting."
+    },
+    {
+      "who": "mat",
+      "fr": "Je me dis : « Je dois encore y penser »,",
+      "en": "I tell myself: \"I still need to think about it\","
+    },
+    {
+      "who": "mat",
+      "fr": "alors que je répète les mêmes scénarios.",
+      "en": "when I'm just replaying the same scenarios."
+    },
+    {
+      "who": "lea",
+      "fr": "Dans ce cas, tu peux te demander :",
+      "en": "In that case, you can ask yourself:"
+    },
+    {
+      "who": "lea",
+      "fr": "« Qu'est-ce que je peux faire",
+      "en": "\"What can I do"
+    },
+    {
+      "who": "lea",
+      "fr": "concrètement aujourd'hui ? »",
+      "en": "concretely today?\""
+    },
+    {
+      "who": "lea",
+      "fr": "S'il n'y a pas d'action possible,",
+      "en": "If there's no possible action,"
+    },
+    {
+      "who": "lea",
+      "fr": "tu peux essayer de faire une pause.",
+      "en": "you can try to take a break."
+    },
+    {
+      "who": "mat",
+      "fr": "« Faire une pause »,",
+      "en": "\"Take a break\","
+    },
+    {
+      "who": "mat",
+      "fr": "pas « oublier que le problème existe ».",
+      "en": "not \"forget the problem exists\"."
+    },
+    {
+      "who": "lea",
+      "fr": "Exactement. Nous pouvons être responsables",
+      "en": "Exactly. We can be responsible"
+    },
+    {
+      "who": "lea",
+      "fr": "sans passer toute la nuit à nous inquiéter.",
+      "en": "without spending all night worrying."
+    },
+    {
+      "who": "mat",
+      "fr": "J'aime cette idée d'une attitude positive",
+      "en": "I like this idea of a positive attitude"
+    },
+    {
+      "who": "mat",
+      "fr": "qui reste les pieds sur terre.",
+      "en": "that keeps its feet on the ground."
+    },
+    {
+      "who": "lea",
+      "fr": "Les pieds sur terre, oui.",
+      "en": "Feet on the ground, yes.",
+      "board": {
+        "mode": "idiom",
+        "bg": "carnet",
+        "expr": "garder les pieds sur terre",
+        "literal": "to keep your feet on the earth",
+        "meaning": "to stay realistic",
+        "ex": "Il rêve beaucoup, mais il garde les pieds sur terre.",
+        "exEn": "He dreams a lot, but he stays realistic.",
+        "meaningAt": 1
+      }
+    },
+    {
+      "who": "lea",
+      "fr": "Cela signifie être réaliste,",
+      "en": "It means being realistic,"
+    },
+    {
+      "who": "lea",
+      "fr": "ne pas se laisser emporter",
+      "en": "not getting carried away"
+    },
+    {
+      "who": "lea",
+      "fr": "par des idées trop éloignées de la réalité.",
+      "en": "by ideas too far from reality."
+    },
+    {
+      "who": "mat",
+      "fr": "Par exemple : « J'espère obtenir ce poste,",
+      "en": "For example: \"I hope to get this job,"
+    },
+    {
+      "who": "mat",
+      "fr": "mais je [garde les pieds sur terre]",
+      "en": "but I keep my feet on the ground"
+    },
+    {
+      "who": "mat",
+      "fr": "et je prépare aussi d'autres possibilités. »",
+      "en": "and I'm preparing other options too.\"",
+      "boardEnd": true
+    },
+    {
+      "who": "lea",
+      "fr": "Très bien !",
+      "en": "Very good!"
+    },
+    {
+      "who": "lea",
+      "fr": "Et cela nous conduit à un autre sujet :",
+      "en": "And that brings us to another topic:"
+    },
+    {
+      "who": "lea",
+      "fr": "nos objectifs.",
+      "en": "our goals."
+    },
+    {
+      "who": "lea",
+      "fr": "Est-ce qu'il t'arrive de te comparer aux autres ?",
+      "en": "Do you ever compare yourself to others?"
+    },
+    {
+      "who": "mat",
+      "fr": "Jamais ! Enfin...",
+      "en": "Never! Well...",
+      "emote": "gene"
+    },
+    {
+      "who": "mat",
+      "fr": "seulement chaque fois",
+      "en": "only every time"
+    },
+    {
+      "who": "mat",
+      "fr": "que j'ouvre certains réseaux sociaux.",
+      "en": "I open certain social networks."
+    },
+    {
+      "who": "lea",
+      "fr": "Donc assez souvent.",
+      "en": "So, quite often."
+    },
+    {
+      "who": "mat",
+      "fr": "Oui.",
+      "en": "Yes."
+    },
+    {
+      "who": "mat",
+      "fr": "Je vois des gens de mon âge",
+      "en": "I see people my age"
+    },
+    {
+      "who": "mat",
+      "fr": "qui changent de carrière,",
+      "en": "who change careers,"
+    },
+    {
+      "who": "mat",
+      "fr": "courent des marathons ou parlent cinq langues.",
+      "en": "run marathons or speak five languages.",
+      "illus": "sport",
+      "label": "des marathons"
+    },
+    {
+      "who": "mat",
+      "fr": "Et soudain, j'ai l'impression",
+      "en": "And suddenly, I feel"
+    },
+    {
+      "who": "mat",
+      "fr": "d'être en retard dans ma propre vie.",
+      "en": "like I'm behind in my own life."
+    },
+    {
+      "who": "lea",
+      "fr": "Pourtant, tu ne connais pas toujours",
+      "en": "Yet you don't always know"
+    },
+    {
+      "who": "lea",
+      "fr": "leur situation",
+      "en": "their situation"
+    },
+    {
+      "who": "lea",
+      "fr": "ni le chemin qu'ils ont parcouru.",
+      "en": "or the path they've traveled."
+    },
+    {
+      "who": "mat",
+      "fr": "C'est vrai.",
+      "en": "That's true."
+    },
+    {
+      "who": "mat",
+      "fr": "Je vois une photo d'une réussite,",
+      "en": "I see a photo of a success,"
+    },
+    {
+      "who": "mat",
+      "fr": "pas les années de travail",
+      "en": "not the years of work"
+    },
+    {
+      "who": "mat",
+      "fr": "ni les journées compliquées.",
+      "en": "or the hard days."
+    },
+    {
+      "who": "lea",
+      "fr": "Et cette comparaison peut nous empêcher",
+      "en": "And that comparison can keep us"
+    },
+    {
+      "who": "lea",
+      "fr": "de reconnaître nos propres progrès.",
+      "en": "from recognizing our own progress."
+    },
+    {
+      "who": "mat",
+      "fr": "Il y a quelques années,",
+      "en": "A few years ago,"
+    },
+    {
+      "who": "mat",
+      "fr": "j'ai voulu apprendre à dessiner.",
+      "en": "I wanted to learn to draw."
+    },
+    {
+      "who": "mat",
+      "fr": "Je regardais des artistes incroyables",
+      "en": "I watched incredible artists"
+    },
+    {
+      "who": "mat",
+      "fr": "sur Internet.",
+      "en": "on the Internet."
+    },
+    {
+      "who": "mat",
+      "fr": "Après dix minutes avec mon crayon,",
+      "en": "After ten minutes with my pencil,"
+    },
+    {
+      "who": "mat",
+      "fr": "j'avais envie de tout arrêter.",
+      "en": "I felt like quitting everything."
+    },
+    {
+      "who": "lea",
+      "fr": "Tu comparais ton premier dessin",
+      "en": "You compared your first drawing"
+    },
+    {
+      "who": "lea",
+      "fr": "à leur travail professionnel ?",
+      "en": "to their professional work?"
+    },
+    {
+      "who": "mat",
+      "fr": "Exactement. Très mauvaise comparaison.",
+      "en": "Exactly. A very bad comparison."
+    },
+    {
+      "who": "mat",
+      "fr": "Mon premier chien ressemblait",
+      "en": "My first dog looked"
+    },
+    {
+      "who": "mat",
+      "fr": "à une pomme de terre avec quatre pattes.",
+      "en": "like a potato with four legs."
+    },
+    {
+      "who": "lea",
+      "fr": "Je suis sûre qu'il avait du charme.",
+      "en": "I'm sure it had charm.",
+      "emote": "coeur"
+    },
+    {
+      "who": "mat",
+      "fr": "Tu es trop gentille !",
+      "en": "You're too kind!"
+    },
+    {
+      "who": "mat",
+      "fr": "Mais un jour, j'ai retrouvé un dessin",
+      "en": "But one day, I found a drawing"
+    },
+    {
+      "who": "mat",
+      "fr": "que j'avais fait plusieurs semaines auparavant.",
+      "en": "I'd made several weeks before."
+    },
+    {
+      "who": "mat",
+      "fr": "Et j'ai remarqué",
+      "en": "And I noticed"
+    },
+    {
+      "who": "mat",
+      "fr": "que mes traits étaient devenus plus précis.",
+      "en": "my lines had become more precise."
+    },
+    {
+      "who": "lea",
+      "fr": "Tu t'es comparé à ton ancien niveau,",
+      "en": "You compared yourself to your old level,"
+    },
+    {
+      "who": "lea",
+      "fr": "au lieu de te comparer à quelqu'un d'autre.",
+      "en": "instead of comparing yourself to someone else."
+    },
+    {
+      "who": "mat",
+      "fr": "Oui.",
+      "en": "Yes."
+    },
+    {
+      "who": "mat",
+      "fr": "Et tout de suite, j'ai eu envie de continuer.",
+      "en": "And right away, I wanted to keep going."
+    },
+    {
+      "who": "lea",
+      "fr": "C'est une autre forme de pensée positive :",
+      "en": "That's another form of positive thinking:"
+    },
+    {
+      "who": "lea",
+      "fr": "reconnaître les petits progrès",
+      "en": "recognizing small progress"
+    },
+    {
+      "who": "lea",
+      "fr": "sans prétendre",
+      "en": "without pretending"
+    },
+    {
+      "who": "lea",
+      "fr": "qu'on a déjà atteint son objectif.",
+      "en": "you've already reached your goal."
+    },
+    {
+      "who": "mat",
+      "fr": "Donc je peux dire :",
+      "en": "So I can say:",
+      "board": {
+        "mode": "transform",
+        "bg": "liege",
+        "title": "Le petit mot « encore »",
+        "from": "Je *suis nul* en français.",
+        "to": "Je ne comprends *pas encore* tout.",
+        "fromTag": "avant",
+        "toTag": "mieux",
+        "label": "+ encore",
+        "en": "I don't understand everything yet.",
+        "changeAt": 5
+      }
+    },
+    {
+      "who": "mat",
+      "fr": "« Je ne dessine pas encore comme je le voudrais,",
+      "en": "\"I don't draw the way I'd like to yet,"
+    },
+    {
+      "who": "mat",
+      "fr": "mais je progresse. »",
+      "en": "but I'm improving.\""
+    },
+    {
+      "who": "lea",
+      "fr": "Exactement. Le mot « encore » est très utile.",
+      "en": "Exactly. The word \"yet\" is very useful."
+    },
+    {
+      "who": "lea",
+      "fr": "Il laisse une place à l'apprentissage.",
+      "en": "It leaves room for learning."
+    },
+    {
+      "who": "mat",
+      "fr": "« Je ne comprends pas encore",
+      "en": "\"I don't understand yet"
+    },
+    {
+      "who": "mat",
+      "fr": "toutes les conversations en français. »",
+      "en": "every conversation in French.\""
+    },
+    {
+      "who": "mat",
+      "fr": "C'est beaucoup plus encourageant",
+      "en": "That's much more encouraging"
+    },
+    {
+      "who": "mat",
+      "fr": "que « Je suis nul en français ».",
+      "en": "than \"I'm hopeless at French.\"",
+      "boardEnd": true
+    },
+    {
+      "who": "lea",
+      "fr": "Absolument.",
+      "en": "Absolutely."
+    },
+    {
+      "who": "lea",
+      "fr": "Et nos auditeurs peuvent l'utiliser",
+      "en": "And our listeners can use it"
+    },
+    {
+      "who": "lea",
+      "fr": "dans leur apprentissage.",
+      "en": "in their learning."
+    },
+    {
+      "who": "lea",
+      "fr": "Ils n'ont pas besoin de comprendre chaque phrase",
+      "en": "They don't need to understand every sentence"
+    },
+    {
+      "who": "lea",
+      "fr": "pour constater des progrès.",
+      "en": "to notice progress."
+    },
+    {
+      "who": "mat",
+      "fr": "Peut-être qu'il y a trois mois,",
+      "en": "Maybe three months ago,"
+    },
+    {
+      "who": "mat",
+      "fr": "ils avaient besoin de sous-titres tout le temps,",
+      "en": "they needed subtitles all the time,",
+      "illus": "etudes",
+      "label": "des sous-titres"
+    },
+    {
+      "who": "mat",
+      "fr": "et qu'aujourd'hui ils comprennent une histoire",
+      "en": "and today they understand a story"
+    },
+    {
+      "who": "mat",
+      "fr": "sans tout traduire.",
+      "en": "without translating everything."
+    },
+    {
+      "who": "lea",
+      "fr": "Ou qu'ils osent poser une question en français,",
+      "en": "Or they dare to ask a question in French,"
+    },
+    {
+      "who": "lea",
+      "fr": "même avec quelques hésitations.",
+      "en": "even with a few hesitations."
+    },
+    {
+      "who": "mat",
+      "fr": "Tu sais, parfois, une petite victoire",
+      "en": "You know, sometimes, a small victory"
+    },
+    {
+      "who": "mat",
+      "fr": "peut vraiment changer une journée.",
+      "en": "can really change a day."
+    },
+    {
+      "who": "lea",
+      "fr": "Oui.",
+      "en": "Yes."
+    },
+    {
+      "who": "lea",
+      "fr": "Et on peut essayer de la remarquer",
+      "en": "And we can try to notice it"
+    },
+    {
+      "who": "lea",
+      "fr": "au lieu de penser uniquement",
+      "en": "instead of only thinking"
+    },
+    {
+      "who": "lea",
+      "fr": "à ce qui reste à faire.",
+      "en": "about what's left to do."
+    },
+    {
+      "who": "mat",
+      "fr": "Mais comment rester positif",
+      "en": "But how do you stay positive"
+    },
+    {
+      "who": "mat",
+      "fr": "quand on se sent complètement bloqué dans sa vie ?",
+      "en": "when you feel completely stuck in life?",
+      "emote": "question"
+    },
+    {
+      "who": "lea",
+      "fr": "C'est une vraie question.",
+      "en": "That's a real question."
+    },
+    {
+      "who": "lea",
+      "fr": "On peut commencer par éviter",
+      "en": "You can start by avoiding"
+    },
+    {
+      "who": "lea",
+      "fr": "de vouloir tout changer immédiatement.",
+      "en": "wanting to change everything at once."
+    },
+    {
+      "who": "lea",
+      "fr": "Une petite direction peut être plus utile",
+      "en": "A small direction can be more useful"
+    },
+    {
+      "who": "lea",
+      "fr": "qu'un programme gigantesque.",
+      "en": "than a gigantic plan."
+    },
+    {
+      "who": "mat",
+      "fr": "Je connais les programmes gigantesques.",
+      "en": "I know all about gigantic plans."
+    },
+    {
+      "who": "mat",
+      "fr": "Dimanche soir, je suis capable",
+      "en": "On Sunday night, I can"
+    },
+    {
+      "who": "mat",
+      "fr": "d'organiser une nouvelle vie entière.",
+      "en": "organize a whole new life."
+    },
+    {
+      "who": "mat",
+      "fr": "Lundi matin, je négocie avec mon réveil.",
+      "en": "On Monday morning, I negotiate with my alarm."
+    },
+    {
+      "who": "lea",
+      "fr": "Alors il faudrait préparer un programme",
+      "en": "Then you should make a plan"
+    },
+    {
+      "who": "lea",
+      "fr": "qui correspond au Mathieu du lundi,",
+      "en": "that suits Monday's Mathieu,"
+    },
+    {
+      "who": "lea",
+      "fr": "pas seulement à celui du dimanche !",
+      "en": "not just Sunday's!"
+    },
+    {
+      "who": "mat",
+      "fr": "Excellente remarque.",
+      "en": "Excellent point.",
+      "board": {
+        "mode": "dodont",
+        "bg": "craie",
+        "title": "Des objectifs réalistes",
+        "doHead": "Petits pas ✓",
+        "dontHead": "Programme gigantesque ✗",
+        "do": [
+          {
+            "text": "deux courtes promenades par semaine",
+            "at": 3
+          },
+          {
+            "text": "un moment régulier pour écouter",
+            "at": 5
+          }
+        ],
+        "dont": [
+          {
+            "text": "une nouvelle vie entière",
+            "at": 0
+          },
+          {
+            "text": "deux heures par jour",
+            "at": 7
+          }
+        ]
+      }
+    },
+    {
+      "who": "mat",
+      "fr": "Par exemple, si je souhaite être plus actif,",
+      "en": "For example, if I want to be more active,"
+    },
+    {
+      "who": "mat",
+      "fr": "je peux commencer",
+      "en": "I can start"
+    },
+    {
+      "who": "mat",
+      "fr": "par deux courtes promenades par semaine.",
+      "en": "with two short walks a week."
+    },
+    {
+      "who": "lea",
+      "fr": "Oui. Et si tu veux améliorer ton français,",
+      "en": "Yes. And if you want to improve your French,"
+    },
+    {
+      "who": "lea",
+      "fr": "tu peux choisir un moment régulier",
+      "en": "you can choose a regular time"
+    },
+    {
+      "who": "lea",
+      "fr": "pour écouter une conversation.",
+      "en": "to listen to a conversation."
+    },
+    {
+      "who": "mat",
+      "fr": "Pas nécessairement deux heures par jour.",
+      "en": "Not necessarily two hours a day."
+    },
+    {
+      "who": "lea",
+      "fr": "Exactement.",
+      "en": "Exactly."
+    },
+    {
+      "who": "lea",
+      "fr": "Les petits objectifs réalistes",
+      "en": "Small, realistic goals"
+    },
+    {
+      "who": "lea",
+      "fr": "peuvent donner une direction",
+      "en": "can give you a direction"
+    },
+    {
+      "who": "lea",
+      "fr": "sans ajouter trop de pression.",
+      "en": "without adding too much pressure.",
+      "boardEnd": true
+    },
+    {
+      "who": "mat",
+      "fr": "Une amie m'a raconté quelque chose",
+      "en": "A friend told me something"
+    },
+    {
+      "who": "mat",
+      "fr": "qui me revient souvent.",
+      "en": "that often comes back to me."
+    },
+    {
+      "who": "mat",
+      "fr": "Elle avait envie de changer de métier,",
+      "en": "She wanted to change careers,"
+    },
+    {
+      "who": "mat",
+      "fr": "mais elle se disait que c'était trop tard.",
+      "en": "but she told herself it was too late."
+    },
+    {
+      "who": "lea",
+      "fr": "Quel âge avait-elle ?",
+      "en": "How old was she?"
+    },
+    {
+      "who": "mat",
+      "fr": "Trente-huit ans.",
+      "en": "Thirty-eight."
+    },
+    {
+      "who": "mat",
+      "fr": "Elle travaillait dans la vente",
+      "en": "She worked in sales"
+    },
+    {
+      "who": "mat",
+      "fr": "et s'intéressait depuis longtemps",
+      "en": "and had long been interested"
+    },
+    {
+      "who": "mat",
+      "fr": "à la décoration intérieure.",
+      "en": "in interior design."
+    },
+    {
+      "who": "lea",
+      "fr": "Et qu'est-ce qui la bloquait ?",
+      "en": "And what was holding her back?"
+    },
+    {
+      "who": "mat",
+      "fr": "Elle imaginait qu'il fallait abandonner",
+      "en": "She thought she had to quit"
+    },
+    {
+      "who": "mat",
+      "fr": "son emploi immédiatement,",
+      "en": "her job right away,"
+    },
+    {
+      "who": "mat",
+      "fr": "reprendre plusieurs années d'études",
+      "en": "go back to studying for several years"
+    },
+    {
+      "who": "mat",
+      "fr": "et réussir du premier coup.",
+      "en": "and succeed on the first try."
+    },
+    {
+      "who": "mat",
+      "fr": "Cela lui semblait impossible.",
+      "en": "That seemed impossible to her."
+    },
+    {
+      "who": "lea",
+      "fr": "Elle voyait tout le chemin",
+      "en": "She was seeing the whole road"
+    },
+    {
+      "who": "lea",
+      "fr": "à parcourir en une seule fois.",
+      "en": "ahead all at once."
+    },
+    {
+      "who": "mat",
+      "fr": "Exactement.",
+      "en": "Exactly."
+    },
+    {
+      "who": "mat",
+      "fr": "Puis elle a rencontré une personne",
+      "en": "Then she met someone",
+      "board": {
+        "mode": "timeline",
+        "bg": "carnet",
+        "title": "Mon amie, 38 ans",
+        "items": [
+          {
+            "label": "d'abord",
+            "text": "poser des questions",
+            "at": 0
+          },
+          {
+            "label": "ensuite",
+            "text": "un cours du soir",
+            "at": 3
+          },
+          {
+            "label": "quelques mois",
+            "text": "aider des amis",
+            "at": 6
+          },
+          {
+            "label": "aujourd'hui",
+            "text": "une reconversion",
+            "at": 9
+          }
+        ]
+      }
+    },
+    {
+      "who": "mat",
+      "fr": "qui travaillait dans ce domaine",
+      "en": "who worked in that field"
+    },
+    {
+      "who": "mat",
+      "fr": "et lui a posé des questions.",
+      "en": "and asked them some questions."
+    },
+    {
+      "who": "mat",
+      "fr": "Ensuite, elle a suivi un cours du soir.",
+      "en": "Next, she took an evening class."
+    },
+    {
+      "who": "lea",
+      "fr": "Une première étape",
+      "en": "A first step"
+    },
+    {
+      "who": "lea",
+      "fr": "qui ne bouleversait pas toute sa vie.",
+      "en": "that didn't turn her whole life upside down."
+    },
+    {
+      "who": "mat",
+      "fr": "Oui. Après quelques mois,",
+      "en": "Yes. After a few months,"
+    },
+    {
+      "who": "mat",
+      "fr": "elle a commencé à aider des amis",
+      "en": "she started helping friends"
+    },
+    {
+      "who": "mat",
+      "fr": "à aménager leurs appartements.",
+      "en": "to decorate their apartments."
+    },
+    {
+      "who": "mat",
+      "fr": "Aujourd'hui, elle explore sérieusement",
+      "en": "Today, she's seriously exploring"
+    },
+    {
+      "who": "mat",
+      "fr": "une reconversion,",
+      "en": "a career change,"
+    },
+    {
+      "who": "mat",
+      "fr": "mais elle avance prudemment.",
+      "en": "but she's moving forward carefully.",
+      "boardEnd": true
+    },
+    {
+      "who": "lea",
+      "fr": "Et elle ne sait pas encore exactement",
+      "en": "And she doesn't know exactly yet"
+    },
+    {
+      "who": "lea",
+      "fr": "où ce projet la mènera.",
+      "en": "where this project will take her."
+    },
+    {
+      "who": "mat",
+      "fr": "Non. Pourtant, elle se sent moins bloquée,",
+      "en": "No. Still, she feels less stuck,"
+    },
+    {
+      "who": "mat",
+      "fr": "parce qu'elle fait quelque chose de concret.",
+      "en": "because she's doing something concrete."
+    },
+    {
+      "who": "lea",
+      "fr": "J'aime beaucoup cet exemple.",
+      "en": "I really like that example.",
+      "emote": "coeur"
+    },
+    {
+      "who": "lea",
+      "fr": "L'optimisme ne consiste pas toujours",
+      "en": "Optimism isn't always about"
+    },
+    {
+      "who": "lea",
+      "fr": "à être sûr de réussir.",
+      "en": "being sure you'll succeed."
+    },
+    {
+      "who": "lea",
+      "fr": "Parfois, c'est accepter",
+      "en": "Sometimes, it's agreeing"
+    },
+    {
+      "who": "lea",
+      "fr": "de chercher une possibilité.",
+      "en": "to look for a possibility."
+    },
+    {
+      "who": "mat",
+      "fr": "« Je ne sais pas si ça marchera,",
+      "en": "\"I don't know if it'll work,"
+    },
+    {
+      "who": "mat",
+      "fr": "mais je peux me renseigner. »",
+      "en": "but I can look into it.\""
+    },
+    {
+      "who": "mat",
+      "fr": "C'est une phrase positive et réaliste.",
+      "en": "That's a positive and realistic sentence."
+    },
+    {
+      "who": "lea",
+      "fr": "Exactement. Et cela nous aide",
+      "en": "Exactly. And it helps us"
+    },
+    {
+      "who": "lea",
+      "fr": "à éviter deux extrêmes :",
+      "en": "avoid two extremes:"
+    },
+    {
+      "who": "lea",
+      "fr": "croire que tout ira parfaitement,",
+      "en": "believing everything will go perfectly,"
+    },
+    {
+      "who": "lea",
+      "fr": "ou penser que rien ne peut s'améliorer.",
+      "en": "or thinking nothing can get better."
+    },
+    {
+      "who": "mat",
+      "fr": "Entre les deux, il y a la curiosité,",
+      "en": "In between, there's curiosity,"
+    },
+    {
+      "who": "mat",
+      "fr": "les essais et les ajustements.",
+      "en": "trial and error, and adjustments."
+    },
+    {
+      "who": "lea",
+      "fr": "Oui.",
+      "en": "Yes."
+    },
+    {
+      "who": "lea",
+      "fr": "Mais il faut parler d'une autre situation,",
+      "en": "But we need to talk about another situation,"
+    },
+    {
+      "who": "lea",
+      "fr": "plus délicate.",
+      "en": "a more delicate one."
+    },
+    {
+      "who": "lea",
+      "fr": "Que fait-on",
+      "en": "What do we do"
+    },
+    {
+      "who": "lea",
+      "fr": "quand on traverse une véritable déception ?",
+      "en": "when we go through a real disappointment?"
+    },
+    {
+      "who": "mat",
+      "fr": "Là, les jolies phrases ne suffisent pas toujours.",
+      "en": "Then, pretty phrases aren't always enough."
+    },
+    {
+      "who": "lea",
+      "fr": "C'est vrai.",
+      "en": "That's true."
+    },
+    {
+      "who": "lea",
+      "fr": "Et je ne voudrais surtout pas",
+      "en": "And I really wouldn't want"
+    },
+    {
+      "who": "lea",
+      "fr": "donner l'impression qu'il faut sourire",
+      "en": "to give the impression we must smile"
+    },
+    {
+      "who": "lea",
+      "fr": "après chaque mauvaise nouvelle.",
+      "en": "after every piece of bad news."
+    },
+    {
+      "who": "mat",
+      "fr": "Moi non plus.",
+      "en": "Me neither."
+    },
+    {
+      "who": "mat",
+      "fr": "J'ai connu une période",
+      "en": "I went through a time"
+    },
+    {
+      "who": "mat",
+      "fr": "où un projet personnel",
+      "en": "when a personal project"
+    },
+    {
+      "who": "mat",
+      "fr": "sur lequel j'avais beaucoup travaillé",
+      "en": "I'd worked very hard on"
+    },
+    {
+      "who": "mat",
+      "fr": "n'a pas [abouti.]",
+      "en": "didn't come to anything."
+    },
+    {
+      "who": "lea",
+      "fr": "Tu avais consacré beaucoup de temps",
+      "en": "Had you put a lot of time"
+    },
+    {
+      "who": "lea",
+      "fr": "à ce projet ?",
+      "en": "into that project?"
+    },
+    {
+      "who": "mat",
+      "fr": "Presque un an.",
+      "en": "Almost a year."
+    },
+    {
+      "who": "mat",
+      "fr": "J'espérais organiser une petite exposition",
+      "en": "I was hoping to organize a small exhibition"
+    },
+    {
+      "who": "mat",
+      "fr": "de photos avec des amis.",
+      "en": "of photos with friends."
+    },
+    {
+      "who": "mat",
+      "fr": "Nous avions trouvé un lieu,",
+      "en": "We'd found a venue,"
+    },
+    {
+      "who": "mat",
+      "fr": "préparé une sélection,",
+      "en": "prepared a selection,"
+    },
+    {
+      "who": "mat",
+      "fr": "mais l'événement a finalement été annulé.",
+      "en": "but the event was cancelled in the end."
+    },
+    {
+      "who": "lea",
+      "fr": "Tu as dû être très déçu.",
+      "en": "You must have been very disappointed.",
+      "emote": "triste"
+    },
+    {
+      "who": "mat",
+      "fr": "Oui. Et même en colère.",
+      "en": "Yes. And even angry."
+    },
+    {
+      "who": "mat",
+      "fr": "Pendant plusieurs semaines,",
+      "en": "For several weeks,"
+    },
+    {
+      "who": "mat",
+      "fr": "je n'avais plus envie",
+      "en": "I no longer felt like"
+    },
+    {
+      "who": "mat",
+      "fr": "de sortir mon appareil photo.",
+      "en": "taking out my camera."
+    },
+    {
+      "who": "lea",
+      "fr": "C'est compréhensible.",
+      "en": "That's understandable."
+    },
+    {
+      "who": "lea",
+      "fr": "Tu avais perdu quelque chose",
+      "en": "You'd lost something"
+    },
+    {
+      "who": "lea",
+      "fr": "d'important pour toi.",
+      "en": "that mattered to you."
+    },
+    {
+      "who": "mat",
+      "fr": "Exactement.",
+      "en": "Exactly."
+    },
+    {
+      "who": "mat",
+      "fr": "Un ami m'a appelé et m'a proposé une promenade.",
+      "en": "A friend called and suggested a walk.",
+      "illus": "amis",
+      "label": "un ami"
+    },
+    {
+      "who": "mat",
+      "fr": "Je lui ai dit : « Je ne [suis pas d'humeur]",
+      "en": "I told him: \"I'm not in the mood"
+    },
+    {
+      "who": "mat",
+      "fr": "à faire de belles photos. »",
+      "en": "to take nice photos.\""
+    },
+    {
+      "who": "lea",
+      "fr": "Et qu'est-ce qu'il a répondu ?",
+      "en": "And what did he say?"
+    },
+    {
+      "who": "mat",
+      "fr": "« Alors, ne prends pas de photos.",
+      "en": "\"Then don't take any photos."
+    },
+    {
+      "who": "mat",
+      "fr": "Viens simplement marcher. »",
+      "en": "Just come for a walk.\""
+    },
+    {
+      "who": "mat",
+      "fr": "C'était tout.",
+      "en": "That was all."
+    },
+    {
+      "who": "lea",
+      "fr": "C'est une réponse très douce.",
+      "en": "That's a very gentle answer.",
+      "emote": "coeur"
+    },
+    {
+      "who": "lea",
+      "fr": "Il ne t'a pas demandé",
+      "en": "He didn't ask you"
+    },
+    {
+      "who": "lea",
+      "fr": "de transformer ta déception",
+      "en": "to turn your disappointment"
+    },
+    {
+      "who": "lea",
+      "fr": "en grande leçon immédiatement.",
+      "en": "into a big lesson right away."
+    },
+    {
+      "who": "mat",
+      "fr": "Oui.",
+      "en": "Yes."
+    },
+    {
+      "who": "mat",
+      "fr": "Nous avons marché, parlé de tout et de rien.",
+      "en": "We walked, talked about this and that."
+    },
+    {
+      "who": "mat",
+      "fr": "Après un moment, je me suis surpris",
+      "en": "After a while, I caught myself"
+    },
+    {
+      "who": "mat",
+      "fr": "à remarquer la lumière sur les arbres.",
+      "en": "noticing the light on the trees."
+    },
+    {
+      "who": "mat",
+      "fr": "Quelques jours plus tard,",
+      "en": "A few days later,"
+    },
+    {
+      "who": "mat",
+      "fr": "j'ai repris mon appareil.",
+      "en": "I picked up my camera again."
+    },
+    {
+      "who": "lea",
+      "fr": "Donc ton ami",
+      "en": "So your friend"
+    },
+    {
+      "who": "lea",
+      "fr": "ne t'a pas obligé à être positif.",
+      "en": "didn't force you to be positive."
+    },
+    {
+      "who": "lea",
+      "fr": "Il t'a simplement accompagné.",
+      "en": "He just kept you company."
+    },
+    {
+      "who": "mat",
+      "fr": "Exactement.",
+      "en": "Exactly."
+    },
+    {
+      "who": "mat",
+      "fr": "Et cela m'a aidé à comprendre",
+      "en": "And it helped me understand"
+    },
+    {
+      "who": "mat",
+      "fr": "qu'une déception peut être réelle",
+      "en": "that a disappointment can be real"
+    },
+    {
+      "who": "mat",
+      "fr": "sans résumer tout notre avenir.",
+      "en": "without summing up our whole future."
+    },
+    {
+      "who": "lea",
+      "fr": "Je trouve cela essentiel.",
+      "en": "I find that essential."
+    },
+    {
+      "who": "lea",
+      "fr": "Être positif",
+      "en": "Being positive"
+    },
+    {
+      "who": "lea",
+      "fr": "ne veut pas dire nier la tristesse.",
+      "en": "doesn't mean denying sadness."
+    },
+    {
+      "who": "lea",
+      "fr": "On peut être triste aujourd'hui",
+      "en": "You can be sad today"
+    },
+    {
+      "who": "lea",
+      "fr": "et garder la possibilité",
+      "en": "and still keep the possibility"
+    },
+    {
+      "who": "lea",
+      "fr": "de vivre autre chose demain.",
+      "en": "of living something else tomorrow."
+    },
+    {
+      "who": "mat",
+      "fr": "Et on peut aussi demander de l'aide",
+      "en": "And we can also ask for help"
+    },
+    {
+      "who": "mat",
+      "fr": "si une situation devient trop lourde.",
+      "en": "if a situation becomes too heavy."
+    },
+    {
+      "who": "mat",
+      "fr": "Nous n'avons pas besoin de tout porter seuls.",
+      "en": "We don't have to carry everything alone."
+    },
+    {
+      "who": "lea",
+      "fr": "Absolument.",
+      "en": "Absolutely."
+    },
+    {
+      "who": "lea",
+      "fr": "Le soutien d'un proche,",
+      "en": "The support of a loved one,"
+    },
+    {
+      "who": "lea",
+      "fr": "et parfois celui d'un professionnel,",
+      "en": "and sometimes that of a professional,"
+    },
+    {
+      "who": "lea",
+      "fr": "peut être précieux quand la souffrance dure",
+      "en": "can be precious when suffering lasts"
+    },
+    {
+      "who": "lea",
+      "fr": "ou devient difficile à gérer.",
+      "en": "or becomes hard to manage."
+    },
+    {
+      "who": "mat",
+      "fr": "Tu sais, j'aime bien l'expression",
+      "en": "You know, I like the expression",
+      "board": {
+        "mode": "idiom",
+        "bg": "liege",
+        "expr": "retrouver son élan",
+        "literal": "to find your run-up again",
+        "meaning": "to get your energy back",
+        "icon": "soleil",
+        "ex": "Après les vacances, j'ai retrouvé mon élan.",
+        "exEn": "After the holidays, I got my energy back.",
+        "meaningAt": 3
+      }
+    },
+    {
+      "who": "mat",
+      "fr": "« retrouver peu à peu son élan ».",
+      "en": "\"gradually getting your momentum back\"."
+    },
+    {
+      "who": "lea",
+      "fr": "Oui. [« Retrouver son élan »,]",
+      "en": "Yes. \"Retrouver son élan\""
+    },
+    {
+      "who": "lea",
+      "fr": "c'est recommencer à avoir l'énergie",
+      "en": "means having the energy again"
+    },
+    {
+      "who": "lea",
+      "fr": "ou l'envie d'avancer",
+      "en": "or the desire to move forward"
+    },
+    {
+      "who": "lea",
+      "fr": "après une période difficile.",
+      "en": "after a difficult period."
+    },
+    {
+      "who": "mat",
+      "fr": "Par exemple : « Après cette déception,",
+      "en": "For example: \"After this disappointment,"
+    },
+    {
+      "who": "mat",
+      "fr": "il lui a fallu du temps",
+      "en": "it took him time"
+    },
+    {
+      "who": "mat",
+      "fr": "pour retrouver son élan. »",
+      "en": "to get his momentum back.\"",
+      "boardEnd": true
+    },
+    {
+      "who": "lea",
+      "fr": "Très bien.",
+      "en": "Very good."
+    },
+    {
+      "who": "lea",
+      "fr": "Et ce temps est différent pour chacun.",
+      "en": "And that time is different for everyone."
+    },
+    {
+      "who": "lea",
+      "fr": "Nous n'avons pas à nous imposer",
+      "en": "We don't have to set ourselves"
+    },
+    {
+      "who": "lea",
+      "fr": "une date pour aller mieux.",
+      "en": "a date to feel better."
+    },
+    {
+      "who": "mat",
+      "fr": "Tu sais, on a parlé de nos pensées,",
+      "en": "You know, we've talked about our thoughts,"
+    },
+    {
+      "who": "mat",
+      "fr": "de nos objectifs et des périodes difficiles.",
+      "en": "our goals and difficult times."
+    },
+    {
+      "who": "mat",
+      "fr": "Mais je crois qu'il manque quelque chose.",
+      "en": "But I think something's missing."
+    },
+    {
+      "who": "lea",
+      "fr": "Quoi donc ?",
+      "en": "What's that?"
+    },
+    {
+      "who": "mat",
+      "fr": "Les autres !",
+      "en": "Other people!",
+      "emote": "idee"
+    },
+    {
+      "who": "mat",
+      "fr": "Parce qu'une conversation",
+      "en": "Because a conversation"
+    },
+    {
+      "who": "mat",
+      "fr": "avec une personne bienveillante",
+      "en": "with a kind person"
+    },
+    {
+      "who": "mat",
+      "fr": "peut parfois changer complètement",
+      "en": "can sometimes completely change"
+    },
+    {
+      "who": "mat",
+      "fr": "notre journée.",
+      "en": "our day."
+    },
+    {
+      "who": "lea",
+      "fr": "Je suis d'accord.",
+      "en": "I agree."
+    },
+    {
+      "who": "lea",
+      "fr": "Les relations humaines",
+      "en": "Human relationships"
+    },
+    {
+      "who": "lea",
+      "fr": "ont une place importante dans notre bien-être.",
+      "en": "play a big part in our well-being."
+    },
+    {
+      "who": "mat",
+      "fr": "La semaine dernière,",
+      "en": "Last week,"
+    },
+    {
+      "who": "mat",
+      "fr": "j'étais un peu découragé.",
+      "en": "I was a bit discouraged."
+    },
+    {
+      "who": "mat",
+      "fr": "J'ai appelé ma sœur",
+      "en": "I called my sister",
+      "illus": "famille",
+      "label": "ma sœur"
+    },
+    {
+      "who": "mat",
+      "fr": "pour lui raconter mes problèmes,",
+      "en": "to tell her about my problems,"
+    },
+    {
+      "who": "mat",
+      "fr": "et elle m'a écouté",
+      "en": "and she listened to me"
+    },
+    {
+      "who": "mat",
+      "fr": "sans chercher à tout résoudre.",
+      "en": "without trying to fix everything."
+    },
+    {
+      "who": "lea",
+      "fr": "Parfois, être écouté",
+      "en": "Sometimes, being listened to"
+    },
+    {
+      "who": "lea",
+      "fr": "fait déjà énormément de bien.",
+      "en": "already does a world of good."
+    },
+    {
+      "who": "mat",
+      "fr": "Oui. Puis elle m'a raconté",
+      "en": "Yes. Then she told me"
+    },
+    {
+      "who": "mat",
+      "fr": "que son fils avait voulu",
+      "en": "that her son had wanted"
+    },
+    {
+      "who": "mat",
+      "fr": "préparer un gâteau tout seul.",
+      "en": "to make a cake all by himself."
+    },
+    {
+      "who": "mat",
+      "fr": "Il avait [confondu] le sel et le sucre.",
+      "en": "He'd mixed up the salt and the sugar."
+    },
+    {
+      "who": "lea",
+      "fr": "Oh non !",
+      "en": "Oh no!",
+      "emote": "surpris"
+    },
+    {
+      "who": "lea",
+      "fr": "Le résultat devait être... surprenant.",
+      "en": "The result must have been... surprising."
+    },
+    {
+      "who": "mat",
+      "fr": "Très surprenant.",
+      "en": "Very surprising."
+    },
+    {
+      "who": "mat",
+      "fr": "Personne n'a demandé une deuxième part.",
+      "en": "Nobody asked for a second slice.",
+      "emote": "rire"
+    },
+    {
+      "who": "lea",
+      "fr": "Pauvre petit !",
+      "en": "Poor little thing!"
+    },
+    {
+      "who": "mat",
+      "fr": "Mais nous avons ri ensemble,",
+      "en": "But we laughed together,"
+    },
+    {
+      "who": "mat",
+      "fr": "et je me suis senti un peu plus léger.",
+      "en": "and I felt a bit lighter."
+    },
+    {
+      "who": "mat",
+      "fr": "Mes problèmes étaient toujours là,",
+      "en": "My problems were still there,"
+    },
+    {
+      "who": "mat",
+      "fr": "mais ils n'occupaient plus toute la conversation.",
+      "en": "but they no longer filled the whole conversation."
+    },
+    {
+      "who": "lea",
+      "fr": "C'est un bel exemple.",
+      "en": "That's a lovely example."
+    },
+    {
+      "who": "lea",
+      "fr": "Nous pouvons reconnaître",
+      "en": "We can acknowledge"
+    },
+    {
+      "who": "lea",
+      "fr": "ce qui nous inquiète",
+      "en": "what worries us"
+    },
+    {
+      "who": "lea",
+      "fr": "tout en laissant une place à des moments de joie.",
+      "en": "while leaving room for moments of joy."
+    },
+    {
+      "who": "mat",
+      "fr": "Et parfois, nous pouvons aussi apporter",
+      "en": "And sometimes, we can also bring"
+    },
+    {
+      "who": "mat",
+      "fr": "un peu de cette joie aux autres.",
+      "en": "a little of that joy to others."
+    },
+    {
+      "who": "lea",
+      "fr": "Comment ?",
+      "en": "How?"
+    },
+    {
+      "who": "mat",
+      "fr": "Un message gentil, un compliment sincère,",
+      "en": "A kind message, a sincere compliment,"
+    },
+    {
+      "who": "mat",
+      "fr": "ou simplement demander à quelqu'un",
+      "en": "or simply asking someone"
+    },
+    {
+      "who": "mat",
+      "fr": "comment il va",
+      "en": "how they're doing"
+    },
+    {
+      "who": "mat",
+      "fr": "et écouter vraiment la réponse.",
+      "en": "and really listening to the answer."
+    },
+    {
+      "who": "lea",
+      "fr": "Oui. Mais cela ne veut pas dire",
+      "en": "Yes. But that doesn't mean"
+    },
+    {
+      "who": "lea",
+      "fr": "que nous sommes responsables",
+      "en": "we're responsible"
+    },
+    {
+      "who": "lea",
+      "fr": "du bonheur de tout le monde.",
+      "en": "for everyone's happiness."
+    },
+    {
+      "who": "mat",
+      "fr": "Bien sûr.",
+      "en": "Of course."
+    },
+    {
+      "who": "mat",
+      "fr": "Nous pouvons être attentionnés",
+      "en": "We can be thoughtful"
+    },
+    {
+      "who": "mat",
+      "fr": "tout en respectant notre énergie et nos limites.",
+      "en": "while respecting our energy and our limits."
+    },
+    {
+      "who": "lea",
+      "fr": "Exactement.",
+      "en": "Exactly."
+    },
+    {
+      "who": "lea",
+      "fr": "Et parfois, un petit geste nous rappelle aussi",
+      "en": "And sometimes, a small gesture also reminds us"
+    },
+    {
+      "who": "lea",
+      "fr": "qu'il existe encore des choses agréables",
+      "en": "that there are still nice things"
+    },
+    {
+      "who": "lea",
+      "fr": "dans une journée compliquée.",
+      "en": "in a complicated day."
+    },
+    {
+      "who": "mat",
+      "fr": "Tu sais, j'ai commencé",
+      "en": "You know, I've started"
+    },
+    {
+      "who": "mat",
+      "fr": "une petite habitude le soir.",
+      "en": "a little habit in the evening."
+    },
+    {
+      "who": "mat",
+      "fr": "Je note une chose",
+      "en": "I write down one thing"
+    },
+    {
+      "who": "mat",
+      "fr": "qui s'est bien passée pendant la journée.",
+      "en": "that went well during the day."
+    },
+    {
+      "who": "lea",
+      "fr": "Une seule ?",
+      "en": "Just one?",
+      "emote": "question"
+    },
+    {
+      "who": "mat",
+      "fr": "Oui.",
+      "en": "Yes."
+    },
+    {
+      "who": "mat",
+      "fr": "Ça peut être une bonne conversation,",
+      "en": "It can be a good conversation,"
+    },
+    {
+      "who": "mat",
+      "fr": "un repas que j'ai aimé",
+      "en": "a meal I enjoyed"
+    },
+    {
+      "who": "mat",
+      "fr": "ou une tâche enfin terminée.",
+      "en": "or a task finally finished."
+    },
+    {
+      "who": "lea",
+      "fr": "Et tu fais ça tous les jours ?",
+      "en": "And you do that every day?"
+    },
+    {
+      "who": "mat",
+      "fr": "Pas toujours.",
+      "en": "Not always."
+    },
+    {
+      "who": "mat",
+      "fr": "Je n'en fais pas une obligation.",
+      "en": "I don't make it an obligation."
+    },
+    {
+      "who": "mat",
+      "fr": "Mais quand j'y pense,",
+      "en": "But when I think of it,"
+    },
+    {
+      "who": "mat",
+      "fr": "cela m'aide à regarder ma journée",
+      "en": "it helps me look at my day"
+    },
+    {
+      "who": "mat",
+      "fr": "avec un peu plus de nuance.",
+      "en": "with a bit more nuance."
+    },
+    {
+      "who": "lea",
+      "fr": "J'aime cette approche.",
+      "en": "I like that approach."
+    },
+    {
+      "who": "lea",
+      "fr": "La gratitude ne doit pas devenir",
+      "en": "Gratitude shouldn't become"
+    },
+    {
+      "who": "lea",
+      "fr": "un moyen de se reprocher d'être triste.",
+      "en": "a way to blame yourself for being sad."
+    },
+    {
+      "who": "mat",
+      "fr": "Exactement.",
+      "en": "Exactly."
+    },
+    {
+      "who": "mat",
+      "fr": "Certains jours, ma seule phrase est :",
+      "en": "Some days, my only sentence is:"
+    },
+    {
+      "who": "mat",
+      "fr": "« J'ai enfin pu me reposer. »",
+      "en": "\"I finally got to rest.\"",
+      "illus": "sommeil",
+      "label": "me reposer"
+    },
+    {
+      "who": "mat",
+      "fr": "Et c'est déjà suffisant.",
+      "en": "And that's already enough."
+    },
+    {
+      "who": "lea",
+      "fr": "Tu sais, cela me fait penser à quelqu'un",
+      "en": "You know, that reminds me of someone"
+    },
+    {
+      "who": "lea",
+      "fr": "qui m'a dit un jour :",
+      "en": "who once told me:"
+    },
+    {
+      "who": "lea",
+      "fr": "« Une mauvaise journée",
+      "en": "\"A bad day"
+    },
+    {
+      "who": "lea",
+      "fr": "peut contenir un bon moment. »",
+      "en": "can contain a good moment.\""
+    },
+    {
+      "who": "mat",
+      "fr": "J'aime beaucoup.",
+      "en": "I really like that."
+    },
+    {
+      "who": "mat",
+      "fr": "Et l'inverse est vrai aussi :",
+      "en": "And the opposite is true too:"
+    },
+    {
+      "who": "mat",
+      "fr": "une bonne journée",
+      "en": "a good day"
+    },
+    {
+      "who": "mat",
+      "fr": "peut contenir un moment difficile.",
+      "en": "can contain a difficult moment."
+    },
+    {
+      "who": "lea",
+      "fr": "Oui.",
+      "en": "Yes."
+    },
+    {
+      "who": "lea",
+      "fr": "Nous n'avons pas besoin de classer chaque journée",
+      "en": "We don't need to label every day"
+    },
+    {
+      "who": "lea",
+      "fr": "comme entièrement réussie",
+      "en": "as a complete success"
+    },
+    {
+      "who": "lea",
+      "fr": "ou complètement ratée.",
+      "en": "or a total failure."
+    },
+    {
+      "who": "mat",
+      "fr": "C'est rassurant.",
+      "en": "That's reassuring."
+    },
+    {
+      "who": "mat",
+      "fr": "Parce que les journées mélangées,",
+      "en": "Because mixed days,"
+    },
+    {
+      "who": "mat",
+      "fr": "avec de bonnes et de moins bonnes choses,",
+      "en": "with good and not-so-good things,"
+    },
+    {
+      "who": "mat",
+      "fr": "sont probablement les plus fréquentes.",
+      "en": "are probably the most common."
+    },
+    {
+      "who": "lea",
+      "fr": "Tout à fait.",
+      "en": "Absolutely."
+    },
+    {
+      "who": "lea",
+      "fr": "Et apprendre à voir ces différentes nuances,",
+      "en": "And learning to see those different shades"
+    },
+    {
+      "who": "lea",
+      "fr": "c'est déjà une manière de développer",
+      "en": "is already a way to develop"
+    },
+    {
+      "who": "lea",
+      "fr": "une attitude plus équilibrée.",
+      "en": "a more balanced attitude."
+    },
+    {
+      "who": "mat",
+      "fr": "Alors, est-ce qu'on pourrait dire",
+      "en": "So, could we say"
+    },
+    {
+      "who": "mat",
+      "fr": "que la pensée positive consiste",
+      "en": "that positive thinking means"
+    },
+    {
+      "who": "mat",
+      "fr": "à chercher de la lumière",
+      "en": "looking for light"
+    },
+    {
+      "who": "mat",
+      "fr": "sans [faire semblant] que l'ombre n'existe pas ?",
+      "en": "without pretending the shadow doesn't exist?"
+    },
+    {
+      "who": "lea",
+      "fr": "C'est une belle image.",
+      "en": "That's a beautiful image.",
+      "emote": "coeur"
+    },
+    {
+      "who": "lea",
+      "fr": "Et je crois que nos auditeurs vont la retenir.",
+      "en": "And I think our listeners will remember it."
+    },
+    {
+      "who": "mat",
+      "fr": "Merci !",
+      "en": "Thank you!"
+    },
+    {
+      "who": "mat",
+      "fr": "Je vais peut-être la noter",
+      "en": "Maybe I'll write it down"
+    },
+    {
+      "who": "mat",
+      "fr": "dans mon carnet de citations.",
+      "en": "in my notebook of quotes."
+    },
+    {
+      "who": "lea",
+      "fr": "Celui qui contient déjà",
+      "en": "The one that already holds"
+    },
+    {
+      "who": "lea",
+      "fr": "tes recettes de cuisine ?",
+      "en": "your cooking recipes?"
+    },
+    {
+      "who": "mat",
+      "fr": "Oui.",
+      "en": "Yes."
+    },
+    {
+      "who": "mat",
+      "fr": "Chez moi, la philosophie",
+      "en": "At my place, philosophy"
+    },
+    {
+      "who": "mat",
+      "fr": "et le gratin de pommes de terre",
+      "en": "and potato gratin",
+      "illus": "repas",
+      "label": "le gratin"
+    },
+    {
+      "who": "mat",
+      "fr": "vivent en parfaite harmonie.",
+      "en": "live in perfect harmony."
+    },
+    {
+      "who": "lea",
+      "fr": "Cela ne m'étonne absolument pas !",
+      "en": "That doesn't surprise me at all!"
+    },
+    {
+      "who": "mat",
+      "fr": "Bon, Léa, nous avons utilisé",
+      "en": "Well, Léa, we've used"
+    },
+    {
+      "who": "mat",
+      "fr": "beaucoup de belles expressions aujourd'hui.",
+      "en": "lots of lovely expressions today."
+    },
+    {
+      "who": "mat",
+      "fr": "On les revoit ?",
+      "en": "Shall we review them?"
+    },
+    {
+      "who": "lea",
+      "fr": "Avec plaisir. Commençons par",
+      "en": "With pleasure. Let's start with",
+      "board": {
+        "mode": "word",
+        "bg": "craie",
+        "note": "= remarquer ce qui reste positif dans une situation",
+        "icon": "soleil"
+      }
+    },
+    {
+      "who": "lea",
+      "fr": "« voir le bon côté des choses ».",
+      "en": "\"voir le bon côté des choses\"."
+    },
+    {
+      "who": "mat",
+      "fr": "Cette expression signifie",
+      "en": "This expression means"
+    },
+    {
+      "who": "mat",
+      "fr": "remarquer ce qui reste positif",
+      "en": "noticing what's still positive"
+    },
+    {
+      "who": "mat",
+      "fr": "dans une situation.",
+      "en": "in a situation."
+    },
+    {
+      "who": "mat",
+      "fr": "Par exemple : « J'ai raté mon train,",
+      "en": "For example: \"I missed my train,"
+    },
+    {
+      "who": "mat",
+      "fr": "mais j'essaie de [voir le bon côté des choses :]",
+      "en": "but I try to look on the bright side:"
+    },
+    {
+      "who": "mat",
+      "fr": "j'ai du temps pour lire. »",
+      "en": "I have time to read.\""
+    },
+    {
+      "who": "lea",
+      "fr": "Attention, cela ne signifie pas",
+      "en": "Careful, it doesn't mean"
+    },
+    {
+      "who": "lea",
+      "fr": "qu'il faut trouver quelque chose de positif",
+      "en": "you have to find something positive"
+    },
+    {
+      "who": "lea",
+      "fr": "dans chaque situation douloureuse.",
+      "en": "in every painful situation."
+    },
+    {
+      "who": "lea",
+      "fr": "C'est surtout une expression utile",
+      "en": "It's mainly a useful expression"
+    },
+    {
+      "who": "lea",
+      "fr": "pour les petits contretemps.",
+      "en": "for small setbacks.",
+      "boardEnd": true
+    },
+    {
+      "who": "mat",
+      "fr": "Deuxième expression :",
+      "en": "Second expression:"
+    },
+    {
+      "who": "mat",
+      "fr": "« prendre du recul ».",
+      "en": "\"prendre du recul\"."
+    },
+    {
+      "who": "lea",
+      "fr": "Cela signifie regarder une situation",
+      "en": "It means looking at a situation"
+    },
+    {
+      "who": "lea",
+      "fr": "avec plus de distance et de calme.",
+      "en": "with more distance and calm."
+    },
+    {
+      "who": "lea",
+      "fr": "Par exemple : « Après une mauvaise journée,",
+      "en": "For example: \"After a bad day,"
+    },
+    {
+      "who": "lea",
+      "fr": "j'ai besoin de prendre du recul",
+      "en": "I need to step back"
+    },
+    {
+      "who": "lea",
+      "fr": "avant de prendre une décision. »",
+      "en": "before making a decision.\""
+    },
+    {
+      "who": "mat",
+      "fr": "Troisième expression :",
+      "en": "Third expression:"
+    },
+    {
+      "who": "mat",
+      "fr": "« garder les pieds sur terre ».",
+      "en": "\"garder les pieds sur terre\"."
+    },
+    {
+      "who": "lea",
+      "fr": "Cela signifie rester réaliste.",
+      "en": "It means staying realistic."
+    },
+    {
+      "who": "lea",
+      "fr": "Par exemple :",
+      "en": "For example:"
+    },
+    {
+      "who": "lea",
+      "fr": "« Je suis enthousiaste pour ce projet,",
+      "en": "\"I'm excited about this project,"
+    },
+    {
+      "who": "lea",
+      "fr": "mais je garde les pieds sur terre. »",
+      "en": "but I keep my feet on the ground.\""
+    },
+    {
+      "who": "mat",
+      "fr": "Quatrième expression :",
+      "en": "Fourth expression:"
+    },
+    {
+      "who": "mat",
+      "fr": "« avoir tendance à ».",
+      "en": "\"avoir tendance à\"."
+    },
+    {
+      "who": "lea",
+      "fr": "Cela signifie",
+      "en": "It means"
+    },
+    {
+      "who": "lea",
+      "fr": "faire quelque chose assez souvent.",
+      "en": "doing something quite often."
+    },
+    {
+      "who": "lea",
+      "fr": "Par exemple :",
+      "en": "For example:"
+    },
+    {
+      "who": "lea",
+      "fr": "« Quand je suis fatiguée,",
+      "en": "\"When I'm tired,"
+    },
+    {
+      "who": "lea",
+      "fr": "j'ai tendance à imaginer le pire. »",
+      "en": "I tend to imagine the worst.\""
+    },
+    {
+      "who": "mat",
+      "fr": "Cinquième expression :",
+      "en": "Fifth expression:",
+      "board": {
+        "mode": "match",
+        "bg": "carnet",
+        "title": "Relie les expressions !",
+        "pairs": [
+          [
+            "le bon côté",
+            "the bright side"
+          ],
+          [
+            "prendre du recul",
+            "to step back"
+          ],
+          [
+            "les pieds sur terre",
+            "to stay realistic"
+          ],
+          [
+            "reprendre confiance",
+            "to regain confidence"
+          ],
+          [
+            "retrouver son élan",
+            "get energy back"
+          ]
+        ]
+      }
+    },
+    {
+      "who": "mat",
+      "fr": "« reprendre confiance ».",
+      "en": "\"reprendre confiance\"."
+    },
+    {
+      "who": "lea",
+      "fr": "C'est retrouver progressivement",
+      "en": "It's gradually getting back"
+    },
+    {
+      "who": "lea",
+      "fr": "la confiance qu'on avait perdue.",
+      "en": "the confidence you had lost."
+    },
+    {
+      "who": "lea",
+      "fr": "Par exemple :",
+      "en": "For example:"
+    },
+    {
+      "who": "lea",
+      "fr": "« Après plusieurs petites réussites,",
+      "en": "\"After several small successes,"
+    },
+    {
+      "who": "lea",
+      "fr": "elle a commencé à [reprendre confiance. »]",
+      "en": "she began to regain confidence.\""
+    },
+    {
+      "who": "mat",
+      "fr": "Et notre dernière expression :",
+      "en": "And our last expression:"
+    },
+    {
+      "who": "mat",
+      "fr": "« retrouver son élan ».",
+      "en": "\"retrouver son élan\"."
+    },
+    {
+      "who": "lea",
+      "fr": "Elle signifie",
+      "en": "It means"
+    },
+    {
+      "who": "lea",
+      "fr": "retrouver l'énergie de continuer.",
+      "en": "finding the energy to keep going again."
+    },
+    {
+      "who": "lea",
+      "fr": "Par exemple :",
+      "en": "For example:"
+    },
+    {
+      "who": "lea",
+      "fr": "« Après une période difficile,",
+      "en": "\"After a difficult period,"
+    },
+    {
+      "who": "lea",
+      "fr": "il a retrouvé son élan",
+      "en": "he got his momentum back"
+    },
+    {
+      "who": "lea",
+      "fr": "grâce à un nouveau projet. »",
+      "en": "thanks to a new project.\""
+    },
+    {
+      "who": "mat",
+      "fr": "Voilà six expressions très utiles",
+      "en": "There you go, six very useful expressions"
+    },
+    {
+      "who": "mat",
+      "fr": "pour parler de nos émotions",
+      "en": "to talk about our emotions"
+    },
+    {
+      "who": "mat",
+      "fr": "et de notre manière de voir la vie.",
+      "en": "and our way of seeing life.",
+      "boardEnd": true
+    },
+    {
+      "who": "lea",
+      "fr": "Maintenant, regardons comment",
+      "en": "Now, let's see how"
+    },
+    {
+      "who": "lea",
+      "fr": "remplacer certaines phrases très générales",
+      "en": "to replace some very general sentences"
+    },
+    {
+      "who": "lea",
+      "fr": "par des formulations plus naturelles.",
+      "en": "with more natural wording."
+    },
+    {
+      "who": "mat",
+      "fr": "Première phrase :",
+      "en": "First sentence:",
+      "board": {
+        "mode": "transform",
+        "bg": "liege",
+        "title": "Plus précis, plus naturel",
+        "from": "*Tout va mal.*",
+        "to": "Je traverse *une journée compliquée*.",
+        "fromTag": "trop général",
+        "toTag": "plus juste",
+        "label": "préciser",
+        "en": "I'm having a complicated day.",
+        "changeAt": 3
+      }
+    },
+    {
+      "who": "mat",
+      "fr": "« Tout va mal. »",
+      "en": "\"Everything's going wrong.\""
+    },
+    {
+      "who": "lea",
+      "fr": "On peut dire :",
+      "en": "You can say:"
+    },
+    {
+      "who": "lea",
+      "fr": "« Je traverse une journée compliquée. »",
+      "en": "\"I'm having a complicated day.\""
+    },
+    {
+      "who": "lea",
+      "fr": "Ou : « Plusieurs choses",
+      "en": "Or: \"Several things"
+    },
+    {
+      "who": "lea",
+      "fr": "ne se passent pas comme prévu aujourd'hui. »",
+      "en": "aren't going as planned today.\""
+    },
+    {
+      "who": "mat",
+      "fr": "C'est plus précis,",
+      "en": "It's more precise,"
+    },
+    {
+      "who": "mat",
+      "fr": "et ça ne transforme pas",
+      "en": "and it doesn't turn"
+    },
+    {
+      "who": "mat",
+      "fr": "une mauvaise matinée en mauvaise vie.",
+      "en": "a bad morning into a bad life.",
+      "boardEnd": true
+    },
+    {
+      "who": "lea",
+      "fr": "Deuxième phrase :",
+      "en": "Second sentence:"
+    },
+    {
+      "who": "lea",
+      "fr": "« Je suis nul. »",
+      "en": "\"I'm hopeless.\""
+    },
+    {
+      "who": "mat",
+      "fr": "On peut dire :",
+      "en": "You can say:"
+    },
+    {
+      "who": "mat",
+      "fr": "« Je manque encore de pratique. »",
+      "en": "\"I still lack practice.\""
+    },
+    {
+      "who": "mat",
+      "fr": "Ou : « Je n'ai pas réussi cette fois,",
+      "en": "Or: \"I didn't succeed this time,"
+    },
+    {
+      "who": "mat",
+      "fr": "mais je peux apprendre. »",
+      "en": "but I can learn.\""
+    },
+    {
+      "who": "lea",
+      "fr": "Troisième phrase :",
+      "en": "Third sentence:"
+    },
+    {
+      "who": "lea",
+      "fr": "« Je pense toujours au pire. »",
+      "en": "\"I always think the worst.\""
+    },
+    {
+      "who": "mat",
+      "fr": "On peut dire :",
+      "en": "You can say:"
+    },
+    {
+      "who": "mat",
+      "fr": "« J'ai tendance à anticiper les problèmes. »",
+      "en": "\"I tend to anticipate problems.\""
+    },
+    {
+      "who": "mat",
+      "fr": "Ou : « Je me fais parfois",
+      "en": "Or: \"I sometimes worry"
+    },
+    {
+      "who": "mat",
+      "fr": "trop de souci pour l'avenir. »",
+      "en": "too much about the future.\""
+    },
+    {
+      "who": "lea",
+      "fr": "Quatrième phrase :",
+      "en": "Fourth sentence:"
+    },
+    {
+      "who": "lea",
+      "fr": "« Je veux être heureux. »",
+      "en": "\"I want to be happy.\""
+    },
+    {
+      "who": "mat",
+      "fr": "On peut dire :",
+      "en": "You can say:"
+    },
+    {
+      "who": "mat",
+      "fr": "« J'aimerais apprécier davantage",
+      "en": "\"I'd like to appreciate more"
+    },
+    {
+      "who": "mat",
+      "fr": "les petits moments du quotidien. »",
+      "en": "the little everyday moments.\""
+    },
+    {
+      "who": "lea",
+      "fr": "Ou : « Je cherche un meilleur équilibre",
+      "en": "Or: \"I'm looking for a better balance"
+    },
+    {
+      "who": "lea",
+      "fr": "dans ma vie. »",
+      "en": "in my life.\""
+    },
+    {
+      "who": "mat",
+      "fr": "Cinquième phrase :",
+      "en": "Fifth sentence:"
+    },
+    {
+      "who": "mat",
+      "fr": "« Je ne peux rien changer. »",
+      "en": "\"I can't change anything.\""
+    },
+    {
+      "who": "lea",
+      "fr": "On peut dire :",
+      "en": "You can say:"
+    },
+    {
+      "who": "lea",
+      "fr": "« Je ne peux pas tout contrôler,",
+      "en": "\"I can't control everything,"
+    },
+    {
+      "who": "lea",
+      "fr": "mais je peux agir sur certaines choses. »",
+      "en": "but I can act on some things.\""
+    },
+    {
+      "who": "mat",
+      "fr": "Et dernière phrase :",
+      "en": "And the last sentence:"
+    },
+    {
+      "who": "mat",
+      "fr": "« J'ai peur d'essayer. »",
+      "en": "\"I'm afraid to try.\""
+    },
+    {
+      "who": "lea",
+      "fr": "On peut dire :",
+      "en": "You can say:"
+    },
+    {
+      "who": "lea",
+      "fr": "« Je ne suis pas encore très sûr de moi,",
+      "en": "\"I'm not very confident yet,"
+    },
+    {
+      "who": "lea",
+      "fr": "mais j'aimerais faire un premier pas. »",
+      "en": "but I'd like to take a first step.\""
+    },
+    {
+      "who": "mat",
+      "fr": "Tu sais, j'aime beaucoup ces alternatives.",
+      "en": "You know, I really like these alternatives."
+    },
+    {
+      "who": "mat",
+      "fr": "Elles sont plus honnêtes",
+      "en": "They're more honest"
+    },
+    {
+      "who": "mat",
+      "fr": "que de prétendre que tout va bien.",
+      "en": "than pretending everything's fine."
+    },
+    {
+      "who": "lea",
+      "fr": "Exactement.",
+      "en": "Exactly."
+    },
+    {
+      "who": "lea",
+      "fr": "Et elles peuvent servir aussi",
+      "en": "And they can also help"
+    },
+    {
+      "who": "lea",
+      "fr": "quand on apprend le français.",
+      "en": "when you're learning French."
+    },
+    {
+      "who": "lea",
+      "fr": "Au lieu de dire",
+      "en": "Instead of saying"
+    },
+    {
+      "who": "lea",
+      "fr": "« Je ne parlerai jamais bien »,",
+      "en": "\"I'll never speak well\","
+    },
+    {
+      "who": "lea",
+      "fr": "on peut dire « J'avance à mon rythme,",
+      "en": "you can say \"I'm going at my own pace,"
+    },
+    {
+      "who": "lea",
+      "fr": "et je comprends déjà davantage qu'avant ».",
+      "en": "and I already understand more than before.\""
+    },
+    {
+      "who": "mat",
+      "fr": "Les petites phrases comptent.",
+      "en": "Little sentences matter."
+    },
+    {
+      "who": "mat",
+      "fr": "Surtout celles qu'on se répète souvent.",
+      "en": "Especially the ones we repeat to ourselves."
+    },
+    {
+      "who": "lea",
+      "fr": "Oui. Mais rappelons-le :",
+      "en": "Yes. But let's remember:"
+    },
+    {
+      "who": "lea",
+      "fr": "personne ne contrôle ses pensées",
+      "en": "nobody controls their thoughts"
+    },
+    {
+      "who": "lea",
+      "fr": "en permanence.",
+      "en": "all the time."
+    },
+    {
+      "who": "lea",
+      "fr": "Ce n'est pas un exercice",
+      "en": "It's not an exercise"
+    },
+    {
+      "who": "lea",
+      "fr": "où il faut obtenir une note parfaite.",
+      "en": "where you have to get a perfect grade."
+    },
+    {
+      "who": "mat",
+      "fr": "Heureusement,",
+      "en": "Thank goodness,"
+    },
+    {
+      "who": "mat",
+      "fr": "parce que mon cerveau aurait déjà demandé",
+      "en": "because my brain would already have asked"
+    },
+    {
+      "who": "mat",
+      "fr": "une deuxième chance à l'examen !",
+      "en": "for a second chance at the exam!",
+      "emote": "rire"
+    },
+    {
+      "who": "lea",
+      "fr": "Mathieu, si tu devais retenir",
+      "en": "Mathieu, if you had to remember"
+    },
+    {
+      "who": "lea",
+      "fr": "une seule chose de notre conversation,",
+      "en": "just one thing from our conversation,"
+    },
+    {
+      "who": "lea",
+      "fr": "ce serait quoi ?",
+      "en": "what would it be?"
+    },
+    {
+      "who": "mat",
+      "fr": "Que je peux avoir une journée imparfaite",
+      "en": "That I can have an imperfect day"
+    },
+    {
+      "who": "mat",
+      "fr": "sans décider qu'elle est entièrement mauvaise.",
+      "en": "without deciding it's completely bad."
+    },
+    {
+      "who": "mat",
+      "fr": "Et que parfois,",
+      "en": "And that sometimes,"
+    },
+    {
+      "who": "mat",
+      "fr": "une petite action change plus de choses",
+      "en": "one small action changes more"
+    },
+    {
+      "who": "mat",
+      "fr": "qu'une heure à m'inquiéter.",
+      "en": "than an hour of worrying."
+    },
+    {
+      "who": "lea",
+      "fr": "Moi, je retiendrais",
+      "en": "Me, I'd remember"
+    },
+    {
+      "who": "lea",
+      "fr": "qu'on peut chercher de l'espoir",
+      "en": "that we can look for hope"
+    },
+    {
+      "who": "lea",
+      "fr": "tout en reconnaissant la douleur,",
+      "en": "while acknowledging pain,"
+    },
+    {
+      "who": "lea",
+      "fr": "la fatigue ou la déception.",
+      "en": "tiredness or disappointment."
+    },
+    {
+      "who": "mat",
+      "fr": "Donc être positif,",
+      "en": "So being positive"
+    },
+    {
+      "who": "mat",
+      "fr": "ce n'est pas sourire [coûte que coûte.]",
+      "en": "isn't smiling no matter what."
+    },
+    {
+      "who": "lea",
+      "fr": "Non.",
+      "en": "No."
+    },
+    {
+      "who": "lea",
+      "fr": "C'est parfois se dire :",
+      "en": "Sometimes it's telling yourself:"
+    },
+    {
+      "who": "lea",
+      "fr": "« C'est difficile en ce moment,",
+      "en": "\"It's hard right now,"
+    },
+    {
+      "who": "lea",
+      "fr": "mais je vais voir",
+      "en": "but I'll see"
+    },
+    {
+      "who": "lea",
+      "fr": "ce qui peut m'aider à avancer. »",
+      "en": "what can help me move forward.\""
+    },
+    {
+      "who": "mat",
+      "fr": "Et pour ma prochaine matinée catastrophique,",
+      "en": "And for my next disastrous morning,"
+    },
+    {
+      "who": "mat",
+      "fr": "je vais essayer de ne pas laisser",
+      "en": "I'll try not to let"
+    },
+    {
+      "who": "mat",
+      "fr": "une tasse de café décider de mon humeur",
+      "en": "a cup of coffee decide my mood"
+    },
+    {
+      "who": "mat",
+      "fr": "pour douze heures.",
+      "en": "for twelve hours."
+    },
+    {
+      "who": "lea",
+      "fr": "Voilà un excellent objectif !",
+      "en": "That's an excellent goal!"
+    },
+    {
+      "who": "lea",
+      "fr": "Mais peut-être devrais-tu aussi",
+      "en": "But maybe you should also"
+    },
+    {
+      "who": "lea",
+      "fr": "acheter une chemise [de rechange.]",
+      "en": "buy a spare shirt.",
+      "emote": "rire"
+    },
+    {
+      "who": "mat",
+      "fr": "Quelle sagesse, Léa.",
+      "en": "Such wisdom, Léa."
+    },
+    {
+      "who": "mat",
+      "fr": "La pensée positive rencontre enfin",
+      "en": "Positive thinking finally meets"
+    },
+    {
+      "who": "mat",
+      "fr": "l'organisation pratique.",
+      "en": "practical organization."
+    },
+    {
+      "who": "lea",
+      "fr": "Les deux peuvent très bien fonctionner ensemble !",
+      "en": "The two can work very well together!"
+    },
+    {
+      "who": "mat",
+      "fr": "Alors, chers amis, à votre tour.",
+      "en": "So, dear friends, it's your turn."
+    },
+    {
+      "who": "mat",
+      "fr": "Quelle petite habitude positive",
+      "en": "What little positive habit"
+    },
+    {
+      "who": "mat",
+      "fr": "aimeriez-vous essayer cette semaine ?",
+      "en": "would you like to try this week?"
+    },
+    {
+      "who": "lea",
+      "fr": "Dans les commentaires, vous pouvez écrire :",
+      "en": "In the comments, you can write:"
+    },
+    {
+      "who": "lea",
+      "fr": "« Cette semaine, j'aimerais",
+      "en": "\"This week, I'd like"
+    },
+    {
+      "who": "lea",
+      "fr": "prendre l'habitude de... »",
+      "en": "to get into the habit of...\""
+    },
+    {
+      "who": "mat",
+      "fr": "Ou : « Aujourd'hui,",
+      "en": "Or: \"Today,"
+    },
+    {
+      "who": "mat",
+      "fr": "une chose qui m'a fait du bien, c'est... »",
+      "en": "one thing that did me good was...\""
+    },
+    {
+      "who": "mat",
+      "fr": "Une ou deux phrases suffisent.",
+      "en": "One or two sentences are enough."
+    },
+    {
+      "who": "mat",
+      "fr": "N'ayez pas peur des erreurs.",
+      "en": "Don't be afraid of mistakes."
+    },
+    {
+      "who": "lea",
+      "fr": "Et si cette conversation vous a plu,",
+      "en": "And if you enjoyed this conversation,"
+    },
+    {
+      "who": "lea",
+      "fr": "pensez à l'aimer,",
+      "en": "remember to like it,"
+    },
+    {
+      "who": "lea",
+      "fr": "à vous abonner à The Cozy French",
+      "en": "to subscribe to The Cozy French"
+    },
+    {
+      "who": "lea",
+      "fr": "et à la partager",
+      "en": "and to share it"
+    },
+    {
+      "who": "lea",
+      "fr": "avec une personne qui apprend le français.",
+      "en": "with someone who's learning French."
+    },
+    {
+      "who": "mat",
+      "fr": "Merci d'avoir passé ce moment avec nous.",
+      "en": "Thank you for spending this time with us.",
+      "emote": "coeur"
+    },
+    {
+      "who": "mat",
+      "fr": "Que vous traversiez une période agréable",
+      "en": "Whether you're going through a good time"
+    },
+    {
+      "who": "mat",
+      "fr": "ou plus compliquée,",
+      "en": "or a harder one,"
+    },
+    {
+      "who": "mat",
+      "fr": "nous espérons que vous avez découvert",
+      "en": "we hope you've discovered"
+    },
+    {
+      "who": "mat",
+      "fr": "quelques expressions utiles",
+      "en": "a few useful expressions"
+    },
+    {
+      "who": "mat",
+      "fr": "et une idée à garder pour vous.",
+      "en": "and an idea to keep for yourself."
+    },
+    {
+      "who": "lea",
+      "fr": "Prenez soin de vous,",
+      "en": "Take care of yourselves,"
+    },
+    {
+      "who": "lea",
+      "fr": "avancez à votre rythme et souvenez-vous :",
+      "en": "go at your own pace and remember:"
+    },
+    {
+      "who": "lea",
+      "fr": "vous n'avez pas besoin",
+      "en": "you don't need"
+    },
+    {
+      "who": "lea",
+      "fr": "d'être heureux à chaque instant",
+      "en": "to be happy every moment"
+    },
+    {
+      "who": "lea",
+      "fr": "pour apprécier les bonnes choses",
+      "en": "to enjoy the good things"
+    },
+    {
+      "who": "lea",
+      "fr": "quand elles se présentent.",
+      "en": "when they come along."
+    },
+    {
+      "who": "mat",
+      "fr": "C'était Mathieu...",
+      "en": "This was Mathieu..."
+    },
+    {
+      "who": "lea",
+      "fr": "Et Léa, de The Cozy French !",
+      "en": "And Léa, from The Cozy French!"
+    },
+    {
+      "who": "mat",
+      "fr": "On se retrouve très bientôt",
+      "en": "See you very soon"
+    },
+    {
+      "who": "mat",
+      "fr": "pour une nouvelle conversation en français.",
+      "en": "for a new conversation in French."
+    },
+    {
+      "who": "lea",
+      "fr": "À très bientôt, chers amis !",
+      "en": "See you very soon, dear friends!"
+    },
+    {
+      "who": "mat",
+      "fr": "À bientôt !",
+      "en": "See you soon!"
+    }
+  ],
+  "vocab": [
+    {
+      "tag": "verbe",
+      "word": "renverser",
+      "ipa": "/ʁɑ̃.vɛʁ.se/",
+      "mean": "to spill, to knock over",
+      "ex": "Attention, tu vas renverser ton verre !",
+      "exEn": "Careful, you're going to spill your glass!"
+    },
+    {
+      "tag": "expression",
+      "word": "déclarer forfait",
+      "ipa": "/de.kla.ʁe fɔʁ.fɛ/",
+      "mean": "to give up, to throw in the towel",
+      "ex": "Après trois kilomètres, j'ai déclaré forfait.",
+      "exEn": "After three kilometres, I gave up."
+    },
+    {
+      "tag": "nom masculin",
+      "word": "un contretemps",
+      "ipa": "/œ̃ kɔ̃.tʁə.tɑ̃/",
+      "mean": "a setback, a hitch",
+      "ex": "Désolé, j'ai eu un contretemps au travail.",
+      "exEn": "Sorry, something came up at work."
+    },
+    {
+      "tag": "nom féminin",
+      "word": "une contrariété",
+      "ipa": "/yn kɔ̃.tʁa.ʁje.te/",
+      "mean": "an annoyance, a small upset",
+      "ex": "Une petite contrariété ne doit pas gâcher ta soirée.",
+      "exEn": "A small annoyance shouldn't spoil your evening."
+    },
+    {
+      "tag": "nom masculin",
+      "word": "un mode d'emploi",
+      "ipa": "/œ̃ mɔd dɑ̃.plwa/",
+      "mean": "instructions, a user manual",
+      "ex": "J'ai perdu le mode d'emploi de la machine.",
+      "exEn": "I lost the instructions for the machine."
+    },
+    {
+      "tag": "expression",
+      "word": "garder les pieds sur terre",
+      "ipa": "/ɡaʁ.de le pje syʁ tɛʁ/",
+      "mean": "to stay realistic, down to earth",
+      "ex": "Même avec le succès, elle garde les pieds sur terre.",
+      "exEn": "Even with success, she stays down to earth."
+    },
+    {
+      "tag": "verbe",
+      "word": "aboutir",
+      "ipa": "/a.bu.tiʁ/",
+      "mean": "to succeed, to come to something",
+      "ex": "Après deux ans, notre projet a enfin abouti.",
+      "exEn": "After two years, our project finally came together."
+    },
+    {
+      "tag": "expression",
+      "word": "ne pas être d'humeur à",
+      "ipa": "/nə pa ɛtʁ dy.mœʁ a/",
+      "mean": "not to be in the mood for",
+      "ex": "Ce soir, je ne suis pas d'humeur à sortir.",
+      "exEn": "Tonight, I'm not in the mood to go out."
+    },
+    {
+      "tag": "expression",
+      "word": "retrouver son élan",
+      "ipa": "/ʁə.tʁu.ve sɔ̃.n‿e.lɑ̃/",
+      "mean": "to get your energy / momentum back",
+      "ex": "Avec le printemps, j'ai retrouvé mon élan.",
+      "exEn": "With spring, I got my energy back."
+    },
+    {
+      "tag": "verbe",
+      "word": "confondre",
+      "ipa": "/kɔ̃.fɔ̃dʁ/",
+      "mean": "to mix up, to confuse",
+      "ex": "On me confond souvent avec ma sœur.",
+      "exEn": "People often mix me up with my sister."
+    },
+    {
+      "tag": "expression",
+      "word": "faire semblant (de)",
+      "ipa": "/fɛʁ sɑ̃.blɑ̃/",
+      "mean": "to pretend",
+      "ex": "Il fait semblant de dormir.",
+      "exEn": "He's pretending to be asleep."
+    },
+    {
+      "tag": "expression",
+      "word": "voir le bon côté des choses",
+      "ipa": "/vwaʁ lə bɔ̃ ko.te de ʃoz/",
+      "mean": "to look on the bright side",
+      "ex": "Il pleut, mais vois le bon côté : on reste au chaud.",
+      "exEn": "It's raining, but look on the bright side: we stay warm."
+    },
+    {
+      "tag": "expression",
+      "word": "reprendre confiance",
+      "ipa": "/ʁə.pʁɑ̃dʁ kɔ̃.fjɑ̃s/",
+      "mean": "to regain confidence",
+      "ex": "Grâce à son coach, il a repris confiance.",
+      "exEn": "Thanks to his coach, he regained confidence."
+    },
+    {
+      "tag": "expression",
+      "word": "coûte que coûte",
+      "ipa": "/kut kə kut/",
+      "mean": "no matter what, at all costs",
+      "ex": "Je veux finir ce livre coûte que coûte.",
+      "exEn": "I want to finish this book no matter what."
+    },
+    {
+      "tag": "expression",
+      "word": "de rechange",
+      "ipa": "/də ʁə.ʃɑ̃ʒ/",
+      "mean": "spare",
+      "ex": "Prends des chaussettes de rechange pour la randonnée.",
+      "exEn": "Take spare socks for the hike."
+    }
+  ],
+  "stories": [
+    {
+      "c": [
+        1,
+        4
+      ],
+      "place": "papier",
+      "beats": [
+        {
+          "c": 1,
+          "w": "Bienvenue",
+          "do": "title",
+          "text": "The Cozy French",
+          "sub": "notre petit coin chaleureux",
+          "y": 300,
+          "mark": "Cozy"
+        },
+        {
+          "c": 4,
+          "w": "conversations",
+          "do": "icons",
+          "y": 620,
+          "items": [
+            {
+              "icon": "amis",
+              "label": "des conversations"
+            },
+            {
+              "icon": "cafe",
+              "label": "de tous les jours"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "c": [
+        8,
+        10
+      ],
+      "place": "papier",
+      "beats": [
+        {
+          "c": 8,
+          "w": "bus",
+          "do": "draw",
+          "icon": "voiture",
+          "x": 480,
+          "y": 380,
+          "size": 300,
+          "label": "dans le bus"
+        },
+        {
+          "c": 9,
+          "w": "maison",
+          "do": "draw",
+          "icon": "x:home",
+          "x": 960,
+          "y": 380,
+          "size": 220,
+          "label": "à la maison"
+        },
+        {
+          "c": 9,
+          "w": "promenade",
+          "do": "draw",
+          "icon": "nature",
+          "x": 1440,
+          "y": 380,
+          "size": 300,
+          "label": "en promenade"
+        },
+        {
+          "c": 10,
+          "w": "faites",
+          "do": "write",
+          "text": "Faites comme chez vous…",
+          "x": 960,
+          "y": 660,
+          "size": 84,
+          "color": "#b8552a"
+        }
+      ]
+    },
+    {
+      "c": [
+        17,
+        19
+      ],
+      "place": "papier",
+      "beats": [
+        {
+          "c": 17,
+          "do": "list",
+          "title": "Ce matin…",
+          "x": 400,
+          "y": 400,
+          "items": [
+            {
+              "text": "café renversé",
+              "icon": "cafe",
+              "c": 17,
+              "w": "renversé"
+            },
+            {
+              "text": "tram raté",
+              "icon": "voiture",
+              "c": 18,
+              "w": "raté"
+            },
+            {
+              "text": "parapluie oublié",
+              "icon": "pluie",
+              "c": 18,
+              "w": "oublié"
+            }
+          ]
+        },
+        {
+          "c": 19,
+          "w": "magnifique",
+          "do": "stamp",
+          "text": "Magnifique !",
+          "x": 1450,
+          "y": 380,
+          "color": "#b8552a"
+        },
+        {
+          "c": 19,
+          "w": "magnifique",
+          "do": "draw",
+          "icon": "x:e-cry",
+          "x": 1450,
+          "y": 620,
+          "size": 150
+        }
+      ]
+    },
+    {
+      "c": [
+        22,
+        27
+      ],
+      "place": "rue",
+      "cast": [
+        {
+          "id": "m",
+          "who": "mat",
+          "x": 1250
+        }
+      ],
+      "beats": [
+        {
+          "c": 22,
+          "w": "raté",
+          "do": "face",
+          "on": "m",
+          "face": "flat"
+        },
+        {
+          "c": 23,
+          "w": "boulangerie",
+          "do": "circle",
+          "x": 240,
+          "y": 460,
+          "rx": 230,
+          "ry": 70
+        },
+        {
+          "c": 24,
+          "w": "offert",
+          "do": "face",
+          "on": "m",
+          "face": "happy"
+        },
+        {
+          "c": 24,
+          "w": "biscuit",
+          "do": "say",
+          "on": "m",
+          "text": "Un petit biscuit !",
+          "until": {
+            "c": 26
+          }
+        },
+        {
+          "c": 26,
+          "w": "voisin",
+          "do": "face",
+          "on": "m",
+          "face": "star"
+        },
+        {
+          "c": 26,
+          "w": "voisin",
+          "do": "burst",
+          "on": "m",
+          "icons": [
+            "♥",
+            "★",
+            "♥"
+          ]
+        }
+      ]
+    },
+    {
+      "c": [
+        37,
+        46
+      ],
+      "place": "papier",
+      "beats": [
+        {
+          "c": 37,
+          "w": "Power",
+          "do": "title",
+          "text": "The Power of Positivity",
+          "sub": "le pouvoir de la pensée positive",
+          "y": 240,
+          "id": "t",
+          "mark": "Positivity"
+        },
+        {
+          "c": 40,
+          "w": "sourire",
+          "do": "text",
+          "text": "sourire quand le tram part sans nous ?",
+          "y": 500,
+          "size": 56,
+          "id": "q"
+        },
+        {
+          "c": 42,
+          "w": "Pas",
+          "do": "stamp",
+          "text": "Pas du tout !",
+          "x": 960,
+          "y": 690,
+          "id": "s"
+        },
+        {
+          "c": 43,
+          "w": "attitude",
+          "do": "hide",
+          "ids": [
+            "q",
+            "s"
+          ]
+        },
+        {
+          "c": 44,
+          "w": "reconnaître",
+          "do": "icons",
+          "y": 560,
+          "items": [
+            {
+              "icon": "b:search",
+              "label": "les difficultés",
+              "c": 44,
+              "w": "difficultés"
+            },
+            {
+              "icon": "b:heart",
+              "label": "ce qui peut aider",
+              "c": 45,
+              "w": "aider"
+            },
+            {
+              "icon": "soleil",
+              "label": "l'espoir",
+              "c": 46,
+              "w": "espoir"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "c": [
+        48,
+        50
+      ],
+      "place": "papier",
+      "beats": [
+        {
+          "c": 48,
+          "w": "positif",
+          "do": "draw",
+          "icon": "x:e-joy",
+          "x": 380,
+          "y": 380,
+          "size": 200,
+          "label": "joyeux tout le temps ?"
+        },
+        {
+          "c": 49,
+          "w": "temps",
+          "do": "battery",
+          "from": 100,
+          "to": 5,
+          "d": 2.6,
+          "x": 1500,
+          "y": 280,
+          "label": "mon énergie"
+        },
+        {
+          "c": 50,
+          "w": "lundi",
+          "do": "calendar",
+          "labels": [
+            "LUNDI"
+          ],
+          "d": 0.6,
+          "x": 1700,
+          "y": 560
+        },
+        {
+          "c": 50,
+          "w": "forfait",
+          "do": "stamp",
+          "text": "Forfait !",
+          "x": 400,
+          "y": 640,
+          "color": "#9a4a3a"
+        }
+      ]
+    },
+    {
+      "c": [
+        52,
+        59
+      ],
+      "place": "papier",
+      "beats": [
+        {
+          "c": 52,
+          "do": "list",
+          "title": "Aujourd'hui…",
+          "x": 760,
+          "y": 380,
+          "items": [
+            {
+              "text": "nos pensées",
+              "icon": "b:question",
+              "c": 52,
+              "w": "pensées"
+            },
+            {
+              "text": "nos petits moments heureux",
+              "icon": "b:heart",
+              "c": 53,
+              "w": "heureux"
+            },
+            {
+              "text": "nos objectifs",
+              "icon": "x:target",
+              "c": 54,
+              "w": "objectifs"
+            },
+            {
+              "text": "les périodes moins faciles",
+              "icon": "pluie",
+              "c": 55,
+              "w": "périodes"
+            }
+          ]
+        },
+        {
+          "c": 56,
+          "w": "histoires",
+          "do": "note",
+          "text": "des histoires, des plaisanteries…",
+          "x": 1450,
+          "y": 300
+        },
+        {
+          "c": 59,
+          "w": "expressions",
+          "do": "stamp",
+          "text": "expressions utiles",
+          "x": 1450,
+          "y": 600,
+          "color": "#6f8e6b"
+        }
+      ]
+    },
+    {
+      "c": [
+        146,
+        153
+      ],
+      "place": "chambre",
+      "cast": [
+        {
+          "id": "m",
+          "who": "mat",
+          "x": 320
+        }
+      ],
+      "beats": [
+        {
+          "c": 146,
+          "w": "téléphone",
+          "do": "hold",
+          "on": "m",
+          "prop": "phone"
+        },
+        {
+          "c": 149,
+          "w": "messages",
+          "do": "icons",
+          "y": 260,
+          "items": [
+            {
+              "icon": "x:mail",
+              "label": "les messages",
+              "c": 149,
+              "w": "messages"
+            },
+            {
+              "icon": "x:letter",
+              "label": "les nouvelles",
+              "c": 149,
+              "w": "nouvelles"
+            },
+            {
+              "icon": "b:heart",
+              "label": "des vies parfaites",
+              "c": 151,
+              "w": "parfaites"
+            }
+          ]
+        },
+        {
+          "c": 152,
+          "w": "minutes",
+          "do": "battery",
+          "from": 80,
+          "to": 8,
+          "d": 2.2,
+          "x": 1000,
+          "y": 540,
+          "label": "mon énergie"
+        },
+        {
+          "c": 153,
+          "w": "fatigué",
+          "do": "face",
+          "on": "m",
+          "face": "tired"
+        },
+        {
+          "c": 153,
+          "w": "fatigué",
+          "do": "droop",
+          "on": "m"
+        }
+      ]
+    },
+    {
+      "c": [
+        205,
+        209
+      ],
+      "place": "chambre",
+      "cast": [
+        {
+          "id": "l",
+          "who": "lea",
+          "x": 640
+        }
+      ],
+      "beats": [
+        {
+          "c": 205,
+          "w": "soir",
+          "do": "sky",
+          "d": 2.5,
+          "n": 2
+        },
+        {
+          "c": 205,
+          "w": "tête",
+          "do": "face",
+          "on": "l",
+          "face": "flat"
+        },
+        {
+          "c": 207,
+          "w": "oublié",
+          "do": "dream",
+          "icons": [
+            "travail",
+            "b:question"
+          ],
+          "label": "J'ai oublié quelque chose ?",
+          "x": 1150,
+          "y": 280
+        },
+        {
+          "c": 208,
+          "w": "mécontent",
+          "do": "face",
+          "on": "l",
+          "face": "sad"
+        },
+        {
+          "c": 209,
+          "w": "erreur",
+          "do": "stamp",
+          "text": "Une erreur ?",
+          "x": 1300,
+          "y": 560,
+          "color": "#9a4a3a"
+        }
+      ]
+    },
+    {
+      "c": [
+        295,
+        304
+      ],
+      "place": "papier",
+      "beats": [
+        {
+          "c": 295,
+          "w": "dessiner",
+          "do": "draw",
+          "icon": "x:pencil",
+          "x": 420,
+          "y": 380,
+          "size": 200,
+          "label": "apprendre à dessiner"
+        },
+        {
+          "c": 296,
+          "w": "incroyables",
+          "do": "icons",
+          "y": 300,
+          "items": [
+            {
+              "icon": "★",
+              "label": "incroyable"
+            },
+            {
+              "icon": "★",
+              "label": "parfait"
+            }
+          ]
+        },
+        {
+          "c": 299,
+          "w": "arrêter",
+          "do": "draw",
+          "icon": "x:e-sad",
+          "x": 1500,
+          "y": 380,
+          "size": 160
+        },
+        {
+          "c": 303,
+          "w": "chien",
+          "do": "write",
+          "text": "mon premier chien…",
+          "x": 520,
+          "y": 560,
+          "size": 76,
+          "color": "#3a2e28"
+        },
+        {
+          "c": 304,
+          "w": "pomme",
+          "do": "stamp",
+          "text": "une pomme de terre ?",
+          "x": 1350,
+          "y": 640,
+          "color": "#b8552a"
+        }
+      ]
+    },
+    {
+      "c": [
+        353,
+        355
+      ],
+      "place": "papier",
+      "beats": [
+        {
+          "c": 353,
+          "w": "Dimanche",
+          "do": "vs",
+          "left": {
+            "icon": "b:calendar",
+            "label": "Dimanche soir : une nouvelle vie !"
+          },
+          "right": {
+            "icon": "x:alarm",
+            "label": "Lundi matin : négocier avec le réveil",
+            "c": 355,
+            "w": "Lundi"
+          },
+          "y": 420
+        }
+      ]
+    },
+    {
+      "c": [
+        437,
+        441
+      ],
+      "place": "papier",
+      "beats": [
+        {
+          "c": 437,
+          "w": "exposition",
+          "do": "title",
+          "text": "Petite exposition de photos",
+          "y": 260,
+          "mark": "photos"
+        },
+        {
+          "c": 439,
+          "do": "list",
+          "x": 760,
+          "y": 520,
+          "items": [
+            {
+              "text": "un lieu",
+              "icon": "x:home",
+              "c": 439,
+              "w": "lieu"
+            },
+            {
+              "text": "une sélection",
+              "icon": "b:search",
+              "c": 440,
+              "w": "sélection"
+            }
+          ]
+        },
+        {
+          "c": 441,
+          "w": "annulé",
+          "do": "stamp",
+          "text": "ANNULÉ",
+          "x": 1350,
+          "y": 520,
+          "color": "#9a4a3a"
+        }
+      ]
+    },
+    {
+      "c": [
+        463,
+        467
+      ],
+      "place": "rue",
+      "cast": [
+        {
+          "id": "m",
+          "who": "mat",
+          "x": 300,
+          "face": "flat"
+        }
+      ],
+      "beats": [
+        {
+          "c": 463,
+          "w": "marché",
+          "do": "walk",
+          "on": "m",
+          "to": 900,
+          "d": 3
+        },
+        {
+          "c": 465,
+          "w": "lumière",
+          "do": "face",
+          "on": "m",
+          "face": "wow"
+        },
+        {
+          "c": 465,
+          "w": "lumière",
+          "do": "draw",
+          "icon": "soleil",
+          "x": 1500,
+          "y": 260,
+          "size": 260
+        },
+        {
+          "c": 467,
+          "w": "repris",
+          "do": "face",
+          "on": "m",
+          "face": "happy"
+        },
+        {
+          "c": 467,
+          "w": "appareil",
+          "do": "burst",
+          "on": "m"
+        }
+      ]
+    },
+    {
+      "c": [
+        523,
+        525
+      ],
+      "place": "cuisine",
+      "beats": [
+        {
+          "c": 524,
+          "w": "gâteau",
+          "do": "draw",
+          "icon": "repas",
+          "x": 420,
+          "y": 360,
+          "size": 300,
+          "label": "un gâteau tout seul"
+        },
+        {
+          "c": 525,
+          "w": "sel",
+          "do": "vs",
+          "left": {
+            "icon": "S",
+            "label": "le sel"
+          },
+          "right": {
+            "icon": "S",
+            "label": "le sucre",
+            "c": 525,
+            "w": "sucre"
+          },
+          "mid": "?",
+          "x": 1540,
+          "y": 420
+        }
+      ]
+    },
+    {
+      "c": [
+        562,
+        564
+      ],
+      "place": "papier",
+      "beats": [
+        {
+          "c": 562,
+          "do": "list",
+          "title": "Une chose qui s'est bien passée",
+          "x": 960,
+          "y": 380,
+          "items": [
+            {
+              "text": "une bonne conversation",
+              "icon": "amis",
+              "c": 562,
+              "w": "conversation"
+            },
+            {
+              "text": "un repas que j'ai aimé",
+              "icon": "repas",
+              "c": 563,
+              "w": "repas"
+            },
+            {
+              "text": "une tâche enfin terminée",
+              "icon": "x:yes",
+              "c": 564,
+              "w": "tâche"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "c": [
+        750,
+        751
+      ],
+      "place": "papier",
+      "beats": [
+        {
+          "c": 750,
+          "w": "tasse",
+          "do": "draw",
+          "icon": "cafe",
+          "x": 620,
+          "y": 400,
+          "size": 320,
+          "label": "une tasse de café"
+        },
+        {
+          "c": 750,
+          "w": "humeur",
+          "do": "arrow",
+          "from": [
+            820,
+            400
+          ],
+          "to": [
+            1180,
+            400
+          ],
+          "bend": -0.2
+        },
+        {
+          "c": 751,
+          "w": "douze",
+          "do": "clock",
+          "d": 2,
+          "x": 1400,
+          "y": 400
+        }
+      ]
+    }
+  ]
+}

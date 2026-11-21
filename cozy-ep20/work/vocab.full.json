@@ -1,0 +1,122 @@
+[
+ {
+  "tag": "verbe",
+  "word": "renverser",
+  "ipa": "/ʁɑ̃.vɛʁ.se/",
+  "mean": "to spill, to knock over",
+  "ex": "Attention, tu vas renverser ton verre !",
+  "exEn": "Careful, you're going to spill your glass!"
+ },
+ {
+  "tag": "expression",
+  "word": "déclarer forfait",
+  "ipa": "/de.kla.ʁe fɔʁ.fɛ/",
+  "mean": "to give up, to throw in the towel",
+  "ex": "Après trois kilomètres, j'ai déclaré forfait.",
+  "exEn": "After three kilometres, I gave up."
+ },
+ {
+  "tag": "nom masculin",
+  "word": "un contretemps",
+  "ipa": "/œ̃ kɔ̃.tʁə.tɑ̃/",
+  "mean": "a setback, a hitch",
+  "ex": "Désolé, j'ai eu un contretemps au travail.",
+  "exEn": "Sorry, something came up at work."
+ },
+ {
+  "tag": "nom féminin",
+  "word": "une contrariété",
+  "ipa": "/yn kɔ̃.tʁa.ʁje.te/",
+  "mean": "an annoyance, a small upset",
+  "ex": "Une petite contrariété ne doit pas gâcher ta soirée.",
+  "exEn": "A small annoyance shouldn't spoil your evening."
+ },
+ {
+  "tag": "nom masculin",
+  "word": "un mode d'emploi",
+  "ipa": "/œ̃ mɔd dɑ̃.plwa/",
+  "mean": "instructions, a user manual",
+  "ex": "J'ai perdu le mode d'emploi de la machine.",
+  "exEn": "I lost the instructions for the machine."
+ },
+ {
+  "tag": "expression",
+  "word": "garder les pieds sur terre",
+  "ipa": "/ɡaʁ.de le pje syʁ tɛʁ/",
+  "mean": "to stay realistic, down to earth",
+  "ex": "Même avec le succès, elle garde les pieds sur terre.",
+  "exEn": "Even with success, she stays down to earth."
+ },
+ {
+  "tag": "verbe",
+  "word": "aboutir",
+  "ipa": "/a.bu.tiʁ/",
+  "mean": "to succeed, to come to something",
+  "ex": "Après deux ans, notre projet a enfin abouti.",
+  "exEn": "After two years, our project finally came together."
+ },
+ {
+  "tag": "expression",
+  "word": "ne pas être d'humeur à",
+  "ipa": "/nə pa ɛtʁ dy.mœʁ a/",
+  "mean": "not to be in the mood for",
+  "ex": "Ce soir, je ne suis pas d'humeur à sortir.",
+  "exEn": "Tonight, I'm not in the mood to go out."
+ },
+ {
+  "tag": "expression",
+  "word": "retrouver son élan",
+  "ipa": "/ʁə.tʁu.ve sɔ̃.n‿e.lɑ̃/",
+  "mean": "to get your energy / momentum back",
+  "ex": "Avec le printemps, j'ai retrouvé mon élan.",
+  "exEn": "With spring, I got my energy back."
+ },
+ {
+  "tag": "verbe",
+  "word": "confondre",
+  "ipa": "/kɔ̃.fɔ̃dʁ/",
+  "mean": "to mix up, to confuse",
+  "ex": "On me confond souvent avec ma sœur.",
+  "exEn": "People often mix me up with my sister."
+ },
+ {
+  "tag": "expression",
+  "word": "faire semblant (de)",
+  "ipa": "/fɛʁ sɑ̃.blɑ̃/",
+  "mean": "to pretend",
+  "ex": "Il fait semblant de dormir.",
+  "exEn": "He's pretending to be asleep."
+ },
+ {
+  "tag": "expression",
+  "word": "voir le bon côté des choses",
+  "ipa": "/vwaʁ lə bɔ̃ ko.te de ʃoz/",
+  "mean": "to look on the bright side",
+  "ex": "Il pleut, mais vois le bon côté : on reste au chaud.",
+  "exEn": "It's raining, but look on the bright side: we stay warm."
+ },
+ {
+  "tag": "expression",
+  "word": "reprendre confiance",
+  "ipa": "/ʁə.pʁɑ̃dʁ kɔ̃.fjɑ̃s/",
+  "mean": "to regain confidence",
+  "ex": "Grâce à son coach, il a repris confiance.",
+  "exEn": "Thanks to his coach, he regained confidence."
+ },
+ {
+  "tag": "expression",
+  "word": "coûte que coûte",
+  "ipa": "/kut kə kut/",
+  "mean": "no matter what, at all costs",
+  "ex": "Je veux finir ce livre coûte que coûte.",
+  "exEn": "I want to finish this book no matter what."
+ },
+ {
+  "tag": "expression",
+  "word": "de rechange",
+  "ipa": "/də ʁə.ʃɑ̃ʒ/",
+  "mean": "spare",
+  "ex": "Prends des chaussettes de rechange pour la randonnée.",
+  "exEn": "Take spare socks for the hike."
+ }
+]

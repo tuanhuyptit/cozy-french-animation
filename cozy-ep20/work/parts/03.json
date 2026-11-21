@@ -1,0 +1,557 @@
+[
+ {
+  "who": "lea",
+  "fr": "J'avais beaucoup de responsabilités",
+  "en": "I had a lot of responsibilities"
+ },
+ {
+  "who": "lea",
+  "fr": "et l'impression de ne jamais en faire assez.",
+  "en": "and felt I was never doing enough.",
+  "emote": "fatigue"
+ },
+ {
+  "who": "mat",
+  "fr": "Tu rentrais chez toi",
+  "en": "You'd go home"
+ },
+ {
+  "who": "mat",
+  "fr": "et tu continuais à penser au travail ?",
+  "en": "and keep thinking about work?"
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement.",
+  "en": "Exactly."
+ },
+ {
+  "who": "lea",
+  "fr": "Le soir, je repassais dans ma tête",
+  "en": "In the evening, I'd replay in my head"
+ },
+ {
+  "who": "lea",
+  "fr": "les conversations de la journée.",
+  "en": "the day's conversations."
+ },
+ {
+  "who": "lea",
+  "fr": "Je me demandais si j'avais oublié quelque chose,",
+  "en": "I wondered if I'd forgotten something,"
+ },
+ {
+  "who": "lea",
+  "fr": "si un collègue était mécontent,",
+  "en": "if a colleague was unhappy,"
+ },
+ {
+  "who": "lea",
+  "fr": "si j'allais faire une erreur.",
+  "en": "if I was going to make a mistake."
+ },
+ {
+  "who": "mat",
+  "fr": "Ah, le cerveau qui organise une réunion",
+  "en": "Ah, the brain holding a meeting"
+ },
+ {
+  "who": "mat",
+  "fr": "alors que tout le monde a quitté le bureau.",
+  "en": "when everyone has left the office."
+ },
+ {
+  "who": "lea",
+  "fr": "C'est ça.",
+  "en": "That's it."
+ },
+ {
+  "who": "lea",
+  "fr": "Un soir, j'ai pris une feuille de papier",
+  "en": "One evening, I took a sheet of paper"
+ },
+ {
+  "who": "lea",
+  "fr": "et j'ai tracé deux colonnes.",
+  "en": "and drew two columns."
+ },
+ {
+  "who": "mat",
+  "fr": "Une feuille de papier ?",
+  "en": "A sheet of paper?"
+ },
+ {
+  "who": "mat",
+  "fr": "Pas une nouvelle application ?",
+  "en": "Not a new app?",
+  "emote": "surpris"
+ },
+ {
+  "who": "lea",
+  "fr": "Non, Mathieu.",
+  "en": "No, Mathieu."
+ },
+ {
+  "who": "lea",
+  "fr": "Parfois, le papier fonctionne très bien !",
+  "en": "Sometimes, paper works very well!"
+ },
+ {
+  "who": "mat",
+  "fr": "D'accord, je t'écoute. Qu'as-tu écrit ?",
+  "en": "Okay, I'm listening. What did you write?"
+ },
+ {
+  "who": "lea",
+  "fr": "Dans la première colonne,",
+  "en": "In the first column,",
+  "board": {
+   "mode": "compare",
+   "bg": "craie",
+   "title": "Mes deux colonnes",
+   "left": {
+    "head": "Je peux agir",
+    "sub": "ça dépend de moi",
+    "items": [
+     {
+      "text": "préparer ma réunion",
+      "at": 4
+     },
+     {
+      "text": "demander des précisions",
+      "at": 5
+     },
+     {
+      "text": "respecter mes délais",
+      "at": 5
+     }
+    ]
+   },
+   "right": {
+    "head": "Je ne peux pas",
+    "sub": "ça ne dépend pas de moi",
+    "items": [
+     {
+      "text": "deviner ce que chacun pense",
+      "at": 6
+     },
+     {
+      "text": "empêcher les imprévus",
+      "at": 8
+     }
+    ]
+   }
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "j'ai noté ce sur quoi je pouvais agir.",
+  "en": "I wrote down what I could act on."
+ },
+ {
+  "who": "lea",
+  "fr": "Dans la deuxième, ce qui ne dépendait pas de moi.",
+  "en": "In the second, what didn't depend on me."
+ },
+ {
+  "who": "mat",
+  "fr": "Par exemple ?",
+  "en": "For example?"
+ },
+ {
+  "who": "lea",
+  "fr": "Je pouvais préparer ma réunion,",
+  "en": "I could prepare my meeting,"
+ },
+ {
+  "who": "lea",
+  "fr": "demander des précisions et respecter mes délais.",
+  "en": "ask for details and meet my deadlines."
+ },
+ {
+  "who": "lea",
+  "fr": "En revanche, je ne pouvais pas deviner",
+  "en": "On the other hand, I couldn't guess"
+ },
+ {
+  "who": "lea",
+  "fr": "ce que chacun pensait",
+  "en": "what everyone was thinking"
+ },
+ {
+  "who": "lea",
+  "fr": "ni empêcher tous les imprévus.",
+  "en": "or prevent every surprise.",
+  "boardEnd": true
+ },
+ {
+  "who": "mat",
+  "fr": "Et voir cette différence sur le papier",
+  "en": "And seeing that difference on paper"
+ },
+ {
+  "who": "mat",
+  "fr": "t'a aidée ?",
+  "en": "helped you?"
+ },
+ {
+  "who": "lea",
+  "fr": "Oui. Cela n'a pas supprimé mes inquiétudes,",
+  "en": "Yes. It didn't erase my worries,"
+ },
+ {
+  "who": "lea",
+  "fr": "mais j'ai compris",
+  "en": "but I understood"
+ },
+ {
+  "who": "lea",
+  "fr": "que je dépensais beaucoup d'énergie",
+  "en": "that I was spending a lot of energy"
+ },
+ {
+  "who": "lea",
+  "fr": "sur des questions sans réponse.",
+  "en": "on questions with no answer."
+ },
+ {
+  "who": "mat",
+  "fr": "Donc tu as déplacé ton attention",
+  "en": "So you shifted your attention"
+ },
+ {
+  "who": "mat",
+  "fr": "vers les actions possibles.",
+  "en": "toward possible actions."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Le lendemain,",
+  "en": "Exactly. The next day,"
+ },
+ {
+  "who": "lea",
+  "fr": "j'ai posé une question",
+  "en": "I asked a question"
+ },
+ {
+  "who": "lea",
+  "fr": "que j'évitais depuis plusieurs jours.",
+  "en": "I'd been avoiding for several days."
+ },
+ {
+  "who": "lea",
+  "fr": "La réponse a clarifié le problème",
+  "en": "The answer cleared up the problem"
+ },
+ {
+  "who": "lea",
+  "fr": "en quelques minutes.",
+  "en": "in a few minutes."
+ },
+ {
+  "who": "mat",
+  "fr": "Ah ! Parfois, on passe trois soirées",
+  "en": "Ah! Sometimes we spend three evenings"
+ },
+ {
+  "who": "mat",
+  "fr": "à imaginer une conversation",
+  "en": "imagining a conversation"
+ },
+ {
+  "who": "mat",
+  "fr": "qui ne dure que cinq minutes dans la réalité.",
+  "en": "that only lasts five minutes in reality.",
+  "emote": "idee"
+ },
+ {
+  "who": "lea",
+  "fr": "Oui.",
+  "en": "Yes."
+ },
+ {
+  "who": "lea",
+  "fr": "Et parfois la réponse est difficile, bien sûr.",
+  "en": "And sometimes the answer is hard, of course."
+ },
+ {
+  "who": "lea",
+  "fr": "Mais au moins,",
+  "en": "But at least,"
+ },
+ {
+  "who": "lea",
+  "fr": "nous avons des informations sur lesquelles agir.",
+  "en": "we have information we can act on."
+ },
+ {
+  "who": "mat",
+  "fr": "Tu sais, quand je suis inquiet,",
+  "en": "You know, when I'm worried,"
+ },
+ {
+  "who": "mat",
+  "fr": "je confonds souvent réfléchir et agir.",
+  "en": "I often confuse thinking and acting."
+ },
+ {
+  "who": "mat",
+  "fr": "Je me dis : « Je dois encore y penser »,",
+  "en": "I tell myself: \"I still need to think about it\","
+ },
+ {
+  "who": "mat",
+  "fr": "alors que je répète les mêmes scénarios.",
+  "en": "when I'm just replaying the same scenarios."
+ },
+ {
+  "who": "lea",
+  "fr": "Dans ce cas, tu peux te demander :",
+  "en": "In that case, you can ask yourself:"
+ },
+ {
+  "who": "lea",
+  "fr": "« Qu'est-ce que je peux faire",
+  "en": "\"What can I do"
+ },
+ {
+  "who": "lea",
+  "fr": "concrètement aujourd'hui ? »",
+  "en": "concretely today?\""
+ },
+ {
+  "who": "lea",
+  "fr": "S'il n'y a pas d'action possible,",
+  "en": "If there's no possible action,"
+ },
+ {
+  "who": "lea",
+  "fr": "tu peux essayer de faire une pause.",
+  "en": "you can try to take a break."
+ },
+ {
+  "who": "mat",
+  "fr": "« Faire une pause »,",
+  "en": "\"Take a break\","
+ },
+ {
+  "who": "mat",
+  "fr": "pas « oublier que le problème existe ».",
+  "en": "not \"forget the problem exists\"."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Nous pouvons être responsables",
+  "en": "Exactly. We can be responsible"
+ },
+ {
+  "who": "lea",
+  "fr": "sans passer toute la nuit à nous inquiéter.",
+  "en": "without spending all night worrying."
+ },
+ {
+  "who": "mat",
+  "fr": "J'aime cette idée d'une attitude positive",
+  "en": "I like this idea of a positive attitude"
+ },
+ {
+  "who": "mat",
+  "fr": "qui reste les pieds sur terre.",
+  "en": "that keeps its feet on the ground."
+ },
+ {
+  "who": "lea",
+  "fr": "Les pieds sur terre, oui.",
+  "en": "Feet on the ground, yes.",
+  "board": {
+   "mode": "idiom",
+   "bg": "carnet",
+   "expr": "garder les pieds sur terre",
+   "literal": "to keep your feet on the earth",
+   "meaning": "to stay realistic",
+   "ex": "Il rêve beaucoup, mais il garde les pieds sur terre.",
+   "exEn": "He dreams a lot, but he stays realistic.",
+   "meaningAt": 1
+  }
+ },
+ {
+  "who": "lea",
+  "fr": "Cela signifie être réaliste,",
+  "en": "It means being realistic,"
+ },
+ {
+  "who": "lea",
+  "fr": "ne pas se laisser emporter",
+  "en": "not getting carried away"
+ },
+ {
+  "who": "lea",
+  "fr": "par des idées trop éloignées de la réalité.",
+  "en": "by ideas too far from reality."
+ },
+ {
+  "who": "mat",
+  "fr": "Par exemple : « J'espère obtenir ce poste,",
+  "en": "For example: \"I hope to get this job,"
+ },
+ {
+  "who": "mat",
+  "fr": "mais je [garde les pieds sur terre]",
+  "en": "but I keep my feet on the ground"
+ },
+ {
+  "who": "mat",
+  "fr": "et je prépare aussi d'autres possibilités. »",
+  "en": "and I'm preparing other options too.\"",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Très bien !",
+  "en": "Very good!"
+ },
+ {
+  "who": "lea",
+  "fr": "Et cela nous conduit à un autre sujet :",
+  "en": "And that brings us to another topic:"
+ },
+ {
+  "who": "lea",
+  "fr": "nos objectifs.",
+  "en": "our goals."
+ },
+ {
+  "who": "lea",
+  "fr": "Est-ce qu'il t'arrive de te comparer aux autres ?",
+  "en": "Do you ever compare yourself to others?"
+ },
+ {
+  "who": "mat",
+  "fr": "Jamais ! Enfin...",
+  "en": "Never! Well...",
+  "emote": "gene"
+ },
+ {
+  "who": "mat",
+  "fr": "seulement chaque fois",
+  "en": "only every time"
+ },
+ {
+  "who": "mat",
+  "fr": "que j'ouvre certains réseaux sociaux.",
+  "en": "I open certain social networks."
+ },
+ {
+  "who": "lea",
+  "fr": "Donc assez souvent.",
+  "en": "So, quite often."
+ },
+ {
+  "who": "mat",
+  "fr": "Oui.",
+  "en": "Yes."
+ },
+ {
+  "who": "mat",
+  "fr": "Je vois des gens de mon âge",
+  "en": "I see people my age"
+ },
+ {
+  "who": "mat",
+  "fr": "qui changent de carrière,",
+  "en": "who change careers,"
+ },
+ {
+  "who": "mat",
+  "fr": "courent des marathons ou parlent cinq langues.",
+  "en": "run marathons or speak five languages.",
+  "illus": "sport",
+  "label": "des marathons"
+ },
+ {
+  "who": "mat",
+  "fr": "Et soudain, j'ai l'impression",
+  "en": "And suddenly, I feel"
+ },
+ {
+  "who": "mat",
+  "fr": "d'être en retard dans ma propre vie.",
+  "en": "like I'm behind in my own life."
+ },
+ {
+  "who": "lea",
+  "fr": "Pourtant, tu ne connais pas toujours",
+  "en": "Yet you don't always know"
+ },
+ {
+  "who": "lea",
+  "fr": "leur situation",
+  "en": "their situation"
+ },
+ {
+  "who": "lea",
+  "fr": "ni le chemin qu'ils ont parcouru.",
+  "en": "or the path they've traveled."
+ },
+ {
+  "who": "mat",
+  "fr": "C'est vrai.",
+  "en": "That's true."
+ },
+ {
+  "who": "mat",
+  "fr": "Je vois une photo d'une réussite,",
+  "en": "I see a photo of a success,"
+ },
+ {
+  "who": "mat",
+  "fr": "pas les années de travail",
+  "en": "not the years of work"
+ },
+ {
+  "who": "mat",
+  "fr": "ni les journées compliquées.",
+  "en": "or the hard days."
+ },
+ {
+  "who": "lea",
+  "fr": "Et cette comparaison peut nous empêcher",
+  "en": "And that comparison can keep us"
+ },
+ {
+  "who": "lea",
+  "fr": "de reconnaître nos propres progrès.",
+  "en": "from recognizing our own progress."
+ },
+ {
+  "who": "mat",
+  "fr": "Il y a quelques années,",
+  "en": "A few years ago,"
+ },
+ {
+  "who": "mat",
+  "fr": "j'ai voulu apprendre à dessiner.",
+  "en": "I wanted to learn to draw."
+ },
+ {
+  "who": "mat",
+  "fr": "Je regardais des artistes incroyables",
+  "en": "I watched incredible artists"
+ },
+ {
+  "who": "mat",
+  "fr": "sur Internet.",
+  "en": "on the Internet."
+ },
+ {
+  "who": "mat",
+  "fr": "Après dix minutes avec mon crayon,",
+  "en": "After ten minutes with my pencil,"
+ },
+ {
+  "who": "mat",
+  "fr": "j'avais envie de tout arrêter.",
+  "en": "I felt like quitting everything."
+ }
+]

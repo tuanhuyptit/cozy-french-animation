@@ -1,0 +1,574 @@
+[
+ {
+  "who": "lea",
+  "fr": "Tu comparais ton premier dessin",
+  "en": "You compared your first drawing"
+ },
+ {
+  "who": "lea",
+  "fr": "à leur travail professionnel ?",
+  "en": "to their professional work?"
+ },
+ {
+  "who": "mat",
+  "fr": "Exactement. Très mauvaise comparaison.",
+  "en": "Exactly. A very bad comparison."
+ },
+ {
+  "who": "mat",
+  "fr": "Mon premier chien ressemblait",
+  "en": "My first dog looked"
+ },
+ {
+  "who": "mat",
+  "fr": "à une pomme de terre avec quatre pattes.",
+  "en": "like a potato with four legs."
+ },
+ {
+  "who": "lea",
+  "fr": "Je suis sûre qu'il avait du charme.",
+  "en": "I'm sure it had charm.",
+  "emote": "coeur"
+ },
+ {
+  "who": "mat",
+  "fr": "Tu es trop gentille !",
+  "en": "You're too kind!"
+ },
+ {
+  "who": "mat",
+  "fr": "Mais un jour, j'ai retrouvé un dessin",
+  "en": "But one day, I found a drawing"
+ },
+ {
+  "who": "mat",
+  "fr": "que j'avais fait plusieurs semaines auparavant.",
+  "en": "I'd made several weeks before."
+ },
+ {
+  "who": "mat",
+  "fr": "Et j'ai remarqué",
+  "en": "And I noticed"
+ },
+ {
+  "who": "mat",
+  "fr": "que mes traits étaient devenus plus précis.",
+  "en": "my lines had become more precise."
+ },
+ {
+  "who": "lea",
+  "fr": "Tu t'es comparé à ton ancien niveau,",
+  "en": "You compared yourself to your old level,"
+ },
+ {
+  "who": "lea",
+  "fr": "au lieu de te comparer à quelqu'un d'autre.",
+  "en": "instead of comparing yourself to someone else."
+ },
+ {
+  "who": "mat",
+  "fr": "Oui.",
+  "en": "Yes."
+ },
+ {
+  "who": "mat",
+  "fr": "Et tout de suite, j'ai eu envie de continuer.",
+  "en": "And right away, I wanted to keep going."
+ },
+ {
+  "who": "lea",
+  "fr": "C'est une autre forme de pensée positive :",
+  "en": "That's another form of positive thinking:"
+ },
+ {
+  "who": "lea",
+  "fr": "reconnaître les petits progrès",
+  "en": "recognizing small progress"
+ },
+ {
+  "who": "lea",
+  "fr": "sans prétendre",
+  "en": "without pretending"
+ },
+ {
+  "who": "lea",
+  "fr": "qu'on a déjà atteint son objectif.",
+  "en": "you've already reached your goal."
+ },
+ {
+  "who": "mat",
+  "fr": "Donc je peux dire :",
+  "en": "So I can say:",
+  "board": {
+   "mode": "transform",
+   "bg": "liege",
+   "title": "Le petit mot « encore »",
+   "from": "Je *suis nul* en français.",
+   "to": "Je ne comprends *pas encore* tout.",
+   "fromTag": "avant",
+   "toTag": "mieux",
+   "label": "+ encore",
+   "en": "I don't understand everything yet.",
+   "changeAt": 5
+  }
+ },
+ {
+  "who": "mat",
+  "fr": "« Je ne dessine pas encore comme je le voudrais,",
+  "en": "\"I don't draw the way I'd like to yet,"
+ },
+ {
+  "who": "mat",
+  "fr": "mais je progresse. »",
+  "en": "but I'm improving.\""
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement. Le mot « encore » est très utile.",
+  "en": "Exactly. The word \"yet\" is very useful."
+ },
+ {
+  "who": "lea",
+  "fr": "Il laisse une place à l'apprentissage.",
+  "en": "It leaves room for learning."
+ },
+ {
+  "who": "mat",
+  "fr": "« Je ne comprends pas encore",
+  "en": "\"I don't understand yet"
+ },
+ {
+  "who": "mat",
+  "fr": "toutes les conversations en français. »",
+  "en": "every conversation in French.\""
+ },
+ {
+  "who": "mat",
+  "fr": "C'est beaucoup plus encourageant",
+  "en": "That's much more encouraging"
+ },
+ {
+  "who": "mat",
+  "fr": "que « Je suis nul en français ».",
+  "en": "than \"I'm hopeless at French.\"",
+  "boardEnd": true
+ },
+ {
+  "who": "lea",
+  "fr": "Absolument.",
+  "en": "Absolutely."
+ },
+ {
+  "who": "lea",
+  "fr": "Et nos auditeurs peuvent l'utiliser",
+  "en": "And our listeners can use it"
+ },
+ {
+  "who": "lea",
+  "fr": "dans leur apprentissage.",
+  "en": "in their learning."
+ },
+ {
+  "who": "lea",
+  "fr": "Ils n'ont pas besoin de comprendre chaque phrase",
+  "en": "They don't need to understand every sentence"
+ },
+ {
+  "who": "lea",
+  "fr": "pour constater des progrès.",
+  "en": "to notice progress."
+ },
+ {
+  "who": "mat",
+  "fr": "Peut-être qu'il y a trois mois,",
+  "en": "Maybe three months ago,"
+ },
+ {
+  "who": "mat",
+  "fr": "ils avaient besoin de sous-titres tout le temps,",
+  "en": "they needed subtitles all the time,",
+  "illus": "etudes",
+  "label": "des sous-titres"
+ },
+ {
+  "who": "mat",
+  "fr": "et qu'aujourd'hui ils comprennent une histoire",
+  "en": "and today they understand a story"
+ },
+ {
+  "who": "mat",
+  "fr": "sans tout traduire.",
+  "en": "without translating everything."
+ },
+ {
+  "who": "lea",
+  "fr": "Ou qu'ils osent poser une question en français,",
+  "en": "Or they dare to ask a question in French,"
+ },
+ {
+  "who": "lea",
+  "fr": "même avec quelques hésitations.",
+  "en": "even with a few hesitations."
+ },
+ {
+  "who": "mat",
+  "fr": "Tu sais, parfois, une petite victoire",
+  "en": "You know, sometimes, a small victory"
+ },
+ {
+  "who": "mat",
+  "fr": "peut vraiment changer une journée.",
+  "en": "can really change a day."
+ },
+ {
+  "who": "lea",
+  "fr": "Oui.",
+  "en": "Yes."
+ },
+ {
+  "who": "lea",
+  "fr": "Et on peut essayer de la remarquer",
+  "en": "And we can try to notice it"
+ },
+ {
+  "who": "lea",
+  "fr": "au lieu de penser uniquement",
+  "en": "instead of only thinking"
+ },
+ {
+  "who": "lea",
+  "fr": "à ce qui reste à faire.",
+  "en": "about what's left to do."
+ },
+ {
+  "who": "mat",
+  "fr": "Mais comment rester positif",
+  "en": "But how do you stay positive"
+ },
+ {
+  "who": "mat",
+  "fr": "quand on se sent complètement bloqué dans sa vie ?",
+  "en": "when you feel completely stuck in life?",
+  "emote": "question"
+ },
+ {
+  "who": "lea",
+  "fr": "C'est une vraie question.",
+  "en": "That's a real question."
+ },
+ {
+  "who": "lea",
+  "fr": "On peut commencer par éviter",
+  "en": "You can start by avoiding"
+ },
+ {
+  "who": "lea",
+  "fr": "de vouloir tout changer immédiatement.",
+  "en": "wanting to change everything at once."
+ },
+ {
+  "who": "lea",
+  "fr": "Une petite direction peut être plus utile",
+  "en": "A small direction can be more useful"
+ },
+ {
+  "who": "lea",
+  "fr": "qu'un programme gigantesque.",
+  "en": "than a gigantic plan."
+ },
+ {
+  "who": "mat",
+  "fr": "Je connais les programmes gigantesques.",
+  "en": "I know all about gigantic plans."
+ },
+ {
+  "who": "mat",
+  "fr": "Dimanche soir, je suis capable",
+  "en": "On Sunday night, I can"
+ },
+ {
+  "who": "mat",
+  "fr": "d'organiser une nouvelle vie entière.",
+  "en": "organize a whole new life."
+ },
+ {
+  "who": "mat",
+  "fr": "Lundi matin, je négocie avec mon réveil.",
+  "en": "On Monday morning, I negotiate with my alarm."
+ },
+ {
+  "who": "lea",
+  "fr": "Alors il faudrait préparer un programme",
+  "en": "Then you should make a plan"
+ },
+ {
+  "who": "lea",
+  "fr": "qui correspond au Mathieu du lundi,",
+  "en": "that suits Monday's Mathieu,"
+ },
+ {
+  "who": "lea",
+  "fr": "pas seulement à celui du dimanche !",
+  "en": "not just Sunday's!"
+ },
+ {
+  "who": "mat",
+  "fr": "Excellente remarque.",
+  "en": "Excellent point.",
+  "board": {
+   "mode": "dodont",
+   "bg": "craie",
+   "title": "Des objectifs réalistes",
+   "doHead": "Petits pas ✓",
+   "dontHead": "Programme gigantesque ✗",
+   "do": [
+    {
+     "text": "deux courtes promenades par semaine",
+     "at": 3
+    },
+    {
+     "text": "un moment régulier pour écouter",
+     "at": 5
+    }
+   ],
+   "dont": [
+    {
+     "text": "une nouvelle vie entière",
+     "at": 0
+    },
+    {
+     "text": "deux heures par jour",
+     "at": 7
+    }
+   ]
+  }
+ },
+ {
+  "who": "mat",
+  "fr": "Par exemple, si je souhaite être plus actif,",
+  "en": "For example, if I want to be more active,"
+ },
+ {
+  "who": "mat",
+  "fr": "je peux commencer",
+  "en": "I can start"
+ },
+ {
+  "who": "mat",
+  "fr": "par deux courtes promenades par semaine.",
+  "en": "with two short walks a week."
+ },
+ {
+  "who": "lea",
+  "fr": "Oui. Et si tu veux améliorer ton français,",
+  "en": "Yes. And if you want to improve your French,"
+ },
+ {
+  "who": "lea",
+  "fr": "tu peux choisir un moment régulier",
+  "en": "you can choose a regular time"
+ },
+ {
+  "who": "lea",
+  "fr": "pour écouter une conversation.",
+  "en": "to listen to a conversation."
+ },
+ {
+  "who": "mat",
+  "fr": "Pas nécessairement deux heures par jour.",
+  "en": "Not necessarily two hours a day."
+ },
+ {
+  "who": "lea",
+  "fr": "Exactement.",
+  "en": "Exactly."
+ },
+ {
+  "who": "lea",
+  "fr": "Les petits objectifs réalistes",
+  "en": "Small, realistic goals"
+ },
+ {
+  "who": "lea",
+  "fr": "peuvent donner une direction",
+  "en": "can give you a direction"
+ },
+ {
+  "who": "lea",
+  "fr": "sans ajouter trop de pression.",
+  "en": "without adding too much pressure.",
+  "boardEnd": true
+ },
+ {
+  "who": "mat",
+  "fr": "Une amie m'a raconté quelque chose",
+  "en": "A friend told me something"
+ },
+ {
+  "who": "mat",
+  "fr": "qui me revient souvent.",
+  "en": "that often comes back to me."
+ },
+ {
+  "who": "mat",
+  "fr": "Elle avait envie de changer de métier,",
+  "en": "She wanted to change careers,"
+ },
+ {
+  "who": "mat",
+  "fr": "mais elle se disait que c'était trop tard.",
+  "en": "but she told herself it was too late."
+ },
+ {
+  "who": "lea",
+  "fr": "Quel âge avait-elle ?",
+  "en": "How old was she?"
+ },
+ {
+  "who": "mat",
+  "fr": "Trente-huit ans.",
+  "en": "Thirty-eight."
+ },
+ {
+  "who": "mat",
+  "fr": "Elle travaillait dans la vente",
+  "en": "She worked in sales"
+ },
+ {
+  "who": "mat",
+  "fr": "et s'intéressait depuis longtemps",
+  "en": "and had long been interested"
+ },
+ {
+  "who": "mat",
+  "fr": "à la décoration intérieure.",
+  "en": "in interior design."
+ },
+ {
+  "who": "lea",
+  "fr": "Et qu'est-ce qui la bloquait ?",
+  "en": "And what was holding her back?"
+ },
+ {
+  "who": "mat",
+  "fr": "Elle imaginait qu'il fallait abandonner",
+  "en": "She thought she had to quit"
+ },
+ {
+  "who": "mat",
+  "fr": "son emploi immédiatement,",
+  "en": "her job right away,"
+ },
+ {
+  "who": "mat",
+  "fr": "reprendre plusieurs années d'études",
+  "en": "go back to studying for several years"
+ },
+ {
+  "who": "mat",
+  "fr": "et réussir du premier coup.",
+  "en": "and succeed on the first try."
+ },
+ {
+  "who": "mat",
+  "fr": "Cela lui semblait impossible.",
+  "en": "That seemed impossible to her."
+ },
+ {
+  "who": "lea",
+  "fr": "Elle voyait tout le chemin",
+  "en": "She was seeing the whole road"
+ },
+ {
+  "who": "lea",
+  "fr": "à parcourir en une seule fois.",
+  "en": "ahead all at once."
+ },
+ {
+  "who": "mat",
+  "fr": "Exactement.",
+  "en": "Exactly."
+ },
+ {
+  "who": "mat",
+  "fr": "Puis elle a rencontré une personne",
+  "en": "Then she met someone",
+  "board": {
+   "mode": "timeline",
+   "bg": "carnet",
+   "title": "Mon amie, 38 ans",
+   "items": [
+    {
+     "label": "d'abord",
+     "text": "poser des questions",
+     "at": 0
+    },
+    {
+     "label": "ensuite",
+     "text": "un cours du soir",
+     "at": 3
+    },
+    {
+     "label": "quelques mois",
+     "text": "aider des amis",
+     "at": 6
+    },
+    {
+     "label": "aujourd'hui",
+     "text": "une reconversion",
+     "at": 9
+    }
+   ]
+  }
+ },
+ {
+  "who": "mat",
+  "fr": "qui travaillait dans ce domaine",
+  "en": "who worked in that field"
+ },
+ {
+  "who": "mat",
+  "fr": "et lui a posé des questions.",
+  "en": "and asked them some questions."
+ },
+ {
+  "who": "mat",
+  "fr": "Ensuite, elle a suivi un cours du soir.",
+  "en": "Next, she took an evening class."
+ },
+ {
+  "who": "lea",
+  "fr": "Une première étape",
+  "en": "A first step"
+ },
+ {
+  "who": "lea",
+  "fr": "qui ne bouleversait pas toute sa vie.",
+  "en": "that didn't turn her whole life upside down."
+ },
+ {
+  "who": "mat",
+  "fr": "Oui. Après quelques mois,",
+  "en": "Yes. After a few months,"
+ },
+ {
+  "who": "mat",
+  "fr": "elle a commencé à aider des amis",
+  "en": "she started helping friends"
+ },
+ {
+  "who": "mat",
+  "fr": "à aménager leurs appartements.",
+  "en": "to decorate their apartments."
+ },
+ {
+  "who": "mat",
+  "fr": "Aujourd'hui, elle explore sérieusement",
+  "en": "Today, she's seriously exploring"
+ },
+ {
+  "who": "mat",
+  "fr": "une reconversion,",
+  "en": "a career change,"
+ }
+]
